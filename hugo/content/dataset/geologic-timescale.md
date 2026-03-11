@@ -1,6 +1,6 @@
 ---
 title: "Geologic Time Scale"
-description: "447 linked data entries covering Earth's 4.6 billion year history — from the Hadean eon through geologic eras, periods, and epochs to archaeological ages with Scandinavian, European, South American, and North American coverage."
+description: "514 linked data entries covering Earth's 4.6 billion year history — from the Hadean eon through geologic eras, periods, and epochs to archaeological ages with Scandinavian, European, South American, North American, and African coverage."
 date: 2024-12-01
 type: dataset
 publisher: "Port 30 KB"
@@ -18,16 +18,17 @@ tags:
   - South-America
   - North-America
   - Mesoamerica
+  - Africa
   - SKOS
   - linked-data
 distributions:
   - id: "turtle"
-    title: "RDF Turtle (447 entries)"
+    title: "RDF Turtle (514 entries)"
     accessURL: "https://metadatahub.eu/data/geologic-timescale.ttl"
     downloadURL: "https://metadatahub.eu/data/geologic-timescale.ttl"
     mediaType: "text/turtle"
   - id: "jsonld"
-    title: "JSON-LD (447 entries)"
+    title: "JSON-LD (514 entries)"
     accessURL: "https://metadatahub.eu/data/geologic-timescale.jsonld"
     downloadURL: "https://metadatahub.eu/data/geologic-timescale.jsonld"
     mediaType: "application/ld+json"
@@ -35,7 +36,7 @@ distributions:
 
 ## Overview
 
-This dataset models the **complete geologic time scale** as a SKOS concept scheme with 447 entries, using the [GeoSciML Geologic Timescale ontology](http://resource.geosciml.org/ontology/timescale/gts) and [W3C Time Ontology](http://www.w3.org/2006/time). It spans from the formation of Earth (4,600 Ma) through all geologic divisions down to individual ages/stages, then bridges into **archaeological and cultural periods** — Scandinavian (Stone Age through Viking Age to Modern), European (Classical Greece through EU), South American (Norte Chico through Inca Empire to 21st century), and North American (Clovis through Mesoamerica, Colonial era, and U.S./Canadian/Mexican history).
+This dataset models the **complete geologic time scale** as a SKOS concept scheme with 514 entries, using the [GeoSciML Geologic Timescale ontology](http://resource.geosciml.org/ontology/timescale/gts) and [W3C Time Ontology](http://www.w3.org/2006/time). It spans from the formation of Earth (4,600 Ma) through all geologic divisions down to individual ages/stages, then bridges into **archaeological and cultural periods** — Scandinavian (Stone Age through Viking Age to Modern), European (Classical Greece through EU), South American (Norte Chico through Inca Empire to 21st century), North American (Clovis through Mesoamerica, Colonial era, and U.S./Canadian/Mexican history), and African (Ancient Egypt through Great Zimbabwe, West African empires, colonialism, and independence).
 
 ## Sources
 
@@ -60,6 +61,12 @@ This dataset is compiled from the following sources:
 - [Wikipedia: History of the United States](https://en.wikipedia.org/wiki/History_of_the_United_States) — Colonial, Revolution, Civil War, modern periods
 - [Wikipedia: History of Mexico](https://en.wikipedia.org/wiki/History_of_Mexico) — New Spain, Independence, Revolution, modern
 - [Wikipedia: History of Canada](https://en.wikipedia.org/wiki/History_of_Canada) — New France, British North America, Confederation
+- [Wikipedia: Ancient Egypt](https://en.wikipedia.org/wiki/Ancient_Egypt) — Old Kingdom through Ptolemaic period
+- [Wikipedia: Kingdom of Kush](https://en.wikipedia.org/wiki/Kingdom_of_Kush) — Nubian civilization, Meroë
+- [Wikipedia: History of Africa](https://en.wikipedia.org/wiki/History_of_Africa) — Prehistoric through modern periods
+- [Wikipedia: African empires](https://en.wikipedia.org/wiki/African_empires) — Ghana, Mali, Songhai, Benin, Ashanti, Zulu, and others
+- [Wikipedia: Scramble for Africa](https://en.wikipedia.org/wiki/Scramble_for_Africa) — European colonization and partition
+- [Wikipedia: Decolonisation of Africa](https://en.wikipedia.org/wiki/Decolonisation_of_Africa) — Independence movements
 
 License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (matching Wikipedia source license).
 
@@ -67,7 +74,7 @@ License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (matchi
 
 | Category | Count |
 |----------|-------|
-| **Total entries** | 447 |
+| **Total entries** | 514 |
 | **Eons** | 4 (Hadean, Archean, Proterozoic, Phanerozoic) |
 | **Eras** | 13 (incl. Hadean informal divisions) |
 | **Periods** | 22 + 2 sub-periods (Mississippian, Pennsylvanian) |
@@ -77,6 +84,7 @@ License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (matchi
 | **Cultural ages (European)** | ~25 (Classical Greece, Roman Empire, Carolingian, Crusades, Renaissance, Baroque, Enlightenment, etc.) |
 | **South American periods** | ~49 (Norte Chico, Chavín, Moche, Inca Empire, colonial viceroyalties, independence wars, modern) |
 | **North American periods** | ~86 (Clovis, Olmec, Maya, Aztec, Mississippian, Taíno, colonial era, U.S., Mexico, Canada) |
+| **African periods** | ~67 (Ancient Egypt, Kush/Meroë, Aksum, Ghana/Mali/Songhai, Benin, Great Zimbabwe, Swahili Coast, colonialism, independence) |
 | **Climate/extinction events** | ~15 (Big Five extinctions, Snowball Earth, PETM, etc.) |
 | **Nordic-specific** | ~40 (Bromme, Fosna-Hensbacka, Komsa, Ertebølle, Vendel, Kalmar Union, Stormaktstiden, etc.) |
 
@@ -202,6 +210,62 @@ Phanerozoic (Eon, 538.8 Ma–Present)
                 ├── Roaring Twenties → Great Depression → WWII
                 ├── Cold War → Civil Rights → Vietnam War → Space Race
                 └── Post-9/11 Era
+            │
+            │ ── AFRICAN TRACK ──
+            ├── Prehistoric Africa
+            │   ├── Middle Stone Age (300,000–30,000 BCE) — Homo sapiens origins
+            │   ├── Later Stone Age — San rock art, microlithic tools
+            │   ├── Saharan Neolithic (Green Sahara) — pastoralism, rock art
+            │   ├── Khoisan Pastoral Period
+            │   └── Predynastic Nile Valley (Badarian, Naqada)
+            ├── Ancient Egypt (3100–30 BCE)
+            │   ├── Early Dynastic → Old Kingdom (Pyramids of Giza)
+            │   ├── First Intermediate → Middle Kingdom
+            │   ├── Second Intermediate (Hyksos) → New Kingdom
+            │   │   ├── Amarna Period (Akhenaten)
+            │   │   └── Ramesside Period (Ramesses II)
+            │   ├── Third Intermediate → Late Period
+            │   └── Ptolemaic Egypt (Cleopatra)
+            ├── Nubia & Kush
+            │   ├── Kerma (2500–1500 BCE)
+            │   ├── Napatan Kush (25th Dynasty pharaohs)
+            │   └── Meroitic Period — pyramids, iron, undeciphered script
+            ├── Horn of Africa
+            │   ├── Land of Punt, Kingdom of D'mt
+            │   ├── Kingdom of Aksum — Christianity, Ge'ez
+            │   ├── Zagwe Dynasty — Lalibela rock churches
+            │   └── Solomonic Dynasty (1270–1974)
+            ├── West Africa
+            │   ├── Nok Culture (1000 BCE–300 CE) — terracottas, iron
+            │   ├── Ghana Empire (Wagadu) — gold-salt trade
+            │   ├── Mali Empire — Sundiata, Mansa Musa, Timbuktu
+            │   ├── Songhai Empire — largest African empire
+            │   ├── Kanem-Bornu, Hausa City-States, Sokoto Caliphate
+            │   ├── Kingdom of Benin — Benin Bronzes
+            │   ├── Oyo Empire (Yoruba), Ashanti Empire
+            │   └── Golden Age of Timbuktu — Sankore University
+            ├── East & Southern Africa
+            │   ├── Swahili Coast — Kilwa, Indian Ocean trade
+            │   ├── Great Zimbabwe — largest stone structure in sub-Saharan Africa
+            │   ├── Kingdom of Mutapa, Mapungubwe
+            │   ├── Kingdom of Buganda
+            │   ├── Zulu Kingdom — Shaka; Mfecane upheaval
+            │   └── Bantu Expansion (1000 BCE–500 CE)
+            ├── Central Africa → Kongo, Luba, Lunda kingdoms
+            ├── North Africa (Islamic)
+            │   ├── Umayyad Conquest → Almoravid → Almohad
+            │   ├── Fatimid Caliphate — Cairo, Al-Azhar
+            │   └── Barbary States
+            ├── Atlantic Slave Trade (1501–1867)
+            ├── Scramble for Africa & Colonial Period
+            │   ├── Berlin Conference (1884-85)
+            │   └── Congo Free State (Leopold II)
+            └── Independence & Modern
+                ├── Pan-African Movement
+                ├── Independence Movements (1951–1994)
+                ├── Apartheid South Africa (1948–1994)
+                ├── Rwandan Genocide (1994)
+                └── African Union Era (2002–present)
 ```
 
 ## Data Model
@@ -341,6 +405,34 @@ ts:jurassic a gts:GeochronologicPeriod ;
 | **Space Race** | 1957–1975 CE | Sputnik; Apollo 11 Moon landing |
 | **Post-9/11 Era** | 2001–2021 CE | War on Terror; Afghanistan; Iraq |
 
+## African Historical Periods
+
+| Period | Dates | Key Features |
+|--------|-------|-------------|
+| **African Middle Stone Age** | 300,000–30,000 BCE | Homo sapiens origins; Blombos Cave; earliest symbolic thought |
+| **Saharan Neolithic** | 7500–3500 BCE | Green Sahara; cattle pastoralism; Tassili rock art |
+| **Predynastic Nile Valley** | 5500–3100 BCE | Badarian, Naqada cultures; early agriculture |
+| **Old Kingdom of Egypt** | 2686–2181 BCE | Pyramids of Giza; Sphinx; Age of the Pyramids |
+| **Kingdom of Kerma** | 2500–1500 BCE | First major Nubian kingdom; rival to Egypt |
+| **New Kingdom of Egypt** | 1550–1069 BCE | Valley of the Kings; Hatshepsut, Tutankhamun, Ramesses II |
+| **Ptolemaic Egypt** | 332–30 BCE | Library of Alexandria; Cleopatra; Roman annexation |
+| **Meroitic Period** | 590 BCE–350 CE | 200+ pyramids; iron smelting; undeciphered script |
+| **Nok Culture** | 1000 BCE–300 CE | Earliest sub-Saharan terracottas; iron smelting |
+| **Kingdom of Aksum** | 100–940 CE | Major trading empire; Christianity; Ge'ez script |
+| **Swahili Coast** | 100–1500 CE | Indian Ocean trade cities; Kilwa, Mombasa, Zanzibar |
+| **Ghana Empire** | 300–1200 CE | First great West African empire; gold-salt trade |
+| **Great Zimbabwe** | 1100–1450 CE | Largest stone structure in sub-Saharan Africa |
+| **Mali Empire** | 1235–1600 CE | Mansa Musa; Timbuktu; Sankore University |
+| **Kingdom of Benin** | 1180–1897 CE | Benin Bronzes; sophisticated lost-wax casting |
+| **Songhai Empire** | 1464–1591 CE | Largest empire in African history |
+| **Kingdom of Kongo** | 1390–1914 CE | Early Portuguese contact; Atlantic slave trade |
+| **Ashanti Empire** | 1670–1902 CE | Golden Stool; gold trade; kente cloth |
+| **Zulu Kingdom** | 1816–1897 CE | Shaka Zulu; revolutionary military tactics |
+| **Atlantic Slave Trade** | 1501–1867 CE | ~12.5 million Africans transported to the Americas |
+| **Scramble for Africa** | 1881–1914 CE | European partition; Berlin Conference |
+| **African Independence** | 1951–1994 CE | Ghana (1957) to South Africa (1994) |
+| **Apartheid** | 1948–1994 CE | Racial segregation; Mandela; free elections 1994 |
+
 ## SPARQL Examples
 
 Query this dataset via the [SPARQL endpoint](/sparql):
@@ -385,5 +477,5 @@ WHERE {
 
 ## Download
 
-- [Turtle (text/turtle)](/data/geologic-timescale.ttl) — 4,900+ lines, all 447 entries with full hierarchy
+- [Turtle (text/turtle)](/data/geologic-timescale.ttl) — 5,600+ lines, all 514 entries with full hierarchy
 - [JSON-LD (application/ld+json)](/data/geologic-timescale.jsonld) — Same data as JSON-LD graph

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate the Geologic Time Scale as Linked Data (Turtle + JSON-LD).
 
-447 data points covering:
+514 data points covering:
 - 4 Eons
 - 10 Eras
 - 22 Periods (incl. Mississippian/Pennsylvanian sub-periods)
@@ -1086,6 +1086,164 @@ add("space-race", "Space Race", "CulturalAge", "contemporary", 1957, 1975, "CE",
     "U.S.-Soviet competition; Sputnik (1957); Mercury, Gemini programs; Apollo 11 Moon landing (1969); NASA; Apollo-Soyuz (1975).")
 add("post-911-era", "Post-9/11 Era", "CulturalAge", "contemporary", 2001, 2021, "CE",
     "September 11 attacks; War on Terror; Afghanistan War (2001-2021); Iraq War (2003); Patriot Act; Department of Homeland Security; reshaping of U.S. foreign policy.")
+
+# ═══════════════════════════════════════════════════════════════
+# AFRICAN HISTORICAL & CULTURAL PERIODS
+# ═══════════════════════════════════════════════════════════════
+
+# --- Cradle of Humankind & Prehistoric ---
+add("africa-prehistoric", "Prehistoric Africa", "CulturalAge", "holocene", 300000, 3100, "BCE",
+    "Birthplace of Homo sapiens; earliest modern human behavior; rock art; Neolithic revolution in Sahara and Nile; transition to complex societies.")
+add("african-middle-stone-age", "African Middle Stone Age", "CulturalAge", "africa-prehistoric", 300000, 30000, "BCE",
+    "Emergence of Homo sapiens; Blombos Cave engravings (~75,000 BP); ochre use; shell beads; earliest evidence of symbolic thought and art.")
+add("african-later-stone-age", "African Later Stone Age", "CulturalAge", "africa-prehistoric", 50000, 2000, "BCE",
+    "Microlithic tools; bow and arrow; San rock art (southern Africa); population diversification; expansion across continent.")
+add("saharan-neolithic", "Saharan Neolithic (Green Sahara)", "CulturalAge", "africa-prehistoric", 7500, 3500, "BCE",
+    "African Humid Period; cattle pastoralism; rock art at Tassili n'Ajjer; pottery; lakeside settlements; desertification drives migration to Nile.")
+add("nile-predynastic", "Predynastic Nile Valley", "CulturalAge", "africa-prehistoric", 5500, 3100, "BCE",
+    "Badarian, Naqada I–III cultures; early agriculture; social stratification; Upper and Lower Egypt emerge; writing begins ~3200 BCE.")
+
+# --- Ancient Egypt ---
+add("ancient-egypt", "Ancient Egypt", "CulturalAge", "holocene", 3100, 30, "BCE",
+    "One of the world's first civilizations; 3,000 years of pharaonic rule along the Nile; pyramids, hieroglyphs, monumental architecture.")
+add("egypt-early-dynastic", "Early Dynastic Egypt", "CulturalAge", "ancient-egypt", 3100, 2686, "BCE",
+    "Unification of Upper and Lower Egypt; Narmer/Menes; Memphis as capital; First and Second Dynasties; development of hieroglyphic writing.")
+add("egypt-old-kingdom", "Old Kingdom of Egypt", "CulturalAge", "ancient-egypt", 2686, 2181, "BCE",
+    "Age of the Pyramids; Djoser's Step Pyramid; Great Pyramid of Giza (Khufu); Sphinx; centralized pharaonic power; 3rd–6th Dynasties.")
+add("egypt-first-intermediate", "First Intermediate Period", "CulturalAge", "ancient-egypt", 2181, 2055, "BCE",
+    "Collapse of central authority; regional rulers; famine and social upheaval; 7th–11th Dynasties; Herakleopolis vs. Thebes.")
+add("egypt-middle-kingdom", "Middle Kingdom of Egypt", "CulturalAge", "ancient-egypt", 2055, 1650, "BCE",
+    "Reunification under Mentuhotep II; classical Egyptian literature; Faiyum irrigation; trade with Nubia and Levant; 11th–13th Dynasties.")
+add("egypt-second-intermediate", "Second Intermediate Period (Hyksos)", "CulturalAge", "ancient-egypt", 1650, 1550, "BCE",
+    "Hyksos ('rulers of foreign lands') control Lower Egypt; introduce horse and chariot, composite bow; Theban resistance; 15th–17th Dynasties.")
+add("egypt-new-kingdom", "New Kingdom of Egypt", "CulturalAge", "ancient-egypt", 1550, 1069, "BCE",
+    "Egypt's golden age; Valley of the Kings; Hatshepsut, Thutmose III, Akhenaten, Tutankhamun, Ramesses II; empire from Nubia to Syria.")
+add("amarna-period", "Amarna Period", "CulturalAge", "egypt-new-kingdom", 1353, 1336, "BCE",
+    "Akhenaten's religious revolution; monotheistic Atenism; new capital Akhetaten (Amarna); Nefertiti; distinctive art style; reversed after his death.")
+add("ramesside-period", "Ramesside Period", "CulturalAge", "egypt-new-kingdom", 1292, 1069, "BCE",
+    "19th–20th Dynasties; Ramesses II (Battle of Kadesh, Abu Simbel); Sea Peoples invasions; gradual decline of Egyptian power.")
+add("egypt-third-intermediate", "Third Intermediate Period", "CulturalAge", "ancient-egypt", 1069, 664, "BCE",
+    "Fragmentation; Libyan and Nubian pharaohs; Shoshenq I (biblical Shishak); Theban high priests; 21st–25th Dynasties.")
+add("egypt-late-period", "Late Period of Egypt", "CulturalAge", "ancient-egypt", 664, 332, "BCE",
+    "Saite Renaissance (26th Dynasty); Persian conquests (27th, 31st Dynasties); last native dynasties; Nectanebo II last Egyptian pharaoh.")
+add("ptolemaic-egypt", "Ptolemaic Egypt", "CulturalAge", "ancient-egypt", 332, 30, "BCE",
+    "Alexander conquers Egypt (332 BCE); Ptolemaic dynasty; Library of Alexandria; Rosetta Stone; Cleopatra VII; annexed by Rome (30 BCE).")
+
+# --- Nubia & Kush ---
+add("nubia-kush", "Nubian and Kushite Civilizations", "CulturalAge", "holocene", 2500, 350, "BCE",
+    "Civilizations along Upper Nile (modern Sudan); rivals and successors of Egypt; pyramids of Meroë; iron production; distinct art and religion.")
+add("kerma-culture", "Kingdom of Kerma", "CulturalAge", "nubia-kush", 2500, 1500, "BCE",
+    "First major Nubian kingdom; capital at Kerma; monumental deffufas (mud-brick temples); wealthy burials; rival to Egyptian Middle Kingdom.")
+add("kingdom-kush", "Kingdom of Kush (Napatan)", "CulturalAge", "nubia-kush", 1070, 350, "BCE",
+    "Napata capital; 25th Dynasty pharaohs rule Egypt (Piye, Taharqa ~700 BCE); expelled by Assyrians; continued as independent kingdom.")
+add("meroe", "Meroitic Period", "CulturalAge", "nubia-kush", 590, 350, "BCE",
+    "Capital moves to Meroë; iron smelting center; Meroitic script (undeciphered); over 200 pyramids; Kandake (queen) warriors; trade with Rome.")
+
+# --- Horn of Africa ---
+add("land-of-punt", "Land of Punt", "CulturalAge", "holocene", 2500, 1000, "BCE",
+    "Legendary trading partner of Egypt; source of incense, gold, ebony; Hatshepsut's expedition (~1470 BCE); location debated (Eritrea/Somalia/Djibouti).")
+add("daamt", "Kingdom of D'mt", "CulturalAge", "holocene", 980, 400, "BCE",
+    "Early kingdom in Eritrea/northern Ethiopia; Sabaean cultural influences; Yeha temple; precursor to Aksumite civilization.")
+add("aksum", "Kingdom of Aksum", "CulturalAge", "holocene", 100, 940, "CE",
+    "Major trading empire; Adulis port; obelisks of Aksum; adopted Christianity (~330 CE, King Ezana); Ge'ez script; one of the 'four great empires' of antiquity.")
+add("zagwe-dynasty", "Zagwe Dynasty", "CulturalAge", "holocene", 900, 1270, "CE",
+    "Ethiopian highland dynasty; rock-hewn churches of Lalibela (UNESCO); Christian kingdom; succeeded Aksumite decline.")
+add("solomonic-dynasty", "Solomonic Dynasty", "CulturalAge", "holocene", 1270, 1974, "CE",
+    "Ethiopian ruling dynasty claiming descent from Solomon and Sheba; Kebra Nagast; Prester John legends; Gondar castles; Haile Selassie last emperor.")
+
+# --- West Africa ---
+add("west-africa-ancient", "Ancient West African Civilizations", "CulturalAge", "holocene", 1000, 1900, "BCE",
+    "Trans-Saharan trade; gold, salt, slaves; powerful empires and kingdoms; Islam spreads from 8th century; rich oral traditions and art.")
+add("nok-culture", "Nok Culture", "CulturalAge", "west-africa-ancient", 1000, 300, "BCE",
+    "Central Nigeria; earliest known sub-Saharan terracotta sculptures; early iron smelting in West Africa; agricultural communities.")
+add("ghana-empire", "Ghana Empire (Wagadu)", "CulturalAge", "west-africa-ancient", 300, 1200, "CE",
+    "First great West African empire; gold-salt trade; Koumbi Saleh capital; 'Land of Gold'; Soninke people; weakened by Almoravids (~1076).")
+add("mali-empire", "Mali Empire", "CulturalAge", "west-africa-ancient", 1235, 1600, "CE",
+    "Founded by Sundiata Keita; Mansa Musa's pilgrimage to Mecca (1324, richest person ever); Timbuktu university; Manding Charter.")
+add("songhai-empire", "Songhai Empire", "CulturalAge", "west-africa-ancient", 1464, 1591, "CE",
+    "Largest empire in African history; Sunni Ali, Askia Muhammad; Timbuktu, Djenné; conquered by Moroccan invasion (1591).")
+add("kanem-bornu", "Kanem-Bornu Empire", "CulturalAge", "west-africa-ancient", 700, 1900, "CE",
+    "Lake Chad basin; one of longest-lasting African empires (~1,100 years); Sayfawa dynasty; trans-Saharan trade; Islam from 11th century.")
+add("benin-kingdom", "Kingdom of Benin", "CulturalAge", "west-africa-ancient", 1180, 1897, "CE",
+    "Edo people, southern Nigeria; Benin Bronzes (sophisticated lost-wax casting); Oba rulers; city walls; destroyed by British punitive expedition (1897).")
+add("oyo-empire", "Oyo Empire", "CulturalAge", "west-africa-ancient", 1400, 1896, "CE",
+    "Yoruba empire; powerful cavalry; Alaafin rulers; Atlantic trade; Oyo ile capital; influenced Yoruba diaspora culture in Americas.")
+add("ashanti-empire", "Ashanti Empire", "CulturalAge", "west-africa-ancient", 1670, 1902, "CE",
+    "Akan people, modern Ghana; Golden Stool; Osei Tutu I; gold trade; kente cloth; resisted British colonization; Anglo-Ashanti Wars.")
+add("hausa-city-states", "Hausa City-States", "CulturalAge", "west-africa-ancient", 1000, 1808, "CE",
+    "Northern Nigeria/Niger; Kano, Katsina, Zaria; trans-Saharan trade hubs; indigo-dyed cloth; Islamic learning; conquered by Fulani jihad (1804).")
+add("sokoto-caliphate", "Sokoto Caliphate", "CulturalAge", "west-africa-ancient", 1804, 1903, "CE",
+    "Fulani jihad led by Usman dan Fodio; largest state in 19th-century Africa; Islamic scholarship; conquered by British (1903).")
+add("timbuktu-golden-age", "Golden Age of Timbuktu", "CulturalAge", "mali-empire", 1300, 1600, "CE",
+    "Major intellectual center; Sankore University; 100,000+ manuscripts; Islamic scholarship; Ahmed Baba; gold-salt trade crossroads.")
+
+# --- East & Southeast Africa ---
+add("swahili-coast", "Swahili Coast Civilization", "CulturalAge", "holocene", 100, 1500, "CE",
+    "Indian Ocean trading cities; Kilwa, Mombasa, Zanzibar, Mogadishu; Swahili language (Bantu-Arabic fusion); stone towns; gold, ivory, spice trade.")
+add("kilwa-sultanate", "Kilwa Sultanate", "CulturalAge", "swahili-coast", 960, 1513, "CE",
+    "Wealthiest Swahili city-state; controlled gold trade from Great Zimbabwe; Great Mosque of Kilwa; copper coins; sacked by Portuguese (1505).")
+add("great-zimbabwe", "Great Zimbabwe", "CulturalAge", "holocene", 1100, 1450, "CE",
+    "Largest stone structure in sub-Saharan Africa; Shona kingdoms; Great Enclosure; gold trade; ~18,000 inhabitants; inspired modern Zimbabwe's name.")
+add("mutapa-empire", "Kingdom of Mutapa", "CulturalAge", "holocene", 1430, 1760, "CE",
+    "Successor to Great Zimbabwe; controlled gold-producing region; Shona; Portuguese trade and interference; 'emperor of gold mines'.")
+add("buganda-kingdom", "Kingdom of Buganda", "CulturalAge", "holocene", 1300, 1966, "CE",
+    "Central Uganda; Lake Victoria; Kabaka rulers; sophisticated political system; resisted and then accommodated British; integral to modern Uganda.")
+
+# --- Southern Africa ---
+add("mapungubwe", "Kingdom of Mapungubwe", "CulturalAge", "holocene", 1075, 1220, "CE",
+    "First major southern African kingdom; gold trade; distinctive golden rhinoceros; social stratification; predecessor to Great Zimbabwe; UNESCO site.")
+add("zulu-kingdom", "Zulu Kingdom", "CulturalAge", "holocene", 1816, 1897, "CE",
+    "Founded by Shaka Zulu; revolutionary military tactics (iklwa spear, impi regiments); Mfecane/Difaqane upheaval; Anglo-Zulu War (1879, Isandlwana).")
+add("mfecane", "Mfecane/Difaqane", "CulturalAge", "holocene", 1815, 1840, "CE",
+    "Period of widespread chaos and migration in southern Africa; triggered by Zulu expansion; Ndebele, Swazi, Sotho, Nguni states formed.")
+add("khoisan-pastoral", "Khoisan Pastoral Period", "CulturalAge", "africa-prehistoric", 2000, 1652, "BCE",
+    "Khoikhoi pastoralists and San hunter-gatherers; southern Africa; earliest inhabitants; click languages; rock art tradition spanning millennia.")
+
+# --- Central Africa ---
+add("bantu-expansion", "Bantu Expansion", "CulturalAge", "holocene", 1000, 500, "BCE",
+    "One of the largest migrations in human history; Bantu-speaking peoples spread from Cameroon/Nigeria across central, eastern, and southern Africa; iron, agriculture, languages.")
+add("kongo-kingdom", "Kingdom of Kongo", "CulturalAge", "holocene", 1390, 1914, "CE",
+    "Central Africa (modern Angola, DRC, Congo); Mbanza Kongo capital; early contact with Portugal (1483); conversion to Christianity; Atlantic slave trade devastation.")
+add("luba-kingdom", "Luba Kingdom", "CulturalAge", "holocene", 1585, 1889, "CE",
+    "Central Congo basin; sophisticated governance (balopwe sacred kingship); memory boards (lukasa); influence on Lunda and other kingdoms.")
+add("lunda-empire", "Lunda Empire", "CulturalAge", "holocene", 1665, 1887, "CE",
+    "Offshoot of Luba; vast territory across central-southern Africa; long-distance trade; influenced political systems across a wide region.")
+
+# --- North Africa (Post-Ancient) ---
+add("north-africa-islamic", "Islamic North Africa", "CulturalAge", "holocene", 647, 1830, "CE",
+    "Arab conquest of the Maghreb; Berber dynasties; al-Andalus connections; Fatimids, Almohads, Marinids, Hafsids, Ottomans.")
+add("umayyad-maghreb", "Umayyad Conquest of the Maghreb", "CulturalAge", "north-africa-islamic", 647, 750, "CE",
+    "Arab armies conquer North Africa; fall of Carthage (698); Berber resistance (Kahina); springboard for conquest of Iberia (711).")
+add("almoravid", "Almoravid Dynasty", "CulturalAge", "north-africa-islamic", 1040, 1147, "CE",
+    "Berber dynasty from Sahara; conquered Morocco, western Algeria, al-Andalus; Marrakech founded (1070); trans-Saharan gold trade.")
+add("almohad", "Almohad Caliphate", "CulturalAge", "north-africa-islamic", 1121, 1269, "CE",
+    "Berber reformist dynasty; largest Berber empire; Koutoubia Mosque, Giralda; controlled Maghreb and al-Andalus; defeated at Las Navas de Tolosa (1212).")
+add("fatimid-caliphate-africa", "Fatimid Caliphate (North Africa)", "CulturalAge", "north-africa-islamic", 909, 1171, "CE",
+    "Ismaili Shia caliphate; founded in Tunisia; conquered Egypt, founded Cairo (969); Al-Azhar University; rivaled Abbasid Baghdad.")
+add("barbary-states", "Barbary States", "CulturalAge", "north-africa-islamic", 1516, 1830, "CE",
+    "Ottoman-aligned North African regencies; Algiers, Tunis, Tripoli; corsair piracy; Barbary Wars with U.S.; French conquest of Algiers (1830).")
+
+# --- Colonialism & Independence ---
+add("scramble-for-africa", "Scramble for Africa", "CulturalAge", "modern-period", 1881, 1914, "CE",
+    "European partition of Africa; Berlin Conference (1884-85); only Ethiopia and Liberia remain independent; arbitrary borders; exploitation of resources and peoples.")
+add("colonial-africa", "Colonial Africa", "CulturalAge", "modern-period", 1884, 1966, "CE",
+    "European colonial rule; British, French, Portuguese, Belgian, German, Italian, Spanish territories; extraction economies; forced labor; resistance movements.")
+add("atlantic-slave-trade", "Atlantic Slave Trade", "CulturalAge", "holocene", 1501, 1867, "CE",
+    "Forced transportation of ~12.5 million Africans to the Americas; devastating demographic and social impact; abolished progressively through 19th century.")
+add("congo-free-state", "Congo Free State", "CulturalAge", "colonial-africa", 1885, 1908, "CE",
+    "Personal colony of Leopold II of Belgium; rubber terror; forced labor; hand amputations; estimated 1-10 million dead; international outcry.")
+add("mau-mau-uprising", "Mau Mau Uprising", "CulturalAge", "colonial-africa", 1952, 1960, "CE",
+    "Kikuyu-led rebellion against British rule in Kenya; detention camps; Jomo Kenyatta; catalyst for Kenyan independence (1963).")
+add("african-independence", "African Independence Movements", "CulturalAge", "contemporary", 1951, 1994, "CE",
+    "Wave of decolonization; Ghana first sub-Saharan (1957, Nkrumah); Year of Africa (1960, 17 nations); last: South Africa apartheid ends (1994).")
+add("pan-africanism", "Pan-African Movement", "CulturalAge", "contemporary", 1900, 1963, "CE",
+    "Du Bois, Garvey, Nkrumah, Nyerere; Pan-African Congresses; négritude; Organization of African Unity founded (1963); African unity ideology.")
+add("apartheid", "Apartheid South Africa", "CulturalAge", "contemporary", 1948, 1994, "CE",
+    "Institutionalized racial segregation; ANC resistance; Sharpeville (1960); Soweto (1976); Mandela imprisoned 27 years; free elections 1994.")
+add("rwandan-genocide", "Rwandan Genocide", "CulturalAge", "contemporary", 1994, 1994, "CE",
+    "~800,000 Tutsi and moderate Hutu killed in 100 days; international failure to intervene; RPF ends genocide; Gacaca justice; reconciliation.")
+add("african-union-era", "African Union Era", "CulturalAge", "contemporary", 2002, 0, "CE",
+    "AU succeeds OAU (2002); Agenda 2063; peacekeeping missions; AfCFTA free trade area (2021); economic growth; demographic dividend; challenges remain.")
 
 print(f"Total data points: {n[0]}")
 

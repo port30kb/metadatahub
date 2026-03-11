@@ -11,7 +11,7 @@
   "@id": "https://metadatahub.eu/data/geologic-timescale",
   "@type": "skos:ConceptScheme",
   "dcterms:title": "Geologic Time Scale",
-  "dcterms:description": "447 entries covering the geologic time scale from Hadean eon (4600 Ma) to present, including Scandinavian, European, and South American cultural/historical periods.",
+  "dcterms:description": "514 entries covering the geologic time scale from Hadean eon (4600 Ma) to present, including Scandinavian, European, and South American cultural/historical periods.",
   "dcterms:source": [
     "https://en.wikipedia.org/wiki/Geologic_time_scale",
     "https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf",
@@ -8502,6 +8502,1279 @@
       },
       "time:hasBeginning": "2001 CE",
       "time:hasEnd": "2021 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/africa-prehistoric",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Prehistoric Africa",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Birthplace of Homo sapiens; earliest modern human behavior; rock art; Neolithic revolution in Sahara and Nile; transition to complex societies.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "300000 BCE",
+      "time:hasEnd": "3100 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/african-middle-stone-age",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "African Middle Stone Age",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Emergence of Homo sapiens; Blombos Cave engravings (~75,000 BP); ochre use; shell beads; earliest evidence of symbolic thought and art.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/africa-prehistoric"
+      },
+      "time:hasBeginning": "300000 BCE",
+      "time:hasEnd": "30000 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/african-later-stone-age",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "African Later Stone Age",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Microlithic tools; bow and arrow; San rock art (southern Africa); population diversification; expansion across continent.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/africa-prehistoric"
+      },
+      "time:hasBeginning": "50000 BCE",
+      "time:hasEnd": "2000 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/saharan-neolithic",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Saharan Neolithic (Green Sahara)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "African Humid Period; cattle pastoralism; rock art at Tassili n'Ajjer; pottery; lakeside settlements; desertification drives migration to Nile.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/africa-prehistoric"
+      },
+      "time:hasBeginning": "7500 BCE",
+      "time:hasEnd": "3500 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/nile-predynastic",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Predynastic Nile Valley",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Badarian, Naqada I–III cultures; early agriculture; social stratification; Upper and Lower Egypt emerge; writing begins ~3200 BCE.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/africa-prehistoric"
+      },
+      "time:hasBeginning": "5500 BCE",
+      "time:hasEnd": "3100 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/ancient-egypt",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Ancient Egypt",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "One of the world's first civilizations; 3,000 years of pharaonic rule along the Nile; pyramids, hieroglyphs, monumental architecture.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "3100 BCE",
+      "time:hasEnd": "30 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/egypt-early-dynastic",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Early Dynastic Egypt",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Unification of Upper and Lower Egypt; Narmer/Menes; Memphis as capital; First and Second Dynasties; development of hieroglyphic writing.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/ancient-egypt"
+      },
+      "time:hasBeginning": "3100 BCE",
+      "time:hasEnd": "2686 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/egypt-old-kingdom",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Old Kingdom of Egypt",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Age of the Pyramids; Djoser's Step Pyramid; Great Pyramid of Giza (Khufu); Sphinx; centralized pharaonic power; 3rd–6th Dynasties.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/ancient-egypt"
+      },
+      "time:hasBeginning": "2686 BCE",
+      "time:hasEnd": "2181 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/egypt-first-intermediate",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "First Intermediate Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Collapse of central authority; regional rulers; famine and social upheaval; 7th–11th Dynasties; Herakleopolis vs. Thebes.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/ancient-egypt"
+      },
+      "time:hasBeginning": "2181 BCE",
+      "time:hasEnd": "2055 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/egypt-middle-kingdom",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Middle Kingdom of Egypt",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Reunification under Mentuhotep II; classical Egyptian literature; Faiyum irrigation; trade with Nubia and Levant; 11th–13th Dynasties.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/ancient-egypt"
+      },
+      "time:hasBeginning": "2055 BCE",
+      "time:hasEnd": "1650 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/egypt-second-intermediate",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Second Intermediate Period (Hyksos)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Hyksos ('rulers of foreign lands') control Lower Egypt; introduce horse and chariot, composite bow; Theban resistance; 15th–17th Dynasties.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/ancient-egypt"
+      },
+      "time:hasBeginning": "1650 BCE",
+      "time:hasEnd": "1550 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/egypt-new-kingdom",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "New Kingdom of Egypt",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Egypt's golden age; Valley of the Kings; Hatshepsut, Thutmose III, Akhenaten, Tutankhamun, Ramesses II; empire from Nubia to Syria.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/ancient-egypt"
+      },
+      "time:hasBeginning": "1550 BCE",
+      "time:hasEnd": "1069 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/amarna-period",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Amarna Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Akhenaten's religious revolution; monotheistic Atenism; new capital Akhetaten (Amarna); Nefertiti; distinctive art style; reversed after his death.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/egypt-new-kingdom"
+      },
+      "time:hasBeginning": "1353 BCE",
+      "time:hasEnd": "1336 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/ramesside-period",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Ramesside Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "19th–20th Dynasties; Ramesses II (Battle of Kadesh, Abu Simbel); Sea Peoples invasions; gradual decline of Egyptian power.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/egypt-new-kingdom"
+      },
+      "time:hasBeginning": "1292 BCE",
+      "time:hasEnd": "1069 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/egypt-third-intermediate",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Third Intermediate Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Fragmentation; Libyan and Nubian pharaohs; Shoshenq I (biblical Shishak); Theban high priests; 21st–25th Dynasties.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/ancient-egypt"
+      },
+      "time:hasBeginning": "1069 BCE",
+      "time:hasEnd": "664 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/egypt-late-period",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Late Period of Egypt",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Saite Renaissance (26th Dynasty); Persian conquests (27th, 31st Dynasties); last native dynasties; Nectanebo II last Egyptian pharaoh.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/ancient-egypt"
+      },
+      "time:hasBeginning": "664 BCE",
+      "time:hasEnd": "332 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/ptolemaic-egypt",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Ptolemaic Egypt",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Alexander conquers Egypt (332 BCE); Ptolemaic dynasty; Library of Alexandria; Rosetta Stone; Cleopatra VII; annexed by Rome (30 BCE).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/ancient-egypt"
+      },
+      "time:hasBeginning": "332 BCE",
+      "time:hasEnd": "30 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/nubia-kush",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Nubian and Kushite Civilizations",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Civilizations along Upper Nile (modern Sudan); rivals and successors of Egypt; pyramids of Meroë; iron production; distinct art and religion.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "2500 BCE",
+      "time:hasEnd": "350 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/kerma-culture",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Kingdom of Kerma",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First major Nubian kingdom; capital at Kerma; monumental deffufas (mud-brick temples); wealthy burials; rival to Egyptian Middle Kingdom.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/nubia-kush"
+      },
+      "time:hasBeginning": "2500 BCE",
+      "time:hasEnd": "1500 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/kingdom-kush",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Kingdom of Kush (Napatan)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Napata capital; 25th Dynasty pharaohs rule Egypt (Piye, Taharqa ~700 BCE); expelled by Assyrians; continued as independent kingdom.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/nubia-kush"
+      },
+      "time:hasBeginning": "1070 BCE",
+      "time:hasEnd": "350 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/meroe",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Meroitic Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Capital moves to Meroë; iron smelting center; Meroitic script (undeciphered); over 200 pyramids; Kandake (queen) warriors; trade with Rome.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/nubia-kush"
+      },
+      "time:hasBeginning": "590 BCE",
+      "time:hasEnd": "350 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/land-of-punt",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Land of Punt",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Legendary trading partner of Egypt; source of incense, gold, ebony; Hatshepsut's expedition (~1470 BCE); location debated (Eritrea/Somalia/Djibouti).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "2500 BCE",
+      "time:hasEnd": "1000 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/daamt",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Kingdom of D'mt",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Early kingdom in Eritrea/northern Ethiopia; Sabaean cultural influences; Yeha temple; precursor to Aksumite civilization.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "980 BCE",
+      "time:hasEnd": "400 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/aksum",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Kingdom of Aksum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Major trading empire; Adulis port; obelisks of Aksum; adopted Christianity (~330 CE, King Ezana); Ge'ez script; one of the 'four great empires' of antiquity.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "100 CE",
+      "time:hasEnd": "940 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/zagwe-dynasty",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Zagwe Dynasty",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Ethiopian highland dynasty; rock-hewn churches of Lalibela (UNESCO); Christian kingdom; succeeded Aksumite decline.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "900 CE",
+      "time:hasEnd": "1270 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/solomonic-dynasty",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Solomonic Dynasty",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Ethiopian ruling dynasty claiming descent from Solomon and Sheba; Kebra Nagast; Prester John legends; Gondar castles; Haile Selassie last emperor.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1270 CE",
+      "time:hasEnd": "1974 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/west-africa-ancient",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Ancient West African Civilizations",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Trans-Saharan trade; gold, salt, slaves; powerful empires and kingdoms; Islam spreads from 8th century; rich oral traditions and art.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1000 BCE",
+      "time:hasEnd": "1900 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/nok-culture",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Nok Culture",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Central Nigeria; earliest known sub-Saharan terracotta sculptures; early iron smelting in West Africa; agricultural communities.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/west-africa-ancient"
+      },
+      "time:hasBeginning": "1000 BCE",
+      "time:hasEnd": "300 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/ghana-empire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Ghana Empire (Wagadu)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First great West African empire; gold-salt trade; Koumbi Saleh capital; 'Land of Gold'; Soninke people; weakened by Almoravids (~1076).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/west-africa-ancient"
+      },
+      "time:hasBeginning": "300 CE",
+      "time:hasEnd": "1200 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/mali-empire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Mali Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Founded by Sundiata Keita; Mansa Musa's pilgrimage to Mecca (1324, richest person ever); Timbuktu university; Manding Charter.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/west-africa-ancient"
+      },
+      "time:hasBeginning": "1235 CE",
+      "time:hasEnd": "1600 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/songhai-empire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Songhai Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Largest empire in African history; Sunni Ali, Askia Muhammad; Timbuktu, Djenné; conquered by Moroccan invasion (1591).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/west-africa-ancient"
+      },
+      "time:hasBeginning": "1464 CE",
+      "time:hasEnd": "1591 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/kanem-bornu",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Kanem-Bornu Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Lake Chad basin; one of longest-lasting African empires (~1,100 years); Sayfawa dynasty; trans-Saharan trade; Islam from 11th century.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/west-africa-ancient"
+      },
+      "time:hasBeginning": "700 CE",
+      "time:hasEnd": "1900 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/benin-kingdom",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Kingdom of Benin",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Edo people, southern Nigeria; Benin Bronzes (sophisticated lost-wax casting); Oba rulers; city walls; destroyed by British punitive expedition (1897).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/west-africa-ancient"
+      },
+      "time:hasBeginning": "1180 CE",
+      "time:hasEnd": "1897 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/oyo-empire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Oyo Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Yoruba empire; powerful cavalry; Alaafin rulers; Atlantic trade; Oyo ile capital; influenced Yoruba diaspora culture in Americas.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/west-africa-ancient"
+      },
+      "time:hasBeginning": "1400 CE",
+      "time:hasEnd": "1896 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/ashanti-empire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Ashanti Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Akan people, modern Ghana; Golden Stool; Osei Tutu I; gold trade; kente cloth; resisted British colonization; Anglo-Ashanti Wars.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/west-africa-ancient"
+      },
+      "time:hasBeginning": "1670 CE",
+      "time:hasEnd": "1902 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/hausa-city-states",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Hausa City-States",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Northern Nigeria/Niger; Kano, Katsina, Zaria; trans-Saharan trade hubs; indigo-dyed cloth; Islamic learning; conquered by Fulani jihad (1804).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/west-africa-ancient"
+      },
+      "time:hasBeginning": "1000 CE",
+      "time:hasEnd": "1808 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/sokoto-caliphate",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Sokoto Caliphate",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Fulani jihad led by Usman dan Fodio; largest state in 19th-century Africa; Islamic scholarship; conquered by British (1903).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/west-africa-ancient"
+      },
+      "time:hasBeginning": "1804 CE",
+      "time:hasEnd": "1903 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/timbuktu-golden-age",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Golden Age of Timbuktu",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Major intellectual center; Sankore University; 100,000+ manuscripts; Islamic scholarship; Ahmed Baba; gold-salt trade crossroads.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mali-empire"
+      },
+      "time:hasBeginning": "1300 CE",
+      "time:hasEnd": "1600 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/swahili-coast",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Swahili Coast Civilization",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Indian Ocean trading cities; Kilwa, Mombasa, Zanzibar, Mogadishu; Swahili language (Bantu-Arabic fusion); stone towns; gold, ivory, spice trade.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "100 CE",
+      "time:hasEnd": "1500 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/kilwa-sultanate",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Kilwa Sultanate",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Wealthiest Swahili city-state; controlled gold trade from Great Zimbabwe; Great Mosque of Kilwa; copper coins; sacked by Portuguese (1505).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/swahili-coast"
+      },
+      "time:hasBeginning": "960 CE",
+      "time:hasEnd": "1513 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/great-zimbabwe",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Great Zimbabwe",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Largest stone structure in sub-Saharan Africa; Shona kingdoms; Great Enclosure; gold trade; ~18,000 inhabitants; inspired modern Zimbabwe's name.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1100 CE",
+      "time:hasEnd": "1450 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/mutapa-empire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Kingdom of Mutapa",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Successor to Great Zimbabwe; controlled gold-producing region; Shona; Portuguese trade and interference; 'emperor of gold mines'.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1430 CE",
+      "time:hasEnd": "1760 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/buganda-kingdom",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Kingdom of Buganda",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Central Uganda; Lake Victoria; Kabaka rulers; sophisticated political system; resisted and then accommodated British; integral to modern Uganda.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1300 CE",
+      "time:hasEnd": "1966 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/mapungubwe",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Kingdom of Mapungubwe",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First major southern African kingdom; gold trade; distinctive golden rhinoceros; social stratification; predecessor to Great Zimbabwe; UNESCO site.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1075 CE",
+      "time:hasEnd": "1220 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/zulu-kingdom",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Zulu Kingdom",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Founded by Shaka Zulu; revolutionary military tactics (iklwa spear, impi regiments); Mfecane/Difaqane upheaval; Anglo-Zulu War (1879, Isandlwana).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1816 CE",
+      "time:hasEnd": "1897 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/mfecane",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Mfecane/Difaqane",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Period of widespread chaos and migration in southern Africa; triggered by Zulu expansion; Ndebele, Swazi, Sotho, Nguni states formed.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1815 CE",
+      "time:hasEnd": "1840 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/khoisan-pastoral",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Khoisan Pastoral Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Khoikhoi pastoralists and San hunter-gatherers; southern Africa; earliest inhabitants; click languages; rock art tradition spanning millennia.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/africa-prehistoric"
+      },
+      "time:hasBeginning": "2000 BCE",
+      "time:hasEnd": "1652 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/bantu-expansion",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Bantu Expansion",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "One of the largest migrations in human history; Bantu-speaking peoples spread from Cameroon/Nigeria across central, eastern, and southern Africa; iron, agriculture, languages.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1000 BCE",
+      "time:hasEnd": "500 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/kongo-kingdom",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Kingdom of Kongo",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Central Africa (modern Angola, DRC, Congo); Mbanza Kongo capital; early contact with Portugal (1483); conversion to Christianity; Atlantic slave trade devastation.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1390 CE",
+      "time:hasEnd": "1914 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/luba-kingdom",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Luba Kingdom",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Central Congo basin; sophisticated governance (balopwe sacred kingship); memory boards (lukasa); influence on Lunda and other kingdoms.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1585 CE",
+      "time:hasEnd": "1889 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/lunda-empire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Lunda Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Offshoot of Luba; vast territory across central-southern Africa; long-distance trade; influenced political systems across a wide region.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1665 CE",
+      "time:hasEnd": "1887 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/north-africa-islamic",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Islamic North Africa",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Arab conquest of the Maghreb; Berber dynasties; al-Andalus connections; Fatimids, Almohads, Marinids, Hafsids, Ottomans.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "647 CE",
+      "time:hasEnd": "1830 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/umayyad-maghreb",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Umayyad Conquest of the Maghreb",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Arab armies conquer North Africa; fall of Carthage (698); Berber resistance (Kahina); springboard for conquest of Iberia (711).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/north-africa-islamic"
+      },
+      "time:hasBeginning": "647 CE",
+      "time:hasEnd": "750 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/almoravid",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Almoravid Dynasty",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Berber dynasty from Sahara; conquered Morocco, western Algeria, al-Andalus; Marrakech founded (1070); trans-Saharan gold trade.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/north-africa-islamic"
+      },
+      "time:hasBeginning": "1040 CE",
+      "time:hasEnd": "1147 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/almohad",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Almohad Caliphate",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Berber reformist dynasty; largest Berber empire; Koutoubia Mosque, Giralda; controlled Maghreb and al-Andalus; defeated at Las Navas de Tolosa (1212).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/north-africa-islamic"
+      },
+      "time:hasBeginning": "1121 CE",
+      "time:hasEnd": "1269 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/fatimid-caliphate-africa",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Fatimid Caliphate (North Africa)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Ismaili Shia caliphate; founded in Tunisia; conquered Egypt, founded Cairo (969); Al-Azhar University; rivaled Abbasid Baghdad.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/north-africa-islamic"
+      },
+      "time:hasBeginning": "909 CE",
+      "time:hasEnd": "1171 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/barbary-states",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Barbary States",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Ottoman-aligned North African regencies; Algiers, Tunis, Tripoli; corsair piracy; Barbary Wars with U.S.; French conquest of Algiers (1830).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/north-africa-islamic"
+      },
+      "time:hasBeginning": "1516 CE",
+      "time:hasEnd": "1830 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/scramble-for-africa",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Scramble for Africa",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "European partition of Africa; Berlin Conference (1884-85); only Ethiopia and Liberia remain independent; arbitrary borders; exploitation of resources and peoples.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period"
+      },
+      "time:hasBeginning": "1881 CE",
+      "time:hasEnd": "1914 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/colonial-africa",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Colonial Africa",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "European colonial rule; British, French, Portuguese, Belgian, German, Italian, Spanish territories; extraction economies; forced labor; resistance movements.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period"
+      },
+      "time:hasBeginning": "1884 CE",
+      "time:hasEnd": "1966 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/atlantic-slave-trade",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Atlantic Slave Trade",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Forced transportation of ~12.5 million Africans to the Americas; devastating demographic and social impact; abolished progressively through 19th century.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1501 CE",
+      "time:hasEnd": "1867 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/congo-free-state",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Congo Free State",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Personal colony of Leopold II of Belgium; rubber terror; forced labor; hand amputations; estimated 1-10 million dead; international outcry.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/colonial-africa"
+      },
+      "time:hasBeginning": "1885 CE",
+      "time:hasEnd": "1908 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/mau-mau-uprising",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Mau Mau Uprising",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Kikuyu-led rebellion against British rule in Kenya; detention camps; Jomo Kenyatta; catalyst for Kenyan independence (1963).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/colonial-africa"
+      },
+      "time:hasBeginning": "1952 CE",
+      "time:hasEnd": "1960 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/african-independence",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "African Independence Movements",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Wave of decolonization; Ghana first sub-Saharan (1957, Nkrumah); Year of Africa (1960, 17 nations); last: South Africa apartheid ends (1994).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary"
+      },
+      "time:hasBeginning": "1951 CE",
+      "time:hasEnd": "1994 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/pan-africanism",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Pan-African Movement",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Du Bois, Garvey, Nkrumah, Nyerere; Pan-African Congresses; négritude; Organization of African Unity founded (1963); African unity ideology.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary"
+      },
+      "time:hasBeginning": "1900 CE",
+      "time:hasEnd": "1963 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/apartheid",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Apartheid South Africa",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Institutionalized racial segregation; ANC resistance; Sharpeville (1960); Soweto (1976); Mandela imprisoned 27 years; free elections 1994.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary"
+      },
+      "time:hasBeginning": "1948 CE",
+      "time:hasEnd": "1994 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/rwandan-genocide",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Rwandan Genocide",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "~800,000 Tutsi and moderate Hutu killed in 100 days; international failure to intervene; RPF ends genocide; Gacaca justice; reconciliation.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary"
+      },
+      "time:hasBeginning": "1994 CE",
+      "time:hasEnd": "1994 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/african-union-era",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "African Union Era",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "AU succeeds OAU (2002); Agenda 2063; peacekeeping missions; AfCFTA free trade area (2021); economic growth; demographic dividend; challenges remain.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary"
+      },
+      "time:hasBeginning": "2002 CE",
+      "time:hasEnd": "Present",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     }
   ]
