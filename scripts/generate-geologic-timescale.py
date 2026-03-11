@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate the Geologic Time Scale as Linked Data (Turtle + JSON-LD).
 
-250 data points covering:
+312 data points covering:
 - 4 Eons
 - 10 Eras
 - 22 Periods (incl. Mississippian/Pennsylvanian sub-periods)
@@ -675,7 +675,13 @@ add("age-of-revolutions", "Age of Revolutions", "CulturalAge", "modern-period", 
 add("romanticism", "Romantic Period", "CulturalAge", "modern-period", 1790, 1850, "CE",
     "Reaction against Enlightenment rationalism; emphasis on emotion, nature, nationalism; Goethe, Byron, Beethoven, Delacroix.")
 add("world-wars-era", "World Wars Era", "CulturalAge", "contemporary", 1914, 1945, "CE",
-    "World War I (1914-1918), interwar period, World War II (1939-1945); tens of millions killed; Europe devastated.")
+    "Two global conflicts and an interwar period that reshaped Europe; tens of millions killed; colonial empires begin to dissolve.")
+add("world-war-i", "World War I", "CulturalAge", "world-wars-era", 1914, 1918, "CE",
+    "The Great War; trench warfare; fall of empires (Ottoman, Austro-Hungarian, Russian, German); Treaty of Versailles (1919).")
+add("interwar-period", "Interwar Period", "CulturalAge", "world-wars-era", 1918, 1939, "CE",
+    "League of Nations; Weimar Republic; Great Depression (1929); rise of fascism in Italy, Germany, Spain; Spanish Civil War.")
+add("world-war-ii", "World War II", "CulturalAge", "world-wars-era", 1939, 1945, "CE",
+    "Global conflict; Nazi Germany, Holocaust; Allied victory; atomic bombs; United Nations founded (1945); Europe devastated.")
 add("cold-war-era", "Cold War Era", "CulturalAge", "contemporary", 1947, 1991, "CE",
     "East-West division; NATO vs Warsaw Pact; Iron Curtain; Berlin Wall (1961-1989); European integration begins (EEC 1957).")
 add("european-integration", "European Integration", "CulturalAge", "contemporary", 1957, 0, "CE",
@@ -787,7 +793,7 @@ def escape(s):
 lines = []
 lines.append("# ═══════════════════════════════════════════════════════════════")
 lines.append("# Geologic Time Scale — Linked Data for metadatahub.eu")
-lines.append("# 250 data points: eons, eras, periods, epochs, ages,")
+lines.append(f"# {len(DATA)} data points: eons, eras, periods, epochs, ages,")
 lines.append("# and archaeological/cultural periods bridging to human history.")
 lines.append("#")
 lines.append("# Source: Wikipedia, 'Geologic time scale'")

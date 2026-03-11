@@ -1,6 +1,6 @@
 # ═══════════════════════════════════════════════════════════════
 # Geologic Time Scale — Linked Data for metadatahub.eu
-# 250 data points: eons, eras, periods, epochs, ages,
+# 312 data points: eons, eras, periods, epochs, ages,
 # and archaeological/cultural periods bridging to human history.
 #
 # Source: Wikipedia, 'Geologic time scale'
@@ -14,7 +14,7 @@
 # ICS International Chronostratigraphic Chart v2024/12
 #   https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf
 #
-# Total entries: 309
+# Total entries: 312
 # ═══════════════════════════════════════════════════════════════
 
 @prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -46,7 +46,7 @@
     dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
     dcterms:modified "2024-12-01"^^xsd:date .
 
-# ── 1/309: Hadean (Eon) ──
+# ── 1/312: Hadean (Eon) ──
 ts:hadean a gts:GeochronologicEon ;
     rdfs:label "Hadean"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -56,7 +56,7 @@ ts:hadean a gts:GeochronologicEon ;
     time:hasEnd [ time:inXSDgYear "4000"^^xsd:decimal ; rdfs:label "4000 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 2/309: Ginallian (informal) (Era) ──
+# ── 2/312: Ginallian (informal) (Era) ──
 ts:ginallian a gts:GeochronologicEra ;
     rdfs:label "Ginallian (informal)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -67,7 +67,7 @@ ts:ginallian a gts:GeochronologicEra ;
     time:hasEnd [ time:inXSDgYear "4510"^^xsd:decimal ; rdfs:label "4510 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 3/309: Chaotian (informal) (Era) ──
+# ── 3/312: Chaotian (informal) (Era) ──
 ts:chaotian a gts:GeochronologicEra ;
     rdfs:label "Chaotian (informal)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -78,7 +78,7 @@ ts:chaotian a gts:GeochronologicEra ;
     time:hasEnd [ time:inXSDgYear "4404"^^xsd:decimal ; rdfs:label "4404 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 4/309: Zirconian (informal) (Era) ──
+# ── 4/312: Zirconian (informal) (Era) ──
 ts:zirconian a gts:GeochronologicEra ;
     rdfs:label "Zirconian (informal)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -89,7 +89,7 @@ ts:zirconian a gts:GeochronologicEra ;
     time:hasEnd [ time:inXSDgYear "4030"^^xsd:decimal ; rdfs:label "4030 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 5/309: Archean (Eon) ──
+# ── 5/312: Archean (Eon) ──
 ts:archean a gts:GeochronologicEon ;
     rdfs:label "Archean"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -99,7 +99,7 @@ ts:archean a gts:GeochronologicEon ;
     time:hasEnd [ time:inXSDgYear "2500"^^xsd:decimal ; rdfs:label "2500 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 6/309: Proterozoic (Eon) ──
+# ── 6/312: Proterozoic (Eon) ──
 ts:proterozoic a gts:GeochronologicEon ;
     rdfs:label "Proterozoic"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -109,7 +109,7 @@ ts:proterozoic a gts:GeochronologicEon ;
     time:hasEnd [ time:inXSDgYear "538.8"^^xsd:decimal ; rdfs:label "538.8 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 7/309: Phanerozoic (Eon) ──
+# ── 7/312: Phanerozoic (Eon) ──
 ts:phanerozoic a gts:GeochronologicEon ;
     rdfs:label "Phanerozoic"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -119,7 +119,7 @@ ts:phanerozoic a gts:GeochronologicEon ;
     time:hasEnd [ rdfs:label "Present" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 8/309: Eoarchean (Era) ──
+# ── 8/312: Eoarchean (Era) ──
 ts:eoarchean a gts:GeochronologicEra ;
     rdfs:label "Eoarchean"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -130,7 +130,7 @@ ts:eoarchean a gts:GeochronologicEra ;
     time:hasEnd [ time:inXSDgYear "3600"^^xsd:decimal ; rdfs:label "3600 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 9/309: Paleoarchean (Era) ──
+# ── 9/312: Paleoarchean (Era) ──
 ts:paleoarchean a gts:GeochronologicEra ;
     rdfs:label "Paleoarchean"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -141,7 +141,7 @@ ts:paleoarchean a gts:GeochronologicEra ;
     time:hasEnd [ time:inXSDgYear "3200"^^xsd:decimal ; rdfs:label "3200 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 10/309: Mesoarchean (Era) ──
+# ── 10/312: Mesoarchean (Era) ──
 ts:mesoarchean a gts:GeochronologicEra ;
     rdfs:label "Mesoarchean"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -152,7 +152,7 @@ ts:mesoarchean a gts:GeochronologicEra ;
     time:hasEnd [ time:inXSDgYear "2800"^^xsd:decimal ; rdfs:label "2800 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 11/309: Neoarchean (Era) ──
+# ── 11/312: Neoarchean (Era) ──
 ts:neoarchean a gts:GeochronologicEra ;
     rdfs:label "Neoarchean"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -163,7 +163,7 @@ ts:neoarchean a gts:GeochronologicEra ;
     time:hasEnd [ time:inXSDgYear "2500"^^xsd:decimal ; rdfs:label "2500 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 12/309: Paleoproterozoic (Era) ──
+# ── 12/312: Paleoproterozoic (Era) ──
 ts:paleoproterozoic a gts:GeochronologicEra ;
     rdfs:label "Paleoproterozoic"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -174,7 +174,7 @@ ts:paleoproterozoic a gts:GeochronologicEra ;
     time:hasEnd [ time:inXSDgYear "1600"^^xsd:decimal ; rdfs:label "1600 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 13/309: Siderian (Period) ──
+# ── 13/312: Siderian (Period) ──
 ts:siderian a gts:GeochronologicPeriod ;
     rdfs:label "Siderian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -185,7 +185,7 @@ ts:siderian a gts:GeochronologicPeriod ;
     time:hasEnd [ time:inXSDgYear "2300"^^xsd:decimal ; rdfs:label "2300 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 14/309: Rhyacian (Period) ──
+# ── 14/312: Rhyacian (Period) ──
 ts:rhyacian a gts:GeochronologicPeriod ;
     rdfs:label "Rhyacian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -196,7 +196,7 @@ ts:rhyacian a gts:GeochronologicPeriod ;
     time:hasEnd [ time:inXSDgYear "2050"^^xsd:decimal ; rdfs:label "2050 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 15/309: Orosirian (Period) ──
+# ── 15/312: Orosirian (Period) ──
 ts:orosirian a gts:GeochronologicPeriod ;
     rdfs:label "Orosirian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -207,7 +207,7 @@ ts:orosirian a gts:GeochronologicPeriod ;
     time:hasEnd [ time:inXSDgYear "1800"^^xsd:decimal ; rdfs:label "1800 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 16/309: Statherian (Period) ──
+# ── 16/312: Statherian (Period) ──
 ts:statherian a gts:GeochronologicPeriod ;
     rdfs:label "Statherian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -218,7 +218,7 @@ ts:statherian a gts:GeochronologicPeriod ;
     time:hasEnd [ time:inXSDgYear "1600"^^xsd:decimal ; rdfs:label "1600 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 17/309: Mesoproterozoic (Era) ──
+# ── 17/312: Mesoproterozoic (Era) ──
 ts:mesoproterozoic a gts:GeochronologicEra ;
     rdfs:label "Mesoproterozoic"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -229,7 +229,7 @@ ts:mesoproterozoic a gts:GeochronologicEra ;
     time:hasEnd [ time:inXSDgYear "1000"^^xsd:decimal ; rdfs:label "1000 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 18/309: Calymmian (Period) ──
+# ── 18/312: Calymmian (Period) ──
 ts:calymmian a gts:GeochronologicPeriod ;
     rdfs:label "Calymmian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -240,7 +240,7 @@ ts:calymmian a gts:GeochronologicPeriod ;
     time:hasEnd [ time:inXSDgYear "1400"^^xsd:decimal ; rdfs:label "1400 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 19/309: Ectasian (Period) ──
+# ── 19/312: Ectasian (Period) ──
 ts:ectasian a gts:GeochronologicPeriod ;
     rdfs:label "Ectasian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -251,7 +251,7 @@ ts:ectasian a gts:GeochronologicPeriod ;
     time:hasEnd [ time:inXSDgYear "1200"^^xsd:decimal ; rdfs:label "1200 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 20/309: Stenian (Period) ──
+# ── 20/312: Stenian (Period) ──
 ts:stenian a gts:GeochronologicPeriod ;
     rdfs:label "Stenian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -262,7 +262,7 @@ ts:stenian a gts:GeochronologicPeriod ;
     time:hasEnd [ time:inXSDgYear "1000"^^xsd:decimal ; rdfs:label "1000 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 21/309: Neoproterozoic (Era) ──
+# ── 21/312: Neoproterozoic (Era) ──
 ts:neoproterozoic a gts:GeochronologicEra ;
     rdfs:label "Neoproterozoic"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -273,7 +273,7 @@ ts:neoproterozoic a gts:GeochronologicEra ;
     time:hasEnd [ time:inXSDgYear "538.8"^^xsd:decimal ; rdfs:label "538.8 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 22/309: Tonian (Period) ──
+# ── 22/312: Tonian (Period) ──
 ts:tonian a gts:GeochronologicPeriod ;
     rdfs:label "Tonian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -284,7 +284,7 @@ ts:tonian a gts:GeochronologicPeriod ;
     time:hasEnd [ time:inXSDgYear "720"^^xsd:decimal ; rdfs:label "720 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 23/309: Cryogenian (Period) ──
+# ── 23/312: Cryogenian (Period) ──
 ts:cryogenian a gts:GeochronologicPeriod ;
     rdfs:label "Cryogenian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -295,7 +295,7 @@ ts:cryogenian a gts:GeochronologicPeriod ;
     time:hasEnd [ time:inXSDgYear "635"^^xsd:decimal ; rdfs:label "635 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 24/309: Sturtian Glaciation (Age) ──
+# ── 24/312: Sturtian Glaciation (Age) ──
 ts:sturtian a gts:GeochronologicAge ;
     rdfs:label "Sturtian Glaciation"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -306,7 +306,7 @@ ts:sturtian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "660"^^xsd:decimal ; rdfs:label "660 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 25/309: Marinoan Glaciation (Age) ──
+# ── 25/312: Marinoan Glaciation (Age) ──
 ts:marinoan a gts:GeochronologicAge ;
     rdfs:label "Marinoan Glaciation"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -317,7 +317,7 @@ ts:marinoan a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "635"^^xsd:decimal ; rdfs:label "635 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 26/309: Ediacaran (Period) ──
+# ── 26/312: Ediacaran (Period) ──
 ts:ediacaran a gts:GeochronologicPeriod ;
     rdfs:label "Ediacaran"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -328,7 +328,7 @@ ts:ediacaran a gts:GeochronologicPeriod ;
     time:hasEnd [ time:inXSDgYear "538.8"^^xsd:decimal ; rdfs:label "538.8 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 27/309: Paleozoic (Era) ──
+# ── 27/312: Paleozoic (Era) ──
 ts:paleozoic a gts:GeochronologicEra ;
     rdfs:label "Paleozoic"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -339,7 +339,7 @@ ts:paleozoic a gts:GeochronologicEra ;
     time:hasEnd [ time:inXSDgYear "251.9"^^xsd:decimal ; rdfs:label "251.9 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 28/309: Cambrian (Period) ──
+# ── 28/312: Cambrian (Period) ──
 ts:cambrian a gts:GeochronologicPeriod ;
     rdfs:label "Cambrian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -350,7 +350,7 @@ ts:cambrian a gts:GeochronologicPeriod ;
     time:hasEnd [ time:inXSDgYear "485.4"^^xsd:decimal ; rdfs:label "485.4 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 29/309: Terreneuvian (Epoch) ──
+# ── 29/312: Terreneuvian (Epoch) ──
 ts:terreneuvian a gts:GeochronologicEpoch ;
     rdfs:label "Terreneuvian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -361,7 +361,7 @@ ts:terreneuvian a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "521"^^xsd:decimal ; rdfs:label "521 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 30/309: Fortunian (Age) ──
+# ── 30/312: Fortunian (Age) ──
 ts:fortunian a gts:GeochronologicAge ;
     rdfs:label "Fortunian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -372,7 +372,7 @@ ts:fortunian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "529"^^xsd:decimal ; rdfs:label "529 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 31/309: Cambrian Stage 2 (Age) ──
+# ── 31/312: Cambrian Stage 2 (Age) ──
 ts:stage2-cambrian a gts:GeochronologicAge ;
     rdfs:label "Cambrian Stage 2"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -383,7 +383,7 @@ ts:stage2-cambrian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "521"^^xsd:decimal ; rdfs:label "521 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 32/309: Cambrian Series 2 (Epoch) ──
+# ── 32/312: Cambrian Series 2 (Epoch) ──
 ts:epoch2-cambrian a gts:GeochronologicEpoch ;
     rdfs:label "Cambrian Series 2"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -394,7 +394,7 @@ ts:epoch2-cambrian a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "509"^^xsd:decimal ; rdfs:label "509 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 33/309: Cambrian Stage 3 (Age) ──
+# ── 33/312: Cambrian Stage 3 (Age) ──
 ts:stage3-cambrian a gts:GeochronologicAge ;
     rdfs:label "Cambrian Stage 3"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -405,7 +405,7 @@ ts:stage3-cambrian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "514"^^xsd:decimal ; rdfs:label "514 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 34/309: Cambrian Stage 4 (Age) ──
+# ── 34/312: Cambrian Stage 4 (Age) ──
 ts:stage4-cambrian a gts:GeochronologicAge ;
     rdfs:label "Cambrian Stage 4"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -416,7 +416,7 @@ ts:stage4-cambrian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "509"^^xsd:decimal ; rdfs:label "509 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 35/309: Miaolingian (Epoch) ──
+# ── 35/312: Miaolingian (Epoch) ──
 ts:miaolingian a gts:GeochronologicEpoch ;
     rdfs:label "Miaolingian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -427,7 +427,7 @@ ts:miaolingian a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "497"^^xsd:decimal ; rdfs:label "497 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 36/309: Wuliuan (Age) ──
+# ── 36/312: Wuliuan (Age) ──
 ts:wuliuan a gts:GeochronologicAge ;
     rdfs:label "Wuliuan"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -438,7 +438,7 @@ ts:wuliuan a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "504.5"^^xsd:decimal ; rdfs:label "504.5 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 37/309: Drumian (Age) ──
+# ── 37/312: Drumian (Age) ──
 ts:drumian a gts:GeochronologicAge ;
     rdfs:label "Drumian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -449,7 +449,7 @@ ts:drumian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "500.5"^^xsd:decimal ; rdfs:label "500.5 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 38/309: Guzhangian (Age) ──
+# ── 38/312: Guzhangian (Age) ──
 ts:guzhangian a gts:GeochronologicAge ;
     rdfs:label "Guzhangian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -460,7 +460,7 @@ ts:guzhangian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "497"^^xsd:decimal ; rdfs:label "497 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 39/309: Furongian (Epoch) ──
+# ── 39/312: Furongian (Epoch) ──
 ts:furongian a gts:GeochronologicEpoch ;
     rdfs:label "Furongian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -471,7 +471,7 @@ ts:furongian a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "485.4"^^xsd:decimal ; rdfs:label "485.4 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 40/309: Paibian (Age) ──
+# ── 40/312: Paibian (Age) ──
 ts:paibian a gts:GeochronologicAge ;
     rdfs:label "Paibian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -482,7 +482,7 @@ ts:paibian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "494"^^xsd:decimal ; rdfs:label "494 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 41/309: Jiangshanian (Age) ──
+# ── 41/312: Jiangshanian (Age) ──
 ts:jiangshanian a gts:GeochronologicAge ;
     rdfs:label "Jiangshanian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -493,7 +493,7 @@ ts:jiangshanian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "489.5"^^xsd:decimal ; rdfs:label "489.5 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 42/309: Cambrian Stage 10 (Age) ──
+# ── 42/312: Cambrian Stage 10 (Age) ──
 ts:stage10-cambrian a gts:GeochronologicAge ;
     rdfs:label "Cambrian Stage 10"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -504,7 +504,7 @@ ts:stage10-cambrian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "485.4"^^xsd:decimal ; rdfs:label "485.4 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 43/309: Ordovician (Period) ──
+# ── 43/312: Ordovician (Period) ──
 ts:ordovician a gts:GeochronologicPeriod ;
     rdfs:label "Ordovician"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -515,7 +515,7 @@ ts:ordovician a gts:GeochronologicPeriod ;
     time:hasEnd [ time:inXSDgYear "443.8"^^xsd:decimal ; rdfs:label "443.8 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 44/309: Early Ordovician (Epoch) ──
+# ── 44/312: Early Ordovician (Epoch) ──
 ts:early-ordovician a gts:GeochronologicEpoch ;
     rdfs:label "Early Ordovician"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -526,7 +526,7 @@ ts:early-ordovician a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "470"^^xsd:decimal ; rdfs:label "470 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 45/309: Tremadocian (Age) ──
+# ── 45/312: Tremadocian (Age) ──
 ts:tremadocian a gts:GeochronologicAge ;
     rdfs:label "Tremadocian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -537,7 +537,7 @@ ts:tremadocian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "477.7"^^xsd:decimal ; rdfs:label "477.7 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 46/309: Floian (Age) ──
+# ── 46/312: Floian (Age) ──
 ts:floian a gts:GeochronologicAge ;
     rdfs:label "Floian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -548,7 +548,7 @@ ts:floian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "470"^^xsd:decimal ; rdfs:label "470 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 47/309: Middle Ordovician (Epoch) ──
+# ── 47/312: Middle Ordovician (Epoch) ──
 ts:middle-ordovician a gts:GeochronologicEpoch ;
     rdfs:label "Middle Ordovician"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -559,7 +559,7 @@ ts:middle-ordovician a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "458.4"^^xsd:decimal ; rdfs:label "458.4 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 48/309: Dapingian (Age) ──
+# ── 48/312: Dapingian (Age) ──
 ts:dapingian a gts:GeochronologicAge ;
     rdfs:label "Dapingian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -570,7 +570,7 @@ ts:dapingian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "467.3"^^xsd:decimal ; rdfs:label "467.3 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 49/309: Darriwilian (Age) ──
+# ── 49/312: Darriwilian (Age) ──
 ts:darriwilian a gts:GeochronologicAge ;
     rdfs:label "Darriwilian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -581,7 +581,7 @@ ts:darriwilian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "458.4"^^xsd:decimal ; rdfs:label "458.4 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 50/309: Late Ordovician (Epoch) ──
+# ── 50/312: Late Ordovician (Epoch) ──
 ts:late-ordovician a gts:GeochronologicEpoch ;
     rdfs:label "Late Ordovician"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -592,7 +592,7 @@ ts:late-ordovician a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "443.8"^^xsd:decimal ; rdfs:label "443.8 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 51/309: Sandbian (Age) ──
+# ── 51/312: Sandbian (Age) ──
 ts:sandbian a gts:GeochronologicAge ;
     rdfs:label "Sandbian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -603,7 +603,7 @@ ts:sandbian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "453"^^xsd:decimal ; rdfs:label "453 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 52/309: Katian (Age) ──
+# ── 52/312: Katian (Age) ──
 ts:katian a gts:GeochronologicAge ;
     rdfs:label "Katian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -614,7 +614,7 @@ ts:katian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "445.2"^^xsd:decimal ; rdfs:label "445.2 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 53/309: Hirnantian (Age) ──
+# ── 53/312: Hirnantian (Age) ──
 ts:hirnantian a gts:GeochronologicAge ;
     rdfs:label "Hirnantian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -625,7 +625,7 @@ ts:hirnantian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "443.8"^^xsd:decimal ; rdfs:label "443.8 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 54/309: Silurian (Period) ──
+# ── 54/312: Silurian (Period) ──
 ts:silurian a gts:GeochronologicPeriod ;
     rdfs:label "Silurian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -636,7 +636,7 @@ ts:silurian a gts:GeochronologicPeriod ;
     time:hasEnd [ time:inXSDgYear "419.2"^^xsd:decimal ; rdfs:label "419.2 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 55/309: Llandovery (Epoch) ──
+# ── 55/312: Llandovery (Epoch) ──
 ts:llandovery a gts:GeochronologicEpoch ;
     rdfs:label "Llandovery"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -647,7 +647,7 @@ ts:llandovery a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "433.4"^^xsd:decimal ; rdfs:label "433.4 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 56/309: Rhuddanian (Age) ──
+# ── 56/312: Rhuddanian (Age) ──
 ts:rhuddanian a gts:GeochronologicAge ;
     rdfs:label "Rhuddanian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -658,7 +658,7 @@ ts:rhuddanian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "440.8"^^xsd:decimal ; rdfs:label "440.8 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 57/309: Aeronian (Age) ──
+# ── 57/312: Aeronian (Age) ──
 ts:aeronian a gts:GeochronologicAge ;
     rdfs:label "Aeronian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -669,7 +669,7 @@ ts:aeronian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "438.5"^^xsd:decimal ; rdfs:label "438.5 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 58/309: Telychian (Age) ──
+# ── 58/312: Telychian (Age) ──
 ts:telychian a gts:GeochronologicAge ;
     rdfs:label "Telychian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -680,7 +680,7 @@ ts:telychian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "433.4"^^xsd:decimal ; rdfs:label "433.4 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 59/309: Wenlock (Epoch) ──
+# ── 59/312: Wenlock (Epoch) ──
 ts:wenlock a gts:GeochronologicEpoch ;
     rdfs:label "Wenlock"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -691,7 +691,7 @@ ts:wenlock a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "427.4"^^xsd:decimal ; rdfs:label "427.4 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 60/309: Sheinwoodian (Age) ──
+# ── 60/312: Sheinwoodian (Age) ──
 ts:sheinwoodian a gts:GeochronologicAge ;
     rdfs:label "Sheinwoodian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -702,7 +702,7 @@ ts:sheinwoodian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "430.5"^^xsd:decimal ; rdfs:label "430.5 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 61/309: Homerian (Age) ──
+# ── 61/312: Homerian (Age) ──
 ts:homerian a gts:GeochronologicAge ;
     rdfs:label "Homerian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -713,7 +713,7 @@ ts:homerian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "427.4"^^xsd:decimal ; rdfs:label "427.4 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 62/309: Ludlow (Epoch) ──
+# ── 62/312: Ludlow (Epoch) ──
 ts:ludlow a gts:GeochronologicEpoch ;
     rdfs:label "Ludlow"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -724,7 +724,7 @@ ts:ludlow a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "423"^^xsd:decimal ; rdfs:label "423 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 63/309: Gorstian (Age) ──
+# ── 63/312: Gorstian (Age) ──
 ts:gorstian a gts:GeochronologicAge ;
     rdfs:label "Gorstian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -735,7 +735,7 @@ ts:gorstian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "425.6"^^xsd:decimal ; rdfs:label "425.6 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 64/309: Ludfordian (Age) ──
+# ── 64/312: Ludfordian (Age) ──
 ts:ludfordian a gts:GeochronologicAge ;
     rdfs:label "Ludfordian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -746,7 +746,7 @@ ts:ludfordian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "423"^^xsd:decimal ; rdfs:label "423 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 65/309: Přídolí (Epoch) ──
+# ── 65/312: Přídolí (Epoch) ──
 ts:pridoli a gts:GeochronologicEpoch ;
     rdfs:label "Přídolí"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -757,7 +757,7 @@ ts:pridoli a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "419.2"^^xsd:decimal ; rdfs:label "419.2 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 66/309: Devonian (Period) ──
+# ── 66/312: Devonian (Period) ──
 ts:devonian a gts:GeochronologicPeriod ;
     rdfs:label "Devonian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -768,7 +768,7 @@ ts:devonian a gts:GeochronologicPeriod ;
     time:hasEnd [ time:inXSDgYear "358.9"^^xsd:decimal ; rdfs:label "358.9 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 67/309: Klonk Event (Silurian–Devonian boundary) (Age) ──
+# ── 67/312: Klonk Event (Silurian–Devonian boundary) (Age) ──
 ts:klonk-event a gts:GeochronologicAge ;
     rdfs:label "Klonk Event (Silurian–Devonian boundary)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -779,7 +779,7 @@ ts:klonk-event a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "419"^^xsd:decimal ; rdfs:label "419 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 68/309: Early Devonian (Epoch) ──
+# ── 68/312: Early Devonian (Epoch) ──
 ts:early-devonian a gts:GeochronologicEpoch ;
     rdfs:label "Early Devonian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -790,7 +790,7 @@ ts:early-devonian a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "393.3"^^xsd:decimal ; rdfs:label "393.3 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 69/309: Lochkovian (Age) ──
+# ── 69/312: Lochkovian (Age) ──
 ts:lochkovian a gts:GeochronologicAge ;
     rdfs:label "Lochkovian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -801,7 +801,7 @@ ts:lochkovian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "410.8"^^xsd:decimal ; rdfs:label "410.8 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 70/309: Pragian (Age) ──
+# ── 70/312: Pragian (Age) ──
 ts:pragian a gts:GeochronologicAge ;
     rdfs:label "Pragian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -812,7 +812,7 @@ ts:pragian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "407.6"^^xsd:decimal ; rdfs:label "407.6 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 71/309: Emsian (Age) ──
+# ── 71/312: Emsian (Age) ──
 ts:emsian a gts:GeochronologicAge ;
     rdfs:label "Emsian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -823,7 +823,7 @@ ts:emsian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "393.3"^^xsd:decimal ; rdfs:label "393.3 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 72/309: Middle Devonian (Epoch) ──
+# ── 72/312: Middle Devonian (Epoch) ──
 ts:middle-devonian a gts:GeochronologicEpoch ;
     rdfs:label "Middle Devonian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -834,7 +834,7 @@ ts:middle-devonian a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "382.7"^^xsd:decimal ; rdfs:label "382.7 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 73/309: Eifelian (Age) ──
+# ── 73/312: Eifelian (Age) ──
 ts:eifelian a gts:GeochronologicAge ;
     rdfs:label "Eifelian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -845,7 +845,7 @@ ts:eifelian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "387.7"^^xsd:decimal ; rdfs:label "387.7 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 74/309: Givetian (Age) ──
+# ── 74/312: Givetian (Age) ──
 ts:givetian a gts:GeochronologicAge ;
     rdfs:label "Givetian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -856,7 +856,7 @@ ts:givetian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "382.7"^^xsd:decimal ; rdfs:label "382.7 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 75/309: Late Devonian (Epoch) ──
+# ── 75/312: Late Devonian (Epoch) ──
 ts:late-devonian a gts:GeochronologicEpoch ;
     rdfs:label "Late Devonian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -867,7 +867,7 @@ ts:late-devonian a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "358.9"^^xsd:decimal ; rdfs:label "358.9 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 76/309: Frasnian (Age) ──
+# ── 76/312: Frasnian (Age) ──
 ts:frasnian a gts:GeochronologicAge ;
     rdfs:label "Frasnian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -878,7 +878,7 @@ ts:frasnian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "372.2"^^xsd:decimal ; rdfs:label "372.2 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 77/309: Famennian (Age) ──
+# ── 77/312: Famennian (Age) ──
 ts:famennian a gts:GeochronologicAge ;
     rdfs:label "Famennian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -889,7 +889,7 @@ ts:famennian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "358.9"^^xsd:decimal ; rdfs:label "358.9 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 78/309: Carboniferous (Period) ──
+# ── 78/312: Carboniferous (Period) ──
 ts:carboniferous a gts:GeochronologicPeriod ;
     rdfs:label "Carboniferous"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -900,7 +900,7 @@ ts:carboniferous a gts:GeochronologicPeriod ;
     time:hasEnd [ time:inXSDgYear "298.9"^^xsd:decimal ; rdfs:label "298.9 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 79/309: Mississippian (SubPeriod) ──
+# ── 79/312: Mississippian (SubPeriod) ──
 ts:mississippian a gts:GeochronologicPeriod ;
     rdfs:label "Mississippian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -911,7 +911,7 @@ ts:mississippian a gts:GeochronologicPeriod ;
     time:hasEnd [ time:inXSDgYear "323.2"^^xsd:decimal ; rdfs:label "323.2 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 80/309: Early Mississippian (Epoch) ──
+# ── 80/312: Early Mississippian (Epoch) ──
 ts:early-mississippian a gts:GeochronologicEpoch ;
     rdfs:label "Early Mississippian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -922,7 +922,7 @@ ts:early-mississippian a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "346.7"^^xsd:decimal ; rdfs:label "346.7 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 81/309: Tournaisian (Age) ──
+# ── 81/312: Tournaisian (Age) ──
 ts:tournaisian a gts:GeochronologicAge ;
     rdfs:label "Tournaisian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -933,7 +933,7 @@ ts:tournaisian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "346.7"^^xsd:decimal ; rdfs:label "346.7 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 82/309: Middle Mississippian (Epoch) ──
+# ── 82/312: Middle Mississippian (Epoch) ──
 ts:middle-mississippian a gts:GeochronologicEpoch ;
     rdfs:label "Middle Mississippian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -944,7 +944,7 @@ ts:middle-mississippian a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "330.9"^^xsd:decimal ; rdfs:label "330.9 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 83/309: Viséan (Age) ──
+# ── 83/312: Viséan (Age) ──
 ts:visean a gts:GeochronologicAge ;
     rdfs:label "Viséan"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -955,7 +955,7 @@ ts:visean a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "330.9"^^xsd:decimal ; rdfs:label "330.9 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 84/309: Late Mississippian (Epoch) ──
+# ── 84/312: Late Mississippian (Epoch) ──
 ts:late-mississippian a gts:GeochronologicEpoch ;
     rdfs:label "Late Mississippian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -966,7 +966,7 @@ ts:late-mississippian a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "323.2"^^xsd:decimal ; rdfs:label "323.2 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 85/309: Serpukhovian (Age) ──
+# ── 85/312: Serpukhovian (Age) ──
 ts:serpukhovian a gts:GeochronologicAge ;
     rdfs:label "Serpukhovian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -977,7 +977,7 @@ ts:serpukhovian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "323.2"^^xsd:decimal ; rdfs:label "323.2 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 86/309: Pennsylvanian (SubPeriod) ──
+# ── 86/312: Pennsylvanian (SubPeriod) ──
 ts:pennsylvanian a gts:GeochronologicPeriod ;
     rdfs:label "Pennsylvanian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -988,7 +988,7 @@ ts:pennsylvanian a gts:GeochronologicPeriod ;
     time:hasEnd [ time:inXSDgYear "298.9"^^xsd:decimal ; rdfs:label "298.9 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 87/309: Early Pennsylvanian (Epoch) ──
+# ── 87/312: Early Pennsylvanian (Epoch) ──
 ts:early-pennsylvanian a gts:GeochronologicEpoch ;
     rdfs:label "Early Pennsylvanian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -999,7 +999,7 @@ ts:early-pennsylvanian a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "315.2"^^xsd:decimal ; rdfs:label "315.2 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 88/309: Bashkirian (Age) ──
+# ── 88/312: Bashkirian (Age) ──
 ts:bashkirian a gts:GeochronologicAge ;
     rdfs:label "Bashkirian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1010,7 +1010,7 @@ ts:bashkirian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "315.2"^^xsd:decimal ; rdfs:label "315.2 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 89/309: Middle Pennsylvanian (Epoch) ──
+# ── 89/312: Middle Pennsylvanian (Epoch) ──
 ts:middle-pennsylvanian a gts:GeochronologicEpoch ;
     rdfs:label "Middle Pennsylvanian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1021,7 +1021,7 @@ ts:middle-pennsylvanian a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "307"^^xsd:decimal ; rdfs:label "307 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 90/309: Moscovian (Age) ──
+# ── 90/312: Moscovian (Age) ──
 ts:moscovian a gts:GeochronologicAge ;
     rdfs:label "Moscovian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1032,7 +1032,7 @@ ts:moscovian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "307"^^xsd:decimal ; rdfs:label "307 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 91/309: Late Pennsylvanian (Epoch) ──
+# ── 91/312: Late Pennsylvanian (Epoch) ──
 ts:late-pennsylvanian a gts:GeochronologicEpoch ;
     rdfs:label "Late Pennsylvanian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1043,7 +1043,7 @@ ts:late-pennsylvanian a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "298.9"^^xsd:decimal ; rdfs:label "298.9 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 92/309: Kasimovian (Age) ──
+# ── 92/312: Kasimovian (Age) ──
 ts:kasimovian a gts:GeochronologicAge ;
     rdfs:label "Kasimovian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1054,7 +1054,7 @@ ts:kasimovian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "303.7"^^xsd:decimal ; rdfs:label "303.7 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 93/309: Gzhelian (Age) ──
+# ── 93/312: Gzhelian (Age) ──
 ts:gzhelian a gts:GeochronologicAge ;
     rdfs:label "Gzhelian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1065,7 +1065,7 @@ ts:gzhelian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "298.9"^^xsd:decimal ; rdfs:label "298.9 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 94/309: Permian (Period) ──
+# ── 94/312: Permian (Period) ──
 ts:permian a gts:GeochronologicPeriod ;
     rdfs:label "Permian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1076,7 +1076,7 @@ ts:permian a gts:GeochronologicPeriod ;
     time:hasEnd [ time:inXSDgYear "251.9"^^xsd:decimal ; rdfs:label "251.9 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 95/309: Cisuralian (Epoch) ──
+# ── 95/312: Cisuralian (Epoch) ──
 ts:cisuralian a gts:GeochronologicEpoch ;
     rdfs:label "Cisuralian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1087,7 +1087,7 @@ ts:cisuralian a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "272.95"^^xsd:decimal ; rdfs:label "272.95 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 96/309: Asselian (Age) ──
+# ── 96/312: Asselian (Age) ──
 ts:asselian a gts:GeochronologicAge ;
     rdfs:label "Asselian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1098,7 +1098,7 @@ ts:asselian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "293.52"^^xsd:decimal ; rdfs:label "293.52 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 97/309: Sakmarian (Age) ──
+# ── 97/312: Sakmarian (Age) ──
 ts:sakmarian a gts:GeochronologicAge ;
     rdfs:label "Sakmarian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1109,7 +1109,7 @@ ts:sakmarian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "290.1"^^xsd:decimal ; rdfs:label "290.1 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 98/309: Artinskian (Age) ──
+# ── 98/312: Artinskian (Age) ──
 ts:artinskian a gts:GeochronologicAge ;
     rdfs:label "Artinskian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1120,7 +1120,7 @@ ts:artinskian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "283.5"^^xsd:decimal ; rdfs:label "283.5 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 99/309: Kungurian (Age) ──
+# ── 99/312: Kungurian (Age) ──
 ts:kungurian a gts:GeochronologicAge ;
     rdfs:label "Kungurian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1131,7 +1131,7 @@ ts:kungurian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "272.95"^^xsd:decimal ; rdfs:label "272.95 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 100/309: Guadalupian (Epoch) ──
+# ── 100/312: Guadalupian (Epoch) ──
 ts:guadalupian a gts:GeochronologicEpoch ;
     rdfs:label "Guadalupian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1142,7 +1142,7 @@ ts:guadalupian a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "259.51"^^xsd:decimal ; rdfs:label "259.51 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 101/309: Roadian (Age) ──
+# ── 101/312: Roadian (Age) ──
 ts:roadian a gts:GeochronologicAge ;
     rdfs:label "Roadian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1153,7 +1153,7 @@ ts:roadian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "268.8"^^xsd:decimal ; rdfs:label "268.8 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 102/309: Wordian (Age) ──
+# ── 102/312: Wordian (Age) ──
 ts:wordian a gts:GeochronologicAge ;
     rdfs:label "Wordian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1164,7 +1164,7 @@ ts:wordian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "265.1"^^xsd:decimal ; rdfs:label "265.1 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 103/309: Capitanian (Age) ──
+# ── 103/312: Capitanian (Age) ──
 ts:capitanian a gts:GeochronologicAge ;
     rdfs:label "Capitanian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1175,7 +1175,7 @@ ts:capitanian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "259.51"^^xsd:decimal ; rdfs:label "259.51 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 104/309: Lopingian (Epoch) ──
+# ── 104/312: Lopingian (Epoch) ──
 ts:lopingian a gts:GeochronologicEpoch ;
     rdfs:label "Lopingian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1186,7 +1186,7 @@ ts:lopingian a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "251.9"^^xsd:decimal ; rdfs:label "251.9 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 105/309: Wuchiapingian (Age) ──
+# ── 105/312: Wuchiapingian (Age) ──
 ts:wuchiapingian a gts:GeochronologicAge ;
     rdfs:label "Wuchiapingian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1197,7 +1197,7 @@ ts:wuchiapingian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "254.14"^^xsd:decimal ; rdfs:label "254.14 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 106/309: Changhsingian (Age) ──
+# ── 106/312: Changhsingian (Age) ──
 ts:changhsingian a gts:GeochronologicAge ;
     rdfs:label "Changhsingian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1208,7 +1208,7 @@ ts:changhsingian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "251.9"^^xsd:decimal ; rdfs:label "251.9 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 107/309: Mesozoic (Era) ──
+# ── 107/312: Mesozoic (Era) ──
 ts:mesozoic a gts:GeochronologicEra ;
     rdfs:label "Mesozoic"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1219,7 +1219,7 @@ ts:mesozoic a gts:GeochronologicEra ;
     time:hasEnd [ time:inXSDgYear "66"^^xsd:decimal ; rdfs:label "66 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 108/309: Triassic (Period) ──
+# ── 108/312: Triassic (Period) ──
 ts:triassic a gts:GeochronologicPeriod ;
     rdfs:label "Triassic"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1230,7 +1230,7 @@ ts:triassic a gts:GeochronologicPeriod ;
     time:hasEnd [ time:inXSDgYear "201.4"^^xsd:decimal ; rdfs:label "201.4 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 109/309: Early Triassic (Epoch) ──
+# ── 109/312: Early Triassic (Epoch) ──
 ts:early-triassic a gts:GeochronologicEpoch ;
     rdfs:label "Early Triassic"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1241,7 +1241,7 @@ ts:early-triassic a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "247.2"^^xsd:decimal ; rdfs:label "247.2 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 110/309: Induan (Age) ──
+# ── 110/312: Induan (Age) ──
 ts:induan a gts:GeochronologicAge ;
     rdfs:label "Induan"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1252,7 +1252,7 @@ ts:induan a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "251.2"^^xsd:decimal ; rdfs:label "251.2 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 111/309: Olenekian (Age) ──
+# ── 111/312: Olenekian (Age) ──
 ts:olenekian a gts:GeochronologicAge ;
     rdfs:label "Olenekian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1263,7 +1263,7 @@ ts:olenekian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "247.2"^^xsd:decimal ; rdfs:label "247.2 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 112/309: Middle Triassic (Epoch) ──
+# ── 112/312: Middle Triassic (Epoch) ──
 ts:middle-triassic a gts:GeochronologicEpoch ;
     rdfs:label "Middle Triassic"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1274,7 +1274,7 @@ ts:middle-triassic a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "237"^^xsd:decimal ; rdfs:label "237 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 113/309: Anisian (Age) ──
+# ── 113/312: Anisian (Age) ──
 ts:anisian a gts:GeochronologicAge ;
     rdfs:label "Anisian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1285,7 +1285,7 @@ ts:anisian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "242"^^xsd:decimal ; rdfs:label "242 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 114/309: Ladinian (Age) ──
+# ── 114/312: Ladinian (Age) ──
 ts:ladinian a gts:GeochronologicAge ;
     rdfs:label "Ladinian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1296,7 +1296,7 @@ ts:ladinian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "237"^^xsd:decimal ; rdfs:label "237 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 115/309: Late Triassic (Epoch) ──
+# ── 115/312: Late Triassic (Epoch) ──
 ts:late-triassic a gts:GeochronologicEpoch ;
     rdfs:label "Late Triassic"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1307,7 +1307,7 @@ ts:late-triassic a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "201.4"^^xsd:decimal ; rdfs:label "201.4 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 116/309: Carnian (Age) ──
+# ── 116/312: Carnian (Age) ──
 ts:carnian a gts:GeochronologicAge ;
     rdfs:label "Carnian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1318,7 +1318,7 @@ ts:carnian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "227"^^xsd:decimal ; rdfs:label "227 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 117/309: Norian (Age) ──
+# ── 117/312: Norian (Age) ──
 ts:norian a gts:GeochronologicAge ;
     rdfs:label "Norian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1329,7 +1329,7 @@ ts:norian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "208.5"^^xsd:decimal ; rdfs:label "208.5 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 118/309: Rhaetian (Age) ──
+# ── 118/312: Rhaetian (Age) ──
 ts:rhaetian a gts:GeochronologicAge ;
     rdfs:label "Rhaetian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1340,7 +1340,7 @@ ts:rhaetian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "201.4"^^xsd:decimal ; rdfs:label "201.4 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 119/309: Jurassic (Period) ──
+# ── 119/312: Jurassic (Period) ──
 ts:jurassic a gts:GeochronologicPeriod ;
     rdfs:label "Jurassic"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1351,7 +1351,7 @@ ts:jurassic a gts:GeochronologicPeriod ;
     time:hasEnd [ time:inXSDgYear "143.1"^^xsd:decimal ; rdfs:label "143.1 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 120/309: Early Jurassic (Epoch) ──
+# ── 120/312: Early Jurassic (Epoch) ──
 ts:early-jurassic a gts:GeochronologicEpoch ;
     rdfs:label "Early Jurassic"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1362,7 +1362,7 @@ ts:early-jurassic a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "174.1"^^xsd:decimal ; rdfs:label "174.1 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 121/309: Hettangian (Age) ──
+# ── 121/312: Hettangian (Age) ──
 ts:hettangian a gts:GeochronologicAge ;
     rdfs:label "Hettangian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1373,7 +1373,7 @@ ts:hettangian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "199.5"^^xsd:decimal ; rdfs:label "199.5 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 122/309: Sinemurian (Age) ──
+# ── 122/312: Sinemurian (Age) ──
 ts:sinemurian a gts:GeochronologicAge ;
     rdfs:label "Sinemurian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1384,7 +1384,7 @@ ts:sinemurian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "192.9"^^xsd:decimal ; rdfs:label "192.9 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 123/309: Pliensbachian (Age) ──
+# ── 123/312: Pliensbachian (Age) ──
 ts:pliensbachian a gts:GeochronologicAge ;
     rdfs:label "Pliensbachian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1395,7 +1395,7 @@ ts:pliensbachian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "184.2"^^xsd:decimal ; rdfs:label "184.2 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 124/309: Toarcian (Age) ──
+# ── 124/312: Toarcian (Age) ──
 ts:toarcian a gts:GeochronologicAge ;
     rdfs:label "Toarcian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1406,7 +1406,7 @@ ts:toarcian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "174.1"^^xsd:decimal ; rdfs:label "174.1 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 125/309: Middle Jurassic (Epoch) ──
+# ── 125/312: Middle Jurassic (Epoch) ──
 ts:middle-jurassic a gts:GeochronologicEpoch ;
     rdfs:label "Middle Jurassic"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1417,7 +1417,7 @@ ts:middle-jurassic a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "163.5"^^xsd:decimal ; rdfs:label "163.5 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 126/309: Aalenian (Age) ──
+# ── 126/312: Aalenian (Age) ──
 ts:aalenian a gts:GeochronologicAge ;
     rdfs:label "Aalenian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1428,7 +1428,7 @@ ts:aalenian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "170.9"^^xsd:decimal ; rdfs:label "170.9 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 127/309: Bajocian (Age) ──
+# ── 127/312: Bajocian (Age) ──
 ts:bajocian a gts:GeochronologicAge ;
     rdfs:label "Bajocian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1439,7 +1439,7 @@ ts:bajocian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "168.2"^^xsd:decimal ; rdfs:label "168.2 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 128/309: Bathonian (Age) ──
+# ── 128/312: Bathonian (Age) ──
 ts:bathonian a gts:GeochronologicAge ;
     rdfs:label "Bathonian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1450,7 +1450,7 @@ ts:bathonian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "165.3"^^xsd:decimal ; rdfs:label "165.3 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 129/309: Callovian (Age) ──
+# ── 129/312: Callovian (Age) ──
 ts:callovian a gts:GeochronologicAge ;
     rdfs:label "Callovian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1461,7 +1461,7 @@ ts:callovian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "163.5"^^xsd:decimal ; rdfs:label "163.5 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 130/309: Late Jurassic (Epoch) ──
+# ── 130/312: Late Jurassic (Epoch) ──
 ts:late-jurassic a gts:GeochronologicEpoch ;
     rdfs:label "Late Jurassic"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1472,7 +1472,7 @@ ts:late-jurassic a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "143.1"^^xsd:decimal ; rdfs:label "143.1 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 131/309: Oxfordian (Age) ──
+# ── 131/312: Oxfordian (Age) ──
 ts:oxfordian a gts:GeochronologicAge ;
     rdfs:label "Oxfordian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1483,7 +1483,7 @@ ts:oxfordian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "157.3"^^xsd:decimal ; rdfs:label "157.3 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 132/309: Kimmeridgian (Age) ──
+# ── 132/312: Kimmeridgian (Age) ──
 ts:kimmeridgian a gts:GeochronologicAge ;
     rdfs:label "Kimmeridgian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1494,7 +1494,7 @@ ts:kimmeridgian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "152.1"^^xsd:decimal ; rdfs:label "152.1 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 133/309: Tithonian (Age) ──
+# ── 133/312: Tithonian (Age) ──
 ts:tithonian a gts:GeochronologicAge ;
     rdfs:label "Tithonian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1505,7 +1505,7 @@ ts:tithonian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "143.1"^^xsd:decimal ; rdfs:label "143.1 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 134/309: Cretaceous (Period) ──
+# ── 134/312: Cretaceous (Period) ──
 ts:cretaceous a gts:GeochronologicPeriod ;
     rdfs:label "Cretaceous"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1516,7 +1516,7 @@ ts:cretaceous a gts:GeochronologicPeriod ;
     time:hasEnd [ time:inXSDgYear "66"^^xsd:decimal ; rdfs:label "66 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 135/309: Early Cretaceous (Epoch) ──
+# ── 135/312: Early Cretaceous (Epoch) ──
 ts:early-cretaceous a gts:GeochronologicEpoch ;
     rdfs:label "Early Cretaceous"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1527,7 +1527,7 @@ ts:early-cretaceous a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "100.5"^^xsd:decimal ; rdfs:label "100.5 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 136/309: Berriasian (Age) ──
+# ── 136/312: Berriasian (Age) ──
 ts:berriasian a gts:GeochronologicAge ;
     rdfs:label "Berriasian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1538,7 +1538,7 @@ ts:berriasian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "139.8"^^xsd:decimal ; rdfs:label "139.8 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 137/309: Valanginian (Age) ──
+# ── 137/312: Valanginian (Age) ──
 ts:valanginian a gts:GeochronologicAge ;
     rdfs:label "Valanginian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1549,7 +1549,7 @@ ts:valanginian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "132.6"^^xsd:decimal ; rdfs:label "132.6 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 138/309: Hauterivian (Age) ──
+# ── 138/312: Hauterivian (Age) ──
 ts:hauterivian a gts:GeochronologicAge ;
     rdfs:label "Hauterivian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1560,7 +1560,7 @@ ts:hauterivian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "125.77"^^xsd:decimal ; rdfs:label "125.77 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 139/309: Barremian (Age) ──
+# ── 139/312: Barremian (Age) ──
 ts:barremian a gts:GeochronologicAge ;
     rdfs:label "Barremian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1571,7 +1571,7 @@ ts:barremian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "121.4"^^xsd:decimal ; rdfs:label "121.4 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 140/309: Aptian (Age) ──
+# ── 140/312: Aptian (Age) ──
 ts:aptian a gts:GeochronologicAge ;
     rdfs:label "Aptian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1582,7 +1582,7 @@ ts:aptian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "113.2"^^xsd:decimal ; rdfs:label "113.2 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 141/309: Albian (Age) ──
+# ── 141/312: Albian (Age) ──
 ts:albian a gts:GeochronologicAge ;
     rdfs:label "Albian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1593,7 +1593,7 @@ ts:albian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "100.5"^^xsd:decimal ; rdfs:label "100.5 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 142/309: Late Cretaceous (Epoch) ──
+# ── 142/312: Late Cretaceous (Epoch) ──
 ts:late-cretaceous a gts:GeochronologicEpoch ;
     rdfs:label "Late Cretaceous"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1604,7 +1604,7 @@ ts:late-cretaceous a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "66"^^xsd:decimal ; rdfs:label "66 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 143/309: Cenomanian (Age) ──
+# ── 143/312: Cenomanian (Age) ──
 ts:cenomanian a gts:GeochronologicAge ;
     rdfs:label "Cenomanian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1615,7 +1615,7 @@ ts:cenomanian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "93.9"^^xsd:decimal ; rdfs:label "93.9 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 144/309: Turonian (Age) ──
+# ── 144/312: Turonian (Age) ──
 ts:turonian a gts:GeochronologicAge ;
     rdfs:label "Turonian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1626,7 +1626,7 @@ ts:turonian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "89.4"^^xsd:decimal ; rdfs:label "89.4 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 145/309: Coniacian (Age) ──
+# ── 145/312: Coniacian (Age) ──
 ts:coniacian a gts:GeochronologicAge ;
     rdfs:label "Coniacian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1637,7 +1637,7 @@ ts:coniacian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "86.3"^^xsd:decimal ; rdfs:label "86.3 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 146/309: Santonian (Age) ──
+# ── 146/312: Santonian (Age) ──
 ts:santonian a gts:GeochronologicAge ;
     rdfs:label "Santonian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1648,7 +1648,7 @@ ts:santonian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "83.6"^^xsd:decimal ; rdfs:label "83.6 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 147/309: Campanian (Age) ──
+# ── 147/312: Campanian (Age) ──
 ts:campanian a gts:GeochronologicAge ;
     rdfs:label "Campanian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1659,7 +1659,7 @@ ts:campanian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "72.2"^^xsd:decimal ; rdfs:label "72.2 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 148/309: Maastrichtian (Age) ──
+# ── 148/312: Maastrichtian (Age) ──
 ts:maastrichtian a gts:GeochronologicAge ;
     rdfs:label "Maastrichtian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1670,7 +1670,7 @@ ts:maastrichtian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "66"^^xsd:decimal ; rdfs:label "66 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 149/309: Cenozoic (Era) ──
+# ── 149/312: Cenozoic (Era) ──
 ts:cenozoic a gts:GeochronologicEra ;
     rdfs:label "Cenozoic"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1681,7 +1681,7 @@ ts:cenozoic a gts:GeochronologicEra ;
     time:hasEnd [ rdfs:label "Present" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 150/309: Paleogene (Period) ──
+# ── 150/312: Paleogene (Period) ──
 ts:paleogene a gts:GeochronologicPeriod ;
     rdfs:label "Paleogene"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1692,7 +1692,7 @@ ts:paleogene a gts:GeochronologicPeriod ;
     time:hasEnd [ time:inXSDgYear "23.03"^^xsd:decimal ; rdfs:label "23.03 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 151/309: Paleocene (Epoch) ──
+# ── 151/312: Paleocene (Epoch) ──
 ts:paleocene a gts:GeochronologicEpoch ;
     rdfs:label "Paleocene"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1703,7 +1703,7 @@ ts:paleocene a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "56"^^xsd:decimal ; rdfs:label "56 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 152/309: Danian (Age) ──
+# ── 152/312: Danian (Age) ──
 ts:danian a gts:GeochronologicAge ;
     rdfs:label "Danian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1714,7 +1714,7 @@ ts:danian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "61.6"^^xsd:decimal ; rdfs:label "61.6 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 153/309: Selandian (Age) ──
+# ── 153/312: Selandian (Age) ──
 ts:selandian a gts:GeochronologicAge ;
     rdfs:label "Selandian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1725,7 +1725,7 @@ ts:selandian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "59.2"^^xsd:decimal ; rdfs:label "59.2 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 154/309: Thanetian (Age) ──
+# ── 154/312: Thanetian (Age) ──
 ts:thanetian a gts:GeochronologicAge ;
     rdfs:label "Thanetian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1736,7 +1736,7 @@ ts:thanetian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "56"^^xsd:decimal ; rdfs:label "56 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 155/309: Eocene (Epoch) ──
+# ── 155/312: Eocene (Epoch) ──
 ts:eocene a gts:GeochronologicEpoch ;
     rdfs:label "Eocene"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1747,7 +1747,7 @@ ts:eocene a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "33.9"^^xsd:decimal ; rdfs:label "33.9 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 156/309: Ypresian (Age) ──
+# ── 156/312: Ypresian (Age) ──
 ts:ypresian a gts:GeochronologicAge ;
     rdfs:label "Ypresian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1758,7 +1758,7 @@ ts:ypresian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "47.8"^^xsd:decimal ; rdfs:label "47.8 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 157/309: Lutetian (Age) ──
+# ── 157/312: Lutetian (Age) ──
 ts:lutetian a gts:GeochronologicAge ;
     rdfs:label "Lutetian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1769,7 +1769,7 @@ ts:lutetian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "41.2"^^xsd:decimal ; rdfs:label "41.2 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 158/309: Bartonian (Age) ──
+# ── 158/312: Bartonian (Age) ──
 ts:bartonian a gts:GeochronologicAge ;
     rdfs:label "Bartonian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1780,7 +1780,7 @@ ts:bartonian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "37.71"^^xsd:decimal ; rdfs:label "37.71 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 159/309: Priabonian (Age) ──
+# ── 159/312: Priabonian (Age) ──
 ts:priabonian a gts:GeochronologicAge ;
     rdfs:label "Priabonian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1791,7 +1791,7 @@ ts:priabonian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "33.9"^^xsd:decimal ; rdfs:label "33.9 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 160/309: Oligocene (Epoch) ──
+# ── 160/312: Oligocene (Epoch) ──
 ts:oligocene a gts:GeochronologicEpoch ;
     rdfs:label "Oligocene"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1802,7 +1802,7 @@ ts:oligocene a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "23.03"^^xsd:decimal ; rdfs:label "23.03 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 161/309: Rupelian (Age) ──
+# ── 161/312: Rupelian (Age) ──
 ts:rupelian a gts:GeochronologicAge ;
     rdfs:label "Rupelian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1813,7 +1813,7 @@ ts:rupelian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "27.82"^^xsd:decimal ; rdfs:label "27.82 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 162/309: Chattian (Age) ──
+# ── 162/312: Chattian (Age) ──
 ts:chattian a gts:GeochronologicAge ;
     rdfs:label "Chattian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1824,7 +1824,7 @@ ts:chattian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "23.03"^^xsd:decimal ; rdfs:label "23.03 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 163/309: Neogene (Period) ──
+# ── 163/312: Neogene (Period) ──
 ts:neogene a gts:GeochronologicPeriod ;
     rdfs:label "Neogene"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1835,7 +1835,7 @@ ts:neogene a gts:GeochronologicPeriod ;
     time:hasEnd [ time:inXSDgYear "2.58"^^xsd:decimal ; rdfs:label "2.58 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 164/309: Miocene (Epoch) ──
+# ── 164/312: Miocene (Epoch) ──
 ts:miocene a gts:GeochronologicEpoch ;
     rdfs:label "Miocene"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1846,7 +1846,7 @@ ts:miocene a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "5.33"^^xsd:decimal ; rdfs:label "5.33 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 165/309: Aquitanian (Age) ──
+# ── 165/312: Aquitanian (Age) ──
 ts:aquitanian a gts:GeochronologicAge ;
     rdfs:label "Aquitanian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1857,7 +1857,7 @@ ts:aquitanian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "20.44"^^xsd:decimal ; rdfs:label "20.44 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 166/309: Burdigalian (Age) ──
+# ── 166/312: Burdigalian (Age) ──
 ts:burdigalian a gts:GeochronologicAge ;
     rdfs:label "Burdigalian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1868,7 +1868,7 @@ ts:burdigalian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "15.98"^^xsd:decimal ; rdfs:label "15.98 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 167/309: Langhian (Age) ──
+# ── 167/312: Langhian (Age) ──
 ts:langhian a gts:GeochronologicAge ;
     rdfs:label "Langhian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1879,7 +1879,7 @@ ts:langhian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "13.82"^^xsd:decimal ; rdfs:label "13.82 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 168/309: Serravallian (Age) ──
+# ── 168/312: Serravallian (Age) ──
 ts:serravallian a gts:GeochronologicAge ;
     rdfs:label "Serravallian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1890,7 +1890,7 @@ ts:serravallian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "11.63"^^xsd:decimal ; rdfs:label "11.63 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 169/309: Tortonian (Age) ──
+# ── 169/312: Tortonian (Age) ──
 ts:tortonian a gts:GeochronologicAge ;
     rdfs:label "Tortonian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1901,7 +1901,7 @@ ts:tortonian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "7.246"^^xsd:decimal ; rdfs:label "7.246 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 170/309: Messinian (Age) ──
+# ── 170/312: Messinian (Age) ──
 ts:messinian a gts:GeochronologicAge ;
     rdfs:label "Messinian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1912,7 +1912,7 @@ ts:messinian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "5.33"^^xsd:decimal ; rdfs:label "5.33 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 171/309: Pliocene (Epoch) ──
+# ── 171/312: Pliocene (Epoch) ──
 ts:pliocene a gts:GeochronologicEpoch ;
     rdfs:label "Pliocene"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1923,7 +1923,7 @@ ts:pliocene a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "2.58"^^xsd:decimal ; rdfs:label "2.58 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 172/309: Zanclean (Age) ──
+# ── 172/312: Zanclean (Age) ──
 ts:zanclean a gts:GeochronologicAge ;
     rdfs:label "Zanclean"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1934,7 +1934,7 @@ ts:zanclean a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "3.6"^^xsd:decimal ; rdfs:label "3.6 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 173/309: Piacenzian (Age) ──
+# ── 173/312: Piacenzian (Age) ──
 ts:piacenzian a gts:GeochronologicAge ;
     rdfs:label "Piacenzian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1945,7 +1945,7 @@ ts:piacenzian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "2.58"^^xsd:decimal ; rdfs:label "2.58 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 174/309: Quaternary (Period) ──
+# ── 174/312: Quaternary (Period) ──
 ts:quaternary a gts:GeochronologicPeriod ;
     rdfs:label "Quaternary"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1956,7 +1956,7 @@ ts:quaternary a gts:GeochronologicPeriod ;
     time:hasEnd [ rdfs:label "Present" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 175/309: Pleistocene (Epoch) ──
+# ── 175/312: Pleistocene (Epoch) ──
 ts:pleistocene a gts:GeochronologicEpoch ;
     rdfs:label "Pleistocene"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1967,7 +1967,7 @@ ts:pleistocene a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "0.0117"^^xsd:decimal ; rdfs:label "0.0117 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 176/309: Gelasian (Age) ──
+# ── 176/312: Gelasian (Age) ──
 ts:gelasian a gts:GeochronologicAge ;
     rdfs:label "Gelasian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1978,7 +1978,7 @@ ts:gelasian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "1.8"^^xsd:decimal ; rdfs:label "1.8 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 177/309: Calabrian (Age) ──
+# ── 177/312: Calabrian (Age) ──
 ts:calabrian a gts:GeochronologicAge ;
     rdfs:label "Calabrian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -1989,7 +1989,7 @@ ts:calabrian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "0.774"^^xsd:decimal ; rdfs:label "0.774 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 178/309: Chibanian (Age) ──
+# ── 178/312: Chibanian (Age) ──
 ts:chibanian a gts:GeochronologicAge ;
     rdfs:label "Chibanian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2000,7 +2000,7 @@ ts:chibanian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "0.129"^^xsd:decimal ; rdfs:label "0.129 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 179/309: Late Pleistocene (Age) ──
+# ── 179/312: Late Pleistocene (Age) ──
 ts:late-pleistocene a gts:GeochronologicAge ;
     rdfs:label "Late Pleistocene"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2011,7 +2011,7 @@ ts:late-pleistocene a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "0.0117"^^xsd:decimal ; rdfs:label "0.0117 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 180/309: Holocene (Epoch) ──
+# ── 180/312: Holocene (Epoch) ──
 ts:holocene a gts:GeochronologicEpoch ;
     rdfs:label "Holocene"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2022,7 +2022,7 @@ ts:holocene a gts:GeochronologicEpoch ;
     time:hasEnd [ rdfs:label "Present" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 181/309: Greenlandian (Age) ──
+# ── 181/312: Greenlandian (Age) ──
 ts:greenlandian a gts:GeochronologicAge ;
     rdfs:label "Greenlandian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2033,7 +2033,7 @@ ts:greenlandian a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "8200 years BP" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 182/309: Northgrippian (Age) ──
+# ── 182/312: Northgrippian (Age) ──
 ts:northgrippian a gts:GeochronologicAge ;
     rdfs:label "Northgrippian"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2044,7 +2044,7 @@ ts:northgrippian a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "4200 years BP" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 183/309: Meghalayan (Age) ──
+# ── 183/312: Meghalayan (Age) ──
 ts:meghalayan a gts:GeochronologicAge ;
     rdfs:label "Meghalayan"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2055,7 +2055,7 @@ ts:meghalayan a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "Present" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 184/309: Stone Age (CulturalAge) ──
+# ── 184/312: Stone Age (CulturalAge) ──
 ts:stone-age a gts:GeochronologicAge ;
     rdfs:label "Stone Age"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2066,7 +2066,7 @@ ts:stone-age a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "3300 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 185/309: Paleolithic (Old Stone Age) (CulturalAge) ──
+# ── 185/312: Paleolithic (Old Stone Age) (CulturalAge) ──
 ts:paleolithic a gts:GeochronologicAge ;
     rdfs:label "Paleolithic (Old Stone Age)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2077,7 +2077,7 @@ ts:paleolithic a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "10000 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 186/309: Lower Paleolithic (CulturalAge) ──
+# ── 186/312: Lower Paleolithic (CulturalAge) ──
 ts:lower-paleolithic a gts:GeochronologicAge ;
     rdfs:label "Lower Paleolithic"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2088,7 +2088,7 @@ ts:lower-paleolithic a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "300000 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 187/309: Middle Paleolithic (CulturalAge) ──
+# ── 187/312: Middle Paleolithic (CulturalAge) ──
 ts:middle-paleolithic a gts:GeochronologicAge ;
     rdfs:label "Middle Paleolithic"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2099,7 +2099,7 @@ ts:middle-paleolithic a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "50000 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 188/309: Upper Paleolithic (CulturalAge) ──
+# ── 188/312: Upper Paleolithic (CulturalAge) ──
 ts:upper-paleolithic a gts:GeochronologicAge ;
     rdfs:label "Upper Paleolithic"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2110,7 +2110,7 @@ ts:upper-paleolithic a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "10000 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 189/309: Bromme Culture (CulturalAge) ──
+# ── 189/312: Bromme Culture (CulturalAge) ──
 ts:bromme-culture a gts:GeochronologicAge ;
     rdfs:label "Bromme Culture"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2121,7 +2121,7 @@ ts:bromme-culture a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "10000 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 190/309: Ahrensburg Culture (CulturalAge) ──
+# ── 190/312: Ahrensburg Culture (CulturalAge) ──
 ts:ahrensburg-culture a gts:GeochronologicAge ;
     rdfs:label "Ahrensburg Culture"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2132,7 +2132,7 @@ ts:ahrensburg-culture a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "9500 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 191/309: Mesolithic (Middle Stone Age) (CulturalAge) ──
+# ── 191/312: Mesolithic (Middle Stone Age) (CulturalAge) ──
 ts:mesolithic a gts:GeochronologicAge ;
     rdfs:label "Mesolithic (Middle Stone Age)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2143,7 +2143,7 @@ ts:mesolithic a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "4000 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 192/309: Fosna–Hensbacka Culture (CulturalAge) ──
+# ── 192/312: Fosna–Hensbacka Culture (CulturalAge) ──
 ts:fosna-hensbacka a gts:GeochronologicAge ;
     rdfs:label "Fosna–Hensbacka Culture"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2154,7 +2154,7 @@ ts:fosna-hensbacka a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "7300 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 193/309: Komsa Culture (CulturalAge) ──
+# ── 193/312: Komsa Culture (CulturalAge) ──
 ts:komsa-culture a gts:GeochronologicAge ;
     rdfs:label "Komsa Culture"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2165,7 +2165,7 @@ ts:komsa-culture a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "6000 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 194/309: Maglemosian Culture (CulturalAge) ──
+# ── 194/312: Maglemosian Culture (CulturalAge) ──
 ts:maglemosian a gts:GeochronologicAge ;
     rdfs:label "Maglemosian Culture"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2176,7 +2176,7 @@ ts:maglemosian a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "6000 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 195/309: Kongemose Culture (CulturalAge) ──
+# ── 195/312: Kongemose Culture (CulturalAge) ──
 ts:kongemose a gts:GeochronologicAge ;
     rdfs:label "Kongemose Culture"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2187,7 +2187,7 @@ ts:kongemose a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "5200 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 196/309: Nøstvet and Lihult Cultures (CulturalAge) ──
+# ── 196/312: Nøstvet and Lihult Cultures (CulturalAge) ──
 ts:nostvet-lihult a gts:GeochronologicAge ;
     rdfs:label "Nøstvet and Lihult Cultures"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2198,7 +2198,7 @@ ts:nostvet-lihult a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "4000 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 197/309: Ertebølle Culture (CulturalAge) ──
+# ── 197/312: Ertebølle Culture (CulturalAge) ──
 ts:ertebolleculture a gts:GeochronologicAge ;
     rdfs:label "Ertebølle Culture"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2209,7 +2209,7 @@ ts:ertebolleculture a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "3950 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 198/309: Neolithic (New Stone Age) (CulturalAge) ──
+# ── 198/312: Neolithic (New Stone Age) (CulturalAge) ──
 ts:neolithic a gts:GeochronologicAge ;
     rdfs:label "Neolithic (New Stone Age)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2220,7 +2220,7 @@ ts:neolithic a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "2000 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 199/309: Funnelbeaker Culture (TRB) (CulturalAge) ──
+# ── 199/312: Funnelbeaker Culture (TRB) (CulturalAge) ──
 ts:funnelbeaker a gts:GeochronologicAge ;
     rdfs:label "Funnelbeaker Culture (TRB)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2231,7 +2231,7 @@ ts:funnelbeaker a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "2700 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 200/309: Pitted Ware Culture (CulturalAge) ──
+# ── 200/312: Pitted Ware Culture (CulturalAge) ──
 ts:pitted-ware a gts:GeochronologicAge ;
     rdfs:label "Pitted Ware Culture"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2242,7 +2242,7 @@ ts:pitted-ware a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "2300 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 201/309: Battle Axe Culture (Boat Axe Culture) (CulturalAge) ──
+# ── 201/312: Battle Axe Culture (Boat Axe Culture) (CulturalAge) ──
 ts:battle-axe a gts:GeochronologicAge ;
     rdfs:label "Battle Axe Culture (Boat Axe Culture)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2253,7 +2253,7 @@ ts:battle-axe a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "2300 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 202/309: Late Neolithic Scandinavia (CulturalAge) ──
+# ── 202/312: Late Neolithic Scandinavia (CulturalAge) ──
 ts:nordic-neolithic-late a gts:GeochronologicAge ;
     rdfs:label "Late Neolithic Scandinavia"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2264,7 +2264,7 @@ ts:nordic-neolithic-late a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1750 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 203/309: Chalcolithic (Copper Age) (CulturalAge) ──
+# ── 203/312: Chalcolithic (Copper Age) (CulturalAge) ──
 ts:chalcolithic a gts:GeochronologicAge ;
     rdfs:label "Chalcolithic (Copper Age)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2275,7 +2275,7 @@ ts:chalcolithic a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "2000 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 204/309: Bronze Age (CulturalAge) ──
+# ── 204/312: Bronze Age (CulturalAge) ──
 ts:bronze-age a gts:GeochronologicAge ;
     rdfs:label "Bronze Age"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2286,7 +2286,7 @@ ts:bronze-age a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1200 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 205/309: Early Bronze Age (CulturalAge) ──
+# ── 205/312: Early Bronze Age (CulturalAge) ──
 ts:early-bronze-age a gts:GeochronologicAge ;
     rdfs:label "Early Bronze Age"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2297,7 +2297,7 @@ ts:early-bronze-age a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "2000 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 206/309: Middle Bronze Age (CulturalAge) ──
+# ── 206/312: Middle Bronze Age (CulturalAge) ──
 ts:middle-bronze-age a gts:GeochronologicAge ;
     rdfs:label "Middle Bronze Age"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2308,7 +2308,7 @@ ts:middle-bronze-age a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1550 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 207/309: Late Bronze Age (CulturalAge) ──
+# ── 207/312: Late Bronze Age (CulturalAge) ──
 ts:late-bronze-age a gts:GeochronologicAge ;
     rdfs:label "Late Bronze Age"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2319,7 +2319,7 @@ ts:late-bronze-age a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1200 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 208/309: Nordic Bronze Age (CulturalAge) ──
+# ── 208/312: Nordic Bronze Age (CulturalAge) ──
 ts:nordic-bronze-age a gts:GeochronologicAge ;
     rdfs:label "Nordic Bronze Age"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2330,7 +2330,7 @@ ts:nordic-bronze-age a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "500 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 209/309: Early Nordic Bronze Age (Period I–III) (CulturalAge) ──
+# ── 209/312: Early Nordic Bronze Age (Period I–III) (CulturalAge) ──
 ts:nordic-bronze-early a gts:GeochronologicAge ;
     rdfs:label "Early Nordic Bronze Age (Period I–III)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2341,7 +2341,7 @@ ts:nordic-bronze-early a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1100 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 210/309: Montelius Period I (CulturalAge) ──
+# ── 210/312: Montelius Period I (CulturalAge) ──
 ts:montelius-i a gts:GeochronologicAge ;
     rdfs:label "Montelius Period I"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2352,7 +2352,7 @@ ts:montelius-i a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1500 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 211/309: Montelius Period II (CulturalAge) ──
+# ── 211/312: Montelius Period II (CulturalAge) ──
 ts:montelius-ii a gts:GeochronologicAge ;
     rdfs:label "Montelius Period II"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2363,7 +2363,7 @@ ts:montelius-ii a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1300 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 212/309: Montelius Period III (CulturalAge) ──
+# ── 212/312: Montelius Period III (CulturalAge) ──
 ts:montelius-iii a gts:GeochronologicAge ;
     rdfs:label "Montelius Period III"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2374,7 +2374,7 @@ ts:montelius-iii a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1100 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 213/309: Late Nordic Bronze Age (Period IV–VI) (CulturalAge) ──
+# ── 213/312: Late Nordic Bronze Age (Period IV–VI) (CulturalAge) ──
 ts:nordic-bronze-late a gts:GeochronologicAge ;
     rdfs:label "Late Nordic Bronze Age (Period IV–VI)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2385,7 +2385,7 @@ ts:nordic-bronze-late a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "500 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 214/309: Montelius Period IV (CulturalAge) ──
+# ── 214/312: Montelius Period IV (CulturalAge) ──
 ts:montelius-iv a gts:GeochronologicAge ;
     rdfs:label "Montelius Period IV"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2396,7 +2396,7 @@ ts:montelius-iv a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "900 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 215/309: Montelius Period V (CulturalAge) ──
+# ── 215/312: Montelius Period V (CulturalAge) ──
 ts:montelius-v a gts:GeochronologicAge ;
     rdfs:label "Montelius Period V"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2407,7 +2407,7 @@ ts:montelius-v a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "700 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 216/309: Montelius Period VI (CulturalAge) ──
+# ── 216/312: Montelius Period VI (CulturalAge) ──
 ts:montelius-vi a gts:GeochronologicAge ;
     rdfs:label "Montelius Period VI"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2418,7 +2418,7 @@ ts:montelius-vi a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "500 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 217/309: Iron Age (CulturalAge) ──
+# ── 217/312: Iron Age (CulturalAge) ──
 ts:iron-age a gts:GeochronologicAge ;
     rdfs:label "Iron Age"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2429,7 +2429,7 @@ ts:iron-age a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 218/309: Pre-Roman Iron Age (CulturalAge) ──
+# ── 218/312: Pre-Roman Iron Age (CulturalAge) ──
 ts:pre-roman-iron-age a gts:GeochronologicAge ;
     rdfs:label "Pre-Roman Iron Age"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2440,7 +2440,7 @@ ts:pre-roman-iron-age a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 219/309: Early Pre-Roman Iron Age (CulturalAge) ──
+# ── 219/312: Early Pre-Roman Iron Age (CulturalAge) ──
 ts:pre-roman-iron-early a gts:GeochronologicAge ;
     rdfs:label "Early Pre-Roman Iron Age"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2451,7 +2451,7 @@ ts:pre-roman-iron-early a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "250 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 220/309: Late Pre-Roman Iron Age (CulturalAge) ──
+# ── 220/312: Late Pre-Roman Iron Age (CulturalAge) ──
 ts:pre-roman-iron-late a gts:GeochronologicAge ;
     rdfs:label "Late Pre-Roman Iron Age"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2462,7 +2462,7 @@ ts:pre-roman-iron-late a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 221/309: Roman Iron Age (CulturalAge) ──
+# ── 221/312: Roman Iron Age (CulturalAge) ──
 ts:roman-iron-age a gts:GeochronologicAge ;
     rdfs:label "Roman Iron Age"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2473,7 +2473,7 @@ ts:roman-iron-age a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "400 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 222/309: Early Roman Iron Age (CulturalAge) ──
+# ── 222/312: Early Roman Iron Age (CulturalAge) ──
 ts:early-roman-iron a gts:GeochronologicAge ;
     rdfs:label "Early Roman Iron Age"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2484,7 +2484,7 @@ ts:early-roman-iron a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "200 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 223/309: Late Roman Iron Age (CulturalAge) ──
+# ── 223/312: Late Roman Iron Age (CulturalAge) ──
 ts:late-roman-iron a gts:GeochronologicAge ;
     rdfs:label "Late Roman Iron Age"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2495,7 +2495,7 @@ ts:late-roman-iron a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "400 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 224/309: Germanic Iron Age (CulturalAge) ──
+# ── 224/312: Germanic Iron Age (CulturalAge) ──
 ts:germanic-iron-age a gts:GeochronologicAge ;
     rdfs:label "Germanic Iron Age"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2506,7 +2506,7 @@ ts:germanic-iron-age a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "790 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 225/309: Migration Period (Völkerwanderung) (CulturalAge) ──
+# ── 225/312: Migration Period (Völkerwanderung) (CulturalAge) ──
 ts:migration-period a gts:GeochronologicAge ;
     rdfs:label "Migration Period (Völkerwanderung)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2517,7 +2517,7 @@ ts:migration-period a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "550 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 226/309: Early Migration Period (CulturalAge) ──
+# ── 226/312: Early Migration Period (CulturalAge) ──
 ts:migration-early a gts:GeochronologicAge ;
     rdfs:label "Early Migration Period"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2528,7 +2528,7 @@ ts:migration-early a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "475 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 227/309: Late Migration Period (CulturalAge) ──
+# ── 227/312: Late Migration Period (CulturalAge) ──
 ts:migration-late a gts:GeochronologicAge ;
     rdfs:label "Late Migration Period"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2539,7 +2539,7 @@ ts:migration-late a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "550 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 228/309: Vendel Period (Merovingian Period) (CulturalAge) ──
+# ── 228/312: Vendel Period (Merovingian Period) (CulturalAge) ──
 ts:vendel-period a gts:GeochronologicAge ;
     rdfs:label "Vendel Period (Merovingian Period)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2550,7 +2550,7 @@ ts:vendel-period a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "790 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 229/309: Early Vendel Period (CulturalAge) ──
+# ── 229/312: Early Vendel Period (CulturalAge) ──
 ts:vendel-early a gts:GeochronologicAge ;
     rdfs:label "Early Vendel Period"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2561,7 +2561,7 @@ ts:vendel-early a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "650 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 230/309: Late Vendel Period (CulturalAge) ──
+# ── 230/312: Late Vendel Period (CulturalAge) ──
 ts:vendel-late a gts:GeochronologicAge ;
     rdfs:label "Late Vendel Period"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2572,7 +2572,7 @@ ts:vendel-late a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "790 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 231/309: Viking Age (CulturalAge) ──
+# ── 231/312: Viking Age (CulturalAge) ──
 ts:viking-age a gts:GeochronologicAge ;
     rdfs:label "Viking Age"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2583,7 +2583,7 @@ ts:viking-age a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1100 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 232/309: Early Viking Age (CulturalAge) ──
+# ── 232/312: Early Viking Age (CulturalAge) ──
 ts:early-viking-age a gts:GeochronologicAge ;
     rdfs:label "Early Viking Age"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2594,7 +2594,7 @@ ts:early-viking-age a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "900 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 233/309: Middle Viking Age (CulturalAge) ──
+# ── 233/312: Middle Viking Age (CulturalAge) ──
 ts:middle-viking-age a gts:GeochronologicAge ;
     rdfs:label "Middle Viking Age"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2605,7 +2605,7 @@ ts:middle-viking-age a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1000 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 234/309: Late Viking Age (CulturalAge) ──
+# ── 234/312: Late Viking Age (CulturalAge) ──
 ts:late-viking-age a gts:GeochronologicAge ;
     rdfs:label "Late Viking Age"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2616,7 +2616,7 @@ ts:late-viking-age a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1100 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 235/309: Medieval Period (CulturalAge) ──
+# ── 235/312: Medieval Period (CulturalAge) ──
 ts:medieval-period a gts:GeochronologicAge ;
     rdfs:label "Medieval Period"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2627,7 +2627,7 @@ ts:medieval-period a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1520 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 236/309: Early Medieval Period (CulturalAge) ──
+# ── 236/312: Early Medieval Period (CulturalAge) ──
 ts:early-medieval a gts:GeochronologicAge ;
     rdfs:label "Early Medieval Period"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2638,7 +2638,7 @@ ts:early-medieval a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1200 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 237/309: High Medieval Period (CulturalAge) ──
+# ── 237/312: High Medieval Period (CulturalAge) ──
 ts:high-medieval a gts:GeochronologicAge ;
     rdfs:label "High Medieval Period"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2649,7 +2649,7 @@ ts:high-medieval a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1350 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 238/309: Late Medieval Period (CulturalAge) ──
+# ── 238/312: Late Medieval Period (CulturalAge) ──
 ts:late-medieval a gts:GeochronologicAge ;
     rdfs:label "Late Medieval Period"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2660,7 +2660,7 @@ ts:late-medieval a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1520 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 239/309: Early Modern Period (CulturalAge) ──
+# ── 239/312: Early Modern Period (CulturalAge) ──
 ts:early-modern a gts:GeochronologicAge ;
     rdfs:label "Early Modern Period"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2671,7 +2671,7 @@ ts:early-modern a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1789 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 240/309: Early Vasa Era (Äldre Vasatiden) (CulturalAge) ──
+# ── 240/312: Early Vasa Era (Äldre Vasatiden) (CulturalAge) ──
 ts:early-vasa-era a gts:GeochronologicAge ;
     rdfs:label "Early Vasa Era (Äldre Vasatiden)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2682,7 +2682,7 @@ ts:early-vasa-era a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1611 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 241/309: Reformation Era (CulturalAge) ──
+# ── 241/312: Reformation Era (CulturalAge) ──
 ts:reformation-era a gts:GeochronologicAge ;
     rdfs:label "Reformation Era"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2693,7 +2693,7 @@ ts:reformation-era a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1600 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 242/309: Swedish Empire (Stormaktstiden) (CulturalAge) ──
+# ── 242/312: Swedish Empire (Stormaktstiden) (CulturalAge) ──
 ts:swedish-empire a gts:GeochronologicAge ;
     rdfs:label "Swedish Empire (Stormaktstiden)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2704,7 +2704,7 @@ ts:swedish-empire a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1721 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 243/309: Thirty Years' War Period (CulturalAge) ──
+# ── 243/312: Thirty Years' War Period (CulturalAge) ──
 ts:thirty-years-war a gts:GeochronologicAge ;
     rdfs:label "Thirty Years' War Period"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2715,7 +2715,7 @@ ts:thirty-years-war a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1648 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 244/309: Caroline Era (Karolinska tiden) (CulturalAge) ──
+# ── 244/312: Caroline Era (Karolinska tiden) (CulturalAge) ──
 ts:caroline-era a gts:GeochronologicAge ;
     rdfs:label "Caroline Era (Karolinska tiden)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2726,7 +2726,7 @@ ts:caroline-era a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1718 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 245/309: Age of Liberty (Frihetstiden) (CulturalAge) ──
+# ── 245/312: Age of Liberty (Frihetstiden) (CulturalAge) ──
 ts:age-of-liberty a gts:GeochronologicAge ;
     rdfs:label "Age of Liberty (Frihetstiden)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2737,7 +2737,7 @@ ts:age-of-liberty a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1772 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 246/309: Gustavian Era (Gustavianska tiden) (CulturalAge) ──
+# ── 246/312: Gustavian Era (Gustavianska tiden) (CulturalAge) ──
 ts:gustavian-era a gts:GeochronologicAge ;
     rdfs:label "Gustavian Era (Gustavianska tiden)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2748,7 +2748,7 @@ ts:gustavian-era a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1809 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 247/309: Modern Period (CulturalAge) ──
+# ── 247/312: Modern Period (CulturalAge) ──
 ts:modern-period a gts:GeochronologicAge ;
     rdfs:label "Modern Period"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2759,7 +2759,7 @@ ts:modern-period a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "Present" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 248/309: Bernadotte Era / Union Period (CulturalAge) ──
+# ── 248/312: Bernadotte Era / Union Period (CulturalAge) ──
 ts:bernadotte-era a gts:GeochronologicAge ;
     rdfs:label "Bernadotte Era / Union Period"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2770,7 +2770,7 @@ ts:bernadotte-era a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1905 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 249/309: Industrial Age (Industrialiseringen) (CulturalAge) ──
+# ── 249/312: Industrial Age (Industrialiseringen) (CulturalAge) ──
 ts:industrial-age a gts:GeochronologicAge ;
     rdfs:label "Industrial Age (Industrialiseringen)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2781,7 +2781,7 @@ ts:industrial-age a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1914 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 250/309: Contemporary Period (CulturalAge) ──
+# ── 250/312: Contemporary Period (CulturalAge) ──
 ts:contemporary a gts:GeochronologicAge ;
     rdfs:label "Contemporary Period"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2792,7 +2792,7 @@ ts:contemporary a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "Present" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 251/309: Archaic Greece (CulturalAge) ──
+# ── 251/312: Archaic Greece (CulturalAge) ──
 ts:archaic-greece a gts:GeochronologicAge ;
     rdfs:label "Archaic Greece"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2803,7 +2803,7 @@ ts:archaic-greece a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "480 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 252/309: Classical Greece (CulturalAge) ──
+# ── 252/312: Classical Greece (CulturalAge) ──
 ts:classical-greece a gts:GeochronologicAge ;
     rdfs:label "Classical Greece"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2814,7 +2814,7 @@ ts:classical-greece a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "323 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 253/309: Hellenistic Period (CulturalAge) ──
+# ── 253/312: Hellenistic Period (CulturalAge) ──
 ts:hellenistic-period a gts:GeochronologicAge ;
     rdfs:label "Hellenistic Period"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2825,7 +2825,7 @@ ts:hellenistic-period a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "31 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 254/309: Roman Republic (CulturalAge) ──
+# ── 254/312: Roman Republic (CulturalAge) ──
 ts:roman-republic a gts:GeochronologicAge ;
     rdfs:label "Roman Republic"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2836,7 +2836,7 @@ ts:roman-republic a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "27 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 255/309: Roman Empire (CulturalAge) ──
+# ── 255/312: Roman Empire (CulturalAge) ──
 ts:roman-empire a gts:GeochronologicAge ;
     rdfs:label "Roman Empire"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2847,7 +2847,7 @@ ts:roman-empire a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "476 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 256/309: Late Antiquity (CulturalAge) ──
+# ── 256/312: Late Antiquity (CulturalAge) ──
 ts:late-antiquity a gts:GeochronologicAge ;
     rdfs:label "Late Antiquity"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2858,7 +2858,7 @@ ts:late-antiquity a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "750 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 257/309: Early Middle Ages (Europe) (CulturalAge) ──
+# ── 257/312: Early Middle Ages (Europe) (CulturalAge) ──
 ts:european-early-medieval a gts:GeochronologicAge ;
     rdfs:label "Early Middle Ages (Europe)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2869,7 +2869,7 @@ ts:european-early-medieval a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1000 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 258/309: Merovingian Period (Frankish) (CulturalAge) ──
+# ── 258/312: Merovingian Period (Frankish) (CulturalAge) ──
 ts:merovingian-period a gts:GeochronologicAge ;
     rdfs:label "Merovingian Period (Frankish)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2880,7 +2880,7 @@ ts:merovingian-period a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "751 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 259/309: Carolingian Period (CulturalAge) ──
+# ── 259/312: Carolingian Period (CulturalAge) ──
 ts:carolingian-period a gts:GeochronologicAge ;
     rdfs:label "Carolingian Period"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2891,7 +2891,7 @@ ts:carolingian-period a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "888 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 260/309: Ottonian Period (CulturalAge) ──
+# ── 260/312: Ottonian Period (CulturalAge) ──
 ts:ottonian-period a gts:GeochronologicAge ;
     rdfs:label "Ottonian Period"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2902,7 +2902,7 @@ ts:ottonian-period a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1024 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 261/309: High Middle Ages (Europe) (CulturalAge) ──
+# ── 261/312: High Middle Ages (Europe) (CulturalAge) ──
 ts:european-high-medieval a gts:GeochronologicAge ;
     rdfs:label "High Middle Ages (Europe)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2913,7 +2913,7 @@ ts:european-high-medieval a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1300 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 262/309: Crusades Period (CulturalAge) ──
+# ── 262/312: Crusades Period (CulturalAge) ──
 ts:crusades-period a gts:GeochronologicAge ;
     rdfs:label "Crusades Period"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2924,7 +2924,7 @@ ts:crusades-period a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1291 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 263/309: Renaissance of the 12th Century (CulturalAge) ──
+# ── 263/312: Renaissance of the 12th Century (CulturalAge) ──
 ts:twelfth-century-renaissance a gts:GeochronologicAge ;
     rdfs:label "Renaissance of the 12th Century"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2935,7 +2935,7 @@ ts:twelfth-century-renaissance a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1200 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 264/309: Late Middle Ages (Europe) (CulturalAge) ──
+# ── 264/312: Late Middle Ages (Europe) (CulturalAge) ──
 ts:european-late-medieval a gts:GeochronologicAge ;
     rdfs:label "Late Middle Ages (Europe)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2946,7 +2946,7 @@ ts:european-late-medieval a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1500 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 265/309: Renaissance (CulturalAge) ──
+# ── 265/312: Renaissance (CulturalAge) ──
 ts:renaissance a gts:GeochronologicAge ;
     rdfs:label "Renaissance"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2957,7 +2957,7 @@ ts:renaissance a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1600 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 266/309: Italian Renaissance (CulturalAge) ──
+# ── 266/312: Italian Renaissance (CulturalAge) ──
 ts:italian-renaissance a gts:GeochronologicAge ;
     rdfs:label "Italian Renaissance"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2968,7 +2968,7 @@ ts:italian-renaissance a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1550 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 267/309: Northern Renaissance (CulturalAge) ──
+# ── 267/312: Northern Renaissance (CulturalAge) ──
 ts:northern-renaissance a gts:GeochronologicAge ;
     rdfs:label "Northern Renaissance"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2979,7 +2979,7 @@ ts:northern-renaissance a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1600 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 268/309: Age of Exploration (CulturalAge) ──
+# ── 268/312: Age of Exploration (CulturalAge) ──
 ts:age-of-exploration a gts:GeochronologicAge ;
     rdfs:label "Age of Exploration"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -2990,7 +2990,7 @@ ts:age-of-exploration a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1600 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 269/309: European Reformation (CulturalAge) ──
+# ── 269/312: European Reformation (CulturalAge) ──
 ts:european-reformation a gts:GeochronologicAge ;
     rdfs:label "European Reformation"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3001,7 +3001,7 @@ ts:european-reformation a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1648 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 270/309: Baroque Period (CulturalAge) ──
+# ── 270/312: Baroque Period (CulturalAge) ──
 ts:baroque-period a gts:GeochronologicAge ;
     rdfs:label "Baroque Period"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3012,7 +3012,7 @@ ts:baroque-period a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1750 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 271/309: Age of Enlightenment (CulturalAge) ──
+# ── 271/312: Age of Enlightenment (CulturalAge) ──
 ts:enlightenment a gts:GeochronologicAge ;
     rdfs:label "Age of Enlightenment"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3023,7 +3023,7 @@ ts:enlightenment a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1815 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 272/309: Age of Revolutions (CulturalAge) ──
+# ── 272/312: Age of Revolutions (CulturalAge) ──
 ts:age-of-revolutions a gts:GeochronologicAge ;
     rdfs:label "Age of Revolutions"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3034,7 +3034,7 @@ ts:age-of-revolutions a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1848 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 273/309: Romantic Period (CulturalAge) ──
+# ── 273/312: Romantic Period (CulturalAge) ──
 ts:romanticism a gts:GeochronologicAge ;
     rdfs:label "Romantic Period"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3045,18 +3045,51 @@ ts:romanticism a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1850 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 274/309: World Wars Era (CulturalAge) ──
+# ── 274/312: World Wars Era (CulturalAge) ──
 ts:world-wars-era a gts:GeochronologicAge ;
     rdfs:label "World Wars Era"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
-    skos:definition "World War I (1914-1918), interwar period, World War II (1939-1945); tens of millions killed; Europe devastated."@en ;
+    skos:definition "Two global conflicts and an interwar period that reshaped Europe; tens of millions killed; colonial empires begin to dissolve."@en ;
     gts:rank "CulturalAge" ;
     skos:broader ts:contemporary ;
     time:hasBeginning [ rdfs:label "1914 CE" ] ;
     time:hasEnd [ rdfs:label "1945 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 275/309: Cold War Era (CulturalAge) ──
+# ── 275/312: World War I (CulturalAge) ──
+ts:world-war-i a gts:GeochronologicAge ;
+    rdfs:label "World War I"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "The Great War; trench warfare; fall of empires (Ottoman, Austro-Hungarian, Russian, German); Treaty of Versailles (1919)."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:world-wars-era ;
+    time:hasBeginning [ rdfs:label "1914 CE" ] ;
+    time:hasEnd [ rdfs:label "1918 CE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 276/312: Interwar Period (CulturalAge) ──
+ts:interwar-period a gts:GeochronologicAge ;
+    rdfs:label "Interwar Period"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "League of Nations; Weimar Republic; Great Depression (1929); rise of fascism in Italy, Germany, Spain; Spanish Civil War."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:world-wars-era ;
+    time:hasBeginning [ rdfs:label "1918 CE" ] ;
+    time:hasEnd [ rdfs:label "1939 CE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 277/312: World War II (CulturalAge) ──
+ts:world-war-ii a gts:GeochronologicAge ;
+    rdfs:label "World War II"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Global conflict; Nazi Germany, Holocaust; Allied victory; atomic bombs; United Nations founded (1945); Europe devastated."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:world-wars-era ;
+    time:hasBeginning [ rdfs:label "1939 CE" ] ;
+    time:hasEnd [ rdfs:label "1945 CE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 278/312: Cold War Era (CulturalAge) ──
 ts:cold-war-era a gts:GeochronologicAge ;
     rdfs:label "Cold War Era"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3067,7 +3100,7 @@ ts:cold-war-era a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1991 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 276/309: European Integration (CulturalAge) ──
+# ── 279/312: European Integration (CulturalAge) ──
 ts:european-integration a gts:GeochronologicAge ;
     rdfs:label "European Integration"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3078,7 +3111,7 @@ ts:european-integration a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "Present" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 277/309: End-Ordovician Extinction (Age) ──
+# ── 280/312: End-Ordovician Extinction (Age) ──
 ts:end-ordovician-extinction a gts:GeochronologicAge ;
     rdfs:label "End-Ordovician Extinction"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3089,7 +3122,7 @@ ts:end-ordovician-extinction a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "443"^^xsd:decimal ; rdfs:label "443 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 278/309: Late Devonian Extinction (Age) ──
+# ── 281/312: Late Devonian Extinction (Age) ──
 ts:late-devonian-extinction a gts:GeochronologicAge ;
     rdfs:label "Late Devonian Extinction"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3100,7 +3133,7 @@ ts:late-devonian-extinction a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "359"^^xsd:decimal ; rdfs:label "359 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 279/309: Permian–Triassic Extinction (The Great Dying) (Age) ──
+# ── 282/312: Permian–Triassic Extinction (The Great Dying) (Age) ──
 ts:permian-triassic-extinction a gts:GeochronologicAge ;
     rdfs:label "Permian–Triassic Extinction (The Great Dying)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3111,7 +3144,7 @@ ts:permian-triassic-extinction a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "251"^^xsd:decimal ; rdfs:label "251 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 280/309: Triassic–Jurassic Extinction (Age) ──
+# ── 283/312: Triassic–Jurassic Extinction (Age) ──
 ts:triassic-jurassic-extinction a gts:GeochronologicAge ;
     rdfs:label "Triassic–Jurassic Extinction"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3122,7 +3155,7 @@ ts:triassic-jurassic-extinction a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "201.3"^^xsd:decimal ; rdfs:label "201.3 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 281/309: Cretaceous–Paleogene Extinction (K-Pg) (Age) ──
+# ── 284/312: Cretaceous–Paleogene Extinction (K-Pg) (Age) ──
 ts:cretaceous-paleogene-extinction a gts:GeochronologicAge ;
     rdfs:label "Cretaceous–Paleogene Extinction (K-Pg)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3133,7 +3166,7 @@ ts:cretaceous-paleogene-extinction a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "66"^^xsd:decimal ; rdfs:label "66 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 282/309: Great Oxidation Event (Age) ──
+# ── 285/312: Great Oxidation Event (Age) ──
 ts:great-oxidation a gts:GeochronologicAge ;
     rdfs:label "Great Oxidation Event"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3144,7 +3177,7 @@ ts:great-oxidation a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "2060"^^xsd:decimal ; rdfs:label "2060 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 283/309: Huronian Glaciation (Age) ──
+# ── 286/312: Huronian Glaciation (Age) ──
 ts:huronian-glaciation a gts:GeochronologicAge ;
     rdfs:label "Huronian Glaciation"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3155,7 +3188,7 @@ ts:huronian-glaciation a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "2100"^^xsd:decimal ; rdfs:label "2100 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 284/309: Paleocene–Eocene Thermal Maximum (PETM) (Age) ──
+# ── 287/312: Paleocene–Eocene Thermal Maximum (PETM) (Age) ──
 ts:petm a gts:GeochronologicAge ;
     rdfs:label "Paleocene–Eocene Thermal Maximum (PETM)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3166,7 +3199,7 @@ ts:petm a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "55.6"^^xsd:decimal ; rdfs:label "55.6 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 285/309: Messinian Salinity Crisis (Age) ──
+# ── 288/312: Messinian Salinity Crisis (Age) ──
 ts:messinian-crisis a gts:GeochronologicAge ;
     rdfs:label "Messinian Salinity Crisis"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3177,7 +3210,7 @@ ts:messinian-crisis a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "5.33"^^xsd:decimal ; rdfs:label "5.33 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 286/309: Last Glacial Maximum (Age) ──
+# ── 289/312: Last Glacial Maximum (Age) ──
 ts:last-glacial-max a gts:GeochronologicAge ;
     rdfs:label "Last Glacial Maximum"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3188,7 +3221,7 @@ ts:last-glacial-max a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "0.019"^^xsd:decimal ; rdfs:label "0.019 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 287/309: Younger Dryas (Age) ──
+# ── 290/312: Younger Dryas (Age) ──
 ts:younger-dryas a gts:GeochronologicAge ;
     rdfs:label "Younger Dryas"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3199,7 +3232,7 @@ ts:younger-dryas a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "11700 years BP" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 288/309: 8.2 ka Cold Event (Age) ──
+# ── 291/312: 8.2 ka Cold Event (Age) ──
 ts:8.2ka-event a gts:GeochronologicAge ;
     rdfs:label "8.2 ka Cold Event"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3210,7 +3243,7 @@ ts:8.2ka-event a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "8000 years BP" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 289/309: 4.2 ka Aridification Event (Age) ──
+# ── 292/312: 4.2 ka Aridification Event (Age) ──
 ts:4.2ka-event a gts:GeochronologicAge ;
     rdfs:label "4.2 ka Aridification Event"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3221,7 +3254,7 @@ ts:4.2ka-event a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "3900 years BP" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 290/309: Sámi Prehistory (CulturalAge) ──
+# ── 293/312: Sámi Prehistory (CulturalAge) ──
 ts:sami-prehistory a gts:GeochronologicAge ;
     rdfs:label "Sámi Prehistory"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3232,7 +3265,7 @@ ts:sami-prehistory a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1600 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 291/309: Comb Ceramic Culture (CulturalAge) ──
+# ── 294/312: Comb Ceramic Culture (CulturalAge) ──
 ts:comb-ceramic a gts:GeochronologicAge ;
     rdfs:label "Comb Ceramic Culture"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3243,7 +3276,7 @@ ts:comb-ceramic a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "2800 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 292/309: Asbestos Ceramic Period (Finland) (CulturalAge) ──
+# ── 295/312: Asbestos Ceramic Period (Finland) (CulturalAge) ──
 ts:asbestos-ceramic a gts:GeochronologicAge ;
     rdfs:label "Asbestos Ceramic Period (Finland)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3254,7 +3287,7 @@ ts:asbestos-ceramic a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "2000 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 293/309: Celtic Iron Age Influences in Scandinavia (CulturalAge) ──
+# ── 296/312: Celtic Iron Age Influences in Scandinavia (CulturalAge) ──
 ts:nordic-iron-age-celtic a gts:GeochronologicAge ;
     rdfs:label "Celtic Iron Age Influences in Scandinavia"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3265,7 +3298,7 @@ ts:nordic-iron-age-celtic a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "200 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 294/309: Jastorf Culture (CulturalAge) ──
+# ── 297/312: Jastorf Culture (CulturalAge) ──
 ts:jastorf-culture a gts:GeochronologicAge ;
     rdfs:label "Jastorf Culture"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3276,7 +3309,7 @@ ts:jastorf-culture a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "100 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 295/309: Danelaw Period (CulturalAge) ──
+# ── 298/312: Danelaw Period (CulturalAge) ──
 ts:danelaw a gts:GeochronologicAge ;
     rdfs:label "Danelaw Period"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3287,7 +3320,7 @@ ts:danelaw a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "954 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 296/309: Settlement of Iceland (CulturalAge) ──
+# ── 299/312: Settlement of Iceland (CulturalAge) ──
 ts:viking-iceland a gts:GeochronologicAge ;
     rdfs:label "Settlement of Iceland"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3298,7 +3331,7 @@ ts:viking-iceland a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "930 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 297/309: Norse Settlement of Normandy (CulturalAge) ──
+# ── 300/312: Norse Settlement of Normandy (CulturalAge) ──
 ts:viking-normandy a gts:GeochronologicAge ;
     rdfs:label "Norse Settlement of Normandy"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3309,7 +3342,7 @@ ts:viking-normandy a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1066 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 298/309: Varangians and Kievan Rus' (CulturalAge) ──
+# ── 301/312: Varangians and Kievan Rus' (CulturalAge) ──
 ts:viking-rus a gts:GeochronologicAge ;
     rdfs:label "Varangians and Kievan Rus'"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3320,7 +3353,7 @@ ts:viking-rus a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1054 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 299/309: Christianization of Scandinavia (CulturalAge) ──
+# ── 302/312: Christianization of Scandinavia (CulturalAge) ──
 ts:christianization-scandinavia a gts:GeochronologicAge ;
     rdfs:label "Christianization of Scandinavia"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3331,7 +3364,7 @@ ts:christianization-scandinavia a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1150 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 300/309: Baltic Crusades Period (CulturalAge) ──
+# ── 303/312: Baltic Crusades Period (CulturalAge) ──
 ts:baltic-crusades a gts:GeochronologicAge ;
     rdfs:label "Baltic Crusades Period"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3342,7 +3375,7 @@ ts:baltic-crusades a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1290 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 301/309: Hanseatic Period in Scandinavia (CulturalAge) ──
+# ── 304/312: Hanseatic Period in Scandinavia (CulturalAge) ──
 ts:hanseatic-period a gts:GeochronologicAge ;
     rdfs:label "Hanseatic Period in Scandinavia"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3353,7 +3386,7 @@ ts:hanseatic-period a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1450 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 302/309: Black Death in Scandinavia (CulturalAge) ──
+# ── 305/312: Black Death in Scandinavia (CulturalAge) ──
 ts:black-death-scandinavia a gts:GeochronologicAge ;
     rdfs:label "Black Death in Scandinavia"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3364,7 +3397,7 @@ ts:black-death-scandinavia a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1360 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 303/309: Kalmar Union (CulturalAge) ──
+# ── 306/312: Kalmar Union (CulturalAge) ──
 ts:kalmar-union a gts:GeochronologicAge ;
     rdfs:label "Kalmar Union"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3375,7 +3408,7 @@ ts:kalmar-union a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1523 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 304/309: Stockholm Bloodbath (CulturalAge) ──
+# ── 307/312: Stockholm Bloodbath (CulturalAge) ──
 ts:stockholm-bloodbath a gts:GeochronologicAge ;
     rdfs:label "Stockholm Bloodbath"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3386,7 +3419,7 @@ ts:stockholm-bloodbath a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1521 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 305/309: Danish Golden Age (CulturalAge) ──
+# ── 308/312: Danish Golden Age (CulturalAge) ──
 ts:danish-golden-age a gts:GeochronologicAge ;
     rdfs:label "Danish Golden Age"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3397,7 +3430,7 @@ ts:danish-golden-age a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1850 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 306/309: Norwegian Independence (CulturalAge) ──
+# ── 309/312: Norwegian Independence (CulturalAge) ──
 ts:norway-independence a gts:GeochronologicAge ;
     rdfs:label "Norwegian Independence"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3408,7 +3441,7 @@ ts:norway-independence a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1905 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 307/309: Grand Duchy of Finland (CulturalAge) ──
+# ── 310/312: Grand Duchy of Finland (CulturalAge) ──
 ts:finland-grand-duchy a gts:GeochronologicAge ;
     rdfs:label "Grand Duchy of Finland"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3419,7 +3452,7 @@ ts:finland-grand-duchy a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1917 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 308/309: Eocene–Oligocene Extinction (Grande Coupure) (Age) ──
+# ── 311/312: Eocene–Oligocene Extinction (Grande Coupure) (Age) ──
 ts:eocene-oligocene-extinction a gts:GeochronologicAge ;
     rdfs:label "Eocene–Oligocene Extinction (Grande Coupure)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
@@ -3430,7 +3463,7 @@ ts:eocene-oligocene-extinction a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "33.7"^^xsd:decimal ; rdfs:label "33.7 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 309/309: Cambrian Explosion (Age) ──
+# ── 312/312: Cambrian Explosion (Age) ──
 ts:cambrian-explosion a gts:GeochronologicAge ;
     rdfs:label "Cambrian Explosion"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;

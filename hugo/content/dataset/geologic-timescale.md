@@ -1,6 +1,6 @@
 ---
 title: "Geologic Time Scale"
-description: "309 linked data entries covering Earth's 4.6 billion year history — from the Hadean eon through geologic eras, periods, and epochs to archaeological ages (Stone Age, Bronze Age, Iron Age, Viking Age, Medieval) with a Scandinavian focus."
+description: "312 linked data entries covering Earth's 4.6 billion year history — from the Hadean eon through geologic eras, periods, and epochs to archaeological ages (Stone Age, Bronze Age, Iron Age, Viking Age, Medieval) with a Scandinavian focus."
 date: 2024-12-01
 type: dataset
 publisher: "Port 30 KB"
@@ -19,12 +19,12 @@ tags:
   - linked-data
 distributions:
   - id: "turtle"
-    title: "RDF Turtle (309 entries)"
+    title: "RDF Turtle (312 entries)"
     accessURL: "https://metadatahub.eu/data/geologic-timescale.ttl"
     downloadURL: "https://metadatahub.eu/data/geologic-timescale.ttl"
     mediaType: "text/turtle"
   - id: "jsonld"
-    title: "JSON-LD (309 entries)"
+    title: "JSON-LD (312 entries)"
     accessURL: "https://metadatahub.eu/data/geologic-timescale.jsonld"
     downloadURL: "https://metadatahub.eu/data/geologic-timescale.jsonld"
     mediaType: "application/ld+json"
@@ -32,7 +32,7 @@ distributions:
 
 ## Overview
 
-This dataset models the **complete geologic time scale** as a SKOS concept scheme with 309 entries, using the [GeoSciML Geologic Timescale ontology](http://resource.geosciml.org/ontology/timescale/gts) and [W3C Time Ontology](http://www.w3.org/2006/time). It spans from the formation of Earth (4,600 Ma) through all geologic divisions down to individual ages/stages, then bridges into **archaeological and cultural periods** with a Scandinavian focus — from the Stone Age through the Viking Age and Medieval period to the Early Modern era.
+This dataset models the **complete geologic time scale** as a SKOS concept scheme with 312 entries, using the [GeoSciML Geologic Timescale ontology](http://resource.geosciml.org/ontology/timescale/gts) and [W3C Time Ontology](http://www.w3.org/2006/time). It spans from the formation of Earth (4,600 Ma) through all geologic divisions down to individual ages/stages, then bridges into **archaeological and cultural periods** with a Scandinavian focus — from the Stone Age through the Viking Age and Medieval period to the Early Modern era.
 
 ## Sources
 
@@ -56,7 +56,7 @@ License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (matchi
 
 | Category | Count |
 |----------|-------|
-| **Total entries** | 309 |
+| **Total entries** | 312 |
 | **Eons** | 4 (Hadean, Archean, Proterozoic, Phanerozoic) |
 | **Eras** | 13 (incl. Hadean informal divisions) |
 | **Periods** | 22 + 2 sub-periods (Mississippian, Pennsylvanian) |
@@ -209,7 +209,9 @@ ts:jurassic a gts:GeochronologicPeriod ;
 | **Enlightenment** | 1685–1815 CE | Reason and science; Voltaire, Kant; influences revolutions |
 | **Age of Revolutions** | 1775–1848 CE | American and French Revolutions; Napoleonic Wars; 1848 |
 | **Romantic Period** | 1790–1850 CE | Emotion, nature, nationalism; Goethe, Beethoven |
-| **World Wars Era** | 1914–1945 CE | WWI, interwar, WWII; Europe devastated |
+| **World War I** | 1914–1918 CE | The Great War; trench warfare; fall of empires |
+| **Interwar Period** | 1918–1939 CE | Great Depression; rise of fascism |
+| **World War II** | 1939–1945 CE | Global conflict; Holocaust; Allied victory; UN founded |
 | **Cold War** | 1947–1991 CE | East-West division; NATO vs Warsaw Pact; Berlin Wall |
 | **European Integration** | 1957–present | EEC to EU; Schengen; Euro; 27+ member states |
 
@@ -257,5 +259,5 @@ WHERE {
 
 ## Download
 
-- [Turtle (text/turtle)](/data/geologic-timescale.ttl) — 3,400+ lines, all 309 entries with full hierarchy
+- [Turtle (text/turtle)](/data/geologic-timescale.ttl) — 3,400+ lines, all 312 entries with full hierarchy
 - [JSON-LD (application/ld+json)](/data/geologic-timescale.jsonld) — Same data as JSON-LD graph

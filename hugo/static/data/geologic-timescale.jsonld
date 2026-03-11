@@ -5206,7 +5206,7 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "World War I (1914-1918), interwar period, World War II (1939-1945); tens of millions killed; Europe devastated.",
+        "@value": "Two global conflicts and an interwar period that reshaped Europe; tens of millions killed; colonial empires begin to dissolve.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
@@ -5214,6 +5214,63 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary"
       },
       "time:hasBeginning": "1914 CE",
+      "time:hasEnd": "1945 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/world-war-i",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "World War I",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "The Great War; trench warfare; fall of empires (Ottoman, Austro-Hungarian, Russian, German); Treaty of Versailles (1919).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/world-wars-era"
+      },
+      "time:hasBeginning": "1914 CE",
+      "time:hasEnd": "1918 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/interwar-period",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Interwar Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "League of Nations; Weimar Republic; Great Depression (1929); rise of fascism in Italy, Germany, Spain; Spanish Civil War.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/world-wars-era"
+      },
+      "time:hasBeginning": "1918 CE",
+      "time:hasEnd": "1939 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/world-war-ii",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "World War II",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Global conflict; Nazi Germany, Holocaust; Allied victory; atomic bombs; United Nations founded (1945); Europe devastated.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/world-wars-era"
+      },
+      "time:hasBeginning": "1939 CE",
       "time:hasEnd": "1945 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
