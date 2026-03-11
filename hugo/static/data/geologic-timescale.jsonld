@@ -11,7 +11,7 @@
   "@id": "https://metadatahub.eu/data/geologic-timescale",
   "@type": "skos:ConceptScheme",
   "dcterms:title": "Geologic Time Scale",
-  "dcterms:description": "647 entries covering the geologic time scale from Hadean eon (4600 Ma) to present, including Scandinavian, European, and South American cultural/historical periods.",
+  "dcterms:description": "665 entries covering the geologic time scale from Hadean eon (4600 Ma) to present, including Scandinavian, European, and South American cultural/historical periods.",
   "dcterms:source": [
     "https://en.wikipedia.org/wiki/Geologic_time_scale",
     "https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf",
@@ -5955,7 +5955,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
       },
       "time:hasBeginning": "3000 BCE",
-      "time:hasEnd": "1533 BCE",
+      "time:hasEnd": "1533 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -6886,7 +6886,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
       },
       "time:hasBeginning": "15000 BCE",
-      "time:hasEnd": "1492 BCE",
+      "time:hasEnd": "1492 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -7057,7 +7057,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/north-america-precolumbian"
       },
       "time:hasBeginning": "2000 BCE",
-      "time:hasEnd": "1521 BCE",
+      "time:hasEnd": "1521 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -7095,7 +7095,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/mesoamerica"
       },
       "time:hasBeginning": "700 BCE",
-      "time:hasEnd": "1521 BCE",
+      "time:hasEnd": "1521 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -7152,7 +7152,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/mesoamerica"
       },
       "time:hasBeginning": "2000 BCE",
-      "time:hasEnd": "250 BCE",
+      "time:hasEnd": "250 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -7342,7 +7342,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/mesoamerica"
       },
       "time:hasBeginning": "300 BCE",
-      "time:hasEnd": "250 BCE",
+      "time:hasEnd": "250 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -7361,7 +7361,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/north-america-precolumbian"
       },
       "time:hasBeginning": "1000 BCE",
-      "time:hasEnd": "1000 BCE",
+      "time:hasEnd": "1000 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -7570,7 +7570,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/north-america-precolumbian"
       },
       "time:hasBeginning": "3000 BCE",
-      "time:hasEnd": "1774 BCE",
+      "time:hasEnd": "1774 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -7608,7 +7608,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/north-america-precolumbian"
       },
       "time:hasBeginning": "500 BCE",
-      "time:hasEnd": "1500 BCE",
+      "time:hasEnd": "1500 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -8843,7 +8843,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
       },
       "time:hasBeginning": "2500 BCE",
-      "time:hasEnd": "350 BCE",
+      "time:hasEnd": "350 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -8900,7 +8900,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/nubia-kush"
       },
       "time:hasBeginning": "590 BCE",
-      "time:hasEnd": "350 BCE",
+      "time:hasEnd": "350 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -9014,7 +9014,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
       },
       "time:hasBeginning": "1000 BCE",
-      "time:hasEnd": "1900 BCE",
+      "time:hasEnd": "1900 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -9033,7 +9033,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/west-africa-ancient"
       },
       "time:hasBeginning": "1000 BCE",
-      "time:hasEnd": "300 BCE",
+      "time:hasEnd": "300 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -9394,7 +9394,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/africa-prehistoric"
       },
       "time:hasBeginning": "2000 BCE",
-      "time:hasEnd": "1652 BCE",
+      "time:hasEnd": "1652 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -9413,7 +9413,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
       },
       "time:hasBeginning": "1000 BCE",
-      "time:hasEnd": "500 BCE",
+      "time:hasEnd": "500 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -9987,6 +9987,63 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/satavahana",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Satavahana Dynasty",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Major Deccan power; bridge between Maurya and Gupta; Amaravati stupa; Prakrit patronage; controlled trade routes between north and south India.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-asia-history"
+      },
+      "time:hasBeginning": "230 BCE",
+      "time:hasEnd": "220 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/pallava-dynasty",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Pallava Dynasty",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "South Indian dynasty; Shore Temple and Pancha Rathas at Mamallapuram (UNESCO); Pallava script influenced Southeast Asian scripts; Dravidian architecture.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-asia-history"
+      },
+      "time:hasBeginning": "275 CE",
+      "time:hasEnd": "897 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/chalukya-dynasty",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Chalukya Dynasty",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Major Deccan empire; Badami, Western and Eastern Chalukyas; Pattadakal temples (UNESCO); rival to Pallavas and Cholas; Kannada literary tradition.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-asia-history"
+      },
+      "time:hasBeginning": "543 CE",
+      "time:hasEnd": "1190 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
       "@id": "https://metadatahub.eu/data/geologic-timescale/chola-dynasty",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
@@ -10001,8 +10058,27 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/south-asia-history"
       },
-      "time:hasBeginning": "300 CE",
+      "time:hasBeginning": "300 BCE",
       "time:hasEnd": "1279 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/pala-empire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Pala Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Eastern India (Bengal-Bihar); last major Buddhist empire in India; Nalanda and Vikramashila universities; Pala school of art; tantric Buddhism.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-asia-history"
+      },
+      "time:hasBeginning": "750 CE",
+      "time:hasEnd": "1174 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -10098,6 +10174,25 @@
       },
       "time:hasBeginning": "1674 CE",
       "time:hasEnd": "1818 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/sikh-empire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Sikh Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Maharaja Ranjit Singh; Punjab-based empire; secular governance; Khalsa army; Kohinoor diamond; Anglo-Sikh Wars; annexed by British East India Company.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-asia-history"
+      },
+      "time:hasBeginning": "1799 CE",
+      "time:hasEnd": "1849 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -10325,7 +10420,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/china-history"
       },
       "time:hasBeginning": "206 BCE",
-      "time:hasEnd": "220 BCE",
+      "time:hasEnd": "220 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -10424,6 +10519,25 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/five-dynasties",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Five Dynasties and Ten Kingdoms",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Fragmentation after Tang; five rapid northern dynasties; ten southern kingdoms; political chaos; printing technology spreads; prelude to Song reunification.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/china-history"
+      },
+      "time:hasBeginning": "907 CE",
+      "time:hasEnd": "960 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
       "@id": "https://metadatahub.eu/data/geologic-timescale/song-dynasty",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
@@ -10459,6 +10573,25 @@
       },
       "time:hasBeginning": "960 CE",
       "time:hasEnd": "1127 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/jin-jurchen",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Jin Dynasty (Jurchen)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Jurchen conquest of northern China; sinicized administration; rivalry with Southern Song; fell to Mongols; predecessor to Manchu Qing.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/china-history"
+      },
+      "time:hasBeginning": "1115 CE",
+      "time:hasEnd": "1234 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -10686,7 +10819,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/japan-history"
       },
       "time:hasBeginning": "300 BCE",
-      "time:hasEnd": "250 BCE",
+      "time:hasEnd": "250 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -10952,7 +11085,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/korea-history"
       },
       "time:hasBeginning": "57 BCE",
-      "time:hasEnd": "668 BCE",
+      "time:hasEnd": "668 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -10972,6 +11105,25 @@
       },
       "time:hasBeginning": "668 CE",
       "time:hasEnd": "935 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/balhae",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Balhae (Bohai)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Northern successor to Goguryeo; ruled Manchuria and northern Korea; 'Flourishing Land in the East'; fell to Khitan Liao; claimed by both Korean and Chinese histories.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/korea-history"
+      },
+      "time:hasBeginning": "698 CE",
+      "time:hasEnd": "926 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -11146,6 +11298,25 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/dvaravati",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Dvaravati Kingdom",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Mon Buddhist kingdom in central Thailand; Theravada Buddhism center; Dharmachakra (Wheel of Law) sculptures; absorbed by Khmer and later Thai kingdoms.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/southeast-asia-history"
+      },
+      "time:hasBeginning": "550 CE",
+      "time:hasEnd": "1050 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
       "@id": "https://metadatahub.eu/data/geologic-timescale/khmer-empire",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
@@ -11200,6 +11371,25 @@
       },
       "time:hasBeginning": "1293 CE",
       "time:hasEnd": "1527 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/sukhothai",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Sukhothai Kingdom",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First Thai kingdom; King Ramkhamhaeng; Thai script created; Theravada Buddhism state religion; Si Satchanalai ceramics; foundation of Thai identity.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/southeast-asia-history"
+      },
+      "time:hasBeginning": "1238 CE",
+      "time:hasEnd": "1438 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -11370,7 +11560,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/central-asia-history"
       },
       "time:hasBeginning": "130 BCE",
-      "time:hasEnd": "1453 BCE",
+      "time:hasEnd": "1453 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -11564,6 +11754,25 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/hittite-empire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Hittite Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Anatolian Bronze Age power; Hattusa capital; Battle of Kadesh with Egypt (1274 BCE); iron technology; Treaty of Kadesh (earliest known peace treaty); cuneiform.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1650 BCE",
+      "time:hasEnd": "1180 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
       "@id": "https://metadatahub.eu/data/geologic-timescale/achaemenid-empire",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
@@ -11583,6 +11792,25 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/seleucid-empire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Seleucid Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Hellenistic successor state; Seleucus I; Antioch capital; Greek culture in Near East; Maccabean revolt; fragmented; fell to Rome and Parthia.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "312 BCE",
+      "time:hasEnd": "63 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
       "@id": "https://metadatahub.eu/data/geologic-timescale/parthian-empire",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
@@ -11598,7 +11826,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
       },
       "time:hasBeginning": "247 BCE",
-      "time:hasEnd": "224 BCE",
+      "time:hasEnd": "224 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -11640,6 +11868,25 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/rashidun-caliphate",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Rashidun Caliphate",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Four 'rightly guided' caliphs; Abu Bakr, Umar, Uthman, Ali; rapid Islamic expansion; conquest of Persia and Byzantine Levant; Quran compiled; Sunni-Shia split origins.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "632 CE",
+      "time:hasEnd": "661 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
       "@id": "https://metadatahub.eu/data/geologic-timescale/umayyad-caliphate",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
@@ -11675,6 +11922,82 @@
       },
       "time:hasBeginning": "750 CE",
       "time:hasEnd": "1258 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/fatimid-caliphate",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Fatimid Caliphate",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Ismaili Shia caliphate; founded Cairo (969); Al-Azhar University; rival to Abbasids and Umayyads of Córdoba; cultural and scientific achievements.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "909 CE",
+      "time:hasEnd": "1171 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/seljuk-empire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Seljuk Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Turkic Sunni Muslim empire; Battle of Manzikert (1071, opened Anatolia); Nizam al-Mulk; madrasas; triggered First Crusade; Persian cultural patronage.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1037 CE",
+      "time:hasEnd": "1194 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/ayyubid-dynasty",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Ayyubid Dynasty",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Saladin (Salah ad-Din); recaptured Jerusalem (1187); Kurdish dynasty; Egypt and Syria; chivalric reputation; succeeded by Mamluks.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1171 CE",
+      "time:hasEnd": "1260 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/mamluk-sultanate",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Mamluk Sultanate",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Slave-soldier dynasty ruling Egypt and Syria; defeated Mongols at Ain Jalut (1260); Cairo cultural center; Mamluk architecture; fell to Ottomans.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1250 CE",
+      "time:hasEnd": "1517 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -11735,6 +12058,25 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/qajar-dynasty",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Qajar Dynasty",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Iranian dynasty; Tehran capital; Constitutional Revolution (1906); oil concessions to Britain; modernization struggles; replaced by Pahlavi dynasty.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1789 CE",
+      "time:hasEnd": "1925 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
       "@id": "https://metadatahub.eu/data/geologic-timescale/modern-middle-east",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
@@ -11788,7 +12130,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/oceania-history"
       },
       "time:hasBeginning": "65000 BCE",
-      "time:hasEnd": "1788 BCE",
+      "time:hasEnd": "1788 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -11826,7 +12168,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/aboriginal-australia"
       },
       "time:hasBeginning": "10000 BCE",
-      "time:hasEnd": "1788 BCE",
+      "time:hasEnd": "1788 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {

@@ -1,6 +1,6 @@
 ---
 title: "Geologic Time Scale"
-description: "647 linked data entries covering Earth's 4.6 billion year history — from the Hadean eon through geologic eras, periods, and epochs to archaeological ages with Scandinavian, European, South American, North American, African, Asian, and Oceanian coverage."
+description: "665 linked data entries covering Earth's 4.6 billion year history — from the Hadean eon through geologic eras, periods, and epochs to archaeological ages with Scandinavian, European, South American, North American, African, Asian, and Oceanian coverage."
 date: 2024-12-01
 type: dataset
 publisher: "Port 30 KB"
@@ -26,12 +26,12 @@ tags:
   - linked-data
 distributions:
   - id: "turtle"
-    title: "RDF Turtle (647 entries)"
+    title: "RDF Turtle (665 entries)"
     accessURL: "https://metadatahub.eu/data/geologic-timescale.ttl"
     downloadURL: "https://metadatahub.eu/data/geologic-timescale.ttl"
     mediaType: "text/turtle"
   - id: "jsonld"
-    title: "JSON-LD (647 entries)"
+    title: "JSON-LD (665 entries)"
     accessURL: "https://metadatahub.eu/data/geologic-timescale.jsonld"
     downloadURL: "https://metadatahub.eu/data/geologic-timescale.jsonld"
     mediaType: "application/ld+json"
@@ -39,7 +39,7 @@ distributions:
 
 ## Overview
 
-This dataset models the **complete geologic time scale** as a SKOS concept scheme with 647 entries, using the [GeoSciML Geologic Timescale ontology](http://resource.geosciml.org/ontology/timescale/gts) and [W3C Time Ontology](http://www.w3.org/2006/time). It spans from the formation of Earth (4,600 Ma) through all geologic divisions down to individual ages/stages, then bridges into **archaeological and cultural periods** — Scandinavian (Stone Age through Viking Age to Modern), European (Classical Greece through EU), South American (Norte Chico through Inca Empire to 21st century), North American (Clovis through Mesoamerica, Colonial era, and U.S./Canadian/Mexican history), African (Ancient Egypt through Great Zimbabwe, West African empires, colonialism, and independence), and Asian (Indus Valley through Mughal India, Chinese dynasties, Japanese periods, Korean kingdoms, Southeast Asian empires, Central Asian steppe empires, and Middle Eastern civilizations), and Oceanian (Aboriginal Australia, Melanesia, Polynesia, Micronesia, Māori New Zealand, and Pacific Islands).
+This dataset models the **complete geologic time scale** as a SKOS concept scheme with 665 entries, using the [GeoSciML Geologic Timescale ontology](http://resource.geosciml.org/ontology/timescale/gts) and [W3C Time Ontology](http://www.w3.org/2006/time). It spans from the formation of Earth (4,600 Ma) through all geologic divisions down to individual ages/stages, then bridges into **archaeological and cultural periods** — Scandinavian (Stone Age through Viking Age to Modern), European (Classical Greece through EU), South American (Norte Chico through Inca Empire to 21st century), North American (Clovis through Mesoamerica, Colonial era, and U.S./Canadian/Mexican history), African (Ancient Egypt through Great Zimbabwe, West African empires, colonialism, and independence), and Asian (Indus Valley through Mughal India, Chinese dynasties, Japanese periods, Korean kingdoms, Southeast Asian empires, Central Asian steppe empires, and Middle Eastern civilizations), and Oceanian (Aboriginal Australia, Melanesia, Polynesia, Micronesia, Māori New Zealand, and Pacific Islands).
 
 ## Sources
 
@@ -79,6 +79,10 @@ This dataset is compiled from the following sources:
 - [Wikipedia: History of Southeast Asia](https://en.wikipedia.org/wiki/History_of_Southeast_Asia) — Funan, Khmer, Srivijaya, Majapahit
 - [Wikipedia: Mongol Empire](https://en.wikipedia.org/wiki/Mongol_Empire) — Genghis Khan; largest contiguous land empire
 - [Wikipedia: Silk Road](https://en.wikipedia.org/wiki/Silk_Road) — Trans-Eurasian trade network
+- [Wikipedia: Hittites](https://en.wikipedia.org/wiki/Hittites) — Bronze Age Anatolian empire
+- [Wikipedia: Seljuk Empire](https://en.wikipedia.org/wiki/Seljuk_Empire) — Turkic Islamic empire; triggered Crusades
+- [Wikipedia: Fatimid Caliphate](https://en.wikipedia.org/wiki/Fatimid_Caliphate) — Shia caliphate; Cairo and Al-Azhar
+- [Wikipedia: Mamluk Sultanate](https://en.wikipedia.org/wiki/Mamluk_Sultanate) — Defeated Mongols; ruled Egypt
 - [Wikipedia: Mesopotamia](https://en.wikipedia.org/wiki/Mesopotamia) — Sumer, Akkad, Babylon, Assyria
 - [Wikipedia: Ottoman Empire](https://en.wikipedia.org/wiki/Ottoman_Empire) — 1299–1922; three continents
 - [Wikipedia: Aboriginal Australians](https://en.wikipedia.org/wiki/Aboriginal_Australians) — 65,000+ years of continuous culture
@@ -94,7 +98,7 @@ License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (matchi
 
 | Category | Count |
 |----------|-------|
-| **Total entries** | 647 |
+| **Total entries** | 665 |
 | **Eons** | 4 (Hadean, Archean, Proterozoic, Phanerozoic) |
 | **Eras** | 13 (incl. Hadean informal divisions) |
 | **Periods** | 22 + 2 sub-periods (Mississippian, Pennsylvanian) |
@@ -105,7 +109,7 @@ License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (matchi
 | **South American periods** | ~49 (Norte Chico, Chavín, Moche, Inca Empire, colonial viceroyalties, independence wars, modern) |
 | **North American periods** | ~86 (Clovis, Olmec, Maya, Aztec, Mississippian, Taíno, colonial era, U.S., Mexico, Canada) |
 | **African periods** | ~67 (Ancient Egypt, Kush/Meroë, Aksum, Ghana/Mali/Songhai, Benin, Great Zimbabwe, Swahili Coast, colonialism, independence) |
-| **Asian periods** | ~104 (South Asia: Indus Valley–British Raj; China: Xia–PRC; Japan: Jōmon–Postwar; Korea: Gojoseon–Modern; Southeast Asia: Funan–ASEAN; Central Asia: Scythians–Great Game; Middle East: Sumer–Ottoman) |
+| **Asian periods** | ~122 (South Asia: Indus Valley–Sikh Empire–British Raj; China: Xia–Five Dynasties–PRC; Japan: Jōmon–Postwar; Korea: Gojoseon–Balhae–Modern; Southeast Asia: Funan–Sukhothai–ASEAN; Central Asia: Scythians–Great Game; Middle East: Hittites–Sumer–Seljuks–Mamluks–Ottoman–Qajar) |
 | **Oceanian periods** | ~29 (Aboriginal Australia 65,000+ yrs; Melanesia, Lapita; Polynesia: Tonga, Hawaiʻi, Rapa Nui; Micronesia: Nan Madol; Māori; colonial Pacific) |
 | **Climate/extinction events** | ~15 (Big Five extinctions, Snowball Earth, PETM, etc.) |
 | **Nordic-specific** | ~40 (Bromme, Fosna-Hensbacka, Komsa, Ertebølle, Vendel, Kalmar Union, Stormaktstiden, etc.) |
@@ -295,11 +299,11 @@ Phanerozoic (Eon, 538.8 Ma–Present)
             │   ├── Indus Valley (3300–1300 BCE) → Mature Harappan
             │   ├── Vedic Period → Early Vedic, Late Vedic
             │   ├── Maurya Empire → Ashoka (268–232 BCE)
-            │   ├── Kushan Empire, Gupta Empire (Golden Age)
-            │   ├── Chola Dynasty (300 BCE–1279 CE)
+            │   ├── Satavahana, Kushan, Gupta (Golden Age)
+            │   ├── Pallava, Chalukya, Chola, Pala
             │   ├── Delhi Sultanate → Vijayanagara
             │   ├── Mughal Empire → Golden Age (Akbar–Aurangzeb)
-            │   ├── Maratha Empire, British Raj → Independence
+            │   ├── Maratha Empire, Sikh Empire, British Raj → Independence
             │   └── Modern South Asia (1947–present)
             ├── China
             │   ├── Chinese Neolithic (Yangshao, Longshan, Liangzhu)
@@ -310,7 +314,9 @@ Phanerozoic (Eon, 538.8 Ma–Present)
             │   ├── Han → Western Han, Eastern Han (Silk Road, paper)
             │   ├── Three Kingdoms (220–280 CE)
             │   ├── Sui → Tang (Golden Age, poetry, cosmopolitan)
+            │   ├── Five Dynasties and Ten Kingdoms (907–960)
             │   ├── Song → Northern Song, Southern Song (printing, gunpowder)
+            │   ├── Jin (Jurchen, 1115–1234) — northern rival to Song
             │   ├── Yuan (Mongol/Kublai Khan)
             │   ├── Ming → Zheng He voyages; Forbidden City
             │   ├── Qing → High Qing, Opium Wars
@@ -329,16 +335,17 @@ Phanerozoic (Eon, 538.8 Ma–Present)
             ├── Korea
             │   ├── Gojoseon (2333–108 BCE)
             │   ├── Three Kingdoms (Goguryeo, Baekje, Silla)
-            │   ├── Unified Silla → Goryeo (celadon, metal type)
+            │   ├── Unified Silla + Balhae → Goryeo (celadon, metal type)
             │   ├── Joseon → Golden Age (Hangul, Sejong)
             │   ├── Japanese Occupation (1910–1945)
             │   └── Modern Korea (divided, 1945–present)
             ├── Southeast Asia
             │   ├── Funan, Champa — earliest Indianized kingdoms
             │   ├── Srivijaya — maritime Sumatra, Malacca Strait
+            │   ├── Dvaravati — Mon Buddhist kingdom, Thailand
             │   ├── Khmer Empire — Angkor Wat
             │   ├── Pagan Kingdom (Bagan temples)
-            │   ├── Majapahit, Ayutthaya, Malacca Sultanate
+            │   ├── Majapahit, Sukhothai, Ayutthaya, Malacca Sultanate
             │   ├── Đại Việt (Vietnamese dynasties)
             │   ├── Colonial Southeast Asia (1511–1957)
             │   └── Modern Southeast Asia (ASEAN)
@@ -356,11 +363,14 @@ Phanerozoic (Eon, 538.8 Ma–Present)
                 │   ├── Akkadian Empire (Sargon)
                 │   ├── Old Babylon (Hammurabi's Code)
                 │   ├── Assyrian Empire → Neo-Babylonian
-                │   └── Achaemenid Persia (Cyrus, Persepolis)
+                │   └── Hittite Empire (Anatolia, 1650–1180 BCE)
+                ├── Achaemenid Persia → Seleucid Empire
                 ├── Parthian → Sasanian Empire
-                ├── Umayyad → Abbasid Caliphate (Islamic Golden Age)
+                ├── Rashidun → Umayyad → Abbasid (Islamic Golden Age)
+                ├── Fatimid Caliphate, Seljuk Empire
+                ├── Ayyubid (Saladin) → Mamluk Sultanate
                 ├── Ottoman Empire → Golden Age (Suleiman)
-                ├── Safavid Iran (Isfahan)
+                ├── Safavid Iran → Qajar Dynasty
                 └── Modern Middle East (1918–present)
             │
             │ ── OCEANIAN TRACK ──
@@ -565,10 +575,15 @@ ts:jurassic a gts:GeochronologicPeriod ;
 | **Indus Valley Civilization** | 3300–1300 BCE | Harappa, Mohenjo-daro; urban planning; undeciphered script |
 | **Vedic Period** | 1500–500 BCE | Rigveda; Sanskrit; emergence of Buddhism and Jainism |
 | **Maurya Empire** | 322–185 BCE | First pan-Indian empire; Ashoka's edicts of non-violence |
+| **Satavahana Dynasty** | 230 BCE–220 CE | Major Deccan power; Amaravati stupa; trade routes |
 | **Gupta Empire** | 320–550 CE | Golden Age; Aryabhata; decimal system; Kalidasa |
+| **Pallava Dynasty** | 275–897 CE | Mamallapuram temples; influenced SE Asian scripts |
+| **Chalukya Dynasty** | 543–1190 CE | Deccan empire; Pattadakal temples (UNESCO) |
 | **Chola Dynasty** | 300 BCE–1279 CE | Tamil naval power; Brihadeeswarar Temple |
+| **Pala Empire** | 750–1174 CE | Last Buddhist empire; Nalanda/Vikramashila universities |
 | **Delhi Sultanate** | 1206–1526 CE | Five Islamic dynasties; Qutub Minar |
 | **Mughal Empire** | 1526–1857 CE | Taj Mahal; Akbar's tolerance; ~25% of world GDP |
+| **Sikh Empire** | 1799–1849 CE | Maharaja Ranjit Singh; Punjab; Anglo-Sikh Wars |
 | **British Raj** | 1858–1947 CE | Crown rule; railways; independence movement; Gandhi |
 | **Modern South Asia** | 1947–present | Partition; world's largest democracy; nuclear powers |
 
@@ -581,8 +596,10 @@ ts:jurassic a gts:GeochronologicPeriod ;
 | **Zhou Dynasty** | 1046–256 BCE | Mandate of Heaven; Confucius, Laozi, Sun Tzu |
 | **Qin Dynasty** | 221–206 BCE | First unified empire; Great Wall; Terracotta Army |
 | **Han Dynasty** | 206 BCE–220 CE | Silk Road; paper invented; Confucian state |
-| **Tang Dynasty** | 647–907 CE | Golden age; poetry (Li Bai, Du Fu); cosmopolitan |
+| **Tang Dynasty** | 618–907 CE | Golden age; poetry (Li Bai, Du Fu); cosmopolitan |
+| **Five Dynasties** | 907–960 CE | Fragmentation after Tang; prelude to Song reunification |
 | **Song Dynasty** | 960–1279 CE | Printing, gunpowder, compass; economic revolution |
+| **Jin (Jurchen)** | 1115–1234 CE | Northern China; rival to Southern Song; fell to Mongols |
 | **Yuan Dynasty** | 1271–1368 CE | Kublai Khan; Mongol rule; Marco Polo |
 | **Ming Dynasty** | 1368–1644 CE | Forbidden City; Zheng He voyages; porcelain |
 | **Qing Dynasty** | 1644–1912 CE | Largest territory; Opium Wars; Century of Humiliation |
@@ -610,6 +627,7 @@ ts:jurassic a gts:GeochronologicPeriod ;
 | **Gojoseon** | 2333–108 BCE | First Korean kingdom; Dangun legend |
 | **Three Kingdoms** | 57 BCE–668 CE | Goguryeo, Baekje, Silla; Buddhism adopted |
 | **Unified Silla** | 668–935 CE | Gyeongju capital; Bulguksa Temple |
+| **Balhae** | 698–926 CE | Northern successor to Goguryeo; 'Flourishing Land in the East' |
 | **Goryeo Dynasty** | 918–1392 CE | Origin of "Korea"; celadon; metal movable type (1234) |
 | **Joseon Dynasty** | 1392–1897 CE | Hangul alphabet (1443); 500-year dynasty |
 | **Japanese Occupation** | 1910–1945 CE | Annexation; cultural suppression; March 1st Movement |
@@ -621,9 +639,11 @@ ts:jurassic a gts:GeochronologicPeriod ;
 |--------|-------|-------------|
 | **Funan** | 100–550 CE | Earliest Indianized kingdom; Mekong Delta |
 | **Srivijaya** | 650–1377 CE | Maritime Sumatra empire; Malacca Strait; Buddhism |
+| **Dvaravati** | 550–1050 CE | Mon Buddhist kingdom; central Thailand |
 | **Khmer Empire** | 802–1431 CE | Angkor Wat; largest pre-industrial city |
 | **Pagan Kingdom** | 849–1297 CE | 10,000+ Buddhist temples at Bagan |
 | **Majapahit** | 1293–1527 CE | Java; Hindu-Buddhist; controlled maritime SE Asia |
+| **Sukhothai** | 1238–1438 CE | First Thai kingdom; Thai script; Theravada Buddhism |
 | **Ayutthaya** | 1351–1767 CE | Siamese kingdom; cosmopolitan; trade with China, Japan |
 | **Malacca Sultanate** | 1400–1511 CE | Spread of Islam in maritime SE Asia |
 | **Colonial SE Asia** | 1511–1957 CE | Portuguese, Dutch, Spanish, French, British rule |
@@ -638,12 +658,20 @@ ts:jurassic a gts:GeochronologicPeriod ;
 | **Akkadian Empire** | 2334–2154 BCE | Sargon; first known empire in history |
 | **Old Babylonian** | 1894–1595 BCE | Hammurabi's Code; Babylonian mathematics |
 | **Assyrian Empire** | 2500–609 BCE | Nineveh; Ashurbanipal's library; iron weapons |
+| **Hittite Empire** | 1650–1180 BCE | Anatolian power; Battle of Kadesh; earliest peace treaty |
 | **Achaemenid Persia** | 550–330 BCE | Cyrus the Great; Persepolis; Royal Road |
+| **Seleucid Empire** | 312–63 BCE | Hellenistic successor; Greek culture in Near East |
 | **Silk Road Era** | 130 BCE–1453 CE | Trans-Eurasian trade; Samarkand, Bukhara |
 | **Mongol Empire** | 1206–1368 CE | Genghis Khan; largest contiguous land empire |
+| **Rashidun Caliphate** | 632–661 CE | Four 'rightly guided' caliphs; rapid Islamic expansion |
 | **Islamic Golden Age** | 750–1258 CE | House of Wisdom; algebra; Ibn Sina; optics |
+| **Fatimid Caliphate** | 909–1171 CE | Shia caliphate; founded Cairo; Al-Azhar University |
+| **Seljuk Empire** | 1037–1194 CE | Turkic; Battle of Manzikert (1071); triggered Crusades |
+| **Ayyubid Dynasty** | 1171–1260 CE | Saladin; recaptured Jerusalem (1187) |
+| **Mamluk Sultanate** | 1250–1517 CE | Defeated Mongols at Ain Jalut; Cairo center |
 | **Ottoman Empire** | 1299–1922 CE | Three continents; Constantinople; Suleiman |
 | **Safavid Iran** | 1501–1736 CE | Shia state; Isfahan; Persian carpet golden age |
+| **Qajar Dynasty** | 1789–1925 CE | Tehran capital; Constitutional Revolution (1906) |
 | **Modern Middle East** | 1918–present | Ottoman collapse; oil; Israel; Arab Spring |
 
 ## Oceanian Historical Periods
@@ -715,5 +743,5 @@ WHERE {
 
 ## Download
 
-- [Turtle (text/turtle)](/data/geologic-timescale.ttl) — 7,100+ lines, all 647 entries with full hierarchy
+- [Turtle (text/turtle)](/data/geologic-timescale.ttl) — 7,300+ lines, all 665 entries with full hierarchy
 - [JSON-LD (application/ld+json)](/data/geologic-timescale.jsonld) — Same data as JSON-LD graph
