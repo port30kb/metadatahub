@@ -1,6 +1,6 @@
 ---
 title: "Geologic Time Scale"
-description: "675 linked data entries covering Earth's 4.6 billion year history — from the Hadean eon through geologic eras, periods, and epochs to archaeological ages with Scandinavian, European, South American, North American, African, Asian, and Oceanian coverage."
+description: "807 linked data entries covering Earth's 4.6 billion year history — from the Hadean eon through geologic eras, periods, and epochs to archaeological ages with Scandinavian, European, South American, North American, African, Asian, and Oceanian coverage."
 date: 2024-12-01
 type: dataset
 publisher: "Port 30 KB"
@@ -26,12 +26,12 @@ tags:
   - linked-data
 distributions:
   - id: "turtle"
-    title: "RDF Turtle (675 entries)"
+    title: "RDF Turtle (807 entries)"
     accessURL: "https://metadatahub.eu/data/geologic-timescale.ttl"
     downloadURL: "https://metadatahub.eu/data/geologic-timescale.ttl"
     mediaType: "text/turtle"
   - id: "jsonld"
-    title: "JSON-LD (675 entries)"
+    title: "JSON-LD (807 entries)"
     accessURL: "https://metadatahub.eu/data/geologic-timescale.jsonld"
     downloadURL: "https://metadatahub.eu/data/geologic-timescale.jsonld"
     mediaType: "application/ld+json"
@@ -39,7 +39,7 @@ distributions:
 
 ## Overview
 
-This dataset models the **complete geologic time scale** as a SKOS concept scheme with 675 entries, using the [GeoSciML Geologic Timescale ontology](http://resource.geosciml.org/ontology/timescale/gts) and [W3C Time Ontology](http://www.w3.org/2006/time). It spans from the formation of Earth (4,600 Ma) through all geologic divisions down to individual ages/stages, then bridges into **archaeological and cultural periods** — Scandinavian (Stone Age through Viking Age to Modern), European (Classical Greece through EU), South American (Norte Chico through Inca Empire to 21st century), North American (Clovis through Mesoamerica, Colonial era, and U.S./Canadian/Mexican history), African (Ancient Egypt through Great Zimbabwe, West African empires, colonialism, and independence), and Asian (Indus Valley through Mughal India, Chinese dynasties, Japanese periods, Korean kingdoms, Southeast Asian empires, Central Asian steppe empires, and Middle Eastern civilizations), and Oceanian (Aboriginal Australia, Melanesia, Polynesia, Micronesia, Māori New Zealand, and Pacific Islands).
+This dataset models the **complete geologic time scale** as a SKOS concept scheme with 807 entries, using the [GeoSciML Geologic Timescale ontology](http://resource.geosciml.org/ontology/timescale/gts) and [W3C Time Ontology](http://www.w3.org/2006/time). It spans from the formation of Earth (4,600 Ma) through all geologic divisions down to individual ages/stages, then bridges into **archaeological and cultural periods** — Scandinavian (Stone Age through Viking Age to Modern), European (Classical Greece through EU), South American (Norte Chico through Inca Empire to 21st century), North American (Clovis through Mesoamerica, Colonial era, and U.S./Canadian/Mexican history), African (Ancient Egypt through Great Zimbabwe, West African empires, colonialism, and independence), and Asian (Indus Valley through Mughal India, Chinese dynasties, Japanese periods, Korean kingdoms, Southeast Asian empires, Central Asian steppe empires, and Middle Eastern civilizations), and Oceanian (Aboriginal Australia, Melanesia, Polynesia, Micronesia, Māori New Zealand, and Pacific Islands).
 
 ## Sources
 
@@ -98,6 +98,17 @@ This dataset is compiled from the following sources:
 - [Wikipedia: Tibetan Empire](https://en.wikipedia.org/wiki/Tibetan_Empire) — Rivaled Tang China, 618–842 CE
 - [Wikipedia: Gandhara](https://en.wikipedia.org/wiki/Gandhara) — Greco-Buddhist art, Peshawar region
 - [Wikipedia: Durrani Empire](https://en.wikipedia.org/wiki/Durrani_Empire) — Foundation of modern Afghanistan
+- [Wikipedia: Chinchorro mummies](https://en.wikipedia.org/wiki/Chinchorro_mummies) — Oldest artificial mummification
+- [Wikipedia: Valdivia culture](https://en.wikipedia.org/wiki/Valdivia_culture) — Early Ecuadorian ceramics
+- [Wikipedia: Lambayeque culture](https://en.wikipedia.org/wiki/Lambayeque_culture) — Sicán goldwork, northern Peru
+- [Wikipedia: Chachapoya culture](https://en.wikipedia.org/wiki/Chachapoya_culture) — Cloud Warriors, Kuélap
+- [Wikipedia: Tairona](https://en.wikipedia.org/wiki/Tairona) — Ciudad Perdida, Sierra Nevada de Santa Marta
+- [Wikipedia: Marajoara culture](https://en.wikipedia.org/wiki/Marajoara_culture) — Amazon estuary chiefdoms
+- [Wikipedia: Selk'nam people](https://en.wikipedia.org/wiki/Selk%27nam_people) — Tierra del Fuego
+- [Wikipedia: Island Caribs](https://en.wikipedia.org/wiki/Island_Caribs) — Kalinago people, Lesser Antilles
+- [Wikipedia: Monte Verde](https://en.wikipedia.org/wiki/Monte_Verde) — Pre-Clovis site, Chile
+- [Wikipedia: Budj Bim](https://en.wikipedia.org/wiki/Budj_Bim) — Aboriginal aquaculture, UNESCO site
+- [Wikipedia: Tuʻi Manuʻa](https://en.wikipedia.org/wiki/Tu%CA%BBi_Manu%CA%BBa) — Ancient Samoan paramount chieftainship
 
 License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (matching Wikipedia source license).
 
@@ -105,19 +116,19 @@ License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (matchi
 
 | Category | Count |
 |----------|-------|
-| **Total entries** | 675 |
+| **Total entries** | 807 |
 | **Eons** | 4 (Hadean, Archean, Proterozoic, Phanerozoic) |
 | **Eras** | 13 (incl. Hadean informal divisions) |
 | **Periods** | 22 + 2 sub-periods (Mississippian, Pennsylvanian) |
 | **Epochs** | 38 |
 | **Ages/Stages** | 119 (all Mesozoic + Cenozoic stages, Paleozoic key stages) |
 | **Cultural ages (Nordic)** | ~80 (Stone Age cultures, Bronze Age (Montelius I–VI), Iron Age, Viking Age, Medieval through Modern) |
-| **Cultural ages (European)** | ~30 (Classical Greece, Roman Empire, Byzantine Empire, Carolingian, Crusades, Renaissance, Baroque, Enlightenment, etc.) |
-| **South American periods** | ~49 (Norte Chico, Chavín, Moche, Inca Empire, colonial viceroyalties, independence wars, modern) |
-| **North American periods** | ~86 (Clovis, Olmec, Maya, Aztec, Mississippian, Taíno, colonial era, U.S., Mexico, Canada) |
-| **African periods** | ~67 (Ancient Egypt, Kush/Meroë, Aksum, Ghana/Mali/Songhai, Benin, Great Zimbabwe, Swahili Coast, colonialism, independence) |
-| **Asian periods** | ~132 (South Asia: Indus Valley–Gandhara–Sikh Empire–British Raj; China: Xia–Five Dynasties–PRC; Japan: Jōmon–Postwar; Korea: Gojoseon–Balhae–Modern; Southeast Asia: Funan–Sukhothai–ASEAN; Central Asia: Scythians–Tibetan Empire–Durrani–Great Game; Middle East: Hittites–Phoenicia–Ancient Israel–Sumer–Seljuks–Mamluks–Ottoman–Qajar) |
-| **Oceanian periods** | ~29 (Aboriginal Australia 65,000+ yrs; Melanesia, Lapita; Polynesia: Tonga, Hawaiʻi, Rapa Nui; Micronesia: Nan Madol; Māori; colonial Pacific) |
+| **Cultural ages (European)** | ~45 (Classical Greece, Roman Empire, Byzantine Empire, Carolingian, Crusades, Renaissance, Baroque, Enlightenment, Minoan, Mycenaean, etc.) |
+| **South American periods** | ~62 (Chinchorro, Valdivia, Norte Chico, Chavín, Moche, Chimú, Lambayeque/Sicán, Chachapoya, Inca Empire, colonial viceroyalties, independence wars, modern) |
+| **North American periods** | ~93 (Monte Verde, Clovis, Olmec, Maya, Aztec, Mississippian, Taíno, Kalinago, Saladoid, Gran Coclé, Diquís, colonial era, U.S., Mexico, Canada) |
+| **African periods** | ~87 (Ancient Egypt, Kush/Meroë, Aksum, Ghana/Mali/Songhai, Benin, Great Zimbabwe, Swahili Coast, Kongo, Luba, Lunda, colonialism, independence) |
+| **Asian periods** | ~152 (South Asia: Indus Valley–Gandhara–Sikh Empire–British Raj; China: Xia–Five Dynasties–PRC; Japan: Jōmon–Postwar; Korea: Gojoseon–Balhae–Modern; Southeast Asia: Funan–Sukhothai–ASEAN; Central Asia: Scythians–Tibetan Empire–Durrani–Great Game; Middle East: Hittites–Phoenicia–Ancient Israel–Sumer–Seljuks–Mamluks–Ottoman–Qajar) |
+| **Oceanian periods** | ~35 (Aboriginal Australia 65,000+ yrs, Budj Bim; PNG Highlands, Ancient Fiji, Melanesia, Lapita; Polynesia: Tonga, Tuʻi Manuʻa, Hawaiʻi, Rapa Nui; Micronesia: Nan Madol, Palau; Māori; colonial Pacific) |
 | **Climate/extinction events** | ~15 (Big Five extinctions, Snowball Earth, PETM, etc.) |
 | **Nordic-specific** | ~40 (Bromme, Fosna-Hensbacka, Komsa, Ertebølle, Vendel, Kalmar Union, Stormaktstiden, etc.) |
 
@@ -193,18 +204,20 @@ Phanerozoic (Eon, 538.8 Ma–Present)
             │
             │ ── SOUTH AMERICAN TRACK ──
             ├── Pre-Columbian South America
+            │   ├── Chinchorro (7000–1500 BCE) — oldest artificial mummies
             │   ├── Norte Chico/Caral (3000–1800 BCE)
             │   ├── Valdivia (3500–1800 BCE), Chavín (900–200 BCE)
-            │   ├── Paracas, Nazca, Moche, Tiwanaku, Wari
-            │   ├── Chimú (900–1470), Muisca, San Agustín
-            │   ├── Mapuche, Guaraní
+            │   ├── Paracas, Nazca, Moche, Recuay, Lima Culture
+            │   ├── Tiwanaku, Wari, Lambayeque/Sicán, Chachapoya
+            │   ├── Chimú (900–1470), Muisca, Tairona, Tierradentro, San Agustín
+            │   ├── Marajoara, Diaguita, Mapuche, Guaraní, Selk'nam
             │   └── Inca Empire (1438–1533) → Expansion, Huayna Cápac, Civil War
             ├── Colonial South America (1492–1825)
             │   ├── Spanish Conquest → Viceroyalties (Peru, New Granada, Río de la Plata)
             │   ├── Portuguese Brazil → Sugar, Gold Rush
             │   ├── Jesuit Missions, Potosí Silver
             │   └── Túpac Amaru II Rebellion
-            ├── Wars of Independence (1808–1833)
+            ├── Wars of Independence (1807–1833)
             │   ├── Argentina, Chile, Peru, Bolivia, Uruguay, Paraguay
             │   ├── Gran Colombia (Bolívar), Brazilian Independence
             │   └── Empire of Brazil (1822–1889)
@@ -212,6 +225,7 @@ Phanerozoic (Eon, 538.8 Ma–Present)
             └── 20th–21st Century → Peronism, Vargas, Dirty Wars, Pink Tide
             │
             │ ── NORTH AMERICAN TRACK ──
+            ├── Monte Verde (14,800 BCE) — pre-Clovis, Chile
             ├── Paleo-Indian (15,000–8,000 BCE)
             │   ├── Clovis Culture, Folsom Culture
             │   └── Archaic Period → Early, Middle, Late (Poverty Point)
@@ -228,7 +242,8 @@ Phanerozoic (Eon, 538.8 Ma–Present)
             │   ├── Woodland → Adena, Hopewell
             │   ├── Mississippian (800–1600) → Cahokia, Fort Ancient, Plaquemine
             │   └── Cherokee Nation, Haudenosaunee Confederacy
-            ├── Caribbean → Taíno (first contact with Columbus)
+            ├── Caribbean → Taíno, Kalinago (Island Caribs), Saladoid
+            ├── Central America → Gran Coclé (Panama), Diquís (Costa Rica)
             ├── Southwest → Ancestral Puebloans (Chaco Canyon), Hohokam, Mogollon
             ├── Other Regions → Northwest Coast, Thule, Dorset, Plains Village
             ├── Colonial North America (1492–1783)
@@ -393,19 +408,24 @@ Phanerozoic (Eon, 538.8 Ma–Present)
             │ ── OCEANIAN TRACK ──
             ├── Aboriginal Australia (65,000+ years)
             │   ├── Early Aboriginal (65,000–10,000 BCE) — Lake Mungo
-            │   └── Aboriginal Holocene — fish traps, songlines, trade networks
+            │   ├── Aboriginal Holocene — fish traps, songlines, trade networks
+            │   └── Budj Bim Aquaculture (6600 BCE) — world's oldest aquaculture
             ├── Melanesia
             │   ├── Settlement of Sahul (50,000–30,000 BCE)
-            │   └── Kuk Early Agriculture (7000 BCE) — independent invention
+            │   ├── PNG Highlands Cultures (40,000 BCE–1930s) — 850+ languages
+            │   ├── Kuk Early Agriculture (7000 BCE) — independent invention
+            │   └── Ancient Fiji (1300 BCE–1874 CE) — Melanesian-Polynesian crossroads
             ├── Lapita Culture (1600–500 BCE) — ancestral Polynesian
             ├── Polynesia
             │   ├── Ancestral Polynesia (Tonga & Samoa, 1500 BCE)
             │   ├── Polynesian Expansion — Marquesas, Hawaiʻi, Rapa Nui
             │   ├── Rapa Nui (Easter Island) — Moai statues
+            │   ├── Tuʻi Manuʻa — oldest Polynesian title, Samoa
             │   ├── Ancient Hawaiʻi → Kingdom of Hawaiʻi
             │   └── Tuʻi Tonga Empire (950–1865 CE)
             ├── Micronesia
             │   ├── Nan Madol — megalithic 'Venice of the Pacific'
+            │   ├── Palau Earthworks & Terraces — largest earthworks in Oceania
             │   └── Marshallese Navigation — stick charts
             ├── Aotearoa / New Zealand
             │   ├── Māori Settlement (1250 CE)
@@ -515,7 +535,7 @@ ts:jurassic a gts:GeochronologicPeriod ;
 | **Muisca Confederation** | 600–1541 CE | Colombian highlands; El Dorado legend; gold and tumbaga |
 | **Inca Empire** | 1438–1533 CE | Largest pre-Columbian empire; Machu Picchu; Qhapaq Ñan |
 | **Colonial Period** | 1492–1825 CE | Spanish viceroyalties; Portuguese Brazil; Potosí silver |
-| **Wars of Independence** | 1808–1833 CE | Bolívar, San Martín; liberation of South America |
+| **Wars of Independence** | 1807–1833 CE | Bolívar, San Martín; liberation of South America |
 | **Empire of Brazil** | 1822–1889 CE | Pedro I and II; coffee economy; abolition 1888 |
 | **War of Triple Alliance** | 1864–1870 CE | Paraguay loses ~60-70% of population |
 | **War of the Pacific** | 1879–1884 CE | Chile vs. Bolivia and Peru; Atacama nitrates |

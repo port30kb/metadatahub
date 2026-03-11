@@ -695,6 +695,88 @@ add("cold-war-era", "Cold War Era", "CulturalAge", "contemporary", 1947, 1991, "
 add("european-integration", "European Integration", "CulturalAge", "contemporary", 1957, 0, "CE",
     "Treaty of Rome (1957); EEC to EU; Schengen Area; Euro currency; expansion from 6 to 27+ member states.")
 
+# --- Pre-Classical Aegean ---
+add("minoan-civilization", "Minoan Civilization (Μινωικός πολιτισμός)", "CulturalAge", "holocene", 2700, 1450, "BCE",
+    "First advanced European civilization; Knossos palace; Linear A script (undeciphered); bull-leaping; thalassocracy; Thera eruption.")
+add("mycenaean-civilization", "Mycenaean Civilization (Μυκηναϊκός πολιτισμός)", "CulturalAge", "holocene", 1600, 1100, "BCE",
+    "First mainland Greek civilization; Linear B script; fortified palaces (Mycenae, Tiryns, Pylos); Trojan War tradition; Bronze Age collapse.")
+add("greek-dark-ages", "Greek Dark Ages (Ελληνικοί Σκοτεινοί Αιώνες)", "CulturalAge", "holocene", 1100, 800, "BCE",
+    "Collapse of Mycenaean palatial civilization; loss of writing; population decline; Dorian migration; leads to Archaic Greece.")
+
+# --- Celtic Civilizations ---
+add("hallstatt-culture", "Hallstatt Culture (Hallstattkultur)", "CulturalAge", "holocene", 800, 450, "BCE",
+    "Early Iron Age Celtic culture; salt mining center in Austria; elite chariot burials; first identifiable Celtic material culture.")
+add("la-tene-culture", "La Tène Culture (La-Tène-Kultur)", "CulturalAge", "holocene", 450, 1, "BCE",
+    "Mature Celtic civilization; characteristic art style; oppida proto-urban centers; spread from Switzerland across Europe.")
+add("etruscan-civilization", "Etruscan Civilization (Rasenna/Rasna)", "CulturalAge", "holocene", 900, 27, "BCE",
+    "Pre-Roman Italian civilization in Tuscany; sophisticated metalwork and tomb painting; influenced Roman religion, architecture, engineering.")
+
+# --- Iberian Peninsula ---
+add("visigothic-kingdom", "Visigothic Kingdom (Reino visigodo)", "CulturalAge", "holocene", 418, 721, "CE",
+    "Germanic successor state controlling Iberia; Toledo capital; Liber Iudiciorum legal code; Arian then Catholic Christianity.")
+add("al-andalus", "Al-Andalus (الأندلس)", "CulturalAge", "holocene", 711, 1492, "CE",
+    "Islamic Iberia; Caliphate of Córdoba; convivencia; Alhambra, Mezquita; advances in science, medicine, philosophy.")
+add("reconquista", "Reconquista", "CulturalAge", "holocene", 722, 1492, "CE",
+    "Christian reconquest of Iberia; Covadonga (722) to Fall of Granada (1492); shaped Spanish and Portuguese national identity.")
+add("spanish-empire", "Spanish Empire (Imperio español)", "CulturalAge", "holocene", 1492, 1976, "CE",
+    "First global empire; colonization of Americas and Philippines; 'empire on which the sun never sets'; Habsburg and Bourbon dynasties.")
+
+# --- Italian States ---
+add("lombard-kingdom", "Lombard Kingdom (Regnum Langobardorum)", "CulturalAge", "holocene", 568, 774, "CE",
+    "Germanic kingdom in Italy after Roman fall; Lombard law; conquered by Charlemagne; origin of 'Lombardy'.")
+add("republic-of-venice", "Republic of Venice (Serenissima Repubblica di Venezia)", "CulturalAge", "holocene", 697, 1797, "CE",
+    "Over 1,100 years of continuous republican government; maritime empire; eastern Mediterranean trade monopoly; Arsenal; Doge system.")
+add("papal-states", "Papal States (Stato Pontificio)", "CulturalAge", "holocene", 756, 1870, "CE",
+    "Temporal domain of the Pope; central Italian territories; Papal diplomacy; key barrier to Italian unification.")
+add("italian-unification", "Italian Unification (Risorgimento)", "CulturalAge", "holocene", 1815, 1871, "CE",
+    "Unification movement; Garibaldi, Cavour, Mazzini; Kingdom of Italy proclaimed 1861; Rome annexed 1870.")
+
+# --- Holy Roman Empire & Central Europe ---
+add("holy-roman-empire", "Holy Roman Empire (Heiliges Römisches Reich)", "CulturalAge", "holocene", 962, 1806, "CE",
+    "Central European polity; Imperial Diet; framework for German politics for 800+ years; 'neither Holy, nor Roman, nor an Empire'; dissolved by Napoleon.")
+add("habsburg-monarchy", "Habsburg Monarchy (Habsburgermonarchie)", "CulturalAge", "holocene", 1282, 1918, "CE",
+    "Dominant European dynasty; controlled Austria, Spain, Netherlands, Italy; Charles V ruled largest European empire; Catholic champions.")
+add("austro-hungarian-empire", "Austro-Hungarian Empire (Österreichisch-Ungarische Monarchie)", "CulturalAge", "holocene", 1867, 1918, "CE",
+    "Dual monarchy; second-largest European state; multi-ethnic tension; assassination of Franz Ferdinand triggers WWI.")
+
+# --- Eastern Europe ---
+add("first-bulgarian-empire", "First Bulgarian Empire (Първо българско царство)", "CulturalAge", "holocene", 681, 1018, "CE",
+    "First Slavic state recognized by Byzantium; Simeon the Great; Cyrillic script origin; conquered by Basil II 'the Bulgar-Slayer'.")
+add("second-bulgarian-empire", "Second Bulgarian Empire (Второ българско царство)", "CulturalAge", "holocene", 1185, 1396, "CE",
+    "Asen dynasty revival; Tarnovo capital; fell to Ottoman conquest.")
+add("kingdom-of-poland", "Kingdom of Poland (Królestwo Polskie)", "CulturalAge", "holocene", 1025, 1569, "CE",
+    "Piast and Jagiellonian dynasties; Christianization (966); Copernicus; union with Lithuania.")
+add("polish-lithuanian-commonwealth", "Polish-Lithuanian Commonwealth (Rzeczpospolita Obojga Narodów)", "CulturalAge", "holocene", 1569, 1795, "CE",
+    "Largest European state of its era; elected monarchy; religious tolerance; Sarmatism; partitioned by Russia, Prussia, Austria.")
+add("kingdom-of-hungary", "Kingdom of Hungary (Magyar Királyság)", "CulturalAge", "holocene", 1000, 1526, "CE",
+    "St. Stephen I; buffer against Ottoman expansion; Battle of Mohács (1526) ends independence; major Central European power.")
+add("grand-duchy-of-lithuania", "Grand Duchy of Lithuania (Lietuvos Didžioji Kunigaikštystė)", "CulturalAge", "holocene", 1236, 1569, "CE",
+    "Last pagan state in Europe; largest European state in 15th century; encompassed Belarus, Ukraine, parts of Russia.")
+add("kingdom-of-serbia", "Kingdom of Serbia (Краљевина Србија)", "CulturalAge", "holocene", 1217, 1346, "CE",
+    "Nemanjić dynasty; Stefan Dušan's empire; Serbian Orthodox Church; Battle of Kosovo (1389); medieval Serbian Golden Age.")
+
+# --- Russian History ---
+add("grand-duchy-moscow", "Grand Duchy of Moscow (Великое княжество Московское)", "CulturalAge", "holocene", 1263, 1547, "CE",
+    "Rise of Moscow as successor to Kievan Rus'; Ivan III ends Mongol rule (1480); 'Third Rome' ideology.")
+add("tsardom-of-russia", "Tsardom of Russia (Русское царство)", "CulturalAge", "holocene", 1547, 1721, "CE",
+    "Ivan IV 'the Terrible'; Time of Troubles; Romanov dynasty begins (1613); expansion into Siberia.")
+add("russian-empire", "Russian Empire (Российская империя)", "CulturalAge", "holocene", 1721, 1917, "CE",
+    "Peter the Great's modernization; St. Petersburg; largest contiguous empire; Napoleonic Wars; emancipation of serfs (1861).")
+add("soviet-union", "Soviet Union (Союз Советских Социалистических Республик)", "CulturalAge", "contemporary", 1922, 1991, "CE",
+    "First communist state; superpower; industrialization; WWII Eastern Front; Space Race; Cold War; collapse reshapes world order.")
+
+# --- Additional European periods ---
+add("napoleonic-era", "Napoleonic Era (Ère napoléonienne)", "CulturalAge", "modern-period", 1799, 1815, "CE",
+    "Napoleon reshapes European borders; Code Napoléon; Battle of Austerlitz, Trafalgar, Waterloo; Congress of Vienna.")
+add("victorian-era", "Victorian Era", "CulturalAge", "modern-period", 1837, 1901, "CE",
+    "British global hegemony; Industrial Revolution peak; British Empire at zenith; cultural, scientific, social transformation.")
+add("british-empire", "British Empire", "CulturalAge", "holocene", 1583, 1997, "CE",
+    "Largest empire in history; shaped global language, law, trade; decolonization post-WWII; Commonwealth of Nations.")
+add("dutch-golden-age", "Dutch Golden Age (Gouden Eeuw)", "CulturalAge", "holocene", 1588, 1672, "CE",
+    "Dutch Republic as global trade power; VOC; Rembrandt, Vermeer; religious tolerance; scientific revolution.")
+add("german-unification", "German Unification (Deutsche Einigung)", "CulturalAge", "modern-period", 1864, 1871, "CE",
+    "Bismarck; Franco-Prussian War; German Empire proclaimed at Versailles; reshapes European power balance.")
+
 # ═══════════════════════════════════════════════════════════════
 # MAJOR MASS EXTINCTION EVENTS (cross-cutting markers)
 # ═══════════════════════════════════════════════════════════════
@@ -802,16 +884,36 @@ add("tiwanaku-empire", "Tiwanaku Empire", "CulturalAge", "south-america-precolum
     "Andean civilization centered at Lake Titicaca, Bolivia; Gateway of the Sun; raised-field agriculture; altitude ~3,800 m.")
 add("wari-empire", "Wari Empire", "CulturalAge", "south-america-precolumbian", 600, 1000, "CE",
     "Middle Horizon Andean empire; administrative centers across Peru; road network predating Inca; terraced agriculture.")
+add("chinchorro-culture", "Chinchorro Culture", "CulturalAge", "south-america-precolumbian", 7000, 1500, "BCE",
+    "Atacama Desert coast (Chile/Peru); oldest artificial mummification in the world (~5000 BCE, predating Egypt); fishing and gathering; egalitarian society.")
+add("recuay-culture", "Recuay Culture", "CulturalAge", "south-america-precolumbian", 200, 600, "CE",
+    "Northern Peruvian highlands (Ancash); stone sculpture; kaolin pottery; underground galleries; warrior iconography; contemporaneous with Moche.")
+add("lima-culture", "Lima Culture", "CulturalAge", "south-america-precolumbian", 100, 650, "CE",
+    "Central Peruvian coast; Huaca Pucllana and Huaca Huallamarca; interlocking adobe bricks ('librero' style); irrigation agriculture; fish and shellfish.")
+add("lambayeque-sican", "Lambayeque / Sicán Culture", "CulturalAge", "south-america-precolumbian", 750, 1375, "CE",
+    "Northern Peru; Batán Grande and Túcume pyramids; Sicán Lord gold mask; master goldsmiths; Naylamp dynasty legend; conquered by Chimú.")
 add("chimu-empire", "Chimú Empire", "CulturalAge", "south-america-precolumbian", 900, 1470, "CE",
     "Late Intermediate kingdom of northern Peru; Chan Chan (largest adobe city); sophisticated metalwork; conquered by Inca.")
+add("chachapoya", "Chachapoya Civilization", "CulturalAge", "south-america-precolumbian", 800, 1470, "CE",
+    "Cloud Warriors of northern Peru; Kuélap fortress (stone citadel at 3,000 m); cliff tombs and sarcophagi; conquered by Inca; Revash mausolea.")
 add("muisca-confederation", "Muisca Confederation", "CulturalAge", "south-america-precolumbian", 600, 1541, "CE",
     "Chibcha-speaking confederation in Colombian highlands; gold and tumbaga metalwork; El Dorado legend; salt and emerald trade.")
+add("tairona", "Tairona Civilization", "CulturalAge", "south-america-precolumbian", 200, 1600, "CE",
+    "Sierra Nevada de Santa Marta, Colombia; Ciudad Perdida (Teyuna); stone terraces and stairways; gold and tumbaga work; ancestors of Kogi people.")
+add("tierradentro", "Tierradentro Culture", "CulturalAge", "south-america-precolumbian", 600, 900, "CE",
+    "Underground hypogea (burial chambers) carved into volcanic rock, Colombia; painted geometric designs; UNESCO World Heritage Site; Páez territory.")
 add("san-agustin-culture", "San Agustín Culture", "CulturalAge", "south-america-precolumbian", 100, 1350, "CE",
     "Pre-Columbian culture of southwestern Colombia; monumental stone sculptures and burial mounds; UNESCO World Heritage Site.")
 add("mapuche-precolonial", "Mapuche (Pre-Colonial)", "CulturalAge", "south-america-precolumbian", 600, 1550, "CE",
     "Indigenous people of south-central Chile and Argentina; agricultural and pastoral; fierce resistance to Inca and Spanish expansion.")
+add("marajoara-culture", "Marajoara Culture", "CulturalAge", "south-america-precolumbian", 400, 1300, "CE",
+    "Marajó Island, Amazon estuary, Brazil; elaborate polychrome ceramics; earthen mounds (tesos); complex chiefdom; challenging 'virgin Amazon' myth.")
+add("diaguita", "Diaguita Culture", "CulturalAge", "south-america-precolumbian", 800, 1536, "CE",
+    "Northwestern Argentina and Chilean Norte Chico; distinctive geometric pottery; terraced agriculture; fortified settlements (pucará); resisted Inca then Spanish.")
 add("guarani-precolonial", "Guaraní (Pre-Colonial)", "CulturalAge", "south-america-precolumbian", 500, 1537, "CE",
     "Tupi-Guaraní peoples of Paraguay, Brazil, and Argentina; slash-and-burn agriculture; canoe navigation; religious migrations (Land Without Evil).")
+add("selknam", "Selk'nam (Ona People)", "CulturalAge", "south-america-precolumbian", 8000, 1900, "BCE-CE",
+    "Tierra del Fuego hunter-gatherers; Hain initiation ceremony; guanaco hunters; body painting; genocided during Patagonian sheep boom (late 1800s).")
 
 # --- Inca Empire ---
 add("inca-empire", "Inca Empire (Tawantinsuyu)", "CulturalAge", "south-america-precolumbian", 1438, 1533, "CE",
@@ -902,6 +1004,8 @@ add("pink-tide", "Pink Tide (Marea Rosa)", "CulturalAge", "south-america-21st", 
 # --- Paleo-Indian & Archaic ---
 add("north-america-precolumbian", "Pre-Columbian North America", "CulturalAge", "holocene", 15000, 1492, "BCE-CE",
     "Indigenous civilizations of North America before European contact; from Clovis hunters to complex societies of Mesoamerica and the Southwest.")
+add("monte-verde", "Monte Verde", "CulturalAge", "north-america-precolumbian", 14800, 13800, "BCE",
+    "Southern Chile; pre-Clovis archaeological site; evidence of human habitation ~14,800 BCE; challenges Clovis-first model; seaweed, mastodon remains; Tom Dillehay excavations.")
 add("paleo-indians", "Paleo-Indian Period", "CulturalAge", "north-america-precolumbian", 15000, 8000, "BCE",
     "First peoples of the Americas; Clovis culture (~13,000 BP); mammoth and megafauna hunters; Folsom points; Beringia land bridge migration.")
 add("clovis-culture", "Clovis Culture", "CulturalAge", "paleo-indians", 11500, 10800, "BCE",
@@ -994,6 +1098,14 @@ add("iroquois-confederacy", "Haudenosaunee (Iroquois) Confederacy", "CulturalAge
     "Six Nations (Mohawk, Oneida, Onondaga, Cayuga, Seneca, Tuscarora); Great Law of Peace; longhouse society; influenced U.S. Constitution debates.")
 add("taino", "Taíno Civilization", "CulturalAge", "north-america-precolumbian", 1200, 1550, "CE",
     "Caribbean (Hispaniola, Puerto Rico, Cuba, Jamaica); first indigenous people encountered by Columbus; cacique chiefs; ball courts; zemí worship; decimated by colonization.")
+add("kalinago", "Kalinago (Island Caribs)", "CulturalAge", "north-america-precolumbian", 1200, 1700, "CE",
+    "Lesser Antilles (Dominica, St. Vincent, Grenada); skilled seafarers and warriors; resisted European colonization longest in Caribbean; cassava cultivation.")
+add("saladoid", "Saladoid Culture", "CulturalAge", "north-america-precolumbian", 500, 600, "BCE-CE",
+    "Orinoco River origin; spread through Lesser Antilles to Puerto Rico; white-on-red pottery (Saladero type site); ancestral to Taíno; introduced agriculture to Caribbean.")
+add("gran-cocle", "Gran Coclé Culture", "CulturalAge", "mesoamerica", 200, 1520, "CE",
+    "Central Panama; Sitio Conte gold and polychrome ceramics; elaborate burial goods; goldwork (huacas); bridge between Mesoamerican and South American traditions.")
+add("diquis", "Diquís Culture", "CulturalAge", "mesoamerica", 700, 1530, "CE",
+    "Southern Costa Rica; stone spheres (Las Bolas, UNESCO); gold figurines; complex chiefdoms; connection to Chibchan cultural area.")
 add("cherokee-nation", "Cherokee Nation (Pre-Removal)", "CulturalAge", "north-america-precolumbian", 1540, 1838, "CE",
     "Southeast woodlands; one of 'Five Civilized Tribes'; Sequoyah's syllabary (1821); Cherokee Phoenix newspaper; Trail of Tears (1838).")
 
@@ -1178,6 +1290,12 @@ add("oyo-empire", "Oyo Empire", "CulturalAge", "west-africa-ancient", 1400, 1896
     "Yoruba empire; powerful cavalry; Alaafin rulers; Atlantic trade; Oyo ile capital; influenced Yoruba diaspora culture in Americas.")
 add("ashanti-empire", "Ashanti Empire", "CulturalAge", "west-africa-ancient", 1670, 1902, "CE",
     "Akan people, modern Ghana; Golden Stool; Osei Tutu I; gold trade; kente cloth; resisted British colonization; Anglo-Ashanti Wars.")
+add("jolof-empire", "Jolof Empire (Buurba Jolof)", "CulturalAge", "west-africa-ancient", 1350, 1549, "CE",
+    "Wolof confederacy in Senegal; former Mali vassal; major early Atlantic slave trade participant; dissolved at Battle of Danki (1549).")
+add("kingdom-of-dahomey", "Kingdom of Dahomey (Danhomè)", "CulturalAge", "west-africa-ancient", 1600, 1904, "CE",
+    "Fon people, modern Benin; Dahomey Amazons (Mino) all-female regiment; Vodun religion origin; major slave-trading state; fell to French 1892.")
+add("mossi-kingdoms", "Mossi Kingdoms (Moogo)", "CulturalAge", "west-africa-ancient", 1050, 1896, "CE",
+    "Upper Volta (Burkina Faso); Mogho Naaba supreme ruler; raided Timbuktu (1329); resisted Islamization; largest ethnic group in Burkina Faso today.")
 add("hausa-city-states", "Hausa City-States", "CulturalAge", "west-africa-ancient", 1000, 1808, "CE",
     "Northern Nigeria/Niger; Kano, Katsina, Zaria; trans-Saharan trade hubs; indigo-dyed cloth; Islamic learning; conquered by Fulani jihad (1804).")
 add("sokoto-caliphate", "Sokoto Caliphate", "CulturalAge", "west-africa-ancient", 1804, 1903, "CE",
@@ -1196,6 +1314,14 @@ add("mutapa-empire", "Kingdom of Mutapa", "CulturalAge", "holocene", 1430, 1760,
     "Successor to Great Zimbabwe; controlled gold-producing region; Shona; Portuguese trade and interference; 'emperor of gold mines'.")
 add("buganda-kingdom", "Kingdom of Buganda", "CulturalAge", "holocene", 1300, 1966, "CE",
     "Central Uganda; Lake Victoria; Kabaka rulers; sophisticated political system; resisted and then accommodated British; integral to modern Uganda.")
+add("zanzibar-sultanate", "Zanzibar Sultanate (Usultani wa Zanzibar)", "CulturalAge", "holocene", 1856, 1964, "CE",
+    "Said bin Sultan moved from Oman; dominated East African slave trade; world's leading clove producer; Anglo-Zanzibar War (38 min); merged into Tanzania.")
+add("bunyoro-kitara", "Bunyoro-Kitara Empire", "CulturalAge", "holocene", 1300, 1899, "CE",
+    "Successor to legendary Chwezi Empire; Babiito dynasty; one of most powerful Great Lakes kingdoms; Omukama Kabalega resisted British; restored 1993.")
+add("adal-sultanate", "Adal Sultanate", "CulturalAge", "holocene", 1415, 1577, "CE",
+    "Somali-Harari Islamic state; Imam Ahmad ibn Ibrahim al-Ghazi's jihad conquered vast Ethiopian territory (1529); controlled parts of Somalia, Ethiopia, Djibouti.")
+add("ajuran-sultanate", "Ajuran Sultanate (Dawladda Ajuuraan)", "CulturalAge", "holocene", 1200, 1700, "CE",
+    "Africa's only known hydraulic empire; monopolized Shebelle/Jubba rivers; Indian Ocean trade; repelled Portuguese; limestone wells still in use today.")
 
 # --- Southern Africa ---
 add("mapungubwe", "Kingdom of Mapungubwe", "CulturalAge", "holocene", 1075, 1220, "CE",
@@ -1204,6 +1330,14 @@ add("zulu-kingdom", "Zulu Kingdom", "CulturalAge", "holocene", 1816, 1897, "CE",
     "Founded by Shaka Zulu; revolutionary military tactics (iklwa spear, impi regiments); Mfecane/Difaqane upheaval; Anglo-Zulu War (1879, Isandlwana).")
 add("mfecane", "Mfecane/Difaqane", "CulturalAge", "holocene", 1815, 1840, "CE",
     "Period of widespread chaos and migration in southern Africa; triggered by Zulu expansion; Ndebele, Swazi, Sotho, Nguni states formed.")
+add("rozwi-empire", "Rozwi Empire (Rozvi)", "CulturalAge", "holocene", 1684, 1834, "CE",
+    "Shona state; Changamire Dombo expelled Portuguese from Zambezi; revived monumental stone architecture; fell to Ndebele during Mfecane.")
+add("ndebele-kingdom", "Ndebele Kingdom (Mthwakazi)", "CulturalAge", "holocene", 1823, 1894, "CE",
+    "Founded by Mzilikazi, former Shaka lieutenant; crossed Limpopo to Matabeleland; Lobengula; fell to British South Africa Company (1893).")
+add("basotho-kingdom", "Basotho Kingdom (Lesotho)", "CulturalAge", "holocene", 1822, 1966, "CE",
+    "Moshoeshoe I united Mfecane refugees; Thaba Bosiu stronghold; defeated British at Viervoet and Berea; secured British protection 1868; independent 1966.")
+add("maravi-confederacy", "Maravi Confederacy (Malaui)", "CulturalAge", "holocene", 1480, 1720, "CE",
+    "Namesake of modern Malawi; Kalonga rulers from Mankhamba; ivory and iron trade with Swahili and Portuguese; Zimba raiders.")
 add("khoisan-pastoral", "Khoisan Pastoral Period", "CulturalAge", "africa-prehistoric", 2000, 1652, "BCE-CE",
     "Khoikhoi pastoralists and San hunter-gatherers; southern Africa; earliest inhabitants; click languages; rock art tradition spanning millennia.")
 
@@ -1216,6 +1350,20 @@ add("luba-kingdom", "Luba Kingdom", "CulturalAge", "holocene", 1585, 1889, "CE",
     "Central Congo basin; sophisticated governance (balopwe sacred kingship); memory boards (lukasa); influence on Lunda and other kingdoms.")
 add("lunda-empire", "Lunda Empire", "CulturalAge", "holocene", 1665, 1887, "CE",
     "Offshoot of Luba; vast territory across central-southern Africa; long-distance trade; influenced political systems across a wide region.")
+add("kingdom-of-rwanda", "Kingdom of Rwanda (Ubwami bw'u Rwanda)", "CulturalAge", "holocene", 1500, 1961, "CE",
+    "Most centralized Great Lakes kingdom; divine Mwami; Kigeri IV Rwabugiri expanded beyond modern borders; colonial Belgium racialized Hutu-Tutsi; monarchy abolished 1961.")
+add("kingdom-of-burundi", "Kingdom of Burundi (Ubwami bw'Urundi)", "CulturalAge", "holocene", 1680, 1966, "CE",
+    "Ganwa royal dynasty (neither Hutu nor Tutsi); Mwezi IV Gisabo resisted Germans; direct territorial continuation of pre-colonial state; monarchy ended by coup 1966.")
+
+# --- Madagascar ---
+add("merina-kingdom", "Merina Kingdom (Fanjakan'Imerina)", "CulturalAge", "holocene", 1540, 1897, "CE",
+    "Dominated Madagascar; Andrianampoinimerina unified kingdom; Radama I gained British recognition; Antananarivo capital; fell to French colonization 1895-97.")
+
+# --- Sudan ---
+add("funj-sultanate", "Funj Sultanate of Sennar (سلطنة سنار)", "CulturalAge", "holocene", 1504, 1821, "CE",
+    "Blue Sultanate; 300+ years; central to Islamization of Sudan; defeated Ottomans at Hannik (1585); major trading city; fell to Muhammad Ali's Egypt 1821.")
+add("darfur-sultanate", "Sultanate of Darfur (سلطنة دارفور)", "CulturalAge", "holocene", 1603, 1916, "CE",
+    "Keira dynasty; Islam state religion; Darb al-Arba'in trade route to Egypt; nearly twice the size of France at peak; colonial neglect root of modern conflict.")
 
 # --- North Africa (Post-Ancient) ---
 add("north-africa-islamic", "Islamic North Africa", "CulturalAge", "holocene", 647, 1830, "CE",
@@ -1228,6 +1376,14 @@ add("almohad", "Almohad Caliphate", "CulturalAge", "north-africa-islamic", 1121,
     "Berber reformist dynasty; largest Berber empire; Koutoubia Mosque, Giralda; controlled Maghreb and al-Andalus; defeated at Las Navas de Tolosa (1212).")
 add("fatimid-caliphate-africa", "Fatimid Caliphate (North Africa)", "CulturalAge", "north-africa-islamic", 909, 1171, "CE",
     "Ismaili Shia caliphate; founded in Tunisia; conquered Egypt, founded Cairo (969); Al-Azhar University; rivaled Abbasid Baghdad.")
+add("vandal-kingdom", "Vandal Kingdom (Regnum Vandalorum)", "CulturalAge", "holocene", 429, 534, "CE",
+    "Germanic kingdom in North Africa; Gaiseric captured Carthage (439); sacked Rome (455); controlled Tunisia, Sardinia, Corsica; defeated by Belisarius 534.")
+add("idrisid-dynasty", "Idrisid Dynasty (الأدارسة)", "CulturalAge", "north-africa-islamic", 788, 974, "CE",
+    "Morocco's first independent Islamic dynasty; descendant of Prophet Muhammad; son Idris II founded Fez (808); Al-Qarawiyyin (oldest university); Sharifian precedent.")
+add("marinid-dynasty", "Marinid Dynasty (المرينيون)", "CulturalAge", "north-africa-islamic", 1244, 1465, "CE",
+    "Zenata Berbers; Fez golden age; Morocco's first madrasas; Ibn Khaldun and Ibn Battuta products of this milieu; defeated at Rio Salado (1340).")
+add("hafsid-dynasty", "Hafsid Dynasty (الحفصيون)", "CulturalAge", "north-africa-islamic", 1229, 1574, "CE",
+    "Ruled Ifriqiya (Tunisia, Libya, Algeria) 345 years; al-Mustansir proclaimed Caliph after Mongol sack of Baghdad; fell to Ottomans 1574.")
 add("barbary-states", "Barbary States", "CulturalAge", "north-africa-islamic", 1516, 1830, "CE",
     "Ottoman-aligned North African regencies; Algiers, Tunis, Tripoli; corsair piracy; Barbary Wars with U.S.; French conquest of Algiers (1830).")
 
@@ -1311,6 +1467,26 @@ add("indian-independence", "Indian Independence Movement", "CulturalAge", "briti
 add("south-asia-modern", "Modern South Asia", "CulturalAge", "contemporary", 1947, 0, "CE",
     "Partition of India and Pakistan; Bangladesh liberation (1971); Sri Lankan civil war; nuclear powers; IT revolution; world's largest democracy.")
 
+# --- Sri Lanka ---
+add("anuradhapura-kingdom", "Anuradhapura Kingdom (අනුරාධපුර රාජධානිය)", "CulturalAge", "south-asia-history", 377, 1017, "BCE-CE",
+    "First major Sinhalese kingdom; 1,400-year rule; center of Theravada Buddhism; massive irrigation works (tanks); UNESCO World Heritage site.")
+add("polonnaruwa-kingdom", "Polonnaruwa Kingdom (පොළොන්නරුව රාජධානිය)", "CulturalAge", "south-asia-history", 1055, 1212, "CE",
+    "Second Sinhalese capital after Chola expulsion; Parakramabahu the Great; superior irrigation systems; Gal Vihara Buddha statues; UNESCO site.")
+add("kingdom-of-kandy", "Kingdom of Kandy (මහනුවර රාජධානිය)", "CulturalAge", "south-asia-history", 1469, 1815, "CE",
+    "Last independent Sinhalese monarchy; resisted Portuguese and Dutch for centuries; Temple of the Tooth Relic (Sri Dalada Maligawa); fell to British 1815.")
+
+# --- Nepal ---
+add("licchavi-nepal", "Licchavi Kingdom of Nepal (लिच्छवि राजवंश)", "CulturalAge", "south-asia-history", 400, 750, "CE",
+    "Golden Period of Nepal; earliest inscriptions (Manadeva, 464 CE); connected Kathmandu Valley to Indian subcontinent trade and culture.")
+add("malla-nepal", "Malla Kingdoms of Nepal (मल्ल राजवंश)", "CulturalAge", "south-asia-history", 1200, 1768, "CE",
+    "600-year rule; split into Kathmandu, Bhaktapur, Lalitpur after 1482; Newar civilization flourished; extraordinary pagoda temple architecture.")
+
+# --- Bangladesh/Bengal ---
+add("sena-dynasty", "Sena Dynasty (সেন রাজবংশ)", "CulturalAge", "south-asia-history", 1097, 1225, "CE",
+    "Unified all of Bengal; Hindu revival after Buddhist Pala rule; Jayadeva's Gita Govinda; established Bengali caste system.")
+add("bengal-sultanate", "Bengal Sultanate (বাংলা সালতানাত)", "CulturalAge", "south-asia-history", 1342, 1538, "CE",
+    "Independent Islamic state; 'richest country to trade with'; first Bengali court language recognition; distinctive Bengali-Islamic architecture.")
+
 # --- China ---
 add("china-history", "Chinese Historical Periods", "CulturalAge", "holocene", 7000, 0, "BCE-CE",
     "From Neolithic cultures through dynastic cycle to modern People's Republic; continuous civilization spanning 5,000+ years.")
@@ -1336,6 +1512,10 @@ add("han-eastern", "Eastern Han", "CulturalAge", "han-dynasty", 25, 220, "CE",
     "Restored Han; Luoyang capital; Buddhism arrives; invention of paper (Cai Lun, 105 CE); seismograph (Zhang Heng); Yellow Turban Rebellion.")
 add("three-kingdoms", "Three Kingdoms Period", "CulturalAge", "china-history", 220, 280, "CE",
     "Wei, Shu, Wu; Cao Cao, Liu Bei, Sun Quan, Zhuge Liang; Romance of the Three Kingdoms; one of most romanticized eras in Chinese culture.")
+add("six-dynasties", "Six Dynasties / Northern and Southern Dynasties (六朝/南北朝)", "CulturalAge", "china-history", 220, 589, "CE",
+    "300-year era of division; Jin, Sixteen Kingdoms, Northern and Southern Dynasties; Buddhism takes root; Wang Xizhi calligraphy; ethnic integration of steppe peoples.")
+add("sixteen-kingdoms", "Sixteen Kingdoms (十六國/五胡十六國)", "CulturalAge", "six-dynasties", 304, 439, "CE",
+    "Non-Han peoples (Xiongnu, Xianbei, Di, Qiang, Jie) establish kingdoms across northern China; reshapes Chinese demographics and culture.")
 add("sui-dynasty", "Sui Dynasty", "CulturalAge", "china-history", 581, 618, "CE",
     "Reunification after centuries of division; Grand Canal construction; Great Wall rebuilt; civil service exams restored; overextension leads to collapse.")
 add("tang-dynasty", "Tang Dynasty", "CulturalAge", "china-history", 618, 907, "CE",
@@ -1346,8 +1526,12 @@ add("song-dynasty", "Song Dynasty", "CulturalAge", "china-history", 960, 1279, "
     "Economic revolution; movable type printing; gunpowder weapons; compass; paper money; Neo-Confucianism; landscape painting; commercial economy.")
 add("song-northern", "Northern Song", "CulturalAge", "song-dynasty", 960, 1127, "CE",
     "Kaifeng capital; Su Shi (poet); Shen Kuo (polymath); Dream Pool Essays; commercial revolution; lost north to Jurchen Jin dynasty.")
-add("jin-jurchen", "Jin Dynasty (Jurchen)", "CulturalAge", "china-history", 1115, 1234, "CE",
+add("jin-jurchen", "Jin Dynasty (Jurchen, 金朝)", "CulturalAge", "china-history", 1115, 1234, "CE",
     "Jurchen conquest of northern China; sinicized administration; rivalry with Southern Song; fell to Mongols; predecessor to Manchu Qing.")
+add("liao-dynasty", "Liao Dynasty (遼朝)", "CulturalAge", "china-history", 916, 1125, "CE",
+    "Khitan empire; 'Cathay' derives from Khitan; dual administration (nomadic + Chinese); Chanyuan Treaty with Song (1004); own writing system.")
+add("western-xia", "Western Xia (西夏)", "CulturalAge", "china-history", 1038, 1227, "CE",
+    "Tangut empire controlling Hexi Corridor (Silk Road); unique Tangut script; three-way balance with Song and Liao/Jin; annihilated by Mongols.")
 add("song-southern", "Southern Song", "CulturalAge", "song-dynasty", 1127, 1279, "CE",
     "Hangzhou capital ('above is heaven, below is Hangzhou'); maritime trade; Zhu Xi Neo-Confucianism; fell to Mongol Yuan dynasty.")
 add("yuan-dynasty", "Yuan Dynasty (Mongol)", "CulturalAge", "china-history", 1271, 1368, "CE",
@@ -1366,6 +1550,10 @@ add("republic-of-china", "Republic of China", "CulturalAge", "china-history", 19
     "Sun Yat-sen; warlord era; Northern Expedition; Nanjing decade; Second Sino-Japanese War (1937-45); Chinese Civil War; Chiang Kai-shek retreats to Taiwan.")
 add("prc", "People's Republic of China", "CulturalAge", "contemporary", 1949, 0, "CE",
     "Mao Zedong; Great Leap Forward; Cultural Revolution (1966-76); Deng Xiaoping reforms (1978); economic miracle; world's second-largest economy.")
+add("taiwan-japanese", "Taiwan under Japanese Rule (台灣日治時期)", "CulturalAge", "japan-history", 1895, 1945, "CE",
+    "Japan's first colony (Treaty of Shimonoseki); Republic of Formosa (1895); modernized infrastructure; cultural suppression; shaped modern Taiwanese identity.")
+add("roc-taiwan", "ROC on Taiwan (中華民國在臺灣)", "CulturalAge", "contemporary", 1949, 0, "CE",
+    "KMT retreat to Taiwan; White Terror; martial law (1949-1987); economic miracle (Four Asian Tigers); democratization; first direct presidential election (1996).")
 
 # --- Japan ---
 add("japan-history", "Japanese Historical Periods", "CulturalAge", "holocene", 14000, 0, "BCE-CE",
@@ -1388,14 +1576,20 @@ add("muromachi-period", "Muromachi Period", "CulturalAge", "japan-history", 1336
     "Ashikaga shogunate; Noh theater; tea ceremony; Zen gardens (Ryōan-ji); Ōnin War (1467); Sengoku (Warring States) era begins.")
 add("sengoku", "Sengoku Period", "CulturalAge", "japan-history", 1467, 1615, "CE",
     "Warring States; Oda Nobunaga, Toyotomi Hideyoshi, Tokugawa Ieyasu (three unifiers); firearms arrive (1543); castles; samurai warfare peak.")
+add("azuchi-momoyama", "Azuchi-Momoyama Period (安土桃山時代)", "CulturalAge", "sengoku", 1573, 1603, "CE",
+    "Nobunaga and Hideyoshi era; grand castles (Azuchi, Osaka); Sen no Rikyū tea ceremony; Namban trade with Europeans; Korea invasions (1592-98).")
 add("edo-period", "Edo Period (Tokugawa)", "CulturalAge", "japan-history", 1603, 1868, "CE",
     "Tokugawa shogunate; 250 years of peace; sakoku isolation; Edo (Tokyo) grows to 1M+; kabuki, ukiyo-e, haiku; rigid social hierarchy; merchant culture.")
 add("meiji-era", "Meiji Era", "CulturalAge", "japan-history", 1868, 1912, "CE",
     "Meiji Restoration; rapid modernization/industrialization; Meiji Constitution (1889); Sino-Japanese War (1894-95); Russo-Japanese War (1904-05); world power.")
-add("imperial-japan", "Imperial Japan", "CulturalAge", "japan-history", 1912, 1945, "CE",
-    "Taishō democracy; militarism rises; Manchuria invasion (1931); Second Sino-Japanese War; Pearl Harbor; Pacific War; atomic bombs; surrender.")
+add("taisho-era", "Taishō Era (大正時代)", "CulturalAge", "japan-history", 1912, 1926, "CE",
+    "Japan's brief democratic flowering; party-led cabinets; universal male suffrage (1925); modern culture (cinema, radio); Great Kantō Earthquake (1923).")
+add("imperial-japan", "Early Shōwa / Militarist Japan (昭和)", "CulturalAge", "japan-history", 1926, 1945, "CE",
+    "Militarism rises; Manchuria invasion (1931); Second Sino-Japanese War; Pearl Harbor; Pacific War; atomic bombs; surrender.")
 add("postwar-japan", "Postwar Japan", "CulturalAge", "contemporary", 1945, 0, "CE",
     "U.S. occupation; new constitution; economic miracle; world's 2nd largest economy (1968-2010); Sony, Toyota; anime/manga cultural export; aging society.")
+add("ryukyu-kingdom", "Ryukyu Kingdom (琉球王国 / Ruuchuu)", "CulturalAge", "japan-history", 1429, 1879, "CE",
+    "Independent maritime kingdom (Okinawa); trade hub connecting China, Japan, Korea, SE Asia; Shuri Castle (UNESCO); dual subordination after Satsuma 1609; annexed by Meiji Japan.")
 
 # --- Korea ---
 add("korea-history", "Korean Historical Periods", "CulturalAge", "holocene", 2333, 0, "BCE-CE",
@@ -1404,16 +1598,22 @@ add("gojoseon", "Gojoseon", "CulturalAge", "korea-history", 2333, 108, "BCE",
     "First Korean kingdom (legendary founding by Dangun); bronze culture; Wiman Joseon; conquered by Han China (108 BCE); Korean identity origins.")
 add("three-kingdoms-korea", "Three Kingdoms of Korea", "CulturalAge", "korea-history", 57, 668, "BCE-CE",
     "Goguryeo (north, military), Baekje (southwest, maritime), Silla (southeast); Buddhism adopted; tomb murals; cultural exchange with Japan and China.")
+add("gaya-confederacy", "Gaya Confederacy (가야/加耶)", "CulturalAge", "korea-history", 42, 562, "CE",
+    "City-states in Nakdong River basin; peninsula's iron-working center; gayageum zither invented; absorbed by Silla; Kim Yu-sin was Gaya descendant.")
 add("silla-unified", "Unified Silla", "CulturalAge", "korea-history", 668, 935, "CE",
     "Silla unifies peninsula with Tang alliance; Gyeongju capital; Bulguksa Temple; golden age of Korean Buddhism; Seokguram Grotto.")
 add("balhae", "Balhae (Bohai)", "CulturalAge", "korea-history", 698, 926, "CE",
     "Northern successor to Goguryeo; ruled Manchuria and northern Korea; 'Flourishing Land in the East'; fell to Khitan Liao; claimed by both Korean and Chinese histories.")
+add("later-three-kingdoms", "Later Three Kingdoms (후삼국시대)", "CulturalAge", "korea-history", 892, 936, "CE",
+    "Silla collapses; Later Baekje and Later Goguryeo arise; Wang Geon unifies under Goryeo (936); origin of name 'Korea'.")
 add("goryeo-dynasty", "Goryeo Dynasty", "CulturalAge", "korea-history", 918, 1392, "CE",
     "Origin of name 'Korea'; celadon ceramics; Tripitaka Koreana (woodblock Buddhist canon); movable metal type (1234, before Gutenberg); Mongol invasions.")
 add("joseon-dynasty", "Joseon Dynasty", "CulturalAge", "korea-history", 1392, 1897, "CE",
     "Neo-Confucian state; Sejong the Great invents Hangul (1443); Gyeongbokgung Palace; Imjin War (Japanese invasions, 1592-98); 500-year dynasty.")
 add("joseon-golden-age", "Joseon Golden Age", "CulturalAge", "joseon-dynasty", 1418, 1494, "CE",
     "Sejong the Great; Hangul alphabet (1443); rain gauge, sundials, water clocks; Jang Yeong-sil (inventor); agricultural treatises; Confucian scholarship.")
+add("korean-empire", "Korean Empire (대한제국/大韓帝國)", "CulturalAge", "korea-history", 1897, 1910, "CE",
+    "Emperor Gojong proclaims empire; Gwangmu Reform; modernization; 'Daehan' origin of South Korea's name; annexed by Japan 1910.")
 add("japanese-occupation-korea", "Japanese Occupation of Korea", "CulturalAge", "korea-history", 1910, 1945, "CE",
     "Annexation by Japan; cultural suppression; forced labor; comfort women; March 1st Movement (1919); Korean language banned; liberation with WWII end.")
 add("korea-modern", "Modern Korea (Divided)", "CulturalAge", "contemporary", 1945, 0, "CE",
@@ -1444,6 +1644,54 @@ add("malacca-sultanate", "Malacca Sultanate", "CulturalAge", "southeast-asia-his
     "Strategic Strait of Malacca; spread of Islam in maritime Southeast Asia; Malay court culture; fell to Portuguese (1511); origin of modern Malaysia.")
 add("dai-viet", "Đại Việt", "CulturalAge", "southeast-asia-history", 1009, 1802, "CE",
     "Vietnamese state; Lý, Trần, Lê dynasties; repelled Mongol invasions (3 times); Confucian governance; Temple of Literature (1070); southward expansion.")
+# --- Myanmar (post-Pagan) ---
+add("toungoo-dynasty", "Toungoo Dynasty (တောင်ငူ ခေတ်)", "CulturalAge", "southeast-asia-history", 1510, 1752, "CE",
+    "Reunified Burma; under Bayinnaung created largest empire in Southeast Asian history; conquered Ava, Lan Na, Siam, Lan Xang.")
+add("konbaung-dynasty", "Konbaung Dynasty (ကုန်းဘောင် ခေတ်)", "CulturalAge", "southeast-asia-history", 1752, 1885, "CE",
+    "Last Burmese dynasty; destroyed Ayutthaya (1767); defeated four Qing invasions; fell to British in three Anglo-Burmese Wars.")
+
+# --- Thailand (post-Ayutthaya) ---
+add("lan-na-kingdom", "Lan Na Kingdom (ล้านนา)", "CulturalAge", "southeast-asia-history", 1292, 1558, "CE",
+    "Northern Thai kingdom centered on Chiang Mai; distinct Lan Na script and culture; resisted Mongol incursions; eventually absorbed into Siam.")
+add("rattanakosin", "Rattanakosin Kingdom (อาณาจักรรัตนโกสินทร์)", "CulturalAge", "southeast-asia-history", 1782, 1932, "CE",
+    "Chakri dynasty; Bangkok capital; Siam's modernization; only Southeast Asian nation to avoid colonization; precursor to modern Thailand.")
+
+# --- Vietnam (specific dynasties) ---
+add("ly-dynasty", "Lý Dynasty (Nhà Lý/李朝)", "CulturalAge", "dai-viet", 1010, 1225, "CE",
+    "Founded Thăng Long (Hanoi); established centralized Vietnamese state; drove out Chinese influence; laid foundation for Vietnamese nationhood.")
+add("tran-dynasty", "Trần Dynasty (Nhà Trần/陳朝)", "CulturalAge", "dai-viet", 1226, 1400, "CE",
+    "Repelled three Mongol invasions under Trần Hưng Đạo; chữ Nôm writing system; golden age of Vietnamese literature.")
+add("later-le-dynasty", "Later Lê Dynasty (Nhà Hậu Lê/後黎朝)", "CulturalAge", "dai-viet", 1428, 1789, "CE",
+    "Longest-ruling Vietnamese dynasty (360 years); Lê Lợi expelled Ming Chinese; Hồng Đức law code with progressive women's rights.")
+add("nguyen-dynasty", "Nguyễn Dynasty (Nhà Nguyễn/阮朝)", "CulturalAge", "southeast-asia-history", 1802, 1945, "CE",
+    "Last Vietnamese dynasty; unified all modern Vietnam; Imperial City of Huế (UNESCO); French protectorate from 1883.")
+
+# --- Indonesia ---
+add("sailendra-dynasty", "Sailendra Dynasty (Wangsa Syailendra)", "CulturalAge", "southeast-asia-history", 750, 850, "CE",
+    "Buddhist dynasty of Central Java; built Borobudur, largest Buddhist monument in the world (UNESCO); connected to Srivijaya.")
+add("mataram-hindu", "Mataram Kingdom (Kerajaan Mataram Kuno)", "CulturalAge", "southeast-asia-history", 732, 1006, "CE",
+    "Hindu-Shaivite kingdom of Central Java; built Prambanan temple complex (UNESCO); rival/coexistent with Sailendra.")
+add("singhasari", "Singhasari Kingdom (Kerajaan Singhasari)", "CulturalAge", "southeast-asia-history", 1222, 1292, "CE",
+    "East Javanese kingdom; conquered Srivijaya; predecessor to Majapahit; Ken Angrok's unification of Javanese territories.")
+add("mataram-islamic", "Mataram Sultanate (Kesultanan Mataram Islam)", "CulturalAge", "southeast-asia-history", 1587, 1755, "CE",
+    "Last major independent Javanese kingdom; Sultan Agung; shaped Javanese culture (gamelan, batik, wayang kulit); split into Yogyakarta and Surakarta.")
+
+# --- Cambodia (post-Angkor) ---
+add("longvek-period", "Post-Angkor / Longvek Period (សម័យលង្វែក)", "CulturalAge", "southeast-asia-history", 1431, 1594, "CE",
+    "Capital moved to Longvek after Angkor's fall; maritime trade hub with European, Chinese, Japanese communities; fell to Ayutthaya 1594.")
+
+# --- Laos ---
+add("lan-xang", "Lan Xang Kingdom (ລ້ານຊ້າງ)", "CulturalAge", "southeast-asia-history", 1353, 1707, "CE",
+    "Kingdom of a Million Elephants; largest Lao state; Theravada Buddhism; golden age under Sourigna Vongsa; split into three kingdoms 1707; foundational to Lao identity.")
+
+# --- Philippines ---
+add("kingdom-of-tondo", "Kingdom of Tondo (Kaharian ng Tondo)", "CulturalAge", "southeast-asia-history", 900, 1589, "CE",
+    "One of oldest Philippine polities; Laguna Copperplate Inscription (900 CE); Luzon trade with China; fell to Spanish colonization.")
+add("sultanate-of-sulu", "Sultanate of Sulu (Kasultanan sin Sulu)", "CulturalAge", "southeast-asia-history", 1405, 1915, "CE",
+    "Maritime Islamic power; controlled Sulu Sea and parts of Borneo; resisted Spanish colonization for centuries; sophisticated naval capabilities.")
+add("sultanate-of-maguindanao", "Sultanate of Maguindanao (Kasultanan nu Magindanaw)", "CulturalAge", "southeast-asia-history", 1500, 1888, "CE",
+    "Largest Islamic state in the Philippines; controlled most of Mindanao at peak; Sultan Kudarat's legendary resistance against Spain.")
+
 add("colonial-southeast-asia", "Colonial Southeast Asia", "CulturalAge", "southeast-asia-history", 1511, 1957, "CE",
     "Portuguese Malacca (1511); Dutch East Indies; Spanish Philippines; French Indochina; British Burma/Malaya; only Thailand never colonized.")
 add("southeast-asia-modern", "Modern Southeast Asia", "CulturalAge", "contemporary", 1945, 0, "CE",
@@ -1462,10 +1710,32 @@ add("gokturk-khaganate", "Göktürk Khaganate", "CulturalAge", "central-asia-his
     "First Turkic empire; Orkhon inscriptions (oldest Turkic writing); controlled Silk Road; split into Eastern and Western; influenced all later Turkic states.")
 add("tibetan-empire", "Tibetan Empire", "CulturalAge", "central-asia-history", 618, 842, "CE",
     "Songtsen Gampo unifies Tibet; rivaled Tang China; controlled Silk Road oases; Lhasa established; Buddhism adopted; Tibetan script created; fragmented after 842.")
+add("sakya-tibet", "Sakya Period of Tibet (ས་སྐྱ་པ/薩迦派)", "CulturalAge", "central-asia-history", 1244, 1354, "CE",
+    "Sakya lamas govern Tibet under Mongol patronage; 'priest-patron' (yon-mchod) relationship; Sakya Pandita's submission to Mongols (1244).")
+add("phagmodrupa-tibet", "Phagmodrupa Dynasty (ཕག་མོ་གྲུ་པ/帕木竹巴)", "CulturalAge", "central-asia-history", 1354, 1642, "CE",
+    "Re-established Tibetan autonomous rule; Changchub Gyaltsen revitalized Tibetan culture; Tsongkhapa founds Gelug school; Dalai Lama institution emerges.")
+add("sogdiana", "Sogdiana (Sogdian City-States)", "CulturalAge", "central-asia-history", 500, 800, "CE",
+    "Premier Silk Road merchant civilization; Samarkand, Bukhara; Sogdian lingua franca of trade; alphabet influenced Central Asian scripts; rose in Tang government.")
 add("mongol-empire", "Mongol Empire", "CulturalAge", "central-asia-history", 1206, 1368, "CE",
     "Genghis Khan; largest contiguous land empire in history; Pax Mongolica; postal system (yam); religious tolerance; connected East and West.")
+add("chagatai-khanate", "Chagatai Khanate (چغتای خانات)", "CulturalAge", "central-asia-history", 1226, 1687, "CE",
+    "Mongol successor state; Chagatai Khan's line; Aral Sea to Altai Mountains; Turkicized; Chagatai Turkic literary language; lost Transoxiana to Timurids.")
+add("ilkhanate", "Ilkhanate (ایلخانان)", "CulturalAge", "central-asia-history", 1256, 1335, "CE",
+    "Mongol successor state; Hulagu Khan; sack of Baghdad (1258) ends Abbasid Caliphate; defeated at Ain Jalut (1260); converted to Islam under Ghazan.")
+add("golden-horde", "Golden Horde (Алтын Орда/Улус Джучи)", "CulturalAge", "central-asia-history", 1227, 1502, "CE",
+    "Mongol successor state; Jochi's line; ruled Eurasian steppe and Russia ('Tatar Yoke'); Sarai capitals; converted to Islam; fragmented into successor khanates.")
+add("northern-yuan", "Northern Yuan (北元)", "CulturalAge", "central-asia-history", 1368, 1635, "CE",
+    "Borjigin clan continues ruling Mongolia after Yuan collapse; Dayan Khan reunifies tribes; ended when seal passed to Manchu Later Jin (1635).")
+add("dzungar-khanate", "Dzungar Khanate (準噶爾汗國)", "CulturalAge", "central-asia-history", 1634, 1758, "CE",
+    "Last great nomadic empire; Oirat Mongols; contested Tibet; fought Qing; destruction by Qianlong (1755-58) shaped borders of modern China.")
 add("timurid-empire", "Timurid Empire", "CulturalAge", "central-asia-history", 1370, 1507, "CE",
     "Timur (Tamerlane); Samarkand as cultural capital; Timurid Renaissance; Ulugh Beg observatory; Persian-Turkic culture; ancestor of Mughal dynasty.")
+add("khwarazmian-empire", "Khwarazmian Empire (خوارزمشاهیان)", "CulturalAge", "central-asia-history", 1077, 1231, "CE",
+    "Turkic Muslim empire; execution of Mongol diplomats triggered Genghis Khan's devastating invasion (1219); destruction of Merv, Samarkand, Bukhara.")
+add("ghaznavid-empire", "Ghaznavid Empire (غزنویان)", "CulturalAge", "central-asia-history", 977, 1186, "CE",
+    "Turkic dynasty from Ghazna; Mahmud of Ghazni's 17 expeditions into India; patron of Ferdowsi's Shahnameh; launched Islam into the subcontinent.")
+add("ghurid-dynasty", "Ghurid Dynasty (غوریان)", "CulturalAge", "central-asia-history", 1175, 1215, "CE",
+    "Eastern Persian dynasty from Ghor; Muhammad of Ghor's conquest of India (Tarain, 1192); Minaret of Jam (UNESCO); founded Delhi Sultanate.")
 add("great-game", "The Great Game", "CulturalAge", "central-asia-history", 1830, 1907, "CE",
     "British-Russian rivalry for Central Asian influence; Afghanistan as buffer state; Russian conquest of khanates; Anglo-Afghan Wars; espionage.")
 add("durrani-empire", "Durrani Empire", "CulturalAge", "central-asia-history", 1747, 1826, "CE",
@@ -1492,6 +1762,14 @@ add("ancient-israel", "Ancient Israel", "CulturalAge", "holocene", 1200, 586, "B
     "Iron Age Levant; tribal confederation; United Monarchy under David and Solomon; First Temple; split into Israel and Judah; Babylonian exile (586 BCE); Hebrew Bible origins.")
 add("hittite-empire", "Hittite Empire", "CulturalAge", "holocene", 1650, 1180, "BCE",
     "Anatolian Bronze Age power; Hattusa capital; Battle of Kadesh with Egypt (1274 BCE); iron technology; Treaty of Kadesh (earliest known peace treaty); cuneiform.")
+add("elamite-civilization", "Elamite Civilization (تمدن ایلام/Haltamti)", "CulturalAge", "holocene", 3200, 539, "BCE",
+    "Major Mesopotamian contemporary in southwest Iran; Susa, Anshan; Proto-Elamite script; Chogha Zanbil ziggurat (UNESCO); language isolate; influenced Achaemenid culture.")
+add("mitanni", "Mitanni Kingdom (ميتاني)", "CulturalAge", "holocene", 1550, 1260, "BCE",
+    "Hurrian-speaking state in northern Syria/Anatolia with Indo-Aryan ruling elite; diplomatic peer of Egypt and Hittites; profoundly influenced Hittite religion.")
+add("urartu", "Urartu / Kingdom of Van (Biainili/Ուրարտու)", "CulturalAge", "holocene", 860, 585, "BCE",
+    "Iron Age kingdom in Armenian highlands; rival to Assyria; founded Erebuni (modern Yerevan, 782 BCE); hydraulic engineering; biblical 'Ararat' cognate.")
+add("median-empire", "Median Empire (مادها)", "CulturalAge", "holocene", 678, 549, "BCE",
+    "First Iranian empire; destroyed Assyrian Empire (Nineveh, 612 BCE) with Babylon; Ecbatana capital; predecessor to Achaemenid Persia.")
 add("achaemenid-empire", "Achaemenid Persian Empire", "CulturalAge", "holocene", 550, 330, "BCE",
     "Cyrus the Great, Darius I, Xerxes; largest empire to date; Persepolis; Royal Road; satrapy system; Zoroastrianism; defeated by Alexander.")
 add("seleucid-empire", "Seleucid Empire", "CulturalAge", "holocene", 312, 63, "BCE",
@@ -1522,8 +1800,28 @@ add("ottoman-golden-age", "Ottoman Golden Age", "CulturalAge", "ottoman-empire",
     "Mehmed II to Suleiman; Constantinople/Istanbul capital; Topkapi Palace; Sinan (architect); legal reforms (Kanuni); naval dominance in Mediterranean.")
 add("safavid-iran", "Safavid Empire", "CulturalAge", "holocene", 1501, 1736, "CE",
     "Shia Islam as state religion of Iran; Isfahan ('half the world'); Shah Abbas I; Persian carpet golden age; rivalry with Ottomans and Mughals.")
+add("afsharid-dynasty", "Afsharid Dynasty (افشاریان)", "CulturalAge", "holocene", 1736, 1796, "CE",
+    "Nader Shah, 'last great Asiatic conqueror'; reunified Iran; invaded Mughal India (1739), looted Peacock Throne and Koh-i-Noor diamond.")
+add("zand-dynasty", "Zand Dynasty (زندیه)", "CulturalAge", "holocene", 1751, 1794, "CE",
+    "Karim Khan Zand ('Advocate of the People'); Shiraz capital; Arg of Karim Khan; most humane Iranian ruler of Islamic era; Kurdish Lak origin.")
 add("qajar-dynasty", "Qajar Dynasty", "CulturalAge", "holocene", 1789, 1925, "CE",
     "Iranian dynasty; Tehran capital; Constitutional Revolution (1906); oil concessions to Britain; modernization struggles; replaced by Pahlavi dynasty.")
+# --- Arabian Peninsula (pre-Islamic) ---
+add("sabaean-kingdom", "Sabaean Kingdom / Sheba (مملكة سبأ)", "CulturalAge", "holocene", 1000, 275, "BCE-CE",
+    "Dominant South Arabian kingdom; Ma'rib Great Dam; frankincense and myrrh trade ('Arabia Felix'); biblical Queen of Sheba; deity Almaqah.")
+add("himyarite-kingdom", "Himyarite Kingdom (مملكة حمير)", "CulturalAge", "holocene", 110, 525, "BCE-CE",
+    "Unified Yemen; royal conversion to Judaism (4th century); Zafar capital; fell to Aksumite-Byzantine alliance; critical pre-Islamic Arabian history.")
+add("nabataean-kingdom", "Nabataean Kingdom (المملكة النبطية)", "CulturalAge", "holocene", 168, 106, "BCE-CE",
+    "Arab kingdom centered on Petra (UNESCO); water engineering masters; controlled incense trade routes; Al-Khazneh; annexed by Rome as Arabia Petraea.")
+
+# --- Caucasus ---
+add("kingdom-of-armenia", "Kingdom of Armenia (Հայաdelays Թագdelays)", "CulturalAge", "holocene", 331, 428, "BCE-CE",
+    "Orontid, Artaxiad, Arsacid dynasties; Tigranes the Great; first nation to adopt Christianity (301 CE); bridge between Roman and Persian worlds.")
+add("cilician-armenia", "Cilician Armenia (Կիlikiayi Hayots)", "CulturalAge", "holocene", 1080, 1375, "CE",
+    "Armenian kingdom-in-exile; key Crusader ally; last Christian state in Levant; major trade hub (port of Ayas); fell to Mamluks 1375.")
+add("kingdom-of-georgia", "Kingdom of Georgia (საქართველოს სამეფო)", "CulturalAge", "holocene", 1008, 1490, "CE",
+    "David IV the Builder and Queen Tamar; dominant Caucasian Christian power; pan-Caucasian empire; Shota Rustaveli's 'The Knight in the Panther's Skin'.")
+
 add("modern-middle-east", "Modern Middle East", "CulturalAge", "contemporary", 1918, 0, "CE",
     "Ottoman collapse; Sykes-Picot; mandates; Israel founded (1948); oil economy; Arab-Israeli conflicts; Iranian Revolution (1979); Gulf Wars; Arab Spring.")
 
@@ -1540,6 +1838,8 @@ add("aboriginal-early", "Early Aboriginal Period", "CulturalAge", "aboriginal-au
     "First Australians arrive (~65,000 BP); Lake Mungo burials (~42,000 BP); megafauna coexistence and extinction; continent-wide spread; earliest rock art.")
 add("aboriginal-holocene", "Aboriginal Holocene Period", "CulturalAge", "aboriginal-australia", 10000, 1788, "BCE-CE",
     "Sea level rise creates modern coastline; Torres Strait Islands separate; intensification; fish traps (Brewarrina ~40,000 years); complex trade networks; songlines.")
+add("budj-bim", "Budj Bim Aquaculture System", "CulturalAge", "aboriginal-australia", 6600, 1788, "BCE-CE",
+    "Gunditjmara people, Victoria; world's oldest aquaculture system; eel traps and stone channels; permanent stone dwellings; UNESCO World Heritage Site (2019).")
 add("australian-colonial", "Colonial Australia", "CulturalAge", "oceania-history", 1788, 1901, "CE",
     "First Fleet (1788); penal colony; frontier wars; gold rushes (1850s); pastoralism; Stolen Generations begin; six colonies; White Australia policy roots.")
 add("australian-federation", "Federation and Modern Australia", "CulturalAge", "contemporary", 1901, 0, "CE",
@@ -1550,8 +1850,12 @@ add("melanesia-history", "Melanesian Civilizations", "CulturalAge", "oceania-his
     "Oldest Pacific settlement; Papua New Guinea highlands agriculture (~7000 BCE); diverse cultures; Kuk Swamp; Lapita pottery tradition.")
 add("sahul-settlement", "Settlement of Sahul", "CulturalAge", "melanesia-history", 50000, 30000, "BCE",
     "First humans in New Guinea/Australia (connected as Sahul); maritime crossing from Sunda; earliest evidence of ocean voyaging by humans.")
+add("png-highlands", "Papua New Guinea Highlands Cultures", "CulturalAge", "melanesia-history", 40000, 1930, "BCE-CE",
+    "Diverse highland societies; 850+ languages; sweet potato revolution (~1600 CE); sing-sing gatherings; kina shell currency; first European contact 1930s.")
 add("kuk-early-agriculture", "Kuk Early Agriculture", "CulturalAge", "melanesia-history", 7000, 4000, "BCE",
     "Kuk Swamp, PNG highlands; independent invention of agriculture; banana, taro, yam cultivation; drainage ditches; one of world's earliest farming sites.")
+add("ancient-fiji", "Ancient Fiji", "CulturalAge", "melanesia-history", 1300, 1874, "BCE-CE",
+    "Settled by Lapita people ~1300 BCE; complex chiefdom system; cannibal culture; drua double-hulled canoes; cultural crossroads of Melanesia and Polynesia.")
 add("lapita-culture", "Lapita Culture", "CulturalAge", "oceania-history", 1600, 500, "BCE",
     "Ancestral Polynesian culture; distinctive dentate-stamped pottery; originated Bismarck Archipelago; spread to Fiji, Tonga, Samoa; skilled navigators.")
 
@@ -1570,6 +1874,8 @@ add("hawaiian-kingdom-pre", "Ancient Hawaiʻi", "CulturalAge", "polynesia-histor
     "Settlement from Marquesas/Tahiti; ahupuaʻa land management; heiau temples; kapu system; taro cultivation; fish ponds; ali'i chiefs.")
 add("hawaiian-kingdom", "Kingdom of Hawaiʻi", "CulturalAge", "polynesia-history", 1795, 1893, "CE",
     "Kamehameha I unifies islands; constitutional monarchy; Hawaiian Renaissance; written language; sugar plantations; overthrown by U.S.-backed coup (1893).")
+add("tui-manua", "Tuʻi Manuʻa", "CulturalAge", "polynesia-history", 1000, 1904, "CE",
+    "Ancient Samoan paramount chieftainship; Manuʻa Islands (Taʻū, Ofu, Olosega); oldest Polynesian title; legendary Tagaloa origin; ceded to U.S. 1904.")
 add("tongaempire", "Tuʻi Tonga Empire", "CulturalAge", "polynesia-history", 950, 1865, "CE",
     "Maritime empire spanning central Pacific; Tongatapu capital; Haʻamonga trilithon; influenced Samoa, Fiji, Niue; one of Polynesia's largest polities.")
 
@@ -1578,6 +1884,8 @@ add("micronesia-history", "Micronesian Civilizations", "CulturalAge", "oceania-h
     "Thousands of small islands; skilled navigators; Carolinian stick charts; varied cultures from Palau to Marshall Islands.")
 add("nan-madol", "Nan Madol", "CulturalAge", "micronesia-history", 1180, 1628, "CE",
     "Megalithic city built on artificial islets, Pohnpei; 'Venice of the Pacific'; basalt log-cabin architecture; Saudeleur dynasty; UNESCO site.")
+add("palau-earthworks", "Palau Earthworks & Terraces", "CulturalAge", "micronesia-history", 1200, 1600, "CE",
+    "Monumental earthwork terraces on Babeldaob; largest earthworks in Oceania; hillside terracing for agriculture and defense; stone villages; bai meeting houses.")
 add("marshallese-navigation", "Marshallese Navigation Tradition", "CulturalAge", "micronesia-history", 500, 1900, "CE",
     "Stick chart navigation (mattang, meddo, rebbelib); wave piloting; outrigger canoes; settlement of remote atolls; unique ocean-reading knowledge.")
 
