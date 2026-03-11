@@ -3584,6 +3584,44 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/bromme-culture",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Bromme Culture",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Late Paleolithic reindeer hunters at the edge of the Scandinavian ice sheet; earliest human presence in Sweden (Scania).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/upper-paleolithic"
+      },
+      "time:hasBeginning": "11000 BCE",
+      "time:hasEnd": "10000 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/ahrensburg-culture",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Ahrensburg Culture",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Late Paleolithic/early Mesolithic nomadic hunters from the North German Plain; migrated north via Jutland following retreating ice.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/upper-paleolithic"
+      },
+      "time:hasBeginning": "11000 BCE",
+      "time:hasEnd": "9500 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
       "@id": "https://metadatahub.eu/data/geologic-timescale/mesolithic",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
@@ -3600,6 +3638,44 @@
       },
       "time:hasBeginning": "10000 BCE",
       "time:hasEnd": "4000 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/fosna-hensbacka",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Fosna–Hensbacka Culture",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Early Mesolithic culture along the Norwegian and Swedish west coasts; descended from Ahrensburg tradition; coastal seal hunting and fishing.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mesolithic"
+      },
+      "time:hasBeginning": "8300 BCE",
+      "time:hasEnd": "7300 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/komsa-culture",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Komsa Culture",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Early Mesolithic culture of northern Norway coast; sea-oriented seal hunters and fishermen; relatively crude stone tools compared to southern Fosna.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mesolithic"
+      },
+      "time:hasBeginning": "10000 BCE",
+      "time:hasEnd": "6000 BCE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -3638,6 +3714,25 @@
       },
       "time:hasBeginning": "6000 BCE",
       "time:hasEnd": "5200 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/nostvet-lihult",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Nøstvet and Lihult Cultures",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Middle-Late Mesolithic in most of southern Norway and Sweden; descendants of Fosna-Hensbacka; polished stone axes.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mesolithic"
+      },
+      "time:hasBeginning": "6000 BCE",
+      "time:hasEnd": "4000 BCE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -3888,6 +3983,63 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/montelius-i",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Montelius Period I",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Earliest Nordic Bronze Age; first bronze imports; flint daggers gradually replaced by bronze weapons.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/nordic-bronze-early"
+      },
+      "time:hasBeginning": "1700 BCE",
+      "time:hasEnd": "1500 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/montelius-ii",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Montelius Period II",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Peak of early bronze wealth; Egtved Girl burial (1370 BCE); elaborate spiral ornaments and fibulae.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/nordic-bronze-early"
+      },
+      "time:hasBeginning": "1500 BCE",
+      "time:hasEnd": "1300 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/montelius-iii",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Montelius Period III",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Trundholm sun chariot; oak coffin burials; extensive amber trade networks with Mediterranean.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/nordic-bronze-early"
+      },
+      "time:hasBeginning": "1300 BCE",
+      "time:hasEnd": "1100 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
       "@id": "https://metadatahub.eu/data/geologic-timescale/nordic-bronze-late",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
@@ -3903,6 +4055,63 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/nordic-bronze-age"
       },
       "time:hasBeginning": "1100 BCE",
+      "time:hasEnd": "500 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/montelius-iv",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Montelius Period IV",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Shift from inhumation to cremation; rock carvings (hällristningar) flourish; bronze lur horns crafted.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/nordic-bronze-late"
+      },
+      "time:hasBeginning": "1100 BCE",
+      "time:hasEnd": "900 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/montelius-v",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Montelius Period V",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Elaborate ritual depositions in lakes and bogs; continued rock carving tradition; Hallstatt imports arrive.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/nordic-bronze-late"
+      },
+      "time:hasBeginning": "900 BCE",
+      "time:hasEnd": "700 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/montelius-vi",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Montelius Period VI",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Final Bronze Age period; Hallstatt iron influence from Central Europe; transition to local iron production.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/nordic-bronze-late"
+      },
+      "time:hasBeginning": "700 BCE",
       "time:hasEnd": "500 BCE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -4040,6 +4249,25 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/germanic-iron-age",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Germanic Iron Age",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Post-Roman period in Scandinavia; divided into Early (Migration Period) and Late (Vendel/Merovingian) by Oscar Montelius.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "400 CE",
+      "time:hasEnd": "790 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
       "@id": "https://metadatahub.eu/data/geologic-timescale/migration-period",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
@@ -4052,9 +4280,47 @@
       },
       "gts:rank": "CulturalAge",
       "skos:broader": {
-        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+        "@id": "https://metadatahub.eu/data/geologic-timescale/germanic-iron-age"
       },
       "time:hasBeginning": "375 CE",
+      "time:hasEnd": "550 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/migration-early",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Early Migration Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Fall of Western Roman Empire (476); Scandinavian gold hoards peak; elaborate gold collars (e.g. Ålleberg, Möne, Färjestaden).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/migration-period"
+      },
+      "time:hasBeginning": "375 CE",
+      "time:hasEnd": "475 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/migration-late",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Late Migration Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Post-Roman gold scarcity; gilded bronze replaces gold; animal-style ornamentation (Style I) develops.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/migration-period"
+      },
+      "time:hasBeginning": "475 CE",
       "time:hasEnd": "550 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -4071,9 +4337,47 @@
       },
       "gts:rank": "CulturalAge",
       "skos:broader": {
-        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+        "@id": "https://metadatahub.eu/data/geologic-timescale/germanic-iron-age"
       },
       "time:hasBeginning": "550 CE",
+      "time:hasEnd": "790 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/vendel-early",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Early Vendel Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Sutton Hoo parallels; Vendel I–VII boat graves near Uppsala; Style II animal ornamentation.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/vendel-period"
+      },
+      "time:hasBeginning": "550 CE",
+      "time:hasEnd": "650 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/vendel-late",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Late Vendel Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Valsgärde boat burials continue; Style III ornamentation; Birka's proto-urban precursors; transition to Viking Age.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/vendel-period"
+      },
+      "time:hasBeginning": "650 CE",
       "time:hasEnd": "790 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -4249,6 +4553,25 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/early-vasa-era",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Early Vasa Era (Äldre Vasatiden)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Gustav Vasa breaks from Kalmar Union; Protestant Reformation; hereditary monarchy established; Stockholm Bloodbath aftermath.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/early-modern"
+      },
+      "time:hasBeginning": "1523 CE",
+      "time:hasEnd": "1611 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
       "@id": "https://metadatahub.eu/data/geologic-timescale/reformation-era",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
@@ -4256,14 +4579,14 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Protestant Reformation; Gustav Vasa establishes hereditary monarchy; dissolution of monasteries.",
+        "@value": "Protestant Reformation in Sweden (1527) and Denmark-Norway (1536); seizure of Catholic Church property; new church ordinances.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
       "skos:broader": {
-        "@id": "https://metadatahub.eu/data/geologic-timescale/early-modern"
+        "@id": "https://metadatahub.eu/data/geologic-timescale/early-vasa-era"
       },
-      "time:hasBeginning": "1520 CE",
+      "time:hasBeginning": "1527 CE",
       "time:hasEnd": "1600 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -4287,6 +4610,44 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/thirty-years-war",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Thirty Years' War Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Sweden enters as Protestant champion under Gustav II Adolf; Battle of Breitenfeld (1631); Peace of Westphalia (1648).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/swedish-empire"
+      },
+      "time:hasBeginning": "1618 CE",
+      "time:hasEnd": "1648 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/caroline-era",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Caroline Era (Karolinska tiden)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Absolute monarchy under Charles X, XI, XII; reduktion land reforms; Great Northern War ends Swedish empire.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/swedish-empire"
+      },
+      "time:hasBeginning": "1654 CE",
+      "time:hasEnd": "1718 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
       "@id": "https://metadatahub.eu/data/geologic-timescale/age-of-liberty",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
@@ -4294,7 +4655,7 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Parliamentary rule after Charles XII; Enlightenment science (Linnaeus, Celsius); cultural flourishing.",
+        "@value": "Parliamentary rule after Charles XII; Hat and Cap party factions; Enlightenment science (Linnaeus, Celsius).",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
@@ -4303,6 +4664,25 @@
       },
       "time:hasBeginning": "1718 CE",
       "time:hasEnd": "1772 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/gustavian-era",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Gustavian Era (Gustavianska tiden)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Gustav III's coup restores royal power; patron of arts; Royal Opera and Royal Dramatic Theatre founded; assassinated 1792.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/early-modern"
+      },
+      "time:hasBeginning": "1772 CE",
+      "time:hasEnd": "1809 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -4325,21 +4705,40 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
-      "@id": "https://metadatahub.eu/data/geologic-timescale/industrial-age",
+      "@id": "https://metadatahub.eu/data/geologic-timescale/bernadotte-era",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Industrial Age",
+        "@value": "Bernadotte Era / Union Period",
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Industrialization transforms Europe; railways, urbanization; mass emigration from Scandinavia to Americas.",
+        "@value": "New constitution (1809); French Marshal Bernadotte becomes Crown Prince (1810); Sweden-Norway union (1814–1905); loss of Finland to Russia.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period"
       },
-      "time:hasBeginning": "1789 CE",
+      "time:hasBeginning": "1809 CE",
+      "time:hasEnd": "1905 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/industrial-age",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Industrial Age (Industrialiseringen)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Railways from 1850s; mass emigration to Americas (~1.3M Swedes); Alfred Nobel; rapid urbanization.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period"
+      },
+      "time:hasBeginning": "1850 CE",
       "time:hasEnd": "1914 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -4351,7 +4750,7 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "World Wars, welfare states, digital revolution; Scandinavian social democracies.",
+        "@value": "World Wars (neutral), welfare states (folkhemmet), digital revolution; Scandinavian social democracies.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
@@ -4359,6 +4758,500 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period"
       },
       "time:hasBeginning": "1914 CE",
+      "time:hasEnd": "Present",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/archaic-greece",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Archaic Greece",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Rise of city-states (poleis); Greek colonization; development of the alphabet, Homer's epics, early philosophy.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "800 BCE",
+      "time:hasEnd": "480 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/classical-greece",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Classical Greece",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Golden Age of Athens; Parthenon; Socrates, Plato, Aristotle; Athenian democracy; Peloponnesian War.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "480 BCE",
+      "time:hasEnd": "323 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/hellenistic-period",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Hellenistic Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Alexander the Great's empire fragments; spread of Greek culture across Mediterranean and Near East; Library of Alexandria.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "323 BCE",
+      "time:hasEnd": "31 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/roman-republic",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Roman Republic",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Roman expansion across Mediterranean; Punic Wars; Julius Caesar; transition to Empire.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "509 BCE",
+      "time:hasEnd": "27 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/roman-empire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Roman Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Pax Romana; peak Roman civilization; roads, aqueducts, law; Christianity becomes state religion (380 CE).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "27 CE",
+      "time:hasEnd": "476 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/late-antiquity",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Late Antiquity",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Transition from classical to medieval; fall of Western Rome (476); rise of Christianity; Byzantine Empire continues in East.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "250 CE",
+      "time:hasEnd": "750 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/european-early-medieval",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Early Middle Ages (Europe)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Dark Ages; Merovingian and Carolingian kingdoms; spread of Christianity; feudalism develops.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "500 CE",
+      "time:hasEnd": "1000 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/merovingian-period",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Merovingian Period (Frankish)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Merovingian dynasty rules Frankish kingdoms; Clovis I converts to Christianity; foundation of medieval France.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/european-early-medieval"
+      },
+      "time:hasBeginning": "481 CE",
+      "time:hasEnd": "751 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/carolingian-period",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Carolingian Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Charlemagne crowned Emperor (800); Carolingian Renaissance; revival of learning, Latin scholarship, and arts.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/european-early-medieval"
+      },
+      "time:hasBeginning": "751 CE",
+      "time:hasEnd": "888 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/ottonian-period",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Ottonian Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Holy Roman Empire under Otto I; Ottonian Renaissance; expansion of Christianity into central Europe.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/european-early-medieval"
+      },
+      "time:hasBeginning": "919 CE",
+      "time:hasEnd": "1024 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/european-high-medieval",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "High Middle Ages (Europe)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Crusades; Gothic cathedrals; universities founded (Bologna, Paris, Oxford); population growth; Magna Carta (1215).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1000 CE",
+      "time:hasEnd": "1300 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/crusades-period",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Crusades Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Series of religious wars for control of the Holy Land; First Crusade captures Jerusalem (1099); cultural exchange between East and West.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/european-high-medieval"
+      },
+      "time:hasBeginning": "1095 CE",
+      "time:hasEnd": "1291 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/twelfth-century-renaissance",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Renaissance of the 12th Century",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Revival of learning; translations of Greek and Arabic texts; founding of universities; scholasticism; Gothic architecture begins.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/european-high-medieval"
+      },
+      "time:hasBeginning": "1100 CE",
+      "time:hasEnd": "1200 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/european-late-medieval",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Late Middle Ages (Europe)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Black Death (1347-1351); Hundred Years' War; Great Western Schism; decline of feudalism; printing press (1440).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1300 CE",
+      "time:hasEnd": "1500 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/renaissance",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Renaissance",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Revival of classical learning and art; began in Italy (Florence); humanism, perspective painting, scientific inquiry; Michelangelo, Leonardo, Raphael.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1350 CE",
+      "time:hasEnd": "1600 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/italian-renaissance",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Italian Renaissance",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Florence, Venice, Rome as cultural centers; Medici patronage; Brunelleschi, Botticelli, Machiavelli, da Vinci.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/renaissance"
+      },
+      "time:hasBeginning": "1350 CE",
+      "time:hasEnd": "1550 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/northern-renaissance",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Northern Renaissance",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Renaissance spreads north of Alps; Dürer, Erasmus, van Eyck; printing revolution; Protestant Reformation begins.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/renaissance"
+      },
+      "time:hasBeginning": "1450 CE",
+      "time:hasEnd": "1600 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/age-of-exploration",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Age of Exploration",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "European maritime exploration; Columbus (1492), Vasco da Gama (1498), Magellan (1519); colonial empires begin.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1415 CE",
+      "time:hasEnd": "1600 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/european-reformation",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "European Reformation",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Luther's 95 Theses (1517); Protestant churches emerge; Counter-Reformation; Wars of Religion; Peace of Westphalia (1648).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1517 CE",
+      "time:hasEnd": "1648 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/baroque-period",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Baroque Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Dramatic, ornate art and architecture; Bernini, Caravaggio, Rubens, Bach, Vivaldi; absolutist monarchies.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1600 CE",
+      "time:hasEnd": "1750 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/enlightenment",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Age of Enlightenment",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Reason, science, individual rights; Voltaire, Rousseau, Kant, Locke; influence on American and French Revolutions.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1685 CE",
+      "time:hasEnd": "1815 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/age-of-revolutions",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Age of Revolutions",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "American Revolution (1775), French Revolution (1789), Napoleonic Wars, Revolutions of 1848; end of ancien régime.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period"
+      },
+      "time:hasBeginning": "1775 CE",
+      "time:hasEnd": "1848 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/romanticism",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Romantic Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Reaction against Enlightenment rationalism; emphasis on emotion, nature, nationalism; Goethe, Byron, Beethoven, Delacroix.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period"
+      },
+      "time:hasBeginning": "1790 CE",
+      "time:hasEnd": "1850 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/world-wars-era",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "World Wars Era",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "World War I (1914-1918), interwar period, World War II (1939-1945); tens of millions killed; Europe devastated.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary"
+      },
+      "time:hasBeginning": "1914 CE",
+      "time:hasEnd": "1945 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/cold-war-era",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Cold War Era",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "East-West division; NATO vs Warsaw Pact; Iron Curtain; Berlin Wall (1961-1989); European integration begins (EEC 1957).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary"
+      },
+      "time:hasBeginning": "1947 CE",
+      "time:hasEnd": "1991 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/european-integration",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "European Integration",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Treaty of Rome (1957); EEC to EU; Schengen Area; Euro currency; expansion from 6 to 27+ member states.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary"
+      },
+      "time:hasBeginning": "1957 CE",
       "time:hasEnd": "Present",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -4629,6 +5522,25 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/comb-ceramic",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Comb Ceramic Culture",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Widespread Neolithic culture across Finland and the Baltic; characteristic comb-stamped pottery; hunter-gatherer-fishers.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/neolithic"
+      },
+      "time:hasBeginning": "3900 BCE",
+      "time:hasEnd": "2800 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
       "@id": "https://metadatahub.eu/data/geologic-timescale/asbestos-ceramic",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
@@ -4636,14 +5548,14 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Distinctive Finnish Neolithic pottery tempered with asbestos fibers; Comb Ceramic culture (~3900–2800 BCE).",
+        "@value": "Distinctive Finnish Neolithic pottery tempered with asbestos fibers; concurrent with Comb Ceramic in eastern Finland.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/neolithic"
       },
-      "time:hasBeginning": "4000 BCE",
+      "time:hasBeginning": "3500 BCE",
       "time:hasEnd": "2000 BCE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -4664,6 +5576,120 @@
       },
       "time:hasBeginning": "400 BCE",
       "time:hasEnd": "200 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/jastorf-culture",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Jastorf Culture",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Pre-Roman Iron Age culture of northern Germany and southern Scandinavia; first iron smelting from bog ore; cremation burials.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/pre-roman-iron-age"
+      },
+      "time:hasBeginning": "500 BCE",
+      "time:hasEnd": "100 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/danelaw",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Danelaw Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Norse-controlled territory in eastern and northern England; established after the Great Heathen Army; York as Viking capital.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/middle-viking-age"
+      },
+      "time:hasBeginning": "865 CE",
+      "time:hasEnd": "954 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/viking-iceland",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Settlement of Iceland",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Norse colonization of Iceland; Ingólfr Arnarson (874); Althing established 930 as one of the oldest parliaments.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/middle-viking-age"
+      },
+      "time:hasBeginning": "870 CE",
+      "time:hasEnd": "930 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/viking-normandy",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Norse Settlement of Normandy",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Rollo receives Normandy from French king (911); Norse settlers adopt French language; William the Conqueror descends from Vikings.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/middle-viking-age"
+      },
+      "time:hasBeginning": "911 CE",
+      "time:hasEnd": "1066 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/viking-rus",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Varangians and Kievan Rus'",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Swedish Vikings (Varangians) establish trade routes through Russia; found Kyiv and Novgorod; Varangian Guard in Constantinople.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/viking-age"
+      },
+      "time:hasBeginning": "800 CE",
+      "time:hasEnd": "1054 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/christianization-scandinavia",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Christianization of Scandinavia",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Gradual conversion: Denmark (~960, Harald Bluetooth), Norway (~1000, Olaf Tryggvason), Sweden (~1000, Olof Skötkonung); Uppsala temple destroyed ~1087.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/early-medieval"
+      },
+      "time:hasBeginning": "960 CE",
+      "time:hasEnd": "1150 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -4705,6 +5731,25 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/black-death-scandinavia",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Black Death in Scandinavia",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Plague reaches Norway (1349), Sweden and Denmark; kills ~50-60% of Scandinavian population; abandoned farms (ödegårdar).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/late-medieval"
+      },
+      "time:hasBeginning": "1349 CE",
+      "time:hasEnd": "1360 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
       "@id": "https://metadatahub.eu/data/geologic-timescale/kalmar-union",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
@@ -4721,6 +5766,82 @@
       },
       "time:hasBeginning": "1397 CE",
       "time:hasEnd": "1523 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/stockholm-bloodbath",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Stockholm Bloodbath",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Danish King Christian II executes ~80 Swedish nobles and clergy; triggers Gustav Vasa's rebellion and end of Kalmar Union.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/late-medieval"
+      },
+      "time:hasBeginning": "1520 CE",
+      "time:hasEnd": "1521 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/danish-golden-age",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Danish Golden Age",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Cultural flourishing in Denmark: H.C. Andersen, Søren Kierkegaard, Bertel Thorvaldsen, C.W. Eckersberg; national romanticism.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period"
+      },
+      "time:hasBeginning": "1800 CE",
+      "time:hasEnd": "1850 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/norway-independence",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Norwegian Independence",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Norwegian constitution (1814, Eidsvoll); forced union with Sweden; dissolution of union (1905); Haakon VII elected king.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period"
+      },
+      "time:hasBeginning": "1814 CE",
+      "time:hasEnd": "1905 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/finland-grand-duchy",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Grand Duchy of Finland",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Finland as autonomous Grand Duchy of Russia after Swedish loss (1809); Kalevala published (1835); Finnish nationalism; independence 1917.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period"
+      },
+      "time:hasBeginning": "1809 CE",
+      "time:hasEnd": "1917 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {

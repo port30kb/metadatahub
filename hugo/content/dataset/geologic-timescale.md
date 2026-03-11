@@ -1,6 +1,6 @@
 ---
 title: "Geologic Time Scale"
-description: "250 linked data entries covering Earth's 4.6 billion year history — from the Hadean eon through geologic eras, periods, and epochs to archaeological ages (Stone Age, Bronze Age, Iron Age, Viking Age, Medieval) with a Scandinavian focus."
+description: "309 linked data entries covering Earth's 4.6 billion year history — from the Hadean eon through geologic eras, periods, and epochs to archaeological ages (Stone Age, Bronze Age, Iron Age, Viking Age, Medieval) with a Scandinavian focus."
 date: 2024-12-01
 type: dataset
 publisher: "Port 30 KB"
@@ -19,12 +19,12 @@ tags:
   - linked-data
 distributions:
   - id: "turtle"
-    title: "RDF Turtle (250 entries)"
+    title: "RDF Turtle (309 entries)"
     accessURL: "https://metadatahub.eu/data/geologic-timescale.ttl"
     downloadURL: "https://metadatahub.eu/data/geologic-timescale.ttl"
     mediaType: "text/turtle"
   - id: "jsonld"
-    title: "JSON-LD (250 entries)"
+    title: "JSON-LD (309 entries)"
     accessURL: "https://metadatahub.eu/data/geologic-timescale.jsonld"
     downloadURL: "https://metadatahub.eu/data/geologic-timescale.jsonld"
     mediaType: "application/ld+json"
@@ -32,7 +32,7 @@ distributions:
 
 ## Overview
 
-This dataset models the **complete geologic time scale** as a SKOS concept scheme with 250 entries, using the [GeoSciML Geologic Timescale ontology](http://resource.geosciml.org/ontology/timescale/gts) and [W3C Time Ontology](http://www.w3.org/2006/time). It spans from the formation of Earth (4,600 Ma) through all geologic divisions down to individual ages/stages, then bridges into **archaeological and cultural periods** with a Scandinavian focus — from the Stone Age through the Viking Age and Medieval period to the Early Modern era.
+This dataset models the **complete geologic time scale** as a SKOS concept scheme with 309 entries, using the [GeoSciML Geologic Timescale ontology](http://resource.geosciml.org/ontology/timescale/gts) and [W3C Time Ontology](http://www.w3.org/2006/time). It spans from the formation of Earth (4,600 Ma) through all geologic divisions down to individual ages/stages, then bridges into **archaeological and cultural periods** with a Scandinavian focus — from the Stone Age through the Viking Age and Medieval period to the Early Modern era.
 
 ## Sources
 
@@ -45,6 +45,10 @@ This dataset is compiled from the following sources:
 - [Wikipedia: Three-age system](https://en.wikipedia.org/wiki/Three-age_system) — Stone Age, Bronze Age, Iron Age framework
 - [Wikipedia: Scandinavian prehistory](https://en.wikipedia.org/wiki/Scandinavian_prehistory) — Nordic archaeological periods and cultures
 - [Wikipedia: Viking Age](https://en.wikipedia.org/wiki/Viking_Age) — Viking Age dates and subdivisions
+- [Wikipedia: History of Europe](https://en.wikipedia.org/wiki/History_of_Europe) — European historical periods framework
+- [Wikipedia: Nordic Bronze Age](https://en.wikipedia.org/wiki/Nordic_Bronze_Age) — Montelius periods I–VI
+- [Wikipedia: Iron Age Scandinavia](https://en.wikipedia.org/wiki/Iron_Age_Scandinavia) — Germanic Iron Age subdivisions
+- [Wikipedia: History of Sweden](https://en.wikipedia.org/wiki/History_of_Sweden) — Swedish historical periods (Vasa, Stormaktstiden, Frihetstiden, Gustavian)
 
 License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (matching Wikipedia source license).
 
@@ -52,14 +56,16 @@ License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (matchi
 
 | Category | Count |
 |----------|-------|
-| **Total entries** | 250 |
+| **Total entries** | 309 |
 | **Eons** | 4 (Hadean, Archean, Proterozoic, Phanerozoic) |
 | **Eras** | 13 (incl. Hadean informal divisions) |
 | **Periods** | 22 + 2 sub-periods (Mississippian, Pennsylvanian) |
 | **Epochs** | 38 |
 | **Ages/Stages** | ~80 (all Mesozoic + Cenozoic stages, Paleozoic key stages) |
-| **Cultural ages** | ~50 (Stone Age through Early Modern, Scandinavian focus) |
+| **Cultural ages (Nordic)** | ~80 (Stone Age cultures, Bronze Age (Montelius I–VI), Iron Age, Viking Age, Medieval through Modern) |
+| **Cultural ages (European)** | ~25 (Classical Greece, Roman Empire, Carolingian, Crusades, Renaissance, Baroque, Enlightenment, etc.) |
 | **Climate/extinction events** | ~15 (Big Five extinctions, Snowball Earth, PETM, etc.) |
+| **Nordic-specific** | ~40 (Bromme, Fosna-Hensbacka, Komsa, Ertebølle, Vendel, Kalmar Union, Stormaktstiden, etc.) |
 
 ## Hierarchy
 
@@ -88,18 +94,44 @@ Phanerozoic (Eon, 538.8 Ma–Present)
     └── Quaternary
         ├── Pleistocene → Gelasian, Calabrian, Chibanian, Late Pleistocene
         └── Holocene → Greenlandian, Northgrippian, Meghalayan
+            │
             ├── Stone Age (3.3 Ma–3300 BCE)
             │   ├── Paleolithic → Lower, Middle, Upper
-            │   ├── Mesolithic → Maglemosian, Kongemose, Ertebølle
-            │   └── Neolithic → Funnelbeaker, Pitted Ware, Battle Axe
-            ├── Bronze Age → Early, Middle, Late, Nordic Bronze Age
-            ├── Iron Age → Pre-Roman Iron Age
-            ├── Roman Iron Age (1–400 CE)
-            ├── Migration Period (375–550 CE)
-            ├── Vendel Period (550–790 CE)
+            │   │   └── Bromme Culture, Ahrensburg Culture
+            │   ├── Mesolithic → Fosna-Hensbacka, Komsa, Maglemosian,
+            │   │                Kongemose, Nøstvet-Lihult, Ertebølle
+            │   └── Neolithic → Funnelbeaker, Pitted Ware, Battle Axe,
+            │                   Comb Ceramic, Late Neolithic
+            ├── Bronze Age → Early, Middle, Late
+            │   └── Nordic Bronze Age → Montelius I–VI
+            ├── Iron Age → Pre-Roman (+ Jastorf Culture)
+            │
+            │ ── SCANDINAVIAN TRACK ──
+            ├── Roman Iron Age (1–400 CE) → Early, Late
+            ├── Germanic Iron Age (400–790 CE)
+            │   ├── Migration Period → Early, Late
+            │   └── Vendel Period → Early, Late
             ├── Viking Age (790–1100 CE)
-            ├── Medieval Period (1050–1520 CE)
-            └── Early Modern Period (1520–1789 CE)
+            │   ├── Early, Middle (Danelaw, Iceland, Normandy), Late
+            │   └── Varangians and Kievan Rus'
+            ├── Medieval (1050–1520 CE) → Christianization,
+            │   Hanseatic, Black Death, Kalmar Union, Stockholm Bloodbath
+            ├── Early Modern (1520–1789 CE) → Vasa Era, Reformation,
+            │   Stormaktstiden, Frihetstiden, Gustavian Era
+            └── Modern → Bernadotte, Industrial, Contemporary
+            │
+            │ ── EUROPEAN TRACK ──
+            ├── Archaic Greece (800–480 BCE)
+            ├── Classical Greece (480–323 BCE)
+            ├── Hellenistic (323–31 BCE)
+            ├── Roman Republic & Empire (509 BCE–476 CE)
+            ├── Late Antiquity (250–750 CE)
+            ├── Merovingian → Carolingian → Ottonian
+            ├── High Middle Ages → Crusades, 12th-C Renaissance
+            ├── Late Middle Ages (1300–1500)
+            ├── Renaissance → Italian, Northern
+            ├── Reformation, Baroque, Enlightenment
+            └── Revolutions, Romanticism, World Wars, Cold War, EU
 ```
 
 ## Data Model
@@ -154,6 +186,33 @@ ts:jurassic a gts:GeochronologicPeriod ;
 | **Medieval** | 1050–1520 CE | Hanseatic trade; Kalmar Union; Black Death |
 | **Early Modern** | 1520–1789 CE | Reformation; Swedish Empire; Linnaeus |
 
+## European Historical Periods
+
+| Period | Dates | Key Features |
+|--------|-------|-------------|
+| **Archaic Greece** | 800–480 BCE | Rise of city-states; colonization; Homer, early philosophy |
+| **Classical Greece** | 480–323 BCE | Golden Age of Athens; Parthenon; Socrates, Plato, Aristotle |
+| **Hellenistic Period** | 323–31 BCE | Alexander's legacy; spread of Greek culture; Library of Alexandria |
+| **Roman Republic** | 509–27 BCE | Mediterranean expansion; Punic Wars; Julius Caesar |
+| **Roman Empire** | 27 BCE–476 CE | Pax Romana; roads, law; Christianity becomes state religion |
+| **Late Antiquity** | 250–750 CE | Fall of Western Rome; rise of Christianity; Byzantine East |
+| **Merovingian Period** | 481–751 CE | Frankish kingdoms; Clovis I converts to Christianity |
+| **Carolingian Period** | 751–888 CE | Charlemagne; Carolingian Renaissance; revival of learning |
+| **Ottonian Period** | 919–1024 CE | Holy Roman Empire; Ottonian Renaissance |
+| **Crusades** | 1095–1291 CE | Religious wars for Holy Land; cultural exchange East-West |
+| **12th-Century Renaissance** | 1100–1200 CE | Universities founded; translation movement; Gothic architecture |
+| **Late Middle Ages** | 1300–1500 CE | Black Death; Hundred Years' War; printing press (1440) |
+| **Renaissance** | 1350–1600 CE | Revival of classical learning; Italian then Northern Renaissance |
+| **Age of Exploration** | 1415–1600 CE | Columbus, Vasco da Gama, Magellan; colonial empires |
+| **European Reformation** | 1517–1648 CE | Luther; Protestant churches; Wars of Religion; Westphalia |
+| **Baroque Period** | 1600–1750 CE | Dramatic art; absolutist monarchies; Bach, Bernini |
+| **Enlightenment** | 1685–1815 CE | Reason and science; Voltaire, Kant; influences revolutions |
+| **Age of Revolutions** | 1775–1848 CE | American and French Revolutions; Napoleonic Wars; 1848 |
+| **Romantic Period** | 1790–1850 CE | Emotion, nature, nationalism; Goethe, Beethoven |
+| **World Wars Era** | 1914–1945 CE | WWI, interwar, WWII; Europe devastated |
+| **Cold War** | 1947–1991 CE | East-West division; NATO vs Warsaw Pact; Berlin Wall |
+| **European Integration** | 1957–present | EEC to EU; Schengen; Euro; 27+ member states |
+
 ## SPARQL Examples
 
 Query this dataset via the [SPARQL endpoint](/sparql):
@@ -198,5 +257,5 @@ WHERE {
 
 ## Download
 
-- [Turtle (text/turtle)](/data/geologic-timescale.ttl) — 2,790 lines, all 250 entries with full hierarchy
+- [Turtle (text/turtle)](/data/geologic-timescale.ttl) — 3,400+ lines, all 309 entries with full hierarchy
 - [JSON-LD (application/ld+json)](/data/geologic-timescale.jsonld) — Same data as JSON-LD graph

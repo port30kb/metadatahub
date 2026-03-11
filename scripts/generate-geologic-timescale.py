@@ -478,12 +478,22 @@ add("middle-paleolithic", "Middle Paleolithic", "CulturalAge", "paleolithic", 30
     "Neanderthals in Europe; Mousterian tool industry; first evidence of symbolic behavior.")
 add("upper-paleolithic", "Upper Paleolithic", "CulturalAge", "paleolithic", 50000, 10000, "BCE",
     "Homo sapiens in Europe; cave art (Lascaux, Altamira); Aurignacian, Gravettian, Magdalenian cultures.")
+add("bromme-culture", "Bromme Culture", "CulturalAge", "upper-paleolithic", 11000, 10000, "BCE",
+    "Late Paleolithic reindeer hunters at the edge of the Scandinavian ice sheet; earliest human presence in Sweden (Scania).")
+add("ahrensburg-culture", "Ahrensburg Culture", "CulturalAge", "upper-paleolithic", 11000, 9500, "BCE",
+    "Late Paleolithic/early Mesolithic nomadic hunters from the North German Plain; migrated north via Jutland following retreating ice.")
 add("mesolithic", "Mesolithic (Middle Stone Age)", "CulturalAge", "stone-age", 10000, 4000, "BCE",
     "Post-glacial; microlithic tools; Scandinavia first settled ~9500 BCE. Maglemosian, Kongemose, Ertebølle cultures.")
+add("fosna-hensbacka", "Fosna–Hensbacka Culture", "CulturalAge", "mesolithic", 8300, 7300, "BCE",
+    "Early Mesolithic culture along the Norwegian and Swedish west coasts; descended from Ahrensburg tradition; coastal seal hunting and fishing.")
+add("komsa-culture", "Komsa Culture", "CulturalAge", "mesolithic", 10000, 6000, "BCE",
+    "Early Mesolithic culture of northern Norway coast; sea-oriented seal hunters and fishermen; relatively crude stone tools compared to southern Fosna.")
 add("maglemosian", "Maglemosian Culture", "CulturalAge", "mesolithic", 9000, 6000, "BCE",
     "Early Mesolithic hunter-gatherer culture in southern Scandinavia and northern Germany; flint microliths, bone harpoons.")
 add("kongemose", "Kongemose Culture", "CulturalAge", "mesolithic", 6000, 5200, "BCE",
     "Middle Mesolithic in Denmark and southern Sweden; coastal adaptation, fishing, seal hunting.")
+add("nostvet-lihult", "Nøstvet and Lihult Cultures", "CulturalAge", "mesolithic", 6000, 4000, "BCE",
+    "Middle-Late Mesolithic in most of southern Norway and Sweden; descendants of Fosna-Hensbacka; polished stone axes.")
 add("ertebolleculture", "Ertebølle Culture", "CulturalAge", "mesolithic", 5300, 3950, "BCE",
     "Late Mesolithic in southern Scandinavia; first pottery, large shell middens, transition to agriculture.")
 add("neolithic", "Neolithic (New Stone Age)", "CulturalAge", "stone-age", 4000, 2000, "BCE",
@@ -514,8 +524,20 @@ add("nordic-bronze-age", "Nordic Bronze Age", "CulturalAge", "bronze-age", 1750,
     "Scandinavian Bronze Age; elaborate burial mounds, rock carvings (hällristningar), sun chariot of Trundholm.")
 add("nordic-bronze-early", "Early Nordic Bronze Age (Period I–III)", "CulturalAge", "nordic-bronze-age", 1750, 1100, "BCE",
     "Oak coffin burials (Egtved Girl, Skrydstrup Woman); Trundholm sun chariot; wealth from amber trade.")
+add("montelius-i", "Montelius Period I", "CulturalAge", "nordic-bronze-early", 1700, 1500, "BCE",
+    "Earliest Nordic Bronze Age; first bronze imports; flint daggers gradually replaced by bronze weapons.")
+add("montelius-ii", "Montelius Period II", "CulturalAge", "nordic-bronze-early", 1500, 1300, "BCE",
+    "Peak of early bronze wealth; Egtved Girl burial (1370 BCE); elaborate spiral ornaments and fibulae.")
+add("montelius-iii", "Montelius Period III", "CulturalAge", "nordic-bronze-early", 1300, 1100, "BCE",
+    "Trundholm sun chariot; oak coffin burials; extensive amber trade networks with Mediterranean.")
 add("nordic-bronze-late", "Late Nordic Bronze Age (Period IV–VI)", "CulturalAge", "nordic-bronze-age", 1100, 500, "BCE",
     "Cremation replaces inhumation; lur horns; rock carvings peak; declining bronze imports.")
+add("montelius-iv", "Montelius Period IV", "CulturalAge", "nordic-bronze-late", 1100, 900, "BCE",
+    "Shift from inhumation to cremation; rock carvings (hällristningar) flourish; bronze lur horns crafted.")
+add("montelius-v", "Montelius Period V", "CulturalAge", "nordic-bronze-late", 900, 700, "BCE",
+    "Elaborate ritual depositions in lakes and bogs; continued rock carving tradition; Hallstatt imports arrive.")
+add("montelius-vi", "Montelius Period VI", "CulturalAge", "nordic-bronze-late", 700, 500, "BCE",
+    "Final Bronze Age period; Hallstatt iron influence from Central Europe; transition to local iron production.")
 
 # --- Iron Age ---
 add("iron-age", "Iron Age", "CulturalAge", "holocene", 1200, 1, "BCE",
@@ -534,10 +556,20 @@ add("early-roman-iron", "Early Roman Iron Age", "CulturalAge", "roman-iron-age",
     "Increasing trade with Roman provinces; imported bronze vessels; first runic inscriptions.")
 add("late-roman-iron", "Late Roman Iron Age", "CulturalAge", "roman-iron-age", 200, 400, "CE",
     "Gold solidi flow north; Nydam boat (320 CE); elaborate weapon deposits in bogs.")
-add("migration-period", "Migration Period (Völkerwanderung)", "CulturalAge", "holocene", 375, 550, "CE",
+add("germanic-iron-age", "Germanic Iron Age", "CulturalAge", "holocene", 400, 790, "CE",
+    "Post-Roman period in Scandinavia; divided into Early (Migration Period) and Late (Vendel/Merovingian) by Oscar Montelius.")
+add("migration-period", "Migration Period (Völkerwanderung)", "CulturalAge", "germanic-iron-age", 375, 550, "CE",
     "Fall of Western Rome; Germanic peoples migrate across Europe; gold bracteates and collars in Scandinavia.")
-add("vendel-period", "Vendel Period (Merovingian Period)", "CulturalAge", "holocene", 550, 790, "CE",
+add("migration-early", "Early Migration Period", "CulturalAge", "migration-period", 375, 475, "CE",
+    "Fall of Western Roman Empire (476); Scandinavian gold hoards peak; elaborate gold collars (e.g. Ålleberg, Möne, Färjestaden).")
+add("migration-late", "Late Migration Period", "CulturalAge", "migration-period", 475, 550, "CE",
+    "Post-Roman gold scarcity; gilded bronze replaces gold; animal-style ornamentation (Style I) develops.")
+add("vendel-period", "Vendel Period (Merovingian Period)", "CulturalAge", "germanic-iron-age", 550, 790, "CE",
     "Swedish golden age; Vendel and Valsgärde boat burials; elaborate animal-style ornamentation.")
+add("vendel-early", "Early Vendel Period", "CulturalAge", "vendel-period", 550, 650, "CE",
+    "Sutton Hoo parallels; Vendel I–VII boat graves near Uppsala; Style II animal ornamentation.")
+add("vendel-late", "Late Vendel Period", "CulturalAge", "vendel-period", 650, 790, "CE",
+    "Valsgärde boat burials continue; Style III ornamentation; Birka's proto-urban precursors; transition to Viking Age.")
 
 # --- Viking Age ---
 add("viking-age", "Viking Age", "CulturalAge", "holocene", 790, 1100, "CE",
@@ -562,20 +594,92 @@ add("late-medieval", "Late Medieval Period", "CulturalAge", "medieval-period", 1
 # --- Early Modern ---
 add("early-modern", "Early Modern Period", "CulturalAge", "holocene", 1520, 1789, "CE",
     "Reformation; Vasa dynasty; Swedish Empire (stormaktstiden); Age of Enlightenment.")
-add("reformation-era", "Reformation Era", "CulturalAge", "early-modern", 1520, 1600, "CE",
-    "Protestant Reformation; Gustav Vasa establishes hereditary monarchy; dissolution of monasteries.")
+add("early-vasa-era", "Early Vasa Era (Äldre Vasatiden)", "CulturalAge", "early-modern", 1523, 1611, "CE",
+    "Gustav Vasa breaks from Kalmar Union; Protestant Reformation; hereditary monarchy established; Stockholm Bloodbath aftermath.")
+add("reformation-era", "Reformation Era", "CulturalAge", "early-vasa-era", 1527, 1600, "CE",
+    "Protestant Reformation in Sweden (1527) and Denmark-Norway (1536); seizure of Catholic Church property; new church ordinances.")
 add("swedish-empire", "Swedish Empire (Stormaktstiden)", "CulturalAge", "early-modern", 1611, 1721, "CE",
     "Sweden as great power; Thirty Years War; Baltic dominance; ends with Great Northern War.")
+add("thirty-years-war", "Thirty Years' War Period", "CulturalAge", "swedish-empire", 1618, 1648, "CE",
+    "Sweden enters as Protestant champion under Gustav II Adolf; Battle of Breitenfeld (1631); Peace of Westphalia (1648).")
+add("caroline-era", "Caroline Era (Karolinska tiden)", "CulturalAge", "swedish-empire", 1654, 1718, "CE",
+    "Absolute monarchy under Charles X, XI, XII; reduktion land reforms; Great Northern War ends Swedish empire.")
 add("age-of-liberty", "Age of Liberty (Frihetstiden)", "CulturalAge", "early-modern", 1718, 1772, "CE",
-    "Parliamentary rule after Charles XII; Enlightenment science (Linnaeus, Celsius); cultural flourishing.")
+    "Parliamentary rule after Charles XII; Hat and Cap party factions; Enlightenment science (Linnaeus, Celsius).")
+add("gustavian-era", "Gustavian Era (Gustavianska tiden)", "CulturalAge", "early-modern", 1772, 1809, "CE",
+    "Gustav III's coup restores royal power; patron of arts; Royal Opera and Royal Dramatic Theatre founded; assassinated 1792.")
 
 # --- Modern Period ---
 add("modern-period", "Modern Period", "CulturalAge", "holocene", 1789, 0, "CE",
     "French Revolution to present; industrialization, nation-states, globalization.")
-add("industrial-age", "Industrial Age", "CulturalAge", "modern-period", 1789, 1914, "CE",
-    "Industrialization transforms Europe; railways, urbanization; mass emigration from Scandinavia to Americas.")
+add("bernadotte-era", "Bernadotte Era / Union Period", "CulturalAge", "modern-period", 1809, 1905, "CE",
+    "New constitution (1809); French Marshal Bernadotte becomes Crown Prince (1810); Sweden-Norway union (1814–1905); loss of Finland to Russia.")
+add("industrial-age", "Industrial Age (Industrialiseringen)", "CulturalAge", "modern-period", 1850, 1914, "CE",
+    "Railways from 1850s; mass emigration to Americas (~1.3M Swedes); Alfred Nobel; rapid urbanization.")
 add("contemporary", "Contemporary Period", "CulturalAge", "modern-period", 1914, 0, "CE",
-    "World Wars, welfare states, digital revolution; Scandinavian social democracies.")
+    "World Wars (neutral), welfare states (folkhemmet), digital revolution; Scandinavian social democracies.")
+
+# ═══════════════════════════════════════════════════════════════
+# BROADER EUROPEAN HISTORICAL PERIODS
+# ═══════════════════════════════════════════════════════════════
+
+# --- Classical Antiquity ---
+add("archaic-greece", "Archaic Greece", "CulturalAge", "holocene", 800, 480, "BCE",
+    "Rise of city-states (poleis); Greek colonization; development of the alphabet, Homer's epics, early philosophy.")
+add("classical-greece", "Classical Greece", "CulturalAge", "holocene", 480, 323, "BCE",
+    "Golden Age of Athens; Parthenon; Socrates, Plato, Aristotle; Athenian democracy; Peloponnesian War.")
+add("hellenistic-period", "Hellenistic Period", "CulturalAge", "holocene", 323, 31, "BCE",
+    "Alexander the Great's empire fragments; spread of Greek culture across Mediterranean and Near East; Library of Alexandria.")
+add("roman-republic", "Roman Republic", "CulturalAge", "holocene", 509, 27, "BCE",
+    "Roman expansion across Mediterranean; Punic Wars; Julius Caesar; transition to Empire.")
+add("roman-empire", "Roman Empire", "CulturalAge", "holocene", 27, 476, "CE",
+    "Pax Romana; peak Roman civilization; roads, aqueducts, law; Christianity becomes state religion (380 CE).")
+add("late-antiquity", "Late Antiquity", "CulturalAge", "holocene", 250, 750, "CE",
+    "Transition from classical to medieval; fall of Western Rome (476); rise of Christianity; Byzantine Empire continues in East.")
+
+# --- European Middle Ages (continental) ---
+add("european-early-medieval", "Early Middle Ages (Europe)", "CulturalAge", "holocene", 500, 1000, "CE",
+    "Dark Ages; Merovingian and Carolingian kingdoms; spread of Christianity; feudalism develops.")
+add("merovingian-period", "Merovingian Period (Frankish)", "CulturalAge", "european-early-medieval", 481, 751, "CE",
+    "Merovingian dynasty rules Frankish kingdoms; Clovis I converts to Christianity; foundation of medieval France.")
+add("carolingian-period", "Carolingian Period", "CulturalAge", "european-early-medieval", 751, 888, "CE",
+    "Charlemagne crowned Emperor (800); Carolingian Renaissance; revival of learning, Latin scholarship, and arts.")
+add("ottonian-period", "Ottonian Period", "CulturalAge", "european-early-medieval", 919, 1024, "CE",
+    "Holy Roman Empire under Otto I; Ottonian Renaissance; expansion of Christianity into central Europe.")
+add("european-high-medieval", "High Middle Ages (Europe)", "CulturalAge", "holocene", 1000, 1300, "CE",
+    "Crusades; Gothic cathedrals; universities founded (Bologna, Paris, Oxford); population growth; Magna Carta (1215).")
+add("crusades-period", "Crusades Period", "CulturalAge", "european-high-medieval", 1095, 1291, "CE",
+    "Series of religious wars for control of the Holy Land; First Crusade captures Jerusalem (1099); cultural exchange between East and West.")
+add("twelfth-century-renaissance", "Renaissance of the 12th Century", "CulturalAge", "european-high-medieval", 1100, 1200, "CE",
+    "Revival of learning; translations of Greek and Arabic texts; founding of universities; scholasticism; Gothic architecture begins.")
+add("european-late-medieval", "Late Middle Ages (Europe)", "CulturalAge", "holocene", 1300, 1500, "CE",
+    "Black Death (1347-1351); Hundred Years' War; Great Western Schism; decline of feudalism; printing press (1440).")
+
+# --- Renaissance & Early Modern Europe ---
+add("renaissance", "Renaissance", "CulturalAge", "holocene", 1350, 1600, "CE",
+    "Revival of classical learning and art; began in Italy (Florence); humanism, perspective painting, scientific inquiry; Michelangelo, Leonardo, Raphael.")
+add("italian-renaissance", "Italian Renaissance", "CulturalAge", "renaissance", 1350, 1550, "CE",
+    "Florence, Venice, Rome as cultural centers; Medici patronage; Brunelleschi, Botticelli, Machiavelli, da Vinci.")
+add("northern-renaissance", "Northern Renaissance", "CulturalAge", "renaissance", 1450, 1600, "CE",
+    "Renaissance spreads north of Alps; Dürer, Erasmus, van Eyck; printing revolution; Protestant Reformation begins.")
+add("age-of-exploration", "Age of Exploration", "CulturalAge", "holocene", 1415, 1600, "CE",
+    "European maritime exploration; Columbus (1492), Vasco da Gama (1498), Magellan (1519); colonial empires begin.")
+add("european-reformation", "European Reformation", "CulturalAge", "holocene", 1517, 1648, "CE",
+    "Luther's 95 Theses (1517); Protestant churches emerge; Counter-Reformation; Wars of Religion; Peace of Westphalia (1648).")
+add("baroque-period", "Baroque Period", "CulturalAge", "holocene", 1600, 1750, "CE",
+    "Dramatic, ornate art and architecture; Bernini, Caravaggio, Rubens, Bach, Vivaldi; absolutist monarchies.")
+add("enlightenment", "Age of Enlightenment", "CulturalAge", "holocene", 1685, 1815, "CE",
+    "Reason, science, individual rights; Voltaire, Rousseau, Kant, Locke; influence on American and French Revolutions.")
+add("age-of-revolutions", "Age of Revolutions", "CulturalAge", "modern-period", 1775, 1848, "CE",
+    "American Revolution (1775), French Revolution (1789), Napoleonic Wars, Revolutions of 1848; end of ancien régime.")
+add("romanticism", "Romantic Period", "CulturalAge", "modern-period", 1790, 1850, "CE",
+    "Reaction against Enlightenment rationalism; emphasis on emotion, nature, nationalism; Goethe, Byron, Beethoven, Delacroix.")
+add("world-wars-era", "World Wars Era", "CulturalAge", "contemporary", 1914, 1945, "CE",
+    "World War I (1914-1918), interwar period, World War II (1939-1945); tens of millions killed; Europe devastated.")
+add("cold-war-era", "Cold War Era", "CulturalAge", "contemporary", 1947, 1991, "CE",
+    "East-West division; NATO vs Warsaw Pact; Iron Curtain; Berlin Wall (1961-1989); European integration begins (EEC 1957).")
+add("european-integration", "European Integration", "CulturalAge", "contemporary", 1957, 0, "CE",
+    "Treaty of Rome (1957); EEC to EU; Schengen Area; Euro currency; expansion from 6 to 27+ member states.")
 
 # ═══════════════════════════════════════════════════════════════
 # MAJOR MASS EXTINCTION EVENTS (cross-cutting markers)
@@ -616,16 +720,46 @@ add("4.2ka-event", "4.2 ka Aridification Event", "Age", "meghalayan", 4200, 3900
 # ═══════════════════════════════════════════════════════════════
 add("sami-prehistory", "Sámi Prehistory", "CulturalAge", "holocene", 8000, 1600, "CE",
     "Indigenous Sámi settlement of northern Fennoscandia; reindeer herding develops; Komsa and Fosna cultures; sieiddit (sacred sites).")
-add("asbestos-ceramic", "Asbestos Ceramic Period (Finland)", "CulturalAge", "neolithic", 4000, 2000, "BCE",
-    "Distinctive Finnish Neolithic pottery tempered with asbestos fibers; Comb Ceramic culture (~3900–2800 BCE).")
+add("comb-ceramic", "Comb Ceramic Culture", "CulturalAge", "neolithic", 3900, 2800, "BCE",
+    "Widespread Neolithic culture across Finland and the Baltic; characteristic comb-stamped pottery; hunter-gatherer-fishers.")
+add("asbestos-ceramic", "Asbestos Ceramic Period (Finland)", "CulturalAge", "neolithic", 3500, 2000, "BCE",
+    "Distinctive Finnish Neolithic pottery tempered with asbestos fibers; concurrent with Comb Ceramic in eastern Finland.")
 add("nordic-iron-age-celtic", "Celtic Iron Age Influences in Scandinavia", "CulturalAge", "pre-roman-iron-age", 400, 200, "BCE",
     "La Tène art style reaches Scandinavia; Hjortspring boat; early hillforts in southern Sweden and Denmark.")
+add("jastorf-culture", "Jastorf Culture", "CulturalAge", "pre-roman-iron-age", 500, 100, "BCE",
+    "Pre-Roman Iron Age culture of northern Germany and southern Scandinavia; first iron smelting from bog ore; cremation burials.")
+
+# --- Viking Age sub-events ---
+add("danelaw", "Danelaw Period", "CulturalAge", "middle-viking-age", 865, 954, "CE",
+    "Norse-controlled territory in eastern and northern England; established after the Great Heathen Army; York as Viking capital.")
+add("viking-iceland", "Settlement of Iceland", "CulturalAge", "middle-viking-age", 870, 930, "CE",
+    "Norse colonization of Iceland; Ingólfr Arnarson (874); Althing established 930 as one of the oldest parliaments.")
+add("viking-normandy", "Norse Settlement of Normandy", "CulturalAge", "middle-viking-age", 911, 1066, "CE",
+    "Rollo receives Normandy from French king (911); Norse settlers adopt French language; William the Conqueror descends from Vikings.")
+add("viking-rus", "Varangians and Kievan Rus'", "CulturalAge", "viking-age", 800, 1054, "CE",
+    "Swedish Vikings (Varangians) establish trade routes through Russia; found Kyiv and Novgorod; Varangian Guard in Constantinople.")
+
+# --- Medieval & Hanseatic ---
+add("christianization-scandinavia", "Christianization of Scandinavia", "CulturalAge", "early-medieval", 960, 1150, "CE",
+    "Gradual conversion: Denmark (~960, Harald Bluetooth), Norway (~1000, Olaf Tryggvason), Sweden (~1000, Olof Skötkonung); Uppsala temple destroyed ~1087.")
 add("baltic-crusades", "Baltic Crusades Period", "CulturalAge", "medieval-period", 1147, 1290, "CE",
     "Northern Crusades; Christianization of Baltic region; Teutonic Order; Swedish crusades to Finland.")
 add("hanseatic-period", "Hanseatic Period in Scandinavia", "CulturalAge", "medieval-period", 1250, 1450, "CE",
     "Hanseatic League dominates Baltic trade; German merchants in Visby, Bergen, Stockholm; Lübeck law adopted.")
+add("black-death-scandinavia", "Black Death in Scandinavia", "CulturalAge", "late-medieval", 1349, 1360, "CE",
+    "Plague reaches Norway (1349), Sweden and Denmark; kills ~50-60% of Scandinavian population; abandoned farms (ödegårdar).")
 add("kalmar-union", "Kalmar Union", "CulturalAge", "late-medieval", 1397, 1523, "CE",
     "Union of Denmark, Norway, and Sweden under one monarch; Queen Margrete I; dissolved by Gustav Vasa's rebellion.")
+add("stockholm-bloodbath", "Stockholm Bloodbath", "CulturalAge", "late-medieval", 1520, 1521, "CE",
+    "Danish King Christian II executes ~80 Swedish nobles and clergy; triggers Gustav Vasa's rebellion and end of Kalmar Union.")
+
+# --- Danish / Norwegian specific ---
+add("danish-golden-age", "Danish Golden Age", "CulturalAge", "modern-period", 1800, 1850, "CE",
+    "Cultural flourishing in Denmark: H.C. Andersen, Søren Kierkegaard, Bertel Thorvaldsen, C.W. Eckersberg; national romanticism.")
+add("norway-independence", "Norwegian Independence", "CulturalAge", "modern-period", 1814, 1905, "CE",
+    "Norwegian constitution (1814, Eidsvoll); forced union with Sweden; dissolution of union (1905); Haakon VII elected king.")
+add("finland-grand-duchy", "Grand Duchy of Finland", "CulturalAge", "modern-period", 1809, 1917, "CE",
+    "Finland as autonomous Grand Duchy of Russia after Swedish loss (1809); Kalevala published (1835); Finnish nationalism; independence 1917.")
 add("eocene-oligocene-extinction", "Eocene–Oligocene Extinction (Grande Coupure)", "Age", "priabonian", 33.9, 33.7, "Ma",
     "Major faunal turnover in Europe; Asian mammals invade; dramatic cooling as Antarctic ice sheet forms.")
 add("cambrian-explosion", "Cambrian Explosion", "Age", "epoch2-cambrian", 538.8, 510, "Ma",
@@ -693,6 +827,10 @@ lines.append(f'    dcterms:source <https://en.wikipedia.org/wiki/Pleistocene> ;'
 lines.append(f'    dcterms:source <https://en.wikipedia.org/wiki/Three-age_system> ;')
 lines.append(f'    dcterms:source <https://en.wikipedia.org/wiki/Scandinavian_prehistory> ;')
 lines.append(f'    dcterms:source <https://en.wikipedia.org/wiki/Viking_Age> ;')
+lines.append(f'    dcterms:source <https://en.wikipedia.org/wiki/History_of_Europe> ;')
+lines.append(f'    dcterms:source <https://en.wikipedia.org/wiki/Nordic_Bronze_Age> ;')
+lines.append(f'    dcterms:source <https://en.wikipedia.org/wiki/Iron_Age_Scandinavia> ;')
+lines.append(f'    dcterms:source <https://en.wikipedia.org/wiki/History_of_Sweden> ;')
 lines.append(f'    dcterms:creator "Port 30 KB" ;')
 lines.append(f'    dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;')
 lines.append(f'    dcterms:modified "2024-12-01"^^xsd:date .')
