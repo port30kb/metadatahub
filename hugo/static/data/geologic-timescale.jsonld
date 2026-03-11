@@ -11,7 +11,7 @@
   "@id": "https://metadatahub.eu/data/geologic-timescale",
   "@type": "skos:ConceptScheme",
   "dcterms:title": "Geologic Time Scale",
-  "dcterms:description": "250 entries covering the geologic time scale from Hadean eon (4600 Ma) to Early Modern period, including archaeological/cultural ages.",
+  "dcterms:description": "361 entries covering the geologic time scale from Hadean eon (4600 Ma) to present, including Scandinavian, European, and South American cultural/historical periods.",
   "dcterms:source": [
     "https://en.wikipedia.org/wiki/Geologic_time_scale",
     "https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf",
@@ -5937,6 +5937,937 @@
       },
       "time:hasBeginning": "538.8 Ma",
       "time:hasEnd": "510 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-precolumbian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Pre-Columbian South America",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Indigenous civilizations of South America before European contact; from Norte Chico to the Inca Empire.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "3000 BCE",
+      "time:hasEnd": "1533 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/norte-chico",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Norte Chico (Caral) Civilization",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Oldest known civilization in the Americas; Caral, Supe Valley, Peru; monumental architecture, quipu precursors; no pottery or writing.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-precolumbian"
+      },
+      "time:hasBeginning": "3000 BCE",
+      "time:hasEnd": "1800 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/valdivia-culture",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Valdivia Culture",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Early Formative culture on coast of Ecuador; some of the oldest pottery in the Americas; Venus figurines; early maize cultivation.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-precolumbian"
+      },
+      "time:hasBeginning": "3500 BCE",
+      "time:hasEnd": "1800 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/chavin-culture",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Chavín Culture",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Early Horizon unifying culture of Andean Peru; Chavín de Huántar temple complex; jaguar iconography; influence across highlands and coast.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-precolumbian"
+      },
+      "time:hasBeginning": "900 BCE",
+      "time:hasEnd": "200 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/paracas-culture",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Paracas Culture",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Southern Peruvian coastal culture; extraordinary textiles and embroidery; cranial trepanation; Paracas Necropolis burials.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-precolumbian"
+      },
+      "time:hasBeginning": "800 BCE",
+      "time:hasEnd": "100 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/nazca-culture",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Nazca Culture",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Southern Peruvian desert; Nazca Lines geoglyphs; polychrome pottery; underground aqueducts (puquios).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-precolumbian"
+      },
+      "time:hasBeginning": "100 CE",
+      "time:hasEnd": "800 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/moche-civilization",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Moche Civilization",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Northern Peruvian coast; Huaca del Sol and Huaca de la Luna; portrait vessels; Sipán royal tombs; advanced irrigation.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-precolumbian"
+      },
+      "time:hasBeginning": "100 CE",
+      "time:hasEnd": "700 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/tiwanaku-empire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Tiwanaku Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Andean civilization centered at Lake Titicaca, Bolivia; Gateway of the Sun; raised-field agriculture; altitude ~3,800 m.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-precolumbian"
+      },
+      "time:hasBeginning": "300 CE",
+      "time:hasEnd": "1000 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/wari-empire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Wari Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Middle Horizon Andean empire; administrative centers across Peru; road network predating Inca; terraced agriculture.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-precolumbian"
+      },
+      "time:hasBeginning": "600 CE",
+      "time:hasEnd": "1000 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/chimu-empire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Chimú Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Late Intermediate kingdom of northern Peru; Chan Chan (largest adobe city); sophisticated metalwork; conquered by Inca.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-precolumbian"
+      },
+      "time:hasBeginning": "900 CE",
+      "time:hasEnd": "1470 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/muisca-confederation",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Muisca Confederation",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Chibcha-speaking confederation in Colombian highlands; gold and tumbaga metalwork; El Dorado legend; salt and emerald trade.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-precolumbian"
+      },
+      "time:hasBeginning": "600 CE",
+      "time:hasEnd": "1541 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/san-agustin-culture",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "San Agustín Culture",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Pre-Columbian culture of southwestern Colombia; monumental stone sculptures and burial mounds; UNESCO World Heritage Site.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-precolumbian"
+      },
+      "time:hasBeginning": "100 CE",
+      "time:hasEnd": "1350 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/mapuche-precolonial",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Mapuche (Pre-Colonial)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Indigenous people of south-central Chile and Argentina; agricultural and pastoral; fierce resistance to Inca and Spanish expansion.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-precolumbian"
+      },
+      "time:hasBeginning": "600 CE",
+      "time:hasEnd": "1550 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/guarani-precolonial",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Guaraní (Pre-Colonial)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Tupi-Guaraní peoples of Paraguay, Brazil, and Argentina; slash-and-burn agriculture; canoe navigation; religious migrations (Land Without Evil).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-precolumbian"
+      },
+      "time:hasBeginning": "500 CE",
+      "time:hasEnd": "1537 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/inca-empire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Inca Empire (Tawantinsuyu)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Largest pre-Columbian empire; Cusco as capital; Machu Picchu; quipu record-keeping; road system (Qhapaq Ñan); conquered by Pizarro.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-precolumbian"
+      },
+      "time:hasBeginning": "1438 CE",
+      "time:hasEnd": "1533 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/inca-expansion",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Inca Expansion Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Pachacuti and Túpac Inca Yupanqui expand Tawantinsuyu from Ecuador to Chile; conquer Chimú; build Machu Picchu.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/inca-empire"
+      },
+      "time:hasBeginning": "1438 CE",
+      "time:hasEnd": "1493 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/inca-huayna-capac",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Reign of Huayna Cápac",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Empire at greatest extent; integration of conquered peoples; smallpox arrives before Spanish contact; death triggers civil war.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/inca-empire"
+      },
+      "time:hasBeginning": "1493 CE",
+      "time:hasEnd": "1527 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/inca-civil-war",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Inca Civil War",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "War of succession between Atahualpa and Huáscar; weakens empire on eve of Spanish arrival; Atahualpa captures Cusco.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/inca-empire"
+      },
+      "time:hasBeginning": "1529 CE",
+      "time:hasEnd": "1532 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-colonial",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Colonial South America",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "European colonization of South America; Spanish and Portuguese empires; encomienda and hacienda systems; Jesuit missions.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1492 CE",
+      "time:hasEnd": "1825 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/spanish-conquest-sa",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Spanish Conquest of South America",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Pizarro captures Atahualpa (1532); fall of Cusco (1533); Neo-Inca resistance at Vilcabamba until 1572; Potosí silver discovered (1545).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-colonial"
+      },
+      "time:hasBeginning": "1532 CE",
+      "time:hasEnd": "1572 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/portuguese-brazil-colonial",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Portuguese Colonial Brazil",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Cabral claims Brazil (1500); sugar plantations; Atlantic slave trade; gold rush in Minas Gerais (1690s); Rio becomes capital (1763).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-colonial"
+      },
+      "time:hasBeginning": "1500 CE",
+      "time:hasEnd": "1822 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/viceroyalty-peru",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Viceroyalty of Peru",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Spanish colonial administration covering most of South America; Lima as capital; Potosí silver mines; encomienda; Baroque churches.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-colonial"
+      },
+      "time:hasBeginning": "1542 CE",
+      "time:hasEnd": "1824 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/viceroyalty-new-granada",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Viceroyalty of New Granada",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Spanish colony covering modern Colombia, Ecuador, Venezuela, Panama; Bogotá as capital; separated from Viceroyalty of Peru.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-colonial"
+      },
+      "time:hasBeginning": "1717 CE",
+      "time:hasEnd": "1819 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/viceroyalty-rio-plata",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Viceroyalty of the Río de la Plata",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Spanish colony covering modern Argentina, Uruguay, Paraguay, Bolivia; Buenos Aires as capital; cattle ranching; gaucho culture emerges.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-colonial"
+      },
+      "time:hasBeginning": "1776 CE",
+      "time:hasEnd": "1814 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/jesuit-missions-guarani",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Jesuit Missions of the Guaraní",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Jesuit reductions in Paraguay, Argentina, Brazil; autonomous theocratic communities; Guaraní autonomy; expelled 1767 by Spanish Crown.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-colonial"
+      },
+      "time:hasBeginning": "1609 CE",
+      "time:hasEnd": "1767 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/potosi-silver",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Silver Age of Potosí",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Cerro Rico, Potosí (Bolivia); one of the largest silver deposits ever; forced indigenous labor (mita); funded Spanish Empire; population peaked at ~200,000.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-colonial"
+      },
+      "time:hasBeginning": "1545 CE",
+      "time:hasEnd": "1800 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/tupac-amaru-rebellion",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Túpac Amaru II Rebellion",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Indigenous uprising against Spanish colonial rule in Peru and Bolivia; led by José Gabriel Condorcanqui; ~100,000 dead; precursor to independence.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-colonial"
+      },
+      "time:hasBeginning": "1780 CE",
+      "time:hasEnd": "1783 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-independence",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "South American Wars of Independence",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Liberation movements across South America; inspired by American and French Revolutions; Napoleonic invasion of Spain as catalyst.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period"
+      },
+      "time:hasBeginning": "1808 CE",
+      "time:hasEnd": "1833 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/independence-argentina",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Argentine War of Independence",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "May Revolution (1810); Congress of Tucumán declares independence (1816); San Martín crosses the Andes; United Provinces of the Río de la Plata.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-independence"
+      },
+      "time:hasBeginning": "1810 CE",
+      "time:hasEnd": "1818 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/independence-chile",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Chilean War of Independence",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First junta (1810); Patria Vieja and Reconquista; San Martín and O'Higgins victory at Chacabuco (1817); independence declared 1818.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-independence"
+      },
+      "time:hasBeginning": "1810 CE",
+      "time:hasEnd": "1826 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/independence-gran-colombia",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Gran Colombia and Bolívar's Campaign",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Simón Bolívar liberates Venezuela, Colombia, Ecuador; Gran Colombia (1819-1831); Battle of Boyacá (1819); Sucre at Ayacucho (1824).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-independence"
+      },
+      "time:hasBeginning": "1811 CE",
+      "time:hasEnd": "1830 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/independence-peru",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Peruvian War of Independence",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "San Martín declares independence (1821); Bolívar and Sucre complete liberation; Battle of Ayacucho (1824) ends Spanish rule in South America.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-independence"
+      },
+      "time:hasBeginning": "1820 CE",
+      "time:hasEnd": "1824 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/independence-brazil",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Brazilian Independence",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Prince Pedro declares independence from Portugal (1822, 'Grito do Ipiranga'); Empire of Brazil established; Pedro I crowned Emperor.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-independence"
+      },
+      "time:hasBeginning": "1822 CE",
+      "time:hasEnd": "1825 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/independence-uruguay",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Uruguayan Independence",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Artigas leads Oriental revolution; Cisplatine Province under Brazil; independence recognized 1828 (Treaty of Montevideo).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-independence"
+      },
+      "time:hasBeginning": "1811 CE",
+      "time:hasEnd": "1828 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/independence-paraguay",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Paraguayan Independence",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Bloodless revolution (1811); one of the first South American nations to gain independence; Francia's isolationist dictatorship follows.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-independence"
+      },
+      "time:hasBeginning": "1811 CE",
+      "time:hasEnd": "1813 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/independence-bolivia",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Bolivian Independence",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First Cry of Freedom in Chuquisaca (1809); Sucre defeats Spanish at Ayacucho; Republic of Bolivia named for Simón Bolívar (1825).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-independence"
+      },
+      "time:hasBeginning": "1809 CE",
+      "time:hasEnd": "1825 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/empire-brazil",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Empire of Brazil",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Constitutional monarchy under Pedro I and Pedro II; coffee economy; abolition of slavery (Lei Áurea 1888); overthrown by military republic.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period"
+      },
+      "time:hasBeginning": "1822 CE",
+      "time:hasEnd": "1889 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/gran-colombia",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Gran Colombia",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Union of Venezuela, Colombia, Ecuador, Panama under Bolívar; dissolved due to regional rivalries; Bolívar dies 1830.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period"
+      },
+      "time:hasBeginning": "1819 CE",
+      "time:hasEnd": "1831 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/war-of-the-pacific",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "War of the Pacific",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Chile vs. Bolivia and Peru over nitrate-rich Atacama; Chile victorious; Bolivia loses coastal access; shapes modern borders.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period"
+      },
+      "time:hasBeginning": "1879 CE",
+      "time:hasEnd": "1884 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/war-of-triple-alliance",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "War of the Triple Alliance",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Paraguay vs. Argentina, Brazil, Uruguay; most destructive war in South American history; Paraguay loses ~60-70% of its population.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period"
+      },
+      "time:hasBeginning": "1864 CE",
+      "time:hasEnd": "1870 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/rubber-boom",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Amazon Rubber Boom",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Manaus and Belém prosper from rubber exports; Teatro Amazonas built; indigenous exploitation; ends when Asian plantations undercut prices.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period"
+      },
+      "time:hasBeginning": "1879 CE",
+      "time:hasEnd": "1912 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-20th",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "20th-Century South America",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Urbanization, populism, military dictatorships, Cold War proxy conflicts, democratization; Peronism, Allende, Pinochet, Vargas.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary"
+      },
+      "time:hasBeginning": "1914 CE",
+      "time:hasEnd": "2000 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/peronism-era",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Peronist Era (Argentina)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Juan Perón and Evita; justicialismo; workers' rights and industrialization; exile, return, and military overthrow; enduring political movement.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-20th"
+      },
+      "time:hasBeginning": "1943 CE",
+      "time:hasEnd": "1976 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/vargas-era",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Vargas Era (Brazil)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Getúlio Vargas modernizes Brazil; Estado Novo dictatorship (1937-1945); industrialization; labor laws; suicide in office (1954).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-20th"
+      },
+      "time:hasBeginning": "1930 CE",
+      "time:hasEnd": "1954 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/dirty-wars",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Dirty Wars (Southern Cone)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Military dictatorships and state terrorism in Argentina, Chile, Uruguay, Brazil; Operation Condor; desaparecidos; ~60,000+ killed or disappeared.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-20th"
+      },
+      "time:hasBeginning": "1968 CE",
+      "time:hasEnd": "1990 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/pinochet-chile",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Pinochet Regime (Chile)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "CIA-backed coup against Allende (1973); military dictatorship under Augusto Pinochet; neoliberal economic reforms; ~3,000 killed or disappeared.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/dirty-wars"
+      },
+      "time:hasBeginning": "1973 CE",
+      "time:hasEnd": "1990 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/falklands-war",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Falklands War (Malvinas)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Argentina invades British Falkland Islands; 74-day war; British victory; 649 Argentine and 255 British dead; accelerates fall of Argentine junta.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-20th"
+      },
+      "time:hasBeginning": "1982 CE",
+      "time:hasEnd": "1982 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-21st",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "21st-Century South America",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Pink tide leftist governments; commodity boom; democratic consolidation; Mercosur and UNASUR; environmental challenges in Amazon.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary"
+      },
+      "time:hasBeginning": "2000 CE",
+      "time:hasEnd": "Present",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/pink-tide",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Pink Tide (Marea Rosa)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Wave of left-wing governments: Chávez (Venezuela), Lula (Brazil), Morales (Bolivia), Correa (Ecuador), Kirchner (Argentina); social programs, resource nationalism.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-21st"
+      },
+      "time:hasBeginning": "1998 CE",
+      "time:hasEnd": "2015 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     }
   ]

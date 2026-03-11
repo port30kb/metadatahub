@@ -1,6 +1,6 @@
 ---
 title: "Geologic Time Scale"
-description: "312 linked data entries covering Earth's 4.6 billion year history — from the Hadean eon through geologic eras, periods, and epochs to archaeological ages (Stone Age, Bronze Age, Iron Age, Viking Age, Medieval) with a Scandinavian focus."
+description: "361 linked data entries covering Earth's 4.6 billion year history — from the Hadean eon through geologic eras, periods, and epochs to archaeological ages (Stone Age, Bronze Age, Iron Age, Viking Age, Medieval) with Scandinavian, European, and South American coverage."
 date: 2024-12-01
 type: dataset
 publisher: "Port 30 KB"
@@ -15,16 +15,17 @@ tags:
   - stratigraphy
   - archaeology
   - Scandinavia
+  - South-America
   - SKOS
   - linked-data
 distributions:
   - id: "turtle"
-    title: "RDF Turtle (312 entries)"
+    title: "RDF Turtle (361 entries)"
     accessURL: "https://metadatahub.eu/data/geologic-timescale.ttl"
     downloadURL: "https://metadatahub.eu/data/geologic-timescale.ttl"
     mediaType: "text/turtle"
   - id: "jsonld"
-    title: "JSON-LD (312 entries)"
+    title: "JSON-LD (361 entries)"
     accessURL: "https://metadatahub.eu/data/geologic-timescale.jsonld"
     downloadURL: "https://metadatahub.eu/data/geologic-timescale.jsonld"
     mediaType: "application/ld+json"
@@ -32,7 +33,7 @@ distributions:
 
 ## Overview
 
-This dataset models the **complete geologic time scale** as a SKOS concept scheme with 312 entries, using the [GeoSciML Geologic Timescale ontology](http://resource.geosciml.org/ontology/timescale/gts) and [W3C Time Ontology](http://www.w3.org/2006/time). It spans from the formation of Earth (4,600 Ma) through all geologic divisions down to individual ages/stages, then bridges into **archaeological and cultural periods** with a Scandinavian focus — from the Stone Age through the Viking Age and Medieval period to the Early Modern era.
+This dataset models the **complete geologic time scale** as a SKOS concept scheme with 361 entries, using the [GeoSciML Geologic Timescale ontology](http://resource.geosciml.org/ontology/timescale/gts) and [W3C Time Ontology](http://www.w3.org/2006/time). It spans from the formation of Earth (4,600 Ma) through all geologic divisions down to individual ages/stages, then bridges into **archaeological and cultural periods** — Scandinavian (Stone Age through Viking Age to Modern), European (Classical Greece through EU), and South American (Norte Chico through Inca Empire to 21st century).
 
 ## Sources
 
@@ -49,6 +50,9 @@ This dataset is compiled from the following sources:
 - [Wikipedia: Nordic Bronze Age](https://en.wikipedia.org/wiki/Nordic_Bronze_Age) — Montelius periods I–VI
 - [Wikipedia: Iron Age Scandinavia](https://en.wikipedia.org/wiki/Iron_Age_Scandinavia) — Germanic Iron Age subdivisions
 - [Wikipedia: History of Sweden](https://en.wikipedia.org/wiki/History_of_Sweden) — Swedish historical periods (Vasa, Stormaktstiden, Frihetstiden, Gustavian)
+- [Wikipedia: Pre-Columbian era](https://en.wikipedia.org/wiki/Pre-Columbian_era) — Andean and South American civilizations
+- [Wikipedia: Inca Empire](https://en.wikipedia.org/wiki/Inca_Empire) — Tawantinsuyu, expansion, and Spanish conquest
+- [Wikipedia: History of South America](https://en.wikipedia.org/wiki/History_of_South_America) — Colonial, independence, and modern periods
 
 License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (matching Wikipedia source license).
 
@@ -56,7 +60,7 @@ License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (matchi
 
 | Category | Count |
 |----------|-------|
-| **Total entries** | 312 |
+| **Total entries** | 361 |
 | **Eons** | 4 (Hadean, Archean, Proterozoic, Phanerozoic) |
 | **Eras** | 13 (incl. Hadean informal divisions) |
 | **Periods** | 22 + 2 sub-periods (Mississippian, Pennsylvanian) |
@@ -64,6 +68,7 @@ License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (matchi
 | **Ages/Stages** | ~80 (all Mesozoic + Cenozoic stages, Paleozoic key stages) |
 | **Cultural ages (Nordic)** | ~80 (Stone Age cultures, Bronze Age (Montelius I–VI), Iron Age, Viking Age, Medieval through Modern) |
 | **Cultural ages (European)** | ~25 (Classical Greece, Roman Empire, Carolingian, Crusades, Renaissance, Baroque, Enlightenment, etc.) |
+| **South American periods** | ~49 (Norte Chico, Chavín, Moche, Inca Empire, colonial viceroyalties, independence wars, modern) |
 | **Climate/extinction events** | ~15 (Big Five extinctions, Snowball Earth, PETM, etc.) |
 | **Nordic-specific** | ~40 (Bromme, Fosna-Hensbacka, Komsa, Ertebølle, Vendel, Kalmar Union, Stormaktstiden, etc.) |
 
@@ -132,6 +137,26 @@ Phanerozoic (Eon, 538.8 Ma–Present)
             ├── Renaissance → Italian, Northern
             ├── Reformation, Baroque, Enlightenment
             └── Revolutions, Romanticism, World Wars, Cold War, EU
+            │
+            │ ── SOUTH AMERICAN TRACK ──
+            ├── Pre-Columbian South America
+            │   ├── Norte Chico/Caral (3000–1800 BCE)
+            │   ├── Valdivia (3500–1800 BCE), Chavín (900–200 BCE)
+            │   ├── Paracas, Nazca, Moche, Tiwanaku, Wari
+            │   ├── Chimú (900–1470), Muisca, San Agustín
+            │   ├── Mapuche, Guaraní
+            │   └── Inca Empire (1438–1533) → Expansion, Huayna Cápac, Civil War
+            ├── Colonial South America (1492–1825)
+            │   ├── Spanish Conquest → Viceroyalties (Peru, New Granada, Río de la Plata)
+            │   ├── Portuguese Brazil → Sugar, Gold Rush
+            │   ├── Jesuit Missions, Potosí Silver
+            │   └── Túpac Amaru II Rebellion
+            ├── Wars of Independence (1808–1833)
+            │   ├── Argentina, Chile, Peru, Bolivia, Uruguay, Paraguay
+            │   ├── Gran Colombia (Bolívar), Brazilian Independence
+            │   └── Empire of Brazil (1822–1889)
+            ├── 19th Century → War of Triple Alliance, War of Pacific, Rubber Boom
+            └── 20th–21st Century → Peronism, Vargas, Dirty Wars, Pink Tide
 ```
 
 ## Data Model
@@ -215,6 +240,30 @@ ts:jurassic a gts:GeochronologicPeriod ;
 | **Cold War** | 1947–1991 CE | East-West division; NATO vs Warsaw Pact; Berlin Wall |
 | **European Integration** | 1957–present | EEC to EU; Schengen; Euro; 27+ member states |
 
+## South American Historical Periods
+
+| Period | Dates | Key Features |
+|--------|-------|-------------|
+| **Norte Chico (Caral)** | 3000–1800 BCE | Oldest American civilization; monumental architecture; no pottery |
+| **Valdivia Culture** | 3500–1800 BCE | Ecuador coast; oldest American pottery; Venus figurines |
+| **Chavín Culture** | 900–200 BCE | Andean Peru; Chavín de Huántar; jaguar iconography |
+| **Paracas Culture** | 800–100 BCE | Extraordinary textiles; cranial trepanation |
+| **Nazca Culture** | 100 BCE–800 CE | Nazca Lines geoglyphs; polychrome pottery |
+| **Moche Civilization** | 100–700 CE | Sipán royal tombs; portrait vessels; irrigation |
+| **Tiwanaku Empire** | 300–1000 CE | Lake Titicaca; Gateway of the Sun; raised fields |
+| **Wari Empire** | 600–1000 CE | Road network predating Inca; terraced agriculture |
+| **Chimú Empire** | 900–1470 CE | Chan Chan (largest adobe city); conquered by Inca |
+| **Muisca Confederation** | 600–1541 CE | Colombian highlands; El Dorado legend; gold and tumbaga |
+| **Inca Empire** | 1438–1533 CE | Largest pre-Columbian empire; Machu Picchu; Qhapaq Ñan |
+| **Colonial Period** | 1492–1825 CE | Spanish viceroyalties; Portuguese Brazil; Potosí silver |
+| **Wars of Independence** | 1808–1833 CE | Bolívar, San Martín; liberation of South America |
+| **Empire of Brazil** | 1822–1889 CE | Pedro I and II; coffee economy; abolition 1888 |
+| **War of Triple Alliance** | 1864–1870 CE | Paraguay loses ~60-70% of population |
+| **War of the Pacific** | 1879–1884 CE | Chile vs. Bolivia and Peru; Atacama nitrates |
+| **Rubber Boom** | 1879–1912 CE | Amazon; Manaus; Teatro Amazonas |
+| **Dirty Wars** | 1968–1990 CE | Military dictatorships; Operation Condor; desaparecidos |
+| **Pink Tide** | 1998–2015 CE | Left-wing wave; Chávez, Lula, Morales, Kirchner |
+
 ## SPARQL Examples
 
 Query this dataset via the [SPARQL endpoint](/sparql):
@@ -259,5 +308,5 @@ WHERE {
 
 ## Download
 
-- [Turtle (text/turtle)](/data/geologic-timescale.ttl) — 3,400+ lines, all 312 entries with full hierarchy
+- [Turtle (text/turtle)](/data/geologic-timescale.ttl) — 4,000+ lines, all 361 entries with full hierarchy
 - [JSON-LD (application/ld+json)](/data/geologic-timescale.jsonld) — Same data as JSON-LD graph

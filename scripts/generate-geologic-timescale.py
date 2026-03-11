@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate the Geologic Time Scale as Linked Data (Turtle + JSON-LD).
 
-312 data points covering:
+361 data points covering:
 - 4 Eons
 - 10 Eras
 - 22 Periods (incl. Mississippian/Pennsylvanian sub-periods)
@@ -771,6 +771,122 @@ add("eocene-oligocene-extinction", "Eocene–Oligocene Extinction (Grande Coupur
 add("cambrian-explosion", "Cambrian Explosion", "Age", "epoch2-cambrian", 538.8, 510, "Ma",
     "Most major animal phyla appear in fossil record within ~25 Myr; Burgess Shale, Chengjiang faunas; cause debated.")
 
+# ═══════════════════════════════════════════════════════════════
+# SOUTH AMERICAN HISTORICAL & CULTURAL PERIODS
+# ═══════════════════════════════════════════════════════════════
+
+# --- Pre-Columbian Civilizations ---
+add("south-america-precolumbian", "Pre-Columbian South America", "CulturalAge", "holocene", 3000, 1533, "BCE",
+    "Indigenous civilizations of South America before European contact; from Norte Chico to the Inca Empire.")
+add("norte-chico", "Norte Chico (Caral) Civilization", "CulturalAge", "south-america-precolumbian", 3000, 1800, "BCE",
+    "Oldest known civilization in the Americas; Caral, Supe Valley, Peru; monumental architecture, quipu precursors; no pottery or writing.")
+add("valdivia-culture", "Valdivia Culture", "CulturalAge", "south-america-precolumbian", 3500, 1800, "BCE",
+    "Early Formative culture on coast of Ecuador; some of the oldest pottery in the Americas; Venus figurines; early maize cultivation.")
+add("chavin-culture", "Chavín Culture", "CulturalAge", "south-america-precolumbian", 900, 200, "BCE",
+    "Early Horizon unifying culture of Andean Peru; Chavín de Huántar temple complex; jaguar iconography; influence across highlands and coast.")
+add("paracas-culture", "Paracas Culture", "CulturalAge", "south-america-precolumbian", 800, 100, "BCE",
+    "Southern Peruvian coastal culture; extraordinary textiles and embroidery; cranial trepanation; Paracas Necropolis burials.")
+add("nazca-culture", "Nazca Culture", "CulturalAge", "south-america-precolumbian", 100, 800, "CE",
+    "Southern Peruvian desert; Nazca Lines geoglyphs; polychrome pottery; underground aqueducts (puquios).")
+add("moche-civilization", "Moche Civilization", "CulturalAge", "south-america-precolumbian", 100, 700, "CE",
+    "Northern Peruvian coast; Huaca del Sol and Huaca de la Luna; portrait vessels; Sipán royal tombs; advanced irrigation.")
+add("tiwanaku-empire", "Tiwanaku Empire", "CulturalAge", "south-america-precolumbian", 300, 1000, "CE",
+    "Andean civilization centered at Lake Titicaca, Bolivia; Gateway of the Sun; raised-field agriculture; altitude ~3,800 m.")
+add("wari-empire", "Wari Empire", "CulturalAge", "south-america-precolumbian", 600, 1000, "CE",
+    "Middle Horizon Andean empire; administrative centers across Peru; road network predating Inca; terraced agriculture.")
+add("chimu-empire", "Chimú Empire", "CulturalAge", "south-america-precolumbian", 900, 1470, "CE",
+    "Late Intermediate kingdom of northern Peru; Chan Chan (largest adobe city); sophisticated metalwork; conquered by Inca.")
+add("muisca-confederation", "Muisca Confederation", "CulturalAge", "south-america-precolumbian", 600, 1541, "CE",
+    "Chibcha-speaking confederation in Colombian highlands; gold and tumbaga metalwork; El Dorado legend; salt and emerald trade.")
+add("san-agustin-culture", "San Agustín Culture", "CulturalAge", "south-america-precolumbian", 100, 1350, "CE",
+    "Pre-Columbian culture of southwestern Colombia; monumental stone sculptures and burial mounds; UNESCO World Heritage Site.")
+add("mapuche-precolonial", "Mapuche (Pre-Colonial)", "CulturalAge", "south-america-precolumbian", 600, 1550, "CE",
+    "Indigenous people of south-central Chile and Argentina; agricultural and pastoral; fierce resistance to Inca and Spanish expansion.")
+add("guarani-precolonial", "Guaraní (Pre-Colonial)", "CulturalAge", "south-america-precolumbian", 500, 1537, "CE",
+    "Tupi-Guaraní peoples of Paraguay, Brazil, and Argentina; slash-and-burn agriculture; canoe navigation; religious migrations (Land Without Evil).")
+
+# --- Inca Empire ---
+add("inca-empire", "Inca Empire (Tawantinsuyu)", "CulturalAge", "south-america-precolumbian", 1438, 1533, "CE",
+    "Largest pre-Columbian empire; Cusco as capital; Machu Picchu; quipu record-keeping; road system (Qhapaq Ñan); conquered by Pizarro.")
+add("inca-expansion", "Inca Expansion Period", "CulturalAge", "inca-empire", 1438, 1493, "CE",
+    "Pachacuti and Túpac Inca Yupanqui expand Tawantinsuyu from Ecuador to Chile; conquer Chimú; build Machu Picchu.")
+add("inca-huayna-capac", "Reign of Huayna Cápac", "CulturalAge", "inca-empire", 1493, 1527, "CE",
+    "Empire at greatest extent; integration of conquered peoples; smallpox arrives before Spanish contact; death triggers civil war.")
+add("inca-civil-war", "Inca Civil War", "CulturalAge", "inca-empire", 1529, 1532, "CE",
+    "War of succession between Atahualpa and Huáscar; weakens empire on eve of Spanish arrival; Atahualpa captures Cusco.")
+
+# --- Colonial Period ---
+add("south-america-colonial", "Colonial South America", "CulturalAge", "holocene", 1492, 1825, "CE",
+    "European colonization of South America; Spanish and Portuguese empires; encomienda and hacienda systems; Jesuit missions.")
+add("spanish-conquest-sa", "Spanish Conquest of South America", "CulturalAge", "south-america-colonial", 1532, 1572, "CE",
+    "Pizarro captures Atahualpa (1532); fall of Cusco (1533); Neo-Inca resistance at Vilcabamba until 1572; Potosí silver discovered (1545).")
+add("portuguese-brazil-colonial", "Portuguese Colonial Brazil", "CulturalAge", "south-america-colonial", 1500, 1822, "CE",
+    "Cabral claims Brazil (1500); sugar plantations; Atlantic slave trade; gold rush in Minas Gerais (1690s); Rio becomes capital (1763).")
+add("viceroyalty-peru", "Viceroyalty of Peru", "CulturalAge", "south-america-colonial", 1542, 1824, "CE",
+    "Spanish colonial administration covering most of South America; Lima as capital; Potosí silver mines; encomienda; Baroque churches.")
+add("viceroyalty-new-granada", "Viceroyalty of New Granada", "CulturalAge", "south-america-colonial", 1717, 1819, "CE",
+    "Spanish colony covering modern Colombia, Ecuador, Venezuela, Panama; Bogotá as capital; separated from Viceroyalty of Peru.")
+add("viceroyalty-rio-plata", "Viceroyalty of the Río de la Plata", "CulturalAge", "south-america-colonial", 1776, 1814, "CE",
+    "Spanish colony covering modern Argentina, Uruguay, Paraguay, Bolivia; Buenos Aires as capital; cattle ranching; gaucho culture emerges.")
+add("jesuit-missions-guarani", "Jesuit Missions of the Guaraní", "CulturalAge", "south-america-colonial", 1609, 1767, "CE",
+    "Jesuit reductions in Paraguay, Argentina, Brazil; autonomous theocratic communities; Guaraní autonomy; expelled 1767 by Spanish Crown.")
+add("potosi-silver", "Silver Age of Potosí", "CulturalAge", "south-america-colonial", 1545, 1800, "CE",
+    "Cerro Rico, Potosí (Bolivia); one of the largest silver deposits ever; forced indigenous labor (mita); funded Spanish Empire; population peaked at ~200,000.")
+add("tupac-amaru-rebellion", "Túpac Amaru II Rebellion", "CulturalAge", "south-america-colonial", 1780, 1783, "CE",
+    "Indigenous uprising against Spanish colonial rule in Peru and Bolivia; led by José Gabriel Condorcanqui; ~100,000 dead; precursor to independence.")
+
+# --- Independence Era ---
+add("south-america-independence", "South American Wars of Independence", "CulturalAge", "modern-period", 1808, 1833, "CE",
+    "Liberation movements across South America; inspired by American and French Revolutions; Napoleonic invasion of Spain as catalyst.")
+add("independence-argentina", "Argentine War of Independence", "CulturalAge", "south-america-independence", 1810, 1818, "CE",
+    "May Revolution (1810); Congress of Tucumán declares independence (1816); San Martín crosses the Andes; United Provinces of the Río de la Plata.")
+add("independence-chile", "Chilean War of Independence", "CulturalAge", "south-america-independence", 1810, 1826, "CE",
+    "First junta (1810); Patria Vieja and Reconquista; San Martín and O'Higgins victory at Chacabuco (1817); independence declared 1818.")
+add("independence-gran-colombia", "Gran Colombia and Bolívar's Campaign", "CulturalAge", "south-america-independence", 1811, 1830, "CE",
+    "Simón Bolívar liberates Venezuela, Colombia, Ecuador; Gran Colombia (1819-1831); Battle of Boyacá (1819); Sucre at Ayacucho (1824).")
+add("independence-peru", "Peruvian War of Independence", "CulturalAge", "south-america-independence", 1820, 1824, "CE",
+    "San Martín declares independence (1821); Bolívar and Sucre complete liberation; Battle of Ayacucho (1824) ends Spanish rule in South America.")
+add("independence-brazil", "Brazilian Independence", "CulturalAge", "south-america-independence", 1822, 1825, "CE",
+    "Prince Pedro declares independence from Portugal (1822, 'Grito do Ipiranga'); Empire of Brazil established; Pedro I crowned Emperor.")
+add("independence-uruguay", "Uruguayan Independence", "CulturalAge", "south-america-independence", 1811, 1828, "CE",
+    "Artigas leads Oriental revolution; Cisplatine Province under Brazil; independence recognized 1828 (Treaty of Montevideo).")
+add("independence-paraguay", "Paraguayan Independence", "CulturalAge", "south-america-independence", 1811, 1813, "CE",
+    "Bloodless revolution (1811); one of the first South American nations to gain independence; Francia's isolationist dictatorship follows.")
+add("independence-bolivia", "Bolivian Independence", "CulturalAge", "south-america-independence", 1809, 1825, "CE",
+    "First Cry of Freedom in Chuquisaca (1809); Sucre defeats Spanish at Ayacucho; Republic of Bolivia named for Simón Bolívar (1825).")
+
+# --- 19th Century South America ---
+add("empire-brazil", "Empire of Brazil", "CulturalAge", "modern-period", 1822, 1889, "CE",
+    "Constitutional monarchy under Pedro I and Pedro II; coffee economy; abolition of slavery (Lei Áurea 1888); overthrown by military republic.")
+add("gran-colombia", "Gran Colombia", "CulturalAge", "modern-period", 1819, 1831, "CE",
+    "Union of Venezuela, Colombia, Ecuador, Panama under Bolívar; dissolved due to regional rivalries; Bolívar dies 1830.")
+add("war-of-the-pacific", "War of the Pacific", "CulturalAge", "modern-period", 1879, 1884, "CE",
+    "Chile vs. Bolivia and Peru over nitrate-rich Atacama; Chile victorious; Bolivia loses coastal access; shapes modern borders.")
+add("war-of-triple-alliance", "War of the Triple Alliance", "CulturalAge", "modern-period", 1864, 1870, "CE",
+    "Paraguay vs. Argentina, Brazil, Uruguay; most destructive war in South American history; Paraguay loses ~60-70% of its population.")
+add("rubber-boom", "Amazon Rubber Boom", "CulturalAge", "modern-period", 1879, 1912, "CE",
+    "Manaus and Belém prosper from rubber exports; Teatro Amazonas built; indigenous exploitation; ends when Asian plantations undercut prices.")
+
+# --- 20th Century South America ---
+add("south-america-20th", "20th-Century South America", "CulturalAge", "contemporary", 1914, 2000, "CE",
+    "Urbanization, populism, military dictatorships, Cold War proxy conflicts, democratization; Peronism, Allende, Pinochet, Vargas.")
+add("peronism-era", "Peronist Era (Argentina)", "CulturalAge", "south-america-20th", 1943, 1976, "CE",
+    "Juan Perón and Evita; justicialismo; workers' rights and industrialization; exile, return, and military overthrow; enduring political movement.")
+add("vargas-era", "Vargas Era (Brazil)", "CulturalAge", "south-america-20th", 1930, 1954, "CE",
+    "Getúlio Vargas modernizes Brazil; Estado Novo dictatorship (1937-1945); industrialization; labor laws; suicide in office (1954).")
+add("dirty-wars", "Dirty Wars (Southern Cone)", "CulturalAge", "south-america-20th", 1968, 1990, "CE",
+    "Military dictatorships and state terrorism in Argentina, Chile, Uruguay, Brazil; Operation Condor; desaparecidos; ~60,000+ killed or disappeared.")
+add("pinochet-chile", "Pinochet Regime (Chile)", "CulturalAge", "dirty-wars", 1973, 1990, "CE",
+    "CIA-backed coup against Allende (1973); military dictatorship under Augusto Pinochet; neoliberal economic reforms; ~3,000 killed or disappeared.")
+add("falklands-war", "Falklands War (Malvinas)", "CulturalAge", "south-america-20th", 1982, 1982, "CE",
+    "Argentina invades British Falkland Islands; 74-day war; British victory; 649 Argentine and 255 British dead; accelerates fall of Argentine junta.")
+
+# --- 21st Century & Contemporary ---
+add("south-america-21st", "21st-Century South America", "CulturalAge", "contemporary", 2000, 0, "CE",
+    "Pink tide leftist governments; commodity boom; democratic consolidation; Mercosur and UNASUR; environmental challenges in Amazon.")
+add("pink-tide", "Pink Tide (Marea Rosa)", "CulturalAge", "south-america-21st", 1998, 2015, "CE",
+    "Wave of left-wing governments: Chávez (Venezuela), Lula (Brazil), Morales (Bolivia), Correa (Ecuador), Kirchner (Argentina); social programs, resource nationalism.")
+
 print(f"Total data points: {n[0]}")
 
 # ═══════════════════════════════════════════════════════════════
@@ -825,7 +941,7 @@ lines.append("")
 # Dataset metadata
 lines.append(f"<{BASE}> a skos:ConceptScheme ;")
 lines.append(f'    dcterms:title "Geologic Time Scale"@en ;')
-lines.append(f'    dcterms:description "250 entries covering the geologic time scale from Hadean eon (4600 Ma) to Early Modern period, including archaeological/cultural ages (Stone Age, Bronze Age, Iron Age, Viking Age, Medieval)."@en ;')
+lines.append(f'    dcterms:description "{len(DATA)} entries covering the geologic time scale from Hadean eon (4600 Ma) to present, including Scandinavian, European, and South American cultural/historical periods."@en ;')
 lines.append(f'    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> ;')
 lines.append(f'    dcterms:source <https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf> ;')
 lines.append(f'    dcterms:source <https://en.wikipedia.org/wiki/Holocene> ;')
@@ -937,7 +1053,7 @@ jsonld_doc = {
     "@id": BASE,
     "@type": "skos:ConceptScheme",
     "dcterms:title": "Geologic Time Scale",
-    "dcterms:description": "250 entries covering the geologic time scale from Hadean eon (4600 Ma) to Early Modern period, including archaeological/cultural ages.",
+    "dcterms:description": f"{len(DATA)} entries covering the geologic time scale from Hadean eon (4600 Ma) to present, including Scandinavian, European, and South American cultural/historical periods.",
     "dcterms:source": [
         "https://en.wikipedia.org/wiki/Geologic_time_scale",
         "https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf",
