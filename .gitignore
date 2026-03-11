@@ -1,0 +1,24 @@
+# Hugo build output
+hugo/public/
+hugo/resources/_gen/
+
+# OAI-PMH database (generated)
+oai-pmh/data/oai.sqlite
+
+# Docker volumes
+caddy_data/
+caddy_config/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Environment files
+.env

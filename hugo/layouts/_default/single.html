@@ -1,0 +1,34 @@
+{{ define "main" }}
+<article>
+  <h1>{{ .Title }}</h1>
+  {{- with .Params.description }}
+  <p class="description">{{ . }}</p>
+  {{- end }}
+
+  {{- /* Show alternate format links for RDF-enabled pages */ -}}
+  {{- if .OutputFormats.Get "Turtle" }}
+  <aside class="formats">
+    <strong>Machine-readable formats:</strong>
+    <a href="{{ (.OutputFormats.Get "Turtle").Permalink }}">Turtle</a>
+    {{- if .OutputFormats.Get "JSONLD" }} |
+    <a href="{{ (.OutputFormats.Get "JSONLD").Permalink }}">JSON-LD</a>
+    {{- end }}
+    {{- if .OutputFormats.Get "RDFXML" }} |
+    <a href="{{ (.OutputFormats.Get "RDFXML").Permalink }}">RDF/XML</a>
+    {{- end }}
+  </aside>
+  {{- end }}
+
+  <div class="content">
+    {{ .Content }}
+  </div>
+
+  {{- with .Params.tags }}
+  <div class="tags">
+    {{- range . }}
+    <span class="tag">{{ . }}</span>
+    {{- end }}
+  </div>
+  {{- end }}
+</article>
+{{ end }}

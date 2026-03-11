@@ -1,0 +1,33 @@
+{{ define "main" }}
+<section class="hero">
+  <h1>{{ .Site.Title }}</h1>
+  <p>{{ .Site.Params.description }}</p>
+</section>
+
+<section class="overview">
+  <div class="card">
+    <h2>Vocabularies</h2>
+    <p>Browse cultural heritage vocabularies including CIDOC-CRM, LIDO, and SKOS concept schemes.</p>
+    <a href="/vocab/">Explore vocabularies</a>
+  </div>
+  <div class="card">
+    <h2>Dataset Catalog</h2>
+    <p>DCAT-AP compliant catalog of datasets published through the Helix ecosystem.</p>
+    <a href="/dataset/">Browse datasets</a>
+  </div>
+  <div class="card">
+    <h2>SPARQL Endpoint</h2>
+    <p>Query all vocabularies and catalog metadata using SPARQL 1.1.</p>
+    <a href="/sparql">Open query interface</a>
+  </div>
+  <div class="card">
+    <h2>OAI-PMH</h2>
+    <p>Harvest metadata records for integration with aggregators like K-samsök and Europeana.</p>
+    <a href="/oai?verb=Identify">View endpoint</a>
+  </div>
+</section>
+
+<section class="content">
+  {{ .Content }}
+</section>
+{{ end }}

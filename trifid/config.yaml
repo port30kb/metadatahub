@@ -1,0 +1,40 @@
+server:
+  listener:
+    host: 0.0.0.0
+    port: 8080
+  logLevel: info
+
+globals:
+  datasetBaseUrl: https://metadatahub.eu/
+  sparqlEndpoint:
+    url: http://oxigraph:7878/query
+    updateUrl: http://oxigraph:7878/update
+
+middlewares:
+  # Content negotiation: serve RDF or redirect to HTML
+  entity-renderer:
+    module: "@zazuko/trifid/middlewares/entity-renderer"
+    config:
+      path: "/(vocab|dataset)/.*"
+      redirectOnHtml: false
+
+  # SPARQL proxy for browser-based querying
+  sparql-proxy:
+    module: "@zazuko/trifid/middlewares/sparql-proxy"
+    config:
+      path: /sparql-proxy
+      endpointUrl: http://oxigraph:7878/query
+
+  # SPARQL browser UI (YASGUI)
+  yasgui:
+    module: "@zazuko/trifid/middlewares/yasgui"
+    config:
+      path: /sparql-ui
+      endpointUrl: /sparql-proxy
+
+  # Graph explorer
+  graph-explorer:
+    module: "@zazuko/trifid/middlewares/graph-explorer"
+    config:
+      path: /explore
+      endpointUrl: /sparql-proxy

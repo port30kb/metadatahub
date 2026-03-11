@@ -1,0 +1,91 @@
+{
+	# Global options
+	email admin@metadatahub.eu
+}
+
+metadatahub.eu, localhost {
+	# --- Static documentation routes (always HTML) ---
+	handle /docs/* {
+		reverse_proxy hugo-site:80
+	}
+
+	handle /specs/* {
+		reverse_proxy hugo-site:80
+	}
+
+	handle /guides/* {
+		reverse_proxy hugo-site:80
+	}
+
+	# --- SPARQL endpoint ---
+	handle /sparql* {
+		reverse_proxy oxigraph:7878 {
+			# Rewrite to Oxigraph's query path
+			header_up Host {upstream_hostport}
+		}
+	}
+
+	# --- OAI-PMH harvesting endpoint ---
+	handle /oai* {
+		reverse_proxy oai-pmh:80
+	}
+
+	# --- Vocabulary URIs: content negotiation via Trifid ---
+	@rdf_accept {
+		header Accept *text/turtle*
+		path /vocab/* /dataset/*
+	}
+	handle @rdf_accept {
+		reverse_proxy trifid:8080
+	}
+
+	@rdfxml_accept {
+		header Accept *application/rdf+xml*
+		path /vocab/* /dataset/*
+	}
+	handle @rdfxml_accept {
+		reverse_proxy trifid:8080
+	}
+
+	@jsonld_accept {
+		header Accept *application/ld+json*
+		path /vocab/* /dataset/*
+	}
+	handle @jsonld_accept {
+		reverse_proxy trifid:8080
+	}
+
+	@ntriples_accept {
+		header Accept *application/n-triples*
+		path /vocab/* /dataset/*
+	}
+	handle @ntriples_accept {
+		reverse_proxy trifid:8080
+	}
+
+	# --- Vocabulary/dataset URIs: HTML for browsers ---
+	handle /vocab/* {
+		reverse_proxy hugo-site:80
+	}
+
+	handle /dataset/* {
+		reverse_proxy hugo-site:80
+	}
+
+	# --- Static assets and everything else ---
+	handle {
+		reverse_proxy hugo-site:80
+	}
+
+	# Security headers
+	header {
+		X-Content-Type-Options nosniff
+		X-Frame-Options DENY
+		Referrer-Policy strict-origin-when-cross-origin
+	}
+
+	# Logging
+	log {
+		output file /data/access.log
+	}
+}

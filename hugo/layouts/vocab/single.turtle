@@ -1,0 +1,54 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<{{ .Permalink }}>
+    a {{ with .Params.rdf_type }}{{ . }}{{ else }}skos:ConceptScheme{{ end }} ;
+    rdfs:label "{{ .Title }}"@en ;
+    dcterms:description "{{ .Params.description }}"@en ;
+{{- with .Params.version }}
+    owl:versionInfo "{{ . }}" ;
+{{- end }}
+{{- with .Params.creator }}
+    dcterms:creator "{{ . }}" ;
+{{- end }}
+{{- with .Params.license }}
+    dcterms:license <{{ . }}> ;
+{{- end }}
+{{- with .Params.seeAlso }}
+    rdfs:seeAlso <{{ . }}> ;
+{{- end }}
+    dcterms:modified "{{ .Date.Format "2006-01-02" }}"^^<http://www.w3.org/2001/XMLSchema#date> .
+{{- range .Params.classes }}
+
+<{{ $.Permalink }}{{ .id }}>
+    a rdfs:Class ;
+    rdfs:label "{{ .label }}"@en ;
+{{- with .comment }}
+    rdfs:comment "{{ . }}"@en ;
+{{- end }}
+{{- with .subClassOf }}
+    rdfs:subClassOf <{{ . }}> ;
+{{- end }}
+    rdfs:isDefinedBy <{{ $.Permalink }}> .
+{{- end }}
+{{- range .Params.properties }}
+
+<{{ $.Permalink }}{{ .id }}>
+    a rdf:Property ;
+    rdfs:label "{{ .label }}"@en ;
+{{- with .comment }}
+    rdfs:comment "{{ . }}"@en ;
+{{- end }}
+{{- with .domain }}
+    rdfs:domain <{{ . }}> ;
+{{- end }}
+{{- with .range }}
+    rdfs:range <{{ . }}> ;
+{{- end }}
+    rdfs:isDefinedBy <{{ $.Permalink }}> .
+{{- end }}

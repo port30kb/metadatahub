@@ -1,0 +1,40 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<{{ .Permalink }}>
+    a dcat:Dataset ;
+    dcterms:title "{{ .Title }}"@en ;
+    dcterms:description "{{ .Params.description }}"@en ;
+{{- with .Params.publisher }}
+    dcterms:publisher [
+        a foaf:Organization ;
+        foaf:name "{{ . }}"
+    ] ;
+{{- end }}
+{{- with .Params.license }}
+    dcterms:license <{{ . }}> ;
+{{- end }}
+{{- with .Params.theme }}
+    dcat:theme <{{ . }}> ;
+{{- end }}
+{{- with .Params.spatial }}
+    dcterms:spatial <{{ . }}> ;
+{{- end }}
+{{- with .Params.accrualPeriodicity }}
+    dcterms:accrualPeriodicity <{{ . }}> ;
+{{- end }}
+    dcterms:modified "{{ .Date.Format "2006-01-02" }}"^^xsd:date .
+{{- range .Params.distributions }}
+
+<{{ $.Permalink }}{{ .id }}>
+    a dcat:Distribution ;
+    dcterms:title "{{ .title }}"@en ;
+    dcat:accessURL <{{ .accessURL }}> ;
+{{- with .mediaType }}
+    dcat:mediaType "{{ . }}" ;
+{{- end }}
+    dcat:downloadURL <{{ .downloadURL }}> .
+{{- end }}

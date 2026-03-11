@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <link rel="stylesheet" href="/css/style.css">
+  {{- /* Link alternate RDF representations for linked data discovery */ -}}
+  {{- if .OutputFormats.Get "Turtle" }}
+  <link rel="alternate" type="text/turtle" href="{{ (.OutputFormats.Get "Turtle").Permalink }}">
+  {{- end }}
+  {{- if .OutputFormats.Get "JSONLD" }}
+  <link rel="alternate" type="application/ld+json" href="{{ (.OutputFormats.Get "JSONLD").Permalink }}">
+  {{- end }}
+  {{- if .OutputFormats.Get "RDFXML" }}
+  <link rel="alternate" type="application/rdf+xml" href="{{ (.OutputFormats.Get "RDFXML").Permalink }}">
+  {{- end }}
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/" class="logo">metadatahub.eu</a>
+      <ul>
+        <li><a href="/vocab/">Vocabularies</a></li>
+        <li><a href="/dataset/">Datasets</a></li>
+        <li><a href="/docs/">Documentation</a></li>
+        <li><a href="/specs/">Specifications</a></li>
+        <li><a href="/guides/">Guides</a></li>
+        <li><a href="/sparql">SPARQL</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+  <footer>
+    <p>&copy; {{ now.Year }} {{ .Site.Params.org }}. Published as Linked Open Data.</p>
+    <p>
+      <a href="{{ .Site.Params.sparqlEndpoint }}">SPARQL Endpoint</a> |
+      <a href="{{ .Site.Params.oaiEndpoint }}">OAI-PMH</a>
+    </p>
+  </footer>
+</body>
+</html>

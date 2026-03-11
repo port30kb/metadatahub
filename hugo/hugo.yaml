@@ -1,0 +1,77 @@
+baseURL: "https://metadatahub.eu/"
+languageCode: "en"
+title: "metadatahub.eu — Cultural Heritage Metadata Hub"
+theme: ""
+
+# Custom media types for RDF serializations
+mediaTypes:
+  text/turtle:
+    suffixes:
+      - ttl
+  application/ld+json:
+    suffixes:
+      - jsonld
+  application/rdf+xml:
+    suffixes:
+      - rdf
+
+# Output formats: HTML + RDF serializations
+outputFormats:
+  HTML:
+    mediaType: text/html
+    baseName: index
+    isHTML: true
+  Turtle:
+    mediaType: text/turtle
+    baseName: index
+    notAlternative: false
+  JSONLD:
+    mediaType: application/ld+json
+    baseName: index
+    notAlternative: false
+  RDFXML:
+    mediaType: application/rdf+xml
+    baseName: index
+    notAlternative: false
+
+# Configure which sections produce which outputs
+outputs:
+  page:
+    - HTML
+  section:
+    - HTML
+  home:
+    - HTML
+
+# Vocabulary and dataset pages get all RDF outputs
+cascade:
+  - _target:
+      path: /vocab/**
+    outputs:
+      - HTML
+      - Turtle
+      - JSONLD
+      - RDFXML
+  - _target:
+      path: /dataset/**
+    outputs:
+      - HTML
+      - Turtle
+      - JSONLD
+      - RDFXML
+
+params:
+  description: "A linked data hub for cultural heritage metadata standards, vocabularies, and dataset catalogs."
+  sparqlEndpoint: "https://metadatahub.eu/sparql"
+  oaiEndpoint: "https://metadatahub.eu/oai"
+  org: "Port 30 KB"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: tags
+  standard: standards
+  category: categories

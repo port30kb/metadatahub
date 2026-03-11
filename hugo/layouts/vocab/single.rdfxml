@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/">
+
+  <rdf:Description rdf:about="{{ .Permalink }}">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <rdfs:label xml:lang="en">{{ .Title }}</rdfs:label>
+    <dcterms:description xml:lang="en">{{ .Params.description }}</dcterms:description>
+    {{- with .Params.version }}
+    <owl:versionInfo>{{ . }}</owl:versionInfo>
+    {{- end }}
+    {{- with .Params.creator }}
+    <dcterms:creator>{{ . }}</dcterms:creator>
+    {{- end }}
+    {{- with .Params.license }}
+    <dcterms:license rdf:resource="{{ . }}"/>
+    {{- end }}
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">{{ .Date.Format "2006-01-02" }}</dcterms:modified>
+  </rdf:Description>
+{{- range .Params.classes }}
+
+  <rdf:Description rdf:about="{{ $.Permalink }}{{ .id }}">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label xml:lang="en">{{ .label }}</rdfs:label>
+    {{- with .comment }}
+    <rdfs:comment xml:lang="en">{{ . }}</rdfs:comment>
+    {{- end }}
+    <rdfs:isDefinedBy rdf:resource="{{ $.Permalink }}"/>
+  </rdf:Description>
+{{- end }}
+
+</rdf:RDF>

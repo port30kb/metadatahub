@@ -1,0 +1,73 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+env:
+  HUGO_VERSION: "0.139.0"
+  OXIGRAPH_URL: http://localhost:7878
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: ${{ env.HUGO_VERSION }}
+          extended: true
+
+      - name: Build Hugo site
+        working-directory: ./hugo
+        run: hugo --minify
+
+      - name: Upload Hugo artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: hugo-public
+          path: hugo/public/
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download Hugo artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: hugo-public
+          path: hugo/public/
+
+      - name: Deploy with Docker Compose
+        run: |
+          docker compose up -d
+
+      - name: Wait for services
+        run: sleep 10
+
+      - name: Load RDF data into Oxigraph
+        run: |
+          for ttl_file in $(find hugo/public -name "*.ttl" -type f); do
+            echo "Loading: $ttl_file"
+            curl -s -X POST "$OXIGRAPH_URL/store" \
+              -H "Content-Type: text/turtle" \
+              --data-binary "@$ttl_file" || true
+          done
+
+      - name: Update OAI-PMH database
+        run: |
+          chmod +x scripts/update-oai-db.sh
+          ./scripts/update-oai-db.sh
+
+      - name: Verify services
+        run: |
+          echo "Checking Hugo site..."
+          curl -sf http://localhost:80/ > /dev/null && echo "OK" || echo "FAIL"
+          echo "Checking SPARQL endpoint..."
+          curl -sf http://localhost:7878/query?query=ASK%7B%3Fs%20%3Fp%20%3Fo%7D > /dev/null && echo "OK" || echo "FAIL"

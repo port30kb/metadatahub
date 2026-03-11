@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/"
+  },
+  "@id": "{{ .Permalink }}",
+  "@type": "dcat:Dataset",
+  "dcterms:title": {
+    "@value": "{{ .Title }}",
+    "@language": "en"
+  },
+  "dcterms:description": {
+    "@value": "{{ .Params.description }}",
+    "@language": "en"
+  }{{ with .Params.publisher }},
+  "dcterms:publisher": {
+    "@type": "foaf:Organization",
+    "foaf:name": "{{ . }}"
+  }{{ end }}{{ with .Params.license }},
+  "dcterms:license": {
+    "@id": "{{ . }}"
+  }{{ end }},
+  "dcterms:modified": {
+    "@value": "{{ .Date.Format "2006-01-02" }}",
+    "@type": "http://www.w3.org/2001/XMLSchema#date"
+  }
+}
