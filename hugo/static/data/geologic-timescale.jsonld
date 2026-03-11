@@ -1,0 +1,4765 @@
+{
+  "@context": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "time": "http://www.w3.org/2006/time#",
+    "gts": "http://resource.geosciml.org/ontology/timescale/gts#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://metadatahub.eu/data/geologic-timescale",
+  "@type": "skos:ConceptScheme",
+  "dcterms:title": "Geologic Time Scale",
+  "dcterms:description": "250 entries covering the geologic time scale from Hadean eon (4600 Ma) to Early Modern period, including archaeological/cultural ages.",
+  "dcterms:source": [
+    "https://en.wikipedia.org/wiki/Geologic_time_scale",
+    "https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf",
+    "https://en.wikipedia.org/wiki/Holocene",
+    "https://en.wikipedia.org/wiki/Pleistocene",
+    "https://en.wikipedia.org/wiki/Three-age_system",
+    "https://en.wikipedia.org/wiki/Scandinavian_prehistory",
+    "https://en.wikipedia.org/wiki/Viking_Age"
+  ],
+  "dcterms:license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "@graph": [
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/hadean",
+      "@type": "gts:GeochronologicEon",
+      "rdfs:label": {
+        "@value": "Hadean",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Earliest eon; Earth forms from accretion, heavy bombardment, formation of the Moon.",
+        "@language": "en"
+      },
+      "gts:rank": "Eon",
+      "time:hasBeginning": "4600 Ma",
+      "time:hasEnd": "4000 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/ginallian",
+      "@type": "gts:GeochronologicEra",
+      "rdfs:label": {
+        "@value": "Ginallian (informal)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Accretion and differentiation of Earth; formation of core and mantle from planetesimals.",
+        "@language": "en"
+      },
+      "gts:rank": "Era",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/hadean"
+      },
+      "time:hasBeginning": "4600 Ma",
+      "time:hasEnd": "4510 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/chaotian",
+      "@type": "gts:GeochronologicEra",
+      "rdfs:label": {
+        "@value": "Chaotian (informal)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Moon-forming giant impact (Theia hypothesis); surface entirely molten magma ocean.",
+        "@language": "en"
+      },
+      "gts:rank": "Era",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/hadean"
+      },
+      "time:hasBeginning": "4510 Ma",
+      "time:hasEnd": "4404 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/zirconian",
+      "@type": "gts:GeochronologicEra",
+      "rdfs:label": {
+        "@value": "Zirconian (informal)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Oldest known mineral grains (Jack Hills zircons, ~4.4 Ga); first solid crust forms; Late Heavy Bombardment.",
+        "@language": "en"
+      },
+      "gts:rank": "Era",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/hadean"
+      },
+      "time:hasBeginning": "4404 Ma",
+      "time:hasEnd": "4030 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/archean",
+      "@type": "gts:GeochronologicEon",
+      "rdfs:label": {
+        "@value": "Archean",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First stable continents form; earliest evidence of life (stromatolites).",
+        "@language": "en"
+      },
+      "gts:rank": "Eon",
+      "time:hasBeginning": "4000 Ma",
+      "time:hasEnd": "2500 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/proterozoic",
+      "@type": "gts:GeochronologicEon",
+      "rdfs:label": {
+        "@value": "Proterozoic",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Oxygen accumulates in atmosphere; first eukaryotes and multicellular life.",
+        "@language": "en"
+      },
+      "gts:rank": "Eon",
+      "time:hasBeginning": "2500 Ma",
+      "time:hasEnd": "538.8 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/phanerozoic",
+      "@type": "gts:GeochronologicEon",
+      "rdfs:label": {
+        "@value": "Phanerozoic",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Eon of visible life; all complex animal phyla appear and diversify.",
+        "@language": "en"
+      },
+      "gts:rank": "Eon",
+      "time:hasBeginning": "538.8 Ma",
+      "time:hasEnd": "Present",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/eoarchean",
+      "@type": "gts:GeochronologicEra",
+      "rdfs:label": {
+        "@value": "Eoarchean",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Oldest known rocks; possible earliest life.",
+        "@language": "en"
+      },
+      "gts:rank": "Era",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/archean"
+      },
+      "time:hasBeginning": "4000 Ma",
+      "time:hasEnd": "3600 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/paleoarchean",
+      "@type": "gts:GeochronologicEra",
+      "rdfs:label": {
+        "@value": "Paleoarchean",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Earliest confirmed microbial life; oldest stromatolites.",
+        "@language": "en"
+      },
+      "gts:rank": "Era",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/archean"
+      },
+      "time:hasBeginning": "3600 Ma",
+      "time:hasEnd": "3200 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/mesoarchean",
+      "@type": "gts:GeochronologicEra",
+      "rdfs:label": {
+        "@value": "Mesoarchean",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First large-scale stromatolite reefs; earliest photosynthesis evidence.",
+        "@language": "en"
+      },
+      "gts:rank": "Era",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/archean"
+      },
+      "time:hasBeginning": "3200 Ma",
+      "time:hasEnd": "2800 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/neoarchean",
+      "@type": "gts:GeochronologicEra",
+      "rdfs:label": {
+        "@value": "Neoarchean",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Oxygen-producing cyanobacteria proliferate; banded iron formations peak.",
+        "@language": "en"
+      },
+      "gts:rank": "Era",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/archean"
+      },
+      "time:hasBeginning": "2800 Ma",
+      "time:hasEnd": "2500 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/paleoproterozoic",
+      "@type": "gts:GeochronologicEra",
+      "rdfs:label": {
+        "@value": "Paleoproterozoic",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Great Oxidation Event; first supercontinent (Nuna/Columbia).",
+        "@language": "en"
+      },
+      "gts:rank": "Era",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/proterozoic"
+      },
+      "time:hasBeginning": "2500 Ma",
+      "time:hasEnd": "1600 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/siderian",
+      "@type": "gts:GeochronologicPeriod",
+      "rdfs:label": {
+        "@value": "Siderian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Banded iron formations dominate; oxygen levels still rising.",
+        "@language": "en"
+      },
+      "gts:rank": "Period",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/paleoproterozoic"
+      },
+      "time:hasBeginning": "2500 Ma",
+      "time:hasEnd": "2300 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/rhyacian",
+      "@type": "gts:GeochronologicPeriod",
+      "rdfs:label": {
+        "@value": "Rhyacian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Huronian glaciation; first global ice age.",
+        "@language": "en"
+      },
+      "gts:rank": "Period",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/paleoproterozoic"
+      },
+      "time:hasBeginning": "2300 Ma",
+      "time:hasEnd": "2050 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/orosirian",
+      "@type": "gts:GeochronologicPeriod",
+      "rdfs:label": {
+        "@value": "Orosirian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Major mountain-building events; Vredefort and Sudbury impacts.",
+        "@language": "en"
+      },
+      "gts:rank": "Period",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/paleoproterozoic"
+      },
+      "time:hasBeginning": "2050 Ma",
+      "time:hasEnd": "1800 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/statherian",
+      "@type": "gts:GeochronologicPeriod",
+      "rdfs:label": {
+        "@value": "Statherian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First complex single-celled organisms with nuclei.",
+        "@language": "en"
+      },
+      "gts:rank": "Period",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/paleoproterozoic"
+      },
+      "time:hasBeginning": "1800 Ma",
+      "time:hasEnd": "1600 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/mesoproterozoic",
+      "@type": "gts:GeochronologicEra",
+      "rdfs:label": {
+        "@value": "Mesoproterozoic",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Supercontinent Rodinia assembles; first sexual reproduction evidence.",
+        "@language": "en"
+      },
+      "gts:rank": "Era",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/proterozoic"
+      },
+      "time:hasBeginning": "1600 Ma",
+      "time:hasEnd": "1000 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/calymmian",
+      "@type": "gts:GeochronologicPeriod",
+      "rdfs:label": {
+        "@value": "Calymmian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Platform covers expand; stable continental interiors.",
+        "@language": "en"
+      },
+      "gts:rank": "Period",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mesoproterozoic"
+      },
+      "time:hasBeginning": "1600 Ma",
+      "time:hasEnd": "1400 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/ectasian",
+      "@type": "gts:GeochronologicPeriod",
+      "rdfs:label": {
+        "@value": "Ectasian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Continued platform expansion; green algae diversify.",
+        "@language": "en"
+      },
+      "gts:rank": "Period",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mesoproterozoic"
+      },
+      "time:hasBeginning": "1400 Ma",
+      "time:hasEnd": "1200 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/stenian",
+      "@type": "gts:GeochronologicPeriod",
+      "rdfs:label": {
+        "@value": "Stenian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Grenville orogeny; supercontinent Rodinia forms.",
+        "@language": "en"
+      },
+      "gts:rank": "Period",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mesoproterozoic"
+      },
+      "time:hasBeginning": "1200 Ma",
+      "time:hasEnd": "1000 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/neoproterozoic",
+      "@type": "gts:GeochronologicEra",
+      "rdfs:label": {
+        "@value": "Neoproterozoic",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Snowball Earth glaciations; first animals appear (Ediacaran biota).",
+        "@language": "en"
+      },
+      "gts:rank": "Era",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/proterozoic"
+      },
+      "time:hasBeginning": "1000 Ma",
+      "time:hasEnd": "538.8 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/tonian",
+      "@type": "gts:GeochronologicPeriod",
+      "rdfs:label": {
+        "@value": "Tonian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Rodinia begins to break apart; first multicellular organisms.",
+        "@language": "en"
+      },
+      "gts:rank": "Period",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/neoproterozoic"
+      },
+      "time:hasBeginning": "1000 Ma",
+      "time:hasEnd": "720 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/cryogenian",
+      "@type": "gts:GeochronologicPeriod",
+      "rdfs:label": {
+        "@value": "Cryogenian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Snowball Earth glaciations: Sturtian and Marinoan; life survives in refugia.",
+        "@language": "en"
+      },
+      "gts:rank": "Period",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/neoproterozoic"
+      },
+      "time:hasBeginning": "720 Ma",
+      "time:hasEnd": "635 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/sturtian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Sturtian Glaciation",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First and longer Snowball Earth event; global ice cover for ~57 million years.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/cryogenian"
+      },
+      "time:hasBeginning": "717 Ma",
+      "time:hasEnd": "660 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/marinoan",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Marinoan Glaciation",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Second Snowball Earth; cap carbonates deposited after deglaciation.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/cryogenian"
+      },
+      "time:hasBeginning": "650 Ma",
+      "time:hasEnd": "635 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/ediacaran",
+      "@type": "gts:GeochronologicPeriod",
+      "rdfs:label": {
+        "@value": "Ediacaran",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Ediacaran biota: first large complex organisms; soft-bodied fauna.",
+        "@language": "en"
+      },
+      "gts:rank": "Period",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/neoproterozoic"
+      },
+      "time:hasBeginning": "635 Ma",
+      "time:hasEnd": "538.8 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/paleozoic",
+      "@type": "gts:GeochronologicEra",
+      "rdfs:label": {
+        "@value": "Paleozoic",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Era of ancient life; Cambrian explosion, first fish, amphibians, reptiles, forests.",
+        "@language": "en"
+      },
+      "gts:rank": "Era",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/phanerozoic"
+      },
+      "time:hasBeginning": "538.8 Ma",
+      "time:hasEnd": "251.9 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/cambrian",
+      "@type": "gts:GeochronologicPeriod",
+      "rdfs:label": {
+        "@value": "Cambrian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Cambrian explosion: most major animal phyla appear rapidly in the fossil record.",
+        "@language": "en"
+      },
+      "gts:rank": "Period",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/paleozoic"
+      },
+      "time:hasBeginning": "538.8 Ma",
+      "time:hasEnd": "485.4 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/terreneuvian",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Terreneuvian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Earliest Cambrian epoch; small shelly fossils appear.",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/cambrian"
+      },
+      "time:hasBeginning": "538.8 Ma",
+      "time:hasEnd": "521 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/fortunian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Fortunian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Earliest Cambrian age; first trace fossils of bilaterian animals.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/terreneuvian"
+      },
+      "time:hasBeginning": "538.8 Ma",
+      "time:hasEnd": "529 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/stage2-cambrian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Cambrian Stage 2",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Small shelly fauna diversify; archaeocyathids appear.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/terreneuvian"
+      },
+      "time:hasBeginning": "529 Ma",
+      "time:hasEnd": "521 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/epoch2-cambrian",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Cambrian Series 2",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Trilobites diversify; archaeocyathid reefs.",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/cambrian"
+      },
+      "time:hasBeginning": "521 Ma",
+      "time:hasEnd": "509 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/stage3-cambrian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Cambrian Stage 3",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First trilobites appear; Cambrian explosion accelerates.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/epoch2-cambrian"
+      },
+      "time:hasBeginning": "521 Ma",
+      "time:hasEnd": "514 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/stage4-cambrian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Cambrian Stage 4",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Archaeocyathid reef-builders peak then decline.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/epoch2-cambrian"
+      },
+      "time:hasBeginning": "514 Ma",
+      "time:hasEnd": "509 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/miaolingian",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Miaolingian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Peak trilobite diversity; Burgess Shale-type faunas.",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/cambrian"
+      },
+      "time:hasBeginning": "509 Ma",
+      "time:hasEnd": "497 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/wuliuan",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Wuliuan",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Burgess Shale fauna; diverse arthropods and anomalocaridids.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/miaolingian"
+      },
+      "time:hasBeginning": "509 Ma",
+      "time:hasEnd": "504.5 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/drumian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Drumian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Agnostid trilobites flourish; deep-water faunas diversify.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/miaolingian"
+      },
+      "time:hasBeginning": "504.5 Ma",
+      "time:hasEnd": "500.5 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/guzhangian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Guzhangian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Trilobite turnover; transition toward Furongian faunas.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/miaolingian"
+      },
+      "time:hasBeginning": "500.5 Ma",
+      "time:hasEnd": "497 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/furongian",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Furongian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Trilobite extinctions; first cephalopods appear.",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/cambrian"
+      },
+      "time:hasBeginning": "497 Ma",
+      "time:hasEnd": "485.4 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/paibian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Paibian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "SPICE carbon isotope excursion; trilobite extinction pulse.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/furongian"
+      },
+      "time:hasBeginning": "497 Ma",
+      "time:hasEnd": "494 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/jiangshanian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Jiangshanian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Trilobite recovery; earliest cephalopods diversify.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/furongian"
+      },
+      "time:hasBeginning": "494 Ma",
+      "time:hasEnd": "489.5 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/stage10-cambrian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Cambrian Stage 10",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Final Cambrian stage; transition to Ordovician biodiversification.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/furongian"
+      },
+      "time:hasBeginning": "489.5 Ma",
+      "time:hasEnd": "485.4 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/ordovician",
+      "@type": "gts:GeochronologicPeriod",
+      "rdfs:label": {
+        "@value": "Ordovician",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Great Ordovician Biodiversification Event; first land plants; ends with mass extinction.",
+        "@language": "en"
+      },
+      "gts:rank": "Period",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/paleozoic"
+      },
+      "time:hasBeginning": "485.4 Ma",
+      "time:hasEnd": "443.8 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/early-ordovician",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Early Ordovician",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Biodiversification begins; graptolites and brachiopods flourish.",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/ordovician"
+      },
+      "time:hasBeginning": "485.4 Ma",
+      "time:hasEnd": "470 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/tremadocian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Tremadocian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Conodonts and graptolites diversify; first planktonic ecosystems.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/early-ordovician"
+      },
+      "time:hasBeginning": "485.4 Ma",
+      "time:hasEnd": "477.7 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/floian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Floian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First bryozoans; corals begin to diversify.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/early-ordovician"
+      },
+      "time:hasBeginning": "477.7 Ma",
+      "time:hasEnd": "470 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/middle-ordovician",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Middle Ordovician",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Great Ordovician Biodiversification Event peaks.",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/ordovician"
+      },
+      "time:hasBeginning": "470 Ma",
+      "time:hasEnd": "458.4 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/dapingian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Dapingian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "GOBE intensifies; cephalopods diversify as top marine predators.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/middle-ordovician"
+      },
+      "time:hasBeginning": "470 Ma",
+      "time:hasEnd": "467.3 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/darriwilian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Darriwilian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Peak of Great Ordovician Biodiversification; stromatoporoid reefs.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/middle-ordovician"
+      },
+      "time:hasBeginning": "467.3 Ma",
+      "time:hasEnd": "458.4 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/late-ordovician",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Late Ordovician",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "End-Ordovician glaciation and mass extinction; ~85% of marine species lost.",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/ordovician"
+      },
+      "time:hasBeginning": "458.4 Ma",
+      "time:hasEnd": "443.8 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/sandbian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Sandbian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Taconic orogeny; diverse brachiopod communities.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/late-ordovician"
+      },
+      "time:hasBeginning": "458.4 Ma",
+      "time:hasEnd": "453 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/katian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Katian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Peak marine diversity; Gondwanan glaciation begins.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/late-ordovician"
+      },
+      "time:hasBeginning": "453 Ma",
+      "time:hasEnd": "445.2 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/hirnantian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Hirnantian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "End-Ordovician mass extinction; rapid glaciation and sea level drop.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/late-ordovician"
+      },
+      "time:hasBeginning": "445.2 Ma",
+      "time:hasEnd": "443.8 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/silurian",
+      "@type": "gts:GeochronologicPeriod",
+      "rdfs:label": {
+        "@value": "Silurian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Recovery from extinction; first vascular land plants; jawed fish appear.",
+        "@language": "en"
+      },
+      "gts:rank": "Period",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/paleozoic"
+      },
+      "time:hasBeginning": "443.8 Ma",
+      "time:hasEnd": "419.2 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/llandovery",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Llandovery",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Post-extinction recovery; graptolite diversification.",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/silurian"
+      },
+      "time:hasBeginning": "443.8 Ma",
+      "time:hasEnd": "433.4 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/rhuddanian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Rhuddanian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Earliest Silurian; rapid recovery of graptolite faunas.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/llandovery"
+      },
+      "time:hasBeginning": "443.8 Ma",
+      "time:hasEnd": "440.8 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/aeronian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Aeronian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Continued recovery; first land plant spores.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/llandovery"
+      },
+      "time:hasBeginning": "440.8 Ma",
+      "time:hasEnd": "438.5 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/telychian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Telychian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Graptolite diversity peak; first vascular plant fossils.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/llandovery"
+      },
+      "time:hasBeginning": "438.5 Ma",
+      "time:hasEnd": "433.4 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/wenlock",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Wenlock",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First land plants with vascular tissue; coral reef expansion.",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/silurian"
+      },
+      "time:hasBeginning": "433.4 Ma",
+      "time:hasEnd": "427.4 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/sheinwoodian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Sheinwoodian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Ireviken extinction event; reef ecosystems expand.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/wenlock"
+      },
+      "time:hasBeginning": "433.4 Ma",
+      "time:hasEnd": "430.5 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/homerian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Homerian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Mulde extinction event; eurypterids (sea scorpions) diversify.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/wenlock"
+      },
+      "time:hasBeginning": "430.5 Ma",
+      "time:hasEnd": "427.4 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/ludlow",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Ludlow",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First terrestrial arachnids; brachiopod diversity peak.",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/silurian"
+      },
+      "time:hasBeginning": "427.4 Ma",
+      "time:hasEnd": "423 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/gorstian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Gorstian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Lau extinction event; graptolite fauna turnover.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/ludlow"
+      },
+      "time:hasBeginning": "427.4 Ma",
+      "time:hasEnd": "425.6 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/ludfordian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Ludfordian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First terrestrial arthropod traces; jawed fish diversify.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/ludlow"
+      },
+      "time:hasBeginning": "425.6 Ma",
+      "time:hasEnd": "423 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/pridoli",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Přídolí",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First jawed fish diversify; transition toward Devonian.",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/silurian"
+      },
+      "time:hasBeginning": "423 Ma",
+      "time:hasEnd": "419.2 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/devonian",
+      "@type": "gts:GeochronologicPeriod",
+      "rdfs:label": {
+        "@value": "Devonian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Age of Fishes; first forests, first insects, first amphibians.",
+        "@language": "en"
+      },
+      "gts:rank": "Period",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/paleozoic"
+      },
+      "time:hasBeginning": "419.2 Ma",
+      "time:hasEnd": "358.9 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/klonk-event",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Klonk Event (Silurian–Devonian boundary)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "GSSP at Klonk, Czech Republic; defined by first appearance of graptolite Monograptus uniformis.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/pridoli"
+      },
+      "time:hasBeginning": "419.2 Ma",
+      "time:hasEnd": "419 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/early-devonian",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Early Devonian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First seed plants; armored fish diversify.",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/devonian"
+      },
+      "time:hasBeginning": "419.2 Ma",
+      "time:hasEnd": "393.3 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/lochkovian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Lochkovian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Earliest Devonian; jawed fish radiation continues.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/early-devonian"
+      },
+      "time:hasBeginning": "419.2 Ma",
+      "time:hasEnd": "410.8 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/pragian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Pragian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First true leaves (lycopsids); early vascular plants spread onto land.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/early-devonian"
+      },
+      "time:hasBeginning": "410.8 Ma",
+      "time:hasEnd": "407.6 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/emsian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Emsian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First insects; ammonoids appear; widespread reef systems.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/early-devonian"
+      },
+      "time:hasBeginning": "407.6 Ma",
+      "time:hasEnd": "393.3 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/middle-devonian",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Middle Devonian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First forests appear; ammonoids originate.",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/devonian"
+      },
+      "time:hasBeginning": "393.3 Ma",
+      "time:hasEnd": "382.7 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/eifelian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Eifelian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Stromatoporoid-coral reefs peak; first seed ferns.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/middle-devonian"
+      },
+      "time:hasBeginning": "393.3 Ma",
+      "time:hasEnd": "387.7 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/givetian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Givetian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First forests (Archaeopteris); placoderms diversify.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/middle-devonian"
+      },
+      "time:hasBeginning": "387.7 Ma",
+      "time:hasEnd": "382.7 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/late-devonian",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Late Devonian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First tetrapods; Late Devonian extinction event (~75% of species).",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/devonian"
+      },
+      "time:hasBeginning": "382.7 Ma",
+      "time:hasEnd": "358.9 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/frasnian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Frasnian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Massive reef systems; Frasnian-Famennian extinction (Kellwasser Event).",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/late-devonian"
+      },
+      "time:hasBeginning": "382.7 Ma",
+      "time:hasEnd": "372.2 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/famennian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Famennian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Post-extinction recovery; first tetrapod trackways; Hangenberg Event at end.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/late-devonian"
+      },
+      "time:hasBeginning": "372.2 Ma",
+      "time:hasEnd": "358.9 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/carboniferous",
+      "@type": "gts:GeochronologicPeriod",
+      "rdfs:label": {
+        "@value": "Carboniferous",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Vast coal swamp forests; first reptiles; high atmospheric oxygen.",
+        "@language": "en"
+      },
+      "gts:rank": "Period",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/paleozoic"
+      },
+      "time:hasBeginning": "358.9 Ma",
+      "time:hasEnd": "298.9 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/mississippian",
+      "@type": "gts:GeochronologicPeriod",
+      "rdfs:label": {
+        "@value": "Mississippian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Early Carboniferous; large crinoid and coral reefs; amphibians diversify.",
+        "@language": "en"
+      },
+      "gts:rank": "SubPeriod",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/carboniferous"
+      },
+      "time:hasBeginning": "358.9 Ma",
+      "time:hasEnd": "323.2 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/early-mississippian",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Early Mississippian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Tournaisian age; recovery after Devonian extinction.",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mississippian"
+      },
+      "time:hasBeginning": "358.9 Ma",
+      "time:hasEnd": "346.7 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/tournaisian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Tournaisian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Post-Devonian recovery; crinoid meadows; early tetrapod diversification (Romer's Gap).",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/early-mississippian"
+      },
+      "time:hasBeginning": "358.9 Ma",
+      "time:hasEnd": "346.7 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/middle-mississippian",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Middle Mississippian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Viséan age; widespread limestone deposition; large coral reefs.",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mississippian"
+      },
+      "time:hasBeginning": "346.7 Ma",
+      "time:hasEnd": "330.9 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/visean",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Viséan",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Extensive carbonate platforms; first large tetrapods; coal forests begin.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/middle-mississippian"
+      },
+      "time:hasBeginning": "346.7 Ma",
+      "time:hasEnd": "330.9 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/late-mississippian",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Late Mississippian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Serpukhovian age; glaciation begins in Gondwana.",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mississippian"
+      },
+      "time:hasBeginning": "330.9 Ma",
+      "time:hasEnd": "323.2 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/serpukhovian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Serpukhovian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Late Mississippian ice ages; sea level drops; first winged insects.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/late-mississippian"
+      },
+      "time:hasBeginning": "330.9 Ma",
+      "time:hasEnd": "323.2 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/pennsylvanian",
+      "@type": "gts:GeochronologicPeriod",
+      "rdfs:label": {
+        "@value": "Pennsylvanian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Late Carboniferous; coal swamps peak; first reptiles appear.",
+        "@language": "en"
+      },
+      "gts:rank": "SubPeriod",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/carboniferous"
+      },
+      "time:hasBeginning": "323.2 Ma",
+      "time:hasEnd": "298.9 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/early-pennsylvanian",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Early Pennsylvanian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Bashkirian age; Pangaea begins to assemble.",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/pennsylvanian"
+      },
+      "time:hasBeginning": "323.2 Ma",
+      "time:hasEnd": "315.2 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/bashkirian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Bashkirian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First large coal swamps; Pangaea assembly accelerates; early reptile diversification.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/early-pennsylvanian"
+      },
+      "time:hasBeginning": "323.2 Ma",
+      "time:hasEnd": "315.2 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/middle-pennsylvanian",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Middle Pennsylvanian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Moscovian age; giant insects thrive in high-oxygen atmosphere.",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/pennsylvanian"
+      },
+      "time:hasBeginning": "315.2 Ma",
+      "time:hasEnd": "307 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/moscovian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Moscovian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Giant dragonflies (Meganeura); atmospheric oxygen ~35%; vast coal swamp forests.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/middle-pennsylvanian"
+      },
+      "time:hasBeginning": "315.2 Ma",
+      "time:hasEnd": "307 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/late-pennsylvanian",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Late Pennsylvanian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Kasimovian–Gzhelian; earliest amniotes diversify; coal swamps decline.",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/pennsylvanian"
+      },
+      "time:hasBeginning": "307 Ma",
+      "time:hasEnd": "298.9 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/kasimovian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Kasimovian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Amniote reptiles diversify; first diapsids appear.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/late-pennsylvanian"
+      },
+      "time:hasBeginning": "307 Ma",
+      "time:hasEnd": "303.7 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/gzhelian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Gzhelian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Coal swamps retreat as climate dries; Pangaea nearly complete.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/late-pennsylvanian"
+      },
+      "time:hasBeginning": "303.7 Ma",
+      "time:hasEnd": "298.9 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/permian",
+      "@type": "gts:GeochronologicPeriod",
+      "rdfs:label": {
+        "@value": "Permian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Pangaea complete; therapsids (mammal ancestors) dominate; ends with the Great Dying.",
+        "@language": "en"
+      },
+      "gts:rank": "Period",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/paleozoic"
+      },
+      "time:hasBeginning": "298.9 Ma",
+      "time:hasEnd": "251.9 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/cisuralian",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Cisuralian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Early Permian; diverse amphibian and reptile faunas.",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/permian"
+      },
+      "time:hasBeginning": "298.9 Ma",
+      "time:hasEnd": "272.95 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/asselian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Asselian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Earliest Permian; glaciation continues in Gondwana.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/cisuralian"
+      },
+      "time:hasBeginning": "298.9 Ma",
+      "time:hasEnd": "293.52 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/sakmarian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Sakmarian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Pelycosaurs (sail-backed reptiles) diversify, including Dimetrodon.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/cisuralian"
+      },
+      "time:hasBeginning": "293.52 Ma",
+      "time:hasEnd": "290.1 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/artinskian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Artinskian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Gondwanan glaciation wanes; conifers spread.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/cisuralian"
+      },
+      "time:hasBeginning": "290.1 Ma",
+      "time:hasEnd": "283.5 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/kungurian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Kungurian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Evaporite deposits; therapsids begin to appear.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/cisuralian"
+      },
+      "time:hasBeginning": "283.5 Ma",
+      "time:hasEnd": "272.95 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/guadalupian",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Guadalupian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Middle Permian; therapsids rise to dominance; Capitanian extinction event.",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/permian"
+      },
+      "time:hasBeginning": "272.95 Ma",
+      "time:hasEnd": "259.51 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/roadian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Roadian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Therapsids diversify; dinocephalians dominate.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/guadalupian"
+      },
+      "time:hasBeginning": "272.95 Ma",
+      "time:hasEnd": "268.8 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/wordian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Wordian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Reef ecosystems flourish; diverse fusulinid foraminifera.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/guadalupian"
+      },
+      "time:hasBeginning": "268.8 Ma",
+      "time:hasEnd": "265.1 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/capitanian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Capitanian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Capitanian mass extinction: major reef collapse and biodiversity loss.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/guadalupian"
+      },
+      "time:hasBeginning": "265.1 Ma",
+      "time:hasEnd": "259.51 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/lopingian",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Lopingian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Late Permian; Permian–Triassic extinction: ~96% of marine species lost.",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/permian"
+      },
+      "time:hasBeginning": "259.51 Ma",
+      "time:hasEnd": "251.9 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/wuchiapingian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Wuchiapingian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Post-Capitanian recovery; Dicynodonts become dominant herbivores.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/lopingian"
+      },
+      "time:hasBeginning": "259.51 Ma",
+      "time:hasEnd": "254.14 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/changhsingian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Changhsingian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "The Great Dying: Siberian Traps volcanism triggers worst mass extinction in Earth history.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/lopingian"
+      },
+      "time:hasBeginning": "254.14 Ma",
+      "time:hasEnd": "251.9 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/mesozoic",
+      "@type": "gts:GeochronologicEra",
+      "rdfs:label": {
+        "@value": "Mesozoic",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Age of Reptiles; dinosaurs, first mammals, first birds, first flowering plants.",
+        "@language": "en"
+      },
+      "gts:rank": "Era",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/phanerozoic"
+      },
+      "time:hasBeginning": "251.9 Ma",
+      "time:hasEnd": "66 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/triassic",
+      "@type": "gts:GeochronologicPeriod",
+      "rdfs:label": {
+        "@value": "Triassic",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Recovery from Permian extinction; first dinosaurs, first mammals, first pterosaurs.",
+        "@language": "en"
+      },
+      "gts:rank": "Period",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mesozoic"
+      },
+      "time:hasBeginning": "251.9 Ma",
+      "time:hasEnd": "201.4 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/early-triassic",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Early Triassic",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Slow recovery from extinction; Lystrosaurus dominates terrestrial fauna.",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/triassic"
+      },
+      "time:hasBeginning": "251.9 Ma",
+      "time:hasEnd": "247.2 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/induan",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Induan",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Earliest Triassic stage; extremely low biodiversity, harsh conditions.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/early-triassic"
+      },
+      "time:hasBeginning": "251.9 Ma",
+      "time:hasEnd": "251.2 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/olenekian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Olenekian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Marine ecosystems begin recovery; first ichthyosaurs appear.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/early-triassic"
+      },
+      "time:hasBeginning": "251.2 Ma",
+      "time:hasEnd": "247.2 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/middle-triassic",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Middle Triassic",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Archosaurs diversify; first dinosauromorphs.",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/triassic"
+      },
+      "time:hasBeginning": "247.2 Ma",
+      "time:hasEnd": "237 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/anisian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Anisian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Marine reptiles diversify; coral reefs re-establish.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/middle-triassic"
+      },
+      "time:hasBeginning": "247.2 Ma",
+      "time:hasEnd": "242 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/ladinian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Ladinian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First dinosauriform tracks; seed ferns and conifers dominate.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/middle-triassic"
+      },
+      "time:hasBeginning": "242 Ma",
+      "time:hasEnd": "237 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/late-triassic",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Late Triassic",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First true dinosaurs, mammals, and pterosaurs; Triassic–Jurassic extinction at end.",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/triassic"
+      },
+      "time:hasBeginning": "237 Ma",
+      "time:hasEnd": "201.4 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/carnian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Carnian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Carnian Pluvial Episode: major climate shift; first dinosaurs appear.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/late-triassic"
+      },
+      "time:hasBeginning": "237 Ma",
+      "time:hasEnd": "227 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/norian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Norian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Dinosaurs diversify; first turtles and crocodylomorphs.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/late-triassic"
+      },
+      "time:hasBeginning": "227 Ma",
+      "time:hasEnd": "208.5 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/rhaetian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Rhaetian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "End-Triassic extinction opens ecological niches for dinosaurs.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/late-triassic"
+      },
+      "time:hasBeginning": "208.5 Ma",
+      "time:hasEnd": "201.4 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/jurassic",
+      "@type": "gts:GeochronologicPeriod",
+      "rdfs:label": {
+        "@value": "Jurassic",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Dinosaurs dominate; first birds (Archaeopteryx); Pangaea breaks apart.",
+        "@language": "en"
+      },
+      "gts:rank": "Period",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mesozoic"
+      },
+      "time:hasBeginning": "201.4 Ma",
+      "time:hasEnd": "143.1 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/early-jurassic",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Early Jurassic",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Dinosaurs diversify into dominant land animals; large marine reptiles.",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/jurassic"
+      },
+      "time:hasBeginning": "201.4 Ma",
+      "time:hasEnd": "174.1 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/hettangian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Hettangian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Post-extinction recovery; early dinosaur radiation.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/early-jurassic"
+      },
+      "time:hasBeginning": "201.4 Ma",
+      "time:hasEnd": "199.5 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/sinemurian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Sinemurian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Early large sauropodomorphs; ammonite diversity increases.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/early-jurassic"
+      },
+      "time:hasBeginning": "199.5 Ma",
+      "time:hasEnd": "192.9 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/pliensbachian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Pliensbachian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Warm climates; diverse marine ecosystems, ichthyosaurs abundant.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/early-jurassic"
+      },
+      "time:hasBeginning": "192.9 Ma",
+      "time:hasEnd": "184.2 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/toarcian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Toarcian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Toarcian Oceanic Anoxic Event; some marine extinctions.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/early-jurassic"
+      },
+      "time:hasBeginning": "184.2 Ma",
+      "time:hasEnd": "174.1 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/middle-jurassic",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Middle Jurassic",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Sauropods and theropods diversify; earliest flowering plant evidence.",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/jurassic"
+      },
+      "time:hasBeginning": "174.1 Ma",
+      "time:hasEnd": "163.5 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/aalenian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Aalenian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Pangaea continues to rift; ammonites flourish.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/middle-jurassic"
+      },
+      "time:hasBeginning": "174.1 Ma",
+      "time:hasEnd": "170.9 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/bajocian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Bajocian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Diverse coral reefs; stegosaurs appear.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/middle-jurassic"
+      },
+      "time:hasBeginning": "170.9 Ma",
+      "time:hasEnd": "168.2 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/bathonian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Bathonian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First definitive mammals diversify; microcontinent formation.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/middle-jurassic"
+      },
+      "time:hasBeginning": "168.2 Ma",
+      "time:hasEnd": "165.3 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/callovian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Callovian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Marine transgression; ammonite diversity peak in Jurassic.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/middle-jurassic"
+      },
+      "time:hasBeginning": "165.3 Ma",
+      "time:hasEnd": "163.5 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/late-jurassic",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Late Jurassic",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Giant sauropods; Archaeopteryx; Morrison Formation dinosaurs.",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/jurassic"
+      },
+      "time:hasBeginning": "163.5 Ma",
+      "time:hasEnd": "143.1 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/oxfordian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Oxfordian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Widespread coral reefs; large theropods like Allosaurus.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/late-jurassic"
+      },
+      "time:hasBeginning": "163.5 Ma",
+      "time:hasEnd": "157.3 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/kimmeridgian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Kimmeridgian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Rich marine ecosystems; source rocks for North Sea oil form.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/late-jurassic"
+      },
+      "time:hasBeginning": "157.3 Ma",
+      "time:hasEnd": "152.1 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/tithonian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Tithonian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Archaeopteryx; Solnhofen limestone; transition to Cretaceous.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/late-jurassic"
+      },
+      "time:hasBeginning": "152.1 Ma",
+      "time:hasEnd": "143.1 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/cretaceous",
+      "@type": "gts:GeochronologicPeriod",
+      "rdfs:label": {
+        "@value": "Cretaceous",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Longest Mesozoic period; flowering plants rise; ends with asteroid impact (K-Pg).",
+        "@language": "en"
+      },
+      "gts:rank": "Period",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mesozoic"
+      },
+      "time:hasBeginning": "143.1 Ma",
+      "time:hasEnd": "66 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/early-cretaceous",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Early Cretaceous",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Flowering plants diversify; feathered dinosaurs; continental drift accelerates.",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/cretaceous"
+      },
+      "time:hasBeginning": "143.1 Ma",
+      "time:hasEnd": "100.5 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/berriasian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Berriasian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Earliest Cretaceous; GSSP boundary still under discussion.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/early-cretaceous"
+      },
+      "time:hasBeginning": "143.1 Ma",
+      "time:hasEnd": "139.8 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/valanginian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Valanginian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Weald clay environments; early angiosperms in fossil record.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/early-cretaceous"
+      },
+      "time:hasBeginning": "139.8 Ma",
+      "time:hasEnd": "132.6 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/hauterivian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Hauterivian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Iguanodon and early ornithopod diversity; warm global climate.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/early-cretaceous"
+      },
+      "time:hasBeginning": "132.6 Ma",
+      "time:hasEnd": "125.77 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/barremian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Barremian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Las Hoyas and Jehol Biota; feathered theropods preserved.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/early-cretaceous"
+      },
+      "time:hasBeginning": "125.77 Ma",
+      "time:hasEnd": "121.4 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/aptian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Aptian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Oceanic Anoxic Event 1a; first diverse angiosperm floras.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/early-cretaceous"
+      },
+      "time:hasBeginning": "121.4 Ma",
+      "time:hasEnd": "113.2 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/albian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Albian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "High sea levels; diverse ammonites; early social insects.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/early-cretaceous"
+      },
+      "time:hasBeginning": "113.2 Ma",
+      "time:hasEnd": "100.5 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/late-cretaceous",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Late Cretaceous",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Tyrannosaurus, Triceratops; angiosperms dominant; K-Pg extinction.",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/cretaceous"
+      },
+      "time:hasBeginning": "100.5 Ma",
+      "time:hasEnd": "66 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/cenomanian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Cenomanian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Highest sea levels in Cretaceous; OAE 2 at boundary.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/late-cretaceous"
+      },
+      "time:hasBeginning": "100.5 Ma",
+      "time:hasEnd": "93.9 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/turonian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Turonian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Warmest period of Cretaceous; diverse reef ecosystems.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/late-cretaceous"
+      },
+      "time:hasBeginning": "93.9 Ma",
+      "time:hasEnd": "89.4 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/coniacian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Coniacian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Continued warm climates; hadrosaur diversification begins.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/late-cretaceous"
+      },
+      "time:hasBeginning": "89.4 Ma",
+      "time:hasEnd": "86.3 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/santonian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Santonian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Ceratopsian dinosaurs diversify; early modern bird lineages.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/late-cretaceous"
+      },
+      "time:hasBeginning": "86.3 Ma",
+      "time:hasEnd": "83.6 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/campanian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Campanian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Rich dinosaur faunas worldwide; chalk deposits form.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/late-cretaceous"
+      },
+      "time:hasBeginning": "83.6 Ma",
+      "time:hasEnd": "72.2 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/maastrichtian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Maastrichtian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Final stage; Chicxulub impact ends Mesozoic; ~76% of species extinct.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/late-cretaceous"
+      },
+      "time:hasBeginning": "72.2 Ma",
+      "time:hasEnd": "66 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/cenozoic",
+      "@type": "gts:GeochronologicEra",
+      "rdfs:label": {
+        "@value": "Cenozoic",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Age of Mammals; grasslands, primates, hominins; current era.",
+        "@language": "en"
+      },
+      "gts:rank": "Era",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/phanerozoic"
+      },
+      "time:hasBeginning": "66 Ma",
+      "time:hasEnd": "Present",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/paleogene",
+      "@type": "gts:GeochronologicPeriod",
+      "rdfs:label": {
+        "@value": "Paleogene",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Mammals diversify rapidly after K-Pg extinction; first primates.",
+        "@language": "en"
+      },
+      "gts:rank": "Period",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/cenozoic"
+      },
+      "time:hasBeginning": "66 Ma",
+      "time:hasEnd": "23.03 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/paleocene",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Paleocene",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Post-extinction recovery; mammals remain small but diversify.",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/paleogene"
+      },
+      "time:hasBeginning": "66 Ma",
+      "time:hasEnd": "56 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/danian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Danian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Earliest Cenozoic stage; mammals fill vacant ecological niches.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/paleocene"
+      },
+      "time:hasBeginning": "66 Ma",
+      "time:hasEnd": "61.6 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/selandian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Selandian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Warm climates; early primate evolution.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/paleocene"
+      },
+      "time:hasBeginning": "61.6 Ma",
+      "time:hasEnd": "59.2 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/thanetian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Thanetian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Warming trend; diverse mammal faunas; London Clay formation.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/paleocene"
+      },
+      "time:hasBeginning": "59.2 Ma",
+      "time:hasEnd": "56 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/eocene",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Eocene",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Warmest Cenozoic epoch; first modern mammal orders; early whales, horses, bats.",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/paleogene"
+      },
+      "time:hasBeginning": "56 Ma",
+      "time:hasEnd": "33.9 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/ypresian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Ypresian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Paleocene-Eocene Thermal Maximum (PETM); warmest global temperatures.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/eocene"
+      },
+      "time:hasBeginning": "56 Ma",
+      "time:hasEnd": "47.8 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/lutetian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Lutetian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Diversification of modern mammal families; early elephants.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/eocene"
+      },
+      "time:hasBeginning": "47.8 Ma",
+      "time:hasEnd": "41.2 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/bartonian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Bartonian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Gradual cooling begins; Antarctic ice sheet starts forming.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/eocene"
+      },
+      "time:hasBeginning": "41.2 Ma",
+      "time:hasEnd": "37.71 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/priabonian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Priabonian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Grande Coupure extinction event in Europe; dramatic cooling.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/eocene"
+      },
+      "time:hasBeginning": "37.71 Ma",
+      "time:hasEnd": "33.9 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/oligocene",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Oligocene",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Cooler and drier; grasslands expand; modern mammal families establish.",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/paleogene"
+      },
+      "time:hasBeginning": "33.9 Ma",
+      "time:hasEnd": "23.03 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/rupelian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Rupelian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Antarctic ice sheet permanent; global cooling continues.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/oligocene"
+      },
+      "time:hasBeginning": "33.9 Ma",
+      "time:hasEnd": "27.82 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/chattian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Chattian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Late Oligocene warming; first deer and pigs appear.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/oligocene"
+      },
+      "time:hasBeginning": "27.82 Ma",
+      "time:hasEnd": "23.03 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/neogene",
+      "@type": "gts:GeochronologicPeriod",
+      "rdfs:label": {
+        "@value": "Neogene",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Grasslands dominate; great apes evolve; Isthmus of Panama forms.",
+        "@language": "en"
+      },
+      "gts:rank": "Period",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/cenozoic"
+      },
+      "time:hasBeginning": "23.03 Ma",
+      "time:hasEnd": "2.58 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/miocene",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Miocene",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Kelp forests, grasslands; diverse apes; Messinian salinity crisis.",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/neogene"
+      },
+      "time:hasBeginning": "23.03 Ma",
+      "time:hasEnd": "5.33 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/aquitanian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Aquitanian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Early Miocene; warm climates; diverse marine mammals.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/miocene"
+      },
+      "time:hasBeginning": "23.03 Ma",
+      "time:hasEnd": "20.44 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/burdigalian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Burdigalian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Mountain building (Alps, Himalayas); first great apes.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/miocene"
+      },
+      "time:hasBeginning": "20.44 Ma",
+      "time:hasEnd": "15.98 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/langhian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Langhian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Mid-Miocene Climatic Optimum; widespread warmth.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/miocene"
+      },
+      "time:hasBeginning": "15.98 Ma",
+      "time:hasEnd": "13.82 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/serravallian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Serravallian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Cooling resumes; East Antarctic ice sheet expands.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/miocene"
+      },
+      "time:hasBeginning": "13.82 Ma",
+      "time:hasEnd": "11.63 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/tortonian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Tortonian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Mediterranean begins to close; hominoids disperse from Africa.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/miocene"
+      },
+      "time:hasBeginning": "11.63 Ma",
+      "time:hasEnd": "7.246 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/messinian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Messinian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Messinian Salinity Crisis: Mediterranean nearly dries up.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/miocene"
+      },
+      "time:hasBeginning": "7.246 Ma",
+      "time:hasEnd": "5.33 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/pliocene",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Pliocene",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Australopithecus; Arctic ice cap forms; Isthmus of Panama closes.",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/neogene"
+      },
+      "time:hasBeginning": "5.33 Ma",
+      "time:hasEnd": "2.58 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/zanclean",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Zanclean",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Zanclean flood refills Mediterranean; Australopithecus afarensis.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/pliocene"
+      },
+      "time:hasBeginning": "5.33 Ma",
+      "time:hasEnd": "3.6 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/piacenzian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Piacenzian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Mid-Piacenzian Warm Period; early Homo?; Northern Hemisphere glaciation starts.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/pliocene"
+      },
+      "time:hasBeginning": "3.6 Ma",
+      "time:hasEnd": "2.58 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/quaternary",
+      "@type": "gts:GeochronologicPeriod",
+      "rdfs:label": {
+        "@value": "Quaternary",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Ice ages and interglacials; evolution and spread of Homo sapiens.",
+        "@language": "en"
+      },
+      "gts:rank": "Period",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/cenozoic"
+      },
+      "time:hasBeginning": "2.58 Ma",
+      "time:hasEnd": "Present",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/pleistocene",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Pleistocene",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Repeated glaciations; megafauna; Homo erectus, Neanderthals, modern humans.",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/quaternary"
+      },
+      "time:hasBeginning": "2.58 Ma",
+      "time:hasEnd": "0.0117 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/gelasian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Gelasian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Earliest Pleistocene; Northern Hemisphere glaciation intensifies; early Homo.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/pleistocene"
+      },
+      "time:hasBeginning": "2.58 Ma",
+      "time:hasEnd": "1.8 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/calabrian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Calabrian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Homo erectus disperses out of Africa; Brunhes-Matuyama reversal at end.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/pleistocene"
+      },
+      "time:hasBeginning": "1.8 Ma",
+      "time:hasEnd": "0.774 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/chibanian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Chibanian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Homo heidelbergensis; Neanderthals evolve; major glacial cycles.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/pleistocene"
+      },
+      "time:hasBeginning": "0.774 Ma",
+      "time:hasEnd": "0.129 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/late-pleistocene",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Late Pleistocene",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Homo sapiens expands globally; Neanderthal extinction; Last Glacial Maximum.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/pleistocene"
+      },
+      "time:hasBeginning": "0.129 Ma",
+      "time:hasEnd": "0.0117 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/holocene",
+      "@type": "gts:GeochronologicEpoch",
+      "rdfs:label": {
+        "@value": "Holocene",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Current epoch; stable warm climate; rise of agriculture, civilization.",
+        "@language": "en"
+      },
+      "gts:rank": "Epoch",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/quaternary"
+      },
+      "time:hasBeginning": "11700 years BP",
+      "time:hasEnd": "Present",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/greenlandian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Greenlandian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Early Holocene; post-glacial warming; Mesolithic hunter-gatherers in Europe.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "11700 years BP",
+      "time:hasEnd": "8200 years BP",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/northgrippian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Northgrippian",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Middle Holocene; 8.2 ka cold event; agriculture spreads through Europe.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "8200 years BP",
+      "time:hasEnd": "4200 years BP",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/meghalayan",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Meghalayan",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Late Holocene; 4.2 ka drought; rise and fall of Bronze Age civilizations; present day.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "4200 years BP",
+      "time:hasEnd": "Present",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/stone-age",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Stone Age",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Longest period of human prehistory; defined by use of stone tools. Three-age system by C.J. Thomsen.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "3300000 BCE",
+      "time:hasEnd": "3300 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/paleolithic",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Paleolithic (Old Stone Age)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Oldest division; hunter-gatherer societies; development of stone tool technology.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/stone-age"
+      },
+      "time:hasBeginning": "3300000 BCE",
+      "time:hasEnd": "10000 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/lower-paleolithic",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Lower Paleolithic",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Homo habilis, Homo erectus; Oldowan and Acheulean tool industries.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/paleolithic"
+      },
+      "time:hasBeginning": "3300000 BCE",
+      "time:hasEnd": "300000 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/middle-paleolithic",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Middle Paleolithic",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Neanderthals in Europe; Mousterian tool industry; first evidence of symbolic behavior.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/paleolithic"
+      },
+      "time:hasBeginning": "300000 BCE",
+      "time:hasEnd": "50000 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/upper-paleolithic",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Upper Paleolithic",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Homo sapiens in Europe; cave art (Lascaux, Altamira); Aurignacian, Gravettian, Magdalenian cultures.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/paleolithic"
+      },
+      "time:hasBeginning": "50000 BCE",
+      "time:hasEnd": "10000 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/mesolithic",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Mesolithic (Middle Stone Age)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Post-glacial; microlithic tools; Scandinavia first settled ~9500 BCE. Maglemosian, Kongemose, Ertebølle cultures.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/stone-age"
+      },
+      "time:hasBeginning": "10000 BCE",
+      "time:hasEnd": "4000 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/maglemosian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Maglemosian Culture",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Early Mesolithic hunter-gatherer culture in southern Scandinavia and northern Germany; flint microliths, bone harpoons.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mesolithic"
+      },
+      "time:hasBeginning": "9000 BCE",
+      "time:hasEnd": "6000 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/kongemose",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Kongemose Culture",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Middle Mesolithic in Denmark and southern Sweden; coastal adaptation, fishing, seal hunting.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mesolithic"
+      },
+      "time:hasBeginning": "6000 BCE",
+      "time:hasEnd": "5200 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/ertebolleculture",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Ertebølle Culture",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Late Mesolithic in southern Scandinavia; first pottery, large shell middens, transition to agriculture.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mesolithic"
+      },
+      "time:hasBeginning": "5300 BCE",
+      "time:hasEnd": "3950 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/neolithic",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Neolithic (New Stone Age)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Agriculture, polished stone tools, pottery, permanent settlements. Funnelbeaker culture in Scandinavia (~4000–2700 BCE).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/stone-age"
+      },
+      "time:hasBeginning": "4000 BCE",
+      "time:hasEnd": "2000 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/funnelbeaker",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Funnelbeaker Culture (TRB)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First farming culture in Scandinavia; megalithic tombs (dolmens, passage graves); pottery with funnel-shaped rims.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/neolithic"
+      },
+      "time:hasBeginning": "4000 BCE",
+      "time:hasEnd": "2700 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/pitted-ware",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Pitted Ware Culture",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Concurrent hunter-gatherer-fisher culture in eastern Sweden, Gotland, and Finland; seal hunting, characteristic pitted pottery.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/neolithic"
+      },
+      "time:hasBeginning": "3200 BCE",
+      "time:hasEnd": "2300 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/battle-axe",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Battle Axe Culture (Boat Axe Culture)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Scandinavian variant of Corded Ware culture; single graves, polished stone battle axes, early Indo-European influences.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/neolithic"
+      },
+      "time:hasBeginning": "2800 BCE",
+      "time:hasEnd": "2300 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/nordic-neolithic-late",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Late Neolithic Scandinavia",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Transition to metalworking; flint daggers imitate bronze; Bell Beaker influences reach Scandinavia.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/neolithic"
+      },
+      "time:hasBeginning": "2300 BCE",
+      "time:hasEnd": "1750 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/chalcolithic",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Chalcolithic (Copper Age)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Transitional period; first metalworking (copper); Ötzi the Iceman; Corded Ware culture in Northern Europe.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "3500 BCE",
+      "time:hasEnd": "2000 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/bronze-age",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Bronze Age",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Defined by bronze metallurgy. Near East ~3300 BCE; Nordic Bronze Age begins ~1750 BCE.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "3300 BCE",
+      "time:hasEnd": "1200 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/early-bronze-age",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Early Bronze Age",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Near East & Mediterranean: urbanization, writing systems, first empires.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/bronze-age"
+      },
+      "time:hasBeginning": "3300 BCE",
+      "time:hasEnd": "2000 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/middle-bronze-age",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Middle Bronze Age",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Minoan civilization peaks; Nordic Bronze Age begins (~1750 BCE); extensive trade networks.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/bronze-age"
+      },
+      "time:hasBeginning": "2000 BCE",
+      "time:hasEnd": "1550 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/late-bronze-age",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Late Bronze Age",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Mycenaean Greece; New Kingdom Egypt; Late Bronze Age collapse (~1200 BCE).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/bronze-age"
+      },
+      "time:hasBeginning": "1550 BCE",
+      "time:hasEnd": "1200 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/nordic-bronze-age",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Nordic Bronze Age",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Scandinavian Bronze Age; elaborate burial mounds, rock carvings (hällristningar), sun chariot of Trundholm.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/bronze-age"
+      },
+      "time:hasBeginning": "1750 BCE",
+      "time:hasEnd": "500 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/nordic-bronze-early",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Early Nordic Bronze Age (Period I–III)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Oak coffin burials (Egtved Girl, Skrydstrup Woman); Trundholm sun chariot; wealth from amber trade.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/nordic-bronze-age"
+      },
+      "time:hasBeginning": "1750 BCE",
+      "time:hasEnd": "1100 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/nordic-bronze-late",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Late Nordic Bronze Age (Period IV–VI)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Cremation replaces inhumation; lur horns; rock carvings peak; declining bronze imports.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/nordic-bronze-age"
+      },
+      "time:hasBeginning": "1100 BCE",
+      "time:hasEnd": "500 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/iron-age",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Iron Age",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Defined by iron smelting and tools. Near East ~1200 BCE; Scandinavia ~500 BCE.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1200 BCE",
+      "time:hasEnd": "1 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/pre-roman-iron-age",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Pre-Roman Iron Age",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Iron working spreads to Scandinavia; bog ore smelting; Jastorf culture.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/iron-age"
+      },
+      "time:hasBeginning": "500 BCE",
+      "time:hasEnd": "1 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/pre-roman-iron-early",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Early Pre-Roman Iron Age",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Transition from bronze; first local iron production from bog ore in southern Scandinavia.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/pre-roman-iron-age"
+      },
+      "time:hasBeginning": "500 BCE",
+      "time:hasEnd": "250 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/pre-roman-iron-late",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Late Pre-Roman Iron Age",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Celtic La Tène influences; Hjortspring boat (350 BCE); complex hillforts.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/pre-roman-iron-age"
+      },
+      "time:hasBeginning": "250 BCE",
+      "time:hasEnd": "1 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/roman-iron-age",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Roman Iron Age",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Roman influence on Germanic societies; runes develop; trade with the Roman Empire.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1 CE",
+      "time:hasEnd": "400 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/early-roman-iron",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Early Roman Iron Age",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Increasing trade with Roman provinces; imported bronze vessels; first runic inscriptions.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/roman-iron-age"
+      },
+      "time:hasBeginning": "1 CE",
+      "time:hasEnd": "200 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/late-roman-iron",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Late Roman Iron Age",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Gold solidi flow north; Nydam boat (320 CE); elaborate weapon deposits in bogs.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/roman-iron-age"
+      },
+      "time:hasBeginning": "200 CE",
+      "time:hasEnd": "400 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/migration-period",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Migration Period (Völkerwanderung)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Fall of Western Rome; Germanic peoples migrate across Europe; gold bracteates and collars in Scandinavia.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "375 CE",
+      "time:hasEnd": "550 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/vendel-period",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Vendel Period (Merovingian Period)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Swedish golden age; Vendel and Valsgärde boat burials; elaborate animal-style ornamentation.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "550 CE",
+      "time:hasEnd": "790 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/viking-age",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Viking Age",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Norse expansion, raiding, trading, and settlement; Birka, Hedeby; Christianization of Scandinavia.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "790 CE",
+      "time:hasEnd": "1100 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/early-viking-age",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Early Viking Age",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Raid on Lindisfarne (793); establishment of Norse trading centers; Oseberg ship burial.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/viking-age"
+      },
+      "time:hasBeginning": "790 CE",
+      "time:hasEnd": "900 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/middle-viking-age",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Middle Viking Age",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Danelaw in England; Normandy settled; Icelandic settlement; Bluetooth's Denmark.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/viking-age"
+      },
+      "time:hasBeginning": "900 CE",
+      "time:hasEnd": "1000 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/late-viking-age",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Late Viking Age",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Christianization; end of Norse paganism; Cnut the Great's North Sea Empire.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/viking-age"
+      },
+      "time:hasBeginning": "1000 CE",
+      "time:hasEnd": "1100 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/medieval-period",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Medieval Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Scandinavian medieval period; Christianity dominant; Hanseatic trade; Gothic cathedrals; Black Death (1349).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1050 CE",
+      "time:hasEnd": "1520 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/early-medieval",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Early Medieval Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Church consolidation; first Scandinavian dioceses; Romanesque architecture.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/medieval-period"
+      },
+      "time:hasBeginning": "1050 CE",
+      "time:hasEnd": "1200 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/high-medieval",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "High Medieval Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Hanseatic League; Gothic architecture; Kalmar Union precursors; population growth.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/medieval-period"
+      },
+      "time:hasBeginning": "1200 CE",
+      "time:hasEnd": "1350 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/late-medieval",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Late Medieval Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Black Death aftermath; Kalmar Union (1397); Reformation approaches.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/medieval-period"
+      },
+      "time:hasBeginning": "1350 CE",
+      "time:hasEnd": "1520 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/early-modern",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Early Modern Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Reformation; Vasa dynasty; Swedish Empire (stormaktstiden); Age of Enlightenment.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1520 CE",
+      "time:hasEnd": "1789 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/reformation-era",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Reformation Era",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Protestant Reformation; Gustav Vasa establishes hereditary monarchy; dissolution of monasteries.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/early-modern"
+      },
+      "time:hasBeginning": "1520 CE",
+      "time:hasEnd": "1600 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/swedish-empire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Swedish Empire (Stormaktstiden)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Sweden as great power; Thirty Years War; Baltic dominance; ends with Great Northern War.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/early-modern"
+      },
+      "time:hasBeginning": "1611 CE",
+      "time:hasEnd": "1721 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/age-of-liberty",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Age of Liberty (Frihetstiden)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Parliamentary rule after Charles XII; Enlightenment science (Linnaeus, Celsius); cultural flourishing.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/early-modern"
+      },
+      "time:hasBeginning": "1718 CE",
+      "time:hasEnd": "1772 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Modern Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "French Revolution to present; industrialization, nation-states, globalization.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1789 CE",
+      "time:hasEnd": "Present",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/industrial-age",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Industrial Age",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Industrialization transforms Europe; railways, urbanization; mass emigration from Scandinavia to Americas.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period"
+      },
+      "time:hasBeginning": "1789 CE",
+      "time:hasEnd": "1914 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Contemporary Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "World Wars, welfare states, digital revolution; Scandinavian social democracies.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period"
+      },
+      "time:hasBeginning": "1914 CE",
+      "time:hasEnd": "Present",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/end-ordovician-extinction",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "End-Ordovician Extinction",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First of the Big Five; ~85% of marine species lost; caused by Gondwanan glaciation and sea-level fall.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/late-ordovician"
+      },
+      "time:hasBeginning": "445 Ma",
+      "time:hasEnd": "443 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/late-devonian-extinction",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Late Devonian Extinction",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Second of the Big Five; ~75% of species lost over millions of years; reef ecosystems collapse.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/late-devonian"
+      },
+      "time:hasBeginning": "375 Ma",
+      "time:hasEnd": "359 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/permian-triassic-extinction",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Permian–Triassic Extinction (The Great Dying)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Worst mass extinction: ~96% of marine and ~70% of land species; Siberian Traps volcanism.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/lopingian"
+      },
+      "time:hasBeginning": "252 Ma",
+      "time:hasEnd": "251 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/triassic-jurassic-extinction",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Triassic–Jurassic Extinction",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Fourth of the Big Five; ~80% of species lost; CAMP volcanism; opens way for dinosaur dominance.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/late-triassic"
+      },
+      "time:hasBeginning": "201.5 Ma",
+      "time:hasEnd": "201.3 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/cretaceous-paleogene-extinction",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Cretaceous–Paleogene Extinction (K-Pg)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Fifth of the Big Five; Chicxulub asteroid impact; all non-avian dinosaurs extinct; ~76% of species lost.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/late-cretaceous"
+      },
+      "time:hasBeginning": "66.05 Ma",
+      "time:hasEnd": "66 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/great-oxidation",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Great Oxidation Event",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Free oxygen accumulates in atmosphere for first time; mass die-off of anaerobic organisms; banded iron formations cease.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/rhyacian"
+      },
+      "time:hasBeginning": "2400 Ma",
+      "time:hasEnd": "2060 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/huronian-glaciation",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Huronian Glaciation",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First known Snowball Earth event; possibly triggered by Great Oxidation Event reducing methane greenhouse.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/rhyacian"
+      },
+      "time:hasBeginning": "2400 Ma",
+      "time:hasEnd": "2100 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/petm",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Paleocene–Eocene Thermal Maximum (PETM)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Rapid global warming of 5–8 °C; massive carbon release; mammals disperse across continents.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/ypresian"
+      },
+      "time:hasBeginning": "55.8 Ma",
+      "time:hasEnd": "55.6 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/messinian-crisis",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Messinian Salinity Crisis",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Mediterranean Sea nearly dries up due to tectonic closure of Strait of Gibraltar; massive evaporite deposits.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/messinian"
+      },
+      "time:hasBeginning": "5.96 Ma",
+      "time:hasEnd": "5.33 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/last-glacial-max",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Last Glacial Maximum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Peak of last ice age ~26,000 years ago; ice sheets cover Scandinavia, Britain, northern Europe; sea level ~120 m lower.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/late-pleistocene"
+      },
+      "time:hasBeginning": "0.026 Ma",
+      "time:hasEnd": "0.019 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/younger-dryas",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Younger Dryas",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Abrupt return to glacial conditions for ~1,200 years; end marks start of Holocene; cause debated (meltwater pulse?).",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/greenlandian"
+      },
+      "time:hasBeginning": "12900 years BP",
+      "time:hasEnd": "11700 years BP",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/8.2ka-event",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "8.2 ka Cold Event",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Sudden cooling for ~150 years; collapse of Laurentide ice sheet drains glacial lakes into Atlantic; disrupts thermohaline circulation.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/northgrippian"
+      },
+      "time:hasBeginning": "8200 years BP",
+      "time:hasEnd": "8000 years BP",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/4.2ka-event",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "4.2 ka Aridification Event",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Severe drought lasting ~200 years; contributes to collapse of Akkadian Empire, Old Kingdom Egypt, Harappan civilization.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/meghalayan"
+      },
+      "time:hasBeginning": "4200 years BP",
+      "time:hasEnd": "3900 years BP",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/sami-prehistory",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Sámi Prehistory",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Indigenous Sámi settlement of northern Fennoscandia; reindeer herding develops; Komsa and Fosna cultures; sieiddit (sacred sites).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "8000 CE",
+      "time:hasEnd": "1600 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/asbestos-ceramic",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Asbestos Ceramic Period (Finland)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Distinctive Finnish Neolithic pottery tempered with asbestos fibers; Comb Ceramic culture (~3900–2800 BCE).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/neolithic"
+      },
+      "time:hasBeginning": "4000 BCE",
+      "time:hasEnd": "2000 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/nordic-iron-age-celtic",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Celtic Iron Age Influences in Scandinavia",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "La Tène art style reaches Scandinavia; Hjortspring boat; early hillforts in southern Sweden and Denmark.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/pre-roman-iron-age"
+      },
+      "time:hasBeginning": "400 BCE",
+      "time:hasEnd": "200 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/baltic-crusades",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Baltic Crusades Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Northern Crusades; Christianization of Baltic region; Teutonic Order; Swedish crusades to Finland.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/medieval-period"
+      },
+      "time:hasBeginning": "1147 CE",
+      "time:hasEnd": "1290 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/hanseatic-period",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Hanseatic Period in Scandinavia",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Hanseatic League dominates Baltic trade; German merchants in Visby, Bergen, Stockholm; Lübeck law adopted.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/medieval-period"
+      },
+      "time:hasBeginning": "1250 CE",
+      "time:hasEnd": "1450 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/kalmar-union",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Kalmar Union",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Union of Denmark, Norway, and Sweden under one monarch; Queen Margrete I; dissolved by Gustav Vasa's rebellion.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/late-medieval"
+      },
+      "time:hasBeginning": "1397 CE",
+      "time:hasEnd": "1523 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/eocene-oligocene-extinction",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Eocene–Oligocene Extinction (Grande Coupure)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Major faunal turnover in Europe; Asian mammals invade; dramatic cooling as Antarctic ice sheet forms.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/priabonian"
+      },
+      "time:hasBeginning": "33.9 Ma",
+      "time:hasEnd": "33.7 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/cambrian-explosion",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Cambrian Explosion",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Most major animal phyla appear in fossil record within ~25 Myr; Burgess Shale, Chengjiang faunas; cause debated.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/epoch2-cambrian"
+      },
+      "time:hasBeginning": "538.8 Ma",
+      "time:hasEnd": "510 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    }
+  ]
+}

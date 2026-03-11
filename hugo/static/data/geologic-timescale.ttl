@@ -1,0 +1,2789 @@
+# ═══════════════════════════════════════════════════════════════
+# Geologic Time Scale — Linked Data for metadatahub.eu
+# 250 data points: eons, eras, periods, epochs, ages,
+# and archaeological/cultural periods bridging to human history.
+#
+# Source: Wikipedia, 'Geologic time scale'
+#   https://en.wikipedia.org/wiki/Geologic_time_scale
+# Additional sources:
+#   https://en.wikipedia.org/wiki/Holocene
+#   https://en.wikipedia.org/wiki/Pleistocene
+#   https://en.wikipedia.org/wiki/Three-age_system
+#   https://en.wikipedia.org/wiki/Scandinavian_prehistory
+#   https://en.wikipedia.org/wiki/Viking_Age
+# ICS International Chronostratigraphic Chart v2024/12
+#   https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf
+#
+# Total entries: 250
+# ═══════════════════════════════════════════════════════════════
+
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix time:    <http://www.w3.org/2006/time#> .
+@prefix gts:     <http://resource.geosciml.org/ontology/timescale/gts#> .
+@prefix isc:     <http://resource.geosciml.org/classifier/ics/ischart/> .
+@prefix ts:      <https://metadatahub.eu/data/geologic-timescale/> .
+
+<https://metadatahub.eu/data/geologic-timescale> a skos:ConceptScheme ;
+    dcterms:title "Geologic Time Scale"@en ;
+    dcterms:description "250 entries covering the geologic time scale from Hadean eon (4600 Ma) to Early Modern period, including archaeological/cultural ages (Stone Age, Bronze Age, Iron Age, Viking Age, Medieval)."@en ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> ;
+    dcterms:source <https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf> ;
+    dcterms:source <https://en.wikipedia.org/wiki/Holocene> ;
+    dcterms:source <https://en.wikipedia.org/wiki/Pleistocene> ;
+    dcterms:source <https://en.wikipedia.org/wiki/Three-age_system> ;
+    dcterms:source <https://en.wikipedia.org/wiki/Scandinavian_prehistory> ;
+    dcterms:source <https://en.wikipedia.org/wiki/Viking_Age> ;
+    dcterms:creator "Port 30 KB" ;
+    dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dcterms:modified "2024-12-01"^^xsd:date .
+
+# ── 1/250: Hadean (Eon) ──
+ts:hadean a gts:GeochronologicEon ;
+    rdfs:label "Hadean"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Earliest eon; Earth forms from accretion, heavy bombardment, formation of the Moon."@en ;
+    gts:rank "Eon" ;
+    time:hasBeginning [ time:inXSDgYear "4600"^^xsd:decimal ; rdfs:label "4600 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "4000"^^xsd:decimal ; rdfs:label "4000 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 2/250: Ginallian (informal) (Era) ──
+ts:ginallian a gts:GeochronologicEra ;
+    rdfs:label "Ginallian (informal)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Accretion and differentiation of Earth; formation of core and mantle from planetesimals."@en ;
+    gts:rank "Era" ;
+    skos:broader ts:hadean ;
+    time:hasBeginning [ time:inXSDgYear "4600"^^xsd:decimal ; rdfs:label "4600 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "4510"^^xsd:decimal ; rdfs:label "4510 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 3/250: Chaotian (informal) (Era) ──
+ts:chaotian a gts:GeochronologicEra ;
+    rdfs:label "Chaotian (informal)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Moon-forming giant impact (Theia hypothesis); surface entirely molten magma ocean."@en ;
+    gts:rank "Era" ;
+    skos:broader ts:hadean ;
+    time:hasBeginning [ time:inXSDgYear "4510"^^xsd:decimal ; rdfs:label "4510 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "4404"^^xsd:decimal ; rdfs:label "4404 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 4/250: Zirconian (informal) (Era) ──
+ts:zirconian a gts:GeochronologicEra ;
+    rdfs:label "Zirconian (informal)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Oldest known mineral grains (Jack Hills zircons, ~4.4 Ga); first solid crust forms; Late Heavy Bombardment."@en ;
+    gts:rank "Era" ;
+    skos:broader ts:hadean ;
+    time:hasBeginning [ time:inXSDgYear "4404"^^xsd:decimal ; rdfs:label "4404 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "4030"^^xsd:decimal ; rdfs:label "4030 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 5/250: Archean (Eon) ──
+ts:archean a gts:GeochronologicEon ;
+    rdfs:label "Archean"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "First stable continents form; earliest evidence of life (stromatolites)."@en ;
+    gts:rank "Eon" ;
+    time:hasBeginning [ time:inXSDgYear "4000"^^xsd:decimal ; rdfs:label "4000 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "2500"^^xsd:decimal ; rdfs:label "2500 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 6/250: Proterozoic (Eon) ──
+ts:proterozoic a gts:GeochronologicEon ;
+    rdfs:label "Proterozoic"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Oxygen accumulates in atmosphere; first eukaryotes and multicellular life."@en ;
+    gts:rank "Eon" ;
+    time:hasBeginning [ time:inXSDgYear "2500"^^xsd:decimal ; rdfs:label "2500 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "538.8"^^xsd:decimal ; rdfs:label "538.8 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 7/250: Phanerozoic (Eon) ──
+ts:phanerozoic a gts:GeochronologicEon ;
+    rdfs:label "Phanerozoic"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Eon of visible life; all complex animal phyla appear and diversify."@en ;
+    gts:rank "Eon" ;
+    time:hasBeginning [ time:inXSDgYear "538.8"^^xsd:decimal ; rdfs:label "538.8 Ma" ] ;
+    time:hasEnd [ rdfs:label "Present" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 8/250: Eoarchean (Era) ──
+ts:eoarchean a gts:GeochronologicEra ;
+    rdfs:label "Eoarchean"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Oldest known rocks; possible earliest life."@en ;
+    gts:rank "Era" ;
+    skos:broader ts:archean ;
+    time:hasBeginning [ time:inXSDgYear "4000"^^xsd:decimal ; rdfs:label "4000 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "3600"^^xsd:decimal ; rdfs:label "3600 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 9/250: Paleoarchean (Era) ──
+ts:paleoarchean a gts:GeochronologicEra ;
+    rdfs:label "Paleoarchean"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Earliest confirmed microbial life; oldest stromatolites."@en ;
+    gts:rank "Era" ;
+    skos:broader ts:archean ;
+    time:hasBeginning [ time:inXSDgYear "3600"^^xsd:decimal ; rdfs:label "3600 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "3200"^^xsd:decimal ; rdfs:label "3200 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 10/250: Mesoarchean (Era) ──
+ts:mesoarchean a gts:GeochronologicEra ;
+    rdfs:label "Mesoarchean"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "First large-scale stromatolite reefs; earliest photosynthesis evidence."@en ;
+    gts:rank "Era" ;
+    skos:broader ts:archean ;
+    time:hasBeginning [ time:inXSDgYear "3200"^^xsd:decimal ; rdfs:label "3200 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "2800"^^xsd:decimal ; rdfs:label "2800 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 11/250: Neoarchean (Era) ──
+ts:neoarchean a gts:GeochronologicEra ;
+    rdfs:label "Neoarchean"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Oxygen-producing cyanobacteria proliferate; banded iron formations peak."@en ;
+    gts:rank "Era" ;
+    skos:broader ts:archean ;
+    time:hasBeginning [ time:inXSDgYear "2800"^^xsd:decimal ; rdfs:label "2800 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "2500"^^xsd:decimal ; rdfs:label "2500 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 12/250: Paleoproterozoic (Era) ──
+ts:paleoproterozoic a gts:GeochronologicEra ;
+    rdfs:label "Paleoproterozoic"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Great Oxidation Event; first supercontinent (Nuna/Columbia)."@en ;
+    gts:rank "Era" ;
+    skos:broader ts:proterozoic ;
+    time:hasBeginning [ time:inXSDgYear "2500"^^xsd:decimal ; rdfs:label "2500 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "1600"^^xsd:decimal ; rdfs:label "1600 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 13/250: Siderian (Period) ──
+ts:siderian a gts:GeochronologicPeriod ;
+    rdfs:label "Siderian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Banded iron formations dominate; oxygen levels still rising."@en ;
+    gts:rank "Period" ;
+    skos:broader ts:paleoproterozoic ;
+    time:hasBeginning [ time:inXSDgYear "2500"^^xsd:decimal ; rdfs:label "2500 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "2300"^^xsd:decimal ; rdfs:label "2300 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 14/250: Rhyacian (Period) ──
+ts:rhyacian a gts:GeochronologicPeriod ;
+    rdfs:label "Rhyacian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Huronian glaciation; first global ice age."@en ;
+    gts:rank "Period" ;
+    skos:broader ts:paleoproterozoic ;
+    time:hasBeginning [ time:inXSDgYear "2300"^^xsd:decimal ; rdfs:label "2300 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "2050"^^xsd:decimal ; rdfs:label "2050 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 15/250: Orosirian (Period) ──
+ts:orosirian a gts:GeochronologicPeriod ;
+    rdfs:label "Orosirian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Major mountain-building events; Vredefort and Sudbury impacts."@en ;
+    gts:rank "Period" ;
+    skos:broader ts:paleoproterozoic ;
+    time:hasBeginning [ time:inXSDgYear "2050"^^xsd:decimal ; rdfs:label "2050 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "1800"^^xsd:decimal ; rdfs:label "1800 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 16/250: Statherian (Period) ──
+ts:statherian a gts:GeochronologicPeriod ;
+    rdfs:label "Statherian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "First complex single-celled organisms with nuclei."@en ;
+    gts:rank "Period" ;
+    skos:broader ts:paleoproterozoic ;
+    time:hasBeginning [ time:inXSDgYear "1800"^^xsd:decimal ; rdfs:label "1800 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "1600"^^xsd:decimal ; rdfs:label "1600 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 17/250: Mesoproterozoic (Era) ──
+ts:mesoproterozoic a gts:GeochronologicEra ;
+    rdfs:label "Mesoproterozoic"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Supercontinent Rodinia assembles; first sexual reproduction evidence."@en ;
+    gts:rank "Era" ;
+    skos:broader ts:proterozoic ;
+    time:hasBeginning [ time:inXSDgYear "1600"^^xsd:decimal ; rdfs:label "1600 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "1000"^^xsd:decimal ; rdfs:label "1000 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 18/250: Calymmian (Period) ──
+ts:calymmian a gts:GeochronologicPeriod ;
+    rdfs:label "Calymmian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Platform covers expand; stable continental interiors."@en ;
+    gts:rank "Period" ;
+    skos:broader ts:mesoproterozoic ;
+    time:hasBeginning [ time:inXSDgYear "1600"^^xsd:decimal ; rdfs:label "1600 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "1400"^^xsd:decimal ; rdfs:label "1400 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 19/250: Ectasian (Period) ──
+ts:ectasian a gts:GeochronologicPeriod ;
+    rdfs:label "Ectasian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Continued platform expansion; green algae diversify."@en ;
+    gts:rank "Period" ;
+    skos:broader ts:mesoproterozoic ;
+    time:hasBeginning [ time:inXSDgYear "1400"^^xsd:decimal ; rdfs:label "1400 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "1200"^^xsd:decimal ; rdfs:label "1200 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 20/250: Stenian (Period) ──
+ts:stenian a gts:GeochronologicPeriod ;
+    rdfs:label "Stenian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Grenville orogeny; supercontinent Rodinia forms."@en ;
+    gts:rank "Period" ;
+    skos:broader ts:mesoproterozoic ;
+    time:hasBeginning [ time:inXSDgYear "1200"^^xsd:decimal ; rdfs:label "1200 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "1000"^^xsd:decimal ; rdfs:label "1000 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 21/250: Neoproterozoic (Era) ──
+ts:neoproterozoic a gts:GeochronologicEra ;
+    rdfs:label "Neoproterozoic"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Snowball Earth glaciations; first animals appear (Ediacaran biota)."@en ;
+    gts:rank "Era" ;
+    skos:broader ts:proterozoic ;
+    time:hasBeginning [ time:inXSDgYear "1000"^^xsd:decimal ; rdfs:label "1000 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "538.8"^^xsd:decimal ; rdfs:label "538.8 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 22/250: Tonian (Period) ──
+ts:tonian a gts:GeochronologicPeriod ;
+    rdfs:label "Tonian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Rodinia begins to break apart; first multicellular organisms."@en ;
+    gts:rank "Period" ;
+    skos:broader ts:neoproterozoic ;
+    time:hasBeginning [ time:inXSDgYear "1000"^^xsd:decimal ; rdfs:label "1000 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "720"^^xsd:decimal ; rdfs:label "720 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 23/250: Cryogenian (Period) ──
+ts:cryogenian a gts:GeochronologicPeriod ;
+    rdfs:label "Cryogenian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Snowball Earth glaciations: Sturtian and Marinoan; life survives in refugia."@en ;
+    gts:rank "Period" ;
+    skos:broader ts:neoproterozoic ;
+    time:hasBeginning [ time:inXSDgYear "720"^^xsd:decimal ; rdfs:label "720 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "635"^^xsd:decimal ; rdfs:label "635 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 24/250: Sturtian Glaciation (Age) ──
+ts:sturtian a gts:GeochronologicAge ;
+    rdfs:label "Sturtian Glaciation"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "First and longer Snowball Earth event; global ice cover for ~57 million years."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:cryogenian ;
+    time:hasBeginning [ time:inXSDgYear "717"^^xsd:decimal ; rdfs:label "717 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "660"^^xsd:decimal ; rdfs:label "660 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 25/250: Marinoan Glaciation (Age) ──
+ts:marinoan a gts:GeochronologicAge ;
+    rdfs:label "Marinoan Glaciation"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Second Snowball Earth; cap carbonates deposited after deglaciation."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:cryogenian ;
+    time:hasBeginning [ time:inXSDgYear "650"^^xsd:decimal ; rdfs:label "650 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "635"^^xsd:decimal ; rdfs:label "635 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 26/250: Ediacaran (Period) ──
+ts:ediacaran a gts:GeochronologicPeriod ;
+    rdfs:label "Ediacaran"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Ediacaran biota: first large complex organisms; soft-bodied fauna."@en ;
+    gts:rank "Period" ;
+    skos:broader ts:neoproterozoic ;
+    time:hasBeginning [ time:inXSDgYear "635"^^xsd:decimal ; rdfs:label "635 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "538.8"^^xsd:decimal ; rdfs:label "538.8 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 27/250: Paleozoic (Era) ──
+ts:paleozoic a gts:GeochronologicEra ;
+    rdfs:label "Paleozoic"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Era of ancient life; Cambrian explosion, first fish, amphibians, reptiles, forests."@en ;
+    gts:rank "Era" ;
+    skos:broader ts:phanerozoic ;
+    time:hasBeginning [ time:inXSDgYear "538.8"^^xsd:decimal ; rdfs:label "538.8 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "251.9"^^xsd:decimal ; rdfs:label "251.9 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 28/250: Cambrian (Period) ──
+ts:cambrian a gts:GeochronologicPeriod ;
+    rdfs:label "Cambrian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Cambrian explosion: most major animal phyla appear rapidly in the fossil record."@en ;
+    gts:rank "Period" ;
+    skos:broader ts:paleozoic ;
+    time:hasBeginning [ time:inXSDgYear "538.8"^^xsd:decimal ; rdfs:label "538.8 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "485.4"^^xsd:decimal ; rdfs:label "485.4 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 29/250: Terreneuvian (Epoch) ──
+ts:terreneuvian a gts:GeochronologicEpoch ;
+    rdfs:label "Terreneuvian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Earliest Cambrian epoch; small shelly fossils appear."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:cambrian ;
+    time:hasBeginning [ time:inXSDgYear "538.8"^^xsd:decimal ; rdfs:label "538.8 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "521"^^xsd:decimal ; rdfs:label "521 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 30/250: Fortunian (Age) ──
+ts:fortunian a gts:GeochronologicAge ;
+    rdfs:label "Fortunian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Earliest Cambrian age; first trace fossils of bilaterian animals."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:terreneuvian ;
+    time:hasBeginning [ time:inXSDgYear "538.8"^^xsd:decimal ; rdfs:label "538.8 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "529"^^xsd:decimal ; rdfs:label "529 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 31/250: Cambrian Stage 2 (Age) ──
+ts:stage2-cambrian a gts:GeochronologicAge ;
+    rdfs:label "Cambrian Stage 2"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Small shelly fauna diversify; archaeocyathids appear."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:terreneuvian ;
+    time:hasBeginning [ time:inXSDgYear "529"^^xsd:decimal ; rdfs:label "529 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "521"^^xsd:decimal ; rdfs:label "521 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 32/250: Cambrian Series 2 (Epoch) ──
+ts:epoch2-cambrian a gts:GeochronologicEpoch ;
+    rdfs:label "Cambrian Series 2"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Trilobites diversify; archaeocyathid reefs."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:cambrian ;
+    time:hasBeginning [ time:inXSDgYear "521"^^xsd:decimal ; rdfs:label "521 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "509"^^xsd:decimal ; rdfs:label "509 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 33/250: Cambrian Stage 3 (Age) ──
+ts:stage3-cambrian a gts:GeochronologicAge ;
+    rdfs:label "Cambrian Stage 3"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "First trilobites appear; Cambrian explosion accelerates."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:epoch2-cambrian ;
+    time:hasBeginning [ time:inXSDgYear "521"^^xsd:decimal ; rdfs:label "521 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "514"^^xsd:decimal ; rdfs:label "514 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 34/250: Cambrian Stage 4 (Age) ──
+ts:stage4-cambrian a gts:GeochronologicAge ;
+    rdfs:label "Cambrian Stage 4"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Archaeocyathid reef-builders peak then decline."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:epoch2-cambrian ;
+    time:hasBeginning [ time:inXSDgYear "514"^^xsd:decimal ; rdfs:label "514 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "509"^^xsd:decimal ; rdfs:label "509 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 35/250: Miaolingian (Epoch) ──
+ts:miaolingian a gts:GeochronologicEpoch ;
+    rdfs:label "Miaolingian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Peak trilobite diversity; Burgess Shale-type faunas."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:cambrian ;
+    time:hasBeginning [ time:inXSDgYear "509"^^xsd:decimal ; rdfs:label "509 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "497"^^xsd:decimal ; rdfs:label "497 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 36/250: Wuliuan (Age) ──
+ts:wuliuan a gts:GeochronologicAge ;
+    rdfs:label "Wuliuan"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Burgess Shale fauna; diverse arthropods and anomalocaridids."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:miaolingian ;
+    time:hasBeginning [ time:inXSDgYear "509"^^xsd:decimal ; rdfs:label "509 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "504.5"^^xsd:decimal ; rdfs:label "504.5 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 37/250: Drumian (Age) ──
+ts:drumian a gts:GeochronologicAge ;
+    rdfs:label "Drumian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Agnostid trilobites flourish; deep-water faunas diversify."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:miaolingian ;
+    time:hasBeginning [ time:inXSDgYear "504.5"^^xsd:decimal ; rdfs:label "504.5 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "500.5"^^xsd:decimal ; rdfs:label "500.5 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 38/250: Guzhangian (Age) ──
+ts:guzhangian a gts:GeochronologicAge ;
+    rdfs:label "Guzhangian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Trilobite turnover; transition toward Furongian faunas."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:miaolingian ;
+    time:hasBeginning [ time:inXSDgYear "500.5"^^xsd:decimal ; rdfs:label "500.5 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "497"^^xsd:decimal ; rdfs:label "497 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 39/250: Furongian (Epoch) ──
+ts:furongian a gts:GeochronologicEpoch ;
+    rdfs:label "Furongian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Trilobite extinctions; first cephalopods appear."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:cambrian ;
+    time:hasBeginning [ time:inXSDgYear "497"^^xsd:decimal ; rdfs:label "497 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "485.4"^^xsd:decimal ; rdfs:label "485.4 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 40/250: Paibian (Age) ──
+ts:paibian a gts:GeochronologicAge ;
+    rdfs:label "Paibian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "SPICE carbon isotope excursion; trilobite extinction pulse."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:furongian ;
+    time:hasBeginning [ time:inXSDgYear "497"^^xsd:decimal ; rdfs:label "497 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "494"^^xsd:decimal ; rdfs:label "494 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 41/250: Jiangshanian (Age) ──
+ts:jiangshanian a gts:GeochronologicAge ;
+    rdfs:label "Jiangshanian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Trilobite recovery; earliest cephalopods diversify."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:furongian ;
+    time:hasBeginning [ time:inXSDgYear "494"^^xsd:decimal ; rdfs:label "494 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "489.5"^^xsd:decimal ; rdfs:label "489.5 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 42/250: Cambrian Stage 10 (Age) ──
+ts:stage10-cambrian a gts:GeochronologicAge ;
+    rdfs:label "Cambrian Stage 10"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Final Cambrian stage; transition to Ordovician biodiversification."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:furongian ;
+    time:hasBeginning [ time:inXSDgYear "489.5"^^xsd:decimal ; rdfs:label "489.5 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "485.4"^^xsd:decimal ; rdfs:label "485.4 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 43/250: Ordovician (Period) ──
+ts:ordovician a gts:GeochronologicPeriod ;
+    rdfs:label "Ordovician"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Great Ordovician Biodiversification Event; first land plants; ends with mass extinction."@en ;
+    gts:rank "Period" ;
+    skos:broader ts:paleozoic ;
+    time:hasBeginning [ time:inXSDgYear "485.4"^^xsd:decimal ; rdfs:label "485.4 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "443.8"^^xsd:decimal ; rdfs:label "443.8 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 44/250: Early Ordovician (Epoch) ──
+ts:early-ordovician a gts:GeochronologicEpoch ;
+    rdfs:label "Early Ordovician"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Biodiversification begins; graptolites and brachiopods flourish."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:ordovician ;
+    time:hasBeginning [ time:inXSDgYear "485.4"^^xsd:decimal ; rdfs:label "485.4 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "470"^^xsd:decimal ; rdfs:label "470 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 45/250: Tremadocian (Age) ──
+ts:tremadocian a gts:GeochronologicAge ;
+    rdfs:label "Tremadocian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Conodonts and graptolites diversify; first planktonic ecosystems."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:early-ordovician ;
+    time:hasBeginning [ time:inXSDgYear "485.4"^^xsd:decimal ; rdfs:label "485.4 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "477.7"^^xsd:decimal ; rdfs:label "477.7 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 46/250: Floian (Age) ──
+ts:floian a gts:GeochronologicAge ;
+    rdfs:label "Floian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "First bryozoans; corals begin to diversify."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:early-ordovician ;
+    time:hasBeginning [ time:inXSDgYear "477.7"^^xsd:decimal ; rdfs:label "477.7 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "470"^^xsd:decimal ; rdfs:label "470 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 47/250: Middle Ordovician (Epoch) ──
+ts:middle-ordovician a gts:GeochronologicEpoch ;
+    rdfs:label "Middle Ordovician"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Great Ordovician Biodiversification Event peaks."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:ordovician ;
+    time:hasBeginning [ time:inXSDgYear "470"^^xsd:decimal ; rdfs:label "470 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "458.4"^^xsd:decimal ; rdfs:label "458.4 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 48/250: Dapingian (Age) ──
+ts:dapingian a gts:GeochronologicAge ;
+    rdfs:label "Dapingian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "GOBE intensifies; cephalopods diversify as top marine predators."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:middle-ordovician ;
+    time:hasBeginning [ time:inXSDgYear "470"^^xsd:decimal ; rdfs:label "470 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "467.3"^^xsd:decimal ; rdfs:label "467.3 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 49/250: Darriwilian (Age) ──
+ts:darriwilian a gts:GeochronologicAge ;
+    rdfs:label "Darriwilian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Peak of Great Ordovician Biodiversification; stromatoporoid reefs."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:middle-ordovician ;
+    time:hasBeginning [ time:inXSDgYear "467.3"^^xsd:decimal ; rdfs:label "467.3 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "458.4"^^xsd:decimal ; rdfs:label "458.4 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 50/250: Late Ordovician (Epoch) ──
+ts:late-ordovician a gts:GeochronologicEpoch ;
+    rdfs:label "Late Ordovician"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "End-Ordovician glaciation and mass extinction; ~85% of marine species lost."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:ordovician ;
+    time:hasBeginning [ time:inXSDgYear "458.4"^^xsd:decimal ; rdfs:label "458.4 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "443.8"^^xsd:decimal ; rdfs:label "443.8 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 51/250: Sandbian (Age) ──
+ts:sandbian a gts:GeochronologicAge ;
+    rdfs:label "Sandbian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Taconic orogeny; diverse brachiopod communities."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:late-ordovician ;
+    time:hasBeginning [ time:inXSDgYear "458.4"^^xsd:decimal ; rdfs:label "458.4 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "453"^^xsd:decimal ; rdfs:label "453 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 52/250: Katian (Age) ──
+ts:katian a gts:GeochronologicAge ;
+    rdfs:label "Katian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Peak marine diversity; Gondwanan glaciation begins."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:late-ordovician ;
+    time:hasBeginning [ time:inXSDgYear "453"^^xsd:decimal ; rdfs:label "453 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "445.2"^^xsd:decimal ; rdfs:label "445.2 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 53/250: Hirnantian (Age) ──
+ts:hirnantian a gts:GeochronologicAge ;
+    rdfs:label "Hirnantian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "End-Ordovician mass extinction; rapid glaciation and sea level drop."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:late-ordovician ;
+    time:hasBeginning [ time:inXSDgYear "445.2"^^xsd:decimal ; rdfs:label "445.2 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "443.8"^^xsd:decimal ; rdfs:label "443.8 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 54/250: Silurian (Period) ──
+ts:silurian a gts:GeochronologicPeriod ;
+    rdfs:label "Silurian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Recovery from extinction; first vascular land plants; jawed fish appear."@en ;
+    gts:rank "Period" ;
+    skos:broader ts:paleozoic ;
+    time:hasBeginning [ time:inXSDgYear "443.8"^^xsd:decimal ; rdfs:label "443.8 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "419.2"^^xsd:decimal ; rdfs:label "419.2 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 55/250: Llandovery (Epoch) ──
+ts:llandovery a gts:GeochronologicEpoch ;
+    rdfs:label "Llandovery"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Post-extinction recovery; graptolite diversification."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:silurian ;
+    time:hasBeginning [ time:inXSDgYear "443.8"^^xsd:decimal ; rdfs:label "443.8 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "433.4"^^xsd:decimal ; rdfs:label "433.4 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 56/250: Rhuddanian (Age) ──
+ts:rhuddanian a gts:GeochronologicAge ;
+    rdfs:label "Rhuddanian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Earliest Silurian; rapid recovery of graptolite faunas."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:llandovery ;
+    time:hasBeginning [ time:inXSDgYear "443.8"^^xsd:decimal ; rdfs:label "443.8 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "440.8"^^xsd:decimal ; rdfs:label "440.8 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 57/250: Aeronian (Age) ──
+ts:aeronian a gts:GeochronologicAge ;
+    rdfs:label "Aeronian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Continued recovery; first land plant spores."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:llandovery ;
+    time:hasBeginning [ time:inXSDgYear "440.8"^^xsd:decimal ; rdfs:label "440.8 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "438.5"^^xsd:decimal ; rdfs:label "438.5 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 58/250: Telychian (Age) ──
+ts:telychian a gts:GeochronologicAge ;
+    rdfs:label "Telychian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Graptolite diversity peak; first vascular plant fossils."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:llandovery ;
+    time:hasBeginning [ time:inXSDgYear "438.5"^^xsd:decimal ; rdfs:label "438.5 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "433.4"^^xsd:decimal ; rdfs:label "433.4 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 59/250: Wenlock (Epoch) ──
+ts:wenlock a gts:GeochronologicEpoch ;
+    rdfs:label "Wenlock"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "First land plants with vascular tissue; coral reef expansion."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:silurian ;
+    time:hasBeginning [ time:inXSDgYear "433.4"^^xsd:decimal ; rdfs:label "433.4 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "427.4"^^xsd:decimal ; rdfs:label "427.4 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 60/250: Sheinwoodian (Age) ──
+ts:sheinwoodian a gts:GeochronologicAge ;
+    rdfs:label "Sheinwoodian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Ireviken extinction event; reef ecosystems expand."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:wenlock ;
+    time:hasBeginning [ time:inXSDgYear "433.4"^^xsd:decimal ; rdfs:label "433.4 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "430.5"^^xsd:decimal ; rdfs:label "430.5 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 61/250: Homerian (Age) ──
+ts:homerian a gts:GeochronologicAge ;
+    rdfs:label "Homerian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Mulde extinction event; eurypterids (sea scorpions) diversify."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:wenlock ;
+    time:hasBeginning [ time:inXSDgYear "430.5"^^xsd:decimal ; rdfs:label "430.5 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "427.4"^^xsd:decimal ; rdfs:label "427.4 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 62/250: Ludlow (Epoch) ──
+ts:ludlow a gts:GeochronologicEpoch ;
+    rdfs:label "Ludlow"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "First terrestrial arachnids; brachiopod diversity peak."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:silurian ;
+    time:hasBeginning [ time:inXSDgYear "427.4"^^xsd:decimal ; rdfs:label "427.4 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "423"^^xsd:decimal ; rdfs:label "423 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 63/250: Gorstian (Age) ──
+ts:gorstian a gts:GeochronologicAge ;
+    rdfs:label "Gorstian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Lau extinction event; graptolite fauna turnover."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:ludlow ;
+    time:hasBeginning [ time:inXSDgYear "427.4"^^xsd:decimal ; rdfs:label "427.4 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "425.6"^^xsd:decimal ; rdfs:label "425.6 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 64/250: Ludfordian (Age) ──
+ts:ludfordian a gts:GeochronologicAge ;
+    rdfs:label "Ludfordian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "First terrestrial arthropod traces; jawed fish diversify."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:ludlow ;
+    time:hasBeginning [ time:inXSDgYear "425.6"^^xsd:decimal ; rdfs:label "425.6 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "423"^^xsd:decimal ; rdfs:label "423 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 65/250: Přídolí (Epoch) ──
+ts:pridoli a gts:GeochronologicEpoch ;
+    rdfs:label "Přídolí"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "First jawed fish diversify; transition toward Devonian."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:silurian ;
+    time:hasBeginning [ time:inXSDgYear "423"^^xsd:decimal ; rdfs:label "423 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "419.2"^^xsd:decimal ; rdfs:label "419.2 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 66/250: Devonian (Period) ──
+ts:devonian a gts:GeochronologicPeriod ;
+    rdfs:label "Devonian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Age of Fishes; first forests, first insects, first amphibians."@en ;
+    gts:rank "Period" ;
+    skos:broader ts:paleozoic ;
+    time:hasBeginning [ time:inXSDgYear "419.2"^^xsd:decimal ; rdfs:label "419.2 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "358.9"^^xsd:decimal ; rdfs:label "358.9 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 67/250: Klonk Event (Silurian–Devonian boundary) (Age) ──
+ts:klonk-event a gts:GeochronologicAge ;
+    rdfs:label "Klonk Event (Silurian–Devonian boundary)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "GSSP at Klonk, Czech Republic; defined by first appearance of graptolite Monograptus uniformis."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:pridoli ;
+    time:hasBeginning [ time:inXSDgYear "419.2"^^xsd:decimal ; rdfs:label "419.2 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "419"^^xsd:decimal ; rdfs:label "419 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 68/250: Early Devonian (Epoch) ──
+ts:early-devonian a gts:GeochronologicEpoch ;
+    rdfs:label "Early Devonian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "First seed plants; armored fish diversify."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:devonian ;
+    time:hasBeginning [ time:inXSDgYear "419.2"^^xsd:decimal ; rdfs:label "419.2 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "393.3"^^xsd:decimal ; rdfs:label "393.3 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 69/250: Lochkovian (Age) ──
+ts:lochkovian a gts:GeochronologicAge ;
+    rdfs:label "Lochkovian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Earliest Devonian; jawed fish radiation continues."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:early-devonian ;
+    time:hasBeginning [ time:inXSDgYear "419.2"^^xsd:decimal ; rdfs:label "419.2 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "410.8"^^xsd:decimal ; rdfs:label "410.8 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 70/250: Pragian (Age) ──
+ts:pragian a gts:GeochronologicAge ;
+    rdfs:label "Pragian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "First true leaves (lycopsids); early vascular plants spread onto land."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:early-devonian ;
+    time:hasBeginning [ time:inXSDgYear "410.8"^^xsd:decimal ; rdfs:label "410.8 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "407.6"^^xsd:decimal ; rdfs:label "407.6 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 71/250: Emsian (Age) ──
+ts:emsian a gts:GeochronologicAge ;
+    rdfs:label "Emsian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "First insects; ammonoids appear; widespread reef systems."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:early-devonian ;
+    time:hasBeginning [ time:inXSDgYear "407.6"^^xsd:decimal ; rdfs:label "407.6 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "393.3"^^xsd:decimal ; rdfs:label "393.3 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 72/250: Middle Devonian (Epoch) ──
+ts:middle-devonian a gts:GeochronologicEpoch ;
+    rdfs:label "Middle Devonian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "First forests appear; ammonoids originate."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:devonian ;
+    time:hasBeginning [ time:inXSDgYear "393.3"^^xsd:decimal ; rdfs:label "393.3 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "382.7"^^xsd:decimal ; rdfs:label "382.7 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 73/250: Eifelian (Age) ──
+ts:eifelian a gts:GeochronologicAge ;
+    rdfs:label "Eifelian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Stromatoporoid-coral reefs peak; first seed ferns."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:middle-devonian ;
+    time:hasBeginning [ time:inXSDgYear "393.3"^^xsd:decimal ; rdfs:label "393.3 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "387.7"^^xsd:decimal ; rdfs:label "387.7 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 74/250: Givetian (Age) ──
+ts:givetian a gts:GeochronologicAge ;
+    rdfs:label "Givetian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "First forests (Archaeopteris); placoderms diversify."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:middle-devonian ;
+    time:hasBeginning [ time:inXSDgYear "387.7"^^xsd:decimal ; rdfs:label "387.7 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "382.7"^^xsd:decimal ; rdfs:label "382.7 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 75/250: Late Devonian (Epoch) ──
+ts:late-devonian a gts:GeochronologicEpoch ;
+    rdfs:label "Late Devonian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "First tetrapods; Late Devonian extinction event (~75% of species)."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:devonian ;
+    time:hasBeginning [ time:inXSDgYear "382.7"^^xsd:decimal ; rdfs:label "382.7 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "358.9"^^xsd:decimal ; rdfs:label "358.9 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 76/250: Frasnian (Age) ──
+ts:frasnian a gts:GeochronologicAge ;
+    rdfs:label "Frasnian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Massive reef systems; Frasnian-Famennian extinction (Kellwasser Event)."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:late-devonian ;
+    time:hasBeginning [ time:inXSDgYear "382.7"^^xsd:decimal ; rdfs:label "382.7 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "372.2"^^xsd:decimal ; rdfs:label "372.2 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 77/250: Famennian (Age) ──
+ts:famennian a gts:GeochronologicAge ;
+    rdfs:label "Famennian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Post-extinction recovery; first tetrapod trackways; Hangenberg Event at end."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:late-devonian ;
+    time:hasBeginning [ time:inXSDgYear "372.2"^^xsd:decimal ; rdfs:label "372.2 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "358.9"^^xsd:decimal ; rdfs:label "358.9 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 78/250: Carboniferous (Period) ──
+ts:carboniferous a gts:GeochronologicPeriod ;
+    rdfs:label "Carboniferous"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Vast coal swamp forests; first reptiles; high atmospheric oxygen."@en ;
+    gts:rank "Period" ;
+    skos:broader ts:paleozoic ;
+    time:hasBeginning [ time:inXSDgYear "358.9"^^xsd:decimal ; rdfs:label "358.9 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "298.9"^^xsd:decimal ; rdfs:label "298.9 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 79/250: Mississippian (SubPeriod) ──
+ts:mississippian a gts:GeochronologicPeriod ;
+    rdfs:label "Mississippian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Early Carboniferous; large crinoid and coral reefs; amphibians diversify."@en ;
+    gts:rank "SubPeriod" ;
+    skos:broader ts:carboniferous ;
+    time:hasBeginning [ time:inXSDgYear "358.9"^^xsd:decimal ; rdfs:label "358.9 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "323.2"^^xsd:decimal ; rdfs:label "323.2 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 80/250: Early Mississippian (Epoch) ──
+ts:early-mississippian a gts:GeochronologicEpoch ;
+    rdfs:label "Early Mississippian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Tournaisian age; recovery after Devonian extinction."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:mississippian ;
+    time:hasBeginning [ time:inXSDgYear "358.9"^^xsd:decimal ; rdfs:label "358.9 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "346.7"^^xsd:decimal ; rdfs:label "346.7 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 81/250: Tournaisian (Age) ──
+ts:tournaisian a gts:GeochronologicAge ;
+    rdfs:label "Tournaisian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Post-Devonian recovery; crinoid meadows; early tetrapod diversification (Romer's Gap)."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:early-mississippian ;
+    time:hasBeginning [ time:inXSDgYear "358.9"^^xsd:decimal ; rdfs:label "358.9 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "346.7"^^xsd:decimal ; rdfs:label "346.7 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 82/250: Middle Mississippian (Epoch) ──
+ts:middle-mississippian a gts:GeochronologicEpoch ;
+    rdfs:label "Middle Mississippian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Viséan age; widespread limestone deposition; large coral reefs."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:mississippian ;
+    time:hasBeginning [ time:inXSDgYear "346.7"^^xsd:decimal ; rdfs:label "346.7 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "330.9"^^xsd:decimal ; rdfs:label "330.9 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 83/250: Viséan (Age) ──
+ts:visean a gts:GeochronologicAge ;
+    rdfs:label "Viséan"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Extensive carbonate platforms; first large tetrapods; coal forests begin."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:middle-mississippian ;
+    time:hasBeginning [ time:inXSDgYear "346.7"^^xsd:decimal ; rdfs:label "346.7 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "330.9"^^xsd:decimal ; rdfs:label "330.9 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 84/250: Late Mississippian (Epoch) ──
+ts:late-mississippian a gts:GeochronologicEpoch ;
+    rdfs:label "Late Mississippian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Serpukhovian age; glaciation begins in Gondwana."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:mississippian ;
+    time:hasBeginning [ time:inXSDgYear "330.9"^^xsd:decimal ; rdfs:label "330.9 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "323.2"^^xsd:decimal ; rdfs:label "323.2 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 85/250: Serpukhovian (Age) ──
+ts:serpukhovian a gts:GeochronologicAge ;
+    rdfs:label "Serpukhovian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Late Mississippian ice ages; sea level drops; first winged insects."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:late-mississippian ;
+    time:hasBeginning [ time:inXSDgYear "330.9"^^xsd:decimal ; rdfs:label "330.9 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "323.2"^^xsd:decimal ; rdfs:label "323.2 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 86/250: Pennsylvanian (SubPeriod) ──
+ts:pennsylvanian a gts:GeochronologicPeriod ;
+    rdfs:label "Pennsylvanian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Late Carboniferous; coal swamps peak; first reptiles appear."@en ;
+    gts:rank "SubPeriod" ;
+    skos:broader ts:carboniferous ;
+    time:hasBeginning [ time:inXSDgYear "323.2"^^xsd:decimal ; rdfs:label "323.2 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "298.9"^^xsd:decimal ; rdfs:label "298.9 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 87/250: Early Pennsylvanian (Epoch) ──
+ts:early-pennsylvanian a gts:GeochronologicEpoch ;
+    rdfs:label "Early Pennsylvanian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Bashkirian age; Pangaea begins to assemble."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:pennsylvanian ;
+    time:hasBeginning [ time:inXSDgYear "323.2"^^xsd:decimal ; rdfs:label "323.2 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "315.2"^^xsd:decimal ; rdfs:label "315.2 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 88/250: Bashkirian (Age) ──
+ts:bashkirian a gts:GeochronologicAge ;
+    rdfs:label "Bashkirian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "First large coal swamps; Pangaea assembly accelerates; early reptile diversification."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:early-pennsylvanian ;
+    time:hasBeginning [ time:inXSDgYear "323.2"^^xsd:decimal ; rdfs:label "323.2 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "315.2"^^xsd:decimal ; rdfs:label "315.2 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 89/250: Middle Pennsylvanian (Epoch) ──
+ts:middle-pennsylvanian a gts:GeochronologicEpoch ;
+    rdfs:label "Middle Pennsylvanian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Moscovian age; giant insects thrive in high-oxygen atmosphere."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:pennsylvanian ;
+    time:hasBeginning [ time:inXSDgYear "315.2"^^xsd:decimal ; rdfs:label "315.2 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "307"^^xsd:decimal ; rdfs:label "307 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 90/250: Moscovian (Age) ──
+ts:moscovian a gts:GeochronologicAge ;
+    rdfs:label "Moscovian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Giant dragonflies (Meganeura); atmospheric oxygen ~35%; vast coal swamp forests."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:middle-pennsylvanian ;
+    time:hasBeginning [ time:inXSDgYear "315.2"^^xsd:decimal ; rdfs:label "315.2 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "307"^^xsd:decimal ; rdfs:label "307 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 91/250: Late Pennsylvanian (Epoch) ──
+ts:late-pennsylvanian a gts:GeochronologicEpoch ;
+    rdfs:label "Late Pennsylvanian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Kasimovian–Gzhelian; earliest amniotes diversify; coal swamps decline."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:pennsylvanian ;
+    time:hasBeginning [ time:inXSDgYear "307"^^xsd:decimal ; rdfs:label "307 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "298.9"^^xsd:decimal ; rdfs:label "298.9 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 92/250: Kasimovian (Age) ──
+ts:kasimovian a gts:GeochronologicAge ;
+    rdfs:label "Kasimovian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Amniote reptiles diversify; first diapsids appear."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:late-pennsylvanian ;
+    time:hasBeginning [ time:inXSDgYear "307"^^xsd:decimal ; rdfs:label "307 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "303.7"^^xsd:decimal ; rdfs:label "303.7 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 93/250: Gzhelian (Age) ──
+ts:gzhelian a gts:GeochronologicAge ;
+    rdfs:label "Gzhelian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Coal swamps retreat as climate dries; Pangaea nearly complete."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:late-pennsylvanian ;
+    time:hasBeginning [ time:inXSDgYear "303.7"^^xsd:decimal ; rdfs:label "303.7 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "298.9"^^xsd:decimal ; rdfs:label "298.9 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 94/250: Permian (Period) ──
+ts:permian a gts:GeochronologicPeriod ;
+    rdfs:label "Permian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Pangaea complete; therapsids (mammal ancestors) dominate; ends with the Great Dying."@en ;
+    gts:rank "Period" ;
+    skos:broader ts:paleozoic ;
+    time:hasBeginning [ time:inXSDgYear "298.9"^^xsd:decimal ; rdfs:label "298.9 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "251.9"^^xsd:decimal ; rdfs:label "251.9 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 95/250: Cisuralian (Epoch) ──
+ts:cisuralian a gts:GeochronologicEpoch ;
+    rdfs:label "Cisuralian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Early Permian; diverse amphibian and reptile faunas."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:permian ;
+    time:hasBeginning [ time:inXSDgYear "298.9"^^xsd:decimal ; rdfs:label "298.9 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "272.95"^^xsd:decimal ; rdfs:label "272.95 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 96/250: Asselian (Age) ──
+ts:asselian a gts:GeochronologicAge ;
+    rdfs:label "Asselian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Earliest Permian; glaciation continues in Gondwana."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:cisuralian ;
+    time:hasBeginning [ time:inXSDgYear "298.9"^^xsd:decimal ; rdfs:label "298.9 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "293.52"^^xsd:decimal ; rdfs:label "293.52 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 97/250: Sakmarian (Age) ──
+ts:sakmarian a gts:GeochronologicAge ;
+    rdfs:label "Sakmarian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Pelycosaurs (sail-backed reptiles) diversify, including Dimetrodon."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:cisuralian ;
+    time:hasBeginning [ time:inXSDgYear "293.52"^^xsd:decimal ; rdfs:label "293.52 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "290.1"^^xsd:decimal ; rdfs:label "290.1 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 98/250: Artinskian (Age) ──
+ts:artinskian a gts:GeochronologicAge ;
+    rdfs:label "Artinskian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Gondwanan glaciation wanes; conifers spread."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:cisuralian ;
+    time:hasBeginning [ time:inXSDgYear "290.1"^^xsd:decimal ; rdfs:label "290.1 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "283.5"^^xsd:decimal ; rdfs:label "283.5 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 99/250: Kungurian (Age) ──
+ts:kungurian a gts:GeochronologicAge ;
+    rdfs:label "Kungurian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Evaporite deposits; therapsids begin to appear."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:cisuralian ;
+    time:hasBeginning [ time:inXSDgYear "283.5"^^xsd:decimal ; rdfs:label "283.5 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "272.95"^^xsd:decimal ; rdfs:label "272.95 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 100/250: Guadalupian (Epoch) ──
+ts:guadalupian a gts:GeochronologicEpoch ;
+    rdfs:label "Guadalupian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Middle Permian; therapsids rise to dominance; Capitanian extinction event."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:permian ;
+    time:hasBeginning [ time:inXSDgYear "272.95"^^xsd:decimal ; rdfs:label "272.95 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "259.51"^^xsd:decimal ; rdfs:label "259.51 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 101/250: Roadian (Age) ──
+ts:roadian a gts:GeochronologicAge ;
+    rdfs:label "Roadian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Therapsids diversify; dinocephalians dominate."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:guadalupian ;
+    time:hasBeginning [ time:inXSDgYear "272.95"^^xsd:decimal ; rdfs:label "272.95 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "268.8"^^xsd:decimal ; rdfs:label "268.8 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 102/250: Wordian (Age) ──
+ts:wordian a gts:GeochronologicAge ;
+    rdfs:label "Wordian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Reef ecosystems flourish; diverse fusulinid foraminifera."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:guadalupian ;
+    time:hasBeginning [ time:inXSDgYear "268.8"^^xsd:decimal ; rdfs:label "268.8 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "265.1"^^xsd:decimal ; rdfs:label "265.1 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 103/250: Capitanian (Age) ──
+ts:capitanian a gts:GeochronologicAge ;
+    rdfs:label "Capitanian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Capitanian mass extinction: major reef collapse and biodiversity loss."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:guadalupian ;
+    time:hasBeginning [ time:inXSDgYear "265.1"^^xsd:decimal ; rdfs:label "265.1 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "259.51"^^xsd:decimal ; rdfs:label "259.51 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 104/250: Lopingian (Epoch) ──
+ts:lopingian a gts:GeochronologicEpoch ;
+    rdfs:label "Lopingian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Late Permian; Permian–Triassic extinction: ~96% of marine species lost."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:permian ;
+    time:hasBeginning [ time:inXSDgYear "259.51"^^xsd:decimal ; rdfs:label "259.51 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "251.9"^^xsd:decimal ; rdfs:label "251.9 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 105/250: Wuchiapingian (Age) ──
+ts:wuchiapingian a gts:GeochronologicAge ;
+    rdfs:label "Wuchiapingian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Post-Capitanian recovery; Dicynodonts become dominant herbivores."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:lopingian ;
+    time:hasBeginning [ time:inXSDgYear "259.51"^^xsd:decimal ; rdfs:label "259.51 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "254.14"^^xsd:decimal ; rdfs:label "254.14 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 106/250: Changhsingian (Age) ──
+ts:changhsingian a gts:GeochronologicAge ;
+    rdfs:label "Changhsingian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "The Great Dying: Siberian Traps volcanism triggers worst mass extinction in Earth history."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:lopingian ;
+    time:hasBeginning [ time:inXSDgYear "254.14"^^xsd:decimal ; rdfs:label "254.14 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "251.9"^^xsd:decimal ; rdfs:label "251.9 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 107/250: Mesozoic (Era) ──
+ts:mesozoic a gts:GeochronologicEra ;
+    rdfs:label "Mesozoic"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Age of Reptiles; dinosaurs, first mammals, first birds, first flowering plants."@en ;
+    gts:rank "Era" ;
+    skos:broader ts:phanerozoic ;
+    time:hasBeginning [ time:inXSDgYear "251.9"^^xsd:decimal ; rdfs:label "251.9 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "66"^^xsd:decimal ; rdfs:label "66 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 108/250: Triassic (Period) ──
+ts:triassic a gts:GeochronologicPeriod ;
+    rdfs:label "Triassic"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Recovery from Permian extinction; first dinosaurs, first mammals, first pterosaurs."@en ;
+    gts:rank "Period" ;
+    skos:broader ts:mesozoic ;
+    time:hasBeginning [ time:inXSDgYear "251.9"^^xsd:decimal ; rdfs:label "251.9 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "201.4"^^xsd:decimal ; rdfs:label "201.4 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 109/250: Early Triassic (Epoch) ──
+ts:early-triassic a gts:GeochronologicEpoch ;
+    rdfs:label "Early Triassic"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Slow recovery from extinction; Lystrosaurus dominates terrestrial fauna."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:triassic ;
+    time:hasBeginning [ time:inXSDgYear "251.9"^^xsd:decimal ; rdfs:label "251.9 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "247.2"^^xsd:decimal ; rdfs:label "247.2 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 110/250: Induan (Age) ──
+ts:induan a gts:GeochronologicAge ;
+    rdfs:label "Induan"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Earliest Triassic stage; extremely low biodiversity, harsh conditions."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:early-triassic ;
+    time:hasBeginning [ time:inXSDgYear "251.9"^^xsd:decimal ; rdfs:label "251.9 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "251.2"^^xsd:decimal ; rdfs:label "251.2 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 111/250: Olenekian (Age) ──
+ts:olenekian a gts:GeochronologicAge ;
+    rdfs:label "Olenekian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Marine ecosystems begin recovery; first ichthyosaurs appear."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:early-triassic ;
+    time:hasBeginning [ time:inXSDgYear "251.2"^^xsd:decimal ; rdfs:label "251.2 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "247.2"^^xsd:decimal ; rdfs:label "247.2 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 112/250: Middle Triassic (Epoch) ──
+ts:middle-triassic a gts:GeochronologicEpoch ;
+    rdfs:label "Middle Triassic"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Archosaurs diversify; first dinosauromorphs."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:triassic ;
+    time:hasBeginning [ time:inXSDgYear "247.2"^^xsd:decimal ; rdfs:label "247.2 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "237"^^xsd:decimal ; rdfs:label "237 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 113/250: Anisian (Age) ──
+ts:anisian a gts:GeochronologicAge ;
+    rdfs:label "Anisian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Marine reptiles diversify; coral reefs re-establish."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:middle-triassic ;
+    time:hasBeginning [ time:inXSDgYear "247.2"^^xsd:decimal ; rdfs:label "247.2 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "242"^^xsd:decimal ; rdfs:label "242 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 114/250: Ladinian (Age) ──
+ts:ladinian a gts:GeochronologicAge ;
+    rdfs:label "Ladinian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "First dinosauriform tracks; seed ferns and conifers dominate."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:middle-triassic ;
+    time:hasBeginning [ time:inXSDgYear "242"^^xsd:decimal ; rdfs:label "242 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "237"^^xsd:decimal ; rdfs:label "237 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 115/250: Late Triassic (Epoch) ──
+ts:late-triassic a gts:GeochronologicEpoch ;
+    rdfs:label "Late Triassic"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "First true dinosaurs, mammals, and pterosaurs; Triassic–Jurassic extinction at end."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:triassic ;
+    time:hasBeginning [ time:inXSDgYear "237"^^xsd:decimal ; rdfs:label "237 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "201.4"^^xsd:decimal ; rdfs:label "201.4 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 116/250: Carnian (Age) ──
+ts:carnian a gts:GeochronologicAge ;
+    rdfs:label "Carnian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Carnian Pluvial Episode: major climate shift; first dinosaurs appear."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:late-triassic ;
+    time:hasBeginning [ time:inXSDgYear "237"^^xsd:decimal ; rdfs:label "237 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "227"^^xsd:decimal ; rdfs:label "227 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 117/250: Norian (Age) ──
+ts:norian a gts:GeochronologicAge ;
+    rdfs:label "Norian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Dinosaurs diversify; first turtles and crocodylomorphs."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:late-triassic ;
+    time:hasBeginning [ time:inXSDgYear "227"^^xsd:decimal ; rdfs:label "227 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "208.5"^^xsd:decimal ; rdfs:label "208.5 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 118/250: Rhaetian (Age) ──
+ts:rhaetian a gts:GeochronologicAge ;
+    rdfs:label "Rhaetian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "End-Triassic extinction opens ecological niches for dinosaurs."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:late-triassic ;
+    time:hasBeginning [ time:inXSDgYear "208.5"^^xsd:decimal ; rdfs:label "208.5 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "201.4"^^xsd:decimal ; rdfs:label "201.4 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 119/250: Jurassic (Period) ──
+ts:jurassic a gts:GeochronologicPeriod ;
+    rdfs:label "Jurassic"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Dinosaurs dominate; first birds (Archaeopteryx); Pangaea breaks apart."@en ;
+    gts:rank "Period" ;
+    skos:broader ts:mesozoic ;
+    time:hasBeginning [ time:inXSDgYear "201.4"^^xsd:decimal ; rdfs:label "201.4 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "143.1"^^xsd:decimal ; rdfs:label "143.1 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 120/250: Early Jurassic (Epoch) ──
+ts:early-jurassic a gts:GeochronologicEpoch ;
+    rdfs:label "Early Jurassic"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Dinosaurs diversify into dominant land animals; large marine reptiles."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:jurassic ;
+    time:hasBeginning [ time:inXSDgYear "201.4"^^xsd:decimal ; rdfs:label "201.4 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "174.1"^^xsd:decimal ; rdfs:label "174.1 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 121/250: Hettangian (Age) ──
+ts:hettangian a gts:GeochronologicAge ;
+    rdfs:label "Hettangian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Post-extinction recovery; early dinosaur radiation."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:early-jurassic ;
+    time:hasBeginning [ time:inXSDgYear "201.4"^^xsd:decimal ; rdfs:label "201.4 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "199.5"^^xsd:decimal ; rdfs:label "199.5 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 122/250: Sinemurian (Age) ──
+ts:sinemurian a gts:GeochronologicAge ;
+    rdfs:label "Sinemurian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Early large sauropodomorphs; ammonite diversity increases."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:early-jurassic ;
+    time:hasBeginning [ time:inXSDgYear "199.5"^^xsd:decimal ; rdfs:label "199.5 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "192.9"^^xsd:decimal ; rdfs:label "192.9 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 123/250: Pliensbachian (Age) ──
+ts:pliensbachian a gts:GeochronologicAge ;
+    rdfs:label "Pliensbachian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Warm climates; diverse marine ecosystems, ichthyosaurs abundant."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:early-jurassic ;
+    time:hasBeginning [ time:inXSDgYear "192.9"^^xsd:decimal ; rdfs:label "192.9 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "184.2"^^xsd:decimal ; rdfs:label "184.2 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 124/250: Toarcian (Age) ──
+ts:toarcian a gts:GeochronologicAge ;
+    rdfs:label "Toarcian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Toarcian Oceanic Anoxic Event; some marine extinctions."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:early-jurassic ;
+    time:hasBeginning [ time:inXSDgYear "184.2"^^xsd:decimal ; rdfs:label "184.2 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "174.1"^^xsd:decimal ; rdfs:label "174.1 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 125/250: Middle Jurassic (Epoch) ──
+ts:middle-jurassic a gts:GeochronologicEpoch ;
+    rdfs:label "Middle Jurassic"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Sauropods and theropods diversify; earliest flowering plant evidence."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:jurassic ;
+    time:hasBeginning [ time:inXSDgYear "174.1"^^xsd:decimal ; rdfs:label "174.1 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "163.5"^^xsd:decimal ; rdfs:label "163.5 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 126/250: Aalenian (Age) ──
+ts:aalenian a gts:GeochronologicAge ;
+    rdfs:label "Aalenian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Pangaea continues to rift; ammonites flourish."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:middle-jurassic ;
+    time:hasBeginning [ time:inXSDgYear "174.1"^^xsd:decimal ; rdfs:label "174.1 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "170.9"^^xsd:decimal ; rdfs:label "170.9 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 127/250: Bajocian (Age) ──
+ts:bajocian a gts:GeochronologicAge ;
+    rdfs:label "Bajocian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Diverse coral reefs; stegosaurs appear."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:middle-jurassic ;
+    time:hasBeginning [ time:inXSDgYear "170.9"^^xsd:decimal ; rdfs:label "170.9 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "168.2"^^xsd:decimal ; rdfs:label "168.2 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 128/250: Bathonian (Age) ──
+ts:bathonian a gts:GeochronologicAge ;
+    rdfs:label "Bathonian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "First definitive mammals diversify; microcontinent formation."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:middle-jurassic ;
+    time:hasBeginning [ time:inXSDgYear "168.2"^^xsd:decimal ; rdfs:label "168.2 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "165.3"^^xsd:decimal ; rdfs:label "165.3 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 129/250: Callovian (Age) ──
+ts:callovian a gts:GeochronologicAge ;
+    rdfs:label "Callovian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Marine transgression; ammonite diversity peak in Jurassic."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:middle-jurassic ;
+    time:hasBeginning [ time:inXSDgYear "165.3"^^xsd:decimal ; rdfs:label "165.3 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "163.5"^^xsd:decimal ; rdfs:label "163.5 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 130/250: Late Jurassic (Epoch) ──
+ts:late-jurassic a gts:GeochronologicEpoch ;
+    rdfs:label "Late Jurassic"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Giant sauropods; Archaeopteryx; Morrison Formation dinosaurs."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:jurassic ;
+    time:hasBeginning [ time:inXSDgYear "163.5"^^xsd:decimal ; rdfs:label "163.5 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "143.1"^^xsd:decimal ; rdfs:label "143.1 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 131/250: Oxfordian (Age) ──
+ts:oxfordian a gts:GeochronologicAge ;
+    rdfs:label "Oxfordian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Widespread coral reefs; large theropods like Allosaurus."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:late-jurassic ;
+    time:hasBeginning [ time:inXSDgYear "163.5"^^xsd:decimal ; rdfs:label "163.5 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "157.3"^^xsd:decimal ; rdfs:label "157.3 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 132/250: Kimmeridgian (Age) ──
+ts:kimmeridgian a gts:GeochronologicAge ;
+    rdfs:label "Kimmeridgian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Rich marine ecosystems; source rocks for North Sea oil form."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:late-jurassic ;
+    time:hasBeginning [ time:inXSDgYear "157.3"^^xsd:decimal ; rdfs:label "157.3 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "152.1"^^xsd:decimal ; rdfs:label "152.1 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 133/250: Tithonian (Age) ──
+ts:tithonian a gts:GeochronologicAge ;
+    rdfs:label "Tithonian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Archaeopteryx; Solnhofen limestone; transition to Cretaceous."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:late-jurassic ;
+    time:hasBeginning [ time:inXSDgYear "152.1"^^xsd:decimal ; rdfs:label "152.1 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "143.1"^^xsd:decimal ; rdfs:label "143.1 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 134/250: Cretaceous (Period) ──
+ts:cretaceous a gts:GeochronologicPeriod ;
+    rdfs:label "Cretaceous"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Longest Mesozoic period; flowering plants rise; ends with asteroid impact (K-Pg)."@en ;
+    gts:rank "Period" ;
+    skos:broader ts:mesozoic ;
+    time:hasBeginning [ time:inXSDgYear "143.1"^^xsd:decimal ; rdfs:label "143.1 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "66"^^xsd:decimal ; rdfs:label "66 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 135/250: Early Cretaceous (Epoch) ──
+ts:early-cretaceous a gts:GeochronologicEpoch ;
+    rdfs:label "Early Cretaceous"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Flowering plants diversify; feathered dinosaurs; continental drift accelerates."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:cretaceous ;
+    time:hasBeginning [ time:inXSDgYear "143.1"^^xsd:decimal ; rdfs:label "143.1 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "100.5"^^xsd:decimal ; rdfs:label "100.5 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 136/250: Berriasian (Age) ──
+ts:berriasian a gts:GeochronologicAge ;
+    rdfs:label "Berriasian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Earliest Cretaceous; GSSP boundary still under discussion."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:early-cretaceous ;
+    time:hasBeginning [ time:inXSDgYear "143.1"^^xsd:decimal ; rdfs:label "143.1 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "139.8"^^xsd:decimal ; rdfs:label "139.8 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 137/250: Valanginian (Age) ──
+ts:valanginian a gts:GeochronologicAge ;
+    rdfs:label "Valanginian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Weald clay environments; early angiosperms in fossil record."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:early-cretaceous ;
+    time:hasBeginning [ time:inXSDgYear "139.8"^^xsd:decimal ; rdfs:label "139.8 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "132.6"^^xsd:decimal ; rdfs:label "132.6 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 138/250: Hauterivian (Age) ──
+ts:hauterivian a gts:GeochronologicAge ;
+    rdfs:label "Hauterivian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Iguanodon and early ornithopod diversity; warm global climate."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:early-cretaceous ;
+    time:hasBeginning [ time:inXSDgYear "132.6"^^xsd:decimal ; rdfs:label "132.6 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "125.77"^^xsd:decimal ; rdfs:label "125.77 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 139/250: Barremian (Age) ──
+ts:barremian a gts:GeochronologicAge ;
+    rdfs:label "Barremian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Las Hoyas and Jehol Biota; feathered theropods preserved."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:early-cretaceous ;
+    time:hasBeginning [ time:inXSDgYear "125.77"^^xsd:decimal ; rdfs:label "125.77 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "121.4"^^xsd:decimal ; rdfs:label "121.4 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 140/250: Aptian (Age) ──
+ts:aptian a gts:GeochronologicAge ;
+    rdfs:label "Aptian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Oceanic Anoxic Event 1a; first diverse angiosperm floras."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:early-cretaceous ;
+    time:hasBeginning [ time:inXSDgYear "121.4"^^xsd:decimal ; rdfs:label "121.4 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "113.2"^^xsd:decimal ; rdfs:label "113.2 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 141/250: Albian (Age) ──
+ts:albian a gts:GeochronologicAge ;
+    rdfs:label "Albian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "High sea levels; diverse ammonites; early social insects."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:early-cretaceous ;
+    time:hasBeginning [ time:inXSDgYear "113.2"^^xsd:decimal ; rdfs:label "113.2 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "100.5"^^xsd:decimal ; rdfs:label "100.5 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 142/250: Late Cretaceous (Epoch) ──
+ts:late-cretaceous a gts:GeochronologicEpoch ;
+    rdfs:label "Late Cretaceous"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Tyrannosaurus, Triceratops; angiosperms dominant; K-Pg extinction."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:cretaceous ;
+    time:hasBeginning [ time:inXSDgYear "100.5"^^xsd:decimal ; rdfs:label "100.5 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "66"^^xsd:decimal ; rdfs:label "66 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 143/250: Cenomanian (Age) ──
+ts:cenomanian a gts:GeochronologicAge ;
+    rdfs:label "Cenomanian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Highest sea levels in Cretaceous; OAE 2 at boundary."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:late-cretaceous ;
+    time:hasBeginning [ time:inXSDgYear "100.5"^^xsd:decimal ; rdfs:label "100.5 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "93.9"^^xsd:decimal ; rdfs:label "93.9 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 144/250: Turonian (Age) ──
+ts:turonian a gts:GeochronologicAge ;
+    rdfs:label "Turonian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Warmest period of Cretaceous; diverse reef ecosystems."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:late-cretaceous ;
+    time:hasBeginning [ time:inXSDgYear "93.9"^^xsd:decimal ; rdfs:label "93.9 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "89.4"^^xsd:decimal ; rdfs:label "89.4 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 145/250: Coniacian (Age) ──
+ts:coniacian a gts:GeochronologicAge ;
+    rdfs:label "Coniacian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Continued warm climates; hadrosaur diversification begins."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:late-cretaceous ;
+    time:hasBeginning [ time:inXSDgYear "89.4"^^xsd:decimal ; rdfs:label "89.4 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "86.3"^^xsd:decimal ; rdfs:label "86.3 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 146/250: Santonian (Age) ──
+ts:santonian a gts:GeochronologicAge ;
+    rdfs:label "Santonian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Ceratopsian dinosaurs diversify; early modern bird lineages."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:late-cretaceous ;
+    time:hasBeginning [ time:inXSDgYear "86.3"^^xsd:decimal ; rdfs:label "86.3 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "83.6"^^xsd:decimal ; rdfs:label "83.6 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 147/250: Campanian (Age) ──
+ts:campanian a gts:GeochronologicAge ;
+    rdfs:label "Campanian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Rich dinosaur faunas worldwide; chalk deposits form."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:late-cretaceous ;
+    time:hasBeginning [ time:inXSDgYear "83.6"^^xsd:decimal ; rdfs:label "83.6 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "72.2"^^xsd:decimal ; rdfs:label "72.2 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 148/250: Maastrichtian (Age) ──
+ts:maastrichtian a gts:GeochronologicAge ;
+    rdfs:label "Maastrichtian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Final stage; Chicxulub impact ends Mesozoic; ~76% of species extinct."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:late-cretaceous ;
+    time:hasBeginning [ time:inXSDgYear "72.2"^^xsd:decimal ; rdfs:label "72.2 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "66"^^xsd:decimal ; rdfs:label "66 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 149/250: Cenozoic (Era) ──
+ts:cenozoic a gts:GeochronologicEra ;
+    rdfs:label "Cenozoic"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Age of Mammals; grasslands, primates, hominins; current era."@en ;
+    gts:rank "Era" ;
+    skos:broader ts:phanerozoic ;
+    time:hasBeginning [ time:inXSDgYear "66"^^xsd:decimal ; rdfs:label "66 Ma" ] ;
+    time:hasEnd [ rdfs:label "Present" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 150/250: Paleogene (Period) ──
+ts:paleogene a gts:GeochronologicPeriod ;
+    rdfs:label "Paleogene"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Mammals diversify rapidly after K-Pg extinction; first primates."@en ;
+    gts:rank "Period" ;
+    skos:broader ts:cenozoic ;
+    time:hasBeginning [ time:inXSDgYear "66"^^xsd:decimal ; rdfs:label "66 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "23.03"^^xsd:decimal ; rdfs:label "23.03 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 151/250: Paleocene (Epoch) ──
+ts:paleocene a gts:GeochronologicEpoch ;
+    rdfs:label "Paleocene"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Post-extinction recovery; mammals remain small but diversify."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:paleogene ;
+    time:hasBeginning [ time:inXSDgYear "66"^^xsd:decimal ; rdfs:label "66 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "56"^^xsd:decimal ; rdfs:label "56 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 152/250: Danian (Age) ──
+ts:danian a gts:GeochronologicAge ;
+    rdfs:label "Danian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Earliest Cenozoic stage; mammals fill vacant ecological niches."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:paleocene ;
+    time:hasBeginning [ time:inXSDgYear "66"^^xsd:decimal ; rdfs:label "66 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "61.6"^^xsd:decimal ; rdfs:label "61.6 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 153/250: Selandian (Age) ──
+ts:selandian a gts:GeochronologicAge ;
+    rdfs:label "Selandian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Warm climates; early primate evolution."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:paleocene ;
+    time:hasBeginning [ time:inXSDgYear "61.6"^^xsd:decimal ; rdfs:label "61.6 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "59.2"^^xsd:decimal ; rdfs:label "59.2 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 154/250: Thanetian (Age) ──
+ts:thanetian a gts:GeochronologicAge ;
+    rdfs:label "Thanetian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Warming trend; diverse mammal faunas; London Clay formation."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:paleocene ;
+    time:hasBeginning [ time:inXSDgYear "59.2"^^xsd:decimal ; rdfs:label "59.2 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "56"^^xsd:decimal ; rdfs:label "56 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 155/250: Eocene (Epoch) ──
+ts:eocene a gts:GeochronologicEpoch ;
+    rdfs:label "Eocene"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Warmest Cenozoic epoch; first modern mammal orders; early whales, horses, bats."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:paleogene ;
+    time:hasBeginning [ time:inXSDgYear "56"^^xsd:decimal ; rdfs:label "56 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "33.9"^^xsd:decimal ; rdfs:label "33.9 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 156/250: Ypresian (Age) ──
+ts:ypresian a gts:GeochronologicAge ;
+    rdfs:label "Ypresian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Paleocene-Eocene Thermal Maximum (PETM); warmest global temperatures."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:eocene ;
+    time:hasBeginning [ time:inXSDgYear "56"^^xsd:decimal ; rdfs:label "56 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "47.8"^^xsd:decimal ; rdfs:label "47.8 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 157/250: Lutetian (Age) ──
+ts:lutetian a gts:GeochronologicAge ;
+    rdfs:label "Lutetian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Diversification of modern mammal families; early elephants."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:eocene ;
+    time:hasBeginning [ time:inXSDgYear "47.8"^^xsd:decimal ; rdfs:label "47.8 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "41.2"^^xsd:decimal ; rdfs:label "41.2 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 158/250: Bartonian (Age) ──
+ts:bartonian a gts:GeochronologicAge ;
+    rdfs:label "Bartonian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Gradual cooling begins; Antarctic ice sheet starts forming."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:eocene ;
+    time:hasBeginning [ time:inXSDgYear "41.2"^^xsd:decimal ; rdfs:label "41.2 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "37.71"^^xsd:decimal ; rdfs:label "37.71 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 159/250: Priabonian (Age) ──
+ts:priabonian a gts:GeochronologicAge ;
+    rdfs:label "Priabonian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Grande Coupure extinction event in Europe; dramatic cooling."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:eocene ;
+    time:hasBeginning [ time:inXSDgYear "37.71"^^xsd:decimal ; rdfs:label "37.71 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "33.9"^^xsd:decimal ; rdfs:label "33.9 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 160/250: Oligocene (Epoch) ──
+ts:oligocene a gts:GeochronologicEpoch ;
+    rdfs:label "Oligocene"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Cooler and drier; grasslands expand; modern mammal families establish."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:paleogene ;
+    time:hasBeginning [ time:inXSDgYear "33.9"^^xsd:decimal ; rdfs:label "33.9 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "23.03"^^xsd:decimal ; rdfs:label "23.03 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 161/250: Rupelian (Age) ──
+ts:rupelian a gts:GeochronologicAge ;
+    rdfs:label "Rupelian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Antarctic ice sheet permanent; global cooling continues."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:oligocene ;
+    time:hasBeginning [ time:inXSDgYear "33.9"^^xsd:decimal ; rdfs:label "33.9 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "27.82"^^xsd:decimal ; rdfs:label "27.82 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 162/250: Chattian (Age) ──
+ts:chattian a gts:GeochronologicAge ;
+    rdfs:label "Chattian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Late Oligocene warming; first deer and pigs appear."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:oligocene ;
+    time:hasBeginning [ time:inXSDgYear "27.82"^^xsd:decimal ; rdfs:label "27.82 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "23.03"^^xsd:decimal ; rdfs:label "23.03 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 163/250: Neogene (Period) ──
+ts:neogene a gts:GeochronologicPeriod ;
+    rdfs:label "Neogene"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Grasslands dominate; great apes evolve; Isthmus of Panama forms."@en ;
+    gts:rank "Period" ;
+    skos:broader ts:cenozoic ;
+    time:hasBeginning [ time:inXSDgYear "23.03"^^xsd:decimal ; rdfs:label "23.03 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "2.58"^^xsd:decimal ; rdfs:label "2.58 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 164/250: Miocene (Epoch) ──
+ts:miocene a gts:GeochronologicEpoch ;
+    rdfs:label "Miocene"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Kelp forests, grasslands; diverse apes; Messinian salinity crisis."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:neogene ;
+    time:hasBeginning [ time:inXSDgYear "23.03"^^xsd:decimal ; rdfs:label "23.03 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "5.33"^^xsd:decimal ; rdfs:label "5.33 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 165/250: Aquitanian (Age) ──
+ts:aquitanian a gts:GeochronologicAge ;
+    rdfs:label "Aquitanian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Early Miocene; warm climates; diverse marine mammals."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:miocene ;
+    time:hasBeginning [ time:inXSDgYear "23.03"^^xsd:decimal ; rdfs:label "23.03 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "20.44"^^xsd:decimal ; rdfs:label "20.44 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 166/250: Burdigalian (Age) ──
+ts:burdigalian a gts:GeochronologicAge ;
+    rdfs:label "Burdigalian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Mountain building (Alps, Himalayas); first great apes."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:miocene ;
+    time:hasBeginning [ time:inXSDgYear "20.44"^^xsd:decimal ; rdfs:label "20.44 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "15.98"^^xsd:decimal ; rdfs:label "15.98 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 167/250: Langhian (Age) ──
+ts:langhian a gts:GeochronologicAge ;
+    rdfs:label "Langhian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Mid-Miocene Climatic Optimum; widespread warmth."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:miocene ;
+    time:hasBeginning [ time:inXSDgYear "15.98"^^xsd:decimal ; rdfs:label "15.98 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "13.82"^^xsd:decimal ; rdfs:label "13.82 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 168/250: Serravallian (Age) ──
+ts:serravallian a gts:GeochronologicAge ;
+    rdfs:label "Serravallian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Cooling resumes; East Antarctic ice sheet expands."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:miocene ;
+    time:hasBeginning [ time:inXSDgYear "13.82"^^xsd:decimal ; rdfs:label "13.82 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "11.63"^^xsd:decimal ; rdfs:label "11.63 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 169/250: Tortonian (Age) ──
+ts:tortonian a gts:GeochronologicAge ;
+    rdfs:label "Tortonian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Mediterranean begins to close; hominoids disperse from Africa."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:miocene ;
+    time:hasBeginning [ time:inXSDgYear "11.63"^^xsd:decimal ; rdfs:label "11.63 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "7.246"^^xsd:decimal ; rdfs:label "7.246 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 170/250: Messinian (Age) ──
+ts:messinian a gts:GeochronologicAge ;
+    rdfs:label "Messinian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Messinian Salinity Crisis: Mediterranean nearly dries up."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:miocene ;
+    time:hasBeginning [ time:inXSDgYear "7.246"^^xsd:decimal ; rdfs:label "7.246 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "5.33"^^xsd:decimal ; rdfs:label "5.33 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 171/250: Pliocene (Epoch) ──
+ts:pliocene a gts:GeochronologicEpoch ;
+    rdfs:label "Pliocene"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Australopithecus; Arctic ice cap forms; Isthmus of Panama closes."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:neogene ;
+    time:hasBeginning [ time:inXSDgYear "5.33"^^xsd:decimal ; rdfs:label "5.33 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "2.58"^^xsd:decimal ; rdfs:label "2.58 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 172/250: Zanclean (Age) ──
+ts:zanclean a gts:GeochronologicAge ;
+    rdfs:label "Zanclean"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Zanclean flood refills Mediterranean; Australopithecus afarensis."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:pliocene ;
+    time:hasBeginning [ time:inXSDgYear "5.33"^^xsd:decimal ; rdfs:label "5.33 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "3.6"^^xsd:decimal ; rdfs:label "3.6 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 173/250: Piacenzian (Age) ──
+ts:piacenzian a gts:GeochronologicAge ;
+    rdfs:label "Piacenzian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Mid-Piacenzian Warm Period; early Homo?; Northern Hemisphere glaciation starts."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:pliocene ;
+    time:hasBeginning [ time:inXSDgYear "3.6"^^xsd:decimal ; rdfs:label "3.6 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "2.58"^^xsd:decimal ; rdfs:label "2.58 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 174/250: Quaternary (Period) ──
+ts:quaternary a gts:GeochronologicPeriod ;
+    rdfs:label "Quaternary"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Ice ages and interglacials; evolution and spread of Homo sapiens."@en ;
+    gts:rank "Period" ;
+    skos:broader ts:cenozoic ;
+    time:hasBeginning [ time:inXSDgYear "2.58"^^xsd:decimal ; rdfs:label "2.58 Ma" ] ;
+    time:hasEnd [ rdfs:label "Present" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 175/250: Pleistocene (Epoch) ──
+ts:pleistocene a gts:GeochronologicEpoch ;
+    rdfs:label "Pleistocene"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Repeated glaciations; megafauna; Homo erectus, Neanderthals, modern humans."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:quaternary ;
+    time:hasBeginning [ time:inXSDgYear "2.58"^^xsd:decimal ; rdfs:label "2.58 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "0.0117"^^xsd:decimal ; rdfs:label "0.0117 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 176/250: Gelasian (Age) ──
+ts:gelasian a gts:GeochronologicAge ;
+    rdfs:label "Gelasian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Earliest Pleistocene; Northern Hemisphere glaciation intensifies; early Homo."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:pleistocene ;
+    time:hasBeginning [ time:inXSDgYear "2.58"^^xsd:decimal ; rdfs:label "2.58 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "1.8"^^xsd:decimal ; rdfs:label "1.8 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 177/250: Calabrian (Age) ──
+ts:calabrian a gts:GeochronologicAge ;
+    rdfs:label "Calabrian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Homo erectus disperses out of Africa; Brunhes-Matuyama reversal at end."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:pleistocene ;
+    time:hasBeginning [ time:inXSDgYear "1.8"^^xsd:decimal ; rdfs:label "1.8 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "0.774"^^xsd:decimal ; rdfs:label "0.774 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 178/250: Chibanian (Age) ──
+ts:chibanian a gts:GeochronologicAge ;
+    rdfs:label "Chibanian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Homo heidelbergensis; Neanderthals evolve; major glacial cycles."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:pleistocene ;
+    time:hasBeginning [ time:inXSDgYear "0.774"^^xsd:decimal ; rdfs:label "0.774 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "0.129"^^xsd:decimal ; rdfs:label "0.129 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 179/250: Late Pleistocene (Age) ──
+ts:late-pleistocene a gts:GeochronologicAge ;
+    rdfs:label "Late Pleistocene"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Homo sapiens expands globally; Neanderthal extinction; Last Glacial Maximum."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:pleistocene ;
+    time:hasBeginning [ time:inXSDgYear "0.129"^^xsd:decimal ; rdfs:label "0.129 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "0.0117"^^xsd:decimal ; rdfs:label "0.0117 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 180/250: Holocene (Epoch) ──
+ts:holocene a gts:GeochronologicEpoch ;
+    rdfs:label "Holocene"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Current epoch; stable warm climate; rise of agriculture, civilization."@en ;
+    gts:rank "Epoch" ;
+    skos:broader ts:quaternary ;
+    time:hasBeginning [ rdfs:label "11700 years BP" ] ;
+    time:hasEnd [ rdfs:label "Present" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 181/250: Greenlandian (Age) ──
+ts:greenlandian a gts:GeochronologicAge ;
+    rdfs:label "Greenlandian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Early Holocene; post-glacial warming; Mesolithic hunter-gatherers in Europe."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:holocene ;
+    time:hasBeginning [ rdfs:label "11700 years BP" ] ;
+    time:hasEnd [ rdfs:label "8200 years BP" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 182/250: Northgrippian (Age) ──
+ts:northgrippian a gts:GeochronologicAge ;
+    rdfs:label "Northgrippian"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Middle Holocene; 8.2 ka cold event; agriculture spreads through Europe."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:holocene ;
+    time:hasBeginning [ rdfs:label "8200 years BP" ] ;
+    time:hasEnd [ rdfs:label "4200 years BP" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 183/250: Meghalayan (Age) ──
+ts:meghalayan a gts:GeochronologicAge ;
+    rdfs:label "Meghalayan"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Late Holocene; 4.2 ka drought; rise and fall of Bronze Age civilizations; present day."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:holocene ;
+    time:hasBeginning [ rdfs:label "4200 years BP" ] ;
+    time:hasEnd [ rdfs:label "Present" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 184/250: Stone Age (CulturalAge) ──
+ts:stone-age a gts:GeochronologicAge ;
+    rdfs:label "Stone Age"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Longest period of human prehistory; defined by use of stone tools. Three-age system by C.J. Thomsen."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:holocene ;
+    time:hasBeginning [ rdfs:label "3300000 BCE" ] ;
+    time:hasEnd [ rdfs:label "3300 BCE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 185/250: Paleolithic (Old Stone Age) (CulturalAge) ──
+ts:paleolithic a gts:GeochronologicAge ;
+    rdfs:label "Paleolithic (Old Stone Age)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Oldest division; hunter-gatherer societies; development of stone tool technology."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:stone-age ;
+    time:hasBeginning [ rdfs:label "3300000 BCE" ] ;
+    time:hasEnd [ rdfs:label "10000 BCE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 186/250: Lower Paleolithic (CulturalAge) ──
+ts:lower-paleolithic a gts:GeochronologicAge ;
+    rdfs:label "Lower Paleolithic"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Homo habilis, Homo erectus; Oldowan and Acheulean tool industries."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:paleolithic ;
+    time:hasBeginning [ rdfs:label "3300000 BCE" ] ;
+    time:hasEnd [ rdfs:label "300000 BCE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 187/250: Middle Paleolithic (CulturalAge) ──
+ts:middle-paleolithic a gts:GeochronologicAge ;
+    rdfs:label "Middle Paleolithic"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Neanderthals in Europe; Mousterian tool industry; first evidence of symbolic behavior."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:paleolithic ;
+    time:hasBeginning [ rdfs:label "300000 BCE" ] ;
+    time:hasEnd [ rdfs:label "50000 BCE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 188/250: Upper Paleolithic (CulturalAge) ──
+ts:upper-paleolithic a gts:GeochronologicAge ;
+    rdfs:label "Upper Paleolithic"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Homo sapiens in Europe; cave art (Lascaux, Altamira); Aurignacian, Gravettian, Magdalenian cultures."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:paleolithic ;
+    time:hasBeginning [ rdfs:label "50000 BCE" ] ;
+    time:hasEnd [ rdfs:label "10000 BCE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 189/250: Mesolithic (Middle Stone Age) (CulturalAge) ──
+ts:mesolithic a gts:GeochronologicAge ;
+    rdfs:label "Mesolithic (Middle Stone Age)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Post-glacial; microlithic tools; Scandinavia first settled ~9500 BCE. Maglemosian, Kongemose, Ertebølle cultures."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:stone-age ;
+    time:hasBeginning [ rdfs:label "10000 BCE" ] ;
+    time:hasEnd [ rdfs:label "4000 BCE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 190/250: Maglemosian Culture (CulturalAge) ──
+ts:maglemosian a gts:GeochronologicAge ;
+    rdfs:label "Maglemosian Culture"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Early Mesolithic hunter-gatherer culture in southern Scandinavia and northern Germany; flint microliths, bone harpoons."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:mesolithic ;
+    time:hasBeginning [ rdfs:label "9000 BCE" ] ;
+    time:hasEnd [ rdfs:label "6000 BCE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 191/250: Kongemose Culture (CulturalAge) ──
+ts:kongemose a gts:GeochronologicAge ;
+    rdfs:label "Kongemose Culture"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Middle Mesolithic in Denmark and southern Sweden; coastal adaptation, fishing, seal hunting."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:mesolithic ;
+    time:hasBeginning [ rdfs:label "6000 BCE" ] ;
+    time:hasEnd [ rdfs:label "5200 BCE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 192/250: Ertebølle Culture (CulturalAge) ──
+ts:ertebolleculture a gts:GeochronologicAge ;
+    rdfs:label "Ertebølle Culture"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Late Mesolithic in southern Scandinavia; first pottery, large shell middens, transition to agriculture."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:mesolithic ;
+    time:hasBeginning [ rdfs:label "5300 BCE" ] ;
+    time:hasEnd [ rdfs:label "3950 BCE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 193/250: Neolithic (New Stone Age) (CulturalAge) ──
+ts:neolithic a gts:GeochronologicAge ;
+    rdfs:label "Neolithic (New Stone Age)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Agriculture, polished stone tools, pottery, permanent settlements. Funnelbeaker culture in Scandinavia (~4000–2700 BCE)."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:stone-age ;
+    time:hasBeginning [ rdfs:label "4000 BCE" ] ;
+    time:hasEnd [ rdfs:label "2000 BCE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 194/250: Funnelbeaker Culture (TRB) (CulturalAge) ──
+ts:funnelbeaker a gts:GeochronologicAge ;
+    rdfs:label "Funnelbeaker Culture (TRB)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "First farming culture in Scandinavia; megalithic tombs (dolmens, passage graves); pottery with funnel-shaped rims."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:neolithic ;
+    time:hasBeginning [ rdfs:label "4000 BCE" ] ;
+    time:hasEnd [ rdfs:label "2700 BCE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 195/250: Pitted Ware Culture (CulturalAge) ──
+ts:pitted-ware a gts:GeochronologicAge ;
+    rdfs:label "Pitted Ware Culture"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Concurrent hunter-gatherer-fisher culture in eastern Sweden, Gotland, and Finland; seal hunting, characteristic pitted pottery."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:neolithic ;
+    time:hasBeginning [ rdfs:label "3200 BCE" ] ;
+    time:hasEnd [ rdfs:label "2300 BCE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 196/250: Battle Axe Culture (Boat Axe Culture) (CulturalAge) ──
+ts:battle-axe a gts:GeochronologicAge ;
+    rdfs:label "Battle Axe Culture (Boat Axe Culture)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Scandinavian variant of Corded Ware culture; single graves, polished stone battle axes, early Indo-European influences."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:neolithic ;
+    time:hasBeginning [ rdfs:label "2800 BCE" ] ;
+    time:hasEnd [ rdfs:label "2300 BCE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 197/250: Late Neolithic Scandinavia (CulturalAge) ──
+ts:nordic-neolithic-late a gts:GeochronologicAge ;
+    rdfs:label "Late Neolithic Scandinavia"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Transition to metalworking; flint daggers imitate bronze; Bell Beaker influences reach Scandinavia."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:neolithic ;
+    time:hasBeginning [ rdfs:label "2300 BCE" ] ;
+    time:hasEnd [ rdfs:label "1750 BCE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 198/250: Chalcolithic (Copper Age) (CulturalAge) ──
+ts:chalcolithic a gts:GeochronologicAge ;
+    rdfs:label "Chalcolithic (Copper Age)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Transitional period; first metalworking (copper); Ötzi the Iceman; Corded Ware culture in Northern Europe."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:holocene ;
+    time:hasBeginning [ rdfs:label "3500 BCE" ] ;
+    time:hasEnd [ rdfs:label "2000 BCE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 199/250: Bronze Age (CulturalAge) ──
+ts:bronze-age a gts:GeochronologicAge ;
+    rdfs:label "Bronze Age"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Defined by bronze metallurgy. Near East ~3300 BCE; Nordic Bronze Age begins ~1750 BCE."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:holocene ;
+    time:hasBeginning [ rdfs:label "3300 BCE" ] ;
+    time:hasEnd [ rdfs:label "1200 BCE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 200/250: Early Bronze Age (CulturalAge) ──
+ts:early-bronze-age a gts:GeochronologicAge ;
+    rdfs:label "Early Bronze Age"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Near East & Mediterranean: urbanization, writing systems, first empires."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:bronze-age ;
+    time:hasBeginning [ rdfs:label "3300 BCE" ] ;
+    time:hasEnd [ rdfs:label "2000 BCE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 201/250: Middle Bronze Age (CulturalAge) ──
+ts:middle-bronze-age a gts:GeochronologicAge ;
+    rdfs:label "Middle Bronze Age"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Minoan civilization peaks; Nordic Bronze Age begins (~1750 BCE); extensive trade networks."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:bronze-age ;
+    time:hasBeginning [ rdfs:label "2000 BCE" ] ;
+    time:hasEnd [ rdfs:label "1550 BCE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 202/250: Late Bronze Age (CulturalAge) ──
+ts:late-bronze-age a gts:GeochronologicAge ;
+    rdfs:label "Late Bronze Age"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Mycenaean Greece; New Kingdom Egypt; Late Bronze Age collapse (~1200 BCE)."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:bronze-age ;
+    time:hasBeginning [ rdfs:label "1550 BCE" ] ;
+    time:hasEnd [ rdfs:label "1200 BCE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 203/250: Nordic Bronze Age (CulturalAge) ──
+ts:nordic-bronze-age a gts:GeochronologicAge ;
+    rdfs:label "Nordic Bronze Age"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Scandinavian Bronze Age; elaborate burial mounds, rock carvings (hällristningar), sun chariot of Trundholm."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:bronze-age ;
+    time:hasBeginning [ rdfs:label "1750 BCE" ] ;
+    time:hasEnd [ rdfs:label "500 BCE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 204/250: Early Nordic Bronze Age (Period I–III) (CulturalAge) ──
+ts:nordic-bronze-early a gts:GeochronologicAge ;
+    rdfs:label "Early Nordic Bronze Age (Period I–III)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Oak coffin burials (Egtved Girl, Skrydstrup Woman); Trundholm sun chariot; wealth from amber trade."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:nordic-bronze-age ;
+    time:hasBeginning [ rdfs:label "1750 BCE" ] ;
+    time:hasEnd [ rdfs:label "1100 BCE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 205/250: Late Nordic Bronze Age (Period IV–VI) (CulturalAge) ──
+ts:nordic-bronze-late a gts:GeochronologicAge ;
+    rdfs:label "Late Nordic Bronze Age (Period IV–VI)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Cremation replaces inhumation; lur horns; rock carvings peak; declining bronze imports."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:nordic-bronze-age ;
+    time:hasBeginning [ rdfs:label "1100 BCE" ] ;
+    time:hasEnd [ rdfs:label "500 BCE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 206/250: Iron Age (CulturalAge) ──
+ts:iron-age a gts:GeochronologicAge ;
+    rdfs:label "Iron Age"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Defined by iron smelting and tools. Near East ~1200 BCE; Scandinavia ~500 BCE."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:holocene ;
+    time:hasBeginning [ rdfs:label "1200 BCE" ] ;
+    time:hasEnd [ rdfs:label "1 BCE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 207/250: Pre-Roman Iron Age (CulturalAge) ──
+ts:pre-roman-iron-age a gts:GeochronologicAge ;
+    rdfs:label "Pre-Roman Iron Age"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Iron working spreads to Scandinavia; bog ore smelting; Jastorf culture."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:iron-age ;
+    time:hasBeginning [ rdfs:label "500 BCE" ] ;
+    time:hasEnd [ rdfs:label "1 BCE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 208/250: Early Pre-Roman Iron Age (CulturalAge) ──
+ts:pre-roman-iron-early a gts:GeochronologicAge ;
+    rdfs:label "Early Pre-Roman Iron Age"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Transition from bronze; first local iron production from bog ore in southern Scandinavia."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:pre-roman-iron-age ;
+    time:hasBeginning [ rdfs:label "500 BCE" ] ;
+    time:hasEnd [ rdfs:label "250 BCE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 209/250: Late Pre-Roman Iron Age (CulturalAge) ──
+ts:pre-roman-iron-late a gts:GeochronologicAge ;
+    rdfs:label "Late Pre-Roman Iron Age"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Celtic La Tène influences; Hjortspring boat (350 BCE); complex hillforts."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:pre-roman-iron-age ;
+    time:hasBeginning [ rdfs:label "250 BCE" ] ;
+    time:hasEnd [ rdfs:label "1 BCE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 210/250: Roman Iron Age (CulturalAge) ──
+ts:roman-iron-age a gts:GeochronologicAge ;
+    rdfs:label "Roman Iron Age"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Roman influence on Germanic societies; runes develop; trade with the Roman Empire."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:holocene ;
+    time:hasBeginning [ rdfs:label "1 CE" ] ;
+    time:hasEnd [ rdfs:label "400 CE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 211/250: Early Roman Iron Age (CulturalAge) ──
+ts:early-roman-iron a gts:GeochronologicAge ;
+    rdfs:label "Early Roman Iron Age"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Increasing trade with Roman provinces; imported bronze vessels; first runic inscriptions."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:roman-iron-age ;
+    time:hasBeginning [ rdfs:label "1 CE" ] ;
+    time:hasEnd [ rdfs:label "200 CE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 212/250: Late Roman Iron Age (CulturalAge) ──
+ts:late-roman-iron a gts:GeochronologicAge ;
+    rdfs:label "Late Roman Iron Age"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Gold solidi flow north; Nydam boat (320 CE); elaborate weapon deposits in bogs."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:roman-iron-age ;
+    time:hasBeginning [ rdfs:label "200 CE" ] ;
+    time:hasEnd [ rdfs:label "400 CE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 213/250: Migration Period (Völkerwanderung) (CulturalAge) ──
+ts:migration-period a gts:GeochronologicAge ;
+    rdfs:label "Migration Period (Völkerwanderung)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Fall of Western Rome; Germanic peoples migrate across Europe; gold bracteates and collars in Scandinavia."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:holocene ;
+    time:hasBeginning [ rdfs:label "375 CE" ] ;
+    time:hasEnd [ rdfs:label "550 CE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 214/250: Vendel Period (Merovingian Period) (CulturalAge) ──
+ts:vendel-period a gts:GeochronologicAge ;
+    rdfs:label "Vendel Period (Merovingian Period)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Swedish golden age; Vendel and Valsgärde boat burials; elaborate animal-style ornamentation."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:holocene ;
+    time:hasBeginning [ rdfs:label "550 CE" ] ;
+    time:hasEnd [ rdfs:label "790 CE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 215/250: Viking Age (CulturalAge) ──
+ts:viking-age a gts:GeochronologicAge ;
+    rdfs:label "Viking Age"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Norse expansion, raiding, trading, and settlement; Birka, Hedeby; Christianization of Scandinavia."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:holocene ;
+    time:hasBeginning [ rdfs:label "790 CE" ] ;
+    time:hasEnd [ rdfs:label "1100 CE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 216/250: Early Viking Age (CulturalAge) ──
+ts:early-viking-age a gts:GeochronologicAge ;
+    rdfs:label "Early Viking Age"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Raid on Lindisfarne (793); establishment of Norse trading centers; Oseberg ship burial."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:viking-age ;
+    time:hasBeginning [ rdfs:label "790 CE" ] ;
+    time:hasEnd [ rdfs:label "900 CE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 217/250: Middle Viking Age (CulturalAge) ──
+ts:middle-viking-age a gts:GeochronologicAge ;
+    rdfs:label "Middle Viking Age"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Danelaw in England; Normandy settled; Icelandic settlement; Bluetooth's Denmark."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:viking-age ;
+    time:hasBeginning [ rdfs:label "900 CE" ] ;
+    time:hasEnd [ rdfs:label "1000 CE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 218/250: Late Viking Age (CulturalAge) ──
+ts:late-viking-age a gts:GeochronologicAge ;
+    rdfs:label "Late Viking Age"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Christianization; end of Norse paganism; Cnut the Great's North Sea Empire."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:viking-age ;
+    time:hasBeginning [ rdfs:label "1000 CE" ] ;
+    time:hasEnd [ rdfs:label "1100 CE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 219/250: Medieval Period (CulturalAge) ──
+ts:medieval-period a gts:GeochronologicAge ;
+    rdfs:label "Medieval Period"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Scandinavian medieval period; Christianity dominant; Hanseatic trade; Gothic cathedrals; Black Death (1349)."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:holocene ;
+    time:hasBeginning [ rdfs:label "1050 CE" ] ;
+    time:hasEnd [ rdfs:label "1520 CE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 220/250: Early Medieval Period (CulturalAge) ──
+ts:early-medieval a gts:GeochronologicAge ;
+    rdfs:label "Early Medieval Period"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Church consolidation; first Scandinavian dioceses; Romanesque architecture."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:medieval-period ;
+    time:hasBeginning [ rdfs:label "1050 CE" ] ;
+    time:hasEnd [ rdfs:label "1200 CE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 221/250: High Medieval Period (CulturalAge) ──
+ts:high-medieval a gts:GeochronologicAge ;
+    rdfs:label "High Medieval Period"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Hanseatic League; Gothic architecture; Kalmar Union precursors; population growth."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:medieval-period ;
+    time:hasBeginning [ rdfs:label "1200 CE" ] ;
+    time:hasEnd [ rdfs:label "1350 CE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 222/250: Late Medieval Period (CulturalAge) ──
+ts:late-medieval a gts:GeochronologicAge ;
+    rdfs:label "Late Medieval Period"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Black Death aftermath; Kalmar Union (1397); Reformation approaches."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:medieval-period ;
+    time:hasBeginning [ rdfs:label "1350 CE" ] ;
+    time:hasEnd [ rdfs:label "1520 CE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 223/250: Early Modern Period (CulturalAge) ──
+ts:early-modern a gts:GeochronologicAge ;
+    rdfs:label "Early Modern Period"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Reformation; Vasa dynasty; Swedish Empire (stormaktstiden); Age of Enlightenment."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:holocene ;
+    time:hasBeginning [ rdfs:label "1520 CE" ] ;
+    time:hasEnd [ rdfs:label "1789 CE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 224/250: Reformation Era (CulturalAge) ──
+ts:reformation-era a gts:GeochronologicAge ;
+    rdfs:label "Reformation Era"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Protestant Reformation; Gustav Vasa establishes hereditary monarchy; dissolution of monasteries."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:early-modern ;
+    time:hasBeginning [ rdfs:label "1520 CE" ] ;
+    time:hasEnd [ rdfs:label "1600 CE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 225/250: Swedish Empire (Stormaktstiden) (CulturalAge) ──
+ts:swedish-empire a gts:GeochronologicAge ;
+    rdfs:label "Swedish Empire (Stormaktstiden)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Sweden as great power; Thirty Years War; Baltic dominance; ends with Great Northern War."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:early-modern ;
+    time:hasBeginning [ rdfs:label "1611 CE" ] ;
+    time:hasEnd [ rdfs:label "1721 CE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 226/250: Age of Liberty (Frihetstiden) (CulturalAge) ──
+ts:age-of-liberty a gts:GeochronologicAge ;
+    rdfs:label "Age of Liberty (Frihetstiden)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Parliamentary rule after Charles XII; Enlightenment science (Linnaeus, Celsius); cultural flourishing."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:early-modern ;
+    time:hasBeginning [ rdfs:label "1718 CE" ] ;
+    time:hasEnd [ rdfs:label "1772 CE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 227/250: Modern Period (CulturalAge) ──
+ts:modern-period a gts:GeochronologicAge ;
+    rdfs:label "Modern Period"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "French Revolution to present; industrialization, nation-states, globalization."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:holocene ;
+    time:hasBeginning [ rdfs:label "1789 CE" ] ;
+    time:hasEnd [ rdfs:label "Present" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 228/250: Industrial Age (CulturalAge) ──
+ts:industrial-age a gts:GeochronologicAge ;
+    rdfs:label "Industrial Age"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Industrialization transforms Europe; railways, urbanization; mass emigration from Scandinavia to Americas."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:modern-period ;
+    time:hasBeginning [ rdfs:label "1789 CE" ] ;
+    time:hasEnd [ rdfs:label "1914 CE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 229/250: Contemporary Period (CulturalAge) ──
+ts:contemporary a gts:GeochronologicAge ;
+    rdfs:label "Contemporary Period"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "World Wars, welfare states, digital revolution; Scandinavian social democracies."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:modern-period ;
+    time:hasBeginning [ rdfs:label "1914 CE" ] ;
+    time:hasEnd [ rdfs:label "Present" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 230/250: End-Ordovician Extinction (Age) ──
+ts:end-ordovician-extinction a gts:GeochronologicAge ;
+    rdfs:label "End-Ordovician Extinction"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "First of the Big Five; ~85% of marine species lost; caused by Gondwanan glaciation and sea-level fall."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:late-ordovician ;
+    time:hasBeginning [ time:inXSDgYear "445"^^xsd:decimal ; rdfs:label "445 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "443"^^xsd:decimal ; rdfs:label "443 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 231/250: Late Devonian Extinction (Age) ──
+ts:late-devonian-extinction a gts:GeochronologicAge ;
+    rdfs:label "Late Devonian Extinction"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Second of the Big Five; ~75% of species lost over millions of years; reef ecosystems collapse."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:late-devonian ;
+    time:hasBeginning [ time:inXSDgYear "375"^^xsd:decimal ; rdfs:label "375 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "359"^^xsd:decimal ; rdfs:label "359 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 232/250: Permian–Triassic Extinction (The Great Dying) (Age) ──
+ts:permian-triassic-extinction a gts:GeochronologicAge ;
+    rdfs:label "Permian–Triassic Extinction (The Great Dying)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Worst mass extinction: ~96% of marine and ~70% of land species; Siberian Traps volcanism."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:lopingian ;
+    time:hasBeginning [ time:inXSDgYear "252"^^xsd:decimal ; rdfs:label "252 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "251"^^xsd:decimal ; rdfs:label "251 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 233/250: Triassic–Jurassic Extinction (Age) ──
+ts:triassic-jurassic-extinction a gts:GeochronologicAge ;
+    rdfs:label "Triassic–Jurassic Extinction"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Fourth of the Big Five; ~80% of species lost; CAMP volcanism; opens way for dinosaur dominance."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:late-triassic ;
+    time:hasBeginning [ time:inXSDgYear "201.5"^^xsd:decimal ; rdfs:label "201.5 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "201.3"^^xsd:decimal ; rdfs:label "201.3 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 234/250: Cretaceous–Paleogene Extinction (K-Pg) (Age) ──
+ts:cretaceous-paleogene-extinction a gts:GeochronologicAge ;
+    rdfs:label "Cretaceous–Paleogene Extinction (K-Pg)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Fifth of the Big Five; Chicxulub asteroid impact; all non-avian dinosaurs extinct; ~76% of species lost."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:late-cretaceous ;
+    time:hasBeginning [ time:inXSDgYear "66.05"^^xsd:decimal ; rdfs:label "66.05 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "66"^^xsd:decimal ; rdfs:label "66 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 235/250: Great Oxidation Event (Age) ──
+ts:great-oxidation a gts:GeochronologicAge ;
+    rdfs:label "Great Oxidation Event"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Free oxygen accumulates in atmosphere for first time; mass die-off of anaerobic organisms; banded iron formations cease."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:rhyacian ;
+    time:hasBeginning [ time:inXSDgYear "2400"^^xsd:decimal ; rdfs:label "2400 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "2060"^^xsd:decimal ; rdfs:label "2060 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 236/250: Huronian Glaciation (Age) ──
+ts:huronian-glaciation a gts:GeochronologicAge ;
+    rdfs:label "Huronian Glaciation"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "First known Snowball Earth event; possibly triggered by Great Oxidation Event reducing methane greenhouse."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:rhyacian ;
+    time:hasBeginning [ time:inXSDgYear "2400"^^xsd:decimal ; rdfs:label "2400 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "2100"^^xsd:decimal ; rdfs:label "2100 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 237/250: Paleocene–Eocene Thermal Maximum (PETM) (Age) ──
+ts:petm a gts:GeochronologicAge ;
+    rdfs:label "Paleocene–Eocene Thermal Maximum (PETM)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Rapid global warming of 5–8 °C; massive carbon release; mammals disperse across continents."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:ypresian ;
+    time:hasBeginning [ time:inXSDgYear "55.8"^^xsd:decimal ; rdfs:label "55.8 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "55.6"^^xsd:decimal ; rdfs:label "55.6 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 238/250: Messinian Salinity Crisis (Age) ──
+ts:messinian-crisis a gts:GeochronologicAge ;
+    rdfs:label "Messinian Salinity Crisis"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Mediterranean Sea nearly dries up due to tectonic closure of Strait of Gibraltar; massive evaporite deposits."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:messinian ;
+    time:hasBeginning [ time:inXSDgYear "5.96"^^xsd:decimal ; rdfs:label "5.96 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "5.33"^^xsd:decimal ; rdfs:label "5.33 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 239/250: Last Glacial Maximum (Age) ──
+ts:last-glacial-max a gts:GeochronologicAge ;
+    rdfs:label "Last Glacial Maximum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Peak of last ice age ~26,000 years ago; ice sheets cover Scandinavia, Britain, northern Europe; sea level ~120 m lower."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:late-pleistocene ;
+    time:hasBeginning [ time:inXSDgYear "0.026"^^xsd:decimal ; rdfs:label "0.026 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "0.019"^^xsd:decimal ; rdfs:label "0.019 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 240/250: Younger Dryas (Age) ──
+ts:younger-dryas a gts:GeochronologicAge ;
+    rdfs:label "Younger Dryas"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Abrupt return to glacial conditions for ~1,200 years; end marks start of Holocene; cause debated (meltwater pulse?)."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:greenlandian ;
+    time:hasBeginning [ rdfs:label "12900 years BP" ] ;
+    time:hasEnd [ rdfs:label "11700 years BP" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 241/250: 8.2 ka Cold Event (Age) ──
+ts:8.2ka-event a gts:GeochronologicAge ;
+    rdfs:label "8.2 ka Cold Event"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Sudden cooling for ~150 years; collapse of Laurentide ice sheet drains glacial lakes into Atlantic; disrupts thermohaline circulation."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:northgrippian ;
+    time:hasBeginning [ rdfs:label "8200 years BP" ] ;
+    time:hasEnd [ rdfs:label "8000 years BP" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 242/250: 4.2 ka Aridification Event (Age) ──
+ts:4.2ka-event a gts:GeochronologicAge ;
+    rdfs:label "4.2 ka Aridification Event"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Severe drought lasting ~200 years; contributes to collapse of Akkadian Empire, Old Kingdom Egypt, Harappan civilization."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:meghalayan ;
+    time:hasBeginning [ rdfs:label "4200 years BP" ] ;
+    time:hasEnd [ rdfs:label "3900 years BP" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 243/250: Sámi Prehistory (CulturalAge) ──
+ts:sami-prehistory a gts:GeochronologicAge ;
+    rdfs:label "Sámi Prehistory"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Indigenous Sámi settlement of northern Fennoscandia; reindeer herding develops; Komsa and Fosna cultures; sieiddit (sacred sites)."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:holocene ;
+    time:hasBeginning [ rdfs:label "8000 CE" ] ;
+    time:hasEnd [ rdfs:label "1600 CE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 244/250: Asbestos Ceramic Period (Finland) (CulturalAge) ──
+ts:asbestos-ceramic a gts:GeochronologicAge ;
+    rdfs:label "Asbestos Ceramic Period (Finland)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Distinctive Finnish Neolithic pottery tempered with asbestos fibers; Comb Ceramic culture (~3900–2800 BCE)."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:neolithic ;
+    time:hasBeginning [ rdfs:label "4000 BCE" ] ;
+    time:hasEnd [ rdfs:label "2000 BCE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 245/250: Celtic Iron Age Influences in Scandinavia (CulturalAge) ──
+ts:nordic-iron-age-celtic a gts:GeochronologicAge ;
+    rdfs:label "Celtic Iron Age Influences in Scandinavia"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "La Tène art style reaches Scandinavia; Hjortspring boat; early hillforts in southern Sweden and Denmark."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:pre-roman-iron-age ;
+    time:hasBeginning [ rdfs:label "400 BCE" ] ;
+    time:hasEnd [ rdfs:label "200 BCE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 246/250: Baltic Crusades Period (CulturalAge) ──
+ts:baltic-crusades a gts:GeochronologicAge ;
+    rdfs:label "Baltic Crusades Period"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Northern Crusades; Christianization of Baltic region; Teutonic Order; Swedish crusades to Finland."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:medieval-period ;
+    time:hasBeginning [ rdfs:label "1147 CE" ] ;
+    time:hasEnd [ rdfs:label "1290 CE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 247/250: Hanseatic Period in Scandinavia (CulturalAge) ──
+ts:hanseatic-period a gts:GeochronologicAge ;
+    rdfs:label "Hanseatic Period in Scandinavia"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Hanseatic League dominates Baltic trade; German merchants in Visby, Bergen, Stockholm; Lübeck law adopted."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:medieval-period ;
+    time:hasBeginning [ rdfs:label "1250 CE" ] ;
+    time:hasEnd [ rdfs:label "1450 CE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 248/250: Kalmar Union (CulturalAge) ──
+ts:kalmar-union a gts:GeochronologicAge ;
+    rdfs:label "Kalmar Union"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Union of Denmark, Norway, and Sweden under one monarch; Queen Margrete I; dissolved by Gustav Vasa's rebellion."@en ;
+    gts:rank "CulturalAge" ;
+    skos:broader ts:late-medieval ;
+    time:hasBeginning [ rdfs:label "1397 CE" ] ;
+    time:hasEnd [ rdfs:label "1523 CE" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 249/250: Eocene–Oligocene Extinction (Grande Coupure) (Age) ──
+ts:eocene-oligocene-extinction a gts:GeochronologicAge ;
+    rdfs:label "Eocene–Oligocene Extinction (Grande Coupure)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Major faunal turnover in Europe; Asian mammals invade; dramatic cooling as Antarctic ice sheet forms."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:priabonian ;
+    time:hasBeginning [ time:inXSDgYear "33.9"^^xsd:decimal ; rdfs:label "33.9 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "33.7"^^xsd:decimal ; rdfs:label "33.7 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
+
+# ── 250/250: Cambrian Explosion (Age) ──
+ts:cambrian-explosion a gts:GeochronologicAge ;
+    rdfs:label "Cambrian Explosion"@en ;
+    skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
+    skos:definition "Most major animal phyla appear in fossil record within ~25 Myr; Burgess Shale, Chengjiang faunas; cause debated."@en ;
+    gts:rank "Age" ;
+    skos:broader ts:epoch2-cambrian ;
+    time:hasBeginning [ time:inXSDgYear "538.8"^^xsd:decimal ; rdfs:label "538.8 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "510"^^xsd:decimal ; rdfs:label "510 Ma" ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
