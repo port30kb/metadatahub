@@ -320,21 +320,21 @@ add("norian", "Norian", "Age", "late-triassic", 227, 208.5, "Ma",
 add("rhaetian", "Rhaetian", "Age", "late-triassic", 208.5, 201.4, "Ma",
     "End-Triassic extinction opens ecological niches for dinosaurs.")
 
-add("jurassic", "Jurassic", "Period", "mesozoic", 201.4, 143.1, "Ma",
+add("jurassic", "Jurassic", "Period", "mesozoic", 201.4, 145.0, "Ma",
     "Dinosaurs dominate; first birds (Archaeopteryx); Pangaea breaks apart.")
-add("early-jurassic", "Early Jurassic", "Epoch", "jurassic", 201.4, 174.1, "Ma",
+add("early-jurassic", "Early Jurassic", "Epoch", "jurassic", 201.4, 174.7, "Ma",
     "Dinosaurs diversify into dominant land animals; large marine reptiles.")
 add("hettangian", "Hettangian", "Age", "early-jurassic", 201.4, 199.5, "Ma",
     "Post-extinction recovery; early dinosaur radiation.")
-add("sinemurian", "Sinemurian", "Age", "early-jurassic", 199.5, 192.9, "Ma",
+add("sinemurian", "Sinemurian", "Age", "early-jurassic", 199.5, 190.8, "Ma",
     "Early large sauropodomorphs; ammonite diversity increases.")
-add("pliensbachian", "Pliensbachian", "Age", "early-jurassic", 192.9, 184.2, "Ma",
+add("pliensbachian", "Pliensbachian", "Age", "early-jurassic", 190.8, 184.2, "Ma",
     "Warm climates; diverse marine ecosystems, ichthyosaurs abundant.")
-add("toarcian", "Toarcian", "Age", "early-jurassic", 184.2, 174.1, "Ma",
+add("toarcian", "Toarcian", "Age", "early-jurassic", 184.2, 174.7, "Ma",
     "Toarcian Oceanic Anoxic Event; some marine extinctions.")
-add("middle-jurassic", "Middle Jurassic", "Epoch", "jurassic", 174.1, 163.5, "Ma",
+add("middle-jurassic", "Middle Jurassic", "Epoch", "jurassic", 174.7, 163.5, "Ma",
     "Sauropods and theropods diversify; earliest flowering plant evidence.")
-add("aalenian", "Aalenian", "Age", "middle-jurassic", 174.1, 170.9, "Ma",
+add("aalenian", "Aalenian", "Age", "middle-jurassic", 174.7, 170.9, "Ma",
     "Pangaea continues to rift; ammonites flourish.")
 add("bajocian", "Bajocian", "Age", "middle-jurassic", 170.9, 168.2, "Ma",
     "Diverse coral reefs; stegosaurs appear.")
@@ -342,20 +342,20 @@ add("bathonian", "Bathonian", "Age", "middle-jurassic", 168.2, 165.3, "Ma",
     "First definitive mammals diversify; microcontinent formation.")
 add("callovian", "Callovian", "Age", "middle-jurassic", 165.3, 163.5, "Ma",
     "Marine transgression; ammonite diversity peak in Jurassic.")
-add("late-jurassic", "Late Jurassic", "Epoch", "jurassic", 163.5, 143.1, "Ma",
+add("late-jurassic", "Late Jurassic", "Epoch", "jurassic", 163.5, 145.0, "Ma",
     "Giant sauropods; Archaeopteryx; Morrison Formation dinosaurs.")
 add("oxfordian", "Oxfordian", "Age", "late-jurassic", 163.5, 157.3, "Ma",
     "Widespread coral reefs; large theropods like Allosaurus.")
 add("kimmeridgian", "Kimmeridgian", "Age", "late-jurassic", 157.3, 152.1, "Ma",
     "Rich marine ecosystems; source rocks for North Sea oil form.")
-add("tithonian", "Tithonian", "Age", "late-jurassic", 152.1, 143.1, "Ma",
+add("tithonian", "Tithonian", "Age", "late-jurassic", 152.1, 145.0, "Ma",
     "Archaeopteryx; Solnhofen limestone; transition to Cretaceous.")
 
-add("cretaceous", "Cretaceous", "Period", "mesozoic", 143.1, 66, "Ma",
+add("cretaceous", "Cretaceous", "Period", "mesozoic", 145.0, 66, "Ma",
     "Longest Mesozoic period; flowering plants rise; ends with asteroid impact (K-Pg).")
-add("early-cretaceous", "Early Cretaceous", "Epoch", "cretaceous", 143.1, 100.5, "Ma",
+add("early-cretaceous", "Early Cretaceous", "Epoch", "cretaceous", 145.0, 100.5, "Ma",
     "Flowering plants diversify; feathered dinosaurs; continental drift accelerates.")
-add("berriasian", "Berriasian", "Age", "early-cretaceous", 143.1, 139.8, "Ma",
+add("berriasian", "Berriasian", "Age", "early-cretaceous", 145.0, 139.8, "Ma",
     "Earliest Cretaceous; GSSP boundary still under discussion.")
 add("valanginian", "Valanginian", "Age", "early-cretaceous", 139.8, 132.6, "Ma",
     "Weald clay environments; early angiosperms in fossil record.")
@@ -402,9 +402,9 @@ add("eocene", "Eocene", "Epoch", "paleogene", 56, 33.9, "Ma",
     "Warmest Cenozoic epoch; first modern mammal orders; early whales, horses, bats.")
 add("ypresian", "Ypresian", "Age", "eocene", 56, 47.8, "Ma",
     "Paleocene-Eocene Thermal Maximum (PETM); warmest global temperatures.")
-add("lutetian", "Lutetian", "Age", "eocene", 47.8, 41.2, "Ma",
+add("lutetian", "Lutetian", "Age", "eocene", 47.8, 41.03, "Ma",
     "Diversification of modern mammal families; early elephants.")
-add("bartonian", "Bartonian", "Age", "eocene", 41.2, 37.71, "Ma",
+add("bartonian", "Bartonian", "Age", "eocene", 41.03, 37.71, "Ma",
     "Gradual cooling begins; Antarctic ice sheet starts forming.")
 add("priabonian", "Priabonian", "Age", "eocene", 37.71, 33.9, "Ma",
     "Grande Coupure extinction event in Europe; dramatic cooling.")
@@ -561,7 +561,7 @@ add("germanic-iron-age", "Germanic Iron Age", "CulturalAge", "holocene", 400, 79
 add("migration-period", "Migration Period (Völkerwanderung)", "CulturalAge", "germanic-iron-age", 375, 550, "CE",
     "Fall of Western Rome; Germanic peoples migrate across Europe; gold bracteates and collars in Scandinavia.")
 add("migration-early", "Early Migration Period", "CulturalAge", "migration-period", 375, 475, "CE",
-    "Fall of Western Roman Empire (476); Scandinavian gold hoards peak; elaborate gold collars (e.g. Ålleberg, Möne, Färjestaden).")
+    "Huns invade Europe (375); Scandinavian gold hoards peak; elaborate gold collars (e.g. Ålleberg, Möne, Färjestaden).")
 add("migration-late", "Late Migration Period", "CulturalAge", "migration-period", 475, 550, "CE",
     "Post-Roman gold scarcity; gilded bronze replaces gold; animal-style ornamentation (Style I) develops.")
 add("vendel-period", "Vendel Period (Merovingian Period)", "CulturalAge", "germanic-iron-age", 550, 790, "CE",
@@ -804,7 +804,7 @@ add("messinian-crisis", "Messinian Salinity Crisis", "Age", "messinian", 5.96, 5
     "Mediterranean Sea nearly dries up due to tectonic closure of Strait of Gibraltar; massive evaporite deposits.")
 add("last-glacial-max", "Last Glacial Maximum", "Age", "late-pleistocene", 0.026, 0.019, "Ma",
     "Peak of last ice age ~26,000 years ago; ice sheets cover Scandinavia, Britain, northern Europe; sea level ~120 m lower.")
-add("younger-dryas", "Younger Dryas", "Age", "greenlandian", 12900, 11700, "BP",
+add("younger-dryas", "Younger Dryas", "Age", "late-pleistocene", 12900, 11700, "BP",
     "Abrupt return to glacial conditions for ~1,200 years; end marks start of Holocene; cause debated (meltwater pulse?).")
 add("8.2ka-event", "8.2 ka Cold Event", "Age", "northgrippian", 8200, 8000, "BP",
     "Sudden cooling for ~150 years; collapse of Laurentide ice sheet drains glacial lakes into Atlantic; disrupts thermohaline circulation.")
@@ -816,6 +816,8 @@ add("4.2ka-event", "4.2 ka Aridification Event", "Age", "meghalayan", 4200, 3900
 # ═══════════════════════════════════════════════════════════════
 add("sami-prehistory", "Sámi Prehistory", "CulturalAge", "holocene", 8000, 1600, "CE",
     "Indigenous Sámi settlement of northern Fennoscandia; reindeer herding develops; Komsa and Fosna cultures; sieiddit (sacred sites).")
+add("sami-modern", "Sámi Modern History", "CulturalAge", "holocene", 1600, 0, "CE",
+    "Colonization and forced assimilation; Lapland witch trials; state borders divide Sápmi; Sámi parliaments (Norway 1989, Sweden 1993, Finland 1996); cultural revitalization.")
 add("comb-ceramic", "Comb Ceramic Culture", "CulturalAge", "neolithic", 3900, 2800, "BCE",
     "Widespread Neolithic culture across Finland and the Baltic; characteristic comb-stamped pottery; hunter-gatherer-fishers.")
 add("asbestos-ceramic", "Asbestos Ceramic Period (Finland)", "CulturalAge", "neolithic", 3500, 2000, "BCE",
@@ -923,7 +925,7 @@ add("inca-expansion", "Inca Expansion Period", "CulturalAge", "inca-empire", 143
 add("inca-huayna-capac", "Reign of Huayna Cápac", "CulturalAge", "inca-empire", 1493, 1527, "CE",
     "Empire at greatest extent; integration of conquered peoples; smallpox arrives before Spanish contact; death triggers civil war.")
 add("inca-civil-war", "Inca Civil War", "CulturalAge", "inca-empire", 1529, 1532, "CE",
-    "War of succession between Atahualpa and Huáscar; weakens empire on eve of Spanish arrival; Atahualpa captures Cusco.")
+    "War of succession between Atahualpa and Huáscar; weakens empire on eve of Spanish arrival; Atahualpa's generals capture Huáscar and Cusco.")
 
 # --- Colonial Period ---
 add("south-america-colonial", "Colonial South America", "CulturalAge", "holocene", 1492, 1825, "CE",
@@ -1102,9 +1104,9 @@ add("kalinago", "Kalinago (Island Caribs)", "CulturalAge", "north-america-precol
     "Lesser Antilles (Dominica, St. Vincent, Grenada); skilled seafarers and warriors; resisted European colonization longest in Caribbean; cassava cultivation.")
 add("saladoid", "Saladoid Culture", "CulturalAge", "north-america-precolumbian", 500, 600, "BCE-CE",
     "Orinoco River origin; spread through Lesser Antilles to Puerto Rico; white-on-red pottery (Saladero type site); ancestral to Taíno; introduced agriculture to Caribbean.")
-add("gran-cocle", "Gran Coclé Culture", "CulturalAge", "mesoamerica", 200, 1520, "CE",
+add("gran-cocle", "Gran Coclé Culture", "CulturalAge", "north-america-precolumbian", 200, 1520, "CE",
     "Central Panama; Sitio Conte gold and polychrome ceramics; elaborate burial goods; goldwork (huacas); bridge between Mesoamerican and South American traditions.")
-add("diquis", "Diquís Culture", "CulturalAge", "mesoamerica", 700, 1530, "CE",
+add("diquis", "Diquís Culture", "CulturalAge", "north-america-precolumbian", 700, 1530, "CE",
     "Southern Costa Rica; stone spheres (Las Bolas, UNESCO); gold figurines; complex chiefdoms; connection to Chibchan cultural area.")
 add("cherokee-nation", "Cherokee Nation (Pre-Removal)", "CulturalAge", "north-america-precolumbian", 1540, 1838, "CE",
     "Southeast woodlands; one of 'Five Civilized Tribes'; Sequoyah's syllabary (1821); Cherokee Phoenix newspaper; Trail of Tears (1838).")
@@ -1257,7 +1259,7 @@ add("kerma-culture", "Kingdom of Kerma", "CulturalAge", "nubia-kush", 2500, 1500
 add("kingdom-kush", "Kingdom of Kush (Napatan)", "CulturalAge", "nubia-kush", 1070, 350, "BCE",
     "Napata capital; 25th Dynasty pharaohs rule Egypt (Piye, Taharqa ~700 BCE); expelled by Assyrians; continued as independent kingdom.")
 add("meroe", "Meroitic Period", "CulturalAge", "nubia-kush", 590, 350, "BCE-CE",
-    "Capital moves to Meroë; iron smelting center; Meroitic script (undeciphered); over 200 pyramids; Kandake (queen) warriors; trade with Rome.")
+    "Capital moves to Meroë; iron smelting center; Meroitic script (deciphered, but language only partially understood); over 200 pyramids; Kandake (queen) warriors; trade with Rome.")
 
 # --- Horn of Africa ---
 add("land-of-punt", "Land of Punt", "CulturalAge", "holocene", 2500, 1000, "BCE",
@@ -1266,7 +1268,7 @@ add("daamt", "Kingdom of D'mt", "CulturalAge", "holocene", 980, 400, "BCE",
     "Early kingdom in Eritrea/northern Ethiopia; Sabaean cultural influences; Yeha temple; precursor to Aksumite civilization.")
 add("aksum", "Kingdom of Aksum", "CulturalAge", "holocene", 100, 940, "CE",
     "Major trading empire; Adulis port; obelisks of Aksum; adopted Christianity (~330 CE, King Ezana); Ge'ez script; one of the 'four great empires' of antiquity.")
-add("zagwe-dynasty", "Zagwe Dynasty", "CulturalAge", "holocene", 900, 1270, "CE",
+add("zagwe-dynasty", "Zagwe Dynasty", "CulturalAge", "holocene", 1137, 1270, "CE",
     "Ethiopian highland dynasty; rock-hewn churches of Lalibela (UNESCO); Christian kingdom; succeeded Aksumite decline.")
 add("solomonic-dynasty", "Solomonic Dynasty", "CulturalAge", "holocene", 1270, 1974, "CE",
     "Ethiopian ruling dynasty claiming descent from Solomon and Sheba; Kebra Nagast; Prester John legends; Gondar castles; Haile Selassie last emperor.")
@@ -1288,7 +1290,7 @@ add("benin-kingdom", "Kingdom of Benin", "CulturalAge", "west-africa-ancient", 1
     "Edo people, southern Nigeria; Benin Bronzes (sophisticated lost-wax casting); Oba rulers; city walls; destroyed by British punitive expedition (1897).")
 add("oyo-empire", "Oyo Empire", "CulturalAge", "west-africa-ancient", 1400, 1896, "CE",
     "Yoruba empire; powerful cavalry; Alaafin rulers; Atlantic trade; Oyo ile capital; influenced Yoruba diaspora culture in Americas.")
-add("ashanti-empire", "Ashanti Empire", "CulturalAge", "west-africa-ancient", 1670, 1902, "CE",
+add("ashanti-empire", "Ashanti Empire (Asanteman)", "CulturalAge", "west-africa-ancient", 1701, 1902, "CE",
     "Akan people, modern Ghana; Golden Stool; Osei Tutu I; gold trade; kente cloth; resisted British colonization; Anglo-Ashanti Wars.")
 add("jolof-empire", "Jolof Empire (Buurba Jolof)", "CulturalAge", "west-africa-ancient", 1350, 1549, "CE",
     "Wolof confederacy in Senegal; former Mali vassal; major early Atlantic slave trade participant; dissolved at Battle of Danki (1549).")
@@ -1305,7 +1307,7 @@ add("timbuktu-golden-age", "Golden Age of Timbuktu", "CulturalAge", "mali-empire
 
 # --- East & Southeast Africa ---
 add("swahili-coast", "Swahili Coast Civilization", "CulturalAge", "holocene", 100, 1500, "CE",
-    "Indian Ocean trading cities; Kilwa, Mombasa, Zanzibar, Mogadishu; Swahili language (Bantu-Arabic fusion); stone towns; gold, ivory, spice trade.")
+    "Indian Ocean trading cities; Kilwa, Mombasa, Zanzibar, Mogadishu; Swahili language (Bantu with Arabic loanwords); stone towns; gold, ivory, spice trade.")
 add("kilwa-sultanate", "Kilwa Sultanate", "CulturalAge", "swahili-coast", 960, 1513, "CE",
     "Wealthiest Swahili city-state; controlled gold trade from Great Zimbabwe; Great Mosque of Kilwa; copper coins; sacked by Portuguese (1505).")
 add("great-zimbabwe", "Great Zimbabwe", "CulturalAge", "holocene", 1100, 1450, "CE",
@@ -1840,6 +1842,8 @@ add("aboriginal-holocene", "Aboriginal Holocene Period", "CulturalAge", "aborigi
     "Sea level rise creates modern coastline; Torres Strait Islands separate; intensification; fish traps (Brewarrina ~40,000 years); complex trade networks; songlines.")
 add("budj-bim", "Budj Bim Aquaculture System", "CulturalAge", "aboriginal-australia", 6600, 1788, "BCE-CE",
     "Gunditjmara people, Victoria; world's oldest aquaculture system; eel traps and stone channels; permanent stone dwellings; UNESCO World Heritage Site (2019).")
+add("torres-strait-islanders", "Torres Strait Islander Culture", "CulturalAge", "oceania-history", 8000, 0, "BCE-CE",
+    "Melanesian peoples of Torres Strait Islands; distinct from Aboriginal Australians; seafaring; horticulture; Tombstone Opening ceremonies; star lore navigation.")
 add("australian-colonial", "Colonial Australia", "CulturalAge", "oceania-history", 1788, 1901, "CE",
     "First Fleet (1788); penal colony; frontier wars; gold rushes (1850s); pastoralism; Stolen Generations begin; six colonies; White Australia policy roots.")
 add("australian-federation", "Federation and Modern Australia", "CulturalAge", "contemporary", 1901, 0, "CE",
@@ -1865,12 +1869,12 @@ add("polynesia-history", "Polynesian Civilizations", "CulturalAge", "oceania-his
 add("polynesia-ancestral", "Ancestral Polynesia (Tonga & Samoa)", "CulturalAge", "polynesia-history", 1500, 200, "BCE",
     "Tonga settled ~1500 BCE, Samoa ~1000 BCE; development of Polynesian culture, language, navigation; chiefdom societies; kava traditions.")
 add("polynesia-expansion", "Polynesian Expansion", "CulturalAge", "polynesia-history", 200, 1200, "CE",
-    "Long-pause then rapid expansion; Marquesas (~300 CE), Hawaiʻi (~400 CE), Easter Island/Rapa Nui (~700 CE); double-hulled canoes; star navigation.")
-add("rapa-nui", "Rapa Nui (Easter Island)", "CulturalAge", "polynesia-history", 700, 1722, "CE",
+    "Long-pause then rapid expansion; Marquesas (~300 CE), Hawaiʻi (~1000 CE), Rapa Nui (~1200 CE); double-hulled canoes; star navigation.")
+add("rapa-nui", "Rapa Nui (Easter Island)", "CulturalAge", "polynesia-history", 1200, 1722, "CE",
     "Moai statues (~900 carved); ahu platforms; rongorongo script (undeciphered); ecological transformation; European contact (1722).")
 add("tuamotuan-cook", "Cook Islands & Tuamotus Settlement", "CulturalAge", "polynesia-history", 800, 1595, "CE",
     "Settlement of remote atolls and islands; coral architecture; lagoon aquaculture; celestial navigation mastery; pre-European contact societies.")
-add("hawaiian-kingdom-pre", "Ancient Hawaiʻi", "CulturalAge", "polynesia-history", 400, 1795, "CE",
+add("hawaiian-kingdom-pre", "Ancient Hawaiʻi", "CulturalAge", "polynesia-history", 1000, 1795, "CE",
     "Settlement from Marquesas/Tahiti; ahupuaʻa land management; heiau temples; kapu system; taro cultivation; fish ponds; ali'i chiefs.")
 add("hawaiian-kingdom", "Kingdom of Hawaiʻi", "CulturalAge", "polynesia-history", 1795, 1893, "CE",
     "Kamehameha I unifies islands; constitutional monarchy; Hawaiian Renaissance; written language; sugar plantations; overthrown by U.S.-backed coup (1893).")
@@ -1888,6 +1892,8 @@ add("palau-earthworks", "Palau Earthworks & Terraces", "CulturalAge", "micronesi
     "Monumental earthwork terraces on Babeldaob; largest earthworks in Oceania; hillside terracing for agriculture and defense; stone villages; bai meeting houses.")
 add("marshallese-navigation", "Marshallese Navigation Tradition", "CulturalAge", "micronesia-history", 500, 1900, "CE",
     "Stick chart navigation (mattang, meddo, rebbelib); wave piloting; outrigger canoes; settlement of remote atolls; unique ocean-reading knowledge.")
+add("chamorro-ancient", "Ancient Chamorro (CHamoru)", "CulturalAge", "micronesia-history", 1500, 1668, "BCE-CE",
+    "Mariana Islands (Guam, Saipan); latte stone pillars; rice cultivation unique in Pacific; proa sailing canoes; matrilineal society; Spanish colonization begins 1668.")
 
 # --- New Zealand / Aotearoa ---
 add("aotearoa-history", "Aotearoa / New Zealand History", "CulturalAge", "oceania-history", 1250, 0, "CE",

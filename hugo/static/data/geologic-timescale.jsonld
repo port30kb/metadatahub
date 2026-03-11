@@ -11,7 +11,7 @@
   "@id": "https://metadatahub.eu/data/geologic-timescale",
   "@type": "skos:ConceptScheme",
   "dcterms:title": "Geologic Time Scale",
-  "dcterms:description": "807 entries covering the geologic time scale from Hadean eon (4600 Ma) to present, including Scandinavian, European, and South American cultural/historical periods.",
+  "dcterms:description": "810 entries covering the geologic time scale from Hadean eon (4600 Ma) to present, including Scandinavian, European, and South American cultural/historical periods.",
   "dcterms:source": [
     "https://en.wikipedia.org/wiki/Geologic_time_scale",
     "https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf",
@@ -2269,7 +2269,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/mesozoic"
       },
       "time:hasBeginning": "201.4 Ma",
-      "time:hasEnd": "143.1 Ma",
+      "time:hasEnd": "145.0 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -2288,7 +2288,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/jurassic"
       },
       "time:hasBeginning": "201.4 Ma",
-      "time:hasEnd": "174.1 Ma",
+      "time:hasEnd": "174.7 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -2326,7 +2326,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-jurassic"
       },
       "time:hasBeginning": "199.5 Ma",
-      "time:hasEnd": "192.9 Ma",
+      "time:hasEnd": "190.8 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -2344,7 +2344,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-jurassic"
       },
-      "time:hasBeginning": "192.9 Ma",
+      "time:hasBeginning": "190.8 Ma",
       "time:hasEnd": "184.2 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -2364,7 +2364,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-jurassic"
       },
       "time:hasBeginning": "184.2 Ma",
-      "time:hasEnd": "174.1 Ma",
+      "time:hasEnd": "174.7 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -2382,7 +2382,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/jurassic"
       },
-      "time:hasBeginning": "174.1 Ma",
+      "time:hasBeginning": "174.7 Ma",
       "time:hasEnd": "163.5 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -2401,7 +2401,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/middle-jurassic"
       },
-      "time:hasBeginning": "174.1 Ma",
+      "time:hasBeginning": "174.7 Ma",
       "time:hasEnd": "170.9 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -2478,7 +2478,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/jurassic"
       },
       "time:hasBeginning": "163.5 Ma",
-      "time:hasEnd": "143.1 Ma",
+      "time:hasEnd": "145.0 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -2535,7 +2535,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/late-jurassic"
       },
       "time:hasBeginning": "152.1 Ma",
-      "time:hasEnd": "143.1 Ma",
+      "time:hasEnd": "145.0 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -2553,7 +2553,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/mesozoic"
       },
-      "time:hasBeginning": "143.1 Ma",
+      "time:hasBeginning": "145.0 Ma",
       "time:hasEnd": "66 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -2572,7 +2572,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/cretaceous"
       },
-      "time:hasBeginning": "143.1 Ma",
+      "time:hasBeginning": "145.0 Ma",
       "time:hasEnd": "100.5 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -2591,7 +2591,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-cretaceous"
       },
-      "time:hasBeginning": "143.1 Ma",
+      "time:hasBeginning": "145.0 Ma",
       "time:hasEnd": "139.8 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -2991,7 +2991,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/eocene"
       },
       "time:hasBeginning": "47.8 Ma",
-      "time:hasEnd": "41.2 Ma",
+      "time:hasEnd": "41.03 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -3009,7 +3009,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/eocene"
       },
-      "time:hasBeginning": "41.2 Ma",
+      "time:hasBeginning": "41.03 Ma",
       "time:hasEnd": "37.71 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -4294,7 +4294,7 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Fall of Western Roman Empire (476); Scandinavian gold hoards peak; elaborate gold collars (e.g. Ålleberg, Möne, Färjestaden).",
+        "@value": "Huns invade Europe (375); Scandinavian gold hoards peak; elaborate gold collars (e.g. Ålleberg, Möne, Färjestaden).",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
@@ -6218,7 +6218,7 @@
       },
       "gts:rank": "Age",
       "skos:broader": {
-        "@id": "https://metadatahub.eu/data/geologic-timescale/greenlandian"
+        "@id": "https://metadatahub.eu/data/geologic-timescale/late-pleistocene"
       },
       "time:hasBeginning": "12900 years BP",
       "time:hasEnd": "11700 years BP",
@@ -6279,6 +6279,25 @@
       },
       "time:hasBeginning": "8000 CE",
       "time:hasEnd": "1600 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/sami-modern",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Sámi Modern History",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Colonization and forced assimilation; Lapland witch trials; state borders divide Sápmi; Sámi parliaments (Norway 1989, Sweden 1993, Finland 1996); cultural revitalization.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1600 CE",
+      "time:hasEnd": "Present",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -7163,7 +7182,7 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "War of succession between Atahualpa and Huáscar; weakens empire on eve of Spanish arrival; Atahualpa captures Cusco.",
+        "@value": "War of succession between Atahualpa and Huáscar; weakens empire on eve of Spanish arrival; Atahualpa's generals capture Huáscar and Cusco.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
@@ -8631,7 +8650,7 @@
       },
       "gts:rank": "CulturalAge",
       "skos:broader": {
-        "@id": "https://metadatahub.eu/data/geologic-timescale/mesoamerica"
+        "@id": "https://metadatahub.eu/data/geologic-timescale/north-america-precolumbian"
       },
       "time:hasBeginning": "200 CE",
       "time:hasEnd": "1520 CE",
@@ -8650,7 +8669,7 @@
       },
       "gts:rank": "CulturalAge",
       "skos:broader": {
-        "@id": "https://metadatahub.eu/data/geologic-timescale/mesoamerica"
+        "@id": "https://metadatahub.eu/data/geologic-timescale/north-america-precolumbian"
       },
       "time:hasBeginning": "700 CE",
       "time:hasEnd": "1530 CE",
@@ -9880,7 +9899,7 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Capital moves to Meroë; iron smelting center; Meroitic script (undeciphered); over 200 pyramids; Kandake (queen) warriors; trade with Rome.",
+        "@value": "Capital moves to Meroë; iron smelting center; Meroitic script (deciphered, but language only partially understood); over 200 pyramids; Kandake (queen) warriors; trade with Rome.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
@@ -9963,7 +9982,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
       },
-      "time:hasBeginning": "900 CE",
+      "time:hasBeginning": "1137 CE",
       "time:hasEnd": "1270 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -10142,7 +10161,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/ashanti-empire",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Ashanti Empire",
+        "@value": "Ashanti Empire (Asanteman)",
         "@language": "en"
       },
       "skos:definition": {
@@ -10153,7 +10172,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/west-africa-ancient"
       },
-      "time:hasBeginning": "1670 CE",
+      "time:hasBeginning": "1701 CE",
       "time:hasEnd": "1902 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -10279,7 +10298,7 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Indian Ocean trading cities; Kilwa, Mombasa, Zanzibar, Mogadishu; Swahili language (Bantu-Arabic fusion); stone towns; gold, ivory, spice trade.",
+        "@value": "Indian Ocean trading cities; Kilwa, Mombasa, Zanzibar, Mogadishu; Swahili language (Bantu with Arabic loanwords); stone towns; gold, ivory, spice trade.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
@@ -14794,6 +14813,25 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/torres-strait-islanders",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Torres Strait Islander Culture",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Melanesian peoples of Torres Strait Islands; distinct from Aboriginal Australians; seafaring; horticulture; Tombstone Opening ceremonies; star lore navigation.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/oceania-history"
+      },
+      "time:hasBeginning": "8000 BCE",
+      "time:hasEnd": "Present",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
       "@id": "https://metadatahub.eu/data/geologic-timescale/australian-colonial",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
@@ -14991,7 +15029,7 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Long-pause then rapid expansion; Marquesas (~300 CE), Hawaiʻi (~400 CE), Easter Island/Rapa Nui (~700 CE); double-hulled canoes; star navigation.",
+        "@value": "Long-pause then rapid expansion; Marquesas (~300 CE), Hawaiʻi (~1000 CE), Rapa Nui (~1200 CE); double-hulled canoes; star navigation.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
@@ -15017,7 +15055,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/polynesia-history"
       },
-      "time:hasBeginning": "700 CE",
+      "time:hasBeginning": "1200 CE",
       "time:hasEnd": "1722 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -15055,7 +15093,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/polynesia-history"
       },
-      "time:hasBeginning": "400 CE",
+      "time:hasBeginning": "1000 CE",
       "time:hasEnd": "1795 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -15190,6 +15228,25 @@
       },
       "time:hasBeginning": "500 CE",
       "time:hasEnd": "1900 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/chamorro-ancient",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Ancient Chamorro (CHamoru)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Mariana Islands (Guam, Saipan); latte stone pillars; rice cultivation unique in Pacific; proa sailing canoes; matrilineal society; Spanish colonization begins 1668.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/micronesia-history"
+      },
+      "time:hasBeginning": "1500 BCE",
+      "time:hasEnd": "1668 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
