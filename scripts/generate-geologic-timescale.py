@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate the Geologic Time Scale as Linked Data (Turtle + JSON-LD).
 
-361 data points covering:
+426 data points covering:
 - 4 Eons
 - 10 Eras
 - 22 Periods (incl. Mississippian/Pennsylvanian sub-periods)
@@ -886,6 +886,164 @@ add("south-america-21st", "21st-Century South America", "CulturalAge", "contempo
     "Pink tide leftist governments; commodity boom; democratic consolidation; Mercosur and UNASUR; environmental challenges in Amazon.")
 add("pink-tide", "Pink Tide (Marea Rosa)", "CulturalAge", "south-america-21st", 1998, 2015, "CE",
     "Wave of left-wing governments: Chávez (Venezuela), Lula (Brazil), Morales (Bolivia), Correa (Ecuador), Kirchner (Argentina); social programs, resource nationalism.")
+
+# ═══════════════════════════════════════════════════════════════
+# NORTH AMERICAN HISTORICAL & CULTURAL PERIODS
+# ═══════════════════════════════════════════════════════════════
+
+# --- Paleo-Indian & Archaic ---
+add("north-america-precolumbian", "Pre-Columbian North America", "CulturalAge", "holocene", 15000, 1492, "BCE",
+    "Indigenous civilizations of North America before European contact; from Clovis hunters to complex societies of Mesoamerica and the Southwest.")
+add("paleo-indians", "Paleo-Indian Period", "CulturalAge", "north-america-precolumbian", 15000, 8000, "BCE",
+    "First peoples of the Americas; Clovis culture (~13,000 BP); mammoth and megafauna hunters; Folsom points; Beringia land bridge migration.")
+add("clovis-culture", "Clovis Culture", "CulturalAge", "paleo-indians", 11500, 10800, "BCE",
+    "Distinctive fluted projectile points; widespread across North America; associated with Pleistocene megafauna hunting; Blackwater Draw type site.")
+add("folsom-culture", "Folsom Culture", "CulturalAge", "paleo-indians", 10900, 10200, "BCE",
+    "Post-Clovis bison hunters on Great Plains; refined fluted points; Folsom, New Mexico type site; megafauna extinction.")
+add("na-archaic-period", "Archaic Period (North America)", "CulturalAge", "north-america-precolumbian", 8000, 1000, "BCE",
+    "Post-megafauna adaptation; diversified subsistence; ground stone tools; regional traditions develop across the continent.")
+add("na-archaic-early", "Early Archaic", "CulturalAge", "na-archaic-period", 8000, 5000, "BCE",
+    "Adaptation to Holocene environments; Dalton and Kirk point traditions; increasing plant use; seasonal rounds.")
+add("na-archaic-middle", "Middle Archaic", "CulturalAge", "na-archaic-period", 5000, 3000, "BCE",
+    "Population growth; specialized tool kits; long-distance exchange networks begin; Poverty Point site (Louisiana).")
+add("na-archaic-late", "Late Archaic", "CulturalAge", "na-archaic-period", 3000, 1000, "BCE",
+    "First pottery in Southeast; mound building begins; Poverty Point earthworks; early squash cultivation; copper tools in Great Lakes.")
+add("poverty-point", "Poverty Point Culture", "CulturalAge", "na-archaic-late", 1700, 1100, "BCE",
+    "Massive earthwork complex in Louisiana; concentric ridges, Mound A (largest in North America at the time); long-distance trade network.")
+
+# --- Mesoamerican Civilizations ---
+add("mesoamerica", "Mesoamerican Civilizations", "CulturalAge", "north-america-precolumbian", 2000, 1521, "BCE",
+    "Complex civilizations of Mexico and Central America; writing, calendars, monumental architecture, agriculture (maize, beans, squash).")
+add("olmec", "Olmec Civilization", "CulturalAge", "mesoamerica", 1500, 400, "BCE",
+    "Mother culture of Mesoamerica; colossal stone heads; San Lorenzo and La Venta; first Mesoamerican writing and calendar; rubber ball game.")
+add("zapotec", "Zapotec Civilization", "CulturalAge", "mesoamerica", 700, 1521, "BCE",
+    "Oaxaca Valley, Mexico; Monte Albán capital; earliest Mesoamerican writing system; 2,500-year continuous culture.")
+add("teotihuacan", "Teotihuacán", "CulturalAge", "mesoamerica", 100, 550, "CE",
+    "Largest city in pre-Columbian Americas (~125,000 people); Pyramids of the Sun and Moon; Avenue of the Dead; influence across Mesoamerica.")
+add("maya-classic", "Classic Maya Civilization", "CulturalAge", "mesoamerica", 250, 900, "CE",
+    "City-states across Yucatán, Guatemala, Belize; hieroglyphic writing; Long Count calendar; Tikal, Palenque, Copán; mysterious collapse ~900 CE.")
+add("maya-preclassic", "Preclassic Maya", "CulturalAge", "mesoamerica", 2000, 250, "BCE",
+    "Origins of Maya civilization; El Mirador massive pyramids; development of writing and calendar; early agriculture and village life.")
+add("maya-postclassic", "Postclassic Maya", "CulturalAge", "mesoamerica", 900, 1521, "CE",
+    "After Classic collapse; Chichén Itzá, Mayapán, K'iche' kingdoms; Kukulkán/Quetzalcoatl cult; Spanish conquest of Yucatán.")
+add("toltec", "Toltec Empire", "CulturalAge", "mesoamerica", 900, 1168, "CE",
+    "Tula as capital; warrior culture; Quetzalcoatl legend; influence on Aztec ideology; feathered serpent imagery.")
+add("aztec-empire", "Aztec Empire (Triple Alliance)", "CulturalAge", "mesoamerica", 1428, 1521, "CE",
+    "Tenochtitlán on Lake Texcoco (~200,000 people); Mexica Triple Alliance; human sacrifice; chinampas; conquered by Cortés 1521.")
+add("aztec-rise", "Rise of the Aztecs", "CulturalAge", "aztec-empire", 1325, 1428, "CE",
+    "Founding of Tenochtitlán (1325); Mexica as mercenaries and vassals; Triple Alliance formed with Texcoco and Tlacopan (1428).")
+add("aztec-expansion", "Aztec Imperial Expansion", "CulturalAge", "aztec-empire", 1428, 1502, "CE",
+    "Itzcoatl, Moctezuma I, Ahuitzotl expand empire from Gulf to Pacific; flower wars; tribute system; Great Temple of Tenochtitlán.")
+add("aztec-moctezuma-ii", "Reign of Moctezuma II", "CulturalAge", "aztec-empire", 1502, 1520, "CE",
+    "Empire at greatest extent; omens and prophecies; arrival of Cortés (1519); Moctezuma captured; dies during La Noche Triste (1520).")
+
+# --- Woodland & Mississippian (Eastern North America) ---
+add("woodland-period", "Woodland Period", "CulturalAge", "north-america-precolumbian", 1000, 1000, "BCE",
+    "Eastern North America; introduction of pottery, mound building, and incipient agriculture; Adena and Hopewell traditions.")
+add("adena-culture", "Adena Culture", "CulturalAge", "woodland-period", 800, 100, "BCE",
+    "Ohio Valley mound builders; conical burial mounds; Adena pipe; early cultivation of sunflower, squash; long-distance trade.")
+add("hopewell-tradition", "Hopewell Tradition", "CulturalAge", "woodland-period", 100, 500, "CE",
+    "Middle Woodland; elaborate burial mounds and earthworks; Hopewell Interaction Sphere; obsidian, copper, shells traded across continent.")
+add("mississippian-culture", "Mississippian Culture", "CulturalAge", "north-america-precolumbian", 800, 1600, "CE",
+    "Complex chiefdoms across Southeast and Midwest; platform mounds; maize agriculture; Cahokia as largest city north of Mexico.")
+add("cahokia", "Cahokia", "CulturalAge", "mississippian-culture", 1050, 1350, "CE",
+    "Largest pre-Columbian city north of Mexico (~20,000 people); Monks Mound (largest earthwork in Americas); Woodhenge; UNESCO World Heritage Site.")
+
+# --- Southwest Cultures ---
+add("ancestral-pueblo", "Ancestral Puebloans (Anasazi)", "CulturalAge", "north-america-precolumbian", 100, 1600, "CE",
+    "Four Corners region; cliff dwellings (Mesa Verde); Chaco Canyon great houses; kiva ceremonial architecture; maize, beans, squash agriculture.")
+add("chaco-canyon", "Chaco Canyon Florescence", "CulturalAge", "ancestral-pueblo", 850, 1150, "CE",
+    "Chaco Culture; great houses (Pueblo Bonito); road network; astronomical alignments; regional trade center; UNESCO World Heritage Site.")
+add("hohokam", "Hohokam Culture", "CulturalAge", "north-america-precolumbian", 300, 1450, "CE",
+    "Southern Arizona; extensive canal irrigation (over 1,000 km); Snaketown; ball courts; Mesoamerican trade connections; ancestors of O'odham.")
+add("mogollon", "Mogollon Culture", "CulturalAge", "north-america-precolumbian", 200, 1450, "CE",
+    "Southwestern mountains (Arizona, New Mexico, Chihuahua); pithouses to pueblos; Mimbres pottery with distinctive black-on-white designs.")
+
+# --- Northwest Coast & Arctic ---
+add("northwest-coast", "Northwest Coast Cultures", "CulturalAge", "north-america-precolumbian", 3000, 1774, "BCE",
+    "Pacific Northwest; Haida, Tlingit, Kwakwaka'wakw; cedar plank houses, totem poles, potlatch ceremonies; salmon-based economy; complex non-agricultural society.")
+add("thule-culture", "Thule Culture", "CulturalAge", "north-america-precolumbian", 200, 1600, "CE",
+    "Arctic whale hunters; ancestors of modern Inuit; spread from Alaska across Canadian Arctic to Greenland; dog sleds, kayaks, umiaks.")
+add("dorset-culture", "Dorset Culture", "CulturalAge", "north-america-precolumbian", 500, 1500, "BCE",
+    "Paleo-Eskimo Arctic culture; replaced by Thule people; soapstone lamps, snow houses; miniature ivory carvings; no dog sleds or bows.")
+
+# --- Plains & Mound Builders ---
+add("plains-village", "Plains Village Period", "CulturalAge", "north-america-precolumbian", 1000, 1780, "CE",
+    "Semi-sedentary farming communities on Great Plains; earth lodge villages; maize agriculture; Mandan, Hidatsa, Arikara, Pawnee, Wichita.")
+add("iroquois-confederacy", "Haudenosaunee (Iroquois) Confederacy", "CulturalAge", "north-america-precolumbian", 1450, 1776, "CE",
+    "Six Nations (Mohawk, Oneida, Onondaga, Cayuga, Seneca, Tuscarora); Great Law of Peace; longhouse society; influenced U.S. Constitution debates.")
+
+# --- European Exploration & Colonial ---
+add("north-america-colonial", "Colonial North America", "CulturalAge", "holocene", 1492, 1783, "CE",
+    "European colonization of North America; Spanish, French, English, Dutch settlements; fur trade; displacement of indigenous peoples.")
+add("spanish-exploration-na", "Spanish Exploration of North America", "CulturalAge", "north-america-colonial", 1492, 1600, "CE",
+    "Columbus (1492); Ponce de León in Florida (1513); Coronado explores Southwest (1540); de Soto crosses Southeast; St. Augustine founded (1565).")
+add("new-france", "New France", "CulturalAge", "north-america-colonial", 1534, 1763, "CE",
+    "French colonial empire; Cartier, Champlain; Quebec (1608), Montreal (1642); fur trade; coureurs des bois; alliance with Huron-Wendat; ceded to Britain 1763.")
+add("new-spain-north", "New Spain (Northern Frontier)", "CulturalAge", "north-america-colonial", 1521, 1821, "CE",
+    "Spanish colonial frontier; missions and presidios; California missions (1769–1833); Santa Fe (1610); mestizo culture; Mexican independence ends era.")
+add("thirteen-colonies", "Thirteen British Colonies", "CulturalAge", "north-america-colonial", 1607, 1776, "CE",
+    "Jamestown (1607), Plymouth (1620), Massachusetts Bay; tobacco and slavery in South; town meetings in New England; growing self-governance.")
+add("new-netherland", "New Netherland", "CulturalAge", "north-america-colonial", 1614, 1667, "CE",
+    "Dutch colony; New Amsterdam (Manhattan); fur trade with Lenape and Mohawk; diverse population; conquered by English (1664), becomes New York.")
+add("french-indian-war", "French and Indian War", "CulturalAge", "north-america-colonial", 1754, 1763, "CE",
+    "North American theater of Seven Years' War; British defeat France; Treaty of Paris (1763); France cedes Canada; sets stage for American Revolution.")
+
+# --- American Revolution & Early Republic ---
+add("american-revolution", "American Revolution", "CulturalAge", "modern-period", 1765, 1783, "CE",
+    "Colonial resistance to British taxation; Declaration of Independence (1776); Revolutionary War; Treaty of Paris (1783); birth of the United States.")
+add("early-american-republic", "Early American Republic", "CulturalAge", "modern-period", 1783, 1815, "CE",
+    "Constitution ratified (1788); Bill of Rights; Washington, Adams, Jefferson; Louisiana Purchase (1803); War of 1812; westward expansion begins.")
+add("jacksonian-era", "Jacksonian Era", "CulturalAge", "modern-period", 1828, 1850, "CE",
+    "Andrew Jackson; expansion of white male suffrage; Indian Removal Act (1830); Trail of Tears; Manifest Destiny; Mexican-American War (1846-1848).")
+
+# --- Westward Expansion & Civil War ---
+add("antebellum-period", "Antebellum Period", "CulturalAge", "modern-period", 1815, 1861, "CE",
+    "Pre-Civil War era; cotton kingdom and slave economy; abolitionist movement; Underground Railroad; Missouri Compromise; Compromise of 1850.")
+add("american-civil-war", "American Civil War", "CulturalAge", "modern-period", 1861, 1865, "CE",
+    "Union vs. Confederacy; slavery as central cause; ~620,000 dead; Emancipation Proclamation (1863); Lee surrenders at Appomattox (1865).")
+add("reconstruction", "Reconstruction Era", "CulturalAge", "modern-period", 1865, 1877, "CE",
+    "Post-Civil War rebuilding; 13th-15th Amendments; freedmen's rights; Ku Klux Klan backlash; ends with Compromise of 1877; Jim Crow begins.")
+add("gilded-age", "Gilded Age", "CulturalAge", "modern-period", 1877, 1900, "CE",
+    "Rapid industrialization; robber barons (Carnegie, Rockefeller, Vanderbilt); immigration waves; labor unrest; railroads; Native American displacement.")
+add("indian-wars", "Indian Wars", "CulturalAge", "modern-period", 1860, 1890, "CE",
+    "U.S. military campaigns against Indigenous nations; Sand Creek (1864); Little Bighorn (1876); Wounded Knee (1890); reservation system; Dawes Act.")
+
+# --- Mexican History ---
+add("mexican-history", "Mexican Historical Periods", "CulturalAge", "holocene", 1521, 0, "CE",
+    "Post-conquest Mexico; colonial New Spain, independence, revolution, and modern nation-state.")
+add("colonial-mexico", "Colonial Mexico (New Spain)", "CulturalAge", "mexican-history", 1521, 1821, "CE",
+    "Spanish viceroyalty; encomienda system; silver mining (Zacatecas, Guanajuato); Baroque art and architecture; mestizo and creole society.")
+add("mexican-independence", "Mexican War of Independence", "CulturalAge", "mexican-history", 1810, 1821, "CE",
+    "Grito de Dolores (1810, Father Hidalgo); Morelos; Iturbide declares independence (1821); First Mexican Empire briefly established.")
+add("mexican-republic-early", "Early Mexican Republic", "CulturalAge", "mexican-history", 1824, 1876, "CE",
+    "Federal republic; Texas independence (1836); Mexican-American War (1846-1848); loss of half territory; Benito Juárez; French Intervention; Maximilian.")
+add("porfiriato", "Porfiriato", "CulturalAge", "mexican-history", 1876, 1911, "CE",
+    "Porfirio Díaz dictatorship; modernization, railways, foreign investment; extreme inequality; hacienda system; triggers revolution.")
+add("mexican-revolution", "Mexican Revolution", "CulturalAge", "mexican-history", 1910, 1920, "CE",
+    "Madero, Villa, Zapata, Carranza, Obregón; 'Land and Liberty'; Constitution of 1917; agrarian reform; ~1-2 million dead.")
+add("mexico-post-revolution", "Post-Revolutionary Mexico", "CulturalAge", "mexican-history", 1920, 2000, "CE",
+    "PRI one-party rule (1929-2000); muralist movement (Rivera, Orozco, Siqueiros); oil nationalization (1938); NAFTA (1994); Zapatista uprising.")
+
+# --- Canadian History ---
+add("canadian-history", "Canadian Historical Periods", "CulturalAge", "holocene", 1534, 0, "CE",
+    "From French exploration through Confederation to modern multicultural nation.")
+add("british-north-america", "British North America", "CulturalAge", "canadian-history", 1763, 1867, "CE",
+    "After Treaty of Paris; Quebec Act (1774); Loyalist migration; War of 1812; Rebellions of 1837; Responsible Government; path to Confederation.")
+add("canadian-confederation", "Canadian Confederation", "CulturalAge", "canadian-history", 1867, 1931, "CE",
+    "Dominion of Canada (1867); transcontinental railway (1885); Western settlement; Riel Rebellions; WWI and Vimy Ridge; Statute of Westminster (1931).")
+add("modern-canada", "Modern Canada", "CulturalAge", "canadian-history", 1931, 0, "CE",
+    "WWII; welfare state; Quiet Revolution in Quebec; Official Languages Act (1969); Charter of Rights (1982); multiculturalism; reconciliation with Indigenous peoples.")
+
+# --- US 20th–21st Century ---
+add("progressive-era", "Progressive Era", "CulturalAge", "modern-period", 1896, 1920, "CE",
+    "Reform movements; trust-busting (Roosevelt); women's suffrage (19th Amendment, 1920); muckraking journalism; conservation movement.")
+add("roaring-twenties-na", "Roaring Twenties (North America)", "CulturalAge", "contemporary", 1920, 1929, "CE",
+    "Jazz Age; Harlem Renaissance; Prohibition; economic boom; Model T; cultural modernism; ends with Wall Street Crash (1929).")
+add("great-depression-na", "Great Depression (North America)", "CulturalAge", "contemporary", 1929, 1939, "CE",
+    "Wall Street Crash; ~25% unemployment; Dust Bowl; New Deal (FDR); Social Security; transformation of federal government role.")
+add("us-civil-rights", "Civil Rights Movement", "CulturalAge", "contemporary", 1954, 1968, "CE",
+    "Brown v. Board (1954); Montgomery Bus Boycott; March on Washington (1963); Civil Rights Act (1964); Voting Rights Act (1965); MLK assassinated (1968).")
 
 print(f"Total data points: {n[0]}")
 

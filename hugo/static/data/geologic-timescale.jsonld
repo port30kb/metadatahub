@@ -11,7 +11,7 @@
   "@id": "https://metadatahub.eu/data/geologic-timescale",
   "@type": "skos:ConceptScheme",
   "dcterms:title": "Geologic Time Scale",
-  "dcterms:description": "361 entries covering the geologic time scale from Hadean eon (4600 Ma) to present, including Scandinavian, European, and South American cultural/historical periods.",
+  "dcterms:description": "426 entries covering the geologic time scale from Hadean eon (4600 Ma) to present, including Scandinavian, European, and South American cultural/historical periods.",
   "dcterms:source": [
     "https://en.wikipedia.org/wiki/Geologic_time_scale",
     "https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf",
@@ -6868,6 +6868,1241 @@
       },
       "time:hasBeginning": "1998 CE",
       "time:hasEnd": "2015 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/north-america-precolumbian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Pre-Columbian North America",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Indigenous civilizations of North America before European contact; from Clovis hunters to complex societies of Mesoamerica and the Southwest.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "15000 BCE",
+      "time:hasEnd": "1492 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/paleo-indians",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Paleo-Indian Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First peoples of the Americas; Clovis culture (~13,000 BP); mammoth and megafauna hunters; Folsom points; Beringia land bridge migration.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/north-america-precolumbian"
+      },
+      "time:hasBeginning": "15000 BCE",
+      "time:hasEnd": "8000 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/clovis-culture",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Clovis Culture",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Distinctive fluted projectile points; widespread across North America; associated with Pleistocene megafauna hunting; Blackwater Draw type site.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/paleo-indians"
+      },
+      "time:hasBeginning": "11500 BCE",
+      "time:hasEnd": "10800 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/folsom-culture",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Folsom Culture",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Post-Clovis bison hunters on Great Plains; refined fluted points; Folsom, New Mexico type site; megafauna extinction.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/paleo-indians"
+      },
+      "time:hasBeginning": "10900 BCE",
+      "time:hasEnd": "10200 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/na-archaic-period",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Archaic Period (North America)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Post-megafauna adaptation; diversified subsistence; ground stone tools; regional traditions develop across the continent.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/north-america-precolumbian"
+      },
+      "time:hasBeginning": "8000 BCE",
+      "time:hasEnd": "1000 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/na-archaic-early",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Early Archaic",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Adaptation to Holocene environments; Dalton and Kirk point traditions; increasing plant use; seasonal rounds.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/na-archaic-period"
+      },
+      "time:hasBeginning": "8000 BCE",
+      "time:hasEnd": "5000 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/na-archaic-middle",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Middle Archaic",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Population growth; specialized tool kits; long-distance exchange networks begin; Poverty Point site (Louisiana).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/na-archaic-period"
+      },
+      "time:hasBeginning": "5000 BCE",
+      "time:hasEnd": "3000 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/na-archaic-late",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Late Archaic",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First pottery in Southeast; mound building begins; Poverty Point earthworks; early squash cultivation; copper tools in Great Lakes.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/na-archaic-period"
+      },
+      "time:hasBeginning": "3000 BCE",
+      "time:hasEnd": "1000 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/poverty-point",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Poverty Point Culture",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Massive earthwork complex in Louisiana; concentric ridges, Mound A (largest in North America at the time); long-distance trade network.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/na-archaic-late"
+      },
+      "time:hasBeginning": "1700 BCE",
+      "time:hasEnd": "1100 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/mesoamerica",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Mesoamerican Civilizations",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Complex civilizations of Mexico and Central America; writing, calendars, monumental architecture, agriculture (maize, beans, squash).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/north-america-precolumbian"
+      },
+      "time:hasBeginning": "2000 BCE",
+      "time:hasEnd": "1521 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/olmec",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Olmec Civilization",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Mother culture of Mesoamerica; colossal stone heads; San Lorenzo and La Venta; first Mesoamerican writing and calendar; rubber ball game.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mesoamerica"
+      },
+      "time:hasBeginning": "1500 BCE",
+      "time:hasEnd": "400 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/zapotec",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Zapotec Civilization",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Oaxaca Valley, Mexico; Monte Albán capital; earliest Mesoamerican writing system; 2,500-year continuous culture.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mesoamerica"
+      },
+      "time:hasBeginning": "700 BCE",
+      "time:hasEnd": "1521 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/teotihuacan",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Teotihuacán",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Largest city in pre-Columbian Americas (~125,000 people); Pyramids of the Sun and Moon; Avenue of the Dead; influence across Mesoamerica.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mesoamerica"
+      },
+      "time:hasBeginning": "100 CE",
+      "time:hasEnd": "550 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/maya-classic",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Classic Maya Civilization",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "City-states across Yucatán, Guatemala, Belize; hieroglyphic writing; Long Count calendar; Tikal, Palenque, Copán; mysterious collapse ~900 CE.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mesoamerica"
+      },
+      "time:hasBeginning": "250 CE",
+      "time:hasEnd": "900 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/maya-preclassic",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Preclassic Maya",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Origins of Maya civilization; El Mirador massive pyramids; development of writing and calendar; early agriculture and village life.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mesoamerica"
+      },
+      "time:hasBeginning": "2000 BCE",
+      "time:hasEnd": "250 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/maya-postclassic",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Postclassic Maya",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "After Classic collapse; Chichén Itzá, Mayapán, K'iche' kingdoms; Kukulkán/Quetzalcoatl cult; Spanish conquest of Yucatán.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mesoamerica"
+      },
+      "time:hasBeginning": "900 CE",
+      "time:hasEnd": "1521 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/toltec",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Toltec Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Tula as capital; warrior culture; Quetzalcoatl legend; influence on Aztec ideology; feathered serpent imagery.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mesoamerica"
+      },
+      "time:hasBeginning": "900 CE",
+      "time:hasEnd": "1168 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/aztec-empire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Aztec Empire (Triple Alliance)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Tenochtitlán on Lake Texcoco (~200,000 people); Mexica Triple Alliance; human sacrifice; chinampas; conquered by Cortés 1521.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mesoamerica"
+      },
+      "time:hasBeginning": "1428 CE",
+      "time:hasEnd": "1521 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/aztec-rise",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Rise of the Aztecs",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Founding of Tenochtitlán (1325); Mexica as mercenaries and vassals; Triple Alliance formed with Texcoco and Tlacopan (1428).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/aztec-empire"
+      },
+      "time:hasBeginning": "1325 CE",
+      "time:hasEnd": "1428 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/aztec-expansion",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Aztec Imperial Expansion",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Itzcoatl, Moctezuma I, Ahuitzotl expand empire from Gulf to Pacific; flower wars; tribute system; Great Temple of Tenochtitlán.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/aztec-empire"
+      },
+      "time:hasBeginning": "1428 CE",
+      "time:hasEnd": "1502 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/aztec-moctezuma-ii",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Reign of Moctezuma II",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Empire at greatest extent; omens and prophecies; arrival of Cortés (1519); Moctezuma captured; dies during La Noche Triste (1520).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/aztec-empire"
+      },
+      "time:hasBeginning": "1502 CE",
+      "time:hasEnd": "1520 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/woodland-period",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Woodland Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Eastern North America; introduction of pottery, mound building, and incipient agriculture; Adena and Hopewell traditions.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/north-america-precolumbian"
+      },
+      "time:hasBeginning": "1000 BCE",
+      "time:hasEnd": "1000 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/adena-culture",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Adena Culture",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Ohio Valley mound builders; conical burial mounds; Adena pipe; early cultivation of sunflower, squash; long-distance trade.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/woodland-period"
+      },
+      "time:hasBeginning": "800 BCE",
+      "time:hasEnd": "100 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/hopewell-tradition",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Hopewell Tradition",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Middle Woodland; elaborate burial mounds and earthworks; Hopewell Interaction Sphere; obsidian, copper, shells traded across continent.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/woodland-period"
+      },
+      "time:hasBeginning": "100 CE",
+      "time:hasEnd": "500 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/mississippian-culture",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Mississippian Culture",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Complex chiefdoms across Southeast and Midwest; platform mounds; maize agriculture; Cahokia as largest city north of Mexico.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/north-america-precolumbian"
+      },
+      "time:hasBeginning": "800 CE",
+      "time:hasEnd": "1600 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/cahokia",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Cahokia",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Largest pre-Columbian city north of Mexico (~20,000 people); Monks Mound (largest earthwork in Americas); Woodhenge; UNESCO World Heritage Site.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mississippian-culture"
+      },
+      "time:hasBeginning": "1050 CE",
+      "time:hasEnd": "1350 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/ancestral-pueblo",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Ancestral Puebloans (Anasazi)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Four Corners region; cliff dwellings (Mesa Verde); Chaco Canyon great houses; kiva ceremonial architecture; maize, beans, squash agriculture.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/north-america-precolumbian"
+      },
+      "time:hasBeginning": "100 CE",
+      "time:hasEnd": "1600 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/chaco-canyon",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Chaco Canyon Florescence",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Chaco Culture; great houses (Pueblo Bonito); road network; astronomical alignments; regional trade center; UNESCO World Heritage Site.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/ancestral-pueblo"
+      },
+      "time:hasBeginning": "850 CE",
+      "time:hasEnd": "1150 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/hohokam",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Hohokam Culture",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Southern Arizona; extensive canal irrigation (over 1,000 km); Snaketown; ball courts; Mesoamerican trade connections; ancestors of O'odham.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/north-america-precolumbian"
+      },
+      "time:hasBeginning": "300 CE",
+      "time:hasEnd": "1450 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/mogollon",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Mogollon Culture",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Southwestern mountains (Arizona, New Mexico, Chihuahua); pithouses to pueblos; Mimbres pottery with distinctive black-on-white designs.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/north-america-precolumbian"
+      },
+      "time:hasBeginning": "200 CE",
+      "time:hasEnd": "1450 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/northwest-coast",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Northwest Coast Cultures",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Pacific Northwest; Haida, Tlingit, Kwakwaka'wakw; cedar plank houses, totem poles, potlatch ceremonies; salmon-based economy; complex non-agricultural society.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/north-america-precolumbian"
+      },
+      "time:hasBeginning": "3000 BCE",
+      "time:hasEnd": "1774 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/thule-culture",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Thule Culture",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Arctic whale hunters; ancestors of modern Inuit; spread from Alaska across Canadian Arctic to Greenland; dog sleds, kayaks, umiaks.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/north-america-precolumbian"
+      },
+      "time:hasBeginning": "200 CE",
+      "time:hasEnd": "1600 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/dorset-culture",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Dorset Culture",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Paleo-Eskimo Arctic culture; replaced by Thule people; soapstone lamps, snow houses; miniature ivory carvings; no dog sleds or bows.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/north-america-precolumbian"
+      },
+      "time:hasBeginning": "500 BCE",
+      "time:hasEnd": "1500 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/plains-village",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Plains Village Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Semi-sedentary farming communities on Great Plains; earth lodge villages; maize agriculture; Mandan, Hidatsa, Arikara, Pawnee, Wichita.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/north-america-precolumbian"
+      },
+      "time:hasBeginning": "1000 CE",
+      "time:hasEnd": "1780 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/iroquois-confederacy",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Haudenosaunee (Iroquois) Confederacy",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Six Nations (Mohawk, Oneida, Onondaga, Cayuga, Seneca, Tuscarora); Great Law of Peace; longhouse society; influenced U.S. Constitution debates.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/north-america-precolumbian"
+      },
+      "time:hasBeginning": "1450 CE",
+      "time:hasEnd": "1776 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/north-america-colonial",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Colonial North America",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "European colonization of North America; Spanish, French, English, Dutch settlements; fur trade; displacement of indigenous peoples.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1492 CE",
+      "time:hasEnd": "1783 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/spanish-exploration-na",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Spanish Exploration of North America",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Columbus (1492); Ponce de León in Florida (1513); Coronado explores Southwest (1540); de Soto crosses Southeast; St. Augustine founded (1565).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/north-america-colonial"
+      },
+      "time:hasBeginning": "1492 CE",
+      "time:hasEnd": "1600 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/new-france",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "New France",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "French colonial empire; Cartier, Champlain; Quebec (1608), Montreal (1642); fur trade; coureurs des bois; alliance with Huron-Wendat; ceded to Britain 1763.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/north-america-colonial"
+      },
+      "time:hasBeginning": "1534 CE",
+      "time:hasEnd": "1763 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/new-spain-north",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "New Spain (Northern Frontier)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Spanish colonial frontier; missions and presidios; California missions (1769–1833); Santa Fe (1610); mestizo culture; Mexican independence ends era.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/north-america-colonial"
+      },
+      "time:hasBeginning": "1521 CE",
+      "time:hasEnd": "1821 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/thirteen-colonies",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Thirteen British Colonies",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Jamestown (1607), Plymouth (1620), Massachusetts Bay; tobacco and slavery in South; town meetings in New England; growing self-governance.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/north-america-colonial"
+      },
+      "time:hasBeginning": "1607 CE",
+      "time:hasEnd": "1776 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/new-netherland",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "New Netherland",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Dutch colony; New Amsterdam (Manhattan); fur trade with Lenape and Mohawk; diverse population; conquered by English (1664), becomes New York.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/north-america-colonial"
+      },
+      "time:hasBeginning": "1614 CE",
+      "time:hasEnd": "1667 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/french-indian-war",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "French and Indian War",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "North American theater of Seven Years' War; British defeat France; Treaty of Paris (1763); France cedes Canada; sets stage for American Revolution.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/north-america-colonial"
+      },
+      "time:hasBeginning": "1754 CE",
+      "time:hasEnd": "1763 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/american-revolution",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "American Revolution",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Colonial resistance to British taxation; Declaration of Independence (1776); Revolutionary War; Treaty of Paris (1783); birth of the United States.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period"
+      },
+      "time:hasBeginning": "1765 CE",
+      "time:hasEnd": "1783 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/early-american-republic",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Early American Republic",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Constitution ratified (1788); Bill of Rights; Washington, Adams, Jefferson; Louisiana Purchase (1803); War of 1812; westward expansion begins.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period"
+      },
+      "time:hasBeginning": "1783 CE",
+      "time:hasEnd": "1815 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/jacksonian-era",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Jacksonian Era",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Andrew Jackson; expansion of white male suffrage; Indian Removal Act (1830); Trail of Tears; Manifest Destiny; Mexican-American War (1846-1848).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period"
+      },
+      "time:hasBeginning": "1828 CE",
+      "time:hasEnd": "1850 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/antebellum-period",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Antebellum Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Pre-Civil War era; cotton kingdom and slave economy; abolitionist movement; Underground Railroad; Missouri Compromise; Compromise of 1850.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period"
+      },
+      "time:hasBeginning": "1815 CE",
+      "time:hasEnd": "1861 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/american-civil-war",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "American Civil War",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Union vs. Confederacy; slavery as central cause; ~620,000 dead; Emancipation Proclamation (1863); Lee surrenders at Appomattox (1865).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period"
+      },
+      "time:hasBeginning": "1861 CE",
+      "time:hasEnd": "1865 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/reconstruction",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Reconstruction Era",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Post-Civil War rebuilding; 13th-15th Amendments; freedmen's rights; Ku Klux Klan backlash; ends with Compromise of 1877; Jim Crow begins.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period"
+      },
+      "time:hasBeginning": "1865 CE",
+      "time:hasEnd": "1877 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/gilded-age",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Gilded Age",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Rapid industrialization; robber barons (Carnegie, Rockefeller, Vanderbilt); immigration waves; labor unrest; railroads; Native American displacement.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period"
+      },
+      "time:hasBeginning": "1877 CE",
+      "time:hasEnd": "1900 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/indian-wars",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Indian Wars",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "U.S. military campaigns against Indigenous nations; Sand Creek (1864); Little Bighorn (1876); Wounded Knee (1890); reservation system; Dawes Act.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period"
+      },
+      "time:hasBeginning": "1860 CE",
+      "time:hasEnd": "1890 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/mexican-history",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Mexican Historical Periods",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Post-conquest Mexico; colonial New Spain, independence, revolution, and modern nation-state.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1521 CE",
+      "time:hasEnd": "Present",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/colonial-mexico",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Colonial Mexico (New Spain)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Spanish viceroyalty; encomienda system; silver mining (Zacatecas, Guanajuato); Baroque art and architecture; mestizo and creole society.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mexican-history"
+      },
+      "time:hasBeginning": "1521 CE",
+      "time:hasEnd": "1821 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/mexican-independence",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Mexican War of Independence",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Grito de Dolores (1810, Father Hidalgo); Morelos; Iturbide declares independence (1821); First Mexican Empire briefly established.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mexican-history"
+      },
+      "time:hasBeginning": "1810 CE",
+      "time:hasEnd": "1821 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/mexican-republic-early",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Early Mexican Republic",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Federal republic; Texas independence (1836); Mexican-American War (1846-1848); loss of half territory; Benito Juárez; French Intervention; Maximilian.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mexican-history"
+      },
+      "time:hasBeginning": "1824 CE",
+      "time:hasEnd": "1876 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/porfiriato",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Porfiriato",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Porfirio Díaz dictatorship; modernization, railways, foreign investment; extreme inequality; hacienda system; triggers revolution.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mexican-history"
+      },
+      "time:hasBeginning": "1876 CE",
+      "time:hasEnd": "1911 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/mexican-revolution",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Mexican Revolution",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Madero, Villa, Zapata, Carranza, Obregón; 'Land and Liberty'; Constitution of 1917; agrarian reform; ~1-2 million dead.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mexican-history"
+      },
+      "time:hasBeginning": "1910 CE",
+      "time:hasEnd": "1920 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/mexico-post-revolution",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Post-Revolutionary Mexico",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "PRI one-party rule (1929-2000); muralist movement (Rivera, Orozco, Siqueiros); oil nationalization (1938); NAFTA (1994); Zapatista uprising.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mexican-history"
+      },
+      "time:hasBeginning": "1920 CE",
+      "time:hasEnd": "2000 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/canadian-history",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Canadian Historical Periods",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "From French exploration through Confederation to modern multicultural nation.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1534 CE",
+      "time:hasEnd": "Present",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/british-north-america",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "British North America",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "After Treaty of Paris; Quebec Act (1774); Loyalist migration; War of 1812; Rebellions of 1837; Responsible Government; path to Confederation.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/canadian-history"
+      },
+      "time:hasBeginning": "1763 CE",
+      "time:hasEnd": "1867 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/canadian-confederation",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Canadian Confederation",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Dominion of Canada (1867); transcontinental railway (1885); Western settlement; Riel Rebellions; WWI and Vimy Ridge; Statute of Westminster (1931).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/canadian-history"
+      },
+      "time:hasBeginning": "1867 CE",
+      "time:hasEnd": "1931 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/modern-canada",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Modern Canada",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "WWII; welfare state; Quiet Revolution in Quebec; Official Languages Act (1969); Charter of Rights (1982); multiculturalism; reconciliation with Indigenous peoples.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/canadian-history"
+      },
+      "time:hasBeginning": "1931 CE",
+      "time:hasEnd": "Present",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/progressive-era",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Progressive Era",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Reform movements; trust-busting (Roosevelt); women's suffrage (19th Amendment, 1920); muckraking journalism; conservation movement.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period"
+      },
+      "time:hasBeginning": "1896 CE",
+      "time:hasEnd": "1920 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/roaring-twenties-na",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Roaring Twenties (North America)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Jazz Age; Harlem Renaissance; Prohibition; economic boom; Model T; cultural modernism; ends with Wall Street Crash (1929).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary"
+      },
+      "time:hasBeginning": "1920 CE",
+      "time:hasEnd": "1929 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/great-depression-na",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Great Depression (North America)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Wall Street Crash; ~25% unemployment; Dust Bowl; New Deal (FDR); Social Security; transformation of federal government role.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary"
+      },
+      "time:hasBeginning": "1929 CE",
+      "time:hasEnd": "1939 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/us-civil-rights",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Civil Rights Movement",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Brown v. Board (1954); Montgomery Bus Boycott; March on Washington (1963); Civil Rights Act (1964); Voting Rights Act (1965); MLK assassinated (1968).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary"
+      },
+      "time:hasBeginning": "1954 CE",
+      "time:hasEnd": "1968 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     }
   ]
