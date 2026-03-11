@@ -547,7 +547,7 @@ add("pre-roman-iron-age", "Pre-Roman Iron Age", "CulturalAge", "iron-age", 500, 
 add("pre-roman-iron-early", "Early Pre-Roman Iron Age", "CulturalAge", "pre-roman-iron-age", 500, 250, "BCE",
     "Transition from bronze; first local iron production from bog ore in southern Scandinavia.")
 add("pre-roman-iron-late", "Late Pre-Roman Iron Age", "CulturalAge", "pre-roman-iron-age", 250, 1, "BCE",
-    "Celtic La Tène influences; Hjortspring boat (350 BCE); complex hillforts.")
+    "Celtic La Tène influences; complex hillforts; Dejbjerg wagons; widespread bog iron production.")
 
 # --- Roman & Migration Period ---
 add("roman-iron-age", "Roman Iron Age", "CulturalAge", "holocene", 1, 400, "CE",
@@ -1258,7 +1258,7 @@ add("african-union-era", "African Union Era", "CulturalAge", "contemporary", 200
 # ═══════════════════════════════════════════════════════════════
 
 # --- Indus Valley & South Asia (Ancient) ---
-add("south-asia-history", "South Asian Historical Periods", "CulturalAge", "holocene", 7000, 0, "BCE",
+add("south-asia-history", "South Asian Historical Periods", "CulturalAge", "holocene", 7000, 0, "BCE-CE",
     "From Mehrgarh Neolithic through Indus Valley, Vedic, Mauryan, Mughal to modern India, Pakistan, Bangladesh, Sri Lanka.")
 add("mehrgarh", "Mehrgarh", "CulturalAge", "south-asia-history", 7000, 2500, "BCE",
     "Neolithic site in Balochistan; one of earliest farming settlements in South Asia; precursor to Indus Valley; dentistry evidence ~7000 BCE.")
@@ -1312,7 +1312,7 @@ add("south-asia-modern", "Modern South Asia", "CulturalAge", "contemporary", 194
     "Partition of India and Pakistan; Bangladesh liberation (1971); Sri Lankan civil war; nuclear powers; IT revolution; world's largest democracy.")
 
 # --- China ---
-add("china-history", "Chinese Historical Periods", "CulturalAge", "holocene", 7000, 0, "BCE",
+add("china-history", "Chinese Historical Periods", "CulturalAge", "holocene", 7000, 0, "BCE-CE",
     "From Neolithic cultures through dynastic cycle to modern People's Republic; continuous civilization spanning 5,000+ years.")
 add("chinese-neolithic", "Chinese Neolithic Cultures", "CulturalAge", "china-history", 7000, 2070, "BCE",
     "Yangshao (painted pottery), Longshan (black pottery), Liangzhu (jade); rice and millet cultivation; proto-cities; foundations of Chinese civilization.")
@@ -1368,7 +1368,7 @@ add("prc", "People's Republic of China", "CulturalAge", "contemporary", 1949, 0,
     "Mao Zedong; Great Leap Forward; Cultural Revolution (1966-76); Deng Xiaoping reforms (1978); economic miracle; world's second-largest economy.")
 
 # --- Japan ---
-add("japan-history", "Japanese Historical Periods", "CulturalAge", "holocene", 14000, 0, "BCE",
+add("japan-history", "Japanese Historical Periods", "CulturalAge", "holocene", 14000, 0, "BCE-CE",
     "From Jōmon hunter-gatherers through samurai shoguns to modern economic power; island civilization with unique cultural synthesis.")
 add("jomon", "Jōmon Period", "CulturalAge", "japan-history", 14000, 300, "BCE",
     "Hunter-gatherer-fishers; world's oldest pottery (~16,000 BP); cord-marked ceramics; Sannai-Maruyama settlement; dogu figurines; 10,000+ year span.")
@@ -1398,7 +1398,7 @@ add("postwar-japan", "Postwar Japan", "CulturalAge", "contemporary", 1945, 0, "C
     "U.S. occupation; new constitution; economic miracle; world's 2nd largest economy (1968-2010); Sony, Toyota; anime/manga cultural export; aging society.")
 
 # --- Korea ---
-add("korea-history", "Korean Historical Periods", "CulturalAge", "holocene", 2333, 0, "BCE",
+add("korea-history", "Korean Historical Periods", "CulturalAge", "holocene", 2333, 0, "BCE-CE",
     "From legendary Gojoseon through Three Kingdoms, Goryeo, Joseon to modern divided peninsula.")
 add("gojoseon", "Gojoseon", "CulturalAge", "korea-history", 2333, 108, "BCE",
     "First Korean kingdom (legendary founding by Dangun); bronze culture; Wiman Joseon; conquered by Han China (108 BCE); Korean identity origins.")
@@ -1420,7 +1420,7 @@ add("korea-modern", "Modern Korea (Divided)", "CulturalAge", "contemporary", 194
     "Division at 38th parallel; Korean War (1950-53); North Korea (DPRK); South Korea's 'Miracle on the Han River'; K-pop, Samsung; DMZ.")
 
 # --- Southeast Asia ---
-add("southeast-asia-history", "Southeast Asian Historical Periods", "CulturalAge", "holocene", 1000, 0, "BCE",
+add("southeast-asia-history", "Southeast Asian Historical Periods", "CulturalAge", "holocene", 1000, 0, "BCE-CE",
     "Maritime and mainland kingdoms; Indianization and Sinicization; spice trade; colonial era; modern ASEAN nations.")
 add("funan", "Kingdom of Funan", "CulturalAge", "southeast-asia-history", 100, 550, "CE",
     "Earliest known Indianized kingdom in mainland Southeast Asia; Mekong Delta; maritime trade hub; Hinduism and Buddhism; Óc Eo port city.")
@@ -1450,7 +1450,7 @@ add("southeast-asia-modern", "Modern Southeast Asia", "CulturalAge", "contempora
     "Independence movements; Vietnam Wars; Khmer Rouge; ASEAN (1967); Asian Tigers; Reformasi; economic growth; 680+ million people.")
 
 # --- Central Asia & Steppe ---
-add("central-asia-history", "Central Asian Historical Periods", "CulturalAge", "holocene", 3500, 0, "BCE",
+add("central-asia-history", "Central Asian Historical Periods", "CulturalAge", "holocene", 3500, 0, "BCE-CE",
     "Steppe nomads, Silk Road oasis cities; Scythians, Turks, Mongols; convergence zone of civilizations.")
 add("scythians", "Scythian Period", "CulturalAge", "central-asia-history", 900, 200, "BCE",
     "Iranian nomadic warriors; horse archery; animal-style gold art; kurgans (burial mounds); Herodotus accounts; influenced Greek and Persian worlds.")
@@ -1532,7 +1532,7 @@ add("modern-middle-east", "Modern Middle East", "CulturalAge", "contemporary", 1
 # ═══════════════════════════════════════════════════════════════
 
 # --- Australia ---
-add("oceania-history", "Oceanian Historical Periods", "CulturalAge", "holocene", 65000, 0, "BCE",
+add("oceania-history", "Oceanian Historical Periods", "CulturalAge", "holocene", 65000, 0, "BCE-CE",
     "Oldest continuous cultures on Earth; Aboriginal Australians, Melanesian, Polynesian, Micronesian peoples; maritime mastery; colonial disruption.")
 add("aboriginal-australia", "Aboriginal Australian Periods", "CulturalAge", "oceania-history", 65000, 1788, "BCE-CE",
     "Oldest continuous civilization; Dreamtime/Dreaming; rock art (Kakadu, Kimberley); fire-stick farming; ~250 language groups; 65,000+ years.")
@@ -1546,7 +1546,7 @@ add("australian-federation", "Federation and Modern Australia", "CulturalAge", "
     "Commonwealth of Australia (1901); Gallipoli (1915); White Australia policy (ended 1973); Mabo decision (1992); Sorry Day; multiculturalism.")
 
 # --- Melanesia ---
-add("melanesia-history", "Melanesian Civilizations", "CulturalAge", "oceania-history", 50000, 0, "BCE",
+add("melanesia-history", "Melanesian Civilizations", "CulturalAge", "oceania-history", 50000, 0, "BCE-CE",
     "Oldest Pacific settlement; Papua New Guinea highlands agriculture (~7000 BCE); diverse cultures; Kuk Swamp; Lapita pottery tradition.")
 add("sahul-settlement", "Settlement of Sahul", "CulturalAge", "melanesia-history", 50000, 30000, "BCE",
     "First humans in New Guinea/Australia (connected as Sahul); maritime crossing from Sunda; earliest evidence of ocean voyaging by humans.")
@@ -1556,7 +1556,7 @@ add("lapita-culture", "Lapita Culture", "CulturalAge", "oceania-history", 1600, 
     "Ancestral Polynesian culture; distinctive dentate-stamped pottery; originated Bismarck Archipelago; spread to Fiji, Tonga, Samoa; skilled navigators.")
 
 # --- Polynesia ---
-add("polynesia-history", "Polynesian Civilizations", "CulturalAge", "oceania-history", 1500, 0, "BCE",
+add("polynesia-history", "Polynesian Civilizations", "CulturalAge", "oceania-history", 1500, 0, "BCE-CE",
     "Greatest maritime expansion in human history; settled Pacific from Tonga/Samoa to Hawaiʻi, Easter Island, New Zealand; navigation by stars, currents, birds.")
 add("polynesia-ancestral", "Ancestral Polynesia (Tonga & Samoa)", "CulturalAge", "polynesia-history", 1500, 200, "BCE",
     "Tonga settled ~1500 BCE, Samoa ~1000 BCE; development of Polynesian culture, language, navigation; chiefdom societies; kava traditions.")
@@ -1574,7 +1574,7 @@ add("tongaempire", "Tuʻi Tonga Empire", "CulturalAge", "polynesia-history", 950
     "Maritime empire spanning central Pacific; Tongatapu capital; Haʻamonga trilithon; influenced Samoa, Fiji, Niue; one of Polynesia's largest polities.")
 
 # --- Micronesia ---
-add("micronesia-history", "Micronesian Civilizations", "CulturalAge", "oceania-history", 2000, 0, "BCE",
+add("micronesia-history", "Micronesian Civilizations", "CulturalAge", "oceania-history", 2000, 0, "BCE-CE",
     "Thousands of small islands; skilled navigators; Carolinian stick charts; varied cultures from Palau to Marshall Islands.")
 add("nan-madol", "Nan Madol", "CulturalAge", "micronesia-history", 1180, 1628, "CE",
     "Megalithic city built on artificial islets, Pohnpei; 'Venice of the Pacific'; basalt log-cabin architecture; Saudeleur dynasty; UNESCO site.")

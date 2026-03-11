@@ -2455,7 +2455,7 @@ ts:pre-roman-iron-early a gts:GeochronologicAge ;
 ts:pre-roman-iron-late a gts:GeochronologicAge ;
     rdfs:label "Late Pre-Roman Iron Age"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
-    skos:definition "Celtic La Tène influences; Hjortspring boat (350 BCE); complex hillforts."@en ;
+    skos:definition "Celtic La Tène influences; complex hillforts; Dejbjerg wagons; widespread bog iron production."@en ;
     gts:rank "CulturalAge" ;
     skos:broader ts:pre-roman-iron-age ;
     time:hasBeginning [ rdfs:label "250 BCE" ] ;
