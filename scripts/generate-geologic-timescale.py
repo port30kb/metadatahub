@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate the Geologic Time Scale as Linked Data (Turtle + JSON-LD).
 
-665 data points covering:
+675 data points covering:
 - 4 Eons
 - 10 Eras
 - 22 Periods (incl. Mississippian/Pennsylvanian sub-periods)
@@ -636,6 +636,14 @@ add("roman-empire", "Roman Empire", "CulturalAge", "holocene", 27, 476, "CE",
     "Pax Romana; peak Roman civilization; roads, aqueducts, law; Christianity becomes state religion (380 CE).")
 add("late-antiquity", "Late Antiquity", "CulturalAge", "holocene", 250, 750, "CE",
     "Transition from classical to medieval; fall of Western Rome (476); rise of Christianity; Byzantine Empire continues in East.")
+add("byzantine-empire", "Byzantine Empire", "CulturalAge", "holocene", 330, 1453, "CE",
+    "Eastern Roman Empire; Constantinople capital; Justinian's Code; Hagia Sophia; Greek culture; Orthodox Christianity; fell to Ottoman Turks (1453).")
+add("byzantine-early", "Early Byzantine Period", "CulturalAge", "byzantine-empire", 330, 717, "CE",
+    "Constantine founds Constantinople (330); Justinian I (527-565); Corpus Juris Civilis; Hagia Sophia (537); wars with Sasanian Persia; Arab sieges.")
+add("byzantine-middle", "Middle Byzantine Period", "CulturalAge", "byzantine-empire", 717, 1204, "CE",
+    "Iconoclasm controversy; Macedonian Renaissance; Great Schism (1054); Komnenian dynasty; Battle of Manzikert (1071); themes system.")
+add("byzantine-late", "Late Byzantine Period", "CulturalAge", "byzantine-empire", 1204, 1453, "CE",
+    "Fourth Crusade sacks Constantinople (1204); Latin Empire; Palaiologos restoration (1261); decline; Fall of Constantinople (1453) ends Roman continuity.")
 
 # --- European Middle Ages (continental) ---
 add("european-early-medieval", "Early Middle Ages (Europe)", "CulturalAge", "holocene", 500, 1000, "CE",
@@ -1268,6 +1276,8 @@ add("maurya-empire", "Maurya Empire", "CulturalAge", "south-asia-history", 322, 
     "First pan-Indian empire; Chandragupta Maurya; Ashoka the Great (~268-232 BCE); edicts of non-violence; Arthashastra; Pataliputra capital.")
 add("ashoka", "Reign of Ashoka", "CulturalAge", "maurya-empire", 268, 232, "BCE",
     "Greatest Mauryan emperor; Kalinga War conversion to Buddhism; rock and pillar edicts; Lion Capital (Indian national emblem); spread of Dharma.")
+add("gandhara", "Gandhara Civilization", "CulturalAge", "south-asia-history", 600, 1021, "BCE-CE",
+    "Northwest Pakistan/eastern Afghanistan; Greco-Buddhist art synthesis; Taxila university; Alexander's campaigns; Kushan patronage; Hindu Shahi; fell to Ghaznavids.")
 add("kushan-empire", "Kushan Empire", "CulturalAge", "south-asia-history", 30, 375, "CE",
     "Central Asian origin; Kanishka I; Gandhara Buddhist art (Greco-Buddhist); Silk Road trade; Mathura and Peshawar; spread Buddhism to China.")
 add("gupta-empire", "Gupta Empire", "CulturalAge", "south-asia-history", 320, 550, "CE",
@@ -1450,12 +1460,16 @@ add("silk-road-era", "Silk Road Era", "CulturalAge", "central-asia-history", 130
     "Trans-Eurasian trade network; Zhang Qian (130 BCE); Sogdian merchants; Samarkand, Bukhara, Kashgar; ideas, religions, diseases, technologies exchanged.")
 add("gokturk-khaganate", "Göktürk Khaganate", "CulturalAge", "central-asia-history", 552, 744, "CE",
     "First Turkic empire; Orkhon inscriptions (oldest Turkic writing); controlled Silk Road; split into Eastern and Western; influenced all later Turkic states.")
+add("tibetan-empire", "Tibetan Empire", "CulturalAge", "central-asia-history", 618, 842, "CE",
+    "Songtsen Gampo unifies Tibet; rivaled Tang China; controlled Silk Road oases; Lhasa established; Buddhism adopted; Tibetan script created; fragmented after 842.")
 add("mongol-empire", "Mongol Empire", "CulturalAge", "central-asia-history", 1206, 1368, "CE",
     "Genghis Khan; largest contiguous land empire in history; Pax Mongolica; postal system (yam); religious tolerance; connected East and West.")
 add("timurid-empire", "Timurid Empire", "CulturalAge", "central-asia-history", 1370, 1507, "CE",
     "Timur (Tamerlane); Samarkand as cultural capital; Timurid Renaissance; Ulugh Beg observatory; Persian-Turkic culture; ancestor of Mughal dynasty.")
 add("great-game", "The Great Game", "CulturalAge", "central-asia-history", 1830, 1907, "CE",
     "British-Russian rivalry for Central Asian influence; Afghanistan as buffer state; Russian conquest of khanates; Anglo-Afghan Wars; espionage.")
+add("durrani-empire", "Durrani Empire", "CulturalAge", "central-asia-history", 1747, 1826, "CE",
+    "Ahmad Shah Durrani ('Father of Afghanistan'); Pashtun empire from Khorasan to Punjab; Kohinoor diamond; foundation of modern Afghan state.")
 
 # --- Middle East / West Asia ---
 add("mesopotamia", "Mesopotamian Civilizations", "CulturalAge", "holocene", 3500, 539, "BCE",
@@ -1470,6 +1484,12 @@ add("assyrian-empire", "Assyrian Empire", "CulturalAge", "mesopotamia", 2500, 60
     "Neo-Assyrian peak (911-609 BCE); Nineveh, Nimrud; Ashurbanipal's library; brutal military; iron weapons; siege warfare; reliefs; conquered Egypt.")
 add("neo-babylonian", "Neo-Babylonian Empire", "CulturalAge", "mesopotamia", 626, 539, "BCE",
     "Nebuchadnezzar II; Hanging Gardens; Ishtar Gate; Babylonian captivity of Jews; astronomical records; fell to Persian Cyrus the Great.")
+add("phoenicia", "Phoenician Civilization", "CulturalAge", "holocene", 1500, 300, "BCE",
+    "Maritime city-states (Tyre, Sidon, Byblos); invented the alphabet (~1050 BCE); purple dye; Mediterranean trade and colonization; founded Carthage (~814 BCE).")
+add("carthage", "Carthaginian Empire", "CulturalAge", "holocene", 814, 146, "BCE",
+    "Phoenician colony becomes western Mediterranean power; Hannibal Barca; Punic Wars with Rome; destroyed by Rome (146 BCE); North Africa, Iberia, Sicily.")
+add("ancient-israel", "Ancient Israel", "CulturalAge", "holocene", 1200, 586, "BCE",
+    "Iron Age Levant; tribal confederation; United Monarchy under David and Solomon; First Temple; split into Israel and Judah; Babylonian exile (586 BCE); Hebrew Bible origins.")
 add("hittite-empire", "Hittite Empire", "CulturalAge", "holocene", 1650, 1180, "BCE",
     "Anatolian Bronze Age power; Hattusa capital; Battle of Kadesh with Egypt (1274 BCE); iron technology; Treaty of Kadesh (earliest known peace treaty); cuneiform.")
 add("achaemenid-empire", "Achaemenid Persian Empire", "CulturalAge", "holocene", 550, 330, "BCE",

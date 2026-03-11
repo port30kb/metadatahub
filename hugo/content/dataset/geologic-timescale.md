@@ -1,6 +1,6 @@
 ---
 title: "Geologic Time Scale"
-description: "665 linked data entries covering Earth's 4.6 billion year history — from the Hadean eon through geologic eras, periods, and epochs to archaeological ages with Scandinavian, European, South American, North American, African, Asian, and Oceanian coverage."
+description: "675 linked data entries covering Earth's 4.6 billion year history — from the Hadean eon through geologic eras, periods, and epochs to archaeological ages with Scandinavian, European, South American, North American, African, Asian, and Oceanian coverage."
 date: 2024-12-01
 type: dataset
 publisher: "Port 30 KB"
@@ -26,12 +26,12 @@ tags:
   - linked-data
 distributions:
   - id: "turtle"
-    title: "RDF Turtle (665 entries)"
+    title: "RDF Turtle (675 entries)"
     accessURL: "https://metadatahub.eu/data/geologic-timescale.ttl"
     downloadURL: "https://metadatahub.eu/data/geologic-timescale.ttl"
     mediaType: "text/turtle"
   - id: "jsonld"
-    title: "JSON-LD (665 entries)"
+    title: "JSON-LD (675 entries)"
     accessURL: "https://metadatahub.eu/data/geologic-timescale.jsonld"
     downloadURL: "https://metadatahub.eu/data/geologic-timescale.jsonld"
     mediaType: "application/ld+json"
@@ -39,7 +39,7 @@ distributions:
 
 ## Overview
 
-This dataset models the **complete geologic time scale** as a SKOS concept scheme with 665 entries, using the [GeoSciML Geologic Timescale ontology](http://resource.geosciml.org/ontology/timescale/gts) and [W3C Time Ontology](http://www.w3.org/2006/time). It spans from the formation of Earth (4,600 Ma) through all geologic divisions down to individual ages/stages, then bridges into **archaeological and cultural periods** — Scandinavian (Stone Age through Viking Age to Modern), European (Classical Greece through EU), South American (Norte Chico through Inca Empire to 21st century), North American (Clovis through Mesoamerica, Colonial era, and U.S./Canadian/Mexican history), African (Ancient Egypt through Great Zimbabwe, West African empires, colonialism, and independence), and Asian (Indus Valley through Mughal India, Chinese dynasties, Japanese periods, Korean kingdoms, Southeast Asian empires, Central Asian steppe empires, and Middle Eastern civilizations), and Oceanian (Aboriginal Australia, Melanesia, Polynesia, Micronesia, Māori New Zealand, and Pacific Islands).
+This dataset models the **complete geologic time scale** as a SKOS concept scheme with 675 entries, using the [GeoSciML Geologic Timescale ontology](http://resource.geosciml.org/ontology/timescale/gts) and [W3C Time Ontology](http://www.w3.org/2006/time). It spans from the formation of Earth (4,600 Ma) through all geologic divisions down to individual ages/stages, then bridges into **archaeological and cultural periods** — Scandinavian (Stone Age through Viking Age to Modern), European (Classical Greece through EU), South American (Norte Chico through Inca Empire to 21st century), North American (Clovis through Mesoamerica, Colonial era, and U.S./Canadian/Mexican history), African (Ancient Egypt through Great Zimbabwe, West African empires, colonialism, and independence), and Asian (Indus Valley through Mughal India, Chinese dynasties, Japanese periods, Korean kingdoms, Southeast Asian empires, Central Asian steppe empires, and Middle Eastern civilizations), and Oceanian (Aboriginal Australia, Melanesia, Polynesia, Micronesia, Māori New Zealand, and Pacific Islands).
 
 ## Sources
 
@@ -91,6 +91,13 @@ This dataset is compiled from the following sources:
 - [Wikipedia: Māori people](https://en.wikipedia.org/wiki/M%C4%81ori_people) — Aotearoa settlement and culture
 - [Wikipedia: Lapita culture](https://en.wikipedia.org/wiki/Lapita_culture) — Ancestral Polynesian expansion
 - [Wikipedia: Nan Madol](https://en.wikipedia.org/wiki/Nan_Madol) — Megalithic city of Micronesia
+- [Wikipedia: Byzantine Empire](https://en.wikipedia.org/wiki/Byzantine_Empire) — Eastern Roman Empire, 330–1453 CE
+- [Wikipedia: Phoenicia](https://en.wikipedia.org/wiki/Phoenicia) — Alphabet inventors, Mediterranean traders
+- [Wikipedia: Carthage](https://en.wikipedia.org/wiki/Carthage) — Punic Wars, Hannibal
+- [Wikipedia: Kingdom of Israel (united monarchy)](https://en.wikipedia.org/wiki/Kingdom_of_Israel_(united_monarchy)) — David, Solomon, First Temple
+- [Wikipedia: Tibetan Empire](https://en.wikipedia.org/wiki/Tibetan_Empire) — Rivaled Tang China, 618–842 CE
+- [Wikipedia: Gandhara](https://en.wikipedia.org/wiki/Gandhara) — Greco-Buddhist art, Peshawar region
+- [Wikipedia: Durrani Empire](https://en.wikipedia.org/wiki/Durrani_Empire) — Foundation of modern Afghanistan
 
 License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (matching Wikipedia source license).
 
@@ -98,18 +105,18 @@ License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (matchi
 
 | Category | Count |
 |----------|-------|
-| **Total entries** | 665 |
+| **Total entries** | 675 |
 | **Eons** | 4 (Hadean, Archean, Proterozoic, Phanerozoic) |
 | **Eras** | 13 (incl. Hadean informal divisions) |
 | **Periods** | 22 + 2 sub-periods (Mississippian, Pennsylvanian) |
 | **Epochs** | 38 |
-| **Ages/Stages** | ~80 (all Mesozoic + Cenozoic stages, Paleozoic key stages) |
+| **Ages/Stages** | 119 (all Mesozoic + Cenozoic stages, Paleozoic key stages) |
 | **Cultural ages (Nordic)** | ~80 (Stone Age cultures, Bronze Age (Montelius I–VI), Iron Age, Viking Age, Medieval through Modern) |
-| **Cultural ages (European)** | ~25 (Classical Greece, Roman Empire, Carolingian, Crusades, Renaissance, Baroque, Enlightenment, etc.) |
+| **Cultural ages (European)** | ~30 (Classical Greece, Roman Empire, Byzantine Empire, Carolingian, Crusades, Renaissance, Baroque, Enlightenment, etc.) |
 | **South American periods** | ~49 (Norte Chico, Chavín, Moche, Inca Empire, colonial viceroyalties, independence wars, modern) |
 | **North American periods** | ~86 (Clovis, Olmec, Maya, Aztec, Mississippian, Taíno, colonial era, U.S., Mexico, Canada) |
 | **African periods** | ~67 (Ancient Egypt, Kush/Meroë, Aksum, Ghana/Mali/Songhai, Benin, Great Zimbabwe, Swahili Coast, colonialism, independence) |
-| **Asian periods** | ~122 (South Asia: Indus Valley–Sikh Empire–British Raj; China: Xia–Five Dynasties–PRC; Japan: Jōmon–Postwar; Korea: Gojoseon–Balhae–Modern; Southeast Asia: Funan–Sukhothai–ASEAN; Central Asia: Scythians–Great Game; Middle East: Hittites–Sumer–Seljuks–Mamluks–Ottoman–Qajar) |
+| **Asian periods** | ~132 (South Asia: Indus Valley–Gandhara–Sikh Empire–British Raj; China: Xia–Five Dynasties–PRC; Japan: Jōmon–Postwar; Korea: Gojoseon–Balhae–Modern; Southeast Asia: Funan–Sukhothai–ASEAN; Central Asia: Scythians–Tibetan Empire–Durrani–Great Game; Middle East: Hittites–Phoenicia–Ancient Israel–Sumer–Seljuks–Mamluks–Ottoman–Qajar) |
 | **Oceanian periods** | ~29 (Aboriginal Australia 65,000+ yrs; Melanesia, Lapita; Polynesia: Tonga, Hawaiʻi, Rapa Nui; Micronesia: Nan Madol; Māori; colonial Pacific) |
 | **Climate/extinction events** | ~15 (Big Five extinctions, Snowball Earth, PETM, etc.) |
 | **Nordic-specific** | ~40 (Bromme, Fosna-Hensbacka, Komsa, Ertebølle, Vendel, Kalmar Union, Stormaktstiden, etc.) |
@@ -173,6 +180,10 @@ Phanerozoic (Eon, 538.8 Ma–Present)
             ├── Hellenistic (323–31 BCE)
             ├── Roman Republic & Empire (509 BCE–476 CE)
             ├── Late Antiquity (250–750 CE)
+            ├── Byzantine Empire (330–1453 CE)
+            │   ├── Early Byzantine (Justinian, Hagia Sophia)
+            │   ├── Middle Byzantine (Iconoclasm, Great Schism)
+            │   └── Late Byzantine (Fourth Crusade, Fall 1453)
             ├── Merovingian → Carolingian → Ottonian
             ├── High Middle Ages → Crusades, 12th-C Renaissance
             ├── Late Middle Ages (1300–1500)
@@ -298,6 +309,7 @@ Phanerozoic (Eon, 538.8 Ma–Present)
             │   ├── Mehrgarh (7000–2500 BCE) — earliest farming
             │   ├── Indus Valley (3300–1300 BCE) → Mature Harappan
             │   ├── Vedic Period → Early Vedic, Late Vedic
+            │   ├── Gandhara (600 BCE–1021 CE) — Greco-Buddhist art
             │   ├── Maurya Empire → Ashoka (268–232 BCE)
             │   ├── Satavahana, Kushan, Gupta (Golden Age)
             │   ├── Pallava, Chalukya, Chola, Pala
@@ -354,8 +366,10 @@ Phanerozoic (Eon, 538.8 Ma–Present)
             │   ├── Xiongnu — first steppe empire
             │   ├── Silk Road Era (130 BCE–1453 CE)
             │   ├── Göktürk Khaganate — Orkhon inscriptions
+            │   ├── Tibetan Empire (618–842 CE) — rivaled Tang
             │   ├── Mongol Empire — Genghis Khan, Pax Mongolica
             │   ├── Timurid Empire — Samarkand
+            │   ├── Durrani Empire (1747–1826) — foundation of Afghanistan
             │   └── The Great Game (British-Russian rivalry)
             └── Middle East / West Asia
                 ├── Mesopotamia
@@ -364,6 +378,9 @@ Phanerozoic (Eon, 538.8 Ma–Present)
                 │   ├── Old Babylon (Hammurabi's Code)
                 │   ├── Assyrian Empire → Neo-Babylonian
                 │   └── Hittite Empire (Anatolia, 1650–1180 BCE)
+                ├── Phoenicia (1500–300 BCE) — alphabet, maritime trade
+                ├── Carthage (814–146 BCE) — Hannibal, Punic Wars
+                ├── Ancient Israel (1200–586 BCE) — David, Solomon, First Temple
                 ├── Achaemenid Persia → Seleucid Empire
                 ├── Parthian → Sasanian Empire
                 ├── Rashidun → Umayyad → Abbasid (Islamic Golden Age)
@@ -462,6 +479,7 @@ ts:jurassic a gts:GeochronologicPeriod ;
 | **Roman Republic** | 509–27 BCE | Mediterranean expansion; Punic Wars; Julius Caesar |
 | **Roman Empire** | 27 BCE–476 CE | Pax Romana; roads, law; Christianity becomes state religion |
 | **Late Antiquity** | 250–750 CE | Fall of Western Rome; rise of Christianity; Byzantine East |
+| **Byzantine Empire** | 330–1453 CE | Eastern Roman Empire; Constantinople; Justinian; Orthodox Christianity |
 | **Merovingian Period** | 481–751 CE | Frankish kingdoms; Clovis I converts to Christianity |
 | **Carolingian Period** | 751–888 CE | Charlemagne; Carolingian Renaissance; revival of learning |
 | **Ottonian Period** | 919–1024 CE | Holy Roman Empire; Ottonian Renaissance |
@@ -574,6 +592,7 @@ ts:jurassic a gts:GeochronologicPeriod ;
 | **Mehrgarh** | 7000–2500 BCE | Earliest South Asian farming; precursor to Indus Valley |
 | **Indus Valley Civilization** | 3300–1300 BCE | Harappa, Mohenjo-daro; urban planning; undeciphered script |
 | **Vedic Period** | 1500–500 BCE | Rigveda; Sanskrit; emergence of Buddhism and Jainism |
+| **Gandhara** | 600 BCE–1021 CE | Greco-Buddhist art; Taxila; NW Pakistan/E Afghanistan |
 | **Maurya Empire** | 322–185 BCE | First pan-Indian empire; Ashoka's edicts of non-violence |
 | **Satavahana Dynasty** | 230 BCE–220 CE | Major Deccan power; Amaravati stupa; trade routes |
 | **Gupta Empire** | 320–550 CE | Golden Age; Aryabhata; decimal system; Kalidasa |
@@ -658,11 +677,16 @@ ts:jurassic a gts:GeochronologicPeriod ;
 | **Akkadian Empire** | 2334–2154 BCE | Sargon; first known empire in history |
 | **Old Babylonian** | 1894–1595 BCE | Hammurabi's Code; Babylonian mathematics |
 | **Assyrian Empire** | 2500–609 BCE | Nineveh; Ashurbanipal's library; iron weapons |
+| **Phoenicia** | 1500–300 BCE | Alphabet inventors; Tyre, Sidon, Byblos; Mediterranean trade |
+| **Carthage** | 814–146 BCE | Phoenician colony; Hannibal; Punic Wars with Rome |
+| **Ancient Israel** | 1200–586 BCE | David, Solomon; First Temple; Hebrew Bible origins |
 | **Hittite Empire** | 1650–1180 BCE | Anatolian power; Battle of Kadesh; earliest peace treaty |
 | **Achaemenid Persia** | 550–330 BCE | Cyrus the Great; Persepolis; Royal Road |
 | **Seleucid Empire** | 312–63 BCE | Hellenistic successor; Greek culture in Near East |
 | **Silk Road Era** | 130 BCE–1453 CE | Trans-Eurasian trade; Samarkand, Bukhara |
+| **Tibetan Empire** | 618–842 CE | Rivaled Tang China; Lhasa; Buddhism adopted; Silk Road |
 | **Mongol Empire** | 1206–1368 CE | Genghis Khan; largest contiguous land empire |
+| **Durrani Empire** | 1747–1826 CE | Ahmad Shah Durrani; foundation of modern Afghanistan |
 | **Rashidun Caliphate** | 632–661 CE | Four 'rightly guided' caliphs; rapid Islamic expansion |
 | **Islamic Golden Age** | 750–1258 CE | House of Wisdom; algebra; Ibn Sina; optics |
 | **Fatimid Caliphate** | 909–1171 CE | Shia caliphate; founded Cairo; Al-Azhar University |
@@ -743,5 +767,5 @@ WHERE {
 
 ## Download
 
-- [Turtle (text/turtle)](/data/geologic-timescale.ttl) — 7,300+ lines, all 665 entries with full hierarchy
+- [Turtle (text/turtle)](/data/geologic-timescale.ttl) — 7,400+ lines, all 675 entries with full hierarchy
 - [JSON-LD (application/ld+json)](/data/geologic-timescale.jsonld) — Same data as JSON-LD graph

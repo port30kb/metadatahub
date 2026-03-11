@@ -11,7 +11,7 @@
   "@id": "https://metadatahub.eu/data/geologic-timescale",
   "@type": "skos:ConceptScheme",
   "dcterms:title": "Geologic Time Scale",
-  "dcterms:description": "665 entries covering the geologic time scale from Hadean eon (4600 Ma) to present, including Scandinavian, European, and South American cultural/historical periods.",
+  "dcterms:description": "675 entries covering the geologic time scale from Hadean eon (4600 Ma) to present, including Scandinavian, European, and South American cultural/historical periods.",
   "dcterms:source": [
     "https://en.wikipedia.org/wiki/Geologic_time_scale",
     "https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf",
@@ -4873,6 +4873,82 @@
       },
       "time:hasBeginning": "250 CE",
       "time:hasEnd": "750 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/byzantine-empire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Byzantine Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Eastern Roman Empire; Constantinople capital; Justinian's Code; Hagia Sophia; Greek culture; Orthodox Christianity; fell to Ottoman Turks (1453).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "330 CE",
+      "time:hasEnd": "1453 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/byzantine-early",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Early Byzantine Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Constantine founds Constantinople (330); Justinian I (527-565); Corpus Juris Civilis; Hagia Sophia (537); wars with Sasanian Persia; Arab sieges.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/byzantine-empire"
+      },
+      "time:hasBeginning": "330 CE",
+      "time:hasEnd": "717 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/byzantine-middle",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Middle Byzantine Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Iconoclasm controversy; Macedonian Renaissance; Great Schism (1054); Komnenian dynasty; Battle of Manzikert (1071); themes system.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/byzantine-empire"
+      },
+      "time:hasBeginning": "717 CE",
+      "time:hasEnd": "1204 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/byzantine-late",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Late Byzantine Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Fourth Crusade sacks Constantinople (1204); Latin Empire; Palaiologos restoration (1261); decline; Fall of Constantinople (1453) ends Roman continuity.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/byzantine-empire"
+      },
+      "time:hasBeginning": "1204 CE",
+      "time:hasEnd": "1453 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -9949,6 +10025,25 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/gandhara",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Gandhara Civilization",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Northwest Pakistan/eastern Afghanistan; Greco-Buddhist art synthesis; Taxila university; Alexander's campaigns; Kushan patronage; Hindu Shahi; fell to Ghaznavids.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-asia-history"
+      },
+      "time:hasBeginning": "600 BCE",
+      "time:hasEnd": "1021 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
       "@id": "https://metadatahub.eu/data/geologic-timescale/kushan-empire",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
@@ -11583,6 +11678,25 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/tibetan-empire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Tibetan Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Songtsen Gampo unifies Tibet; rivaled Tang China; controlled Silk Road oases; Lhasa established; Buddhism adopted; Tibetan script created; fragmented after 842.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/central-asia-history"
+      },
+      "time:hasBeginning": "618 CE",
+      "time:hasEnd": "842 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
       "@id": "https://metadatahub.eu/data/geologic-timescale/mongol-empire",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
@@ -11637,6 +11751,25 @@
       },
       "time:hasBeginning": "1830 CE",
       "time:hasEnd": "1907 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/durrani-empire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Durrani Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Ahmad Shah Durrani ('Father of Afghanistan'); Pashtun empire from Khorasan to Punjab; Kohinoor diamond; foundation of modern Afghan state.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/central-asia-history"
+      },
+      "time:hasBeginning": "1747 CE",
+      "time:hasEnd": "1826 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -11751,6 +11884,63 @@
       },
       "time:hasBeginning": "626 BCE",
       "time:hasEnd": "539 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/phoenicia",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Phoenician Civilization",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Maritime city-states (Tyre, Sidon, Byblos); invented the alphabet (~1050 BCE); purple dye; Mediterranean trade and colonization; founded Carthage (~814 BCE).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1500 BCE",
+      "time:hasEnd": "300 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/carthage",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Carthaginian Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Phoenician colony becomes western Mediterranean power; Hannibal Barca; Punic Wars with Rome; destroyed by Rome (146 BCE); North Africa, Iberia, Sicily.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "814 BCE",
+      "time:hasEnd": "146 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/ancient-israel",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Ancient Israel",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Iron Age Levant; tribal confederation; United Monarchy under David and Solomon; First Temple; split into Israel and Judah; Babylonian exile (586 BCE); Hebrew Bible origins.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1200 BCE",
+      "time:hasEnd": "586 BCE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
