@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate the Geologic Time Scale as Linked Data (Turtle + JSON-LD).
 
-514 data points covering:
+647 data points covering:
 - 4 Eons
 - 10 Eras
 - 22 Periods (incl. Mississippian/Pennsylvanian sub-periods)
@@ -1244,6 +1244,306 @@ add("rwandan-genocide", "Rwandan Genocide", "CulturalAge", "contemporary", 1994,
     "~800,000 Tutsi and moderate Hutu killed in 100 days; international failure to intervene; RPF ends genocide; Gacaca justice; reconciliation.")
 add("african-union-era", "African Union Era", "CulturalAge", "contemporary", 2002, 0, "CE",
     "AU succeeds OAU (2002); Agenda 2063; peacekeeping missions; AfCFTA free trade area (2021); economic growth; demographic dividend; challenges remain.")
+
+# ═══════════════════════════════════════════════════════════════
+# ASIAN HISTORICAL & CULTURAL PERIODS
+# ═══════════════════════════════════════════════════════════════
+
+# --- Indus Valley & South Asia (Ancient) ---
+add("south-asia-history", "South Asian Historical Periods", "CulturalAge", "holocene", 7000, 0, "BCE",
+    "From Mehrgarh Neolithic through Indus Valley, Vedic, Mauryan, Mughal to modern India, Pakistan, Bangladesh, Sri Lanka.")
+add("mehrgarh", "Mehrgarh", "CulturalAge", "south-asia-history", 7000, 2500, "BCE",
+    "Neolithic site in Balochistan; one of earliest farming settlements in South Asia; precursor to Indus Valley; dentistry evidence ~7000 BCE.")
+add("indus-valley", "Indus Valley Civilization", "CulturalAge", "south-asia-history", 3300, 1300, "BCE",
+    "Harappa, Mohenjo-daro; urban planning, drainage systems; undeciphered script; ~5 million people; one of three earliest civilizations.")
+add("indus-mature", "Mature Harappan Phase", "CulturalAge", "indus-valley", 2600, 1900, "BCE",
+    "Peak of Indus civilization; standardized weights and measures; Great Bath of Mohenjo-daro; trade with Mesopotamia; citadel-lower town layout.")
+add("vedic-period", "Vedic Period", "CulturalAge", "south-asia-history", 1500, 500, "BCE",
+    "Composition of the Vedas (Rigveda ~1500 BCE); Sanskrit; varna system; Aryan migration debate; transition from pastoral to settled agriculture.")
+add("vedic-early", "Early Vedic Period", "CulturalAge", "vedic-period", 1500, 1000, "BCE",
+    "Rigveda composition; pastoral-nomadic society; Indra worship; tribal kingdoms (janapadas); Punjab region focus.")
+add("vedic-late", "Late Vedic Period", "CulturalAge", "vedic-period", 1000, 500, "BCE",
+    "Expansion to Ganges plain; Painted Grey Ware; Upanishads; emergence of Buddhism and Jainism; Mahajanapadas (16 great kingdoms).")
+add("maurya-empire", "Maurya Empire", "CulturalAge", "south-asia-history", 322, 185, "BCE",
+    "First pan-Indian empire; Chandragupta Maurya; Ashoka the Great (~268-232 BCE); edicts of non-violence; Arthashastra; Pataliputra capital.")
+add("ashoka", "Reign of Ashoka", "CulturalAge", "maurya-empire", 268, 232, "BCE",
+    "Greatest Mauryan emperor; Kalinga War conversion to Buddhism; rock and pillar edicts; Lion Capital (Indian national emblem); spread of Dharma.")
+add("kushan-empire", "Kushan Empire", "CulturalAge", "south-asia-history", 30, 375, "CE",
+    "Central Asian origin; Kanishka I; Gandhara Buddhist art (Greco-Buddhist); Silk Road trade; Mathura and Peshawar; spread Buddhism to China.")
+add("gupta-empire", "Gupta Empire", "CulturalAge", "south-asia-history", 320, 550, "CE",
+    "Golden Age of India; Chandragupta I, Samudragupta, Chandragupta II; Aryabhata (mathematics/astronomy); Kalidasa; Nalanda University; decimal system.")
+add("chola-dynasty", "Chola Dynasty", "CulturalAge", "south-asia-history", 300, 1279, "CE",
+    "Tamil Nadu; one of longest-ruling dynasties; Rajaraja I, Rajendra I; naval power; Brihadeeswarar Temple; influence across Southeast Asia.")
+add("delhi-sultanate", "Delhi Sultanate", "CulturalAge", "south-asia-history", 1206, 1526, "CE",
+    "Five successive Islamic dynasties ruling from Delhi; Qutub Minar; repelled Mongol invasions; Slave, Khalji, Tughlaq, Sayyid, Lodi dynasties.")
+add("vijayanagara", "Vijayanagara Empire", "CulturalAge", "south-asia-history", 1336, 1646, "CE",
+    "Hindu empire of southern India; Hampi capital (UNESCO); resisted Bahmani/Deccan sultanates; patronized Telugu, Kannada, Tamil literature.")
+add("mughal-empire", "Mughal Empire", "CulturalAge", "south-asia-history", 1526, 1857, "CE",
+    "Babur, Akbar, Shah Jahan, Aurangzeb; Taj Mahal; religious tolerance (Akbar's Din-i Ilahi); zenith of Indo-Islamic architecture; ~25% of world GDP.")
+add("mughal-golden-age", "Mughal Golden Age", "CulturalAge", "mughal-empire", 1556, 1707, "CE",
+    "Akbar through Aurangzeb; Taj Mahal (1632-53); Red Fort; miniature painting; administrative reforms; territorial peak under Aurangzeb.")
+add("maratha-empire", "Maratha Empire", "CulturalAge", "south-asia-history", 1674, 1818, "CE",
+    "Shivaji Maharaj; Hindu Padshahi; challenged Mughal decline; Peshwa era; confederacy; Battle of Panipat (1761); eventually fell to British.")
+add("british-raj", "British Raj", "CulturalAge", "south-asia-history", 1858, 1947, "CE",
+    "Direct British Crown rule; railways; English education; Bengal famine (1943); Indian National Congress; Muslim League; independence movement.")
+add("indian-independence", "Indian Independence Movement", "CulturalAge", "british-raj", 1885, 1947, "CE",
+    "INC founded (1885); Swadeshi; Gandhi's satyagraha; Salt March (1930); Quit India (1942); Partition; independence August 15, 1947.")
+add("south-asia-modern", "Modern South Asia", "CulturalAge", "contemporary", 1947, 0, "CE",
+    "Partition of India and Pakistan; Bangladesh liberation (1971); Sri Lankan civil war; nuclear powers; IT revolution; world's largest democracy.")
+
+# --- China ---
+add("china-history", "Chinese Historical Periods", "CulturalAge", "holocene", 7000, 0, "BCE",
+    "From Neolithic cultures through dynastic cycle to modern People's Republic; continuous civilization spanning 5,000+ years.")
+add("chinese-neolithic", "Chinese Neolithic Cultures", "CulturalAge", "china-history", 7000, 2070, "BCE",
+    "Yangshao (painted pottery), Longshan (black pottery), Liangzhu (jade); rice and millet cultivation; proto-cities; foundations of Chinese civilization.")
+add("xia-dynasty", "Xia Dynasty", "CulturalAge", "china-history", 2070, 1600, "BCE",
+    "First Chinese dynasty (semi-legendary); Yu the Great; flood control; Erlitou culture; bronze vessels; transition from Neolithic to Bronze Age.")
+add("shang-dynasty", "Shang Dynasty", "CulturalAge", "china-history", 1600, 1046, "BCE",
+    "First historically verified dynasty; oracle bone inscriptions (earliest Chinese writing); bronze ritual vessels; Anyang capital; ancestor worship.")
+add("zhou-dynasty", "Zhou Dynasty", "CulturalAge", "china-history", 1046, 256, "BCE",
+    "Longest Chinese dynasty; Mandate of Heaven concept; feudal system; divided into Western Zhou and Eastern Zhou (Spring and Autumn, Warring States).")
+add("spring-autumn", "Spring and Autumn Period", "CulturalAge", "zhou-dynasty", 771, 476, "BCE",
+    "Confucius (551-479), Laozi (Daoism), Sun Tzu; Hundred Schools of Thought begins; hegemonic states; iron technology spreads.")
+add("warring-states", "Warring States Period", "CulturalAge", "zhou-dynasty", 475, 221, "BCE",
+    "Seven major states; Mencius, Zhuangzi, Legalism (Han Feizi); crossbow, cavalry; mass armies; ends with Qin unification.")
+add("qin-dynasty", "Qin Dynasty", "CulturalAge", "china-history", 221, 206, "BCE",
+    "First unified Chinese empire; Qin Shi Huang; Great Wall begun; Terracotta Army; standardized weights, measures, writing; Legalist rule; burned books.")
+add("han-dynasty", "Han Dynasty", "CulturalAge", "china-history", 206, 220, "BCE",
+    "Golden age; Confucianism as state ideology; Silk Road opens (Zhang Qian); paper invented; civil service exams; ~60 million people; 'Han Chinese' identity.")
+add("han-western", "Western Han", "CulturalAge", "han-dynasty", 206, 9, "BCE",
+    "Emperor Wu expands empire; Silk Road trade; Sima Qian's Records of the Grand Historian; Confucian academy; Chang'an capital.")
+add("han-eastern", "Eastern Han", "CulturalAge", "han-dynasty", 25, 220, "CE",
+    "Restored Han; Luoyang capital; Buddhism arrives; invention of paper (Cai Lun, 105 CE); seismograph (Zhang Heng); Yellow Turban Rebellion.")
+add("three-kingdoms", "Three Kingdoms Period", "CulturalAge", "china-history", 220, 280, "CE",
+    "Wei, Shu, Wu; Cao Cao, Liu Bei, Sun Quan, Zhuge Liang; Romance of the Three Kingdoms; one of most romanticized eras in Chinese culture.")
+add("sui-dynasty", "Sui Dynasty", "CulturalAge", "china-history", 581, 618, "CE",
+    "Reunification after centuries of division; Grand Canal construction; Great Wall rebuilt; civil service exams restored; overextension leads to collapse.")
+add("tang-dynasty", "Tang Dynasty", "CulturalAge", "china-history", 618, 907, "CE",
+    "Golden age of Chinese civilization; Chang'an largest city in world; Li Bai, Du Fu (poetry); Wu Zetian (only female emperor); cosmopolitan culture; Silk Road peak.")
+add("song-dynasty", "Song Dynasty", "CulturalAge", "china-history", 960, 1279, "CE",
+    "Economic revolution; movable type printing; gunpowder weapons; compass; paper money; Neo-Confucianism; landscape painting; commercial economy.")
+add("song-northern", "Northern Song", "CulturalAge", "song-dynasty", 960, 1127, "CE",
+    "Kaifeng capital; Su Shi (poet); Shen Kuo (polymath); Dream Pool Essays; commercial revolution; lost north to Jurchen Jin dynasty.")
+add("song-southern", "Southern Song", "CulturalAge", "song-dynasty", 1127, 1279, "CE",
+    "Hangzhou capital ('above is heaven, below is Hangzhou'); maritime trade; Zhu Xi Neo-Confucianism; fell to Mongol Yuan dynasty.")
+add("yuan-dynasty", "Yuan Dynasty (Mongol)", "CulturalAge", "china-history", 1271, 1368, "CE",
+    "Kublai Khan; Mongol rule over China; Marco Polo visits; Grand Canal extended; Yuan drama; paper money inflation; ethnic hierarchy.")
+add("ming-dynasty", "Ming Dynasty", "CulturalAge", "china-history", 1368, 1644, "CE",
+    "Han Chinese restoration; Forbidden City (Beijing); Zheng He voyages (1405-33); Great Wall rebuilt; porcelain golden age; novel tradition flourishes.")
+add("zheng-he", "Zheng He Voyages", "CulturalAge", "ming-dynasty", 1405, 1433, "CE",
+    "Seven grand maritime expeditions; treasure ships; reached East Africa, Arabia, Southeast Asia; then China turned inward; ended oceanic exploration.")
+add("qing-dynasty", "Qing Dynasty", "CulturalAge", "china-history", 1644, 1912, "CE",
+    "Manchu rule; largest Qing territory; Kangxi, Qianlong emperors; Opium Wars; Taiping Rebellion (~20-30M dead); Century of Humiliation; fall to revolution.")
+add("qing-golden-age", "High Qing Era", "CulturalAge", "qing-dynasty", 1661, 1796, "CE",
+    "Kangxi-Yongzheng-Qianlong; population doubles to 300M; territorial expansion (Tibet, Xinjiang, Taiwan); literary inquisition; Dream of the Red Chamber.")
+add("opium-wars", "Opium Wars Era", "CulturalAge", "qing-dynasty", 1839, 1860, "CE",
+    "First (1839-42) and Second (1856-60) Opium Wars; Treaty of Nanjing; Hong Kong ceded; unequal treaties; Summer Palace burned; forced opening.")
+add("republic-of-china", "Republic of China", "CulturalAge", "china-history", 1912, 1949, "CE",
+    "Sun Yat-sen; warlord era; Northern Expedition; Nanjing decade; Second Sino-Japanese War (1937-45); Chinese Civil War; Chiang Kai-shek retreats to Taiwan.")
+add("prc", "People's Republic of China", "CulturalAge", "contemporary", 1949, 0, "CE",
+    "Mao Zedong; Great Leap Forward; Cultural Revolution (1966-76); Deng Xiaoping reforms (1978); economic miracle; world's second-largest economy.")
+
+# --- Japan ---
+add("japan-history", "Japanese Historical Periods", "CulturalAge", "holocene", 14000, 0, "BCE",
+    "From Jōmon hunter-gatherers through samurai shoguns to modern economic power; island civilization with unique cultural synthesis.")
+add("jomon", "Jōmon Period", "CulturalAge", "japan-history", 14000, 300, "BCE",
+    "Hunter-gatherer-fishers; world's oldest pottery (~16,000 BP); cord-marked ceramics; Sannai-Maruyama settlement; dogu figurines; 10,000+ year span.")
+add("yayoi", "Yayoi Period", "CulturalAge", "japan-history", 300, 250, "BCE",
+    "Wet-rice agriculture from Korean peninsula; bronze and iron tools; social stratification; Yoshinogari site; foundation of Japanese agricultural society.")
+add("kofun", "Kofun Period", "CulturalAge", "japan-history", 250, 538, "CE",
+    "Keyhole-shaped burial mounds; Yamato court emergence; introduction of Chinese writing; haniwa clay figures; imperial lineage established.")
+add("asuka-period", "Asuka Period", "CulturalAge", "japan-history", 538, 710, "CE",
+    "Buddhism arrives; Prince Shōtoku; Taika Reform (645); Ritsuryō legal codes; Chinese-style centralized government; Hōryū-ji temple.")
+add("nara-period", "Nara Period", "CulturalAge", "japan-history", 710, 794, "CE",
+    "First permanent capital at Nara; Kojiki and Nihon Shoki (earliest histories); Tōdai-ji Great Buddha; Buddhist monastery power grows.")
+add("heian-period", "Heian Period", "CulturalAge", "japan-history", 794, 1185, "CE",
+    "Kyoto capital; Tale of Genji (Murasaki Shikibu, world's first novel); Fujiwara regents; kana script; refined court culture; samurai class rises.")
+add("kamakura-shogunate", "Kamakura Period", "CulturalAge", "japan-history", 1185, 1333, "CE",
+    "First shogunate (Minamoto Yoritomo); samurai government; Zen Buddhism; Mongol invasions repelled (1274, 1281, 'kamikaze'); warrior culture.")
+add("muromachi-period", "Muromachi Period", "CulturalAge", "japan-history", 1336, 1573, "CE",
+    "Ashikaga shogunate; Noh theater; tea ceremony; Zen gardens (Ryōan-ji); Ōnin War (1467); Sengoku (Warring States) era begins.")
+add("sengoku", "Sengoku Period", "CulturalAge", "japan-history", 1467, 1615, "CE",
+    "Warring States; Oda Nobunaga, Toyotomi Hideyoshi, Tokugawa Ieyasu (three unifiers); firearms arrive (1543); castles; samurai warfare peak.")
+add("edo-period", "Edo Period (Tokugawa)", "CulturalAge", "japan-history", 1603, 1868, "CE",
+    "Tokugawa shogunate; 250 years of peace; sakoku isolation; Edo (Tokyo) grows to 1M+; kabuki, ukiyo-e, haiku; rigid social hierarchy; merchant culture.")
+add("meiji-era", "Meiji Era", "CulturalAge", "japan-history", 1868, 1912, "CE",
+    "Meiji Restoration; rapid modernization/industrialization; Meiji Constitution (1889); Sino-Japanese War (1894-95); Russo-Japanese War (1904-05); world power.")
+add("imperial-japan", "Imperial Japan", "CulturalAge", "japan-history", 1912, 1945, "CE",
+    "Taishō democracy; militarism rises; Manchuria invasion (1931); Second Sino-Japanese War; Pearl Harbor; Pacific War; atomic bombs; surrender.")
+add("postwar-japan", "Postwar Japan", "CulturalAge", "contemporary", 1945, 0, "CE",
+    "U.S. occupation; new constitution; economic miracle; world's 2nd largest economy (1968-2010); Sony, Toyota; anime/manga cultural export; aging society.")
+
+# --- Korea ---
+add("korea-history", "Korean Historical Periods", "CulturalAge", "holocene", 2333, 0, "BCE",
+    "From legendary Gojoseon through Three Kingdoms, Goryeo, Joseon to modern divided peninsula.")
+add("gojoseon", "Gojoseon", "CulturalAge", "korea-history", 2333, 108, "BCE",
+    "First Korean kingdom (legendary founding by Dangun); bronze culture; Wiman Joseon; conquered by Han China (108 BCE); Korean identity origins.")
+add("three-kingdoms-korea", "Three Kingdoms of Korea", "CulturalAge", "korea-history", 57, 668, "BCE",
+    "Goguryeo (north, military), Baekje (southwest, maritime), Silla (southeast); Buddhism adopted; tomb murals; cultural exchange with Japan and China.")
+add("silla-unified", "Unified Silla", "CulturalAge", "korea-history", 668, 935, "CE",
+    "Silla unifies peninsula with Tang alliance; Gyeongju capital; Bulguksa Temple; golden age of Korean Buddhism; Seokguram Grotto.")
+add("goryeo-dynasty", "Goryeo Dynasty", "CulturalAge", "korea-history", 918, 1392, "CE",
+    "Origin of name 'Korea'; celadon ceramics; Tripitaka Koreana (woodblock Buddhist canon); movable metal type (1234, before Gutenberg); Mongol invasions.")
+add("joseon-dynasty", "Joseon Dynasty", "CulturalAge", "korea-history", 1392, 1897, "CE",
+    "Neo-Confucian state; Sejong the Great invents Hangul (1443); Gyeongbokgung Palace; Imjin War (Japanese invasions, 1592-98); 500-year dynasty.")
+add("joseon-golden-age", "Joseon Golden Age", "CulturalAge", "joseon-dynasty", 1418, 1494, "CE",
+    "Sejong the Great; Hangul alphabet (1443); rain gauge, sundials, water clocks; Jang Yeong-sil (inventor); agricultural treatises; Confucian scholarship.")
+add("japanese-occupation-korea", "Japanese Occupation of Korea", "CulturalAge", "korea-history", 1910, 1945, "CE",
+    "Annexation by Japan; cultural suppression; forced labor; comfort women; March 1st Movement (1919); Korean language banned; liberation with WWII end.")
+add("korea-modern", "Modern Korea (Divided)", "CulturalAge", "contemporary", 1945, 0, "CE",
+    "Division at 38th parallel; Korean War (1950-53); North Korea (DPRK); South Korea's 'Miracle on the Han River'; K-pop, Samsung; DMZ.")
+
+# --- Southeast Asia ---
+add("southeast-asia-history", "Southeast Asian Historical Periods", "CulturalAge", "holocene", 1000, 0, "BCE",
+    "Maritime and mainland kingdoms; Indianization and Sinicization; spice trade; colonial era; modern ASEAN nations.")
+add("funan", "Kingdom of Funan", "CulturalAge", "southeast-asia-history", 100, 550, "CE",
+    "Earliest known Indianized kingdom in mainland Southeast Asia; Mekong Delta; maritime trade hub; Hinduism and Buddhism; Óc Eo port city.")
+add("champa", "Kingdom of Champa", "CulturalAge", "southeast-asia-history", 192, 1832, "CE",
+    "Hindu-Buddhist kingdom in central/southern Vietnam; Cham towers (Mỹ Sơn); maritime trade; rivalry with Khmer and Đại Việt; Austronesian people.")
+add("srivijaya", "Srivijaya Empire", "CulturalAge", "southeast-asia-history", 650, 1377, "CE",
+    "Maritime empire based in Sumatra; controlled Malacca Strait; Buddhist center (Nalanda connections); Malay language spread; spice trade.")
+add("khmer-empire", "Khmer Empire", "CulturalAge", "southeast-asia-history", 802, 1431, "CE",
+    "Angkor Wat and Angkor Thom; Jayavarman II, Suryavarman II, Jayavarman VII; hydraulic engineering; largest pre-industrial city; Hindu-Buddhist synthesis.")
+add("pagan-kingdom", "Pagan Kingdom", "CulturalAge", "southeast-asia-history", 849, 1297, "CE",
+    "First unified Myanmar/Burma; Anawrahta; 10,000+ Buddhist temples at Bagan; Theravada Buddhism; Pali scriptures; Mongol invasion ends dynasty.")
+add("majapahit", "Majapahit Empire", "CulturalAge", "southeast-asia-history", 1293, 1527, "CE",
+    "Java-based Hindu-Buddhist empire; Gajah Mada (prime minister); Nagarakretagama poem; controlled much of maritime Southeast Asia; Indonesian national heritage.")
+add("ayutthaya", "Ayutthaya Kingdom", "CulturalAge", "southeast-asia-history", 1351, 1767, "CE",
+    "Siamese kingdom; cosmopolitan capital; trade with China, Japan, Europe; 33 kings; destroyed by Burma (1767); predecessor to modern Thailand.")
+add("malacca-sultanate", "Malacca Sultanate", "CulturalAge", "southeast-asia-history", 1400, 1511, "CE",
+    "Strategic Strait of Malacca; spread of Islam in maritime Southeast Asia; Malay court culture; fell to Portuguese (1511); origin of modern Malaysia.")
+add("dai-viet", "Đại Việt", "CulturalAge", "southeast-asia-history", 1009, 1802, "CE",
+    "Vietnamese state; Lý, Trần, Lê dynasties; repelled Mongol invasions (3 times); Confucian governance; Temple of Literature (1070); southward expansion.")
+add("colonial-southeast-asia", "Colonial Southeast Asia", "CulturalAge", "southeast-asia-history", 1511, 1957, "CE",
+    "Portuguese Malacca (1511); Dutch East Indies; Spanish Philippines; French Indochina; British Burma/Malaya; only Thailand never colonized.")
+add("southeast-asia-modern", "Modern Southeast Asia", "CulturalAge", "contemporary", 1945, 0, "CE",
+    "Independence movements; Vietnam Wars; Khmer Rouge; ASEAN (1967); Asian Tigers; Reformasi; economic growth; 680+ million people.")
+
+# --- Central Asia & Steppe ---
+add("central-asia-history", "Central Asian Historical Periods", "CulturalAge", "holocene", 3500, 0, "BCE",
+    "Steppe nomads, Silk Road oasis cities; Scythians, Turks, Mongols; convergence zone of civilizations.")
+add("scythians", "Scythian Period", "CulturalAge", "central-asia-history", 900, 200, "BCE",
+    "Iranian nomadic warriors; horse archery; animal-style gold art; kurgans (burial mounds); Herodotus accounts; influenced Greek and Persian worlds.")
+add("xiongnu", "Xiongnu Empire", "CulturalAge", "central-asia-history", 209, 93, "BCE",
+    "First great steppe empire; Modu Chanyu; prompted Chinese Great Wall; Silk Road intermediaries; possible ancestors of Huns; Han dynasty rival.")
+add("silk-road-era", "Silk Road Era", "CulturalAge", "central-asia-history", 130, 1453, "BCE",
+    "Trans-Eurasian trade network; Zhang Qian (130 BCE); Sogdian merchants; Samarkand, Bukhara, Kashgar; ideas, religions, diseases, technologies exchanged.")
+add("gokturk-khaganate", "Göktürk Khaganate", "CulturalAge", "central-asia-history", 552, 744, "CE",
+    "First Turkic empire; Orkhon inscriptions (oldest Turkic writing); controlled Silk Road; split into Eastern and Western; influenced all later Turkic states.")
+add("mongol-empire", "Mongol Empire", "CulturalAge", "central-asia-history", 1206, 1368, "CE",
+    "Genghis Khan; largest contiguous land empire in history; Pax Mongolica; postal system (yam); religious tolerance; connected East and West.")
+add("timurid-empire", "Timurid Empire", "CulturalAge", "central-asia-history", 1370, 1507, "CE",
+    "Timur (Tamerlane); Samarkand as cultural capital; Timurid Renaissance; Ulugh Beg observatory; Persian-Turkic culture; ancestor of Mughal dynasty.")
+add("great-game", "The Great Game", "CulturalAge", "central-asia-history", 1830, 1907, "CE",
+    "British-Russian rivalry for Central Asian influence; Afghanistan as buffer state; Russian conquest of khanates; Anglo-Afghan Wars; espionage.")
+
+# --- Middle East / West Asia ---
+add("mesopotamia", "Mesopotamian Civilizations", "CulturalAge", "holocene", 3500, 539, "BCE",
+    "Cradle of civilization; between Tigris and Euphrates; writing, law, mathematics, astronomy; successive empires from Sumer to Neo-Babylonian.")
+add("sumer", "Sumerian Civilization", "CulturalAge", "mesopotamia", 3500, 2004, "BCE",
+    "First civilization; cuneiform writing; city-states (Ur, Uruk, Lagash); ziggurats; Epic of Gilgamesh; wheel, plow, sailboat; sexagesimal math.")
+add("akkadian-empire", "Akkadian Empire", "CulturalAge", "mesopotamia", 2334, 2154, "BCE",
+    "Sargon of Akkad; first known empire in history; Akkadian language; centralized bureaucracy; trade networks from Indus to Mediterranean.")
+add("babylon-old", "Old Babylonian Period", "CulturalAge", "mesopotamia", 1894, 1595, "BCE",
+    "Hammurabi's Code (~1754 BCE, earliest known legal code); Babylonian mathematics; astronomy; Marduk worship; fell to Hittite raid.")
+add("assyrian-empire", "Assyrian Empire", "CulturalAge", "mesopotamia", 2500, 609, "BCE",
+    "Neo-Assyrian peak (911-609 BCE); Nineveh, Nimrud; Ashurbanipal's library; brutal military; iron weapons; siege warfare; reliefs; conquered Egypt.")
+add("neo-babylonian", "Neo-Babylonian Empire", "CulturalAge", "mesopotamia", 626, 539, "BCE",
+    "Nebuchadnezzar II; Hanging Gardens; Ishtar Gate; Babylonian captivity of Jews; astronomical records; fell to Persian Cyrus the Great.")
+add("achaemenid-empire", "Achaemenid Persian Empire", "CulturalAge", "holocene", 550, 330, "BCE",
+    "Cyrus the Great, Darius I, Xerxes; largest empire to date; Persepolis; Royal Road; satrapy system; Zoroastrianism; defeated by Alexander.")
+add("parthian-empire", "Parthian Empire", "CulturalAge", "holocene", 247, 224, "BCE",
+    "Iranian Arsacid dynasty; rival to Rome; Silk Road trade; Ctesiphon capital; horse archers; Carrhae victory over Crassus (53 BCE).")
+add("sasanian-empire", "Sasanian Empire", "CulturalAge", "holocene", 224, 651, "CE",
+    "Last pre-Islamic Persian empire; Zoroastrian state religion; Ctesiphon arch; rivalry with Rome/Byzantium; chess, polo; Academy of Gondishapur.")
+add("islamic-golden-age", "Islamic Golden Age", "CulturalAge", "holocene", 750, 1258, "CE",
+    "Abbasid Caliphate; House of Wisdom (Baghdad); al-Khwarizmi (algebra); Ibn Sina (medicine); optics, chemistry, astronomy; translation movement; ended by Mongol sack of Baghdad.")
+add("umayyad-caliphate", "Umayyad Caliphate", "CulturalAge", "holocene", 661, 750, "CE",
+    "First hereditary Islamic dynasty; Damascus capital; expansion from Spain to Indus; Dome of the Rock; Great Mosque of Damascus; Arabic as administrative language.")
+add("abbasid-caliphate", "Abbasid Caliphate", "CulturalAge", "holocene", 750, 1258, "CE",
+    "Baghdad founded (762); cosmopolitan capital; House of Wisdom; Paper from China; One Thousand and One Nights; fragmented after 10th century; Mongols destroy Baghdad (1258).")
+add("ottoman-empire", "Ottoman Empire", "CulturalAge", "holocene", 1299, 1922, "CE",
+    "One of longest-lasting empires; Constantinople conquered (1453); Suleiman the Magnificent; three continents; millet system; Hagia Sophia mosque; 'Sick Man of Europe'; dissolved after WWI.")
+add("ottoman-golden-age", "Ottoman Golden Age", "CulturalAge", "ottoman-empire", 1453, 1566, "CE",
+    "Mehmed II to Suleiman; Constantinople/Istanbul capital; Topkapi Palace; Sinan (architect); legal reforms (Kanuni); naval dominance in Mediterranean.")
+add("safavid-iran", "Safavid Empire", "CulturalAge", "holocene", 1501, 1736, "CE",
+    "Shia Islam as state religion of Iran; Isfahan ('half the world'); Shah Abbas I; Persian carpet golden age; rivalry with Ottomans and Mughals.")
+add("modern-middle-east", "Modern Middle East", "CulturalAge", "contemporary", 1918, 0, "CE",
+    "Ottoman collapse; Sykes-Picot; mandates; Israel founded (1948); oil economy; Arab-Israeli conflicts; Iranian Revolution (1979); Gulf Wars; Arab Spring.")
+
+# ═══════════════════════════════════════════════════════════════
+# OCEANIAN HISTORICAL & CULTURAL PERIODS
+# ═══════════════════════════════════════════════════════════════
+
+# --- Australia ---
+add("oceania-history", "Oceanian Historical Periods", "CulturalAge", "holocene", 65000, 0, "BCE",
+    "Oldest continuous cultures on Earth; Aboriginal Australians, Melanesian, Polynesian, Micronesian peoples; maritime mastery; colonial disruption.")
+add("aboriginal-australia", "Aboriginal Australian Periods", "CulturalAge", "oceania-history", 65000, 1788, "BCE",
+    "Oldest continuous civilization; Dreamtime/Dreaming; rock art (Kakadu, Kimberley); fire-stick farming; ~250 language groups; 65,000+ years.")
+add("aboriginal-early", "Early Aboriginal Period", "CulturalAge", "aboriginal-australia", 65000, 10000, "BCE",
+    "First Australians arrive (~65,000 BP); Lake Mungo burials (~42,000 BP); megafauna coexistence and extinction; continent-wide spread; earliest rock art.")
+add("aboriginal-holocene", "Aboriginal Holocene Period", "CulturalAge", "aboriginal-australia", 10000, 1788, "BCE",
+    "Sea level rise creates modern coastline; Torres Strait Islands separate; intensification; fish traps (Brewarrina ~40,000 years); complex trade networks; songlines.")
+add("australian-colonial", "Colonial Australia", "CulturalAge", "oceania-history", 1788, 1901, "CE",
+    "First Fleet (1788); penal colony; frontier wars; gold rushes (1850s); pastoralism; Stolen Generations begin; six colonies; White Australia policy roots.")
+add("australian-federation", "Federation and Modern Australia", "CulturalAge", "contemporary", 1901, 0, "CE",
+    "Commonwealth of Australia (1901); Gallipoli (1915); White Australia policy (ended 1973); Mabo decision (1992); Sorry Day; multiculturalism.")
+
+# --- Melanesia ---
+add("melanesia-history", "Melanesian Civilizations", "CulturalAge", "oceania-history", 50000, 0, "BCE",
+    "Oldest Pacific settlement; Papua New Guinea highlands agriculture (~7000 BCE); diverse cultures; Kuk Swamp; Lapita pottery tradition.")
+add("sahul-settlement", "Settlement of Sahul", "CulturalAge", "melanesia-history", 50000, 30000, "BCE",
+    "First humans in New Guinea/Australia (connected as Sahul); maritime crossing from Sunda; earliest evidence of ocean voyaging by humans.")
+add("kuk-early-agriculture", "Kuk Early Agriculture", "CulturalAge", "melanesia-history", 7000, 4000, "BCE",
+    "Kuk Swamp, PNG highlands; independent invention of agriculture; banana, taro, yam cultivation; drainage ditches; one of world's earliest farming sites.")
+add("lapita-culture", "Lapita Culture", "CulturalAge", "oceania-history", 1600, 500, "BCE",
+    "Ancestral Polynesian culture; distinctive dentate-stamped pottery; originated Bismarck Archipelago; spread to Fiji, Tonga, Samoa; skilled navigators.")
+
+# --- Polynesia ---
+add("polynesia-history", "Polynesian Civilizations", "CulturalAge", "oceania-history", 1500, 0, "BCE",
+    "Greatest maritime expansion in human history; settled Pacific from Tonga/Samoa to Hawaiʻi, Easter Island, New Zealand; navigation by stars, currents, birds.")
+add("polynesia-ancestral", "Ancestral Polynesia (Tonga & Samoa)", "CulturalAge", "polynesia-history", 1500, 200, "BCE",
+    "Tonga settled ~1500 BCE, Samoa ~1000 BCE; development of Polynesian culture, language, navigation; chiefdom societies; kava traditions.")
+add("polynesia-expansion", "Polynesian Expansion", "CulturalAge", "polynesia-history", 200, 1200, "CE",
+    "Long-pause then rapid expansion; Marquesas (~300 CE), Hawaiʻi (~400 CE), Easter Island/Rapa Nui (~700 CE); double-hulled canoes; star navigation.")
+add("rapa-nui", "Rapa Nui (Easter Island)", "CulturalAge", "polynesia-history", 700, 1722, "CE",
+    "Moai statues (~900 carved); ahu platforms; rongorongo script (undeciphered); ecological transformation; European contact (1722).")
+add("tuamotuan-cook", "Cook Islands & Tuamotus Settlement", "CulturalAge", "polynesia-history", 800, 1595, "CE",
+    "Settlement of remote atolls and islands; coral architecture; lagoon aquaculture; celestial navigation mastery; pre-European contact societies.")
+add("hawaiian-kingdom-pre", "Ancient Hawaiʻi", "CulturalAge", "polynesia-history", 400, 1795, "CE",
+    "Settlement from Marquesas/Tahiti; ahupuaʻa land management; heiau temples; kapu system; taro cultivation; fish ponds; ali'i chiefs.")
+add("hawaiian-kingdom", "Kingdom of Hawaiʻi", "CulturalAge", "polynesia-history", 1795, 1893, "CE",
+    "Kamehameha I unifies islands; constitutional monarchy; Hawaiian Renaissance; written language; sugar plantations; overthrown by U.S.-backed coup (1893).")
+add("tongaempire", "Tuʻi Tonga Empire", "CulturalAge", "polynesia-history", 950, 1865, "CE",
+    "Maritime empire spanning central Pacific; Tongatapu capital; Haʻamonga trilithon; influenced Samoa, Fiji, Niue; one of Polynesia's largest polities.")
+
+# --- Micronesia ---
+add("micronesia-history", "Micronesian Civilizations", "CulturalAge", "oceania-history", 2000, 0, "BCE",
+    "Thousands of small islands; skilled navigators; Carolinian stick charts; varied cultures from Palau to Marshall Islands.")
+add("nan-madol", "Nan Madol", "CulturalAge", "micronesia-history", 1180, 1628, "CE",
+    "Megalithic city built on artificial islets, Pohnpei; 'Venice of the Pacific'; basalt log-cabin architecture; Saudeleur dynasty; UNESCO site.")
+add("marshallese-navigation", "Marshallese Navigation Tradition", "CulturalAge", "micronesia-history", 500, 1900, "CE",
+    "Stick chart navigation (mattang, meddo, rebbelib); wave piloting; outrigger canoes; settlement of remote atolls; unique ocean-reading knowledge.")
+
+# --- New Zealand / Aotearoa ---
+add("aotearoa-history", "Aotearoa / New Zealand History", "CulturalAge", "oceania-history", 1250, 0, "CE",
+    "Last major landmass settled by humans; Māori culture; Treaty of Waitangi (1840); bicultural nation.")
+add("maori-settlement", "Māori Settlement Period", "CulturalAge", "aotearoa-history", 1250, 1500, "CE",
+    "East Polynesian voyagers arrive; moa hunting; early pā (fortified villages); adaptation to temperate climate; kūmara cultivation.")
+add("maori-classic", "Classic Māori Period", "CulturalAge", "aotearoa-history", 1500, 1769, "CE",
+    "Elaborate pā fortifications; whakairo (carving); tā moko (tattoo); haka; complex tribal (iwi) society; inter-tribal warfare; greenstone (pounamu) trade.")
+add("new-zealand-colonial", "Colonial New Zealand", "CulturalAge", "aotearoa-history", 1769, 1907, "CE",
+    "Cook arrives (1769); sealers, whalers; Musket Wars; Treaty of Waitangi (1840); New Zealand Wars (1845-72); gold rushes; Dominion status (1907).")
+add("new-zealand-modern", "Modern New Zealand", "CulturalAge", "contemporary", 1907, 0, "CE",
+    "Women's suffrage (1893, first nation); Gallipoli; welfare state; Māori Renaissance; nuclear-free (1987); Treaty settlements; multicultural Aotearoa.")
+
+# --- Colonial & Modern Pacific ---
+add("colonial-pacific", "Colonial Pacific", "CulturalAge", "oceania-history", 1521, 1975, "CE",
+    "Magellan (1521); Spanish, British, French, German, Japanese, American colonial claims; copra trade; nuclear testing (Bikini, Moruroa); independence wave.")
+add("pacific-nuclear-era", "Pacific Nuclear Testing Era", "CulturalAge", "colonial-pacific", 1946, 1996, "CE",
+    "Bikini Atoll (1946); 315+ nuclear tests in Pacific; Marshall Islands, French Polynesia, Christmas Island; health and environmental devastation; ban movement.")
+add("pacific-independence", "Pacific Island Independence", "CulturalAge", "contemporary", 1962, 0, "CE",
+    "Western Samoa first (1962); Fiji, PNG, Vanuatu, Kiribati follow; Pacific Islands Forum; climate change existential threat; 'Blue Pacific' identity.")
 
 print(f"Total data points: {n[0]}")
 

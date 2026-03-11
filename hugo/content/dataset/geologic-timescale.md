@@ -1,6 +1,6 @@
 ---
 title: "Geologic Time Scale"
-description: "514 linked data entries covering Earth's 4.6 billion year history — from the Hadean eon through geologic eras, periods, and epochs to archaeological ages with Scandinavian, European, South American, North American, and African coverage."
+description: "647 linked data entries covering Earth's 4.6 billion year history — from the Hadean eon through geologic eras, periods, and epochs to archaeological ages with Scandinavian, European, South American, North American, African, Asian, and Oceanian coverage."
 date: 2024-12-01
 type: dataset
 publisher: "Port 30 KB"
@@ -19,16 +19,19 @@ tags:
   - North-America
   - Mesoamerica
   - Africa
+  - Asia
+  - Middle-East
+  - Oceania
   - SKOS
   - linked-data
 distributions:
   - id: "turtle"
-    title: "RDF Turtle (514 entries)"
+    title: "RDF Turtle (647 entries)"
     accessURL: "https://metadatahub.eu/data/geologic-timescale.ttl"
     downloadURL: "https://metadatahub.eu/data/geologic-timescale.ttl"
     mediaType: "text/turtle"
   - id: "jsonld"
-    title: "JSON-LD (514 entries)"
+    title: "JSON-LD (647 entries)"
     accessURL: "https://metadatahub.eu/data/geologic-timescale.jsonld"
     downloadURL: "https://metadatahub.eu/data/geologic-timescale.jsonld"
     mediaType: "application/ld+json"
@@ -36,7 +39,7 @@ distributions:
 
 ## Overview
 
-This dataset models the **complete geologic time scale** as a SKOS concept scheme with 514 entries, using the [GeoSciML Geologic Timescale ontology](http://resource.geosciml.org/ontology/timescale/gts) and [W3C Time Ontology](http://www.w3.org/2006/time). It spans from the formation of Earth (4,600 Ma) through all geologic divisions down to individual ages/stages, then bridges into **archaeological and cultural periods** — Scandinavian (Stone Age through Viking Age to Modern), European (Classical Greece through EU), South American (Norte Chico through Inca Empire to 21st century), North American (Clovis through Mesoamerica, Colonial era, and U.S./Canadian/Mexican history), and African (Ancient Egypt through Great Zimbabwe, West African empires, colonialism, and independence).
+This dataset models the **complete geologic time scale** as a SKOS concept scheme with 647 entries, using the [GeoSciML Geologic Timescale ontology](http://resource.geosciml.org/ontology/timescale/gts) and [W3C Time Ontology](http://www.w3.org/2006/time). It spans from the formation of Earth (4,600 Ma) through all geologic divisions down to individual ages/stages, then bridges into **archaeological and cultural periods** — Scandinavian (Stone Age through Viking Age to Modern), European (Classical Greece through EU), South American (Norte Chico through Inca Empire to 21st century), North American (Clovis through Mesoamerica, Colonial era, and U.S./Canadian/Mexican history), African (Ancient Egypt through Great Zimbabwe, West African empires, colonialism, and independence), and Asian (Indus Valley through Mughal India, Chinese dynasties, Japanese periods, Korean kingdoms, Southeast Asian empires, Central Asian steppe empires, and Middle Eastern civilizations), and Oceanian (Aboriginal Australia, Melanesia, Polynesia, Micronesia, Māori New Zealand, and Pacific Islands).
 
 ## Sources
 
@@ -67,6 +70,23 @@ This dataset is compiled from the following sources:
 - [Wikipedia: African empires](https://en.wikipedia.org/wiki/African_empires) — Ghana, Mali, Songhai, Benin, Ashanti, Zulu, and others
 - [Wikipedia: Scramble for Africa](https://en.wikipedia.org/wiki/Scramble_for_Africa) — European colonization and partition
 - [Wikipedia: Decolonisation of Africa](https://en.wikipedia.org/wiki/Decolonisation_of_Africa) — Independence movements
+- [Wikipedia: History of India](https://en.wikipedia.org/wiki/History_of_India) — Indus Valley through modern India
+- [Wikipedia: Indus Valley Civilisation](https://en.wikipedia.org/wiki/Indus_Valley_Civilisation) — Harappa, Mohenjo-daro
+- [Wikipedia: Mughal Empire](https://en.wikipedia.org/wiki/Mughal_Empire) — Babur through Aurangzeb
+- [Wikipedia: History of China](https://en.wikipedia.org/wiki/History_of_China) — Dynastic cycle from Xia to Qing
+- [Wikipedia: History of Japan](https://en.wikipedia.org/wiki/History_of_Japan) — Jōmon through postwar era
+- [Wikipedia: History of Korea](https://en.wikipedia.org/wiki/History_of_Korea) — Gojoseon through modern divided peninsula
+- [Wikipedia: History of Southeast Asia](https://en.wikipedia.org/wiki/History_of_Southeast_Asia) — Funan, Khmer, Srivijaya, Majapahit
+- [Wikipedia: Mongol Empire](https://en.wikipedia.org/wiki/Mongol_Empire) — Genghis Khan; largest contiguous land empire
+- [Wikipedia: Silk Road](https://en.wikipedia.org/wiki/Silk_Road) — Trans-Eurasian trade network
+- [Wikipedia: Mesopotamia](https://en.wikipedia.org/wiki/Mesopotamia) — Sumer, Akkad, Babylon, Assyria
+- [Wikipedia: Ottoman Empire](https://en.wikipedia.org/wiki/Ottoman_Empire) — 1299–1922; three continents
+- [Wikipedia: Aboriginal Australians](https://en.wikipedia.org/wiki/Aboriginal_Australians) — 65,000+ years of continuous culture
+- [Wikipedia: History of Australia](https://en.wikipedia.org/wiki/History_of_Australia) — Colonial through modern federation
+- [Wikipedia: Polynesia](https://en.wikipedia.org/wiki/Polynesia) — Pacific navigation and settlement
+- [Wikipedia: Māori people](https://en.wikipedia.org/wiki/M%C4%81ori_people) — Aotearoa settlement and culture
+- [Wikipedia: Lapita culture](https://en.wikipedia.org/wiki/Lapita_culture) — Ancestral Polynesian expansion
+- [Wikipedia: Nan Madol](https://en.wikipedia.org/wiki/Nan_Madol) — Megalithic city of Micronesia
 
 License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (matching Wikipedia source license).
 
@@ -74,7 +94,7 @@ License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (matchi
 
 | Category | Count |
 |----------|-------|
-| **Total entries** | 514 |
+| **Total entries** | 647 |
 | **Eons** | 4 (Hadean, Archean, Proterozoic, Phanerozoic) |
 | **Eras** | 13 (incl. Hadean informal divisions) |
 | **Periods** | 22 + 2 sub-periods (Mississippian, Pennsylvanian) |
@@ -85,6 +105,8 @@ License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (matchi
 | **South American periods** | ~49 (Norte Chico, Chavín, Moche, Inca Empire, colonial viceroyalties, independence wars, modern) |
 | **North American periods** | ~86 (Clovis, Olmec, Maya, Aztec, Mississippian, Taíno, colonial era, U.S., Mexico, Canada) |
 | **African periods** | ~67 (Ancient Egypt, Kush/Meroë, Aksum, Ghana/Mali/Songhai, Benin, Great Zimbabwe, Swahili Coast, colonialism, independence) |
+| **Asian periods** | ~104 (South Asia: Indus Valley–British Raj; China: Xia–PRC; Japan: Jōmon–Postwar; Korea: Gojoseon–Modern; Southeast Asia: Funan–ASEAN; Central Asia: Scythians–Great Game; Middle East: Sumer–Ottoman) |
+| **Oceanian periods** | ~29 (Aboriginal Australia 65,000+ yrs; Melanesia, Lapita; Polynesia: Tonga, Hawaiʻi, Rapa Nui; Micronesia: Nan Madol; Māori; colonial Pacific) |
 | **Climate/extinction events** | ~15 (Big Five extinctions, Snowball Earth, PETM, etc.) |
 | **Nordic-specific** | ~40 (Bromme, Fosna-Hensbacka, Komsa, Ertebølle, Vendel, Kalmar Union, Stormaktstiden, etc.) |
 
@@ -266,6 +288,106 @@ Phanerozoic (Eon, 538.8 Ma–Present)
                 ├── Apartheid South Africa (1948–1994)
                 ├── Rwandan Genocide (1994)
                 └── African Union Era (2002–present)
+            │
+            │ ── ASIAN TRACK ──
+            ├── South Asia
+            │   ├── Mehrgarh (7000–2500 BCE) — earliest farming
+            │   ├── Indus Valley (3300–1300 BCE) → Mature Harappan
+            │   ├── Vedic Period → Early Vedic, Late Vedic
+            │   ├── Maurya Empire → Ashoka (268–232 BCE)
+            │   ├── Kushan Empire, Gupta Empire (Golden Age)
+            │   ├── Chola Dynasty (300 BCE–1279 CE)
+            │   ├── Delhi Sultanate → Vijayanagara
+            │   ├── Mughal Empire → Golden Age (Akbar–Aurangzeb)
+            │   ├── Maratha Empire, British Raj → Independence
+            │   └── Modern South Asia (1947–present)
+            ├── China
+            │   ├── Chinese Neolithic (Yangshao, Longshan, Liangzhu)
+            │   ├── Xia → Shang (oracle bones) → Zhou
+            │   │   ├── Spring and Autumn (Confucius)
+            │   │   └── Warring States (Legalism)
+            │   ├── Qin (Great Wall, Terracotta Army)
+            │   ├── Han → Western Han, Eastern Han (Silk Road, paper)
+            │   ├── Three Kingdoms (220–280 CE)
+            │   ├── Sui → Tang (Golden Age, poetry, cosmopolitan)
+            │   ├── Song → Northern Song, Southern Song (printing, gunpowder)
+            │   ├── Yuan (Mongol/Kublai Khan)
+            │   ├── Ming → Zheng He voyages; Forbidden City
+            │   ├── Qing → High Qing, Opium Wars
+            │   ├── Republic of China (1912–1949)
+            │   └── People's Republic of China (1949–present)
+            ├── Japan
+            │   ├── Jōmon (14,000–300 BCE) — oldest pottery
+            │   ├── Yayoi → Kofun (burial mounds, Yamato)
+            │   ├── Asuka → Nara → Heian (Tale of Genji)
+            │   ├── Kamakura (first shogunate, repelled Mongols)
+            │   ├── Muromachi → Sengoku (Warring States)
+            │   ├── Edo/Tokugawa (250 years peace, sakoku)
+            │   ├── Meiji Era (modernization)
+            │   ├── Imperial Japan (1912–1945)
+            │   └── Postwar Japan (economic miracle)
+            ├── Korea
+            │   ├── Gojoseon (2333–108 BCE)
+            │   ├── Three Kingdoms (Goguryeo, Baekje, Silla)
+            │   ├── Unified Silla → Goryeo (celadon, metal type)
+            │   ├── Joseon → Golden Age (Hangul, Sejong)
+            │   ├── Japanese Occupation (1910–1945)
+            │   └── Modern Korea (divided, 1945–present)
+            ├── Southeast Asia
+            │   ├── Funan, Champa — earliest Indianized kingdoms
+            │   ├── Srivijaya — maritime Sumatra, Malacca Strait
+            │   ├── Khmer Empire — Angkor Wat
+            │   ├── Pagan Kingdom (Bagan temples)
+            │   ├── Majapahit, Ayutthaya, Malacca Sultanate
+            │   ├── Đại Việt (Vietnamese dynasties)
+            │   ├── Colonial Southeast Asia (1511–1957)
+            │   └── Modern Southeast Asia (ASEAN)
+            ├── Central Asia & Steppe
+            │   ├── Scythians — horse archers, animal gold art
+            │   ├── Xiongnu — first steppe empire
+            │   ├── Silk Road Era (130 BCE–1453 CE)
+            │   ├── Göktürk Khaganate — Orkhon inscriptions
+            │   ├── Mongol Empire — Genghis Khan, Pax Mongolica
+            │   ├── Timurid Empire — Samarkand
+            │   └── The Great Game (British-Russian rivalry)
+            └── Middle East / West Asia
+                ├── Mesopotamia
+                │   ├── Sumer (cuneiform, Gilgamesh)
+                │   ├── Akkadian Empire (Sargon)
+                │   ├── Old Babylon (Hammurabi's Code)
+                │   ├── Assyrian Empire → Neo-Babylonian
+                │   └── Achaemenid Persia (Cyrus, Persepolis)
+                ├── Parthian → Sasanian Empire
+                ├── Umayyad → Abbasid Caliphate (Islamic Golden Age)
+                ├── Ottoman Empire → Golden Age (Suleiman)
+                ├── Safavid Iran (Isfahan)
+                └── Modern Middle East (1918–present)
+            │
+            │ ── OCEANIAN TRACK ──
+            ├── Aboriginal Australia (65,000+ years)
+            │   ├── Early Aboriginal (65,000–10,000 BCE) — Lake Mungo
+            │   └── Aboriginal Holocene — fish traps, songlines, trade networks
+            ├── Melanesia
+            │   ├── Settlement of Sahul (50,000–30,000 BCE)
+            │   └── Kuk Early Agriculture (7000 BCE) — independent invention
+            ├── Lapita Culture (1600–500 BCE) — ancestral Polynesian
+            ├── Polynesia
+            │   ├── Ancestral Polynesia (Tonga & Samoa, 1500 BCE)
+            │   ├── Polynesian Expansion — Marquesas, Hawaiʻi, Rapa Nui
+            │   ├── Rapa Nui (Easter Island) — Moai statues
+            │   ├── Ancient Hawaiʻi → Kingdom of Hawaiʻi
+            │   └── Tuʻi Tonga Empire (950–1865 CE)
+            ├── Micronesia
+            │   ├── Nan Madol — megalithic 'Venice of the Pacific'
+            │   └── Marshallese Navigation — stick charts
+            ├── Aotearoa / New Zealand
+            │   ├── Māori Settlement (1250 CE)
+            │   ├── Classic Māori Period — pā, tā moko, haka
+            │   └── Colonial → Modern New Zealand
+            ├── Colonial Australia (1788–1901) → Federation
+            ├── Colonial Pacific (1521–1975)
+            │   └── Pacific Nuclear Testing (1946–1996)
+            └── Pacific Island Independence (1962–present)
 ```
 
 ## Data Model
@@ -433,6 +555,122 @@ ts:jurassic a gts:GeochronologicPeriod ;
 | **African Independence** | 1951–1994 CE | Ghana (1957) to South Africa (1994) |
 | **Apartheid** | 1948–1994 CE | Racial segregation; Mandela; free elections 1994 |
 
+## Asian Historical Periods
+
+### South Asia
+
+| Period | Dates | Key Features |
+|--------|-------|-------------|
+| **Mehrgarh** | 7000–2500 BCE | Earliest South Asian farming; precursor to Indus Valley |
+| **Indus Valley Civilization** | 3300–1300 BCE | Harappa, Mohenjo-daro; urban planning; undeciphered script |
+| **Vedic Period** | 1500–500 BCE | Rigveda; Sanskrit; emergence of Buddhism and Jainism |
+| **Maurya Empire** | 322–185 BCE | First pan-Indian empire; Ashoka's edicts of non-violence |
+| **Gupta Empire** | 320–550 CE | Golden Age; Aryabhata; decimal system; Kalidasa |
+| **Chola Dynasty** | 300 BCE–1279 CE | Tamil naval power; Brihadeeswarar Temple |
+| **Delhi Sultanate** | 1206–1526 CE | Five Islamic dynasties; Qutub Minar |
+| **Mughal Empire** | 1526–1857 CE | Taj Mahal; Akbar's tolerance; ~25% of world GDP |
+| **British Raj** | 1858–1947 CE | Crown rule; railways; independence movement; Gandhi |
+| **Modern South Asia** | 1947–present | Partition; world's largest democracy; nuclear powers |
+
+### China
+
+| Period | Dates | Key Features |
+|--------|-------|-------------|
+| **Chinese Neolithic** | 7000–2070 BCE | Yangshao, Longshan; rice and millet cultivation |
+| **Shang Dynasty** | 1600–1046 BCE | Oracle bone inscriptions; bronze ritual vessels |
+| **Zhou Dynasty** | 1046–256 BCE | Mandate of Heaven; Confucius, Laozi, Sun Tzu |
+| **Qin Dynasty** | 221–206 BCE | First unified empire; Great Wall; Terracotta Army |
+| **Han Dynasty** | 206 BCE–220 CE | Silk Road; paper invented; Confucian state |
+| **Tang Dynasty** | 647–907 CE | Golden age; poetry (Li Bai, Du Fu); cosmopolitan |
+| **Song Dynasty** | 960–1279 CE | Printing, gunpowder, compass; economic revolution |
+| **Yuan Dynasty** | 1271–1368 CE | Kublai Khan; Mongol rule; Marco Polo |
+| **Ming Dynasty** | 1368–1644 CE | Forbidden City; Zheng He voyages; porcelain |
+| **Qing Dynasty** | 1644–1912 CE | Largest territory; Opium Wars; Century of Humiliation |
+| **Republic of China** | 1912–1949 CE | Sun Yat-sen; warlords; WWII; civil war |
+| **People's Republic** | 1949–present | Mao; Cultural Revolution; Deng reforms; economic rise |
+
+### Japan
+
+| Period | Dates | Key Features |
+|--------|-------|-------------|
+| **Jōmon Period** | 14,000–300 BCE | World's oldest pottery; cord-marked ceramics |
+| **Yayoi Period** | 300 BCE–250 CE | Wet-rice agriculture; bronze and iron tools |
+| **Kofun Period** | 250–538 CE | Keyhole burial mounds; Yamato court |
+| **Heian Period** | 794–1185 CE | Tale of Genji; kana script; refined court culture |
+| **Kamakura Period** | 1185–1333 CE | First shogunate; Zen Buddhism; repelled Mongols |
+| **Sengoku Period** | 1467–1615 CE | Warring States; three unifiers; firearms arrive |
+| **Edo Period** | 1603–1868 CE | Tokugawa; 250 years peace; ukiyo-e, kabuki |
+| **Meiji Era** | 1868–1912 CE | Rapid modernization; world power |
+| **Postwar Japan** | 1945–present | Economic miracle; Sony, Toyota; anime/manga |
+
+### Korea
+
+| Period | Dates | Key Features |
+|--------|-------|-------------|
+| **Gojoseon** | 2333–108 BCE | First Korean kingdom; Dangun legend |
+| **Three Kingdoms** | 57 BCE–668 CE | Goguryeo, Baekje, Silla; Buddhism adopted |
+| **Unified Silla** | 668–935 CE | Gyeongju capital; Bulguksa Temple |
+| **Goryeo Dynasty** | 918–1392 CE | Origin of "Korea"; celadon; metal movable type (1234) |
+| **Joseon Dynasty** | 1392–1897 CE | Hangul alphabet (1443); 500-year dynasty |
+| **Japanese Occupation** | 1910–1945 CE | Annexation; cultural suppression; March 1st Movement |
+| **Modern Korea** | 1945–present | Division; Korean War; Miracle on the Han; K-pop |
+
+### Southeast Asia
+
+| Period | Dates | Key Features |
+|--------|-------|-------------|
+| **Funan** | 100–550 CE | Earliest Indianized kingdom; Mekong Delta |
+| **Srivijaya** | 650–1377 CE | Maritime Sumatra empire; Malacca Strait; Buddhism |
+| **Khmer Empire** | 802–1431 CE | Angkor Wat; largest pre-industrial city |
+| **Pagan Kingdom** | 849–1297 CE | 10,000+ Buddhist temples at Bagan |
+| **Majapahit** | 1293–1527 CE | Java; Hindu-Buddhist; controlled maritime SE Asia |
+| **Ayutthaya** | 1351–1767 CE | Siamese kingdom; cosmopolitan; trade with China, Japan |
+| **Malacca Sultanate** | 1400–1511 CE | Spread of Islam in maritime SE Asia |
+| **Colonial SE Asia** | 1511–1957 CE | Portuguese, Dutch, Spanish, French, British rule |
+| **Modern SE Asia** | 1945–present | Independence; Vietnam Wars; ASEAN; economic growth |
+
+### Central Asia & Middle East
+
+| Period | Dates | Key Features |
+|--------|-------|-------------|
+| **Scythians** | 900–200 BCE | Horse archers; animal-style gold art |
+| **Sumerian Civilization** | 3500–2004 BCE | Cuneiform; Epic of Gilgamesh; wheel, plow |
+| **Akkadian Empire** | 2334–2154 BCE | Sargon; first known empire in history |
+| **Old Babylonian** | 1894–1595 BCE | Hammurabi's Code; Babylonian mathematics |
+| **Assyrian Empire** | 2500–609 BCE | Nineveh; Ashurbanipal's library; iron weapons |
+| **Achaemenid Persia** | 550–330 BCE | Cyrus the Great; Persepolis; Royal Road |
+| **Silk Road Era** | 130 BCE–1453 CE | Trans-Eurasian trade; Samarkand, Bukhara |
+| **Mongol Empire** | 1206–1368 CE | Genghis Khan; largest contiguous land empire |
+| **Islamic Golden Age** | 750–1258 CE | House of Wisdom; algebra; Ibn Sina; optics |
+| **Ottoman Empire** | 1299–1922 CE | Three continents; Constantinople; Suleiman |
+| **Safavid Iran** | 1501–1736 CE | Shia state; Isfahan; Persian carpet golden age |
+| **Modern Middle East** | 1918–present | Ottoman collapse; oil; Israel; Arab Spring |
+
+## Oceanian Historical Periods
+
+| Period | Dates | Key Features |
+|--------|-------|-------------|
+| **Early Aboriginal** | 65,000–10,000 BCE | First Australians; Lake Mungo burials; oldest continuous culture |
+| **Aboriginal Holocene** | 10,000 BCE–1788 CE | Fish traps; songlines; 250 language groups; fire-stick farming |
+| **Settlement of Sahul** | 50,000–30,000 BCE | First humans in New Guinea/Australia; earliest ocean voyaging |
+| **Kuk Early Agriculture** | 7000–4000 BCE | PNG highlands; independent invention of farming; banana, taro |
+| **Lapita Culture** | 1600–500 BCE | Ancestral Polynesian; dentate pottery; Bismarck to Fiji/Tonga |
+| **Ancestral Polynesia** | 1500–200 BCE | Tonga and Samoa settled; Polynesian culture develops |
+| **Polynesian Expansion** | 200–1200 CE | Marquesas, Hawaiʻi, Easter Island; star navigation; double-hulled canoes |
+| **Rapa Nui** | 700–1722 CE | ~900 Moai statues; rongorongo script; ecological transformation |
+| **Tuʻi Tonga Empire** | 950–1865 CE | Maritime empire across central Pacific |
+| **Ancient Hawaiʻi** | 400–1795 CE | Ahupuaʻa land system; heiau temples; fish ponds |
+| **Kingdom of Hawaiʻi** | 1795–1893 CE | Kamehameha unifies islands; constitutional monarchy |
+| **Nan Madol** | 1180–1628 CE | Megalithic city on artificial islets; 'Venice of the Pacific' |
+| **Māori Settlement** | 1250–1500 CE | East Polynesian voyagers; moa hunting; early pā |
+| **Classic Māori** | 1500–1769 CE | Whakairo carving; tā moko; complex iwi society |
+| **Colonial Australia** | 1788–1901 CE | First Fleet; penal colony; gold rushes; frontier wars |
+| **Colonial Pacific** | 1521–1975 CE | Spanish, British, French, German, Japanese, American claims |
+| **Nuclear Testing Era** | 1946–1996 CE | 315+ tests; Bikini Atoll; health and environmental devastation |
+| **Modern Australia** | 1901–present | Federation; Gallipoli; Mabo; multiculturalism |
+| **Modern New Zealand** | 1907–present | Women's suffrage (1893); Treaty settlements; Māori Renaissance |
+| **Pacific Independence** | 1962–present | Western Samoa first; Pacific Islands Forum; climate threat |
+
 ## SPARQL Examples
 
 Query this dataset via the [SPARQL endpoint](/sparql):
@@ -477,5 +715,5 @@ WHERE {
 
 ## Download
 
-- [Turtle (text/turtle)](/data/geologic-timescale.ttl) — 5,600+ lines, all 514 entries with full hierarchy
+- [Turtle (text/turtle)](/data/geologic-timescale.ttl) — 7,100+ lines, all 647 entries with full hierarchy
 - [JSON-LD (application/ld+json)](/data/geologic-timescale.jsonld) — Same data as JSON-LD graph

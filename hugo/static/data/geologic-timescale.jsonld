@@ -11,7 +11,7 @@
   "@id": "https://metadatahub.eu/data/geologic-timescale",
   "@type": "skos:ConceptScheme",
   "dcterms:title": "Geologic Time Scale",
-  "dcterms:description": "514 entries covering the geologic time scale from Hadean eon (4600 Ma) to present, including Scandinavian, European, and South American cultural/historical periods.",
+  "dcterms:description": "647 entries covering the geologic time scale from Hadean eon (4600 Ma) to present, including Scandinavian, European, and South American cultural/historical periods.",
   "dcterms:source": [
     "https://en.wikipedia.org/wiki/Geologic_time_scale",
     "https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf",
@@ -9774,6 +9774,2533 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary"
       },
       "time:hasBeginning": "2002 CE",
+      "time:hasEnd": "Present",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/south-asia-history",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "South Asian Historical Periods",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "From Mehrgarh Neolithic through Indus Valley, Vedic, Mauryan, Mughal to modern India, Pakistan, Bangladesh, Sri Lanka.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "7000 BCE",
+      "time:hasEnd": "Present",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/mehrgarh",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Mehrgarh",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Neolithic site in Balochistan; one of earliest farming settlements in South Asia; precursor to Indus Valley; dentistry evidence ~7000 BCE.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-asia-history"
+      },
+      "time:hasBeginning": "7000 BCE",
+      "time:hasEnd": "2500 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/indus-valley",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Indus Valley Civilization",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Harappa, Mohenjo-daro; urban planning, drainage systems; undeciphered script; ~5 million people; one of three earliest civilizations.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-asia-history"
+      },
+      "time:hasBeginning": "3300 BCE",
+      "time:hasEnd": "1300 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/indus-mature",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Mature Harappan Phase",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Peak of Indus civilization; standardized weights and measures; Great Bath of Mohenjo-daro; trade with Mesopotamia; citadel-lower town layout.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/indus-valley"
+      },
+      "time:hasBeginning": "2600 BCE",
+      "time:hasEnd": "1900 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/vedic-period",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Vedic Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Composition of the Vedas (Rigveda ~1500 BCE); Sanskrit; varna system; Aryan migration debate; transition from pastoral to settled agriculture.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-asia-history"
+      },
+      "time:hasBeginning": "1500 BCE",
+      "time:hasEnd": "500 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/vedic-early",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Early Vedic Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Rigveda composition; pastoral-nomadic society; Indra worship; tribal kingdoms (janapadas); Punjab region focus.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/vedic-period"
+      },
+      "time:hasBeginning": "1500 BCE",
+      "time:hasEnd": "1000 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/vedic-late",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Late Vedic Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Expansion to Ganges plain; Painted Grey Ware; Upanishads; emergence of Buddhism and Jainism; Mahajanapadas (16 great kingdoms).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/vedic-period"
+      },
+      "time:hasBeginning": "1000 BCE",
+      "time:hasEnd": "500 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/maurya-empire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Maurya Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First pan-Indian empire; Chandragupta Maurya; Ashoka the Great (~268-232 BCE); edicts of non-violence; Arthashastra; Pataliputra capital.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-asia-history"
+      },
+      "time:hasBeginning": "322 BCE",
+      "time:hasEnd": "185 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/ashoka",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Reign of Ashoka",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Greatest Mauryan emperor; Kalinga War conversion to Buddhism; rock and pillar edicts; Lion Capital (Indian national emblem); spread of Dharma.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/maurya-empire"
+      },
+      "time:hasBeginning": "268 BCE",
+      "time:hasEnd": "232 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/kushan-empire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Kushan Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Central Asian origin; Kanishka I; Gandhara Buddhist art (Greco-Buddhist); Silk Road trade; Mathura and Peshawar; spread Buddhism to China.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-asia-history"
+      },
+      "time:hasBeginning": "30 CE",
+      "time:hasEnd": "375 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/gupta-empire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Gupta Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Golden Age of India; Chandragupta I, Samudragupta, Chandragupta II; Aryabhata (mathematics/astronomy); Kalidasa; Nalanda University; decimal system.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-asia-history"
+      },
+      "time:hasBeginning": "320 CE",
+      "time:hasEnd": "550 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/chola-dynasty",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Chola Dynasty",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Tamil Nadu; one of longest-ruling dynasties; Rajaraja I, Rajendra I; naval power; Brihadeeswarar Temple; influence across Southeast Asia.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-asia-history"
+      },
+      "time:hasBeginning": "300 CE",
+      "time:hasEnd": "1279 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/delhi-sultanate",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Delhi Sultanate",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Five successive Islamic dynasties ruling from Delhi; Qutub Minar; repelled Mongol invasions; Slave, Khalji, Tughlaq, Sayyid, Lodi dynasties.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-asia-history"
+      },
+      "time:hasBeginning": "1206 CE",
+      "time:hasEnd": "1526 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/vijayanagara",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Vijayanagara Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Hindu empire of southern India; Hampi capital (UNESCO); resisted Bahmani/Deccan sultanates; patronized Telugu, Kannada, Tamil literature.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-asia-history"
+      },
+      "time:hasBeginning": "1336 CE",
+      "time:hasEnd": "1646 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/mughal-empire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Mughal Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Babur, Akbar, Shah Jahan, Aurangzeb; Taj Mahal; religious tolerance (Akbar's Din-i Ilahi); zenith of Indo-Islamic architecture; ~25% of world GDP.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-asia-history"
+      },
+      "time:hasBeginning": "1526 CE",
+      "time:hasEnd": "1857 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/mughal-golden-age",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Mughal Golden Age",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Akbar through Aurangzeb; Taj Mahal (1632-53); Red Fort; miniature painting; administrative reforms; territorial peak under Aurangzeb.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mughal-empire"
+      },
+      "time:hasBeginning": "1556 CE",
+      "time:hasEnd": "1707 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/maratha-empire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Maratha Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Shivaji Maharaj; Hindu Padshahi; challenged Mughal decline; Peshwa era; confederacy; Battle of Panipat (1761); eventually fell to British.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-asia-history"
+      },
+      "time:hasBeginning": "1674 CE",
+      "time:hasEnd": "1818 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/british-raj",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "British Raj",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct British Crown rule; railways; English education; Bengal famine (1943); Indian National Congress; Muslim League; independence movement.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-asia-history"
+      },
+      "time:hasBeginning": "1858 CE",
+      "time:hasEnd": "1947 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/indian-independence",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Indian Independence Movement",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "INC founded (1885); Swadeshi; Gandhi's satyagraha; Salt March (1930); Quit India (1942); Partition; independence August 15, 1947.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/british-raj"
+      },
+      "time:hasBeginning": "1885 CE",
+      "time:hasEnd": "1947 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/south-asia-modern",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Modern South Asia",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Partition of India and Pakistan; Bangladesh liberation (1971); Sri Lankan civil war; nuclear powers; IT revolution; world's largest democracy.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary"
+      },
+      "time:hasBeginning": "1947 CE",
+      "time:hasEnd": "Present",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/china-history",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Chinese Historical Periods",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "From Neolithic cultures through dynastic cycle to modern People's Republic; continuous civilization spanning 5,000+ years.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "7000 BCE",
+      "time:hasEnd": "Present",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/chinese-neolithic",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Chinese Neolithic Cultures",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Yangshao (painted pottery), Longshan (black pottery), Liangzhu (jade); rice and millet cultivation; proto-cities; foundations of Chinese civilization.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/china-history"
+      },
+      "time:hasBeginning": "7000 BCE",
+      "time:hasEnd": "2070 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/xia-dynasty",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Xia Dynasty",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First Chinese dynasty (semi-legendary); Yu the Great; flood control; Erlitou culture; bronze vessels; transition from Neolithic to Bronze Age.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/china-history"
+      },
+      "time:hasBeginning": "2070 BCE",
+      "time:hasEnd": "1600 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/shang-dynasty",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Shang Dynasty",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First historically verified dynasty; oracle bone inscriptions (earliest Chinese writing); bronze ritual vessels; Anyang capital; ancestor worship.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/china-history"
+      },
+      "time:hasBeginning": "1600 BCE",
+      "time:hasEnd": "1046 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/zhou-dynasty",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Zhou Dynasty",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Longest Chinese dynasty; Mandate of Heaven concept; feudal system; divided into Western Zhou and Eastern Zhou (Spring and Autumn, Warring States).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/china-history"
+      },
+      "time:hasBeginning": "1046 BCE",
+      "time:hasEnd": "256 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/spring-autumn",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Spring and Autumn Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Confucius (551-479), Laozi (Daoism), Sun Tzu; Hundred Schools of Thought begins; hegemonic states; iron technology spreads.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/zhou-dynasty"
+      },
+      "time:hasBeginning": "771 BCE",
+      "time:hasEnd": "476 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/warring-states",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Warring States Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Seven major states; Mencius, Zhuangzi, Legalism (Han Feizi); crossbow, cavalry; mass armies; ends with Qin unification.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/zhou-dynasty"
+      },
+      "time:hasBeginning": "475 BCE",
+      "time:hasEnd": "221 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/qin-dynasty",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Qin Dynasty",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First unified Chinese empire; Qin Shi Huang; Great Wall begun; Terracotta Army; standardized weights, measures, writing; Legalist rule; burned books.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/china-history"
+      },
+      "time:hasBeginning": "221 BCE",
+      "time:hasEnd": "206 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/han-dynasty",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Han Dynasty",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Golden age; Confucianism as state ideology; Silk Road opens (Zhang Qian); paper invented; civil service exams; ~60 million people; 'Han Chinese' identity.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/china-history"
+      },
+      "time:hasBeginning": "206 BCE",
+      "time:hasEnd": "220 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/han-western",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Western Han",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Emperor Wu expands empire; Silk Road trade; Sima Qian's Records of the Grand Historian; Confucian academy; Chang'an capital.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/han-dynasty"
+      },
+      "time:hasBeginning": "206 BCE",
+      "time:hasEnd": "9 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/han-eastern",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Eastern Han",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Restored Han; Luoyang capital; Buddhism arrives; invention of paper (Cai Lun, 105 CE); seismograph (Zhang Heng); Yellow Turban Rebellion.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/han-dynasty"
+      },
+      "time:hasBeginning": "25 CE",
+      "time:hasEnd": "220 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/three-kingdoms",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Three Kingdoms Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Wei, Shu, Wu; Cao Cao, Liu Bei, Sun Quan, Zhuge Liang; Romance of the Three Kingdoms; one of most romanticized eras in Chinese culture.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/china-history"
+      },
+      "time:hasBeginning": "220 CE",
+      "time:hasEnd": "280 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/sui-dynasty",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Sui Dynasty",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Reunification after centuries of division; Grand Canal construction; Great Wall rebuilt; civil service exams restored; overextension leads to collapse.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/china-history"
+      },
+      "time:hasBeginning": "581 CE",
+      "time:hasEnd": "618 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/tang-dynasty",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Tang Dynasty",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Golden age of Chinese civilization; Chang'an largest city in world; Li Bai, Du Fu (poetry); Wu Zetian (only female emperor); cosmopolitan culture; Silk Road peak.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/china-history"
+      },
+      "time:hasBeginning": "618 CE",
+      "time:hasEnd": "907 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/song-dynasty",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Song Dynasty",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Economic revolution; movable type printing; gunpowder weapons; compass; paper money; Neo-Confucianism; landscape painting; commercial economy.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/china-history"
+      },
+      "time:hasBeginning": "960 CE",
+      "time:hasEnd": "1279 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/song-northern",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Northern Song",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Kaifeng capital; Su Shi (poet); Shen Kuo (polymath); Dream Pool Essays; commercial revolution; lost north to Jurchen Jin dynasty.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/song-dynasty"
+      },
+      "time:hasBeginning": "960 CE",
+      "time:hasEnd": "1127 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/song-southern",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Southern Song",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Hangzhou capital ('above is heaven, below is Hangzhou'); maritime trade; Zhu Xi Neo-Confucianism; fell to Mongol Yuan dynasty.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/song-dynasty"
+      },
+      "time:hasBeginning": "1127 CE",
+      "time:hasEnd": "1279 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/yuan-dynasty",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Yuan Dynasty (Mongol)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Kublai Khan; Mongol rule over China; Marco Polo visits; Grand Canal extended; Yuan drama; paper money inflation; ethnic hierarchy.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/china-history"
+      },
+      "time:hasBeginning": "1271 CE",
+      "time:hasEnd": "1368 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/ming-dynasty",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Ming Dynasty",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Han Chinese restoration; Forbidden City (Beijing); Zheng He voyages (1405-33); Great Wall rebuilt; porcelain golden age; novel tradition flourishes.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/china-history"
+      },
+      "time:hasBeginning": "1368 CE",
+      "time:hasEnd": "1644 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/zheng-he",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Zheng He Voyages",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Seven grand maritime expeditions; treasure ships; reached East Africa, Arabia, Southeast Asia; then China turned inward; ended oceanic exploration.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/ming-dynasty"
+      },
+      "time:hasBeginning": "1405 CE",
+      "time:hasEnd": "1433 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/qing-dynasty",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Qing Dynasty",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Manchu rule; largest Qing territory; Kangxi, Qianlong emperors; Opium Wars; Taiping Rebellion (~20-30M dead); Century of Humiliation; fall to revolution.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/china-history"
+      },
+      "time:hasBeginning": "1644 CE",
+      "time:hasEnd": "1912 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/qing-golden-age",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "High Qing Era",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Kangxi-Yongzheng-Qianlong; population doubles to 300M; territorial expansion (Tibet, Xinjiang, Taiwan); literary inquisition; Dream of the Red Chamber.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/qing-dynasty"
+      },
+      "time:hasBeginning": "1661 CE",
+      "time:hasEnd": "1796 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/opium-wars",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Opium Wars Era",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First (1839-42) and Second (1856-60) Opium Wars; Treaty of Nanjing; Hong Kong ceded; unequal treaties; Summer Palace burned; forced opening.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/qing-dynasty"
+      },
+      "time:hasBeginning": "1839 CE",
+      "time:hasEnd": "1860 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/republic-of-china",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Republic of China",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Sun Yat-sen; warlord era; Northern Expedition; Nanjing decade; Second Sino-Japanese War (1937-45); Chinese Civil War; Chiang Kai-shek retreats to Taiwan.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/china-history"
+      },
+      "time:hasBeginning": "1912 CE",
+      "time:hasEnd": "1949 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/prc",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "People's Republic of China",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Mao Zedong; Great Leap Forward; Cultural Revolution (1966-76); Deng Xiaoping reforms (1978); economic miracle; world's second-largest economy.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary"
+      },
+      "time:hasBeginning": "1949 CE",
+      "time:hasEnd": "Present",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/japan-history",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Japanese Historical Periods",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "From Jōmon hunter-gatherers through samurai shoguns to modern economic power; island civilization with unique cultural synthesis.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "14000 BCE",
+      "time:hasEnd": "Present",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/jomon",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Jōmon Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Hunter-gatherer-fishers; world's oldest pottery (~16,000 BP); cord-marked ceramics; Sannai-Maruyama settlement; dogu figurines; 10,000+ year span.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/japan-history"
+      },
+      "time:hasBeginning": "14000 BCE",
+      "time:hasEnd": "300 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/yayoi",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Yayoi Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Wet-rice agriculture from Korean peninsula; bronze and iron tools; social stratification; Yoshinogari site; foundation of Japanese agricultural society.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/japan-history"
+      },
+      "time:hasBeginning": "300 BCE",
+      "time:hasEnd": "250 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/kofun",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Kofun Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Keyhole-shaped burial mounds; Yamato court emergence; introduction of Chinese writing; haniwa clay figures; imperial lineage established.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/japan-history"
+      },
+      "time:hasBeginning": "250 CE",
+      "time:hasEnd": "538 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/asuka-period",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Asuka Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Buddhism arrives; Prince Shōtoku; Taika Reform (645); Ritsuryō legal codes; Chinese-style centralized government; Hōryū-ji temple.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/japan-history"
+      },
+      "time:hasBeginning": "538 CE",
+      "time:hasEnd": "710 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/nara-period",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Nara Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First permanent capital at Nara; Kojiki and Nihon Shoki (earliest histories); Tōdai-ji Great Buddha; Buddhist monastery power grows.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/japan-history"
+      },
+      "time:hasBeginning": "710 CE",
+      "time:hasEnd": "794 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/heian-period",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Heian Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Kyoto capital; Tale of Genji (Murasaki Shikibu, world's first novel); Fujiwara regents; kana script; refined court culture; samurai class rises.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/japan-history"
+      },
+      "time:hasBeginning": "794 CE",
+      "time:hasEnd": "1185 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/kamakura-shogunate",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Kamakura Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First shogunate (Minamoto Yoritomo); samurai government; Zen Buddhism; Mongol invasions repelled (1274, 1281, 'kamikaze'); warrior culture.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/japan-history"
+      },
+      "time:hasBeginning": "1185 CE",
+      "time:hasEnd": "1333 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/muromachi-period",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Muromachi Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Ashikaga shogunate; Noh theater; tea ceremony; Zen gardens (Ryōan-ji); Ōnin War (1467); Sengoku (Warring States) era begins.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/japan-history"
+      },
+      "time:hasBeginning": "1336 CE",
+      "time:hasEnd": "1573 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/sengoku",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Sengoku Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Warring States; Oda Nobunaga, Toyotomi Hideyoshi, Tokugawa Ieyasu (three unifiers); firearms arrive (1543); castles; samurai warfare peak.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/japan-history"
+      },
+      "time:hasBeginning": "1467 CE",
+      "time:hasEnd": "1615 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/edo-period",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Edo Period (Tokugawa)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Tokugawa shogunate; 250 years of peace; sakoku isolation; Edo (Tokyo) grows to 1M+; kabuki, ukiyo-e, haiku; rigid social hierarchy; merchant culture.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/japan-history"
+      },
+      "time:hasBeginning": "1603 CE",
+      "time:hasEnd": "1868 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/meiji-era",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Meiji Era",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Meiji Restoration; rapid modernization/industrialization; Meiji Constitution (1889); Sino-Japanese War (1894-95); Russo-Japanese War (1904-05); world power.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/japan-history"
+      },
+      "time:hasBeginning": "1868 CE",
+      "time:hasEnd": "1912 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/imperial-japan",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Imperial Japan",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Taishō democracy; militarism rises; Manchuria invasion (1931); Second Sino-Japanese War; Pearl Harbor; Pacific War; atomic bombs; surrender.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/japan-history"
+      },
+      "time:hasBeginning": "1912 CE",
+      "time:hasEnd": "1945 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/postwar-japan",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Postwar Japan",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "U.S. occupation; new constitution; economic miracle; world's 2nd largest economy (1968-2010); Sony, Toyota; anime/manga cultural export; aging society.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary"
+      },
+      "time:hasBeginning": "1945 CE",
+      "time:hasEnd": "Present",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/korea-history",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Korean Historical Periods",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "From legendary Gojoseon through Three Kingdoms, Goryeo, Joseon to modern divided peninsula.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "2333 BCE",
+      "time:hasEnd": "Present",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/gojoseon",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Gojoseon",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First Korean kingdom (legendary founding by Dangun); bronze culture; Wiman Joseon; conquered by Han China (108 BCE); Korean identity origins.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/korea-history"
+      },
+      "time:hasBeginning": "2333 BCE",
+      "time:hasEnd": "108 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/three-kingdoms-korea",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Three Kingdoms of Korea",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Goguryeo (north, military), Baekje (southwest, maritime), Silla (southeast); Buddhism adopted; tomb murals; cultural exchange with Japan and China.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/korea-history"
+      },
+      "time:hasBeginning": "57 BCE",
+      "time:hasEnd": "668 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/silla-unified",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Unified Silla",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Silla unifies peninsula with Tang alliance; Gyeongju capital; Bulguksa Temple; golden age of Korean Buddhism; Seokguram Grotto.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/korea-history"
+      },
+      "time:hasBeginning": "668 CE",
+      "time:hasEnd": "935 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/goryeo-dynasty",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Goryeo Dynasty",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Origin of name 'Korea'; celadon ceramics; Tripitaka Koreana (woodblock Buddhist canon); movable metal type (1234, before Gutenberg); Mongol invasions.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/korea-history"
+      },
+      "time:hasBeginning": "918 CE",
+      "time:hasEnd": "1392 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/joseon-dynasty",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Joseon Dynasty",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Neo-Confucian state; Sejong the Great invents Hangul (1443); Gyeongbokgung Palace; Imjin War (Japanese invasions, 1592-98); 500-year dynasty.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/korea-history"
+      },
+      "time:hasBeginning": "1392 CE",
+      "time:hasEnd": "1897 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/joseon-golden-age",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Joseon Golden Age",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Sejong the Great; Hangul alphabet (1443); rain gauge, sundials, water clocks; Jang Yeong-sil (inventor); agricultural treatises; Confucian scholarship.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/joseon-dynasty"
+      },
+      "time:hasBeginning": "1418 CE",
+      "time:hasEnd": "1494 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/japanese-occupation-korea",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Japanese Occupation of Korea",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Annexation by Japan; cultural suppression; forced labor; comfort women; March 1st Movement (1919); Korean language banned; liberation with WWII end.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/korea-history"
+      },
+      "time:hasBeginning": "1910 CE",
+      "time:hasEnd": "1945 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/korea-modern",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Modern Korea (Divided)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Division at 38th parallel; Korean War (1950-53); North Korea (DPRK); South Korea's 'Miracle on the Han River'; K-pop, Samsung; DMZ.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary"
+      },
+      "time:hasBeginning": "1945 CE",
+      "time:hasEnd": "Present",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/southeast-asia-history",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Southeast Asian Historical Periods",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Maritime and mainland kingdoms; Indianization and Sinicization; spice trade; colonial era; modern ASEAN nations.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1000 BCE",
+      "time:hasEnd": "Present",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/funan",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Kingdom of Funan",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Earliest known Indianized kingdom in mainland Southeast Asia; Mekong Delta; maritime trade hub; Hinduism and Buddhism; Óc Eo port city.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/southeast-asia-history"
+      },
+      "time:hasBeginning": "100 CE",
+      "time:hasEnd": "550 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/champa",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Kingdom of Champa",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Hindu-Buddhist kingdom in central/southern Vietnam; Cham towers (Mỹ Sơn); maritime trade; rivalry with Khmer and Đại Việt; Austronesian people.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/southeast-asia-history"
+      },
+      "time:hasBeginning": "192 CE",
+      "time:hasEnd": "1832 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/srivijaya",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Srivijaya Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Maritime empire based in Sumatra; controlled Malacca Strait; Buddhist center (Nalanda connections); Malay language spread; spice trade.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/southeast-asia-history"
+      },
+      "time:hasBeginning": "650 CE",
+      "time:hasEnd": "1377 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/khmer-empire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Khmer Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Angkor Wat and Angkor Thom; Jayavarman II, Suryavarman II, Jayavarman VII; hydraulic engineering; largest pre-industrial city; Hindu-Buddhist synthesis.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/southeast-asia-history"
+      },
+      "time:hasBeginning": "802 CE",
+      "time:hasEnd": "1431 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/pagan-kingdom",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Pagan Kingdom",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First unified Myanmar/Burma; Anawrahta; 10,000+ Buddhist temples at Bagan; Theravada Buddhism; Pali scriptures; Mongol invasion ends dynasty.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/southeast-asia-history"
+      },
+      "time:hasBeginning": "849 CE",
+      "time:hasEnd": "1297 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/majapahit",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Majapahit Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Java-based Hindu-Buddhist empire; Gajah Mada (prime minister); Nagarakretagama poem; controlled much of maritime Southeast Asia; Indonesian national heritage.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/southeast-asia-history"
+      },
+      "time:hasBeginning": "1293 CE",
+      "time:hasEnd": "1527 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/ayutthaya",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Ayutthaya Kingdom",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Siamese kingdom; cosmopolitan capital; trade with China, Japan, Europe; 33 kings; destroyed by Burma (1767); predecessor to modern Thailand.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/southeast-asia-history"
+      },
+      "time:hasBeginning": "1351 CE",
+      "time:hasEnd": "1767 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/malacca-sultanate",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Malacca Sultanate",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Strategic Strait of Malacca; spread of Islam in maritime Southeast Asia; Malay court culture; fell to Portuguese (1511); origin of modern Malaysia.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/southeast-asia-history"
+      },
+      "time:hasBeginning": "1400 CE",
+      "time:hasEnd": "1511 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/dai-viet",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Đại Việt",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Vietnamese state; Lý, Trần, Lê dynasties; repelled Mongol invasions (3 times); Confucian governance; Temple of Literature (1070); southward expansion.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/southeast-asia-history"
+      },
+      "time:hasBeginning": "1009 CE",
+      "time:hasEnd": "1802 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/colonial-southeast-asia",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Colonial Southeast Asia",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Portuguese Malacca (1511); Dutch East Indies; Spanish Philippines; French Indochina; British Burma/Malaya; only Thailand never colonized.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/southeast-asia-history"
+      },
+      "time:hasBeginning": "1511 CE",
+      "time:hasEnd": "1957 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/southeast-asia-modern",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Modern Southeast Asia",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Independence movements; Vietnam Wars; Khmer Rouge; ASEAN (1967); Asian Tigers; Reformasi; economic growth; 680+ million people.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary"
+      },
+      "time:hasBeginning": "1945 CE",
+      "time:hasEnd": "Present",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/central-asia-history",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Central Asian Historical Periods",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Steppe nomads, Silk Road oasis cities; Scythians, Turks, Mongols; convergence zone of civilizations.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "3500 BCE",
+      "time:hasEnd": "Present",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/scythians",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Scythian Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Iranian nomadic warriors; horse archery; animal-style gold art; kurgans (burial mounds); Herodotus accounts; influenced Greek and Persian worlds.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/central-asia-history"
+      },
+      "time:hasBeginning": "900 BCE",
+      "time:hasEnd": "200 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/xiongnu",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Xiongnu Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First great steppe empire; Modu Chanyu; prompted Chinese Great Wall; Silk Road intermediaries; possible ancestors of Huns; Han dynasty rival.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/central-asia-history"
+      },
+      "time:hasBeginning": "209 BCE",
+      "time:hasEnd": "93 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/silk-road-era",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Silk Road Era",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Trans-Eurasian trade network; Zhang Qian (130 BCE); Sogdian merchants; Samarkand, Bukhara, Kashgar; ideas, religions, diseases, technologies exchanged.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/central-asia-history"
+      },
+      "time:hasBeginning": "130 BCE",
+      "time:hasEnd": "1453 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/gokturk-khaganate",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Göktürk Khaganate",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First Turkic empire; Orkhon inscriptions (oldest Turkic writing); controlled Silk Road; split into Eastern and Western; influenced all later Turkic states.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/central-asia-history"
+      },
+      "time:hasBeginning": "552 CE",
+      "time:hasEnd": "744 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/mongol-empire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Mongol Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Genghis Khan; largest contiguous land empire in history; Pax Mongolica; postal system (yam); religious tolerance; connected East and West.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/central-asia-history"
+      },
+      "time:hasBeginning": "1206 CE",
+      "time:hasEnd": "1368 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/timurid-empire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Timurid Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Timur (Tamerlane); Samarkand as cultural capital; Timurid Renaissance; Ulugh Beg observatory; Persian-Turkic culture; ancestor of Mughal dynasty.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/central-asia-history"
+      },
+      "time:hasBeginning": "1370 CE",
+      "time:hasEnd": "1507 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/great-game",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "The Great Game",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "British-Russian rivalry for Central Asian influence; Afghanistan as buffer state; Russian conquest of khanates; Anglo-Afghan Wars; espionage.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/central-asia-history"
+      },
+      "time:hasBeginning": "1830 CE",
+      "time:hasEnd": "1907 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/mesopotamia",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Mesopotamian Civilizations",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Cradle of civilization; between Tigris and Euphrates; writing, law, mathematics, astronomy; successive empires from Sumer to Neo-Babylonian.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "3500 BCE",
+      "time:hasEnd": "539 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/sumer",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Sumerian Civilization",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First civilization; cuneiform writing; city-states (Ur, Uruk, Lagash); ziggurats; Epic of Gilgamesh; wheel, plow, sailboat; sexagesimal math.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mesopotamia"
+      },
+      "time:hasBeginning": "3500 BCE",
+      "time:hasEnd": "2004 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/akkadian-empire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Akkadian Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Sargon of Akkad; first known empire in history; Akkadian language; centralized bureaucracy; trade networks from Indus to Mediterranean.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mesopotamia"
+      },
+      "time:hasBeginning": "2334 BCE",
+      "time:hasEnd": "2154 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/babylon-old",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Old Babylonian Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Hammurabi's Code (~1754 BCE, earliest known legal code); Babylonian mathematics; astronomy; Marduk worship; fell to Hittite raid.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mesopotamia"
+      },
+      "time:hasBeginning": "1894 BCE",
+      "time:hasEnd": "1595 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/assyrian-empire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Assyrian Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Neo-Assyrian peak (911-609 BCE); Nineveh, Nimrud; Ashurbanipal's library; brutal military; iron weapons; siege warfare; reliefs; conquered Egypt.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mesopotamia"
+      },
+      "time:hasBeginning": "2500 BCE",
+      "time:hasEnd": "609 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/neo-babylonian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Neo-Babylonian Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Nebuchadnezzar II; Hanging Gardens; Ishtar Gate; Babylonian captivity of Jews; astronomical records; fell to Persian Cyrus the Great.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mesopotamia"
+      },
+      "time:hasBeginning": "626 BCE",
+      "time:hasEnd": "539 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/achaemenid-empire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Achaemenid Persian Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Cyrus the Great, Darius I, Xerxes; largest empire to date; Persepolis; Royal Road; satrapy system; Zoroastrianism; defeated by Alexander.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "550 BCE",
+      "time:hasEnd": "330 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/parthian-empire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Parthian Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Iranian Arsacid dynasty; rival to Rome; Silk Road trade; Ctesiphon capital; horse archers; Carrhae victory over Crassus (53 BCE).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "247 BCE",
+      "time:hasEnd": "224 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/sasanian-empire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Sasanian Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Last pre-Islamic Persian empire; Zoroastrian state religion; Ctesiphon arch; rivalry with Rome/Byzantium; chess, polo; Academy of Gondishapur.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "224 CE",
+      "time:hasEnd": "651 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/islamic-golden-age",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Islamic Golden Age",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Abbasid Caliphate; House of Wisdom (Baghdad); al-Khwarizmi (algebra); Ibn Sina (medicine); optics, chemistry, astronomy; translation movement; ended by Mongol sack of Baghdad.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "750 CE",
+      "time:hasEnd": "1258 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/umayyad-caliphate",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Umayyad Caliphate",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First hereditary Islamic dynasty; Damascus capital; expansion from Spain to Indus; Dome of the Rock; Great Mosque of Damascus; Arabic as administrative language.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "661 CE",
+      "time:hasEnd": "750 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/abbasid-caliphate",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Abbasid Caliphate",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Baghdad founded (762); cosmopolitan capital; House of Wisdom; Paper from China; One Thousand and One Nights; fragmented after 10th century; Mongols destroy Baghdad (1258).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "750 CE",
+      "time:hasEnd": "1258 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/ottoman-empire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Ottoman Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "One of longest-lasting empires; Constantinople conquered (1453); Suleiman the Magnificent; three continents; millet system; Hagia Sophia mosque; 'Sick Man of Europe'; dissolved after WWI.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1299 CE",
+      "time:hasEnd": "1922 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/ottoman-golden-age",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Ottoman Golden Age",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Mehmed II to Suleiman; Constantinople/Istanbul capital; Topkapi Palace; Sinan (architect); legal reforms (Kanuni); naval dominance in Mediterranean.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/ottoman-empire"
+      },
+      "time:hasBeginning": "1453 CE",
+      "time:hasEnd": "1566 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/safavid-iran",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Safavid Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Shia Islam as state religion of Iran; Isfahan ('half the world'); Shah Abbas I; Persian carpet golden age; rivalry with Ottomans and Mughals.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "1501 CE",
+      "time:hasEnd": "1736 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/modern-middle-east",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Modern Middle East",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Ottoman collapse; Sykes-Picot; mandates; Israel founded (1948); oil economy; Arab-Israeli conflicts; Iranian Revolution (1979); Gulf Wars; Arab Spring.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary"
+      },
+      "time:hasBeginning": "1918 CE",
+      "time:hasEnd": "Present",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/oceania-history",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Oceanian Historical Periods",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Oldest continuous cultures on Earth; Aboriginal Australians, Melanesian, Polynesian, Micronesian peoples; maritime mastery; colonial disruption.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "65000 BCE",
+      "time:hasEnd": "Present",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/aboriginal-australia",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Aboriginal Australian Periods",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Oldest continuous civilization; Dreamtime/Dreaming; rock art (Kakadu, Kimberley); fire-stick farming; ~250 language groups; 65,000+ years.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/oceania-history"
+      },
+      "time:hasBeginning": "65000 BCE",
+      "time:hasEnd": "1788 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/aboriginal-early",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Early Aboriginal Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First Australians arrive (~65,000 BP); Lake Mungo burials (~42,000 BP); megafauna coexistence and extinction; continent-wide spread; earliest rock art.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/aboriginal-australia"
+      },
+      "time:hasBeginning": "65000 BCE",
+      "time:hasEnd": "10000 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/aboriginal-holocene",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Aboriginal Holocene Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Sea level rise creates modern coastline; Torres Strait Islands separate; intensification; fish traps (Brewarrina ~40,000 years); complex trade networks; songlines.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/aboriginal-australia"
+      },
+      "time:hasBeginning": "10000 BCE",
+      "time:hasEnd": "1788 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/australian-colonial",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Colonial Australia",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First Fleet (1788); penal colony; frontier wars; gold rushes (1850s); pastoralism; Stolen Generations begin; six colonies; White Australia policy roots.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/oceania-history"
+      },
+      "time:hasBeginning": "1788 CE",
+      "time:hasEnd": "1901 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/australian-federation",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Federation and Modern Australia",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Commonwealth of Australia (1901); Gallipoli (1915); White Australia policy (ended 1973); Mabo decision (1992); Sorry Day; multiculturalism.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary"
+      },
+      "time:hasBeginning": "1901 CE",
+      "time:hasEnd": "Present",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/melanesia-history",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Melanesian Civilizations",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Oldest Pacific settlement; Papua New Guinea highlands agriculture (~7000 BCE); diverse cultures; Kuk Swamp; Lapita pottery tradition.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/oceania-history"
+      },
+      "time:hasBeginning": "50000 BCE",
+      "time:hasEnd": "Present",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/sahul-settlement",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Settlement of Sahul",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "First humans in New Guinea/Australia (connected as Sahul); maritime crossing from Sunda; earliest evidence of ocean voyaging by humans.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/melanesia-history"
+      },
+      "time:hasBeginning": "50000 BCE",
+      "time:hasEnd": "30000 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/kuk-early-agriculture",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Kuk Early Agriculture",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Kuk Swamp, PNG highlands; independent invention of agriculture; banana, taro, yam cultivation; drainage ditches; one of world's earliest farming sites.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/melanesia-history"
+      },
+      "time:hasBeginning": "7000 BCE",
+      "time:hasEnd": "4000 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/lapita-culture",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Lapita Culture",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Ancestral Polynesian culture; distinctive dentate-stamped pottery; originated Bismarck Archipelago; spread to Fiji, Tonga, Samoa; skilled navigators.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/oceania-history"
+      },
+      "time:hasBeginning": "1600 BCE",
+      "time:hasEnd": "500 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/polynesia-history",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Polynesian Civilizations",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Greatest maritime expansion in human history; settled Pacific from Tonga/Samoa to Hawaiʻi, Easter Island, New Zealand; navigation by stars, currents, birds.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/oceania-history"
+      },
+      "time:hasBeginning": "1500 BCE",
+      "time:hasEnd": "Present",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/polynesia-ancestral",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Ancestral Polynesia (Tonga & Samoa)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Tonga settled ~1500 BCE, Samoa ~1000 BCE; development of Polynesian culture, language, navigation; chiefdom societies; kava traditions.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/polynesia-history"
+      },
+      "time:hasBeginning": "1500 BCE",
+      "time:hasEnd": "200 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/polynesia-expansion",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Polynesian Expansion",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Long-pause then rapid expansion; Marquesas (~300 CE), Hawaiʻi (~400 CE), Easter Island/Rapa Nui (~700 CE); double-hulled canoes; star navigation.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/polynesia-history"
+      },
+      "time:hasBeginning": "200 CE",
+      "time:hasEnd": "1200 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/rapa-nui",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Rapa Nui (Easter Island)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Moai statues (~900 carved); ahu platforms; rongorongo script (undeciphered); ecological transformation; European contact (1722).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/polynesia-history"
+      },
+      "time:hasBeginning": "700 CE",
+      "time:hasEnd": "1722 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/tuamotuan-cook",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Cook Islands & Tuamotus Settlement",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Settlement of remote atolls and islands; coral architecture; lagoon aquaculture; celestial navigation mastery; pre-European contact societies.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/polynesia-history"
+      },
+      "time:hasBeginning": "800 CE",
+      "time:hasEnd": "1595 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/hawaiian-kingdom-pre",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Ancient Hawaiʻi",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Settlement from Marquesas/Tahiti; ahupuaʻa land management; heiau temples; kapu system; taro cultivation; fish ponds; ali'i chiefs.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/polynesia-history"
+      },
+      "time:hasBeginning": "400 CE",
+      "time:hasEnd": "1795 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/hawaiian-kingdom",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Kingdom of Hawaiʻi",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Kamehameha I unifies islands; constitutional monarchy; Hawaiian Renaissance; written language; sugar plantations; overthrown by U.S.-backed coup (1893).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/polynesia-history"
+      },
+      "time:hasBeginning": "1795 CE",
+      "time:hasEnd": "1893 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/tongaempire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Tuʻi Tonga Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Maritime empire spanning central Pacific; Tongatapu capital; Haʻamonga trilithon; influenced Samoa, Fiji, Niue; one of Polynesia's largest polities.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/polynesia-history"
+      },
+      "time:hasBeginning": "950 CE",
+      "time:hasEnd": "1865 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/micronesia-history",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Micronesian Civilizations",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Thousands of small islands; skilled navigators; Carolinian stick charts; varied cultures from Palau to Marshall Islands.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/oceania-history"
+      },
+      "time:hasBeginning": "2000 BCE",
+      "time:hasEnd": "Present",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/nan-madol",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Nan Madol",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Megalithic city built on artificial islets, Pohnpei; 'Venice of the Pacific'; basalt log-cabin architecture; Saudeleur dynasty; UNESCO site.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/micronesia-history"
+      },
+      "time:hasBeginning": "1180 CE",
+      "time:hasEnd": "1628 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/marshallese-navigation",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Marshallese Navigation Tradition",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Stick chart navigation (mattang, meddo, rebbelib); wave piloting; outrigger canoes; settlement of remote atolls; unique ocean-reading knowledge.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/micronesia-history"
+      },
+      "time:hasBeginning": "500 CE",
+      "time:hasEnd": "1900 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/aotearoa-history",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Aotearoa / New Zealand History",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Last major landmass settled by humans; Māori culture; Treaty of Waitangi (1840); bicultural nation.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/oceania-history"
+      },
+      "time:hasBeginning": "1250 CE",
+      "time:hasEnd": "Present",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/maori-settlement",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Māori Settlement Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "East Polynesian voyagers arrive; moa hunting; early pā (fortified villages); adaptation to temperate climate; kūmara cultivation.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/aotearoa-history"
+      },
+      "time:hasBeginning": "1250 CE",
+      "time:hasEnd": "1500 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/maori-classic",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Classic Māori Period",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Elaborate pā fortifications; whakairo (carving); tā moko (tattoo); haka; complex tribal (iwi) society; inter-tribal warfare; greenstone (pounamu) trade.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/aotearoa-history"
+      },
+      "time:hasBeginning": "1500 CE",
+      "time:hasEnd": "1769 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/new-zealand-colonial",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Colonial New Zealand",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Cook arrives (1769); sealers, whalers; Musket Wars; Treaty of Waitangi (1840); New Zealand Wars (1845-72); gold rushes; Dominion status (1907).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/aotearoa-history"
+      },
+      "time:hasBeginning": "1769 CE",
+      "time:hasEnd": "1907 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/new-zealand-modern",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Modern New Zealand",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Women's suffrage (1893, first nation); Gallipoli; welfare state; Māori Renaissance; nuclear-free (1987); Treaty settlements; multicultural Aotearoa.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary"
+      },
+      "time:hasBeginning": "1907 CE",
+      "time:hasEnd": "Present",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/colonial-pacific",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Colonial Pacific",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Magellan (1521); Spanish, British, French, German, Japanese, American colonial claims; copra trade; nuclear testing (Bikini, Moruroa); independence wave.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/oceania-history"
+      },
+      "time:hasBeginning": "1521 CE",
+      "time:hasEnd": "1975 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/pacific-nuclear-era",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Pacific Nuclear Testing Era",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Bikini Atoll (1946); 315+ nuclear tests in Pacific; Marshall Islands, French Polynesia, Christmas Island; health and environmental devastation; ban movement.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/colonial-pacific"
+      },
+      "time:hasBeginning": "1946 CE",
+      "time:hasEnd": "1996 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/pacific-independence",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Pacific Island Independence",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Western Samoa first (1962); Fiji, PNG, Vanuatu, Kiribati follow; Pacific Islands Forum; climate change existential threat; 'Blue Pacific' identity.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary"
+      },
+      "time:hasBeginning": "1962 CE",
       "time:hasEnd": "Present",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     }
