@@ -11,7 +11,7 @@
   "@id": "https://metadatahub.eu/data/geologic-timescale",
   "@type": "skos:ConceptScheme",
   "dcterms:title": "Geologic Time Scale",
-  "dcterms:description": "426 entries covering the geologic time scale from Hadean eon (4600 Ma) to present, including Scandinavian, European, and South American cultural/historical periods.",
+  "dcterms:description": "447 entries covering the geologic time scale from Hadean eon (4600 Ma) to present, including Scandinavian, European, and South American cultural/historical periods.",
   "dcterms:source": [
     "https://en.wikipedia.org/wiki/Geologic_time_scale",
     "https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf",
@@ -7270,6 +7270,82 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/mixtec",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Mixtec Civilization",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Oaxaca highlands; codex tradition (only pre-Columbian books to survive); Lord Eight Deer; goldsmithing; competed with Zapotec and Aztec.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mesoamerica"
+      },
+      "time:hasBeginning": "900 CE",
+      "time:hasEnd": "1521 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/purepecha",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Purépecha (Tarascan) Empire",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Western Mexico (Michoacán); never conquered by Aztecs; Tzintzuntzan capital; metalworking (copper, bronze); yácatas stepped pyramids.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mesoamerica"
+      },
+      "time:hasBeginning": "1300 CE",
+      "time:hasEnd": "1530 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/totonac",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Totonac Civilization",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Veracruz Gulf coast; El Tajín with Pyramid of the Niches; Cempoala; allies of Cortés against Aztecs; voladores ceremony.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mesoamerica"
+      },
+      "time:hasBeginning": "300 CE",
+      "time:hasEnd": "1521 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/epi-olmec",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Epi-Olmec Culture",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Successor to Olmec in Veracruz; Tres Zapotes; La Mojarra stela with Long Count date; transitional between Olmec and Classic cultures.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mesoamerica"
+      },
+      "time:hasBeginning": "300 BCE",
+      "time:hasEnd": "250 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
       "@id": "https://metadatahub.eu/data/geologic-timescale/woodland-period",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
@@ -7362,6 +7438,44 @@
       },
       "time:hasBeginning": "1050 CE",
       "time:hasEnd": "1350 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/fort-ancient",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Fort Ancient Culture",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Ohio Valley; maize-based agriculture; circular villages; Serpent Mound (Great Serpent Mound); distinct from Mississippian but contemporaneous.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mississippian-culture"
+      },
+      "time:hasBeginning": "1000 CE",
+      "time:hasEnd": "1650 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/plaquemine",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Plaquemine Culture",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Lower Mississippi Valley; platform mounds; evolved from Coles Creek; Winterville, Lake George sites; ancestral to Natchez.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mississippian-culture"
+      },
+      "time:hasBeginning": "1200 CE",
+      "time:hasEnd": "1700 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -7533,6 +7647,44 @@
       },
       "time:hasBeginning": "1450 CE",
       "time:hasEnd": "1776 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/taino",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Taíno Civilization",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Caribbean (Hispaniola, Puerto Rico, Cuba, Jamaica); first indigenous people encountered by Columbus; cacique chiefs; ball courts; zemí worship; decimated by colonization.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/north-america-precolumbian"
+      },
+      "time:hasBeginning": "1200 CE",
+      "time:hasEnd": "1550 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/cherokee-nation",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Cherokee Nation (Pre-Removal)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Southeast woodlands; one of 'Five Civilized Tribes'; Sequoyah's syllabary (1821); Cherokee Phoenix newspaper; Trail of Tears (1838).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/north-america-precolumbian"
+      },
+      "time:hasBeginning": "1540 CE",
+      "time:hasEnd": "1838 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -7802,6 +7954,44 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/mexican-american-war",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Mexican–American War",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "U.S. vs. Mexico; annexation of Texas as catalyst; Treaty of Guadalupe Hidalgo; Mexico cedes California, New Mexico, Arizona; ~55% of territory lost.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period"
+      },
+      "time:hasBeginning": "1846 CE",
+      "time:hasEnd": "1848 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/california-gold-rush",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "California Gold Rush",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Gold discovered at Sutter's Mill (1848); ~300,000 migrants ('49ers); California statehood (1850); devastation of Native Californians; San Francisco boom.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period"
+      },
+      "time:hasBeginning": "1848 CE",
+      "time:hasEnd": "1855 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
       "@id": "https://metadatahub.eu/data/geologic-timescale/indian-wars",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
@@ -7818,6 +8008,25 @@
       },
       "time:hasBeginning": "1860 CE",
       "time:hasEnd": "1890 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/spanish-american-war",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Spanish–American War",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "U.S. vs. Spain; USS Maine; 'splendid little war'; U.S. gains Cuba, Puerto Rico, Guam, Philippines; emergence as world power.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period"
+      },
+      "time:hasBeginning": "1898 CE",
+      "time:hasEnd": "1898 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -7897,6 +8106,44 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/french-intervention-mexico",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "French Intervention in Mexico",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Napoleon III installs Maximilian as Emperor; Cinco de Mayo (1862, Battle of Puebla); Republican resistance under Juárez; Maximilian executed 1867.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mexican-history"
+      },
+      "time:hasBeginning": "1861 CE",
+      "time:hasEnd": "1867 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/cristero-war",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Cristero War",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Catholic uprising against anticlerical laws of Calles government; ~90,000 dead; arreglos settlement; shaped Church-state relations in Mexico.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mexican-history"
+      },
+      "time:hasBeginning": "1926 CE",
+      "time:hasEnd": "1929 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
       "@id": "https://metadatahub.eu/data/geologic-timescale/porfiriato",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
@@ -7973,6 +8220,25 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/fur-trade-era",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Fur Trade Era",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Hudson's Bay Company (1670) vs. North West Company; voyageurs; Métis people; York Factory; pemmican trade; shaped Canadian expansion westward.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/canadian-history"
+      },
+      "time:hasBeginning": "1600 CE",
+      "time:hasEnd": "1870 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
       "@id": "https://metadatahub.eu/data/geologic-timescale/british-north-america",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
@@ -7989,6 +8255,44 @@
       },
       "time:hasBeginning": "1763 CE",
       "time:hasEnd": "1867 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/red-river-metis",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Red River and Métis Resistance",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Louis Riel; Red River Resistance (1869-1870); Manitoba Act; North-West Rebellion (1885); Riel executed; Métis land rights; shaping of Western Canada.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/canadian-history"
+      },
+      "time:hasBeginning": "1869 CE",
+      "time:hasEnd": "1885 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/klondike-gold-rush",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Klondike Gold Rush",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Gold discovered on Bonanza Creek, Yukon (1896); ~100,000 stampeders; Dawson City boom; Chilkoot Pass; Canadian sovereignty asserted in North.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/canadian-history"
+      },
+      "time:hasBeginning": "1896 CE",
+      "time:hasEnd": "1899 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -8087,6 +8391,44 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/us-wwii",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "United States in World War II",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Pearl Harbor (1941); Arsenal of Democracy; D-Day (1944); Pacific island-hopping; Manhattan Project; atomic bombs on Hiroshima and Nagasaki (1945).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary"
+      },
+      "time:hasBeginning": "1941 CE",
+      "time:hasEnd": "1945 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/us-cold-war",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Cold War (United States)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Containment doctrine; Korean War (1950-53); McCarthyism; Cuban Missile Crisis (1962); Vietnam War; détente; Reagan buildup; fall of Berlin Wall (1989).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary"
+      },
+      "time:hasBeginning": "1947 CE",
+      "time:hasEnd": "1991 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
       "@id": "https://metadatahub.eu/data/geologic-timescale/us-civil-rights",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
@@ -8103,6 +8445,63 @@
       },
       "time:hasBeginning": "1954 CE",
       "time:hasEnd": "1968 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/vietnam-war-era",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Vietnam War Era",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "U.S. involvement in Vietnam; Gulf of Tonkin (1964); Tet Offensive (1968); anti-war movement; Kent State; Fall of Saigon (1975); ~58,000 U.S. dead.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary"
+      },
+      "time:hasBeginning": "1955 CE",
+      "time:hasEnd": "1975 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/space-race",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Space Race",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "U.S.-Soviet competition; Sputnik (1957); Mercury, Gemini programs; Apollo 11 Moon landing (1969); NASA; Apollo-Soyuz (1975).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary"
+      },
+      "time:hasBeginning": "1957 CE",
+      "time:hasEnd": "1975 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/post-911-era",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Post-9/11 Era",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "September 11 attacks; War on Terror; Afghanistan War (2001-2021); Iraq War (2003); Patriot Act; Department of Homeland Security; reshaping of U.S. foreign policy.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary"
+      },
+      "time:hasBeginning": "2001 CE",
+      "time:hasEnd": "2021 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     }
   ]

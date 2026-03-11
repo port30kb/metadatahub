@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate the Geologic Time Scale as Linked Data (Turtle + JSON-LD).
 
-426 data points covering:
+447 data points covering:
 - 4 Eons
 - 10 Eras
 - 22 Periods (incl. Mississippian/Pennsylvanian sub-periods)
@@ -936,6 +936,14 @@ add("aztec-expansion", "Aztec Imperial Expansion", "CulturalAge", "aztec-empire"
     "Itzcoatl, Moctezuma I, Ahuitzotl expand empire from Gulf to Pacific; flower wars; tribute system; Great Temple of Tenochtitlán.")
 add("aztec-moctezuma-ii", "Reign of Moctezuma II", "CulturalAge", "aztec-empire", 1502, 1520, "CE",
     "Empire at greatest extent; omens and prophecies; arrival of Cortés (1519); Moctezuma captured; dies during La Noche Triste (1520).")
+add("mixtec", "Mixtec Civilization", "CulturalAge", "mesoamerica", 900, 1521, "CE",
+    "Oaxaca highlands; codex tradition (only pre-Columbian books to survive); Lord Eight Deer; goldsmithing; competed with Zapotec and Aztec.")
+add("purepecha", "Purépecha (Tarascan) Empire", "CulturalAge", "mesoamerica", 1300, 1530, "CE",
+    "Western Mexico (Michoacán); never conquered by Aztecs; Tzintzuntzan capital; metalworking (copper, bronze); yácatas stepped pyramids.")
+add("totonac", "Totonac Civilization", "CulturalAge", "mesoamerica", 300, 1521, "CE",
+    "Veracruz Gulf coast; El Tajín with Pyramid of the Niches; Cempoala; allies of Cortés against Aztecs; voladores ceremony.")
+add("epi-olmec", "Epi-Olmec Culture", "CulturalAge", "mesoamerica", 300, 250, "BCE",
+    "Successor to Olmec in Veracruz; Tres Zapotes; La Mojarra stela with Long Count date; transitional between Olmec and Classic cultures.")
 
 # --- Woodland & Mississippian (Eastern North America) ---
 add("woodland-period", "Woodland Period", "CulturalAge", "north-america-precolumbian", 1000, 1000, "BCE",
@@ -948,6 +956,10 @@ add("mississippian-culture", "Mississippian Culture", "CulturalAge", "north-amer
     "Complex chiefdoms across Southeast and Midwest; platform mounds; maize agriculture; Cahokia as largest city north of Mexico.")
 add("cahokia", "Cahokia", "CulturalAge", "mississippian-culture", 1050, 1350, "CE",
     "Largest pre-Columbian city north of Mexico (~20,000 people); Monks Mound (largest earthwork in Americas); Woodhenge; UNESCO World Heritage Site.")
+add("fort-ancient", "Fort Ancient Culture", "CulturalAge", "mississippian-culture", 1000, 1650, "CE",
+    "Ohio Valley; maize-based agriculture; circular villages; Serpent Mound (Great Serpent Mound); distinct from Mississippian but contemporaneous.")
+add("plaquemine", "Plaquemine Culture", "CulturalAge", "mississippian-culture", 1200, 1700, "CE",
+    "Lower Mississippi Valley; platform mounds; evolved from Coles Creek; Winterville, Lake George sites; ancestral to Natchez.")
 
 # --- Southwest Cultures ---
 add("ancestral-pueblo", "Ancestral Puebloans (Anasazi)", "CulturalAge", "north-america-precolumbian", 100, 1600, "CE",
@@ -972,6 +984,10 @@ add("plains-village", "Plains Village Period", "CulturalAge", "north-america-pre
     "Semi-sedentary farming communities on Great Plains; earth lodge villages; maize agriculture; Mandan, Hidatsa, Arikara, Pawnee, Wichita.")
 add("iroquois-confederacy", "Haudenosaunee (Iroquois) Confederacy", "CulturalAge", "north-america-precolumbian", 1450, 1776, "CE",
     "Six Nations (Mohawk, Oneida, Onondaga, Cayuga, Seneca, Tuscarora); Great Law of Peace; longhouse society; influenced U.S. Constitution debates.")
+add("taino", "Taíno Civilization", "CulturalAge", "north-america-precolumbian", 1200, 1550, "CE",
+    "Caribbean (Hispaniola, Puerto Rico, Cuba, Jamaica); first indigenous people encountered by Columbus; cacique chiefs; ball courts; zemí worship; decimated by colonization.")
+add("cherokee-nation", "Cherokee Nation (Pre-Removal)", "CulturalAge", "north-america-precolumbian", 1540, 1838, "CE",
+    "Southeast woodlands; one of 'Five Civilized Tribes'; Sequoyah's syllabary (1821); Cherokee Phoenix newspaper; Trail of Tears (1838).")
 
 # --- European Exploration & Colonial ---
 add("north-america-colonial", "Colonial North America", "CulturalAge", "holocene", 1492, 1783, "CE",
@@ -1006,8 +1022,14 @@ add("reconstruction", "Reconstruction Era", "CulturalAge", "modern-period", 1865
     "Post-Civil War rebuilding; 13th-15th Amendments; freedmen's rights; Ku Klux Klan backlash; ends with Compromise of 1877; Jim Crow begins.")
 add("gilded-age", "Gilded Age", "CulturalAge", "modern-period", 1877, 1900, "CE",
     "Rapid industrialization; robber barons (Carnegie, Rockefeller, Vanderbilt); immigration waves; labor unrest; railroads; Native American displacement.")
+add("mexican-american-war", "Mexican–American War", "CulturalAge", "modern-period", 1846, 1848, "CE",
+    "U.S. vs. Mexico; annexation of Texas as catalyst; Treaty of Guadalupe Hidalgo; Mexico cedes California, New Mexico, Arizona; ~55% of territory lost.")
+add("california-gold-rush", "California Gold Rush", "CulturalAge", "modern-period", 1848, 1855, "CE",
+    "Gold discovered at Sutter's Mill (1848); ~300,000 migrants ('49ers); California statehood (1850); devastation of Native Californians; San Francisco boom.")
 add("indian-wars", "Indian Wars", "CulturalAge", "modern-period", 1860, 1890, "CE",
     "U.S. military campaigns against Indigenous nations; Sand Creek (1864); Little Bighorn (1876); Wounded Knee (1890); reservation system; Dawes Act.")
+add("spanish-american-war", "Spanish–American War", "CulturalAge", "modern-period", 1898, 1898, "CE",
+    "U.S. vs. Spain; USS Maine; 'splendid little war'; U.S. gains Cuba, Puerto Rico, Guam, Philippines; emergence as world power.")
 
 # --- Mexican History ---
 add("mexican-history", "Mexican Historical Periods", "CulturalAge", "holocene", 1521, 0, "CE",
@@ -1018,6 +1040,10 @@ add("mexican-independence", "Mexican War of Independence", "CulturalAge", "mexic
     "Grito de Dolores (1810, Father Hidalgo); Morelos; Iturbide declares independence (1821); First Mexican Empire briefly established.")
 add("mexican-republic-early", "Early Mexican Republic", "CulturalAge", "mexican-history", 1824, 1876, "CE",
     "Federal republic; Texas independence (1836); Mexican-American War (1846-1848); loss of half territory; Benito Juárez; French Intervention; Maximilian.")
+add("french-intervention-mexico", "French Intervention in Mexico", "CulturalAge", "mexican-history", 1861, 1867, "CE",
+    "Napoleon III installs Maximilian as Emperor; Cinco de Mayo (1862, Battle of Puebla); Republican resistance under Juárez; Maximilian executed 1867.")
+add("cristero-war", "Cristero War", "CulturalAge", "mexican-history", 1926, 1929, "CE",
+    "Catholic uprising against anticlerical laws of Calles government; ~90,000 dead; arreglos settlement; shaped Church-state relations in Mexico.")
 add("porfiriato", "Porfiriato", "CulturalAge", "mexican-history", 1876, 1911, "CE",
     "Porfirio Díaz dictatorship; modernization, railways, foreign investment; extreme inequality; hacienda system; triggers revolution.")
 add("mexican-revolution", "Mexican Revolution", "CulturalAge", "mexican-history", 1910, 1920, "CE",
@@ -1028,8 +1054,14 @@ add("mexico-post-revolution", "Post-Revolutionary Mexico", "CulturalAge", "mexic
 # --- Canadian History ---
 add("canadian-history", "Canadian Historical Periods", "CulturalAge", "holocene", 1534, 0, "CE",
     "From French exploration through Confederation to modern multicultural nation.")
+add("fur-trade-era", "Fur Trade Era", "CulturalAge", "canadian-history", 1600, 1870, "CE",
+    "Hudson's Bay Company (1670) vs. North West Company; voyageurs; Métis people; York Factory; pemmican trade; shaped Canadian expansion westward.")
 add("british-north-america", "British North America", "CulturalAge", "canadian-history", 1763, 1867, "CE",
     "After Treaty of Paris; Quebec Act (1774); Loyalist migration; War of 1812; Rebellions of 1837; Responsible Government; path to Confederation.")
+add("red-river-metis", "Red River and Métis Resistance", "CulturalAge", "canadian-history", 1869, 1885, "CE",
+    "Louis Riel; Red River Resistance (1869-1870); Manitoba Act; North-West Rebellion (1885); Riel executed; Métis land rights; shaping of Western Canada.")
+add("klondike-gold-rush", "Klondike Gold Rush", "CulturalAge", "canadian-history", 1896, 1899, "CE",
+    "Gold discovered on Bonanza Creek, Yukon (1896); ~100,000 stampeders; Dawson City boom; Chilkoot Pass; Canadian sovereignty asserted in North.")
 add("canadian-confederation", "Canadian Confederation", "CulturalAge", "canadian-history", 1867, 1931, "CE",
     "Dominion of Canada (1867); transcontinental railway (1885); Western settlement; Riel Rebellions; WWI and Vimy Ridge; Statute of Westminster (1931).")
 add("modern-canada", "Modern Canada", "CulturalAge", "canadian-history", 1931, 0, "CE",
@@ -1042,8 +1074,18 @@ add("roaring-twenties-na", "Roaring Twenties (North America)", "CulturalAge", "c
     "Jazz Age; Harlem Renaissance; Prohibition; economic boom; Model T; cultural modernism; ends with Wall Street Crash (1929).")
 add("great-depression-na", "Great Depression (North America)", "CulturalAge", "contemporary", 1929, 1939, "CE",
     "Wall Street Crash; ~25% unemployment; Dust Bowl; New Deal (FDR); Social Security; transformation of federal government role.")
+add("us-wwii", "United States in World War II", "CulturalAge", "contemporary", 1941, 1945, "CE",
+    "Pearl Harbor (1941); Arsenal of Democracy; D-Day (1944); Pacific island-hopping; Manhattan Project; atomic bombs on Hiroshima and Nagasaki (1945).")
+add("us-cold-war", "Cold War (United States)", "CulturalAge", "contemporary", 1947, 1991, "CE",
+    "Containment doctrine; Korean War (1950-53); McCarthyism; Cuban Missile Crisis (1962); Vietnam War; détente; Reagan buildup; fall of Berlin Wall (1989).")
 add("us-civil-rights", "Civil Rights Movement", "CulturalAge", "contemporary", 1954, 1968, "CE",
     "Brown v. Board (1954); Montgomery Bus Boycott; March on Washington (1963); Civil Rights Act (1964); Voting Rights Act (1965); MLK assassinated (1968).")
+add("vietnam-war-era", "Vietnam War Era", "CulturalAge", "contemporary", 1955, 1975, "CE",
+    "U.S. involvement in Vietnam; Gulf of Tonkin (1964); Tet Offensive (1968); anti-war movement; Kent State; Fall of Saigon (1975); ~58,000 U.S. dead.")
+add("space-race", "Space Race", "CulturalAge", "contemporary", 1957, 1975, "CE",
+    "U.S.-Soviet competition; Sputnik (1957); Mercury, Gemini programs; Apollo 11 Moon landing (1969); NASA; Apollo-Soyuz (1975).")
+add("post-911-era", "Post-9/11 Era", "CulturalAge", "contemporary", 2001, 2021, "CE",
+    "September 11 attacks; War on Terror; Afghanistan War (2001-2021); Iraq War (2003); Patriot Act; Department of Homeland Security; reshaping of U.S. foreign policy.")
 
 print(f"Total data points: {n[0]}")
 

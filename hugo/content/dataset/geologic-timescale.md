@@ -1,6 +1,6 @@
 ---
 title: "Geologic Time Scale"
-description: "426 linked data entries covering Earth's 4.6 billion year history — from the Hadean eon through geologic eras, periods, and epochs to archaeological ages with Scandinavian, European, South American, and North American coverage."
+description: "447 linked data entries covering Earth's 4.6 billion year history — from the Hadean eon through geologic eras, periods, and epochs to archaeological ages with Scandinavian, European, South American, and North American coverage."
 date: 2024-12-01
 type: dataset
 publisher: "Port 30 KB"
@@ -22,12 +22,12 @@ tags:
   - linked-data
 distributions:
   - id: "turtle"
-    title: "RDF Turtle (426 entries)"
+    title: "RDF Turtle (447 entries)"
     accessURL: "https://metadatahub.eu/data/geologic-timescale.ttl"
     downloadURL: "https://metadatahub.eu/data/geologic-timescale.ttl"
     mediaType: "text/turtle"
   - id: "jsonld"
-    title: "JSON-LD (426 entries)"
+    title: "JSON-LD (447 entries)"
     accessURL: "https://metadatahub.eu/data/geologic-timescale.jsonld"
     downloadURL: "https://metadatahub.eu/data/geologic-timescale.jsonld"
     mediaType: "application/ld+json"
@@ -35,7 +35,7 @@ distributions:
 
 ## Overview
 
-This dataset models the **complete geologic time scale** as a SKOS concept scheme with 426 entries, using the [GeoSciML Geologic Timescale ontology](http://resource.geosciml.org/ontology/timescale/gts) and [W3C Time Ontology](http://www.w3.org/2006/time). It spans from the formation of Earth (4,600 Ma) through all geologic divisions down to individual ages/stages, then bridges into **archaeological and cultural periods** — Scandinavian (Stone Age through Viking Age to Modern), European (Classical Greece through EU), South American (Norte Chico through Inca Empire to 21st century), and North American (Clovis through Mesoamerica, Colonial era, and U.S./Canadian/Mexican history).
+This dataset models the **complete geologic time scale** as a SKOS concept scheme with 447 entries, using the [GeoSciML Geologic Timescale ontology](http://resource.geosciml.org/ontology/timescale/gts) and [W3C Time Ontology](http://www.w3.org/2006/time). It spans from the formation of Earth (4,600 Ma) through all geologic divisions down to individual ages/stages, then bridges into **archaeological and cultural periods** — Scandinavian (Stone Age through Viking Age to Modern), European (Classical Greece through EU), South American (Norte Chico through Inca Empire to 21st century), and North American (Clovis through Mesoamerica, Colonial era, and U.S./Canadian/Mexican history).
 
 ## Sources
 
@@ -67,7 +67,7 @@ License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (matchi
 
 | Category | Count |
 |----------|-------|
-| **Total entries** | 426 |
+| **Total entries** | 447 |
 | **Eons** | 4 (Hadean, Archean, Proterozoic, Phanerozoic) |
 | **Eras** | 13 (incl. Hadean informal divisions) |
 | **Periods** | 22 + 2 sub-periods (Mississippian, Pennsylvanian) |
@@ -76,7 +76,7 @@ License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (matchi
 | **Cultural ages (Nordic)** | ~80 (Stone Age cultures, Bronze Age (Montelius I–VI), Iron Age, Viking Age, Medieval through Modern) |
 | **Cultural ages (European)** | ~25 (Classical Greece, Roman Empire, Carolingian, Crusades, Renaissance, Baroque, Enlightenment, etc.) |
 | **South American periods** | ~49 (Norte Chico, Chavín, Moche, Inca Empire, colonial viceroyalties, independence wars, modern) |
-| **North American periods** | ~65 (Clovis, Olmec, Maya, Aztec, Mississippian, colonial era, U.S., Mexico, Canada) |
+| **North American periods** | ~86 (Clovis, Olmec, Maya, Aztec, Mississippian, Taíno, colonial era, U.S., Mexico, Canada) |
 | **Climate/extinction events** | ~15 (Big Five extinctions, Snowball Earth, PETM, etc.) |
 | **Nordic-specific** | ~40 (Bromme, Fosna-Hensbacka, Komsa, Ertebølle, Vendel, Kalmar Union, Stormaktstiden, etc.) |
 
@@ -171,29 +171,37 @@ Phanerozoic (Eon, 538.8 Ma–Present)
             │   ├── Clovis Culture, Folsom Culture
             │   └── Archaic Period → Early, Middle, Late (Poverty Point)
             ├── Mesoamerica (2000 BCE–1521 CE)
-            │   ├── Olmec (1500–400 BCE) — colossal heads, mother culture
-            │   ├── Zapotec (700 BCE–1521) — Monte Albán
+            │   ├── Olmec (1500–400 BCE) → Epi-Olmec
+            │   ├── Zapotec, Mixtec — Monte Albán, Oaxaca
+            │   ├── Totonac — El Tajín, Gulf Coast
             │   ├── Maya → Preclassic, Classic (Tikal, Palenque), Postclassic
             │   ├── Teotihuacán (100–550 CE) — Pyramids of Sun and Moon
             │   ├── Toltec (900–1168) → Aztec Empire (1428–1521)
-            │   └── Aztec → Rise, Expansion, Moctezuma II
+            │   ├── Aztec → Rise, Expansion, Moctezuma II
+            │   └── Purépecha/Tarascan — Michoacán, never conquered by Aztecs
             ├── Eastern North America
             │   ├── Woodland → Adena, Hopewell
-            │   └── Mississippian (800–1600) → Cahokia
+            │   ├── Mississippian (800–1600) → Cahokia, Fort Ancient, Plaquemine
+            │   └── Cherokee Nation, Haudenosaunee Confederacy
+            ├── Caribbean → Taíno (first contact with Columbus)
             ├── Southwest → Ancestral Puebloans (Chaco Canyon), Hohokam, Mogollon
-            ├── Other Regions → Northwest Coast, Thule, Dorset, Plains Village, Iroquois
+            ├── Other Regions → Northwest Coast, Thule, Dorset, Plains Village
             ├── Colonial North America (1492–1783)
             │   ├── Spanish Exploration, New Spain, New France
             │   ├── Thirteen Colonies, New Netherland
             │   └── French and Indian War
-            ├── Mexico → Colonial, Independence, Republic, Porfiriato, Revolution
-            ├── Canada → British North America, Confederation, Modern
+            ├── Mexico → Colonial, Independence, French Intervention,
+            │   Porfiriato, Revolution, Cristero War, Post-Revolutionary
+            ├── Canada → Fur Trade, British North America, Red River/Métis,
+            │   Confederation, Klondike Gold Rush, Modern
             └── United States
                 ├── Revolution → Early Republic → Jacksonian Era
-                ├── Antebellum → Civil War → Reconstruction → Gilded Age
-                ├── Indian Wars, Progressive Era
-                ├── Roaring Twenties → Great Depression
-                └── Civil Rights Movement
+                ├── Mexican–American War → Gold Rush → Antebellum
+                ├── Civil War → Reconstruction → Gilded Age
+                ├── Indian Wars, Spanish–American War, Progressive Era
+                ├── Roaring Twenties → Great Depression → WWII
+                ├── Cold War → Civil Rights → Vietnam War → Space Race
+                └── Post-9/11 Era
 ```
 
 ## Data Model
@@ -306,23 +314,32 @@ ts:jurassic a gts:GeochronologicPeriod ;
 | Period | Dates | Key Features |
 |--------|-------|-------------|
 | **Clovis Culture** | 11,500–10,800 BCE | First widespread culture; fluted points; megafauna hunters |
-| **Folsom Culture** | 10,900–10,200 BCE | Post-Clovis bison hunters; Great Plains |
 | **Poverty Point** | 1700–1100 BCE | Massive Louisiana earthworks; long-distance trade |
 | **Olmec** | 1500–400 BCE | Mother culture of Mesoamerica; colossal heads |
 | **Zapotec** | 700 BCE–1521 CE | Monte Albán; earliest Mesoamerican writing |
 | **Classic Maya** | 250–900 CE | Tikal, Palenque; hieroglyphs; Long Count calendar |
 | **Teotihuacán** | 100–550 CE | Largest pre-Columbian city (~125,000); Pyramids of Sun and Moon |
 | **Hopewell Tradition** | 100–500 CE | Elaborate mounds; continent-wide trade network |
-| **Mississippian** | 800–1600 CE | Cahokia; platform mounds; maize agriculture |
+| **Mississippian / Cahokia** | 800–1600 CE | Platform mounds; maize agriculture; largest city north of Mexico |
+| **Mixtec** | 900–1521 CE | Oaxaca codex tradition; goldsmithing |
 | **Ancestral Puebloans** | 100–1600 CE | Mesa Verde cliff dwellings; Chaco Canyon |
 | **Toltec** | 900–1168 CE | Tula; warrior culture; Quetzalcoatl |
+| **Taíno** | 1200–1550 CE | Caribbean; first contact with Columbus |
+| **Purépecha** | 1300–1530 CE | Michoacán; never conquered by Aztecs; metalworking |
 | **Aztec Empire** | 1428–1521 CE | Tenochtitlán; Triple Alliance; conquered by Cortés |
 | **Haudenosaunee** | 1450–1776 CE | Six Nations; Great Law of Peace |
 | **Colonial North America** | 1492–1783 CE | Spanish, French, English settlements; fur trade |
 | **American Revolution** | 1765–1783 CE | Independence; birth of the United States |
+| **Mexican–American War** | 1846–1848 CE | U.S. gains California, New Mexico, Arizona |
 | **American Civil War** | 1861–1865 CE | Union vs. Confederacy; ~620,000 dead |
+| **French Intervention (Mexico)** | 1861–1867 CE | Maximilian; Cinco de Mayo; Juárez prevails |
+| **Spanish–American War** | 1898 CE | U.S. gains Cuba, Puerto Rico, Philippines |
 | **Mexican Revolution** | 1910–1920 CE | Villa, Zapata; Constitution of 1917 |
+| **U.S. in WWII** | 1941–1945 CE | Pearl Harbor; D-Day; atomic bombs |
+| **Cold War (U.S.)** | 1947–1991 CE | Containment; Korea; Cuba; Vietnam; fall of Berlin Wall |
 | **Civil Rights Movement** | 1954–1968 CE | Desegregation; MLK; Voting Rights Act |
+| **Space Race** | 1957–1975 CE | Sputnik; Apollo 11 Moon landing |
+| **Post-9/11 Era** | 2001–2021 CE | War on Terror; Afghanistan; Iraq |
 
 ## SPARQL Examples
 
@@ -368,5 +385,5 @@ WHERE {
 
 ## Download
 
-- [Turtle (text/turtle)](/data/geologic-timescale.ttl) — 4,700+ lines, all 426 entries with full hierarchy
+- [Turtle (text/turtle)](/data/geologic-timescale.ttl) — 4,900+ lines, all 447 entries with full hierarchy
 - [JSON-LD (application/ld+json)](/data/geologic-timescale.jsonld) — Same data as JSON-LD graph
