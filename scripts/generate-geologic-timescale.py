@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """Generate the Geologic Time Scale as Linked Data (Turtle + JSON-LD).
 
-836 data points covering:
+843 data points covering:
 - 4 Eons
 - 10 Eras
 - 22 Periods (incl. Mississippian/Pennsylvanian sub-periods)
 - 38 Epochs
-- ~83 Ages/Stages (Mesozoic + Cenozoic + Pleistocene + Holocene + geologic events)
+- ~90 Ages/Stages (Mesozoic + Cenozoic + Pleistocene + Holocene + geologic events)
 - ~20 Paleozoic epoch-level divisions
 - Archaeological/cultural ages bridging into human history
 
@@ -167,7 +167,7 @@ add("early-ordovician", "Early Ordovician (Ordowices)", "Epoch", "ordovician", 4
     "Biodiversification begins; graptolites and brachiopods flourish.")
 add("tremadocian", "Tremadocian (Tremadog)", "Age", "early-ordovician", 485.4, 477.7, "Ma",
     "Conodonts and graptolites diversify; first planktonic ecosystems.")
-add("floian", "Floian (Flo, Hunneberg)", "Age", "early-ordovician", 477.7, 471.3, "Ma",
+add("floian", "Floian (Flo, Västergötland; GSSP at Hunneberg)", "Age", "early-ordovician", 477.7, 471.3, "Ma",
     "First bryozoans; corals begin to diversify.")
 add("middle-ordovician", "Middle Ordovician (Ordowices)", "Epoch", "ordovician", 471.3, 458.4, "Ma",
     "Great Ordovician Biodiversification Event peaks.")
@@ -177,8 +177,8 @@ add("darriwilian", "Darriwilian (Darriwil)", "Age", "middle-ordovician", 469.4, 
     "Peak of Great Ordovician Biodiversification; stromatoporoid reefs.")
 add("late-ordovician", "Late Ordovician (Ordowices)", "Epoch", "ordovician", 458.4, 443.8, "Ma",
     "End-Ordovician glaciation and mass extinction; ~85% of marine species lost.")
-add("sandbian", "Sandbian (Sandby, Öland)", "Age", "late-ordovician", 458.4, 453.0, "Ma",
-    "Taconic orogeny; diverse brachiopod communities.")
+add("sandbian", "Sandbian (Södra Sandby, Skåne)", "Age", "late-ordovician", 458.4, 453.0, "Ma",
+    "Taconic orogeny; diverse brachiopod communities; GSSP at Fågelsång, east of Lund.")
 add("katian", "Katian (Katy, Oklahoma)", "Age", "late-ordovician", 453.0, 445.2, "Ma",
     "Peak marine diversity; Gondwanan glaciation begins.")
 add("hirnantian", "Hirnantian (Cwm Hirnant)", "Age", "late-ordovician", 445.2, 443.8, "Ma",
@@ -254,7 +254,7 @@ add("pennsylvanian", "Pennsylvanian (Pennsylvania)", "SubPeriod", "carboniferous
     "Late Carboniferous; coal swamps peak; first reptiles appear.")
 add("early-pennsylvanian", "Early Pennsylvanian (Pennsylvania)", "Epoch", "pennsylvanian", 323.4, 315.2, "Ma",
     "Bashkirian age; Pangaea begins to assemble.")
-add("bashkirian", "Bashkirian (Башҡортостан)", "Age", "early-pennsylvanian", 323.4, 315.2, "Ma",
+add("bashkirian", "Bashkirian (Башкирский ярус / Башҡортостан)", "Age", "early-pennsylvanian", 323.4, 315.2, "Ma",
     "First large coal swamps; Pangaea assembly accelerates; early reptile diversification.")
 add("middle-pennsylvanian", "Middle Pennsylvanian (Pennsylvania)", "Epoch", "pennsylvanian", 315.2, 307, "Ma",
     "Moscovian age; giant insects thrive in high-oxygen atmosphere.")
@@ -310,17 +310,17 @@ add("olenekian", "Olenekian (Оленёк)", "Age", "early-triassic", 249.9, 246
     "Marine ecosystems begin recovery; first ichthyosaurs appear.")
 add("middle-triassic", "Middle Triassic (trias)", "Epoch", "triassic", 246.7, 237, "Ma",
     "Archosaurs diversify; first dinosauromorphs.")
-add("anisian", "Anisian (Enns / Anisus)", "Age", "middle-triassic", 246.7, 242, "Ma",
+add("anisian", "Anisian (Enns / Anisus)", "Age", "middle-triassic", 246.7, 241.5, "Ma",
     "Marine reptiles diversify; coral reefs re-establish.")
-add("ladinian", "Ladinian (Ladins)", "Age", "middle-triassic", 242, 237, "Ma",
+add("ladinian", "Ladinian (Ladins / Ladinisch)", "Age", "middle-triassic", 241.5, 237, "Ma",
     "First dinosauriform tracks; seed ferns and conifers dominate.")
 add("late-triassic", "Late Triassic (trias)", "Epoch", "triassic", 237, 201.4, "Ma",
     "First true dinosaurs, mammals, and pterosaurs; Triassic–Jurassic extinction at end.")
 add("carnian", "Carnian (Karnische Alpen)", "Age", "late-triassic", 237, 227, "Ma",
     "Carnian Pluvial Episode: major climate shift; first dinosaurs appear.")
-add("norian", "Norian (Noricum)", "Age", "late-triassic", 227, 208.5, "Ma",
+add("norian", "Norian (Noricum)", "Age", "late-triassic", 227, 205.7, "Ma",
     "Dinosaurs diversify; first turtles and crocodylomorphs.")
-add("rhaetian", "Rhaetian (Raetia)", "Age", "late-triassic", 208.5, 201.4, "Ma",
+add("rhaetian", "Rhaetian (Raetia / Rätisch)", "Age", "late-triassic", 205.7, 201.4, "Ma",
     "End-Triassic extinction opens ecological niches for dinosaurs.")
 
 add("jurassic", "Jurassic (Jura)", "Period", "mesozoic", 201.4, 143.1, "Ma",
@@ -463,8 +463,8 @@ add("greenlandian", "Greenlandian (Kalaallit Nunaat / Grønland)", "Age", "holoc
     "Early Holocene; post-glacial warming; Mesolithic hunter-gatherers in Europe.")
 add("northgrippian", "Northgrippian (NorthGRIP, Grønland)", "Age", "holocene", 8200, 4200, "BP",
     "Middle Holocene; 8.2 ka cold event; agriculture spreads through Europe.")
-add("meghalayan", "Meghalayan (मेघालय Meghālaya)", "Age", "holocene", 4200, 0, "BP",
-    "Late Holocene; 4.2 ka drought; rise and fall of Bronze Age civilizations; present day.")
+add("meghalayan", "Meghalayan (मेघालय Meghālaya / Khasi: Ri Khasi)", "Age", "holocene", 4200, 0, "BP",
+    "Late Holocene; 4.2 ka drought; rise and fall of Bronze Age civilizations; present day; GSSP at Mawmluh Cave, Khasi Hills.")
 
 # Anthropocene (informal — rejected by IUGS March 2024, but widely used)
 add("anthropocene", "Anthropocene (informal / ἄνθρωπος καινός)", "Epoch", "quaternary", 1952, 0, "CE",
@@ -808,6 +808,14 @@ add("cretaceous-paleogene-extinction", "Cretaceous–Paleogene Extinction (K-Pg 
     "Fifth of the Big Five; Chicxulub asteroid impact; all non-avian dinosaurs extinct; ~76% of species lost.")
 add("deccan-traps", "Deccan Traps Volcanism (दक्खन Dakhan)", "Age", "maastrichtian", 67, 65, "Ma",
     "One of Earth's largest volcanic events; ~1.5 million km² basalt flows in India; co-contributor to K-Pg extinction; climate disruption preceded and overlapped Chicxulub impact.")
+add("chicxulub-impact", "Chicxulub Impact (Chicxulub, Yucatán / Maaya)", "Age", "maastrichtian", 66.05, 66, "Ma",
+    "~10 km asteroid strikes Yucatán Peninsula; 180 km crater; impact winter; global wildfires; acid rain; tsunami; primary trigger of K-Pg mass extinction; iridium anomaly discovered by Alvarez et al. (1980).")
+add("siberian-traps", "Siberian Traps (Сибирские траппы Sibirskiye trappy)", "Age", "lopingian", 252.2, 250.6, "Ma",
+    "Largest known continental flood basalt; ~7 million km² lava; released massive CO₂ and SO₂; primary trigger of Permian–Triassic extinction; thermogenic carbon from coal and evaporite contact metamorphism.")
+add("emeishan-traps", "Emeishan Traps (峨眉山暗色岩 Éméishān ànsèyán)", "Age", "guadalupian", 260, 259, "Ma",
+    "Large igneous province in southwestern China (Sichuan, Yunnan, Guizhou); ~0.5 million km²; linked to Capitanian/end-Guadalupian extinction event; preceded Siberian Traps by ~8 Myr.")
+add("camp-volcanism", "Central Atlantic Magmatic Province (CAMP)", "Age", "late-triassic", 201.6, 200.9, "Ma",
+    "One of Earth's largest igneous provinces; erupted as Pangaea rifted; ~11 million km²; primary trigger of end-Triassic mass extinction; CO₂-driven warming and ocean acidification.")
 
 # ═══════════════════════════════════════════════════════════════
 # ADDITIONAL GEOLOGICAL / CLIMATE EVENTS
@@ -816,6 +824,10 @@ add("great-oxidation", "Great Oxidation Event (GOE)", "Age", "paleoproterozoic",
     "Free oxygen accumulates in atmosphere for first time; mass die-off of anaerobic organisms; banded iron formations cease.")
 add("huronian-glaciation", "Huronian Glaciation (Lake Huron)", "Age", "paleoproterozoic", 2400, 2100, "Ma",
     "First known Snowball Earth event; possibly triggered by Great Oxidation Event reducing methane greenhouse.")
+add("lomagundi-jatuli", "Lomagundi–Jatuli Event (Lomagundi, Zimbabwe / Jatuli, Karelia)", "Age", "paleoproterozoic", 2220, 2060, "Ma",
+    "Largest positive carbon isotope excursion in Earth history (δ¹³C up to +12‰); immediately follows GOE; indicates massive organic carbon burial; associated with first rise of atmospheric oxygen; global extent confirmed from Fennoscandia to southern Africa.")
+add("great-unconformity", "Great Unconformity (Grand Canyon / Lipalian)", "Age", "neoproterozoic", 1000, 539, "Ma",
+    "Global gap in the rock record between Precambrian basement and Cambrian strata; up to 1.2 billion years missing in places; cause debated: Snowball Earth glacial erosion, continental denudation, or Rodinia rifting; term coined by John Wesley Powell (1869); Lipalian interval of Walcott (1910).")
 add("petm", "Paleocene–Eocene Thermal Maximum (PETM / παλαιός ἠώς)", "Age", "ypresian", 55.8, 55.6, "Ma",
     "Rapid global warming of 5–8 °C; massive carbon release; mammals disperse across continents.")
 add("messinian-crisis", "Messinian Salinity Crisis (Messina)", "Age", "messinian", 5.96, 5.33, "Ma",
@@ -829,6 +841,8 @@ add("8.2ka-event", "8.2 ka Cold Event (Laurentide)", "Age", "northgrippian", 820
 add("4.2ka-event", "4.2 ka Aridification Event (मेघालय Meghālaya)", "Age", "meghalayan", 4200, 3900, "BP",
     "Severe drought lasting ~200 years; contributes to collapse of Akkadian Empire, Old Kingdom Egypt, Harappan civilization.")
 
+add("carnian-pluvial", "Carnian Pluvial Episode (CPE / Karnische Alpen)", "Age", "carnian", 234, 232, "Ma",
+    "Major climate perturbation; ~2 Myr of increased rainfall globally; Wrangellia LIP volcanism as trigger; diversification of dinosaurs, conifers, corals; reef crisis; significant turnover in marine and terrestrial ecosystems.")
 add("boring-billion", "Boring Billion (Dull Billion / Mesoproterozoic Stasis / μέσος πρότερος)", "Age", "proterozoic", 1800, 800, "Ma",
     "Informal name for ~1 billion years of apparent evolutionary and environmental stability; low atmospheric oxygen (~1-10% modern); subdued tectonic activity; minimal carbon isotope variation; recent work challenges 'boring' label.")
 

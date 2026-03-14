@@ -11,7 +11,7 @@
   "@id": "https://metadatahub.eu/data/geologic-timescale",
   "@type": "skos:ConceptScheme",
   "dcterms:title": "Geologic Time Scale",
-  "dcterms:description": "836 entries covering the geologic time scale from Hadean eon (4600 Ma) to present, including Scandinavian, European, and South American cultural/historical periods.",
+  "dcterms:description": "843 entries covering the geologic time scale from Hadean eon (4600 Ma) to present, including Scandinavian, European, and South American cultural/historical periods.",
   "dcterms:source": [
     "https://en.wikipedia.org/wiki/Geologic_time_scale",
     "https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf",
@@ -889,7 +889,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/floian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Floian (Flo, Hunneberg)",
+        "@value": "Floian (Flo, Västergötland; GSSP at Hunneberg)",
         "@language": "en"
       },
       "skos:definition": {
@@ -984,11 +984,11 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/sandbian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Sandbian (Sandby, Öland)",
+        "@value": "Sandbian (Södra Sandby, Skåne)",
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Taconic orogeny; diverse brachiopod communities.",
+        "@value": "Taconic orogeny; diverse brachiopod communities; GSSP at Fågelsång, east of Lund.",
         "@language": "en"
       },
       "gts:rank": "Age",
@@ -1687,7 +1687,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/bashkirian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Bashkirian (Башҡортостан)",
+        "@value": "Bashkirian (Башкирский ярус / Башҡортостан)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2174,14 +2174,14 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/middle-triassic"
       },
       "time:hasBeginning": "246.7 Ma",
-      "time:hasEnd": "242 Ma",
+      "time:hasEnd": "241.5 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
       "@id": "https://metadatahub.eu/data/geologic-timescale/ladinian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Ladinian (Ladins)",
+        "@value": "Ladinian (Ladins / Ladinisch)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2192,7 +2192,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/middle-triassic"
       },
-      "time:hasBeginning": "242 Ma",
+      "time:hasBeginning": "241.5 Ma",
       "time:hasEnd": "237 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -2250,14 +2250,14 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/late-triassic"
       },
       "time:hasBeginning": "227 Ma",
-      "time:hasEnd": "208.5 Ma",
+      "time:hasEnd": "205.7 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
       "@id": "https://metadatahub.eu/data/geologic-timescale/rhaetian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Rhaetian (Raetia)",
+        "@value": "Rhaetian (Raetia / Rätisch)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2268,7 +2268,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/late-triassic"
       },
-      "time:hasBeginning": "208.5 Ma",
+      "time:hasBeginning": "205.7 Ma",
       "time:hasEnd": "201.4 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -3492,11 +3492,11 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/meghalayan",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Meghalayan (मेघालय Meghālaya)",
+        "@value": "Meghalayan (मेघालय Meghālaya / Khasi: Ri Khasi)",
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Late Holocene; 4.2 ka drought; rise and fall of Bronze Age civilizations; present day.",
+        "@value": "Late Holocene; 4.2 ka drought; rise and fall of Bronze Age civilizations; present day; GSSP at Mawmluh Cave, Khasi Hills.",
         "@language": "en"
       },
       "gts:rank": "Age",
@@ -6244,6 +6244,82 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/chicxulub-impact",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Chicxulub Impact (Chicxulub, Yucatán / Maaya)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "~10 km asteroid strikes Yucatán Peninsula; 180 km crater; impact winter; global wildfires; acid rain; tsunami; primary trigger of K-Pg mass extinction; iridium anomaly discovered by Alvarez et al. (1980).",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/maastrichtian"
+      },
+      "time:hasBeginning": "66.05 Ma",
+      "time:hasEnd": "66 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/siberian-traps",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Siberian Traps (Сибирские траппы Sibirskiye trappy)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Largest known continental flood basalt; ~7 million km² lava; released massive CO₂ and SO₂; primary trigger of Permian–Triassic extinction; thermogenic carbon from coal and evaporite contact metamorphism.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/lopingian"
+      },
+      "time:hasBeginning": "252.2 Ma",
+      "time:hasEnd": "250.6 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/emeishan-traps",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Emeishan Traps (峨眉山暗色岩 Éméishān ànsèyán)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Large igneous province in southwestern China (Sichuan, Yunnan, Guizhou); ~0.5 million km²; linked to Capitanian/end-Guadalupian extinction event; preceded Siberian Traps by ~8 Myr.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/guadalupian"
+      },
+      "time:hasBeginning": "260 Ma",
+      "time:hasEnd": "259 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/camp-volcanism",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Central Atlantic Magmatic Province (CAMP)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "One of Earth's largest igneous provinces; erupted as Pangaea rifted; ~11 million km²; primary trigger of end-Triassic mass extinction; CO₂-driven warming and ocean acidification.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/late-triassic"
+      },
+      "time:hasBeginning": "201.6 Ma",
+      "time:hasEnd": "200.9 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
       "@id": "https://metadatahub.eu/data/geologic-timescale/great-oxidation",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
@@ -6279,6 +6355,44 @@
       },
       "time:hasBeginning": "2400 Ma",
       "time:hasEnd": "2100 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/lomagundi-jatuli",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Lomagundi–Jatuli Event (Lomagundi, Zimbabwe / Jatuli, Karelia)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Largest positive carbon isotope excursion in Earth history (δ¹³C up to +12‰); immediately follows GOE; indicates massive organic carbon burial; associated with first rise of atmospheric oxygen; global extent confirmed from Fennoscandia to southern Africa.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/paleoproterozoic"
+      },
+      "time:hasBeginning": "2220 Ma",
+      "time:hasEnd": "2060 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/great-unconformity",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Great Unconformity (Grand Canyon / Lipalian)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Global gap in the rock record between Precambrian basement and Cambrian strata; up to 1.2 billion years missing in places; cause debated: Snowball Earth glacial erosion, continental denudation, or Rodinia rifting; term coined by John Wesley Powell (1869); Lipalian interval of Walcott (1910).",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/neoproterozoic"
+      },
+      "time:hasBeginning": "1000 Ma",
+      "time:hasEnd": "539 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -6393,6 +6507,25 @@
       },
       "time:hasBeginning": "4200 years BP",
       "time:hasEnd": "3900 years BP",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/carnian-pluvial",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Carnian Pluvial Episode (CPE / Karnische Alpen)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Major climate perturbation; ~2 Myr of increased rainfall globally; Wrangellia LIP volcanism as trigger; diversification of dinosaurs, conifers, corals; reef crisis; significant turnover in marine and terrestrial ecosystems.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/carnian"
+      },
+      "time:hasBeginning": "234 Ma",
+      "time:hasEnd": "232 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
