@@ -206,7 +206,7 @@ add("gorstian", "Gorstian (Gorst, Shropshire)", "Age", "ludlow", 425.0, 423.0, "
     "Lau extinction event; graptolite fauna turnover.")
 add("ludfordian", "Ludfordian (Ludford, Shropshire)", "Age", "ludlow", 423.0, 422.7, "Ma",
     "First terrestrial arthropod traces; jawed fish diversify.")
-add("pridoli", "Přídolí", "Epoch", "silurian", 422.7, 419.62, "Ma",
+add("pridoli", "Přídolí (Přídolí, Česko)", "Epoch", "silurian", 422.7, 419.62, "Ma",
     "First jawed fish diversify; transition toward Devonian.")
 
 add("devonian", "Devonian (Devon)", "Period", "paleozoic", 419.62, 358.9, "Ma",
@@ -479,39 +479,39 @@ add("stone-age", "Stone Age (Stenåldern)", "CulturalAge", "holocene", 3300000, 
     "Longest period of human prehistory; defined by use of stone tools. Three-age system by C.J. Thomsen.")
 add("paleolithic", "Paleolithic / Old Stone Age (Paleolitikum / Äldre stenåldern)", "CulturalAge", "stone-age", 3300000, 10000, "BCE",
     "Oldest division; hunter-gatherer societies; development of stone tool technology.")
-add("lower-paleolithic", "Lower Paleolithic", "CulturalAge", "paleolithic", 3300000, 300000, "BCE",
+add("lower-paleolithic", "Lower Paleolithic (Äldre paleolitikum)", "CulturalAge", "paleolithic", 3300000, 300000, "BCE",
     "Homo habilis, Homo erectus; Oldowan and Acheulean tool industries.")
-add("middle-paleolithic", "Middle Paleolithic", "CulturalAge", "paleolithic", 300000, 50000, "BCE",
+add("middle-paleolithic", "Middle Paleolithic (Mellersta paleolitikum)", "CulturalAge", "paleolithic", 300000, 50000, "BCE",
     "Neanderthals in Europe; Mousterian tool industry; first evidence of symbolic behavior.")
-add("upper-paleolithic", "Upper Paleolithic", "CulturalAge", "paleolithic", 50000, 10000, "BCE",
+add("upper-paleolithic", "Upper Paleolithic (Yngre paleolitikum)", "CulturalAge", "paleolithic", 50000, 10000, "BCE",
     "Homo sapiens in Europe; cave art (Lascaux, Altamira); Aurignacian, Gravettian, Magdalenian cultures.")
-add("bromme-culture", "Bromme Culture", "CulturalAge", "upper-paleolithic", 11600, 10000, "BCE",
+add("bromme-culture", "Bromme Culture (Brommekulturen)", "CulturalAge", "upper-paleolithic", 11600, 10000, "BCE",
     "Late Paleolithic reindeer hunters at the edge of the Scandinavian ice sheet; earliest human presence in Sweden (Scania).")
-add("ahrensburg-culture", "Ahrensburg Culture", "CulturalAge", "upper-paleolithic", 10900, 9700, "BCE",
+add("ahrensburg-culture", "Ahrensburg Culture (Ahrensburgkulturen)", "CulturalAge", "upper-paleolithic", 10900, 9700, "BCE",
     "Late Paleolithic/early Mesolithic nomadic hunters from the North German Plain; migrated north via Jutland following retreating ice.")
 add("mesolithic", "Mesolithic / Middle Stone Age (Mesolitikum / Mellersta stenåldern)", "CulturalAge", "stone-age", 10000, 4000, "BCE",
     "Post-glacial; microlithic tools; Scandinavia first settled ~9500 BCE. Maglemosian, Kongemose, Ertebølle cultures.")
 add("fosna-hensbacka", "Fosna–Hensbacka Culture", "CulturalAge", "mesolithic", 8300, 7300, "BCE",
     "Early Mesolithic culture along the Norwegian and Swedish west coasts; descended from Ahrensburg tradition; coastal seal hunting and fishing.")
-add("komsa-culture", "Komsa Culture", "CulturalAge", "mesolithic", 10000, 6000, "BCE",
+add("komsa-culture", "Komsa Culture (Komsakulturen)", "CulturalAge", "mesolithic", 10000, 6000, "BCE",
     "Early Mesolithic culture of northern Norway coast; sea-oriented seal hunters and fishermen; relatively crude stone tools compared to southern Fosna.")
-add("maglemosian", "Maglemosian Culture", "CulturalAge", "mesolithic", 9000, 6000, "BCE",
+add("maglemosian", "Maglemosian Culture (Maglemosekulturen)", "CulturalAge", "mesolithic", 9000, 6000, "BCE",
     "Early Mesolithic hunter-gatherer culture in southern Scandinavia and northern Germany; flint microliths, bone harpoons.")
-add("kongemose", "Kongemose Culture", "CulturalAge", "mesolithic", 6000, 5200, "BCE",
+add("kongemose", "Kongemose Culture (Kongemosekulturen)", "CulturalAge", "mesolithic", 6000, 5200, "BCE",
     "Middle Mesolithic in Denmark and southern Sweden; coastal adaptation, fishing, seal hunting.")
 add("nostvet-lihult", "Nøstvet and Lihult Cultures", "CulturalAge", "mesolithic", 6000, 4000, "BCE",
     "Middle-Late Mesolithic in most of southern Norway and Sweden; descendants of Fosna-Hensbacka; polished stone axes.")
-add("ertebolleculture", "Ertebølle Culture", "CulturalAge", "mesolithic", 5400, 3950, "BCE",
+add("ertebolleculture", "Ertebølle Culture (Ertebøllekulturen)", "CulturalAge", "mesolithic", 5400, 3950, "BCE",
     "Late Mesolithic in southern Scandinavia; first pottery, large shell middens, transition to agriculture.")
 add("neolithic", "Neolithic / New Stone Age (Neolitikum / Yngre stenåldern)", "CulturalAge", "stone-age", 4000, 2000, "BCE",
     "Agriculture, polished stone tools, pottery, permanent settlements. Funnelbeaker culture in Scandinavia (~4000–2700 BCE).")
 add("funnelbeaker", "Funnelbeaker Culture (TRB)", "CulturalAge", "neolithic", 4000, 2700, "BCE",
     "First farming culture in Scandinavia; megalithic tombs (dolmens, passage graves); pottery with funnel-shaped rims.")
-add("pitted-ware", "Pitted Ware Culture", "CulturalAge", "neolithic", 3200, 2300, "BCE",
+add("pitted-ware", "Pitted Ware Culture (Gropkeramisk kultur)", "CulturalAge", "neolithic", 3200, 2300, "BCE",
     "Concurrent hunter-gatherer-fisher culture in eastern Sweden, Gotland, and Finland; seal hunting, characteristic pitted pottery.")
 add("battle-axe", "Battle Axe Culture (Boat Axe Culture)", "CulturalAge", "neolithic", 2800, 2300, "BCE",
     "Scandinavian variant of Corded Ware culture; single graves, polished stone battle axes, early Indo-European influences.")
-add("nordic-neolithic-late", "Late Neolithic Scandinavia", "CulturalAge", "neolithic", 2300, 1750, "BCE",
+add("nordic-neolithic-late", "Late Neolithic Scandinavia (Senneolitikum)", "CulturalAge", "neolithic", 2300, 1750, "BCE",
     "Transition to metalworking; flint daggers imitate bronze; Bell Beaker influences reach Scandinavia.")
 
 # --- Chalcolithic (Copper Age) ---
@@ -521,29 +521,29 @@ add("chalcolithic", "Chalcolithic / Copper Age (Kopparåldern)", "CulturalAge", 
 # --- Bronze Age ---
 add("bronze-age", "Bronze Age (Bronsåldern)", "CulturalAge", "holocene", 3300, 1200, "BCE",
     "Defined by bronze metallurgy. Near East ~3300 BCE; Nordic Bronze Age begins ~1750 BCE.")
-add("early-bronze-age", "Early Bronze Age", "CulturalAge", "bronze-age", 3300, 2000, "BCE",
+add("early-bronze-age", "Early Bronze Age (Äldre bronsåldern)", "CulturalAge", "bronze-age", 3300, 2000, "BCE",
     "Near East & Mediterranean: urbanization, writing systems, first empires.")
-add("middle-bronze-age", "Middle Bronze Age", "CulturalAge", "bronze-age", 2000, 1550, "BCE",
+add("middle-bronze-age", "Middle Bronze Age (Mellersta bronsåldern)", "CulturalAge", "bronze-age", 2000, 1550, "BCE",
     "Minoan civilization peaks; Nordic Bronze Age begins (~1750 BCE); extensive trade networks.")
-add("late-bronze-age", "Late Bronze Age", "CulturalAge", "bronze-age", 1550, 1200, "BCE",
+add("late-bronze-age", "Late Bronze Age (Yngre bronsåldern)", "CulturalAge", "bronze-age", 1550, 1200, "BCE",
     "Mycenaean Greece; New Kingdom Egypt; Late Bronze Age collapse (~1200 BCE).")
 add("nordic-bronze-age", "Nordic Bronze Age (Nordisk bronsålder)", "CulturalAge", "bronze-age", 1700, 500, "BCE",
     "Scandinavian Bronze Age; elaborate burial mounds, rock carvings (hällristningar), sun chariot of Trundholm.")
 add("nordic-bronze-early", "Early Nordic Bronze Age / Period I–III (Äldre bronsåldern)", "CulturalAge", "nordic-bronze-age", 1700, 1100, "BCE",
     "Oak coffin burials (Egtved Girl, Skrydstrup Woman); Trundholm sun chariot; wealth from amber trade.")
-add("montelius-i", "Montelius Period I", "CulturalAge", "nordic-bronze-early", 1700, 1500, "BCE",
+add("montelius-i", "Montelius Period I (Monteliusperiod I)", "CulturalAge", "nordic-bronze-early", 1700, 1500, "BCE",
     "Earliest Nordic Bronze Age; first bronze imports; flint daggers gradually replaced by bronze weapons.")
-add("montelius-ii", "Montelius Period II", "CulturalAge", "nordic-bronze-early", 1500, 1300, "BCE",
+add("montelius-ii", "Montelius Period II (Monteliusperiod II)", "CulturalAge", "nordic-bronze-early", 1500, 1300, "BCE",
     "Peak of early bronze wealth; Egtved Girl burial (1370 BCE); Trundholm sun chariot (~1400 BCE); elaborate spiral ornaments and fibulae.")
-add("montelius-iii", "Montelius Period III", "CulturalAge", "nordic-bronze-early", 1300, 1100, "BCE",
+add("montelius-iii", "Montelius Period III (Monteliusperiod III)", "CulturalAge", "nordic-bronze-early", 1300, 1100, "BCE",
     "Skrydstrup Woman burial; oak coffin burials continue; extensive amber trade networks with Mediterranean.")
 add("nordic-bronze-late", "Late Nordic Bronze Age / Period IV–VI (Yngre bronsåldern)", "CulturalAge", "nordic-bronze-age", 1100, 500, "BCE",
     "Cremation replaces inhumation; lur horns; rock carvings peak; declining bronze imports.")
-add("montelius-iv", "Montelius Period IV", "CulturalAge", "nordic-bronze-late", 1100, 900, "BCE",
+add("montelius-iv", "Montelius Period IV (Monteliusperiod IV)", "CulturalAge", "nordic-bronze-late", 1100, 900, "BCE",
     "Shift from inhumation to cremation; rock carvings (hällristningar) flourish; bronze lur horns crafted.")
-add("montelius-v", "Montelius Period V", "CulturalAge", "nordic-bronze-late", 900, 700, "BCE",
+add("montelius-v", "Montelius Period V (Monteliusperiod V)", "CulturalAge", "nordic-bronze-late", 900, 700, "BCE",
     "Elaborate ritual depositions in lakes and bogs; continued rock carving tradition; Hallstatt imports arrive.")
-add("montelius-vi", "Montelius Period VI", "CulturalAge", "nordic-bronze-late", 700, 500, "BCE",
+add("montelius-vi", "Montelius Period VI (Monteliusperiod VI)", "CulturalAge", "nordic-bronze-late", 700, 500, "BCE",
     "Final Bronze Age period; Hallstatt iron influence from Central Europe; transition to local iron production.")
 
 # --- Iron Age ---
@@ -551,31 +551,31 @@ add("iron-age", "Iron Age (Järnåldern)", "CulturalAge", "holocene", 1200, 1, "
     "Defined by iron smelting and tools. Near East ~1200 BCE; Scandinavia ~500 BCE.")
 add("pre-roman-iron-age", "Pre-Roman Iron Age (Förromersk järnålder)", "CulturalAge", "iron-age", 500, 1, "BCE",
     "Iron working spreads to Scandinavia; bog ore smelting; Jastorf culture.")
-add("pre-roman-iron-early", "Early Pre-Roman Iron Age", "CulturalAge", "pre-roman-iron-age", 500, 250, "BCE",
+add("pre-roman-iron-early", "Early Pre-Roman Iron Age (Äldre förromersk järnålder)", "CulturalAge", "pre-roman-iron-age", 500, 250, "BCE",
     "Transition from bronze; first local iron production from bog ore in southern Scandinavia.")
-add("pre-roman-iron-late", "Late Pre-Roman Iron Age", "CulturalAge", "pre-roman-iron-age", 250, 1, "BCE",
+add("pre-roman-iron-late", "Late Pre-Roman Iron Age (Yngre förromersk järnålder)", "CulturalAge", "pre-roman-iron-age", 250, 1, "BCE",
     "Celtic La Tène influences; complex hillforts; Dejbjerg wagons; widespread bog iron production.")
 
 # --- Roman & Migration Period ---
 add("roman-iron-age", "Roman Iron Age (Romersk järnålder)", "CulturalAge", "holocene", 1, 400, "CE",
     "Roman influence on Germanic societies; runes develop; trade with the Roman Empire.")
-add("early-roman-iron", "Early Roman Iron Age", "CulturalAge", "roman-iron-age", 1, 200, "CE",
+add("early-roman-iron", "Early Roman Iron Age (Äldre romersk järnålder)", "CulturalAge", "roman-iron-age", 1, 200, "CE",
     "Increasing trade with Roman provinces; imported bronze vessels; first runic inscriptions.")
-add("late-roman-iron", "Late Roman Iron Age", "CulturalAge", "roman-iron-age", 200, 400, "CE",
+add("late-roman-iron", "Late Roman Iron Age (Yngre romersk järnålder)", "CulturalAge", "roman-iron-age", 200, 400, "CE",
     "Gold solidi flow north; Nydam boat (320 CE); elaborate weapon deposits in bogs.")
 add("germanic-iron-age", "Germanic Iron Age (Germansk järnålder)", "CulturalAge", "holocene", 400, 790, "CE",
     "Post-Roman period in Scandinavia; divided into Early (Migration Period) and Late (Vendel/Merovingian) by Oscar Montelius.")
 add("migration-period", "Migration Period (Folkvandringstiden / Völkerwanderung)", "CulturalAge", "germanic-iron-age", 400, 550, "CE",
     "Fall of Western Rome; Germanic peoples migrate across Europe; gold bracteates and collars in Scandinavia.")
-add("migration-early", "Early Migration Period", "CulturalAge", "migration-period", 400, 475, "CE",
+add("migration-early", "Early Migration Period (Äldre folkvandringstiden)", "CulturalAge", "migration-period", 400, 475, "CE",
     "Huns invade Europe (375); Scandinavian gold hoards peak; elaborate gold collars (e.g. Ålleberg, Möne, Färjestaden).")
-add("migration-late", "Late Migration Period", "CulturalAge", "migration-period", 475, 550, "CE",
+add("migration-late", "Late Migration Period (Yngre folkvandringstiden)", "CulturalAge", "migration-period", 475, 550, "CE",
     "Post-Roman gold scarcity; gilded bronze replaces gold; animal-style ornamentation (Style I) develops.")
 add("vendel-period", "Vendel Period (Merovingian Period)", "CulturalAge", "germanic-iron-age", 550, 790, "CE",
     "Swedish golden age; Vendel and Valsgärde boat burials; elaborate animal-style ornamentation.")
-add("vendel-early", "Early Vendel Period", "CulturalAge", "vendel-period", 550, 650, "CE",
+add("vendel-early", "Early Vendel Period (Äldre vendeltiden)", "CulturalAge", "vendel-period", 550, 650, "CE",
     "Sutton Hoo parallels; Vendel I–VII boat graves near Uppsala; Style II animal ornamentation.")
-add("vendel-late", "Late Vendel Period", "CulturalAge", "vendel-period", 650, 790, "CE",
+add("vendel-late", "Late Vendel Period (Yngre vendeltiden)", "CulturalAge", "vendel-period", 650, 790, "CE",
     "Valsgärde boat burials continue; Style III ornamentation; Birka's proto-urban precursors; transition to Viking Age.")
 
 # --- Viking Age ---
@@ -603,11 +603,11 @@ add("early-modern", "Early Modern Period (Tidigmodern tid)", "CulturalAge", "hol
     "Reformation; Vasa dynasty; Swedish Empire (stormaktstiden); Age of Enlightenment.")
 add("early-vasa-era", "Early Vasa Era (Äldre Vasatiden)", "CulturalAge", "early-modern", 1523, 1611, "CE",
     "Gustav Vasa breaks from Kalmar Union; Protestant Reformation; hereditary monarchy established; Stockholm Bloodbath aftermath.")
-add("reformation-era", "Reformation Era", "CulturalAge", "early-vasa-era", 1527, 1600, "CE",
+add("reformation-era", "Reformation Era (Reformationstiden)", "CulturalAge", "early-vasa-era", 1527, 1600, "CE",
     "Protestant Reformation in Sweden (1527) and Denmark-Norway (1536); seizure of Catholic Church property; new church ordinances.")
 add("swedish-empire", "Swedish Empire (Stormaktstiden)", "CulturalAge", "early-modern", 1611, 1721, "CE",
     "Sweden as great power; Thirty Years War; Baltic dominance; ends with Great Northern War.")
-add("thirty-years-war", "Thirty Years' War Period", "CulturalAge", "swedish-empire", 1618, 1648, "CE",
+add("thirty-years-war", "Thirty Years' War Period (Trettioåriga kriget)", "CulturalAge", "swedish-empire", 1618, 1648, "CE",
     "Sweden enters as Protestant champion under Gustav II Adolf; Battle of Breitenfeld (1631); Peace of Westphalia (1648).")
 add("caroline-era", "Caroline Era (Karolinska tiden)", "CulturalAge", "swedish-empire", 1654, 1718, "CE",
     "Absolute monarchy under Charles X, XI, XII; reduktion land reforms; Great Northern War ends Swedish empire.")
@@ -619,7 +619,7 @@ add("gustavian-era", "Gustavian Era (Gustavianska tiden)", "CulturalAge", "early
 # --- Modern Period ---
 add("modern-period", "Modern Period (Moderna tiden)", "CulturalAge", "holocene", 1789, 0, "CE",
     "French Revolution to present; industrialization, nation-states, globalization.")
-add("bernadotte-era", "Bernadotte Era / Union Period", "CulturalAge", "modern-period", 1809, 1905, "CE",
+add("bernadotte-era", "Bernadotte Era / Union Period (Bernadottetiden / Unionstiden)", "CulturalAge", "modern-period", 1809, 1905, "CE",
     "New constitution (1809); French Marshal Bernadotte becomes Crown Prince (1810); Sweden-Norway union (1814–1905); loss of Finland to Russia.")
 add("industrial-age", "Industrial Age (Industrialiseringen)", "CulturalAge", "modern-period", 1850, 1914, "CE",
     "Railways from 1850s; mass emigration to Americas (~1.3M Swedes); Alfred Nobel; rapid urbanization.")
@@ -643,7 +643,7 @@ add("roman-empire", "Roman Empire (Imperium Romanum)", "CulturalAge", "holocene"
     "Pax Romana; peak Roman civilization; roads, aqueducts, law; Christianity becomes state religion (380 CE).")
 add("late-antiquity", "Late Antiquity (Spätantike)", "CulturalAge", "holocene", 250, 750, "CE",
     "Transition from classical to medieval; fall of Western Rome (476); rise of Christianity; Byzantine Empire continues in East.")
-add("byzantine-empire", "Byzantine Empire", "CulturalAge", "holocene", 330, 1453, "CE",
+add("byzantine-empire", "Byzantine Empire (Βυζαντινή Αυτοκρατορία / Byzantinska riket)", "CulturalAge", "holocene", 330, 1453, "CE",
     "Eastern Roman Empire; Constantinople capital; Justinian's Code; Hagia Sophia; Greek culture; Orthodox Christianity; fell to Ottoman Turks (1453).")
 add("byzantine-early", "Early Byzantine Period", "CulturalAge", "byzantine-empire", 330, 717, "CE",
     "Constantine founds Constantinople (330); Justinian I (527-565); Corpus Juris Civilis; Hagia Sophia (537); wars with Sasanian Persia; Arab sieges.")
@@ -657,13 +657,13 @@ add("european-early-medieval", "Early Middle Ages (Europe)", "CulturalAge", "hol
     "Fall of Western Rome (476); Merovingian and Carolingian kingdoms; spread of Christianity; feudalism develops.")
 add("merovingian-period", "Merovingian Period (Frankish)", "CulturalAge", "european-early-medieval", 481, 751, "CE",
     "Merovingian dynasty rules Frankish kingdoms; Clovis I converts to Christianity; foundation of medieval France.")
-add("carolingian-period", "Carolingian Period", "CulturalAge", "european-early-medieval", 751, 888, "CE",
+add("carolingian-period", "Carolingian Period (Karolingerzeit / L'ère carolingienne)", "CulturalAge", "european-early-medieval", 751, 888, "CE",
     "Charlemagne crowned Emperor (800); Carolingian Renaissance; revival of learning, Latin scholarship, and arts.")
 add("ottonian-period", "Ottonian Period", "CulturalAge", "european-early-medieval", 919, 1024, "CE",
     "Holy Roman Empire under Otto I; Ottonian Renaissance; expansion of Christianity into central Europe.")
 add("european-high-medieval", "High Middle Ages (Europe)", "CulturalAge", "holocene", 1000, 1300, "CE",
     "Crusades; Gothic cathedrals; universities founded (Bologna, Paris, Oxford); population growth; Magna Carta (1215).")
-add("crusades-period", "Crusades Period", "CulturalAge", "european-high-medieval", 1095, 1291, "CE",
+add("crusades-period", "Crusades Period (Korstågen / Les Croisades / الحروب الصليبية)", "CulturalAge", "european-high-medieval", 1095, 1291, "CE",
     "Series of religious wars for control of the Holy Land; First Crusade captures Jerusalem (1099); cultural exchange between East and West.")
 add("twelfth-century-renaissance", "Renaissance of the 12th Century", "CulturalAge", "european-high-medieval", 1100, 1200, "CE",
     "Revival of learning; translations of Greek and Arabic texts; founding of universities; scholasticism; Gothic architecture begins.")
@@ -687,19 +687,19 @@ add("enlightenment", "Age of Enlightenment (Upplysningen / Aufklärung / Les Lum
     "Reason, science, individual rights; Voltaire, Rousseau, Kant, Locke; influence on American and French Revolutions.")
 add("age-of-revolutions", "Age of Revolutions (Revolutionernas tid)", "CulturalAge", "holocene", 1775, 1848, "CE",
     "American Revolution (1775), French Revolution (1789), Napoleonic Wars, Revolutions of 1848; end of ancien régime.")
-add("romanticism", "Romantic Period", "CulturalAge", "modern-period", 1790, 1850, "CE",
+add("romanticism", "Romantic Period (Romantiken / Romantik)", "CulturalAge", "modern-period", 1790, 1850, "CE",
     "Reaction against Enlightenment rationalism; emphasis on emotion, nature, nationalism; Goethe, Byron, Beethoven, Delacroix.")
-add("world-wars-era", "World Wars Era", "CulturalAge", "contemporary", 1914, 1945, "CE",
+add("world-wars-era", "World Wars Era (Världskrigen)", "CulturalAge", "contemporary", 1914, 1945, "CE",
     "Two global conflicts and an interwar period that reshaped Europe; tens of millions killed; colonial empires begin to dissolve.")
-add("world-war-i", "World War I", "CulturalAge", "world-wars-era", 1914, 1918, "CE",
+add("world-war-i", "World War I (Första världskriget / Erster Weltkrieg)", "CulturalAge", "world-wars-era", 1914, 1918, "CE",
     "The Great War; trench warfare; fall of empires (Ottoman, Austro-Hungarian, Russian, German); Treaty of Versailles (1919).")
-add("interwar-period", "Interwar Period", "CulturalAge", "world-wars-era", 1918, 1939, "CE",
+add("interwar-period", "Interwar Period (Mellankrigstiden)", "CulturalAge", "world-wars-era", 1918, 1939, "CE",
     "League of Nations; Weimar Republic; Great Depression (1929); rise of fascism in Italy, Germany, Spain; Spanish Civil War.")
-add("world-war-ii", "World War II", "CulturalAge", "world-wars-era", 1939, 1945, "CE",
+add("world-war-ii", "World War II (Andra världskriget / Zweiter Weltkrieg)", "CulturalAge", "world-wars-era", 1939, 1945, "CE",
     "Global conflict; Nazi Germany, Holocaust; Allied victory; atomic bombs; United Nations founded (1945); Europe devastated.")
-add("cold-war-era", "Cold War Era", "CulturalAge", "contemporary", 1947, 1991, "CE",
+add("cold-war-era", "Cold War Era (Kalla kriget / Холодная война)", "CulturalAge", "contemporary", 1947, 1991, "CE",
     "East-West division; NATO vs Warsaw Pact; Iron Curtain; Berlin Wall (1961-1989); European integration begins (EEC 1957).")
-add("european-integration", "European Integration", "CulturalAge", "contemporary", 1957, 0, "CE",
+add("european-integration", "European Integration (Europeisk integration)", "CulturalAge", "contemporary", 1957, 0, "CE",
     "Treaty of Rome (1957); EEC to EU; Schengen Area; Euro currency; expansion from 6 to 27+ member states.")
 
 # --- Pre-Classical Aegean ---
@@ -728,7 +728,7 @@ add("visigothic-kingdom", "Visigothic Kingdom (Reino visigodo)", "CulturalAge", 
     "Germanic successor state controlling Iberia; Toledo capital; Liber Iudiciorum legal code; Arian then Catholic Christianity.")
 add("al-andalus", "Al-Andalus (الأندلس)", "CulturalAge", "holocene", 711, 1492, "CE",
     "Islamic Iberia; Caliphate of Córdoba; convivencia; Alhambra, Mezquita; advances in science, medicine, philosophy.")
-add("reconquista", "Reconquista", "CulturalAge", "holocene", 722, 1492, "CE",
+add("reconquista", "Reconquista (Reconquista / إسترداد)", "CulturalAge", "holocene", 722, 1492, "CE",
     "Christian reconquest of Iberia; Covadonga (722) to Fall of Granada (1492); shaped Spanish and Portuguese national identity.")
 add("spanish-empire", "Spanish Empire (Imperio español)", "CulturalAge", "holocene", 1492, 1976, "CE",
     "First global empire; colonization of Americas and Philippines; 'empire on which the sun never sets'; Habsburg and Bourbon dynasties.")
@@ -780,7 +780,7 @@ add("soviet-union", "Soviet Union (Союз Советских Социалис�
 # --- Additional European periods ---
 add("napoleonic-era", "Napoleonic Era (Ère napoléonienne)", "CulturalAge", "modern-period", 1799, 1815, "CE",
     "Napoleon reshapes European borders; Code Napoléon; Battle of Austerlitz, Trafalgar, Waterloo; Congress of Vienna.")
-add("victorian-era", "Victorian Era", "CulturalAge", "modern-period", 1837, 1901, "CE",
+add("victorian-era", "Victorian Era (Viktorianska eran)", "CulturalAge", "modern-period", 1837, 1901, "CE",
     "British global hegemony; Industrial Revolution peak; British Empire at zenith; cultural, scientific, social transformation.")
 add("british-empire", "British Empire", "CulturalAge", "holocene", 1583, 1997, "CE",
     "Largest empire in history; shaped global language, law, trade; decolonization post-WWII; Commonwealth of Nations.")
@@ -834,27 +834,27 @@ add("toba-catastrophe", "Toba Catastrophe (~74 ka / Toba, Sumatera)", "Age", "la
 # ═══════════════════════════════════════════════════════════════
 # ADDITIONAL CULTURAL PERIODS (Sámi, Baltic, Finnish)
 # ═══════════════════════════════════════════════════════════════
-add("sami-prehistory", "Sámi Prehistory", "CulturalAge", "holocene", 8000, 1600, "BCE-CE",
+add("sami-prehistory", "Sámi Prehistory (Sámi ovdahistorjá)", "CulturalAge", "holocene", 8000, 1600, "BCE-CE",
     "Indigenous Sámi settlement of northern Fennoscandia; reindeer herding develops; Komsa and Fosna cultures; sieiddit (sacred sites).")
-add("sami-modern", "Sámi Modern History", "CulturalAge", "holocene", 1600, 0, "CE",
+add("sami-modern", "Sámi Modern History (Sámi ođasáiggi historjá)", "CulturalAge", "holocene", 1600, 0, "CE",
     "Colonization and forced assimilation; Lapland witch trials; state borders divide Sápmi; Sámi parliaments (Norway 1989, Sweden 1993, Finland 1996); cultural revitalization.")
-add("comb-ceramic", "Comb Ceramic Culture", "CulturalAge", "neolithic", 3900, 2800, "BCE",
+add("comb-ceramic", "Comb Ceramic Culture (Kamkeramisk kultur)", "CulturalAge", "neolithic", 3900, 2800, "BCE",
     "Widespread Neolithic culture across Finland and the Baltic; characteristic comb-stamped pottery; hunter-gatherer-fishers.")
-add("asbestos-ceramic", "Asbestos Ceramic Period (Finland)", "CulturalAge", "neolithic", 3500, 2000, "BCE",
+add("asbestos-ceramic", "Asbestos Ceramic Period (Asbestikeramiikka / Finland)", "CulturalAge", "neolithic", 3500, 2000, "BCE",
     "Distinctive Finnish Neolithic pottery tempered with asbestos fibers; concurrent with Comb Ceramic in eastern Finland.")
-add("nordic-iron-age-celtic", "Celtic Iron Age Influences in Scandinavia", "CulturalAge", "pre-roman-iron-age", 400, 200, "BCE",
+add("nordic-iron-age-celtic", "Celtic Iron Age Influences in Scandinavia (Keltisk järnålderspåverkan)", "CulturalAge", "pre-roman-iron-age", 400, 200, "BCE",
     "La Tène art style reaches Scandinavia; Hjortspring boat; early hillforts in southern Sweden and Denmark.")
-add("jastorf-culture", "Jastorf Culture", "CulturalAge", "pre-roman-iron-age", 500, 100, "BCE",
+add("jastorf-culture", "Jastorf Culture (Jastorfkulturen)", "CulturalAge", "pre-roman-iron-age", 500, 100, "BCE",
     "Pre-Roman Iron Age culture of northern Germany and southern Scandinavia; first iron smelting from bog ore; cremation burials.")
 
 # --- Viking Age sub-events ---
-add("danelaw", "Danelaw Period", "CulturalAge", "viking-age", 865, 954, "CE",
+add("danelaw", "Danelaw Period (Danelagen)", "CulturalAge", "viking-age", 865, 954, "CE",
     "Norse-controlled territory in eastern and northern England; established after the Great Heathen Army; York as Viking capital.")
-add("viking-iceland", "Settlement of Iceland", "CulturalAge", "viking-age", 870, 930, "CE",
+add("viking-iceland", "Settlement of Iceland (Landnám Íslands)", "CulturalAge", "viking-age", 870, 930, "CE",
     "Norse colonization of Iceland; Ingólfr Arnarson (874); Althing established 930 as one of the oldest parliaments.")
-add("viking-normandy", "Norse Settlement of Normandy", "CulturalAge", "middle-viking-age", 911, 1066, "CE",
+add("viking-normandy", "Norse Settlement of Normandy (Normandie / Norðmandí)", "CulturalAge", "middle-viking-age", 911, 1066, "CE",
     "Rollo receives Normandy from French king (911); Norse settlers adopt French language; William the Conqueror descends from Vikings.")
-add("viking-rus", "Varangians and Kievan Rus'", "CulturalAge", "viking-age", 800, 1054, "CE",
+add("viking-rus", "Varangians and Kievan Rus' (Väringar / Киевская Русь)", "CulturalAge", "viking-age", 800, 1054, "CE",
     "Swedish Vikings (Varangians) establish trade routes through Russia; found Kyiv and Novgorod; Varangian Guard in Constantinople.")
 add("norse-greenland", "Norse Greenland (Grænland / Grønland)", "CulturalAge", "viking-age", 985, 1450, "CE",
     "Erik the Red founds Eastern and Western Settlements (~985); Brattahlíð; launching point for Vinland voyages; Garðar diocese (northernmost in Christendom); population ~3,000-5,000; abandoned by ~1450; climate deterioration and trade isolation.")
@@ -862,11 +862,11 @@ add("norse-vinland", "Norse Vinland (Vínland)", "CulturalAge", "viking-age", 10
     "Leif Erikson reaches North America (~1000 CE); L'Anse aux Meadows, Newfoundland (UNESCO World Heritage Site); tree-ring dated to 1021 CE; first confirmed European presence in the Americas; sagas of Eiríks saga rauða and Grœnlendinga saga.")
 
 # --- Medieval & Hanseatic ---
-add("christianization-scandinavia", "Christianization of Scandinavia", "CulturalAge", "viking-age", 960, 1150, "CE",
+add("christianization-scandinavia", "Christianization of Scandinavia (Skandinaviens kristnande)", "CulturalAge", "viking-age", 960, 1150, "CE",
     "Gradual conversion: Denmark (~960, Harald Bluetooth), Norway (~1000, Olaf Tryggvason), Sweden (~1000, Olof Skötkonung); Uppsala temple destroyed ~1087.")
-add("baltic-crusades", "Baltic Crusades Period", "CulturalAge", "medieval-period", 1147, 1290, "CE",
+add("baltic-crusades", "Baltic Crusades Period (Nordliga korstågen)", "CulturalAge", "medieval-period", 1147, 1290, "CE",
     "Northern Crusades; Christianization of Baltic region; Teutonic Order; Swedish crusades to Finland.")
-add("hanseatic-period", "Hanseatic Period in Scandinavia", "CulturalAge", "medieval-period", 1250, 1450, "CE",
+add("hanseatic-period", "Hanseatic Period in Scandinavia (Hansatiden / Hanse)", "CulturalAge", "medieval-period", 1250, 1450, "CE",
     "Hanseatic League dominates Baltic trade; German merchants in Visby, Bergen, Stockholm; Lübeck law adopted.")
 add("black-death-scandinavia", "Black Death in Scandinavia (Digerdöden / Svartedauden)", "CulturalAge", "medieval-period", 1349, 1360, "CE",
     "Plague reaches Norway (1349), Sweden and Denmark; kills ~50-60% of Scandinavian population; abandoned farms (ödegårdar).")
@@ -898,7 +898,7 @@ add("norte-chico", "Norte Chico (Caral) Civilization", "CulturalAge", "south-ame
     "Oldest known civilization in the Americas; Caral, Supe Valley, Peru; monumental architecture, quipu precursors; no pottery or writing.")
 add("valdivia-culture", "Valdivia Culture", "CulturalAge", "south-america-precolumbian", 3500, 1800, "BCE",
     "Early Formative culture on coast of Ecuador; some of the oldest pottery in the Americas; Venus figurines; early maize cultivation.")
-add("chavin-culture", "Chavín Culture", "CulturalAge", "south-america-precolumbian", 900, 200, "BCE",
+add("chavin-culture", "Chavín Culture (Chavín de Huántar)", "CulturalAge", "south-america-precolumbian", 900, 200, "BCE",
     "Early Horizon unifying culture of Andean Peru; Chavín de Huántar temple complex; jaguar iconography; influence across highlands and coast.")
 add("paracas-culture", "Paracas Culture", "CulturalAge", "south-america-precolumbian", 800, 100, "BCE",
     "Southern Peruvian coastal culture; extraordinary textiles and embroidery; cranial trepanation; Paracas Necropolis burials.")
@@ -906,9 +906,9 @@ add("nazca-culture", "Nazca Culture", "CulturalAge", "south-america-precolumbian
     "Southern Peruvian desert; Nazca Lines geoglyphs; polychrome pottery; underground aqueducts (puquios).")
 add("moche-civilization", "Moche Civilization", "CulturalAge", "south-america-precolumbian", 100, 700, "CE",
     "Northern Peruvian coast; Huaca del Sol and Huaca de la Luna; portrait vessels; Sipán royal tombs; advanced irrigation.")
-add("tiwanaku-empire", "Tiwanaku Empire", "CulturalAge", "south-america-precolumbian", 300, 1000, "CE",
+add("tiwanaku-empire", "Tiwanaku Empire (Tiahuanaco / Tiwanaku)", "CulturalAge", "south-america-precolumbian", 300, 1000, "CE",
     "Andean civilization centered at Lake Titicaca, Bolivia; Gateway of the Sun; raised-field agriculture; altitude ~3,800 m.")
-add("wari-empire", "Wari Empire", "CulturalAge", "south-america-precolumbian", 600, 1000, "CE",
+add("wari-empire", "Wari Empire (Huari)", "CulturalAge", "south-america-precolumbian", 600, 1000, "CE",
     "Middle Horizon Andean empire; administrative centers across Peru; road network predating Inca; terraced agriculture.")
 add("chinchorro-culture", "Chinchorro Culture", "CulturalAge", "south-america-precolumbian", 7000, 1500, "BCE",
     "Atacama Desert coast (Chile/Peru); oldest artificial mummification in the world (~5000 BCE, predating Egypt); fishing and gathering; egalitarian society.")
@@ -930,13 +930,13 @@ add("tierradentro", "Tierradentro Culture", "CulturalAge", "south-america-precol
     "Underground hypogea (burial chambers) carved into volcanic rock, Colombia; painted geometric designs; UNESCO World Heritage Site; Páez territory.")
 add("san-agustin-culture", "San Agustín Culture", "CulturalAge", "south-america-precolumbian", 100, 1350, "CE",
     "Pre-Columbian culture of southwestern Colombia; monumental stone sculptures and burial mounds; UNESCO World Heritage Site.")
-add("mapuche-precolonial", "Mapuche (Pre-Colonial)", "CulturalAge", "south-america-precolumbian", 600, 1550, "CE",
+add("mapuche-precolonial", "Mapuche (Pre-Colonial / Mapudungun)", "CulturalAge", "south-america-precolumbian", 600, 1550, "CE",
     "Indigenous people of south-central Chile and Argentina; agricultural and pastoral; fierce resistance to Inca and Spanish expansion.")
 add("marajoara-culture", "Marajoara Culture", "CulturalAge", "south-america-precolumbian", 400, 1300, "CE",
     "Marajó Island, Amazon estuary, Brazil; elaborate polychrome ceramics; earthen mounds (tesos); complex chiefdom; challenging 'virgin Amazon' myth.")
 add("diaguita", "Diaguita Culture", "CulturalAge", "south-america-precolumbian", 800, 1536, "CE",
     "Northwestern Argentina and Chilean Norte Chico; distinctive geometric pottery; terraced agriculture; fortified settlements (pucará); resisted Inca then Spanish.")
-add("guarani-precolonial", "Guaraní (Pre-Colonial)", "CulturalAge", "south-america-precolumbian", 500, 1537, "CE",
+add("guarani-precolonial", "Guaraní (Pre-Colonial / Avañe'ẽ)", "CulturalAge", "south-america-precolumbian", 500, 1537, "CE",
     "Tupi-Guaraní peoples of Paraguay, Brazil, and Argentina; slash-and-burn agriculture; canoe navigation; religious migrations (Land Without Evil).")
 add("selknam", "Selk'nam Period (Ona People)", "CulturalAge", "south-america-precolumbian", 8000, 1900, "BCE-CE",
     "Tierra del Fuego hunter-gatherer cultural tradition; Hain initiation ceremony; guanaco hunters; body painting; genocided during Patagonian sheep boom (late 1800s).")
@@ -1052,13 +1052,13 @@ add("poverty-point", "Poverty Point Culture", "CulturalAge", "na-archaic-late", 
 # --- Mesoamerican Civilizations ---
 add("mesoamerica", "Mesoamerican Civilizations", "CulturalAge", "north-america-precolumbian", 2000, 1521, "BCE-CE",
     "Complex civilizations of Mexico and Central America; writing, calendars, monumental architecture, agriculture (maize, beans, squash).")
-add("olmec", "Olmec Civilization", "CulturalAge", "mesoamerica", 1500, 400, "BCE",
+add("olmec", "Olmec Civilization (Ōlmēcah)", "CulturalAge", "mesoamerica", 1500, 400, "BCE",
     "Mother culture of Mesoamerica; colossal stone heads; San Lorenzo and La Venta; first Mesoamerican writing and calendar; rubber ball game.")
-add("zapotec", "Zapotec Civilization", "CulturalAge", "mesoamerica", 700, 1521, "BCE-CE",
+add("zapotec", "Zapotec Civilization (Binnizá)", "CulturalAge", "mesoamerica", 700, 1521, "BCE-CE",
     "Oaxaca Valley, Mexico; Monte Albán capital; earliest Mesoamerican writing system; 2,500-year continuous culture.")
 add("teotihuacan", "Teotihuacán", "CulturalAge", "mesoamerica", 100, 550, "CE",
     "Largest city in pre-Columbian Americas (~125,000 people); Pyramids of the Sun and Moon; Avenue of the Dead; influence across Mesoamerica.")
-add("maya-classic", "Classic Maya Civilization", "CulturalAge", "mesoamerica", 250, 900, "CE",
+add("maya-classic", "Classic Maya Civilization (Maaya)", "CulturalAge", "mesoamerica", 250, 900, "CE",
     "City-states across Yucatán, Guatemala, Belize; hieroglyphic writing; Long Count calendar; Tikal, Palenque, Copán; mysterious collapse ~900 CE.")
 add("maya-preclassic", "Preclassic Maya", "CulturalAge", "mesoamerica", 2000, 250, "BCE-CE",
     "Origins of Maya civilization; El Mirador massive pyramids; development of writing and calendar; early agriculture and village life.")
@@ -1520,39 +1520,39 @@ add("china-history", "Chinese Historical Periods", "CulturalAge", "holocene", 70
     "From Neolithic cultures through dynastic cycle to modern People's Republic; continuous civilization spanning 5,000+ years.")
 add("chinese-neolithic", "Chinese Neolithic Cultures", "CulturalAge", "china-history", 7000, 2070, "BCE",
     "Yangshao (painted pottery), Longshan (black pottery), Liangzhu (jade); rice and millet cultivation; proto-cities; foundations of Chinese civilization.")
-add("xia-dynasty", "Xia Dynasty", "CulturalAge", "china-history", 2070, 1600, "BCE",
+add("xia-dynasty", "Xia Dynasty (夏朝 Xià Cháo)", "CulturalAge", "china-history", 2070, 1600, "BCE",
     "First Chinese dynasty (semi-legendary); Yu the Great; flood control; Erlitou culture; bronze vessels; transition from Neolithic to Bronze Age.")
-add("shang-dynasty", "Shang Dynasty", "CulturalAge", "china-history", 1600, 1046, "BCE",
+add("shang-dynasty", "Shang Dynasty (商朝 Shāng Cháo)", "CulturalAge", "china-history", 1600, 1046, "BCE",
     "First historically verified dynasty; oracle bone inscriptions (earliest Chinese writing); bronze ritual vessels; Anyang capital; ancestor worship.")
-add("zhou-dynasty", "Zhou Dynasty", "CulturalAge", "china-history", 1046, 256, "BCE",
+add("zhou-dynasty", "Zhou Dynasty (周朝 Zhōu Cháo)", "CulturalAge", "china-history", 1046, 256, "BCE",
     "Longest Chinese dynasty; Mandate of Heaven concept; feudal system; divided into Western Zhou and Eastern Zhou (Spring and Autumn, Warring States).")
-add("spring-autumn", "Spring and Autumn Period", "CulturalAge", "zhou-dynasty", 771, 476, "BCE",
+add("spring-autumn", "Spring and Autumn Period (春秋時代 Chūnqiū)", "CulturalAge", "zhou-dynasty", 771, 476, "BCE",
     "Confucius (551-479), Laozi (Daoism), Sun Tzu; Hundred Schools of Thought begins; hegemonic states; iron technology spreads.")
-add("warring-states", "Warring States Period", "CulturalAge", "zhou-dynasty", 475, 221, "BCE",
+add("warring-states", "Warring States Period (戰國時代 Zhànguó)", "CulturalAge", "zhou-dynasty", 475, 221, "BCE",
     "Seven major states; Mencius, Zhuangzi, Legalism (Han Feizi); crossbow, cavalry; mass armies; ends with Qin unification.")
-add("qin-dynasty", "Qin Dynasty", "CulturalAge", "china-history", 221, 206, "BCE",
+add("qin-dynasty", "Qin Dynasty (秦朝 Qín Cháo)", "CulturalAge", "china-history", 221, 206, "BCE",
     "First unified Chinese empire; Qin Shi Huang; Great Wall begun; Terracotta Army; standardized weights, measures, writing; Legalist rule; burned books.")
-add("han-dynasty", "Han Dynasty", "CulturalAge", "china-history", 206, 220, "BCE-CE",
+add("han-dynasty", "Han Dynasty (漢朝 Hàn Cháo)", "CulturalAge", "china-history", 206, 220, "BCE-CE",
     "Golden age; Confucianism as state ideology; Silk Road opens (Zhang Qian); paper invented; civil service exams; ~60 million people; 'Han Chinese' identity.")
-add("han-western", "Western Han", "CulturalAge", "han-dynasty", 206, 9, "BCE",
+add("han-western", "Western Han (西漢 Xī Hàn)", "CulturalAge", "han-dynasty", 206, 9, "BCE",
     "Emperor Wu expands empire; Silk Road trade; Sima Qian's Records of the Grand Historian; Confucian academy; Chang'an capital.")
-add("han-eastern", "Eastern Han", "CulturalAge", "han-dynasty", 25, 220, "CE",
+add("han-eastern", "Eastern Han (東漢 Dōng Hàn)", "CulturalAge", "han-dynasty", 25, 220, "CE",
     "Restored Han; Luoyang capital; Buddhism arrives; invention of paper (Cai Lun, 105 CE); seismograph (Zhang Heng); Yellow Turban Rebellion.")
-add("three-kingdoms", "Three Kingdoms Period", "CulturalAge", "china-history", 220, 280, "CE",
+add("three-kingdoms", "Three Kingdoms Period (三國時代 Sānguó)", "CulturalAge", "china-history", 220, 280, "CE",
     "Wei, Shu, Wu; Cao Cao, Liu Bei, Sun Quan, Zhuge Liang; Romance of the Three Kingdoms; one of most romanticized eras in Chinese culture.")
 add("six-dynasties", "Six Dynasties / Northern and Southern Dynasties (六朝/南北朝)", "CulturalAge", "china-history", 220, 589, "CE",
     "300-year era of division; Jin, Sixteen Kingdoms, Northern and Southern Dynasties; Buddhism takes root; Wang Xizhi calligraphy; ethnic integration of steppe peoples.")
 add("sixteen-kingdoms", "Sixteen Kingdoms (十六國/五胡十六國)", "CulturalAge", "six-dynasties", 304, 439, "CE",
     "Non-Han peoples (Xiongnu, Xianbei, Di, Qiang, Jie) establish kingdoms across northern China; reshapes Chinese demographics and culture.")
-add("sui-dynasty", "Sui Dynasty", "CulturalAge", "china-history", 581, 618, "CE",
+add("sui-dynasty", "Sui Dynasty (隋朝 Suí Cháo)", "CulturalAge", "china-history", 581, 618, "CE",
     "Reunification after centuries of division; Grand Canal construction; Great Wall rebuilt; civil service exams restored; overextension leads to collapse.")
-add("tang-dynasty", "Tang Dynasty", "CulturalAge", "china-history", 618, 907, "CE",
+add("tang-dynasty", "Tang Dynasty (唐朝 Táng Cháo)", "CulturalAge", "china-history", 618, 907, "CE",
     "Golden age of Chinese civilization; Chang'an largest city in world; Li Bai, Du Fu (poetry); Wu Zetian (only female emperor); cosmopolitan culture; Silk Road peak.")
-add("five-dynasties", "Five Dynasties and Ten Kingdoms", "CulturalAge", "china-history", 907, 960, "CE",
+add("five-dynasties", "Five Dynasties and Ten Kingdoms (五代十國 Wǔdài Shíguó)", "CulturalAge", "china-history", 907, 960, "CE",
     "Fragmentation after Tang; five rapid northern dynasties; ten southern kingdoms; political chaos; printing technology spreads; prelude to Song reunification.")
-add("song-dynasty", "Song Dynasty", "CulturalAge", "china-history", 960, 1279, "CE",
+add("song-dynasty", "Song Dynasty (宋朝 Sòng Cháo)", "CulturalAge", "china-history", 960, 1279, "CE",
     "Economic revolution; movable type printing; gunpowder weapons; compass; paper money; Neo-Confucianism; landscape painting; commercial economy.")
-add("song-northern", "Northern Song", "CulturalAge", "song-dynasty", 960, 1127, "CE",
+add("song-northern", "Northern Song (北宋 Běi Sòng)", "CulturalAge", "song-dynasty", 960, 1127, "CE",
     "Kaifeng capital; Su Shi (poet); Shen Kuo (polymath); Dream Pool Essays; commercial revolution; lost north to Jurchen Jin dynasty.")
 add("jin-jurchen", "Jin Dynasty (Jurchen, 金朝)", "CulturalAge", "china-history", 1115, 1234, "CE",
     "Jurchen conquest of northern China; sinicized administration; rivalry with Southern Song; fell to Mongols; predecessor to Manchu Qing.")
@@ -1560,15 +1560,15 @@ add("liao-dynasty", "Liao Dynasty (遼朝)", "CulturalAge", "china-history", 916
     "Khitan empire; 'Cathay' derives from Khitan; dual administration (nomadic + Chinese); Chanyuan Treaty with Song (1004); own writing system.")
 add("western-xia", "Western Xia (西夏)", "CulturalAge", "china-history", 1038, 1227, "CE",
     "Tangut empire controlling Hexi Corridor (Silk Road); unique Tangut script; three-way balance with Song and Liao/Jin; annihilated by Mongols.")
-add("song-southern", "Southern Song", "CulturalAge", "song-dynasty", 1127, 1279, "CE",
+add("song-southern", "Southern Song (南宋 Nán Sòng)", "CulturalAge", "song-dynasty", 1127, 1279, "CE",
     "Hangzhou capital ('above is heaven, below is Hangzhou'); maritime trade; Zhu Xi Neo-Confucianism; fell to Mongol Yuan dynasty.")
 add("yuan-dynasty", "Yuan Dynasty (Mongol)", "CulturalAge", "china-history", 1271, 1368, "CE",
     "Kublai Khan; Mongol rule over China; Marco Polo visits; Grand Canal extended; Yuan drama; paper money inflation; ethnic hierarchy.")
-add("ming-dynasty", "Ming Dynasty", "CulturalAge", "china-history", 1368, 1644, "CE",
+add("ming-dynasty", "Ming Dynasty (明朝 Míng Cháo)", "CulturalAge", "china-history", 1368, 1644, "CE",
     "Han Chinese restoration; Forbidden City (Beijing); Zheng He voyages (1405-33); Great Wall rebuilt; porcelain golden age; novel tradition flourishes.")
 add("zheng-he", "Zheng He Voyages", "CulturalAge", "ming-dynasty", 1405, 1433, "CE",
     "Seven grand maritime expeditions; treasure ships; reached East Africa, Arabia, Southeast Asia; then China turned inward; ended oceanic exploration.")
-add("qing-dynasty", "Qing Dynasty", "CulturalAge", "china-history", 1644, 1912, "CE",
+add("qing-dynasty", "Qing Dynasty (清朝 Qīng Cháo)", "CulturalAge", "china-history", 1644, 1912, "CE",
     "Manchu rule; largest Qing territory; Kangxi, Qianlong emperors; Opium Wars; Taiping Rebellion (~20-30M dead); Century of Humiliation; fall to revolution.")
 add("qing-golden-age", "High Qing Era", "CulturalAge", "qing-dynasty", 1661, 1796, "CE",
     "Kangxi-Yongzheng-Qianlong; population doubles to 300M; territorial expansion (Tibet, Xinjiang, Taiwan); literary inquisition; Dream of the Red Chamber.")
@@ -1586,29 +1586,29 @@ add("roc-taiwan", "ROC on Taiwan (中華民國在臺灣)", "CulturalAge", "conte
 # --- Japan ---
 add("japan-history", "Japanese Historical Periods", "CulturalAge", "holocene", 14000, 0, "BCE-CE",
     "From Jōmon hunter-gatherers through samurai shoguns to modern economic power; island civilization with unique cultural synthesis.")
-add("jomon", "Jōmon Period", "CulturalAge", "japan-history", 14000, 300, "BCE",
+add("jomon", "Jōmon Period (縄文時代 Jōmon jidai)", "CulturalAge", "japan-history", 14000, 300, "BCE",
     "Hunter-gatherer-fishers; world's oldest pottery (~16,000 BP); cord-marked ceramics; Sannai-Maruyama settlement; dogu figurines; 10,000+ year span.")
-add("yayoi", "Yayoi Period", "CulturalAge", "japan-history", 300, 250, "BCE-CE",
+add("yayoi", "Yayoi Period (弥生時代 Yayoi jidai)", "CulturalAge", "japan-history", 300, 250, "BCE-CE",
     "Wet-rice agriculture from Korean peninsula; bronze and iron tools; social stratification; Yoshinogari site; foundation of Japanese agricultural society.")
-add("kofun", "Kofun Period", "CulturalAge", "japan-history", 250, 538, "CE",
+add("kofun", "Kofun Period (古墳時代 Kofun jidai)", "CulturalAge", "japan-history", 250, 538, "CE",
     "Keyhole-shaped burial mounds; Yamato court emergence; introduction of Chinese writing; haniwa clay figures; imperial lineage established.")
-add("asuka-period", "Asuka Period", "CulturalAge", "japan-history", 538, 710, "CE",
+add("asuka-period", "Asuka Period (飛鳥時代 Asuka jidai)", "CulturalAge", "japan-history", 538, 710, "CE",
     "Buddhism arrives; Prince Shōtoku; Taika Reform (645); Ritsuryō legal codes; Chinese-style centralized government; Hōryū-ji temple.")
-add("nara-period", "Nara Period", "CulturalAge", "japan-history", 710, 794, "CE",
+add("nara-period", "Nara Period (奈良時代 Nara jidai)", "CulturalAge", "japan-history", 710, 794, "CE",
     "First permanent capital at Nara; Kojiki and Nihon Shoki (earliest histories); Tōdai-ji Great Buddha; Buddhist monastery power grows.")
-add("heian-period", "Heian Period", "CulturalAge", "japan-history", 794, 1185, "CE",
+add("heian-period", "Heian Period (平安時代 Heian jidai)", "CulturalAge", "japan-history", 794, 1185, "CE",
     "Kyoto capital; Tale of Genji (Murasaki Shikibu, world's first novel); Fujiwara regents; kana script; refined court culture; samurai class rises.")
-add("kamakura-shogunate", "Kamakura Period", "CulturalAge", "japan-history", 1185, 1333, "CE",
+add("kamakura-shogunate", "Kamakura Period (鎌倉時代 Kamakura jidai)", "CulturalAge", "japan-history", 1185, 1333, "CE",
     "First shogunate (Minamoto Yoritomo); samurai government; Zen Buddhism; Mongol invasions repelled (1274, 1281, 'kamikaze'); warrior culture.")
-add("muromachi-period", "Muromachi Period", "CulturalAge", "japan-history", 1336, 1573, "CE",
+add("muromachi-period", "Muromachi Period (室町時代 Muromachi jidai)", "CulturalAge", "japan-history", 1336, 1573, "CE",
     "Ashikaga shogunate; Noh theater; tea ceremony; Zen gardens (Ryōan-ji); Ōnin War (1467); Sengoku (Warring States) era begins.")
-add("sengoku", "Sengoku Period", "CulturalAge", "japan-history", 1467, 1615, "CE",
+add("sengoku", "Sengoku Period (戦国時代 Sengoku jidai)", "CulturalAge", "japan-history", 1467, 1615, "CE",
     "Warring States; Oda Nobunaga, Toyotomi Hideyoshi, Tokugawa Ieyasu (three unifiers); firearms arrive (1543); castles; samurai warfare peak.")
 add("azuchi-momoyama", "Azuchi-Momoyama Period (安土桃山時代)", "CulturalAge", "sengoku", 1573, 1603, "CE",
     "Nobunaga and Hideyoshi era; grand castles (Azuchi, Osaka); Sen no Rikyū tea ceremony; Namban trade with Europeans; Korea invasions (1592-98).")
-add("edo-period", "Edo Period (Tokugawa)", "CulturalAge", "japan-history", 1603, 1868, "CE",
+add("edo-period", "Edo Period (江戸時代 Edo jidai / Tokugawa)", "CulturalAge", "japan-history", 1603, 1868, "CE",
     "Tokugawa shogunate; 250 years of peace; sakoku isolation; Edo (Tokyo) grows to 1M+; kabuki, ukiyo-e, haiku; rigid social hierarchy; merchant culture.")
-add("meiji-era", "Meiji Era", "CulturalAge", "japan-history", 1868, 1912, "CE",
+add("meiji-era", "Meiji Era (明治時代 Meiji jidai)", "CulturalAge", "japan-history", 1868, 1912, "CE",
     "Meiji Restoration; rapid modernization/industrialization; Meiji Constitution (1889); Sino-Japanese War (1894-95); Russo-Japanese War (1904-05); world power.")
 add("taisho-era", "Taishō Era (大正時代)", "CulturalAge", "japan-history", 1912, 1926, "CE",
     "Japan's brief democratic flowering; party-led cabinets; universal male suffrage (1925); modern culture (cinema, radio); Great Kantō Earthquake (1923).")
@@ -1622,21 +1622,21 @@ add("ryukyu-kingdom", "Ryukyu Kingdom (琉球王国 / Ruuchuu)", "CulturalAge", 
 # --- Korea ---
 add("korea-history", "Korean Historical Periods", "CulturalAge", "holocene", 2333, 0, "BCE-CE",
     "From legendary Gojoseon through Three Kingdoms, Goryeo, Joseon to modern divided peninsula.")
-add("gojoseon", "Gojoseon", "CulturalAge", "korea-history", 2333, 108, "BCE",
+add("gojoseon", "Gojoseon (고조선 / 古朝鮮)", "CulturalAge", "korea-history", 2333, 108, "BCE",
     "First Korean kingdom (legendary founding by Dangun); bronze culture; Wiman Joseon; conquered by Han China (108 BCE); Korean identity origins.")
-add("three-kingdoms-korea", "Three Kingdoms of Korea", "CulturalAge", "korea-history", 57, 668, "BCE-CE",
+add("three-kingdoms-korea", "Three Kingdoms of Korea (삼국시대 / 三國時代)", "CulturalAge", "korea-history", 57, 668, "BCE-CE",
     "Goguryeo (north, military), Baekje (southwest, maritime), Silla (southeast); Buddhism adopted; tomb murals; cultural exchange with Japan and China.")
 add("gaya-confederacy", "Gaya Confederacy (가야/加耶)", "CulturalAge", "korea-history", 42, 562, "CE",
     "City-states in Nakdong River basin; peninsula's iron-working center; gayageum zither invented; absorbed by Silla; Kim Yu-sin was Gaya descendant.")
-add("silla-unified", "Unified Silla", "CulturalAge", "korea-history", 668, 935, "CE",
+add("silla-unified", "Unified Silla (통일신라 / 統一新羅)", "CulturalAge", "korea-history", 668, 935, "CE",
     "Silla unifies peninsula with Tang alliance; Gyeongju capital; Bulguksa Temple; golden age of Korean Buddhism; Seokguram Grotto.")
 add("balhae", "Balhae (Bohai)", "CulturalAge", "korea-history", 698, 926, "CE",
     "Northern successor to Goguryeo; ruled Manchuria and northern Korea; 'Flourishing Land in the East'; fell to Khitan Liao; claimed by both Korean and Chinese histories.")
 add("later-three-kingdoms", "Later Three Kingdoms (후삼국시대)", "CulturalAge", "korea-history", 892, 936, "CE",
     "Silla collapses; Later Baekje and Later Goguryeo arise; Wang Geon unifies under Goryeo (936); origin of name 'Korea'.")
-add("goryeo-dynasty", "Goryeo Dynasty", "CulturalAge", "korea-history", 918, 1392, "CE",
+add("goryeo-dynasty", "Goryeo Dynasty (고려 / 高麗)", "CulturalAge", "korea-history", 918, 1392, "CE",
     "Origin of name 'Korea'; celadon ceramics; Tripitaka Koreana (woodblock Buddhist canon); movable metal type (1234, before Gutenberg); Mongol invasions.")
-add("joseon-dynasty", "Joseon Dynasty", "CulturalAge", "korea-history", 1392, 1897, "CE",
+add("joseon-dynasty", "Joseon Dynasty (조선 / 朝鮮)", "CulturalAge", "korea-history", 1392, 1897, "CE",
     "Neo-Confucian state; Sejong the Great invents Hangul (1443); Gyeongbokgung Palace; Imjin War (Japanese invasions, 1592-98); 500-year dynasty.")
 add("joseon-golden-age", "Joseon Golden Age", "CulturalAge", "joseon-dynasty", 1418, 1494, "CE",
     "Sejong the Great; Hangul alphabet (1443); rain gauge, sundials, water clocks; Jang Yeong-sil (inventor); agricultural treatises; Confucian scholarship.")
@@ -1654,7 +1654,7 @@ add("funan", "Kingdom of Funan", "CulturalAge", "southeast-asia-history", 100, 5
     "Earliest known Indianized kingdom in mainland Southeast Asia; Mekong Delta; maritime trade hub; Hinduism and Buddhism; Óc Eo port city.")
 add("champa", "Kingdom of Champa", "CulturalAge", "southeast-asia-history", 192, 1832, "CE",
     "Hindu-Buddhist kingdom in central/southern Vietnam; Cham towers (Mỹ Sơn); maritime trade; rivalry with Khmer and Đại Việt; Austronesian people.")
-add("srivijaya", "Srivijaya Empire", "CulturalAge", "southeast-asia-history", 650, 1377, "CE",
+add("srivijaya", "Srivijaya Empire (ศรีวิชัย / Śrīvijaya)", "CulturalAge", "southeast-asia-history", 650, 1377, "CE",
     "Maritime empire based in Sumatra; controlled Malacca Strait; Buddhist center (Nalanda connections); Malay language spread; spice trade.")
 add("dongson-culture", "Đông Sơn Culture (Văn hóa Đông Sơn / 東山文化)", "CulturalAge", "southeast-asia-history", 600, 200, "BCE-CE",
     "Bronze Age culture of northern Vietnam's Red River Delta; elaborate bronze drums (trống đồng Đông Sơn); wet-rice cultivation; maritime trade; Heger Type I drums found from Indonesia to southern China; foundation of Vietnamese Bronze Age identity.")
@@ -1667,7 +1667,7 @@ add("khmer-empire", "Khmer Empire (ចក្រភពខ្មែរ)", "Cultura
     "Angkor Wat and Angkor Thom; Jayavarman II, Suryavarman II, Jayavarman VII; hydraulic engineering; largest pre-industrial city; Hindu-Buddhist synthesis.")
 add("pagan-kingdom", "Pagan Kingdom", "CulturalAge", "southeast-asia-history", 849, 1297, "CE",
     "First unified Myanmar/Burma; Anawrahta; 10,000+ Buddhist temples at Bagan; Theravada Buddhism; Pali scriptures; Mongol invasion ends dynasty.")
-add("majapahit", "Majapahit Empire", "CulturalAge", "southeast-asia-history", 1293, 1527, "CE",
+add("majapahit", "Majapahit Empire (Kerajaan Majapahit / ꦩꦗꦥꦲꦶꦠ꧀)", "CulturalAge", "southeast-asia-history", 1293, 1527, "CE",
     "Java-based Hindu-Buddhist empire; Gajah Mada (prime minister); Nagarakretagama poem; controlled much of maritime Southeast Asia; Indonesian national heritage.")
 add("sukhothai", "Sukhothai Kingdom", "CulturalAge", "southeast-asia-history", 1238, 1438, "CE",
     "First Thai kingdom; King Ramkhamhaeng; Thai script created; Theravada Buddhism state religion; Si Satchanalai ceramics; foundation of Thai identity.")
@@ -1733,9 +1733,9 @@ add("southeast-asia-modern", "Modern Southeast Asia", "CulturalAge", "contempora
 # --- Central Asia & Steppe ---
 add("central-asia-history", "Central Asian Historical Periods", "CulturalAge", "holocene", 3500, 0, "BCE-CE",
     "Steppe nomads, Silk Road oasis cities; Scythians, Turks, Mongols; convergence zone of civilizations.")
-add("scythians", "Scythian Period", "CulturalAge", "central-asia-history", 900, 200, "BCE",
+add("scythians", "Scythian Period (Σκύθαι / Скифы Skify)", "CulturalAge", "central-asia-history", 900, 200, "BCE",
     "Iranian nomadic warriors; horse archery; animal-style gold art; kurgans (burial mounds); Herodotus accounts; influenced Greek and Persian worlds.")
-add("xiongnu", "Xiongnu Empire", "CulturalAge", "central-asia-history", 209, 91, "BCE-CE",
+add("xiongnu", "Xiongnu Empire (匈奴 Xiōngnú)", "CulturalAge", "central-asia-history", 209, 91, "BCE-CE",
     "First great steppe empire; Modu Chanyu; prompted Chinese Great Wall; Silk Road intermediaries; possible ancestors of Huns; Han dynasty rival; split into Northern and Southern Xiongnu 48 CE.")
 add("silk-road-era", "Silk Road Era (丝绸之路 / Ipek Yolu / طريق الحرير)", "CulturalAge", "central-asia-history", 130, 1453, "BCE-CE",
     "Trans-Eurasian trade network; Zhang Qian (130 BCE); Sogdian merchants; Samarkand, Bukhara, Kashgar; ideas, religions, diseases, technologies exchanged.")
@@ -1782,23 +1782,23 @@ add("ubaid-period", "Ubaid Period (دور العبيد)", "CulturalAge", "mesopo
 add("uruk-period", "Uruk Period (دور الوركاء)", "CulturalAge", "mesopotamia", 4000, 3100, "BCE",
     "Birth of civilization; world's first city Uruk (~40,000 people); invention of cuneiform writing (~3400 BCE); cylinder seals; monumental architecture (White Temple); state formation; Warka Vase.")
 
-add("sumer", "Sumerian Civilization (ki-en-gi)", "CulturalAge", "mesopotamia", 3500, 2004, "BCE",
+add("sumer", "Sumerian Civilization (𒆠𒂗𒄀 ki-en-gi)", "CulturalAge", "mesopotamia", 3500, 2004, "BCE",
     "First civilization; cuneiform writing; city-states (Ur, Uruk, Lagash); ziggurats; Epic of Gilgamesh; wheel, plow, sailboat; sexagesimal math.")
-add("akkadian-empire", "Akkadian Empire", "CulturalAge", "mesopotamia", 2334, 2154, "BCE",
+add("akkadian-empire", "Akkadian Empire (𒀀𒅗𒁲𒆠 māt Akkadī)", "CulturalAge", "mesopotamia", 2334, 2154, "BCE",
     "Sargon of Akkad; first known empire in history; Akkadian language; centralized bureaucracy; trade networks from Indus to Mediterranean.")
 add("babylon-old", "Old Babylonian Period", "CulturalAge", "mesopotamia", 1894, 1595, "BCE",
     "Hammurabi's Code (~1754 BCE, most complete surviving ancient law code); Babylonian mathematics; astronomy; Marduk worship; fell to Hittite raid.")
-add("assyrian-empire", "Assyrian Empire", "CulturalAge", "mesopotamia", 2025, 609, "BCE",
+add("assyrian-empire", "Assyrian Empire (𒀸𒋗𒁺𒆠 māt Aššur)", "CulturalAge", "mesopotamia", 2025, 609, "BCE",
     "Neo-Assyrian peak (911-609 BCE); Nineveh, Nimrud; Ashurbanipal's library; brutal military; iron weapons; siege warfare; reliefs; conquered Egypt.")
 add("neo-babylonian", "Neo-Babylonian Empire", "CulturalAge", "mesopotamia", 626, 539, "BCE",
     "Nebuchadnezzar II; Hanging Gardens; Ishtar Gate; Babylonian captivity of Jews; astronomical records; fell to Persian Cyrus the Great.")
-add("phoenicia", "Phoenician Civilization", "CulturalAge", "holocene", 1500, 300, "BCE",
+add("phoenicia", "Phoenician Civilization (Φοινίκη / 𐤊𐤍𐤏𐤍 Kanaʿan)", "CulturalAge", "holocene", 1500, 300, "BCE",
     "Maritime city-states (Tyre, Sidon, Byblos); invented the alphabet (~1050 BCE); purple dye; Mediterranean trade and colonization; founded Carthage (~814 BCE).")
-add("carthage", "Carthaginian Empire", "CulturalAge", "holocene", 814, 146, "BCE",
+add("carthage", "Carthaginian Empire (𐤒𐤓𐤕 𐤇𐤃𐤔𐤕 Qart-ḥadašt)", "CulturalAge", "holocene", 814, 146, "BCE",
     "Phoenician colony becomes western Mediterranean power; Hannibal Barca; Punic Wars with Rome; destroyed by Rome (146 BCE); North Africa, Iberia, Sicily.")
-add("ancient-israel", "Ancient Israel", "CulturalAge", "holocene", 1200, 586, "BCE",
+add("ancient-israel", "Ancient Israel (יִשְׂרָאֵל Yisrā'ēl)", "CulturalAge", "holocene", 1200, 586, "BCE",
     "Iron Age Levant; tribal confederation; United Monarchy under David and Solomon; First Temple; split into Israel and Judah; Babylonian exile (586 BCE); Hebrew Bible origins.")
-add("hittite-empire", "Hittite Empire", "CulturalAge", "holocene", 1650, 1180, "BCE",
+add("hittite-empire", "Hittite Empire (𒄩𒀜𒌅𒊭 Ḫattuša)", "CulturalAge", "holocene", 1650, 1180, "BCE",
     "Anatolian Bronze Age power; Hattusa capital; Battle of Kadesh with Egypt (1274 BCE); iron technology; Treaty of Kadesh (earliest known peace treaty); cuneiform.")
 add("elamite-civilization", "Elamite Civilization (تمدن ایلام/Haltamti)", "CulturalAge", "holocene", 3200, 539, "BCE",
     "Major Mesopotamian contemporary in southwest Iran; Susa, Anshan; Proto-Elamite script; Chogha Zanbil ziggurat (UNESCO); language isolate; influenced Achaemenid culture.")

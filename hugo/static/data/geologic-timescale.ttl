@@ -757,9 +757,9 @@ ts:ludfordian a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "422.7"^^xsd:decimal ; rdfs:label "422.7 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 66/830: Přídolí (Epoch) ──
+# ── 66/830: Přídolí (Přídolí, Česko) (Epoch) ──
 ts:pridoli a gts:GeochronologicEpoch ;
-    rdfs:label "Přídolí"@en ;
+    rdfs:label "Přídolí (Přídolí, Česko)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "First jawed fish diversify; transition toward Devonian."@en ;
     gts:rank "Epoch" ;
@@ -2099,9 +2099,9 @@ ts:paleolithic a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "10000 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 188/830: Lower Paleolithic (CulturalAge) ──
+# ── 188/830: Lower Paleolithic (Äldre paleolitikum) (CulturalAge) ──
 ts:lower-paleolithic a gts:GeochronologicAge ;
-    rdfs:label "Lower Paleolithic"@en ;
+    rdfs:label "Lower Paleolithic (Äldre paleolitikum)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Homo habilis, Homo erectus; Oldowan and Acheulean tool industries."@en ;
     gts:rank "CulturalAge" ;
@@ -2110,9 +2110,9 @@ ts:lower-paleolithic a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "300000 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 189/830: Middle Paleolithic (CulturalAge) ──
+# ── 189/830: Middle Paleolithic (Mellersta paleolitikum) (CulturalAge) ──
 ts:middle-paleolithic a gts:GeochronologicAge ;
-    rdfs:label "Middle Paleolithic"@en ;
+    rdfs:label "Middle Paleolithic (Mellersta paleolitikum)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Neanderthals in Europe; Mousterian tool industry; first evidence of symbolic behavior."@en ;
     gts:rank "CulturalAge" ;
@@ -2121,9 +2121,9 @@ ts:middle-paleolithic a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "50000 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 190/830: Upper Paleolithic (CulturalAge) ──
+# ── 190/830: Upper Paleolithic (Yngre paleolitikum) (CulturalAge) ──
 ts:upper-paleolithic a gts:GeochronologicAge ;
-    rdfs:label "Upper Paleolithic"@en ;
+    rdfs:label "Upper Paleolithic (Yngre paleolitikum)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Homo sapiens in Europe; cave art (Lascaux, Altamira); Aurignacian, Gravettian, Magdalenian cultures."@en ;
     gts:rank "CulturalAge" ;
@@ -2132,9 +2132,9 @@ ts:upper-paleolithic a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "10000 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 191/830: Bromme Culture (CulturalAge) ──
+# ── 191/830: Bromme Culture (Brommekulturen) (CulturalAge) ──
 ts:bromme-culture a gts:GeochronologicAge ;
-    rdfs:label "Bromme Culture"@en ;
+    rdfs:label "Bromme Culture (Brommekulturen)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Late Paleolithic reindeer hunters at the edge of the Scandinavian ice sheet; earliest human presence in Sweden (Scania)."@en ;
     gts:rank "CulturalAge" ;
@@ -2143,9 +2143,9 @@ ts:bromme-culture a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "10000 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 192/830: Ahrensburg Culture (CulturalAge) ──
+# ── 192/830: Ahrensburg Culture (Ahrensburgkulturen) (CulturalAge) ──
 ts:ahrensburg-culture a gts:GeochronologicAge ;
-    rdfs:label "Ahrensburg Culture"@en ;
+    rdfs:label "Ahrensburg Culture (Ahrensburgkulturen)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Late Paleolithic/early Mesolithic nomadic hunters from the North German Plain; migrated north via Jutland following retreating ice."@en ;
     gts:rank "CulturalAge" ;
@@ -2176,9 +2176,9 @@ ts:fosna-hensbacka a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "7300 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 195/830: Komsa Culture (CulturalAge) ──
+# ── 195/830: Komsa Culture (Komsakulturen) (CulturalAge) ──
 ts:komsa-culture a gts:GeochronologicAge ;
-    rdfs:label "Komsa Culture"@en ;
+    rdfs:label "Komsa Culture (Komsakulturen)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Early Mesolithic culture of northern Norway coast; sea-oriented seal hunters and fishermen; relatively crude stone tools compared to southern Fosna."@en ;
     gts:rank "CulturalAge" ;
@@ -2187,9 +2187,9 @@ ts:komsa-culture a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "6000 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 196/830: Maglemosian Culture (CulturalAge) ──
+# ── 196/830: Maglemosian Culture (Maglemosekulturen) (CulturalAge) ──
 ts:maglemosian a gts:GeochronologicAge ;
-    rdfs:label "Maglemosian Culture"@en ;
+    rdfs:label "Maglemosian Culture (Maglemosekulturen)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Early Mesolithic hunter-gatherer culture in southern Scandinavia and northern Germany; flint microliths, bone harpoons."@en ;
     gts:rank "CulturalAge" ;
@@ -2198,9 +2198,9 @@ ts:maglemosian a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "6000 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 197/830: Kongemose Culture (CulturalAge) ──
+# ── 197/830: Kongemose Culture (Kongemosekulturen) (CulturalAge) ──
 ts:kongemose a gts:GeochronologicAge ;
-    rdfs:label "Kongemose Culture"@en ;
+    rdfs:label "Kongemose Culture (Kongemosekulturen)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Middle Mesolithic in Denmark and southern Sweden; coastal adaptation, fishing, seal hunting."@en ;
     gts:rank "CulturalAge" ;
@@ -2220,9 +2220,9 @@ ts:nostvet-lihult a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "4000 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 199/830: Ertebølle Culture (CulturalAge) ──
+# ── 199/830: Ertebølle Culture (Ertebøllekulturen) (CulturalAge) ──
 ts:ertebolleculture a gts:GeochronologicAge ;
-    rdfs:label "Ertebølle Culture"@en ;
+    rdfs:label "Ertebølle Culture (Ertebøllekulturen)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Late Mesolithic in southern Scandinavia; first pottery, large shell middens, transition to agriculture."@en ;
     gts:rank "CulturalAge" ;
@@ -2253,9 +2253,9 @@ ts:funnelbeaker a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "2700 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 202/830: Pitted Ware Culture (CulturalAge) ──
+# ── 202/830: Pitted Ware Culture (Gropkeramisk kultur) (CulturalAge) ──
 ts:pitted-ware a gts:GeochronologicAge ;
-    rdfs:label "Pitted Ware Culture"@en ;
+    rdfs:label "Pitted Ware Culture (Gropkeramisk kultur)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Concurrent hunter-gatherer-fisher culture in eastern Sweden, Gotland, and Finland; seal hunting, characteristic pitted pottery."@en ;
     gts:rank "CulturalAge" ;
@@ -2275,9 +2275,9 @@ ts:battle-axe a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "2300 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 204/830: Late Neolithic Scandinavia (CulturalAge) ──
+# ── 204/830: Late Neolithic Scandinavia (Senneolitikum) (CulturalAge) ──
 ts:nordic-neolithic-late a gts:GeochronologicAge ;
-    rdfs:label "Late Neolithic Scandinavia"@en ;
+    rdfs:label "Late Neolithic Scandinavia (Senneolitikum)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Transition to metalworking; flint daggers imitate bronze; Bell Beaker influences reach Scandinavia."@en ;
     gts:rank "CulturalAge" ;
@@ -2308,9 +2308,9 @@ ts:bronze-age a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1200 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 207/830: Early Bronze Age (CulturalAge) ──
+# ── 207/830: Early Bronze Age (Äldre bronsåldern) (CulturalAge) ──
 ts:early-bronze-age a gts:GeochronologicAge ;
-    rdfs:label "Early Bronze Age"@en ;
+    rdfs:label "Early Bronze Age (Äldre bronsåldern)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Near East & Mediterranean: urbanization, writing systems, first empires."@en ;
     gts:rank "CulturalAge" ;
@@ -2319,9 +2319,9 @@ ts:early-bronze-age a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "2000 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 208/830: Middle Bronze Age (CulturalAge) ──
+# ── 208/830: Middle Bronze Age (Mellersta bronsåldern) (CulturalAge) ──
 ts:middle-bronze-age a gts:GeochronologicAge ;
-    rdfs:label "Middle Bronze Age"@en ;
+    rdfs:label "Middle Bronze Age (Mellersta bronsåldern)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Minoan civilization peaks; Nordic Bronze Age begins (~1750 BCE); extensive trade networks."@en ;
     gts:rank "CulturalAge" ;
@@ -2330,9 +2330,9 @@ ts:middle-bronze-age a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1550 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 209/830: Late Bronze Age (CulturalAge) ──
+# ── 209/830: Late Bronze Age (Yngre bronsåldern) (CulturalAge) ──
 ts:late-bronze-age a gts:GeochronologicAge ;
-    rdfs:label "Late Bronze Age"@en ;
+    rdfs:label "Late Bronze Age (Yngre bronsåldern)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Mycenaean Greece; New Kingdom Egypt; Late Bronze Age collapse (~1200 BCE)."@en ;
     gts:rank "CulturalAge" ;
@@ -2363,9 +2363,9 @@ ts:nordic-bronze-early a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1100 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 212/830: Montelius Period I (CulturalAge) ──
+# ── 212/830: Montelius Period I (Monteliusperiod I) (CulturalAge) ──
 ts:montelius-i a gts:GeochronologicAge ;
-    rdfs:label "Montelius Period I"@en ;
+    rdfs:label "Montelius Period I (Monteliusperiod I)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Earliest Nordic Bronze Age; first bronze imports; flint daggers gradually replaced by bronze weapons."@en ;
     gts:rank "CulturalAge" ;
@@ -2374,9 +2374,9 @@ ts:montelius-i a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1500 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 213/830: Montelius Period II (CulturalAge) ──
+# ── 213/830: Montelius Period II (Monteliusperiod II) (CulturalAge) ──
 ts:montelius-ii a gts:GeochronologicAge ;
-    rdfs:label "Montelius Period II"@en ;
+    rdfs:label "Montelius Period II (Monteliusperiod II)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Peak of early bronze wealth; Egtved Girl burial (1370 BCE); Trundholm sun chariot (~1400 BCE); elaborate spiral ornaments and fibulae."@en ;
     gts:rank "CulturalAge" ;
@@ -2385,9 +2385,9 @@ ts:montelius-ii a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1300 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 214/830: Montelius Period III (CulturalAge) ──
+# ── 214/830: Montelius Period III (Monteliusperiod III) (CulturalAge) ──
 ts:montelius-iii a gts:GeochronologicAge ;
-    rdfs:label "Montelius Period III"@en ;
+    rdfs:label "Montelius Period III (Monteliusperiod III)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Skrydstrup Woman burial; oak coffin burials continue; extensive amber trade networks with Mediterranean."@en ;
     gts:rank "CulturalAge" ;
@@ -2407,9 +2407,9 @@ ts:nordic-bronze-late a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "500 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 216/830: Montelius Period IV (CulturalAge) ──
+# ── 216/830: Montelius Period IV (Monteliusperiod IV) (CulturalAge) ──
 ts:montelius-iv a gts:GeochronologicAge ;
-    rdfs:label "Montelius Period IV"@en ;
+    rdfs:label "Montelius Period IV (Monteliusperiod IV)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Shift from inhumation to cremation; rock carvings (hällristningar) flourish; bronze lur horns crafted."@en ;
     gts:rank "CulturalAge" ;
@@ -2418,9 +2418,9 @@ ts:montelius-iv a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "900 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 217/830: Montelius Period V (CulturalAge) ──
+# ── 217/830: Montelius Period V (Monteliusperiod V) (CulturalAge) ──
 ts:montelius-v a gts:GeochronologicAge ;
-    rdfs:label "Montelius Period V"@en ;
+    rdfs:label "Montelius Period V (Monteliusperiod V)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Elaborate ritual depositions in lakes and bogs; continued rock carving tradition; Hallstatt imports arrive."@en ;
     gts:rank "CulturalAge" ;
@@ -2429,9 +2429,9 @@ ts:montelius-v a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "700 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 218/830: Montelius Period VI (CulturalAge) ──
+# ── 218/830: Montelius Period VI (Monteliusperiod VI) (CulturalAge) ──
 ts:montelius-vi a gts:GeochronologicAge ;
-    rdfs:label "Montelius Period VI"@en ;
+    rdfs:label "Montelius Period VI (Monteliusperiod VI)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Final Bronze Age period; Hallstatt iron influence from Central Europe; transition to local iron production."@en ;
     gts:rank "CulturalAge" ;
@@ -2462,9 +2462,9 @@ ts:pre-roman-iron-age a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 221/830: Early Pre-Roman Iron Age (CulturalAge) ──
+# ── 221/830: Early Pre-Roman Iron Age (Äldre förromersk järnålder) (CulturalAge) ──
 ts:pre-roman-iron-early a gts:GeochronologicAge ;
-    rdfs:label "Early Pre-Roman Iron Age"@en ;
+    rdfs:label "Early Pre-Roman Iron Age (Äldre förromersk järnålder)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Transition from bronze; first local iron production from bog ore in southern Scandinavia."@en ;
     gts:rank "CulturalAge" ;
@@ -2473,9 +2473,9 @@ ts:pre-roman-iron-early a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "250 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 222/830: Late Pre-Roman Iron Age (CulturalAge) ──
+# ── 222/830: Late Pre-Roman Iron Age (Yngre förromersk järnålder) (CulturalAge) ──
 ts:pre-roman-iron-late a gts:GeochronologicAge ;
-    rdfs:label "Late Pre-Roman Iron Age"@en ;
+    rdfs:label "Late Pre-Roman Iron Age (Yngre förromersk järnålder)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Celtic La Tène influences; complex hillforts; Dejbjerg wagons; widespread bog iron production."@en ;
     gts:rank "CulturalAge" ;
@@ -2495,9 +2495,9 @@ ts:roman-iron-age a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "400 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 224/830: Early Roman Iron Age (CulturalAge) ──
+# ── 224/830: Early Roman Iron Age (Äldre romersk järnålder) (CulturalAge) ──
 ts:early-roman-iron a gts:GeochronologicAge ;
-    rdfs:label "Early Roman Iron Age"@en ;
+    rdfs:label "Early Roman Iron Age (Äldre romersk järnålder)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Increasing trade with Roman provinces; imported bronze vessels; first runic inscriptions."@en ;
     gts:rank "CulturalAge" ;
@@ -2506,9 +2506,9 @@ ts:early-roman-iron a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "200 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 225/830: Late Roman Iron Age (CulturalAge) ──
+# ── 225/830: Late Roman Iron Age (Yngre romersk järnålder) (CulturalAge) ──
 ts:late-roman-iron a gts:GeochronologicAge ;
-    rdfs:label "Late Roman Iron Age"@en ;
+    rdfs:label "Late Roman Iron Age (Yngre romersk järnålder)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Gold solidi flow north; Nydam boat (320 CE); elaborate weapon deposits in bogs."@en ;
     gts:rank "CulturalAge" ;
@@ -2539,9 +2539,9 @@ ts:migration-period a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "550 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 228/830: Early Migration Period (CulturalAge) ──
+# ── 228/830: Early Migration Period (Äldre folkvandringstiden) (CulturalAge) ──
 ts:migration-early a gts:GeochronologicAge ;
-    rdfs:label "Early Migration Period"@en ;
+    rdfs:label "Early Migration Period (Äldre folkvandringstiden)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Huns invade Europe (375); Scandinavian gold hoards peak; elaborate gold collars (e.g. Ålleberg, Möne, Färjestaden)."@en ;
     gts:rank "CulturalAge" ;
@@ -2550,9 +2550,9 @@ ts:migration-early a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "475 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 229/830: Late Migration Period (CulturalAge) ──
+# ── 229/830: Late Migration Period (Yngre folkvandringstiden) (CulturalAge) ──
 ts:migration-late a gts:GeochronologicAge ;
-    rdfs:label "Late Migration Period"@en ;
+    rdfs:label "Late Migration Period (Yngre folkvandringstiden)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Post-Roman gold scarcity; gilded bronze replaces gold; animal-style ornamentation (Style I) develops."@en ;
     gts:rank "CulturalAge" ;
@@ -2572,9 +2572,9 @@ ts:vendel-period a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "790 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 231/830: Early Vendel Period (CulturalAge) ──
+# ── 231/830: Early Vendel Period (Äldre vendeltiden) (CulturalAge) ──
 ts:vendel-early a gts:GeochronologicAge ;
-    rdfs:label "Early Vendel Period"@en ;
+    rdfs:label "Early Vendel Period (Äldre vendeltiden)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Sutton Hoo parallels; Vendel I–VII boat graves near Uppsala; Style II animal ornamentation."@en ;
     gts:rank "CulturalAge" ;
@@ -2583,9 +2583,9 @@ ts:vendel-early a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "650 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 232/830: Late Vendel Period (CulturalAge) ──
+# ── 232/830: Late Vendel Period (Yngre vendeltiden) (CulturalAge) ──
 ts:vendel-late a gts:GeochronologicAge ;
-    rdfs:label "Late Vendel Period"@en ;
+    rdfs:label "Late Vendel Period (Yngre vendeltiden)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Valsgärde boat burials continue; Style III ornamentation; Birka's proto-urban precursors; transition to Viking Age."@en ;
     gts:rank "CulturalAge" ;
@@ -2704,9 +2704,9 @@ ts:early-vasa-era a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1611 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 243/830: Reformation Era (CulturalAge) ──
+# ── 243/830: Reformation Era (Reformationstiden) (CulturalAge) ──
 ts:reformation-era a gts:GeochronologicAge ;
-    rdfs:label "Reformation Era"@en ;
+    rdfs:label "Reformation Era (Reformationstiden)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Protestant Reformation in Sweden (1527) and Denmark-Norway (1536); seizure of Catholic Church property; new church ordinances."@en ;
     gts:rank "CulturalAge" ;
@@ -2726,9 +2726,9 @@ ts:swedish-empire a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1721 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 245/830: Thirty Years' War Period (CulturalAge) ──
+# ── 245/830: Thirty Years' War Period (Trettioåriga kriget) (CulturalAge) ──
 ts:thirty-years-war a gts:GeochronologicAge ;
-    rdfs:label "Thirty Years' War Period"@en ;
+    rdfs:label "Thirty Years' War Period (Trettioåriga kriget)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Sweden enters as Protestant champion under Gustav II Adolf; Battle of Breitenfeld (1631); Peace of Westphalia (1648)."@en ;
     gts:rank "CulturalAge" ;
@@ -2781,9 +2781,9 @@ ts:modern-period a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "Present" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 250/830: Bernadotte Era / Union Period (CulturalAge) ──
+# ── 250/830: Bernadotte Era / Union Period (Bernadottetiden / Unionstiden) (CulturalAge) ──
 ts:bernadotte-era a gts:GeochronologicAge ;
-    rdfs:label "Bernadotte Era / Union Period"@en ;
+    rdfs:label "Bernadotte Era / Union Period (Bernadottetiden / Unionstiden)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "New constitution (1809); French Marshal Bernadotte becomes Crown Prince (1810); Sweden-Norway union (1814–1905); loss of Finland to Russia."@en ;
     gts:rank "CulturalAge" ;
@@ -2880,9 +2880,9 @@ ts:late-antiquity a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "750 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 259/830: Byzantine Empire (CulturalAge) ──
+# ── 259/830: Byzantine Empire (Βυζαντινή Αυτοκρατορία / Byzantinska riket) (CulturalAge) ──
 ts:byzantine-empire a gts:GeochronologicAge ;
-    rdfs:label "Byzantine Empire"@en ;
+    rdfs:label "Byzantine Empire (Βυζαντινή Αυτοκρατορία / Byzantinska riket)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Eastern Roman Empire; Constantinople capital; Justinian's Code; Hagia Sophia; Greek culture; Orthodox Christianity; fell to Ottoman Turks (1453)."@en ;
     gts:rank "CulturalAge" ;
@@ -2946,9 +2946,9 @@ ts:merovingian-period a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "751 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 265/830: Carolingian Period (CulturalAge) ──
+# ── 265/830: Carolingian Period (Karolingerzeit / L'ère carolingienne) (CulturalAge) ──
 ts:carolingian-period a gts:GeochronologicAge ;
-    rdfs:label "Carolingian Period"@en ;
+    rdfs:label "Carolingian Period (Karolingerzeit / L'ère carolingienne)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Charlemagne crowned Emperor (800); Carolingian Renaissance; revival of learning, Latin scholarship, and arts."@en ;
     gts:rank "CulturalAge" ;
@@ -2979,9 +2979,9 @@ ts:european-high-medieval a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1300 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 268/830: Crusades Period (CulturalAge) ──
+# ── 268/830: Crusades Period (Korstågen / Les Croisades / الحروب الصليبية) (CulturalAge) ──
 ts:crusades-period a gts:GeochronologicAge ;
-    rdfs:label "Crusades Period"@en ;
+    rdfs:label "Crusades Period (Korstågen / Les Croisades / الحروب الصليبية)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Series of religious wars for control of the Holy Land; First Crusade captures Jerusalem (1099); cultural exchange between East and West."@en ;
     gts:rank "CulturalAge" ;
@@ -3100,9 +3100,9 @@ ts:age-of-revolutions a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1848 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 279/830: Romantic Period (CulturalAge) ──
+# ── 279/830: Romantic Period (Romantiken / Romantik) (CulturalAge) ──
 ts:romanticism a gts:GeochronologicAge ;
-    rdfs:label "Romantic Period"@en ;
+    rdfs:label "Romantic Period (Romantiken / Romantik)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Reaction against Enlightenment rationalism; emphasis on emotion, nature, nationalism; Goethe, Byron, Beethoven, Delacroix."@en ;
     gts:rank "CulturalAge" ;
@@ -3111,9 +3111,9 @@ ts:romanticism a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1850 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 280/830: World Wars Era (CulturalAge) ──
+# ── 280/830: World Wars Era (Världskrigen) (CulturalAge) ──
 ts:world-wars-era a gts:GeochronologicAge ;
-    rdfs:label "World Wars Era"@en ;
+    rdfs:label "World Wars Era (Världskrigen)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Two global conflicts and an interwar period that reshaped Europe; tens of millions killed; colonial empires begin to dissolve."@en ;
     gts:rank "CulturalAge" ;
@@ -3122,9 +3122,9 @@ ts:world-wars-era a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1945 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 281/830: World War I (CulturalAge) ──
+# ── 281/830: World War I (Första världskriget / Erster Weltkrieg) (CulturalAge) ──
 ts:world-war-i a gts:GeochronologicAge ;
-    rdfs:label "World War I"@en ;
+    rdfs:label "World War I (Första världskriget / Erster Weltkrieg)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "The Great War; trench warfare; fall of empires (Ottoman, Austro-Hungarian, Russian, German); Treaty of Versailles (1919)."@en ;
     gts:rank "CulturalAge" ;
@@ -3133,9 +3133,9 @@ ts:world-war-i a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1918 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 282/830: Interwar Period (CulturalAge) ──
+# ── 282/830: Interwar Period (Mellankrigstiden) (CulturalAge) ──
 ts:interwar-period a gts:GeochronologicAge ;
-    rdfs:label "Interwar Period"@en ;
+    rdfs:label "Interwar Period (Mellankrigstiden)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "League of Nations; Weimar Republic; Great Depression (1929); rise of fascism in Italy, Germany, Spain; Spanish Civil War."@en ;
     gts:rank "CulturalAge" ;
@@ -3144,9 +3144,9 @@ ts:interwar-period a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1939 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 283/830: World War II (CulturalAge) ──
+# ── 283/830: World War II (Andra världskriget / Zweiter Weltkrieg) (CulturalAge) ──
 ts:world-war-ii a gts:GeochronologicAge ;
-    rdfs:label "World War II"@en ;
+    rdfs:label "World War II (Andra världskriget / Zweiter Weltkrieg)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Global conflict; Nazi Germany, Holocaust; Allied victory; atomic bombs; United Nations founded (1945); Europe devastated."@en ;
     gts:rank "CulturalAge" ;
@@ -3155,9 +3155,9 @@ ts:world-war-ii a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1945 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 284/830: Cold War Era (CulturalAge) ──
+# ── 284/830: Cold War Era (Kalla kriget / Холодная война) (CulturalAge) ──
 ts:cold-war-era a gts:GeochronologicAge ;
-    rdfs:label "Cold War Era"@en ;
+    rdfs:label "Cold War Era (Kalla kriget / Холодная война)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "East-West division; NATO vs Warsaw Pact; Iron Curtain; Berlin Wall (1961-1989); European integration begins (EEC 1957)."@en ;
     gts:rank "CulturalAge" ;
@@ -3166,9 +3166,9 @@ ts:cold-war-era a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1991 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 285/830: European Integration (CulturalAge) ──
+# ── 285/830: European Integration (Europeisk integration) (CulturalAge) ──
 ts:european-integration a gts:GeochronologicAge ;
-    rdfs:label "European Integration"@en ;
+    rdfs:label "European Integration (Europeisk integration)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Treaty of Rome (1957); EEC to EU; Schengen Area; Euro currency; expansion from 6 to 27+ member states."@en ;
     gts:rank "CulturalAge" ;
@@ -3287,9 +3287,9 @@ ts:al-andalus a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1492 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 296/830: Reconquista (CulturalAge) ──
+# ── 296/830: Reconquista (Reconquista / إسترداد) (CulturalAge) ──
 ts:reconquista a gts:GeochronologicAge ;
-    rdfs:label "Reconquista"@en ;
+    rdfs:label "Reconquista (Reconquista / إسترداد)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Christian reconquest of Iberia; Covadonga (722) to Fall of Granada (1492); shaped Spanish and Portuguese national identity."@en ;
     gts:rank "CulturalAge" ;
@@ -3518,9 +3518,9 @@ ts:napoleonic-era a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1815 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 317/830: Victorian Era (CulturalAge) ──
+# ── 317/830: Victorian Era (Viktorianska eran) (CulturalAge) ──
 ts:victorian-era a gts:GeochronologicAge ;
-    rdfs:label "Victorian Era"@en ;
+    rdfs:label "Victorian Era (Viktorianska eran)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "British global hegemony; Industrial Revolution peak; British Empire at zenith; cultural, scientific, social transformation."@en ;
     gts:rank "CulturalAge" ;
@@ -3738,9 +3738,9 @@ ts:toba-catastrophe a gts:GeochronologicAge ;
     time:hasEnd [ time:inXSDgYear "0.074"^^xsd:decimal ; rdfs:label "0.074 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 337/830: Sámi Prehistory (CulturalAge) ──
+# ── 337/830: Sámi Prehistory (Sámi ovdahistorjá) (CulturalAge) ──
 ts:sami-prehistory a gts:GeochronologicAge ;
-    rdfs:label "Sámi Prehistory"@en ;
+    rdfs:label "Sámi Prehistory (Sámi ovdahistorjá)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Indigenous Sámi settlement of northern Fennoscandia; reindeer herding develops; Komsa and Fosna cultures; sieiddit (sacred sites)."@en ;
     gts:rank "CulturalAge" ;
@@ -3749,9 +3749,9 @@ ts:sami-prehistory a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1600 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 338/830: Sámi Modern History (CulturalAge) ──
+# ── 338/830: Sámi Modern History (Sámi ođasáiggi historjá) (CulturalAge) ──
 ts:sami-modern a gts:GeochronologicAge ;
-    rdfs:label "Sámi Modern History"@en ;
+    rdfs:label "Sámi Modern History (Sámi ođasáiggi historjá)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Colonization and forced assimilation; Lapland witch trials; state borders divide Sápmi; Sámi parliaments (Norway 1989, Sweden 1993, Finland 1996); cultural revitalization."@en ;
     gts:rank "CulturalAge" ;
@@ -3760,9 +3760,9 @@ ts:sami-modern a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "Present" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 339/830: Comb Ceramic Culture (CulturalAge) ──
+# ── 339/830: Comb Ceramic Culture (Kamkeramisk kultur) (CulturalAge) ──
 ts:comb-ceramic a gts:GeochronologicAge ;
-    rdfs:label "Comb Ceramic Culture"@en ;
+    rdfs:label "Comb Ceramic Culture (Kamkeramisk kultur)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Widespread Neolithic culture across Finland and the Baltic; characteristic comb-stamped pottery; hunter-gatherer-fishers."@en ;
     gts:rank "CulturalAge" ;
@@ -3771,9 +3771,9 @@ ts:comb-ceramic a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "2800 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 340/830: Asbestos Ceramic Period (Finland) (CulturalAge) ──
+# ── 340/830: Asbestos Ceramic Period (Asbestikeramiikka / Finland) (CulturalAge) ──
 ts:asbestos-ceramic a gts:GeochronologicAge ;
-    rdfs:label "Asbestos Ceramic Period (Finland)"@en ;
+    rdfs:label "Asbestos Ceramic Period (Asbestikeramiikka / Finland)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Distinctive Finnish Neolithic pottery tempered with asbestos fibers; concurrent with Comb Ceramic in eastern Finland."@en ;
     gts:rank "CulturalAge" ;
@@ -3782,9 +3782,9 @@ ts:asbestos-ceramic a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "2000 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 341/830: Celtic Iron Age Influences in Scandinavia (CulturalAge) ──
+# ── 341/830: Celtic Iron Age Influences in Scandinavia (Keltisk järnålderspåverkan) (CulturalAge) ──
 ts:nordic-iron-age-celtic a gts:GeochronologicAge ;
-    rdfs:label "Celtic Iron Age Influences in Scandinavia"@en ;
+    rdfs:label "Celtic Iron Age Influences in Scandinavia (Keltisk järnålderspåverkan)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "La Tène art style reaches Scandinavia; Hjortspring boat; early hillforts in southern Sweden and Denmark."@en ;
     gts:rank "CulturalAge" ;
@@ -3793,9 +3793,9 @@ ts:nordic-iron-age-celtic a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "200 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 342/830: Jastorf Culture (CulturalAge) ──
+# ── 342/830: Jastorf Culture (Jastorfkulturen) (CulturalAge) ──
 ts:jastorf-culture a gts:GeochronologicAge ;
-    rdfs:label "Jastorf Culture"@en ;
+    rdfs:label "Jastorf Culture (Jastorfkulturen)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Pre-Roman Iron Age culture of northern Germany and southern Scandinavia; first iron smelting from bog ore; cremation burials."@en ;
     gts:rank "CulturalAge" ;
@@ -3804,9 +3804,9 @@ ts:jastorf-culture a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "100 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 343/830: Danelaw Period (CulturalAge) ──
+# ── 343/830: Danelaw Period (Danelagen) (CulturalAge) ──
 ts:danelaw a gts:GeochronologicAge ;
-    rdfs:label "Danelaw Period"@en ;
+    rdfs:label "Danelaw Period (Danelagen)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Norse-controlled territory in eastern and northern England; established after the Great Heathen Army; York as Viking capital."@en ;
     gts:rank "CulturalAge" ;
@@ -3815,9 +3815,9 @@ ts:danelaw a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "954 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 344/830: Settlement of Iceland (CulturalAge) ──
+# ── 344/830: Settlement of Iceland (Landnám Íslands) (CulturalAge) ──
 ts:viking-iceland a gts:GeochronologicAge ;
-    rdfs:label "Settlement of Iceland"@en ;
+    rdfs:label "Settlement of Iceland (Landnám Íslands)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Norse colonization of Iceland; Ingólfr Arnarson (874); Althing established 930 as one of the oldest parliaments."@en ;
     gts:rank "CulturalAge" ;
@@ -3826,9 +3826,9 @@ ts:viking-iceland a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "930 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 345/830: Norse Settlement of Normandy (CulturalAge) ──
+# ── 345/830: Norse Settlement of Normandy (Normandie / Norðmandí) (CulturalAge) ──
 ts:viking-normandy a gts:GeochronologicAge ;
-    rdfs:label "Norse Settlement of Normandy"@en ;
+    rdfs:label "Norse Settlement of Normandy (Normandie / Norðmandí)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Rollo receives Normandy from French king (911); Norse settlers adopt French language; William the Conqueror descends from Vikings."@en ;
     gts:rank "CulturalAge" ;
@@ -3837,9 +3837,9 @@ ts:viking-normandy a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1066 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 346/830: Varangians and Kievan Rus' (CulturalAge) ──
+# ── 346/830: Varangians and Kievan Rus' (Väringar / Киевская Русь) (CulturalAge) ──
 ts:viking-rus a gts:GeochronologicAge ;
-    rdfs:label "Varangians and Kievan Rus'"@en ;
+    rdfs:label "Varangians and Kievan Rus' (Väringar / Киевская Русь)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Swedish Vikings (Varangians) establish trade routes through Russia; found Kyiv and Novgorod; Varangian Guard in Constantinople."@en ;
     gts:rank "CulturalAge" ;
@@ -3870,9 +3870,9 @@ ts:norse-vinland a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1021 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 349/830: Christianization of Scandinavia (CulturalAge) ──
+# ── 349/830: Christianization of Scandinavia (Skandinaviens kristnande) (CulturalAge) ──
 ts:christianization-scandinavia a gts:GeochronologicAge ;
-    rdfs:label "Christianization of Scandinavia"@en ;
+    rdfs:label "Christianization of Scandinavia (Skandinaviens kristnande)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Gradual conversion: Denmark (~960, Harald Bluetooth), Norway (~1000, Olaf Tryggvason), Sweden (~1000, Olof Skötkonung); Uppsala temple destroyed ~1087."@en ;
     gts:rank "CulturalAge" ;
@@ -3881,9 +3881,9 @@ ts:christianization-scandinavia a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1150 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 350/830: Baltic Crusades Period (CulturalAge) ──
+# ── 350/830: Baltic Crusades Period (Nordliga korstågen) (CulturalAge) ──
 ts:baltic-crusades a gts:GeochronologicAge ;
-    rdfs:label "Baltic Crusades Period"@en ;
+    rdfs:label "Baltic Crusades Period (Nordliga korstågen)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Northern Crusades; Christianization of Baltic region; Teutonic Order; Swedish crusades to Finland."@en ;
     gts:rank "CulturalAge" ;
@@ -3892,9 +3892,9 @@ ts:baltic-crusades a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1290 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 351/830: Hanseatic Period in Scandinavia (CulturalAge) ──
+# ── 351/830: Hanseatic Period in Scandinavia (Hansatiden / Hanse) (CulturalAge) ──
 ts:hanseatic-period a gts:GeochronologicAge ;
-    rdfs:label "Hanseatic Period in Scandinavia"@en ;
+    rdfs:label "Hanseatic Period in Scandinavia (Hansatiden / Hanse)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Hanseatic League dominates Baltic trade; German merchants in Visby, Bergen, Stockholm; Lübeck law adopted."@en ;
     gts:rank "CulturalAge" ;
@@ -4024,9 +4024,9 @@ ts:valdivia-culture a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1800 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 363/830: Chavín Culture (CulturalAge) ──
+# ── 363/830: Chavín Culture (Chavín de Huántar) (CulturalAge) ──
 ts:chavin-culture a gts:GeochronologicAge ;
-    rdfs:label "Chavín Culture"@en ;
+    rdfs:label "Chavín Culture (Chavín de Huántar)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Early Horizon unifying culture of Andean Peru; Chavín de Huántar temple complex; jaguar iconography; influence across highlands and coast."@en ;
     gts:rank "CulturalAge" ;
@@ -4068,9 +4068,9 @@ ts:moche-civilization a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "700 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 367/830: Tiwanaku Empire (CulturalAge) ──
+# ── 367/830: Tiwanaku Empire (Tiahuanaco / Tiwanaku) (CulturalAge) ──
 ts:tiwanaku-empire a gts:GeochronologicAge ;
-    rdfs:label "Tiwanaku Empire"@en ;
+    rdfs:label "Tiwanaku Empire (Tiahuanaco / Tiwanaku)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Andean civilization centered at Lake Titicaca, Bolivia; Gateway of the Sun; raised-field agriculture; altitude ~3,800 m."@en ;
     gts:rank "CulturalAge" ;
@@ -4079,9 +4079,9 @@ ts:tiwanaku-empire a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1000 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 368/830: Wari Empire (CulturalAge) ──
+# ── 368/830: Wari Empire (Huari) (CulturalAge) ──
 ts:wari-empire a gts:GeochronologicAge ;
-    rdfs:label "Wari Empire"@en ;
+    rdfs:label "Wari Empire (Huari)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Middle Horizon Andean empire; administrative centers across Peru; road network predating Inca; terraced agriculture."@en ;
     gts:rank "CulturalAge" ;
@@ -4200,9 +4200,9 @@ ts:san-agustin-culture a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1350 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 379/830: Mapuche (Pre-Colonial) (CulturalAge) ──
+# ── 379/830: Mapuche (Pre-Colonial / Mapudungun) (CulturalAge) ──
 ts:mapuche-precolonial a gts:GeochronologicAge ;
-    rdfs:label "Mapuche (Pre-Colonial)"@en ;
+    rdfs:label "Mapuche (Pre-Colonial / Mapudungun)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Indigenous people of south-central Chile and Argentina; agricultural and pastoral; fierce resistance to Inca and Spanish expansion."@en ;
     gts:rank "CulturalAge" ;
@@ -4233,9 +4233,9 @@ ts:diaguita a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1536 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 382/830: Guaraní (Pre-Colonial) (CulturalAge) ──
+# ── 382/830: Guaraní (Pre-Colonial / Avañe'ẽ) (CulturalAge) ──
 ts:guarani-precolonial a gts:GeochronologicAge ;
-    rdfs:label "Guaraní (Pre-Colonial)"@en ;
+    rdfs:label "Guaraní (Pre-Colonial / Avañe'ẽ)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Tupi-Guaraní peoples of Paraguay, Brazil, and Argentina; slash-and-burn agriculture; canoe navigation; religious migrations (Land Without Evil)."@en ;
     gts:rank "CulturalAge" ;
@@ -4761,9 +4761,9 @@ ts:mesoamerica a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1521 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 430/830: Olmec Civilization (CulturalAge) ──
+# ── 430/830: Olmec Civilization (Ōlmēcah) (CulturalAge) ──
 ts:olmec a gts:GeochronologicAge ;
-    rdfs:label "Olmec Civilization"@en ;
+    rdfs:label "Olmec Civilization (Ōlmēcah)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Mother culture of Mesoamerica; colossal stone heads; San Lorenzo and La Venta; first Mesoamerican writing and calendar; rubber ball game."@en ;
     gts:rank "CulturalAge" ;
@@ -4772,9 +4772,9 @@ ts:olmec a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "400 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 431/830: Zapotec Civilization (CulturalAge) ──
+# ── 431/830: Zapotec Civilization (Binnizá) (CulturalAge) ──
 ts:zapotec a gts:GeochronologicAge ;
-    rdfs:label "Zapotec Civilization"@en ;
+    rdfs:label "Zapotec Civilization (Binnizá)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Oaxaca Valley, Mexico; Monte Albán capital; earliest Mesoamerican writing system; 2,500-year continuous culture."@en ;
     gts:rank "CulturalAge" ;
@@ -4794,9 +4794,9 @@ ts:teotihuacan a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "550 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 433/830: Classic Maya Civilization (CulturalAge) ──
+# ── 433/830: Classic Maya Civilization (Maaya) (CulturalAge) ──
 ts:maya-classic a gts:GeochronologicAge ;
-    rdfs:label "Classic Maya Civilization"@en ;
+    rdfs:label "Classic Maya Civilization (Maaya)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "City-states across Yucatán, Guatemala, Belize; hieroglyphic writing; Long Count calendar; Tikal, Palenque, Copán; mysterious collapse ~900 CE."@en ;
     gts:rank "CulturalAge" ;
@@ -6994,9 +6994,9 @@ ts:chinese-neolithic a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "2070 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 633/830: Xia Dynasty (CulturalAge) ──
+# ── 633/830: Xia Dynasty (夏朝 Xià Cháo) (CulturalAge) ──
 ts:xia-dynasty a gts:GeochronologicAge ;
-    rdfs:label "Xia Dynasty"@en ;
+    rdfs:label "Xia Dynasty (夏朝 Xià Cháo)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "First Chinese dynasty (semi-legendary); Yu the Great; flood control; Erlitou culture; bronze vessels; transition from Neolithic to Bronze Age."@en ;
     gts:rank "CulturalAge" ;
@@ -7005,9 +7005,9 @@ ts:xia-dynasty a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1600 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 634/830: Shang Dynasty (CulturalAge) ──
+# ── 634/830: Shang Dynasty (商朝 Shāng Cháo) (CulturalAge) ──
 ts:shang-dynasty a gts:GeochronologicAge ;
-    rdfs:label "Shang Dynasty"@en ;
+    rdfs:label "Shang Dynasty (商朝 Shāng Cháo)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "First historically verified dynasty; oracle bone inscriptions (earliest Chinese writing); bronze ritual vessels; Anyang capital; ancestor worship."@en ;
     gts:rank "CulturalAge" ;
@@ -7016,9 +7016,9 @@ ts:shang-dynasty a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1046 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 635/830: Zhou Dynasty (CulturalAge) ──
+# ── 635/830: Zhou Dynasty (周朝 Zhōu Cháo) (CulturalAge) ──
 ts:zhou-dynasty a gts:GeochronologicAge ;
-    rdfs:label "Zhou Dynasty"@en ;
+    rdfs:label "Zhou Dynasty (周朝 Zhōu Cháo)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Longest Chinese dynasty; Mandate of Heaven concept; feudal system; divided into Western Zhou and Eastern Zhou (Spring and Autumn, Warring States)."@en ;
     gts:rank "CulturalAge" ;
@@ -7027,9 +7027,9 @@ ts:zhou-dynasty a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "256 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 636/830: Spring and Autumn Period (CulturalAge) ──
+# ── 636/830: Spring and Autumn Period (春秋時代 Chūnqiū) (CulturalAge) ──
 ts:spring-autumn a gts:GeochronologicAge ;
-    rdfs:label "Spring and Autumn Period"@en ;
+    rdfs:label "Spring and Autumn Period (春秋時代 Chūnqiū)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Confucius (551-479), Laozi (Daoism), Sun Tzu; Hundred Schools of Thought begins; hegemonic states; iron technology spreads."@en ;
     gts:rank "CulturalAge" ;
@@ -7038,9 +7038,9 @@ ts:spring-autumn a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "476 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 637/830: Warring States Period (CulturalAge) ──
+# ── 637/830: Warring States Period (戰國時代 Zhànguó) (CulturalAge) ──
 ts:warring-states a gts:GeochronologicAge ;
-    rdfs:label "Warring States Period"@en ;
+    rdfs:label "Warring States Period (戰國時代 Zhànguó)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Seven major states; Mencius, Zhuangzi, Legalism (Han Feizi); crossbow, cavalry; mass armies; ends with Qin unification."@en ;
     gts:rank "CulturalAge" ;
@@ -7049,9 +7049,9 @@ ts:warring-states a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "221 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 638/830: Qin Dynasty (CulturalAge) ──
+# ── 638/830: Qin Dynasty (秦朝 Qín Cháo) (CulturalAge) ──
 ts:qin-dynasty a gts:GeochronologicAge ;
-    rdfs:label "Qin Dynasty"@en ;
+    rdfs:label "Qin Dynasty (秦朝 Qín Cháo)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "First unified Chinese empire; Qin Shi Huang; Great Wall begun; Terracotta Army; standardized weights, measures, writing; Legalist rule; burned books."@en ;
     gts:rank "CulturalAge" ;
@@ -7060,9 +7060,9 @@ ts:qin-dynasty a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "206 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 639/830: Han Dynasty (CulturalAge) ──
+# ── 639/830: Han Dynasty (漢朝 Hàn Cháo) (CulturalAge) ──
 ts:han-dynasty a gts:GeochronologicAge ;
-    rdfs:label "Han Dynasty"@en ;
+    rdfs:label "Han Dynasty (漢朝 Hàn Cháo)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Golden age; Confucianism as state ideology; Silk Road opens (Zhang Qian); paper invented; civil service exams; ~60 million people; 'Han Chinese' identity."@en ;
     gts:rank "CulturalAge" ;
@@ -7071,9 +7071,9 @@ ts:han-dynasty a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "220 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 640/830: Western Han (CulturalAge) ──
+# ── 640/830: Western Han (西漢 Xī Hàn) (CulturalAge) ──
 ts:han-western a gts:GeochronologicAge ;
-    rdfs:label "Western Han"@en ;
+    rdfs:label "Western Han (西漢 Xī Hàn)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Emperor Wu expands empire; Silk Road trade; Sima Qian's Records of the Grand Historian; Confucian academy; Chang'an capital."@en ;
     gts:rank "CulturalAge" ;
@@ -7082,9 +7082,9 @@ ts:han-western a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "9 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 641/830: Eastern Han (CulturalAge) ──
+# ── 641/830: Eastern Han (東漢 Dōng Hàn) (CulturalAge) ──
 ts:han-eastern a gts:GeochronologicAge ;
-    rdfs:label "Eastern Han"@en ;
+    rdfs:label "Eastern Han (東漢 Dōng Hàn)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Restored Han; Luoyang capital; Buddhism arrives; invention of paper (Cai Lun, 105 CE); seismograph (Zhang Heng); Yellow Turban Rebellion."@en ;
     gts:rank "CulturalAge" ;
@@ -7093,9 +7093,9 @@ ts:han-eastern a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "220 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 642/830: Three Kingdoms Period (CulturalAge) ──
+# ── 642/830: Three Kingdoms Period (三國時代 Sānguó) (CulturalAge) ──
 ts:three-kingdoms a gts:GeochronologicAge ;
-    rdfs:label "Three Kingdoms Period"@en ;
+    rdfs:label "Three Kingdoms Period (三國時代 Sānguó)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Wei, Shu, Wu; Cao Cao, Liu Bei, Sun Quan, Zhuge Liang; Romance of the Three Kingdoms; one of most romanticized eras in Chinese culture."@en ;
     gts:rank "CulturalAge" ;
@@ -7126,9 +7126,9 @@ ts:sixteen-kingdoms a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "439 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 645/830: Sui Dynasty (CulturalAge) ──
+# ── 645/830: Sui Dynasty (隋朝 Suí Cháo) (CulturalAge) ──
 ts:sui-dynasty a gts:GeochronologicAge ;
-    rdfs:label "Sui Dynasty"@en ;
+    rdfs:label "Sui Dynasty (隋朝 Suí Cháo)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Reunification after centuries of division; Grand Canal construction; Great Wall rebuilt; civil service exams restored; overextension leads to collapse."@en ;
     gts:rank "CulturalAge" ;
@@ -7137,9 +7137,9 @@ ts:sui-dynasty a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "618 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 646/830: Tang Dynasty (CulturalAge) ──
+# ── 646/830: Tang Dynasty (唐朝 Táng Cháo) (CulturalAge) ──
 ts:tang-dynasty a gts:GeochronologicAge ;
-    rdfs:label "Tang Dynasty"@en ;
+    rdfs:label "Tang Dynasty (唐朝 Táng Cháo)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Golden age of Chinese civilization; Chang'an largest city in world; Li Bai, Du Fu (poetry); Wu Zetian (only female emperor); cosmopolitan culture; Silk Road peak."@en ;
     gts:rank "CulturalAge" ;
@@ -7148,9 +7148,9 @@ ts:tang-dynasty a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "907 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 647/830: Five Dynasties and Ten Kingdoms (CulturalAge) ──
+# ── 647/830: Five Dynasties and Ten Kingdoms (五代十國 Wǔdài Shíguó) (CulturalAge) ──
 ts:five-dynasties a gts:GeochronologicAge ;
-    rdfs:label "Five Dynasties and Ten Kingdoms"@en ;
+    rdfs:label "Five Dynasties and Ten Kingdoms (五代十國 Wǔdài Shíguó)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Fragmentation after Tang; five rapid northern dynasties; ten southern kingdoms; political chaos; printing technology spreads; prelude to Song reunification."@en ;
     gts:rank "CulturalAge" ;
@@ -7159,9 +7159,9 @@ ts:five-dynasties a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "960 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 648/830: Song Dynasty (CulturalAge) ──
+# ── 648/830: Song Dynasty (宋朝 Sòng Cháo) (CulturalAge) ──
 ts:song-dynasty a gts:GeochronologicAge ;
-    rdfs:label "Song Dynasty"@en ;
+    rdfs:label "Song Dynasty (宋朝 Sòng Cháo)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Economic revolution; movable type printing; gunpowder weapons; compass; paper money; Neo-Confucianism; landscape painting; commercial economy."@en ;
     gts:rank "CulturalAge" ;
@@ -7170,9 +7170,9 @@ ts:song-dynasty a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1279 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 649/830: Northern Song (CulturalAge) ──
+# ── 649/830: Northern Song (北宋 Běi Sòng) (CulturalAge) ──
 ts:song-northern a gts:GeochronologicAge ;
-    rdfs:label "Northern Song"@en ;
+    rdfs:label "Northern Song (北宋 Běi Sòng)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Kaifeng capital; Su Shi (poet); Shen Kuo (polymath); Dream Pool Essays; commercial revolution; lost north to Jurchen Jin dynasty."@en ;
     gts:rank "CulturalAge" ;
@@ -7214,9 +7214,9 @@ ts:western-xia a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1227 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 653/830: Southern Song (CulturalAge) ──
+# ── 653/830: Southern Song (南宋 Nán Sòng) (CulturalAge) ──
 ts:song-southern a gts:GeochronologicAge ;
-    rdfs:label "Southern Song"@en ;
+    rdfs:label "Southern Song (南宋 Nán Sòng)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Hangzhou capital ('above is heaven, below is Hangzhou'); maritime trade; Zhu Xi Neo-Confucianism; fell to Mongol Yuan dynasty."@en ;
     gts:rank "CulturalAge" ;
@@ -7236,9 +7236,9 @@ ts:yuan-dynasty a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1368 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 655/830: Ming Dynasty (CulturalAge) ──
+# ── 655/830: Ming Dynasty (明朝 Míng Cháo) (CulturalAge) ──
 ts:ming-dynasty a gts:GeochronologicAge ;
-    rdfs:label "Ming Dynasty"@en ;
+    rdfs:label "Ming Dynasty (明朝 Míng Cháo)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Han Chinese restoration; Forbidden City (Beijing); Zheng He voyages (1405-33); Great Wall rebuilt; porcelain golden age; novel tradition flourishes."@en ;
     gts:rank "CulturalAge" ;
@@ -7258,9 +7258,9 @@ ts:zheng-he a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1433 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 657/830: Qing Dynasty (CulturalAge) ──
+# ── 657/830: Qing Dynasty (清朝 Qīng Cháo) (CulturalAge) ──
 ts:qing-dynasty a gts:GeochronologicAge ;
-    rdfs:label "Qing Dynasty"@en ;
+    rdfs:label "Qing Dynasty (清朝 Qīng Cháo)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Manchu rule; largest Qing territory; Kangxi, Qianlong emperors; Opium Wars; Taiping Rebellion (~20-30M dead); Century of Humiliation; fall to revolution."@en ;
     gts:rank "CulturalAge" ;
@@ -7346,9 +7346,9 @@ ts:japan-history a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "Present" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 665/830: Jōmon Period (CulturalAge) ──
+# ── 665/830: Jōmon Period (縄文時代 Jōmon jidai) (CulturalAge) ──
 ts:jomon a gts:GeochronologicAge ;
-    rdfs:label "Jōmon Period"@en ;
+    rdfs:label "Jōmon Period (縄文時代 Jōmon jidai)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Hunter-gatherer-fishers; world's oldest pottery (~16,000 BP); cord-marked ceramics; Sannai-Maruyama settlement; dogu figurines; 10,000+ year span."@en ;
     gts:rank "CulturalAge" ;
@@ -7357,9 +7357,9 @@ ts:jomon a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "300 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 666/830: Yayoi Period (CulturalAge) ──
+# ── 666/830: Yayoi Period (弥生時代 Yayoi jidai) (CulturalAge) ──
 ts:yayoi a gts:GeochronologicAge ;
-    rdfs:label "Yayoi Period"@en ;
+    rdfs:label "Yayoi Period (弥生時代 Yayoi jidai)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Wet-rice agriculture from Korean peninsula; bronze and iron tools; social stratification; Yoshinogari site; foundation of Japanese agricultural society."@en ;
     gts:rank "CulturalAge" ;
@@ -7368,9 +7368,9 @@ ts:yayoi a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "250 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 667/830: Kofun Period (CulturalAge) ──
+# ── 667/830: Kofun Period (古墳時代 Kofun jidai) (CulturalAge) ──
 ts:kofun a gts:GeochronologicAge ;
-    rdfs:label "Kofun Period"@en ;
+    rdfs:label "Kofun Period (古墳時代 Kofun jidai)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Keyhole-shaped burial mounds; Yamato court emergence; introduction of Chinese writing; haniwa clay figures; imperial lineage established."@en ;
     gts:rank "CulturalAge" ;
@@ -7379,9 +7379,9 @@ ts:kofun a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "538 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 668/830: Asuka Period (CulturalAge) ──
+# ── 668/830: Asuka Period (飛鳥時代 Asuka jidai) (CulturalAge) ──
 ts:asuka-period a gts:GeochronologicAge ;
-    rdfs:label "Asuka Period"@en ;
+    rdfs:label "Asuka Period (飛鳥時代 Asuka jidai)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Buddhism arrives; Prince Shōtoku; Taika Reform (645); Ritsuryō legal codes; Chinese-style centralized government; Hōryū-ji temple."@en ;
     gts:rank "CulturalAge" ;
@@ -7390,9 +7390,9 @@ ts:asuka-period a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "710 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 669/830: Nara Period (CulturalAge) ──
+# ── 669/830: Nara Period (奈良時代 Nara jidai) (CulturalAge) ──
 ts:nara-period a gts:GeochronologicAge ;
-    rdfs:label "Nara Period"@en ;
+    rdfs:label "Nara Period (奈良時代 Nara jidai)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "First permanent capital at Nara; Kojiki and Nihon Shoki (earliest histories); Tōdai-ji Great Buddha; Buddhist monastery power grows."@en ;
     gts:rank "CulturalAge" ;
@@ -7401,9 +7401,9 @@ ts:nara-period a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "794 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 670/830: Heian Period (CulturalAge) ──
+# ── 670/830: Heian Period (平安時代 Heian jidai) (CulturalAge) ──
 ts:heian-period a gts:GeochronologicAge ;
-    rdfs:label "Heian Period"@en ;
+    rdfs:label "Heian Period (平安時代 Heian jidai)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Kyoto capital; Tale of Genji (Murasaki Shikibu, world's first novel); Fujiwara regents; kana script; refined court culture; samurai class rises."@en ;
     gts:rank "CulturalAge" ;
@@ -7412,9 +7412,9 @@ ts:heian-period a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1185 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 671/830: Kamakura Period (CulturalAge) ──
+# ── 671/830: Kamakura Period (鎌倉時代 Kamakura jidai) (CulturalAge) ──
 ts:kamakura-shogunate a gts:GeochronologicAge ;
-    rdfs:label "Kamakura Period"@en ;
+    rdfs:label "Kamakura Period (鎌倉時代 Kamakura jidai)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "First shogunate (Minamoto Yoritomo); samurai government; Zen Buddhism; Mongol invasions repelled (1274, 1281, 'kamikaze'); warrior culture."@en ;
     gts:rank "CulturalAge" ;
@@ -7423,9 +7423,9 @@ ts:kamakura-shogunate a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1333 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 672/830: Muromachi Period (CulturalAge) ──
+# ── 672/830: Muromachi Period (室町時代 Muromachi jidai) (CulturalAge) ──
 ts:muromachi-period a gts:GeochronologicAge ;
-    rdfs:label "Muromachi Period"@en ;
+    rdfs:label "Muromachi Period (室町時代 Muromachi jidai)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Ashikaga shogunate; Noh theater; tea ceremony; Zen gardens (Ryōan-ji); Ōnin War (1467); Sengoku (Warring States) era begins."@en ;
     gts:rank "CulturalAge" ;
@@ -7434,9 +7434,9 @@ ts:muromachi-period a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1573 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 673/830: Sengoku Period (CulturalAge) ──
+# ── 673/830: Sengoku Period (戦国時代 Sengoku jidai) (CulturalAge) ──
 ts:sengoku a gts:GeochronologicAge ;
-    rdfs:label "Sengoku Period"@en ;
+    rdfs:label "Sengoku Period (戦国時代 Sengoku jidai)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Warring States; Oda Nobunaga, Toyotomi Hideyoshi, Tokugawa Ieyasu (three unifiers); firearms arrive (1543); castles; samurai warfare peak."@en ;
     gts:rank "CulturalAge" ;
@@ -7456,9 +7456,9 @@ ts:azuchi-momoyama a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1603 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 675/830: Edo Period (Tokugawa) (CulturalAge) ──
+# ── 675/830: Edo Period (江戸時代 Edo jidai / Tokugawa) (CulturalAge) ──
 ts:edo-period a gts:GeochronologicAge ;
-    rdfs:label "Edo Period (Tokugawa)"@en ;
+    rdfs:label "Edo Period (江戸時代 Edo jidai / Tokugawa)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Tokugawa shogunate; 250 years of peace; sakoku isolation; Edo (Tokyo) grows to 1M+; kabuki, ukiyo-e, haiku; rigid social hierarchy; merchant culture."@en ;
     gts:rank "CulturalAge" ;
@@ -7467,9 +7467,9 @@ ts:edo-period a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1868 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 676/830: Meiji Era (CulturalAge) ──
+# ── 676/830: Meiji Era (明治時代 Meiji jidai) (CulturalAge) ──
 ts:meiji-era a gts:GeochronologicAge ;
-    rdfs:label "Meiji Era"@en ;
+    rdfs:label "Meiji Era (明治時代 Meiji jidai)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Meiji Restoration; rapid modernization/industrialization; Meiji Constitution (1889); Sino-Japanese War (1894-95); Russo-Japanese War (1904-05); world power."@en ;
     gts:rank "CulturalAge" ;
@@ -7533,9 +7533,9 @@ ts:korea-history a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "Present" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 682/830: Gojoseon (CulturalAge) ──
+# ── 682/830: Gojoseon (고조선 / 古朝鮮) (CulturalAge) ──
 ts:gojoseon a gts:GeochronologicAge ;
-    rdfs:label "Gojoseon"@en ;
+    rdfs:label "Gojoseon (고조선 / 古朝鮮)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "First Korean kingdom (legendary founding by Dangun); bronze culture; Wiman Joseon; conquered by Han China (108 BCE); Korean identity origins."@en ;
     gts:rank "CulturalAge" ;
@@ -7544,9 +7544,9 @@ ts:gojoseon a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "108 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 683/830: Three Kingdoms of Korea (CulturalAge) ──
+# ── 683/830: Three Kingdoms of Korea (삼국시대 / 三國時代) (CulturalAge) ──
 ts:three-kingdoms-korea a gts:GeochronologicAge ;
-    rdfs:label "Three Kingdoms of Korea"@en ;
+    rdfs:label "Three Kingdoms of Korea (삼국시대 / 三國時代)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Goguryeo (north, military), Baekje (southwest, maritime), Silla (southeast); Buddhism adopted; tomb murals; cultural exchange with Japan and China."@en ;
     gts:rank "CulturalAge" ;
@@ -7566,9 +7566,9 @@ ts:gaya-confederacy a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "562 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 685/830: Unified Silla (CulturalAge) ──
+# ── 685/830: Unified Silla (통일신라 / 統一新羅) (CulturalAge) ──
 ts:silla-unified a gts:GeochronologicAge ;
-    rdfs:label "Unified Silla"@en ;
+    rdfs:label "Unified Silla (통일신라 / 統一新羅)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Silla unifies peninsula with Tang alliance; Gyeongju capital; Bulguksa Temple; golden age of Korean Buddhism; Seokguram Grotto."@en ;
     gts:rank "CulturalAge" ;
@@ -7599,9 +7599,9 @@ ts:later-three-kingdoms a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "936 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 688/830: Goryeo Dynasty (CulturalAge) ──
+# ── 688/830: Goryeo Dynasty (고려 / 高麗) (CulturalAge) ──
 ts:goryeo-dynasty a gts:GeochronologicAge ;
-    rdfs:label "Goryeo Dynasty"@en ;
+    rdfs:label "Goryeo Dynasty (고려 / 高麗)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Origin of name 'Korea'; celadon ceramics; Tripitaka Koreana (woodblock Buddhist canon); movable metal type (1234, before Gutenberg); Mongol invasions."@en ;
     gts:rank "CulturalAge" ;
@@ -7610,9 +7610,9 @@ ts:goryeo-dynasty a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1392 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 689/830: Joseon Dynasty (CulturalAge) ──
+# ── 689/830: Joseon Dynasty (조선 / 朝鮮) (CulturalAge) ──
 ts:joseon-dynasty a gts:GeochronologicAge ;
-    rdfs:label "Joseon Dynasty"@en ;
+    rdfs:label "Joseon Dynasty (조선 / 朝鮮)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Neo-Confucian state; Sejong the Great invents Hangul (1443); Gyeongbokgung Palace; Imjin War (Japanese invasions, 1592-98); 500-year dynasty."@en ;
     gts:rank "CulturalAge" ;
@@ -7698,9 +7698,9 @@ ts:champa a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1832 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 697/830: Srivijaya Empire (CulturalAge) ──
+# ── 697/830: Srivijaya Empire (ศรีวิชัย / Śrīvijaya) (CulturalAge) ──
 ts:srivijaya a gts:GeochronologicAge ;
-    rdfs:label "Srivijaya Empire"@en ;
+    rdfs:label "Srivijaya Empire (ศรีวิชัย / Śrīvijaya)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Maritime empire based in Sumatra; controlled Malacca Strait; Buddhist center (Nalanda connections); Malay language spread; spice trade."@en ;
     gts:rank "CulturalAge" ;
@@ -7764,9 +7764,9 @@ ts:pagan-kingdom a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1297 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 703/830: Majapahit Empire (CulturalAge) ──
+# ── 703/830: Majapahit Empire (Kerajaan Majapahit / ꦩꦗꦥꦲꦶꦠ꧀) (CulturalAge) ──
 ts:majapahit a gts:GeochronologicAge ;
-    rdfs:label "Majapahit Empire"@en ;
+    rdfs:label "Majapahit Empire (Kerajaan Majapahit / ꦩꦗꦥꦲꦶꦠ꧀)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Java-based Hindu-Buddhist empire; Gajah Mada (prime minister); Nagarakretagama poem; controlled much of maritime Southeast Asia; Indonesian national heritage."@en ;
     gts:rank "CulturalAge" ;
@@ -8039,9 +8039,9 @@ ts:central-asia-history a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "Present" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 728/830: Scythian Period (CulturalAge) ──
+# ── 728/830: Scythian Period (Σκύθαι / Скифы Skify) (CulturalAge) ──
 ts:scythians a gts:GeochronologicAge ;
-    rdfs:label "Scythian Period"@en ;
+    rdfs:label "Scythian Period (Σκύθαι / Скифы Skify)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Iranian nomadic warriors; horse archery; animal-style gold art; kurgans (burial mounds); Herodotus accounts; influenced Greek and Persian worlds."@en ;
     gts:rank "CulturalAge" ;
@@ -8050,9 +8050,9 @@ ts:scythians a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "200 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 729/830: Xiongnu Empire (CulturalAge) ──
+# ── 729/830: Xiongnu Empire (匈奴 Xiōngnú) (CulturalAge) ──
 ts:xiongnu a gts:GeochronologicAge ;
-    rdfs:label "Xiongnu Empire"@en ;
+    rdfs:label "Xiongnu Empire (匈奴 Xiōngnú)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "First great steppe empire; Modu Chanyu; prompted Chinese Great Wall; Silk Road intermediaries; possible ancestors of Huns; Han dynasty rival; split into Northern and Southern Xiongnu 48 CE."@en ;
     gts:rank "CulturalAge" ;
@@ -8292,9 +8292,9 @@ ts:uruk-period a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "3100 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 751/830: Sumerian Civilization (ki-en-gi) (CulturalAge) ──
+# ── 751/830: Sumerian Civilization (𒆠𒂗𒄀 ki-en-gi) (CulturalAge) ──
 ts:sumer a gts:GeochronologicAge ;
-    rdfs:label "Sumerian Civilization (ki-en-gi)"@en ;
+    rdfs:label "Sumerian Civilization (𒆠𒂗𒄀 ki-en-gi)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "First civilization; cuneiform writing; city-states (Ur, Uruk, Lagash); ziggurats; Epic of Gilgamesh; wheel, plow, sailboat; sexagesimal math."@en ;
     gts:rank "CulturalAge" ;
@@ -8303,9 +8303,9 @@ ts:sumer a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "2004 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 752/830: Akkadian Empire (CulturalAge) ──
+# ── 752/830: Akkadian Empire (𒀀𒅗𒁲𒆠 māt Akkadī) (CulturalAge) ──
 ts:akkadian-empire a gts:GeochronologicAge ;
-    rdfs:label "Akkadian Empire"@en ;
+    rdfs:label "Akkadian Empire (𒀀𒅗𒁲𒆠 māt Akkadī)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Sargon of Akkad; first known empire in history; Akkadian language; centralized bureaucracy; trade networks from Indus to Mediterranean."@en ;
     gts:rank "CulturalAge" ;
@@ -8325,9 +8325,9 @@ ts:babylon-old a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "1595 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 754/830: Assyrian Empire (CulturalAge) ──
+# ── 754/830: Assyrian Empire (𒀸𒋗𒁺𒆠 māt Aššur) (CulturalAge) ──
 ts:assyrian-empire a gts:GeochronologicAge ;
-    rdfs:label "Assyrian Empire"@en ;
+    rdfs:label "Assyrian Empire (𒀸𒋗𒁺𒆠 māt Aššur)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Neo-Assyrian peak (911-609 BCE); Nineveh, Nimrud; Ashurbanipal's library; brutal military; iron weapons; siege warfare; reliefs; conquered Egypt."@en ;
     gts:rank "CulturalAge" ;
@@ -8347,9 +8347,9 @@ ts:neo-babylonian a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "539 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 756/830: Phoenician Civilization (CulturalAge) ──
+# ── 756/830: Phoenician Civilization (Φοινίκη / 𐤊𐤍𐤏𐤍 Kanaʿan) (CulturalAge) ──
 ts:phoenicia a gts:GeochronologicAge ;
-    rdfs:label "Phoenician Civilization"@en ;
+    rdfs:label "Phoenician Civilization (Φοινίκη / 𐤊𐤍𐤏𐤍 Kanaʿan)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Maritime city-states (Tyre, Sidon, Byblos); invented the alphabet (~1050 BCE); purple dye; Mediterranean trade and colonization; founded Carthage (~814 BCE)."@en ;
     gts:rank "CulturalAge" ;
@@ -8358,9 +8358,9 @@ ts:phoenicia a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "300 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 757/830: Carthaginian Empire (CulturalAge) ──
+# ── 757/830: Carthaginian Empire (𐤒𐤓𐤕 𐤇𐤃𐤔𐤕 Qart-ḥadašt) (CulturalAge) ──
 ts:carthage a gts:GeochronologicAge ;
-    rdfs:label "Carthaginian Empire"@en ;
+    rdfs:label "Carthaginian Empire (𐤒𐤓𐤕 𐤇𐤃𐤔𐤕 Qart-ḥadašt)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Phoenician colony becomes western Mediterranean power; Hannibal Barca; Punic Wars with Rome; destroyed by Rome (146 BCE); North Africa, Iberia, Sicily."@en ;
     gts:rank "CulturalAge" ;
@@ -8369,9 +8369,9 @@ ts:carthage a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "146 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 758/830: Ancient Israel (CulturalAge) ──
+# ── 758/830: Ancient Israel (יִשְׂרָאֵל Yisrā'ēl) (CulturalAge) ──
 ts:ancient-israel a gts:GeochronologicAge ;
-    rdfs:label "Ancient Israel"@en ;
+    rdfs:label "Ancient Israel (יִשְׂרָאֵל Yisrā'ēl)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Iron Age Levant; tribal confederation; United Monarchy under David and Solomon; First Temple; split into Israel and Judah; Babylonian exile (586 BCE); Hebrew Bible origins."@en ;
     gts:rank "CulturalAge" ;
@@ -8380,9 +8380,9 @@ ts:ancient-israel a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "586 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 759/830: Hittite Empire (CulturalAge) ──
+# ── 759/830: Hittite Empire (𒄩𒀜𒌅𒊭 Ḫattuša) (CulturalAge) ──
 ts:hittite-empire a gts:GeochronologicAge ;
-    rdfs:label "Hittite Empire"@en ;
+    rdfs:label "Hittite Empire (𒄩𒀜𒌅𒊭 Ḫattuša)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Anatolian Bronze Age power; Hattusa capital; Battle of Kadesh with Egypt (1274 BCE); iron technology; Treaty of Kadesh (earliest known peace treaty); cuneiform."@en ;
     gts:rank "CulturalAge" ;
