@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate the Geologic Time Scale as Linked Data (Turtle + JSON-LD).
 
-813 data points covering:
+812 data points covering:
 - 4 Eons
 - 10 Eras
 - 22 Periods (incl. Mississippian/Pennsylvanian sub-periods)
@@ -59,11 +59,9 @@ def add(id_, label, rank, parent, start, end, unit, desc):
 add("hadean", "Hadean", "Eon", None, 4600, 4000, "Ma",
     "Earliest eon; Earth forms from accretion, heavy bombardment, formation of the Moon.")
 
-# Hadean informal divisions (not formally ratified by ICS but widely used)
-add("ginallian", "Ginallian (informal)", "Era", "hadean", 4600, 4510, "Ma",
-    "Accretion and differentiation of Earth; formation of core and mantle from planetesimals.")
-add("chaotian", "Chaotian (informal)", "Era", "hadean", 4510, 4404, "Ma",
-    "Moon-forming giant impact (Theia hypothesis); surface entirely molten magma ocean.")
+# Hadean informal divisions (proposed by Goldblatt et al. 2010; GTS 2012; not ratified by ICS)
+add("chaotian", "Chaotian (informal)", "Era", "hadean", 4600, 4404, "Ma",
+    "Accretion and differentiation of Earth; Moon-forming giant impact (Theia hypothesis, ~4510 Ma); surface entirely molten magma ocean.")
 add("zirconian", "Zirconian (informal)", "Era", "hadean", 4404, 4030, "Ma",
     "Oldest known mineral grains (Jack Hills zircons, ~4.4 Ga); first solid crust forms; Late Heavy Bombardment.")
 add("archean", "Archean", "Eon", None, 4000, 2500, "Ma",
@@ -210,8 +208,8 @@ add("pridoli", "Přídolí", "Epoch", "silurian", 423, 419.2, "Ma",
 
 add("devonian", "Devonian", "Period", "paleozoic", 419.2, 358.9, "Ma",
     "Age of Fishes; first forests, first insects, first amphibians.")
-add("klonk-event", "Klonk Event (Silurian–Devonian boundary)", "Age", "pridoli", 419.2, 419, "Ma",
-    "GSSP at Klonk, Czech Republic; defined by first appearance of graptolite Monograptus uniformis.")
+add("klonk-event", "Klonk GSSP (Silurian–Devonian boundary)", "Age", "pridoli", 419.2, 419.2, "Ma",
+    "First GSSP ever ratified (1972); Klonk, Czech Republic; defined by first appearance of graptolite Monograptus uniformis; marks base of Devonian.")
 add("early-devonian", "Early Devonian", "Epoch", "devonian", 419.2, 393.3, "Ma",
     "First seed plants; armored fish diversify.")
 add("lochkovian", "Lochkovian", "Age", "early-devonian", 419.2, 410.8, "Ma",
@@ -922,8 +920,8 @@ add("diaguita", "Diaguita Culture", "CulturalAge", "south-america-precolumbian",
     "Northwestern Argentina and Chilean Norte Chico; distinctive geometric pottery; terraced agriculture; fortified settlements (pucará); resisted Inca then Spanish.")
 add("guarani-precolonial", "Guaraní (Pre-Colonial)", "CulturalAge", "south-america-precolumbian", 500, 1537, "CE",
     "Tupi-Guaraní peoples of Paraguay, Brazil, and Argentina; slash-and-burn agriculture; canoe navigation; religious migrations (Land Without Evil).")
-add("selknam", "Selk'nam (Ona People)", "CulturalAge", "south-america-precolumbian", 8000, 1900, "BCE-CE",
-    "Tierra del Fuego hunter-gatherers; Hain initiation ceremony; guanaco hunters; body painting; genocided during Patagonian sheep boom (late 1800s).")
+add("selknam", "Selk'nam Period (Ona People)", "CulturalAge", "south-america-precolumbian", 8000, 1900, "BCE-CE",
+    "Tierra del Fuego hunter-gatherer cultural tradition; Hain initiation ceremony; guanaco hunters; body painting; genocided during Patagonian sheep boom (late 1800s).")
 
 # --- Inca Empire ---
 add("inca-empire", "Inca Empire (Tawantinsuyu)", "CulturalAge", "south-america-precolumbian", 1438, 1533, "CE",
@@ -1848,8 +1846,8 @@ add("aboriginal-early", "Early Aboriginal Period", "CulturalAge", "aboriginal-au
     "First Australians arrive (~65,000 BP); Lake Mungo burials (~42,000 BP); megafauna coexistence and extinction; continent-wide spread; earliest rock art.")
 add("aboriginal-holocene", "Aboriginal Holocene Period", "CulturalAge", "aboriginal-australia", 10000, 1788, "BCE-CE",
     "Sea level rise creates modern coastline; Torres Strait Islands separate; intensification; fish traps (Brewarrina ~40,000 years); complex trade networks; songlines.")
-add("budj-bim", "Budj Bim Aquaculture System", "CulturalAge", "aboriginal-australia", 6600, 1788, "BCE-CE",
-    "Gunditjmara people, Victoria; world's oldest aquaculture system; eel traps and stone channels; permanent stone dwellings; UNESCO World Heritage Site (2019).")
+add("budj-bim", "Budj Bim Cultural Landscape", "CulturalAge", "aboriginal-australia", 6600, 1788, "BCE-CE",
+    "Gunditjmara people, Victoria; world's oldest aquaculture system (~6,600 years); eel traps and stone channels; permanent stone dwellings; UNESCO World Heritage Site (2019).")
 add("torres-strait-islanders", "Torres Strait Islander Culture", "CulturalAge", "oceania-history", 8000, 0, "BCE-CE",
     "Melanesian peoples of Torres Strait Islands; distinct from Aboriginal Australians; seafaring; horticulture; Tombstone Opening ceremonies; star lore navigation.")
 add("australian-colonial", "Colonial Australia", "CulturalAge", "oceania-history", 1788, 1901, "CE",
@@ -1896,7 +1894,7 @@ add("micronesia-history", "Micronesian Civilizations", "CulturalAge", "oceania-h
     "Thousands of small islands; skilled navigators; Carolinian stick charts; varied cultures from Palau to Marshall Islands.")
 add("nan-madol", "Nan Madol", "CulturalAge", "micronesia-history", 1180, 1628, "CE",
     "Megalithic city built on artificial islets, Pohnpei; 'Venice of the Pacific'; basalt log-cabin architecture; Saudeleur dynasty; UNESCO site.")
-add("palau-earthworks", "Palau Earthworks & Terraces", "CulturalAge", "micronesia-history", 1200, 1600, "CE",
+add("palau-earthworks", "Palau Earthwork Era", "CulturalAge", "micronesia-history", 1200, 1600, "CE",
     "Monumental earthwork terraces on Babeldaob; largest earthworks in Oceania; hillside terracing for agriculture and defense; stone villages; bai meeting houses.")
 add("marshallese-navigation", "Marshallese Navigation Tradition", "CulturalAge", "micronesia-history", 500, 1900, "CE",
     "Stick chart navigation (mattang, meddo, rebbelib); wave piloting; outrigger canoes; settlement of remote atolls; unique ocean-reading knowledge.")

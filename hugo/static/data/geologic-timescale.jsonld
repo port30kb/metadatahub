@@ -11,7 +11,7 @@
   "@id": "https://metadatahub.eu/data/geologic-timescale",
   "@type": "skos:ConceptScheme",
   "dcterms:title": "Geologic Time Scale",
-  "dcterms:description": "813 entries covering the geologic time scale from Hadean eon (4600 Ma) to present, including Scandinavian, European, and South American cultural/historical periods.",
+  "dcterms:description": "812 entries covering the geologic time scale from Hadean eon (4600 Ma) to present, including Scandinavian, European, and South American cultural/historical periods.",
   "dcterms:source": [
     "https://en.wikipedia.org/wiki/Geologic_time_scale",
     "https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf",
@@ -40,25 +40,6 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
-      "@id": "https://metadatahub.eu/data/geologic-timescale/ginallian",
-      "@type": "gts:GeochronologicEra",
-      "rdfs:label": {
-        "@value": "Ginallian (informal)",
-        "@language": "en"
-      },
-      "skos:definition": {
-        "@value": "Accretion and differentiation of Earth; formation of core and mantle from planetesimals.",
-        "@language": "en"
-      },
-      "gts:rank": "Era",
-      "skos:broader": {
-        "@id": "https://metadatahub.eu/data/geologic-timescale/hadean"
-      },
-      "time:hasBeginning": "4600 Ma",
-      "time:hasEnd": "4510 Ma",
-      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
-    },
-    {
       "@id": "https://metadatahub.eu/data/geologic-timescale/chaotian",
       "@type": "gts:GeochronologicEra",
       "rdfs:label": {
@@ -66,14 +47,14 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Moon-forming giant impact (Theia hypothesis); surface entirely molten magma ocean.",
+        "@value": "Accretion and differentiation of Earth; Moon-forming giant impact (Theia hypothesis, ~4510 Ma); surface entirely molten magma ocean.",
         "@language": "en"
       },
       "gts:rank": "Era",
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/hadean"
       },
-      "time:hasBeginning": "4510 Ma",
+      "time:hasBeginning": "4600 Ma",
       "time:hasEnd": "4404 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -1288,11 +1269,11 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/klonk-event",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Klonk Event (Silurian–Devonian boundary)",
+        "@value": "Klonk GSSP (Silurian–Devonian boundary)",
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "GSSP at Klonk, Czech Republic; defined by first appearance of graptolite Monograptus uniformis.",
+        "@value": "First GSSP ever ratified (1972); Klonk, Czech Republic; defined by first appearance of graptolite Monograptus uniformis; marks base of Devonian.",
         "@language": "en"
       },
       "gts:rank": "Age",
@@ -1300,7 +1281,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/pridoli"
       },
       "time:hasBeginning": "419.2 Ma",
-      "time:hasEnd": "419 Ma",
+      "time:hasEnd": "419.2 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -7159,11 +7140,11 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/selknam",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Selk'nam (Ona People)",
+        "@value": "Selk'nam Period (Ona People)",
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Tierra del Fuego hunter-gatherers; Hain initiation ceremony; guanaco hunters; body painting; genocided during Patagonian sheep boom (late 1800s).",
+        "@value": "Tierra del Fuego hunter-gatherer cultural tradition; Hain initiation ceremony; guanaco hunters; body painting; genocided during Patagonian sheep boom (late 1800s).",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
@@ -14854,11 +14835,11 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/budj-bim",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Budj Bim Aquaculture System",
+        "@value": "Budj Bim Cultural Landscape",
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Gunditjmara people, Victoria; world's oldest aquaculture system; eel traps and stone channels; permanent stone dwellings; UNESCO World Heritage Site (2019).",
+        "@value": "Gunditjmara people, Victoria; world's oldest aquaculture system (~6,600 years); eel traps and stone channels; permanent stone dwellings; UNESCO World Heritage Site (2019).",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
@@ -15253,7 +15234,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/palau-earthworks",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Palau Earthworks & Terraces",
+        "@value": "Palau Earthwork Era",
         "@language": "en"
       },
       "skos:definition": {
