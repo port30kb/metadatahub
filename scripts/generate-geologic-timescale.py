@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate the Geologic Time Scale as Linked Data (Turtle + JSON-LD).
 
-835 data points covering:
+836 data points covering:
 - 4 Eons
 - 10 Eras
 - 22 Periods (incl. Mississippian/Pennsylvanian sub-periods)
@@ -119,8 +119,8 @@ add("sturtian", "Sturtian Glaciation (Sturt River, South Australia)", "Age", "cr
     "First and longer Snowball Earth event; global ice cover for ~57 million years.")
 add("marinoan", "Marinoan Glaciation (Marino, South Australia)", "Age", "cryogenian", 639, 635, "Ma",
     "Second Snowball Earth; onset ~639 Ma per U-Pb geochronology; cap carbonates deposited after deglaciation.")
-add("ediacaran", "Ediacaran (Idiyakra)", "Period", "neoproterozoic", 635, 538.8, "Ma",
-    "Ediacaran biota: first large complex organisms; soft-bodied fauna.")
+add("ediacaran", "Ediacaran (Idiyakra / Yata Takarra)", "Period", "neoproterozoic", 635, 538.8, "Ma",
+    "Ediacaran biota: first large complex organisms; soft-bodied fauna. Named for Ediacara Creek, Flinders Ranges, South Australia, on traditional Adnyamathanha lands; Adnyamathanha name disputed: 'Idiyakra' (place near water, oldest recorded form) or 'Yata Takarra' (hard/stony ground); 2023 Nilpena Ediacara National Park formalizes Adnyamathanha custodianship.")
 add("gaskiers", "Gaskiers Glaciation (Gaskiers, Terre-Neuve)", "Age", "ediacaran", 580.9, 579.6, "Ma",
     "Last major Neoproterozoic glaciation; short-lived (~1.3 Myr); followed by deep ocean oxygenation enabling rise of Ediacaran fauna.")
 
@@ -926,7 +926,7 @@ add("chimu-empire", "Chimú Empire (Imperio Chimú / Chimor)", "CulturalAge", "s
     "Late Intermediate kingdom of northern Peru; Chan Chan (largest adobe city); sophisticated metalwork; conquered by Inca.")
 add("chachapoya", "Chachapoya Civilization (Civilización Chachapoya)", "CulturalAge", "south-america-precolumbian", 800, 1470, "CE",
     "Cloud Warriors of northern Peru; Kuélap fortress (stone citadel at 3,000 m); cliff tombs and sarcophagi; conquered by Inca; Revash mausolea.")
-add("muisca-confederation", "Muisca Confederation (Confederación Muisca)", "CulturalAge", "south-america-precolumbian", 600, 1541, "CE",
+add("muisca-confederation", "Muisca Confederation (Muysca / Confederación Muisca)", "CulturalAge", "south-america-precolumbian", 600, 1541, "CE",
     "Chibcha-speaking confederation in Colombian highlands; gold and tumbaga metalwork; El Dorado legend; salt and emerald trade.")
 add("tairona", "Tairona Civilization (Civilización Tairona)", "CulturalAge", "south-america-precolumbian", 200, 1600, "CE",
     "Sierra Nevada de Santa Marta, Colombia; Ciudad Perdida (Teyuna); stone terraces and stairways; gold and tumbaga work; ancestors of Kogi people.")
@@ -1242,11 +1242,13 @@ add("post-911-era", "Post-9/11 Era (Eran efter 11 september)", "CulturalAge", "c
 # ═══════════════════════════════════════════════════════════════
 
 # --- Cradle of Humankind & Prehistoric ---
-add("africa-prehistoric", "Prehistoric Africa (Förhistoriska Afrika)", "CulturalAge", "holocene", 300000, 3100, "BCE",
-    "Birthplace of Homo sapiens; earliest modern human behavior; rock art; Neolithic revolution in Sahara and Nile; transition to complex societies.")
-add("african-middle-stone-age", "African Middle Stone Age (Afrikanska mellersta stenåldern)", "CulturalAge", "africa-prehistoric", 300000, 30000, "BCE",
+add("africa-prehistoric", "Prehistoric Africa (Förhistoriska Afrika)", "CulturalAge", "holocene", 3300000, 3100, "BCE",
+    "Birthplace of Homo sapiens; earliest stone tools (Lomekwian ~3.3 Ma); earliest modern human behavior; rock art; Neolithic revolution in Sahara and Nile; transition to complex societies.")
+add("african-early-stone-age", "African Early Stone Age (Afrikanska äldre stenåldern / ESA)", "CulturalAge", "africa-prehistoric", 3300000, 300000, "BCE",
+    "Oldest stone tool traditions: Lomekwian (~3.3 Ma), Oldowan (~2.6 Ma, Homo habilis), Acheulean (~1.76 Ma, Homo erectus/heidelbergensis); hand axes; control of fire; covers c. 3.3 million to ~300,000 years ago. African archaeological periodization: ESA/MSA/LSA (distinct from European Paleolithic/Mesolithic/Neolithic framework).")
+add("african-middle-stone-age", "African Middle Stone Age (Afrikanska mellersta stenåldern / MSA)", "CulturalAge", "africa-prehistoric", 300000, 30000, "BCE",
     "Emergence of Homo sapiens; Blombos Cave engravings (~75,000 BP); ochre use; shell beads; earliest evidence of symbolic thought and art.")
-add("african-later-stone-age", "African Later Stone Age (Afrikanska senare stenåldern)", "CulturalAge", "africa-prehistoric", 50000, 2000, "BCE",
+add("african-later-stone-age", "African Later Stone Age (Afrikanska senare stenåldern / LSA)", "CulturalAge", "africa-prehistoric", 50000, 2000, "BCE",
     "Microlithic tools; bow and arrow; San rock art (southern Africa); population diversification; expansion across continent.")
 add("saharan-neolithic", "Saharan Neolithic (Green Sahara)", "CulturalAge", "africa-prehistoric", 7500, 3500, "BCE",
     "African Humid Period; cattle pastoralism; rock art at Tassili n'Ajjer; pottery; lakeside settlements; desertification drives migration to Nile.")
@@ -1378,9 +1380,9 @@ add("bantu-expansion", "Bantu Expansion (Uenezi wa Wabantu)", "CulturalAge", "ho
     "One of the largest migrations in human history; Bantu-speaking peoples spread from Cameroon/Nigeria across central, eastern, and southern Africa; iron, agriculture, languages.")
 add("kongo-kingdom", "Kingdom of Kongo (Wene wa Kongo)", "CulturalAge", "holocene", 1390, 1914, "CE",
     "Central Africa (modern Angola, DRC, Congo); Mbanza Kongo capital; early contact with Portugal (1483); conversion to Christianity; Atlantic slave trade devastation.")
-add("luba-kingdom", "Luba Kingdom (Royaume Luba)", "CulturalAge", "holocene", 1585, 1889, "CE",
+add("luba-kingdom", "Luba Kingdom (Bulopwe / Royaume Luba)", "CulturalAge", "holocene", 1585, 1889, "CE",
     "Central Congo basin; sophisticated governance (balopwe sacred kingship); memory boards (lukasa); influence on Lunda and other kingdoms.")
-add("lunda-empire", "Lunda Empire (Empire Lunda)", "CulturalAge", "holocene", 1665, 1887, "CE",
+add("lunda-empire", "Lunda Empire (Mwaant Yaav / Empire Lunda)", "CulturalAge", "holocene", 1665, 1887, "CE",
     "Offshoot of Luba; vast territory across central-southern Africa; long-distance trade; influenced political systems across a wide region.")
 add("kingdom-of-rwanda", "Kingdom of Rwanda (Ubwami bw'u Rwanda)", "CulturalAge", "holocene", 1500, 1961, "CE",
     "Most centralized Great Lakes kingdom; divine Mwami; Kigeri IV Rwabugiri expanded beyond modern borders; colonial Belgium racialized Hutu-Tutsi; monarchy abolished 1961.")

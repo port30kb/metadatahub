@@ -11,7 +11,7 @@
   "@id": "https://metadatahub.eu/data/geologic-timescale",
   "@type": "skos:ConceptScheme",
   "dcterms:title": "Geologic Time Scale",
-  "dcterms:description": "835 entries covering the geologic time scale from Hadean eon (4600 Ma) to present, including Scandinavian, European, and South American cultural/historical periods.",
+  "dcterms:description": "836 entries covering the geologic time scale from Hadean eon (4600 Ma) to present, including Scandinavian, European, and South American cultural/historical periods.",
   "dcterms:source": [
     "https://en.wikipedia.org/wiki/Geologic_time_scale",
     "https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf",
@@ -490,11 +490,11 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/ediacaran",
       "@type": "gts:GeochronologicPeriod",
       "rdfs:label": {
-        "@value": "Ediacaran (Idiyakra)",
+        "@value": "Ediacaran (Idiyakra / Yata Takarra)",
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Ediacaran biota: first large complex organisms; soft-bodied fauna.",
+        "@value": "Ediacaran biota: first large complex organisms; soft-bodied fauna. Named for Ediacara Creek, Flinders Ranges, South Australia, on traditional Adnyamathanha lands; Adnyamathanha name disputed: 'Idiyakra' (place near water, oldest recorded form) or 'Yata Takarra' (hard/stony ground); 2023 Nilpena Ediacara National Park formalizes Adnyamathanha custodianship.",
         "@language": "en"
       },
       "gts:rank": "Period",
@@ -7159,7 +7159,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/muisca-confederation",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Muisca Confederation (Confederación Muisca)",
+        "@value": "Muisca Confederation (Muysca / Confederación Muisca)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9728,22 +9728,41 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Birthplace of Homo sapiens; earliest modern human behavior; rock art; Neolithic revolution in Sahara and Nile; transition to complex societies.",
+        "@value": "Birthplace of Homo sapiens; earliest stone tools (Lomekwian ~3.3 Ma); earliest modern human behavior; rock art; Neolithic revolution in Sahara and Nile; transition to complex societies.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
       },
-      "time:hasBeginning": "300000 BCE",
+      "time:hasBeginning": "3300000 BCE",
       "time:hasEnd": "3100 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/african-early-stone-age",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "African Early Stone Age (Afrikanska äldre stenåldern / ESA)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Oldest stone tool traditions: Lomekwian (~3.3 Ma), Oldowan (~2.6 Ma, Homo habilis), Acheulean (~1.76 Ma, Homo erectus/heidelbergensis); hand axes; control of fire; covers c. 3.3 million to ~300,000 years ago. African archaeological periodization: ESA/MSA/LSA (distinct from European Paleolithic/Mesolithic/Neolithic framework).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/africa-prehistoric"
+      },
+      "time:hasBeginning": "3300000 BCE",
+      "time:hasEnd": "300000 BCE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
       "@id": "https://metadatahub.eu/data/geologic-timescale/african-middle-stone-age",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "African Middle Stone Age (Afrikanska mellersta stenåldern)",
+        "@value": "African Middle Stone Age (Afrikanska mellersta stenåldern / MSA)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9762,7 +9781,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/african-later-stone-age",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "African Later Stone Age (Afrikanska senare stenåldern)",
+        "@value": "African Later Stone Age (Afrikanska senare stenåldern / LSA)",
         "@language": "en"
       },
       "skos:definition": {
@@ -10883,7 +10902,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/luba-kingdom",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Luba Kingdom (Royaume Luba)",
+        "@value": "Luba Kingdom (Bulopwe / Royaume Luba)",
         "@language": "en"
       },
       "skos:definition": {
@@ -10902,7 +10921,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/lunda-empire",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Lunda Empire (Empire Lunda)",
+        "@value": "Lunda Empire (Mwaant Yaav / Empire Lunda)",
         "@language": "en"
       },
       "skos:definition": {
