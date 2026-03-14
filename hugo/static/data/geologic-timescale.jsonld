@@ -11,7 +11,7 @@
   "@id": "https://metadatahub.eu/data/geologic-timescale",
   "@type": "skos:ConceptScheme",
   "dcterms:title": "Geologic Time Scale",
-  "dcterms:description": "851 entries covering the geologic time scale from Hadean eon (4600 Ma) to present, including Scandinavian, European, and South American cultural/historical periods.",
+  "dcterms:description": "852 entries covering the geologic time scale from Hadean eon (4600 Ma) to present, including Scandinavian, European, and South American cultural/historical periods.",
   "dcterms:source": [
     "https://en.wikipedia.org/wiki/Geologic_time_scale",
     "https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf",
@@ -15839,14 +15839,14 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
-      "@id": "https://metadatahub.eu/data/geologic-timescale/tuamotuan-cook",
+      "@id": "https://metadatahub.eu/data/geologic-timescale/cook-islands-settlement",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Cook Islands & Tuamotus Settlement (Kūki 'Āirani / Tuāmotu)",
+        "@value": "Cook Islands Settlement (Kūki 'Āirani)",
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Settlement of remote atolls and islands; coral architecture; lagoon aquaculture; celestial navigation mastery; pre-European contact societies.",
+        "@value": "Settlement from Society Islands; coral architecture; lagoon aquaculture; Rarotonga seat of power; pre-European contact societies.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
@@ -15858,7 +15858,26 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
-      "@id": "https://metadatahub.eu/data/geologic-timescale/hawaiian-kingdom-pre",
+      "@id": "https://metadatahub.eu/data/geologic-timescale/tuamotu-settlement",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Tuamotu Settlement (Tuāmotu)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Settlement of remote atolls; pearl diving; celestial navigation mastery; coral-atoll adaptation; pre-European contact societies.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/polynesia-history"
+      },
+      "time:hasBeginning": "900 CE",
+      "time:hasEnd": "1595 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/ancient-hawaii",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
         "@value": "Ancient Hawaiʻi (Hawaiʻi kahiko)",
@@ -15915,7 +15934,7 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
-      "@id": "https://metadatahub.eu/data/geologic-timescale/tongaempire",
+      "@id": "https://metadatahub.eu/data/geologic-timescale/tui-tonga-empire",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
         "@value": "Tuʻi Tonga Empire (Puleʻanga Tuʻi Tonga)",

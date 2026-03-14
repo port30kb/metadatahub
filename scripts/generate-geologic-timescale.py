@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate the Geologic Time Scale as Linked Data (Turtle + JSON-LD).
 
-851 data points covering:
+852 data points covering:
 - 4 Eons
 - 10 Eras
 - 22 Periods (incl. Mississippian/Pennsylvanian sub-periods)
@@ -1965,15 +1965,17 @@ add("polynesia-expansion", "Polynesian Expansion (Te Hekenga-ā-Polynesia)", "Cu
     "Long-pause then rapid expansion; Marquesas (~300 CE), Hawaiʻi (~1000 CE), Rapa Nui (~1200 CE); double-hulled canoes; star navigation.")
 add("rapa-nui", "Rapa Nui (Easter Island)", "CulturalAge", "polynesia-history", 1200, 1722, "CE",
     "Moai statues (~900 carved); ahu platforms; rongorongo script (undeciphered); ecological transformation; European contact (1722).")
-add("tuamotuan-cook", "Cook Islands & Tuamotus Settlement (Kūki 'Āirani / Tuāmotu)", "CulturalAge", "polynesia-history", 800, 1595, "CE",
-    "Settlement of remote atolls and islands; coral architecture; lagoon aquaculture; celestial navigation mastery; pre-European contact societies.")
-add("hawaiian-kingdom-pre", "Ancient Hawaiʻi (Hawaiʻi kahiko)", "CulturalAge", "polynesia-history", 1000, 1795, "CE",
+add("cook-islands-settlement", "Cook Islands Settlement (Kūki 'Āirani)", "CulturalAge", "polynesia-history", 800, 1595, "CE",
+    "Settlement from Society Islands; coral architecture; lagoon aquaculture; Rarotonga seat of power; pre-European contact societies.")
+add("tuamotu-settlement", "Tuamotu Settlement (Tuāmotu)", "CulturalAge", "polynesia-history", 900, 1595, "CE",
+    "Settlement of remote atolls; pearl diving; celestial navigation mastery; coral-atoll adaptation; pre-European contact societies.")
+add("ancient-hawaii", "Ancient Hawaiʻi (Hawaiʻi kahiko)", "CulturalAge", "polynesia-history", 1000, 1795, "CE",
     "Settlement from Marquesas/Tahiti; ahupuaʻa land management; heiau temples; kapu system; taro cultivation; fish ponds; ali'i chiefs.")
 add("hawaiian-kingdom", "Kingdom of Hawaiʻi (Aupuni Mōʻī o Hawaiʻi)", "CulturalAge", "polynesia-history", 1795, 1893, "CE",
     "Kamehameha I unifies islands; constitutional monarchy; Hawaiian Renaissance; written language; sugar plantations; overthrown by U.S.-backed coup (1893).")
 add("tui-manua", "Tuʻi Manuʻa (Tupu o Manuʻa)", "CulturalAge", "polynesia-history", 1000, 1904, "CE",
     "Ancient Samoan paramount chieftainship; Manuʻa Islands (Taʻū, Ofu, Olosega); oldest Polynesian title; legendary Tagaloa origin; ceded to U.S. 1904.")
-add("tongaempire", "Tuʻi Tonga Empire (Puleʻanga Tuʻi Tonga)", "CulturalAge", "polynesia-history", 950, 1865, "CE",
+add("tui-tonga-empire", "Tuʻi Tonga Empire (Puleʻanga Tuʻi Tonga)", "CulturalAge", "polynesia-history", 950, 1865, "CE",
     "Maritime empire spanning central Pacific; Tongatapu capital; Haʻamonga trilithon; influenced Samoa, Fiji, Niue; one of Polynesia's largest polities.")
 
 # --- Micronesia ---
