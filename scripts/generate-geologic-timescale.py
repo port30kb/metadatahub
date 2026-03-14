@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate the Geologic Time Scale as Linked Data (Turtle + JSON-LD).
 
-830 data points covering:
+835 data points covering:
 - 4 Eons
 - 10 Eras
 - 22 Periods (incl. Mississippian/Pennsylvanian sub-periods)
@@ -130,7 +130,7 @@ add("gaskiers", "Gaskiers Glaciation (Gaskiers, Terre-Neuve)", "Age", "ediacaran
 add("paleozoic", "Paleozoic (Παλαιός ζωή)", "Era", "phanerozoic", 538.8, 251.9, "Ma",
     "Era of ancient life; Cambrian explosion, first fish, amphibians, reptiles, forests.")
 
-add("cambrian", "Cambrian (Cymru)", "Period", "paleozoic", 538.8, 486.85, "Ma",
+add("cambrian", "Cambrian (Cymru)", "Period", "paleozoic", 538.8, 485.4, "Ma",
     "Cambrian explosion: most major animal phyla appear rapidly in the fossil record.")
 add("terreneuvian", "Terreneuvian (Terre-Neuve)", "Epoch", "cambrian", 538.8, 521, "Ma",
     "Earliest Cambrian epoch; small shelly fossils appear.")
@@ -152,86 +152,86 @@ add("drumian", "Drumian (Drum Mountains)", "Age", "miaolingian", 504.5, 500.5, "
     "Agnostid trilobites flourish; deep-water faunas diversify.")
 add("guzhangian", "Guzhangian (古丈)", "Age", "miaolingian", 500.5, 497, "Ma",
     "Trilobite turnover; transition toward Furongian faunas.")
-add("furongian", "Furongian (芙蓉)", "Epoch", "cambrian", 497, 486.85, "Ma",
+add("furongian", "Furongian (芙蓉)", "Epoch", "cambrian", 497, 485.4, "Ma",
     "Trilobite extinctions; first cephalopods appear.")
 add("paibian", "Paibian (排碧)", "Age", "furongian", 497, 494.2, "Ma",
     "SPICE carbon isotope excursion; trilobite extinction pulse.")
 add("jiangshanian", "Jiangshanian (江山)", "Age", "furongian", 494.2, 491, "Ma",
     "Trilobite recovery; earliest cephalopods diversify.")
-add("stage10-cambrian", "Cambrian Stage 10 (unnamed)", "Age", "furongian", 491, 486.85, "Ma",
+add("stage10-cambrian", "Cambrian Stage 10 (unnamed)", "Age", "furongian", 491, 485.4, "Ma",
     "Final Cambrian stage; transition to Ordovician biodiversification.")
 
-add("ordovician", "Ordovician (Ordowices)", "Period", "paleozoic", 486.85, 443.1, "Ma",
+add("ordovician", "Ordovician (Ordowices)", "Period", "paleozoic", 485.4, 443.8, "Ma",
     "Great Ordovician Biodiversification Event; first land plants; ends with mass extinction.")
-add("early-ordovician", "Early Ordovician (Ordowices)", "Epoch", "ordovician", 486.85, 471.3, "Ma",
+add("early-ordovician", "Early Ordovician (Ordowices)", "Epoch", "ordovician", 485.4, 471.3, "Ma",
     "Biodiversification begins; graptolites and brachiopods flourish.")
-add("tremadocian", "Tremadocian (Tremadog)", "Age", "early-ordovician", 486.85, 477.1, "Ma",
+add("tremadocian", "Tremadocian (Tremadog)", "Age", "early-ordovician", 485.4, 477.7, "Ma",
     "Conodonts and graptolites diversify; first planktonic ecosystems.")
-add("floian", "Floian (Flo, Hunneberg)", "Age", "early-ordovician", 477.1, 471.3, "Ma",
+add("floian", "Floian (Flo, Hunneberg)", "Age", "early-ordovician", 477.7, 471.3, "Ma",
     "First bryozoans; corals begin to diversify.")
-add("middle-ordovician", "Middle Ordovician (Ordowices)", "Epoch", "ordovician", 471.3, 458.2, "Ma",
+add("middle-ordovician", "Middle Ordovician (Ordowices)", "Epoch", "ordovician", 471.3, 458.4, "Ma",
     "Great Ordovician Biodiversification Event peaks.")
 add("dapingian", "Dapingian (大坪)", "Age", "middle-ordovician", 471.3, 469.4, "Ma",
     "GOBE intensifies; cephalopods diversify as top marine predators.")
-add("darriwilian", "Darriwilian (Darriwil)", "Age", "middle-ordovician", 469.4, 458.2, "Ma",
+add("darriwilian", "Darriwilian (Darriwil)", "Age", "middle-ordovician", 469.4, 458.4, "Ma",
     "Peak of Great Ordovician Biodiversification; stromatoporoid reefs.")
-add("late-ordovician", "Late Ordovician (Ordowices)", "Epoch", "ordovician", 458.2, 443.1, "Ma",
+add("late-ordovician", "Late Ordovician (Ordowices)", "Epoch", "ordovician", 458.4, 443.8, "Ma",
     "End-Ordovician glaciation and mass extinction; ~85% of marine species lost.")
-add("sandbian", "Sandbian (Sandby, Öland)", "Age", "late-ordovician", 458.2, 452.8, "Ma",
+add("sandbian", "Sandbian (Sandby, Öland)", "Age", "late-ordovician", 458.4, 453.0, "Ma",
     "Taconic orogeny; diverse brachiopod communities.")
-add("katian", "Katian (Katy, Oklahoma)", "Age", "late-ordovician", 452.8, 445.2, "Ma",
+add("katian", "Katian (Katy, Oklahoma)", "Age", "late-ordovician", 453.0, 445.2, "Ma",
     "Peak marine diversity; Gondwanan glaciation begins.")
-add("hirnantian", "Hirnantian (Cwm Hirnant)", "Age", "late-ordovician", 445.2, 443.1, "Ma",
+add("hirnantian", "Hirnantian (Cwm Hirnant)", "Age", "late-ordovician", 445.2, 443.8, "Ma",
     "End-Ordovician mass extinction; rapid glaciation and sea level drop.")
 
-add("silurian", "Silurian (Silures)", "Period", "paleozoic", 443.1, 419.62, "Ma",
+add("silurian", "Silurian (Silures)", "Period", "paleozoic", 443.8, 419.2, "Ma",
     "Recovery from extinction; first vascular land plants; jawed fish appear.")
-add("llandovery", "Llandovery (Llanymddyfri)", "Epoch", "silurian", 443.1, 430.6, "Ma",
+add("llandovery", "Llandovery (Llanymddyfri)", "Epoch", "silurian", 443.8, 433.4, "Ma",
     "Post-extinction recovery; graptolite diversification.")
-add("rhuddanian", "Rhuddanian (Cefn-cerig Rhuddan)", "Age", "llandovery", 443.1, 438.6, "Ma",
+add("rhuddanian", "Rhuddanian (Cefn-cerig Rhuddan)", "Age", "llandovery", 443.8, 440.8, "Ma",
     "Earliest Silurian; rapid recovery of graptolite faunas.")
-add("aeronian", "Aeronian (Cwm-coed-Aeron)", "Age", "llandovery", 438.6, 432.9, "Ma",
+add("aeronian", "Aeronian (Cwm-coed-Aeron)", "Age", "llandovery", 440.8, 438.5, "Ma",
     "Continued recovery; first land plant spores.")
-add("telychian", "Telychian (Pen-lan-Telechi)", "Age", "llandovery", 432.9, 430.6, "Ma",
+add("telychian", "Telychian (Pen-lan-Telechi)", "Age", "llandovery", 438.5, 433.4, "Ma",
     "Graptolite diversity peak; first vascular plant fossils.")
-add("wenlock", "Wenlock (Much Wenlock)", "Epoch", "silurian", 430.6, 425.0, "Ma",
+add("wenlock", "Wenlock (Much Wenlock)", "Epoch", "silurian", 433.4, 427.4, "Ma",
     "First land plants with vascular tissue; coral reef expansion.")
-add("sheinwoodian", "Sheinwoodian (Sheinton Brook)", "Age", "wenlock", 430.6, 426.7, "Ma",
+add("sheinwoodian", "Sheinwoodian (Sheinton Brook)", "Age", "wenlock", 433.4, 430.5, "Ma",
     "Ireviken extinction event; reef ecosystems expand.")
-add("homerian", "Homerian (Homer, Shropshire)", "Age", "wenlock", 426.7, 425.0, "Ma",
+add("homerian", "Homerian (Homer, Shropshire)", "Age", "wenlock", 430.5, 427.4, "Ma",
     "Mulde extinction event; eurypterids (sea scorpions) diversify.")
-add("ludlow", "Ludlow (Ludlow, Shropshire)", "Epoch", "silurian", 425.0, 422.7, "Ma",
+add("ludlow", "Ludlow (Ludlow, Shropshire)", "Epoch", "silurian", 427.4, 423.0, "Ma",
     "First terrestrial arachnids; brachiopod diversity peak.")
-add("gorstian", "Gorstian (Gorst, Shropshire)", "Age", "ludlow", 425.0, 423.0, "Ma",
+add("gorstian", "Gorstian (Gorst, Shropshire)", "Age", "ludlow", 427.4, 425.6, "Ma",
     "Lau extinction event; graptolite fauna turnover.")
-add("ludfordian", "Ludfordian (Ludford, Shropshire)", "Age", "ludlow", 423.0, 422.7, "Ma",
+add("ludfordian", "Ludfordian (Ludford, Shropshire)", "Age", "ludlow", 425.6, 423.0, "Ma",
     "First terrestrial arthropod traces; jawed fish diversify.")
-add("pridoli", "Přídolí (Přídolí, Česko)", "Epoch", "silurian", 422.7, 419.62, "Ma",
+add("pridoli", "Přídolí (Přídolí, Česko)", "Epoch", "silurian", 423.0, 419.2, "Ma",
     "First jawed fish diversify; transition toward Devonian.")
 
-add("devonian", "Devonian (Devon)", "Period", "paleozoic", 419.62, 358.9, "Ma",
+add("devonian", "Devonian (Devon)", "Period", "paleozoic", 419.2, 358.9, "Ma",
     "Age of Fishes; first forests, first insects, first amphibians.")
-add("klonk-event", "Klonk GSSP (Silurian–Devonian boundary / Klonk, Česko)", "Age", "pridoli", 419.62, 419.62, "Ma",
+add("klonk-event", "Klonk GSSP (Silurian–Devonian boundary / Klonk, Česko)", "Age", "pridoli", 419.2, 419.2, "Ma",
     "First GSSP ever ratified (1972); Klonk, Czech Republic; defined by first appearance of graptolite Monograptus uniformis; marks base of Devonian.")
-add("early-devonian", "Early Devonian (Devon)", "Epoch", "devonian", 419.62, 393.47, "Ma",
+add("early-devonian", "Early Devonian (Devon)", "Epoch", "devonian", 419.2, 393.3, "Ma",
     "First seed plants; armored fish diversify.")
-add("lochkovian", "Lochkovian (Lochkov, Praha)", "Age", "early-devonian", 419.62, 413.02, "Ma",
+add("lochkovian", "Lochkovian (Lochkov, Praha)", "Age", "early-devonian", 419.2, 410.8, "Ma",
     "Earliest Devonian; jawed fish radiation continues.")
-add("pragian", "Pragian (Praha)", "Age", "early-devonian", 413.02, 410.62, "Ma",
+add("pragian", "Pragian (Praha)", "Age", "early-devonian", 410.8, 407.6, "Ma",
     "First true leaves (lycopsids); early vascular plants spread onto land.")
-add("emsian", "Emsian (Bad Ems)", "Age", "early-devonian", 410.62, 393.47, "Ma",
+add("emsian", "Emsian (Bad Ems)", "Age", "early-devonian", 407.6, 393.3, "Ma",
     "First insects; ammonoids appear; widespread reef systems.")
-add("middle-devonian", "Middle Devonian (Devon)", "Epoch", "devonian", 393.47, 382.31, "Ma",
+add("middle-devonian", "Middle Devonian (Devon)", "Epoch", "devonian", 393.3, 382.7, "Ma",
     "First forests appear; ammonoids originate.")
-add("eifelian", "Eifelian (Eifel)", "Age", "middle-devonian", 393.47, 387.95, "Ma",
+add("eifelian", "Eifelian (Eifel)", "Age", "middle-devonian", 393.3, 387.7, "Ma",
     "Stromatoporoid-coral reefs peak; first seed ferns.")
-add("givetian", "Givetian (Givet)", "Age", "middle-devonian", 387.95, 382.31, "Ma",
+add("givetian", "Givetian (Givet)", "Age", "middle-devonian", 387.7, 382.7, "Ma",
     "First forests (Archaeopteris); placoderms diversify.")
-add("late-devonian", "Late Devonian (Devon)", "Epoch", "devonian", 382.31, 358.9, "Ma",
+add("late-devonian", "Late Devonian (Devon)", "Epoch", "devonian", 382.7, 358.9, "Ma",
     "First tetrapods; Late Devonian extinction event (~75% of species).")
-add("frasnian", "Frasnian (Frasnes-lez-Couvin)", "Age", "late-devonian", 382.31, 372.15, "Ma",
+add("frasnian", "Frasnian (Frasnes-lez-Couvin)", "Age", "late-devonian", 382.7, 372.2, "Ma",
     "Massive reef systems; Frasnian-Famennian extinction (Kellwasser Event).")
-add("famennian", "Famennian (Famenne)", "Age", "late-devonian", 372.15, 358.9, "Ma",
+add("famennian", "Famennian (Famenne)", "Age", "late-devonian", 372.2, 358.9, "Ma",
     "Post-extinction recovery; first tetrapod trackways; Hangenberg Event at end.")
 
 add("carboniferous", "Carboniferous (carbō + ferre)", "Period", "paleozoic", 358.9, 298.9, "Ma",
@@ -475,9 +475,9 @@ add("anthropocene", "Anthropocene (informal / ἄνθρωπος καινός)", 
 # ═══════════════════════════════════════════════════════════════
 
 # --- Stone Age ---
-add("stone-age", "Stone Age (Stenåldern)", "CulturalAge", "holocene", 3300000, 3300, "BCE",
+add("stone-age", "Stone Age (Stenåldern / Steinzeit / Âge de pierre / Edad de Piedra / Età della Pietra / Steentijd / Каменный век)", "CulturalAge", "holocene", 3300000, 3300, "BCE",
     "Longest period of human prehistory; defined by use of stone tools. Three-age system by C.J. Thomsen.")
-add("paleolithic", "Paleolithic / Old Stone Age (Paleolitikum / Äldre stenåldern)", "CulturalAge", "stone-age", 3300000, 10000, "BCE",
+add("paleolithic", "Paleolithic / Old Stone Age (Paleolitikum / Äldre stenåldern / Altsteinzeit / Paléolithique / Paleolítico / Paleolitico / Палеолит)", "CulturalAge", "stone-age", 3300000, 10000, "BCE",
     "Oldest division; hunter-gatherer societies; development of stone tool technology.")
 add("lower-paleolithic", "Lower Paleolithic (Äldre paleolitikum)", "CulturalAge", "paleolithic", 3300000, 300000, "BCE",
     "Homo habilis, Homo erectus; Oldowan and Acheulean tool industries.")
@@ -489,7 +489,7 @@ add("bromme-culture", "Bromme Culture (Brommekulturen)", "CulturalAge", "upper-p
     "Late Paleolithic reindeer hunters at the edge of the Scandinavian ice sheet; earliest human presence in Sweden (Scania).")
 add("ahrensburg-culture", "Ahrensburg Culture (Ahrensburgkulturen)", "CulturalAge", "upper-paleolithic", 10900, 9700, "BCE",
     "Late Paleolithic/early Mesolithic nomadic hunters from the North German Plain; migrated north via Jutland following retreating ice.")
-add("mesolithic", "Mesolithic / Middle Stone Age (Mesolitikum / Mellersta stenåldern)", "CulturalAge", "stone-age", 10000, 4000, "BCE",
+add("mesolithic", "Mesolithic / Middle Stone Age (Mesolitikum / Mellersta stenåldern / Mittelsteinzeit / Mésolithique / Mesolítico / Mesolitico / Мезолит)", "CulturalAge", "stone-age", 10000, 4000, "BCE",
     "Post-glacial; microlithic tools; Scandinavia first settled ~9500 BCE. Maglemosian, Kongemose, Ertebølle cultures.")
 add("fosna-hensbacka", "Fosna–Hensbacka Culture (Fosna–Hensbackakulturen)", "CulturalAge", "mesolithic", 8300, 7300, "BCE",
     "Early Mesolithic culture along the Norwegian and Swedish west coasts; descended from Ahrensburg tradition; coastal seal hunting and fishing.")
@@ -503,7 +503,7 @@ add("nostvet-lihult", "Nøstvet and Lihult Cultures (Nøstvetkulturen / Lihultku
     "Middle-Late Mesolithic in most of southern Norway and Sweden; descendants of Fosna-Hensbacka; polished stone axes.")
 add("ertebolleculture", "Ertebølle Culture (Ertebøllekulturen)", "CulturalAge", "mesolithic", 5400, 3950, "BCE",
     "Late Mesolithic in southern Scandinavia; first pottery, large shell middens, transition to agriculture.")
-add("neolithic", "Neolithic / New Stone Age (Neolitikum / Yngre stenåldern)", "CulturalAge", "stone-age", 4000, 2000, "BCE",
+add("neolithic", "Neolithic / New Stone Age (Neolitikum / Yngre stenåldern / Jungsteinzeit / Néolithique / Neolítico / Neolitico / Неолит)", "CulturalAge", "stone-age", 4000, 2000, "BCE",
     "Agriculture, polished stone tools, pottery, permanent settlements. Funnelbeaker culture in Scandinavia (~4000–2700 BCE).")
 add("funnelbeaker", "Funnelbeaker Culture (TRB)", "CulturalAge", "neolithic", 4000, 2700, "BCE",
     "First farming culture in Scandinavia; megalithic tombs (dolmens, passage graves); pottery with funnel-shaped rims.")
@@ -515,11 +515,11 @@ add("nordic-neolithic-late", "Late Neolithic Scandinavia (Senneolitikum)", "Cult
     "Transition to metalworking; flint daggers imitate bronze; Bell Beaker influences reach Scandinavia.")
 
 # --- Chalcolithic (Copper Age) ---
-add("chalcolithic", "Chalcolithic / Copper Age (Kopparåldern)", "CulturalAge", "holocene", 3500, 2000, "BCE",
+add("chalcolithic", "Chalcolithic / Copper Age (Kopparåldern / Kupferzeit / Chalcolithique / Calcolítico / Calcolitico / Chalkolit / Χαλκολιθική)", "CulturalAge", "holocene", 3500, 2000, "BCE",
     "Transitional period; first metalworking (copper); Ötzi the Iceman; Corded Ware culture in Northern Europe.")
 
 # --- Bronze Age ---
-add("bronze-age", "Bronze Age (Bronsåldern)", "CulturalAge", "holocene", 3300, 1200, "BCE",
+add("bronze-age", "Bronze Age (Bronsåldern / Bronzezeit / Âge du Bronze / Edad del Bronce / Età del Bronzo / Бронзовый век / Εποχή του Χαλκού)", "CulturalAge", "holocene", 3300, 1200, "BCE",
     "Defined by bronze metallurgy. Near East ~3300 BCE; Nordic Bronze Age begins ~1750 BCE.")
 add("early-bronze-age", "Early Bronze Age (Äldre bronsåldern)", "CulturalAge", "bronze-age", 3300, 2000, "BCE",
     "Near East & Mediterranean: urbanization, writing systems, first empires.")
@@ -547,7 +547,7 @@ add("montelius-vi", "Montelius Period VI (Monteliusperiod VI)", "CulturalAge", "
     "Final Bronze Age period; Hallstatt iron influence from Central Europe; transition to local iron production.")
 
 # --- Iron Age ---
-add("iron-age", "Iron Age (Järnåldern)", "CulturalAge", "holocene", 1200, 1, "BCE",
+add("iron-age", "Iron Age (Järnåldern / Eisenzeit / Âge du Fer / Edad del Hierro / Età del Ferro / Железный век / Εποχή του Σιδήρου / עת הברזל)", "CulturalAge", "holocene", 1200, 1, "BCE",
     "Defined by iron smelting and tools. Near East ~1200 BCE; Scandinavia ~500 BCE.")
 add("pre-roman-iron-age", "Pre-Roman Iron Age (Förromersk järnålder)", "CulturalAge", "iron-age", 500, 1, "BCE",
     "Iron working spreads to Scandinavia; bog ore smelting; Jastorf culture.")
@@ -589,7 +589,7 @@ add("late-viking-age", "Late Viking Age (Yngre vikingatiden)", "CulturalAge", "v
     "Christianization; end of Norse paganism; Cnut the Great's North Sea Empire.")
 
 # --- Medieval Period ---
-add("medieval-period", "Medieval Period (Medeltiden)", "CulturalAge", "holocene", 1050, 1520, "CE",
+add("medieval-period", "Medieval Period (Medeltiden / Mittelalter / Moyen Âge / Edad Media / Medioevo / Средневековье / Μεσαίωνας)", "CulturalAge", "holocene", 1050, 1520, "CE",
     "Scandinavian medieval period; Christianity dominant; Hanseatic trade; Gothic cathedrals; Black Death (1349).")
 add("early-medieval", "Early Medieval Period (Tidig medeltid)", "CulturalAge", "medieval-period", 1050, 1200, "CE",
     "Church consolidation; first Scandinavian dioceses; Romanesque architecture.")
@@ -637,12 +637,14 @@ add("classical-greece", "Classical Greece (Κλασική Ελλάδα)", "Cultu
     "Golden Age of Athens; Parthenon; Socrates, Plato, Aristotle; Athenian democracy; Peloponnesian War.")
 add("hellenistic-period", "Hellenistic Period (Ελληνιστική περίοδος)", "CulturalAge", "holocene", 323, 31, "BCE",
     "Alexander the Great's empire fragments; spread of Greek culture across Mediterranean and Near East; Library of Alexandria.")
-add("roman-republic", "Roman Republic (Res Publica Romana)", "CulturalAge", "holocene", 509, 27, "BCE",
+add("roman-republic", "Roman Republic (Res Publica Romana / Ρωμαϊκή Δημοκρατία / Roma Cumhuriyeti / Römische Republik)", "CulturalAge", "holocene", 509, 27, "BCE",
     "Roman expansion across Mediterranean; Punic Wars; Julius Caesar; transition to Empire.")
-add("roman-empire", "Roman Empire (Imperium Romanum)", "CulturalAge", "holocene", 27, 476, "CE",
+add("roman-empire", "Roman Empire (Imperium Romanum / Ρωμαϊκή Αυτοκρατορία / Roma İmparatorluğu / Römisches Reich / Империя Рима)", "CulturalAge", "holocene", 27, 476, "CE",
     "Pax Romana; peak Roman civilization; roads, aqueducts, law; Christianity becomes state religion (380 CE).")
 add("late-antiquity", "Late Antiquity (Spätantike)", "CulturalAge", "holocene", 250, 750, "CE",
     "Transition from classical to medieval; fall of Western Rome (476); rise of Christianity; Byzantine Empire continues in East.")
+add("hunnic-empire", "Hunnic Empire (Хунска империја / Hunnenreich / Birodalom hunok)", "CulturalAge", "holocene", 370, 469, "CE",
+    "Nomadic steppe empire originating in Central Asia; swept west ~370 CE displacing Germanic peoples; Attila the Hun (434-453 CE) at peak; raided Balkans and Gaul; Battle of Catalaunian Plains (451 CE); dissolved rapidly after Attila's death (453 CE); possible relation to Xiongnu (匈奴) of Chinese records.")
 add("byzantine-empire", "Byzantine Empire (Βυζαντινή Αυτοκρατορία / Byzantinska riket)", "CulturalAge", "holocene", 330, 1453, "CE",
     "Eastern Roman Empire; Constantinople capital; Justinian's Code; Hagia Sophia; Greek culture; Orthodox Christianity; fell to Ottoman Turks (1453).")
 add("byzantine-early", "Early Byzantine Period (Πρώιμη Βυζαντινή Περίοδος)", "CulturalAge", "byzantine-empire", 330, 717, "CE",
@@ -709,6 +711,8 @@ add("mycenaean-civilization", "Mycenaean Civilization (Μυκηναϊκός πο
     "First mainland Greek civilization; Linear B script; fortified palaces (Mycenae, Tiryns, Pylos); Trojan War tradition; Bronze Age collapse.")
 add("greek-dark-ages", "Greek Dark Ages (Ελληνικοί Σκοτεινοί Αιώνες)", "CulturalAge", "holocene", 1100, 800, "BCE",
     "Collapse of Mycenaean palatial civilization; loss of writing; population decline; Dorian migration; leads to Archaic Greece.")
+add("kingdom-macedon", "Kingdom of Macedon (Βασίλειο της Μακεδονίας / Makedonija / Mazedonien)", "CulturalAge", "holocene", 808, 168, "BCE",
+    "Ancient Greek kingdom in northern Greece; Argead dynasty; Philip II unified Greek city-states; Alexander the Great conquered Persia, Egypt, India (336-323 BCE); Antigonid dynasty; conquered by Rome at Battle of Pydna (168 BCE).")
 
 # --- Celtic Civilizations ---
 add("hallstatt-culture", "Hallstatt Culture (Hallstattkultur)", "CulturalAge", "holocene", 800, 450, "BCE",
@@ -1448,8 +1452,12 @@ add("mehrgarh", "Mehrgarh (مہرگڑھ Mehrgaṛh)", "CulturalAge", "south-asia
     "Neolithic site in Balochistan; one of earliest farming settlements in South Asia; precursor to Indus Valley; dentistry evidence ~7000 BCE.")
 add("indus-valley", "Indus Valley Civilization (सिन्धु घाटी सभ्यता)", "CulturalAge", "south-asia-history", 3300, 1300, "BCE",
     "Harappa, Mohenjo-daro; urban planning, drainage systems; undeciphered script; ~5 million people; one of three earliest civilizations.")
+add("indus-early", "Early Harappan Phase (प्रारंभिक हड़प्पा काल / ابتدائی ہڑپہ دور)", "CulturalAge", "indus-valley", 3300, 2600, "BCE",
+    "Pre-urban phase; small farming communities; Ravi and Kot Diji cultures; early pottery and copper tools; transition to urban phase c. 2600 BCE; sites include Rehman Dheri and Amri.")
 add("indus-mature", "Mature Harappan Phase (परिपक्व हड़प्पा काल / پختہ ہڑپہ دور)", "CulturalAge", "indus-valley", 2600, 1900, "BCE",
     "Peak of Indus civilization; standardized weights and measures; Great Bath of Mohenjo-daro; trade with Mesopotamia; citadel-lower town layout.")
+add("indus-late", "Late Harappan Phase (उत्तर हड़प्पा काल / آخری ہڑپہ دور)", "CulturalAge", "indus-valley", 1900, 1300, "BCE",
+    "Post-urban decline; abandonment of major cities; Cemetery H and Gandhara Grave cultures; localization of material culture; climate change and monsoon shifts implicated in collapse; possible continuity into early Vedic culture.")
 add("vedic-period", "Vedic Period (वैदिक काल)", "CulturalAge", "south-asia-history", 1500, 500, "BCE",
     "Composition of the Vedas (Rigveda ~1500 BCE); Sanskrit; varna system; Aryan migration debate; transition from pastoral to settled agriculture.")
 add("vedic-early", "Early Vedic Period (पूर्व वैदिक काल Pūrva Vaidika Kāl)", "CulturalAge", "vedic-period", 1500, 1000, "BCE",
@@ -1652,6 +1660,8 @@ add("southeast-asia-history", "Southeast Asian Historical Periods (ประว�
     "Maritime and mainland kingdoms; Indianization and Sinicization; spice trade; colonial era; modern ASEAN nations.")
 add("funan", "Kingdom of Funan (扶南 Fúnán / នគរភ្នំ)", "CulturalAge", "southeast-asia-history", 100, 550, "CE",
     "Earliest known Indianized kingdom in mainland Southeast Asia; Mekong Delta; maritime trade hub; Hinduism and Buddhism; Óc Eo port city.")
+add("chenla-kingdom", "Kingdom of Chenla (真臘 Zhēnlà / ចេនឡា Chenla / ប្រទេសកម្ពុជា)", "CulturalAge", "southeast-asia-history", 550, 802, "CE",
+    "Khmer predecessor state; successor to Funan in mainland Southeast Asia; fragmented c. 706 CE into Land Chenla (upper) and Water Chenla (lower); Jayavarman II unified and proclaimed devaraja (god-king), founding the Khmer Empire in 802 CE.")
 add("champa", "Kingdom of Champa (Chăm Pa / 占婆 Zhànpó)", "CulturalAge", "southeast-asia-history", 192, 1832, "CE",
     "Hindu-Buddhist kingdom in central/southern Vietnam; Cham towers (Mỹ Sơn); maritime trade; rivalry with Khmer and Đại Việt; Austronesian people.")
 add("srivijaya", "Srivijaya Empire (ศรีวิชัย / Śrīvijaya)", "CulturalAge", "southeast-asia-history", 650, 1377, "CE",
@@ -1832,7 +1842,7 @@ add("ayyubid-dynasty", "Ayyubid Dynasty (الدولة الأيوبية)", "Cultu
     "Saladin (Salah ad-Din); recaptured Jerusalem (1187); Kurdish dynasty; Egypt and Syria; chivalric reputation; succeeded by Mamluks.")
 add("mamluk-sultanate", "Mamluk Sultanate (سلطنة المماليك)", "CulturalAge", "holocene", 1250, 1517, "CE",
     "Slave-soldier dynasty ruling Egypt and Syria; defeated Mongols at Ain Jalut (1260); Cairo cultural center; Mamluk architecture; fell to Ottomans.")
-add("ottoman-empire", "Ottoman Empire (Osmanlı İmparatorluğu)", "CulturalAge", "holocene", 1299, 1922, "CE",
+add("ottoman-empire", "Ottoman Empire (Osmanlı İmparatorluğu / الدولة العثمانية / Οθωμανική Αυτοκρατορία / Osmanlı Devleti / Османска империя / Otoman İmparatorluğu)", "CulturalAge", "holocene", 1299, 1922, "CE",
     "One of longest-lasting empires; Constantinople conquered (1453); Suleiman the Magnificent; three continents; millet system; Hagia Sophia mosque; 'Sick Man of Europe'; dissolved after WWI.")
 add("ottoman-golden-age", "Ottoman Golden Age (Osmanlı İmparatorluğu'nun Yükselme Devri)", "CulturalAge", "ottoman-empire", 1453, 1566, "CE",
     "Mehmed II to Suleiman; Constantinople/Istanbul capital; Topkapi Palace; Sinan (architect); legal reforms (Kanuni); naval dominance in Mediterranean.")
