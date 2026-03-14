@@ -27,7 +27,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/hadean",
       "@type": "gts:GeochronologicEon",
       "rdfs:label": {
-        "@value": "Hadean",
+        "@value": "Hadean (Ἅιδης)",
         "@language": "en"
       },
       "skos:definition": {
@@ -43,7 +43,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/chaotian",
       "@type": "gts:GeochronologicEra",
       "rdfs:label": {
-        "@value": "Chaotian (informal)",
+        "@value": "Chaotian (informal / Χάος Cháos)",
         "@language": "en"
       },
       "skos:definition": {
@@ -62,7 +62,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/zirconian",
       "@type": "gts:GeochronologicEra",
       "rdfs:label": {
-        "@value": "Zirconian (informal)",
+        "@value": "Zirconian (informal / Zirkon, زرگون zargun)",
         "@language": "en"
       },
       "skos:definition": {
@@ -81,7 +81,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/late-heavy-bombardment",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Late Heavy Bombardment (LHB)",
+        "@value": "Late Heavy Bombardment (LHB / Ἅιδης)",
         "@language": "en"
       },
       "skos:definition": {
@@ -100,7 +100,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/archean",
       "@type": "gts:GeochronologicEon",
       "rdfs:label": {
-        "@value": "Archean",
+        "@value": "Archean (Ἀρχαῖος)",
         "@language": "en"
       },
       "skos:definition": {
@@ -116,7 +116,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/proterozoic",
       "@type": "gts:GeochronologicEon",
       "rdfs:label": {
-        "@value": "Proterozoic",
+        "@value": "Proterozoic (Πρότερος ζωή)",
         "@language": "en"
       },
       "skos:definition": {
@@ -132,7 +132,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/phanerozoic",
       "@type": "gts:GeochronologicEon",
       "rdfs:label": {
-        "@value": "Phanerozoic",
+        "@value": "Phanerozoic (Φανερός ζωή)",
         "@language": "en"
       },
       "skos:definition": {
@@ -148,7 +148,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/eoarchean",
       "@type": "gts:GeochronologicEra",
       "rdfs:label": {
-        "@value": "Eoarchean",
+        "@value": "Eoarchean (Ἠώς ἀρχαῖος)",
         "@language": "en"
       },
       "skos:definition": {
@@ -167,7 +167,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/paleoarchean",
       "@type": "gts:GeochronologicEra",
       "rdfs:label": {
-        "@value": "Paleoarchean",
+        "@value": "Paleoarchean (Παλαιός ἀρχαῖος)",
         "@language": "en"
       },
       "skos:definition": {
@@ -186,7 +186,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/mesoarchean",
       "@type": "gts:GeochronologicEra",
       "rdfs:label": {
-        "@value": "Mesoarchean",
+        "@value": "Mesoarchean (Μέσος ἀρχαῖος)",
         "@language": "en"
       },
       "skos:definition": {
@@ -205,7 +205,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/neoarchean",
       "@type": "gts:GeochronologicEra",
       "rdfs:label": {
-        "@value": "Neoarchean",
+        "@value": "Neoarchean (Νέος ἀρχαῖος)",
         "@language": "en"
       },
       "skos:definition": {
@@ -224,7 +224,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/paleoproterozoic",
       "@type": "gts:GeochronologicEra",
       "rdfs:label": {
-        "@value": "Paleoproterozoic",
+        "@value": "Paleoproterozoic (Παλαιός πρότερος)",
         "@language": "en"
       },
       "skos:definition": {
@@ -243,7 +243,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/siderian",
       "@type": "gts:GeochronologicPeriod",
       "rdfs:label": {
-        "@value": "Siderian",
+        "@value": "Siderian (σίδηρος)",
         "@language": "en"
       },
       "skos:definition": {
@@ -262,7 +262,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/rhyacian",
       "@type": "gts:GeochronologicPeriod",
       "rdfs:label": {
-        "@value": "Rhyacian",
+        "@value": "Rhyacian (ῥύαξ)",
         "@language": "en"
       },
       "skos:definition": {
@@ -281,7 +281,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/orosirian",
       "@type": "gts:GeochronologicPeriod",
       "rdfs:label": {
-        "@value": "Orosirian",
+        "@value": "Orosirian (ὀροσειρά)",
         "@language": "en"
       },
       "skos:definition": {
@@ -300,7 +300,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/statherian",
       "@type": "gts:GeochronologicPeriod",
       "rdfs:label": {
-        "@value": "Statherian",
+        "@value": "Statherian (σταθερός)",
         "@language": "en"
       },
       "skos:definition": {
@@ -319,7 +319,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/mesoproterozoic",
       "@type": "gts:GeochronologicEra",
       "rdfs:label": {
-        "@value": "Mesoproterozoic",
+        "@value": "Mesoproterozoic (Μέσος πρότερος)",
         "@language": "en"
       },
       "skos:definition": {
@@ -338,7 +338,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/calymmian",
       "@type": "gts:GeochronologicPeriod",
       "rdfs:label": {
-        "@value": "Calymmian",
+        "@value": "Calymmian (κάλυμμα)",
         "@language": "en"
       },
       "skos:definition": {
@@ -357,7 +357,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/ectasian",
       "@type": "gts:GeochronologicPeriod",
       "rdfs:label": {
-        "@value": "Ectasian",
+        "@value": "Ectasian (ἔκτασις)",
         "@language": "en"
       },
       "skos:definition": {
@@ -376,7 +376,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/stenian",
       "@type": "gts:GeochronologicPeriod",
       "rdfs:label": {
-        "@value": "Stenian",
+        "@value": "Stenian (στενός)",
         "@language": "en"
       },
       "skos:definition": {
@@ -395,7 +395,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/neoproterozoic",
       "@type": "gts:GeochronologicEra",
       "rdfs:label": {
-        "@value": "Neoproterozoic",
+        "@value": "Neoproterozoic (Νέος πρότερος)",
         "@language": "en"
       },
       "skos:definition": {
@@ -414,7 +414,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/tonian",
       "@type": "gts:GeochronologicPeriod",
       "rdfs:label": {
-        "@value": "Tonian",
+        "@value": "Tonian (τόνος)",
         "@language": "en"
       },
       "skos:definition": {
@@ -433,7 +433,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/cryogenian",
       "@type": "gts:GeochronologicPeriod",
       "rdfs:label": {
-        "@value": "Cryogenian",
+        "@value": "Cryogenian (κρύος γένεσις)",
         "@language": "en"
       },
       "skos:definition": {
@@ -452,7 +452,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/sturtian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Sturtian Glaciation",
+        "@value": "Sturtian Glaciation (Sturt River, South Australia)",
         "@language": "en"
       },
       "skos:definition": {
@@ -471,7 +471,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/marinoan",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Marinoan Glaciation",
+        "@value": "Marinoan Glaciation (Marino, South Australia)",
         "@language": "en"
       },
       "skos:definition": {
@@ -490,7 +490,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/ediacaran",
       "@type": "gts:GeochronologicPeriod",
       "rdfs:label": {
-        "@value": "Ediacaran",
+        "@value": "Ediacaran (Idiyakra)",
         "@language": "en"
       },
       "skos:definition": {
@@ -509,7 +509,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/gaskiers",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Gaskiers Glaciation",
+        "@value": "Gaskiers Glaciation (Gaskiers, Terre-Neuve)",
         "@language": "en"
       },
       "skos:definition": {
@@ -528,7 +528,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/paleozoic",
       "@type": "gts:GeochronologicEra",
       "rdfs:label": {
-        "@value": "Paleozoic",
+        "@value": "Paleozoic (Παλαιός ζωή)",
         "@language": "en"
       },
       "skos:definition": {
@@ -547,7 +547,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/cambrian",
       "@type": "gts:GeochronologicPeriod",
       "rdfs:label": {
-        "@value": "Cambrian",
+        "@value": "Cambrian (Cymru)",
         "@language": "en"
       },
       "skos:definition": {
@@ -566,7 +566,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/terreneuvian",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Terreneuvian",
+        "@value": "Terreneuvian (Terre-Neuve)",
         "@language": "en"
       },
       "skos:definition": {
@@ -585,7 +585,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/fortunian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Fortunian",
+        "@value": "Fortunian (Fortune Head)",
         "@language": "en"
       },
       "skos:definition": {
@@ -604,7 +604,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/stage2-cambrian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Cambrian Stage 2",
+        "@value": "Cambrian Stage 2 (unnamed)",
         "@language": "en"
       },
       "skos:definition": {
@@ -623,7 +623,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/epoch2-cambrian",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Cambrian Series 2",
+        "@value": "Cambrian Series 2 (unnamed)",
         "@language": "en"
       },
       "skos:definition": {
@@ -642,7 +642,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/stage3-cambrian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Cambrian Stage 3",
+        "@value": "Cambrian Stage 3 (unnamed)",
         "@language": "en"
       },
       "skos:definition": {
@@ -661,7 +661,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/stage4-cambrian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Cambrian Stage 4",
+        "@value": "Cambrian Stage 4 (unnamed)",
         "@language": "en"
       },
       "skos:definition": {
@@ -680,7 +680,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/miaolingian",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Miaolingian",
+        "@value": "Miaolingian (苗岭)",
         "@language": "en"
       },
       "skos:definition": {
@@ -699,7 +699,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/wuliuan",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Wuliuan",
+        "@value": "Wuliuan (乌溜)",
         "@language": "en"
       },
       "skos:definition": {
@@ -718,7 +718,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/drumian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Drumian",
+        "@value": "Drumian (Drum Mountains)",
         "@language": "en"
       },
       "skos:definition": {
@@ -737,7 +737,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/guzhangian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Guzhangian",
+        "@value": "Guzhangian (古丈)",
         "@language": "en"
       },
       "skos:definition": {
@@ -756,7 +756,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/furongian",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Furongian",
+        "@value": "Furongian (芙蓉)",
         "@language": "en"
       },
       "skos:definition": {
@@ -775,7 +775,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/paibian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Paibian",
+        "@value": "Paibian (排碧)",
         "@language": "en"
       },
       "skos:definition": {
@@ -794,7 +794,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/jiangshanian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Jiangshanian",
+        "@value": "Jiangshanian (江山)",
         "@language": "en"
       },
       "skos:definition": {
@@ -813,7 +813,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/stage10-cambrian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Cambrian Stage 10",
+        "@value": "Cambrian Stage 10 (unnamed)",
         "@language": "en"
       },
       "skos:definition": {
@@ -832,7 +832,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/ordovician",
       "@type": "gts:GeochronologicPeriod",
       "rdfs:label": {
-        "@value": "Ordovician",
+        "@value": "Ordovician (Ordowices)",
         "@language": "en"
       },
       "skos:definition": {
@@ -851,7 +851,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/early-ordovician",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Early Ordovician",
+        "@value": "Early Ordovician (Ordowices)",
         "@language": "en"
       },
       "skos:definition": {
@@ -870,7 +870,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/tremadocian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Tremadocian",
+        "@value": "Tremadocian (Tremadog)",
         "@language": "en"
       },
       "skos:definition": {
@@ -889,7 +889,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/floian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Floian",
+        "@value": "Floian (Flo, Hunneberg)",
         "@language": "en"
       },
       "skos:definition": {
@@ -908,7 +908,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/middle-ordovician",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Middle Ordovician",
+        "@value": "Middle Ordovician (Ordowices)",
         "@language": "en"
       },
       "skos:definition": {
@@ -927,7 +927,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/dapingian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Dapingian",
+        "@value": "Dapingian (大坪)",
         "@language": "en"
       },
       "skos:definition": {
@@ -946,7 +946,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/darriwilian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Darriwilian",
+        "@value": "Darriwilian (Darriwil)",
         "@language": "en"
       },
       "skos:definition": {
@@ -965,7 +965,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/late-ordovician",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Late Ordovician",
+        "@value": "Late Ordovician (Ordowices)",
         "@language": "en"
       },
       "skos:definition": {
@@ -984,7 +984,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/sandbian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Sandbian",
+        "@value": "Sandbian (Sandby, Öland)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1003,7 +1003,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/katian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Katian",
+        "@value": "Katian (Katy, Oklahoma)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1022,7 +1022,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/hirnantian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Hirnantian",
+        "@value": "Hirnantian (Cwm Hirnant)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1041,7 +1041,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/silurian",
       "@type": "gts:GeochronologicPeriod",
       "rdfs:label": {
-        "@value": "Silurian",
+        "@value": "Silurian (Silures)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1060,7 +1060,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/llandovery",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Llandovery",
+        "@value": "Llandovery (Llanymddyfri)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1079,7 +1079,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/rhuddanian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Rhuddanian",
+        "@value": "Rhuddanian (Cefn-cerig Rhuddan)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1098,7 +1098,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/aeronian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Aeronian",
+        "@value": "Aeronian (Cwm-coed-Aeron)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1117,7 +1117,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/telychian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Telychian",
+        "@value": "Telychian (Pen-lan-Telechi)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1136,7 +1136,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/wenlock",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Wenlock",
+        "@value": "Wenlock (Much Wenlock)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1155,7 +1155,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/sheinwoodian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Sheinwoodian",
+        "@value": "Sheinwoodian (Sheinton Brook)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1174,7 +1174,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/homerian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Homerian",
+        "@value": "Homerian (Homer, Shropshire)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1193,7 +1193,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/ludlow",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Ludlow",
+        "@value": "Ludlow (Ludlow, Shropshire)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1212,7 +1212,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/gorstian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Gorstian",
+        "@value": "Gorstian (Gorst, Shropshire)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1231,7 +1231,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/ludfordian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Ludfordian",
+        "@value": "Ludfordian (Ludford, Shropshire)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1269,7 +1269,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/devonian",
       "@type": "gts:GeochronologicPeriod",
       "rdfs:label": {
-        "@value": "Devonian",
+        "@value": "Devonian (Devon)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1288,7 +1288,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/klonk-event",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Klonk GSSP (Silurian–Devonian boundary)",
+        "@value": "Klonk GSSP (Silurian–Devonian boundary / Klonk, Česko)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1307,7 +1307,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/early-devonian",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Early Devonian",
+        "@value": "Early Devonian (Devon)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1326,7 +1326,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/lochkovian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Lochkovian",
+        "@value": "Lochkovian (Lochkov, Praha)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1345,7 +1345,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/pragian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Pragian",
+        "@value": "Pragian (Praha)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1364,7 +1364,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/emsian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Emsian",
+        "@value": "Emsian (Bad Ems)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1383,7 +1383,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/middle-devonian",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Middle Devonian",
+        "@value": "Middle Devonian (Devon)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1402,7 +1402,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/eifelian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Eifelian",
+        "@value": "Eifelian (Eifel)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1421,7 +1421,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/givetian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Givetian",
+        "@value": "Givetian (Givet)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1440,7 +1440,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/late-devonian",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Late Devonian",
+        "@value": "Late Devonian (Devon)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1459,7 +1459,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/frasnian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Frasnian",
+        "@value": "Frasnian (Frasnes-lez-Couvin)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1478,7 +1478,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/famennian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Famennian",
+        "@value": "Famennian (Famenne)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1497,7 +1497,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/carboniferous",
       "@type": "gts:GeochronologicPeriod",
       "rdfs:label": {
-        "@value": "Carboniferous",
+        "@value": "Carboniferous (carbō + ferre)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1516,7 +1516,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/mississippian",
       "@type": "gts:GeochronologicPeriod",
       "rdfs:label": {
-        "@value": "Mississippian",
+        "@value": "Mississippian (Mississippi)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1535,7 +1535,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/early-mississippian",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Early Mississippian",
+        "@value": "Early Mississippian (Mississippi)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1554,7 +1554,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/tournaisian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Tournaisian",
+        "@value": "Tournaisian (Tournai / Doornik)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1573,7 +1573,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/middle-mississippian",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Middle Mississippian",
+        "@value": "Middle Mississippian (Mississippi)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1592,7 +1592,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/visean",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Viséan",
+        "@value": "Viséan (Visé)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1611,7 +1611,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/late-mississippian",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Late Mississippian",
+        "@value": "Late Mississippian (Mississippi)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1630,7 +1630,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/serpukhovian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Serpukhovian",
+        "@value": "Serpukhovian (Серпухов)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1649,7 +1649,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/pennsylvanian",
       "@type": "gts:GeochronologicPeriod",
       "rdfs:label": {
-        "@value": "Pennsylvanian",
+        "@value": "Pennsylvanian (Pennsylvania)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1668,7 +1668,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/early-pennsylvanian",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Early Pennsylvanian",
+        "@value": "Early Pennsylvanian (Pennsylvania)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1687,7 +1687,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/bashkirian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Bashkirian",
+        "@value": "Bashkirian (Башҡортостан)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1706,7 +1706,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/middle-pennsylvanian",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Middle Pennsylvanian",
+        "@value": "Middle Pennsylvanian (Pennsylvania)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1725,7 +1725,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/moscovian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Moscovian",
+        "@value": "Moscovian (Москва)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1744,7 +1744,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/late-pennsylvanian",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Late Pennsylvanian",
+        "@value": "Late Pennsylvanian (Pennsylvania)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1763,7 +1763,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/kasimovian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Kasimovian",
+        "@value": "Kasimovian (Касимов)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1782,7 +1782,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/gzhelian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Gzhelian",
+        "@value": "Gzhelian (Гжель)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1801,7 +1801,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/permian",
       "@type": "gts:GeochronologicPeriod",
       "rdfs:label": {
-        "@value": "Permian",
+        "@value": "Permian (Пермь)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1820,7 +1820,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/cisuralian",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Cisuralian",
+        "@value": "Cisuralian (Цис-Урал)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1839,7 +1839,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/asselian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Asselian",
+        "@value": "Asselian (Ассель)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1858,7 +1858,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/sakmarian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Sakmarian",
+        "@value": "Sakmarian (Сакмара)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1877,7 +1877,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/artinskian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Artinskian",
+        "@value": "Artinskian (Артинск)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1896,7 +1896,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/kungurian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Kungurian",
+        "@value": "Kungurian (Кунгур)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1915,7 +1915,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/guadalupian",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Guadalupian",
+        "@value": "Guadalupian (Guadalupe Mountains)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1934,7 +1934,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/roadian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Roadian",
+        "@value": "Roadian (Road Canyon)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1953,7 +1953,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/wordian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Wordian",
+        "@value": "Wordian (Word Formation)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1972,7 +1972,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/capitanian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Capitanian",
+        "@value": "Capitanian (El Capitán)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1991,7 +1991,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/lopingian",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Lopingian",
+        "@value": "Lopingian (乐平 Lèpíng)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2010,7 +2010,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/wuchiapingian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Wuchiapingian",
+        "@value": "Wuchiapingian (吴家坪)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2029,7 +2029,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/changhsingian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Changhsingian",
+        "@value": "Changhsingian (长兴)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2048,7 +2048,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/mesozoic",
       "@type": "gts:GeochronologicEra",
       "rdfs:label": {
-        "@value": "Mesozoic",
+        "@value": "Mesozoic (Μέσος ζωή)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2067,7 +2067,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/triassic",
       "@type": "gts:GeochronologicPeriod",
       "rdfs:label": {
-        "@value": "Triassic",
+        "@value": "Triassic (trias)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2086,7 +2086,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/early-triassic",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Early Triassic",
+        "@value": "Early Triassic (trias)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2098,14 +2098,14 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/triassic"
       },
       "time:hasBeginning": "251.9 Ma",
-      "time:hasEnd": "247.2 Ma",
+      "time:hasEnd": "246.7 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
       "@id": "https://metadatahub.eu/data/geologic-timescale/induan",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Induan",
+        "@value": "Induan (सिन्धु / Sindh)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2117,14 +2117,14 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-triassic"
       },
       "time:hasBeginning": "251.9 Ma",
-      "time:hasEnd": "251.2 Ma",
+      "time:hasEnd": "249.9 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
       "@id": "https://metadatahub.eu/data/geologic-timescale/olenekian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Olenekian",
+        "@value": "Olenekian (Оленёк)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2135,15 +2135,15 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-triassic"
       },
-      "time:hasBeginning": "251.2 Ma",
-      "time:hasEnd": "247.2 Ma",
+      "time:hasBeginning": "249.9 Ma",
+      "time:hasEnd": "246.7 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
       "@id": "https://metadatahub.eu/data/geologic-timescale/middle-triassic",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Middle Triassic",
+        "@value": "Middle Triassic (trias)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2154,7 +2154,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/triassic"
       },
-      "time:hasBeginning": "247.2 Ma",
+      "time:hasBeginning": "246.7 Ma",
       "time:hasEnd": "237 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -2162,7 +2162,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/anisian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Anisian",
+        "@value": "Anisian (Enns / Anisus)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2173,7 +2173,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/middle-triassic"
       },
-      "time:hasBeginning": "247.2 Ma",
+      "time:hasBeginning": "246.7 Ma",
       "time:hasEnd": "242 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -2181,7 +2181,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/ladinian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Ladinian",
+        "@value": "Ladinian (Ladins)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2200,7 +2200,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/late-triassic",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Late Triassic",
+        "@value": "Late Triassic (trias)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2219,7 +2219,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/carnian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Carnian",
+        "@value": "Carnian (Karnische Alpen)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2238,7 +2238,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/norian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Norian",
+        "@value": "Norian (Noricum)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2257,7 +2257,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/rhaetian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Rhaetian",
+        "@value": "Rhaetian (Raetia)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2276,7 +2276,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/jurassic",
       "@type": "gts:GeochronologicPeriod",
       "rdfs:label": {
-        "@value": "Jurassic",
+        "@value": "Jurassic (Jura)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2295,7 +2295,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/early-jurassic",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Early Jurassic",
+        "@value": "Early Jurassic (Jura)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2314,7 +2314,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/hettangian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Hettangian",
+        "@value": "Hettangian (Hettange-Grande)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2333,7 +2333,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/sinemurian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Sinemurian",
+        "@value": "Sinemurian (Semur-en-Auxois)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2352,7 +2352,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/pliensbachian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Pliensbachian",
+        "@value": "Pliensbachian (Pliensbach)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2371,7 +2371,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/toarcian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Toarcian",
+        "@value": "Toarcian (Thouars)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2390,7 +2390,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/middle-jurassic",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Middle Jurassic",
+        "@value": "Middle Jurassic (Jura)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2409,7 +2409,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/aalenian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Aalenian",
+        "@value": "Aalenian (Aalen)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2428,7 +2428,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/bajocian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Bajocian",
+        "@value": "Bajocian (Bayeux)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2447,7 +2447,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/bathonian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Bathonian",
+        "@value": "Bathonian (Bath)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2466,7 +2466,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/callovian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Callovian",
+        "@value": "Callovian (Kellaways)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2485,7 +2485,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/late-jurassic",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Late Jurassic",
+        "@value": "Late Jurassic (Jura)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2504,7 +2504,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/oxfordian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Oxfordian",
+        "@value": "Oxfordian (Oxford)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2523,7 +2523,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/kimmeridgian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Kimmeridgian",
+        "@value": "Kimmeridgian (Kimmeridge)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2542,7 +2542,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/tithonian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Tithonian",
+        "@value": "Tithonian (Τιθωνός)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2561,7 +2561,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/cretaceous",
       "@type": "gts:GeochronologicPeriod",
       "rdfs:label": {
-        "@value": "Cretaceous",
+        "@value": "Cretaceous (creta)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2580,7 +2580,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/early-cretaceous",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Early Cretaceous",
+        "@value": "Early Cretaceous (creta)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2599,7 +2599,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/berriasian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Berriasian",
+        "@value": "Berriasian (Berrias, Ardèche)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2618,7 +2618,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/valanginian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Valanginian",
+        "@value": "Valanginian (Valangin, Neuchâtel)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2637,7 +2637,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/hauterivian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Hauterivian",
+        "@value": "Hauterivian (Hauterive, Neuchâtel)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2656,7 +2656,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/barremian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Barremian",
+        "@value": "Barremian (Barrême)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2675,7 +2675,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/aptian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Aptian",
+        "@value": "Aptian (Apt, Provence)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2694,7 +2694,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/albian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Albian",
+        "@value": "Albian (Aube / Alba)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2713,7 +2713,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/late-cretaceous",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Late Cretaceous",
+        "@value": "Late Cretaceous (creta)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2732,7 +2732,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/cenomanian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Cenomanian",
+        "@value": "Cenomanian (Le Mans / Cenomanum)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2751,7 +2751,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/turonian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Turonian",
+        "@value": "Turonian (Tours / Turones)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2770,7 +2770,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/coniacian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Coniacian",
+        "@value": "Coniacian (Cognac)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2782,14 +2782,14 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/late-cretaceous"
       },
       "time:hasBeginning": "89.8 Ma",
-      "time:hasEnd": "86.3 Ma",
+      "time:hasEnd": "85.7 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
       "@id": "https://metadatahub.eu/data/geologic-timescale/santonian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Santonian",
+        "@value": "Santonian (Saintes / Santones)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2800,7 +2800,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/late-cretaceous"
       },
-      "time:hasBeginning": "86.3 Ma",
+      "time:hasBeginning": "85.7 Ma",
       "time:hasEnd": "83.6 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -2808,7 +2808,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/campanian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Campanian",
+        "@value": "Campanian (Champagne, Charente)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2827,7 +2827,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/maastrichtian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Maastrichtian",
+        "@value": "Maastrichtian (Maastricht / Mestreech)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2846,7 +2846,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/cenozoic",
       "@type": "gts:GeochronologicEra",
       "rdfs:label": {
-        "@value": "Cenozoic",
+        "@value": "Cenozoic (Καινός ζωή)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2865,7 +2865,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/paleogene",
       "@type": "gts:GeochronologicPeriod",
       "rdfs:label": {
-        "@value": "Paleogene",
+        "@value": "Paleogene (παλαιός γένος)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2877,14 +2877,14 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/cenozoic"
       },
       "time:hasBeginning": "66 Ma",
-      "time:hasEnd": "23.03 Ma",
+      "time:hasEnd": "23.04 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
       "@id": "https://metadatahub.eu/data/geologic-timescale/paleocene",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Paleocene",
+        "@value": "Paleocene (παλαιός καινός)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2903,7 +2903,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/danian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Danian",
+        "@value": "Danian (Danmark)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2915,14 +2915,14 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/paleocene"
       },
       "time:hasBeginning": "66 Ma",
-      "time:hasEnd": "61.6 Ma",
+      "time:hasEnd": "61.66 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
       "@id": "https://metadatahub.eu/data/geologic-timescale/selandian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Selandian",
+        "@value": "Selandian (Sjælland)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2933,15 +2933,15 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/paleocene"
       },
-      "time:hasBeginning": "61.6 Ma",
-      "time:hasEnd": "59.2 Ma",
+      "time:hasBeginning": "61.66 Ma",
+      "time:hasEnd": "59.24 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
       "@id": "https://metadatahub.eu/data/geologic-timescale/thanetian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Thanetian",
+        "@value": "Thanetian (Isle of Thanet)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2952,7 +2952,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/paleocene"
       },
-      "time:hasBeginning": "59.2 Ma",
+      "time:hasBeginning": "59.24 Ma",
       "time:hasEnd": "56 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -2960,7 +2960,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/eocene",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Eocene",
+        "@value": "Eocene (ἠώς καινός)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2979,7 +2979,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/ypresian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Ypresian",
+        "@value": "Ypresian (Ieper / Ypres)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2991,14 +2991,14 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/eocene"
       },
       "time:hasBeginning": "56 Ma",
-      "time:hasEnd": "47.8 Ma",
+      "time:hasEnd": "48.07 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
       "@id": "https://metadatahub.eu/data/geologic-timescale/lutetian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Lutetian",
+        "@value": "Lutetian (Lutetia / Paris)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3009,7 +3009,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/eocene"
       },
-      "time:hasBeginning": "47.8 Ma",
+      "time:hasBeginning": "48.07 Ma",
       "time:hasEnd": "41.03 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -3017,7 +3017,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/bartonian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Bartonian",
+        "@value": "Bartonian (Barton-on-Sea)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3036,7 +3036,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/priabonian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Priabonian",
+        "@value": "Priabonian (Priabona)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3055,7 +3055,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/oligocene",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Oligocene",
+        "@value": "Oligocene (ὀλίγος καινός)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3067,14 +3067,14 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/paleogene"
       },
       "time:hasBeginning": "33.9 Ma",
-      "time:hasEnd": "23.03 Ma",
+      "time:hasEnd": "23.04 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
       "@id": "https://metadatahub.eu/data/geologic-timescale/rupelian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Rupelian",
+        "@value": "Rupelian (Rupel)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3086,14 +3086,14 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/oligocene"
       },
       "time:hasBeginning": "33.9 Ma",
-      "time:hasEnd": "27.82 Ma",
+      "time:hasEnd": "27.3 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
       "@id": "https://metadatahub.eu/data/geologic-timescale/chattian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Chattian",
+        "@value": "Chattian (Chatti / Chatten)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3104,15 +3104,15 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/oligocene"
       },
-      "time:hasBeginning": "27.82 Ma",
-      "time:hasEnd": "23.03 Ma",
+      "time:hasBeginning": "27.3 Ma",
+      "time:hasEnd": "23.04 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
       "@id": "https://metadatahub.eu/data/geologic-timescale/neogene",
       "@type": "gts:GeochronologicPeriod",
       "rdfs:label": {
-        "@value": "Neogene",
+        "@value": "Neogene (νέος γένος)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3123,7 +3123,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/cenozoic"
       },
-      "time:hasBeginning": "23.03 Ma",
+      "time:hasBeginning": "23.04 Ma",
       "time:hasEnd": "2.58 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -3131,7 +3131,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/miocene",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Miocene",
+        "@value": "Miocene (μείων καινός)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3142,7 +3142,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/neogene"
       },
-      "time:hasBeginning": "23.03 Ma",
+      "time:hasBeginning": "23.04 Ma",
       "time:hasEnd": "5.33 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -3150,7 +3150,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/aquitanian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Aquitanian",
+        "@value": "Aquitanian (Aquitaine)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3161,15 +3161,15 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/miocene"
       },
-      "time:hasBeginning": "23.03 Ma",
-      "time:hasEnd": "20.44 Ma",
+      "time:hasBeginning": "23.04 Ma",
+      "time:hasEnd": "20.45 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
       "@id": "https://metadatahub.eu/data/geologic-timescale/burdigalian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Burdigalian",
+        "@value": "Burdigalian (Bordeaux / Burdigala)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3180,7 +3180,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/miocene"
       },
-      "time:hasBeginning": "20.44 Ma",
+      "time:hasBeginning": "20.45 Ma",
       "time:hasEnd": "15.98 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -3188,7 +3188,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/langhian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Langhian",
+        "@value": "Langhian (Langhe)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3207,7 +3207,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/serravallian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Serravallian",
+        "@value": "Serravallian (Serravalle Scrivia)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3226,7 +3226,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/tortonian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Tortonian",
+        "@value": "Tortonian (Tortona)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3245,7 +3245,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/messinian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Messinian",
+        "@value": "Messinian (Messina)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3264,7 +3264,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/pliocene",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Pliocene",
+        "@value": "Pliocene (πλεῖον καινός)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3283,7 +3283,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/zanclean",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Zanclean",
+        "@value": "Zanclean (Ζάγκλη / Messina)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3302,7 +3302,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/piacenzian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Piacenzian",
+        "@value": "Piacenzian (Piacenza)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3321,7 +3321,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/quaternary",
       "@type": "gts:GeochronologicPeriod",
       "rdfs:label": {
-        "@value": "Quaternary",
+        "@value": "Quaternary (quaternarius)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3340,7 +3340,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/pleistocene",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Pleistocene",
+        "@value": "Pleistocene (πλεῖστος καινός)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3359,7 +3359,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/gelasian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Gelasian",
+        "@value": "Gelasian (γέλα)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3378,7 +3378,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/calabrian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Calabrian",
+        "@value": "Calabrian (Calabria)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3397,7 +3397,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/chibanian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Chibanian",
+        "@value": "Chibanian (千葉 Chiba)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3416,7 +3416,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/late-pleistocene",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Late Pleistocene",
+        "@value": "Late Pleistocene (πλεῖστος καινός)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3435,7 +3435,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/holocene",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Holocene",
+        "@value": "Holocene (ὅλος καινός)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3454,7 +3454,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/greenlandian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Greenlandian",
+        "@value": "Greenlandian (Kalaallit Nunaat / Grønland)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3473,7 +3473,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/northgrippian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Northgrippian",
+        "@value": "Northgrippian (NorthGRIP, Grønland)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3492,7 +3492,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/meghalayan",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Meghalayan",
+        "@value": "Meghalayan (मेघालय Meghālaya)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3511,7 +3511,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/anthropocene",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Anthropocene (informal)",
+        "@value": "Anthropocene (informal / ἄνθρωπος καινός)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6095,7 +6095,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/end-ordovician-extinction",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "End-Ordovician Extinction",
+        "@value": "End-Ordovician Extinction (Ordowices)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6114,7 +6114,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/late-devonian-extinction",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Late Devonian Extinction",
+        "@value": "Late Devonian Extinction (Devon)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6133,7 +6133,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/permian-triassic-extinction",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Permian–Triassic Extinction (The Great Dying)",
+        "@value": "Permian–Triassic Extinction (The Great Dying / Пермь–trias)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6152,7 +6152,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/triassic-jurassic-extinction",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Triassic–Jurassic Extinction",
+        "@value": "Triassic–Jurassic Extinction (trias–Jura)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6171,7 +6171,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/cretaceous-paleogene-extinction",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Cretaceous–Paleogene Extinction (K-Pg)",
+        "@value": "Cretaceous–Paleogene Extinction (K-Pg / Chicxulub, Yucatán)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6190,7 +6190,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/deccan-traps",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Deccan Traps Volcanism",
+        "@value": "Deccan Traps Volcanism (दक्खन Dakhan)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6209,7 +6209,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/great-oxidation",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Great Oxidation Event",
+        "@value": "Great Oxidation Event (GOE)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6228,7 +6228,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/huronian-glaciation",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Huronian Glaciation",
+        "@value": "Huronian Glaciation (Lake Huron)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6247,7 +6247,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/petm",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Paleocene–Eocene Thermal Maximum (PETM)",
+        "@value": "Paleocene–Eocene Thermal Maximum (PETM / παλαιός ἠώς)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6266,7 +6266,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/messinian-crisis",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Messinian Salinity Crisis",
+        "@value": "Messinian Salinity Crisis (Messina)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6285,7 +6285,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/last-glacial-max",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Last Glacial Maximum",
+        "@value": "Last Glacial Maximum (LGM)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6304,7 +6304,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/younger-dryas",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Younger Dryas",
+        "@value": "Younger Dryas (Dryas octopetala)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6323,7 +6323,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/8.2ka-event",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "8.2 ka Cold Event",
+        "@value": "8.2 ka Cold Event (Laurentide)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6342,7 +6342,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/4.2ka-event",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "4.2 ka Aridification Event",
+        "@value": "4.2 ka Aridification Event (मेघालय Meghālaya)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6361,7 +6361,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/boring-billion",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Boring Billion (Dull Billion / Mesoproterozoic Stasis)",
+        "@value": "Boring Billion (Dull Billion / Mesoproterozoic Stasis / μέσος πρότερος)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6380,7 +6380,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/toba-catastrophe",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Toba Catastrophe (~74 ka)",
+        "@value": "Toba Catastrophe (~74 ka / Toba, Sumatera)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6798,7 +6798,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/eocene-oligocene-extinction",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Eocene–Oligocene Extinction (Grande Coupure)",
+        "@value": "Eocene–Oligocene Extinction (Grande Coupure / Priabona)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6817,7 +6817,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/cambrian-explosion",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Cambrian Explosion",
+        "@value": "Cambrian Explosion (Cymru)",
         "@language": "en"
       },
       "skos:definition": {
