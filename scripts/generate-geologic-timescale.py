@@ -1069,7 +1069,7 @@ add("monte-verde", "Monte Verde (Monteverde)", "CulturalAge", "south-america-pre
     "Southern Chile; pre-Clovis archaeological site; evidence of human habitation ~14,800 BCE; challenges Clovis-first model; seaweed, mastodon remains; Tom Dillehay excavations.")
 add("paleo-indians", "Paleo-Indian Period (Período Paleoindio)", "CulturalAge", "north-america-precolumbian", 15000, 8000, "BCE",
     "First peoples of the Americas; Clovis culture (~13,000 BP); mammoth and megafauna hunters; Folsom points; Beringia land bridge migration.")
-add("clovis-culture", "Clovis Culture (Cultura Clovis)", "CulturalAge", "paleo-indians", 11500, 10800, "BCE",
+add("clovis-culture", "Clovis Culture (Cultura Clovis)", "CulturalAge", "paleo-indians", 11050, 10750, "BCE",
     "Distinctive fluted projectile points; widespread across North America; associated with Pleistocene megafauna hunting; Blackwater Draw type site.")
 add("folsom-culture", "Folsom Culture (Cultura Folsom)", "CulturalAge", "paleo-indians", 10800, 10200, "BCE",
     "Post-Clovis bison hunters on Great Plains; refined fluted points; Folsom, New Mexico type site; megafauna extinction.")
@@ -1091,8 +1091,8 @@ add("olmec", "Olmec Civilization (Ōlmēcah)", "CulturalAge", "mesoamerica", 150
     "Mother culture of Mesoamerica; colossal stone heads; San Lorenzo and La Venta; first Mesoamerican writing and calendar; rubber ball game.")
 add("zapotec", "Zapotec Civilization (Binnizá)", "CulturalAge", "mesoamerica", 700, 1521, "BCE-CE",
     "Oaxaca Valley, Mexico; Monte Albán capital; earliest Mesoamerican writing system; 2,500-year continuous culture.")
-add("teotihuacan", "Teotihuacán (Teōtīhuacān)", "CulturalAge", "mesoamerica", 100, 550, "CE",
-    "Largest city in pre-Columbian Americas (~125,000 people); Pyramids of the Sun and Moon; Avenue of the Dead; influence across Mesoamerica.")
+add("teotihuacan", "Teotihuacán (Teōtīhuacān)", "CulturalAge", "mesoamerica", 100, 750, "CE",
+    "Largest city in pre-Columbian Americas (~125,000 people); Pyramids of the Sun and Moon; Avenue of the Dead; major fire ~550 CE; final abandonment ~750 CE.")
 add("maya-classic", "Classic Maya Civilization (Maaya)", "CulturalAge", "mesoamerica", 250, 900, "CE",
     "City-states across Yucatán, Guatemala, Belize; hieroglyphic writing; Long Count calendar; Tikal, Palenque, Copán; mysterious collapse ~900 CE.")
 add("maya-preclassic", "Preclassic Maya (Maya Preclásico)", "CulturalAge", "mesoamerica", 2000, 250, "BCE-CE",
@@ -1961,8 +1961,8 @@ add("polynesia-history", "Polynesian Civilizations (Polynesiska civilisationer)"
     "Greatest maritime expansion in human history; settled Pacific from Tonga/Samoa to Hawaiʻi, Easter Island, New Zealand; navigation by stars, currents, birds.")
 add("polynesia-ancestral", "Ancestral Polynesia (Tonga & Samoa)", "CulturalAge", "polynesia-history", 1500, 200, "BCE",
     "Tonga settled ~1500 BCE, Samoa ~1000 BCE; development of Polynesian culture, language, navigation; chiefdom societies; kava traditions.")
-add("polynesia-expansion", "Polynesian Expansion (Te Hekenga-ā-Polynesia)", "CulturalAge", "polynesia-history", 200, 1200, "CE",
-    "Long-pause then rapid expansion; Marquesas (~300 CE), Hawaiʻi (~1000 CE), Rapa Nui (~1200 CE); double-hulled canoes; star navigation.")
+add("polynesia-expansion", "Polynesian Expansion (Te Hekenga-ā-Polynesia)", "CulturalAge", "polynesia-history", 300, 1300, "CE",
+    "Rapid expansion into Eastern Polynesia; Marquesas (~300 CE), Hawaiʻi (~1000 CE), Rapa Nui (~1200 CE), Aotearoa (~1250 CE); double-hulled canoes; star navigation.")
 add("rapa-nui", "Rapa Nui (Easter Island)", "CulturalAge", "polynesia-history", 1200, 1722, "CE",
     "Moai statues (~900 carved); ahu platforms; rongorongo script (undeciphered); ecological transformation; European contact (1722).")
 add("cook-islands-settlement", "Cook Islands Settlement (Kūki 'Āirani)", "CulturalAge", "polynesia-history", 800, 1595, "CE",

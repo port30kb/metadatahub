@@ -4867,8 +4867,8 @@ ts:clovis-culture a gts:GeochronologicAge ;
     skos:definition "Distinctive fluted projectile points; widespread across North America; associated with Pleistocene megafauna hunting; Blackwater Draw type site."@en ;
     gts:rank "CulturalAge" ;
     skos:broader ts:paleo-indians ;
-    time:hasBeginning [ rdfs:label "11500 BCE" ] ;
-    time:hasEnd [ rdfs:label "10800 BCE" ] ;
+    time:hasBeginning [ rdfs:label "11050 BCE" ] ;
+    time:hasEnd [ rdfs:label "10750 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 440/852: Folsom Culture (Cultura Folsom) (CulturalAge) ──
@@ -4974,11 +4974,11 @@ ts:zapotec a gts:GeochronologicAge ;
 ts:teotihuacan a gts:GeochronologicAge ;
     rdfs:label "Teotihuacán (Teōtīhuacān)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
-    skos:definition "Largest city in pre-Columbian Americas (~125,000 people); Pyramids of the Sun and Moon; Avenue of the Dead; influence across Mesoamerica."@en ;
+    skos:definition "Largest city in pre-Columbian Americas (~125,000 people); Pyramids of the Sun and Moon; Avenue of the Dead; major fire ~550 CE; final abandonment ~750 CE."@en ;
     gts:rank "CulturalAge" ;
     skos:broader ts:mesoamerica ;
     time:hasBeginning [ rdfs:label "100 CE" ] ;
-    time:hasEnd [ rdfs:label "550 CE" ] ;
+    time:hasEnd [ rdfs:label "750 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 450/852: Classic Maya Civilization (Maaya) (CulturalAge) ──
@@ -9187,11 +9187,11 @@ ts:polynesia-ancestral a gts:GeochronologicAge ;
 ts:polynesia-expansion a gts:GeochronologicAge ;
     rdfs:label "Polynesian Expansion (Te Hekenga-ā-Polynesia)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
-    skos:definition "Long-pause then rapid expansion; Marquesas (~300 CE), Hawaiʻi (~1000 CE), Rapa Nui (~1200 CE); double-hulled canoes; star navigation."@en ;
+    skos:definition "Rapid expansion into Eastern Polynesia; Marquesas (~300 CE), Hawaiʻi (~1000 CE), Rapa Nui (~1200 CE), Aotearoa (~1250 CE); double-hulled canoes; star navigation."@en ;
     gts:rank "CulturalAge" ;
     skos:broader ts:polynesia-history ;
-    time:hasBeginning [ rdfs:label "200 CE" ] ;
-    time:hasEnd [ rdfs:label "1200 CE" ] ;
+    time:hasBeginning [ rdfs:label "300 CE" ] ;
+    time:hasEnd [ rdfs:label "1300 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 833/852: Rapa Nui (Easter Island) (CulturalAge) ──

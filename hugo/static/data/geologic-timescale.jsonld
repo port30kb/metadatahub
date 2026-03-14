@@ -8348,8 +8348,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/paleo-indians"
       },
-      "time:hasBeginning": "11500 BCE",
-      "time:hasEnd": "10800 BCE",
+      "time:hasBeginning": "11050 BCE",
+      "time:hasEnd": "10750 BCE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -8531,7 +8531,7 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Largest city in pre-Columbian Americas (~125,000 people); Pyramids of the Sun and Moon; Avenue of the Dead; influence across Mesoamerica.",
+        "@value": "Largest city in pre-Columbian Americas (~125,000 people); Pyramids of the Sun and Moon; Avenue of the Dead; major fire ~550 CE; final abandonment ~750 CE.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
@@ -8539,7 +8539,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/mesoamerica"
       },
       "time:hasBeginning": "100 CE",
-      "time:hasEnd": "550 CE",
+      "time:hasEnd": "750 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -15808,15 +15808,15 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Long-pause then rapid expansion; Marquesas (~300 CE), Hawaiʻi (~1000 CE), Rapa Nui (~1200 CE); double-hulled canoes; star navigation.",
+        "@value": "Rapid expansion into Eastern Polynesia; Marquesas (~300 CE), Hawaiʻi (~1000 CE), Rapa Nui (~1200 CE), Aotearoa (~1250 CE); double-hulled canoes; star navigation.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/polynesia-history"
       },
-      "time:hasBeginning": "200 CE",
-      "time:hasEnd": "1200 CE",
+      "time:hasBeginning": "300 CE",
+      "time:hasEnd": "1300 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
