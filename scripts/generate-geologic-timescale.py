@@ -534,9 +534,9 @@ add("nordic-bronze-early", "Early Nordic Bronze Age / Period I–III (Äldre bro
 add("montelius-i", "Montelius Period I", "CulturalAge", "nordic-bronze-early", 1700, 1500, "BCE",
     "Earliest Nordic Bronze Age; first bronze imports; flint daggers gradually replaced by bronze weapons.")
 add("montelius-ii", "Montelius Period II", "CulturalAge", "nordic-bronze-early", 1500, 1300, "BCE",
-    "Peak of early bronze wealth; Egtved Girl burial (1370 BCE); elaborate spiral ornaments and fibulae.")
+    "Peak of early bronze wealth; Egtved Girl burial (1370 BCE); Trundholm sun chariot (~1400 BCE); elaborate spiral ornaments and fibulae.")
 add("montelius-iii", "Montelius Period III", "CulturalAge", "nordic-bronze-early", 1300, 1100, "BCE",
-    "Trundholm sun chariot; oak coffin burials; extensive amber trade networks with Mediterranean.")
+    "Skrydstrup Woman burial; oak coffin burials continue; extensive amber trade networks with Mediterranean.")
 add("nordic-bronze-late", "Late Nordic Bronze Age / Period IV–VI (Yngre bronsåldern)", "CulturalAge", "nordic-bronze-age", 1100, 500, "BCE",
     "Cremation replaces inhumation; lur horns; rock carvings peak; declining bronze imports.")
 add("montelius-iv", "Montelius Period IV", "CulturalAge", "nordic-bronze-late", 1100, 900, "BCE",
@@ -563,7 +563,7 @@ add("early-roman-iron", "Early Roman Iron Age", "CulturalAge", "roman-iron-age",
     "Increasing trade with Roman provinces; imported bronze vessels; first runic inscriptions.")
 add("late-roman-iron", "Late Roman Iron Age", "CulturalAge", "roman-iron-age", 200, 400, "CE",
     "Gold solidi flow north; Nydam boat (320 CE); elaborate weapon deposits in bogs.")
-add("germanic-iron-age", "Germanic Iron Age (Germansk järnålder)", "CulturalAge", "holocene", 400, 790, "CE",
+add("germanic-iron-age", "Germanic Iron Age (Germansk järnålder)", "CulturalAge", "holocene", 375, 790, "CE",
     "Post-Roman period in Scandinavia; divided into Early (Migration Period) and Late (Vendel/Merovingian) by Oscar Montelius.")
 add("migration-period", "Migration Period (Folkvandringstiden / Völkerwanderung)", "CulturalAge", "germanic-iron-age", 375, 550, "CE",
     "Fall of Western Rome; Germanic peoples migrate across Europe; gold bracteates and collars in Scandinavia.")
@@ -583,19 +583,19 @@ add("viking-age", "Viking Age (Vikingatiden)", "CulturalAge", "holocene", 790, 1
     "Norse expansion, raiding, trading, and settlement; Birka, Hedeby; Christianization of Scandinavia.")
 add("early-viking-age", "Early Viking Age (Äldre vikingatiden)", "CulturalAge", "viking-age", 790, 900, "CE",
     "Raid on Lindisfarne (793); establishment of Norse trading centers; Oseberg ship burial.")
-add("middle-viking-age", "Middle Viking Age (Mellersta vikingatiden)", "CulturalAge", "viking-age", 900, 1000, "CE",
+add("middle-viking-age", "Middle Viking Age (Mellersta vikingatiden)", "CulturalAge", "viking-age", 865, 1000, "CE",
     "Danelaw in England; Normandy settled; Icelandic settlement; Bluetooth's Denmark.")
 add("late-viking-age", "Late Viking Age (Yngre vikingatiden)", "CulturalAge", "viking-age", 1000, 1100, "CE",
     "Christianization; end of Norse paganism; Cnut the Great's North Sea Empire.")
 
 # --- Medieval Period ---
-add("medieval-period", "Medieval Period (Medeltiden)", "CulturalAge", "holocene", 1050, 1520, "CE",
+add("medieval-period", "Medieval Period (Medeltiden)", "CulturalAge", "holocene", 960, 1520, "CE",
     "Scandinavian medieval period; Christianity dominant; Hanseatic trade; Gothic cathedrals; Black Death (1349).")
-add("early-medieval", "Early Medieval Period (Tidig medeltid)", "CulturalAge", "medieval-period", 1050, 1200, "CE",
+add("early-medieval", "Early Medieval Period (Tidig medeltid)", "CulturalAge", "medieval-period", 960, 1200, "CE",
     "Church consolidation; first Scandinavian dioceses; Romanesque architecture.")
 add("high-medieval", "High Medieval Period (Högmedeltiden)", "CulturalAge", "medieval-period", 1200, 1350, "CE",
     "Hanseatic League; Gothic architecture; Kalmar Union precursors; population growth.")
-add("late-medieval", "Late Medieval Period (Senmedeltiden)", "CulturalAge", "medieval-period", 1350, 1520, "CE",
+add("late-medieval", "Late Medieval Period (Senmedeltiden)", "CulturalAge", "medieval-period", 1349, 1520, "CE",
     "Black Death aftermath; Kalmar Union (1397); Reformation approaches.")
 
 # --- Early Modern ---
@@ -617,8 +617,8 @@ add("gustavian-era", "Gustavian Era (Gustavianska tiden)", "CulturalAge", "early
     "Gustav III's coup restores royal power; patron of arts; Royal Opera and Royal Dramatic Theatre founded; assassinated 1792.")
 
 # --- Modern Period ---
-add("modern-period", "Modern Period (Moderna tiden)", "CulturalAge", "holocene", 1789, 0, "CE",
-    "French Revolution to present; industrialization, nation-states, globalization.")
+add("modern-period", "Modern Period (Moderna tiden)", "CulturalAge", "holocene", 1765, 0, "CE",
+    "Age of revolutions to present; industrialization, nation-states, globalization.")
 add("bernadotte-era", "Bernadotte Era / Union Period", "CulturalAge", "modern-period", 1809, 1905, "CE",
     "New constitution (1809); French Marshal Bernadotte becomes Crown Prince (1810); Sweden-Norway union (1814–1905); loss of Finland to Russia.")
 add("industrial-age", "Industrial Age (Industrialiseringen)", "CulturalAge", "modern-period", 1850, 1914, "CE",
@@ -653,7 +653,7 @@ add("byzantine-late", "Late Byzantine Period", "CulturalAge", "byzantine-empire"
     "Fourth Crusade sacks Constantinople (1204); Latin Empire; Palaiologos restoration (1261); decline; Fall of Constantinople (1453) ends Roman continuity.")
 
 # --- European Middle Ages (continental) ---
-add("european-early-medieval", "Early Middle Ages (Europe)", "CulturalAge", "holocene", 500, 1000, "CE",
+add("european-early-medieval", "Early Middle Ages (Europe)", "CulturalAge", "holocene", 481, 1000, "CE",
     "Dark Ages; Merovingian and Carolingian kingdoms; spread of Christianity; feudalism develops.")
 add("merovingian-period", "Merovingian Period (Frankish)", "CulturalAge", "european-early-medieval", 481, 751, "CE",
     "Merovingian dynasty rules Frankish kingdoms; Clovis I converts to Christianity; foundation of medieval France.")
@@ -1020,7 +1020,7 @@ add("falklands-war", "Falklands War (Malvinas)", "CulturalAge", "south-america-2
 # --- 21st Century & Contemporary ---
 add("south-america-21st", "21st-Century South America", "CulturalAge", "contemporary", 2000, 0, "CE",
     "Pink tide leftist governments; commodity boom; democratic consolidation; Mercosur and UNASUR; environmental challenges in Amazon.")
-add("pink-tide", "Pink Tide (Marea Rosa)", "CulturalAge", "south-america-21st", 1998, 2015, "CE",
+add("pink-tide", "Pink Tide (Marea Rosa)", "CulturalAge", "contemporary", 1998, 2015, "CE",
     "Wave of left-wing governments: Chávez (Venezuela), Lula (Brazil), Morales (Bolivia), Correa (Ecuador), Kirchner (Argentina); social programs, resource nationalism.")
 
 # ═══════════════════════════════════════════════════════════════
@@ -1068,7 +1068,7 @@ add("toltec", "Toltec Empire", "CulturalAge", "mesoamerica", 900, 1168, "CE",
     "Tula as capital; warrior culture; Quetzalcoatl legend; influence on Aztec ideology; feathered serpent imagery.")
 add("aztec-empire", "Aztec Empire / Triple Alliance (Huēy Tlahtohcāyōtl)", "CulturalAge", "mesoamerica", 1428, 1521, "CE",
     "Tenochtitlán on Lake Texcoco (~200,000 people); Mexica Triple Alliance; human sacrifice; chinampas; conquered by Cortés 1521.")
-add("aztec-rise", "Rise of the Aztecs", "CulturalAge", "aztec-empire", 1325, 1428, "CE",
+add("aztec-rise", "Rise of the Aztecs", "CulturalAge", "mesoamerica", 1325, 1428, "CE",
     "Founding of Tenochtitlán (1325); Mexica as mercenaries and vassals; Triple Alliance formed with Texcoco and Tlacopan (1428).")
 add("aztec-expansion", "Aztec Imperial Expansion", "CulturalAge", "aztec-empire", 1428, 1502, "CE",
     "Itzcoatl, Moctezuma I, Ahuitzotl expand empire from Gulf to Pacific; flower wars; tribute system; Great Temple of Tenochtitlán.")
@@ -1428,7 +1428,7 @@ add("mau-mau-uprising", "Mau Mau Uprising", "CulturalAge", "colonial-africa", 19
     "Kikuyu-led rebellion against British rule in Kenya; detention camps; Jomo Kenyatta; catalyst for Kenyan independence (1963).")
 add("african-independence", "African Independence Movements", "CulturalAge", "contemporary", 1951, 1994, "CE",
     "Wave of decolonization; Ghana first sub-Saharan (1957, Nkrumah); Year of Africa (1960, 17 nations); last: South Africa apartheid ends (1994).")
-add("pan-africanism", "Pan-African Movement", "CulturalAge", "contemporary", 1900, 1963, "CE",
+add("pan-africanism", "Pan-African Movement", "CulturalAge", "modern-period", 1900, 1963, "CE",
     "Du Bois, Garvey, Nkrumah, Nyerere; Pan-African Congresses; négritude; Organization of African Unity founded (1963); African unity ideology.")
 add("apartheid", "Apartheid South Africa", "CulturalAge", "contemporary", 1948, 1994, "CE",
     "Institutionalized racial segregation; ANC resistance; Sharpeville (1960); Soweto (1976); Mandela imprisoned 27 years; free elections 1994.")
@@ -1867,9 +1867,9 @@ add("nabataean-kingdom", "Nabataean Kingdom (المملكة النبطية)", "C
     "Arab kingdom centered on Petra (UNESCO); water engineering masters; controlled incense trade routes; Al-Khazneh; annexed by Rome as Arabia Petraea.")
 
 # --- Caucasus ---
-add("kingdom-of-armenia", "Kingdom of Armenia (Հայաստանի Թագավորություն))", "CulturalAge", "holocene", 331, 428, "BCE-CE",
+add("kingdom-of-armenia", "Kingdom of Armenia (Հայաստանի Թագավորություն)", "CulturalAge", "holocene", 331, 428, "BCE-CE",
     "Orontid, Artaxiad, Arsacid dynasties; Tigranes the Great; first nation to adopt Christianity (301 CE); bridge between Roman and Persian worlds.")
-add("cilician-armenia", "Cilician Armenia (Կիլիկիա Հայոց Թագավորություն))", "CulturalAge", "holocene", 1080, 1375, "CE",
+add("cilician-armenia", "Cilician Armenia (Կիլիկիա Հայոց Թագավորություն)", "CulturalAge", "holocene", 1080, 1375, "CE",
     "Armenian kingdom-in-exile; key Crusader ally; last Christian state in Levant; major trade hub (port of Ayas); fell to Mamluks 1375.")
 add("kingdom-of-georgia", "Kingdom of Georgia (საქართველოს სამეფო)", "CulturalAge", "holocene", 1008, 1490, "CE",
     "David IV the Builder and Queen Tamar; dominant Caucasian Christian power; pan-Caucasian empire; Shota Rustaveli's 'The Knight in the Panther's Skin'.")
@@ -1896,7 +1896,7 @@ add("torres-strait-islanders", "Torres Strait Islander Culture", "CulturalAge", 
     "Melanesian peoples of Torres Strait Islands; distinct from Aboriginal Australians; seafaring; horticulture; Tombstone Opening ceremonies; star lore navigation.")
 add("australian-colonial", "Colonial Australia", "CulturalAge", "oceania-history", 1788, 1901, "CE",
     "First Fleet (1788); penal colony; frontier wars; gold rushes (1850s); pastoralism; Stolen Generations begin; six colonies; White Australia policy roots.")
-add("australian-federation", "Federation and Modern Australia", "CulturalAge", "contemporary", 1901, 0, "CE",
+add("australian-federation", "Federation and Modern Australia", "CulturalAge", "modern-period", 1901, 0, "CE",
     "Commonwealth of Australia (1901); Gallipoli (1915); White Australia policy (ended 1973); Mabo decision (1992); Sorry Day; multiculturalism.")
 
 # --- Melanesia ---
@@ -1954,7 +1954,7 @@ add("maori-classic", "Classic Māori Period", "CulturalAge", "aotearoa-history",
     "Elaborate pā fortifications; whakairo (carving); tā moko (tattoo); haka; complex tribal (iwi) society; inter-tribal warfare; greenstone (pounamu) trade.")
 add("new-zealand-colonial", "Colonial New Zealand", "CulturalAge", "aotearoa-history", 1769, 1907, "CE",
     "Cook arrives (1769); sealers, whalers; Musket Wars; Treaty of Waitangi (1840); New Zealand Wars (1845-72); gold rushes; Dominion status (1907).")
-add("new-zealand-modern", "Modern New Zealand", "CulturalAge", "contemporary", 1907, 0, "CE",
+add("new-zealand-modern", "Modern New Zealand", "CulturalAge", "modern-period", 1907, 0, "CE",
     "Women's suffrage (1893, first nation); Gallipoli; welfare state; Māori Renaissance; nuclear-free (1987); Treaty settlements; multicultural Aotearoa.")
 
 # --- Colonial & Modern Pacific ---

@@ -4047,7 +4047,7 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Peak of early bronze wealth; Egtved Girl burial (1370 BCE); elaborate spiral ornaments and fibulae.",
+        "@value": "Peak of early bronze wealth; Egtved Girl burial (1370 BCE); Trundholm sun chariot (~1400 BCE); elaborate spiral ornaments and fibulae.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
@@ -4066,7 +4066,7 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Trundholm sun chariot; oak coffin burials; extensive amber trade networks with Mediterranean.",
+        "@value": "Skrydstrup Woman burial; oak coffin burials continue; extensive amber trade networks with Mediterranean.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
@@ -4301,7 +4301,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
       },
-      "time:hasBeginning": "400 CE",
+      "time:hasBeginning": "375 CE",
       "time:hasEnd": "790 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -4472,7 +4472,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/viking-age"
       },
-      "time:hasBeginning": "900 CE",
+      "time:hasBeginning": "865 CE",
       "time:hasEnd": "1000 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -4510,7 +4510,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
       },
-      "time:hasBeginning": "1050 CE",
+      "time:hasBeginning": "960 CE",
       "time:hasEnd": "1520 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -4529,7 +4529,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/medieval-period"
       },
-      "time:hasBeginning": "1050 CE",
+      "time:hasBeginning": "960 CE",
       "time:hasEnd": "1200 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -4567,7 +4567,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/medieval-period"
       },
-      "time:hasBeginning": "1350 CE",
+      "time:hasBeginning": "1349 CE",
       "time:hasEnd": "1520 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -4731,14 +4731,14 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "French Revolution to present; industrialization, nation-states, globalization.",
+        "@value": "Age of revolutions to present; industrialization, nation-states, globalization.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
       },
-      "time:hasBeginning": "1789 CE",
+      "time:hasBeginning": "1765 CE",
       "time:hasEnd": "Present",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -5004,7 +5004,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
       },
-      "time:hasBeginning": "500 CE",
+      "time:hasBeginning": "481 CE",
       "time:hasEnd": "1000 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -7947,7 +7947,7 @@
       },
       "gts:rank": "CulturalAge",
       "skos:broader": {
-        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-21st"
+        "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary"
       },
       "time:hasBeginning": "1998 CE",
       "time:hasEnd": "2015 CE",
@@ -8327,7 +8327,7 @@
       },
       "gts:rank": "CulturalAge",
       "skos:broader": {
-        "@id": "https://metadatahub.eu/data/geologic-timescale/aztec-empire"
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mesoamerica"
       },
       "time:hasBeginning": "1325 CE",
       "time:hasEnd": "1428 CE",
@@ -11291,7 +11291,7 @@
       },
       "gts:rank": "CulturalAge",
       "skos:broader": {
-        "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary"
+        "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period"
       },
       "time:hasBeginning": "1900 CE",
       "time:hasEnd": "1963 CE",
@@ -15025,7 +15025,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/kingdom-of-armenia",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Kingdom of Armenia (Հայաստանի Թագավորություն))",
+        "@value": "Kingdom of Armenia (Հայաստանի Թագավորություն)",
         "@language": "en"
       },
       "skos:definition": {
@@ -15044,7 +15044,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/cilician-armenia",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Cilician Armenia (Կիլիկիա Հայոց Թագավորություն))",
+        "@value": "Cilician Armenia (Կիլիկիա Հայոց Թագավորություն)",
         "@language": "en"
       },
       "skos:definition": {
@@ -15243,7 +15243,7 @@
       },
       "gts:rank": "CulturalAge",
       "skos:broader": {
-        "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary"
+        "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period"
       },
       "time:hasBeginning": "1901 CE",
       "time:hasEnd": "Present",
@@ -15718,7 +15718,7 @@
       },
       "gts:rank": "CulturalAge",
       "skos:broader": {
-        "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary"
+        "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period"
       },
       "time:hasBeginning": "1907 CE",
       "time:hasEnd": "Present",

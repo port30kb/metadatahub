@@ -2378,7 +2378,7 @@ ts:montelius-i a gts:GeochronologicAge ;
 ts:montelius-ii a gts:GeochronologicAge ;
     rdfs:label "Montelius Period II"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
-    skos:definition "Peak of early bronze wealth; Egtved Girl burial (1370 BCE); elaborate spiral ornaments and fibulae."@en ;
+    skos:definition "Peak of early bronze wealth; Egtved Girl burial (1370 BCE); Trundholm sun chariot (~1400 BCE); elaborate spiral ornaments and fibulae."@en ;
     gts:rank "CulturalAge" ;
     skos:broader ts:nordic-bronze-early ;
     time:hasBeginning [ rdfs:label "1500 BCE" ] ;
@@ -2389,7 +2389,7 @@ ts:montelius-ii a gts:GeochronologicAge ;
 ts:montelius-iii a gts:GeochronologicAge ;
     rdfs:label "Montelius Period III"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
-    skos:definition "Trundholm sun chariot; oak coffin burials; extensive amber trade networks with Mediterranean."@en ;
+    skos:definition "Skrydstrup Woman burial; oak coffin burials continue; extensive amber trade networks with Mediterranean."@en ;
     gts:rank "CulturalAge" ;
     skos:broader ts:nordic-bronze-early ;
     time:hasBeginning [ rdfs:label "1300 BCE" ] ;
@@ -2524,7 +2524,7 @@ ts:germanic-iron-age a gts:GeochronologicAge ;
     skos:definition "Post-Roman period in Scandinavia; divided into Early (Migration Period) and Late (Vendel/Merovingian) by Oscar Montelius."@en ;
     gts:rank "CulturalAge" ;
     skos:broader ts:holocene ;
-    time:hasBeginning [ rdfs:label "400 CE" ] ;
+    time:hasBeginning [ rdfs:label "375 CE" ] ;
     time:hasEnd [ rdfs:label "790 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
@@ -2623,7 +2623,7 @@ ts:middle-viking-age a gts:GeochronologicAge ;
     skos:definition "Danelaw in England; Normandy settled; Icelandic settlement; Bluetooth's Denmark."@en ;
     gts:rank "CulturalAge" ;
     skos:broader ts:viking-age ;
-    time:hasBeginning [ rdfs:label "900 CE" ] ;
+    time:hasBeginning [ rdfs:label "865 CE" ] ;
     time:hasEnd [ rdfs:label "1000 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
@@ -2645,7 +2645,7 @@ ts:medieval-period a gts:GeochronologicAge ;
     skos:definition "Scandinavian medieval period; Christianity dominant; Hanseatic trade; Gothic cathedrals; Black Death (1349)."@en ;
     gts:rank "CulturalAge" ;
     skos:broader ts:holocene ;
-    time:hasBeginning [ rdfs:label "1050 CE" ] ;
+    time:hasBeginning [ rdfs:label "960 CE" ] ;
     time:hasEnd [ rdfs:label "1520 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
@@ -2656,7 +2656,7 @@ ts:early-medieval a gts:GeochronologicAge ;
     skos:definition "Church consolidation; first Scandinavian dioceses; Romanesque architecture."@en ;
     gts:rank "CulturalAge" ;
     skos:broader ts:medieval-period ;
-    time:hasBeginning [ rdfs:label "1050 CE" ] ;
+    time:hasBeginning [ rdfs:label "960 CE" ] ;
     time:hasEnd [ rdfs:label "1200 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
@@ -2678,7 +2678,7 @@ ts:late-medieval a gts:GeochronologicAge ;
     skos:definition "Black Death aftermath; Kalmar Union (1397); Reformation approaches."@en ;
     gts:rank "CulturalAge" ;
     skos:broader ts:medieval-period ;
-    time:hasBeginning [ rdfs:label "1350 CE" ] ;
+    time:hasBeginning [ rdfs:label "1349 CE" ] ;
     time:hasEnd [ rdfs:label "1520 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
@@ -2774,10 +2774,10 @@ ts:gustavian-era a gts:GeochronologicAge ;
 ts:modern-period a gts:GeochronologicAge ;
     rdfs:label "Modern Period (Moderna tiden)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
-    skos:definition "French Revolution to present; industrialization, nation-states, globalization."@en ;
+    skos:definition "Age of revolutions to present; industrialization, nation-states, globalization."@en ;
     gts:rank "CulturalAge" ;
     skos:broader ts:holocene ;
-    time:hasBeginning [ rdfs:label "1789 CE" ] ;
+    time:hasBeginning [ rdfs:label "1765 CE" ] ;
     time:hasEnd [ rdfs:label "Present" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
@@ -2931,7 +2931,7 @@ ts:european-early-medieval a gts:GeochronologicAge ;
     skos:definition "Dark Ages; Merovingian and Carolingian kingdoms; spread of Christianity; feudalism develops."@en ;
     gts:rank "CulturalAge" ;
     skos:broader ts:holocene ;
-    time:hasBeginning [ rdfs:label "500 CE" ] ;
+    time:hasBeginning [ rdfs:label "481 CE" ] ;
     time:hasEnd [ rdfs:label "1000 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
@@ -4635,7 +4635,7 @@ ts:pink-tide a gts:GeochronologicAge ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Wave of left-wing governments: Chávez (Venezuela), Lula (Brazil), Morales (Bolivia), Correa (Ecuador), Kirchner (Argentina); social programs, resource nationalism."@en ;
     gts:rank "CulturalAge" ;
-    skos:broader ts:south-america-21st ;
+    skos:broader ts:contemporary ;
     time:hasBeginning [ rdfs:label "1998 CE" ] ;
     time:hasEnd [ rdfs:label "2015 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
@@ -4855,7 +4855,7 @@ ts:aztec-rise a gts:GeochronologicAge ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Founding of Tenochtitlán (1325); Mexica as mercenaries and vassals; Triple Alliance formed with Texcoco and Tlacopan (1428)."@en ;
     gts:rank "CulturalAge" ;
-    skos:broader ts:aztec-empire ;
+    skos:broader ts:mesoamerica ;
     time:hasBeginning [ rdfs:label "1325 CE" ] ;
     time:hasEnd [ rdfs:label "1428 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
@@ -6571,7 +6571,7 @@ ts:pan-africanism a gts:GeochronologicAge ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Du Bois, Garvey, Nkrumah, Nyerere; Pan-African Congresses; négritude; Organization of African Unity founded (1963); African unity ideology."@en ;
     gts:rank "CulturalAge" ;
-    skos:broader ts:contemporary ;
+    skos:broader ts:modern-period ;
     time:hasBeginning [ rdfs:label "1900 CE" ] ;
     time:hasEnd [ rdfs:label "1963 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
@@ -8732,9 +8732,9 @@ ts:nabataean-kingdom a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "106 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 791/830: Kingdom of Armenia (Հայաստանի Թագավորություն)) (CulturalAge) ──
+# ── 791/830: Kingdom of Armenia (Հայաստանի Թագավորություն) (CulturalAge) ──
 ts:kingdom-of-armenia a gts:GeochronologicAge ;
-    rdfs:label "Kingdom of Armenia (Հայաստանի Թագավորություն))"@en ;
+    rdfs:label "Kingdom of Armenia (Հայաստանի Թագավորություն)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Orontid, Artaxiad, Arsacid dynasties; Tigranes the Great; first nation to adopt Christianity (301 CE); bridge between Roman and Persian worlds."@en ;
     gts:rank "CulturalAge" ;
@@ -8743,9 +8743,9 @@ ts:kingdom-of-armenia a gts:GeochronologicAge ;
     time:hasEnd [ rdfs:label "428 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 792/830: Cilician Armenia (Կիլիկիա Հայոց Թագավորություն)) (CulturalAge) ──
+# ── 792/830: Cilician Armenia (Կիլիկիա Հայոց Թագավորություն) (CulturalAge) ──
 ts:cilician-armenia a gts:GeochronologicAge ;
-    rdfs:label "Cilician Armenia (Կիլիկիա Հայոց Թագավորություն))"@en ;
+    rdfs:label "Cilician Armenia (Կիլիկիա Հայոց Թագավորություն)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Armenian kingdom-in-exile; key Crusader ally; last Christian state in Levant; major trade hub (port of Ayas); fell to Mamluks 1375."@en ;
     gts:rank "CulturalAge" ;
@@ -8859,7 +8859,7 @@ ts:australian-federation a gts:GeochronologicAge ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Commonwealth of Australia (1901); Gallipoli (1915); White Australia policy (ended 1973); Mabo decision (1992); Sorry Day; multiculturalism."@en ;
     gts:rank "CulturalAge" ;
-    skos:broader ts:contemporary ;
+    skos:broader ts:modern-period ;
     time:hasBeginning [ rdfs:label "1901 CE" ] ;
     time:hasEnd [ rdfs:label "Present" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
@@ -9134,7 +9134,7 @@ ts:new-zealand-modern a gts:GeochronologicAge ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Women's suffrage (1893, first nation); Gallipoli; welfare state; Māori Renaissance; nuclear-free (1987); Treaty settlements; multicultural Aotearoa."@en ;
     gts:rank "CulturalAge" ;
-    skos:broader ts:contemporary ;
+    skos:broader ts:modern-period ;
     time:hasBeginning [ rdfs:label "1907 CE" ] ;
     time:hasEnd [ rdfs:label "Present" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
