@@ -490,7 +490,7 @@ ts:paibian a gts:GeochronologicAge ;
     gts:rank "Age" ;
     skos:broader ts:furongian ;
     time:hasBeginning [ time:inXSDgYear "497"^^xsd:decimal ; rdfs:label "497 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "494"^^xsd:decimal ; rdfs:label "494 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "494.2"^^xsd:decimal ; rdfs:label "494.2 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 42/830: Jiangshanian (江山) (Age) ──
@@ -500,8 +500,8 @@ ts:jiangshanian a gts:GeochronologicAge ;
     skos:definition "Trilobite recovery; earliest cephalopods diversify."@en ;
     gts:rank "Age" ;
     skos:broader ts:furongian ;
-    time:hasBeginning [ time:inXSDgYear "494"^^xsd:decimal ; rdfs:label "494 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "489.5"^^xsd:decimal ; rdfs:label "489.5 Ma" ] ;
+    time:hasBeginning [ time:inXSDgYear "494.2"^^xsd:decimal ; rdfs:label "494.2 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "491"^^xsd:decimal ; rdfs:label "491 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 43/830: Cambrian Stage 10 (unnamed) (Age) ──
@@ -511,7 +511,7 @@ ts:stage10-cambrian a gts:GeochronologicAge ;
     skos:definition "Final Cambrian stage; transition to Ordovician biodiversification."@en ;
     gts:rank "Age" ;
     skos:broader ts:furongian ;
-    time:hasBeginning [ time:inXSDgYear "489.5"^^xsd:decimal ; rdfs:label "489.5 Ma" ] ;
+    time:hasBeginning [ time:inXSDgYear "491"^^xsd:decimal ; rdfs:label "491 Ma" ] ;
     time:hasEnd [ time:inXSDgYear "486.85"^^xsd:decimal ; rdfs:label "486.85 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
@@ -1854,7 +1854,7 @@ ts:miocene a gts:GeochronologicEpoch ;
     gts:rank "Epoch" ;
     skos:broader ts:neogene ;
     time:hasBeginning [ time:inXSDgYear "23.04"^^xsd:decimal ; rdfs:label "23.04 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "5.33"^^xsd:decimal ; rdfs:label "5.33 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "5.333"^^xsd:decimal ; rdfs:label "5.333 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 166/830: Aquitanian (Aquitaine) (Age) ──
@@ -1920,7 +1920,7 @@ ts:messinian a gts:GeochronologicAge ;
     gts:rank "Age" ;
     skos:broader ts:miocene ;
     time:hasBeginning [ time:inXSDgYear "7.246"^^xsd:decimal ; rdfs:label "7.246 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "5.33"^^xsd:decimal ; rdfs:label "5.33 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "5.333"^^xsd:decimal ; rdfs:label "5.333 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 172/830: Pliocene (πλεῖον καινός) (Epoch) ──
@@ -1930,7 +1930,7 @@ ts:pliocene a gts:GeochronologicEpoch ;
     skos:definition "Australopithecus; Arctic ice cap forms; Isthmus of Panama closes."@en ;
     gts:rank "Epoch" ;
     skos:broader ts:neogene ;
-    time:hasBeginning [ time:inXSDgYear "5.33"^^xsd:decimal ; rdfs:label "5.33 Ma" ] ;
+    time:hasBeginning [ time:inXSDgYear "5.333"^^xsd:decimal ; rdfs:label "5.333 Ma" ] ;
     time:hasEnd [ time:inXSDgYear "2.58"^^xsd:decimal ; rdfs:label "2.58 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
@@ -1941,7 +1941,7 @@ ts:zanclean a gts:GeochronologicAge ;
     skos:definition "Zanclean flood refills Mediterranean; Australopithecus afarensis."@en ;
     gts:rank "Age" ;
     skos:broader ts:pliocene ;
-    time:hasBeginning [ time:inXSDgYear "5.33"^^xsd:decimal ; rdfs:label "5.33 Ma" ] ;
+    time:hasBeginning [ time:inXSDgYear "5.333"^^xsd:decimal ; rdfs:label "5.333 Ma" ] ;
     time:hasEnd [ time:inXSDgYear "3.6"^^xsd:decimal ; rdfs:label "3.6 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 

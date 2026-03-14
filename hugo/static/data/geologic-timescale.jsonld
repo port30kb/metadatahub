@@ -787,7 +787,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/furongian"
       },
       "time:hasBeginning": "497 Ma",
-      "time:hasEnd": "494 Ma",
+      "time:hasEnd": "494.2 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -805,8 +805,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/furongian"
       },
-      "time:hasBeginning": "494 Ma",
-      "time:hasEnd": "489.5 Ma",
+      "time:hasBeginning": "494.2 Ma",
+      "time:hasEnd": "491 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -824,7 +824,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/furongian"
       },
-      "time:hasBeginning": "489.5 Ma",
+      "time:hasBeginning": "491 Ma",
       "time:hasEnd": "486.85 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -3143,7 +3143,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/neogene"
       },
       "time:hasBeginning": "23.04 Ma",
-      "time:hasEnd": "5.33 Ma",
+      "time:hasEnd": "5.333 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -3257,7 +3257,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/miocene"
       },
       "time:hasBeginning": "7.246 Ma",
-      "time:hasEnd": "5.33 Ma",
+      "time:hasEnd": "5.333 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -3275,7 +3275,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/neogene"
       },
-      "time:hasBeginning": "5.33 Ma",
+      "time:hasBeginning": "5.333 Ma",
       "time:hasEnd": "2.58 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -3294,7 +3294,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/pliocene"
       },
-      "time:hasBeginning": "5.33 Ma",
+      "time:hasBeginning": "5.333 Ma",
       "time:hasEnd": "3.6 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },

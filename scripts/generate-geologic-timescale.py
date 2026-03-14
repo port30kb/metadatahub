@@ -154,11 +154,11 @@ add("guzhangian", "Guzhangian (古丈)", "Age", "miaolingian", 500.5, 497, "Ma",
     "Trilobite turnover; transition toward Furongian faunas.")
 add("furongian", "Furongian (芙蓉)", "Epoch", "cambrian", 497, 486.85, "Ma",
     "Trilobite extinctions; first cephalopods appear.")
-add("paibian", "Paibian (排碧)", "Age", "furongian", 497, 494, "Ma",
+add("paibian", "Paibian (排碧)", "Age", "furongian", 497, 494.2, "Ma",
     "SPICE carbon isotope excursion; trilobite extinction pulse.")
-add("jiangshanian", "Jiangshanian (江山)", "Age", "furongian", 494, 489.5, "Ma",
+add("jiangshanian", "Jiangshanian (江山)", "Age", "furongian", 494.2, 491, "Ma",
     "Trilobite recovery; earliest cephalopods diversify.")
-add("stage10-cambrian", "Cambrian Stage 10 (unnamed)", "Age", "furongian", 489.5, 486.85, "Ma",
+add("stage10-cambrian", "Cambrian Stage 10 (unnamed)", "Age", "furongian", 491, 486.85, "Ma",
     "Final Cambrian stage; transition to Ordovician biodiversification.")
 
 add("ordovician", "Ordovician (Ordowices)", "Period", "paleozoic", 486.85, 443.1, "Ma",
@@ -420,7 +420,7 @@ add("chattian", "Chattian (Chatti / Chatten)", "Age", "oligocene", 27.30, 23.04,
 
 add("neogene", "Neogene (νέος γένος)", "Period", "cenozoic", 23.04, 2.58, "Ma",
     "Grasslands dominate; great apes evolve; Isthmus of Panama forms.")
-add("miocene", "Miocene (μείων καινός)", "Epoch", "neogene", 23.04, 5.33, "Ma",
+add("miocene", "Miocene (μείων καινός)", "Epoch", "neogene", 23.04, 5.333, "Ma",
     "Kelp forests, grasslands; diverse apes; Messinian salinity crisis.")
 add("aquitanian", "Aquitanian (Aquitaine)", "Age", "miocene", 23.04, 20.45, "Ma",
     "Early Miocene; warm climates; diverse marine mammals.")
@@ -432,11 +432,11 @@ add("serravallian", "Serravallian (Serravalle Scrivia)", "Age", "miocene", 13.82
     "Cooling resumes; East Antarctic ice sheet expands.")
 add("tortonian", "Tortonian (Tortona)", "Age", "miocene", 11.63, 7.246, "Ma",
     "Mediterranean begins to close; hominoids disperse from Africa.")
-add("messinian", "Messinian (Messina)", "Age", "miocene", 7.246, 5.33, "Ma",
+add("messinian", "Messinian (Messina)", "Age", "miocene", 7.246, 5.333, "Ma",
     "Messinian Salinity Crisis: Mediterranean nearly dries up.")
-add("pliocene", "Pliocene (πλεῖον καινός)", "Epoch", "neogene", 5.33, 2.58, "Ma",
+add("pliocene", "Pliocene (πλεῖον καινός)", "Epoch", "neogene", 5.333, 2.58, "Ma",
     "Australopithecus; Arctic ice cap forms; Isthmus of Panama closes.")
-add("zanclean", "Zanclean (Ζάγκλη / Messina)", "Age", "pliocene", 5.33, 3.6, "Ma",
+add("zanclean", "Zanclean (Ζάγκλη / Messina)", "Age", "pliocene", 5.333, 3.6, "Ma",
     "Zanclean flood refills Mediterranean; Australopithecus afarensis.")
 add("piacenzian", "Piacenzian (Piacenza)", "Age", "pliocene", 3.6, 2.58, "Ma",
     "Mid-Piacenzian Warm Period; early Homo?; Northern Hemisphere glaciation starts.")
