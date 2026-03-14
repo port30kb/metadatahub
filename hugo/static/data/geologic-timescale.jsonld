@@ -11,7 +11,7 @@
   "@id": "https://metadatahub.eu/data/geologic-timescale",
   "@type": "skos:ConceptScheme",
   "dcterms:title": "Geologic Time Scale",
-  "dcterms:description": "830 entries covering the geologic time scale from Hadean eon (4600 Ma) to present, including Scandinavian, European, and South American cultural/historical periods.",
+  "dcterms:description": "836 entries covering the geologic time scale from Hadean eon (4600 Ma) to present, including Scandinavian, European, and South American cultural/historical periods.",
   "dcterms:source": [
     "https://en.wikipedia.org/wiki/Geologic_time_scale",
     "https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf",
@@ -490,11 +490,11 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/ediacaran",
       "@type": "gts:GeochronologicPeriod",
       "rdfs:label": {
-        "@value": "Ediacaran (Idiyakra)",
+        "@value": "Ediacaran (Idiyakra / Yata Takarra)",
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Ediacaran biota: first large complex organisms; soft-bodied fauna.",
+        "@value": "Ediacaran biota: first large complex organisms; soft-bodied fauna. Named for Ediacara Creek, Flinders Ranges, South Australia, on traditional Adnyamathanha lands; Adnyamathanha name disputed: 'Idiyakra' (place near water, oldest recorded form) or 'Yata Takarra' (hard/stony ground); 2023 Nilpena Ediacara National Park formalizes Adnyamathanha custodianship.",
         "@language": "en"
       },
       "gts:rank": "Period",
@@ -559,7 +559,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/paleozoic"
       },
       "time:hasBeginning": "538.8 Ma",
-      "time:hasEnd": "486.85 Ma",
+      "time:hasEnd": "485.4 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -768,7 +768,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/cambrian"
       },
       "time:hasBeginning": "497 Ma",
-      "time:hasEnd": "486.85 Ma",
+      "time:hasEnd": "485.4 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -825,7 +825,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/furongian"
       },
       "time:hasBeginning": "491 Ma",
-      "time:hasEnd": "486.85 Ma",
+      "time:hasEnd": "485.4 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -843,8 +843,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/paleozoic"
       },
-      "time:hasBeginning": "486.85 Ma",
-      "time:hasEnd": "443.1 Ma",
+      "time:hasBeginning": "485.4 Ma",
+      "time:hasEnd": "443.8 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -862,7 +862,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/ordovician"
       },
-      "time:hasBeginning": "486.85 Ma",
+      "time:hasBeginning": "485.4 Ma",
       "time:hasEnd": "471.3 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -881,8 +881,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-ordovician"
       },
-      "time:hasBeginning": "486.85 Ma",
-      "time:hasEnd": "477.1 Ma",
+      "time:hasBeginning": "485.4 Ma",
+      "time:hasEnd": "477.7 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -900,7 +900,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-ordovician"
       },
-      "time:hasBeginning": "477.1 Ma",
+      "time:hasBeginning": "477.7 Ma",
       "time:hasEnd": "471.3 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -920,7 +920,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/ordovician"
       },
       "time:hasBeginning": "471.3 Ma",
-      "time:hasEnd": "458.2 Ma",
+      "time:hasEnd": "458.4 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -958,7 +958,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/middle-ordovician"
       },
       "time:hasBeginning": "469.4 Ma",
-      "time:hasEnd": "458.2 Ma",
+      "time:hasEnd": "458.4 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -976,8 +976,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/ordovician"
       },
-      "time:hasBeginning": "458.2 Ma",
-      "time:hasEnd": "443.1 Ma",
+      "time:hasBeginning": "458.4 Ma",
+      "time:hasEnd": "443.8 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -995,8 +995,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/late-ordovician"
       },
-      "time:hasBeginning": "458.2 Ma",
-      "time:hasEnd": "452.8 Ma",
+      "time:hasBeginning": "458.4 Ma",
+      "time:hasEnd": "453.0 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1014,7 +1014,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/late-ordovician"
       },
-      "time:hasBeginning": "452.8 Ma",
+      "time:hasBeginning": "453.0 Ma",
       "time:hasEnd": "445.2 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -1034,7 +1034,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/late-ordovician"
       },
       "time:hasBeginning": "445.2 Ma",
-      "time:hasEnd": "443.1 Ma",
+      "time:hasEnd": "443.8 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1052,8 +1052,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/paleozoic"
       },
-      "time:hasBeginning": "443.1 Ma",
-      "time:hasEnd": "419.62 Ma",
+      "time:hasBeginning": "443.8 Ma",
+      "time:hasEnd": "419.2 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1071,8 +1071,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/silurian"
       },
-      "time:hasBeginning": "443.1 Ma",
-      "time:hasEnd": "430.6 Ma",
+      "time:hasBeginning": "443.8 Ma",
+      "time:hasEnd": "433.4 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1090,8 +1090,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/llandovery"
       },
-      "time:hasBeginning": "443.1 Ma",
-      "time:hasEnd": "438.6 Ma",
+      "time:hasBeginning": "443.8 Ma",
+      "time:hasEnd": "440.8 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1109,8 +1109,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/llandovery"
       },
-      "time:hasBeginning": "438.6 Ma",
-      "time:hasEnd": "432.9 Ma",
+      "time:hasBeginning": "440.8 Ma",
+      "time:hasEnd": "438.5 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1128,8 +1128,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/llandovery"
       },
-      "time:hasBeginning": "432.9 Ma",
-      "time:hasEnd": "430.6 Ma",
+      "time:hasBeginning": "438.5 Ma",
+      "time:hasEnd": "433.4 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1147,8 +1147,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/silurian"
       },
-      "time:hasBeginning": "430.6 Ma",
-      "time:hasEnd": "425.0 Ma",
+      "time:hasBeginning": "433.4 Ma",
+      "time:hasEnd": "427.4 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1166,8 +1166,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/wenlock"
       },
-      "time:hasBeginning": "430.6 Ma",
-      "time:hasEnd": "426.7 Ma",
+      "time:hasBeginning": "433.4 Ma",
+      "time:hasEnd": "430.5 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1185,8 +1185,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/wenlock"
       },
-      "time:hasBeginning": "426.7 Ma",
-      "time:hasEnd": "425.0 Ma",
+      "time:hasBeginning": "430.5 Ma",
+      "time:hasEnd": "427.4 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1204,8 +1204,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/silurian"
       },
-      "time:hasBeginning": "425.0 Ma",
-      "time:hasEnd": "422.7 Ma",
+      "time:hasBeginning": "427.4 Ma",
+      "time:hasEnd": "423.0 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1223,8 +1223,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/ludlow"
       },
-      "time:hasBeginning": "425.0 Ma",
-      "time:hasEnd": "423.0 Ma",
+      "time:hasBeginning": "427.4 Ma",
+      "time:hasEnd": "425.6 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1242,15 +1242,15 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/ludlow"
       },
-      "time:hasBeginning": "423.0 Ma",
-      "time:hasEnd": "422.7 Ma",
+      "time:hasBeginning": "425.6 Ma",
+      "time:hasEnd": "423.0 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
       "@id": "https://metadatahub.eu/data/geologic-timescale/pridoli",
       "@type": "gts:GeochronologicEpoch",
       "rdfs:label": {
-        "@value": "Přídolí",
+        "@value": "Přídolí (Přídolí, Česko)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1261,8 +1261,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/silurian"
       },
-      "time:hasBeginning": "422.7 Ma",
-      "time:hasEnd": "419.62 Ma",
+      "time:hasBeginning": "423.0 Ma",
+      "time:hasEnd": "419.2 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1280,7 +1280,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/paleozoic"
       },
-      "time:hasBeginning": "419.62 Ma",
+      "time:hasBeginning": "419.2 Ma",
       "time:hasEnd": "358.9 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -1299,8 +1299,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/pridoli"
       },
-      "time:hasBeginning": "419.62 Ma",
-      "time:hasEnd": "419.62 Ma",
+      "time:hasBeginning": "419.2 Ma",
+      "time:hasEnd": "419.2 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1318,8 +1318,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/devonian"
       },
-      "time:hasBeginning": "419.62 Ma",
-      "time:hasEnd": "393.47 Ma",
+      "time:hasBeginning": "419.2 Ma",
+      "time:hasEnd": "393.3 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1337,8 +1337,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-devonian"
       },
-      "time:hasBeginning": "419.62 Ma",
-      "time:hasEnd": "413.02 Ma",
+      "time:hasBeginning": "419.2 Ma",
+      "time:hasEnd": "410.8 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1356,8 +1356,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-devonian"
       },
-      "time:hasBeginning": "413.02 Ma",
-      "time:hasEnd": "410.62 Ma",
+      "time:hasBeginning": "410.8 Ma",
+      "time:hasEnd": "407.6 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1375,8 +1375,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-devonian"
       },
-      "time:hasBeginning": "410.62 Ma",
-      "time:hasEnd": "393.47 Ma",
+      "time:hasBeginning": "407.6 Ma",
+      "time:hasEnd": "393.3 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1394,8 +1394,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/devonian"
       },
-      "time:hasBeginning": "393.47 Ma",
-      "time:hasEnd": "382.31 Ma",
+      "time:hasBeginning": "393.3 Ma",
+      "time:hasEnd": "382.7 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1413,8 +1413,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/middle-devonian"
       },
-      "time:hasBeginning": "393.47 Ma",
-      "time:hasEnd": "387.95 Ma",
+      "time:hasBeginning": "393.3 Ma",
+      "time:hasEnd": "387.7 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1432,8 +1432,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/middle-devonian"
       },
-      "time:hasBeginning": "387.95 Ma",
-      "time:hasEnd": "382.31 Ma",
+      "time:hasBeginning": "387.7 Ma",
+      "time:hasEnd": "382.7 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1451,7 +1451,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/devonian"
       },
-      "time:hasBeginning": "382.31 Ma",
+      "time:hasBeginning": "382.7 Ma",
       "time:hasEnd": "358.9 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -1470,8 +1470,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/late-devonian"
       },
-      "time:hasBeginning": "382.31 Ma",
-      "time:hasEnd": "372.15 Ma",
+      "time:hasBeginning": "382.7 Ma",
+      "time:hasEnd": "372.2 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1489,7 +1489,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/late-devonian"
       },
-      "time:hasBeginning": "372.15 Ma",
+      "time:hasBeginning": "372.2 Ma",
       "time:hasEnd": "358.9 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -3530,7 +3530,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/stone-age",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Stone Age (Stenåldern)",
+        "@value": "Stone Age (Stenåldern / Steinzeit / Âge de pierre / Edad de Piedra / Età della Pietra / Steentijd / Каменный век)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3549,7 +3549,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/paleolithic",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Paleolithic / Old Stone Age (Paleolitikum / Äldre stenåldern)",
+        "@value": "Paleolithic / Old Stone Age (Paleolitikum / Äldre stenåldern / Altsteinzeit / Paléolithique / Paleolítico / Paleolitico / Палеолит)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3568,7 +3568,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/lower-paleolithic",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Lower Paleolithic",
+        "@value": "Lower Paleolithic (Äldre paleolitikum)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3587,7 +3587,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/middle-paleolithic",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Middle Paleolithic",
+        "@value": "Middle Paleolithic (Mellersta paleolitikum)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3606,7 +3606,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/upper-paleolithic",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Upper Paleolithic",
+        "@value": "Upper Paleolithic (Yngre paleolitikum)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3625,7 +3625,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/bromme-culture",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Bromme Culture",
+        "@value": "Bromme Culture (Brommekulturen)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3644,7 +3644,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/ahrensburg-culture",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Ahrensburg Culture",
+        "@value": "Ahrensburg Culture (Ahrensburgkulturen)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3663,7 +3663,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/mesolithic",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Mesolithic / Middle Stone Age (Mesolitikum / Mellersta stenåldern)",
+        "@value": "Mesolithic / Middle Stone Age (Mesolitikum / Mellersta stenåldern / Mittelsteinzeit / Mésolithique / Mesolítico / Mesolitico / Мезолит)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3682,7 +3682,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/fosna-hensbacka",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Fosna–Hensbacka Culture",
+        "@value": "Fosna–Hensbacka Culture (Fosna–Hensbackakulturen)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3701,7 +3701,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/komsa-culture",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Komsa Culture",
+        "@value": "Komsa Culture (Komsakulturen)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3720,7 +3720,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/maglemosian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Maglemosian Culture",
+        "@value": "Maglemosian Culture (Maglemosekulturen)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3739,7 +3739,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/kongemose",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Kongemose Culture",
+        "@value": "Kongemose Culture (Kongemosekulturen)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3758,7 +3758,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/nostvet-lihult",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Nøstvet and Lihult Cultures",
+        "@value": "Nøstvet and Lihult Cultures (Nøstvetkulturen / Lihultkulturen)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3777,7 +3777,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/ertebolleculture",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Ertebølle Culture",
+        "@value": "Ertebølle Culture (Ertebøllekulturen)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3796,7 +3796,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/neolithic",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Neolithic / New Stone Age (Neolitikum / Yngre stenåldern)",
+        "@value": "Neolithic / New Stone Age (Neolitikum / Yngre stenåldern / Jungsteinzeit / Néolithique / Neolítico / Neolitico / Неолит)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3834,7 +3834,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/pitted-ware",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Pitted Ware Culture",
+        "@value": "Pitted Ware Culture (Gropkeramisk kultur)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3872,7 +3872,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/nordic-neolithic-late",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Late Neolithic Scandinavia",
+        "@value": "Late Neolithic Scandinavia (Senneolitikum)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3891,7 +3891,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/chalcolithic",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Chalcolithic / Copper Age (Kopparåldern)",
+        "@value": "Chalcolithic / Copper Age (Kopparåldern / Kupferzeit / Chalcolithique / Calcolítico / Calcolitico / Chalkolit / Χαλκολιθική)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3910,7 +3910,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/bronze-age",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Bronze Age (Bronsåldern)",
+        "@value": "Bronze Age (Bronsåldern / Bronzezeit / Âge du Bronze / Edad del Bronce / Età del Bronzo / Бронзовый век / Εποχή του Χαλκού)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3929,7 +3929,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/early-bronze-age",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Early Bronze Age",
+        "@value": "Early Bronze Age (Äldre bronsåldern)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3948,7 +3948,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/middle-bronze-age",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Middle Bronze Age",
+        "@value": "Middle Bronze Age (Mellersta bronsåldern)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3967,7 +3967,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/late-bronze-age",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Late Bronze Age",
+        "@value": "Late Bronze Age (Yngre bronsåldern)",
         "@language": "en"
       },
       "skos:definition": {
@@ -4024,7 +4024,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/montelius-i",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Montelius Period I",
+        "@value": "Montelius Period I (Monteliusperiod I)",
         "@language": "en"
       },
       "skos:definition": {
@@ -4043,7 +4043,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/montelius-ii",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Montelius Period II",
+        "@value": "Montelius Period II (Monteliusperiod II)",
         "@language": "en"
       },
       "skos:definition": {
@@ -4062,7 +4062,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/montelius-iii",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Montelius Period III",
+        "@value": "Montelius Period III (Monteliusperiod III)",
         "@language": "en"
       },
       "skos:definition": {
@@ -4100,7 +4100,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/montelius-iv",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Montelius Period IV",
+        "@value": "Montelius Period IV (Monteliusperiod IV)",
         "@language": "en"
       },
       "skos:definition": {
@@ -4119,7 +4119,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/montelius-v",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Montelius Period V",
+        "@value": "Montelius Period V (Monteliusperiod V)",
         "@language": "en"
       },
       "skos:definition": {
@@ -4138,7 +4138,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/montelius-vi",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Montelius Period VI",
+        "@value": "Montelius Period VI (Monteliusperiod VI)",
         "@language": "en"
       },
       "skos:definition": {
@@ -4157,7 +4157,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/iron-age",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Iron Age (Järnåldern)",
+        "@value": "Iron Age (Järnåldern / Eisenzeit / Âge du Fer / Edad del Hierro / Età del Ferro / Железный век / Εποχή του Σιδήρου / עת הברזל)",
         "@language": "en"
       },
       "skos:definition": {
@@ -4195,7 +4195,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/pre-roman-iron-early",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Early Pre-Roman Iron Age",
+        "@value": "Early Pre-Roman Iron Age (Äldre förromersk järnålder)",
         "@language": "en"
       },
       "skos:definition": {
@@ -4214,7 +4214,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/pre-roman-iron-late",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Late Pre-Roman Iron Age",
+        "@value": "Late Pre-Roman Iron Age (Yngre förromersk järnålder)",
         "@language": "en"
       },
       "skos:definition": {
@@ -4252,7 +4252,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/early-roman-iron",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Early Roman Iron Age",
+        "@value": "Early Roman Iron Age (Äldre romersk järnålder)",
         "@language": "en"
       },
       "skos:definition": {
@@ -4271,7 +4271,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/late-roman-iron",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Late Roman Iron Age",
+        "@value": "Late Roman Iron Age (Yngre romersk järnålder)",
         "@language": "en"
       },
       "skos:definition": {
@@ -4328,7 +4328,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/migration-early",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Early Migration Period",
+        "@value": "Early Migration Period (Äldre folkvandringstiden)",
         "@language": "en"
       },
       "skos:definition": {
@@ -4347,7 +4347,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/migration-late",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Late Migration Period",
+        "@value": "Late Migration Period (Yngre folkvandringstiden)",
         "@language": "en"
       },
       "skos:definition": {
@@ -4385,7 +4385,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/vendel-early",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Early Vendel Period",
+        "@value": "Early Vendel Period (Äldre vendeltiden)",
         "@language": "en"
       },
       "skos:definition": {
@@ -4404,7 +4404,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/vendel-late",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Late Vendel Period",
+        "@value": "Late Vendel Period (Yngre vendeltiden)",
         "@language": "en"
       },
       "skos:definition": {
@@ -4499,7 +4499,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/medieval-period",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Medieval Period (Medeltiden)",
+        "@value": "Medieval Period (Medeltiden / Mittelalter / Moyen Âge / Edad Media / Medioevo / Средневековье / Μεσαίωνας)",
         "@language": "en"
       },
       "skos:definition": {
@@ -4613,7 +4613,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/reformation-era",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Reformation Era",
+        "@value": "Reformation Era (Reformationstiden)",
         "@language": "en"
       },
       "skos:definition": {
@@ -4651,7 +4651,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/thirty-years-war",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Thirty Years' War Period",
+        "@value": "Thirty Years' War Period (Trettioåriga kriget)",
         "@language": "en"
       },
       "skos:definition": {
@@ -4746,7 +4746,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/bernadotte-era",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Bernadotte Era / Union Period",
+        "@value": "Bernadotte Era / Union Period (Bernadottetiden / Unionstiden)",
         "@language": "en"
       },
       "skos:definition": {
@@ -4860,7 +4860,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/roman-republic",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Roman Republic (Res Publica Romana)",
+        "@value": "Roman Republic (Res Publica Romana / Ρωμαϊκή Δημοκρατία / Roma Cumhuriyeti / Römische Republik)",
         "@language": "en"
       },
       "skos:definition": {
@@ -4879,7 +4879,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/roman-empire",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Roman Empire (Imperium Romanum)",
+        "@value": "Roman Empire (Imperium Romanum / Ρωμαϊκή Αυτοκρατορία / Roma İmparatorluğu / Römisches Reich / Империя Рима)",
         "@language": "en"
       },
       "skos:definition": {
@@ -4914,10 +4914,29 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/hunnic-empire",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Hunnic Empire (Хунска империја / Hunnenreich / Birodalom hunok)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Nomadic steppe empire originating in Central Asia; swept west ~370 CE displacing Germanic peoples; Attila the Hun (434-453 CE) at peak; raided Balkans and Gaul; Battle of Catalaunian Plains (451 CE); dissolved rapidly after Attila's death (453 CE); possible relation to Xiongnu (匈奴) of Chinese records.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "370 CE",
+      "time:hasEnd": "469 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
       "@id": "https://metadatahub.eu/data/geologic-timescale/byzantine-empire",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Byzantine Empire",
+        "@value": "Byzantine Empire (Βυζαντινή Αυτοκρατορία / Byzantinska riket)",
         "@language": "en"
       },
       "skos:definition": {
@@ -4936,7 +4955,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/byzantine-early",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Early Byzantine Period",
+        "@value": "Early Byzantine Period (Πρώιμη Βυζαντινή Περίοδος)",
         "@language": "en"
       },
       "skos:definition": {
@@ -4955,7 +4974,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/byzantine-middle",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Middle Byzantine Period",
+        "@value": "Middle Byzantine Period (Μέση Βυζαντινή Περίοδος)",
         "@language": "en"
       },
       "skos:definition": {
@@ -4974,7 +4993,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/byzantine-late",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Late Byzantine Period",
+        "@value": "Late Byzantine Period (Ύστερη Βυζαντινή Περίοδος)",
         "@language": "en"
       },
       "skos:definition": {
@@ -5031,7 +5050,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/carolingian-period",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Carolingian Period",
+        "@value": "Carolingian Period (Karolingerzeit / L'ère carolingienne)",
         "@language": "en"
       },
       "skos:definition": {
@@ -5050,7 +5069,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/ottonian-period",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Ottonian Period",
+        "@value": "Ottonian Period (Ottonische Zeit)",
         "@language": "en"
       },
       "skos:definition": {
@@ -5088,7 +5107,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/crusades-period",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Crusades Period",
+        "@value": "Crusades Period (Korstågen / Les Croisades / الحروب الصليبية)",
         "@language": "en"
       },
       "skos:definition": {
@@ -5107,7 +5126,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/twelfth-century-renaissance",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Renaissance of the 12th Century",
+        "@value": "Renaissance of the 12th Century (Renaissance du XIIe siècle)",
         "@language": "en"
       },
       "skos:definition": {
@@ -5297,7 +5316,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/romanticism",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Romantic Period",
+        "@value": "Romantic Period (Romantiken / Romantik)",
         "@language": "en"
       },
       "skos:definition": {
@@ -5316,7 +5335,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/world-wars-era",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "World Wars Era",
+        "@value": "World Wars Era (Världskrigen)",
         "@language": "en"
       },
       "skos:definition": {
@@ -5335,7 +5354,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/world-war-i",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "World War I",
+        "@value": "World War I (Första världskriget / Erster Weltkrieg)",
         "@language": "en"
       },
       "skos:definition": {
@@ -5354,7 +5373,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/interwar-period",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Interwar Period",
+        "@value": "Interwar Period (Mellankrigstiden)",
         "@language": "en"
       },
       "skos:definition": {
@@ -5373,7 +5392,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/world-war-ii",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "World War II",
+        "@value": "World War II (Andra världskriget / Zweiter Weltkrieg)",
         "@language": "en"
       },
       "skos:definition": {
@@ -5392,7 +5411,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/cold-war-era",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Cold War Era",
+        "@value": "Cold War Era (Kalla kriget / Холодная война)",
         "@language": "en"
       },
       "skos:definition": {
@@ -5411,7 +5430,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/european-integration",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "European Integration",
+        "@value": "European Integration (Europeisk integration)",
         "@language": "en"
       },
       "skos:definition": {
@@ -5481,6 +5500,25 @@
       },
       "time:hasBeginning": "1100 BCE",
       "time:hasEnd": "800 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/kingdom-macedon",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Kingdom of Macedon (Βασίλειο της Μακεδονίας / Makedonija / Mazedonien)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Ancient Greek kingdom in northern Greece; Argead dynasty; Philip II unified Greek city-states; Alexander the Great conquered Persia, Egypt, India (336-323 BCE); Antigonid dynasty; conquered by Rome at Battle of Pydna (168 BCE).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "808 BCE",
+      "time:hasEnd": "168 BCE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -5620,7 +5658,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/reconquista",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Reconquista",
+        "@value": "Reconquista (Reconquista / إسترداد)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6019,7 +6057,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/victorian-era",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Victorian Era",
+        "@value": "Victorian Era (Viktorianska eran)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6038,7 +6076,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/british-empire",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "British Empire",
+        "@value": "British Empire (Brittiska imperiet)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6399,7 +6437,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/sami-prehistory",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Sámi Prehistory",
+        "@value": "Sámi Prehistory (Sámi ovdahistorjá)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6418,7 +6456,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/sami-modern",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Sámi Modern History",
+        "@value": "Sámi Modern History (Sámi ođasáiggi historjá)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6437,7 +6475,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/comb-ceramic",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Comb Ceramic Culture",
+        "@value": "Comb Ceramic Culture (Kamkeramisk kultur)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6456,7 +6494,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/asbestos-ceramic",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Asbestos Ceramic Period (Finland)",
+        "@value": "Asbestos Ceramic Period (Asbestikeramiikka / Finland)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6475,7 +6513,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/nordic-iron-age-celtic",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Celtic Iron Age Influences in Scandinavia",
+        "@value": "Celtic Iron Age Influences in Scandinavia (Keltisk järnålderspåverkan)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6494,7 +6532,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/jastorf-culture",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Jastorf Culture",
+        "@value": "Jastorf Culture (Jastorfkulturen)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6513,7 +6551,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/danelaw",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Danelaw Period",
+        "@value": "Danelaw Period (Danelagen)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6532,7 +6570,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/viking-iceland",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Settlement of Iceland",
+        "@value": "Settlement of Iceland (Landnám Íslands)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6551,7 +6589,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/viking-normandy",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Norse Settlement of Normandy",
+        "@value": "Norse Settlement of Normandy (Normandie / Norðmandí)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6570,7 +6608,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/viking-rus",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Varangians and Kievan Rus'",
+        "@value": "Varangians and Kievan Rus' (Väringar / Киевская Русь)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6627,7 +6665,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/christianization-scandinavia",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Christianization of Scandinavia",
+        "@value": "Christianization of Scandinavia (Skandinaviens kristnande)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6646,7 +6684,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/baltic-crusades",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Baltic Crusades Period",
+        "@value": "Baltic Crusades Period (Nordliga korstågen)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6665,7 +6703,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/hanseatic-period",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Hanseatic Period in Scandinavia",
+        "@value": "Hanseatic Period in Scandinavia (Hansatiden / Hanse)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6836,7 +6874,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-precolumbian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Pre-Columbian South America",
+        "@value": "Pre-Columbian South America (América del Sur precolombina)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6874,7 +6912,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/valdivia-culture",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Valdivia Culture",
+        "@value": "Valdivia Culture (Cultura Valdivia)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6893,7 +6931,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/chavin-culture",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Chavín Culture",
+        "@value": "Chavín Culture (Chavín de Huántar)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6912,7 +6950,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/paracas-culture",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Paracas Culture",
+        "@value": "Paracas Culture (Cultura Paracas)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6931,7 +6969,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/nazca-culture",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Nazca Culture",
+        "@value": "Nazca Culture (Cultura Nazca)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6950,7 +6988,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/moche-civilization",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Moche Civilization",
+        "@value": "Moche Civilization (Civilización Moche / Mochica)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6969,7 +7007,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/tiwanaku-empire",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Tiwanaku Empire",
+        "@value": "Tiwanaku Empire (Tiahuanaco / Tiwanaku)",
         "@language": "en"
       },
       "skos:definition": {
@@ -6988,7 +7026,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/wari-empire",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Wari Empire",
+        "@value": "Wari Empire (Huari)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7007,7 +7045,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/chinchorro-culture",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Chinchorro Culture",
+        "@value": "Chinchorro Culture (Cultura Chinchorro)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7026,7 +7064,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/recuay-culture",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Recuay Culture",
+        "@value": "Recuay Culture (Cultura Recuay)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7045,7 +7083,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/lima-culture",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Lima Culture",
+        "@value": "Lima Culture (Cultura Lima)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7064,7 +7102,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/lambayeque-sican",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Lambayeque / Sicán Culture",
+        "@value": "Lambayeque / Sicán Culture (Cultura Lambayeque / Sicán)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7083,7 +7121,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/chimu-empire",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Chimú Empire",
+        "@value": "Chimú Empire (Imperio Chimú / Chimor)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7102,7 +7140,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/chachapoya",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Chachapoya Civilization",
+        "@value": "Chachapoya Civilization (Civilización Chachapoya)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7121,7 +7159,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/muisca-confederation",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Muisca Confederation",
+        "@value": "Muisca Confederation (Muysca / Confederación Muisca)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7140,7 +7178,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/tairona",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Tairona Civilization",
+        "@value": "Tairona Civilization (Civilización Tairona)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7159,7 +7197,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/tierradentro",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Tierradentro Culture",
+        "@value": "Tierradentro Culture (Cultura de Tierradentro)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7178,7 +7216,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/san-agustin-culture",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "San Agustín Culture",
+        "@value": "San Agustín Culture (Cultura de San Agustín)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7197,7 +7235,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/mapuche-precolonial",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Mapuche (Pre-Colonial)",
+        "@value": "Mapuche (Pre-Colonial / Mapudungun)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7216,7 +7254,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/marajoara-culture",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Marajoara Culture",
+        "@value": "Marajoara Culture (Cultura Marajoara)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7235,7 +7273,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/diaguita",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Diaguita Culture",
+        "@value": "Diaguita Culture (Cultura Diaguita)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7254,7 +7292,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/guarani-precolonial",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Guaraní (Pre-Colonial)",
+        "@value": "Guaraní (Pre-Colonial / Avañe'ẽ)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7311,7 +7349,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/inca-expansion",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Inca Expansion Period",
+        "@value": "Inca Expansion Period (Hatun Tawantinsuyu)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7330,7 +7368,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/inca-huayna-capac",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Reign of Huayna Cápac",
+        "@value": "Reign of Huayna Cápac (Wayna Qhapaq)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7349,7 +7387,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/inca-civil-war",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Inca Civil War",
+        "@value": "Inca Civil War (Atawallpa–Waskhar Awqanakuy)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7368,7 +7406,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-colonial",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Colonial South America",
+        "@value": "Colonial South America (América del Sur colonial)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7387,7 +7425,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/spanish-conquest-sa",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Spanish Conquest of South America",
+        "@value": "Spanish Conquest of South America (Conquista de América del Sur)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7406,7 +7444,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/portuguese-brazil-colonial",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Portuguese Colonial Brazil",
+        "@value": "Portuguese Colonial Brazil (Brasil Colonial)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7425,7 +7463,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/viceroyalty-peru",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Viceroyalty of Peru",
+        "@value": "Viceroyalty of Peru (Virreinato del Perú)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7444,7 +7482,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/viceroyalty-new-granada",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Viceroyalty of New Granada",
+        "@value": "Viceroyalty of New Granada (Virreinato de Nueva Granada)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7463,7 +7501,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/viceroyalty-rio-plata",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Viceroyalty of the Río de la Plata",
+        "@value": "Viceroyalty of the Río de la Plata (Virreinato del Río de la Plata)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7482,7 +7520,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/jesuit-missions-guarani",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Jesuit Missions of the Guaraní",
+        "@value": "Jesuit Missions of the Guaraní (Misiones Jesuíticas Guaraníes)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7501,7 +7539,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/potosi-silver",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Silver Age of Potosí",
+        "@value": "Silver Age of Potosí (Auge de la Plata de Potosí)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7520,7 +7558,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/tupac-amaru-rebellion",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Túpac Amaru II Rebellion",
+        "@value": "Túpac Amaru II Rebellion (Rebelión de Túpac Amaru II)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7539,7 +7577,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-independence",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "South American Wars of Independence",
+        "@value": "South American Wars of Independence (Guerras de independencia hispanoamericanas)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7558,7 +7596,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/independence-argentina",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Argentine War of Independence",
+        "@value": "Argentine War of Independence (Guerra de Independencia Argentina)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7577,7 +7615,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/independence-chile",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Chilean War of Independence",
+        "@value": "Chilean War of Independence (Guerra de la Independencia de Chile)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7596,7 +7634,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/independence-gran-colombia",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Gran Colombia and Bolívar's Campaign",
+        "@value": "Gran Colombia and Bolívar's Campaign (Campaña de Bolívar)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7615,7 +7653,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/independence-peru",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Peruvian War of Independence",
+        "@value": "Peruvian War of Independence (Guerra de Independencia del Perú)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7634,7 +7672,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/independence-brazil",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Brazilian Independence",
+        "@value": "Brazilian Independence (Independência do Brasil)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7653,7 +7691,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/independence-uruguay",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Uruguayan Independence",
+        "@value": "Uruguayan Independence (Independencia del Uruguay)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7672,7 +7710,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/independence-paraguay",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Paraguayan Independence",
+        "@value": "Paraguayan Independence (Independencia del Paraguay)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7691,7 +7729,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/independence-bolivia",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Bolivian Independence",
+        "@value": "Bolivian Independence (Independencia de Bolivia)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7710,7 +7748,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/empire-brazil",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Empire of Brazil",
+        "@value": "Empire of Brazil (Império do Brasil)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7729,7 +7767,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/gran-colombia",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Gran Colombia",
+        "@value": "Gran Colombia (La Gran Colombia)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7748,7 +7786,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/war-of-the-pacific",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "War of the Pacific",
+        "@value": "War of the Pacific (Guerra del Pacífico)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7767,7 +7805,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/war-of-triple-alliance",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "War of the Triple Alliance",
+        "@value": "War of the Triple Alliance (Guerra de la Triple Alianza / Guerra Guasu)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7786,7 +7824,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/rubber-boom",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Amazon Rubber Boom",
+        "@value": "Amazon Rubber Boom (Ciclo da Borracha)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7805,7 +7843,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-20th",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "20th-Century South America",
+        "@value": "20th-Century South America (América del Sur en el siglo XX)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7919,7 +7957,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-21st",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "21st-Century South America",
+        "@value": "21st-Century South America (América del Sur en el siglo XXI)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7957,7 +7995,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/north-america-precolumbian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Pre-Columbian North America",
+        "@value": "Pre-Columbian North America (América del Norte precolombina)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7976,7 +8014,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/monte-verde",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Monte Verde",
+        "@value": "Monte Verde (Monteverde)",
         "@language": "en"
       },
       "skos:definition": {
@@ -7995,7 +8033,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/paleo-indians",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Paleo-Indian Period",
+        "@value": "Paleo-Indian Period (Período Paleoindio)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8014,7 +8052,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/clovis-culture",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Clovis Culture",
+        "@value": "Clovis Culture (Cultura Clovis)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8033,7 +8071,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/folsom-culture",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Folsom Culture",
+        "@value": "Folsom Culture (Cultura Folsom)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8071,7 +8109,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/na-archaic-early",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Early Archaic",
+        "@value": "Early Archaic (Arcaico Temprano)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8090,7 +8128,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/na-archaic-middle",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Middle Archaic",
+        "@value": "Middle Archaic (Arcaico Medio)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8109,7 +8147,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/na-archaic-late",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Late Archaic",
+        "@value": "Late Archaic (Arcaico Tardío)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8128,7 +8166,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/poverty-point",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Poverty Point Culture",
+        "@value": "Poverty Point Culture (Cultura de Poverty Point)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8147,7 +8185,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/mesoamerica",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Mesoamerican Civilizations",
+        "@value": "Mesoamerican Civilizations (Civilizaciones Mesoamericanas)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8166,7 +8204,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/olmec",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Olmec Civilization",
+        "@value": "Olmec Civilization (Ōlmēcah)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8185,7 +8223,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/zapotec",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Zapotec Civilization",
+        "@value": "Zapotec Civilization (Binnizá)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8204,7 +8242,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/teotihuacan",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Teotihuacán",
+        "@value": "Teotihuacán (Teōtīhuacān)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8223,7 +8261,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/maya-classic",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Classic Maya Civilization",
+        "@value": "Classic Maya Civilization (Maaya)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8242,7 +8280,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/maya-preclassic",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Preclassic Maya",
+        "@value": "Preclassic Maya (Maya Preclásico)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8261,7 +8299,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/maya-postclassic",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Postclassic Maya",
+        "@value": "Postclassic Maya (Maya Posclásico)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8280,7 +8318,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/toltec",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Toltec Empire",
+        "@value": "Toltec Empire (Imperio Tolteca / Tōltēcāyōtl)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8318,7 +8356,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/aztec-rise",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Rise of the Aztecs",
+        "@value": "Rise of the Aztecs (Ascenso de los Mexicas)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8337,7 +8375,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/aztec-expansion",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Aztec Imperial Expansion",
+        "@value": "Aztec Imperial Expansion (Expansión del Ēxcān Tlahtōlōyān)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8356,7 +8394,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/aztec-moctezuma-ii",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Reign of Moctezuma II",
+        "@value": "Reign of Moctezuma II (Motēcuhzōma Xōcoyōtzin)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8375,7 +8413,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/mixtec",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Mixtec Civilization",
+        "@value": "Mixtec Civilization (Ñuu Dzahui / Civilización Mixteca)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8413,7 +8451,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/totonac",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Totonac Civilization",
+        "@value": "Totonac Civilization (Civilización Totonaca / Tachiwin)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8432,7 +8470,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/epi-olmec",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Epi-Olmec Culture",
+        "@value": "Epi-Olmec Culture (Cultura Epi-Olmeca)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8451,7 +8489,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/woodland-period",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Woodland Period",
+        "@value": "Woodland Period (Período Woodland)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8470,7 +8508,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/adena-culture",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Adena Culture",
+        "@value": "Adena Culture (Cultura Adena)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8489,7 +8527,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/hopewell-tradition",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Hopewell Tradition",
+        "@value": "Hopewell Tradition (Tradición Hopewell)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8508,7 +8546,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/mississippian-culture",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Mississippian Culture",
+        "@value": "Mississippian Culture (Cultura Misisipiana)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8527,7 +8565,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/cahokia",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Cahokia",
+        "@value": "Cahokia (Cahokia Mounds)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8546,7 +8584,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/fort-ancient",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Fort Ancient Culture",
+        "@value": "Fort Ancient Culture (Cultura Fort Ancient)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8565,7 +8603,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/plaquemine",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Plaquemine Culture",
+        "@value": "Plaquemine Culture (Cultura Plaquemine)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8603,7 +8641,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/chaco-canyon",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Chaco Canyon Florescence",
+        "@value": "Chaco Canyon Florescence (Chaco Canyon / Tségháhoodzání)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8622,7 +8660,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/hohokam",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Hohokam Culture",
+        "@value": "Hohokam Culture (Huhugam)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8641,7 +8679,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/mogollon",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Mogollon Culture",
+        "@value": "Mogollon Culture (Cultura Mogollón)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8660,7 +8698,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/northwest-coast",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Northwest Coast Cultures",
+        "@value": "Northwest Coast Cultures (Kulturer vid nordvästkusten)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8679,7 +8717,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/thule-culture",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Thule Culture",
+        "@value": "Thule Culture (Thulekulturen)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8698,7 +8736,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/dorset-culture",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Dorset Culture",
+        "@value": "Dorset Culture (Tuniit)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8717,7 +8755,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/plains-village",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Plains Village Period",
+        "@value": "Plains Village Period (Período de las Aldeas de las Llanuras)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8755,7 +8793,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/taino",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Taíno Civilization",
+        "@value": "Taíno Civilization (Civilización Taína)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8793,7 +8831,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/saladoid",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Saladoid Culture",
+        "@value": "Saladoid Culture (Cultura Saladoide)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8812,7 +8850,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/gran-cocle",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Gran Coclé Culture",
+        "@value": "Gran Coclé Culture (Cultura Gran Coclé)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8831,7 +8869,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/diquis",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Diquís Culture",
+        "@value": "Diquís Culture (Cultura Diquís)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8869,7 +8907,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/north-america-colonial",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Colonial North America",
+        "@value": "Colonial North America (Nordamerika under kolonisationen)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8888,7 +8926,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/spanish-exploration-na",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Spanish Exploration of North America",
+        "@value": "Spanish Exploration of North America (Exploración española de Norteamérica)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8907,7 +8945,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/new-france",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "New France",
+        "@value": "New France (Nouvelle-France)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8945,7 +8983,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/thirteen-colonies",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Thirteen British Colonies",
+        "@value": "Thirteen British Colonies (Tretton kolonierna)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8964,7 +9002,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/new-netherland",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "New Netherland",
+        "@value": "New Netherland (Nieuw-Nederland)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8983,7 +9021,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/french-indian-war",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "French and Indian War",
+        "@value": "French and Indian War (Guerre de la Conquête)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9002,7 +9040,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/american-revolution",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "American Revolution",
+        "@value": "American Revolution (Amerikanska revolutionen)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9021,7 +9059,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/early-american-republic",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Early American Republic",
+        "@value": "Early American Republic (Tidiga amerikanska republiken)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9040,7 +9078,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/jacksonian-era",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Jacksonian Era",
+        "@value": "Jacksonian Era (Den jacksonianska eran)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9059,7 +9097,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/antebellum-period",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Antebellum Period",
+        "@value": "Antebellum Period (Antebellumperioden)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9078,7 +9116,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/american-civil-war",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "American Civil War",
+        "@value": "American Civil War (Amerikanska inbördeskriget)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9097,7 +9135,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/reconstruction",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Reconstruction Era",
+        "@value": "Reconstruction Era (Rekonstruktionseran)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9116,7 +9154,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/gilded-age",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Gilded Age",
+        "@value": "Gilded Age (Den förgyllda tidsåldern)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9135,7 +9173,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/mexican-american-war",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Mexican–American War",
+        "@value": "Mexican–American War (Intervención estadounidense en México)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9154,7 +9192,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/california-gold-rush",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "California Gold Rush",
+        "@value": "California Gold Rush (Guldrushen i Kalifornien)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9173,7 +9211,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/indian-wars",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Indian Wars",
+        "@value": "Indian Wars (Indiankrigen)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9192,7 +9230,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/spanish-american-war",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Spanish–American War",
+        "@value": "Spanish–American War (Guerra hispano-estadounidense)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9211,7 +9249,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/mexican-history",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Mexican Historical Periods",
+        "@value": "Mexican Historical Periods (Periodos históricos de México)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9249,7 +9287,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/mexican-independence",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Mexican War of Independence",
+        "@value": "Mexican War of Independence (Guerra de Independencia de México)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9268,7 +9306,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/mexican-republic-early",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Early Mexican Republic",
+        "@value": "Early Mexican Republic (Primera República Mexicana)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9287,7 +9325,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/french-intervention-mexico",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "French Intervention in Mexico",
+        "@value": "French Intervention in Mexico (Segunda intervención francesa en México)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9306,7 +9344,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/cristero-war",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Cristero War",
+        "@value": "Cristero War (Guerra Cristera)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9325,7 +9363,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/porfiriato",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Porfiriato",
+        "@value": "Porfiriato (El Porfiriato)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9344,7 +9382,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/mexican-revolution",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Mexican Revolution",
+        "@value": "Mexican Revolution (Revolución Mexicana)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9363,7 +9401,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/mexico-post-revolution",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Post-Revolutionary Mexico",
+        "@value": "Post-Revolutionary Mexico (México posrevolucionario)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9382,7 +9420,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/canadian-history",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Canadian Historical Periods",
+        "@value": "Canadian Historical Periods (Périodes historiques du Canada)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9401,7 +9439,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/fur-trade-era",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Fur Trade Era",
+        "@value": "Fur Trade Era (Ère de la traite des fourrures)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9420,7 +9458,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/british-north-america",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "British North America",
+        "@value": "British North America (Amérique du Nord britannique)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9439,7 +9477,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/red-river-metis",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Red River and Métis Resistance",
+        "@value": "Red River and Métis Resistance (Résistance de la rivière Rouge et des Métis)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9458,7 +9496,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/klondike-gold-rush",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Klondike Gold Rush",
+        "@value": "Klondike Gold Rush (Ruée vers l'or du Klondike)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9477,7 +9515,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/canadian-confederation",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Canadian Confederation",
+        "@value": "Canadian Confederation (Confédération canadienne)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9496,7 +9534,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/modern-canada",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Modern Canada",
+        "@value": "Modern Canada (Canada moderne)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9515,7 +9553,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/progressive-era",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Progressive Era",
+        "@value": "Progressive Era (Progressiva eran)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9572,7 +9610,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/us-wwii",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "United States in World War II",
+        "@value": "United States in World War II (USA under andra världskriget)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9610,7 +9648,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/us-civil-rights",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Civil Rights Movement",
+        "@value": "Civil Rights Movement (Medborgarrättsrörelsen)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9629,7 +9667,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/vietnam-war-era",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Vietnam War Era",
+        "@value": "Vietnam War Era (Chiến tranh Việt Nam)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9648,7 +9686,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/space-race",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Space Race",
+        "@value": "Space Race (Kapplöpningen till rymden)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9667,7 +9705,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/post-911-era",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Post-9/11 Era",
+        "@value": "Post-9/11 Era (Eran efter 11 september)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9686,26 +9724,45 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/africa-prehistoric",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Prehistoric Africa",
+        "@value": "Prehistoric Africa (Förhistoriska Afrika)",
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Birthplace of Homo sapiens; earliest modern human behavior; rock art; Neolithic revolution in Sahara and Nile; transition to complex societies.",
+        "@value": "Birthplace of Homo sapiens; earliest stone tools (Lomekwian ~3.3 Ma); earliest modern human behavior; rock art; Neolithic revolution in Sahara and Nile; transition to complex societies.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
       },
-      "time:hasBeginning": "300000 BCE",
+      "time:hasBeginning": "3300000 BCE",
       "time:hasEnd": "3100 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/african-early-stone-age",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "African Early Stone Age (Afrikanska äldre stenåldern / ESA)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Oldest stone tool traditions: Lomekwian (~3.3 Ma), Oldowan (~2.6 Ma, Homo habilis), Acheulean (~1.76 Ma, Homo erectus/heidelbergensis); hand axes; control of fire; covers c. 3.3 million to ~300,000 years ago. African archaeological periodization: ESA/MSA/LSA (distinct from European Paleolithic/Mesolithic/Neolithic framework).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/africa-prehistoric"
+      },
+      "time:hasBeginning": "3300000 BCE",
+      "time:hasEnd": "300000 BCE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
       "@id": "https://metadatahub.eu/data/geologic-timescale/african-middle-stone-age",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "African Middle Stone Age",
+        "@value": "African Middle Stone Age (Afrikanska mellersta stenåldern / MSA)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9724,7 +9781,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/african-later-stone-age",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "African Later Stone Age",
+        "@value": "African Later Stone Age (Afrikanska senare stenåldern / LSA)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9762,7 +9819,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/nile-predynastic",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Predynastic Nile Valley",
+        "@value": "Predynastic Nile Valley (مصر ما قبل الأسرات Miṣr mā qabl al-usrāt)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9800,7 +9857,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/egypt-early-dynastic",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Early Dynastic Egypt",
+        "@value": "Early Dynastic Egypt (عصر الأسرات المبكر)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9819,7 +9876,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/egypt-old-kingdom",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Old Kingdom of Egypt",
+        "@value": "Old Kingdom of Egypt (الدولة القديمة ad-Dawla al-Qadīma)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9838,7 +9895,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/egypt-first-intermediate",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "First Intermediate Period",
+        "@value": "First Intermediate Period (عصر الاضمحلال الأول)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9857,7 +9914,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/egypt-middle-kingdom",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Middle Kingdom of Egypt",
+        "@value": "Middle Kingdom of Egypt (الدولة الوسطى ad-Dawla al-Wusṭā)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9895,7 +9952,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/egypt-new-kingdom",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "New Kingdom of Egypt",
+        "@value": "New Kingdom of Egypt (الدولة الحديثة ad-Dawla al-Ḥadītha)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9914,7 +9971,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/amarna-period",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Amarna Period",
+        "@value": "Amarna Period (عصر العمارنة ʿAṣr al-ʿAmārna)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9933,7 +9990,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/ramesside-period",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Ramesside Period",
+        "@value": "Ramesside Period (عصر الرعامسة ʿAṣr ar-Raʿāmisa)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9952,7 +10009,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/egypt-third-intermediate",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Third Intermediate Period",
+        "@value": "Third Intermediate Period (عصر الاضمحلال الثالث)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9971,7 +10028,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/egypt-late-period",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Late Period of Egypt",
+        "@value": "Late Period of Egypt (العصر المتأخر al-ʿAṣr al-Mutaʾakhkhir)",
         "@language": "en"
       },
       "skos:definition": {
@@ -9990,7 +10047,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/ptolemaic-egypt",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Ptolemaic Egypt",
+        "@value": "Ptolemaic Egypt (مصر البطلمية / Πτολεμαϊκή Αίγυπτος)",
         "@language": "en"
       },
       "skos:definition": {
@@ -10009,7 +10066,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/nubia-kush",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Nubian and Kushite Civilizations",
+        "@value": "Nubian and Kushite Civilizations (الحضارة النوبية والكوشية)",
         "@language": "en"
       },
       "skos:definition": {
@@ -10028,7 +10085,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/kerma-culture",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Kingdom of Kerma",
+        "@value": "Kingdom of Kerma (مملكة كرمة)",
         "@language": "en"
       },
       "skos:definition": {
@@ -10066,7 +10123,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/meroe",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Meroitic Period",
+        "@value": "Meroitic Period (الفترة المروية)",
         "@language": "en"
       },
       "skos:definition": {
@@ -10085,7 +10142,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/land-of-punt",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Land of Punt",
+        "@value": "Land of Punt (أرض بونت Arḍ Būnt / Pwnt)",
         "@language": "en"
       },
       "skos:definition": {
@@ -10104,7 +10161,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/daamt",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Kingdom of D'mt",
+        "@value": "Kingdom of D'mt (ዳዕማት Daʿmat)",
         "@language": "en"
       },
       "skos:definition": {
@@ -10123,7 +10180,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/aksum",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Kingdom of Aksum",
+        "@value": "Kingdom of Aksum (መንግሥተ አክሱም Mangəśtä Aksūm)",
         "@language": "en"
       },
       "skos:definition": {
@@ -10142,7 +10199,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/zagwe-dynasty",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Zagwe Dynasty",
+        "@value": "Zagwe Dynasty (ዛጉዌ ሥርወ መንግሥት)",
         "@language": "en"
       },
       "skos:definition": {
@@ -10161,7 +10218,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/solomonic-dynasty",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Solomonic Dynasty",
+        "@value": "Solomonic Dynasty (የሰለሞን ሥርወ መንግሥት)",
         "@language": "en"
       },
       "skos:definition": {
@@ -10180,7 +10237,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/west-africa-ancient",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Ancient West African Civilizations",
+        "@value": "Ancient West African Civilizations (Civilisations anciennes d'Afrique de l'Ouest)",
         "@language": "en"
       },
       "skos:definition": {
@@ -10199,7 +10256,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/nok-culture",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Nok Culture",
+        "@value": "Nok Culture (Nok-kulturen)",
         "@language": "en"
       },
       "skos:definition": {
@@ -10275,7 +10332,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/kanem-bornu",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Kanem-Bornu Empire",
+        "@value": "Kanem-Bornu Empire (Empire du Kanem-Bornou)",
         "@language": "en"
       },
       "skos:definition": {
@@ -10313,7 +10370,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/oyo-empire",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Oyo Empire",
+        "@value": "Oyo Empire (Ilú Ọ̀yọ́)",
         "@language": "en"
       },
       "skos:definition": {
@@ -10408,7 +10465,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/hausa-city-states",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Hausa City-States",
+        "@value": "Hausa City-States (Ƙasashen Hausa)",
         "@language": "en"
       },
       "skos:definition": {
@@ -10427,7 +10484,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/sokoto-caliphate",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Sokoto Caliphate",
+        "@value": "Sokoto Caliphate (خلافة صكتو Ḫilāfat Sokoto)",
         "@language": "en"
       },
       "skos:definition": {
@@ -10446,7 +10503,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/timbuktu-golden-age",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Golden Age of Timbuktu",
+        "@value": "Golden Age of Timbuktu (Âge d'or de Tombouctou)",
         "@language": "en"
       },
       "skos:definition": {
@@ -10484,7 +10541,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/swahili-coast",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Swahili Coast Civilization",
+        "@value": "Swahili Coast Civilization (Ustaarabu wa Pwani ya Swahili)",
         "@language": "en"
       },
       "skos:definition": {
@@ -10503,7 +10560,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/kilwa-sultanate",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Kilwa Sultanate",
+        "@value": "Kilwa Sultanate (Usultani wa Kilwa)",
         "@language": "en"
       },
       "skos:definition": {
@@ -10541,7 +10598,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/mutapa-empire",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Kingdom of Mutapa",
+        "@value": "Kingdom of Mutapa (Wene wa Mutapa)",
         "@language": "en"
       },
       "skos:definition": {
@@ -10560,7 +10617,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/buganda-kingdom",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Kingdom of Buganda",
+        "@value": "Kingdom of Buganda (Obwakabaka bwa Buganda)",
         "@language": "en"
       },
       "skos:definition": {
@@ -10598,7 +10655,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/bunyoro-kitara",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Bunyoro-Kitara Empire",
+        "@value": "Bunyoro-Kitara Empire (Obukama bwa Bunyoro-Kitara)",
         "@language": "en"
       },
       "skos:definition": {
@@ -10617,7 +10674,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/adal-sultanate",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Adal Sultanate",
+        "@value": "Adal Sultanate (سلطنة عدل Salṭanat ʿAdal)",
         "@language": "en"
       },
       "skos:definition": {
@@ -10655,7 +10712,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/mapungubwe",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Kingdom of Mapungubwe",
+        "@value": "Kingdom of Mapungubwe (Mmuso wa Mapungubwe)",
         "@language": "en"
       },
       "skos:definition": {
@@ -10693,7 +10750,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/mfecane",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Mfecane/Difaqane",
+        "@value": "Mfecane/Difaqane (umFecane / Lifaqane)",
         "@language": "en"
       },
       "skos:definition": {
@@ -10788,7 +10845,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/khoisan-pastoral",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Khoisan Pastoral Period",
+        "@value": "Khoisan Pastoral Period (Khoisan-pastoral perioden)",
         "@language": "en"
       },
       "skos:definition": {
@@ -10826,7 +10883,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/kongo-kingdom",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Kingdom of Kongo",
+        "@value": "Kingdom of Kongo (Wene wa Kongo)",
         "@language": "en"
       },
       "skos:definition": {
@@ -10845,7 +10902,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/luba-kingdom",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Luba Kingdom",
+        "@value": "Luba Kingdom (Bulopwe / Royaume Luba)",
         "@language": "en"
       },
       "skos:definition": {
@@ -10864,7 +10921,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/lunda-empire",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Lunda Empire",
+        "@value": "Lunda Empire (Mwaant Yaav / Empire Lunda)",
         "@language": "en"
       },
       "skos:definition": {
@@ -10978,7 +11035,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/north-africa-islamic",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Islamic North Africa",
+        "@value": "Islamic North Africa (شمال أفريقيا الإسلامي)",
         "@language": "en"
       },
       "skos:definition": {
@@ -10997,7 +11054,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/umayyad-maghreb",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Umayyad Conquest of the Maghreb",
+        "@value": "Umayyad Conquest of the Maghreb (الفتح الأموي للمغرب)",
         "@language": "en"
       },
       "skos:definition": {
@@ -11016,7 +11073,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/almoravid",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Almoravid Dynasty",
+        "@value": "Almoravid Dynasty (المرابطون al-Murābiṭūn)",
         "@language": "en"
       },
       "skos:definition": {
@@ -11035,7 +11092,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/almohad",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Almohad Caliphate",
+        "@value": "Almohad Caliphate (الموحدون al-Muwaḥḥidūn)",
         "@language": "en"
       },
       "skos:definition": {
@@ -11149,7 +11206,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/barbary-states",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Barbary States",
+        "@value": "Barbary States (إيالات بربرية / États barbaresques)",
         "@language": "en"
       },
       "skos:definition": {
@@ -11187,7 +11244,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/colonial-africa",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Colonial Africa",
+        "@value": "Colonial Africa (Koloniala Afrika)",
         "@language": "en"
       },
       "skos:definition": {
@@ -11225,7 +11282,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/congo-free-state",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Congo Free State",
+        "@value": "Congo Free State (État indépendant du Congo)",
         "@language": "en"
       },
       "skos:definition": {
@@ -11244,7 +11301,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/mau-mau-uprising",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Mau Mau Uprising",
+        "@value": "Mau Mau Uprising (Mau Mau / Kĩmaathi)",
         "@language": "en"
       },
       "skos:definition": {
@@ -11263,7 +11320,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/african-independence",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "African Independence Movements",
+        "@value": "African Independence Movements (Afrikanska självständighetsrörelserna)",
         "@language": "en"
       },
       "skos:definition": {
@@ -11282,7 +11339,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/pan-africanism",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Pan-African Movement",
+        "@value": "Pan-African Movement (Panafrikanska rörelsen)",
         "@language": "en"
       },
       "skos:definition": {
@@ -11301,7 +11358,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/apartheid",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Apartheid South Africa",
+        "@value": "Apartheid South Africa (Apartheid Suid-Afrika)",
         "@language": "en"
       },
       "skos:definition": {
@@ -11320,7 +11377,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/rwandan-genocide",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Rwandan Genocide",
+        "@value": "Rwandan Genocide (Jenoside yakorewe Abatutsi)",
         "@language": "en"
       },
       "skos:definition": {
@@ -11339,7 +11396,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/african-union-era",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "African Union Era",
+        "@value": "African Union Era (الاتحاد الأفريقي / Union africaine)",
         "@language": "en"
       },
       "skos:definition": {
@@ -11358,7 +11415,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/south-asia-history",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "South Asian Historical Periods",
+        "@value": "South Asian Historical Periods (दक्षिण एशिया के ऐतिहासिक काल)",
         "@language": "en"
       },
       "skos:definition": {
@@ -11377,7 +11434,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/mehrgarh",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Mehrgarh",
+        "@value": "Mehrgarh (مہرگڑھ Mehrgaṛh)",
         "@language": "en"
       },
       "skos:definition": {
@@ -11412,10 +11469,29 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/indus-early",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Early Harappan Phase (प्रारंभिक हड़प्पा काल / ابتدائی ہڑپہ دور)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Pre-urban phase; small farming communities; Ravi and Kot Diji cultures; early pottery and copper tools; transition to urban phase c. 2600 BCE; sites include Rehman Dheri and Amri.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/indus-valley"
+      },
+      "time:hasBeginning": "3300 BCE",
+      "time:hasEnd": "2600 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
       "@id": "https://metadatahub.eu/data/geologic-timescale/indus-mature",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Mature Harappan Phase",
+        "@value": "Mature Harappan Phase (परिपक्व हड़प्पा काल / پختہ ہڑپہ دور)",
         "@language": "en"
       },
       "skos:definition": {
@@ -11428,6 +11504,25 @@
       },
       "time:hasBeginning": "2600 BCE",
       "time:hasEnd": "1900 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/indus-late",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Late Harappan Phase (उत्तर हड़प्पा काल / آخری ہڑپہ دور)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Post-urban decline; abandonment of major cities; Cemetery H and Gandhara Grave cultures; localization of material culture; climate change and monsoon shifts implicated in collapse; possible continuity into early Vedic culture.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/indus-valley"
+      },
+      "time:hasBeginning": "1900 BCE",
+      "time:hasEnd": "1300 BCE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -11453,7 +11548,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/vedic-early",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Early Vedic Period",
+        "@value": "Early Vedic Period (पूर्व वैदिक काल Pūrva Vaidika Kāl)",
         "@language": "en"
       },
       "skos:definition": {
@@ -11472,7 +11567,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/vedic-late",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Late Vedic Period",
+        "@value": "Late Vedic Period (उत्तर वैदिक काल Uttara Vaidika Kāl)",
         "@language": "en"
       },
       "skos:definition": {
@@ -11510,7 +11605,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/ashoka",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Reign of Ashoka",
+        "@value": "Reign of Ashoka (अशोक का शासनकाल / 𑀅𑀲𑁄𑀓 Asoka)",
         "@language": "en"
       },
       "skos:definition": {
@@ -11529,7 +11624,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/gandhara",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Gandhara Civilization",
+        "@value": "Gandhara Civilization (گندھارا / गन्धार Gandhāra)",
         "@language": "en"
       },
       "skos:definition": {
@@ -11548,7 +11643,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/kushan-empire",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Kushan Empire",
+        "@value": "Kushan Empire (कुषाण साम्राज्य Kuṣāṇa)",
         "@language": "en"
       },
       "skos:definition": {
@@ -11586,7 +11681,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/satavahana",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Satavahana Dynasty",
+        "@value": "Satavahana Dynasty (शातवाहन / సాతవాహన Śātavāhana)",
         "@language": "en"
       },
       "skos:definition": {
@@ -11605,7 +11700,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/pallava-dynasty",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Pallava Dynasty",
+        "@value": "Pallava Dynasty (பல்லவ மரபு Pallava Marapu)",
         "@language": "en"
       },
       "skos:definition": {
@@ -11624,7 +11719,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/chalukya-dynasty",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Chalukya Dynasty",
+        "@value": "Chalukya Dynasty (ಚಾಲುಕ್ಯ ರಾಜವಂಶ Cāḷukya)",
         "@language": "en"
       },
       "skos:definition": {
@@ -11643,7 +11738,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/chola-dynasty",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Chola Dynasty",
+        "@value": "Chola Dynasty (சோழ மரபு Cōḻa)",
         "@language": "en"
       },
       "skos:definition": {
@@ -11662,7 +11757,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/pala-empire",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Pala Empire",
+        "@value": "Pala Empire (পাল সাম্রাজ্য Pāla Sāmrājya)",
         "@language": "en"
       },
       "skos:definition": {
@@ -11700,7 +11795,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/vijayanagara",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Vijayanagara Empire",
+        "@value": "Vijayanagara Empire (ವಿಜಯನಗರ ಸಾಮ್ರಾಜ್ಯ Vijayanagara)",
         "@language": "en"
       },
       "skos:definition": {
@@ -11738,7 +11833,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/mughal-golden-age",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Mughal Golden Age",
+        "@value": "Mughal Golden Age (مغلیہ سلطنت کا عروج)",
         "@language": "en"
       },
       "skos:definition": {
@@ -11814,7 +11909,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/indian-independence",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Indian Independence Movement",
+        "@value": "Indian Independence Movement (भारतीय स्वतंत्रता आन्दोलन)",
         "@language": "en"
       },
       "skos:definition": {
@@ -11833,7 +11928,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/south-asia-modern",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Modern South Asia",
+        "@value": "Modern South Asia (आधुनिक दक्षिण एशिया)",
         "@language": "en"
       },
       "skos:definition": {
@@ -11985,7 +12080,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/china-history",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Chinese Historical Periods",
+        "@value": "Chinese Historical Periods (中国历史时期 Zhōngguó lìshǐ shíqī)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12004,7 +12099,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/chinese-neolithic",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Chinese Neolithic Cultures",
+        "@value": "Chinese Neolithic Cultures (中国新石器时代文化 Zhōngguó xīn shíqì shídài wénhuà)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12023,7 +12118,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/xia-dynasty",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Xia Dynasty",
+        "@value": "Xia Dynasty (夏朝 Xià Cháo)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12042,7 +12137,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/shang-dynasty",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Shang Dynasty",
+        "@value": "Shang Dynasty (商朝 Shāng Cháo)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12061,7 +12156,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/zhou-dynasty",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Zhou Dynasty",
+        "@value": "Zhou Dynasty (周朝 Zhōu Cháo)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12080,7 +12175,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/spring-autumn",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Spring and Autumn Period",
+        "@value": "Spring and Autumn Period (春秋時代 Chūnqiū)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12099,7 +12194,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/warring-states",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Warring States Period",
+        "@value": "Warring States Period (戰國時代 Zhànguó)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12118,7 +12213,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/qin-dynasty",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Qin Dynasty",
+        "@value": "Qin Dynasty (秦朝 Qín Cháo)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12137,7 +12232,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/han-dynasty",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Han Dynasty",
+        "@value": "Han Dynasty (漢朝 Hàn Cháo)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12156,7 +12251,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/han-western",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Western Han",
+        "@value": "Western Han (西漢 Xī Hàn)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12175,7 +12270,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/han-eastern",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Eastern Han",
+        "@value": "Eastern Han (東漢 Dōng Hàn)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12194,7 +12289,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/three-kingdoms",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Three Kingdoms Period",
+        "@value": "Three Kingdoms Period (三國時代 Sānguó)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12251,7 +12346,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/sui-dynasty",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Sui Dynasty",
+        "@value": "Sui Dynasty (隋朝 Suí Cháo)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12270,7 +12365,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/tang-dynasty",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Tang Dynasty",
+        "@value": "Tang Dynasty (唐朝 Táng Cháo)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12289,7 +12384,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/five-dynasties",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Five Dynasties and Ten Kingdoms",
+        "@value": "Five Dynasties and Ten Kingdoms (五代十國 Wǔdài Shíguó)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12308,7 +12403,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/song-dynasty",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Song Dynasty",
+        "@value": "Song Dynasty (宋朝 Sòng Cháo)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12327,7 +12422,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/song-northern",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Northern Song",
+        "@value": "Northern Song (北宋 Běi Sòng)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12403,7 +12498,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/song-southern",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Southern Song",
+        "@value": "Southern Song (南宋 Nán Sòng)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12441,7 +12536,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/ming-dynasty",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Ming Dynasty",
+        "@value": "Ming Dynasty (明朝 Míng Cháo)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12460,7 +12555,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/zheng-he",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Zheng He Voyages",
+        "@value": "Zheng He Voyages (郑和下西洋 Zhèng Hé xià Xīyáng)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12479,7 +12574,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/qing-dynasty",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Qing Dynasty",
+        "@value": "Qing Dynasty (清朝 Qīng Cháo)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12498,7 +12593,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/qing-golden-age",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "High Qing Era",
+        "@value": "High Qing Era (康乾盛世 Kāng-Qián shèngshì)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12517,7 +12612,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/opium-wars",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Opium Wars Era",
+        "@value": "Opium Wars Era (鸦片战争 Yāpiàn Zhànzhēng)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12536,7 +12631,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/republic-of-china",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Republic of China",
+        "@value": "Republic of China (中華民國 Zhōnghuá Mínguó)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12555,7 +12650,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/prc",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "People's Republic of China",
+        "@value": "People's Republic of China (中华人民共和国 Zhōnghuá Rénmín Gònghéguó)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12612,7 +12707,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/japan-history",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Japanese Historical Periods",
+        "@value": "Japanese Historical Periods (日本の歴史時代 Nihon no rekishi jidai)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12631,7 +12726,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/jomon",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Jōmon Period",
+        "@value": "Jōmon Period (縄文時代 Jōmon jidai)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12650,7 +12745,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/yayoi",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Yayoi Period",
+        "@value": "Yayoi Period (弥生時代 Yayoi jidai)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12669,7 +12764,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/kofun",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Kofun Period",
+        "@value": "Kofun Period (古墳時代 Kofun jidai)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12688,7 +12783,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/asuka-period",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Asuka Period",
+        "@value": "Asuka Period (飛鳥時代 Asuka jidai)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12707,7 +12802,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/nara-period",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Nara Period",
+        "@value": "Nara Period (奈良時代 Nara jidai)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12726,7 +12821,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/heian-period",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Heian Period",
+        "@value": "Heian Period (平安時代 Heian jidai)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12745,7 +12840,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/kamakura-shogunate",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Kamakura Period",
+        "@value": "Kamakura Period (鎌倉時代 Kamakura jidai)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12764,7 +12859,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/muromachi-period",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Muromachi Period",
+        "@value": "Muromachi Period (室町時代 Muromachi jidai)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12783,7 +12878,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/sengoku",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Sengoku Period",
+        "@value": "Sengoku Period (戦国時代 Sengoku jidai)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12821,7 +12916,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/edo-period",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Edo Period (Tokugawa)",
+        "@value": "Edo Period (江戸時代 Edo jidai / Tokugawa)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12840,7 +12935,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/meiji-era",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Meiji Era",
+        "@value": "Meiji Era (明治時代 Meiji jidai)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12897,7 +12992,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/postwar-japan",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Postwar Japan",
+        "@value": "Postwar Japan (戦後日本 Sengo Nihon)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12935,7 +13030,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/korea-history",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Korean Historical Periods",
+        "@value": "Korean Historical Periods (한국 역사 시대 / 韓國歷史時代)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12954,7 +13049,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/gojoseon",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Gojoseon",
+        "@value": "Gojoseon (고조선 / 古朝鮮)",
         "@language": "en"
       },
       "skos:definition": {
@@ -12973,7 +13068,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/three-kingdoms-korea",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Three Kingdoms of Korea",
+        "@value": "Three Kingdoms of Korea (삼국시대 / 三國時代)",
         "@language": "en"
       },
       "skos:definition": {
@@ -13011,7 +13106,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/silla-unified",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Unified Silla",
+        "@value": "Unified Silla (통일신라 / 統一新羅)",
         "@language": "en"
       },
       "skos:definition": {
@@ -13068,7 +13163,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/goryeo-dynasty",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Goryeo Dynasty",
+        "@value": "Goryeo Dynasty (고려 / 高麗)",
         "@language": "en"
       },
       "skos:definition": {
@@ -13087,7 +13182,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/joseon-dynasty",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Joseon Dynasty",
+        "@value": "Joseon Dynasty (조선 / 朝鮮)",
         "@language": "en"
       },
       "skos:definition": {
@@ -13106,7 +13201,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/joseon-golden-age",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Joseon Golden Age",
+        "@value": "Joseon Golden Age (조선 세종대왕 시대 / 朝鮮 世宗大王 時代)",
         "@language": "en"
       },
       "skos:definition": {
@@ -13144,7 +13239,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/japanese-occupation-korea",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Japanese Occupation of Korea",
+        "@value": "Japanese Occupation of Korea (일제강점기 / 日帝強占期)",
         "@language": "en"
       },
       "skos:definition": {
@@ -13182,7 +13277,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/southeast-asia-history",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Southeast Asian Historical Periods",
+        "@value": "Southeast Asian Historical Periods (ประวัติศาสตร์เอเชียตะวันออกเฉียงใต้)",
         "@language": "en"
       },
       "skos:definition": {
@@ -13201,7 +13296,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/funan",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Kingdom of Funan",
+        "@value": "Kingdom of Funan (扶南 Fúnán / នគរភ្នំ)",
         "@language": "en"
       },
       "skos:definition": {
@@ -13217,10 +13312,29 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/chenla-kingdom",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Kingdom of Chenla (真臘 Zhēnlà / ចេនឡា Chenla / ប្រទេសកម្ពុជា)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Khmer predecessor state; successor to Funan in mainland Southeast Asia; fragmented c. 706 CE into Land Chenla (upper) and Water Chenla (lower); Jayavarman II unified and proclaimed devaraja (god-king), founding the Khmer Empire in 802 CE.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/southeast-asia-history"
+      },
+      "time:hasBeginning": "550 CE",
+      "time:hasEnd": "802 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
       "@id": "https://metadatahub.eu/data/geologic-timescale/champa",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Kingdom of Champa",
+        "@value": "Kingdom of Champa (Chăm Pa / 占婆 Zhànpó)",
         "@language": "en"
       },
       "skos:definition": {
@@ -13239,7 +13353,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/srivijaya",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Srivijaya Empire",
+        "@value": "Srivijaya Empire (ศรีวิชัย / Śrīvijaya)",
         "@language": "en"
       },
       "skos:definition": {
@@ -13296,7 +13410,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/dvaravati",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Dvaravati Kingdom",
+        "@value": "Dvaravati Kingdom (ทวารวดี Thawārawadī)",
         "@language": "en"
       },
       "skos:definition": {
@@ -13334,7 +13448,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/pagan-kingdom",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Pagan Kingdom",
+        "@value": "Pagan Kingdom (ပုဂံ ပြည် Pugaṃ Pyi)",
         "@language": "en"
       },
       "skos:definition": {
@@ -13353,7 +13467,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/majapahit",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Majapahit Empire",
+        "@value": "Majapahit Empire (Kerajaan Majapahit / ꦩꦗꦥꦲꦶꦠ꧀)",
         "@language": "en"
       },
       "skos:definition": {
@@ -13372,7 +13486,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/sukhothai",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Sukhothai Kingdom",
+        "@value": "Sukhothai Kingdom (อาณาจักรสุโขทัย Anāčhak Sukhōthai)",
         "@language": "en"
       },
       "skos:definition": {
@@ -13391,7 +13505,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/ayutthaya",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Ayutthaya Kingdom",
+        "@value": "Ayutthaya Kingdom (อาณาจักรอยุธยา Anāčhak Ayutthayā)",
         "@language": "en"
       },
       "skos:definition": {
@@ -13410,7 +13524,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/malacca-sultanate",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Malacca Sultanate",
+        "@value": "Malacca Sultanate (Kesultanan Melayu Melaka)",
         "@language": "en"
       },
       "skos:definition": {
@@ -13429,7 +13543,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/dai-viet",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Đại Việt",
+        "@value": "Đại Việt (大越)",
         "@language": "en"
       },
       "skos:definition": {
@@ -13771,7 +13885,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/colonial-southeast-asia",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Colonial Southeast Asia",
+        "@value": "Colonial Southeast Asia (Kolonial Sydostasien)",
         "@language": "en"
       },
       "skos:definition": {
@@ -13790,7 +13904,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/southeast-asia-modern",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Modern Southeast Asia",
+        "@value": "Modern Southeast Asia (Sydostasien i modern tid)",
         "@language": "en"
       },
       "skos:definition": {
@@ -13809,7 +13923,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/central-asia-history",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Central Asian Historical Periods",
+        "@value": "Central Asian Historical Periods (Орта Азия тарихи / تاریخ آسیای مرکزی)",
         "@language": "en"
       },
       "skos:definition": {
@@ -13828,7 +13942,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/scythians",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Scythian Period",
+        "@value": "Scythian Period (Σκύθαι / Скифы Skify)",
         "@language": "en"
       },
       "skos:definition": {
@@ -13847,7 +13961,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/xiongnu",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Xiongnu Empire",
+        "@value": "Xiongnu Empire (匈奴 Xiōngnú)",
         "@language": "en"
       },
       "skos:definition": {
@@ -13885,7 +13999,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/gokturk-khaganate",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Göktürk Khaganate",
+        "@value": "Göktürk Khaganate (𐰜𐰇𐰛:𐱅𐰇𐰼𐰜 Kök Türük / 突厥)",
         "@language": "en"
       },
       "skos:definition": {
@@ -13904,7 +14018,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/tibetan-empire",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Tibetan Empire",
+        "@value": "Tibetan Empire (བོད་ཆེན་པོ Böchen / 吐蕃 Tǔbō)",
         "@language": "en"
       },
       "skos:definition": {
@@ -14094,7 +14208,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/timurid-empire",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Timurid Empire",
+        "@value": "Timurid Empire (تیموریان Tīmūriyān)",
         "@language": "en"
       },
       "skos:definition": {
@@ -14170,7 +14284,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/great-game",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "The Great Game",
+        "@value": "The Great Game (Большая игра Bolʹshaya igra / بازی بزرگ)",
         "@language": "en"
       },
       "skos:definition": {
@@ -14189,7 +14303,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/durrani-empire",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Durrani Empire",
+        "@value": "Durrani Empire (د درانیانو واکمني Da Durrāniyāno Wākmani)",
         "@language": "en"
       },
       "skos:definition": {
@@ -14265,7 +14379,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/sumer",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Sumerian Civilization (ki-en-gi)",
+        "@value": "Sumerian Civilization (𒆠𒂗𒄀 ki-en-gi)",
         "@language": "en"
       },
       "skos:definition": {
@@ -14284,7 +14398,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/akkadian-empire",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Akkadian Empire",
+        "@value": "Akkadian Empire (𒀀𒅗𒁲𒆠 māt Akkadī)",
         "@language": "en"
       },
       "skos:definition": {
@@ -14303,7 +14417,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/babylon-old",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Old Babylonian Period",
+        "@value": "Old Babylonian Period (العصر البابلي القديم)",
         "@language": "en"
       },
       "skos:definition": {
@@ -14322,7 +14436,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/assyrian-empire",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Assyrian Empire",
+        "@value": "Assyrian Empire (𒀸𒋗𒁺𒆠 māt Aššur)",
         "@language": "en"
       },
       "skos:definition": {
@@ -14341,7 +14455,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/neo-babylonian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Neo-Babylonian Empire",
+        "@value": "Neo-Babylonian Empire (الإمبراطورية البابلية الحديثة)",
         "@language": "en"
       },
       "skos:definition": {
@@ -14360,7 +14474,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/phoenicia",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Phoenician Civilization",
+        "@value": "Phoenician Civilization (Φοινίκη / 𐤊𐤍𐤏𐤍 Kanaʿan)",
         "@language": "en"
       },
       "skos:definition": {
@@ -14379,7 +14493,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/carthage",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Carthaginian Empire",
+        "@value": "Carthaginian Empire (𐤒𐤓𐤕 𐤇𐤃𐤔𐤕 Qart-ḥadašt)",
         "@language": "en"
       },
       "skos:definition": {
@@ -14398,7 +14512,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/ancient-israel",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Ancient Israel",
+        "@value": "Ancient Israel (יִשְׂרָאֵל Yisrā'ēl)",
         "@language": "en"
       },
       "skos:definition": {
@@ -14417,7 +14531,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/hittite-empire",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Hittite Empire",
+        "@value": "Hittite Empire (𒄩𒀜𒌅𒊭 Ḫattuša)",
         "@language": "en"
       },
       "skos:definition": {
@@ -14531,7 +14645,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/seleucid-empire",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Seleucid Empire",
+        "@value": "Seleucid Empire (Αυτοκρατορία των Σελευκιδών / الإمبراطورية السلوقية)",
         "@language": "en"
       },
       "skos:definition": {
@@ -14550,7 +14664,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/parthian-empire",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Parthian Empire",
+        "@value": "Parthian Empire (شاهنشاهی اشکانی Šāhanšāhī-ye Aškānī)",
         "@language": "en"
       },
       "skos:definition": {
@@ -14664,7 +14778,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/fatimid-caliphate",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Fatimid Caliphate",
+        "@value": "Fatimid Caliphate (الخلافة الفاطمية al-Ḫilāfa al-Fāṭimiyya)",
         "@language": "en"
       },
       "skos:definition": {
@@ -14740,7 +14854,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/ottoman-empire",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Ottoman Empire (Osmanlı İmparatorluğu)",
+        "@value": "Ottoman Empire (Osmanlı İmparatorluğu / الدولة العثمانية / Οθωμανική Αυτοκρατορία / Osmanlı Devleti / Османска империя / Otoman İmparatorluğu)",
         "@language": "en"
       },
       "skos:definition": {
@@ -14759,7 +14873,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/ottoman-golden-age",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Ottoman Golden Age",
+        "@value": "Ottoman Golden Age (Osmanlı İmparatorluğu'nun Yükselme Devri)",
         "@language": "en"
       },
       "skos:definition": {
@@ -14835,7 +14949,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/qajar-dynasty",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Qajar Dynasty",
+        "@value": "Qajar Dynasty (سلسله قاجار Silsile-ye Qājār)",
         "@language": "en"
       },
       "skos:definition": {
@@ -14930,7 +15044,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/catalhoyuk",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Çatalhöyük",
+        "@value": "Çatalhöyük (Çatal Höyük)",
         "@language": "en"
       },
       "skos:definition": {
@@ -15082,7 +15196,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/modern-middle-east",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Modern Middle East",
+        "@value": "Modern Middle East (الشرق الأوسط الحديث / خاورمیانه مدرن)",
         "@language": "en"
       },
       "skos:definition": {
@@ -15101,7 +15215,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/oceania-history",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Oceanian Historical Periods",
+        "@value": "Oceanian Historical Periods (Oceaniens historiska perioder)",
         "@language": "en"
       },
       "skos:definition": {
@@ -15120,7 +15234,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/aboriginal-australia",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Aboriginal Australian Periods",
+        "@value": "Aboriginal Australian Periods (Aboriginsk australisk historia)",
         "@language": "en"
       },
       "skos:definition": {
@@ -15139,7 +15253,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/aboriginal-early",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Early Aboriginal Period",
+        "@value": "Early Aboriginal Period (Tidig aboriginsk period)",
         "@language": "en"
       },
       "skos:definition": {
@@ -15158,7 +15272,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/aboriginal-holocene",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Aboriginal Holocene Period",
+        "@value": "Aboriginal Holocene Period (Aboriginsk holocen period)",
         "@language": "en"
       },
       "skos:definition": {
@@ -15177,7 +15291,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/budj-bim",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Budj Bim Cultural Landscape",
+        "@value": "Budj Bim Cultural Landscape (Budj Bim / Gunditjmara)",
         "@language": "en"
       },
       "skos:definition": {
@@ -15196,7 +15310,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/torres-strait-islanders",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Torres Strait Islander Culture",
+        "@value": "Torres Strait Islander Culture (Ailan Kastom)",
         "@language": "en"
       },
       "skos:definition": {
@@ -15215,7 +15329,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/australian-colonial",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Colonial Australia",
+        "@value": "Colonial Australia (Koloniala Australien)",
         "@language": "en"
       },
       "skos:definition": {
@@ -15234,7 +15348,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/australian-federation",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Federation and Modern Australia",
+        "@value": "Federation and Modern Australia (Australiens federation och modern tid)",
         "@language": "en"
       },
       "skos:definition": {
@@ -15253,7 +15367,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/melanesia-history",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Melanesian Civilizations",
+        "@value": "Melanesian Civilizations (Melanesiska civilisationer)",
         "@language": "en"
       },
       "skos:definition": {
@@ -15272,7 +15386,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/sahul-settlement",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Settlement of Sahul",
+        "@value": "Settlement of Sahul (Bosättningen av Sahul)",
         "@language": "en"
       },
       "skos:definition": {
@@ -15291,7 +15405,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/png-highlands",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Papua New Guinea Highlands Cultures",
+        "@value": "Papua New Guinea Highlands Cultures (Ol kalsa bilong hailans)",
         "@language": "en"
       },
       "skos:definition": {
@@ -15310,7 +15424,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/kuk-early-agriculture",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Kuk Early Agriculture",
+        "@value": "Kuk Early Agriculture (Kuk Swamp / Kuk taim bilong gaden)",
         "@language": "en"
       },
       "skos:definition": {
@@ -15329,7 +15443,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/ancient-fiji",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Ancient Fiji",
+        "@value": "Ancient Fiji (Viti Makawa)",
         "@language": "en"
       },
       "skos:definition": {
@@ -15348,7 +15462,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/lapita-culture",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Lapita Culture",
+        "@value": "Lapita Culture (Lapita-kulturen)",
         "@language": "en"
       },
       "skos:definition": {
@@ -15367,7 +15481,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/polynesia-history",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Polynesian Civilizations",
+        "@value": "Polynesian Civilizations (Polynesiska civilisationer)",
         "@language": "en"
       },
       "skos:definition": {
@@ -15405,7 +15519,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/polynesia-expansion",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Polynesian Expansion",
+        "@value": "Polynesian Expansion (Te Hekenga-ā-Polynesia)",
         "@language": "en"
       },
       "skos:definition": {
@@ -15443,7 +15557,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/tuamotuan-cook",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Cook Islands & Tuamotus Settlement",
+        "@value": "Cook Islands & Tuamotus Settlement (Kūki 'Āirani / Tuāmotu)",
         "@language": "en"
       },
       "skos:definition": {
@@ -15462,7 +15576,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/hawaiian-kingdom-pre",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Ancient Hawaiʻi",
+        "@value": "Ancient Hawaiʻi (Hawaiʻi kahiko)",
         "@language": "en"
       },
       "skos:definition": {
@@ -15481,7 +15595,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/hawaiian-kingdom",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Kingdom of Hawaiʻi",
+        "@value": "Kingdom of Hawaiʻi (Aupuni Mōʻī o Hawaiʻi)",
         "@language": "en"
       },
       "skos:definition": {
@@ -15500,7 +15614,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/tui-manua",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Tuʻi Manuʻa",
+        "@value": "Tuʻi Manuʻa (Tupu o Manuʻa)",
         "@language": "en"
       },
       "skos:definition": {
@@ -15519,7 +15633,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/tongaempire",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Tuʻi Tonga Empire",
+        "@value": "Tuʻi Tonga Empire (Puleʻanga Tuʻi Tonga)",
         "@language": "en"
       },
       "skos:definition": {
@@ -15538,7 +15652,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/micronesia-history",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Micronesian Civilizations",
+        "@value": "Micronesian Civilizations (Mikronesiska civilisationer)",
         "@language": "en"
       },
       "skos:definition": {
@@ -15557,7 +15671,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/nan-madol",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Nan Madol",
+        "@value": "Nan Madol (Nahnihmw Madol)",
         "@language": "en"
       },
       "skos:definition": {
@@ -15576,7 +15690,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/palau-earthworks",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Palau Earthwork Era",
+        "@value": "Palau Earthwork Era (Belau a terraces)",
         "@language": "en"
       },
       "skos:definition": {
@@ -15595,7 +15709,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/marshallese-navigation",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Marshallese Navigation Tradition",
+        "@value": "Marshallese Navigation Tradition (Wāppepe in M̧ajeļ)",
         "@language": "en"
       },
       "skos:definition": {
@@ -15633,7 +15747,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/aotearoa-history",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Aotearoa / New Zealand History",
+        "@value": "Aotearoa / New Zealand History (Hītori o Aotearoa)",
         "@language": "en"
       },
       "skos:definition": {
@@ -15652,7 +15766,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/maori-settlement",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Māori Settlement Period",
+        "@value": "Māori Settlement Period (Te Wā o te Taenga Mai)",
         "@language": "en"
       },
       "skos:definition": {
@@ -15671,7 +15785,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/maori-classic",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Classic Māori Period",
+        "@value": "Classic Māori Period (Te Ao Māori Tawhito)",
         "@language": "en"
       },
       "skos:definition": {
@@ -15690,7 +15804,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/new-zealand-colonial",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Colonial New Zealand",
+        "@value": "Colonial New Zealand (Aotearoa i koroniana)",
         "@language": "en"
       },
       "skos:definition": {
@@ -15709,7 +15823,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/new-zealand-modern",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Modern New Zealand",
+        "@value": "Modern New Zealand (Aotearoa hou)",
         "@language": "en"
       },
       "skos:definition": {
@@ -15728,7 +15842,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/colonial-pacific",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Colonial Pacific",
+        "@value": "Colonial Pacific (Koloniala Stilla havet)",
         "@language": "en"
       },
       "skos:definition": {
@@ -15747,7 +15861,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/pacific-nuclear-era",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Pacific Nuclear Testing Era",
+        "@value": "Pacific Nuclear Testing Era (Essais nucléaires dans le Pacifique)",
         "@language": "en"
       },
       "skos:definition": {
@@ -15766,7 +15880,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/pacific-independence",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Pacific Island Independence",
+        "@value": "Pacific Island Independence (Stillahavsnationernas självständighet)",
         "@language": "en"
       },
       "skos:definition": {
