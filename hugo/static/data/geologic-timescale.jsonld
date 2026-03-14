@@ -6612,7 +6612,7 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Leif Erikson reaches North America (~1000 CE); L'Anse aux Meadows, Newfoundland (UNESCO World Heritage Site); first confirmed European presence in the Americas; short-lived settlement; sagas of Eiríks saga rauða and Grœnlendinga saga.",
+        "@value": "Leif Erikson reaches North America (~1000 CE); L'Anse aux Meadows, Newfoundland (UNESCO World Heritage Site); tree-ring dated to 1021 CE; first confirmed European presence in the Americas; sagas of Eiríks saga rauða and Grœnlendinga saga.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
@@ -6620,7 +6620,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/viking-age"
       },
       "time:hasBeginning": "1000 CE",
-      "time:hasEnd": "1020 CE",
+      "time:hasEnd": "1021 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {

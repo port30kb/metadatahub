@@ -858,8 +858,8 @@ add("viking-rus", "Varangians and Kievan Rus'", "CulturalAge", "viking-age", 800
     "Swedish Vikings (Varangians) establish trade routes through Russia; found Kyiv and Novgorod; Varangian Guard in Constantinople.")
 add("norse-greenland", "Norse Greenland (Grænland / Grønland)", "CulturalAge", "viking-age", 985, 1450, "CE",
     "Erik the Red founds Eastern and Western Settlements (~985); Brattahlíð; launching point for Vinland voyages; Garðar diocese (northernmost in Christendom); population ~3,000-5,000; abandoned by ~1450; climate deterioration and trade isolation.")
-add("norse-vinland", "Norse Vinland (Vínland)", "CulturalAge", "viking-age", 1000, 1020, "CE",
-    "Leif Erikson reaches North America (~1000 CE); L'Anse aux Meadows, Newfoundland (UNESCO World Heritage Site); first confirmed European presence in the Americas; short-lived settlement; sagas of Eiríks saga rauða and Grœnlendinga saga.")
+add("norse-vinland", "Norse Vinland (Vínland)", "CulturalAge", "viking-age", 1000, 1021, "CE",
+    "Leif Erikson reaches North America (~1000 CE); L'Anse aux Meadows, Newfoundland (UNESCO World Heritage Site); tree-ring dated to 1021 CE; first confirmed European presence in the Americas; sagas of Eiríks saga rauða and Grœnlendinga saga.")
 
 # --- Medieval & Hanseatic ---
 add("christianization-scandinavia", "Christianization of Scandinavia", "CulturalAge", "viking-age", 960, 1150, "CE",
