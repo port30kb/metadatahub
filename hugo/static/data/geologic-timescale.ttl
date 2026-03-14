@@ -6052,11 +6052,11 @@ ts:kerma-culture a gts:GeochronologicAge ;
 ts:kingdom-kush a gts:GeochronologicAge ;
     rdfs:label "Kingdom of Kush (Napatan)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
-    skos:definition "Napata capital; 25th Dynasty pharaohs rule Egypt (Piye, Taharqa ~700 BCE); expelled by Assyrians; continued as independent kingdom."@en ;
+    skos:definition "Napata capital; 25th Dynasty pharaohs rule Egypt (Piye, Taharqa ~700 BCE); expelled by Assyrians; capital shifts to Meroe ~300 BCE."@en ;
     gts:rank "CulturalAge" ;
     skos:broader ts:nubia-kush ;
     time:hasBeginning [ rdfs:label "1070 BCE" ] ;
-    time:hasEnd [ rdfs:label "350 BCE" ] ;
+    time:hasEnd [ rdfs:label "300 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 548/852: Meroitic Period (الفترة المروية) (CulturalAge) ──

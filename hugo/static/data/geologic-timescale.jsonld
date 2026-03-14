@@ -10393,7 +10393,7 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Napata capital; 25th Dynasty pharaohs rule Egypt (Piye, Taharqa ~700 BCE); expelled by Assyrians; continued as independent kingdom.",
+        "@value": "Napata capital; 25th Dynasty pharaohs rule Egypt (Piye, Taharqa ~700 BCE); expelled by Assyrians; capital shifts to Meroe ~300 BCE.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
@@ -10401,7 +10401,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/nubia-kush"
       },
       "time:hasBeginning": "1070 BCE",
-      "time:hasEnd": "350 BCE",
+      "time:hasEnd": "300 BCE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {

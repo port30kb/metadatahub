@@ -1317,8 +1317,8 @@ add("nubia-kush", "Nubian and Kushite Civilizations (الحضارة النوبي
     "Civilizations along Upper Nile (modern Sudan); rivals and successors of Egypt; pyramids of Meroë; iron production; distinct art and religion.")
 add("kerma-culture", "Kingdom of Kerma (مملكة كرمة)", "CulturalAge", "nubia-kush", 2500, 1500, "BCE",
     "First major Nubian kingdom; capital at Kerma; monumental deffufas (mud-brick temples); wealthy burials; rival to Egyptian Middle Kingdom.")
-add("kingdom-kush", "Kingdom of Kush (Napatan)", "CulturalAge", "nubia-kush", 1070, 350, "BCE",
-    "Napata capital; 25th Dynasty pharaohs rule Egypt (Piye, Taharqa ~700 BCE); expelled by Assyrians; continued as independent kingdom.")
+add("kingdom-kush", "Kingdom of Kush (Napatan)", "CulturalAge", "nubia-kush", 1070, 300, "BCE",
+    "Napata capital; 25th Dynasty pharaohs rule Egypt (Piye, Taharqa ~700 BCE); expelled by Assyrians; capital shifts to Meroe ~300 BCE.")
 add("meroe", "Meroitic Period (الفترة المروية)", "CulturalAge", "nubia-kush", 270, 350, "BCE-CE",
     "Capital moves to Meroë; iron smelting center; Meroitic script (deciphered, but language only partially understood); over 200 pyramids; Kandake (queen) warriors; trade with Rome.")
 
