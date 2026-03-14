@@ -3636,7 +3636,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/upper-paleolithic"
       },
-      "time:hasBeginning": "11000 BCE",
+      "time:hasBeginning": "11600 BCE",
       "time:hasEnd": "10000 BCE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -3655,8 +3655,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/upper-paleolithic"
       },
-      "time:hasBeginning": "11000 BCE",
-      "time:hasEnd": "9500 BCE",
+      "time:hasBeginning": "10900 BCE",
+      "time:hasEnd": "9700 BCE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -3788,7 +3788,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/mesolithic"
       },
-      "time:hasBeginning": "5300 BCE",
+      "time:hasBeginning": "5400 BCE",
       "time:hasEnd": "3950 BCE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -3997,7 +3997,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/bronze-age"
       },
-      "time:hasBeginning": "1750 BCE",
+      "time:hasBeginning": "1700 BCE",
       "time:hasEnd": "500 BCE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -4016,7 +4016,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/nordic-bronze-age"
       },
-      "time:hasBeginning": "1750 BCE",
+      "time:hasBeginning": "1700 BCE",
       "time:hasEnd": "1100 BCE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -4434,7 +4434,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
       },
-      "time:hasBeginning": "790 CE",
+      "time:hasBeginning": "793 CE",
       "time:hasEnd": "1100 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -4453,7 +4453,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/viking-age"
       },
-      "time:hasBeginning": "790 CE",
+      "time:hasBeginning": "793 CE",
       "time:hasEnd": "900 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },

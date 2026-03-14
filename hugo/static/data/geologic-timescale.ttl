@@ -2139,7 +2139,7 @@ ts:bromme-culture a gts:GeochronologicAge ;
     skos:definition "Late Paleolithic reindeer hunters at the edge of the Scandinavian ice sheet; earliest human presence in Sweden (Scania)."@en ;
     gts:rank "CulturalAge" ;
     skos:broader ts:upper-paleolithic ;
-    time:hasBeginning [ rdfs:label "11000 BCE" ] ;
+    time:hasBeginning [ rdfs:label "11600 BCE" ] ;
     time:hasEnd [ rdfs:label "10000 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
@@ -2150,8 +2150,8 @@ ts:ahrensburg-culture a gts:GeochronologicAge ;
     skos:definition "Late Paleolithic/early Mesolithic nomadic hunters from the North German Plain; migrated north via Jutland following retreating ice."@en ;
     gts:rank "CulturalAge" ;
     skos:broader ts:upper-paleolithic ;
-    time:hasBeginning [ rdfs:label "11000 BCE" ] ;
-    time:hasEnd [ rdfs:label "9500 BCE" ] ;
+    time:hasBeginning [ rdfs:label "10900 BCE" ] ;
+    time:hasEnd [ rdfs:label "9700 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 193/830: Mesolithic / Middle Stone Age (Mesolitikum / Mellersta stenåldern) (CulturalAge) ──
@@ -2227,7 +2227,7 @@ ts:ertebolleculture a gts:GeochronologicAge ;
     skos:definition "Late Mesolithic in southern Scandinavia; first pottery, large shell middens, transition to agriculture."@en ;
     gts:rank "CulturalAge" ;
     skos:broader ts:mesolithic ;
-    time:hasBeginning [ rdfs:label "5300 BCE" ] ;
+    time:hasBeginning [ rdfs:label "5400 BCE" ] ;
     time:hasEnd [ rdfs:label "3950 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
@@ -2348,7 +2348,7 @@ ts:nordic-bronze-age a gts:GeochronologicAge ;
     skos:definition "Scandinavian Bronze Age; elaborate burial mounds, rock carvings (hällristningar), sun chariot of Trundholm."@en ;
     gts:rank "CulturalAge" ;
     skos:broader ts:bronze-age ;
-    time:hasBeginning [ rdfs:label "1750 BCE" ] ;
+    time:hasBeginning [ rdfs:label "1700 BCE" ] ;
     time:hasEnd [ rdfs:label "500 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
@@ -2359,7 +2359,7 @@ ts:nordic-bronze-early a gts:GeochronologicAge ;
     skos:definition "Oak coffin burials (Egtved Girl, Skrydstrup Woman); Trundholm sun chariot; wealth from amber trade."@en ;
     gts:rank "CulturalAge" ;
     skos:broader ts:nordic-bronze-age ;
-    time:hasBeginning [ rdfs:label "1750 BCE" ] ;
+    time:hasBeginning [ rdfs:label "1700 BCE" ] ;
     time:hasEnd [ rdfs:label "1100 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
@@ -2601,7 +2601,7 @@ ts:viking-age a gts:GeochronologicAge ;
     skos:definition "Norse expansion, raiding, trading, and settlement; Birka, Hedeby; Christianization of Scandinavia."@en ;
     gts:rank "CulturalAge" ;
     skos:broader ts:holocene ;
-    time:hasBeginning [ rdfs:label "790 CE" ] ;
+    time:hasBeginning [ rdfs:label "793 CE" ] ;
     time:hasEnd [ rdfs:label "1100 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
@@ -2612,7 +2612,7 @@ ts:early-viking-age a gts:GeochronologicAge ;
     skos:definition "Raid on Lindisfarne (793); establishment of Norse trading centers; Oseberg ship burial."@en ;
     gts:rank "CulturalAge" ;
     skos:broader ts:viking-age ;
-    time:hasBeginning [ rdfs:label "790 CE" ] ;
+    time:hasBeginning [ rdfs:label "793 CE" ] ;
     time:hasEnd [ rdfs:label "900 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 

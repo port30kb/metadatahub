@@ -485,9 +485,9 @@ add("middle-paleolithic", "Middle Paleolithic", "CulturalAge", "paleolithic", 30
     "Neanderthals in Europe; Mousterian tool industry; first evidence of symbolic behavior.")
 add("upper-paleolithic", "Upper Paleolithic", "CulturalAge", "paleolithic", 50000, 10000, "BCE",
     "Homo sapiens in Europe; cave art (Lascaux, Altamira); Aurignacian, Gravettian, Magdalenian cultures.")
-add("bromme-culture", "Bromme Culture", "CulturalAge", "upper-paleolithic", 11000, 10000, "BCE",
+add("bromme-culture", "Bromme Culture", "CulturalAge", "upper-paleolithic", 11600, 10000, "BCE",
     "Late Paleolithic reindeer hunters at the edge of the Scandinavian ice sheet; earliest human presence in Sweden (Scania).")
-add("ahrensburg-culture", "Ahrensburg Culture", "CulturalAge", "upper-paleolithic", 11000, 9500, "BCE",
+add("ahrensburg-culture", "Ahrensburg Culture", "CulturalAge", "upper-paleolithic", 10900, 9700, "BCE",
     "Late Paleolithic/early Mesolithic nomadic hunters from the North German Plain; migrated north via Jutland following retreating ice.")
 add("mesolithic", "Mesolithic / Middle Stone Age (Mesolitikum / Mellersta stenåldern)", "CulturalAge", "stone-age", 10000, 4000, "BCE",
     "Post-glacial; microlithic tools; Scandinavia first settled ~9500 BCE. Maglemosian, Kongemose, Ertebølle cultures.")
@@ -501,7 +501,7 @@ add("kongemose", "Kongemose Culture", "CulturalAge", "mesolithic", 6000, 5200, "
     "Middle Mesolithic in Denmark and southern Sweden; coastal adaptation, fishing, seal hunting.")
 add("nostvet-lihult", "Nøstvet and Lihult Cultures", "CulturalAge", "mesolithic", 6000, 4000, "BCE",
     "Middle-Late Mesolithic in most of southern Norway and Sweden; descendants of Fosna-Hensbacka; polished stone axes.")
-add("ertebolleculture", "Ertebølle Culture", "CulturalAge", "mesolithic", 5300, 3950, "BCE",
+add("ertebolleculture", "Ertebølle Culture", "CulturalAge", "mesolithic", 5400, 3950, "BCE",
     "Late Mesolithic in southern Scandinavia; first pottery, large shell middens, transition to agriculture.")
 add("neolithic", "Neolithic / New Stone Age (Neolitikum / Yngre stenåldern)", "CulturalAge", "stone-age", 4000, 2000, "BCE",
     "Agriculture, polished stone tools, pottery, permanent settlements. Funnelbeaker culture in Scandinavia (~4000–2700 BCE).")
@@ -527,9 +527,9 @@ add("middle-bronze-age", "Middle Bronze Age", "CulturalAge", "bronze-age", 2000,
     "Minoan civilization peaks; Nordic Bronze Age begins (~1750 BCE); extensive trade networks.")
 add("late-bronze-age", "Late Bronze Age", "CulturalAge", "bronze-age", 1550, 1200, "BCE",
     "Mycenaean Greece; New Kingdom Egypt; Late Bronze Age collapse (~1200 BCE).")
-add("nordic-bronze-age", "Nordic Bronze Age (Nordisk bronsålder)", "CulturalAge", "bronze-age", 1750, 500, "BCE",
+add("nordic-bronze-age", "Nordic Bronze Age (Nordisk bronsålder)", "CulturalAge", "bronze-age", 1700, 500, "BCE",
     "Scandinavian Bronze Age; elaborate burial mounds, rock carvings (hällristningar), sun chariot of Trundholm.")
-add("nordic-bronze-early", "Early Nordic Bronze Age / Period I–III (Äldre bronsåldern)", "CulturalAge", "nordic-bronze-age", 1750, 1100, "BCE",
+add("nordic-bronze-early", "Early Nordic Bronze Age / Period I–III (Äldre bronsåldern)", "CulturalAge", "nordic-bronze-age", 1700, 1100, "BCE",
     "Oak coffin burials (Egtved Girl, Skrydstrup Woman); Trundholm sun chariot; wealth from amber trade.")
 add("montelius-i", "Montelius Period I", "CulturalAge", "nordic-bronze-early", 1700, 1500, "BCE",
     "Earliest Nordic Bronze Age; first bronze imports; flint daggers gradually replaced by bronze weapons.")
@@ -579,9 +579,9 @@ add("vendel-late", "Late Vendel Period", "CulturalAge", "vendel-period", 650, 79
     "Valsgärde boat burials continue; Style III ornamentation; Birka's proto-urban precursors; transition to Viking Age.")
 
 # --- Viking Age ---
-add("viking-age", "Viking Age (Vikingatiden)", "CulturalAge", "holocene", 790, 1100, "CE",
+add("viking-age", "Viking Age (Vikingatiden)", "CulturalAge", "holocene", 793, 1100, "CE",
     "Norse expansion, raiding, trading, and settlement; Birka, Hedeby; Christianization of Scandinavia.")
-add("early-viking-age", "Early Viking Age (Äldre vikingatiden)", "CulturalAge", "viking-age", 790, 900, "CE",
+add("early-viking-age", "Early Viking Age (Äldre vikingatiden)", "CulturalAge", "viking-age", 793, 900, "CE",
     "Raid on Lindisfarne (793); establishment of Norse trading centers; Oseberg ship burial.")
 add("middle-viking-age", "Middle Viking Age (Mellersta vikingatiden)", "CulturalAge", "viking-age", 900, 1000, "CE",
     "Danelaw in England; Normandy settled; Icelandic settlement; Bluetooth's Denmark.")
