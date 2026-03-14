@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate the Geologic Time Scale as Linked Data (Turtle + JSON-LD).
 
-843 data points covering:
+851 data points covering:
 - 4 Eons
 - 10 Eras
 - 22 Periods (incl. Mississippian/Pennsylvanian sub-periods)
@@ -848,6 +848,23 @@ add("boring-billion", "Boring Billion (Dull Billion / Mesoproterozoic Stasis / �
 
 add("toba-catastrophe", "Toba Catastrophe (~74 ka / Toba, Sumatera)", "Age", "late-pleistocene", 0.074, 0.074, "Ma",
     "Supervolcanic eruption of Mount Toba, Sumatra (~74 ka); Volcanic Explosivity Index 8; ~2,800 km³ ejecta; volcanic winter; possible human population bottleneck (debated); largest eruption in last 2 million years.")
+
+add("rodinia-assembly", "Rodinia Assembly (Grenville Orogeny / родина Rodina)", "Age", "stenian", 1100, 900, "Ma",
+    "Assembly of supercontinent Rodinia via Grenville orogeny; included most of Earth's continental crust; name from Russian 'родина' (homeland); precursor configuration shaped later tectonic and glacial history.")
+add("rodinia-breakup", "Rodinia Breakup (родина распад)", "Age", "tonian", 750, 633, "Ma",
+    "Rifting and breakup of supercontinent Rodinia; opened Iapetus Ocean; weathering of newly exposed continental margins may have triggered Snowball Earth glaciations (Sturtian, Marinoan); led to formation of Gondwana.")
+add("pangaea-assembly", "Pangaea Assembly (Πᾶν γαῖα / Variscan–Alleghenian)", "Age", "pennsylvanian", 335, 270, "Ma",
+    "Assembly of Earth's most recent supercontinent from collision of Gondwana and Laurussia; Variscan/Hercynian and Alleghanian orogenies; enclosed Tethys Ocean; profoundly altered global climate and ocean circulation.")
+add("pangaea-breakup", "Pangaea Breakup (Πᾶν γαῖα rift)", "Age", "early-jurassic", 200, 150, "Ma",
+    "Rifting of Pangaea beginning in Late Triassic/Early Jurassic; separation into Laurasia and Gondwana; opening of Central Atlantic Ocean; CAMP volcanism associated with initial rifting; shaped modern continental configuration.")
+add("oae-1a", "Oceanic Anoxic Event 1a (OAE 1a / Selli Event / Selli, Italia)", "Age", "aptian", 120, 119, "Ma",
+    "Widespread ocean anoxia linked to Ontong Java Plateau volcanism; massive organic carbon burial; black shale deposition; major perturbation of global carbon cycle; significant marine biotic turnover.")
+add("oae-2", "Oceanic Anoxic Event 2 (OAE 2 / Bonarelli Event / Bonarelli, Italia)", "Age", "cenomanian", 94.4, 93.9, "Ma",
+    "Most severe Cretaceous oceanic anoxic event; global black shale deposition; ~27% of marine invertebrate genera extinct; linked to Caribbean LIP volcanism; major δ¹³C excursion used as global stratigraphic marker.")
+add("isthmus-panama", "Isthmus of Panama Closure (Istmo de Panamá / GABI)", "Age", "piacenzian", 3.5, 2.8, "Ma",
+    "Tectonic closure of Central American Seaway; diverted Atlantic/Pacific currents; strengthened Gulf Stream and thermohaline circulation; triggered Great American Biotic Interchange (GABI); contributed to Northern Hemisphere glaciation onset.")
+add("mmct", "Mid-Miocene Climate Transition (MMCT)", "Age", "serravallian", 14.0, 13.8, "Ma",
+    "Abrupt global cooling following Mid-Miocene Climatic Optimum; major expansion of East Antarctic ice sheet; global sea level drop; grasslands expand at expense of forests; key inflection point toward modern icehouse climate.")
 
 # ═══════════════════════════════════════════════════════════════
 # ADDITIONAL CULTURAL PERIODS (Sámi, Baltic, Finnish)
