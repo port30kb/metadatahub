@@ -11,7 +11,7 @@
   "@id": "https://metadatahub.eu/data/geologic-timescale",
   "@type": "skos:ConceptScheme",
   "dcterms:title": "Geologic Time Scale",
-  "dcterms:description": "812 entries covering the geologic time scale from Hadean eon (4600 Ma) to present, including Scandinavian, European, and South American cultural/historical periods.",
+  "dcterms:description": "830 entries covering the geologic time scale from Hadean eon (4600 Ma) to present, including Scandinavian, European, and South American cultural/historical periods.",
   "dcterms:source": [
     "https://en.wikipedia.org/wiki/Geologic_time_scale",
     "https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf",
@@ -35,8 +35,8 @@
         "@language": "en"
       },
       "gts:rank": "Eon",
-      "time:hasBeginning": "4600 Ma",
-      "time:hasEnd": "4000 Ma",
+      "time:hasBeginning": "4567 Ma",
+      "time:hasEnd": "4031 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -54,7 +54,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/hadean"
       },
-      "time:hasBeginning": "4600 Ma",
+      "time:hasBeginning": "4567 Ma",
       "time:hasEnd": "4404 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -74,7 +74,26 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/hadean"
       },
       "time:hasBeginning": "4404 Ma",
-      "time:hasEnd": "4030 Ma",
+      "time:hasEnd": "4031 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/late-heavy-bombardment",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Late Heavy Bombardment (LHB)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Proposed period of intense asteroid and comet impacts on inner Solar System; evidence from lunar craters and Apollo samples; shaped early Earth crust; timing and intensity debated (Nice model).",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/hadean"
+      },
+      "time:hasBeginning": "4100 Ma",
+      "time:hasEnd": "3800 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -89,7 +108,7 @@
         "@language": "en"
       },
       "gts:rank": "Eon",
-      "time:hasBeginning": "4000 Ma",
+      "time:hasBeginning": "4031 Ma",
       "time:hasEnd": "2500 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -140,7 +159,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/archean"
       },
-      "time:hasBeginning": "4000 Ma",
+      "time:hasBeginning": "4031 Ma",
       "time:hasEnd": "3600 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -456,14 +475,14 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Second Snowball Earth; cap carbonates deposited after deglaciation.",
+        "@value": "Second Snowball Earth; onset ~639 Ma per U-Pb geochronology; cap carbonates deposited after deglaciation.",
         "@language": "en"
       },
       "gts:rank": "Age",
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/cryogenian"
       },
-      "time:hasBeginning": "650 Ma",
+      "time:hasBeginning": "639 Ma",
       "time:hasEnd": "635 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -540,7 +559,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/paleozoic"
       },
       "time:hasBeginning": "538.8 Ma",
-      "time:hasEnd": "485.4 Ma",
+      "time:hasEnd": "486.85 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -749,7 +768,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/cambrian"
       },
       "time:hasBeginning": "497 Ma",
-      "time:hasEnd": "485.4 Ma",
+      "time:hasEnd": "486.85 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -806,7 +825,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/furongian"
       },
       "time:hasBeginning": "489.5 Ma",
-      "time:hasEnd": "485.4 Ma",
+      "time:hasEnd": "486.85 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -824,8 +843,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/paleozoic"
       },
-      "time:hasBeginning": "485.4 Ma",
-      "time:hasEnd": "443.8 Ma",
+      "time:hasBeginning": "486.85 Ma",
+      "time:hasEnd": "443.1 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -843,8 +862,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/ordovician"
       },
-      "time:hasBeginning": "485.4 Ma",
-      "time:hasEnd": "470 Ma",
+      "time:hasBeginning": "486.85 Ma",
+      "time:hasEnd": "471.3 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -862,8 +881,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-ordovician"
       },
-      "time:hasBeginning": "485.4 Ma",
-      "time:hasEnd": "477.7 Ma",
+      "time:hasBeginning": "486.85 Ma",
+      "time:hasEnd": "477.1 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -881,8 +900,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-ordovician"
       },
-      "time:hasBeginning": "477.7 Ma",
-      "time:hasEnd": "470 Ma",
+      "time:hasBeginning": "477.1 Ma",
+      "time:hasEnd": "471.3 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -900,8 +919,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/ordovician"
       },
-      "time:hasBeginning": "470 Ma",
-      "time:hasEnd": "458.4 Ma",
+      "time:hasBeginning": "471.3 Ma",
+      "time:hasEnd": "458.2 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -919,8 +938,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/middle-ordovician"
       },
-      "time:hasBeginning": "470 Ma",
-      "time:hasEnd": "467.3 Ma",
+      "time:hasBeginning": "471.3 Ma",
+      "time:hasEnd": "469.4 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -938,8 +957,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/middle-ordovician"
       },
-      "time:hasBeginning": "467.3 Ma",
-      "time:hasEnd": "458.4 Ma",
+      "time:hasBeginning": "469.4 Ma",
+      "time:hasEnd": "458.2 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -957,8 +976,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/ordovician"
       },
-      "time:hasBeginning": "458.4 Ma",
-      "time:hasEnd": "443.8 Ma",
+      "time:hasBeginning": "458.2 Ma",
+      "time:hasEnd": "443.1 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -976,8 +995,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/late-ordovician"
       },
-      "time:hasBeginning": "458.4 Ma",
-      "time:hasEnd": "453 Ma",
+      "time:hasBeginning": "458.2 Ma",
+      "time:hasEnd": "452.8 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -995,7 +1014,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/late-ordovician"
       },
-      "time:hasBeginning": "453 Ma",
+      "time:hasBeginning": "452.8 Ma",
       "time:hasEnd": "445.2 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -1015,7 +1034,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/late-ordovician"
       },
       "time:hasBeginning": "445.2 Ma",
-      "time:hasEnd": "443.8 Ma",
+      "time:hasEnd": "443.1 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1033,8 +1052,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/paleozoic"
       },
-      "time:hasBeginning": "443.8 Ma",
-      "time:hasEnd": "419.2 Ma",
+      "time:hasBeginning": "443.1 Ma",
+      "time:hasEnd": "419.62 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1052,8 +1071,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/silurian"
       },
-      "time:hasBeginning": "443.8 Ma",
-      "time:hasEnd": "433.4 Ma",
+      "time:hasBeginning": "443.1 Ma",
+      "time:hasEnd": "430.6 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1071,8 +1090,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/llandovery"
       },
-      "time:hasBeginning": "443.8 Ma",
-      "time:hasEnd": "440.8 Ma",
+      "time:hasBeginning": "443.1 Ma",
+      "time:hasEnd": "438.6 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1090,8 +1109,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/llandovery"
       },
-      "time:hasBeginning": "440.8 Ma",
-      "time:hasEnd": "438.5 Ma",
+      "time:hasBeginning": "438.6 Ma",
+      "time:hasEnd": "432.9 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1109,8 +1128,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/llandovery"
       },
-      "time:hasBeginning": "438.5 Ma",
-      "time:hasEnd": "433.4 Ma",
+      "time:hasBeginning": "432.9 Ma",
+      "time:hasEnd": "430.6 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1128,8 +1147,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/silurian"
       },
-      "time:hasBeginning": "433.4 Ma",
-      "time:hasEnd": "427.4 Ma",
+      "time:hasBeginning": "430.6 Ma",
+      "time:hasEnd": "425.0 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1147,8 +1166,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/wenlock"
       },
-      "time:hasBeginning": "433.4 Ma",
-      "time:hasEnd": "430.5 Ma",
+      "time:hasBeginning": "430.6 Ma",
+      "time:hasEnd": "426.7 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1166,8 +1185,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/wenlock"
       },
-      "time:hasBeginning": "430.5 Ma",
-      "time:hasEnd": "427.4 Ma",
+      "time:hasBeginning": "426.7 Ma",
+      "time:hasEnd": "425.0 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1185,8 +1204,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/silurian"
       },
-      "time:hasBeginning": "427.4 Ma",
-      "time:hasEnd": "423 Ma",
+      "time:hasBeginning": "425.0 Ma",
+      "time:hasEnd": "422.7 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1204,8 +1223,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/ludlow"
       },
-      "time:hasBeginning": "427.4 Ma",
-      "time:hasEnd": "425.6 Ma",
+      "time:hasBeginning": "425.0 Ma",
+      "time:hasEnd": "423.0 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1223,8 +1242,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/ludlow"
       },
-      "time:hasBeginning": "425.6 Ma",
-      "time:hasEnd": "423 Ma",
+      "time:hasBeginning": "423.0 Ma",
+      "time:hasEnd": "422.7 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1242,8 +1261,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/silurian"
       },
-      "time:hasBeginning": "423 Ma",
-      "time:hasEnd": "419.2 Ma",
+      "time:hasBeginning": "422.7 Ma",
+      "time:hasEnd": "419.62 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1261,7 +1280,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/paleozoic"
       },
-      "time:hasBeginning": "419.2 Ma",
+      "time:hasBeginning": "419.62 Ma",
       "time:hasEnd": "358.9 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -1280,8 +1299,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/pridoli"
       },
-      "time:hasBeginning": "419.2 Ma",
-      "time:hasEnd": "419.2 Ma",
+      "time:hasBeginning": "419.62 Ma",
+      "time:hasEnd": "419.62 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1299,8 +1318,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/devonian"
       },
-      "time:hasBeginning": "419.2 Ma",
-      "time:hasEnd": "393.3 Ma",
+      "time:hasBeginning": "419.62 Ma",
+      "time:hasEnd": "393.47 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1318,8 +1337,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-devonian"
       },
-      "time:hasBeginning": "419.2 Ma",
-      "time:hasEnd": "410.8 Ma",
+      "time:hasBeginning": "419.62 Ma",
+      "time:hasEnd": "413.02 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1337,8 +1356,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-devonian"
       },
-      "time:hasBeginning": "410.8 Ma",
-      "time:hasEnd": "407.6 Ma",
+      "time:hasBeginning": "413.02 Ma",
+      "time:hasEnd": "410.62 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1356,8 +1375,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-devonian"
       },
-      "time:hasBeginning": "407.6 Ma",
-      "time:hasEnd": "393.3 Ma",
+      "time:hasBeginning": "410.62 Ma",
+      "time:hasEnd": "393.47 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1375,8 +1394,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/devonian"
       },
-      "time:hasBeginning": "393.3 Ma",
-      "time:hasEnd": "382.7 Ma",
+      "time:hasBeginning": "393.47 Ma",
+      "time:hasEnd": "382.31 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1394,8 +1413,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/middle-devonian"
       },
-      "time:hasBeginning": "393.3 Ma",
-      "time:hasEnd": "387.7 Ma",
+      "time:hasBeginning": "393.47 Ma",
+      "time:hasEnd": "387.95 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1413,8 +1432,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/middle-devonian"
       },
-      "time:hasBeginning": "387.7 Ma",
-      "time:hasEnd": "382.7 Ma",
+      "time:hasBeginning": "387.95 Ma",
+      "time:hasEnd": "382.31 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1432,7 +1451,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/devonian"
       },
-      "time:hasBeginning": "382.7 Ma",
+      "time:hasBeginning": "382.31 Ma",
       "time:hasEnd": "358.9 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -1451,8 +1470,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/late-devonian"
       },
-      "time:hasBeginning": "382.7 Ma",
-      "time:hasEnd": "372.2 Ma",
+      "time:hasBeginning": "382.31 Ma",
+      "time:hasEnd": "372.15 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1470,7 +1489,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/late-devonian"
       },
-      "time:hasBeginning": "372.2 Ma",
+      "time:hasBeginning": "372.15 Ma",
       "time:hasEnd": "358.9 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -1509,7 +1528,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/carboniferous"
       },
       "time:hasBeginning": "358.9 Ma",
-      "time:hasEnd": "323.2 Ma",
+      "time:hasEnd": "323.4 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1566,7 +1585,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/mississippian"
       },
       "time:hasBeginning": "346.7 Ma",
-      "time:hasEnd": "330.9 Ma",
+      "time:hasEnd": "330.3 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1585,7 +1604,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/middle-mississippian"
       },
       "time:hasBeginning": "346.7 Ma",
-      "time:hasEnd": "330.9 Ma",
+      "time:hasEnd": "330.3 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1603,8 +1622,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/mississippian"
       },
-      "time:hasBeginning": "330.9 Ma",
-      "time:hasEnd": "323.2 Ma",
+      "time:hasBeginning": "330.3 Ma",
+      "time:hasEnd": "323.4 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1622,8 +1641,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/late-mississippian"
       },
-      "time:hasBeginning": "330.9 Ma",
-      "time:hasEnd": "323.2 Ma",
+      "time:hasBeginning": "330.3 Ma",
+      "time:hasEnd": "323.4 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1641,7 +1660,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/carboniferous"
       },
-      "time:hasBeginning": "323.2 Ma",
+      "time:hasBeginning": "323.4 Ma",
       "time:hasEnd": "298.9 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -1660,7 +1679,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/pennsylvanian"
       },
-      "time:hasBeginning": "323.2 Ma",
+      "time:hasBeginning": "323.4 Ma",
       "time:hasEnd": "315.2 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -1679,7 +1698,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-pennsylvanian"
       },
-      "time:hasBeginning": "323.2 Ma",
+      "time:hasBeginning": "323.4 Ma",
       "time:hasEnd": "315.2 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -1813,7 +1832,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/permian"
       },
       "time:hasBeginning": "298.9 Ma",
-      "time:hasEnd": "272.95 Ma",
+      "time:hasEnd": "274.4 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1870,7 +1889,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/cisuralian"
       },
       "time:hasBeginning": "290.1 Ma",
-      "time:hasEnd": "283.5 Ma",
+      "time:hasEnd": "283.3 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1888,8 +1907,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/cisuralian"
       },
-      "time:hasBeginning": "283.5 Ma",
-      "time:hasEnd": "272.95 Ma",
+      "time:hasBeginning": "283.3 Ma",
+      "time:hasEnd": "274.4 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1907,7 +1926,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/permian"
       },
-      "time:hasBeginning": "272.95 Ma",
+      "time:hasBeginning": "274.4 Ma",
       "time:hasEnd": "259.51 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -1926,8 +1945,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/guadalupian"
       },
-      "time:hasBeginning": "272.95 Ma",
-      "time:hasEnd": "268.8 Ma",
+      "time:hasBeginning": "274.4 Ma",
+      "time:hasEnd": "266.9 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1945,8 +1964,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/guadalupian"
       },
-      "time:hasBeginning": "268.8 Ma",
-      "time:hasEnd": "265.1 Ma",
+      "time:hasBeginning": "266.9 Ma",
+      "time:hasEnd": "264.28 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1964,7 +1983,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/guadalupian"
       },
-      "time:hasBeginning": "265.1 Ma",
+      "time:hasBeginning": "264.28 Ma",
       "time:hasEnd": "259.51 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -2269,7 +2288,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/mesozoic"
       },
       "time:hasBeginning": "201.4 Ma",
-      "time:hasEnd": "145.0 Ma",
+      "time:hasEnd": "143.1 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -2326,7 +2345,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-jurassic"
       },
       "time:hasBeginning": "199.5 Ma",
-      "time:hasEnd": "190.8 Ma",
+      "time:hasEnd": "192.9 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -2344,7 +2363,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-jurassic"
       },
-      "time:hasBeginning": "190.8 Ma",
+      "time:hasBeginning": "192.9 Ma",
       "time:hasEnd": "184.2 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -2383,7 +2402,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/jurassic"
       },
       "time:hasBeginning": "174.7 Ma",
-      "time:hasEnd": "163.5 Ma",
+      "time:hasEnd": "161.5 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -2459,7 +2478,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/middle-jurassic"
       },
       "time:hasBeginning": "165.3 Ma",
-      "time:hasEnd": "163.5 Ma",
+      "time:hasEnd": "161.5 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -2477,8 +2496,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/jurassic"
       },
-      "time:hasBeginning": "163.5 Ma",
-      "time:hasEnd": "145.0 Ma",
+      "time:hasBeginning": "161.5 Ma",
+      "time:hasEnd": "143.1 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -2496,8 +2515,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/late-jurassic"
       },
-      "time:hasBeginning": "163.5 Ma",
-      "time:hasEnd": "157.3 Ma",
+      "time:hasBeginning": "161.5 Ma",
+      "time:hasEnd": "154.8 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -2515,8 +2534,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/late-jurassic"
       },
-      "time:hasBeginning": "157.3 Ma",
-      "time:hasEnd": "152.1 Ma",
+      "time:hasBeginning": "154.8 Ma",
+      "time:hasEnd": "149.2 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -2534,8 +2553,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/late-jurassic"
       },
-      "time:hasBeginning": "152.1 Ma",
-      "time:hasEnd": "145.0 Ma",
+      "time:hasBeginning": "149.2 Ma",
+      "time:hasEnd": "143.1 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -2553,7 +2572,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/mesozoic"
       },
-      "time:hasBeginning": "145.0 Ma",
+      "time:hasBeginning": "143.1 Ma",
       "time:hasEnd": "66 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -2572,7 +2591,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/cretaceous"
       },
-      "time:hasBeginning": "145.0 Ma",
+      "time:hasBeginning": "143.1 Ma",
       "time:hasEnd": "100.5 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -2591,8 +2610,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-cretaceous"
       },
-      "time:hasBeginning": "145.0 Ma",
-      "time:hasEnd": "139.8 Ma",
+      "time:hasBeginning": "143.1 Ma",
+      "time:hasEnd": "137.05 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -2610,7 +2629,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-cretaceous"
       },
-      "time:hasBeginning": "139.8 Ma",
+      "time:hasBeginning": "137.05 Ma",
       "time:hasEnd": "132.6 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -2744,7 +2763,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/late-cretaceous"
       },
       "time:hasBeginning": "93.9 Ma",
-      "time:hasEnd": "89.4 Ma",
+      "time:hasEnd": "89.8 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -2762,7 +2781,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/late-cretaceous"
       },
-      "time:hasBeginning": "89.4 Ma",
+      "time:hasBeginning": "89.8 Ma",
       "time:hasEnd": "86.3 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -3617,7 +3636,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/upper-paleolithic"
       },
-      "time:hasBeginning": "11000 BCE",
+      "time:hasBeginning": "11600 BCE",
       "time:hasEnd": "10000 BCE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -3636,8 +3655,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/upper-paleolithic"
       },
-      "time:hasBeginning": "11000 BCE",
-      "time:hasEnd": "9500 BCE",
+      "time:hasBeginning": "10900 BCE",
+      "time:hasEnd": "9700 BCE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -3769,7 +3788,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/mesolithic"
       },
-      "time:hasBeginning": "5300 BCE",
+      "time:hasBeginning": "5400 BCE",
       "time:hasEnd": "3950 BCE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -3872,7 +3891,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/chalcolithic",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Chalcolithic / Copper Age (Kopparsåldern)",
+        "@value": "Chalcolithic / Copper Age (Kopparåldern)",
         "@language": "en"
       },
       "skos:definition": {
@@ -3978,7 +3997,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/bronze-age"
       },
-      "time:hasBeginning": "1750 BCE",
+      "time:hasBeginning": "1700 BCE",
       "time:hasEnd": "500 BCE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -3997,7 +4016,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/nordic-bronze-age"
       },
-      "time:hasBeginning": "1750 BCE",
+      "time:hasBeginning": "1700 BCE",
       "time:hasEnd": "1100 BCE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -4028,7 +4047,7 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Peak of early bronze wealth; Egtved Girl burial (1370 BCE); elaborate spiral ornaments and fibulae.",
+        "@value": "Peak of early bronze wealth; Egtved Girl burial (1370 BCE); Trundholm sun chariot (~1400 BCE); elaborate spiral ornaments and fibulae.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
@@ -4047,7 +4066,7 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Trundholm sun chariot; oak coffin burials; extensive amber trade networks with Mediterranean.",
+        "@value": "Skrydstrup Woman burial; oak coffin burials continue; extensive amber trade networks with Mediterranean.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
@@ -4301,7 +4320,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/germanic-iron-age"
       },
-      "time:hasBeginning": "375 CE",
+      "time:hasBeginning": "400 CE",
       "time:hasEnd": "550 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -4320,7 +4339,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/migration-period"
       },
-      "time:hasBeginning": "375 CE",
+      "time:hasBeginning": "400 CE",
       "time:hasEnd": "475 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -4415,7 +4434,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
       },
-      "time:hasBeginning": "790 CE",
+      "time:hasBeginning": "793 CE",
       "time:hasEnd": "1100 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -4434,7 +4453,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/viking-age"
       },
-      "time:hasBeginning": "790 CE",
+      "time:hasBeginning": "793 CE",
       "time:hasEnd": "900 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -4978,14 +4997,14 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Dark Ages; Merovingian and Carolingian kingdoms; spread of Christianity; feudalism develops.",
+        "@value": "Fall of Western Rome (476); Merovingian and Carolingian kingdoms; spread of Christianity; feudalism develops.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
       },
-      "time:hasBeginning": "500 CE",
+      "time:hasBeginning": "476 CE",
       "time:hasEnd": "1000 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -5168,7 +5187,7 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Renaissance spreads north of Alps; Dürer, Erasmus, van Eyck; printing revolution; Protestant Reformation begins.",
+        "@value": "Renaissance spreads north of Alps; Dürer, Erasmus, Holbein, Bruegel; printing revolution; Protestant Reformation begins.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
@@ -5268,7 +5287,7 @@
       },
       "gts:rank": "CulturalAge",
       "skos:broader": {
-        "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period"
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
       },
       "time:hasBeginning": "1775 CE",
       "time:hasEnd": "1848 CE",
@@ -5500,6 +5519,44 @@
       },
       "time:hasBeginning": "450 BCE",
       "time:hasEnd": "1 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/yamnaya",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Yamnaya Culture (Ямная культура / Pit Grave culture)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Pontic-Caspian steppe pastoralists; Proto-Indo-European homeland hypothesis (Kurgan model); wheeled vehicles; horse domestication; massive westward migration transformed Bronze Age European gene pool (ancient DNA evidence, Haak et al. 2015).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "3300 BCE",
+      "time:hasEnd": "2600 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/corded-ware",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Corded Ware Culture (Schnurkeramik / Stridsyxekultur)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Widespread Chalcolithic-Early Bronze Age culture across northern/central Europe; derived partly from Yamnaya migration; single burial tradition; cord-impressed pottery; stone battle axes; Indo-European language spread vector.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "2900 BCE",
+      "time:hasEnd": "2350 BCE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -5852,7 +5909,7 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Nemanjić dynasty; Stefan Dušan's empire; Serbian Orthodox Church; Battle of Kosovo (1389); medieval Serbian Golden Age.",
+        "@value": "Nemanjić dynasty kingdom; autocephalous Serbian Orthodox Church (1219); cultural golden age; ends when Stefan Dušan proclaims the Serbian Empire in 1346.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
@@ -6301,6 +6358,44 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/boring-billion",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Boring Billion (Dull Billion / Mesoproterozoic Stasis)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Informal name for ~1 billion years of apparent evolutionary and environmental stability; low atmospheric oxygen (~1-10% modern); subdued tectonic activity; minimal carbon isotope variation; recent work challenges 'boring' label.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/proterozoic"
+      },
+      "time:hasBeginning": "1800 Ma",
+      "time:hasEnd": "800 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/toba-catastrophe",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Toba Catastrophe (~74 ka)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Supervolcanic eruption of Mount Toba, Sumatra (~74 ka); Volcanic Explosivity Index 8; ~2,800 km³ ejecta; volcanic winter; possible human population bottleneck (debated); largest eruption in last 2 million years.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/late-pleistocene"
+      },
+      "time:hasBeginning": "0.074 Ma",
+      "time:hasEnd": "0.074 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
       "@id": "https://metadatahub.eu/data/geologic-timescale/sami-prehistory",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
@@ -6427,7 +6522,7 @@
       },
       "gts:rank": "CulturalAge",
       "skos:broader": {
-        "@id": "https://metadatahub.eu/data/geologic-timescale/middle-viking-age"
+        "@id": "https://metadatahub.eu/data/geologic-timescale/viking-age"
       },
       "time:hasBeginning": "865 CE",
       "time:hasEnd": "954 CE",
@@ -6446,7 +6541,7 @@
       },
       "gts:rank": "CulturalAge",
       "skos:broader": {
-        "@id": "https://metadatahub.eu/data/geologic-timescale/middle-viking-age"
+        "@id": "https://metadatahub.eu/data/geologic-timescale/viking-age"
       },
       "time:hasBeginning": "870 CE",
       "time:hasEnd": "930 CE",
@@ -6491,6 +6586,44 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/norse-greenland",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Norse Greenland (Grænland / Grønland)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Erik the Red founds Eastern and Western Settlements (~985); Brattahlíð; launching point for Vinland voyages; Garðar diocese (northernmost in Christendom); population ~3,000-5,000; abandoned by ~1450; climate deterioration and trade isolation.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/viking-age"
+      },
+      "time:hasBeginning": "985 CE",
+      "time:hasEnd": "1450 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/norse-vinland",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Norse Vinland (Vínland)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Leif Erikson reaches North America (~1000 CE); L'Anse aux Meadows, Newfoundland (UNESCO World Heritage Site); tree-ring dated to 1021 CE; first confirmed European presence in the Americas; sagas of Eiríks saga rauða and Grœnlendinga saga.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/viking-age"
+      },
+      "time:hasBeginning": "1000 CE",
+      "time:hasEnd": "1021 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
       "@id": "https://metadatahub.eu/data/geologic-timescale/christianization-scandinavia",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
@@ -6503,7 +6636,7 @@
       },
       "gts:rank": "CulturalAge",
       "skos:broader": {
-        "@id": "https://metadatahub.eu/data/geologic-timescale/early-medieval"
+        "@id": "https://metadatahub.eu/data/geologic-timescale/viking-age"
       },
       "time:hasBeginning": "960 CE",
       "time:hasEnd": "1150 CE",
@@ -6560,7 +6693,7 @@
       },
       "gts:rank": "CulturalAge",
       "skos:broader": {
-        "@id": "https://metadatahub.eu/data/geologic-timescale/late-medieval"
+        "@id": "https://metadatahub.eu/data/geologic-timescale/medieval-period"
       },
       "time:hasBeginning": "1349 CE",
       "time:hasEnd": "1360 CE",
@@ -6601,7 +6734,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/late-medieval"
       },
       "time:hasBeginning": "1520 CE",
-      "time:hasEnd": "1521 CE",
+      "time:hasEnd": "1520 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -6707,14 +6840,14 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Indigenous civilizations of South America before European contact; from Norte Chico to the Inca Empire.",
+        "@value": "Indigenous civilizations of South America before European contact; from Monte Verde (~14,800 BCE) through Norte Chico to the Inca Empire.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
       },
-      "time:hasBeginning": "3000 BCE",
+      "time:hasBeginning": "14800 BCE",
       "time:hasEnd": "1533 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -6809,7 +6942,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-precolumbian"
       },
-      "time:hasBeginning": "100 CE",
+      "time:hasBeginning": "100 BCE",
       "time:hasEnd": "800 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -7814,7 +7947,7 @@
       },
       "gts:rank": "CulturalAge",
       "skos:broader": {
-        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-21st"
+        "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary"
       },
       "time:hasBeginning": "1998 CE",
       "time:hasEnd": "2015 CE",
@@ -7852,7 +7985,7 @@
       },
       "gts:rank": "CulturalAge",
       "skos:broader": {
-        "@id": "https://metadatahub.eu/data/geologic-timescale/north-america-precolumbian"
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-precolumbian"
       },
       "time:hasBeginning": "14800 BCE",
       "time:hasEnd": "13800 BCE",
@@ -7911,7 +8044,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/paleo-indians"
       },
-      "time:hasBeginning": "10900 BCE",
+      "time:hasBeginning": "10800 BCE",
       "time:hasEnd": "10200 BCE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -8166,7 +8299,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/aztec-empire",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Aztec Empire / Triple Alliance (Huēy Tlahtohcāyōtl)",
+        "@value": "Aztec Empire / Triple Alliance (Ēxcān Tlahtōlōyān)",
         "@language": "en"
       },
       "skos:definition": {
@@ -8194,7 +8327,7 @@
       },
       "gts:rank": "CulturalAge",
       "skos:broader": {
-        "@id": "https://metadatahub.eu/data/geologic-timescale/aztec-empire"
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mesoamerica"
       },
       "time:hasBeginning": "1325 CE",
       "time:hasEnd": "1428 CE",
@@ -8607,7 +8740,7 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Six Nations (Mohawk, Oneida, Onondaga, Cayuga, Seneca, Tuscarora); Great Law of Peace; longhouse society; influenced U.S. Constitution debates.",
+        "@value": "Originally Five Nations (Mohawk, Oneida, Onondaga, Cayuga, Seneca; Tuscarora joined 1722); Great Law of Peace; longhouse society; influenced U.S. Constitution debates.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
@@ -8878,7 +9011,7 @@
       },
       "gts:rank": "CulturalAge",
       "skos:broader": {
-        "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period"
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
       },
       "time:hasBeginning": "1765 CE",
       "time:hasEnd": "1783 CE",
@@ -8897,7 +9030,7 @@
       },
       "gts:rank": "CulturalAge",
       "skos:broader": {
-        "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period"
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
       },
       "time:hasBeginning": "1783 CE",
       "time:hasEnd": "1815 CE",
@@ -9648,11 +9781,11 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/ancient-egypt",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Ancient Egypt",
+        "@value": "Ancient Egypt (Kemet / مصر القديمة)",
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "One of the world's first civilizations; 3,000 years of pharaonic rule along the Nile; pyramids, hieroglyphs, monumental architecture.",
+        "@value": "One of the world's first civilizations; self-named km.t ('Black Land'); 3,000 years of pharaonic rule along the Nile; pyramids, hieroglyphs, monumental architecture.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
@@ -9944,7 +10077,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/nubia-kush"
       },
-      "time:hasBeginning": "590 BCE",
+      "time:hasBeginning": "270 BCE",
       "time:hasEnd": "350 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -10329,6 +10462,25 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/ife-kingdom",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Kingdom of Ifẹ̀ (Ilé-Ifẹ̀)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Sacred Yoruba city; naturalistic bronze and terracotta portrait heads (among finest art in world history); Ooni rulers; spiritual capital of all Yoruba people; influenced Benin Kingdom art tradition; Ife bronzes predate European Renaissance.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/west-africa-ancient"
+      },
+      "time:hasBeginning": "1000 CE",
+      "time:hasEnd": "1420 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
       "@id": "https://metadatahub.eu/data/geologic-timescale/swahili-coast",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
@@ -10370,11 +10522,11 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/great-zimbabwe",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Great Zimbabwe",
+        "@value": "Great Zimbabwe (Dzimba dza mabwe)",
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Largest stone structure in sub-Saharan Africa; Shona kingdoms; Great Enclosure; gold trade; ~18,000 inhabitants; inspired modern Zimbabwe's name.",
+        "@value": "Largest stone structure in sub-Saharan Africa; name means 'houses of stone' in Shona; Great Enclosure; gold trade; ~18,000 inhabitants; inspired modern Zimbabwe's name.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
@@ -10431,7 +10583,7 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Said bin Sultan moved from Oman; dominated East African slave trade; world's leading clove producer; Anglo-Zanzibar War (38 min); merged into Tanzania.",
+        "@value": "Independent from Oman after Said bin Sultan's death (1856); dominated East African slave trade; world's leading clove producer; Anglo-Zanzibar War (38 min); merged into Tanzania.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
@@ -10655,7 +10807,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/bantu-expansion",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Bantu Expansion",
+        "@value": "Bantu Expansion (Uenezi wa Wabantu)",
         "@language": "en"
       },
       "skos:definition": {
@@ -11016,7 +11168,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/scramble-for-africa",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Scramble for Africa",
+        "@value": "Scramble for Africa (Kugawanywa kwa Afrika / La course au clocher)",
         "@language": "en"
       },
       "skos:definition": {
@@ -11054,7 +11206,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/atlantic-slave-trade",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Atlantic Slave Trade",
+        "@value": "Atlantic Slave Trade (Maafa / تجارة الرقيق عبر الأطلسي)",
         "@language": "en"
       },
       "skos:definition": {
@@ -11139,7 +11291,7 @@
       },
       "gts:rank": "CulturalAge",
       "skos:broader": {
-        "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary"
+        "@id": "https://metadatahub.eu/data/geologic-timescale/modern-period"
       },
       "time:hasBeginning": "1900 CE",
       "time:hasEnd": "1963 CE",
@@ -11445,7 +11597,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/south-asia-history"
       },
-      "time:hasBeginning": "230 BCE",
+      "time:hasBeginning": "100 BCE",
       "time:hasEnd": "220 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -13103,6 +13255,44 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/dongson-culture",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Đông Sơn Culture (Văn hóa Đông Sơn / 東山文化)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Bronze Age culture of northern Vietnam's Red River Delta; elaborate bronze drums (trống đồng Đông Sơn); wet-rice cultivation; maritime trade; Heger Type I drums found from Indonesia to southern China; foundation of Vietnamese Bronze Age identity.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/southeast-asia-history"
+      },
+      "time:hasBeginning": "600 BCE",
+      "time:hasEnd": "200 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/ban-chiang",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Ban Chiang (บ้านเชียง)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Prehistoric site in northeast Thailand; UNESCO World Heritage Site; early bronze metallurgy (debated dating); distinctive red-painted pottery; rice agriculture; challenges 'diffusion from China' model of Southeast Asian metalworking.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/southeast-asia-history"
+      },
+      "time:hasBeginning": "3600 BCE",
+      "time:hasEnd": "200 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
       "@id": "https://metadatahub.eu/data/geologic-timescale/dvaravati",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
@@ -13661,7 +13851,7 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "First great steppe empire; Modu Chanyu; prompted Chinese Great Wall; Silk Road intermediaries; possible ancestors of Huns; Han dynasty rival.",
+        "@value": "First great steppe empire; Modu Chanyu; prompted Chinese Great Wall; Silk Road intermediaries; possible ancestors of Huns; Han dynasty rival; split into Northern and Southern Xiongnu 48 CE.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
@@ -13669,14 +13859,14 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/central-asia-history"
       },
       "time:hasBeginning": "209 BCE",
-      "time:hasEnd": "93 BCE",
+      "time:hasEnd": "91 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
       "@id": "https://metadatahub.eu/data/geologic-timescale/silk-road-era",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Silk Road Era",
+        "@value": "Silk Road Era (丝绸之路 / Ipek Yolu / طريق الحرير)",
         "@language": "en"
       },
       "skos:definition": {
@@ -13790,7 +13980,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/mongol-empire",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Mongol Empire (Их Монгол Улс / Yeke Mongol Ulus)",
+        "@value": "Mongol Empire (ᠶᠡᠬᠡ ᠮᠣᠩᠭᠣᠯ ᠤᠯᠤᠰ / Их Монгол Улс / Yeke Mongol Ulus)",
         "@language": "en"
       },
       "skos:definition": {
@@ -14018,19 +14208,57 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/mesopotamia",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Mesopotamian Civilizations",
+        "@value": "Mesopotamian Civilizations (بلاد الرافدين)",
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Cradle of civilization; between Tigris and Euphrates; writing, law, mathematics, astronomy; successive empires from Sumer to Neo-Babylonian.",
+        "@value": "Cradle of civilization; between Tigris and Euphrates; writing, law, mathematics, astronomy; from Ubaid through Sumer to Neo-Babylonian.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
       },
-      "time:hasBeginning": "3500 BCE",
+      "time:hasBeginning": "6500 BCE",
       "time:hasEnd": "539 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/ubaid-period",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Ubaid Period (دور العبيد)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Pre-Sumerian Mesopotamian culture; first irrigation agriculture; distinctive painted pottery; Eridu (oldest city in Sumerian tradition); 'ubaid-style temples; foundation for Sumerian civilization.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mesopotamia"
+      },
+      "time:hasBeginning": "6500 BCE",
+      "time:hasEnd": "3800 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/uruk-period",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Uruk Period (دور الوركاء)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Birth of civilization; world's first city Uruk (~40,000 people); invention of cuneiform writing (~3400 BCE); cylinder seals; monumental architecture (White Temple); state formation; Warka Vase.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mesopotamia"
+      },
+      "time:hasBeginning": "4000 BCE",
+      "time:hasEnd": "3100 BCE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -14079,7 +14307,7 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Hammurabi's Code (~1754 BCE, earliest known legal code); Babylonian mathematics; astronomy; Marduk worship; fell to Hittite raid.",
+        "@value": "Hammurabi's Code (~1754 BCE, most complete surviving ancient law code); Babylonian mathematics; astronomy; Marduk worship; fell to Hittite raid.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
@@ -14105,7 +14333,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/mesopotamia"
       },
-      "time:hasBeginning": "2500 BCE",
+      "time:hasBeginning": "2025 BCE",
       "time:hasEnd": "609 BCE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -14623,6 +14851,120 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/natufian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Natufian Culture (الثقافة النطوفية / Natufien)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Levantine Epipaleolithic culture; first sedentary or semi-sedentary settlements; wild cereal harvesting with sickle blades; Ain Mallaha (Eynan), Wadi en-Natuf; transition to agriculture; dog domestication.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "12500 BCE",
+      "time:hasEnd": "9500 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/gobekli-tepe",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Göbekli Tepe (گۆبەکلی تەپە / Portasar)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "World's oldest known megalithic temple complex; T-shaped limestone pillars with animal reliefs; pre-agricultural ritual center; Şanlıurfa Province, Turkey; UNESCO World Heritage Site (2018); revolutionized Neolithic understanding.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "9500 BCE",
+      "time:hasEnd": "8000 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/ppna",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Pre-Pottery Neolithic A (PPNA / العصر الحجري الحديث ما قبل الفخار أ)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Earliest Neolithic in the Levant; Jericho tower and wall; sedentary villages without pottery; wild and early domesticated cereals; skull cult; round houses; 'Neolithic Revolution' begins.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "10000 BCE",
+      "time:hasEnd": "8700 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/ppnb",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Pre-Pottery Neolithic B (PPNB / العصر الحجري الحديث ما قبل الفخار ب)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Levantine Neolithic; rectangular multi-room houses; domesticated wheat, barley, sheep, goats, cattle; Ain Ghazal statues; Çayönü; long-distance obsidian trade; plaster skulls; population boom.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "8700 BCE",
+      "time:hasEnd": "6500 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/catalhoyuk",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Çatalhöyük",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Neolithic proto-city in central Anatolia; ~3,000-8,000 inhabitants; roof-entry houses without streets; elaborate wall paintings and reliefs; Mother Goddess figurines; UNESCO World Heritage Site (2012); James Mellaart and Ian Hodder excavations.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "7500 BCE",
+      "time:hasEnd": "5700 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/dilmun",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Dilmun (دلمون / Telmun)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Ancient civilization on Bahrain and eastern Arabia; major Sumerian trading partner; described in Epic of Gilgamesh as paradise; Barbar temples; Qal'at al-Bahrain (UNESCO); freshwater springs; royal burial mounds.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "3000 BCE",
+      "time:hasEnd": "538 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
       "@id": "https://metadatahub.eu/data/geologic-timescale/sabaean-kingdom",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
@@ -14683,7 +15025,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/kingdom-of-armenia",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Kingdom of Armenia (Հայաստանի Թագավորություն))",
+        "@value": "Kingdom of Armenia (Հայաստանի Թագավորություն)",
         "@language": "en"
       },
       "skos:definition": {
@@ -14702,7 +15044,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/cilician-armenia",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Cilician Armenia (Կիլիկիա Հայոց Թագավորություն))",
+        "@value": "Cilician Armenia (Կիլիկիա Հայոց Թագավորություն)",
         "@language": "en"
       },
       "skos:definition": {
@@ -14901,7 +15243,7 @@
       },
       "gts:rank": "CulturalAge",
       "skos:broader": {
-        "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary"
+        "@id": "https://metadatahub.eu/data/geologic-timescale/oceania-history"
       },
       "time:hasBeginning": "1901 CE",
       "time:hasEnd": "Present",
@@ -15376,7 +15718,7 @@
       },
       "gts:rank": "CulturalAge",
       "skos:broader": {
-        "@id": "https://metadatahub.eu/data/geologic-timescale/contemporary"
+        "@id": "https://metadatahub.eu/data/geologic-timescale/aotearoa-history"
       },
       "time:hasBeginning": "1907 CE",
       "time:hasEnd": "Present",

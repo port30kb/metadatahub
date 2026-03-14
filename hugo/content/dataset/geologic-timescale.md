@@ -1,6 +1,6 @@
 ---
 title: "Geologic Time Scale"
-description: "812 linked data entries covering Earth's 4.6 billion year history — from the Hadean eon through geologic eras, periods, and epochs to archaeological ages with Scandinavian, European, South American, North American, African, Asian, and Oceanian coverage."
+description: "830 linked data entries covering Earth's 4.6 billion year history — from the Hadean eon through geologic eras, periods, and epochs to archaeological ages with Scandinavian, European, South American, North American, African, Asian, and Oceanian coverage."
 date: 2024-12-01
 type: dataset
 publisher: "Port 30 KB"
@@ -26,12 +26,12 @@ tags:
   - linked-data
 distributions:
   - id: "turtle"
-    title: "RDF Turtle (812 entries)"
+    title: "RDF Turtle (830 entries)"
     accessURL: "https://metadatahub.eu/data/geologic-timescale.ttl"
     downloadURL: "https://metadatahub.eu/data/geologic-timescale.ttl"
     mediaType: "text/turtle"
   - id: "jsonld"
-    title: "JSON-LD (812 entries)"
+    title: "JSON-LD (830 entries)"
     accessURL: "https://metadatahub.eu/data/geologic-timescale.jsonld"
     downloadURL: "https://metadatahub.eu/data/geologic-timescale.jsonld"
     mediaType: "application/ld+json"
@@ -39,7 +39,7 @@ distributions:
 
 ## Overview
 
-This dataset models the **complete geologic time scale** as a SKOS concept scheme with 812 entries, using the [GeoSciML Geologic Timescale ontology](http://resource.geosciml.org/ontology/timescale/gts) and [W3C Time Ontology](http://www.w3.org/2006/time). It spans from the formation of Earth (4,600 Ma) through all geologic divisions down to individual ages/stages, then bridges into **archaeological and cultural periods** — Scandinavian (Stone Age through Viking Age to Modern), European (Classical Greece through EU), South American (Norte Chico through Inca Empire to 21st century), North American (Clovis through Mesoamerica, Colonial era, and U.S./Canadian/Mexican history), African (Ancient Egypt through Great Zimbabwe, West African empires, colonialism, and independence), and Asian (Indus Valley through Mughal India, Chinese dynasties, Japanese periods, Korean kingdoms, Southeast Asian empires, Central Asian steppe empires, and Middle Eastern civilizations), and Oceanian (Aboriginal Australia, Melanesia, Polynesia, Micronesia, Māori New Zealand, and Pacific Islands).
+This dataset models the **complete geologic time scale** as a SKOS concept scheme with 830 entries, using the [GeoSciML Geologic Timescale ontology](http://resource.geosciml.org/ontology/timescale/gts) and [W3C Time Ontology](http://www.w3.org/2006/time). It spans from the formation of Earth (4,600 Ma) through all geologic divisions down to individual ages/stages, then bridges into **archaeological and cultural periods** — Scandinavian (Stone Age through Viking Age to Modern), European (Classical Greece through EU), South American (Norte Chico through Inca Empire to 21st century), North American (Clovis through Mesoamerica, Colonial era, and U.S./Canadian/Mexican history), African (Ancient Egypt through Great Zimbabwe, West African empires, colonialism, and independence), and Asian (Indus Valley through Mughal India, Chinese dynasties, Japanese periods, Korean kingdoms, Southeast Asian empires, Central Asian steppe empires, and Middle Eastern civilizations), and Oceanian (Aboriginal Australia, Melanesia, Polynesia, Micronesia, Māori New Zealand, and Pacific Islands).
 
 ## Sources
 
@@ -787,5 +787,5 @@ WHERE {
 
 ## Download
 
-- [Turtle (text/turtle)](/data/geologic-timescale.ttl) — 8,900+ lines, all 812 entries with full hierarchy
+- [Turtle (text/turtle)](/data/geologic-timescale.ttl) — 8,900+ lines, all 830 entries with full hierarchy
 - [JSON-LD (application/ld+json)](/data/geologic-timescale.jsonld) — Same data as JSON-LD graph
