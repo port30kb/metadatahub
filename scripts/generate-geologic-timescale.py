@@ -765,7 +765,7 @@ add("kingdom-of-hungary", "Kingdom of Hungary (Magyar Királyság)", "CulturalAg
 add("grand-duchy-of-lithuania", "Grand Duchy of Lithuania (Lietuvos Didžioji Kunigaikštystė)", "CulturalAge", "holocene", 1236, 1569, "CE",
     "Last pagan state in Europe; largest European state in 15th century; encompassed Belarus, Ukraine, parts of Russia.")
 add("kingdom-of-serbia", "Kingdom of Serbia (Краљевина Србија)", "CulturalAge", "holocene", 1217, 1346, "CE",
-    "Nemanjić dynasty; Stefan Dušan's empire; Serbian Orthodox Church; Battle of Kosovo (1389); medieval Serbian Golden Age.")
+    "Nemanjić dynasty kingdom; autocephalous Serbian Orthodox Church (1219); cultural golden age; ends when Stefan Dušan proclaims the Serbian Empire in 1346.")
 
 # --- Russian History ---
 add("grand-duchy-moscow", "Grand Duchy of Moscow (Великое княжество Московское)", "CulturalAge", "holocene", 1263, 1547, "CE",
@@ -1036,7 +1036,7 @@ add("paleo-indians", "Paleo-Indian Period", "CulturalAge", "north-america-precol
     "First peoples of the Americas; Clovis culture (~13,000 BP); mammoth and megafauna hunters; Folsom points; Beringia land bridge migration.")
 add("clovis-culture", "Clovis Culture", "CulturalAge", "paleo-indians", 11500, 10800, "BCE",
     "Distinctive fluted projectile points; widespread across North America; associated with Pleistocene megafauna hunting; Blackwater Draw type site.")
-add("folsom-culture", "Folsom Culture", "CulturalAge", "paleo-indians", 10900, 10200, "BCE",
+add("folsom-culture", "Folsom Culture", "CulturalAge", "paleo-indians", 10800, 10200, "BCE",
     "Post-Clovis bison hunters on Great Plains; refined fluted points; Folsom, New Mexico type site; megafauna extinction.")
 add("na-archaic-period", "Archaic Period (North America)", "CulturalAge", "north-america-precolumbian", 8000, 1000, "BCE",
     "Post-megafauna adaptation; diversified subsistence; ground stone tools; regional traditions develop across the continent.")

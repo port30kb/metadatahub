@@ -5909,7 +5909,7 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Nemanjić dynasty; Stefan Dušan's empire; Serbian Orthodox Church; Battle of Kosovo (1389); medieval Serbian Golden Age.",
+        "@value": "Nemanjić dynasty kingdom; autocephalous Serbian Orthodox Church (1219); cultural golden age; ends when Stefan Dušan proclaims the Serbian Empire in 1346.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
@@ -8044,7 +8044,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/paleo-indians"
       },
-      "time:hasBeginning": "10900 BCE",
+      "time:hasBeginning": "10800 BCE",
       "time:hasEnd": "10200 BCE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },

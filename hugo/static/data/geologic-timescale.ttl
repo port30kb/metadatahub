@@ -3456,7 +3456,7 @@ ts:grand-duchy-of-lithuania a gts:GeochronologicAge ;
 ts:kingdom-of-serbia a gts:GeochronologicAge ;
     rdfs:label "Kingdom of Serbia (Краљевина Србија)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
-    skos:definition "Nemanjić dynasty; Stefan Dušan's empire; Serbian Orthodox Church; Battle of Kosovo (1389); medieval Serbian Golden Age."@en ;
+    skos:definition "Nemanjić dynasty kingdom; autocephalous Serbian Orthodox Church (1219); cultural golden age; ends when Stefan Dušan proclaims the Serbian Empire in 1346."@en ;
     gts:rank "CulturalAge" ;
     skos:broader ts:holocene ;
     time:hasBeginning [ rdfs:label "1217 CE" ] ;
@@ -4691,7 +4691,7 @@ ts:folsom-culture a gts:GeochronologicAge ;
     skos:definition "Post-Clovis bison hunters on Great Plains; refined fluted points; Folsom, New Mexico type site; megafauna extinction."@en ;
     gts:rank "CulturalAge" ;
     skos:broader ts:paleo-indians ;
-    time:hasBeginning [ rdfs:label "10900 BCE" ] ;
+    time:hasBeginning [ rdfs:label "10800 BCE" ] ;
     time:hasEnd [ rdfs:label "10200 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
