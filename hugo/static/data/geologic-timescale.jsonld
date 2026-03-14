@@ -6183,7 +6183,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/lopingian"
       },
       "time:hasBeginning": "252 Ma",
-      "time:hasEnd": "251 Ma",
+      "time:hasEnd": "251.9 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -6239,8 +6239,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/maastrichtian"
       },
-      "time:hasBeginning": "67 Ma",
-      "time:hasEnd": "65 Ma",
+      "time:hasBeginning": "66.4 Ma",
+      "time:hasEnd": "65.5 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -6294,10 +6294,10 @@
       },
       "gts:rank": "Age",
       "skos:broader": {
-        "@id": "https://metadatahub.eu/data/geologic-timescale/guadalupian"
+        "@id": "https://metadatahub.eu/data/geologic-timescale/permian"
       },
-      "time:hasBeginning": "260 Ma",
-      "time:hasEnd": "259 Ma",
+      "time:hasBeginning": "260.5 Ma",
+      "time:hasEnd": "257 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -6579,7 +6579,7 @@
       },
       "gts:rank": "Age",
       "skos:broader": {
-        "@id": "https://metadatahub.eu/data/geologic-timescale/stenian"
+        "@id": "https://metadatahub.eu/data/geologic-timescale/proterozoic"
       },
       "time:hasBeginning": "1100 Ma",
       "time:hasEnd": "900 Ma",
@@ -6598,7 +6598,7 @@
       },
       "gts:rank": "Age",
       "skos:broader": {
-        "@id": "https://metadatahub.eu/data/geologic-timescale/tonian"
+        "@id": "https://metadatahub.eu/data/geologic-timescale/neoproterozoic"
       },
       "time:hasBeginning": "750 Ma",
       "time:hasEnd": "633 Ma",
@@ -6617,7 +6617,7 @@
       },
       "gts:rank": "Age",
       "skos:broader": {
-        "@id": "https://metadatahub.eu/data/geologic-timescale/pennsylvanian"
+        "@id": "https://metadatahub.eu/data/geologic-timescale/paleozoic"
       },
       "time:hasBeginning": "335 Ma",
       "time:hasEnd": "270 Ma",
@@ -6636,7 +6636,7 @@
       },
       "gts:rank": "Age",
       "skos:broader": {
-        "@id": "https://metadatahub.eu/data/geologic-timescale/early-jurassic"
+        "@id": "https://metadatahub.eu/data/geologic-timescale/jurassic"
       },
       "time:hasBeginning": "200 Ma",
       "time:hasEnd": "150 Ma",

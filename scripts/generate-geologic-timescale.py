@@ -800,19 +800,19 @@ add("end-ordovician-extinction", "End-Ordovician Extinction (Ordowices)", "Age",
     "First of the Big Five; ~85% of marine species lost; caused by Gondwanan glaciation and sea-level fall.")
 add("late-devonian-extinction", "Late Devonian Extinction (Devon)", "Age", "late-devonian", 375, 359, "Ma",
     "Second of the Big Five; ~75% of species lost over millions of years; reef ecosystems collapse.")
-add("permian-triassic-extinction", "Permian–Triassic Extinction (The Great Dying / Пермь–trias)", "Age", "lopingian", 252, 251, "Ma",
+add("permian-triassic-extinction", "Permian–Triassic Extinction (The Great Dying / Пермь–trias)", "Age", "lopingian", 252, 251.9, "Ma",
     "Worst mass extinction: ~96% of marine and ~70% of land species; Siberian Traps volcanism.")
 add("triassic-jurassic-extinction", "Triassic–Jurassic Extinction (trias–Jura)", "Age", "late-triassic", 201.5, 201.3, "Ma",
     "Fourth of the Big Five; ~80% of species lost; CAMP volcanism; opens way for dinosaur dominance.")
 add("cretaceous-paleogene-extinction", "Cretaceous–Paleogene Extinction (K-Pg / Chicxulub, Yucatán)", "Age", "late-cretaceous", 66.05, 66, "Ma",
     "Fifth of the Big Five; Chicxulub asteroid impact; all non-avian dinosaurs extinct; ~76% of species lost.")
-add("deccan-traps", "Deccan Traps Volcanism (दक्खन Dakhan)", "Age", "maastrichtian", 67, 65, "Ma",
+add("deccan-traps", "Deccan Traps Volcanism (दक्खन Dakhan)", "Age", "maastrichtian", 66.4, 65.5, "Ma",
     "One of Earth's largest volcanic events; ~1.5 million km² basalt flows in India; co-contributor to K-Pg extinction; climate disruption preceded and overlapped Chicxulub impact.")
 add("chicxulub-impact", "Chicxulub Impact (Chicxulub, Yucatán / Maaya)", "Age", "maastrichtian", 66.05, 66, "Ma",
     "~10 km asteroid strikes Yucatán Peninsula; 180 km crater; impact winter; global wildfires; acid rain; tsunami; primary trigger of K-Pg mass extinction; iridium anomaly discovered by Alvarez et al. (1980).")
 add("siberian-traps", "Siberian Traps (Сибирские траппы Sibirskiye trappy)", "Age", "lopingian", 252.2, 250.6, "Ma",
     "Largest known continental flood basalt; ~7 million km² lava; released massive CO₂ and SO₂; primary trigger of Permian–Triassic extinction; thermogenic carbon from coal and evaporite contact metamorphism.")
-add("emeishan-traps", "Emeishan Traps (峨眉山暗色岩 Éméishān ànsèyán)", "Age", "guadalupian", 260, 259, "Ma",
+add("emeishan-traps", "Emeishan Traps (峨眉山暗色岩 Éméishān ànsèyán)", "Age", "permian", 260.5, 257, "Ma",
     "Large igneous province in southwestern China (Sichuan, Yunnan, Guizhou); ~0.5 million km²; linked to Capitanian/end-Guadalupian extinction event; preceded Siberian Traps by ~8 Myr.")
 add("camp-volcanism", "Central Atlantic Magmatic Province (CAMP)", "Age", "late-triassic", 201.6, 200.9, "Ma",
     "One of Earth's largest igneous provinces; erupted as Pangaea rifted; ~11 million km²; primary trigger of end-Triassic mass extinction; CO₂-driven warming and ocean acidification.")
@@ -849,13 +849,13 @@ add("boring-billion", "Boring Billion (Dull Billion / Mesoproterozoic Stasis / �
 add("toba-catastrophe", "Toba Catastrophe (~74 ka / Toba, Sumatera)", "Age", "late-pleistocene", 0.074, 0.074, "Ma",
     "Supervolcanic eruption of Mount Toba, Sumatra (~74 ka); Volcanic Explosivity Index 8; ~2,800 km³ ejecta; volcanic winter; possible human population bottleneck (debated); largest eruption in last 2 million years.")
 
-add("rodinia-assembly", "Rodinia Assembly (Grenville Orogeny / родина Rodina)", "Age", "stenian", 1100, 900, "Ma",
+add("rodinia-assembly", "Rodinia Assembly (Grenville Orogeny / родина Rodina)", "Age", "proterozoic", 1100, 900, "Ma",
     "Assembly of supercontinent Rodinia via Grenville orogeny; included most of Earth's continental crust; name from Russian 'родина' (homeland); precursor configuration shaped later tectonic and glacial history.")
-add("rodinia-breakup", "Rodinia Breakup (родина распад)", "Age", "tonian", 750, 633, "Ma",
+add("rodinia-breakup", "Rodinia Breakup (родина распад)", "Age", "neoproterozoic", 750, 633, "Ma",
     "Rifting and breakup of supercontinent Rodinia; opened Iapetus Ocean; weathering of newly exposed continental margins may have triggered Snowball Earth glaciations (Sturtian, Marinoan); led to formation of Gondwana.")
-add("pangaea-assembly", "Pangaea Assembly (Πᾶν γαῖα / Variscan–Alleghenian)", "Age", "pennsylvanian", 335, 270, "Ma",
+add("pangaea-assembly", "Pangaea Assembly (Πᾶν γαῖα / Variscan–Alleghenian)", "Age", "paleozoic", 335, 270, "Ma",
     "Assembly of Earth's most recent supercontinent from collision of Gondwana and Laurussia; Variscan/Hercynian and Alleghanian orogenies; enclosed Tethys Ocean; profoundly altered global climate and ocean circulation.")
-add("pangaea-breakup", "Pangaea Breakup (Πᾶν γαῖα rift)", "Age", "early-jurassic", 200, 150, "Ma",
+add("pangaea-breakup", "Pangaea Breakup (Πᾶν γαῖα rift)", "Age", "jurassic", 200, 150, "Ma",
     "Rifting of Pangaea beginning in Late Triassic/Early Jurassic; separation into Laurasia and Gondwana; opening of Central Atlantic Ocean; CAMP volcanism associated with initial rifting; shaped modern continental configuration.")
 add("oae-1a", "Oceanic Anoxic Event 1a (OAE 1a / Selli Event / Selli, Italia)", "Age", "aptian", 120, 119, "Ma",
     "Widespread ocean anoxia linked to Ontong Java Plateau volcanism; massive organic carbon burial; black shale deposition; major perturbation of global carbon cycle; significant marine biotic turnover.")

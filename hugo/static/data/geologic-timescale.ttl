@@ -3614,7 +3614,7 @@ ts:permian-triassic-extinction a gts:GeochronologicAge ;
     gts:rank "Age" ;
     skos:broader ts:lopingian ;
     time:hasBeginning [ time:inXSDgYear "252"^^xsd:decimal ; rdfs:label "252 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "251"^^xsd:decimal ; rdfs:label "251 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "251.9"^^xsd:decimal ; rdfs:label "251.9 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 326/852: Triassic–Jurassic Extinction (trias–Jura) (Age) ──
@@ -3646,8 +3646,8 @@ ts:deccan-traps a gts:GeochronologicAge ;
     skos:definition "One of Earth's largest volcanic events; ~1.5 million km² basalt flows in India; co-contributor to K-Pg extinction; climate disruption preceded and overlapped Chicxulub impact."@en ;
     gts:rank "Age" ;
     skos:broader ts:maastrichtian ;
-    time:hasBeginning [ time:inXSDgYear "67"^^xsd:decimal ; rdfs:label "67 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "65"^^xsd:decimal ; rdfs:label "65 Ma" ] ;
+    time:hasBeginning [ time:inXSDgYear "66.4"^^xsd:decimal ; rdfs:label "66.4 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "65.5"^^xsd:decimal ; rdfs:label "65.5 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 329/852: Chicxulub Impact (Chicxulub, Yucatán / Maaya) (Age) ──
@@ -3678,9 +3678,9 @@ ts:emeishan-traps a gts:GeochronologicAge ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Large igneous province in southwestern China (Sichuan, Yunnan, Guizhou); ~0.5 million km²; linked to Capitanian/end-Guadalupian extinction event; preceded Siberian Traps by ~8 Myr."@en ;
     gts:rank "Age" ;
-    skos:broader ts:guadalupian ;
-    time:hasBeginning [ time:inXSDgYear "260"^^xsd:decimal ; rdfs:label "260 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "259"^^xsd:decimal ; rdfs:label "259 Ma" ] ;
+    skos:broader ts:permian ;
+    time:hasBeginning [ time:inXSDgYear "260.5"^^xsd:decimal ; rdfs:label "260.5 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "257"^^xsd:decimal ; rdfs:label "257 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 332/852: Central Atlantic Magmatic Province (CAMP) (Age) ──
@@ -3843,7 +3843,7 @@ ts:rodinia-assembly a gts:GeochronologicAge ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Assembly of supercontinent Rodinia via Grenville orogeny; included most of Earth's continental crust; name from Russian 'родина' (homeland); precursor configuration shaped later tectonic and glacial history."@en ;
     gts:rank "Age" ;
-    skos:broader ts:stenian ;
+    skos:broader ts:proterozoic ;
     time:hasBeginning [ time:inXSDgYear "1100"^^xsd:decimal ; rdfs:label "1100 Ma" ] ;
     time:hasEnd [ time:inXSDgYear "900"^^xsd:decimal ; rdfs:label "900 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
@@ -3854,7 +3854,7 @@ ts:rodinia-breakup a gts:GeochronologicAge ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Rifting and breakup of supercontinent Rodinia; opened Iapetus Ocean; weathering of newly exposed continental margins may have triggered Snowball Earth glaciations (Sturtian, Marinoan); led to formation of Gondwana."@en ;
     gts:rank "Age" ;
-    skos:broader ts:tonian ;
+    skos:broader ts:neoproterozoic ;
     time:hasBeginning [ time:inXSDgYear "750"^^xsd:decimal ; rdfs:label "750 Ma" ] ;
     time:hasEnd [ time:inXSDgYear "633"^^xsd:decimal ; rdfs:label "633 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
@@ -3865,7 +3865,7 @@ ts:pangaea-assembly a gts:GeochronologicAge ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Assembly of Earth's most recent supercontinent from collision of Gondwana and Laurussia; Variscan/Hercynian and Alleghanian orogenies; enclosed Tethys Ocean; profoundly altered global climate and ocean circulation."@en ;
     gts:rank "Age" ;
-    skos:broader ts:pennsylvanian ;
+    skos:broader ts:paleozoic ;
     time:hasBeginning [ time:inXSDgYear "335"^^xsd:decimal ; rdfs:label "335 Ma" ] ;
     time:hasEnd [ time:inXSDgYear "270"^^xsd:decimal ; rdfs:label "270 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
@@ -3876,7 +3876,7 @@ ts:pangaea-breakup a gts:GeochronologicAge ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Rifting of Pangaea beginning in Late Triassic/Early Jurassic; separation into Laurasia and Gondwana; opening of Central Atlantic Ocean; CAMP volcanism associated with initial rifting; shaped modern continental configuration."@en ;
     gts:rank "Age" ;
-    skos:broader ts:early-jurassic ;
+    skos:broader ts:jurassic ;
     time:hasBeginning [ time:inXSDgYear "200"^^xsd:decimal ; rdfs:label "200 Ma" ] ;
     time:hasEnd [ time:inXSDgYear "150"^^xsd:decimal ; rdfs:label "150 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
