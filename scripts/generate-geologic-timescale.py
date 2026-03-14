@@ -163,15 +163,15 @@ add("stage10-cambrian", "Cambrian Stage 10 (unnamed)", "Age", "furongian", 491, 
 
 add("ordovician", "Ordovician (Ordowices)", "Period", "paleozoic", 485.4, 443.8, "Ma",
     "Great Ordovician Biodiversification Event; first land plants; ends with mass extinction.")
-add("early-ordovician", "Early Ordovician (Ordowices)", "Epoch", "ordovician", 485.4, 471.3, "Ma",
+add("early-ordovician", "Early Ordovician (Ordowices)", "Epoch", "ordovician", 485.4, 470.0, "Ma",
     "Biodiversification begins; graptolites and brachiopods flourish.")
 add("tremadocian", "Tremadocian (Tremadog)", "Age", "early-ordovician", 485.4, 477.7, "Ma",
     "Conodonts and graptolites diversify; first planktonic ecosystems.")
-add("floian", "Floian (Flo, Västergötland; GSSP at Hunneberg)", "Age", "early-ordovician", 477.7, 471.3, "Ma",
+add("floian", "Floian (Flo, Västergötland; GSSP at Hunneberg)", "Age", "early-ordovician", 477.7, 470.0, "Ma",
     "First bryozoans; corals begin to diversify.")
-add("middle-ordovician", "Middle Ordovician (Ordowices)", "Epoch", "ordovician", 471.3, 458.4, "Ma",
+add("middle-ordovician", "Middle Ordovician (Ordowices)", "Epoch", "ordovician", 470.0, 458.4, "Ma",
     "Great Ordovician Biodiversification Event peaks.")
-add("dapingian", "Dapingian (大坪)", "Age", "middle-ordovician", 471.3, 469.4, "Ma",
+add("dapingian", "Dapingian (大坪)", "Age", "middle-ordovician", 470.0, 469.4, "Ma",
     "GOBE intensifies; cephalopods diversify as top marine predators.")
 add("darriwilian", "Darriwilian (Darriwil)", "Age", "middle-ordovician", 469.4, 458.4, "Ma",
     "Peak of Great Ordovician Biodiversification; stromatoporoid reefs.")

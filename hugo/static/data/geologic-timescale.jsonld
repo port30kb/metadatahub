@@ -863,7 +863,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/ordovician"
       },
       "time:hasBeginning": "485.4 Ma",
-      "time:hasEnd": "471.3 Ma",
+      "time:hasEnd": "470.0 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -901,7 +901,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-ordovician"
       },
       "time:hasBeginning": "477.7 Ma",
-      "time:hasEnd": "471.3 Ma",
+      "time:hasEnd": "470.0 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -919,7 +919,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/ordovician"
       },
-      "time:hasBeginning": "471.3 Ma",
+      "time:hasBeginning": "470.0 Ma",
       "time:hasEnd": "458.4 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -938,7 +938,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/middle-ordovician"
       },
-      "time:hasBeginning": "471.3 Ma",
+      "time:hasBeginning": "470.0 Ma",
       "time:hasEnd": "469.4 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },

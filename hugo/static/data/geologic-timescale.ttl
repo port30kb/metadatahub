@@ -534,7 +534,7 @@ ts:early-ordovician a gts:GeochronologicEpoch ;
     gts:rank "Epoch" ;
     skos:broader ts:ordovician ;
     time:hasBeginning [ time:inXSDgYear "485.4"^^xsd:decimal ; rdfs:label "485.4 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "471.3"^^xsd:decimal ; rdfs:label "471.3 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "470.0"^^xsd:decimal ; rdfs:label "470.0 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 46/851: Tremadocian (Tremadog) (Age) ──
@@ -556,7 +556,7 @@ ts:floian a gts:GeochronologicAge ;
     gts:rank "Age" ;
     skos:broader ts:early-ordovician ;
     time:hasBeginning [ time:inXSDgYear "477.7"^^xsd:decimal ; rdfs:label "477.7 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "471.3"^^xsd:decimal ; rdfs:label "471.3 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "470.0"^^xsd:decimal ; rdfs:label "470.0 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 48/851: Middle Ordovician (Ordowices) (Epoch) ──
@@ -566,7 +566,7 @@ ts:middle-ordovician a gts:GeochronologicEpoch ;
     skos:definition "Great Ordovician Biodiversification Event peaks."@en ;
     gts:rank "Epoch" ;
     skos:broader ts:ordovician ;
-    time:hasBeginning [ time:inXSDgYear "471.3"^^xsd:decimal ; rdfs:label "471.3 Ma" ] ;
+    time:hasBeginning [ time:inXSDgYear "470.0"^^xsd:decimal ; rdfs:label "470.0 Ma" ] ;
     time:hasEnd [ time:inXSDgYear "458.4"^^xsd:decimal ; rdfs:label "458.4 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
@@ -577,7 +577,7 @@ ts:dapingian a gts:GeochronologicAge ;
     skos:definition "GOBE intensifies; cephalopods diversify as top marine predators."@en ;
     gts:rank "Age" ;
     skos:broader ts:middle-ordovician ;
-    time:hasBeginning [ time:inXSDgYear "471.3"^^xsd:decimal ; rdfs:label "471.3 Ma" ] ;
+    time:hasBeginning [ time:inXSDgYear "470.0"^^xsd:decimal ; rdfs:label "470.0 Ma" ] ;
     time:hasEnd [ time:inXSDgYear "469.4"^^xsd:decimal ; rdfs:label "469.4 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
