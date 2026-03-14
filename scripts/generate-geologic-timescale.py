@@ -117,8 +117,8 @@ add("cryogenian", "Cryogenian", "Period", "neoproterozoic", 720, 635, "Ma",
     "Snowball Earth glaciations: Sturtian and Marinoan; life survives in refugia.")
 add("sturtian", "Sturtian Glaciation", "Age", "cryogenian", 717, 660, "Ma",
     "First and longer Snowball Earth event; global ice cover for ~57 million years.")
-add("marinoan", "Marinoan Glaciation", "Age", "cryogenian", 650, 635, "Ma",
-    "Second Snowball Earth; cap carbonates deposited after deglaciation.")
+add("marinoan", "Marinoan Glaciation", "Age", "cryogenian", 639, 635, "Ma",
+    "Second Snowball Earth; onset ~639 Ma per U-Pb geochronology; cap carbonates deposited after deglaciation.")
 add("ediacaran", "Ediacaran", "Period", "neoproterozoic", 635, 538.8, "Ma",
     "Ediacaran biota: first large complex organisms; soft-bodied fauna.")
 add("gaskiers", "Gaskiers Glaciation", "Age", "ediacaran", 580.9, 579.6, "Ma",

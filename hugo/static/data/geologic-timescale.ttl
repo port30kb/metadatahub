@@ -310,10 +310,10 @@ ts:sturtian a gts:GeochronologicAge ;
 ts:marinoan a gts:GeochronologicAge ;
     rdfs:label "Marinoan Glaciation"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
-    skos:definition "Second Snowball Earth; cap carbonates deposited after deglaciation."@en ;
+    skos:definition "Second Snowball Earth; onset ~639 Ma per U-Pb geochronology; cap carbonates deposited after deglaciation."@en ;
     gts:rank "Age" ;
     skos:broader ts:cryogenian ;
-    time:hasBeginning [ time:inXSDgYear "650"^^xsd:decimal ; rdfs:label "650 Ma" ] ;
+    time:hasBeginning [ time:inXSDgYear "639"^^xsd:decimal ; rdfs:label "639 Ma" ] ;
     time:hasEnd [ time:inXSDgYear "635"^^xsd:decimal ; rdfs:label "635 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 

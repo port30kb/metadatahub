@@ -475,14 +475,14 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Second Snowball Earth; cap carbonates deposited after deglaciation.",
+        "@value": "Second Snowball Earth; onset ~639 Ma per U-Pb geochronology; cap carbonates deposited after deglaciation.",
         "@language": "en"
       },
       "gts:rank": "Age",
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/cryogenian"
       },
-      "time:hasBeginning": "650 Ma",
+      "time:hasBeginning": "639 Ma",
       "time:hasEnd": "635 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
