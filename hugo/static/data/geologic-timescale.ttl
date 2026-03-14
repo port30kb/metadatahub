@@ -6162,7 +6162,7 @@ ts:buganda-kingdom a gts:GeochronologicAge ;
 ts:zanzibar-sultanate a gts:GeochronologicAge ;
     rdfs:label "Zanzibar Sultanate (Usultani wa Zanzibar)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
-    skos:definition "Said bin Sultan moved from Oman; dominated East African slave trade; world's leading clove producer; Anglo-Zanzibar War (38 min); merged into Tanzania."@en ;
+    skos:definition "Independent from Oman after Said bin Sultan's death (1856); dominated East African slave trade; world's leading clove producer; Anglo-Zanzibar War (38 min); merged into Tanzania."@en ;
     gts:rank "CulturalAge" ;
     skos:broader ts:holocene ;
     time:hasBeginning [ rdfs:label "1856 CE" ] ;
@@ -6748,7 +6748,7 @@ ts:satavahana a gts:GeochronologicAge ;
     skos:definition "Major Deccan power; bridge between Maurya and Gupta; Amaravati stupa; Prakrit patronage; controlled trade routes between north and south India."@en ;
     gts:rank "CulturalAge" ;
     skos:broader ts:south-asia-history ;
-    time:hasBeginning [ rdfs:label "230 BCE" ] ;
+    time:hasBeginning [ rdfs:label "100 BCE" ] ;
     time:hasEnd [ rdfs:label "220 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
@@ -8054,11 +8054,11 @@ ts:scythians a gts:GeochronologicAge ;
 ts:xiongnu a gts:GeochronologicAge ;
     rdfs:label "Xiongnu Empire"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
-    skos:definition "First great steppe empire; Modu Chanyu; prompted Chinese Great Wall; Silk Road intermediaries; possible ancestors of Huns; Han dynasty rival."@en ;
+    skos:definition "First great steppe empire; Modu Chanyu; prompted Chinese Great Wall; Silk Road intermediaries; possible ancestors of Huns; Han dynasty rival; split into Northern and Southern Xiongnu 48 CE."@en ;
     gts:rank "CulturalAge" ;
     skos:broader ts:central-asia-history ;
     time:hasBeginning [ rdfs:label "209 BCE" ] ;
-    time:hasEnd [ rdfs:label "93 BCE" ] ;
+    time:hasEnd [ rdfs:label "91 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 730/830: Silk Road Era (丝绸之路 / Ipek Yolu / طريق الحرير) (CulturalAge) ──
@@ -8318,7 +8318,7 @@ ts:akkadian-empire a gts:GeochronologicAge ;
 ts:babylon-old a gts:GeochronologicAge ;
     rdfs:label "Old Babylonian Period"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
-    skos:definition "Hammurabi's Code (~1754 BCE, earliest known legal code); Babylonian mathematics; astronomy; Marduk worship; fell to Hittite raid."@en ;
+    skos:definition "Hammurabi's Code (~1754 BCE, most complete surviving ancient law code); Babylonian mathematics; astronomy; Marduk worship; fell to Hittite raid."@en ;
     gts:rank "CulturalAge" ;
     skos:broader ts:mesopotamia ;
     time:hasBeginning [ rdfs:label "1894 BCE" ] ;
@@ -8332,7 +8332,7 @@ ts:assyrian-empire a gts:GeochronologicAge ;
     skos:definition "Neo-Assyrian peak (911-609 BCE); Nineveh, Nimrud; Ashurbanipal's library; brutal military; iron weapons; siege warfare; reliefs; conquered Egypt."@en ;
     gts:rank "CulturalAge" ;
     skos:broader ts:mesopotamia ;
-    time:hasBeginning [ rdfs:label "2500 BCE" ] ;
+    time:hasBeginning [ rdfs:label "2025 BCE" ] ;
     time:hasEnd [ rdfs:label "609 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 

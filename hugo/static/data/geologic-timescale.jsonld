@@ -10583,7 +10583,7 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Said bin Sultan moved from Oman; dominated East African slave trade; world's leading clove producer; Anglo-Zanzibar War (38 min); merged into Tanzania.",
+        "@value": "Independent from Oman after Said bin Sultan's death (1856); dominated East African slave trade; world's leading clove producer; Anglo-Zanzibar War (38 min); merged into Tanzania.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
@@ -11597,7 +11597,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/south-asia-history"
       },
-      "time:hasBeginning": "230 BCE",
+      "time:hasBeginning": "100 BCE",
       "time:hasEnd": "220 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -13851,7 +13851,7 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "First great steppe empire; Modu Chanyu; prompted Chinese Great Wall; Silk Road intermediaries; possible ancestors of Huns; Han dynasty rival.",
+        "@value": "First great steppe empire; Modu Chanyu; prompted Chinese Great Wall; Silk Road intermediaries; possible ancestors of Huns; Han dynasty rival; split into Northern and Southern Xiongnu 48 CE.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
@@ -13859,7 +13859,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/central-asia-history"
       },
       "time:hasBeginning": "209 BCE",
-      "time:hasEnd": "93 BCE",
+      "time:hasEnd": "91 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -14307,7 +14307,7 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Hammurabi's Code (~1754 BCE, earliest known legal code); Babylonian mathematics; astronomy; Marduk worship; fell to Hittite raid.",
+        "@value": "Hammurabi's Code (~1754 BCE, most complete surviving ancient law code); Babylonian mathematics; astronomy; Marduk worship; fell to Hittite raid.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
@@ -14333,7 +14333,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/mesopotamia"
       },
-      "time:hasBeginning": "2500 BCE",
+      "time:hasBeginning": "2025 BCE",
       "time:hasEnd": "609 BCE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },

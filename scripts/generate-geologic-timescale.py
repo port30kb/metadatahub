@@ -1343,7 +1343,7 @@ add("mutapa-empire", "Kingdom of Mutapa", "CulturalAge", "holocene", 1430, 1760,
 add("buganda-kingdom", "Kingdom of Buganda", "CulturalAge", "holocene", 1300, 1966, "CE",
     "Central Uganda; Lake Victoria; Kabaka rulers; sophisticated political system; resisted and then accommodated British; integral to modern Uganda.")
 add("zanzibar-sultanate", "Zanzibar Sultanate (Usultani wa Zanzibar)", "CulturalAge", "holocene", 1856, 1964, "CE",
-    "Said bin Sultan moved from Oman; dominated East African slave trade; world's leading clove producer; Anglo-Zanzibar War (38 min); merged into Tanzania.")
+    "Independent from Oman after Said bin Sultan's death (1856); dominated East African slave trade; world's leading clove producer; Anglo-Zanzibar War (38 min); merged into Tanzania.")
 add("bunyoro-kitara", "Bunyoro-Kitara Empire", "CulturalAge", "holocene", 1300, 1899, "CE",
     "Successor to legendary Chwezi Empire; Babiito dynasty; one of most powerful Great Lakes kingdoms; Omukama Kabalega resisted British; restored 1993.")
 add("adal-sultanate", "Adal Sultanate", "CulturalAge", "holocene", 1415, 1577, "CE",
@@ -1466,7 +1466,7 @@ add("kushan-empire", "Kushan Empire", "CulturalAge", "south-asia-history", 30, 3
     "Central Asian origin; Kanishka I; Gandhara Buddhist art (Greco-Buddhist); Silk Road trade; Mathura and Peshawar; spread Buddhism to China.")
 add("gupta-empire", "Gupta Empire (गुप्त साम्राज्य)", "CulturalAge", "south-asia-history", 320, 550, "CE",
     "Golden Age of India; Chandragupta I, Samudragupta, Chandragupta II; Aryabhata (mathematics/astronomy); Kalidasa; Nalanda University; decimal system.")
-add("satavahana", "Satavahana Dynasty", "CulturalAge", "south-asia-history", 230, 220, "BCE-CE",
+add("satavahana", "Satavahana Dynasty", "CulturalAge", "south-asia-history", 100, 220, "BCE-CE",
     "Major Deccan power; bridge between Maurya and Gupta; Amaravati stupa; Prakrit patronage; controlled trade routes between north and south India.")
 add("pallava-dynasty", "Pallava Dynasty", "CulturalAge", "south-asia-history", 275, 897, "CE",
     "South Indian dynasty; Shore Temple and Pancha Rathas at Mamallapuram (UNESCO); Pallava script influenced Southeast Asian scripts; Dravidian architecture.")
@@ -1735,8 +1735,8 @@ add("central-asia-history", "Central Asian Historical Periods", "CulturalAge", "
     "Steppe nomads, Silk Road oasis cities; Scythians, Turks, Mongols; convergence zone of civilizations.")
 add("scythians", "Scythian Period", "CulturalAge", "central-asia-history", 900, 200, "BCE",
     "Iranian nomadic warriors; horse archery; animal-style gold art; kurgans (burial mounds); Herodotus accounts; influenced Greek and Persian worlds.")
-add("xiongnu", "Xiongnu Empire", "CulturalAge", "central-asia-history", 209, 93, "BCE",
-    "First great steppe empire; Modu Chanyu; prompted Chinese Great Wall; Silk Road intermediaries; possible ancestors of Huns; Han dynasty rival.")
+add("xiongnu", "Xiongnu Empire", "CulturalAge", "central-asia-history", 209, 91, "BCE-CE",
+    "First great steppe empire; Modu Chanyu; prompted Chinese Great Wall; Silk Road intermediaries; possible ancestors of Huns; Han dynasty rival; split into Northern and Southern Xiongnu 48 CE.")
 add("silk-road-era", "Silk Road Era (丝绸之路 / Ipek Yolu / طريق الحرير)", "CulturalAge", "central-asia-history", 130, 1453, "BCE-CE",
     "Trans-Eurasian trade network; Zhang Qian (130 BCE); Sogdian merchants; Samarkand, Bukhara, Kashgar; ideas, religions, diseases, technologies exchanged.")
 add("gokturk-khaganate", "Göktürk Khaganate", "CulturalAge", "central-asia-history", 552, 744, "CE",
@@ -1787,8 +1787,8 @@ add("sumer", "Sumerian Civilization (ki-en-gi)", "CulturalAge", "mesopotamia", 3
 add("akkadian-empire", "Akkadian Empire", "CulturalAge", "mesopotamia", 2334, 2154, "BCE",
     "Sargon of Akkad; first known empire in history; Akkadian language; centralized bureaucracy; trade networks from Indus to Mediterranean.")
 add("babylon-old", "Old Babylonian Period", "CulturalAge", "mesopotamia", 1894, 1595, "BCE",
-    "Hammurabi's Code (~1754 BCE, earliest known legal code); Babylonian mathematics; astronomy; Marduk worship; fell to Hittite raid.")
-add("assyrian-empire", "Assyrian Empire", "CulturalAge", "mesopotamia", 2500, 609, "BCE",
+    "Hammurabi's Code (~1754 BCE, most complete surviving ancient law code); Babylonian mathematics; astronomy; Marduk worship; fell to Hittite raid.")
+add("assyrian-empire", "Assyrian Empire", "CulturalAge", "mesopotamia", 2025, 609, "BCE",
     "Neo-Assyrian peak (911-609 BCE); Nineveh, Nimrud; Ashurbanipal's library; brutal military; iron weapons; siege warfare; reliefs; conquered Egypt.")
 add("neo-babylonian", "Neo-Babylonian Empire", "CulturalAge", "mesopotamia", 626, 539, "BCE",
     "Nebuchadnezzar II; Hanging Gardens; Ishtar Gate; Babylonian captivity of Jews; astronomical records; fell to Persian Cyrus the Great.")
