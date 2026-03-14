@@ -798,7 +798,7 @@ ts:early-devonian a gts:GeochronologicEpoch ;
     gts:rank "Epoch" ;
     skos:broader ts:devonian ;
     time:hasBeginning [ time:inXSDgYear "419.62"^^xsd:decimal ; rdfs:label "419.62 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "393.3"^^xsd:decimal ; rdfs:label "393.3 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "393.47"^^xsd:decimal ; rdfs:label "393.47 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 70/830: Lochkovian (Age) ──
@@ -809,7 +809,7 @@ ts:lochkovian a gts:GeochronologicAge ;
     gts:rank "Age" ;
     skos:broader ts:early-devonian ;
     time:hasBeginning [ time:inXSDgYear "419.62"^^xsd:decimal ; rdfs:label "419.62 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "410.8"^^xsd:decimal ; rdfs:label "410.8 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "413.02"^^xsd:decimal ; rdfs:label "413.02 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 71/830: Pragian (Age) ──
@@ -819,8 +819,8 @@ ts:pragian a gts:GeochronologicAge ;
     skos:definition "First true leaves (lycopsids); early vascular plants spread onto land."@en ;
     gts:rank "Age" ;
     skos:broader ts:early-devonian ;
-    time:hasBeginning [ time:inXSDgYear "410.8"^^xsd:decimal ; rdfs:label "410.8 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "407.6"^^xsd:decimal ; rdfs:label "407.6 Ma" ] ;
+    time:hasBeginning [ time:inXSDgYear "413.02"^^xsd:decimal ; rdfs:label "413.02 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "410.62"^^xsd:decimal ; rdfs:label "410.62 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 72/830: Emsian (Age) ──
@@ -830,8 +830,8 @@ ts:emsian a gts:GeochronologicAge ;
     skos:definition "First insects; ammonoids appear; widespread reef systems."@en ;
     gts:rank "Age" ;
     skos:broader ts:early-devonian ;
-    time:hasBeginning [ time:inXSDgYear "407.6"^^xsd:decimal ; rdfs:label "407.6 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "393.3"^^xsd:decimal ; rdfs:label "393.3 Ma" ] ;
+    time:hasBeginning [ time:inXSDgYear "410.62"^^xsd:decimal ; rdfs:label "410.62 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "393.47"^^xsd:decimal ; rdfs:label "393.47 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 73/830: Middle Devonian (Epoch) ──
@@ -841,8 +841,8 @@ ts:middle-devonian a gts:GeochronologicEpoch ;
     skos:definition "First forests appear; ammonoids originate."@en ;
     gts:rank "Epoch" ;
     skos:broader ts:devonian ;
-    time:hasBeginning [ time:inXSDgYear "393.3"^^xsd:decimal ; rdfs:label "393.3 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "382.7"^^xsd:decimal ; rdfs:label "382.7 Ma" ] ;
+    time:hasBeginning [ time:inXSDgYear "393.47"^^xsd:decimal ; rdfs:label "393.47 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "382.31"^^xsd:decimal ; rdfs:label "382.31 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 74/830: Eifelian (Age) ──
@@ -852,8 +852,8 @@ ts:eifelian a gts:GeochronologicAge ;
     skos:definition "Stromatoporoid-coral reefs peak; first seed ferns."@en ;
     gts:rank "Age" ;
     skos:broader ts:middle-devonian ;
-    time:hasBeginning [ time:inXSDgYear "393.3"^^xsd:decimal ; rdfs:label "393.3 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "387.7"^^xsd:decimal ; rdfs:label "387.7 Ma" ] ;
+    time:hasBeginning [ time:inXSDgYear "393.47"^^xsd:decimal ; rdfs:label "393.47 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "387.95"^^xsd:decimal ; rdfs:label "387.95 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 75/830: Givetian (Age) ──
@@ -863,8 +863,8 @@ ts:givetian a gts:GeochronologicAge ;
     skos:definition "First forests (Archaeopteris); placoderms diversify."@en ;
     gts:rank "Age" ;
     skos:broader ts:middle-devonian ;
-    time:hasBeginning [ time:inXSDgYear "387.7"^^xsd:decimal ; rdfs:label "387.7 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "382.7"^^xsd:decimal ; rdfs:label "382.7 Ma" ] ;
+    time:hasBeginning [ time:inXSDgYear "387.95"^^xsd:decimal ; rdfs:label "387.95 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "382.31"^^xsd:decimal ; rdfs:label "382.31 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 76/830: Late Devonian (Epoch) ──
@@ -874,7 +874,7 @@ ts:late-devonian a gts:GeochronologicEpoch ;
     skos:definition "First tetrapods; Late Devonian extinction event (~75% of species)."@en ;
     gts:rank "Epoch" ;
     skos:broader ts:devonian ;
-    time:hasBeginning [ time:inXSDgYear "382.7"^^xsd:decimal ; rdfs:label "382.7 Ma" ] ;
+    time:hasBeginning [ time:inXSDgYear "382.31"^^xsd:decimal ; rdfs:label "382.31 Ma" ] ;
     time:hasEnd [ time:inXSDgYear "358.9"^^xsd:decimal ; rdfs:label "358.9 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
@@ -885,8 +885,8 @@ ts:frasnian a gts:GeochronologicAge ;
     skos:definition "Massive reef systems; Frasnian-Famennian extinction (Kellwasser Event)."@en ;
     gts:rank "Age" ;
     skos:broader ts:late-devonian ;
-    time:hasBeginning [ time:inXSDgYear "382.7"^^xsd:decimal ; rdfs:label "382.7 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "372.2"^^xsd:decimal ; rdfs:label "372.2 Ma" ] ;
+    time:hasBeginning [ time:inXSDgYear "382.31"^^xsd:decimal ; rdfs:label "382.31 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "372.15"^^xsd:decimal ; rdfs:label "372.15 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 78/830: Famennian (Age) ──
@@ -896,7 +896,7 @@ ts:famennian a gts:GeochronologicAge ;
     skos:definition "Post-extinction recovery; first tetrapod trackways; Hangenberg Event at end."@en ;
     gts:rank "Age" ;
     skos:broader ts:late-devonian ;
-    time:hasBeginning [ time:inXSDgYear "372.2"^^xsd:decimal ; rdfs:label "372.2 Ma" ] ;
+    time:hasBeginning [ time:inXSDgYear "372.15"^^xsd:decimal ; rdfs:label "372.15 Ma" ] ;
     time:hasEnd [ time:inXSDgYear "358.9"^^xsd:decimal ; rdfs:label "358.9 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
@@ -919,7 +919,7 @@ ts:mississippian a gts:GeochronologicPeriod ;
     gts:rank "SubPeriod" ;
     skos:broader ts:carboniferous ;
     time:hasBeginning [ time:inXSDgYear "358.9"^^xsd:decimal ; rdfs:label "358.9 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "323.2"^^xsd:decimal ; rdfs:label "323.2 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "323.4"^^xsd:decimal ; rdfs:label "323.4 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 81/830: Early Mississippian (Epoch) ──
@@ -952,7 +952,7 @@ ts:middle-mississippian a gts:GeochronologicEpoch ;
     gts:rank "Epoch" ;
     skos:broader ts:mississippian ;
     time:hasBeginning [ time:inXSDgYear "346.7"^^xsd:decimal ; rdfs:label "346.7 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "330.9"^^xsd:decimal ; rdfs:label "330.9 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "330.3"^^xsd:decimal ; rdfs:label "330.3 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 84/830: Viséan (Age) ──
@@ -963,7 +963,7 @@ ts:visean a gts:GeochronologicAge ;
     gts:rank "Age" ;
     skos:broader ts:middle-mississippian ;
     time:hasBeginning [ time:inXSDgYear "346.7"^^xsd:decimal ; rdfs:label "346.7 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "330.9"^^xsd:decimal ; rdfs:label "330.9 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "330.3"^^xsd:decimal ; rdfs:label "330.3 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 85/830: Late Mississippian (Epoch) ──
@@ -973,8 +973,8 @@ ts:late-mississippian a gts:GeochronologicEpoch ;
     skos:definition "Serpukhovian age; glaciation begins in Gondwana."@en ;
     gts:rank "Epoch" ;
     skos:broader ts:mississippian ;
-    time:hasBeginning [ time:inXSDgYear "330.9"^^xsd:decimal ; rdfs:label "330.9 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "323.2"^^xsd:decimal ; rdfs:label "323.2 Ma" ] ;
+    time:hasBeginning [ time:inXSDgYear "330.3"^^xsd:decimal ; rdfs:label "330.3 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "323.4"^^xsd:decimal ; rdfs:label "323.4 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 86/830: Serpukhovian (Age) ──
@@ -984,8 +984,8 @@ ts:serpukhovian a gts:GeochronologicAge ;
     skos:definition "Late Mississippian ice ages; sea level drops; first winged insects."@en ;
     gts:rank "Age" ;
     skos:broader ts:late-mississippian ;
-    time:hasBeginning [ time:inXSDgYear "330.9"^^xsd:decimal ; rdfs:label "330.9 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "323.2"^^xsd:decimal ; rdfs:label "323.2 Ma" ] ;
+    time:hasBeginning [ time:inXSDgYear "330.3"^^xsd:decimal ; rdfs:label "330.3 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "323.4"^^xsd:decimal ; rdfs:label "323.4 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 87/830: Pennsylvanian (SubPeriod) ──
@@ -995,7 +995,7 @@ ts:pennsylvanian a gts:GeochronologicPeriod ;
     skos:definition "Late Carboniferous; coal swamps peak; first reptiles appear."@en ;
     gts:rank "SubPeriod" ;
     skos:broader ts:carboniferous ;
-    time:hasBeginning [ time:inXSDgYear "323.2"^^xsd:decimal ; rdfs:label "323.2 Ma" ] ;
+    time:hasBeginning [ time:inXSDgYear "323.4"^^xsd:decimal ; rdfs:label "323.4 Ma" ] ;
     time:hasEnd [ time:inXSDgYear "298.9"^^xsd:decimal ; rdfs:label "298.9 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
@@ -1006,7 +1006,7 @@ ts:early-pennsylvanian a gts:GeochronologicEpoch ;
     skos:definition "Bashkirian age; Pangaea begins to assemble."@en ;
     gts:rank "Epoch" ;
     skos:broader ts:pennsylvanian ;
-    time:hasBeginning [ time:inXSDgYear "323.2"^^xsd:decimal ; rdfs:label "323.2 Ma" ] ;
+    time:hasBeginning [ time:inXSDgYear "323.4"^^xsd:decimal ; rdfs:label "323.4 Ma" ] ;
     time:hasEnd [ time:inXSDgYear "315.2"^^xsd:decimal ; rdfs:label "315.2 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
@@ -1017,7 +1017,7 @@ ts:bashkirian a gts:GeochronologicAge ;
     skos:definition "First large coal swamps; Pangaea assembly accelerates; early reptile diversification."@en ;
     gts:rank "Age" ;
     skos:broader ts:early-pennsylvanian ;
-    time:hasBeginning [ time:inXSDgYear "323.2"^^xsd:decimal ; rdfs:label "323.2 Ma" ] ;
+    time:hasBeginning [ time:inXSDgYear "323.4"^^xsd:decimal ; rdfs:label "323.4 Ma" ] ;
     time:hasEnd [ time:inXSDgYear "315.2"^^xsd:decimal ; rdfs:label "315.2 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
@@ -1095,7 +1095,7 @@ ts:cisuralian a gts:GeochronologicEpoch ;
     gts:rank "Epoch" ;
     skos:broader ts:permian ;
     time:hasBeginning [ time:inXSDgYear "298.9"^^xsd:decimal ; rdfs:label "298.9 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "272.95"^^xsd:decimal ; rdfs:label "272.95 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "274.4"^^xsd:decimal ; rdfs:label "274.4 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 97/830: Asselian (Age) ──
@@ -1128,7 +1128,7 @@ ts:artinskian a gts:GeochronologicAge ;
     gts:rank "Age" ;
     skos:broader ts:cisuralian ;
     time:hasBeginning [ time:inXSDgYear "290.1"^^xsd:decimal ; rdfs:label "290.1 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "283.5"^^xsd:decimal ; rdfs:label "283.5 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "283.3"^^xsd:decimal ; rdfs:label "283.3 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 100/830: Kungurian (Age) ──
@@ -1138,8 +1138,8 @@ ts:kungurian a gts:GeochronologicAge ;
     skos:definition "Evaporite deposits; therapsids begin to appear."@en ;
     gts:rank "Age" ;
     skos:broader ts:cisuralian ;
-    time:hasBeginning [ time:inXSDgYear "283.5"^^xsd:decimal ; rdfs:label "283.5 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "272.95"^^xsd:decimal ; rdfs:label "272.95 Ma" ] ;
+    time:hasBeginning [ time:inXSDgYear "283.3"^^xsd:decimal ; rdfs:label "283.3 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "274.4"^^xsd:decimal ; rdfs:label "274.4 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 101/830: Guadalupian (Epoch) ──
@@ -1149,7 +1149,7 @@ ts:guadalupian a gts:GeochronologicEpoch ;
     skos:definition "Middle Permian; therapsids rise to dominance; Capitanian extinction event."@en ;
     gts:rank "Epoch" ;
     skos:broader ts:permian ;
-    time:hasBeginning [ time:inXSDgYear "272.95"^^xsd:decimal ; rdfs:label "272.95 Ma" ] ;
+    time:hasBeginning [ time:inXSDgYear "274.4"^^xsd:decimal ; rdfs:label "274.4 Ma" ] ;
     time:hasEnd [ time:inXSDgYear "259.51"^^xsd:decimal ; rdfs:label "259.51 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
@@ -1160,8 +1160,8 @@ ts:roadian a gts:GeochronologicAge ;
     skos:definition "Therapsids diversify; dinocephalians dominate."@en ;
     gts:rank "Age" ;
     skos:broader ts:guadalupian ;
-    time:hasBeginning [ time:inXSDgYear "272.95"^^xsd:decimal ; rdfs:label "272.95 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "268.8"^^xsd:decimal ; rdfs:label "268.8 Ma" ] ;
+    time:hasBeginning [ time:inXSDgYear "274.4"^^xsd:decimal ; rdfs:label "274.4 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "266.9"^^xsd:decimal ; rdfs:label "266.9 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 103/830: Wordian (Age) ──
@@ -1171,8 +1171,8 @@ ts:wordian a gts:GeochronologicAge ;
     skos:definition "Reef ecosystems flourish; diverse fusulinid foraminifera."@en ;
     gts:rank "Age" ;
     skos:broader ts:guadalupian ;
-    time:hasBeginning [ time:inXSDgYear "268.8"^^xsd:decimal ; rdfs:label "268.8 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "265.1"^^xsd:decimal ; rdfs:label "265.1 Ma" ] ;
+    time:hasBeginning [ time:inXSDgYear "266.9"^^xsd:decimal ; rdfs:label "266.9 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "264.28"^^xsd:decimal ; rdfs:label "264.28 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 104/830: Capitanian (Age) ──
@@ -1182,7 +1182,7 @@ ts:capitanian a gts:GeochronologicAge ;
     skos:definition "Capitanian mass extinction: major reef collapse and biodiversity loss."@en ;
     gts:rank "Age" ;
     skos:broader ts:guadalupian ;
-    time:hasBeginning [ time:inXSDgYear "265.1"^^xsd:decimal ; rdfs:label "265.1 Ma" ] ;
+    time:hasBeginning [ time:inXSDgYear "264.28"^^xsd:decimal ; rdfs:label "264.28 Ma" ] ;
     time:hasEnd [ time:inXSDgYear "259.51"^^xsd:decimal ; rdfs:label "259.51 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
@@ -1359,7 +1359,7 @@ ts:jurassic a gts:GeochronologicPeriod ;
     gts:rank "Period" ;
     skos:broader ts:mesozoic ;
     time:hasBeginning [ time:inXSDgYear "201.4"^^xsd:decimal ; rdfs:label "201.4 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "145.0"^^xsd:decimal ; rdfs:label "145.0 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "143.1"^^xsd:decimal ; rdfs:label "143.1 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 121/830: Early Jurassic (Epoch) ──
@@ -1392,7 +1392,7 @@ ts:sinemurian a gts:GeochronologicAge ;
     gts:rank "Age" ;
     skos:broader ts:early-jurassic ;
     time:hasBeginning [ time:inXSDgYear "199.5"^^xsd:decimal ; rdfs:label "199.5 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "190.8"^^xsd:decimal ; rdfs:label "190.8 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "192.9"^^xsd:decimal ; rdfs:label "192.9 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 124/830: Pliensbachian (Age) ──
@@ -1402,7 +1402,7 @@ ts:pliensbachian a gts:GeochronologicAge ;
     skos:definition "Warm climates; diverse marine ecosystems, ichthyosaurs abundant."@en ;
     gts:rank "Age" ;
     skos:broader ts:early-jurassic ;
-    time:hasBeginning [ time:inXSDgYear "190.8"^^xsd:decimal ; rdfs:label "190.8 Ma" ] ;
+    time:hasBeginning [ time:inXSDgYear "192.9"^^xsd:decimal ; rdfs:label "192.9 Ma" ] ;
     time:hasEnd [ time:inXSDgYear "184.2"^^xsd:decimal ; rdfs:label "184.2 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
@@ -1425,7 +1425,7 @@ ts:middle-jurassic a gts:GeochronologicEpoch ;
     gts:rank "Epoch" ;
     skos:broader ts:jurassic ;
     time:hasBeginning [ time:inXSDgYear "174.7"^^xsd:decimal ; rdfs:label "174.7 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "163.5"^^xsd:decimal ; rdfs:label "163.5 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "161.5"^^xsd:decimal ; rdfs:label "161.5 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 127/830: Aalenian (Age) ──
@@ -1469,7 +1469,7 @@ ts:callovian a gts:GeochronologicAge ;
     gts:rank "Age" ;
     skos:broader ts:middle-jurassic ;
     time:hasBeginning [ time:inXSDgYear "165.3"^^xsd:decimal ; rdfs:label "165.3 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "163.5"^^xsd:decimal ; rdfs:label "163.5 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "161.5"^^xsd:decimal ; rdfs:label "161.5 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 131/830: Late Jurassic (Epoch) ──
@@ -1479,8 +1479,8 @@ ts:late-jurassic a gts:GeochronologicEpoch ;
     skos:definition "Giant sauropods; Archaeopteryx; Morrison Formation dinosaurs."@en ;
     gts:rank "Epoch" ;
     skos:broader ts:jurassic ;
-    time:hasBeginning [ time:inXSDgYear "163.5"^^xsd:decimal ; rdfs:label "163.5 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "145.0"^^xsd:decimal ; rdfs:label "145.0 Ma" ] ;
+    time:hasBeginning [ time:inXSDgYear "161.5"^^xsd:decimal ; rdfs:label "161.5 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "143.1"^^xsd:decimal ; rdfs:label "143.1 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 132/830: Oxfordian (Age) ──
@@ -1490,8 +1490,8 @@ ts:oxfordian a gts:GeochronologicAge ;
     skos:definition "Widespread coral reefs; large theropods like Allosaurus."@en ;
     gts:rank "Age" ;
     skos:broader ts:late-jurassic ;
-    time:hasBeginning [ time:inXSDgYear "163.5"^^xsd:decimal ; rdfs:label "163.5 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "157.3"^^xsd:decimal ; rdfs:label "157.3 Ma" ] ;
+    time:hasBeginning [ time:inXSDgYear "161.5"^^xsd:decimal ; rdfs:label "161.5 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "154.8"^^xsd:decimal ; rdfs:label "154.8 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 133/830: Kimmeridgian (Age) ──
@@ -1501,8 +1501,8 @@ ts:kimmeridgian a gts:GeochronologicAge ;
     skos:definition "Rich marine ecosystems; source rocks for North Sea oil form."@en ;
     gts:rank "Age" ;
     skos:broader ts:late-jurassic ;
-    time:hasBeginning [ time:inXSDgYear "157.3"^^xsd:decimal ; rdfs:label "157.3 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "152.1"^^xsd:decimal ; rdfs:label "152.1 Ma" ] ;
+    time:hasBeginning [ time:inXSDgYear "154.8"^^xsd:decimal ; rdfs:label "154.8 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "149.2"^^xsd:decimal ; rdfs:label "149.2 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 134/830: Tithonian (Age) ──
@@ -1512,8 +1512,8 @@ ts:tithonian a gts:GeochronologicAge ;
     skos:definition "Archaeopteryx; Solnhofen limestone; transition to Cretaceous."@en ;
     gts:rank "Age" ;
     skos:broader ts:late-jurassic ;
-    time:hasBeginning [ time:inXSDgYear "152.1"^^xsd:decimal ; rdfs:label "152.1 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "145.0"^^xsd:decimal ; rdfs:label "145.0 Ma" ] ;
+    time:hasBeginning [ time:inXSDgYear "149.2"^^xsd:decimal ; rdfs:label "149.2 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "143.1"^^xsd:decimal ; rdfs:label "143.1 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 135/830: Cretaceous (Period) ──
@@ -1523,7 +1523,7 @@ ts:cretaceous a gts:GeochronologicPeriod ;
     skos:definition "Longest Mesozoic period; flowering plants rise; ends with asteroid impact (K-Pg)."@en ;
     gts:rank "Period" ;
     skos:broader ts:mesozoic ;
-    time:hasBeginning [ time:inXSDgYear "145.0"^^xsd:decimal ; rdfs:label "145.0 Ma" ] ;
+    time:hasBeginning [ time:inXSDgYear "143.1"^^xsd:decimal ; rdfs:label "143.1 Ma" ] ;
     time:hasEnd [ time:inXSDgYear "66"^^xsd:decimal ; rdfs:label "66 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
@@ -1534,7 +1534,7 @@ ts:early-cretaceous a gts:GeochronologicEpoch ;
     skos:definition "Flowering plants diversify; feathered dinosaurs; continental drift accelerates."@en ;
     gts:rank "Epoch" ;
     skos:broader ts:cretaceous ;
-    time:hasBeginning [ time:inXSDgYear "145.0"^^xsd:decimal ; rdfs:label "145.0 Ma" ] ;
+    time:hasBeginning [ time:inXSDgYear "143.1"^^xsd:decimal ; rdfs:label "143.1 Ma" ] ;
     time:hasEnd [ time:inXSDgYear "100.5"^^xsd:decimal ; rdfs:label "100.5 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
@@ -1545,8 +1545,8 @@ ts:berriasian a gts:GeochronologicAge ;
     skos:definition "Earliest Cretaceous; GSSP boundary still under discussion."@en ;
     gts:rank "Age" ;
     skos:broader ts:early-cretaceous ;
-    time:hasBeginning [ time:inXSDgYear "145.0"^^xsd:decimal ; rdfs:label "145.0 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "139.8"^^xsd:decimal ; rdfs:label "139.8 Ma" ] ;
+    time:hasBeginning [ time:inXSDgYear "143.1"^^xsd:decimal ; rdfs:label "143.1 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "137.05"^^xsd:decimal ; rdfs:label "137.05 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 138/830: Valanginian (Age) ──
@@ -1556,7 +1556,7 @@ ts:valanginian a gts:GeochronologicAge ;
     skos:definition "Weald clay environments; early angiosperms in fossil record."@en ;
     gts:rank "Age" ;
     skos:broader ts:early-cretaceous ;
-    time:hasBeginning [ time:inXSDgYear "139.8"^^xsd:decimal ; rdfs:label "139.8 Ma" ] ;
+    time:hasBeginning [ time:inXSDgYear "137.05"^^xsd:decimal ; rdfs:label "137.05 Ma" ] ;
     time:hasEnd [ time:inXSDgYear "132.6"^^xsd:decimal ; rdfs:label "132.6 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
@@ -1634,7 +1634,7 @@ ts:turonian a gts:GeochronologicAge ;
     gts:rank "Age" ;
     skos:broader ts:late-cretaceous ;
     time:hasBeginning [ time:inXSDgYear "93.9"^^xsd:decimal ; rdfs:label "93.9 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "89.4"^^xsd:decimal ; rdfs:label "89.4 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "89.8"^^xsd:decimal ; rdfs:label "89.8 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 146/830: Coniacian (Age) ──
@@ -1644,7 +1644,7 @@ ts:coniacian a gts:GeochronologicAge ;
     skos:definition "Continued warm climates; hadrosaur diversification begins."@en ;
     gts:rank "Age" ;
     skos:broader ts:late-cretaceous ;
-    time:hasBeginning [ time:inXSDgYear "89.4"^^xsd:decimal ; rdfs:label "89.4 Ma" ] ;
+    time:hasBeginning [ time:inXSDgYear "89.8"^^xsd:decimal ; rdfs:label "89.8 Ma" ] ;
     time:hasEnd [ time:inXSDgYear "86.3"^^xsd:decimal ; rdfs:label "86.3 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 

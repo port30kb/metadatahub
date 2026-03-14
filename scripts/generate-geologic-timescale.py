@@ -213,48 +213,48 @@ add("devonian", "Devonian", "Period", "paleozoic", 419.62, 358.9, "Ma",
     "Age of Fishes; first forests, first insects, first amphibians.")
 add("klonk-event", "Klonk GSSP (Silurian–Devonian boundary)", "Age", "pridoli", 419.62, 419.62, "Ma",
     "First GSSP ever ratified (1972); Klonk, Czech Republic; defined by first appearance of graptolite Monograptus uniformis; marks base of Devonian.")
-add("early-devonian", "Early Devonian", "Epoch", "devonian", 419.62, 393.3, "Ma",
+add("early-devonian", "Early Devonian", "Epoch", "devonian", 419.62, 393.47, "Ma",
     "First seed plants; armored fish diversify.")
-add("lochkovian", "Lochkovian", "Age", "early-devonian", 419.62, 410.8, "Ma",
+add("lochkovian", "Lochkovian", "Age", "early-devonian", 419.62, 413.02, "Ma",
     "Earliest Devonian; jawed fish radiation continues.")
-add("pragian", "Pragian", "Age", "early-devonian", 410.8, 407.6, "Ma",
+add("pragian", "Pragian", "Age", "early-devonian", 413.02, 410.62, "Ma",
     "First true leaves (lycopsids); early vascular plants spread onto land.")
-add("emsian", "Emsian", "Age", "early-devonian", 407.6, 393.3, "Ma",
+add("emsian", "Emsian", "Age", "early-devonian", 410.62, 393.47, "Ma",
     "First insects; ammonoids appear; widespread reef systems.")
-add("middle-devonian", "Middle Devonian", "Epoch", "devonian", 393.3, 382.7, "Ma",
+add("middle-devonian", "Middle Devonian", "Epoch", "devonian", 393.47, 382.31, "Ma",
     "First forests appear; ammonoids originate.")
-add("eifelian", "Eifelian", "Age", "middle-devonian", 393.3, 387.7, "Ma",
+add("eifelian", "Eifelian", "Age", "middle-devonian", 393.47, 387.95, "Ma",
     "Stromatoporoid-coral reefs peak; first seed ferns.")
-add("givetian", "Givetian", "Age", "middle-devonian", 387.7, 382.7, "Ma",
+add("givetian", "Givetian", "Age", "middle-devonian", 387.95, 382.31, "Ma",
     "First forests (Archaeopteris); placoderms diversify.")
-add("late-devonian", "Late Devonian", "Epoch", "devonian", 382.7, 358.9, "Ma",
+add("late-devonian", "Late Devonian", "Epoch", "devonian", 382.31, 358.9, "Ma",
     "First tetrapods; Late Devonian extinction event (~75% of species).")
-add("frasnian", "Frasnian", "Age", "late-devonian", 382.7, 372.2, "Ma",
+add("frasnian", "Frasnian", "Age", "late-devonian", 382.31, 372.15, "Ma",
     "Massive reef systems; Frasnian-Famennian extinction (Kellwasser Event).")
-add("famennian", "Famennian", "Age", "late-devonian", 372.2, 358.9, "Ma",
+add("famennian", "Famennian", "Age", "late-devonian", 372.15, 358.9, "Ma",
     "Post-extinction recovery; first tetrapod trackways; Hangenberg Event at end.")
 
 add("carboniferous", "Carboniferous", "Period", "paleozoic", 358.9, 298.9, "Ma",
     "Vast coal swamp forests; first reptiles; high atmospheric oxygen.")
-add("mississippian", "Mississippian", "SubPeriod", "carboniferous", 358.9, 323.2, "Ma",
+add("mississippian", "Mississippian", "SubPeriod", "carboniferous", 358.9, 323.4, "Ma",
     "Early Carboniferous; large crinoid and coral reefs; amphibians diversify.")
 add("early-mississippian", "Early Mississippian", "Epoch", "mississippian", 358.9, 346.7, "Ma",
     "Tournaisian age; recovery after Devonian extinction.")
 add("tournaisian", "Tournaisian", "Age", "early-mississippian", 358.9, 346.7, "Ma",
     "Post-Devonian recovery; crinoid meadows; early tetrapod diversification (Romer's Gap).")
-add("middle-mississippian", "Middle Mississippian", "Epoch", "mississippian", 346.7, 330.9, "Ma",
+add("middle-mississippian", "Middle Mississippian", "Epoch", "mississippian", 346.7, 330.3, "Ma",
     "Viséan age; widespread limestone deposition; large coral reefs.")
-add("visean", "Viséan", "Age", "middle-mississippian", 346.7, 330.9, "Ma",
+add("visean", "Viséan", "Age", "middle-mississippian", 346.7, 330.3, "Ma",
     "Extensive carbonate platforms; first large tetrapods; coal forests begin.")
-add("late-mississippian", "Late Mississippian", "Epoch", "mississippian", 330.9, 323.2, "Ma",
+add("late-mississippian", "Late Mississippian", "Epoch", "mississippian", 330.3, 323.4, "Ma",
     "Serpukhovian age; glaciation begins in Gondwana.")
-add("serpukhovian", "Serpukhovian", "Age", "late-mississippian", 330.9, 323.2, "Ma",
+add("serpukhovian", "Serpukhovian", "Age", "late-mississippian", 330.3, 323.4, "Ma",
     "Late Mississippian ice ages; sea level drops; first winged insects.")
-add("pennsylvanian", "Pennsylvanian", "SubPeriod", "carboniferous", 323.2, 298.9, "Ma",
+add("pennsylvanian", "Pennsylvanian", "SubPeriod", "carboniferous", 323.4, 298.9, "Ma",
     "Late Carboniferous; coal swamps peak; first reptiles appear.")
-add("early-pennsylvanian", "Early Pennsylvanian", "Epoch", "pennsylvanian", 323.2, 315.2, "Ma",
+add("early-pennsylvanian", "Early Pennsylvanian", "Epoch", "pennsylvanian", 323.4, 315.2, "Ma",
     "Bashkirian age; Pangaea begins to assemble.")
-add("bashkirian", "Bashkirian", "Age", "early-pennsylvanian", 323.2, 315.2, "Ma",
+add("bashkirian", "Bashkirian", "Age", "early-pennsylvanian", 323.4, 315.2, "Ma",
     "First large coal swamps; Pangaea assembly accelerates; early reptile diversification.")
 add("middle-pennsylvanian", "Middle Pennsylvanian", "Epoch", "pennsylvanian", 315.2, 307, "Ma",
     "Moscovian age; giant insects thrive in high-oxygen atmosphere.")
@@ -269,23 +269,23 @@ add("gzhelian", "Gzhelian", "Age", "late-pennsylvanian", 303.7, 298.9, "Ma",
 
 add("permian", "Permian", "Period", "paleozoic", 298.9, 251.9, "Ma",
     "Pangaea complete; therapsids (mammal ancestors) dominate; ends with the Great Dying.")
-add("cisuralian", "Cisuralian", "Epoch", "permian", 298.9, 272.95, "Ma",
+add("cisuralian", "Cisuralian", "Epoch", "permian", 298.9, 274.4, "Ma",
     "Early Permian; diverse amphibian and reptile faunas.")
 add("asselian", "Asselian", "Age", "cisuralian", 298.9, 293.52, "Ma",
     "Earliest Permian; glaciation continues in Gondwana.")
 add("sakmarian", "Sakmarian", "Age", "cisuralian", 293.52, 290.1, "Ma",
     "Pelycosaurs (sail-backed reptiles) diversify, including Dimetrodon.")
-add("artinskian", "Artinskian", "Age", "cisuralian", 290.1, 283.5, "Ma",
+add("artinskian", "Artinskian", "Age", "cisuralian", 290.1, 283.3, "Ma",
     "Gondwanan glaciation wanes; conifers spread.")
-add("kungurian", "Kungurian", "Age", "cisuralian", 283.5, 272.95, "Ma",
+add("kungurian", "Kungurian", "Age", "cisuralian", 283.3, 274.4, "Ma",
     "Evaporite deposits; therapsids begin to appear.")
-add("guadalupian", "Guadalupian", "Epoch", "permian", 272.95, 259.51, "Ma",
+add("guadalupian", "Guadalupian", "Epoch", "permian", 274.4, 259.51, "Ma",
     "Middle Permian; therapsids rise to dominance; Capitanian extinction event.")
-add("roadian", "Roadian", "Age", "guadalupian", 272.95, 268.8, "Ma",
+add("roadian", "Roadian", "Age", "guadalupian", 274.4, 266.9, "Ma",
     "Therapsids diversify; dinocephalians dominate.")
-add("wordian", "Wordian", "Age", "guadalupian", 268.8, 265.1, "Ma",
+add("wordian", "Wordian", "Age", "guadalupian", 266.9, 264.28, "Ma",
     "Reef ecosystems flourish; diverse fusulinid foraminifera.")
-add("capitanian", "Capitanian", "Age", "guadalupian", 265.1, 259.51, "Ma",
+add("capitanian", "Capitanian", "Age", "guadalupian", 264.28, 259.51, "Ma",
     "Capitanian mass extinction: major reef collapse and biodiversity loss.")
 add("lopingian", "Lopingian", "Epoch", "permian", 259.51, 251.9, "Ma",
     "Late Permian; Permian–Triassic extinction: ~96% of marine species lost.")
@@ -323,19 +323,19 @@ add("norian", "Norian", "Age", "late-triassic", 227, 208.5, "Ma",
 add("rhaetian", "Rhaetian", "Age", "late-triassic", 208.5, 201.4, "Ma",
     "End-Triassic extinction opens ecological niches for dinosaurs.")
 
-add("jurassic", "Jurassic", "Period", "mesozoic", 201.4, 145.0, "Ma",
+add("jurassic", "Jurassic", "Period", "mesozoic", 201.4, 143.1, "Ma",
     "Dinosaurs dominate; first birds (Archaeopteryx); Pangaea breaks apart.")
 add("early-jurassic", "Early Jurassic", "Epoch", "jurassic", 201.4, 174.7, "Ma",
     "Dinosaurs diversify into dominant land animals; large marine reptiles.")
 add("hettangian", "Hettangian", "Age", "early-jurassic", 201.4, 199.5, "Ma",
     "Post-extinction recovery; early dinosaur radiation.")
-add("sinemurian", "Sinemurian", "Age", "early-jurassic", 199.5, 190.8, "Ma",
+add("sinemurian", "Sinemurian", "Age", "early-jurassic", 199.5, 192.9, "Ma",
     "Early large sauropodomorphs; ammonite diversity increases.")
-add("pliensbachian", "Pliensbachian", "Age", "early-jurassic", 190.8, 184.2, "Ma",
+add("pliensbachian", "Pliensbachian", "Age", "early-jurassic", 192.9, 184.2, "Ma",
     "Warm climates; diverse marine ecosystems, ichthyosaurs abundant.")
 add("toarcian", "Toarcian", "Age", "early-jurassic", 184.2, 174.7, "Ma",
     "Toarcian Oceanic Anoxic Event (Karoo-Ferrar volcanism); marine extinctions; widespread black shales.")
-add("middle-jurassic", "Middle Jurassic", "Epoch", "jurassic", 174.7, 163.5, "Ma",
+add("middle-jurassic", "Middle Jurassic", "Epoch", "jurassic", 174.7, 161.5, "Ma",
     "Sauropods and theropods diversify; earliest flowering plant evidence.")
 add("aalenian", "Aalenian", "Age", "middle-jurassic", 174.7, 170.9, "Ma",
     "Pangaea continues to rift; ammonites flourish.")
@@ -343,24 +343,24 @@ add("bajocian", "Bajocian", "Age", "middle-jurassic", 170.9, 168.2, "Ma",
     "Diverse coral reefs; stegosaurs appear.")
 add("bathonian", "Bathonian", "Age", "middle-jurassic", 168.2, 165.3, "Ma",
     "First definitive mammals diversify; microcontinent formation.")
-add("callovian", "Callovian", "Age", "middle-jurassic", 165.3, 163.5, "Ma",
+add("callovian", "Callovian", "Age", "middle-jurassic", 165.3, 161.5, "Ma",
     "Marine transgression; ammonite diversity peak in Jurassic.")
-add("late-jurassic", "Late Jurassic", "Epoch", "jurassic", 163.5, 145.0, "Ma",
+add("late-jurassic", "Late Jurassic", "Epoch", "jurassic", 161.5, 143.1, "Ma",
     "Giant sauropods; Archaeopteryx; Morrison Formation dinosaurs.")
-add("oxfordian", "Oxfordian", "Age", "late-jurassic", 163.5, 157.3, "Ma",
+add("oxfordian", "Oxfordian", "Age", "late-jurassic", 161.5, 154.8, "Ma",
     "Widespread coral reefs; large theropods like Allosaurus.")
-add("kimmeridgian", "Kimmeridgian", "Age", "late-jurassic", 157.3, 152.1, "Ma",
+add("kimmeridgian", "Kimmeridgian", "Age", "late-jurassic", 154.8, 149.2, "Ma",
     "Rich marine ecosystems; source rocks for North Sea oil form.")
-add("tithonian", "Tithonian", "Age", "late-jurassic", 152.1, 145.0, "Ma",
+add("tithonian", "Tithonian", "Age", "late-jurassic", 149.2, 143.1, "Ma",
     "Archaeopteryx; Solnhofen limestone; transition to Cretaceous.")
 
-add("cretaceous", "Cretaceous", "Period", "mesozoic", 145.0, 66, "Ma",
+add("cretaceous", "Cretaceous", "Period", "mesozoic", 143.1, 66, "Ma",
     "Longest Mesozoic period; flowering plants rise; ends with asteroid impact (K-Pg).")
-add("early-cretaceous", "Early Cretaceous", "Epoch", "cretaceous", 145.0, 100.5, "Ma",
+add("early-cretaceous", "Early Cretaceous", "Epoch", "cretaceous", 143.1, 100.5, "Ma",
     "Flowering plants diversify; feathered dinosaurs; continental drift accelerates.")
-add("berriasian", "Berriasian", "Age", "early-cretaceous", 145.0, 139.8, "Ma",
+add("berriasian", "Berriasian", "Age", "early-cretaceous", 143.1, 137.05, "Ma",
     "Earliest Cretaceous; GSSP boundary still under discussion.")
-add("valanginian", "Valanginian", "Age", "early-cretaceous", 139.8, 132.6, "Ma",
+add("valanginian", "Valanginian", "Age", "early-cretaceous", 137.05, 132.6, "Ma",
     "Weald clay environments; early angiosperms in fossil record.")
 add("hauterivian", "Hauterivian", "Age", "early-cretaceous", 132.6, 125.77, "Ma",
     "Iguanodon and early ornithopod diversity; warm global climate.")
@@ -374,9 +374,9 @@ add("late-cretaceous", "Late Cretaceous", "Epoch", "cretaceous", 100.5, 66, "Ma"
     "Tyrannosaurus, Triceratops; angiosperms dominant; K-Pg extinction.")
 add("cenomanian", "Cenomanian", "Age", "late-cretaceous", 100.5, 93.9, "Ma",
     "Highest sea levels in Cretaceous; OAE 2 at boundary.")
-add("turonian", "Turonian", "Age", "late-cretaceous", 93.9, 89.4, "Ma",
+add("turonian", "Turonian", "Age", "late-cretaceous", 93.9, 89.8, "Ma",
     "Warmest period of Cretaceous; diverse reef ecosystems.")
-add("coniacian", "Coniacian", "Age", "late-cretaceous", 89.4, 86.3, "Ma",
+add("coniacian", "Coniacian", "Age", "late-cretaceous", 89.8, 86.3, "Ma",
     "Continued warm climates; hadrosaur diversification begins.")
 add("santonian", "Santonian", "Age", "late-cretaceous", 86.3, 83.6, "Ma",
     "Ceratopsian dinosaurs diversify; early modern bird lineages.")
