@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """Generate the Geologic Time Scale as Linked Data (Turtle + JSON-LD).
 
-812 data points covering:
+830 data points covering:
 - 4 Eons
 - 10 Eras
 - 22 Periods (incl. Mississippian/Pennsylvanian sub-periods)
 - 38 Epochs
-- ~80 Ages/Stages (Mesozoic + Cenozoic + Pleistocene + Holocene)
+- ~83 Ages/Stages (Mesozoic + Cenozoic + Pleistocene + Holocene + geologic events)
 - ~20 Paleozoic epoch-level divisions
 - Archaeological/cultural ages bridging into human history
 
@@ -64,6 +64,9 @@ add("chaotian", "Chaotian (informal)", "Era", "hadean", 4600, 4404, "Ma",
     "Accretion and differentiation of Earth; Moon-forming giant impact (Theia hypothesis, ~4510 Ma); surface entirely molten magma ocean.")
 add("zirconian", "Zirconian (informal)", "Era", "hadean", 4404, 4030, "Ma",
     "Oldest known mineral grains (Jack Hills zircons, ~4.4 Ga); first solid crust forms; Late Heavy Bombardment.")
+add("late-heavy-bombardment", "Late Heavy Bombardment (LHB)", "Age", "hadean", 4100, 3800, "Ma",
+    "Proposed period of intense asteroid and comet impacts on inner Solar System; evidence from lunar craters and Apollo samples; shaped early Earth crust; timing and intensity debated (Nice model).")
+
 add("archean", "Archean", "Eon", None, 4000, 2500, "Ma",
     "First stable continents form; earliest evidence of life (stromatolites).")
 add("proterozoic", "Proterozoic", "Eon", None, 2500, 538.8, "Ma",
@@ -512,7 +515,7 @@ add("nordic-neolithic-late", "Late Neolithic Scandinavia", "CulturalAge", "neoli
     "Transition to metalworking; flint daggers imitate bronze; Bell Beaker influences reach Scandinavia.")
 
 # --- Chalcolithic (Copper Age) ---
-add("chalcolithic", "Chalcolithic / Copper Age (Kopparsåldern)", "CulturalAge", "holocene", 3500, 2000, "BCE",
+add("chalcolithic", "Chalcolithic / Copper Age (Kopparåldern)", "CulturalAge", "holocene", 3500, 2000, "BCE",
     "Transitional period; first metalworking (copper); Ötzi the Iceman; Corded Ware culture in Northern Europe.")
 
 # --- Bronze Age ---
@@ -712,6 +715,11 @@ add("hallstatt-culture", "Hallstatt Culture (Hallstattkultur)", "CulturalAge", "
     "Early Iron Age Celtic culture; salt mining center in Austria; elite chariot burials; first identifiable Celtic material culture.")
 add("la-tene-culture", "La Tène Culture (La-Tène-Kultur)", "CulturalAge", "holocene", 450, 1, "BCE",
     "Mature Celtic civilization; characteristic art style; oppida proto-urban centers; spread from Switzerland across Europe.")
+add("yamnaya", "Yamnaya Culture (Ямная культура / Pit Grave culture)", "CulturalAge", "holocene", 3300, 2600, "BCE",
+    "Pontic-Caspian steppe pastoralists; Proto-Indo-European homeland hypothesis (Kurgan model); wheeled vehicles; horse domestication; massive westward migration transformed Bronze Age European gene pool (ancient DNA evidence, Haak et al. 2015).")
+add("corded-ware", "Corded Ware Culture (Schnurkeramik / Stridsyxekultur)", "CulturalAge", "holocene", 2900, 2350, "BCE",
+    "Widespread Chalcolithic-Early Bronze Age culture across northern/central Europe; derived partly from Yamnaya migration; single burial tradition; cord-impressed pottery; stone battle axes; Indo-European language spread vector.")
+
 add("etruscan-civilization", "Etruscan Civilization (Rasenna/Rasna)", "CulturalAge", "holocene", 900, 27, "BCE",
     "Pre-Roman Italian civilization in Tuscany; sophisticated metalwork and tomb painting; influenced Roman religion, architecture, engineering.")
 
@@ -817,6 +825,12 @@ add("8.2ka-event", "8.2 ka Cold Event", "Age", "northgrippian", 8200, 8000, "BP"
 add("4.2ka-event", "4.2 ka Aridification Event", "Age", "meghalayan", 4200, 3900, "BP",
     "Severe drought lasting ~200 years; contributes to collapse of Akkadian Empire, Old Kingdom Egypt, Harappan civilization.")
 
+add("boring-billion", "Boring Billion (Dull Billion / Mesoproterozoic Stasis)", "Age", "proterozoic", 1800, 800, "Ma",
+    "Informal name for ~1 billion years of apparent evolutionary and environmental stability; low atmospheric oxygen (~1-10% modern); subdued tectonic activity; minimal carbon isotope variation; recent work challenges 'boring' label.")
+
+add("toba-catastrophe", "Toba Catastrophe (~74 ka)", "Age", "late-pleistocene", 0.074, 0.074, "Ma",
+    "Supervolcanic eruption of Mount Toba, Sumatra (~74 ka); Volcanic Explosivity Index 8; ~2,800 km³ ejecta; volcanic winter; possible human population bottleneck (debated); largest eruption in last 2 million years.")
+
 # ═══════════════════════════════════════════════════════════════
 # ADDITIONAL CULTURAL PERIODS (Sámi, Baltic, Finnish)
 # ═══════════════════════════════════════════════════════════════
@@ -842,6 +856,10 @@ add("viking-normandy", "Norse Settlement of Normandy", "CulturalAge", "middle-vi
     "Rollo receives Normandy from French king (911); Norse settlers adopt French language; William the Conqueror descends from Vikings.")
 add("viking-rus", "Varangians and Kievan Rus'", "CulturalAge", "viking-age", 800, 1054, "CE",
     "Swedish Vikings (Varangians) establish trade routes through Russia; found Kyiv and Novgorod; Varangian Guard in Constantinople.")
+add("norse-greenland", "Norse Greenland (Grænland / Grønland)", "CulturalAge", "viking-age", 985, 1450, "CE",
+    "Erik the Red founds Eastern and Western Settlements (~985); Brattahlíð; launching point for Vinland voyages; Garðar diocese (northernmost in Christendom); population ~3,000-5,000; abandoned by ~1450; climate deterioration and trade isolation.")
+add("norse-vinland", "Norse Vinland (Vínland)", "CulturalAge", "viking-age", 1000, 1020, "CE",
+    "Leif Erikson reaches North America (~1000 CE); L'Anse aux Meadows, Newfoundland (UNESCO World Heritage Site); first confirmed European presence in the Americas; short-lived settlement; sagas of Eiríks saga rauða and Grœnlendinga saga.")
 
 # --- Medieval & Hanseatic ---
 add("christianization-scandinavia", "Christianization of Scandinavia", "CulturalAge", "early-medieval", 960, 1150, "CE",
@@ -874,8 +892,8 @@ add("cambrian-explosion", "Cambrian Explosion", "Age", "cambrian", 538.8, 510, "
 # ═══════════════════════════════════════════════════════════════
 
 # --- Pre-Columbian Civilizations ---
-add("south-america-precolumbian", "Pre-Columbian South America", "CulturalAge", "holocene", 3000, 1533, "BCE-CE",
-    "Indigenous civilizations of South America before European contact; from Norte Chico to the Inca Empire.")
+add("south-america-precolumbian", "Pre-Columbian South America", "CulturalAge", "holocene", 14800, 1533, "BCE-CE",
+    "Indigenous civilizations of South America before European contact; from Monte Verde (~14,800 BCE) through Norte Chico to the Inca Empire.")
 add("norte-chico", "Norte Chico (Caral) Civilization", "CulturalAge", "south-america-precolumbian", 3000, 1800, "BCE",
     "Oldest known civilization in the Americas; Caral, Supe Valley, Peru; monumental architecture, quipu precursors; no pottery or writing.")
 add("valdivia-culture", "Valdivia Culture", "CulturalAge", "south-america-precolumbian", 3500, 1800, "BCE",
@@ -1012,7 +1030,7 @@ add("pink-tide", "Pink Tide (Marea Rosa)", "CulturalAge", "south-america-21st", 
 # --- Paleo-Indian & Archaic ---
 add("north-america-precolumbian", "Pre-Columbian North America", "CulturalAge", "holocene", 15000, 1492, "BCE-CE",
     "Indigenous civilizations of North America before European contact; from Clovis hunters to complex societies of Mesoamerica and the Southwest.")
-add("monte-verde", "Monte Verde", "CulturalAge", "north-america-precolumbian", 14800, 13800, "BCE",
+add("monte-verde", "Monte Verde", "CulturalAge", "south-america-precolumbian", 14800, 13800, "BCE",
     "Southern Chile; pre-Clovis archaeological site; evidence of human habitation ~14,800 BCE; challenges Clovis-first model; seaweed, mastodon remains; Tom Dillehay excavations.")
 add("paleo-indians", "Paleo-Indian Period", "CulturalAge", "north-america-precolumbian", 15000, 8000, "BCE",
     "First peoples of the Americas; Clovis culture (~13,000 BP); mammoth and megafauna hunters; Folsom points; Beringia land bridge migration.")
@@ -1232,8 +1250,8 @@ add("nile-predynastic", "Predynastic Nile Valley", "CulturalAge", "africa-prehis
     "Badarian, Naqada I–III cultures; early agriculture; social stratification; Upper and Lower Egypt emerge; writing begins ~3200 BCE.")
 
 # --- Ancient Egypt ---
-add("ancient-egypt", "Ancient Egypt", "CulturalAge", "holocene", 3100, 30, "BCE",
-    "One of the world's first civilizations; 3,000 years of pharaonic rule along the Nile; pyramids, hieroglyphs, monumental architecture.")
+add("ancient-egypt", "Ancient Egypt (Kemet / مصر القديمة)", "CulturalAge", "holocene", 3100, 30, "BCE",
+    "One of the world's first civilizations; self-named km.t ('Black Land'); 3,000 years of pharaonic rule along the Nile; pyramids, hieroglyphs, monumental architecture.")
 add("egypt-early-dynastic", "Early Dynastic Egypt", "CulturalAge", "ancient-egypt", 3100, 2686, "BCE",
     "Unification of Upper and Lower Egypt; Narmer/Menes; Memphis as capital; First and Second Dynasties; development of hieroglyphic writing.")
 add("egypt-old-kingdom", "Old Kingdom of Egypt", "CulturalAge", "ancient-egypt", 2686, 2181, "BCE",
@@ -1310,14 +1328,16 @@ add("sokoto-caliphate", "Sokoto Caliphate", "CulturalAge", "west-africa-ancient"
     "Fulani jihad led by Usman dan Fodio; largest state in 19th-century Africa; Islamic scholarship; conquered by British (1903).")
 add("timbuktu-golden-age", "Golden Age of Timbuktu", "CulturalAge", "mali-empire", 1300, 1600, "CE",
     "Major intellectual center; Sankore University; 100,000+ manuscripts; Islamic scholarship; Ahmed Baba; gold-salt trade crossroads.")
+add("ife-kingdom", "Kingdom of Ifẹ̀ (Ilé-Ifẹ̀)", "CulturalAge", "west-africa-ancient", 1000, 1420, "CE",
+    "Sacred Yoruba city; naturalistic bronze and terracotta portrait heads (among finest art in world history); Ooni rulers; spiritual capital of all Yoruba people; influenced Benin Kingdom art tradition; Ife bronzes predate European Renaissance.")
 
 # --- East & Southeast Africa ---
 add("swahili-coast", "Swahili Coast Civilization", "CulturalAge", "holocene", 100, 1500, "CE",
     "Indian Ocean trading cities; Kilwa, Mombasa, Zanzibar, Mogadishu; Swahili language (Bantu with Arabic loanwords); stone towns; gold, ivory, spice trade.")
 add("kilwa-sultanate", "Kilwa Sultanate", "CulturalAge", "swahili-coast", 960, 1513, "CE",
     "Wealthiest Swahili city-state; controlled gold trade from Great Zimbabwe; Great Mosque of Kilwa; copper coins; sacked by Portuguese (1505).")
-add("great-zimbabwe", "Great Zimbabwe", "CulturalAge", "holocene", 1100, 1450, "CE",
-    "Largest stone structure in sub-Saharan Africa; Shona kingdoms; Great Enclosure; gold trade; ~18,000 inhabitants; inspired modern Zimbabwe's name.")
+add("great-zimbabwe", "Great Zimbabwe (Dzimba dza mabwe)", "CulturalAge", "holocene", 1100, 1450, "CE",
+    "Largest stone structure in sub-Saharan Africa; name means 'houses of stone' in Shona; Great Enclosure; gold trade; ~18,000 inhabitants; inspired modern Zimbabwe's name.")
 add("mutapa-empire", "Kingdom of Mutapa", "CulturalAge", "holocene", 1430, 1760, "CE",
     "Successor to Great Zimbabwe; controlled gold-producing region; Shona; Portuguese trade and interference; 'emperor of gold mines'.")
 add("buganda-kingdom", "Kingdom of Buganda", "CulturalAge", "holocene", 1300, 1966, "CE",
@@ -1350,7 +1370,7 @@ add("khoisan-pastoral", "Khoisan Pastoral Period", "CulturalAge", "africa-prehis
     "Khoikhoi pastoralists and San hunter-gatherers; southern Africa; earliest inhabitants; click languages; rock art tradition spanning millennia.")
 
 # --- Central Africa ---
-add("bantu-expansion", "Bantu Expansion", "CulturalAge", "holocene", 1000, 500, "BCE-CE",
+add("bantu-expansion", "Bantu Expansion (Uenezi wa Wabantu)", "CulturalAge", "holocene", 1000, 500, "BCE-CE",
     "One of the largest migrations in human history; Bantu-speaking peoples spread from Cameroon/Nigeria across central, eastern, and southern Africa; iron, agriculture, languages.")
 add("kongo-kingdom", "Kingdom of Kongo", "CulturalAge", "holocene", 1390, 1914, "CE",
     "Central Africa (modern Angola, DRC, Congo); Mbanza Kongo capital; early contact with Portugal (1483); conversion to Christianity; Atlantic slave trade devastation.")
@@ -1396,11 +1416,11 @@ add("barbary-states", "Barbary States", "CulturalAge", "north-africa-islamic", 1
     "Ottoman-aligned North African regencies; Algiers, Tunis, Tripoli; corsair piracy; Barbary Wars with U.S.; French conquest of Algiers (1830).")
 
 # --- Colonialism & Independence ---
-add("scramble-for-africa", "Scramble for Africa", "CulturalAge", "modern-period", 1881, 1914, "CE",
+add("scramble-for-africa", "Scramble for Africa (Kugawanywa kwa Afrika / La course au clocher)", "CulturalAge", "modern-period", 1881, 1914, "CE",
     "European partition of Africa; Berlin Conference (1884-85); only Ethiopia and Liberia remain independent; arbitrary borders; exploitation of resources and peoples.")
 add("colonial-africa", "Colonial Africa", "CulturalAge", "modern-period", 1884, 1966, "CE",
     "European colonial rule; British, French, Portuguese, Belgian, German, Italian, Spanish territories; extraction economies; forced labor; resistance movements.")
-add("atlantic-slave-trade", "Atlantic Slave Trade", "CulturalAge", "holocene", 1501, 1867, "CE",
+add("atlantic-slave-trade", "Atlantic Slave Trade (Maafa / تجارة الرقيق عبر الأطلسي)", "CulturalAge", "holocene", 1501, 1867, "CE",
     "Forced transportation of ~12.5 million Africans to the Americas; devastating demographic and social impact; abolished progressively through 19th century.")
 add("congo-free-state", "Congo Free State", "CulturalAge", "colonial-africa", 1885, 1908, "CE",
     "Personal colony of Leopold II of Belgium; rubber terror; forced labor; hand amputations; estimated 1-10 million dead; international outcry.")
@@ -1636,6 +1656,11 @@ add("champa", "Kingdom of Champa", "CulturalAge", "southeast-asia-history", 192,
     "Hindu-Buddhist kingdom in central/southern Vietnam; Cham towers (Mỹ Sơn); maritime trade; rivalry with Khmer and Đại Việt; Austronesian people.")
 add("srivijaya", "Srivijaya Empire", "CulturalAge", "southeast-asia-history", 650, 1377, "CE",
     "Maritime empire based in Sumatra; controlled Malacca Strait; Buddhist center (Nalanda connections); Malay language spread; spice trade.")
+add("dongson-culture", "Đông Sơn Culture (Văn hóa Đông Sơn / 東山文化)", "CulturalAge", "southeast-asia-history", 600, 200, "BCE-CE",
+    "Bronze Age culture of northern Vietnam's Red River Delta; elaborate bronze drums (trống đồng Đông Sơn); wet-rice cultivation; maritime trade; Heger Type I drums found from Indonesia to southern China; foundation of Vietnamese Bronze Age identity.")
+add("ban-chiang", "Ban Chiang (บ้านเชียง)", "CulturalAge", "southeast-asia-history", 3600, 200, "BCE",
+    "Prehistoric site in northeast Thailand; UNESCO World Heritage Site; early bronze metallurgy (debated dating); distinctive red-painted pottery; rice agriculture; challenges 'diffusion from China' model of Southeast Asian metalworking.")
+
 add("dvaravati", "Dvaravati Kingdom", "CulturalAge", "southeast-asia-history", 550, 1050, "CE",
     "Mon Buddhist kingdom in central Thailand; Theravada Buddhism center; Dharmachakra (Wheel of Law) sculptures; absorbed by Khmer and later Thai kingdoms.")
 add("khmer-empire", "Khmer Empire (ចក្រភពខ្មែរ)", "CulturalAge", "southeast-asia-history", 802, 1431, "CE",
@@ -1712,7 +1737,7 @@ add("scythians", "Scythian Period", "CulturalAge", "central-asia-history", 900, 
     "Iranian nomadic warriors; horse archery; animal-style gold art; kurgans (burial mounds); Herodotus accounts; influenced Greek and Persian worlds.")
 add("xiongnu", "Xiongnu Empire", "CulturalAge", "central-asia-history", 209, 93, "BCE",
     "First great steppe empire; Modu Chanyu; prompted Chinese Great Wall; Silk Road intermediaries; possible ancestors of Huns; Han dynasty rival.")
-add("silk-road-era", "Silk Road Era", "CulturalAge", "central-asia-history", 130, 1453, "BCE-CE",
+add("silk-road-era", "Silk Road Era (丝绸之路 / Ipek Yolu / طريق الحرير)", "CulturalAge", "central-asia-history", 130, 1453, "BCE-CE",
     "Trans-Eurasian trade network; Zhang Qian (130 BCE); Sogdian merchants; Samarkand, Bukhara, Kashgar; ideas, religions, diseases, technologies exchanged.")
 add("gokturk-khaganate", "Göktürk Khaganate", "CulturalAge", "central-asia-history", 552, 744, "CE",
     "First Turkic empire; Orkhon inscriptions (oldest Turkic writing); controlled Silk Road; split into Eastern and Western; influenced all later Turkic states.")
@@ -1724,7 +1749,7 @@ add("phagmodrupa-tibet", "Phagmodrupa Dynasty (ཕག་མོ་གྲུ་པ
     "Re-established Tibetan autonomous rule; Changchub Gyaltsen revitalized Tibetan culture; Tsongkhapa founds Gelug school; Dalai Lama institution emerges.")
 add("sogdiana", "Sogdiana (Sogdian City-States)", "CulturalAge", "central-asia-history", 500, 800, "CE",
     "Premier Silk Road merchant civilization; Samarkand, Bukhara; Sogdian lingua franca of trade; alphabet influenced Central Asian scripts; rose in Tang government.")
-add("mongol-empire", "Mongol Empire (Их Монгол Улс / Yeke Mongol Ulus)", "CulturalAge", "central-asia-history", 1206, 1368, "CE",
+add("mongol-empire", "Mongol Empire (ᠶᠡᠬᠡ ᠮᠣᠩᠭᠣᠯ ᠤᠯᠤᠰ / Их Монгол Улс / Yeke Mongol Ulus)", "CulturalAge", "central-asia-history", 1206, 1368, "CE",
     "Genghis Khan; largest contiguous land empire in history; Pax Mongolica; postal system (yam); religious tolerance; connected East and West.")
 add("chagatai-khanate", "Chagatai Khanate (چغتای خانات)", "CulturalAge", "central-asia-history", 1226, 1687, "CE",
     "Mongol successor state; Chagatai Khan's line; Aral Sea to Altai Mountains; Turkicized; Chagatai Turkic literary language; lost Transoxiana to Timurids.")
@@ -1750,8 +1775,13 @@ add("durrani-empire", "Durrani Empire", "CulturalAge", "central-asia-history", 1
     "Ahmad Shah Durrani ('Father of Afghanistan'); Pashtun empire from Khorasan to Punjab; Kohinoor diamond; foundation of modern Afghan state.")
 
 # --- Middle East / West Asia ---
-add("mesopotamia", "Mesopotamian Civilizations", "CulturalAge", "holocene", 3500, 539, "BCE",
-    "Cradle of civilization; between Tigris and Euphrates; writing, law, mathematics, astronomy; successive empires from Sumer to Neo-Babylonian.")
+add("mesopotamia", "Mesopotamian Civilizations (بلاد الرافدين)", "CulturalAge", "holocene", 6500, 539, "BCE",
+    "Cradle of civilization; between Tigris and Euphrates; writing, law, mathematics, astronomy; from Ubaid through Sumer to Neo-Babylonian.")
+add("ubaid-period", "Ubaid Period (دور العبيد)", "CulturalAge", "mesopotamia", 6500, 3800, "BCE",
+    "Pre-Sumerian Mesopotamian culture; first irrigation agriculture; distinctive painted pottery; Eridu (oldest city in Sumerian tradition); 'ubaid-style temples; foundation for Sumerian civilization.")
+add("uruk-period", "Uruk Period (دور الوركاء)", "CulturalAge", "mesopotamia", 4000, 3100, "BCE",
+    "Birth of civilization; world's first city Uruk (~40,000 people); invention of cuneiform writing (~3400 BCE); cylinder seals; monumental architecture (White Temple); state formation; Warka Vase.")
+
 add("sumer", "Sumerian Civilization (ki-en-gi)", "CulturalAge", "mesopotamia", 3500, 2004, "BCE",
     "First civilization; cuneiform writing; city-states (Ur, Uruk, Lagash); ziggurats; Epic of Gilgamesh; wheel, plow, sailboat; sexagesimal math.")
 add("akkadian-empire", "Akkadian Empire", "CulturalAge", "mesopotamia", 2334, 2154, "BCE",
@@ -1815,6 +1845,20 @@ add("zand-dynasty", "Zand Dynasty (زندیه)", "CulturalAge", "holocene", 1751
 add("qajar-dynasty", "Qajar Dynasty", "CulturalAge", "holocene", 1789, 1925, "CE",
     "Iranian dynasty; Tehran capital; Constitutional Revolution (1906); oil concessions to Britain; modernization struggles; replaced by Pahlavi dynasty.")
 # --- Arabian Peninsula (pre-Islamic) ---
+# --- Ancient Near East / Levant (pre-Classical) ---
+add("natufian", "Natufian Culture (الثقافة النطوفية / Natufien)", "CulturalAge", "holocene", 12500, 9500, "BCE",
+    "Levantine Epipaleolithic culture; first sedentary or semi-sedentary settlements; wild cereal harvesting with sickle blades; Ain Mallaha (Eynan), Wadi en-Natuf; transition to agriculture; dog domestication.")
+add("gobekli-tepe", "Göbekli Tepe (گۆبەکلی تەپە / Portasar)", "CulturalAge", "holocene", 9500, 8000, "BCE",
+    "World's oldest known megalithic temple complex; T-shaped limestone pillars with animal reliefs; pre-agricultural ritual center; Şanlıurfa Province, Turkey; UNESCO World Heritage Site (2018); revolutionized Neolithic understanding.")
+add("ppna", "Pre-Pottery Neolithic A (PPNA / العصر الحجري الحديث ما قبل الفخار أ)", "CulturalAge", "holocene", 10000, 8700, "BCE",
+    "Earliest Neolithic in the Levant; Jericho tower and wall; sedentary villages without pottery; wild and early domesticated cereals; skull cult; round houses; 'Neolithic Revolution' begins.")
+add("ppnb", "Pre-Pottery Neolithic B (PPNB / العصر الحجري الحديث ما قبل الفخار ب)", "CulturalAge", "holocene", 8700, 6500, "BCE",
+    "Levantine Neolithic; rectangular multi-room houses; domesticated wheat, barley, sheep, goats, cattle; Ain Ghazal statues; Çayönü; long-distance obsidian trade; plaster skulls; population boom.")
+add("catalhoyuk", "Çatalhöyük", "CulturalAge", "holocene", 7500, 5700, "BCE",
+    "Neolithic proto-city in central Anatolia; ~3,000-8,000 inhabitants; roof-entry houses without streets; elaborate wall paintings and reliefs; Mother Goddess figurines; UNESCO World Heritage Site (2012); James Mellaart and Ian Hodder excavations.")
+add("dilmun", "Dilmun (دلمون / Telmun)", "CulturalAge", "holocene", 3000, 538, "BCE",
+    "Ancient civilization on Bahrain and eastern Arabia; major Sumerian trading partner; described in Epic of Gilgamesh as paradise; Barbar temples; Qal'at al-Bahrain (UNESCO); freshwater springs; royal burial mounds.")
+
 add("sabaean-kingdom", "Sabaean Kingdom / Sheba (مملكة سبأ)", "CulturalAge", "holocene", 1000, 275, "BCE-CE",
     "Dominant South Arabian kingdom; Ma'rib Great Dam; frankincense and myrrh trade ('Arabia Felix'); biblical Queen of Sheba; deity Almaqah.")
 add("himyarite-kingdom", "Himyarite Kingdom (مملكة حمير)", "CulturalAge", "holocene", 110, 525, "BCE-CE",

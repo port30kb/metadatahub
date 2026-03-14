@@ -11,7 +11,7 @@
   "@id": "https://metadatahub.eu/data/geologic-timescale",
   "@type": "skos:ConceptScheme",
   "dcterms:title": "Geologic Time Scale",
-  "dcterms:description": "812 entries covering the geologic time scale from Hadean eon (4600 Ma) to present, including Scandinavian, European, and South American cultural/historical periods.",
+  "dcterms:description": "830 entries covering the geologic time scale from Hadean eon (4600 Ma) to present, including Scandinavian, European, and South American cultural/historical periods.",
   "dcterms:source": [
     "https://en.wikipedia.org/wiki/Geologic_time_scale",
     "https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf",
@@ -75,6 +75,25 @@
       },
       "time:hasBeginning": "4404 Ma",
       "time:hasEnd": "4030 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/late-heavy-bombardment",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Late Heavy Bombardment (LHB)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Proposed period of intense asteroid and comet impacts on inner Solar System; evidence from lunar craters and Apollo samples; shaped early Earth crust; timing and intensity debated (Nice model).",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/hadean"
+      },
+      "time:hasBeginning": "4100 Ma",
+      "time:hasEnd": "3800 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -3872,7 +3891,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/chalcolithic",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Chalcolithic / Copper Age (Kopparsåldern)",
+        "@value": "Chalcolithic / Copper Age (Kopparåldern)",
         "@language": "en"
       },
       "skos:definition": {
@@ -5503,6 +5522,44 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/yamnaya",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Yamnaya Culture (Ямная культура / Pit Grave culture)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Pontic-Caspian steppe pastoralists; Proto-Indo-European homeland hypothesis (Kurgan model); wheeled vehicles; horse domestication; massive westward migration transformed Bronze Age European gene pool (ancient DNA evidence, Haak et al. 2015).",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "3300 BCE",
+      "time:hasEnd": "2600 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/corded-ware",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Corded Ware Culture (Schnurkeramik / Stridsyxekultur)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Widespread Chalcolithic-Early Bronze Age culture across northern/central Europe; derived partly from Yamnaya migration; single burial tradition; cord-impressed pottery; stone battle axes; Indo-European language spread vector.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "2900 BCE",
+      "time:hasEnd": "2350 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
       "@id": "https://metadatahub.eu/data/geologic-timescale/etruscan-civilization",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
@@ -6301,6 +6358,44 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/boring-billion",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Boring Billion (Dull Billion / Mesoproterozoic Stasis)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Informal name for ~1 billion years of apparent evolutionary and environmental stability; low atmospheric oxygen (~1-10% modern); subdued tectonic activity; minimal carbon isotope variation; recent work challenges 'boring' label.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/proterozoic"
+      },
+      "time:hasBeginning": "1800 Ma",
+      "time:hasEnd": "800 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/toba-catastrophe",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Toba Catastrophe (~74 ka)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Supervolcanic eruption of Mount Toba, Sumatra (~74 ka); Volcanic Explosivity Index 8; ~2,800 km³ ejecta; volcanic winter; possible human population bottleneck (debated); largest eruption in last 2 million years.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/late-pleistocene"
+      },
+      "time:hasBeginning": "0.074 Ma",
+      "time:hasEnd": "0.074 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
       "@id": "https://metadatahub.eu/data/geologic-timescale/sami-prehistory",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
@@ -6488,6 +6583,44 @@
       },
       "time:hasBeginning": "800 CE",
       "time:hasEnd": "1054 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/norse-greenland",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Norse Greenland (Grænland / Grønland)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Erik the Red founds Eastern and Western Settlements (~985); Brattahlíð; launching point for Vinland voyages; Garðar diocese (northernmost in Christendom); population ~3,000-5,000; abandoned by ~1450; climate deterioration and trade isolation.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/viking-age"
+      },
+      "time:hasBeginning": "985 CE",
+      "time:hasEnd": "1450 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/norse-vinland",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Norse Vinland (Vínland)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Leif Erikson reaches North America (~1000 CE); L'Anse aux Meadows, Newfoundland (UNESCO World Heritage Site); first confirmed European presence in the Americas; short-lived settlement; sagas of Eiríks saga rauða and Grœnlendinga saga.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/viking-age"
+      },
+      "time:hasBeginning": "1000 CE",
+      "time:hasEnd": "1020 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -6707,14 +6840,14 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Indigenous civilizations of South America before European contact; from Norte Chico to the Inca Empire.",
+        "@value": "Indigenous civilizations of South America before European contact; from Monte Verde (~14,800 BCE) through Norte Chico to the Inca Empire.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
       },
-      "time:hasBeginning": "3000 BCE",
+      "time:hasBeginning": "14800 BCE",
       "time:hasEnd": "1533 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -7852,7 +7985,7 @@
       },
       "gts:rank": "CulturalAge",
       "skos:broader": {
-        "@id": "https://metadatahub.eu/data/geologic-timescale/north-america-precolumbian"
+        "@id": "https://metadatahub.eu/data/geologic-timescale/south-america-precolumbian"
       },
       "time:hasBeginning": "14800 BCE",
       "time:hasEnd": "13800 BCE",
@@ -9648,11 +9781,11 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/ancient-egypt",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Ancient Egypt",
+        "@value": "Ancient Egypt (Kemet / مصر القديمة)",
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "One of the world's first civilizations; 3,000 years of pharaonic rule along the Nile; pyramids, hieroglyphs, monumental architecture.",
+        "@value": "One of the world's first civilizations; self-named km.t ('Black Land'); 3,000 years of pharaonic rule along the Nile; pyramids, hieroglyphs, monumental architecture.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
@@ -10329,6 +10462,25 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/ife-kingdom",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Kingdom of Ifẹ̀ (Ilé-Ifẹ̀)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Sacred Yoruba city; naturalistic bronze and terracotta portrait heads (among finest art in world history); Ooni rulers; spiritual capital of all Yoruba people; influenced Benin Kingdom art tradition; Ife bronzes predate European Renaissance.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/west-africa-ancient"
+      },
+      "time:hasBeginning": "1000 CE",
+      "time:hasEnd": "1420 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
       "@id": "https://metadatahub.eu/data/geologic-timescale/swahili-coast",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
@@ -10370,11 +10522,11 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/great-zimbabwe",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Great Zimbabwe",
+        "@value": "Great Zimbabwe (Dzimba dza mabwe)",
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Largest stone structure in sub-Saharan Africa; Shona kingdoms; Great Enclosure; gold trade; ~18,000 inhabitants; inspired modern Zimbabwe's name.",
+        "@value": "Largest stone structure in sub-Saharan Africa; name means 'houses of stone' in Shona; Great Enclosure; gold trade; ~18,000 inhabitants; inspired modern Zimbabwe's name.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
@@ -10655,7 +10807,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/bantu-expansion",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Bantu Expansion",
+        "@value": "Bantu Expansion (Uenezi wa Wabantu)",
         "@language": "en"
       },
       "skos:definition": {
@@ -11016,7 +11168,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/scramble-for-africa",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Scramble for Africa",
+        "@value": "Scramble for Africa (Kugawanywa kwa Afrika / La course au clocher)",
         "@language": "en"
       },
       "skos:definition": {
@@ -11054,7 +11206,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/atlantic-slave-trade",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Atlantic Slave Trade",
+        "@value": "Atlantic Slave Trade (Maafa / تجارة الرقيق عبر الأطلسي)",
         "@language": "en"
       },
       "skos:definition": {
@@ -13103,6 +13255,44 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/dongson-culture",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Đông Sơn Culture (Văn hóa Đông Sơn / 東山文化)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Bronze Age culture of northern Vietnam's Red River Delta; elaborate bronze drums (trống đồng Đông Sơn); wet-rice cultivation; maritime trade; Heger Type I drums found from Indonesia to southern China; foundation of Vietnamese Bronze Age identity.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/southeast-asia-history"
+      },
+      "time:hasBeginning": "600 BCE",
+      "time:hasEnd": "200 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/ban-chiang",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Ban Chiang (บ้านเชียง)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Prehistoric site in northeast Thailand; UNESCO World Heritage Site; early bronze metallurgy (debated dating); distinctive red-painted pottery; rice agriculture; challenges 'diffusion from China' model of Southeast Asian metalworking.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/southeast-asia-history"
+      },
+      "time:hasBeginning": "3600 BCE",
+      "time:hasEnd": "200 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
       "@id": "https://metadatahub.eu/data/geologic-timescale/dvaravati",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
@@ -13676,7 +13866,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/silk-road-era",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Silk Road Era",
+        "@value": "Silk Road Era (丝绸之路 / Ipek Yolu / طريق الحرير)",
         "@language": "en"
       },
       "skos:definition": {
@@ -13790,7 +13980,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/mongol-empire",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Mongol Empire (Их Монгол Улс / Yeke Mongol Ulus)",
+        "@value": "Mongol Empire (ᠶᠡᠬᠡ ᠮᠣᠩᠭᠣᠯ ᠤᠯᠤᠰ / Их Монгол Улс / Yeke Mongol Ulus)",
         "@language": "en"
       },
       "skos:definition": {
@@ -14018,19 +14208,57 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/mesopotamia",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Mesopotamian Civilizations",
+        "@value": "Mesopotamian Civilizations (بلاد الرافدين)",
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Cradle of civilization; between Tigris and Euphrates; writing, law, mathematics, astronomy; successive empires from Sumer to Neo-Babylonian.",
+        "@value": "Cradle of civilization; between Tigris and Euphrates; writing, law, mathematics, astronomy; from Ubaid through Sumer to Neo-Babylonian.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
       },
-      "time:hasBeginning": "3500 BCE",
+      "time:hasBeginning": "6500 BCE",
       "time:hasEnd": "539 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/ubaid-period",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Ubaid Period (دور العبيد)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Pre-Sumerian Mesopotamian culture; first irrigation agriculture; distinctive painted pottery; Eridu (oldest city in Sumerian tradition); 'ubaid-style temples; foundation for Sumerian civilization.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mesopotamia"
+      },
+      "time:hasBeginning": "6500 BCE",
+      "time:hasEnd": "3800 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/uruk-period",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Uruk Period (دور الوركاء)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Birth of civilization; world's first city Uruk (~40,000 people); invention of cuneiform writing (~3400 BCE); cylinder seals; monumental architecture (White Temple); state formation; Warka Vase.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/mesopotamia"
+      },
+      "time:hasBeginning": "4000 BCE",
+      "time:hasEnd": "3100 BCE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -14620,6 +14848,120 @@
       },
       "time:hasBeginning": "1789 CE",
       "time:hasEnd": "1925 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/natufian",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Natufian Culture (الثقافة النطوفية / Natufien)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Levantine Epipaleolithic culture; first sedentary or semi-sedentary settlements; wild cereal harvesting with sickle blades; Ain Mallaha (Eynan), Wadi en-Natuf; transition to agriculture; dog domestication.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "12500 BCE",
+      "time:hasEnd": "9500 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/gobekli-tepe",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Göbekli Tepe (گۆبەکلی تەپە / Portasar)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "World's oldest known megalithic temple complex; T-shaped limestone pillars with animal reliefs; pre-agricultural ritual center; Şanlıurfa Province, Turkey; UNESCO World Heritage Site (2018); revolutionized Neolithic understanding.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "9500 BCE",
+      "time:hasEnd": "8000 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/ppna",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Pre-Pottery Neolithic A (PPNA / العصر الحجري الحديث ما قبل الفخار أ)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Earliest Neolithic in the Levant; Jericho tower and wall; sedentary villages without pottery; wild and early domesticated cereals; skull cult; round houses; 'Neolithic Revolution' begins.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "10000 BCE",
+      "time:hasEnd": "8700 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/ppnb",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Pre-Pottery Neolithic B (PPNB / العصر الحجري الحديث ما قبل الفخار ب)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Levantine Neolithic; rectangular multi-room houses; domesticated wheat, barley, sheep, goats, cattle; Ain Ghazal statues; Çayönü; long-distance obsidian trade; plaster skulls; population boom.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "8700 BCE",
+      "time:hasEnd": "6500 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/catalhoyuk",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Çatalhöyük",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Neolithic proto-city in central Anatolia; ~3,000-8,000 inhabitants; roof-entry houses without streets; elaborate wall paintings and reliefs; Mother Goddess figurines; UNESCO World Heritage Site (2012); James Mellaart and Ian Hodder excavations.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "7500 BCE",
+      "time:hasEnd": "5700 BCE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/dilmun",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Dilmun (دلمون / Telmun)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Ancient civilization on Bahrain and eastern Arabia; major Sumerian trading partner; described in Epic of Gilgamesh as paradise; Barbar temples; Qal'at al-Bahrain (UNESCO); freshwater springs; royal burial mounds.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/holocene"
+      },
+      "time:hasBeginning": "3000 BCE",
+      "time:hasEnd": "538 BCE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
