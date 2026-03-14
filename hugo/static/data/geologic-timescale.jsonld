@@ -540,7 +540,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/phanerozoic"
       },
       "time:hasBeginning": "538.8 Ma",
-      "time:hasEnd": "251.9 Ma",
+      "time:hasEnd": "251.902 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -559,7 +559,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/paleozoic"
       },
       "time:hasBeginning": "538.8 Ma",
-      "time:hasEnd": "485.4 Ma",
+      "time:hasEnd": "486.85 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -635,7 +635,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/cambrian"
       },
       "time:hasBeginning": "521 Ma",
-      "time:hasEnd": "509 Ma",
+      "time:hasEnd": "506.5 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -654,7 +654,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/epoch2-cambrian"
       },
       "time:hasBeginning": "521 Ma",
-      "time:hasEnd": "514 Ma",
+      "time:hasEnd": "514.5 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -672,8 +672,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/epoch2-cambrian"
       },
-      "time:hasBeginning": "514 Ma",
-      "time:hasEnd": "509 Ma",
+      "time:hasBeginning": "514.5 Ma",
+      "time:hasEnd": "506.5 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -691,7 +691,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/cambrian"
       },
-      "time:hasBeginning": "509 Ma",
+      "time:hasBeginning": "506.5 Ma",
       "time:hasEnd": "497 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -710,7 +710,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/miaolingian"
       },
-      "time:hasBeginning": "509 Ma",
+      "time:hasBeginning": "506.5 Ma",
       "time:hasEnd": "504.5 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -768,7 +768,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/cambrian"
       },
       "time:hasBeginning": "497 Ma",
-      "time:hasEnd": "485.4 Ma",
+      "time:hasEnd": "486.85 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -825,7 +825,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/furongian"
       },
       "time:hasBeginning": "491 Ma",
-      "time:hasEnd": "485.4 Ma",
+      "time:hasEnd": "486.85 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -843,8 +843,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/paleozoic"
       },
-      "time:hasBeginning": "485.4 Ma",
-      "time:hasEnd": "443.8 Ma",
+      "time:hasBeginning": "486.85 Ma",
+      "time:hasEnd": "443.1 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -862,8 +862,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/ordovician"
       },
-      "time:hasBeginning": "485.4 Ma",
-      "time:hasEnd": "470.0 Ma",
+      "time:hasBeginning": "486.85 Ma",
+      "time:hasEnd": "471.3 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -881,8 +881,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-ordovician"
       },
-      "time:hasBeginning": "485.4 Ma",
-      "time:hasEnd": "477.7 Ma",
+      "time:hasBeginning": "486.85 Ma",
+      "time:hasEnd": "477.1 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -900,8 +900,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-ordovician"
       },
-      "time:hasBeginning": "477.7 Ma",
-      "time:hasEnd": "470.0 Ma",
+      "time:hasBeginning": "477.1 Ma",
+      "time:hasEnd": "471.3 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -919,8 +919,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/ordovician"
       },
-      "time:hasBeginning": "470.0 Ma",
-      "time:hasEnd": "458.4 Ma",
+      "time:hasBeginning": "471.3 Ma",
+      "time:hasEnd": "458.2 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -938,7 +938,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/middle-ordovician"
       },
-      "time:hasBeginning": "470.0 Ma",
+      "time:hasBeginning": "471.3 Ma",
       "time:hasEnd": "469.4 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -958,7 +958,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/middle-ordovician"
       },
       "time:hasBeginning": "469.4 Ma",
-      "time:hasEnd": "458.4 Ma",
+      "time:hasEnd": "458.2 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -976,8 +976,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/ordovician"
       },
-      "time:hasBeginning": "458.4 Ma",
-      "time:hasEnd": "443.8 Ma",
+      "time:hasBeginning": "458.2 Ma",
+      "time:hasEnd": "443.1 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -995,8 +995,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/late-ordovician"
       },
-      "time:hasBeginning": "458.4 Ma",
-      "time:hasEnd": "453.0 Ma",
+      "time:hasBeginning": "458.2 Ma",
+      "time:hasEnd": "452.8 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1014,7 +1014,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/late-ordovician"
       },
-      "time:hasBeginning": "453.0 Ma",
+      "time:hasBeginning": "452.8 Ma",
       "time:hasEnd": "445.2 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -1034,7 +1034,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/late-ordovician"
       },
       "time:hasBeginning": "445.2 Ma",
-      "time:hasEnd": "443.8 Ma",
+      "time:hasEnd": "443.1 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1052,8 +1052,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/paleozoic"
       },
-      "time:hasBeginning": "443.8 Ma",
-      "time:hasEnd": "419.2 Ma",
+      "time:hasBeginning": "443.1 Ma",
+      "time:hasEnd": "419.62 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1071,8 +1071,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/silurian"
       },
-      "time:hasBeginning": "443.8 Ma",
-      "time:hasEnd": "433.4 Ma",
+      "time:hasBeginning": "443.1 Ma",
+      "time:hasEnd": "432.9 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1090,8 +1090,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/llandovery"
       },
-      "time:hasBeginning": "443.8 Ma",
-      "time:hasEnd": "440.8 Ma",
+      "time:hasBeginning": "443.1 Ma",
+      "time:hasEnd": "440.5 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1109,8 +1109,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/llandovery"
       },
-      "time:hasBeginning": "440.8 Ma",
-      "time:hasEnd": "438.5 Ma",
+      "time:hasBeginning": "440.5 Ma",
+      "time:hasEnd": "438.6 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1128,8 +1128,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/llandovery"
       },
-      "time:hasBeginning": "438.5 Ma",
-      "time:hasEnd": "433.4 Ma",
+      "time:hasBeginning": "438.6 Ma",
+      "time:hasEnd": "432.9 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1147,8 +1147,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/silurian"
       },
-      "time:hasBeginning": "433.4 Ma",
-      "time:hasEnd": "427.4 Ma",
+      "time:hasBeginning": "432.9 Ma",
+      "time:hasEnd": "426.7 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1166,8 +1166,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/wenlock"
       },
-      "time:hasBeginning": "433.4 Ma",
-      "time:hasEnd": "430.5 Ma",
+      "time:hasBeginning": "432.9 Ma",
+      "time:hasEnd": "430.6 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1185,8 +1185,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/wenlock"
       },
-      "time:hasBeginning": "430.5 Ma",
-      "time:hasEnd": "427.4 Ma",
+      "time:hasBeginning": "430.6 Ma",
+      "time:hasEnd": "426.7 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1204,8 +1204,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/silurian"
       },
-      "time:hasBeginning": "427.4 Ma",
-      "time:hasEnd": "423.0 Ma",
+      "time:hasBeginning": "426.7 Ma",
+      "time:hasEnd": "422.7 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1223,8 +1223,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/ludlow"
       },
-      "time:hasBeginning": "427.4 Ma",
-      "time:hasEnd": "425.6 Ma",
+      "time:hasBeginning": "426.7 Ma",
+      "time:hasEnd": "425 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1242,8 +1242,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/ludlow"
       },
-      "time:hasBeginning": "425.6 Ma",
-      "time:hasEnd": "423.0 Ma",
+      "time:hasBeginning": "425 Ma",
+      "time:hasEnd": "422.7 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1261,8 +1261,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/silurian"
       },
-      "time:hasBeginning": "423.0 Ma",
-      "time:hasEnd": "419.2 Ma",
+      "time:hasBeginning": "422.7 Ma",
+      "time:hasEnd": "419.62 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1280,8 +1280,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/paleozoic"
       },
-      "time:hasBeginning": "419.2 Ma",
-      "time:hasEnd": "358.9 Ma",
+      "time:hasBeginning": "419.62 Ma",
+      "time:hasEnd": "358.86 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1299,8 +1299,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/pridoli"
       },
-      "time:hasBeginning": "419.2 Ma",
-      "time:hasEnd": "419.2 Ma",
+      "time:hasBeginning": "419.62 Ma",
+      "time:hasEnd": "419.62 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1318,8 +1318,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/devonian"
       },
-      "time:hasBeginning": "419.2 Ma",
-      "time:hasEnd": "393.3 Ma",
+      "time:hasBeginning": "419.62 Ma",
+      "time:hasEnd": "393.47 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1337,8 +1337,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-devonian"
       },
-      "time:hasBeginning": "419.2 Ma",
-      "time:hasEnd": "410.8 Ma",
+      "time:hasBeginning": "419.62 Ma",
+      "time:hasEnd": "413.02 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1356,8 +1356,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-devonian"
       },
-      "time:hasBeginning": "410.8 Ma",
-      "time:hasEnd": "407.6 Ma",
+      "time:hasBeginning": "413.02 Ma",
+      "time:hasEnd": "410.62 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1375,8 +1375,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-devonian"
       },
-      "time:hasBeginning": "407.6 Ma",
-      "time:hasEnd": "393.3 Ma",
+      "time:hasBeginning": "410.62 Ma",
+      "time:hasEnd": "393.47 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1394,8 +1394,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/devonian"
       },
-      "time:hasBeginning": "393.3 Ma",
-      "time:hasEnd": "382.7 Ma",
+      "time:hasBeginning": "393.47 Ma",
+      "time:hasEnd": "382.31 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1413,8 +1413,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/middle-devonian"
       },
-      "time:hasBeginning": "393.3 Ma",
-      "time:hasEnd": "387.7 Ma",
+      "time:hasBeginning": "393.47 Ma",
+      "time:hasEnd": "387.95 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1432,8 +1432,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/middle-devonian"
       },
-      "time:hasBeginning": "387.7 Ma",
-      "time:hasEnd": "382.7 Ma",
+      "time:hasBeginning": "387.95 Ma",
+      "time:hasEnd": "382.31 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1451,8 +1451,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/devonian"
       },
-      "time:hasBeginning": "382.7 Ma",
-      "time:hasEnd": "358.9 Ma",
+      "time:hasBeginning": "382.31 Ma",
+      "time:hasEnd": "358.86 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1470,8 +1470,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/late-devonian"
       },
-      "time:hasBeginning": "382.7 Ma",
-      "time:hasEnd": "372.2 Ma",
+      "time:hasBeginning": "382.31 Ma",
+      "time:hasEnd": "372.15 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1489,8 +1489,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/late-devonian"
       },
-      "time:hasBeginning": "372.2 Ma",
-      "time:hasEnd": "358.9 Ma",
+      "time:hasBeginning": "372.15 Ma",
+      "time:hasEnd": "358.86 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1508,7 +1508,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/paleozoic"
       },
-      "time:hasBeginning": "358.9 Ma",
+      "time:hasBeginning": "358.86 Ma",
       "time:hasEnd": "298.9 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -1527,7 +1527,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/carboniferous"
       },
-      "time:hasBeginning": "358.9 Ma",
+      "time:hasBeginning": "358.86 Ma",
       "time:hasEnd": "323.4 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -1546,7 +1546,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/mississippian"
       },
-      "time:hasBeginning": "358.9 Ma",
+      "time:hasBeginning": "358.86 Ma",
       "time:hasEnd": "346.7 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -1565,7 +1565,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-mississippian"
       },
-      "time:hasBeginning": "358.9 Ma",
+      "time:hasBeginning": "358.86 Ma",
       "time:hasEnd": "346.7 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -1813,7 +1813,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/paleozoic"
       },
       "time:hasBeginning": "298.9 Ma",
-      "time:hasEnd": "251.9 Ma",
+      "time:hasEnd": "251.902 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -2003,7 +2003,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/permian"
       },
       "time:hasBeginning": "259.51 Ma",
-      "time:hasEnd": "251.9 Ma",
+      "time:hasEnd": "251.902 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -2041,7 +2041,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/lopingian"
       },
       "time:hasBeginning": "254.14 Ma",
-      "time:hasEnd": "251.9 Ma",
+      "time:hasEnd": "251.902 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -2059,7 +2059,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/phanerozoic"
       },
-      "time:hasBeginning": "251.9 Ma",
+      "time:hasBeginning": "251.902 Ma",
       "time:hasEnd": "66 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -2078,7 +2078,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/mesozoic"
       },
-      "time:hasBeginning": "251.9 Ma",
+      "time:hasBeginning": "251.902 Ma",
       "time:hasEnd": "201.4 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -2097,7 +2097,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/triassic"
       },
-      "time:hasBeginning": "251.9 Ma",
+      "time:hasBeginning": "251.902 Ma",
       "time:hasEnd": "246.7 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -2116,7 +2116,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-triassic"
       },
-      "time:hasBeginning": "251.9 Ma",
+      "time:hasBeginning": "251.902 Ma",
       "time:hasEnd": "249.9 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -2174,7 +2174,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/middle-triassic"
       },
       "time:hasBeginning": "246.7 Ma",
-      "time:hasEnd": "241.5 Ma",
+      "time:hasEnd": "241.464 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -2192,7 +2192,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/middle-triassic"
       },
-      "time:hasBeginning": "241.5 Ma",
+      "time:hasBeginning": "241.464 Ma",
       "time:hasEnd": "237 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -2231,7 +2231,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/late-triassic"
       },
       "time:hasBeginning": "237 Ma",
-      "time:hasEnd": "227 Ma",
+      "time:hasEnd": "227.3 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -2249,7 +2249,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/late-triassic"
       },
-      "time:hasBeginning": "227 Ma",
+      "time:hasBeginning": "227.3 Ma",
       "time:hasEnd": "205.7 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
