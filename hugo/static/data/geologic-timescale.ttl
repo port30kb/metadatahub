@@ -702,9 +702,9 @@ ts:wenlock a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "426.7"^^xsd:decimal ; rdfs:label "426.7 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 61/852: Sheinwoodian (Sheinton Brook) (Age) ──
+# ── 61/852: Sheinwoodian (Sheinwood) (Age) ──
 ts:sheinwoodian a gts:GeochronologicAge ;
-    rdfs:label "Sheinwoodian (Sheinton Brook)"@en ;
+    rdfs:label "Sheinwoodian (Sheinwood)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Ireviken extinction event; reef ecosystems expand."@en ;
     gts:rank "Age" ;
@@ -735,11 +735,11 @@ ts:ludlow a gts:GeochronologicEpoch ;
     time:hasEnd [ time:inXSDgYear "422.7"^^xsd:decimal ; rdfs:label "422.7 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
-# ── 64/852: Gorstian (Gorst, Shropshire) (Age) ──
+# ── 64/852: Gorstian (Gorsty, Shropshire) (Age) ──
 ts:gorstian a gts:GeochronologicAge ;
-    rdfs:label "Gorstian (Gorst, Shropshire)"@en ;
+    rdfs:label "Gorstian (Gorsty, Shropshire)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
-    skos:definition "Lau extinction event; graptolite fauna turnover."@en ;
+    skos:definition "Linde Event; marine fauna turnover."@en ;
     gts:rank "Age" ;
     skos:broader ts:ludlow ;
     time:hasBeginning [ time:inXSDgYear "426.7"^^xsd:decimal ; rdfs:label "426.7 Ma" ] ;
@@ -750,7 +750,7 @@ ts:gorstian a gts:GeochronologicAge ;
 ts:ludfordian a gts:GeochronologicAge ;
     rdfs:label "Ludfordian (Ludford, Shropshire)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
-    skos:definition "First terrestrial arthropod traces; jawed fish diversify."@en ;
+    skos:definition "Lau extinction event; first terrestrial arthropod traces; jawed fish diversify."@en ;
     gts:rank "Age" ;
     skos:broader ts:ludlow ;
     time:hasBeginning [ time:inXSDgYear "425"^^xsd:decimal ; rdfs:label "425 Ma" ] ;
@@ -1113,7 +1113,7 @@ ts:asselian a gts:GeochronologicAge ;
 ts:sakmarian a gts:GeochronologicAge ;
     rdfs:label "Sakmarian (Сакмара)"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
-    skos:definition "Pelycosaurs (sail-backed reptiles) diversify, including Dimetrodon."@en ;
+    skos:definition "Pelycosaurs (sail-backed synapsids) diversify, including Dimetrodon."@en ;
     gts:rank "Age" ;
     skos:broader ts:cisuralian ;
     time:hasBeginning [ time:inXSDgYear "293.52"^^xsd:decimal ; rdfs:label "293.52 Ma" ] ;

@@ -196,16 +196,16 @@ add("telychian", "Telychian (Pen-lan-Telechi)", "Age", "llandovery", 438.6, 432.
     "Graptolite diversity peak; first vascular plant fossils.")
 add("wenlock", "Wenlock (Much Wenlock)", "Epoch", "silurian", 432.9, 426.7, "Ma",
     "First land plants with vascular tissue; coral reef expansion.")
-add("sheinwoodian", "Sheinwoodian (Sheinton Brook)", "Age", "wenlock", 432.9, 430.6, "Ma",
+add("sheinwoodian", "Sheinwoodian (Sheinwood)", "Age", "wenlock", 432.9, 430.6, "Ma",
     "Ireviken extinction event; reef ecosystems expand.")
 add("homerian", "Homerian (Homer, Shropshire)", "Age", "wenlock", 430.6, 426.7, "Ma",
     "Mulde extinction event; eurypterids (sea scorpions) diversify.")
 add("ludlow", "Ludlow (Ludlow, Shropshire)", "Epoch", "silurian", 426.7, 422.7, "Ma",
     "First terrestrial arachnids; brachiopod diversity peak.")
-add("gorstian", "Gorstian (Gorst, Shropshire)", "Age", "ludlow", 426.7, 425, "Ma",
-    "Lau extinction event; graptolite fauna turnover.")
+add("gorstian", "Gorstian (Gorsty, Shropshire)", "Age", "ludlow", 426.7, 425, "Ma",
+    "Linde Event; marine fauna turnover.")
 add("ludfordian", "Ludfordian (Ludford, Shropshire)", "Age", "ludlow", 425, 422.7, "Ma",
-    "First terrestrial arthropod traces; jawed fish diversify.")
+    "Lau extinction event; first terrestrial arthropod traces; jawed fish diversify.")
 add("pridoli", "Přídolí (Přídolí, Česko)", "Epoch", "silurian", 422.7, 419.62, "Ma",
     "First jawed fish diversify; transition toward Devonian.")
 
@@ -274,7 +274,7 @@ add("cisuralian", "Cisuralian (Цис-Урал)", "Epoch", "permian", 298.9, 274
 add("asselian", "Asselian (Ассель)", "Age", "cisuralian", 298.9, 293.52, "Ma",
     "Earliest Permian; glaciation continues in Gondwana.")
 add("sakmarian", "Sakmarian (Сакмара)", "Age", "cisuralian", 293.52, 290.1, "Ma",
-    "Pelycosaurs (sail-backed reptiles) diversify, including Dimetrodon.")
+    "Pelycosaurs (sail-backed synapsids) diversify, including Dimetrodon.")
 add("artinskian", "Artinskian (Артинск)", "Age", "cisuralian", 290.1, 283.3, "Ma",
     "Gondwanan glaciation wanes; conifers spread.")
 add("kungurian", "Kungurian (Кунгур)", "Age", "cisuralian", 283.3, 274.4, "Ma",

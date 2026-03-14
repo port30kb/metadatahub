@@ -1155,7 +1155,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/sheinwoodian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Sheinwoodian (Sheinton Brook)",
+        "@value": "Sheinwoodian (Sheinwood)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1212,11 +1212,11 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/gorstian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Gorstian (Gorst, Shropshire)",
+        "@value": "Gorstian (Gorsty, Shropshire)",
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Lau extinction event; graptolite fauna turnover.",
+        "@value": "Linde Event; marine fauna turnover.",
         "@language": "en"
       },
       "gts:rank": "Age",
@@ -1235,7 +1235,7 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "First terrestrial arthropod traces; jawed fish diversify.",
+        "@value": "Lau extinction event; first terrestrial arthropod traces; jawed fish diversify.",
         "@language": "en"
       },
       "gts:rank": "Age",
@@ -1862,7 +1862,7 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Pelycosaurs (sail-backed reptiles) diversify, including Dimetrodon.",
+        "@value": "Pelycosaurs (sail-backed synapsids) diversify, including Dimetrodon.",
         "@language": "en"
       },
       "gts:rank": "Age",
