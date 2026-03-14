@@ -56,18 +56,18 @@ def add(id_, label, rank, parent, start, end, unit, desc):
 # ═══════════════════════════════════════════════════════════════
 # EONS
 # ═══════════════════════════════════════════════════════════════
-add("hadean", "Hadean", "Eon", None, 4600, 4000, "Ma",
+add("hadean", "Hadean", "Eon", None, 4567, 4031, "Ma",
     "Earliest eon; Earth forms from accretion, heavy bombardment, formation of the Moon.")
 
 # Hadean informal divisions (proposed by Goldblatt et al. 2010; GTS 2012; not ratified by ICS)
-add("chaotian", "Chaotian (informal)", "Era", "hadean", 4600, 4404, "Ma",
+add("chaotian", "Chaotian (informal)", "Era", "hadean", 4567, 4404, "Ma",
     "Accretion and differentiation of Earth; Moon-forming giant impact (Theia hypothesis, ~4510 Ma); surface entirely molten magma ocean.")
-add("zirconian", "Zirconian (informal)", "Era", "hadean", 4404, 4030, "Ma",
+add("zirconian", "Zirconian (informal)", "Era", "hadean", 4404, 4031, "Ma",
     "Oldest known mineral grains (Jack Hills zircons, ~4.4 Ga); first solid crust forms; Late Heavy Bombardment.")
 add("late-heavy-bombardment", "Late Heavy Bombardment (LHB)", "Age", "hadean", 4100, 3800, "Ma",
     "Proposed period of intense asteroid and comet impacts on inner Solar System; evidence from lunar craters and Apollo samples; shaped early Earth crust; timing and intensity debated (Nice model).")
 
-add("archean", "Archean", "Eon", None, 4000, 2500, "Ma",
+add("archean", "Archean", "Eon", None, 4031, 2500, "Ma",
     "First stable continents form; earliest evidence of life (stromatolites).")
 add("proterozoic", "Proterozoic", "Eon", None, 2500, 538.8, "Ma",
     "Oxygen accumulates in atmosphere; first eukaryotes and multicellular life.")
@@ -77,7 +77,7 @@ add("phanerozoic", "Phanerozoic", "Eon", None, 538.8, 0, "Ma",
 # ═══════════════════════════════════════════════════════════════
 # ARCHEAN ERAS
 # ═══════════════════════════════════════════════════════════════
-add("eoarchean", "Eoarchean", "Era", "archean", 4000, 3600, "Ma",
+add("eoarchean", "Eoarchean", "Era", "archean", 4031, 3600, "Ma",
     "Oldest known rocks; possible earliest life.")
 add("paleoarchean", "Paleoarchean", "Era", "archean", 3600, 3200, "Ma",
     "Earliest confirmed microbial life; oldest stromatolites.")
@@ -130,7 +130,7 @@ add("gaskiers", "Gaskiers Glaciation", "Age", "ediacaran", 580.9, 579.6, "Ma",
 add("paleozoic", "Paleozoic", "Era", "phanerozoic", 538.8, 251.9, "Ma",
     "Era of ancient life; Cambrian explosion, first fish, amphibians, reptiles, forests.")
 
-add("cambrian", "Cambrian", "Period", "paleozoic", 538.8, 485.4, "Ma",
+add("cambrian", "Cambrian", "Period", "paleozoic", 538.8, 486.85, "Ma",
     "Cambrian explosion: most major animal phyla appear rapidly in the fossil record.")
 add("terreneuvian", "Terreneuvian", "Epoch", "cambrian", 538.8, 521, "Ma",
     "Earliest Cambrian epoch; small shelly fossils appear.")
@@ -152,70 +152,70 @@ add("drumian", "Drumian", "Age", "miaolingian", 504.5, 500.5, "Ma",
     "Agnostid trilobites flourish; deep-water faunas diversify.")
 add("guzhangian", "Guzhangian", "Age", "miaolingian", 500.5, 497, "Ma",
     "Trilobite turnover; transition toward Furongian faunas.")
-add("furongian", "Furongian", "Epoch", "cambrian", 497, 485.4, "Ma",
+add("furongian", "Furongian", "Epoch", "cambrian", 497, 486.85, "Ma",
     "Trilobite extinctions; first cephalopods appear.")
 add("paibian", "Paibian", "Age", "furongian", 497, 494, "Ma",
     "SPICE carbon isotope excursion; trilobite extinction pulse.")
 add("jiangshanian", "Jiangshanian", "Age", "furongian", 494, 489.5, "Ma",
     "Trilobite recovery; earliest cephalopods diversify.")
-add("stage10-cambrian", "Cambrian Stage 10", "Age", "furongian", 489.5, 485.4, "Ma",
+add("stage10-cambrian", "Cambrian Stage 10", "Age", "furongian", 489.5, 486.85, "Ma",
     "Final Cambrian stage; transition to Ordovician biodiversification.")
 
-add("ordovician", "Ordovician", "Period", "paleozoic", 485.4, 443.8, "Ma",
+add("ordovician", "Ordovician", "Period", "paleozoic", 486.85, 443.1, "Ma",
     "Great Ordovician Biodiversification Event; first land plants; ends with mass extinction.")
-add("early-ordovician", "Early Ordovician", "Epoch", "ordovician", 485.4, 470, "Ma",
+add("early-ordovician", "Early Ordovician", "Epoch", "ordovician", 486.85, 471.3, "Ma",
     "Biodiversification begins; graptolites and brachiopods flourish.")
-add("tremadocian", "Tremadocian", "Age", "early-ordovician", 485.4, 477.7, "Ma",
+add("tremadocian", "Tremadocian", "Age", "early-ordovician", 486.85, 477.1, "Ma",
     "Conodonts and graptolites diversify; first planktonic ecosystems.")
-add("floian", "Floian", "Age", "early-ordovician", 477.7, 470, "Ma",
+add("floian", "Floian", "Age", "early-ordovician", 477.1, 471.3, "Ma",
     "First bryozoans; corals begin to diversify.")
-add("middle-ordovician", "Middle Ordovician", "Epoch", "ordovician", 470, 458.4, "Ma",
+add("middle-ordovician", "Middle Ordovician", "Epoch", "ordovician", 471.3, 458.2, "Ma",
     "Great Ordovician Biodiversification Event peaks.")
-add("dapingian", "Dapingian", "Age", "middle-ordovician", 470, 467.3, "Ma",
+add("dapingian", "Dapingian", "Age", "middle-ordovician", 471.3, 469.4, "Ma",
     "GOBE intensifies; cephalopods diversify as top marine predators.")
-add("darriwilian", "Darriwilian", "Age", "middle-ordovician", 467.3, 458.4, "Ma",
+add("darriwilian", "Darriwilian", "Age", "middle-ordovician", 469.4, 458.2, "Ma",
     "Peak of Great Ordovician Biodiversification; stromatoporoid reefs.")
-add("late-ordovician", "Late Ordovician", "Epoch", "ordovician", 458.4, 443.8, "Ma",
+add("late-ordovician", "Late Ordovician", "Epoch", "ordovician", 458.2, 443.1, "Ma",
     "End-Ordovician glaciation and mass extinction; ~85% of marine species lost.")
-add("sandbian", "Sandbian", "Age", "late-ordovician", 458.4, 453, "Ma",
+add("sandbian", "Sandbian", "Age", "late-ordovician", 458.2, 452.8, "Ma",
     "Taconic orogeny; diverse brachiopod communities.")
-add("katian", "Katian", "Age", "late-ordovician", 453, 445.2, "Ma",
+add("katian", "Katian", "Age", "late-ordovician", 452.8, 445.2, "Ma",
     "Peak marine diversity; Gondwanan glaciation begins.")
-add("hirnantian", "Hirnantian", "Age", "late-ordovician", 445.2, 443.8, "Ma",
+add("hirnantian", "Hirnantian", "Age", "late-ordovician", 445.2, 443.1, "Ma",
     "End-Ordovician mass extinction; rapid glaciation and sea level drop.")
 
-add("silurian", "Silurian", "Period", "paleozoic", 443.8, 419.2, "Ma",
+add("silurian", "Silurian", "Period", "paleozoic", 443.1, 419.62, "Ma",
     "Recovery from extinction; first vascular land plants; jawed fish appear.")
-add("llandovery", "Llandovery", "Epoch", "silurian", 443.8, 433.4, "Ma",
+add("llandovery", "Llandovery", "Epoch", "silurian", 443.1, 430.6, "Ma",
     "Post-extinction recovery; graptolite diversification.")
-add("rhuddanian", "Rhuddanian", "Age", "llandovery", 443.8, 440.8, "Ma",
+add("rhuddanian", "Rhuddanian", "Age", "llandovery", 443.1, 438.6, "Ma",
     "Earliest Silurian; rapid recovery of graptolite faunas.")
-add("aeronian", "Aeronian", "Age", "llandovery", 440.8, 438.5, "Ma",
+add("aeronian", "Aeronian", "Age", "llandovery", 438.6, 432.9, "Ma",
     "Continued recovery; first land plant spores.")
-add("telychian", "Telychian", "Age", "llandovery", 438.5, 433.4, "Ma",
+add("telychian", "Telychian", "Age", "llandovery", 432.9, 430.6, "Ma",
     "Graptolite diversity peak; first vascular plant fossils.")
-add("wenlock", "Wenlock", "Epoch", "silurian", 433.4, 427.4, "Ma",
+add("wenlock", "Wenlock", "Epoch", "silurian", 430.6, 425.0, "Ma",
     "First land plants with vascular tissue; coral reef expansion.")
-add("sheinwoodian", "Sheinwoodian", "Age", "wenlock", 433.4, 430.5, "Ma",
+add("sheinwoodian", "Sheinwoodian", "Age", "wenlock", 430.6, 426.7, "Ma",
     "Ireviken extinction event; reef ecosystems expand.")
-add("homerian", "Homerian", "Age", "wenlock", 430.5, 427.4, "Ma",
+add("homerian", "Homerian", "Age", "wenlock", 426.7, 425.0, "Ma",
     "Mulde extinction event; eurypterids (sea scorpions) diversify.")
-add("ludlow", "Ludlow", "Epoch", "silurian", 427.4, 423, "Ma",
+add("ludlow", "Ludlow", "Epoch", "silurian", 425.0, 422.7, "Ma",
     "First terrestrial arachnids; brachiopod diversity peak.")
-add("gorstian", "Gorstian", "Age", "ludlow", 427.4, 425.6, "Ma",
+add("gorstian", "Gorstian", "Age", "ludlow", 425.0, 423.0, "Ma",
     "Lau extinction event; graptolite fauna turnover.")
-add("ludfordian", "Ludfordian", "Age", "ludlow", 425.6, 423, "Ma",
+add("ludfordian", "Ludfordian", "Age", "ludlow", 423.0, 422.7, "Ma",
     "First terrestrial arthropod traces; jawed fish diversify.")
-add("pridoli", "Přídolí", "Epoch", "silurian", 423, 419.2, "Ma",
+add("pridoli", "Přídolí", "Epoch", "silurian", 422.7, 419.62, "Ma",
     "First jawed fish diversify; transition toward Devonian.")
 
-add("devonian", "Devonian", "Period", "paleozoic", 419.2, 358.9, "Ma",
+add("devonian", "Devonian", "Period", "paleozoic", 419.62, 358.9, "Ma",
     "Age of Fishes; first forests, first insects, first amphibians.")
-add("klonk-event", "Klonk GSSP (Silurian–Devonian boundary)", "Age", "pridoli", 419.2, 419.2, "Ma",
+add("klonk-event", "Klonk GSSP (Silurian–Devonian boundary)", "Age", "pridoli", 419.62, 419.62, "Ma",
     "First GSSP ever ratified (1972); Klonk, Czech Republic; defined by first appearance of graptolite Monograptus uniformis; marks base of Devonian.")
-add("early-devonian", "Early Devonian", "Epoch", "devonian", 419.2, 393.3, "Ma",
+add("early-devonian", "Early Devonian", "Epoch", "devonian", 419.62, 393.3, "Ma",
     "First seed plants; armored fish diversify.")
-add("lochkovian", "Lochkovian", "Age", "early-devonian", 419.2, 410.8, "Ma",
+add("lochkovian", "Lochkovian", "Age", "early-devonian", 419.62, 410.8, "Ma",
     "Earliest Devonian; jawed fish radiation continues.")
 add("pragian", "Pragian", "Age", "early-devonian", 410.8, 407.6, "Ma",
     "First true leaves (lycopsids); early vascular plants spread onto land.")
@@ -563,11 +563,11 @@ add("early-roman-iron", "Early Roman Iron Age", "CulturalAge", "roman-iron-age",
     "Increasing trade with Roman provinces; imported bronze vessels; first runic inscriptions.")
 add("late-roman-iron", "Late Roman Iron Age", "CulturalAge", "roman-iron-age", 200, 400, "CE",
     "Gold solidi flow north; Nydam boat (320 CE); elaborate weapon deposits in bogs.")
-add("germanic-iron-age", "Germanic Iron Age (Germansk järnålder)", "CulturalAge", "holocene", 375, 790, "CE",
+add("germanic-iron-age", "Germanic Iron Age (Germansk järnålder)", "CulturalAge", "holocene", 400, 790, "CE",
     "Post-Roman period in Scandinavia; divided into Early (Migration Period) and Late (Vendel/Merovingian) by Oscar Montelius.")
-add("migration-period", "Migration Period (Folkvandringstiden / Völkerwanderung)", "CulturalAge", "germanic-iron-age", 375, 550, "CE",
+add("migration-period", "Migration Period (Folkvandringstiden / Völkerwanderung)", "CulturalAge", "germanic-iron-age", 400, 550, "CE",
     "Fall of Western Rome; Germanic peoples migrate across Europe; gold bracteates and collars in Scandinavia.")
-add("migration-early", "Early Migration Period", "CulturalAge", "migration-period", 375, 475, "CE",
+add("migration-early", "Early Migration Period", "CulturalAge", "migration-period", 400, 475, "CE",
     "Huns invade Europe (375); Scandinavian gold hoards peak; elaborate gold collars (e.g. Ålleberg, Möne, Färjestaden).")
 add("migration-late", "Late Migration Period", "CulturalAge", "migration-period", 475, 550, "CE",
     "Post-Roman gold scarcity; gilded bronze replaces gold; animal-style ornamentation (Style I) develops.")
@@ -583,19 +583,19 @@ add("viking-age", "Viking Age (Vikingatiden)", "CulturalAge", "holocene", 790, 1
     "Norse expansion, raiding, trading, and settlement; Birka, Hedeby; Christianization of Scandinavia.")
 add("early-viking-age", "Early Viking Age (Äldre vikingatiden)", "CulturalAge", "viking-age", 790, 900, "CE",
     "Raid on Lindisfarne (793); establishment of Norse trading centers; Oseberg ship burial.")
-add("middle-viking-age", "Middle Viking Age (Mellersta vikingatiden)", "CulturalAge", "viking-age", 865, 1000, "CE",
+add("middle-viking-age", "Middle Viking Age (Mellersta vikingatiden)", "CulturalAge", "viking-age", 900, 1000, "CE",
     "Danelaw in England; Normandy settled; Icelandic settlement; Bluetooth's Denmark.")
 add("late-viking-age", "Late Viking Age (Yngre vikingatiden)", "CulturalAge", "viking-age", 1000, 1100, "CE",
     "Christianization; end of Norse paganism; Cnut the Great's North Sea Empire.")
 
 # --- Medieval Period ---
-add("medieval-period", "Medieval Period (Medeltiden)", "CulturalAge", "holocene", 960, 1520, "CE",
+add("medieval-period", "Medieval Period (Medeltiden)", "CulturalAge", "holocene", 1050, 1520, "CE",
     "Scandinavian medieval period; Christianity dominant; Hanseatic trade; Gothic cathedrals; Black Death (1349).")
-add("early-medieval", "Early Medieval Period (Tidig medeltid)", "CulturalAge", "medieval-period", 960, 1200, "CE",
+add("early-medieval", "Early Medieval Period (Tidig medeltid)", "CulturalAge", "medieval-period", 1050, 1200, "CE",
     "Church consolidation; first Scandinavian dioceses; Romanesque architecture.")
 add("high-medieval", "High Medieval Period (Högmedeltiden)", "CulturalAge", "medieval-period", 1200, 1350, "CE",
     "Hanseatic League; Gothic architecture; Kalmar Union precursors; population growth.")
-add("late-medieval", "Late Medieval Period (Senmedeltiden)", "CulturalAge", "medieval-period", 1349, 1520, "CE",
+add("late-medieval", "Late Medieval Period (Senmedeltiden)", "CulturalAge", "medieval-period", 1350, 1520, "CE",
     "Black Death aftermath; Kalmar Union (1397); Reformation approaches.")
 
 # --- Early Modern ---
@@ -617,8 +617,8 @@ add("gustavian-era", "Gustavian Era (Gustavianska tiden)", "CulturalAge", "early
     "Gustav III's coup restores royal power; patron of arts; Royal Opera and Royal Dramatic Theatre founded; assassinated 1792.")
 
 # --- Modern Period ---
-add("modern-period", "Modern Period (Moderna tiden)", "CulturalAge", "holocene", 1765, 0, "CE",
-    "Age of revolutions to present; industrialization, nation-states, globalization.")
+add("modern-period", "Modern Period (Moderna tiden)", "CulturalAge", "holocene", 1789, 0, "CE",
+    "French Revolution to present; industrialization, nation-states, globalization.")
 add("bernadotte-era", "Bernadotte Era / Union Period", "CulturalAge", "modern-period", 1809, 1905, "CE",
     "New constitution (1809); French Marshal Bernadotte becomes Crown Prince (1810); Sweden-Norway union (1814–1905); loss of Finland to Russia.")
 add("industrial-age", "Industrial Age (Industrialiseringen)", "CulturalAge", "modern-period", 1850, 1914, "CE",
@@ -653,8 +653,8 @@ add("byzantine-late", "Late Byzantine Period", "CulturalAge", "byzantine-empire"
     "Fourth Crusade sacks Constantinople (1204); Latin Empire; Palaiologos restoration (1261); decline; Fall of Constantinople (1453) ends Roman continuity.")
 
 # --- European Middle Ages (continental) ---
-add("european-early-medieval", "Early Middle Ages (Europe)", "CulturalAge", "holocene", 481, 1000, "CE",
-    "Dark Ages; Merovingian and Carolingian kingdoms; spread of Christianity; feudalism develops.")
+add("european-early-medieval", "Early Middle Ages (Europe)", "CulturalAge", "holocene", 476, 1000, "CE",
+    "Fall of Western Rome (476); Merovingian and Carolingian kingdoms; spread of Christianity; feudalism develops.")
 add("merovingian-period", "Merovingian Period (Frankish)", "CulturalAge", "european-early-medieval", 481, 751, "CE",
     "Merovingian dynasty rules Frankish kingdoms; Clovis I converts to Christianity; foundation of medieval France.")
 add("carolingian-period", "Carolingian Period", "CulturalAge", "european-early-medieval", 751, 888, "CE",
@@ -676,7 +676,7 @@ add("renaissance", "Renaissance (Rinascimento)", "CulturalAge", "holocene", 1350
 add("italian-renaissance", "Italian Renaissance (Rinascimento italiano)", "CulturalAge", "renaissance", 1350, 1550, "CE",
     "Florence, Venice, Rome as cultural centers; Medici patronage; Brunelleschi, Botticelli, Machiavelli, da Vinci.")
 add("northern-renaissance", "Northern Renaissance (Nordisk renässans)", "CulturalAge", "renaissance", 1450, 1600, "CE",
-    "Renaissance spreads north of Alps; Dürer, Erasmus, van Eyck; printing revolution; Protestant Reformation begins.")
+    "Renaissance spreads north of Alps; Dürer, Erasmus, Holbein, Bruegel; printing revolution; Protestant Reformation begins.")
 add("age-of-exploration", "Age of Exploration (Era dos Descobrimentos)", "CulturalAge", "holocene", 1415, 1600, "CE",
     "European maritime exploration; Columbus (1492), Vasco da Gama (1498), Magellan (1519); colonial empires begin.")
 add("european-reformation", "European Reformation (Reformationen)", "CulturalAge", "holocene", 1517, 1648, "CE",
@@ -685,7 +685,7 @@ add("baroque-period", "Baroque Period (Barocken)", "CulturalAge", "holocene", 16
     "Dramatic, ornate art and architecture; Bernini, Caravaggio, Rubens, Bach, Vivaldi; absolutist monarchies.")
 add("enlightenment", "Age of Enlightenment (Upplysningen / Aufklärung / Les Lumières)", "CulturalAge", "holocene", 1685, 1815, "CE",
     "Reason, science, individual rights; Voltaire, Rousseau, Kant, Locke; influence on American and French Revolutions.")
-add("age-of-revolutions", "Age of Revolutions (Revolutionernas tid)", "CulturalAge", "modern-period", 1775, 1848, "CE",
+add("age-of-revolutions", "Age of Revolutions (Revolutionernas tid)", "CulturalAge", "holocene", 1775, 1848, "CE",
     "American Revolution (1775), French Revolution (1789), Napoleonic Wars, Revolutions of 1848; end of ancien régime.")
 add("romanticism", "Romantic Period", "CulturalAge", "modern-period", 1790, 1850, "CE",
     "Reaction against Enlightenment rationalism; emphasis on emotion, nature, nationalism; Goethe, Byron, Beethoven, Delacroix.")
@@ -848,9 +848,9 @@ add("jastorf-culture", "Jastorf Culture", "CulturalAge", "pre-roman-iron-age", 5
     "Pre-Roman Iron Age culture of northern Germany and southern Scandinavia; first iron smelting from bog ore; cremation burials.")
 
 # --- Viking Age sub-events ---
-add("danelaw", "Danelaw Period", "CulturalAge", "middle-viking-age", 865, 954, "CE",
+add("danelaw", "Danelaw Period", "CulturalAge", "viking-age", 865, 954, "CE",
     "Norse-controlled territory in eastern and northern England; established after the Great Heathen Army; York as Viking capital.")
-add("viking-iceland", "Settlement of Iceland", "CulturalAge", "middle-viking-age", 870, 930, "CE",
+add("viking-iceland", "Settlement of Iceland", "CulturalAge", "viking-age", 870, 930, "CE",
     "Norse colonization of Iceland; Ingólfr Arnarson (874); Althing established 930 as one of the oldest parliaments.")
 add("viking-normandy", "Norse Settlement of Normandy", "CulturalAge", "middle-viking-age", 911, 1066, "CE",
     "Rollo receives Normandy from French king (911); Norse settlers adopt French language; William the Conqueror descends from Vikings.")
@@ -862,17 +862,17 @@ add("norse-vinland", "Norse Vinland (Vínland)", "CulturalAge", "viking-age", 10
     "Leif Erikson reaches North America (~1000 CE); L'Anse aux Meadows, Newfoundland (UNESCO World Heritage Site); first confirmed European presence in the Americas; short-lived settlement; sagas of Eiríks saga rauða and Grœnlendinga saga.")
 
 # --- Medieval & Hanseatic ---
-add("christianization-scandinavia", "Christianization of Scandinavia", "CulturalAge", "early-medieval", 960, 1150, "CE",
+add("christianization-scandinavia", "Christianization of Scandinavia", "CulturalAge", "viking-age", 960, 1150, "CE",
     "Gradual conversion: Denmark (~960, Harald Bluetooth), Norway (~1000, Olaf Tryggvason), Sweden (~1000, Olof Skötkonung); Uppsala temple destroyed ~1087.")
 add("baltic-crusades", "Baltic Crusades Period", "CulturalAge", "medieval-period", 1147, 1290, "CE",
     "Northern Crusades; Christianization of Baltic region; Teutonic Order; Swedish crusades to Finland.")
 add("hanseatic-period", "Hanseatic Period in Scandinavia", "CulturalAge", "medieval-period", 1250, 1450, "CE",
     "Hanseatic League dominates Baltic trade; German merchants in Visby, Bergen, Stockholm; Lübeck law adopted.")
-add("black-death-scandinavia", "Black Death in Scandinavia (Digerdöden / Svartedauden)", "CulturalAge", "late-medieval", 1349, 1360, "CE",
+add("black-death-scandinavia", "Black Death in Scandinavia (Digerdöden / Svartedauden)", "CulturalAge", "medieval-period", 1349, 1360, "CE",
     "Plague reaches Norway (1349), Sweden and Denmark; kills ~50-60% of Scandinavian population; abandoned farms (ödegårdar).")
 add("kalmar-union", "Kalmar Union (Kalmarunionen)", "CulturalAge", "late-medieval", 1397, 1523, "CE",
     "Union of Denmark, Norway, and Sweden under one monarch; Queen Margrete I; dissolved by Gustav Vasa's rebellion.")
-add("stockholm-bloodbath", "Stockholm Bloodbath (Stockholms blodbad)", "CulturalAge", "late-medieval", 1520, 1521, "CE",
+add("stockholm-bloodbath", "Stockholm Bloodbath (Stockholms blodbad)", "CulturalAge", "late-medieval", 1520, 1520, "CE",
     "Danish King Christian II executes ~80 Swedish nobles and clergy; triggers Gustav Vasa's rebellion and end of Kalmar Union.")
 
 # --- Danish / Norwegian specific ---
@@ -902,7 +902,7 @@ add("chavin-culture", "Chavín Culture", "CulturalAge", "south-america-precolumb
     "Early Horizon unifying culture of Andean Peru; Chavín de Huántar temple complex; jaguar iconography; influence across highlands and coast.")
 add("paracas-culture", "Paracas Culture", "CulturalAge", "south-america-precolumbian", 800, 100, "BCE",
     "Southern Peruvian coastal culture; extraordinary textiles and embroidery; cranial trepanation; Paracas Necropolis burials.")
-add("nazca-culture", "Nazca Culture", "CulturalAge", "south-america-precolumbian", 100, 800, "CE",
+add("nazca-culture", "Nazca Culture", "CulturalAge", "south-america-precolumbian", 100, 800, "BCE-CE",
     "Southern Peruvian desert; Nazca Lines geoglyphs; polychrome pottery; underground aqueducts (puquios).")
 add("moche-civilization", "Moche Civilization", "CulturalAge", "south-america-precolumbian", 100, 700, "CE",
     "Northern Peruvian coast; Huaca del Sol and Huaca de la Luna; portrait vessels; Sipán royal tombs; advanced irrigation.")
@@ -1066,7 +1066,7 @@ add("maya-postclassic", "Postclassic Maya", "CulturalAge", "mesoamerica", 900, 1
     "After Classic collapse; Chichén Itzá, Mayapán, K'iche' kingdoms; Kukulkán/Quetzalcoatl cult; Spanish conquest of Yucatán.")
 add("toltec", "Toltec Empire", "CulturalAge", "mesoamerica", 900, 1168, "CE",
     "Tula as capital; warrior culture; Quetzalcoatl legend; influence on Aztec ideology; feathered serpent imagery.")
-add("aztec-empire", "Aztec Empire / Triple Alliance (Huēy Tlahtohcāyōtl)", "CulturalAge", "mesoamerica", 1428, 1521, "CE",
+add("aztec-empire", "Aztec Empire / Triple Alliance (Ēxcān Tlahtōlōyān)", "CulturalAge", "mesoamerica", 1428, 1521, "CE",
     "Tenochtitlán on Lake Texcoco (~200,000 people); Mexica Triple Alliance; human sacrifice; chinampas; conquered by Cortés 1521.")
 add("aztec-rise", "Rise of the Aztecs", "CulturalAge", "mesoamerica", 1325, 1428, "CE",
     "Founding of Tenochtitlán (1325); Mexica as mercenaries and vassals; Triple Alliance formed with Texcoco and Tlacopan (1428).")
@@ -1121,7 +1121,7 @@ add("dorset-culture", "Dorset Culture", "CulturalAge", "north-america-precolumbi
 add("plains-village", "Plains Village Period", "CulturalAge", "north-america-precolumbian", 1000, 1780, "CE",
     "Semi-sedentary farming communities on Great Plains; earth lodge villages; maize agriculture; Mandan, Hidatsa, Arikara, Pawnee, Wichita.")
 add("iroquois-confederacy", "Haudenosaunee (Iroquois) Confederacy", "CulturalAge", "north-america-precolumbian", 1450, 1776, "CE",
-    "Six Nations (Mohawk, Oneida, Onondaga, Cayuga, Seneca, Tuscarora); Great Law of Peace; longhouse society; influenced U.S. Constitution debates.")
+    "Originally Five Nations (Mohawk, Oneida, Onondaga, Cayuga, Seneca; Tuscarora joined 1722); Great Law of Peace; longhouse society; influenced U.S. Constitution debates.")
 add("taino", "Taíno Civilization", "CulturalAge", "north-america-precolumbian", 1200, 1550, "CE",
     "Caribbean (Hispaniola, Puerto Rico, Cuba, Jamaica); first indigenous people encountered by Columbus; cacique chiefs; ball courts; zemí worship; decimated by colonization.")
 add("kalinago", "Kalinago (Island Caribs)", "CulturalAge", "north-america-precolumbian", 1200, 1700, "CE",
@@ -1152,9 +1152,9 @@ add("french-indian-war", "French and Indian War", "CulturalAge", "north-america-
     "North American theater of Seven Years' War; British defeat France; Treaty of Paris (1763); France cedes Canada; sets stage for American Revolution.")
 
 # --- American Revolution & Early Republic ---
-add("american-revolution", "American Revolution", "CulturalAge", "modern-period", 1765, 1783, "CE",
+add("american-revolution", "American Revolution", "CulturalAge", "holocene", 1765, 1783, "CE",
     "Colonial resistance to British taxation; Declaration of Independence (1776); Revolutionary War; Treaty of Paris (1783); birth of the United States.")
-add("early-american-republic", "Early American Republic", "CulturalAge", "modern-period", 1783, 1815, "CE",
+add("early-american-republic", "Early American Republic", "CulturalAge", "holocene", 1783, 1815, "CE",
     "Constitution ratified (1788); Bill of Rights; Washington, Adams, Jefferson; Louisiana Purchase (1803); War of 1812; westward expansion begins.")
 add("jacksonian-era", "Jacksonian Era", "CulturalAge", "modern-period", 1828, 1850, "CE",
     "Andrew Jackson; expansion of white male suffrage; Indian Removal Act (1830); Trail of Tears; Manifest Destiny; Mexican-American War (1846-1848).")
@@ -1282,7 +1282,7 @@ add("kerma-culture", "Kingdom of Kerma", "CulturalAge", "nubia-kush", 2500, 1500
     "First major Nubian kingdom; capital at Kerma; monumental deffufas (mud-brick temples); wealthy burials; rival to Egyptian Middle Kingdom.")
 add("kingdom-kush", "Kingdom of Kush (Napatan)", "CulturalAge", "nubia-kush", 1070, 350, "BCE",
     "Napata capital; 25th Dynasty pharaohs rule Egypt (Piye, Taharqa ~700 BCE); expelled by Assyrians; continued as independent kingdom.")
-add("meroe", "Meroitic Period", "CulturalAge", "nubia-kush", 590, 350, "BCE-CE",
+add("meroe", "Meroitic Period", "CulturalAge", "nubia-kush", 270, 350, "BCE-CE",
     "Capital moves to Meroë; iron smelting center; Meroitic script (deciphered, but language only partially understood); over 200 pyramids; Kandake (queen) warriors; trade with Rome.")
 
 # --- Horn of Africa ---
@@ -1896,7 +1896,7 @@ add("torres-strait-islanders", "Torres Strait Islander Culture", "CulturalAge", 
     "Melanesian peoples of Torres Strait Islands; distinct from Aboriginal Australians; seafaring; horticulture; Tombstone Opening ceremonies; star lore navigation.")
 add("australian-colonial", "Colonial Australia", "CulturalAge", "oceania-history", 1788, 1901, "CE",
     "First Fleet (1788); penal colony; frontier wars; gold rushes (1850s); pastoralism; Stolen Generations begin; six colonies; White Australia policy roots.")
-add("australian-federation", "Federation and Modern Australia", "CulturalAge", "modern-period", 1901, 0, "CE",
+add("australian-federation", "Federation and Modern Australia", "CulturalAge", "oceania-history", 1901, 0, "CE",
     "Commonwealth of Australia (1901); Gallipoli (1915); White Australia policy (ended 1973); Mabo decision (1992); Sorry Day; multiculturalism.")
 
 # --- Melanesia ---
@@ -1954,7 +1954,7 @@ add("maori-classic", "Classic Māori Period", "CulturalAge", "aotearoa-history",
     "Elaborate pā fortifications; whakairo (carving); tā moko (tattoo); haka; complex tribal (iwi) society; inter-tribal warfare; greenstone (pounamu) trade.")
 add("new-zealand-colonial", "Colonial New Zealand", "CulturalAge", "aotearoa-history", 1769, 1907, "CE",
     "Cook arrives (1769); sealers, whalers; Musket Wars; Treaty of Waitangi (1840); New Zealand Wars (1845-72); gold rushes; Dominion status (1907).")
-add("new-zealand-modern", "Modern New Zealand", "CulturalAge", "modern-period", 1907, 0, "CE",
+add("new-zealand-modern", "Modern New Zealand", "CulturalAge", "aotearoa-history", 1907, 0, "CE",
     "Women's suffrage (1893, first nation); Gallipoli; welfare state; Māori Renaissance; nuclear-free (1987); Treaty settlements; multicultural Aotearoa.")
 
 # --- Colonial & Modern Pacific ---
