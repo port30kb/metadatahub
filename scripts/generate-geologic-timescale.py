@@ -499,7 +499,7 @@ add("maglemosian", "Maglemosian Culture (Maglemosekulturen)", "CulturalAge", "me
     "Early Mesolithic hunter-gatherer culture in southern Scandinavia and northern Germany; flint microliths, bone harpoons.")
 add("kongemose", "Kongemose Culture (Kongemosekulturen)", "CulturalAge", "mesolithic", 6000, 5200, "BCE",
     "Middle Mesolithic in Denmark and southern Sweden; coastal adaptation, fishing, seal hunting.")
-add("nostvet-lihult", "Nøstvet and Lihult Cultures (Nøstvetkulturen / Lihultkulturen)", "CulturalAge", "mesolithic", 6000, 4000, "BCE",
+add("nostvet-lihult", "Nøstvet and Lihult Cultures (Nøstvetkulturen / Lihultkulturen)", "CulturalAge", "mesolithic", 6000, 3200, "BCE",
     "Middle-Late Mesolithic in most of southern Norway and Sweden; descendants of Fosna-Hensbacka; polished stone axes.")
 add("ertebolleculture", "Ertebølle Culture (Ertebøllekulturen)", "CulturalAge", "mesolithic", 5400, 3950, "BCE",
     "Late Mesolithic in southern Scandinavia; first pottery, large shell middens, transition to agriculture.")
@@ -507,7 +507,7 @@ add("neolithic", "Neolithic / New Stone Age (Neolitikum / Yngre stenåldern / Ju
     "Agriculture, polished stone tools, pottery, permanent settlements. Funnelbeaker culture in Scandinavia (~4000–2700 BCE).")
 add("funnelbeaker", "Funnelbeaker Culture (TRB)", "CulturalAge", "neolithic", 4000, 2700, "BCE",
     "First farming culture in Scandinavia; megalithic tombs (dolmens, passage graves); pottery with funnel-shaped rims.")
-add("pitted-ware", "Pitted Ware Culture (Gropkeramisk kultur)", "CulturalAge", "neolithic", 3200, 2300, "BCE",
+add("pitted-ware", "Pitted Ware Culture (Gropkeramisk kultur)", "CulturalAge", "neolithic", 3400, 2300, "BCE",
     "Concurrent hunter-gatherer-fisher culture in eastern Sweden, Gotland, and Finland; seal hunting, characteristic pitted pottery.")
 add("battle-axe", "Battle Axe Culture (Boat Axe Culture)", "CulturalAge", "neolithic", 2800, 2300, "BCE",
     "Scandinavian variant of Corded Ware culture; single graves, polished stone battle axes, early Indo-European influences.")
@@ -611,7 +611,7 @@ add("thirty-years-war", "Thirty Years' War Period (Trettioåriga kriget)", "Cult
     "Sweden enters as Protestant champion under Gustav II Adolf; Battle of Breitenfeld (1631); Peace of Westphalia (1648).")
 add("caroline-era", "Caroline Era (Karolinska tiden)", "CulturalAge", "swedish-empire", 1654, 1718, "CE",
     "Absolute monarchy under Charles X, XI, XII; reduktion land reforms; Great Northern War ends Swedish empire.")
-add("age-of-liberty", "Age of Liberty (Frihetstiden)", "CulturalAge", "early-modern", 1718, 1772, "CE",
+add("age-of-liberty", "Age of Liberty (Frihetstiden)", "CulturalAge", "early-modern", 1719, 1772, "CE",
     "Parliamentary rule after Charles XII; Hat and Cap party factions; Enlightenment science (Linnaeus, Celsius).")
 add("gustavian-era", "Gustavian Era (Gustavianska tiden)", "CulturalAge", "early-modern", 1772, 1809, "CE",
     "Gustav III's coup restores royal power; patron of arts; Royal Opera and Royal Dramatic Theatre founded; assassinated 1792.")

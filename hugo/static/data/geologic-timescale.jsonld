@@ -3770,7 +3770,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/mesolithic"
       },
       "time:hasBeginning": "6000 BCE",
-      "time:hasEnd": "4000 BCE",
+      "time:hasEnd": "3200 BCE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -3845,7 +3845,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/neolithic"
       },
-      "time:hasBeginning": "3200 BCE",
+      "time:hasBeginning": "3400 BCE",
       "time:hasEnd": "2300 BCE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -4700,7 +4700,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-modern"
       },
-      "time:hasBeginning": "1718 CE",
+      "time:hasBeginning": "1719 CE",
       "time:hasEnd": "1772 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },

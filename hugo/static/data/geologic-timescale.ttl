@@ -2217,7 +2217,7 @@ ts:nostvet-lihult a gts:GeochronologicAge ;
     gts:rank "CulturalAge" ;
     skos:broader ts:mesolithic ;
     time:hasBeginning [ rdfs:label "6000 BCE" ] ;
-    time:hasEnd [ rdfs:label "4000 BCE" ] ;
+    time:hasEnd [ rdfs:label "3200 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 199/852: Ertebølle Culture (Ertebøllekulturen) (CulturalAge) ──
@@ -2260,7 +2260,7 @@ ts:pitted-ware a gts:GeochronologicAge ;
     skos:definition "Concurrent hunter-gatherer-fisher culture in eastern Sweden, Gotland, and Finland; seal hunting, characteristic pitted pottery."@en ;
     gts:rank "CulturalAge" ;
     skos:broader ts:neolithic ;
-    time:hasBeginning [ rdfs:label "3200 BCE" ] ;
+    time:hasBeginning [ rdfs:label "3400 BCE" ] ;
     time:hasEnd [ rdfs:label "2300 BCE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
@@ -2755,7 +2755,7 @@ ts:age-of-liberty a gts:GeochronologicAge ;
     skos:definition "Parliamentary rule after Charles XII; Hat and Cap party factions; Enlightenment science (Linnaeus, Celsius)."@en ;
     gts:rank "CulturalAge" ;
     skos:broader ts:early-modern ;
-    time:hasBeginning [ rdfs:label "1718 CE" ] ;
+    time:hasBeginning [ rdfs:label "1719 CE" ] ;
     time:hasEnd [ rdfs:label "1772 CE" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
