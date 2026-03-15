@@ -1,0 +1,81 @@
+# Eons — the largest divisions of geologic time
+
+- id: hadean
+  rank: Eon
+  start: 4567
+  end: 4031
+  unit: Ma
+  labels:
+    en: Hadean
+    sv: Hadeikum
+    grc: Ἅιδης
+  description: "Earliest eon; Earth forms from accretion, heavy bombardment, formation of the Moon."
+
+- id: chaotian
+  rank: Era
+  parent: hadean
+  start: 4567
+  end: 4404
+  unit: Ma
+  labels:
+    en: Chaotian (informal)
+    sv: Chaotium (informell)
+    grc: Χάος
+  description: "Accretion and differentiation of Earth; Moon-forming giant impact (Theia hypothesis, ~4510 Ma); surface entirely molten magma ocean."
+
+- id: zirconian
+  rank: Era
+  parent: hadean
+  start: 4404
+  end: 4031
+  unit: Ma
+  labels:
+    en: Zirconian (informal)
+    sv: Zirkonien (informell)
+    fa: زرگون
+    grc: ζίρκων
+  description: "Oldest known mineral grains (Jack Hills zircons, ~4.4 Ga); first solid crust forms; Late Heavy Bombardment."
+
+- id: late-heavy-bombardment
+  rank: Age
+  parent: hadean
+  start: 4100
+  end: 3800
+  unit: Ma
+  labels:
+    en: Late Heavy Bombardment (LHB)
+    sv: Sena tunga bombardemanget
+  description: "Proposed period of intense asteroid and comet impacts on inner Solar System; evidence from lunar craters and Apollo samples; shaped early Earth crust; timing and intensity debated (Nice model)."
+
+- id: archean
+  rank: Eon
+  start: 4031
+  end: 2500
+  unit: Ma
+  labels:
+    en: Archean
+    sv: Arkeikum
+    grc: Ἀρχαῖος
+  description: "First stable continents form; earliest evidence of life (stromatolites)."
+
+- id: proterozoic
+  rank: Eon
+  start: 2500
+  end: 538.8
+  unit: Ma
+  labels:
+    en: Proterozoic
+    sv: Proterozoikum
+    grc: Πρότερος ζωή
+  description: "Oxygen accumulates in atmosphere; first eukaryotes and multicellular life."
+
+- id: phanerozoic
+  rank: Eon
+  start: 538.8
+  end: 0
+  unit: Ma
+  labels:
+    en: Phanerozoic
+    sv: Fanerozoikum
+    grc: Φανερός ζωή
+  description: "Eon of visible life; all complex animal phyla appear and diversify."

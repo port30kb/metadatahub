@@ -1,0 +1,49 @@
+# Archean Eras
+
+- id: eoarchean
+  rank: Era
+  parent: archean
+  start: 4031
+  end: 3600
+  unit: Ma
+  labels:
+    en: Eoarchean
+    sv: Eoarkeikum
+    grc: Ἠώς ἀρχαῖος
+  description: "Oldest known rocks; possible earliest life."
+
+- id: paleoarchean
+  rank: Era
+  parent: archean
+  start: 3600
+  end: 3200
+  unit: Ma
+  labels:
+    en: Paleoarchean
+    sv: Paleoarkeikum
+    grc: Παλαιός ἀρχαῖος
+  description: "Earliest confirmed microbial life; oldest stromatolites."
+
+- id: mesoarchean
+  rank: Era
+  parent: archean
+  start: 3200
+  end: 2800
+  unit: Ma
+  labels:
+    en: Mesoarchean
+    sv: Mesoarkeikum
+    grc: Μέσος ἀρχαῖος
+  description: "First large-scale stromatolite reefs; earliest photosynthesis evidence."
+
+- id: neoarchean
+  rank: Era
+  parent: archean
+  start: 2800
+  end: 2500
+  unit: Ma
+  labels:
+    en: Neoarchean
+    sv: Neoarkeikum
+    grc: Νέος ἀρχαῖος
+  description: "Oxygen-producing cyanobacteria proliferate; banded iron formations peak."

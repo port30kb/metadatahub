@@ -1,0 +1,193 @@
+# Proterozoic Eras & Periods
+
+- id: paleoproterozoic
+  rank: Era
+  parent: proterozoic
+  start: 2500
+  end: 1600
+  unit: Ma
+  labels:
+    en: Paleoproterozoic
+    sv: Paleoproterozoikum
+    grc: Παλαιός πρότερος
+  description: "Great Oxidation Event; first supercontinent (Nuna/Columbia)."
+
+- id: siderian
+  rank: Period
+  parent: paleoproterozoic
+  start: 2500
+  end: 2300
+  unit: Ma
+  labels:
+    en: Siderian
+    sv: Siderium
+    grc: σίδηρος
+  description: "Banded iron formations dominate; oxygen levels still rising."
+
+- id: rhyacian
+  rank: Period
+  parent: paleoproterozoic
+  start: 2300
+  end: 2050
+  unit: Ma
+  labels:
+    en: Rhyacian
+    sv: Rhyacium
+    grc: ῥύαξ
+  description: "Huronian glaciation; first global ice age."
+
+- id: orosirian
+  rank: Period
+  parent: paleoproterozoic
+  start: 2050
+  end: 1800
+  unit: Ma
+  labels:
+    en: Orosirian
+    sv: Orosirium
+    grc: ὀροσειρά
+  description: "Major mountain-building events; Vredefort and Sudbury impacts."
+
+- id: statherian
+  rank: Period
+  parent: paleoproterozoic
+  start: 1800
+  end: 1600
+  unit: Ma
+  labels:
+    en: Statherian
+    sv: Statherium
+    grc: σταθερός
+  description: "First complex single-celled organisms with nuclei."
+
+- id: mesoproterozoic
+  rank: Era
+  parent: proterozoic
+  start: 1600
+  end: 1000
+  unit: Ma
+  labels:
+    en: Mesoproterozoic
+    sv: Mesoproterozoikum
+    grc: Μέσος πρότερος
+  description: "Supercontinent Rodinia assembles; first sexual reproduction evidence."
+
+- id: calymmian
+  rank: Period
+  parent: mesoproterozoic
+  start: 1600
+  end: 1400
+  unit: Ma
+  labels:
+    en: Calymmian
+    sv: Calymmium
+    grc: κάλυμμα
+  description: "Platform covers expand; stable continental interiors."
+
+- id: ectasian
+  rank: Period
+  parent: mesoproterozoic
+  start: 1400
+  end: 1200
+  unit: Ma
+  labels:
+    en: Ectasian
+    sv: Ectasium
+    grc: ἔκτασις
+  description: "Continued platform expansion; green algae diversify."
+
+- id: stenian
+  rank: Period
+  parent: mesoproterozoic
+  start: 1200
+  end: 1000
+  unit: Ma
+  labels:
+    en: Stenian
+    sv: Stenium
+    grc: στενός
+  description: "Grenville orogeny; supercontinent Rodinia forms."
+
+- id: neoproterozoic
+  rank: Era
+  parent: proterozoic
+  start: 1000
+  end: 538.8
+  unit: Ma
+  labels:
+    en: Neoproterozoic
+    sv: Neoproterozoikum
+    grc: Νέος πρότερος
+  description: "Snowball Earth glaciations; first animals appear (Ediacaran biota)."
+
+- id: tonian
+  rank: Period
+  parent: neoproterozoic
+  start: 1000
+  end: 720
+  unit: Ma
+  labels:
+    en: Tonian
+    sv: Tonium
+    grc: τόνος
+  description: "Rodinia begins to break apart; first multicellular organisms."
+
+- id: cryogenian
+  rank: Period
+  parent: neoproterozoic
+  start: 720
+  end: 635
+  unit: Ma
+  labels:
+    en: Cryogenian
+    sv: Kryogenium
+    grc: κρύος γένεσις
+  description: "Snowball Earth glaciations: Sturtian and Marinoan; life survives in refugia."
+
+- id: sturtian
+  rank: Age
+  parent: cryogenian
+  start: 717
+  end: 660
+  unit: Ma
+  labels:
+    en: Sturtian Glaciation
+    sv: Sturtianglaciationen
+  description: "First and longer Snowball Earth event; global ice cover for ~57 million years. Named for Sturt River, South Australia."
+
+- id: marinoan
+  rank: Age
+  parent: cryogenian
+  start: 639
+  end: 635
+  unit: Ma
+  labels:
+    en: Marinoan Glaciation
+    sv: Marinoanglaciationen
+  description: "Second Snowball Earth; onset ~639 Ma per U-Pb geochronology; cap carbonates deposited after deglaciation. Named for Marino, South Australia."
+
+- id: ediacaran
+  rank: Period
+  parent: neoproterozoic
+  start: 635
+  end: 538.8
+  unit: Ma
+  labels:
+    en: Ediacaran
+    sv: Ediacarium
+    adt: Idiyakra
+    ru: Эдиакарий
+    zh: 埃迪卡拉纪
+  description: "Ediacaran biota: first large complex organisms; soft-bodied fauna. Named for Ediacara Creek, Flinders Ranges, South Australia, on traditional Adnyamathanha lands; historically known as Vendian (Вендский) in Russian and Sinian (震旦系) in Chinese stratigraphy; 2023 Nilpena Ediacara National Park formalizes Adnyamathanha custodianship."
+
+- id: gaskiers
+  rank: Age
+  parent: ediacaran
+  start: 580.9
+  end: 579.6
+  unit: Ma
+  labels:
+    en: Gaskiers Glaciation
+    sv: Gaskiersglaciationen
+    fr: Glaciation de Gaskiers
+  description: "Last major Neoproterozoic glaciation; short-lived (~1.3 Myr); followed by deep ocean oxygenation enabling rise of Ediacaran fauna."

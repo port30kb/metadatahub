@@ -1,0 +1,2364 @@
+# Asian Historical & Cultural Periods
+
+- id: south-asia-history
+  rank: CulturalAge
+  parent: holocene
+  start: 7000
+  end: 0
+  unit: BCE-CE
+  labels:
+    en: South Asian Historical Periods
+    sv: Sydasiatiska historiska perioder
+    hi: दक्षिण एशिया के ऐतिहासिक काल
+  description: "From Mehrgarh Neolithic through Indus Valley, Vedic, Mauryan, Mughal to modern India, Pakistan, Bangladesh, Sri Lanka."
+
+- id: mehrgarh
+  rank: CulturalAge
+  parent: south-asia-history
+  start: 7000
+  end: 2500
+  unit: BCE
+  labels:
+    en: Mehrgarh
+    sv: Mehrgarh
+    ar: مہرگڑھ Mehrgaṛh
+  description: "Neolithic site in Balochistan; one of earliest farming settlements in South Asia; precursor to Indus Valley; dentistry evidence ~7000 BCE."
+
+- id: indus-valley
+  rank: CulturalAge
+  parent: south-asia-history
+  start: 3300
+  end: 1300
+  unit: BCE
+  labels:
+    en: Indus Valley Civilization
+    sv: Induskulturen
+    hi: सिन्धु घाटी सभ्यता
+  description: "Harappa, Mohenjo-daro; urban planning, drainage systems; undeciphered script; ~5 million people; one of three earliest civilizations."
+
+- id: indus-early
+  rank: CulturalAge
+  parent: indus-valley
+  start: 3300
+  end: 2600
+  unit: BCE
+  labels:
+    en: Early Harappan Phase
+    sv: Tidig Harappafas
+    ar: ابتدائی ہڑپہ دور
+    hi: प्रारंभिक हड़प्पा काल
+  description: "Pre-urban phase; small farming communities; Ravi and Kot Diji cultures; early pottery and copper tools; transition to urban phase c. 2600 BCE; sites include Rehman Dheri and Amri."
+
+- id: indus-mature
+  rank: CulturalAge
+  parent: indus-valley
+  start: 2600
+  end: 1900
+  unit: BCE
+  labels:
+    en: Mature Harappan Phase
+    sv: Mogen Harappafas
+    ar: پختہ ہڑپہ دور
+    hi: परिपक्व हड़प्पा काल
+  description: "Peak of Indus civilization; standardized weights and measures; Great Bath of Mohenjo-daro; trade with Mesopotamia; citadel-lower town layout."
+
+- id: indus-late
+  rank: CulturalAge
+  parent: indus-valley
+  start: 1900
+  end: 1300
+  unit: BCE
+  labels:
+    en: Late Harappan Phase
+    sv: Sen Harappafas
+    ar: آخری ہڑپہ دور
+    hi: उत्तर हड़प्पा काल
+  description: "Post-urban decline; abandonment of major cities; Cemetery H and Gandhara Grave cultures; localization of material culture; climate change and monsoon shifts implicated in collapse; possible continuity into early Vedic culture."
+
+- id: vedic-period
+  rank: CulturalAge
+  parent: south-asia-history
+  start: 1500
+  end: 500
+  unit: BCE
+  labels:
+    en: Vedic Period
+    sv: Vedisk period
+    hi: वैदिक काल
+  description: "Composition of the Vedas (Rigveda ~1500 BCE); Sanskrit; varna system; Aryan migration debate; transition from pastoral to settled agriculture."
+
+- id: vedic-early
+  rank: CulturalAge
+  parent: vedic-period
+  start: 1500
+  end: 1000
+  unit: BCE
+  labels:
+    en: Early Vedic Period
+    sv: Vedisk period
+    hi: पूर्व वैदिक काल Pūrva Vaidika Kāl
+  description: "Rigveda composition; pastoral-nomadic society; Indra worship; tribal kingdoms (janapadas); Punjab region focus."
+
+- id: vedic-late
+  rank: CulturalAge
+  parent: vedic-period
+  start: 1000
+  end: 500
+  unit: BCE
+  labels:
+    en: Late Vedic Period
+    sv: Vedisk period
+    hi: उत्तर वैदिक काल Uttara Vaidika Kāl
+  description: "Expansion to Ganges plain; Painted Grey Ware; Upanishads; emergence of Buddhism and Jainism; Mahajanapadas (16 great kingdoms)."
+
+- id: maurya-empire
+  rank: CulturalAge
+  parent: south-asia-history
+  start: 322
+  end: 185
+  unit: BCE
+  labels:
+    en: Maurya Empire
+    sv: Mauryariket
+    hi: मौर्य साम्राज्य
+  description: "First pan-Indian empire; Chandragupta Maurya; Ashoka the Great (~268-232 BCE); edicts of non-violence; Arthashastra; Pataliputra capital."
+
+- id: ashoka
+  rank: CulturalAge
+  parent: maurya-empire
+  start: 268
+  end: 232
+  unit: BCE
+  labels:
+    en: Reign of Ashoka
+    sv: Ashokas regeringstid
+    hi: अशोक का शासनकाल
+  description: "Greatest Mauryan emperor; Kalinga War conversion to Buddhism; rock and pillar edicts; Lion Capital (Indian national emblem); spread of Dharma."
+
+- id: gandhara
+  rank: CulturalAge
+  parent: south-asia-history
+  start: 600
+  end: 1021
+  unit: BCE-CE
+  labels:
+    en: Gandhara Civilization
+    sv: Gandharacivilisationen
+    ar: گندھارا
+    hi: गन्धार Gandhāra
+  description: "Northwest Pakistan/eastern Afghanistan; Greco-Buddhist art synthesis; Taxila university; Alexander's campaigns; Kushan patronage; Hindu Shahi; fell to Ghaznavids."
+
+- id: kushan-empire
+  rank: CulturalAge
+  parent: south-asia-history
+  start: 30
+  end: 375
+  unit: CE
+  labels:
+    en: Kushan Empire
+    sv: Kushanriket
+    hi: कुषाण साम्राज्य Kuṣāṇa
+  description: "Central Asian origin; Kanishka I; Gandhara Buddhist art (Greco-Buddhist); Silk Road trade; Mathura and Peshawar; spread Buddhism to China."
+
+- id: gupta-empire
+  rank: CulturalAge
+  parent: south-asia-history
+  start: 320
+  end: 550
+  unit: CE
+  labels:
+    en: Gupta Empire
+    sv: Guptariket
+    hi: गुप्त साम्राज्य
+  description: "Golden Age of India; Chandragupta I, Samudragupta, Chandragupta II; Aryabhata (mathematics/astronomy); Kalidasa; Nalanda University; decimal system."
+
+- id: satavahana
+  rank: CulturalAge
+  parent: south-asia-history
+  start: 100
+  end: 220
+  unit: BCE-CE
+  labels:
+    en: Satavahana Dynasty
+    sv: Satavahanadynastin
+    hi: शातवाहन
+  description: "Major Deccan power; bridge between Maurya and Gupta; Amaravati stupa; Prakrit patronage; controlled trade routes between north and south India."
+
+- id: pallava-dynasty
+  rank: CulturalAge
+  parent: south-asia-history
+  start: 275
+  end: 897
+  unit: CE
+  labels:
+    en: Pallava Dynasty
+    sv: Pallavadynastin
+  description: "South Indian dynasty; Shore Temple and Pancha Rathas at Mamallapuram (UNESCO); Pallava script influenced Southeast Asian scripts; Dravidian architecture."
+
+- id: chalukya-dynasty
+  rank: CulturalAge
+  parent: south-asia-history
+  start: 543
+  end: 1190
+  unit: CE
+  labels:
+    en: Chalukya Dynasty
+    sv: Chalukyadynastin
+  description: "Major Deccan empire; Badami, Western and Eastern Chalukyas; Pattadakal temples (UNESCO); rival to Pallavas and Cholas; Kannada literary tradition."
+
+- id: chola-dynasty
+  rank: CulturalAge
+  parent: south-asia-history
+  start: 300
+  end: 1279
+  unit: BCE-CE
+  labels:
+    en: Chola Dynasty
+    sv: Choladynastin
+  description: "Tamil Nadu; one of longest-ruling dynasties; Rajaraja I, Rajendra I; naval power; Brihadeeswarar Temple; influence across Southeast Asia."
+
+- id: pala-empire
+  rank: CulturalAge
+  parent: south-asia-history
+  start: 750
+  end: 1174
+  unit: CE
+  labels:
+    en: Pala Empire
+    sv: Palariket
+  description: "Eastern India (Bengal-Bihar); last major Buddhist empire in India; Nalanda and Vikramashila universities; Pala school of art; tantric Buddhism."
+
+- id: delhi-sultanate
+  rank: CulturalAge
+  parent: south-asia-history
+  start: 1206
+  end: 1526
+  unit: CE
+  labels:
+    en: Delhi Sultanate
+    sv: Delhisultanatet
+    ar: دلی سلطنت
+    hi: दिल्ली सल्तनत
+  description: "Five successive Islamic dynasties ruling from Delhi; Qutub Minar; repelled Mongol invasions; Slave, Khalji, Tughlaq, Sayyid, Lodi dynasties."
+
+- id: vijayanagara
+  rank: CulturalAge
+  parent: south-asia-history
+  start: 1336
+  end: 1646
+  unit: CE
+  labels:
+    en: Vijayanagara Empire
+    sv: Vijayanagarariket
+  description: "Hindu empire of southern India; Hampi capital (UNESCO); resisted Bahmani/Deccan sultanates; patronized Telugu, Kannada, Tamil literature."
+
+- id: mughal-empire
+  rank: CulturalAge
+  parent: south-asia-history
+  start: 1526
+  end: 1857
+  unit: CE
+  labels:
+    en: Mughal Empire
+    sv: Mogulriket
+    ar: مغلیہ سلطنت
+    hi: मुग़ल सल्तनत
+  description: "Babur, Akbar, Shah Jahan, Aurangzeb; Taj Mahal; religious tolerance (Akbar's Din-i Ilahi); zenith of Indo-Islamic architecture; ~25% of world GDP."
+
+- id: mughal-golden-age
+  rank: CulturalAge
+  parent: mughal-empire
+  start: 1556
+  end: 1707
+  unit: CE
+  labels:
+    en: Mughal Golden Age
+    sv: Mogulrikets guldålder
+    ar: مغلیہ سلطنت کا عروج
+  description: "Akbar through Aurangzeb; Taj Mahal (1632-53); Red Fort; miniature painting; administrative reforms; territorial peak under Aurangzeb."
+
+- id: maratha-empire
+  rank: CulturalAge
+  parent: south-asia-history
+  start: 1674
+  end: 1818
+  unit: CE
+  labels:
+    en: Maratha Empire
+    sv: Marathariket
+    hi: मराठा साम्राज्य
+  description: "Shivaji Maharaj; Hindu Padshahi; challenged Mughal decline; Peshwa era; confederacy; Battle of Panipat (1761); eventually fell to British."
+
+- id: sikh-empire
+  rank: CulturalAge
+  parent: south-asia-history
+  start: 1799
+  end: 1849
+  unit: CE
+  labels:
+    en: Sikh Empire
+    sv: Sikhriket
+  description: "Maharaja Ranjit Singh; Punjab-based empire; secular governance; Khalsa army; Kohinoor diamond; Anglo-Sikh Wars; annexed by British East India Company."
+
+- id: british-raj
+  rank: CulturalAge
+  parent: south-asia-history
+  start: 1858
+  end: 1947
+  unit: CE
+  labels:
+    en: British Raj
+    sv: Brittiska Indien
+    hi: ब्रिटिश राज
+  description: "Direct British Crown rule; railways; English education; Bengal famine (1943); Indian National Congress; Muslim League; independence movement."
+
+- id: indian-independence
+  rank: CulturalAge
+  parent: british-raj
+  start: 1885
+  end: 1947
+  unit: CE
+  labels:
+    en: Indian Independence Movement
+    sv: Indiska självständighetsrörelsen
+    hi: भारतीय स्वतंत्रता आन्दोलन
+  description: "INC founded (1885); Swadeshi; Gandhi's satyagraha; Salt March (1930); Quit India (1942); Partition; independence August 15, 1947."
+
+- id: south-asia-modern
+  rank: CulturalAge
+  parent: contemporary
+  start: 1947
+  end: 0
+  unit: CE
+  labels:
+    en: Modern South Asia
+    sv: Moderna Sydasien
+    hi: आधुनिक दक्षिण एशिया
+  description: "Partition of India and Pakistan; Bangladesh liberation (1971); Sri Lankan civil war; nuclear powers; IT revolution; world's largest democracy."
+
+- id: anuradhapura-kingdom
+  rank: CulturalAge
+  parent: south-asia-history
+  start: 377
+  end: 1017
+  unit: BCE-CE
+  labels:
+    en: Anuradhapura Kingdom
+    sv: Kungariket Anuradhapura
+  description: "First major Sinhalese kingdom; 1,400-year rule; center of Theravada Buddhism; massive irrigation works (tanks); UNESCO World Heritage site."
+
+- id: polonnaruwa-kingdom
+  rank: CulturalAge
+  parent: south-asia-history
+  start: 1055
+  end: 1212
+  unit: CE
+  labels:
+    en: Polonnaruwa Kingdom
+    sv: Kungariket Polonnaruwa
+  description: "Second Sinhalese capital after Chola expulsion; Parakramabahu the Great; superior irrigation systems; Gal Vihara Buddha statues; UNESCO site."
+
+- id: kingdom-of-kandy
+  rank: CulturalAge
+  parent: south-asia-history
+  start: 1469
+  end: 1815
+  unit: CE
+  labels:
+    en: Kingdom of Kandy
+    sv: Kungariket Kandy
+  description: "Last independent Sinhalese monarchy; resisted Portuguese and Dutch for centuries; Temple of the Tooth Relic (Sri Dalada Maligawa); fell to British 1815."
+
+- id: licchavi-nepal
+  rank: CulturalAge
+  parent: south-asia-history
+  start: 400
+  end: 750
+  unit: CE
+  labels:
+    en: Licchavi Kingdom of Nepal
+    sv: "Licchavi-riket i Nepal"
+    hi: लिच्छवि राजवंश
+  description: "Golden Period of Nepal; earliest inscriptions (Manadeva, 464 CE); connected Kathmandu Valley to Indian subcontinent trade and culture."
+
+- id: malla-nepal
+  rank: CulturalAge
+  parent: south-asia-history
+  start: 1200
+  end: 1768
+  unit: CE
+  labels:
+    en: Malla Kingdoms of Nepal
+    sv: "Malla-rikena i Nepal"
+    hi: मल्ल राजवंश
+  description: "600-year rule; split into Kathmandu, Bhaktapur, Lalitpur after 1482; Newar civilization flourished; extraordinary pagoda temple architecture."
+
+- id: sena-dynasty
+  rank: CulturalAge
+  parent: south-asia-history
+  start: 1097
+  end: 1225
+  unit: CE
+  labels:
+    en: Sena Dynasty
+    sv: Senadynastin
+  description: "Unified all of Bengal; Hindu revival after Buddhist Pala rule; Jayadeva's Gita Govinda; established Bengali caste system."
+
+- id: bengal-sultanate
+  rank: CulturalAge
+  parent: south-asia-history
+  start: 1342
+  end: 1538
+  unit: CE
+  labels:
+    en: Bengal Sultanate
+    sv: Bengalsultanatet
+  description: "Independent Islamic state; 'richest country to trade with'; first Bengali court language recognition; distinctive Bengali-Islamic architecture."
+
+- id: china-history
+  rank: CulturalAge
+  parent: holocene
+  start: 7000
+  end: 0
+  unit: BCE-CE
+  labels:
+    en: Chinese Historical Periods
+    sv: Kinesiska historiska perioder
+    zh: 中国历史时期 Zhōngguó lìshǐ shíqī
+  description: "From Neolithic cultures through dynastic cycle to modern People's Republic; continuous civilization spanning 5,000+ years."
+
+- id: chinese-neolithic
+  rank: CulturalAge
+  parent: china-history
+  start: 7000
+  end: 2070
+  unit: BCE
+  labels:
+    en: Chinese Neolithic Cultures
+    sv: Kinesiska neolitiska kulturer
+    zh: 中国新石器时代文化 Zhōngguó xīn shíqì shídài wénhuà
+  description: "Yangshao (painted pottery), Longshan (black pottery), Liangzhu (jade); rice and millet cultivation; proto-cities; foundations of Chinese civilization."
+
+- id: xia-dynasty
+  rank: CulturalAge
+  parent: china-history
+  start: 2070
+  end: 1600
+  unit: BCE
+  labels:
+    en: Xia Dynasty
+    sv: Xiadynastin
+    zh: 夏朝 Xià Cháo
+  description: "First Chinese dynasty (semi-legendary); Yu the Great; flood control; Erlitou culture; bronze vessels; transition from Neolithic to Bronze Age."
+
+- id: shang-dynasty
+  rank: CulturalAge
+  parent: china-history
+  start: 1600
+  end: 1046
+  unit: BCE
+  labels:
+    en: Shang Dynasty
+    sv: Shangdynastin
+    zh: 商朝 Shāng Cháo
+  description: "First historically verified dynasty; oracle bone inscriptions (earliest Chinese writing); bronze ritual vessels; Anyang capital; ancestor worship."
+
+- id: zhou-dynasty
+  rank: CulturalAge
+  parent: china-history
+  start: 1046
+  end: 256
+  unit: BCE
+  labels:
+    en: Zhou Dynasty
+    sv: Zhoudynastin
+    zh: 周朝 Zhōu Cháo
+  description: "Longest Chinese dynasty; Mandate of Heaven concept; feudal system; divided into Western Zhou and Eastern Zhou (Spring and Autumn, Warring States)."
+
+- id: spring-autumn
+  rank: CulturalAge
+  parent: zhou-dynasty
+  start: 771
+  end: 476
+  unit: BCE
+  labels:
+    en: Spring and Autumn Period
+    sv: "Vår- och höstperioden"
+    zh: 春秋時代 Chūnqiū
+  description: "Confucius (551-479), Laozi (Daoism), Sun Tzu; Hundred Schools of Thought begins; hegemonic states; iron technology spreads."
+
+- id: warring-states
+  rank: CulturalAge
+  parent: zhou-dynasty
+  start: 475
+  end: 221
+  unit: BCE
+  labels:
+    en: Warring States Period
+    sv: De stridande staternas period
+    zh: 戰國時代 Zhànguó
+  description: "Seven major states; Mencius, Zhuangzi, Legalism (Han Feizi); crossbow, cavalry; mass armies; ends with Qin unification."
+
+- id: qin-dynasty
+  rank: CulturalAge
+  parent: china-history
+  start: 221
+  end: 206
+  unit: BCE
+  labels:
+    en: Qin Dynasty
+    sv: Qindynastin
+    zh: 秦朝 Qín Cháo
+  description: "First unified Chinese empire; Qin Shi Huang; Great Wall begun; Terracotta Army; standardized weights, measures, writing; Legalist rule; burned books."
+
+- id: han-dynasty
+  rank: CulturalAge
+  parent: china-history
+  start: 206
+  end: 220
+  unit: BCE-CE
+  labels:
+    en: Han Dynasty
+    sv: Handynastin
+    zh: 漢朝 Hàn Cháo
+  description: "Golden age; Confucianism as state ideology; Silk Road opens (Zhang Qian); paper invented; civil service exams; ~60 million people; 'Han Chinese' identity."
+
+- id: han-western
+  rank: CulturalAge
+  parent: han-dynasty
+  start: 206
+  end: 9
+  unit: BCE
+  labels:
+    en: Western Han
+    sv: Västra Han
+    zh: 西漢 Xī Hàn
+  description: "Emperor Wu expands empire; Silk Road trade; Sima Qian's Records of the Grand Historian; Confucian academy; Chang'an capital."
+
+- id: han-eastern
+  rank: CulturalAge
+  parent: han-dynasty
+  start: 25
+  end: 220
+  unit: CE
+  labels:
+    en: Eastern Han
+    sv: Östra Han
+    zh: 東漢 Dōng Hàn
+  description: "Restored Han; Luoyang capital; Buddhism arrives; invention of paper (Cai Lun, 105 CE); seismograph (Zhang Heng); Yellow Turban Rebellion."
+
+- id: three-kingdoms
+  rank: CulturalAge
+  parent: china-history
+  start: 220
+  end: 280
+  unit: CE
+  labels:
+    en: Three Kingdoms Period
+    sv: De tre rikenas tid
+    zh: 三國時代 Sānguó
+  description: "Wei, Shu, Wu; Cao Cao, Liu Bei, Sun Quan, Zhuge Liang; Romance of the Three Kingdoms; one of most romanticized eras in Chinese culture."
+
+- id: six-dynasties
+  rank: CulturalAge
+  parent: china-history
+  start: 220
+  end: 589
+  unit: CE
+  labels:
+    en: Six Dynasties / Northern and Southern Dynasties
+    sv: "Sex dynastierna / Nord- och Syddynastierna"
+    zh: 六朝/南北朝
+  description: "300-year era of division; Jin, Sixteen Kingdoms, Northern and Southern Dynasties; Buddhism takes root; Wang Xizhi calligraphy; ethnic integration of steppe peoples."
+
+- id: sixteen-kingdoms
+  rank: CulturalAge
+  parent: six-dynasties
+  start: 304
+  end: 439
+  unit: CE
+  labels:
+    en: Sixteen Kingdoms
+    sv: Sexton kungadömena
+    zh: 十六國/五胡十六國
+  description: "Non-Han peoples (Xiongnu, Xianbei, Di, Qiang, Jie) establish kingdoms across northern China; reshapes Chinese demographics and culture."
+
+- id: sui-dynasty
+  rank: CulturalAge
+  parent: china-history
+  start: 581
+  end: 618
+  unit: CE
+  labels:
+    en: Sui Dynasty
+    sv: Suidynastin
+    zh: 隋朝 Suí Cháo
+  description: "Reunification after centuries of division; Grand Canal construction; Great Wall rebuilt; civil service exams restored; overextension leads to collapse."
+
+- id: tang-dynasty
+  rank: CulturalAge
+  parent: china-history
+  start: 618
+  end: 907
+  unit: CE
+  labels:
+    en: Tang Dynasty
+    sv: Tangdynastin
+    zh: 唐朝 Táng Cháo
+  description: "Golden age of Chinese civilization; Chang'an largest city in world; Li Bai, Du Fu (poetry); Wu Zetian (only female emperor); cosmopolitan culture; Silk Road peak."
+
+- id: five-dynasties
+  rank: CulturalAge
+  parent: china-history
+  start: 907
+  end: 960
+  unit: CE
+  labels:
+    en: Five Dynasties and Ten Kingdoms
+    sv: Fem dynastier och tio kungadömen
+    zh: 五代十國 Wǔdài Shíguó
+  description: "Fragmentation after Tang; five rapid northern dynasties; ten southern kingdoms; political chaos; printing technology spreads; prelude to Song reunification."
+
+- id: song-dynasty
+  rank: CulturalAge
+  parent: china-history
+  start: 960
+  end: 1279
+  unit: CE
+  labels:
+    en: Song Dynasty
+    sv: Songdynastin
+    zh: 宋朝 Sòng Cháo
+  description: "Economic revolution; movable type printing; gunpowder weapons; compass; paper money; Neo-Confucianism; landscape painting; commercial economy."
+
+- id: song-northern
+  rank: CulturalAge
+  parent: song-dynasty
+  start: 960
+  end: 1127
+  unit: CE
+  labels:
+    en: Northern Song
+    sv: Norra Song
+    zh: 北宋 Běi Sòng
+  description: "Kaifeng capital; Su Shi (poet); Shen Kuo (polymath); Dream Pool Essays; commercial revolution; lost north to Jurchen Jin dynasty."
+
+- id: jin-jurchen
+  rank: CulturalAge
+  parent: china-history
+  start: 1115
+  end: 1234
+  unit: CE
+  labels:
+    en: Jin Dynasty
+    sv: Jindynastin
+    zh: "Jurchen, 金朝"
+  description: "Jurchen conquest of northern China; sinicized administration; rivalry with Southern Song; fell to Mongols; predecessor to Manchu Qing."
+
+- id: liao-dynasty
+  rank: CulturalAge
+  parent: china-history
+  start: 916
+  end: 1125
+  unit: CE
+  labels:
+    en: Liao Dynasty
+    sv: Liaodynastin
+    zh: 遼朝
+  description: "Khitan empire; 'Cathay' derives from Khitan; dual administration (nomadic + Chinese); Chanyuan Treaty with Song (1004); own writing system."
+
+- id: western-xia
+  rank: CulturalAge
+  parent: china-history
+  start: 1038
+  end: 1227
+  unit: CE
+  labels:
+    en: Western Xia
+    sv: Västra Xia
+    zh: 西夏
+  description: "Tangut empire controlling Hexi Corridor (Silk Road); unique Tangut script; three-way balance with Song and Liao/Jin; annihilated by Mongols."
+
+- id: song-southern
+  rank: CulturalAge
+  parent: song-dynasty
+  start: 1127
+  end: 1279
+  unit: CE
+  labels:
+    en: Southern Song
+    sv: Södra Song
+    zh: 南宋 Nán Sòng
+  description: "Hangzhou capital ('above is heaven, below is Hangzhou'); maritime trade; Zhu Xi Neo-Confucianism; fell to Mongol Yuan dynasty."
+
+- id: yuan-dynasty
+  rank: CulturalAge
+  parent: china-history
+  start: 1271
+  end: 1368
+  unit: CE
+  labels:
+    en: Yuan Dynasty
+    sv: Yuandynastin
+  description: "Kublai Khan; Mongol rule over China; Marco Polo visits; Grand Canal extended; Yuan drama; paper money inflation; ethnic hierarchy."
+
+- id: ming-dynasty
+  rank: CulturalAge
+  parent: china-history
+  start: 1368
+  end: 1644
+  unit: CE
+  labels:
+    en: Ming Dynasty
+    sv: Mingdynastin
+    zh: 明朝 Míng Cháo
+  description: "Han Chinese restoration; Forbidden City (Beijing); Zheng He voyages (1405-33); Great Wall rebuilt; porcelain golden age; novel tradition flourishes."
+
+- id: zheng-he
+  rank: CulturalAge
+  parent: ming-dynasty
+  start: 1405
+  end: 1433
+  unit: CE
+  labels:
+    en: Zheng He Voyages
+    sv: Zheng He Voyages
+    zh: 郑和下西洋 Zhèng Hé xià Xīyáng
+  description: "Seven grand maritime expeditions; treasure ships; reached East Africa, Arabia, Southeast Asia; then China turned inward; ended oceanic exploration."
+
+- id: qing-dynasty
+  rank: CulturalAge
+  parent: china-history
+  start: 1644
+  end: 1912
+  unit: CE
+  labels:
+    en: Qing Dynasty
+    sv: Qingdynastin
+    zh: 清朝 Qīng Cháo
+  description: "Manchu rule; largest Qing territory; Kangxi, Qianlong emperors; Opium Wars; Taiping Rebellion (~20-30M dead); Century of Humiliation; fall to revolution."
+
+- id: qing-golden-age
+  rank: CulturalAge
+  parent: qing-dynasty
+  start: 1661
+  end: 1796
+  unit: CE
+  labels:
+    en: High Qing Era
+    sv: High Qing Era
+    zh: "康乾盛世 Kāng-Qián shèngshì"
+  description: "Kangxi-Yongzheng-Qianlong; population doubles to 300M; territorial expansion (Tibet, Xinjiang, Taiwan); literary inquisition; Dream of the Red Chamber."
+
+- id: opium-wars
+  rank: CulturalAge
+  parent: qing-dynasty
+  start: 1839
+  end: 1860
+  unit: CE
+  labels:
+    en: Opium Wars Era
+    sv: Opiumkrigens tid
+    zh: 鸦片战争 Yāpiàn Zhànzhēng
+  description: "First (1839-42) and Second (1856-60) Opium Wars; Treaty of Nanjing; Hong Kong ceded; unequal treaties; Summer Palace burned; forced opening."
+
+- id: republic-of-china
+  rank: CulturalAge
+  parent: china-history
+  start: 1912
+  end: 1949
+  unit: CE
+  labels:
+    en: Republic of China
+    sv: Republiken Kina
+    zh: 中華民國 Zhōnghuá Mínguó
+  description: "Sun Yat-sen; warlord era; Northern Expedition; Nanjing decade; Second Sino-Japanese War (1937-45); Chinese Civil War; Chiang Kai-shek retreats to Taiwan."
+
+- id: prc
+  rank: CulturalAge
+  parent: contemporary
+  start: 1949
+  end: 0
+  unit: CE
+  labels:
+    en: "People's Republic of China"
+    sv: Folkrepubliken Kina
+    zh: 中华人民共和国 Zhōnghuá Rénmín Gònghéguó
+  description: "Mao Zedong; Great Leap Forward; Cultural Revolution (1966-76); Deng Xiaoping reforms (1978); economic miracle; world's second-largest economy."
+
+- id: taiwan-japanese
+  rank: CulturalAge
+  parent: japan-history
+  start: 1895
+  end: 1945
+  unit: CE
+  labels:
+    en: Taiwan under Japanese Rule
+    sv: Taiwan under japanskt styre
+    zh: 台灣日治時期
+  description: "Japan's first colony (Treaty of Shimonoseki); Republic of Formosa (1895); modernized infrastructure; cultural suppression; shaped modern Taiwanese identity."
+
+- id: roc-taiwan
+  rank: CulturalAge
+  parent: contemporary
+  start: 1949
+  end: 0
+  unit: CE
+  labels:
+    en: ROC on Taiwan
+    sv: Republiken Kina på Taiwan
+    zh: 中華民國在臺灣
+  description: "KMT retreat to Taiwan; White Terror; martial law (1949-1987); economic miracle (Four Asian Tigers); democratization; first direct presidential election (1996)."
+
+- id: japan-history
+  rank: CulturalAge
+  parent: holocene
+  start: 14000
+  end: 0
+  unit: BCE-CE
+  labels:
+    en: Japanese Historical Periods
+    sv: Japanska historiska perioder
+    ja: 日本の歴史時代 Nihon no rekishi jidai
+  description: "From Jōmon hunter-gatherers through samurai shoguns to modern economic power; island civilization with unique cultural synthesis."
+
+- id: jomon
+  rank: CulturalAge
+  parent: japan-history
+  start: 14000
+  end: 300
+  unit: BCE
+  labels:
+    en: Jōmon Period
+    sv: Jōmonperioden
+    zh: 縄文時代 Jōmon jidai
+  description: "Hunter-gatherer-fishers; world's oldest pottery (~16,000 BP); cord-marked ceramics; Sannai-Maruyama settlement; dogu figurines; 10,000+ year span."
+
+- id: yayoi
+  rank: CulturalAge
+  parent: japan-history
+  start: 300
+  end: 250
+  unit: BCE-CE
+  labels:
+    en: Yayoi Period
+    sv: Yayoiperioden
+    zh: 弥生時代 Yayoi jidai
+  description: "Wet-rice agriculture from Korean peninsula; bronze and iron tools; social stratification; Yoshinogari site; foundation of Japanese agricultural society."
+
+- id: kofun
+  rank: CulturalAge
+  parent: japan-history
+  start: 250
+  end: 538
+  unit: CE
+  labels:
+    en: Kofun Period
+    sv: Kofunperioden
+    zh: 古墳時代 Kofun jidai
+  description: "Keyhole-shaped burial mounds; Yamato court emergence; introduction of Chinese writing; haniwa clay figures; imperial lineage established."
+
+- id: asuka-period
+  rank: CulturalAge
+  parent: japan-history
+  start: 538
+  end: 710
+  unit: CE
+  labels:
+    en: Asuka Period
+    sv: Asukaperioden
+    zh: 飛鳥時代 Asuka jidai
+  description: "Buddhism arrives; Prince Shōtoku; Taika Reform (645); Ritsuryō legal codes; Chinese-style centralized government; Hōryū-ji temple."
+
+- id: nara-period
+  rank: CulturalAge
+  parent: japan-history
+  start: 710
+  end: 794
+  unit: CE
+  labels:
+    en: Nara Period
+    sv: Naraperioden
+    zh: 奈良時代 Nara jidai
+  description: "First permanent capital at Nara; Kojiki and Nihon Shoki (earliest histories); Tōdai-ji Great Buddha; Buddhist monastery power grows."
+
+- id: heian-period
+  rank: CulturalAge
+  parent: japan-history
+  start: 794
+  end: 1185
+  unit: CE
+  labels:
+    en: Heian Period
+    sv: Heianperioden
+    zh: 平安時代 Heian jidai
+  description: "Kyoto capital; Tale of Genji (Murasaki Shikibu, world's first novel); Fujiwara regents; kana script; refined court culture; samurai class rises."
+
+- id: kamakura-shogunate
+  rank: CulturalAge
+  parent: japan-history
+  start: 1185
+  end: 1333
+  unit: CE
+  labels:
+    en: Kamakura Period
+    sv: Kamakuraperioden
+    zh: 鎌倉時代 Kamakura jidai
+  description: "First shogunate (Minamoto Yoritomo); samurai government; Zen Buddhism; Mongol invasions repelled (1274, 1281, 'kamikaze'); warrior culture."
+
+- id: muromachi-period
+  rank: CulturalAge
+  parent: japan-history
+  start: 1336
+  end: 1573
+  unit: CE
+  labels:
+    en: Muromachi Period
+    sv: Muromachiperioden
+    zh: 室町時代 Muromachi jidai
+  description: "Ashikaga shogunate; Noh theater; tea ceremony; Zen gardens (Ryōan-ji); Ōnin War (1467); Sengoku (Warring States) era begins."
+
+- id: sengoku
+  rank: CulturalAge
+  parent: japan-history
+  start: 1467
+  end: 1615
+  unit: CE
+  labels:
+    en: Sengoku Period
+    sv: Sengokuperioden
+    zh: 戦国時代 Sengoku jidai
+  description: "Warring States; Oda Nobunaga, Toyotomi Hideyoshi, Tokugawa Ieyasu (three unifiers); firearms arrive (1543); castles; samurai warfare peak."
+
+- id: azuchi-momoyama
+  rank: CulturalAge
+  parent: sengoku
+  start: 1573
+  end: 1603
+  unit: CE
+  labels:
+    en: "Azuchi-Momoyama Period"
+    sv: "Azuchi-Momoyama Period"
+    zh: 安土桃山時代
+  description: "Nobunaga and Hideyoshi era; grand castles (Azuchi, Osaka); Sen no Rikyū tea ceremony; Namban trade with Europeans; Korea invasions (1592-98)."
+
+- id: edo-period
+  rank: CulturalAge
+  parent: japan-history
+  start: 1603
+  end: 1868
+  unit: CE
+  labels:
+    en: Edo Period
+    sv: Edoperioden
+    zh: 江戸時代 Edo jidai
+  description: "Tokugawa shogunate; 250 years of peace; sakoku isolation; Edo (Tokyo) grows to 1M+; kabuki, ukiyo-e, haiku; rigid social hierarchy; merchant culture."
+
+- id: meiji-era
+  rank: CulturalAge
+  parent: japan-history
+  start: 1868
+  end: 1912
+  unit: CE
+  labels:
+    en: Meiji Era
+    sv: Meiji Era
+    zh: 明治時代 Meiji jidai
+  description: "Meiji Restoration; rapid modernization/industrialization; Meiji Constitution (1889); Sino-Japanese War (1894-95); Russo-Japanese War (1904-05); world power."
+
+- id: taisho-era
+  rank: CulturalAge
+  parent: japan-history
+  start: 1912
+  end: 1926
+  unit: CE
+  labels:
+    en: Taishō Era
+    sv: Taishō Era
+    zh: 大正時代
+  description: "Japan's brief democratic flowering; party-led cabinets; universal male suffrage (1925); modern culture (cinema, radio); Great Kantō Earthquake (1923)."
+
+- id: imperial-japan
+  rank: CulturalAge
+  parent: japan-history
+  start: 1926
+  end: 1945
+  unit: CE
+  labels:
+    en: Early Shōwa / Militarist Japan
+    sv: Early Shōwa / Militarist Japan
+    zh: 昭和
+  description: "Militarism rises; Manchuria invasion (1931); Second Sino-Japanese War; Pearl Harbor; Pacific War; atomic bombs; surrender."
+
+- id: postwar-japan
+  rank: CulturalAge
+  parent: contemporary
+  start: 1945
+  end: 0
+  unit: CE
+  labels:
+    en: Postwar Japan
+    sv: Efterkrigstidens Japan
+    zh: 戦後日本 Sengo Nihon
+  description: "U.S. occupation; new constitution; economic miracle; world's 2nd largest economy (1968-2010); Sony, Toyota; anime/manga cultural export; aging society."
+
+- id: ryukyu-kingdom
+  rank: CulturalAge
+  parent: japan-history
+  start: 1429
+  end: 1879
+  unit: CE
+  labels:
+    en: Ryukyu Kingdom
+    sv: Kungariket Ryukyu
+    zh: 琉球王国
+  description: "Independent maritime kingdom (Okinawa); trade hub connecting China, Japan, Korea, SE Asia; Shuri Castle (UNESCO); dual subordination after Satsuma 1609; annexed by Meiji Japan."
+
+- id: korea-history
+  rank: CulturalAge
+  parent: holocene
+  start: 2333
+  end: 0
+  unit: BCE-CE
+  labels:
+    en: Korean Historical Periods
+    sv: Koreanska historiska perioder
+    ko: 한국 역사 시대
+    zh: 韓國歷史時代
+  description: "From legendary Gojoseon through Three Kingdoms, Goryeo, Joseon to modern divided peninsula."
+
+- id: gojoseon
+  rank: CulturalAge
+  parent: korea-history
+  start: 2333
+  end: 108
+  unit: BCE
+  labels:
+    en: Gojoseon
+    sv: Gojoseon
+    ko: 고조선
+    zh: 古朝鮮
+  description: "First Korean kingdom (legendary founding by Dangun); bronze culture; Wiman Joseon; conquered by Han China (108 BCE); Korean identity origins."
+
+- id: three-kingdoms-korea
+  rank: CulturalAge
+  parent: korea-history
+  start: 57
+  end: 668
+  unit: BCE-CE
+  labels:
+    en: Three Kingdoms of Korea
+    sv: Koreas tre riken
+    ko: 삼국시대
+    zh: 三國時代
+  description: "Goguryeo (north, military), Baekje (southwest, maritime), Silla (southeast); Buddhism adopted; tomb murals; cultural exchange with Japan and China."
+
+- id: gaya-confederacy
+  rank: CulturalAge
+  parent: korea-history
+  start: 42
+  end: 562
+  unit: CE
+  labels:
+    en: Gaya Confederacy
+    sv: Gaya Confederacy
+    zh: 가야/加耶
+  description: "City-states in Nakdong River basin; peninsula's iron-working center; gayageum zither invented; absorbed by Silla; Kim Yu-sin was Gaya descendant."
+
+- id: silla-unified
+  rank: CulturalAge
+  parent: korea-history
+  start: 668
+  end: 935
+  unit: CE
+  labels:
+    en: Unified Silla
+    sv: Enade Silla
+    ko: 통일신라
+    zh: 統一新羅
+  description: "Silla unifies peninsula with Tang alliance; Gyeongju capital; Bulguksa Temple; golden age of Korean Buddhism; Seokguram Grotto."
+
+- id: balhae
+  rank: CulturalAge
+  parent: korea-history
+  start: 698
+  end: 926
+  unit: CE
+  labels:
+    en: Balhae
+    sv: Balhae
+  description: "Northern successor to Goguryeo; ruled Manchuria and northern Korea; 'Flourishing Land in the East'; fell to Khitan Liao; claimed by both Korean and Chinese histories."
+
+- id: later-three-kingdoms
+  rank: CulturalAge
+  parent: korea-history
+  start: 892
+  end: 936
+  unit: CE
+  labels:
+    en: Later Three Kingdoms
+    sv: De tre senare rikena
+    ko: 후삼국시대
+  description: "Silla collapses; Later Baekje and Later Goguryeo arise; Wang Geon unifies under Goryeo (936); origin of name 'Korea'."
+
+- id: goryeo-dynasty
+  rank: CulturalAge
+  parent: korea-history
+  start: 918
+  end: 1392
+  unit: CE
+  labels:
+    en: Goryeo Dynasty
+    sv: Goryeodynastin
+    ko: 고려
+    zh: 高麗
+  description: "Origin of name 'Korea'; celadon ceramics; Tripitaka Koreana (woodblock Buddhist canon); movable metal type (1234, before Gutenberg); Mongol invasions."
+
+- id: joseon-dynasty
+  rank: CulturalAge
+  parent: korea-history
+  start: 1392
+  end: 1897
+  unit: CE
+  labels:
+    en: Joseon Dynasty
+    sv: Joseondynastin
+    ko: 조선
+    zh: 朝鮮
+  description: "Neo-Confucian state; Sejong the Great invents Hangul (1443); Gyeongbokgung Palace; Imjin War (Japanese invasions, 1592-98); 500-year dynasty."
+
+- id: joseon-golden-age
+  rank: CulturalAge
+  parent: joseon-dynasty
+  start: 1418
+  end: 1494
+  unit: CE
+  labels:
+    en: Joseon Golden Age
+    sv: Joseons guldålder
+    ko: 조선 세종대왕 시대
+    zh: 朝鮮 世宗大王 時代
+  description: "Sejong the Great; Hangul alphabet (1443); rain gauge, sundials, water clocks; Jang Yeong-sil (inventor); agricultural treatises; Confucian scholarship."
+
+- id: korean-empire
+  rank: CulturalAge
+  parent: korea-history
+  start: 1897
+  end: 1910
+  unit: CE
+  labels:
+    en: Korean Empire
+    sv: Koreanriket
+    zh: 대한제국/大韓帝國
+  description: "Emperor Gojong proclaims empire; Gwangmu Reform; modernization; 'Daehan' origin of South Korea's name; annexed by Japan 1910."
+
+- id: japanese-occupation-korea
+  rank: CulturalAge
+  parent: korea-history
+  start: 1910
+  end: 1945
+  unit: CE
+  labels:
+    en: Japanese Occupation of Korea
+    sv: Japans ockupation av Korea
+    ko: 일제강점기
+    zh: 日帝強占期
+  description: "Annexation by Japan; cultural suppression; forced labor; comfort women; March 1st Movement (1919); Korean language banned; liberation with WWII end."
+
+- id: korea-modern
+  rank: CulturalAge
+  parent: contemporary
+  start: 1945
+  end: 0
+  unit: CE
+  labels:
+    en: Modern Korea
+    sv: Moderna Korea
+  description: "Division at 38th parallel; Korean War (1950-53); North Korea (DPRK); South Korea's 'Miracle on the Han River'; K-pop, Samsung; DMZ."
+
+- id: southeast-asia-history
+  rank: CulturalAge
+  parent: holocene
+  start: 1000
+  end: 0
+  unit: BCE-CE
+  labels:
+    en: Southeast Asian Historical Periods
+    sv: Sydostasiatiska historiska perioder
+  description: "Maritime and mainland kingdoms; Indianization and Sinicization; spice trade; colonial era; modern ASEAN nations."
+
+- id: funan
+  rank: CulturalAge
+  parent: southeast-asia-history
+  start: 100
+  end: 550
+  unit: CE
+  labels:
+    en: Kingdom of Funan
+    sv: Kungariket Funan
+    zh: 扶南 Fúnán
+  description: "Earliest known Indianized kingdom in mainland Southeast Asia; Mekong Delta; maritime trade hub; Hinduism and Buddhism; Óc Eo port city."
+
+- id: chenla-kingdom
+  rank: CulturalAge
+  parent: southeast-asia-history
+  start: 550
+  end: 802
+  unit: CE
+  labels:
+    en: Kingdom of Chenla
+    sv: Kungariket Chenla
+    zh: 真臘 Zhēnlà
+  description: "Khmer predecessor state; successor to Funan in mainland Southeast Asia; fragmented c. 706 CE into Land Chenla (upper) and Water Chenla (lower); Jayavarman II unified and proclaimed devaraja (god-king), founding the Khmer Empire in 802 CE."
+
+- id: champa
+  rank: CulturalAge
+  parent: southeast-asia-history
+  start: 192
+  end: 1832
+  unit: CE
+  labels:
+    en: Kingdom of Champa
+    sv: Kungariket Champa
+    zh: 占婆 Zhànpó
+  description: "Hindu-Buddhist kingdom in central/southern Vietnam; Cham towers (Mỹ Sơn); maritime trade; rivalry with Khmer and Đại Việt; Austronesian people."
+
+- id: srivijaya
+  rank: CulturalAge
+  parent: southeast-asia-history
+  start: 650
+  end: 1377
+  unit: CE
+  labels:
+    en: Srivijaya Empire
+    sv: Srivijayariket
+  description: "Maritime empire based in Sumatra; controlled Malacca Strait; Buddhist center (Nalanda connections); Malay language spread; spice trade."
+
+- id: dongson-culture
+  rank: CulturalAge
+  parent: southeast-asia-history
+  start: 600
+  end: 200
+  unit: BCE-CE
+  labels:
+    en: Đông Sơn Culture
+    sv: Đông Sơn Culture
+    zh: 東山文化
+  description: "Bronze Age culture of northern Vietnam's Red River Delta; elaborate bronze drums (trống đồng Đông Sơn); wet-rice cultivation; maritime trade; Heger Type I drums found from Indonesia to southern China; foundation of Vietnamese Bronze Age identity."
+
+- id: ban-chiang
+  rank: CulturalAge
+  parent: southeast-asia-history
+  start: 3600
+  end: 200
+  unit: BCE
+  labels:
+    en: Ban Chiang
+    sv: Ban Chiang
+  description: "Prehistoric site in northeast Thailand; UNESCO World Heritage Site; early bronze metallurgy (debated dating); distinctive red-painted pottery; rice agriculture; challenges 'diffusion from China' model of Southeast Asian metalworking."
+
+- id: dvaravati
+  rank: CulturalAge
+  parent: southeast-asia-history
+  start: 550
+  end: 1050
+  unit: CE
+  labels:
+    en: Dvaravati Kingdom
+    sv: Kungariket Dvaravati
+  description: "Mon Buddhist kingdom in central Thailand; Theravada Buddhism center; Dharmachakra (Wheel of Law) sculptures; absorbed by Khmer and later Thai kingdoms."
+
+- id: khmer-empire
+  rank: CulturalAge
+  parent: southeast-asia-history
+  start: 802
+  end: 1431
+  unit: CE
+  labels:
+    en: Khmer Empire
+    sv: Khmerriket
+  description: "Angkor Wat and Angkor Thom; Jayavarman II, Suryavarman II, Jayavarman VII; hydraulic engineering; largest pre-industrial city; Hindu-Buddhist synthesis."
+
+- id: pagan-kingdom
+  rank: CulturalAge
+  parent: southeast-asia-history
+  start: 849
+  end: 1297
+  unit: CE
+  labels:
+    en: Pagan Kingdom
+    sv: Kungariket Pagan
+  description: "First unified Myanmar/Burma; Anawrahta; 10,000+ Buddhist temples at Bagan; Theravada Buddhism; Pali scriptures; Mongol invasion ends dynasty."
+
+- id: majapahit
+  rank: CulturalAge
+  parent: southeast-asia-history
+  start: 1293
+  end: 1527
+  unit: CE
+  labels:
+    en: Majapahit Empire
+    sv: Majapahitriket
+  description: "Java-based Hindu-Buddhist empire; Gajah Mada (prime minister); Nagarakretagama poem; controlled much of maritime Southeast Asia; Indonesian national heritage."
+
+- id: sukhothai
+  rank: CulturalAge
+  parent: southeast-asia-history
+  start: 1238
+  end: 1438
+  unit: CE
+  labels:
+    en: Sukhothai Kingdom
+    sv: Kungariket Sukhothai
+  description: "First Thai kingdom; King Ramkhamhaeng; Thai script created; Theravada Buddhism state religion; Si Satchanalai ceramics; foundation of Thai identity."
+
+- id: ayutthaya
+  rank: CulturalAge
+  parent: southeast-asia-history
+  start: 1351
+  end: 1767
+  unit: CE
+  labels:
+    en: Ayutthaya Kingdom
+    sv: Kungariket Ayutthaya
+  description: "Siamese kingdom; cosmopolitan capital; trade with China, Japan, Europe; 33 kings; destroyed by Burma (1767); predecessor to modern Thailand."
+
+- id: malacca-sultanate
+  rank: CulturalAge
+  parent: southeast-asia-history
+  start: 1400
+  end: 1511
+  unit: CE
+  labels:
+    en: Malacca Sultanate
+    sv: Malaccasultanatet
+  description: "Strategic Strait of Malacca; spread of Islam in maritime Southeast Asia; Malay court culture; fell to Portuguese (1511); origin of modern Malaysia."
+
+- id: dai-viet
+  rank: CulturalAge
+  parent: southeast-asia-history
+  start: 1009
+  end: 1802
+  unit: CE
+  labels:
+    en: Đại Việt
+    sv: Đại Việt
+    zh: 大越
+  description: "Vietnamese state; Lý, Trần, Lê dynasties; repelled Mongol invasions (3 times); Confucian governance; Temple of Literature (1070); southward expansion."
+
+- id: toungoo-dynasty
+  rank: CulturalAge
+  parent: southeast-asia-history
+  start: 1510
+  end: 1752
+  unit: CE
+  labels:
+    en: Toungoo Dynasty
+    sv: Toungoodynastin
+  description: "Reunified Burma; under Bayinnaung created largest empire in Southeast Asian history; conquered Ava, Lan Na, Siam, Lan Xang."
+
+- id: konbaung-dynasty
+  rank: CulturalAge
+  parent: southeast-asia-history
+  start: 1752
+  end: 1885
+  unit: CE
+  labels:
+    en: Konbaung Dynasty
+    sv: Konbaungdynastin
+  description: "Last Burmese dynasty; destroyed Ayutthaya (1767); defeated four Qing invasions; fell to British in three Anglo-Burmese Wars."
+
+- id: lan-na-kingdom
+  rank: CulturalAge
+  parent: southeast-asia-history
+  start: 1292
+  end: 1558
+  unit: CE
+  labels:
+    en: Lan Na Kingdom
+    sv: Lan Na Kingdom
+  description: "Northern Thai kingdom centered on Chiang Mai; distinct Lan Na script and culture; resisted Mongol incursions; eventually absorbed into Siam."
+
+- id: rattanakosin
+  rank: CulturalAge
+  parent: southeast-asia-history
+  start: 1782
+  end: 1932
+  unit: CE
+  labels:
+    en: Rattanakosin Kingdom
+    sv: Kungariket Rattanakosin
+  description: "Chakri dynasty; Bangkok capital; Siam's modernization; only Southeast Asian nation to avoid colonization; precursor to modern Thailand."
+
+- id: ly-dynasty
+  rank: CulturalAge
+  parent: dai-viet
+  start: 1010
+  end: 1225
+  unit: CE
+  labels:
+    en: Lý Dynasty
+    sv: Lýdynastin
+    zh: Nhà Lý/李朝
+  description: "Founded Thăng Long (Hanoi); established centralized Vietnamese state; drove out Chinese influence; laid foundation for Vietnamese nationhood."
+
+- id: tran-dynasty
+  rank: CulturalAge
+  parent: dai-viet
+  start: 1226
+  end: 1400
+  unit: CE
+  labels:
+    en: Trần Dynasty
+    sv: Trầndynastin
+    zh: Nhà Trần/陳朝
+  description: "Repelled three Mongol invasions under Trần Hưng Đạo; chữ Nôm writing system; golden age of Vietnamese literature."
+
+- id: later-le-dynasty
+  rank: CulturalAge
+  parent: dai-viet
+  start: 1428
+  end: 1789
+  unit: CE
+  labels:
+    en: Later Lê Dynasty
+    sv: Later Lê Dynasty
+    zh: Nhà Hậu Lê/後黎朝
+  description: "Longest-ruling Vietnamese dynasty (360 years); Lê Lợi expelled Ming Chinese; Hồng Đức law code with progressive women's rights."
+
+- id: nguyen-dynasty
+  rank: CulturalAge
+  parent: southeast-asia-history
+  start: 1802
+  end: 1945
+  unit: CE
+  labels:
+    en: Nguyễn Dynasty
+    sv: Nguyễndynastin
+    zh: Nhà Nguyễn/阮朝
+  description: "Last Vietnamese dynasty; unified all modern Vietnam; Imperial City of Huế (UNESCO); French protectorate from 1883."
+
+- id: sailendra-dynasty
+  rank: CulturalAge
+  parent: southeast-asia-history
+  start: 750
+  end: 850
+  unit: CE
+  labels:
+    en: Sailendra Dynasty
+    sv: Sailendradynastin
+  description: "Buddhist dynasty of Central Java; built Borobudur, largest Buddhist monument in the world (UNESCO); connected to Srivijaya."
+
+- id: mataram-hindu
+  rank: CulturalAge
+  parent: southeast-asia-history
+  start: 732
+  end: 1006
+  unit: CE
+  labels:
+    en: Mataram Kingdom
+    sv: Kungariket Mataram
+  description: "Hindu-Shaivite kingdom of Central Java; built Prambanan temple complex (UNESCO); rival/coexistent with Sailendra."
+
+- id: singhasari
+  rank: CulturalAge
+  parent: southeast-asia-history
+  start: 1222
+  end: 1292
+  unit: CE
+  labels:
+    en: Singhasari Kingdom
+    sv: Kungariket Singhasari
+  description: "East Javanese kingdom; conquered Srivijaya; predecessor to Majapahit; Ken Angrok's unification of Javanese territories."
+
+- id: mataram-islamic
+  rank: CulturalAge
+  parent: southeast-asia-history
+  start: 1587
+  end: 1755
+  unit: CE
+  labels:
+    en: Mataram Sultanate
+    sv: Mataramsultanatet
+  description: "Last major independent Javanese kingdom; Sultan Agung; shaped Javanese culture (gamelan, batik, wayang kulit); split into Yogyakarta and Surakarta."
+
+- id: longvek-period
+  rank: CulturalAge
+  parent: southeast-asia-history
+  start: 1431
+  end: 1594
+  unit: CE
+  labels:
+    en: "Post-Angkor / Longvek Period"
+    sv: "Post-Angkor / Longvek Period"
+  description: "Capital moved to Longvek after Angkor's fall; maritime trade hub with European, Chinese, Japanese communities; fell to Ayutthaya 1594."
+
+- id: lan-xang
+  rank: CulturalAge
+  parent: southeast-asia-history
+  start: 1353
+  end: 1707
+  unit: CE
+  labels:
+    en: Lan Xang Kingdom
+    sv: Lan Xang Kingdom
+  description: "Kingdom of a Million Elephants; largest Lao state; Theravada Buddhism; golden age under Sourigna Vongsa; split into three kingdoms 1707; foundational to Lao identity."
+
+- id: kingdom-of-tondo
+  rank: CulturalAge
+  parent: southeast-asia-history
+  start: 900
+  end: 1589
+  unit: CE
+  labels:
+    en: Kingdom of Tondo
+    sv: Kungariket Tondo
+  description: "One of oldest Philippine polities; Laguna Copperplate Inscription (900 CE); Luzon trade with China; fell to Spanish colonization."
+
+- id: sultanate-of-sulu
+  rank: CulturalAge
+  parent: southeast-asia-history
+  start: 1405
+  end: 1915
+  unit: CE
+  labels:
+    en: Sultanate of Sulu
+    sv: Sultanate of Sulu
+  description: "Maritime Islamic power; controlled Sulu Sea and parts of Borneo; resisted Spanish colonization for centuries; sophisticated naval capabilities."
+
+- id: sultanate-of-maguindanao
+  rank: CulturalAge
+  parent: southeast-asia-history
+  start: 1500
+  end: 1888
+  unit: CE
+  labels:
+    en: Sultanate of Maguindanao
+    sv: Sultanate of Maguindanao
+  description: "Largest Islamic state in the Philippines; controlled most of Mindanao at peak; Sultan Kudarat's legendary resistance against Spain."
+
+- id: colonial-southeast-asia
+  rank: CulturalAge
+  parent: southeast-asia-history
+  start: 1511
+  end: 1957
+  unit: CE
+  labels:
+    en: Colonial Southeast Asia
+    sv: Koloniala Sydostasien
+  description: "Portuguese Malacca (1511); Dutch East Indies; Spanish Philippines; French Indochina; British Burma/Malaya; only Thailand never colonized."
+
+- id: southeast-asia-modern
+  rank: CulturalAge
+  parent: contemporary
+  start: 1945
+  end: 0
+  unit: CE
+  labels:
+    en: Modern Southeast Asia
+    sv: Moderna Sydostasien
+  description: "Independence movements; Vietnam Wars; Khmer Rouge; ASEAN (1967); Asian Tigers; Reformasi; economic growth; 680+ million people."
+
+- id: central-asia-history
+  rank: CulturalAge
+  parent: holocene
+  start: 3500
+  end: 0
+  unit: BCE-CE
+  labels:
+    en: Central Asian Historical Periods
+    sv: Centralasiatiska historiska perioder
+    ar: تاریخ آسیای مرکزی
+  description: "Steppe nomads, Silk Road oasis cities; Scythians, Turks, Mongols; convergence zone of civilizations."
+
+- id: scythians
+  rank: CulturalAge
+  parent: central-asia-history
+  start: 900
+  end: 200
+  unit: BCE
+  labels:
+    en: Scythian Period
+    sv: Scythianperioden
+  description: "Iranian nomadic warriors; horse archery; animal-style gold art; kurgans (burial mounds); Herodotus accounts; influenced Greek and Persian worlds."
+
+- id: xiongnu
+  rank: CulturalAge
+  parent: central-asia-history
+  start: 209
+  end: 91
+  unit: BCE-CE
+  labels:
+    en: Xiongnu Empire
+    sv: Xiongnuriket
+    zh: 匈奴 Xiōngnú
+  description: "First great steppe empire; Modu Chanyu; prompted Chinese Great Wall; Silk Road intermediaries; possible ancestors of Huns; Han dynasty rival; split into Northern and Southern Xiongnu 48 CE."
+
+- id: silk-road-era
+  rank: CulturalAge
+  parent: central-asia-history
+  start: 130
+  end: 1453
+  unit: BCE-CE
+  labels:
+    en: Silk Road Era
+    sv: Sidenvägens era
+    ar: طريق الحرير
+    zh: 丝绸之路
+  description: "Trans-Eurasian trade network; Zhang Qian (130 BCE); Sogdian merchants; Samarkand, Bukhara, Kashgar; ideas, religions, diseases, technologies exchanged."
+
+- id: gokturk-khaganate
+  rank: CulturalAge
+  parent: central-asia-history
+  start: 552
+  end: 744
+  unit: CE
+  labels:
+    en: Göktürk Khaganate
+    sv: Göktürk Khaganate
+    zh: 突厥
+  description: "First Turkic empire; Orkhon inscriptions (oldest Turkic writing); controlled Silk Road; split into Eastern and Western; influenced all later Turkic states."
+
+- id: tibetan-empire
+  rank: CulturalAge
+  parent: central-asia-history
+  start: 618
+  end: 842
+  unit: CE
+  labels:
+    en: Tibetan Empire
+    sv: Tibetanriket
+    zh: 吐蕃 Tǔbō
+  description: "Songtsen Gampo unifies Tibet; rivaled Tang China; controlled Silk Road oases; Lhasa established; Buddhism adopted; Tibetan script created; fragmented after 842."
+
+- id: sakya-tibet
+  rank: CulturalAge
+  parent: central-asia-history
+  start: 1244
+  end: 1354
+  unit: CE
+  labels:
+    en: Sakya Period of Tibet
+    sv: Sakya Period of Tibet
+    zh: ས་སྐྱ་པ/薩迦派
+  description: "Sakya lamas govern Tibet under Mongol patronage; 'priest-patron' (yon-mchod) relationship; Sakya Pandita's submission to Mongols (1244)."
+
+- id: phagmodrupa-tibet
+  rank: CulturalAge
+  parent: central-asia-history
+  start: 1354
+  end: 1642
+  unit: CE
+  labels:
+    en: Phagmodrupa Dynasty
+    sv: Phagmodrupadynastin
+    zh: ཕག་མོ་གྲུ་པ/帕木竹巴
+  description: "Re-established Tibetan autonomous rule; Changchub Gyaltsen revitalized Tibetan culture; Tsongkhapa founds Gelug school; Dalai Lama institution emerges."
+
+- id: sogdiana
+  rank: CulturalAge
+  parent: central-asia-history
+  start: 500
+  end: 800
+  unit: CE
+  labels:
+    en: Sogdiana
+    sv: Sogdiana
+  description: "Premier Silk Road merchant civilization; Samarkand, Bukhara; Sogdian lingua franca of trade; alphabet influenced Central Asian scripts; rose in Tang government."
+
+- id: mongol-empire
+  rank: CulturalAge
+  parent: central-asia-history
+  start: 1206
+  end: 1368
+  unit: CE
+  labels:
+    en: Mongol Empire
+    sv: Mongoliska riket
+  description: "Genghis Khan; largest contiguous land empire in history; Pax Mongolica; postal system (yam); religious tolerance; connected East and West."
+
+- id: chagatai-khanate
+  rank: CulturalAge
+  parent: central-asia-history
+  start: 1226
+  end: 1687
+  unit: CE
+  labels:
+    en: Chagatai Khanate
+    sv: Chagatai Khanate
+    ar: چغتای خانات
+  description: "Mongol successor state; Chagatai Khan's line; Aral Sea to Altai Mountains; Turkicized; Chagatai Turkic literary language; lost Transoxiana to Timurids."
+
+- id: ilkhanate
+  rank: CulturalAge
+  parent: central-asia-history
+  start: 1256
+  end: 1335
+  unit: CE
+  labels:
+    en: Ilkhanate
+    sv: Ilkhanate
+    ar: ایلخانان
+  description: "Mongol successor state; Hulagu Khan; sack of Baghdad (1258) ends Abbasid Caliphate; defeated at Ain Jalut (1260); converted to Islam under Ghazan."
+
+- id: golden-horde
+  rank: CulturalAge
+  parent: central-asia-history
+  start: 1227
+  end: 1502
+  unit: CE
+  labels:
+    en: Golden Horde
+    sv: Golden Horde
+  description: "Mongol successor state; Jochi's line; ruled Eurasian steppe and Russia ('Tatar Yoke'); Sarai capitals; converted to Islam; fragmented into successor khanates."
+
+- id: northern-yuan
+  rank: CulturalAge
+  parent: central-asia-history
+  start: 1368
+  end: 1635
+  unit: CE
+  labels:
+    en: Northern Yuan
+    sv: Northern Yuan
+    zh: 北元
+  description: "Borjigin clan continues ruling Mongolia after Yuan collapse; Dayan Khan reunifies tribes; ended when seal passed to Manchu Later Jin (1635)."
+
+- id: dzungar-khanate
+  rank: CulturalAge
+  parent: central-asia-history
+  start: 1634
+  end: 1758
+  unit: CE
+  labels:
+    en: Dzungar Khanate
+    sv: Dzungar Khanate
+    zh: 準噶爾汗國
+  description: "Last great nomadic empire; Oirat Mongols; contested Tibet; fought Qing; destruction by Qianlong (1755-58) shaped borders of modern China."
+
+- id: timurid-empire
+  rank: CulturalAge
+  parent: central-asia-history
+  start: 1370
+  end: 1507
+  unit: CE
+  labels:
+    en: Timurid Empire
+    sv: Timuridriket
+    ar: تیموریان Tīmūriyān
+  description: "Timur (Tamerlane); Samarkand as cultural capital; Timurid Renaissance; Ulugh Beg observatory; Persian-Turkic culture; ancestor of Mughal dynasty."
+
+- id: khwarazmian-empire
+  rank: CulturalAge
+  parent: central-asia-history
+  start: 1077
+  end: 1231
+  unit: CE
+  labels:
+    en: Khwarazmian Empire
+    sv: Khwarazmianriket
+    ar: خوارزمشاهیان
+  description: "Turkic Muslim empire; execution of Mongol diplomats triggered Genghis Khan's devastating invasion (1219); destruction of Merv, Samarkand, Bukhara."
+
+- id: ghaznavid-empire
+  rank: CulturalAge
+  parent: central-asia-history
+  start: 977
+  end: 1186
+  unit: CE
+  labels:
+    en: Ghaznavid Empire
+    sv: Ghaznavidriket
+    ar: غزنویان
+  description: "Turkic dynasty from Ghazna; Mahmud of Ghazni's 17 expeditions into India; patron of Ferdowsi's Shahnameh; launched Islam into the subcontinent."
+
+- id: ghurid-dynasty
+  rank: CulturalAge
+  parent: central-asia-history
+  start: 1175
+  end: 1215
+  unit: CE
+  labels:
+    en: Ghurid Dynasty
+    sv: Ghuriddynastin
+    ar: غوریان
+  description: "Eastern Persian dynasty from Ghor; Muhammad of Ghor's conquest of India (Tarain, 1192); Minaret of Jam (UNESCO); founded Delhi Sultanate."
+
+- id: great-game
+  rank: CulturalAge
+  parent: central-asia-history
+  start: 1830
+  end: 1907
+  unit: CE
+  labels:
+    en: The Great Game
+    sv: Det stora spelet
+    ar: بازی بزرگ
+  description: "British-Russian rivalry for Central Asian influence; Afghanistan as buffer state; Russian conquest of khanates; Anglo-Afghan Wars; espionage."
+
+- id: durrani-empire
+  rank: CulturalAge
+  parent: central-asia-history
+  start: 1747
+  end: 1826
+  unit: CE
+  labels:
+    en: Durrani Empire
+    sv: Durraniriket
+    ar: د درانیانو واکمني Da Durrāniyāno Wākmani
+  description: "Ahmad Shah Durrani ('Father of Afghanistan'); Pashtun empire from Khorasan to Punjab; Kohinoor diamond; foundation of modern Afghan state."
+
+- id: mesopotamia
+  rank: CulturalAge
+  parent: holocene
+  start: 6500
+  end: 539
+  unit: BCE
+  labels:
+    en: Mesopotamian Civilizations
+    sv: Mesopotamiska civilisationer
+    ar: بلاد الرافدين
+  description: "Cradle of civilization; between Tigris and Euphrates; writing, law, mathematics, astronomy; from Ubaid through Sumer to Neo-Babylonian."
+
+- id: ubaid-period
+  rank: CulturalAge
+  parent: mesopotamia
+  start: 6500
+  end: 3800
+  unit: BCE
+  labels:
+    en: Ubaid Period
+    sv: Ubaidperioden
+    ar: دور العبيد
+  description: "Pre-Sumerian Mesopotamian culture; first irrigation agriculture; distinctive painted pottery; Eridu (oldest city in Sumerian tradition); 'ubaid-style temples; foundation for Sumerian civilization."
+
+- id: uruk-period
+  rank: CulturalAge
+  parent: mesopotamia
+  start: 4000
+  end: 3100
+  unit: BCE
+  labels:
+    en: Uruk Period
+    sv: Urukperioden
+    ar: دور الوركاء
+  description: "Birth of civilization; world's first city Uruk (~40,000 people); invention of cuneiform writing (~3400 BCE); cylinder seals; monumental architecture (White Temple); state formation; Warka Vase."
+
+- id: sumer
+  rank: CulturalAge
+  parent: mesopotamia
+  start: 3500
+  end: 2004
+  unit: BCE
+  labels:
+    en: Sumerian Civilization
+    sv: Sumeriancivilisationen
+  description: "First civilization; cuneiform writing; city-states (Ur, Uruk, Lagash); ziggurats; Epic of Gilgamesh; wheel, plow, sailboat; sexagesimal math."
+
+- id: akkadian-empire
+  rank: CulturalAge
+  parent: mesopotamia
+  start: 2334
+  end: 2154
+  unit: BCE
+  labels:
+    en: Akkadian Empire
+    sv: Akkadianriket
+  description: "Sargon of Akkad; first known empire in history; Akkadian language; centralized bureaucracy; trade networks from Indus to Mediterranean."
+
+- id: babylon-old
+  rank: CulturalAge
+  parent: mesopotamia
+  start: 1894
+  end: 1595
+  unit: BCE
+  labels:
+    en: Old Babylonian Period
+    sv: Gammalbabyloniska perioden
+    ar: العصر البابلي القديم
+  description: "Hammurabi's Code (~1754 BCE, most complete surviving ancient law code); Babylonian mathematics; astronomy; Marduk worship; fell to Hittite raid."
+
+- id: assyrian-empire
+  rank: CulturalAge
+  parent: mesopotamia
+  start: 2025
+  end: 609
+  unit: BCE
+  labels:
+    en: Assyrian Empire
+    sv: Assyrianriket
+  description: "Neo-Assyrian peak (911-609 BCE); Nineveh, Nimrud; Ashurbanipal's library; brutal military; iron weapons; siege warfare; reliefs; conquered Egypt."
+
+- id: neo-babylonian
+  rank: CulturalAge
+  parent: mesopotamia
+  start: 626
+  end: 539
+  unit: BCE
+  labels:
+    en: "Neo-Babylonian Empire"
+    sv: Nybabyloniska riket
+    ar: الإمبراطورية البابلية الحديثة
+  description: "Nebuchadnezzar II; Hanging Gardens; Ishtar Gate; Babylonian captivity of Jews; astronomical records; fell to Persian Cyrus the Great."
+
+- id: phoenicia
+  rank: CulturalAge
+  parent: holocene
+  start: 1500
+  end: 300
+  unit: BCE
+  labels:
+    en: Phoenician Civilization
+    sv: Phoeniciancivilisationen
+  description: "Maritime city-states (Tyre, Sidon, Byblos); invented the alphabet (~1050 BCE); purple dye; Mediterranean trade and colonization; founded Carthage (~814 BCE)."
+
+- id: carthage
+  rank: CulturalAge
+  parent: holocene
+  start: 814
+  end: 146
+  unit: BCE
+  labels:
+    en: Carthaginian Empire
+    sv: Carthaginianriket
+  description: "Phoenician colony becomes western Mediterranean power; Hannibal Barca; Punic Wars with Rome; destroyed by Rome (146 BCE); North Africa, Iberia, Sicily."
+
+- id: ancient-israel
+  rank: CulturalAge
+  parent: holocene
+  start: 1200
+  end: 586
+  unit: BCE
+  labels:
+    en: Ancient Israel
+    sv: Antikens Israel
+    he: "יִשְׂרָאֵל Yisrā'ēl"
+  description: "Iron Age Levant; tribal confederation; United Monarchy under David and Solomon; First Temple; split into Israel and Judah; Babylonian exile (586 BCE); Hebrew Bible origins."
+
+- id: hittite-empire
+  rank: CulturalAge
+  parent: holocene
+  start: 1650
+  end: 1180
+  unit: BCE
+  labels:
+    en: Hittite Empire
+    sv: Hittiteriket
+  description: "Anatolian Bronze Age power; Hattusa capital; Battle of Kadesh with Egypt (1274 BCE); iron technology; Treaty of Kadesh (earliest known peace treaty); cuneiform."
+
+- id: elamite-civilization
+  rank: CulturalAge
+  parent: holocene
+  start: 3200
+  end: 539
+  unit: BCE
+  labels:
+    en: Elamite Civilization
+    sv: Elamitecivilisationen
+    ar: تمدن ایلام/Haltamti
+  description: "Major Mesopotamian contemporary in southwest Iran; Susa, Anshan; Proto-Elamite script; Chogha Zanbil ziggurat (UNESCO); language isolate; influenced Achaemenid culture."
+
+- id: mitanni
+  rank: CulturalAge
+  parent: holocene
+  start: 1550
+  end: 1260
+  unit: BCE
+  labels:
+    en: Mitanni Kingdom
+    sv: Kungariket Mitanni
+    ar: ميتاني
+  description: "Hurrian-speaking state in northern Syria/Anatolia with Indo-Aryan ruling elite; diplomatic peer of Egypt and Hittites; profoundly influenced Hittite religion."
+
+- id: urartu
+  rank: CulturalAge
+  parent: holocene
+  start: 860
+  end: 585
+  unit: BCE
+  labels:
+    en: Urartu / Kingdom of Van
+    sv: Urartu / Kingdom of Van
+  description: "Iron Age kingdom in Armenian highlands; rival to Assyria; founded Erebuni (modern Yerevan, 782 BCE); hydraulic engineering; biblical 'Ararat' cognate."
+
+- id: median-empire
+  rank: CulturalAge
+  parent: holocene
+  start: 678
+  end: 549
+  unit: BCE
+  labels:
+    en: Median Empire
+    sv: Medianriket
+    ar: مادها
+  description: "First Iranian empire; destroyed Assyrian Empire (Nineveh, 612 BCE) with Babylon; Ecbatana capital; predecessor to Achaemenid Persia."
+
+- id: achaemenid-empire
+  rank: CulturalAge
+  parent: holocene
+  start: 550
+  end: 330
+  unit: BCE
+  labels:
+    en: Achaemenid Persian Empire
+    sv: Akemenidiska Persien
+    ar: هخامنشیان
+  description: "Cyrus the Great, Darius I, Xerxes; largest empire to date; Persepolis; Royal Road; satrapy system; Zoroastrianism; defeated by Alexander."
+
+- id: seleucid-empire
+  rank: CulturalAge
+  parent: holocene
+  start: 312
+  end: 63
+  unit: BCE
+  labels:
+    en: Seleucid Empire
+    sv: Seleucidriket
+    ar: الإمبراطورية السلوقية
+  description: "Hellenistic successor state; Seleucus I; Antioch capital; Greek culture in Near East; Maccabean revolt; fragmented; fell to Rome and Parthia."
+
+- id: parthian-empire
+  rank: CulturalAge
+  parent: holocene
+  start: 247
+  end: 224
+  unit: BCE-CE
+  labels:
+    en: Parthian Empire
+    sv: Parthianriket
+    ar: "شاهنشاهی اشکانی Šāhanšāhī-ye Aškānī"
+  description: "Iranian Arsacid dynasty; rival to Rome; Silk Road trade; Ctesiphon capital; horse archers; Carrhae victory over Crassus (53 BCE)."
+
+- id: sasanian-empire
+  rank: CulturalAge
+  parent: holocene
+  start: 224
+  end: 651
+  unit: CE
+  labels:
+    en: Sasanian Empire
+    sv: Sasanianriket
+    ar: ساسانیان
+  description: "Last pre-Islamic Persian empire; Zoroastrian state religion; Ctesiphon arch; rivalry with Rome/Byzantium; chess, polo; Academy of Gondishapur."
+
+- id: islamic-golden-age
+  rank: CulturalAge
+  parent: holocene
+  start: 750
+  end: 1258
+  unit: CE
+  labels:
+    en: Islamic Golden Age
+    sv: Islams guldålder
+    ar: العصر الذهبي للإسلام
+  description: "Abbasid Caliphate; House of Wisdom (Baghdad); al-Khwarizmi (algebra); Ibn Sina (medicine); optics, chemistry, astronomy; translation movement; ended by Mongol sack of Baghdad."
+
+- id: rashidun-caliphate
+  rank: CulturalAge
+  parent: holocene
+  start: 632
+  end: 661
+  unit: CE
+  labels:
+    en: Rashidun Caliphate
+    sv: Rashidunkalifatet
+    ar: الخلافة الراشدة
+  description: "Four 'rightly guided' caliphs; Abu Bakr, Umar, Uthman, Ali; rapid Islamic expansion; conquest of Persia and Byzantine Levant; Quran compiled; Sunni-Shia split origins."
+
+- id: umayyad-caliphate
+  rank: CulturalAge
+  parent: holocene
+  start: 661
+  end: 750
+  unit: CE
+  labels:
+    en: Umayyad Caliphate
+    sv: Umayyadkalifatet
+    ar: الخلافة الأموية
+  description: "First hereditary Islamic dynasty; Damascus capital; expansion from Spain to Indus; Dome of the Rock; Great Mosque of Damascus; Arabic as administrative language."
+
+- id: abbasid-caliphate
+  rank: CulturalAge
+  parent: holocene
+  start: 750
+  end: 1258
+  unit: CE
+  labels:
+    en: Abbasid Caliphate
+    sv: Abbasidkalifatet
+    ar: الخلافة العباسية
+  description: "Baghdad founded (762); cosmopolitan capital; House of Wisdom; Paper from China; One Thousand and One Nights; fragmented after 10th century; Mongols destroy Baghdad (1258)."
+
+- id: fatimid-caliphate
+  rank: CulturalAge
+  parent: holocene
+  start: 909
+  end: 1171
+  unit: CE
+  labels:
+    en: Fatimid Caliphate
+    sv: Fatimidkalifatet
+    ar: "الخلافة الفاطمية al-Ḫilāfa al-Fāṭimiyya"
+  description: "Ismaili Shia caliphate; founded Cairo (969); Al-Azhar University; rival to Abbasids and Umayyads of Córdoba; cultural and scientific achievements."
+
+- id: seljuk-empire
+  rank: CulturalAge
+  parent: holocene
+  start: 1037
+  end: 1194
+  unit: CE
+  labels:
+    en: Seljuk Empire
+    sv: Seljukriket
+  description: "Turkic Sunni Muslim empire; Battle of Manzikert (1071, opened Anatolia); Nizam al-Mulk; madrasas; triggered First Crusade; Persian cultural patronage."
+
+- id: ayyubid-dynasty
+  rank: CulturalAge
+  parent: holocene
+  start: 1171
+  end: 1260
+  unit: CE
+  labels:
+    en: Ayyubid Dynasty
+    sv: Ayyubiddynastin
+    ar: الدولة الأيوبية
+  description: "Saladin (Salah ad-Din); recaptured Jerusalem (1187); Kurdish dynasty; Egypt and Syria; chivalric reputation; succeeded by Mamluks."
+
+- id: mamluk-sultanate
+  rank: CulturalAge
+  parent: holocene
+  start: 1250
+  end: 1517
+  unit: CE
+  labels:
+    en: Mamluk Sultanate
+    sv: Mamluksultanatet
+    ar: سلطنة المماليك
+  description: "Slave-soldier dynasty ruling Egypt and Syria; defeated Mongols at Ain Jalut (1260); Cairo cultural center; Mamluk architecture; fell to Ottomans."
+
+- id: ottoman-empire
+  rank: CulturalAge
+  parent: holocene
+  start: 1299
+  end: 1922
+  unit: CE
+  labels:
+    en: Ottoman Empire
+    sv: Osmanska riket
+    ar: الدولة العثمانية
+    tr: Osmanlı İmparatorluğu
+  description: "One of longest-lasting empires; Constantinople conquered (1453); Suleiman the Magnificent; three continents; millet system; Hagia Sophia mosque; 'Sick Man of Europe'; dissolved after WWI."
+
+- id: ottoman-golden-age
+  rank: CulturalAge
+  parent: ottoman-empire
+  start: 1453
+  end: 1566
+  unit: CE
+  labels:
+    en: Ottoman Golden Age
+    sv: Osmanska rikets guldålder
+  description: "Mehmed II to Suleiman; Constantinople/Istanbul capital; Topkapi Palace; Sinan (architect); legal reforms (Kanuni); naval dominance in Mediterranean."
+
+- id: safavid-iran
+  rank: CulturalAge
+  parent: holocene
+  start: 1501
+  end: 1736
+  unit: CE
+  labels:
+    en: Safavid Empire
+    sv: Safavidriket
+    ar: دولت صفویه
+  description: "Shia Islam as state religion of Iran; Isfahan ('half the world'); Shah Abbas I; Persian carpet golden age; rivalry with Ottomans and Mughals."
+
+- id: afsharid-dynasty
+  rank: CulturalAge
+  parent: holocene
+  start: 1736
+  end: 1796
+  unit: CE
+  labels:
+    en: Afsharid Dynasty
+    sv: Afshariddynastin
+    ar: افشاریان
+  description: "Nader Shah, 'last great Asiatic conqueror'; reunified Iran; invaded Mughal India (1739), looted Peacock Throne and Koh-i-Noor diamond."
+
+- id: zand-dynasty
+  rank: CulturalAge
+  parent: holocene
+  start: 1751
+  end: 1794
+  unit: CE
+  labels:
+    en: Zand Dynasty
+    sv: Zanddynastin
+    ar: زندیه
+  description: "Karim Khan Zand ('Advocate of the People'); Shiraz capital; Arg of Karim Khan; most humane Iranian ruler of Islamic era; Kurdish Lak origin."
+
+- id: qajar-dynasty
+  rank: CulturalAge
+  parent: holocene
+  start: 1789
+  end: 1925
+  unit: CE
+  labels:
+    en: Qajar Dynasty
+    sv: Qajardynastin
+    ar: "سلسله قاجار Silsile-ye Qājār"
+  description: "Iranian dynasty; Tehran capital; Constitutional Revolution (1906); oil concessions to Britain; modernization struggles; replaced by Pahlavi dynasty."
+
+- id: natufian
+  rank: CulturalAge
+  parent: holocene
+  start: 12500
+  end: 9500
+  unit: BCE
+  labels:
+    en: Natufian Culture
+    sv: Natufiankulturen
+    ar: الثقافة النطوفية
+  description: "Levantine Epipaleolithic culture; first sedentary or semi-sedentary settlements; wild cereal harvesting with sickle blades; Ain Mallaha (Eynan), Wadi en-Natuf; transition to agriculture; dog domestication."
+
+- id: gobekli-tepe
+  rank: CulturalAge
+  parent: holocene
+  start: 9500
+  end: 8000
+  unit: BCE
+  labels:
+    en: Göbekli Tepe
+    sv: Göbekli Tepe
+    ar: گۆبەکلی تەپە
+  description: "World's oldest known megalithic temple complex; T-shaped limestone pillars with animal reliefs; pre-agricultural ritual center; Şanlıurfa Province, Turkey; UNESCO World Heritage Site (2018); revolutionized Neolithic understanding."
+
+- id: ppna
+  rank: CulturalAge
+  parent: holocene
+  start: 10000
+  end: 8700
+  unit: BCE
+  labels:
+    en: "Pre-Pottery Neolithic A"
+    sv: "Pre-Pottery Neolithic A"
+    ar: العصر الحجري الحديث ما قبل الفخار أ
+  description: "Earliest Neolithic in the Levant; Jericho tower and wall; sedentary villages without pottery; wild and early domesticated cereals; skull cult; round houses; 'Neolithic Revolution' begins."
+
+- id: ppnb
+  rank: CulturalAge
+  parent: holocene
+  start: 8700
+  end: 6500
+  unit: BCE
+  labels:
+    en: "Pre-Pottery Neolithic B"
+    sv: "Pre-Pottery Neolithic B"
+    ar: العصر الحجري الحديث ما قبل الفخار ب
+  description: "Levantine Neolithic; rectangular multi-room houses; domesticated wheat, barley, sheep, goats, cattle; Ain Ghazal statues; Çayönü; long-distance obsidian trade; plaster skulls; population boom."
+
+- id: catalhoyuk
+  rank: CulturalAge
+  parent: holocene
+  start: 7500
+  end: 5700
+  unit: BCE
+  labels:
+    en: Çatalhöyük
+    sv: Çatalhöyük
+  description: "Neolithic proto-city in central Anatolia; ~3,000-8,000 inhabitants; roof-entry houses without streets; elaborate wall paintings and reliefs; Mother Goddess figurines; UNESCO World Heritage Site (2012); James Mellaart and Ian Hodder excavations."
+
+- id: dilmun
+  rank: CulturalAge
+  parent: holocene
+  start: 3000
+  end: 538
+  unit: BCE
+  labels:
+    en: Dilmun
+    sv: Dilmun
+    ar: دلمون
+  description: "Ancient civilization on Bahrain and eastern Arabia; major Sumerian trading partner; described in Epic of Gilgamesh as paradise; Barbar temples; Qal'at al-Bahrain (UNESCO); freshwater springs; royal burial mounds."
+
+- id: sabaean-kingdom
+  rank: CulturalAge
+  parent: holocene
+  start: 1000
+  end: 275
+  unit: BCE-CE
+  labels:
+    en: Sabaean Kingdom / Sheba
+    sv: Sabaean Kingdom / Sheba
+    ar: مملكة سبأ
+  description: "Dominant South Arabian kingdom; Ma'rib Great Dam; frankincense and myrrh trade ('Arabia Felix'); biblical Queen of Sheba; deity Almaqah."
+
+- id: himyarite-kingdom
+  rank: CulturalAge
+  parent: holocene
+  start: 110
+  end: 525
+  unit: BCE-CE
+  labels:
+    en: Himyarite Kingdom
+    sv: Kungariket Himyarite
+    ar: مملكة حمير
+  description: "Unified Yemen; royal conversion to Judaism (4th century); Zafar capital; fell to Aksumite-Byzantine alliance; critical pre-Islamic Arabian history."
+
+- id: nabataean-kingdom
+  rank: CulturalAge
+  parent: holocene
+  start: 168
+  end: 106
+  unit: BCE-CE
+  labels:
+    en: Nabataean Kingdom
+    sv: Kungariket Nabataean
+    ar: المملكة النبطية
+  description: "Arab kingdom centered on Petra (UNESCO); water engineering masters; controlled incense trade routes; Al-Khazneh; annexed by Rome as Arabia Petraea."
+
+- id: kingdom-of-armenia
+  rank: CulturalAge
+  parent: holocene
+  start: 331
+  end: 428
+  unit: BCE-CE
+  labels:
+    en: Kingdom of Armenia
+    sv: Kungariket Armenien
+    hy: Հայաստանի Թագավորություն
+  description: "Orontid, Artaxiad, Arsacid dynasties; Tigranes the Great; first nation to adopt Christianity (301 CE); bridge between Roman and Persian worlds."
+
+- id: cilician-armenia
+  rank: CulturalAge
+  parent: holocene
+  start: 1080
+  end: 1375
+  unit: CE
+  labels:
+    en: Cilician Armenia
+    sv: Kilikiska Armenien
+    hy: Կիլիկիա Հայոց Թագավորություն
+  description: "Armenian kingdom-in-exile; key Crusader ally; last Christian state in Levant; major trade hub (port of Ayas); fell to Mamluks 1375."
+
+- id: kingdom-of-georgia
+  rank: CulturalAge
+  parent: holocene
+  start: 1008
+  end: 1490
+  unit: CE
+  labels:
+    en: Kingdom of Georgia
+    sv: Kungariket Georgien
+    ka: საქართველოს სამეფო
+  description: "David IV the Builder and Queen Tamar; dominant Caucasian Christian power; pan-Caucasian empire; Shota Rustaveli's 'The Knight in the Panther's Skin'."
+
+- id: modern-middle-east
+  rank: CulturalAge
+  parent: contemporary
+  start: 1918
+  end: 0
+  unit: CE
+  labels:
+    en: Modern Middle East
+    sv: Moderna Mellanöstern
+    ar: الشرق الأوسط الحديث / خاورمیانه مدرن
+  description: "Ottoman collapse; Sykes-Picot; mandates; Israel founded (1948); oil economy; Arab-Israeli conflicts; Iranian Revolution (1979); Gulf Wars; Arab Spring."

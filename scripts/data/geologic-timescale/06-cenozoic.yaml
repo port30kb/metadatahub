@@ -1,0 +1,437 @@
+# Phanerozoic — Cenozoic Era & Periods
+
+- id: cenozoic
+  rank: Era
+  parent: phanerozoic
+  start: 66
+  end: 0
+  unit: Ma
+  labels:
+    en: Cenozoic
+    sv: Kenozoikum
+    grc: Καινός ζωή
+  description: "Age of Mammals; grasslands, primates, hominins; current era."
+
+- id: paleogene
+  rank: Period
+  parent: cenozoic
+  start: 66
+  end: 23.04
+  unit: Ma
+  labels:
+    en: Paleogene
+    sv: Paleogen
+    grc: παλαιός γένος
+  description: "Mammals diversify rapidly after K-Pg extinction; first primates."
+
+- id: paleocene
+  rank: Epoch
+  parent: paleogene
+  start: 66
+  end: 56
+  unit: Ma
+  labels:
+    en: Paleocene
+    sv: Paleocen
+    grc: παλαιός καινός
+  description: "Post-extinction recovery; mammals remain small but diversify."
+
+- id: danian
+  rank: Age
+  parent: paleocene
+  start: 66
+  end: 61.66
+  unit: Ma
+  labels:
+    en: Danian
+    sv: Danium
+    da: Danmark
+  description: "Earliest Cenozoic stage; mammals fill vacant ecological niches."
+
+- id: selandian
+  rank: Age
+  parent: paleocene
+  start: 61.66
+  end: 59.24
+  unit: Ma
+  labels:
+    en: Selandian
+    sv: Selandium
+    da: Sjælland
+  description: "Warm climates; early primate evolution."
+
+- id: thanetian
+  rank: Age
+  parent: paleocene
+  start: 59.24
+  end: 56
+  unit: Ma
+  labels:
+    en: Thanetian
+    sv: Thanetium
+  description: "Warming trend; diverse mammal faunas; London Clay formation. Named for Isle of Thanet, England."
+
+- id: eocene
+  rank: Epoch
+  parent: paleogene
+  start: 56
+  end: 33.9
+  unit: Ma
+  labels:
+    en: Eocene
+    sv: Eocen
+    grc: ἠώς καινός
+  description: "Warmest Cenozoic epoch; first modern mammal orders; early whales, horses, bats."
+
+- id: ypresian
+  rank: Age
+  parent: eocene
+  start: 56
+  end: 48.07
+  unit: Ma
+  labels:
+    en: Ypresian
+    sv: Ypresium
+    fr: Ypres
+    nl: Ieper
+  description: "Paleocene-Eocene Thermal Maximum (PETM); warmest global temperatures."
+
+- id: lutetian
+  rank: Age
+  parent: eocene
+  start: 48.07
+  end: 41.03
+  unit: Ma
+  labels:
+    en: Lutetian
+    sv: Lutetium (geologi)
+    fr: Paris
+    la: Lutetia
+  description: "Diversification of modern mammal families; early elephants."
+
+- id: bartonian
+  rank: Age
+  parent: eocene
+  start: 41.03
+  end: 37.71
+  unit: Ma
+  labels:
+    en: Bartonian
+    sv: Bartonium
+  description: "Gradual cooling begins; Antarctic ice sheet starts forming. Named for Barton-on-Sea, England."
+
+- id: priabonian
+  rank: Age
+  parent: eocene
+  start: 37.71
+  end: 33.9
+  unit: Ma
+  labels:
+    en: Priabonian
+    sv: Priabonium
+    it: Priabona
+  description: "Grande Coupure extinction event in Europe; dramatic cooling."
+
+- id: oligocene
+  rank: Epoch
+  parent: paleogene
+  start: 33.9
+  end: 23.04
+  unit: Ma
+  labels:
+    en: Oligocene
+    sv: Oligocen
+    grc: ὀλίγος καινός
+  description: "Cooler and drier; grasslands expand; modern mammal families establish."
+
+- id: rupelian
+  rank: Age
+  parent: oligocene
+  start: 33.9
+  end: 27.3
+  unit: Ma
+  labels:
+    en: Rupelian
+    sv: Rupelium
+    nl: Rupel
+  description: "Antarctic ice sheet permanent; global cooling continues."
+
+- id: chattian
+  rank: Age
+  parent: oligocene
+  start: 27.3
+  end: 23.04
+  unit: Ma
+  labels:
+    en: Chattian
+    sv: Chattium
+    de: Chatten
+  description: "Late Oligocene warming; first deer and pigs appear. Named for the Chatti Germanic tribe."
+
+- id: neogene
+  rank: Period
+  parent: cenozoic
+  start: 23.04
+  end: 2.58
+  unit: Ma
+  labels:
+    en: Neogene
+    sv: Neogen
+    grc: νέος γένος
+  description: "Grasslands dominate; great apes evolve; Isthmus of Panama forms."
+
+- id: miocene
+  rank: Epoch
+  parent: neogene
+  start: 23.04
+  end: 5.333
+  unit: Ma
+  labels:
+    en: Miocene
+    sv: Miocen
+    grc: μείων καινός
+  description: "Kelp forests, grasslands; diverse apes; Messinian salinity crisis."
+
+- id: aquitanian
+  rank: Age
+  parent: miocene
+  start: 23.04
+  end: 20.45
+  unit: Ma
+  labels:
+    en: Aquitanian
+    sv: Aquitanium
+    fr: Aquitaine
+  description: "Early Miocene; warm climates; diverse marine mammals."
+
+- id: burdigalian
+  rank: Age
+  parent: miocene
+  start: 20.45
+  end: 15.98
+  unit: Ma
+  labels:
+    en: Burdigalian
+    sv: Burdigalium
+    fr: Bordeaux
+    la: Burdigala
+  description: "Mountain building (Alps, Himalayas); first great apes."
+
+- id: langhian
+  rank: Age
+  parent: miocene
+  start: 15.98
+  end: 13.82
+  unit: Ma
+  labels:
+    en: Langhian
+    sv: Langhium
+    it: Langhe
+  description: "Mid-Miocene Climatic Optimum; widespread warmth."
+
+- id: serravallian
+  rank: Age
+  parent: miocene
+  start: 13.82
+  end: 11.63
+  unit: Ma
+  labels:
+    en: Serravallian
+    sv: Serravallium
+    it: Serravalle Scrivia
+  description: "Cooling resumes; East Antarctic ice sheet expands."
+
+- id: tortonian
+  rank: Age
+  parent: miocene
+  start: 11.63
+  end: 7.246
+  unit: Ma
+  labels:
+    en: Tortonian
+    sv: Tortonium
+    it: Tortona
+  description: "Mediterranean begins to close; hominoids disperse from Africa."
+
+- id: messinian
+  rank: Age
+  parent: miocene
+  start: 7.246
+  end: 5.333
+  unit: Ma
+  labels:
+    en: Messinian
+    sv: Messinium
+    it: Messina
+  description: "Messinian Salinity Crisis: Mediterranean nearly dries up."
+
+- id: pliocene
+  rank: Epoch
+  parent: neogene
+  start: 5.333
+  end: 2.58
+  unit: Ma
+  labels:
+    en: Pliocene
+    sv: Pliocen
+    grc: πλεῖον καινός
+  description: "Australopithecus; Arctic ice cap forms; Isthmus of Panama closes."
+
+- id: zanclean
+  rank: Age
+  parent: pliocene
+  start: 5.333
+  end: 3.6
+  unit: Ma
+  labels:
+    en: Zanclean
+    sv: Zancleum
+    grc: Ζάγκλη
+    it: Messina
+  description: "Zanclean flood refills Mediterranean; Australopithecus afarensis."
+
+- id: piacenzian
+  rank: Age
+  parent: pliocene
+  start: 3.6
+  end: 2.58
+  unit: Ma
+  labels:
+    en: Piacenzian
+    sv: Piacenzium
+    it: Piacenza
+  description: "Mid-Piacenzian Warm Period; early Homo?; Northern Hemisphere glaciation starts."
+
+- id: quaternary
+  rank: Period
+  parent: cenozoic
+  start: 2.58
+  end: 0
+  unit: Ma
+  labels:
+    en: Quaternary
+    sv: Kvartär
+    la: quaternarius
+  description: "Ice ages and interglacials; evolution and spread of Homo sapiens."
+
+- id: pleistocene
+  rank: Epoch
+  parent: quaternary
+  start: 2.58
+  end: 0.0117
+  unit: Ma
+  labels:
+    en: Pleistocene
+    sv: Pleistocen
+    grc: πλεῖστος καινός
+  description: "Repeated glaciations; megafauna; Homo erectus, Neanderthals, modern humans."
+
+- id: gelasian
+  rank: Age
+  parent: pleistocene
+  start: 2.58
+  end: 1.8
+  unit: Ma
+  labels:
+    en: Gelasian
+    sv: Gelasium
+    grc: γέλα
+  description: "Earliest Pleistocene; Northern Hemisphere glaciation intensifies; early Homo."
+
+- id: calabrian
+  rank: Age
+  parent: pleistocene
+  start: 1.8
+  end: 0.774
+  unit: Ma
+  labels:
+    en: Calabrian
+    sv: Calabrium
+    it: Calabria
+  description: "Homo erectus disperses out of Africa; Brunhes-Matuyama reversal at end."
+
+- id: chibanian
+  rank: Age
+  parent: pleistocene
+  start: 0.774
+  end: 0.129
+  unit: Ma
+  labels:
+    en: Chibanian
+    sv: Chibanium
+    ja: 千葉
+  description: "Homo heidelbergensis; Neanderthals evolve; major glacial cycles. Named for Chiba, Japan."
+
+- id: late-pleistocene
+  rank: Age
+  parent: pleistocene
+  start: 0.129
+  end: 0.0117
+  unit: Ma
+  labels:
+    en: Late Pleistocene
+    sv: Övre pleistocen
+    grc: πλεῖστος καινός
+  description: "Homo sapiens expands globally; Neanderthal extinction; Last Glacial Maximum."
+
+- id: holocene
+  rank: Epoch
+  parent: quaternary
+  start: 11700
+  end: 0
+  unit: BP
+  labels:
+    en: Holocene
+    sv: Holocen
+    grc: ὅλος καινός
+  description: "Current epoch; stable warm climate; rise of agriculture, civilization."
+
+- id: greenlandian
+  rank: Age
+  parent: holocene
+  start: 11700
+  end: 8200
+  unit: BP
+  labels:
+    en: Greenlandian
+    sv: Grönlandium
+    da: Grønland
+    kl: Kalaallit Nunaat
+  description: "Early Holocene; post-glacial warming; Mesolithic hunter-gatherers in Europe."
+
+- id: northgrippian
+  rank: Age
+  parent: holocene
+  start: 8200
+  end: 4200
+  unit: BP
+  labels:
+    en: Northgrippian
+    sv: Nordgrippium
+    da: "NorthGRIP, Grønland"
+  description: "Middle Holocene; 8.2 ka cold event; agriculture spreads through Europe."
+
+- id: meghalayan
+  rank: Age
+  parent: holocene
+  start: 4200
+  end: 0
+  unit: BP
+  labels:
+    en: Meghalayan
+    sv: Meghalayum
+    hi: मेघालय
+    kha: Ri Khasi
+  description: "Late Holocene; 4.2 ka drought; rise and fall of Bronze Age civilizations; present day; GSSP at Mawmluh Cave, Khasi Hills."
+
+- id: anthropocene
+  rank: Epoch
+  parent: quaternary
+  start: 1950
+  end: 0
+  unit: CE
+  labels:
+    en: Anthropocene (informal)
+    sv: Antropocen (informell)
+    grc: ἄνθρωπος καινός
+  description: "Proposed epoch marking dominant human influence on Earth systems; IUGS rejected formal ratification in March 2024; widely used informally in science and policy; proposed GSSP at Crawford Lake, Canada, based on nuclear fallout markers."

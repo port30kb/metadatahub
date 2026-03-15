@@ -1,0 +1,1025 @@
+# African Historical & Cultural Periods
+
+- id: africa-prehistoric
+  rank: CulturalAge
+  parent: holocene
+  start: 3300000
+  end: 3100
+  unit: BCE
+  labels:
+    en: Prehistoric Africa
+    sv: Förhistoriska Afrika
+  description: "Birthplace of Homo sapiens; earliest stone tools (Lomekwian ~3.3 Ma); earliest modern human behavior; rock art; Neolithic revolution in Sahara and Nile; transition to complex societies."
+
+- id: african-early-stone-age
+  rank: CulturalAge
+  parent: africa-prehistoric
+  start: 3300000
+  end: 300000
+  unit: BCE
+  labels:
+    en: African Early Stone Age
+    sv: Stenåldern
+  description: "Oldest stone tool traditions: Lomekwian (~3.3 Ma), Oldowan (~2.6 Ma, Homo habilis), Acheulean (~1.76 Ma, Homo erectus/heidelbergensis); hand axes; control of fire; covers c. 3.3 million to ~300,000 years ago. African archaeological periodization: ESA/MSA/LSA (distinct from European Paleolithic/Mesolithic/Neolithic framework)."
+
+- id: african-middle-stone-age
+  rank: CulturalAge
+  parent: africa-prehistoric
+  start: 300000
+  end: 30000
+  unit: BCE
+  labels:
+    en: African Middle Stone Age
+    sv: Stenåldern
+  description: "Emergence of Homo sapiens; Blombos Cave engravings (~75,000 BP); ochre use; shell beads; earliest evidence of symbolic thought and art."
+
+- id: african-later-stone-age
+  rank: CulturalAge
+  parent: africa-prehistoric
+  start: 50000
+  end: 2000
+  unit: BCE
+  labels:
+    en: African Later Stone Age
+    sv: Stenåldern
+  description: "Microlithic tools; bow and arrow; San rock art (southern Africa); population diversification; expansion across continent."
+
+- id: saharan-neolithic
+  rank: CulturalAge
+  parent: africa-prehistoric
+  start: 7500
+  end: 3500
+  unit: BCE
+  labels:
+    en: Saharan Neolithic
+    sv: Saharisk neolitikum
+  description: "African Humid Period; cattle pastoralism; rock art at Tassili n'Ajjer; pottery; lakeside settlements; desertification drives migration to Nile."
+
+- id: nile-predynastic
+  rank: CulturalAge
+  parent: africa-prehistoric
+  start: 5500
+  end: 3100
+  unit: BCE
+  labels:
+    en: Predynastic Nile Valley
+    sv: Predynastiska Nildalen
+    ar: "مصر ما قبل الأسرات Miṣr mā qabl al-usrāt"
+  description: "Badarian, Naqada I–III cultures; early agriculture; social stratification; Upper and Lower Egypt emerge; writing begins ~3200 BCE."
+
+- id: ancient-egypt
+  rank: CulturalAge
+  parent: holocene
+  start: 3100
+  end: 30
+  unit: BCE
+  labels:
+    en: Ancient Egypt
+    sv: Forntidens Egypten
+    ar: مصر القديمة
+    egy: Kemet
+  description: "One of the world's first civilizations; self-named km.t ('Black Land'); 3,000 years of pharaonic rule along the Nile; pyramids, hieroglyphs, monumental architecture."
+
+- id: egypt-early-dynastic
+  rank: CulturalAge
+  parent: ancient-egypt
+  start: 3100
+  end: 2686
+  unit: BCE
+  labels:
+    en: Early Dynastic Egypt
+    sv: Tidigt dynastiskt Egypten
+    ar: عصر الأسرات المبكر
+  description: "Unification of Upper and Lower Egypt; Narmer/Menes; Memphis as capital; First and Second Dynasties; development of hieroglyphic writing."
+
+- id: egypt-old-kingdom
+  rank: CulturalAge
+  parent: ancient-egypt
+  start: 2686
+  end: 2181
+  unit: BCE
+  labels:
+    en: Old Kingdom of Egypt
+    sv: Gamla riket
+    ar: "الدولة القديمة ad-Dawla al-Qadīma"
+  description: "Age of the Pyramids; Djoser's Step Pyramid; Great Pyramid of Giza (Khufu); Sphinx; centralized pharaonic power; 3rd–6th Dynasties."
+
+- id: egypt-first-intermediate
+  rank: CulturalAge
+  parent: ancient-egypt
+  start: 2181
+  end: 2055
+  unit: BCE
+  labels:
+    en: First Intermediate Period
+    sv: Första mellanperioden
+    ar: عصر الاضمحلال الأول
+  description: "Collapse of central authority; regional rulers; famine and social upheaval; 7th–11th Dynasties; Herakleopolis vs. Thebes."
+
+- id: egypt-middle-kingdom
+  rank: CulturalAge
+  parent: ancient-egypt
+  start: 2055
+  end: 1650
+  unit: BCE
+  labels:
+    en: Middle Kingdom of Egypt
+    sv: Mellersta riket
+    ar: "الدولة الوسطى ad-Dawla al-Wusṭā"
+  description: "Reunification under Mentuhotep II; classical Egyptian literature; Faiyum irrigation; trade with Nubia and Levant; 11th–13th Dynasties."
+
+- id: egypt-second-intermediate
+  rank: CulturalAge
+  parent: ancient-egypt
+  start: 1650
+  end: 1550
+  unit: BCE
+  labels:
+    en: Second Intermediate Period
+    sv: Andra mellanperioden
+  description: "Hyksos ('rulers of foreign lands') control Lower Egypt; introduce horse and chariot, composite bow; Theban resistance; 15th–17th Dynasties."
+
+- id: egypt-new-kingdom
+  rank: CulturalAge
+  parent: ancient-egypt
+  start: 1550
+  end: 1069
+  unit: BCE
+  labels:
+    en: New Kingdom of Egypt
+    sv: Nya riket
+    ar: "الدولة الحديثة ad-Dawla al-Ḥadītha"
+  description: "Egypt's golden age; Valley of the Kings; Hatshepsut, Thutmose III, Akhenaten, Tutankhamun, Ramesses II; empire from Nubia to Syria."
+
+- id: amarna-period
+  rank: CulturalAge
+  parent: egypt-new-kingdom
+  start: 1353
+  end: 1336
+  unit: BCE
+  labels:
+    en: Amarna Period
+    sv: Amarnaperioden
+    ar: "عصر العمارنة ʿAṣr al-ʿAmārna"
+  description: "Akhenaten's religious revolution; monotheistic Atenism; new capital Akhetaten (Amarna); Nefertiti; distinctive art style; reversed after his death."
+
+- id: ramesside-period
+  rank: CulturalAge
+  parent: egypt-new-kingdom
+  start: 1292
+  end: 1069
+  unit: BCE
+  labels:
+    en: Ramesside Period
+    sv: Ramessidetiden
+    ar: "عصر الرعامسة ʿAṣr ar-Raʿāmisa"
+  description: "19th–20th Dynasties; Ramesses II (Battle of Kadesh, Abu Simbel); Sea Peoples invasions; gradual decline of Egyptian power."
+
+- id: egypt-third-intermediate
+  rank: CulturalAge
+  parent: ancient-egypt
+  start: 1069
+  end: 664
+  unit: BCE
+  labels:
+    en: Third Intermediate Period
+    sv: Tredje mellanperioden
+    ar: عصر الاضمحلال الثالث
+  description: "Fragmentation; Libyan and Nubian pharaohs; Shoshenq I (biblical Shishak); Theban high priests; 21st–25th Dynasties."
+
+- id: egypt-late-period
+  rank: CulturalAge
+  parent: ancient-egypt
+  start: 664
+  end: 332
+  unit: BCE
+  labels:
+    en: Late Period of Egypt
+    sv: Senperioden
+    ar: "العصر المتأخر al-ʿAṣr al-Mutaʾakhkhir"
+  description: "Saite Renaissance (26th Dynasty); Persian conquests (27th, 31st Dynasties); last native dynasties; Nectanebo II last Egyptian pharaoh."
+
+- id: ptolemaic-egypt
+  rank: CulturalAge
+  parent: ancient-egypt
+  start: 332
+  end: 30
+  unit: BCE
+  labels:
+    en: Ptolemaic Egypt
+    sv: Ptolemeiska Egypten
+    ar: مصر البطلمية
+  description: "Alexander conquers Egypt (332 BCE); Ptolemaic dynasty; Library of Alexandria; Rosetta Stone; Cleopatra VII; annexed by Rome (30 BCE)."
+
+- id: nubia-kush
+  rank: CulturalAge
+  parent: holocene
+  start: 2500
+  end: 350
+  unit: BCE-CE
+  labels:
+    en: Nubian and Kushite Civilizations
+    sv: Nubiska och kushitiska civilisationer
+    ar: الحضارة النوبية والكوشية
+  description: "Civilizations along Upper Nile (modern Sudan); rivals and successors of Egypt; pyramids of Meroë; iron production; distinct art and religion."
+
+- id: kerma-culture
+  rank: CulturalAge
+  parent: nubia-kush
+  start: 2500
+  end: 1500
+  unit: BCE
+  labels:
+    en: Kingdom of Kerma
+    sv: Kungariket Kerma
+    ar: مملكة كرمة
+  description: "First major Nubian kingdom; capital at Kerma; monumental deffufas (mud-brick temples); wealthy burials; rival to Egyptian Middle Kingdom."
+
+- id: kingdom-kush
+  rank: CulturalAge
+  parent: nubia-kush
+  start: 1070
+  end: 300
+  unit: BCE
+  labels:
+    en: Kingdom of Kush
+    sv: Kungariket Kush
+  description: "Napata capital; 25th Dynasty pharaohs rule Egypt (Piye, Taharqa ~700 BCE); expelled by Assyrians; capital shifts to Meroe ~300 BCE."
+
+- id: meroe
+  rank: CulturalAge
+  parent: nubia-kush
+  start: 270
+  end: 350
+  unit: BCE-CE
+  labels:
+    en: Meroitic Period
+    sv: Meroiticperioden
+    ar: الفترة المروية
+  description: "Capital moves to Meroë; iron smelting center; Meroitic script (deciphered, but language only partially understood); over 200 pyramids; Kandake (queen) warriors; trade with Rome."
+
+- id: land-of-punt
+  rank: CulturalAge
+  parent: holocene
+  start: 2500
+  end: 1000
+  unit: BCE
+  labels:
+    en: Land of Punt
+    sv: Landet Punt
+    ar: أرض بونت Arḍ Būnt
+  description: "Legendary trading partner of Egypt; source of incense, gold, ebony; Hatshepsut's expedition (~1470 BCE); location debated (Eritrea/Somalia/Djibouti)."
+
+- id: daamt
+  rank: CulturalAge
+  parent: holocene
+  start: 980
+  end: 400
+  unit: BCE
+  labels:
+    en: "Kingdom of D'mt"
+    sv: "Kungariket D'mt"
+  description: "Early kingdom in Eritrea/northern Ethiopia; Sabaean cultural influences; Yeha temple; precursor to Aksumite civilization."
+
+- id: aksum
+  rank: CulturalAge
+  parent: holocene
+  start: 100
+  end: 940
+  unit: CE
+  labels:
+    en: Kingdom of Aksum
+    sv: Kungariket Aksum
+    am: መንግሥተ አክሱም
+  description: "Major trading empire; Adulis port; obelisks of Aksum; adopted Christianity (~330 CE, King Ezana); Ge'ez script; one of the 'four great empires' of antiquity."
+
+- id: zagwe-dynasty
+  rank: CulturalAge
+  parent: holocene
+  start: 1137
+  end: 1270
+  unit: CE
+  labels:
+    en: Zagwe Dynasty
+    sv: Zagwedynastin
+    am: ዛጉዌ ሥርወ መንግሥት
+  description: "Ethiopian highland dynasty; rock-hewn churches of Lalibela (UNESCO); Christian kingdom; succeeded Aksumite decline."
+
+- id: solomonic-dynasty
+  rank: CulturalAge
+  parent: holocene
+  start: 1270
+  end: 1974
+  unit: CE
+  labels:
+    en: Solomonic Dynasty
+    sv: Salomoniska dynastin
+    am: የሰለሞን ሥርወ መንግሥት
+  description: "Ethiopian ruling dynasty claiming descent from Solomon and Sheba; Kebra Nagast; Prester John legends; Gondar castles; Haile Selassie last emperor."
+
+- id: west-africa-ancient
+  rank: CulturalAge
+  parent: holocene
+  start: 1000
+  end: 1900
+  unit: BCE-CE
+  labels:
+    en: Ancient West African Civilizations
+    sv: Forntida västafrikanska civilisationer
+  description: "Trans-Saharan trade; gold, salt, slaves; powerful empires and kingdoms; Islam spreads from 8th century; rich oral traditions and art."
+
+- id: nok-culture
+  rank: CulturalAge
+  parent: west-africa-ancient
+  start: 1000
+  end: 300
+  unit: BCE-CE
+  labels:
+    en: Nok Culture
+    sv: Nokkulturen
+  description: "Central Nigeria; earliest known sub-Saharan terracotta sculptures; early iron smelting in West Africa; agricultural communities."
+
+- id: ghana-empire
+  rank: CulturalAge
+  parent: west-africa-ancient
+  start: 300
+  end: 1200
+  unit: CE
+  labels:
+    en: Ghana Empire
+    sv: Ghanariket
+    snk: Wagadu
+  description: "First great West African empire; gold-salt trade; Koumbi Saleh capital; 'Land of Gold'; Soninke people; weakened by Almoravids (~1076)."
+
+- id: mali-empire
+  rank: CulturalAge
+  parent: west-africa-ancient
+  start: 1235
+  end: 1600
+  unit: CE
+  labels:
+    en: Mali Empire
+    sv: Maliriket
+    mnk: Manden Kurufaba
+  description: "Founded by Sundiata Keita; Mansa Musa's pilgrimage to Mecca (1324, richest person ever); Timbuktu university; Manding Charter."
+
+- id: songhai-empire
+  rank: CulturalAge
+  parent: west-africa-ancient
+  start: 1464
+  end: 1591
+  unit: CE
+  labels:
+    en: Songhai Empire
+    sv: Songhayriket
+    son: Songhay
+  description: "Largest empire in African history; Sunni Ali, Askia Muhammad; Timbuktu, Djenné; conquered by Moroccan invasion (1591)."
+
+- id: kanem-bornu
+  rank: CulturalAge
+  parent: west-africa-ancient
+  start: 700
+  end: 1900
+  unit: CE
+  labels:
+    en: "Kanem-Bornu Empire"
+    sv: "Kanem-Bornu Empire"
+  description: "Lake Chad basin; one of longest-lasting African empires (~1,100 years); Sayfawa dynasty; trans-Saharan trade; Islam from 11th century."
+
+- id: benin-kingdom
+  rank: CulturalAge
+  parent: west-africa-ancient
+  start: 1180
+  end: 1897
+  unit: CE
+  labels:
+    en: Kingdom of Benin
+    sv: Kungariket Benin
+    bin: "Ọba N'Ẹdó"
+  description: "Edo people, southern Nigeria; Benin Bronzes (sophisticated lost-wax casting); Oba rulers; city walls; destroyed by British punitive expedition (1897)."
+
+- id: oyo-empire
+  rank: CulturalAge
+  parent: west-africa-ancient
+  start: 1400
+  end: 1896
+  unit: CE
+  labels:
+    en: Oyo Empire
+    sv: Oyoriket
+    yo: Ilú Ọ̀yọ́
+  description: "Yoruba empire; powerful cavalry; Alaafin rulers; Atlantic trade; Oyo ile capital; influenced Yoruba diaspora culture in Americas."
+
+- id: ashanti-empire
+  rank: CulturalAge
+  parent: west-africa-ancient
+  start: 1701
+  end: 1902
+  unit: CE
+  labels:
+    en: Ashanti Empire
+    sv: Ashantiimperiet
+    ak: Asanteman
+  description: "Akan people, modern Ghana; Golden Stool; Osei Tutu I; gold trade; kente cloth; resisted British colonization; Anglo-Ashanti Wars."
+
+- id: jolof-empire
+  rank: CulturalAge
+  parent: west-africa-ancient
+  start: 1350
+  end: 1549
+  unit: CE
+  labels:
+    en: Jolof Empire
+    sv: Jolofriket
+  description: "Wolof confederacy in Senegal; former Mali vassal; major early Atlantic slave trade participant; dissolved at Battle of Danki (1549)."
+
+- id: kingdom-of-dahomey
+  rank: CulturalAge
+  parent: west-africa-ancient
+  start: 1600
+  end: 1904
+  unit: CE
+  labels:
+    en: Kingdom of Dahomey
+    sv: Kungariket Dahomey
+  description: "Fon people, modern Benin; Dahomey Amazons (Mino) all-female regiment; Vodun religion origin; major slave-trading state; fell to French 1892."
+
+- id: mossi-kingdoms
+  rank: CulturalAge
+  parent: west-africa-ancient
+  start: 1050
+  end: 1896
+  unit: CE
+  labels:
+    en: Mossi Kingdoms
+    sv: Mossikungarikena
+  description: "Upper Volta (Burkina Faso); Mogho Naaba supreme ruler; raided Timbuktu (1329); resisted Islamization; largest ethnic group in Burkina Faso today."
+
+- id: hausa-city-states
+  rank: CulturalAge
+  parent: west-africa-ancient
+  start: 1000
+  end: 1808
+  unit: CE
+  labels:
+    en: "Hausa City-States"
+    sv: Hausa stadsstater
+  description: "Northern Nigeria/Niger; Kano, Katsina, Zaria; trans-Saharan trade hubs; indigo-dyed cloth; Islamic learning; conquered by Fulani jihad (1804)."
+
+- id: sokoto-caliphate
+  rank: CulturalAge
+  parent: west-africa-ancient
+  start: 1804
+  end: 1903
+  unit: CE
+  labels:
+    en: Sokoto Caliphate
+    sv: Sokotokalifatet
+    ar: خلافة صكتو Ḫilāfat Sokoto
+  description: "Fulani jihad led by Usman dan Fodio; largest state in 19th-century Africa; Islamic scholarship; conquered by British (1903)."
+
+- id: timbuktu-golden-age
+  rank: CulturalAge
+  parent: mali-empire
+  start: 1300
+  end: 1600
+  unit: CE
+  labels:
+    en: Golden Age of Timbuktu
+    sv: Timbuktus guldålder
+    fr: "Âge d'or de Tombouctou"
+  description: "Major intellectual center; Sankore University; 100,000+ manuscripts; Islamic scholarship; Ahmed Baba; gold-salt trade crossroads."
+
+- id: ife-kingdom
+  rank: CulturalAge
+  parent: west-africa-ancient
+  start: 1000
+  end: 1420
+  unit: CE
+  labels:
+    en: Kingdom of Ifẹ̀
+    sv: Kungariket Ifẹ̀
+  description: "Sacred Yoruba city; naturalistic bronze and terracotta portrait heads (among finest art in world history); Ooni rulers; spiritual capital of all Yoruba people; influenced Benin Kingdom art tradition; Ife bronzes predate European Renaissance."
+
+- id: swahili-coast
+  rank: CulturalAge
+  parent: holocene
+  start: 100
+  end: 1500
+  unit: CE
+  labels:
+    en: Swahili Coast Civilization
+    sv: Swahilikustens civilisation
+  description: "Indian Ocean trading cities; Kilwa, Mombasa, Zanzibar, Mogadishu; Swahili language (Bantu with Arabic loanwords); stone towns; gold, ivory, spice trade."
+
+- id: kilwa-sultanate
+  rank: CulturalAge
+  parent: swahili-coast
+  start: 960
+  end: 1513
+  unit: CE
+  labels:
+    en: Kilwa Sultanate
+    sv: Kilwasultanatet
+  description: "Wealthiest Swahili city-state; controlled gold trade from Great Zimbabwe; Great Mosque of Kilwa; copper coins; sacked by Portuguese (1505)."
+
+- id: great-zimbabwe
+  rank: CulturalAge
+  parent: holocene
+  start: 1100
+  end: 1450
+  unit: CE
+  labels:
+    en: Great Zimbabwe
+    sv: Stora Zimbabwe
+    sn: Dzimba dza mabwe
+  description: "Largest stone structure in sub-Saharan Africa; name means 'houses of stone' in Shona; Great Enclosure; gold trade; ~18,000 inhabitants; inspired modern Zimbabwe's name."
+
+- id: mutapa-empire
+  rank: CulturalAge
+  parent: holocene
+  start: 1430
+  end: 1760
+  unit: CE
+  labels:
+    en: Kingdom of Mutapa
+    sv: Kungariket Mutapa
+  description: "Successor to Great Zimbabwe; controlled gold-producing region; Shona; Portuguese trade and interference; 'emperor of gold mines'."
+
+- id: buganda-kingdom
+  rank: CulturalAge
+  parent: holocene
+  start: 1300
+  end: 1966
+  unit: CE
+  labels:
+    en: Kingdom of Buganda
+    sv: Kungariket Buganda
+  description: "Central Uganda; Lake Victoria; Kabaka rulers; sophisticated political system; resisted and then accommodated British; integral to modern Uganda."
+
+- id: zanzibar-sultanate
+  rank: CulturalAge
+  parent: holocene
+  start: 1856
+  end: 1964
+  unit: CE
+  labels:
+    en: Zanzibar Sultanate
+    sv: Zanzibarsultanatet
+  description: "Independent from Oman after Said bin Sultan's death (1856); dominated East African slave trade; world's leading clove producer; Anglo-Zanzibar War (38 min); merged into Tanzania."
+
+- id: bunyoro-kitara
+  rank: CulturalAge
+  parent: holocene
+  start: 1300
+  end: 1899
+  unit: CE
+  labels:
+    en: "Bunyoro-Kitara Empire"
+    sv: "Bunyoro-Kitarariket"
+  description: "Successor to legendary Chwezi Empire; Babiito dynasty; one of most powerful Great Lakes kingdoms; Omukama Kabalega resisted British; restored 1993."
+
+- id: adal-sultanate
+  rank: CulturalAge
+  parent: holocene
+  start: 1415
+  end: 1577
+  unit: CE
+  labels:
+    en: Adal Sultanate
+    sv: Adalsultanatet
+    ar: سلطنة عدل Salṭanat ʿAdal
+  description: "Somali-Harari Islamic state; Imam Ahmad ibn Ibrahim al-Ghazi's jihad conquered vast Ethiopian territory (1529); controlled parts of Somalia, Ethiopia, Djibouti."
+
+- id: ajuran-sultanate
+  rank: CulturalAge
+  parent: holocene
+  start: 1200
+  end: 1700
+  unit: CE
+  labels:
+    en: Ajuran Sultanate
+    sv: Ajuransultanatet
+  description: "Africa's only known hydraulic empire; monopolized Shebelle/Jubba rivers; Indian Ocean trade; repelled Portuguese; limestone wells still in use today."
+
+- id: mapungubwe
+  rank: CulturalAge
+  parent: holocene
+  start: 1075
+  end: 1220
+  unit: CE
+  labels:
+    en: Kingdom of Mapungubwe
+    sv: Kungariket Mapungubwe
+  description: "First major southern African kingdom; gold trade; distinctive golden rhinoceros; social stratification; predecessor to Great Zimbabwe; UNESCO site."
+
+- id: zulu-kingdom
+  rank: CulturalAge
+  parent: holocene
+  start: 1816
+  end: 1897
+  unit: CE
+  labels:
+    en: Zulu Kingdom
+    sv: Zulukungadömet
+    zu: uMbuso kaZulu
+  description: "Founded by Shaka Zulu; revolutionary military tactics (iklwa spear, impi regiments); Mfecane/Difaqane upheaval; Anglo-Zulu War (1879, Isandlwana)."
+
+- id: mfecane
+  rank: CulturalAge
+  parent: holocene
+  start: 1815
+  end: 1840
+  unit: CE
+  labels:
+    en: Mfecane/Difaqane
+    sv: Mfecane
+  description: "Period of widespread chaos and migration in southern Africa; triggered by Zulu expansion; Ndebele, Swazi, Sotho, Nguni states formed."
+
+- id: rozwi-empire
+  rank: CulturalAge
+  parent: holocene
+  start: 1684
+  end: 1834
+  unit: CE
+  labels:
+    en: Rozwi Empire
+    sv: Rozwiriket
+  description: "Shona state; Changamire Dombo expelled Portuguese from Zambezi; revived monumental stone architecture; fell to Ndebele during Mfecane."
+
+- id: ndebele-kingdom
+  rank: CulturalAge
+  parent: holocene
+  start: 1823
+  end: 1894
+  unit: CE
+  labels:
+    en: Ndebele Kingdom
+    sv: Kungariket Ndebele
+  description: "Founded by Mzilikazi, former Shaka lieutenant; crossed Limpopo to Matabeleland; Lobengula; fell to British South Africa Company (1893)."
+
+- id: basotho-kingdom
+  rank: CulturalAge
+  parent: holocene
+  start: 1822
+  end: 1966
+  unit: CE
+  labels:
+    en: Basotho Kingdom
+    sv: Kungariket Basotho
+  description: "Moshoeshoe I united Mfecane refugees; Thaba Bosiu stronghold; defeated British at Viervoet and Berea; secured British protection 1868; independent 1966."
+
+- id: maravi-confederacy
+  rank: CulturalAge
+  parent: holocene
+  start: 1480
+  end: 1720
+  unit: CE
+  labels:
+    en: Maravi Confederacy
+    sv: Maravikonfederationen
+  description: "Namesake of modern Malawi; Kalonga rulers from Mankhamba; ivory and iron trade with Swahili and Portuguese; Zimba raiders."
+
+- id: khoisan-pastoral
+  rank: CulturalAge
+  parent: africa-prehistoric
+  start: 2000
+  end: 1652
+  unit: BCE-CE
+  labels:
+    en: Khoisan Pastoral Period
+    sv: "Khoisan-pastorala perioden"
+  description: "Khoikhoi pastoralists and San hunter-gatherers; southern Africa; earliest inhabitants; click languages; rock art tradition spanning millennia."
+
+- id: bantu-expansion
+  rank: CulturalAge
+  parent: holocene
+  start: 1000
+  end: 500
+  unit: BCE-CE
+  labels:
+    en: Bantu Expansion
+    sv: Bantuexpansionen
+  description: "One of the largest migrations in human history; Bantu-speaking peoples spread from Cameroon/Nigeria across central, eastern, and southern Africa; iron, agriculture, languages."
+
+- id: kongo-kingdom
+  rank: CulturalAge
+  parent: holocene
+  start: 1390
+  end: 1914
+  unit: CE
+  labels:
+    en: Kingdom of Kongo
+    sv: Kungariket Kongo
+    kg: Wene wa Kongo
+  description: "Central Africa (modern Angola, DRC, Congo); Mbanza Kongo capital; early contact with Portugal (1483); conversion to Christianity; Atlantic slave trade devastation."
+
+- id: luba-kingdom
+  rank: CulturalAge
+  parent: holocene
+  start: 1585
+  end: 1889
+  unit: CE
+  labels:
+    en: Luba Kingdom
+    sv: Kungariket Luba
+  description: "Central Congo basin; sophisticated governance (balopwe sacred kingship); memory boards (lukasa); influence on Lunda and other kingdoms."
+
+- id: lunda-empire
+  rank: CulturalAge
+  parent: holocene
+  start: 1665
+  end: 1887
+  unit: CE
+  labels:
+    en: Lunda Empire
+    sv: Lundariket
+  description: "Offshoot of Luba; vast territory across central-southern Africa; long-distance trade; influenced political systems across a wide region."
+
+- id: kingdom-of-rwanda
+  rank: CulturalAge
+  parent: holocene
+  start: 1500
+  end: 1961
+  unit: CE
+  labels:
+    en: Kingdom of Rwanda
+    sv: Kungariket Rwanda
+  description: "Most centralized Great Lakes kingdom; divine Mwami; Kigeri IV Rwabugiri expanded beyond modern borders; colonial Belgium racialized Hutu-Tutsi; monarchy abolished 1961."
+
+- id: kingdom-of-burundi
+  rank: CulturalAge
+  parent: holocene
+  start: 1680
+  end: 1966
+  unit: CE
+  labels:
+    en: Kingdom of Burundi
+    sv: Kungariket Burundi
+  description: "Ganwa royal dynasty (neither Hutu nor Tutsi); Mwezi IV Gisabo resisted Germans; direct territorial continuation of pre-colonial state; monarchy ended by coup 1966."
+
+- id: merina-kingdom
+  rank: CulturalAge
+  parent: holocene
+  start: 1540
+  end: 1897
+  unit: CE
+  labels:
+    en: Merina Kingdom
+    sv: Merinariket
+    mg: "Fanjakan'Imerina"
+  description: "Dominated Madagascar; Andrianampoinimerina unified kingdom; Radama I gained British recognition; Antananarivo capital; fell to French colonization 1895-97."
+
+- id: funj-sultanate
+  rank: CulturalAge
+  parent: holocene
+  start: 1504
+  end: 1821
+  unit: CE
+  labels:
+    en: Funj Sultanate of Sennar
+    sv: Funjsultanatet i Sennar
+    ar: سلطنة سنار
+  description: "Blue Sultanate; 300+ years; central to Islamization of Sudan; defeated Ottomans at Hannik (1585); major trading city; fell to Muhammad Ali's Egypt 1821."
+
+- id: darfur-sultanate
+  rank: CulturalAge
+  parent: holocene
+  start: 1603
+  end: 1916
+  unit: CE
+  labels:
+    en: Sultanate of Darfur
+    sv: Sultanatet Darfur
+    ar: سلطنة دارفور
+  description: "Keira dynasty; Islam state religion; Darb al-Arba'in trade route to Egypt; nearly twice the size of France at peak; colonial neglect root of modern conflict."
+
+- id: north-africa-islamic
+  rank: CulturalAge
+  parent: holocene
+  start: 647
+  end: 1830
+  unit: CE
+  labels:
+    en: Islamic North Africa
+    sv: Islamiskt Nordafrika
+    ar: شمال أفريقيا الإسلامي
+  description: "Arab conquest of the Maghreb; Berber dynasties; al-Andalus connections; Fatimids, Almohads, Marinids, Hafsids, Ottomans."
+
+- id: umayyad-maghreb
+  rank: CulturalAge
+  parent: north-africa-islamic
+  start: 647
+  end: 750
+  unit: CE
+  labels:
+    en: Umayyad Conquest of the Maghreb
+    sv: Umayyadernas erövring av Maghreb
+    ar: الفتح الأموي للمغرب
+  description: "Arab armies conquer North Africa; fall of Carthage (698); Berber resistance (Kahina); springboard for conquest of Iberia (711)."
+
+- id: almoravid
+  rank: CulturalAge
+  parent: north-africa-islamic
+  start: 1040
+  end: 1147
+  unit: CE
+  labels:
+    en: Almoravid Dynasty
+    sv: Almoraviddynastin
+    ar: "المرابطون al-Murābiṭūn"
+  description: "Berber dynasty from Sahara; conquered Morocco, western Algeria, al-Andalus; Marrakech founded (1070); trans-Saharan gold trade."
+
+- id: almohad
+  rank: CulturalAge
+  parent: north-africa-islamic
+  start: 1121
+  end: 1269
+  unit: CE
+  labels:
+    en: Almohad Caliphate
+    sv: Almohadkalifatet
+    ar: "الموحدون al-Muwaḥḥidūn"
+  description: "Berber reformist dynasty; largest Berber empire; Koutoubia Mosque, Giralda; controlled Maghreb and al-Andalus; defeated at Las Navas de Tolosa (1212)."
+
+- id: fatimid-caliphate-africa
+  rank: CulturalAge
+  parent: north-africa-islamic
+  start: 909
+  end: 1171
+  unit: CE
+  labels:
+    en: Fatimid Caliphate
+    sv: Fatimidkalifatet
+  description: "Ismaili Shia caliphate; founded in Tunisia; conquered Egypt, founded Cairo (969); Al-Azhar University; rivaled Abbasid Baghdad."
+
+- id: vandal-kingdom
+  rank: CulturalAge
+  parent: holocene
+  start: 429
+  end: 534
+  unit: CE
+  labels:
+    en: Vandal Kingdom
+    sv: Kungariket Vandal
+  description: "Germanic kingdom in North Africa; Gaiseric captured Carthage (439); sacked Rome (455); controlled Tunisia, Sardinia, Corsica; defeated by Belisarius 534."
+
+- id: idrisid-dynasty
+  rank: CulturalAge
+  parent: north-africa-islamic
+  start: 788
+  end: 974
+  unit: CE
+  labels:
+    en: Idrisid Dynasty
+    sv: Idrisiddynastin
+    ar: الأدارسة
+  description: "Morocco's first independent Islamic dynasty; descendant of Prophet Muhammad; son Idris II founded Fez (808); Al-Qarawiyyin (oldest university); Sharifian precedent."
+
+- id: marinid-dynasty
+  rank: CulturalAge
+  parent: north-africa-islamic
+  start: 1244
+  end: 1465
+  unit: CE
+  labels:
+    en: Marinid Dynasty
+    sv: Mariniddynastin
+    ar: المرينيون
+  description: "Zenata Berbers; Fez golden age; Morocco's first madrasas; Ibn Khaldun and Ibn Battuta products of this milieu; defeated at Rio Salado (1340)."
+
+- id: hafsid-dynasty
+  rank: CulturalAge
+  parent: north-africa-islamic
+  start: 1229
+  end: 1574
+  unit: CE
+  labels:
+    en: Hafsid Dynasty
+    sv: Hafsiddynastin
+    ar: الحفصيون
+  description: "Ruled Ifriqiya (Tunisia, Libya, Algeria) 345 years; al-Mustansir proclaimed Caliph after Mongol sack of Baghdad; fell to Ottomans 1574."
+
+- id: barbary-states
+  rank: CulturalAge
+  parent: north-africa-islamic
+  start: 1516
+  end: 1830
+  unit: CE
+  labels:
+    en: Barbary States
+    sv: Barbareskstaterna
+    ar: إيالات بربرية
+  description: "Ottoman-aligned North African regencies; Algiers, Tunis, Tripoli; corsair piracy; Barbary Wars with U.S.; French conquest of Algiers (1830)."
+
+- id: scramble-for-africa
+  rank: CulturalAge
+  parent: modern-period
+  start: 1881
+  end: 1914
+  unit: CE
+  labels:
+    en: Scramble for Africa
+    sv: Kapplöpningen om Afrika
+  description: "European partition of Africa; Berlin Conference (1884-85); only Ethiopia and Liberia remain independent; arbitrary borders; exploitation of resources and peoples."
+
+- id: colonial-africa
+  rank: CulturalAge
+  parent: modern-period
+  start: 1884
+  end: 1966
+  unit: CE
+  labels:
+    en: Colonial Africa
+    sv: Koloniala Afrika
+  description: "European colonial rule; British, French, Portuguese, Belgian, German, Italian, Spanish territories; extraction economies; forced labor; resistance movements."
+
+- id: atlantic-slave-trade
+  rank: CulturalAge
+  parent: holocene
+  start: 1501
+  end: 1867
+  unit: CE
+  labels:
+    en: Atlantic Slave Trade
+    sv: Atlantiska slavhandeln
+    ar: تجارة الرقيق عبر الأطلسي
+  description: "Forced transportation of ~12.5 million Africans to the Americas; devastating demographic and social impact; abolished progressively through 19th century."
+
+- id: congo-free-state
+  rank: CulturalAge
+  parent: colonial-africa
+  start: 1885
+  end: 1908
+  unit: CE
+  labels:
+    en: Congo Free State
+    sv: Fristaten Kongo
+  description: "Personal colony of Leopold II of Belgium; rubber terror; forced labor; hand amputations; estimated 1-10 million dead; international outcry."
+
+- id: mau-mau-uprising
+  rank: CulturalAge
+  parent: colonial-africa
+  start: 1952
+  end: 1960
+  unit: CE
+  labels:
+    en: Mau Mau Uprising
+    sv: "Mau Mau-upproret"
+  description: "Kikuyu-led rebellion against British rule in Kenya; detention camps; Jomo Kenyatta; catalyst for Kenyan independence (1963)."
+
+- id: african-independence
+  rank: CulturalAge
+  parent: contemporary
+  start: 1951
+  end: 1994
+  unit: CE
+  labels:
+    en: African Independence Movements
+    sv: Afrikanska självständighetsrörelserna
+  description: "Wave of decolonization; Ghana first sub-Saharan (1957, Nkrumah); Year of Africa (1960, 17 nations); last: South Africa apartheid ends (1994)."
+
+- id: pan-africanism
+  rank: CulturalAge
+  parent: modern-period
+  start: 1900
+  end: 1963
+  unit: CE
+  labels:
+    en: "Pan-African Movement"
+    sv: Panafrikanska rörelsen
+  description: "Du Bois, Garvey, Nkrumah, Nyerere; Pan-African Congresses; négritude; Organization of African Unity founded (1963); African unity ideology."
+
+- id: apartheid
+  rank: CulturalAge
+  parent: contemporary
+  start: 1948
+  end: 1994
+  unit: CE
+  labels:
+    en: Apartheid South Africa
+    sv: Apartheid
+  description: "Institutionalized racial segregation; ANC resistance; Sharpeville (1960); Soweto (1976); Mandela imprisoned 27 years; free elections 1994."
+
+- id: rwandan-genocide
+  rank: CulturalAge
+  parent: contemporary
+  start: 1994
+  end: 1994
+  unit: CE
+  labels:
+    en: Rwandan Genocide
+    sv: Folkmordet i Rwanda
+  description: "~800,000 Tutsi and moderate Hutu killed in 100 days; international failure to intervene; RPF ends genocide; Gacaca justice; reconciliation."
+
+- id: african-union-era
+  rank: CulturalAge
+  parent: contemporary
+  start: 2002
+  end: 0
+  unit: CE
+  labels:
+    en: African Union Era
+    sv: Afrikanska unionens era
+    ar: الاتحاد الأفريقي
+  description: "AU succeeds OAU (2002); Agenda 2063; peacekeeping missions; AfCFTA free trade area (2021); economic growth; demographic dividend; challenges remain."

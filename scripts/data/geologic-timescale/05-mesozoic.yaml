@@ -1,0 +1,500 @@
+# Phanerozoic — Mesozoic Era & Periods
+
+- id: mesozoic
+  rank: Era
+  parent: phanerozoic
+  start: 251.902
+  end: 66
+  unit: Ma
+  labels:
+    en: Mesozoic
+    sv: Mesozoikum
+    grc: Μέσος ζωή
+  description: "Age of Reptiles; dinosaurs, first mammals, first birds, first flowering plants."
+
+- id: triassic
+  rank: Period
+  parent: mesozoic
+  start: 251.902
+  end: 201.4
+  unit: Ma
+  labels:
+    en: Triassic
+    sv: Trias
+    de: Trias
+  description: "Recovery from Permian extinction; first dinosaurs, first mammals, first pterosaurs."
+
+- id: early-triassic
+  rank: Epoch
+  parent: triassic
+  start: 251.902
+  end: 246.7
+  unit: Ma
+  labels:
+    en: Early Triassic
+    sv: Undre trias
+  description: "Slow recovery from extinction; Lystrosaurus dominates terrestrial fauna."
+
+- id: induan
+  rank: Age
+  parent: early-triassic
+  start: 251.902
+  end: 249.9
+  unit: Ma
+  labels:
+    en: Induan
+    sv: Induium
+    sa: सिन्धु
+    ur: سنڌ
+  description: "Earliest Triassic stage; extremely low biodiversity, harsh conditions. Named for Indus/Sindh region."
+
+- id: olenekian
+  rank: Age
+  parent: early-triassic
+  start: 249.9
+  end: 246.7
+  unit: Ma
+  labels:
+    en: Olenekian
+    sv: Olenekium
+    ru: Оленёк
+  description: "Marine ecosystems begin recovery; first ichthyosaurs appear."
+
+- id: middle-triassic
+  rank: Epoch
+  parent: triassic
+  start: 246.7
+  end: 237
+  unit: Ma
+  labels:
+    en: Middle Triassic
+    sv: Mellersta trias
+  description: "Archosaurs diversify; first dinosauromorphs."
+
+- id: anisian
+  rank: Age
+  parent: middle-triassic
+  start: 246.7
+  end: 241.464
+  unit: Ma
+  labels:
+    en: Anisian
+    sv: Anisium
+    de: Enns/Anisus
+  description: "Marine reptiles diversify; coral reefs re-establish."
+
+- id: ladinian
+  rank: Age
+  parent: middle-triassic
+  start: 241.464
+  end: 237
+  unit: Ma
+  labels:
+    en: Ladinian
+    sv: Ladinium
+    lld: Ladins
+  description: "First dinosauriform tracks; seed ferns and conifers dominate."
+
+- id: late-triassic
+  rank: Epoch
+  parent: triassic
+  start: 237
+  end: 201.4
+  unit: Ma
+  labels:
+    en: Late Triassic
+    sv: Övre trias
+  description: "First true dinosaurs, mammals, and pterosaurs; Triassic–Jurassic extinction at end."
+
+- id: carnian
+  rank: Age
+  parent: late-triassic
+  start: 237
+  end: 227.3
+  unit: Ma
+  labels:
+    en: Carnian
+    sv: Carnium
+    de: Karnische Alpen
+  description: "Carnian Pluvial Episode: major climate shift; first dinosaurs appear."
+
+- id: norian
+  rank: Age
+  parent: late-triassic
+  start: 227.3
+  end: 205.7
+  unit: Ma
+  labels:
+    en: Norian
+    sv: Norium
+    la: Noricum
+  description: "Dinosaurs diversify; first turtles and crocodylomorphs."
+
+- id: rhaetian
+  rank: Age
+  parent: late-triassic
+  start: 205.7
+  end: 201.4
+  unit: Ma
+  labels:
+    en: Rhaetian
+    sv: Rhaetium
+    de: Rätisch
+    la: Raetia
+  description: "End-Triassic extinction opens ecological niches for dinosaurs."
+
+- id: jurassic
+  rank: Period
+  parent: mesozoic
+  start: 201.4
+  end: 143.1
+  unit: Ma
+  labels:
+    en: Jurassic
+    sv: Jura
+    fr: Jura
+  description: "Dinosaurs dominate; first birds (Archaeopteryx); Pangaea breaks apart."
+
+- id: early-jurassic
+  rank: Epoch
+  parent: jurassic
+  start: 201.4
+  end: 174.7
+  unit: Ma
+  labels:
+    en: Early Jurassic
+    sv: Undre jura
+  description: "Dinosaurs diversify into dominant land animals; large marine reptiles."
+
+- id: hettangian
+  rank: Age
+  parent: early-jurassic
+  start: 201.4
+  end: 199.5
+  unit: Ma
+  labels:
+    en: Hettangian
+    sv: Hettangium
+    fr: "Hettange-Grande"
+  description: "Post-extinction recovery; early dinosaur radiation."
+
+- id: sinemurian
+  rank: Age
+  parent: early-jurassic
+  start: 199.5
+  end: 192.9
+  unit: Ma
+  labels:
+    en: Sinemurian
+    sv: Sinemurium
+    fr: "Semur-en-Auxois"
+  description: "Early large sauropodomorphs; ammonite diversity increases."
+
+- id: pliensbachian
+  rank: Age
+  parent: early-jurassic
+  start: 192.9
+  end: 184.2
+  unit: Ma
+  labels:
+    en: Pliensbachian
+    sv: Pliensbachium
+    de: Pliensbach
+  description: "Warm climates; diverse marine ecosystems, ichthyosaurs abundant."
+
+- id: toarcian
+  rank: Age
+  parent: early-jurassic
+  start: 184.2
+  end: 174.7
+  unit: Ma
+  labels:
+    en: Toarcian
+    sv: Toarcium
+    fr: Thouars
+  description: "Toarcian Oceanic Anoxic Event (Karoo-Ferrar volcanism); marine extinctions; widespread black shales."
+
+- id: middle-jurassic
+  rank: Epoch
+  parent: jurassic
+  start: 174.7
+  end: 161.5
+  unit: Ma
+  labels:
+    en: Middle Jurassic
+    sv: Mellersta jura
+  description: "Sauropods and theropods diversify; earliest flowering plant evidence."
+
+- id: aalenian
+  rank: Age
+  parent: middle-jurassic
+  start: 174.7
+  end: 170.9
+  unit: Ma
+  labels:
+    en: Aalenian
+    sv: Aalenium
+    de: Aalen
+  description: "Pangaea continues to rift; ammonites flourish."
+
+- id: bajocian
+  rank: Age
+  parent: middle-jurassic
+  start: 170.9
+  end: 168.2
+  unit: Ma
+  labels:
+    en: Bajocian
+    sv: Bajocium
+    fr: Bayeux
+  description: "Diverse coral reefs; stegosaurs appear."
+
+- id: bathonian
+  rank: Age
+  parent: middle-jurassic
+  start: 168.2
+  end: 165.3
+  unit: Ma
+  labels:
+    en: Bathonian
+    sv: Bathonium
+  description: "First definitive mammals diversify; microcontinent formation. Named for Bath, England."
+
+- id: callovian
+  rank: Age
+  parent: middle-jurassic
+  start: 165.3
+  end: 161.5
+  unit: Ma
+  labels:
+    en: Callovian
+    sv: Callovium
+  description: "Marine transgression; ammonite diversity peak in Jurassic. Named for Kellaways, England."
+
+- id: late-jurassic
+  rank: Epoch
+  parent: jurassic
+  start: 161.5
+  end: 143.1
+  unit: Ma
+  labels:
+    en: Late Jurassic
+    sv: Övre jura
+  description: "Giant sauropods; Archaeopteryx; Morrison Formation dinosaurs."
+
+- id: oxfordian
+  rank: Age
+  parent: late-jurassic
+  start: 161.5
+  end: 154.8
+  unit: Ma
+  labels:
+    en: Oxfordian
+    sv: Oxfordium
+  description: "Widespread coral reefs; large theropods like Allosaurus. Named for Oxford, England."
+
+- id: kimmeridgian
+  rank: Age
+  parent: late-jurassic
+  start: 154.8
+  end: 149.2
+  unit: Ma
+  labels:
+    en: Kimmeridgian
+    sv: Kimmeridgium
+  description: "Rich marine ecosystems; source rocks for North Sea oil form. Named for Kimmeridge, England."
+
+- id: tithonian
+  rank: Age
+  parent: late-jurassic
+  start: 149.2
+  end: 143.1
+  unit: Ma
+  labels:
+    en: Tithonian
+    sv: Tithonium
+    grc: Τιθωνός
+  description: "Archaeopteryx; Solnhofen limestone; transition to Cretaceous."
+
+- id: cretaceous
+  rank: Period
+  parent: mesozoic
+  start: 143.1
+  end: 66
+  unit: Ma
+  labels:
+    en: Cretaceous
+    sv: Krita
+    la: creta
+  description: "Longest Mesozoic period; flowering plants rise; ends with asteroid impact (K-Pg)."
+
+- id: early-cretaceous
+  rank: Epoch
+  parent: cretaceous
+  start: 143.1
+  end: 100.5
+  unit: Ma
+  labels:
+    en: Early Cretaceous
+    sv: Undre krita
+  description: "Flowering plants diversify; feathered dinosaurs; continental drift accelerates."
+
+- id: berriasian
+  rank: Age
+  parent: early-cretaceous
+  start: 143.1
+  end: 137.05
+  unit: Ma
+  labels:
+    en: Berriasian
+    sv: Berriasium
+    fr: Berrias
+  description: "Earliest Cretaceous; GSSP boundary still under discussion. Named for Berrias, Ardèche, France."
+
+- id: valanginian
+  rank: Age
+  parent: early-cretaceous
+  start: 137.05
+  end: 132.6
+  unit: Ma
+  labels:
+    en: Valanginian
+    sv: Valanginium
+    fr: Valangin
+  description: "Weald clay environments; early angiosperms in fossil record. Named for Valangin, Neuchâtel, Switzerland."
+
+- id: hauterivian
+  rank: Age
+  parent: early-cretaceous
+  start: 132.6
+  end: 125.77
+  unit: Ma
+  labels:
+    en: Hauterivian
+    sv: Hauterivium
+    fr: Hauterive
+  description: "Iguanodon and early ornithopod diversity; warm global climate. Named for Hauterive, Neuchâtel, Switzerland."
+
+- id: barremian
+  rank: Age
+  parent: early-cretaceous
+  start: 125.77
+  end: 121.4
+  unit: Ma
+  labels:
+    en: Barremian
+    sv: Barremium
+    fr: Barrême
+  description: "Las Hoyas and Jehol Biota; feathered theropods preserved."
+
+- id: aptian
+  rank: Age
+  parent: early-cretaceous
+  start: 121.4
+  end: 113.2
+  unit: Ma
+  labels:
+    en: Aptian
+    sv: Aptium
+    fr: Apt
+  description: "Oceanic Anoxic Event 1a; first diverse angiosperm floras. Named for Apt, Provence, France."
+
+- id: albian
+  rank: Age
+  parent: early-cretaceous
+  start: 113.2
+  end: 100.5
+  unit: Ma
+  labels:
+    en: Albian
+    sv: Albium
+    fr: Aube
+    la: Alba
+  description: "High sea levels; diverse ammonites; early social insects."
+
+- id: late-cretaceous
+  rank: Epoch
+  parent: cretaceous
+  start: 100.5
+  end: 66
+  unit: Ma
+  labels:
+    en: Late Cretaceous
+    sv: Övre krita
+  description: "Tyrannosaurus, Triceratops; angiosperms dominant; K-Pg extinction."
+
+- id: cenomanian
+  rank: Age
+  parent: late-cretaceous
+  start: 100.5
+  end: 93.9
+  unit: Ma
+  labels:
+    en: Cenomanian
+    sv: Cenomanium
+    fr: Le Mans
+    la: Cenomanum
+  description: "Highest sea levels in Cretaceous; OAE 2 at boundary."
+
+- id: turonian
+  rank: Age
+  parent: late-cretaceous
+  start: 93.9
+  end: 89.8
+  unit: Ma
+  labels:
+    en: Turonian
+    sv: Turonium
+    fr: Tours
+    la: Turones
+  description: "Warmest period of Cretaceous; diverse reef ecosystems."
+
+- id: coniacian
+  rank: Age
+  parent: late-cretaceous
+  start: 89.8
+  end: 85.7
+  unit: Ma
+  labels:
+    en: Coniacian
+    sv: Coniacium
+    fr: Cognac
+  description: "Continued warm climates; hadrosaur diversification begins."
+
+- id: santonian
+  rank: Age
+  parent: late-cretaceous
+  start: 85.7
+  end: 83.6
+  unit: Ma
+  labels:
+    en: Santonian
+    sv: Santonium
+    fr: Saintes
+    la: Santones
+  description: "Ceratopsian dinosaurs diversify; early modern bird lineages."
+
+- id: campanian
+  rank: Age
+  parent: late-cretaceous
+  start: 83.6
+  end: 72.2
+  unit: Ma
+  labels:
+    en: Campanian
+    sv: Campanium
+    fr: Champagne
+  description: "Rich dinosaur faunas worldwide; chalk deposits form."
+
+- id: maastrichtian
+  rank: Age
+  parent: late-cretaceous
+  start: 72.2
+  end: 66
+  unit: Ma
+  labels:
+    en: Maastrichtian
+    sv: Maastrichtium
+    li: Mestreech
+    nl: Maastricht
+  description: "Final stage; Chicxulub impact ends Mesozoic; ~76% of species extinct."

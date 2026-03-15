@@ -1,0 +1,929 @@
+# Phanerozoic — Paleozoic Era & Periods
+
+- id: paleozoic
+  rank: Era
+  parent: phanerozoic
+  start: 538.8
+  end: 251.902
+  unit: Ma
+  labels:
+    en: Paleozoic
+    sv: Paleozoikum
+    grc: Παλαιός ζωή
+  description: "Era of ancient life; Cambrian explosion, first fish, amphibians, reptiles, forests."
+
+- id: cambrian
+  rank: Period
+  parent: paleozoic
+  start: 538.8
+  end: 486.85
+  unit: Ma
+  labels:
+    en: Cambrian
+    sv: Kambrium
+    cy: Cymru
+  description: "Cambrian explosion: most major animal phyla appear rapidly in the fossil record."
+
+- id: terreneuvian
+  rank: Epoch
+  parent: cambrian
+  start: 538.8
+  end: 521
+  unit: Ma
+  labels:
+    en: Terreneuvian
+    sv: Terreneuvium
+    fr: "Terre-Neuve"
+  description: "Earliest Cambrian epoch; small shelly fossils appear."
+
+- id: fortunian
+  rank: Age
+  parent: terreneuvian
+  start: 538.8
+  end: 529
+  unit: Ma
+  labels:
+    en: Fortunian
+    sv: Fortunium
+  description: "Earliest Cambrian age; first trace fossils of bilaterian animals. Named for Fortune Head, Newfoundland."
+
+- id: stage2-cambrian
+  rank: Age
+  parent: terreneuvian
+  start: 529
+  end: 521
+  unit: Ma
+  labels:
+    en: Cambrian Stage 2 (unnamed)
+    sv: Kambrium steg 2 (ej namngiven)
+  description: "Small shelly fauna diversify; archaeocyathids appear."
+
+- id: epoch2-cambrian
+  rank: Epoch
+  parent: cambrian
+  start: 521
+  end: 506.5
+  unit: Ma
+  labels:
+    en: Cambrian Series 2 (unnamed)
+    sv: Kambrium serie 2 (ej namngiven)
+  description: "Trilobites diversify; archaeocyathid reefs."
+
+- id: stage3-cambrian
+  rank: Age
+  parent: epoch2-cambrian
+  start: 521
+  end: 514.5
+  unit: Ma
+  labels:
+    en: Cambrian Stage 3 (unnamed)
+    sv: Kambrium steg 3 (ej namngiven)
+  description: "First trilobites appear; Cambrian explosion accelerates."
+
+- id: stage4-cambrian
+  rank: Age
+  parent: epoch2-cambrian
+  start: 514.5
+  end: 506.5
+  unit: Ma
+  labels:
+    en: Cambrian Stage 4 (unnamed)
+    sv: Kambrium steg 4 (ej namngiven)
+  description: "Archaeocyathid reef-builders peak then decline."
+
+- id: miaolingian
+  rank: Epoch
+  parent: cambrian
+  start: 506.5
+  end: 497
+  unit: Ma
+  labels:
+    en: Miaolingian
+    sv: Miaolingium
+    zh: 苗岭
+  description: "Peak trilobite diversity; Burgess Shale-type faunas."
+
+- id: wuliuan
+  rank: Age
+  parent: miaolingian
+  start: 506.5
+  end: 504.5
+  unit: Ma
+  labels:
+    en: Wuliuan
+    sv: Wuliuanium
+    zh: 乌溜
+  description: "Burgess Shale fauna; diverse arthropods and anomalocaridids."
+
+- id: drumian
+  rank: Age
+  parent: miaolingian
+  start: 504.5
+  end: 500.5
+  unit: Ma
+  labels:
+    en: Drumian
+    sv: Drumium
+  description: "Agnostid trilobites flourish; deep-water faunas diversify. Named for Drum Mountains, Utah."
+
+- id: guzhangian
+  rank: Age
+  parent: miaolingian
+  start: 500.5
+  end: 497
+  unit: Ma
+  labels:
+    en: Guzhangian
+    sv: Guzhangium
+    zh: 古丈
+  description: "Trilobite turnover; transition toward Furongian faunas."
+
+- id: furongian
+  rank: Epoch
+  parent: cambrian
+  start: 497
+  end: 486.85
+  unit: Ma
+  labels:
+    en: Furongian
+    sv: Furongium
+    zh: 芙蓉
+  description: "Trilobite extinctions; first cephalopods appear."
+
+- id: paibian
+  rank: Age
+  parent: furongian
+  start: 497
+  end: 494.2
+  unit: Ma
+  labels:
+    en: Paibian
+    sv: Paibium
+    zh: 排碧
+  description: "SPICE carbon isotope excursion; trilobite extinction pulse."
+
+- id: jiangshanian
+  rank: Age
+  parent: furongian
+  start: 494.2
+  end: 491
+  unit: Ma
+  labels:
+    en: Jiangshanian
+    sv: Jiangshanium
+    zh: 江山
+  description: "Trilobite recovery; earliest cephalopods diversify."
+
+- id: stage10-cambrian
+  rank: Age
+  parent: furongian
+  start: 491
+  end: 486.85
+  unit: Ma
+  labels:
+    en: Cambrian Stage 10 (unnamed)
+    sv: Kambrium steg 10 (ej namngiven)
+  description: "Final Cambrian stage; transition to Ordovician biodiversification."
+
+- id: ordovician
+  rank: Period
+  parent: paleozoic
+  start: 486.85
+  end: 443.1
+  unit: Ma
+  labels:
+    en: Ordovician
+    sv: Ordovicium
+    cy: Ordowices
+  description: "Great Ordovician Biodiversification Event; first land plants; ends with mass extinction."
+
+- id: early-ordovician
+  rank: Epoch
+  parent: ordovician
+  start: 486.85
+  end: 471.3
+  unit: Ma
+  labels:
+    en: Early Ordovician
+    sv: Undre ordovicium
+  description: "Biodiversification begins; graptolites and brachiopods flourish."
+
+- id: tremadocian
+  rank: Age
+  parent: early-ordovician
+  start: 486.85
+  end: 477.1
+  unit: Ma
+  labels:
+    en: Tremadocian
+    sv: Tremadocium
+    cy: Tremadog
+  description: "Conodonts and graptolites diversify; first planktonic ecosystems."
+
+- id: floian
+  rank: Age
+  parent: early-ordovician
+  start: 477.1
+  end: 471.3
+  unit: Ma
+  labels:
+    en: Floian
+    sv: Floium
+  description: "First bryozoans; corals begin to diversify. Named for Flo, Västergötland, Sweden; GSSP at Hunneberg."
+
+- id: middle-ordovician
+  rank: Epoch
+  parent: ordovician
+  start: 471.3
+  end: 458.2
+  unit: Ma
+  labels:
+    en: Middle Ordovician
+    sv: Mellersta ordovicium
+  description: "Great Ordovician Biodiversification Event peaks."
+
+- id: dapingian
+  rank: Age
+  parent: middle-ordovician
+  start: 471.3
+  end: 469.4
+  unit: Ma
+  labels:
+    en: Dapingian
+    sv: Dapingium
+    zh: 大坪
+  description: "GOBE intensifies; cephalopods diversify as top marine predators."
+
+- id: darriwilian
+  rank: Age
+  parent: middle-ordovician
+  start: 469.4
+  end: 458.2
+  unit: Ma
+  labels:
+    en: Darriwilian
+    sv: Darriwilium
+  description: "Peak of Great Ordovician Biodiversification; stromatoporoid reefs. Named for Darriwil, Victoria, Australia."
+
+- id: late-ordovician
+  rank: Epoch
+  parent: ordovician
+  start: 458.2
+  end: 443.1
+  unit: Ma
+  labels:
+    en: Late Ordovician
+    sv: Övre ordovicium
+  description: "End-Ordovician glaciation and mass extinction; ~85% of marine species lost."
+
+- id: sandbian
+  rank: Age
+  parent: late-ordovician
+  start: 458.2
+  end: 452.8
+  unit: Ma
+  labels:
+    en: Sandbian
+    sv: Sandbium
+  description: "Taconic orogeny; diverse brachiopod communities; named for Södra Sandby, Skåne, Sweden; GSSP at Fågelsång, east of Lund."
+
+- id: katian
+  rank: Age
+  parent: late-ordovician
+  start: 452.8
+  end: 445.2
+  unit: Ma
+  labels:
+    en: Katian
+    sv: Katium
+  description: "Peak marine diversity; Gondwanan glaciation begins. Named for Katy, Oklahoma."
+
+- id: hirnantian
+  rank: Age
+  parent: late-ordovician
+  start: 445.2
+  end: 443.1
+  unit: Ma
+  labels:
+    en: Hirnantian
+    sv: Hirnantium
+    cy: Cwm Hirnant
+  description: "End-Ordovician mass extinction; rapid glaciation and sea level drop."
+
+- id: silurian
+  rank: Period
+  parent: paleozoic
+  start: 443.1
+  end: 419.62
+  unit: Ma
+  labels:
+    en: Silurian
+    sv: Silur
+    cy: Silures
+  description: "Recovery from extinction; first vascular land plants; jawed fish appear."
+
+- id: llandovery
+  rank: Epoch
+  parent: silurian
+  start: 443.1
+  end: 432.9
+  unit: Ma
+  labels:
+    en: Llandovery
+    sv: Llandovery
+    cy: Llanymddyfri
+  description: "Post-extinction recovery; graptolite diversification."
+
+- id: rhuddanian
+  rank: Age
+  parent: llandovery
+  start: 443.1
+  end: 440.5
+  unit: Ma
+  labels:
+    en: Rhuddanian
+    sv: Rhuddanium
+    cy: "Cefn-cerig Rhuddan"
+  description: "Earliest Silurian; rapid recovery of graptolite faunas."
+
+- id: aeronian
+  rank: Age
+  parent: llandovery
+  start: 440.5
+  end: 438.6
+  unit: Ma
+  labels:
+    en: Aeronian
+    sv: Aeronium
+    cy: "Cwm-coed-Aeron"
+  description: "Continued recovery; first land plant spores."
+
+- id: telychian
+  rank: Age
+  parent: llandovery
+  start: 438.6
+  end: 432.9
+  unit: Ma
+  labels:
+    en: Telychian
+    sv: Telychium
+    cy: "Pen-lan-Telechi"
+  description: "Graptolite diversity peak; first vascular plant fossils."
+
+- id: wenlock
+  rank: Epoch
+  parent: silurian
+  start: 432.9
+  end: 426.7
+  unit: Ma
+  labels:
+    en: Wenlock
+    sv: Wenlock
+  description: "First land plants with vascular tissue; coral reef expansion. Named for Much Wenlock, Shropshire."
+
+- id: sheinwoodian
+  rank: Age
+  parent: wenlock
+  start: 432.9
+  end: 430.6
+  unit: Ma
+  labels:
+    en: Sheinwoodian
+    sv: Sheinwoodium
+  description: "Ireviken extinction event; reef ecosystems expand. Named for Sheinwood, Shropshire."
+
+- id: homerian
+  rank: Age
+  parent: wenlock
+  start: 430.6
+  end: 426.7
+  unit: Ma
+  labels:
+    en: Homerian
+    sv: Homerium
+  description: "Mulde extinction event; eurypterids (sea scorpions) diversify. Named for Homer, Shropshire."
+
+- id: ludlow
+  rank: Epoch
+  parent: silurian
+  start: 426.7
+  end: 422.7
+  unit: Ma
+  labels:
+    en: Ludlow
+    sv: Ludlow
+  description: "First terrestrial arachnids; brachiopod diversity peak. Named for Ludlow, Shropshire."
+
+- id: gorstian
+  rank: Age
+  parent: ludlow
+  start: 426.7
+  end: 425
+  unit: Ma
+  labels:
+    en: Gorstian
+    sv: Gorstium
+  description: "Linde Event; marine fauna turnover. Named for Gorsty, Shropshire."
+
+- id: ludfordian
+  rank: Age
+  parent: ludlow
+  start: 425
+  end: 422.7
+  unit: Ma
+  labels:
+    en: Ludfordian
+    sv: Ludfordium
+  description: "Lau extinction event; first terrestrial arthropod traces; jawed fish diversify. Named for Ludford, Shropshire."
+
+- id: pridoli
+  rank: Epoch
+  parent: silurian
+  start: 422.7
+  end: 419.62
+  unit: Ma
+  labels:
+    en: Přídolí
+    sv: Přídolí
+    cs: Přídolí
+  description: "First jawed fish diversify; transition toward Devonian. Named for Přídolí, Czech Republic."
+
+- id: devonian
+  rank: Period
+  parent: paleozoic
+  start: 419.62
+  end: 358.86
+  unit: Ma
+  labels:
+    en: Devonian
+    sv: Devon
+  description: "Age of Fishes; first forests, first insects, first amphibians. Named for Devon, England."
+
+- id: klonk-event
+  rank: Age
+  parent: pridoli
+  start: 419.62
+  end: 419.62
+  unit: Ma
+  labels:
+    en: Klonk GSSP (Silurian–Devonian boundary)
+    sv: "Klonk GSSP (silur–devon-gränsen)"
+    cs: Klonk
+  description: "First GSSP ever ratified (1972); Klonk, Czech Republic; defined by first appearance of graptolite Monograptus uniformis; marks base of Devonian."
+
+- id: early-devonian
+  rank: Epoch
+  parent: devonian
+  start: 419.62
+  end: 393.47
+  unit: Ma
+  labels:
+    en: Early Devonian
+    sv: Undre devon
+  description: "First seed plants; armored fish diversify."
+
+- id: lochkovian
+  rank: Age
+  parent: early-devonian
+  start: 419.62
+  end: 413.02
+  unit: Ma
+  labels:
+    en: Lochkovian
+    sv: Lochkovium
+    cs: Lochkov
+  description: "Earliest Devonian; jawed fish radiation continues. Named for Lochkov, Prague."
+
+- id: pragian
+  rank: Age
+  parent: early-devonian
+  start: 413.02
+  end: 410.62
+  unit: Ma
+  labels:
+    en: Pragian
+    sv: Pragium
+    cs: Praha
+  description: "First true leaves (lycopsids); early vascular plants spread onto land."
+
+- id: emsian
+  rank: Age
+  parent: early-devonian
+  start: 410.62
+  end: 393.47
+  unit: Ma
+  labels:
+    en: Emsian
+    sv: Emsium
+    de: Bad Ems
+  description: "First insects; ammonoids appear; widespread reef systems."
+
+- id: middle-devonian
+  rank: Epoch
+  parent: devonian
+  start: 393.47
+  end: 382.31
+  unit: Ma
+  labels:
+    en: Middle Devonian
+    sv: Mellersta devon
+  description: "First forests appear; ammonoids originate."
+
+- id: eifelian
+  rank: Age
+  parent: middle-devonian
+  start: 393.47
+  end: 387.95
+  unit: Ma
+  labels:
+    en: Eifelian
+    sv: Eifelium
+    de: Eifel
+  description: "Stromatoporoid-coral reefs peak; first seed ferns."
+
+- id: givetian
+  rank: Age
+  parent: middle-devonian
+  start: 387.95
+  end: 382.31
+  unit: Ma
+  labels:
+    en: Givetian
+    sv: Givetium
+    fr: Givet
+  description: "First forests (Archaeopteris); placoderms diversify."
+
+- id: late-devonian
+  rank: Epoch
+  parent: devonian
+  start: 382.31
+  end: 358.86
+  unit: Ma
+  labels:
+    en: Late Devonian
+    sv: Övre devon
+  description: "First tetrapods; Late Devonian extinction event (~75% of species)."
+
+- id: frasnian
+  rank: Age
+  parent: late-devonian
+  start: 382.31
+  end: 372.15
+  unit: Ma
+  labels:
+    en: Frasnian
+    sv: Frasnium
+    fr: "Frasnes-lez-Couvin"
+  description: "Massive reef systems; Frasnian-Famennian extinction (Kellwasser Event)."
+
+- id: famennian
+  rank: Age
+  parent: late-devonian
+  start: 372.15
+  end: 358.86
+  unit: Ma
+  labels:
+    en: Famennian
+    sv: Famennium
+    fr: Famenne
+  description: "Post-extinction recovery; first tetrapod trackways; Hangenberg Event at end."
+
+- id: carboniferous
+  rank: Period
+  parent: paleozoic
+  start: 358.86
+  end: 298.9
+  unit: Ma
+  labels:
+    en: Carboniferous
+    sv: Karbon
+    la: carbō + ferre
+  description: "Vast coal swamp forests; first reptiles; high atmospheric oxygen."
+
+- id: mississippian
+  rank: SubPeriod
+  parent: carboniferous
+  start: 358.86
+  end: 323.4
+  unit: Ma
+  labels:
+    en: Mississippian
+    sv: Mississippium
+  description: "Early Carboniferous; large crinoid and coral reefs; amphibians diversify."
+
+- id: early-mississippian
+  rank: Epoch
+  parent: mississippian
+  start: 358.86
+  end: 346.7
+  unit: Ma
+  labels:
+    en: Early Mississippian
+    sv: Undre mississippium
+  description: "Tournaisian age; recovery after Devonian extinction."
+
+- id: tournaisian
+  rank: Age
+  parent: early-mississippian
+  start: 358.86
+  end: 346.7
+  unit: Ma
+  labels:
+    en: Tournaisian
+    sv: Tournaisium
+    fr: Tournai
+    nl: Doornik
+  description: "Post-Devonian recovery; crinoid meadows; early tetrapod diversification (Romer's Gap)."
+
+- id: middle-mississippian
+  rank: Epoch
+  parent: mississippian
+  start: 346.7
+  end: 330.3
+  unit: Ma
+  labels:
+    en: Middle Mississippian
+    sv: Mellersta mississippium
+  description: "Viséan age; widespread limestone deposition; large coral reefs."
+
+- id: visean
+  rank: Age
+  parent: middle-mississippian
+  start: 346.7
+  end: 330.3
+  unit: Ma
+  labels:
+    en: Viséan
+    sv: Viséum
+    fr: Visé
+  description: "Extensive carbonate platforms; first large tetrapods; coal forests begin."
+
+- id: late-mississippian
+  rank: Epoch
+  parent: mississippian
+  start: 330.3
+  end: 323.4
+  unit: Ma
+  labels:
+    en: Late Mississippian
+    sv: Övre mississippium
+  description: "Serpukhovian age; glaciation begins in Gondwana."
+
+- id: serpukhovian
+  rank: Age
+  parent: late-mississippian
+  start: 330.3
+  end: 323.4
+  unit: Ma
+  labels:
+    en: Serpukhovian
+    sv: Serpukhovium
+    ru: Серпухов
+  description: "Late Mississippian ice ages; sea level drops; first winged insects."
+
+- id: pennsylvanian
+  rank: SubPeriod
+  parent: carboniferous
+  start: 323.4
+  end: 298.9
+  unit: Ma
+  labels:
+    en: Pennsylvanian
+    sv: Pennsylvanium
+  description: "Late Carboniferous; coal swamps peak; first reptiles appear."
+
+- id: early-pennsylvanian
+  rank: Epoch
+  parent: pennsylvanian
+  start: 323.4
+  end: 315.2
+  unit: Ma
+  labels:
+    en: Early Pennsylvanian
+    sv: Undre pennsylvanium
+  description: "Bashkirian age; Pangaea begins to assemble."
+
+- id: bashkirian
+  rank: Age
+  parent: early-pennsylvanian
+  start: 323.4
+  end: 315.2
+  unit: Ma
+  labels:
+    en: Bashkirian
+    sv: Bashkirium
+    ba: Башҡортостан
+    ru: Башкирский ярус
+  description: "First large coal swamps; Pangaea assembly accelerates; early reptile diversification."
+
+- id: middle-pennsylvanian
+  rank: Epoch
+  parent: pennsylvanian
+  start: 315.2
+  end: 307
+  unit: Ma
+  labels:
+    en: Middle Pennsylvanian
+    sv: Mellersta pennsylvanium
+  description: "Moscovian age; giant insects thrive in high-oxygen atmosphere."
+
+- id: moscovian
+  rank: Age
+  parent: middle-pennsylvanian
+  start: 315.2
+  end: 307
+  unit: Ma
+  labels:
+    en: Moscovian
+    sv: Moskovium
+    ru: Москва
+  description: "Giant dragonflies (Meganeura); atmospheric oxygen ~35%; vast coal swamp forests."
+
+- id: late-pennsylvanian
+  rank: Epoch
+  parent: pennsylvanian
+  start: 307
+  end: 298.9
+  unit: Ma
+  labels:
+    en: Late Pennsylvanian
+    sv: Övre pennsylvanium
+  description: "Kasimovian–Gzhelian; earliest amniotes diversify; coal swamps decline."
+
+- id: kasimovian
+  rank: Age
+  parent: late-pennsylvanian
+  start: 307
+  end: 303.7
+  unit: Ma
+  labels:
+    en: Kasimovian
+    sv: Kasimovium
+    ru: Касимов
+  description: "Amniote reptiles diversify; first diapsids appear."
+
+- id: gzhelian
+  rank: Age
+  parent: late-pennsylvanian
+  start: 303.7
+  end: 298.9
+  unit: Ma
+  labels:
+    en: Gzhelian
+    sv: Gzhelium
+    ru: Гжель
+  description: "Coal swamps retreat as climate dries; Pangaea nearly complete."
+
+- id: permian
+  rank: Period
+  parent: paleozoic
+  start: 298.9
+  end: 251.902
+  unit: Ma
+  labels:
+    en: Permian
+    sv: Perm
+    ru: Пермь
+  description: "Pangaea complete; therapsids (mammal ancestors) dominate; ends with the Great Dying."
+
+- id: cisuralian
+  rank: Epoch
+  parent: permian
+  start: 298.9
+  end: 274.4
+  unit: Ma
+  labels:
+    en: Cisuralian
+    sv: Cisural
+    ru: "Цис-Урал"
+  description: "Early Permian; diverse amphibian and reptile faunas."
+
+- id: asselian
+  rank: Age
+  parent: cisuralian
+  start: 298.9
+  end: 293.52
+  unit: Ma
+  labels:
+    en: Asselian
+    sv: Asselium
+    ru: Ассель
+  description: "Earliest Permian; glaciation continues in Gondwana."
+
+- id: sakmarian
+  rank: Age
+  parent: cisuralian
+  start: 293.52
+  end: 290.1
+  unit: Ma
+  labels:
+    en: Sakmarian
+    sv: Sakmarium
+    ru: Сакмара
+  description: "Pelycosaurs (sail-backed synapsids) diversify, including Dimetrodon."
+
+- id: artinskian
+  rank: Age
+  parent: cisuralian
+  start: 290.1
+  end: 283.3
+  unit: Ma
+  labels:
+    en: Artinskian
+    sv: Artinskium
+    ru: Артинск
+  description: "Gondwanan glaciation wanes; conifers spread."
+
+- id: kungurian
+  rank: Age
+  parent: cisuralian
+  start: 283.3
+  end: 274.4
+  unit: Ma
+  labels:
+    en: Kungurian
+    sv: Kungurium
+    ru: Кунгур
+  description: "Evaporite deposits; therapsids begin to appear."
+
+- id: guadalupian
+  rank: Epoch
+  parent: permian
+  start: 274.4
+  end: 259.51
+  unit: Ma
+  labels:
+    en: Guadalupian
+    sv: Guadalupium
+    es: Guadalupe
+  description: "Middle Permian; therapsids rise to dominance; Capitanian extinction event."
+
+- id: roadian
+  rank: Age
+  parent: guadalupian
+  start: 274.4
+  end: 266.9
+  unit: Ma
+  labels:
+    en: Roadian
+    sv: Roadium
+  description: "Therapsids diversify; dinocephalians dominate. Named for Road Canyon, Texas."
+
+- id: wordian
+  rank: Age
+  parent: guadalupian
+  start: 266.9
+  end: 264.28
+  unit: Ma
+  labels:
+    en: Wordian
+    sv: Wordium
+  description: "Reef ecosystems flourish; diverse fusulinid foraminifera. Named for Word Formation, Texas."
+
+- id: capitanian
+  rank: Age
+  parent: guadalupian
+  start: 264.28
+  end: 259.51
+  unit: Ma
+  labels:
+    en: Capitanian
+    sv: Capitanium
+    es: El Capitán
+  description: "Capitanian mass extinction: major reef collapse and biodiversity loss."
+
+- id: lopingian
+  rank: Epoch
+  parent: permian
+  start: 259.51
+  end: 251.902
+  unit: Ma
+  labels:
+    en: Lopingian
+    sv: Lopingium
+    zh: 乐平
+  description: "Late Permian; Permian–Triassic extinction: ~96% of marine species lost."
+
+- id: wuchiapingian
+  rank: Age
+  parent: lopingian
+  start: 259.51
+  end: 254.14
+  unit: Ma
+  labels:
+    en: Wuchiapingian
+    sv: Wuchiapingium
+    zh: 吴家坪
+  description: "Post-Capitanian recovery; Dicynodonts become dominant herbivores."
+
+- id: changhsingian
+  rank: Age
+  parent: lopingian
+  start: 254.14
+  end: 251.902
+  unit: Ma
+  labels:
+    en: Changhsingian
+    sv: Changhsingium
+    zh: 长兴
+  description: "The Great Dying: Siberian Traps volcanism triggers worst mass extinction in Earth history."

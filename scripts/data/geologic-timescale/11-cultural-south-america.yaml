@@ -1,0 +1,651 @@
+# South American Historical & Cultural Periods
+
+- id: south-america-precolumbian
+  rank: CulturalAge
+  parent: holocene
+  start: 14800
+  end: 1533
+  unit: BCE-CE
+  labels:
+    en: "Pre-Columbian South America"
+    sv: Förkolumbisk Sydamerika
+  description: "Indigenous civilizations of South America before European contact; from Monte Verde (~14,800 BCE) through Norte Chico to the Inca Empire."
+
+- id: norte-chico
+  rank: CulturalAge
+  parent: south-america-precolumbian
+  start: 3000
+  end: 1800
+  unit: BCE
+  labels:
+    en: Norte Chico (Caral) Civilization
+    sv: "Norte Chico (Caral)-civilisationen"
+  description: "Oldest known civilization in the Americas; Caral, Supe Valley, Peru; monumental architecture, quipu precursors; no pottery or writing."
+
+- id: valdivia-culture
+  rank: CulturalAge
+  parent: south-america-precolumbian
+  start: 3500
+  end: 1800
+  unit: BCE
+  labels:
+    en: Valdivia Culture
+    sv: Valdiviakulturen
+  description: "Early Formative culture on coast of Ecuador; some of the oldest pottery in the Americas; Venus figurines; early maize cultivation."
+
+- id: chavin-culture
+  rank: CulturalAge
+  parent: south-america-precolumbian
+  start: 900
+  end: 200
+  unit: BCE
+  labels:
+    en: Chavín Culture
+    sv: Chavínkulturen
+  description: "Early Horizon unifying culture of Andean Peru; Chavín de Huántar temple complex; jaguar iconography; influence across highlands and coast."
+
+- id: paracas-culture
+  rank: CulturalAge
+  parent: south-america-precolumbian
+  start: 800
+  end: 100
+  unit: BCE
+  labels:
+    en: Paracas Culture
+    sv: Paracaskulturen
+  description: "Southern Peruvian coastal culture; extraordinary textiles and embroidery; cranial trepanation; Paracas Necropolis burials."
+
+- id: nazca-culture
+  rank: CulturalAge
+  parent: south-america-precolumbian
+  start: 100
+  end: 800
+  unit: BCE-CE
+  labels:
+    en: Nazca Culture
+    sv: Nazcakulturen
+  description: "Southern Peruvian desert; Nazca Lines geoglyphs; polychrome pottery; underground aqueducts (puquios)."
+
+- id: moche-civilization
+  rank: CulturalAge
+  parent: south-america-precolumbian
+  start: 100
+  end: 700
+  unit: CE
+  labels:
+    en: Moche Civilization
+    sv: Mochecivilisationen
+  description: "Northern Peruvian coast; Huaca del Sol and Huaca de la Luna; portrait vessels; Sipán royal tombs; advanced irrigation."
+
+- id: tiwanaku-empire
+  rank: CulturalAge
+  parent: south-america-precolumbian
+  start: 300
+  end: 1000
+  unit: CE
+  labels:
+    en: Tiwanaku Empire
+    sv: Tiwanakuriket
+  description: "Andean civilization centered at Lake Titicaca, Bolivia; Gateway of the Sun; raised-field agriculture; altitude ~3,800 m."
+
+- id: wari-empire
+  rank: CulturalAge
+  parent: south-america-precolumbian
+  start: 600
+  end: 1000
+  unit: CE
+  labels:
+    en: Wari Empire
+    sv: Waririket
+  description: "Middle Horizon Andean empire; administrative centers across Peru; road network predating Inca; terraced agriculture."
+
+- id: chinchorro-culture
+  rank: CulturalAge
+  parent: south-america-precolumbian
+  start: 7000
+  end: 1500
+  unit: BCE
+  labels:
+    en: Chinchorro Culture
+    sv: Chinchorrokulturen
+  description: "Atacama Desert coast (Chile/Peru); oldest artificial mummification in the world (~5000 BCE, predating Egypt); fishing and gathering; egalitarian society."
+
+- id: recuay-culture
+  rank: CulturalAge
+  parent: south-america-precolumbian
+  start: 200
+  end: 600
+  unit: CE
+  labels:
+    en: Recuay Culture
+    sv: Recuaykulturen
+  description: "Northern Peruvian highlands (Ancash); stone sculpture; kaolin pottery; underground galleries; warrior iconography; contemporaneous with Moche."
+
+- id: lima-culture
+  rank: CulturalAge
+  parent: south-america-precolumbian
+  start: 100
+  end: 650
+  unit: CE
+  labels:
+    en: Lima Culture
+    sv: Limakulturen
+  description: "Central Peruvian coast; Huaca Pucllana and Huaca Huallamarca; interlocking adobe bricks ('librero' style); irrigation agriculture; fish and shellfish."
+
+- id: lambayeque-sican
+  rank: CulturalAge
+  parent: south-america-precolumbian
+  start: 750
+  end: 1375
+  unit: CE
+  labels:
+    en: Lambayeque / Sicán Culture
+    sv: "Lambayeque/Sicán-kulturen"
+  description: "Northern Peru; Batán Grande and Túcume pyramids; Sicán Lord gold mask; master goldsmiths; Naylamp dynasty legend; conquered by Chimú."
+
+- id: chimu-empire
+  rank: CulturalAge
+  parent: south-america-precolumbian
+  start: 900
+  end: 1470
+  unit: CE
+  labels:
+    en: Chimú Empire
+    sv: Chimúriket
+  description: "Late Intermediate kingdom of northern Peru; Chan Chan (largest adobe city); sophisticated metalwork; conquered by Inca."
+
+- id: chachapoya
+  rank: CulturalAge
+  parent: south-america-precolumbian
+  start: 800
+  end: 1470
+  unit: CE
+  labels:
+    en: Chachapoya Civilization
+    sv: Chachapoyacivilisationen
+  description: "Cloud Warriors of northern Peru; Kuélap fortress (stone citadel at 3,000 m); cliff tombs and sarcophagi; conquered by Inca; Revash mausolea."
+
+- id: muisca-confederation
+  rank: CulturalAge
+  parent: south-america-precolumbian
+  start: 600
+  end: 1541
+  unit: CE
+  labels:
+    en: Muisca Confederation
+    sv: Muiscakonfederationen
+  description: "Chibcha-speaking confederation in Colombian highlands; gold and tumbaga metalwork; El Dorado legend; salt and emerald trade."
+
+- id: tairona
+  rank: CulturalAge
+  parent: south-america-precolumbian
+  start: 200
+  end: 1600
+  unit: CE
+  labels:
+    en: Tairona Civilization
+    sv: Taironacivilisationen
+  description: "Sierra Nevada de Santa Marta, Colombia; Ciudad Perdida (Teyuna); stone terraces and stairways; gold and tumbaga work; ancestors of Kogi people."
+
+- id: tierradentro
+  rank: CulturalAge
+  parent: south-america-precolumbian
+  start: 600
+  end: 900
+  unit: CE
+  labels:
+    en: Tierradentro Culture
+    sv: Tierradentrokulturen
+  description: "Underground hypogea (burial chambers) carved into volcanic rock, Colombia; painted geometric designs; UNESCO World Heritage Site; Páez territory."
+
+- id: san-agustin-culture
+  rank: CulturalAge
+  parent: south-america-precolumbian
+  start: 100
+  end: 1350
+  unit: CE
+  labels:
+    en: San Agustín Culture
+    sv: "San Agustín-kulturen"
+  description: "Pre-Columbian culture of southwestern Colombia; monumental stone sculptures and burial mounds; UNESCO World Heritage Site."
+
+- id: mapuche-precolonial
+  rank: CulturalAge
+  parent: south-america-precolumbian
+  start: 600
+  end: 1550
+  unit: CE
+  labels:
+    en: Mapuche
+    sv: Mapuche
+  description: "Indigenous people of south-central Chile and Argentina; agricultural and pastoral; fierce resistance to Inca and Spanish expansion."
+
+- id: marajoara-culture
+  rank: CulturalAge
+  parent: south-america-precolumbian
+  start: 400
+  end: 1300
+  unit: CE
+  labels:
+    en: Marajoara Culture
+    sv: Marajoarakulturen
+  description: "Marajó Island, Amazon estuary, Brazil; elaborate polychrome ceramics; earthen mounds (tesos); complex chiefdom; challenging 'virgin Amazon' myth."
+
+- id: diaguita
+  rank: CulturalAge
+  parent: south-america-precolumbian
+  start: 800
+  end: 1536
+  unit: CE
+  labels:
+    en: Diaguita Culture
+    sv: Diaguitakulturen
+  description: "Northwestern Argentina and Chilean Norte Chico; distinctive geometric pottery; terraced agriculture; fortified settlements (pucará); resisted Inca then Spanish."
+
+- id: guarani-precolonial
+  rank: CulturalAge
+  parent: south-america-precolumbian
+  start: 500
+  end: 1537
+  unit: CE
+  labels:
+    en: Guaraní
+    sv: Guaraní
+  description: "Tupi-Guaraní peoples of Paraguay, Brazil, and Argentina; slash-and-burn agriculture; canoe navigation; religious migrations (Land Without Evil)."
+
+- id: selknam
+  rank: CulturalAge
+  parent: south-america-precolumbian
+  start: 8000
+  end: 1900
+  unit: BCE-CE
+  labels:
+    en: "Selk'nam Period"
+    sv: "Selk'namperioden"
+  description: "Tierra del Fuego hunter-gatherer cultural tradition; Hain initiation ceremony; guanaco hunters; body painting; genocided during Patagonian sheep boom (late 1800s)."
+
+- id: inca-empire
+  rank: CulturalAge
+  parent: south-america-precolumbian
+  start: 1438
+  end: 1533
+  unit: CE
+  labels:
+    en: Inca Empire
+    sv: Inkariket
+    qu: Tawantinsuyu
+  description: "Largest pre-Columbian empire; Cusco as capital; Machu Picchu; quipu record-keeping; road system (Qhapaq Ñan); conquered by Pizarro."
+
+- id: inca-expansion
+  rank: CulturalAge
+  parent: inca-empire
+  start: 1438
+  end: 1493
+  unit: CE
+  labels:
+    en: Inca Expansion Period
+    sv: Inkaimperiets expansionsperiod
+  description: "Pachacuti and Túpac Inca Yupanqui expand Tawantinsuyu from Ecuador to Chile; conquer Chimú; build Machu Picchu."
+
+- id: inca-huayna-capac
+  rank: CulturalAge
+  parent: inca-empire
+  start: 1493
+  end: 1527
+  unit: CE
+  labels:
+    en: Reign of Huayna Cápac
+    sv: Huayna Cápacs regeringstid
+  description: "Empire at greatest extent; integration of conquered peoples; smallpox arrives before Spanish contact; death triggers civil war."
+
+- id: inca-civil-war
+  rank: CulturalAge
+  parent: inca-empire
+  start: 1529
+  end: 1532
+  unit: CE
+  labels:
+    en: Inca Civil War
+    sv: Inkainbördeskriget
+  description: "War of succession between Atahualpa and Huáscar; weakens empire on eve of Spanish arrival; Atahualpa's generals capture Huáscar and Cusco."
+
+- id: south-america-colonial
+  rank: CulturalAge
+  parent: holocene
+  start: 1492
+  end: 1825
+  unit: CE
+  labels:
+    en: Colonial South America
+    sv: Kolonialt Sydamerika
+  description: "European colonization of South America; Spanish and Portuguese empires; encomienda and hacienda systems; Jesuit missions."
+
+- id: spanish-conquest-sa
+  rank: CulturalAge
+  parent: south-america-colonial
+  start: 1532
+  end: 1572
+  unit: CE
+  labels:
+    en: Spanish Conquest of South America
+    sv: Spanska erövringen av Sydamerika
+  description: "Pizarro captures Atahualpa (1532); fall of Cusco (1533); Neo-Inca resistance at Vilcabamba until 1572; Potosí silver discovered (1545)."
+
+- id: portuguese-brazil-colonial
+  rank: CulturalAge
+  parent: south-america-colonial
+  start: 1500
+  end: 1822
+  unit: CE
+  labels:
+    en: Portuguese Colonial Brazil
+    sv: Koloniala Brasilien
+  description: "Cabral claims Brazil (1500); sugar plantations; Atlantic slave trade; gold rush in Minas Gerais (1690s); Rio becomes capital (1763)."
+
+- id: viceroyalty-peru
+  rank: CulturalAge
+  parent: south-america-colonial
+  start: 1542
+  end: 1824
+  unit: CE
+  labels:
+    en: Viceroyalty of Peru
+    sv: Vicekungadömet Peru
+  description: "Spanish colonial administration covering most of South America; Lima as capital; Potosí silver mines; encomienda; Baroque churches."
+
+- id: viceroyalty-new-granada
+  rank: CulturalAge
+  parent: south-america-colonial
+  start: 1717
+  end: 1819
+  unit: CE
+  labels:
+    en: Viceroyalty of New Granada
+    sv: Vicekungadömet Nya Granada
+  description: "Spanish colony covering modern Colombia, Ecuador, Venezuela, Panama; Bogotá as capital; separated from Viceroyalty of Peru."
+
+- id: viceroyalty-rio-plata
+  rank: CulturalAge
+  parent: south-america-colonial
+  start: 1776
+  end: 1814
+  unit: CE
+  labels:
+    en: Viceroyalty of the Río de la Plata
+    sv: Vicekungadömet Río de la Plata
+  description: "Spanish colony covering modern Argentina, Uruguay, Paraguay, Bolivia; Buenos Aires as capital; cattle ranching; gaucho culture emerges."
+
+- id: jesuit-missions-guarani
+  rank: CulturalAge
+  parent: south-america-colonial
+  start: 1609
+  end: 1767
+  unit: CE
+  labels:
+    en: Jesuit Missions of the Guaraní
+    sv: Jesuiternas guaranímissioner
+  description: "Jesuit reductions in Paraguay, Argentina, Brazil; autonomous theocratic communities; Guaraní autonomy; expelled 1767 by Spanish Crown."
+
+- id: potosi-silver
+  rank: CulturalAge
+  parent: south-america-colonial
+  start: 1545
+  end: 1800
+  unit: CE
+  labels:
+    en: Silver Age of Potosí
+    sv: Potosís silverepok
+  description: "Cerro Rico, Potosí (Bolivia); one of the largest silver deposits ever; forced indigenous labor (mita); funded Spanish Empire; population peaked at ~200,000."
+
+- id: tupac-amaru-rebellion
+  rank: CulturalAge
+  parent: south-america-colonial
+  start: 1780
+  end: 1783
+  unit: CE
+  labels:
+    en: Túpac Amaru II Rebellion
+    sv: "Túpac Amaru II:s uppror"
+  description: "Indigenous uprising against Spanish colonial rule in Peru and Bolivia; led by José Gabriel Condorcanqui; ~100,000 dead; precursor to independence."
+
+- id: south-america-independence
+  rank: CulturalAge
+  parent: modern-period
+  start: 1808
+  end: 1833
+  unit: CE
+  labels:
+    en: South American Wars of Independence
+    sv: Sydamerikas befrielsekrig
+  description: "Liberation movements across South America; inspired by American and French Revolutions; Napoleonic invasion of Spain as catalyst."
+
+- id: independence-argentina
+  rank: CulturalAge
+  parent: south-america-independence
+  start: 1810
+  end: 1818
+  unit: CE
+  labels:
+    en: Argentine War of Independence
+    sv: Argentinska befrielsekrig
+  description: "May Revolution (1810); Congress of Tucumán declares independence (1816); San Martín crosses the Andes; United Provinces of the Río de la Plata."
+
+- id: independence-chile
+  rank: CulturalAge
+  parent: south-america-independence
+  start: 1810
+  end: 1826
+  unit: CE
+  labels:
+    en: Chilean War of Independence
+    sv: Chilenska befrielsekrig
+  description: "First junta (1810); Patria Vieja and Reconquista; San Martín and O'Higgins victory at Chacabuco (1817); independence declared 1818."
+
+- id: independence-gran-colombia
+  rank: CulturalAge
+  parent: south-america-independence
+  start: 1811
+  end: 1830
+  unit: CE
+  labels:
+    en: "Gran Colombia and Bolívar's Campaign"
+    sv: Storcolombia och Bolívars fälttåg
+  description: "Simón Bolívar liberates Venezuela, Colombia, Ecuador; Gran Colombia (1819-1831); Battle of Boyacá (1819); Sucre at Ayacucho (1824)."
+
+- id: independence-peru
+  rank: CulturalAge
+  parent: south-america-independence
+  start: 1820
+  end: 1824
+  unit: CE
+  labels:
+    en: Peruvian War of Independence
+    sv: Peruanska befrielsekrig
+  description: "San Martín declares independence (1821); Bolívar and Sucre complete liberation; Battle of Ayacucho (1824) ends Spanish rule in South America."
+
+- id: independence-brazil
+  rank: CulturalAge
+  parent: south-america-independence
+  start: 1822
+  end: 1825
+  unit: CE
+  labels:
+    en: Brazilian Independence
+    sv: Brasiliansk självständighet
+  description: "Prince Pedro declares independence from Portugal (1822, 'Grito do Ipiranga'); Empire of Brazil established; Pedro I crowned Emperor."
+
+- id: independence-uruguay
+  rank: CulturalAge
+  parent: south-america-independence
+  start: 1811
+  end: 1828
+  unit: CE
+  labels:
+    en: Uruguayan Independence
+    sv: Uruguays självständighet
+  description: "Artigas leads Oriental revolution; Cisplatine Province under Brazil; independence recognized 1828 (Treaty of Montevideo)."
+
+- id: independence-paraguay
+  rank: CulturalAge
+  parent: south-america-independence
+  start: 1811
+  end: 1813
+  unit: CE
+  labels:
+    en: Paraguayan Independence
+    sv: Paraguays självständighet
+  description: "Bloodless revolution (1811); one of the first South American nations to gain independence; Francia's isolationist dictatorship follows."
+
+- id: independence-bolivia
+  rank: CulturalAge
+  parent: south-america-independence
+  start: 1809
+  end: 1825
+  unit: CE
+  labels:
+    en: Bolivian Independence
+    sv: Bolivias självständighet
+  description: "First Cry of Freedom in Chuquisaca (1809); Sucre defeats Spanish at Ayacucho; Republic of Bolivia named for Simón Bolívar (1825)."
+
+- id: empire-brazil
+  rank: CulturalAge
+  parent: modern-period
+  start: 1822
+  end: 1889
+  unit: CE
+  labels:
+    en: Empire of Brazil
+    sv: Kejsardömet Brasilien
+  description: "Constitutional monarchy under Pedro I and Pedro II; coffee economy; abolition of slavery (Lei Áurea 1888); overthrown by military republic."
+
+- id: gran-colombia
+  rank: CulturalAge
+  parent: modern-period
+  start: 1819
+  end: 1831
+  unit: CE
+  labels:
+    en: Gran Colombia
+    sv: Storcolombia
+  description: "Union of Venezuela, Colombia, Ecuador, Panama under Bolívar; dissolved due to regional rivalries; Bolívar dies 1830."
+
+- id: war-of-the-pacific
+  rank: CulturalAge
+  parent: modern-period
+  start: 1879
+  end: 1884
+  unit: CE
+  labels:
+    en: War of the Pacific
+    sv: the Pacifickriget
+  description: "Chile vs. Bolivia and Peru over nitrate-rich Atacama; Chile victorious; Bolivia loses coastal access; shapes modern borders."
+
+- id: war-of-triple-alliance
+  rank: CulturalAge
+  parent: modern-period
+  start: 1864
+  end: 1870
+  unit: CE
+  labels:
+    en: War of the Triple Alliance
+    sv: the Triple Alliancekriget
+  description: "Paraguay vs. Argentina, Brazil, Uruguay; most destructive war in South American history; Paraguay loses ~60-70% of its population."
+
+- id: rubber-boom
+  rank: CulturalAge
+  parent: modern-period
+  start: 1879
+  end: 1912
+  unit: CE
+  labels:
+    en: Amazon Rubber Boom
+    sv: Amazonas gummiboom
+  description: "Manaus and Belém prosper from rubber exports; Teatro Amazonas built; indigenous exploitation; ends when Asian plantations undercut prices."
+
+- id: south-america-20th
+  rank: CulturalAge
+  parent: contemporary
+  start: 1914
+  end: 2000
+  unit: CE
+  labels:
+    en: "20th-Century South America"
+    sv: "Sydamerika under 1900-talet"
+  description: "Urbanization, populism, military dictatorships, Cold War proxy conflicts, democratization; Peronism, Allende, Pinochet, Vargas."
+
+- id: peronism-era
+  rank: CulturalAge
+  parent: south-america-20th
+  start: 1943
+  end: 1976
+  unit: CE
+  labels:
+    en: Peronist Era
+    sv: Peronistperioden
+  description: "Juan Perón and Evita; justicialismo; workers' rights and industrialization; exile, return, and military overthrow; enduring political movement."
+
+- id: vargas-era
+  rank: CulturalAge
+  parent: south-america-20th
+  start: 1930
+  end: 1954
+  unit: CE
+  labels:
+    en: Vargas Era
+    sv: Vargasperioden
+  description: "Getúlio Vargas modernizes Brazil; Estado Novo dictatorship (1937-1945); industrialization; labor laws; suicide in office (1954)."
+
+- id: dirty-wars
+  rank: CulturalAge
+  parent: south-america-20th
+  start: 1968
+  end: 1990
+  unit: CE
+  labels:
+    en: Dirty Wars
+    sv: Smutsiga krigen
+  description: "Military dictatorships and state terrorism in Argentina, Chile, Uruguay, Brazil; Operation Condor; desaparecidos; ~60,000+ killed or disappeared."
+
+- id: pinochet-chile
+  rank: CulturalAge
+  parent: dirty-wars
+  start: 1973
+  end: 1990
+  unit: CE
+  labels:
+    en: Pinochet Regime
+    sv: Pinochetregimen
+  description: "CIA-backed coup against Allende (1973); military dictatorship under Augusto Pinochet; neoliberal economic reforms; ~3,000 killed or disappeared."
+
+- id: falklands-war
+  rank: CulturalAge
+  parent: south-america-20th
+  start: 1982
+  end: 1982
+  unit: CE
+  labels:
+    en: Falklands War
+    sv: Falklandskriget
+  description: "Argentina invades British Falkland Islands; 74-day war; British victory; 649 Argentine and 255 British dead; accelerates fall of Argentine junta."
+
+- id: south-america-21st
+  rank: CulturalAge
+  parent: contemporary
+  start: 2000
+  end: 0
+  unit: CE
+  labels:
+    en: "21st-Century South America"
+    sv: "Sydamerika under 2000-talet"
+  description: "Pink tide leftist governments; commodity boom; democratic consolidation; Mercosur and UNASUR; environmental challenges in Amazon."
+
+- id: pink-tide
+  rank: CulturalAge
+  parent: contemporary
+  start: 1998
+  end: 2015
+  unit: CE
+  labels:
+    en: Pink Tide
+    sv: Rosa vågen
+  description: "Wave of left-wing governments: Chávez (Venezuela), Lula (Brazil), Morales (Bolivia), Correa (Ecuador), Kirchner (Argentina); social programs, resource nationalism."
