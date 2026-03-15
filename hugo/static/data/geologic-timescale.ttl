@@ -2517,7 +2517,7 @@ ts:chibanian a gts:GeochronologicAge ;
 ts:late-pleistocene a gts:GeochronologicAge ;
     rdfs:label "Late Pleistocene"@en ;
     rdfs:label "πλεῖστος καινός"@grc ;
-    rdfs:label "Sen pleistocen"@sv ;
+    rdfs:label "Övre pleistocen"@sv ;
     skos:prefLabel "Late Pleistocene"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
     skos:definition "Homo sapiens expands globally; Neanderthal extinction; Last Glacial Maximum."@en ;

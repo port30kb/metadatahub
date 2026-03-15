@@ -470,7 +470,7 @@ add("calabrian", {"en": "Calabrian", "sv": "Calabrium", "it": "Calabria"}, "Age"
     "Homo erectus disperses out of Africa; Brunhes-Matuyama reversal at end.")
 add("chibanian", {"en": "Chibanian", "sv": "Chibanium", "ja": "千葉"}, "Age", "pleistocene", 0.774, 0.129, "Ma",
     "Homo heidelbergensis; Neanderthals evolve; major glacial cycles. Named for Chiba, Japan.")
-add("late-pleistocene", {"en": "Late Pleistocene", "sv": "Sen pleistocen", "grc": "πλεῖστος καινός"}, "Age", "pleistocene", 0.129, 0.0117, "Ma",
+add("late-pleistocene", {"en": "Late Pleistocene", "sv": "Övre pleistocen", "grc": "πλεῖστος καινός"}, "Age", "pleistocene", 0.129, 0.0117, "Ma",
     "Homo sapiens expands globally; Neanderthal extinction; Last Glacial Maximum.")
 
 # ── Holocene ──
