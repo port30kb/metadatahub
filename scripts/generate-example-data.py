@@ -1,181 +1,54 @@
 #!/usr/bin/env python3
 """Generate 250 example cultural heritage object records as Turtle RDF.
 
+Reads reference data from data/example-collection/reference-data.yaml
+and generates both Turtle RDF and JSON-LD output files.
+
 Each record uses CIDOC-CRM event-based patterns with realistic museum data:
 production events, materials, dimensions, actors, places, and time-spans.
 """
 
-import random
 import json
+import os
+import random
+import sys
+
+import yaml
 
 random.seed(42)
 
 BASE = "https://metadatahub.eu/data/example-collection"
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_FILE = os.path.join(SCRIPT_DIR, "data", "example-collection", "reference-data.yaml")
+OUT_DIR = os.path.join(SCRIPT_DIR, "..", "hugo", "static", "data")
 
-OBJECT_TYPES = [
-    ("Painting", "E22_Human-Made_Object", "http://vocab.getty.edu/aat/300033618"),
-    ("Sculpture", "E22_Human-Made_Object", "http://vocab.getty.edu/aat/300047090"),
-    ("Drawing", "E22_Human-Made_Object", "http://vocab.getty.edu/aat/300033973"),
-    ("Print", "E22_Human-Made_Object", "http://vocab.getty.edu/aat/300041273"),
-    ("Photograph", "E22_Human-Made_Object", "http://vocab.getty.edu/aat/300046300"),
-    ("Ceramic vessel", "E22_Human-Made_Object", "http://vocab.getty.edu/aat/300024841"),
-    ("Textile", "E22_Human-Made_Object", "http://vocab.getty.edu/aat/300014063"),
-    ("Coin", "E22_Human-Made_Object", "http://vocab.getty.edu/aat/300037222"),
-    ("Medal", "E22_Human-Made_Object", "http://vocab.getty.edu/aat/300046025"),
-    ("Brooch", "E22_Human-Made_Object", "http://vocab.getty.edu/aat/300045991"),
-    ("Ring", "E22_Human-Made_Object", "http://vocab.getty.edu/aat/300046012"),
-    ("Sword", "E22_Human-Made_Object", "http://vocab.getty.edu/aat/300037048"),
-    ("Axe head", "E22_Human-Made_Object", "http://vocab.getty.edu/aat/300024664"),
-    ("Runestone fragment", "E22_Human-Made_Object", "http://vocab.getty.edu/aat/300006958"),
-    ("Manuscript page", "E22_Human-Made_Object", "http://vocab.getty.edu/aat/300028569"),
-    ("Icon", "E22_Human-Made_Object", "http://vocab.getty.edu/aat/300263063"),
-    ("Tapestry", "E22_Human-Made_Object", "http://vocab.getty.edu/aat/300205002"),
-    ("Furniture piece", "E22_Human-Made_Object", "http://vocab.getty.edu/aat/300037680"),
-    ("Glass vessel", "E22_Human-Made_Object", "http://vocab.getty.edu/aat/300010898"),
-    ("Stone tool", "E22_Human-Made_Object", "http://vocab.getty.edu/aat/300024823"),
-]
+# ══════════════════════════════════════════════════════════════
+# Load reference data from YAML
+# ══════════════════════════════════════════════════════════════
 
-MATERIALS = [
-    ("oil on canvas", "http://vocab.getty.edu/aat/300015050"),
-    ("oil on panel", "http://vocab.getty.edu/aat/300015062"),
-    ("tempera on panel", "http://vocab.getty.edu/aat/300015064"),
-    ("watercolor on paper", "http://vocab.getty.edu/aat/300015045"),
-    ("marble", "http://vocab.getty.edu/aat/300011443"),
-    ("bronze", "http://vocab.getty.edu/aat/300010957"),
-    ("iron", "http://vocab.getty.edu/aat/300011002"),
-    ("silver", "http://vocab.getty.edu/aat/300011029"),
-    ("gold", "http://vocab.getty.edu/aat/300011021"),
-    ("ceramic", "http://vocab.getty.edu/aat/300010669"),
-    ("wood", "http://vocab.getty.edu/aat/300011914"),
-    ("limestone", "http://vocab.getty.edu/aat/300011286"),
-    ("granite", "http://vocab.getty.edu/aat/300011183"),
-    ("silk", "http://vocab.getty.edu/aat/300243428"),
-    ("wool", "http://vocab.getty.edu/aat/300243430"),
-    ("linen", "http://vocab.getty.edu/aat/300243425"),
-    ("parchment", "http://vocab.getty.edu/aat/300014109"),
-    ("glass", "http://vocab.getty.edu/aat/300010797"),
-    ("copper alloy", "http://vocab.getty.edu/aat/300010942"),
-    ("stoneware", "http://vocab.getty.edu/aat/300010829"),
-]
+if not os.path.exists(DATA_FILE):
+    print(f"ERROR: Data file not found: {DATA_FILE}", file=sys.stderr)
+    sys.exit(1)
 
-ARTISTS = [
-    ("Anders Zorn", "1860", "1920", "Mora"),
-    ("Carl Larsson", "1853", "1919", "Stockholm"),
-    ("Bruno Liljefors", "1860", "1939", "Uppsala"),
-    ("Ernst Josephson", "1851", "1906", "Stockholm"),
-    ("Hanna Pauli", "1864", "1940", "Stockholm"),
-    ("Eva Bonnier", "1857", "1909", "Stockholm"),
-    ("Prince Eugen", "1865", "1947", "Stockholm"),
-    ("Helene Schjerfbeck", "1862", "1946", "Helsinki"),
-    ("Akseli Gallen-Kallela", "1865", "1931", "Pori"),
-    ("Edvard Munch", "1863", "1944", "Kristiania"),
-    ("Vilhelm Hammershøi", "1864", "1916", "Copenhagen"),
-    ("P.S. Krøyer", "1851", "1909", "Skagen"),
-    ("Anna Ancher", "1859", "1935", "Skagen"),
-    ("Michael Ancher", "1849", "1927", "Skagen"),
-    ("Christian Krohg", "1852", "1925", "Kristiania"),
-    ("Harriet Backer", "1845", "1932", "Kristiania"),
-    ("Fanny Churberg", "1845", "1892", "Helsinki"),
-    ("Albert Edelfelt", "1854", "1905", "Helsinki"),
-    ("Hugo Simberg", "1873", "1917", "Hamina"),
-    ("Eero Järnefelt", "1863", "1937", "Helsinki"),
-]
+with open(DATA_FILE, encoding="utf-8") as f:
+    ref = yaml.safe_load(f)
 
-ANONYMOUS_MAKERS = [
-    "Unknown Swedish craftsman",
-    "Unknown Nordic smith",
-    "Unknown Viking Age artisan",
-    "Unknown medieval workshop",
-    "Unknown Sámi artisan",
-    "Unknown Baltic craftsman",
-    "Unknown Gotlandic metalworker",
-    "Unknown Finnish weaver",
-    "Unknown Danish potter",
-    "Unknown Norwegian woodcarver",
-]
+OBJECT_TYPES = [(d["name"], d["crm_class"], d["aat_uri"]) for d in ref["object_types"]]
+MATERIALS = [(d["name"], d["aat_uri"]) for d in ref["materials"]]
+ARTISTS = [(d["name"], d["born"], d["died"], d["place"]) for d in ref["artists"]]
+ANONYMOUS_MAKERS = ref["anonymous_makers"]
+PLACES = [(d["name"], d["country"], d["geonames_uri"]) for d in ref["places"]]
+COLLECTIONS = ref["collections"]
+PERIODS = [(d["name"], d["start"], d["end"]) for d in ref["periods"]]
+SUBJECTS = [(d["name"], d["aat_uri"]) for d in ref["subjects"]]
+TITLES_ADJ = ref["title_adjectives"]
+TITLES_NOUN = ref["title_nouns"]
 
-PLACES = [
-    ("Stockholm", "Sweden", "http://sws.geonames.org/2673730/"),
-    ("Gothenburg", "Sweden", "http://sws.geonames.org/2711537/"),
-    ("Malmö", "Sweden", "http://sws.geonames.org/2692969/"),
-    ("Uppsala", "Sweden", "http://sws.geonames.org/2666199/"),
-    ("Visby", "Sweden", "http://sws.geonames.org/2662689/"),
-    ("Lund", "Sweden", "http://sws.geonames.org/2693678/"),
-    ("Birka", "Sweden", "http://sws.geonames.org/2720543/"),
-    ("Sigtuna", "Sweden", "http://sws.geonames.org/2678005/"),
-    ("Helsinki", "Finland", "http://sws.geonames.org/658225/"),
-    ("Turku", "Finland", "http://sws.geonames.org/633679/"),
-    ("Copenhagen", "Denmark", "http://sws.geonames.org/2618425/"),
-    ("Oslo", "Norway", "http://sws.geonames.org/3143244/"),
-    ("Bergen", "Norway", "http://sws.geonames.org/3161732/"),
-    ("Trondheim", "Norway", "http://sws.geonames.org/3133880/"),
-    ("Reykjavik", "Iceland", "http://sws.geonames.org/3413829/"),
-]
+print(f"Loaded reference data: {len(OBJECT_TYPES)} object types, {len(ARTISTS)} artists, {len(PLACES)} places")
 
-COLLECTIONS = [
-    "Nationalmuseum",
-    "Nordiska museet",
-    "Historiska museet",
-    "Moderna Museet",
-    "Göteborgs konstmuseum",
-    "Malmö Museer",
-    "Uppsala universitetsmuseum",
-    "Gotlands Museum",
-    "Ateneum Art Museum",
-    "National Museum of Denmark",
-]
-
-PERIODS = [
-    ("Viking Age", "793", "1066"),
-    ("Medieval", "1066", "1500"),
-    ("Renaissance", "1400", "1600"),
-    ("Baroque", "1600", "1750"),
-    ("Rococo", "1730", "1780"),
-    ("Neoclassical", "1760", "1830"),
-    ("Romantic", "1800", "1870"),
-    ("Realist", "1848", "1900"),
-    ("Impressionist", "1860", "1910"),
-    ("Art Nouveau", "1890", "1910"),
-    ("National Romantic", "1880", "1920"),
-    ("Early Modern", "1900", "1940"),
-    ("Iron Age", "500 BC", "793"),
-    ("Bronze Age", "1700 BC", "500 BC"),
-    ("Stone Age", "8000 BC", "1700 BC"),
-]
-
-SUBJECTS = [
-    ("landscape", "http://vocab.getty.edu/aat/300015636"),
-    ("portrait", "http://vocab.getty.edu/aat/300015637"),
-    ("still life", "http://vocab.getty.edu/aat/300015638"),
-    ("mythology", "http://vocab.getty.edu/aat/300055985"),
-    ("religious scene", "http://vocab.getty.edu/aat/300073708"),
-    ("genre scene", "http://vocab.getty.edu/aat/300139140"),
-    ("marine scene", "http://vocab.getty.edu/aat/300015639"),
-    ("animal study", "http://vocab.getty.edu/aat/300249799"),
-    ("botanical illustration", "http://vocab.getty.edu/aat/300015578"),
-    ("architectural view", "http://vocab.getty.edu/aat/300015636"),
-    ("battle scene", "http://vocab.getty.edu/aat/300386274"),
-    ("allegory", "http://vocab.getty.edu/aat/300055866"),
-    ("folk life", "http://vocab.getty.edu/aat/300139140"),
-    ("winter scene", "http://vocab.getty.edu/aat/300015636"),
-    ("self-portrait", "http://vocab.getty.edu/aat/300124534"),
-]
-
-TITLES_ADJ = [
-    "Northern", "Summer", "Winter", "Autumn", "Spring",
-    "Evening", "Morning", "Midnight", "Golden", "Silver",
-    "Ancient", "Lost", "Hidden", "Sacred", "Royal",
-    "Coastal", "Mountain", "Forest", "Lake", "River",
-    "Ceremonial", "Decorated", "Ornamental", "Miniature", "Grand",
-]
-
-TITLES_NOUN = [
-    "Landscape", "Harbor", "Interior", "Garden", "Shore",
-    "Village", "Meadow", "Fjord", "Archipelago", "Bridge",
-    "Chapel", "Farmstead", "Market", "Festival", "Procession",
-    "Portrait", "Study", "Composition", "Scene", "View",
-    "Vessel", "Ornament", "Pendant", "Figurine", "Relief",
-]
+# ══════════════════════════════════════════════════════════════
+# Generate records
+# ══════════════════════════════════════════════════════════════
 
 
 def make_title(i, obj_type):
@@ -330,7 +203,7 @@ for i in range(250):
     })
 
 # Write Turtle
-with open("/home/user/metadatahub/hugo/static/data/example-collection.ttl", "w") as f:
+with open(os.path.join(OUT_DIR, "example-collection.ttl"), "w", encoding="utf-8") as f:
     f.write("\n".join(lines))
 
 # Write JSON-LD
@@ -350,7 +223,7 @@ jsonld_doc = {
     "@graph": jsonld_items,
 }
 
-with open("/home/user/metadatahub/hugo/static/data/example-collection.jsonld", "w") as f:
+with open(os.path.join(OUT_DIR, "example-collection.jsonld"), "w", encoding="utf-8") as f:
     json.dump(jsonld_doc, f, indent=2, ensure_ascii=False)
 
 print(f"Generated 250 objects")

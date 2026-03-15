@@ -1,0 +1,392 @@
+# Example Cultural Heritage Collection — Reference Data
+# Used by generate-example-data.py to produce 250 sample museum object records.
+
+object_types:
+  - name: Painting
+    crm_class: E22_Human-Made_Object
+    aat_uri: "http://vocab.getty.edu/aat/300033618"
+  - name: Sculpture
+    crm_class: E22_Human-Made_Object
+    aat_uri: "http://vocab.getty.edu/aat/300047090"
+  - name: Drawing
+    crm_class: E22_Human-Made_Object
+    aat_uri: "http://vocab.getty.edu/aat/300033973"
+  - name: Print
+    crm_class: E22_Human-Made_Object
+    aat_uri: "http://vocab.getty.edu/aat/300041273"
+  - name: Photograph
+    crm_class: E22_Human-Made_Object
+    aat_uri: "http://vocab.getty.edu/aat/300046300"
+  - name: Ceramic vessel
+    crm_class: E22_Human-Made_Object
+    aat_uri: "http://vocab.getty.edu/aat/300024841"
+  - name: Textile
+    crm_class: E22_Human-Made_Object
+    aat_uri: "http://vocab.getty.edu/aat/300014063"
+  - name: Coin
+    crm_class: E22_Human-Made_Object
+    aat_uri: "http://vocab.getty.edu/aat/300037222"
+  - name: Medal
+    crm_class: E22_Human-Made_Object
+    aat_uri: "http://vocab.getty.edu/aat/300046025"
+  - name: Brooch
+    crm_class: E22_Human-Made_Object
+    aat_uri: "http://vocab.getty.edu/aat/300045991"
+  - name: Ring
+    crm_class: E22_Human-Made_Object
+    aat_uri: "http://vocab.getty.edu/aat/300046012"
+  - name: Sword
+    crm_class: E22_Human-Made_Object
+    aat_uri: "http://vocab.getty.edu/aat/300037048"
+  - name: Axe head
+    crm_class: E22_Human-Made_Object
+    aat_uri: "http://vocab.getty.edu/aat/300024664"
+  - name: Runestone fragment
+    crm_class: E22_Human-Made_Object
+    aat_uri: "http://vocab.getty.edu/aat/300006958"
+  - name: Manuscript page
+    crm_class: E22_Human-Made_Object
+    aat_uri: "http://vocab.getty.edu/aat/300028569"
+  - name: Icon
+    crm_class: E22_Human-Made_Object
+    aat_uri: "http://vocab.getty.edu/aat/300263063"
+  - name: Tapestry
+    crm_class: E22_Human-Made_Object
+    aat_uri: "http://vocab.getty.edu/aat/300205002"
+  - name: Furniture piece
+    crm_class: E22_Human-Made_Object
+    aat_uri: "http://vocab.getty.edu/aat/300037680"
+  - name: Glass vessel
+    crm_class: E22_Human-Made_Object
+    aat_uri: "http://vocab.getty.edu/aat/300010898"
+  - name: Stone tool
+    crm_class: E22_Human-Made_Object
+    aat_uri: "http://vocab.getty.edu/aat/300024823"
+
+materials:
+  - name: oil on canvas
+    aat_uri: "http://vocab.getty.edu/aat/300015050"
+  - name: oil on panel
+    aat_uri: "http://vocab.getty.edu/aat/300015062"
+  - name: tempera on panel
+    aat_uri: "http://vocab.getty.edu/aat/300015064"
+  - name: watercolor on paper
+    aat_uri: "http://vocab.getty.edu/aat/300015045"
+  - name: marble
+    aat_uri: "http://vocab.getty.edu/aat/300011443"
+  - name: bronze
+    aat_uri: "http://vocab.getty.edu/aat/300010957"
+  - name: iron
+    aat_uri: "http://vocab.getty.edu/aat/300011002"
+  - name: silver
+    aat_uri: "http://vocab.getty.edu/aat/300011029"
+  - name: gold
+    aat_uri: "http://vocab.getty.edu/aat/300011021"
+  - name: ceramic
+    aat_uri: "http://vocab.getty.edu/aat/300010669"
+  - name: wood
+    aat_uri: "http://vocab.getty.edu/aat/300011914"
+  - name: limestone
+    aat_uri: "http://vocab.getty.edu/aat/300011286"
+  - name: granite
+    aat_uri: "http://vocab.getty.edu/aat/300011183"
+  - name: silk
+    aat_uri: "http://vocab.getty.edu/aat/300243428"
+  - name: wool
+    aat_uri: "http://vocab.getty.edu/aat/300243430"
+  - name: linen
+    aat_uri: "http://vocab.getty.edu/aat/300243425"
+  - name: parchment
+    aat_uri: "http://vocab.getty.edu/aat/300014109"
+  - name: glass
+    aat_uri: "http://vocab.getty.edu/aat/300010797"
+  - name: copper alloy
+    aat_uri: "http://vocab.getty.edu/aat/300010942"
+  - name: stoneware
+    aat_uri: "http://vocab.getty.edu/aat/300010829"
+
+artists:
+  - name: Anders Zorn
+    born: "1860"
+    died: "1920"
+    place: Mora
+  - name: Carl Larsson
+    born: "1853"
+    died: "1919"
+    place: Stockholm
+  - name: Bruno Liljefors
+    born: "1860"
+    died: "1939"
+    place: Uppsala
+  - name: Ernst Josephson
+    born: "1851"
+    died: "1906"
+    place: Stockholm
+  - name: Hanna Pauli
+    born: "1864"
+    died: "1940"
+    place: Stockholm
+  - name: Eva Bonnier
+    born: "1857"
+    died: "1909"
+    place: Stockholm
+  - name: Prince Eugen
+    born: "1865"
+    died: "1947"
+    place: Stockholm
+  - name: Helene Schjerfbeck
+    born: "1862"
+    died: "1946"
+    place: Helsinki
+  - name: Akseli Gallen-Kallela
+    born: "1865"
+    died: "1931"
+    place: Pori
+  - name: Edvard Munch
+    born: "1863"
+    died: "1944"
+    place: Kristiania
+  - name: Vilhelm Hammershøi
+    born: "1864"
+    died: "1916"
+    place: Copenhagen
+  - name: "P.S. Krøyer"
+    born: "1851"
+    died: "1909"
+    place: Skagen
+  - name: Anna Ancher
+    born: "1859"
+    died: "1935"
+    place: Skagen
+  - name: Michael Ancher
+    born: "1849"
+    died: "1927"
+    place: Skagen
+  - name: Christian Krohg
+    born: "1852"
+    died: "1925"
+    place: Kristiania
+  - name: Harriet Backer
+    born: "1845"
+    died: "1932"
+    place: Kristiania
+  - name: Fanny Churberg
+    born: "1845"
+    died: "1892"
+    place: Helsinki
+  - name: Albert Edelfelt
+    born: "1854"
+    died: "1905"
+    place: Helsinki
+  - name: Hugo Simberg
+    born: "1873"
+    died: "1917"
+    place: Hamina
+  - name: Eero Järnefelt
+    born: "1863"
+    died: "1937"
+    place: Helsinki
+
+anonymous_makers:
+  - Unknown Swedish craftsman
+  - Unknown Nordic smith
+  - Unknown Viking Age artisan
+  - Unknown medieval workshop
+  - "Unknown Sámi artisan"
+  - Unknown Baltic craftsman
+  - Unknown Gotlandic metalworker
+  - Unknown Finnish weaver
+  - Unknown Danish potter
+  - Unknown Norwegian woodcarver
+
+places:
+  - name: Stockholm
+    country: Sweden
+    geonames_uri: "http://sws.geonames.org/2673730/"
+  - name: Gothenburg
+    country: Sweden
+    geonames_uri: "http://sws.geonames.org/2711537/"
+  - name: "Malmö"
+    country: Sweden
+    geonames_uri: "http://sws.geonames.org/2692969/"
+  - name: Uppsala
+    country: Sweden
+    geonames_uri: "http://sws.geonames.org/2666199/"
+  - name: Visby
+    country: Sweden
+    geonames_uri: "http://sws.geonames.org/2662689/"
+  - name: Lund
+    country: Sweden
+    geonames_uri: "http://sws.geonames.org/2693678/"
+  - name: Birka
+    country: Sweden
+    geonames_uri: "http://sws.geonames.org/2720543/"
+  - name: Sigtuna
+    country: Sweden
+    geonames_uri: "http://sws.geonames.org/2678005/"
+  - name: Helsinki
+    country: Finland
+    geonames_uri: "http://sws.geonames.org/658225/"
+  - name: Turku
+    country: Finland
+    geonames_uri: "http://sws.geonames.org/633679/"
+  - name: Copenhagen
+    country: Denmark
+    geonames_uri: "http://sws.geonames.org/2618425/"
+  - name: Oslo
+    country: Norway
+    geonames_uri: "http://sws.geonames.org/3143244/"
+  - name: Bergen
+    country: Norway
+    geonames_uri: "http://sws.geonames.org/3161732/"
+  - name: Trondheim
+    country: Norway
+    geonames_uri: "http://sws.geonames.org/3133880/"
+  - name: Reykjavik
+    country: Iceland
+    geonames_uri: "http://sws.geonames.org/3413829/"
+
+collections:
+  - Nationalmuseum
+  - Nordiska museet
+  - Historiska museet
+  - Moderna Museet
+  - "Göteborgs konstmuseum"
+  - "Malmö Museer"
+  - Uppsala universitetsmuseum
+  - Gotlands Museum
+  - Ateneum Art Museum
+  - National Museum of Denmark
+
+periods:
+  - name: Viking Age
+    start: "793"
+    end: "1066"
+  - name: Medieval
+    start: "1066"
+    end: "1500"
+  - name: Renaissance
+    start: "1400"
+    end: "1600"
+  - name: Baroque
+    start: "1600"
+    end: "1750"
+  - name: Rococo
+    start: "1730"
+    end: "1780"
+  - name: Neoclassical
+    start: "1760"
+    end: "1830"
+  - name: Romantic
+    start: "1800"
+    end: "1870"
+  - name: Realist
+    start: "1848"
+    end: "1900"
+  - name: Impressionist
+    start: "1860"
+    end: "1910"
+  - name: Art Nouveau
+    start: "1890"
+    end: "1910"
+  - name: National Romantic
+    start: "1880"
+    end: "1920"
+  - name: Early Modern
+    start: "1900"
+    end: "1940"
+  - name: Iron Age
+    start: "500 BC"
+    end: "793"
+  - name: Bronze Age
+    start: "1700 BC"
+    end: "500 BC"
+  - name: Stone Age
+    start: "8000 BC"
+    end: "1700 BC"
+
+subjects:
+  - name: landscape
+    aat_uri: "http://vocab.getty.edu/aat/300015636"
+  - name: portrait
+    aat_uri: "http://vocab.getty.edu/aat/300015637"
+  - name: still life
+    aat_uri: "http://vocab.getty.edu/aat/300015638"
+  - name: mythology
+    aat_uri: "http://vocab.getty.edu/aat/300055985"
+  - name: religious scene
+    aat_uri: "http://vocab.getty.edu/aat/300073708"
+  - name: genre scene
+    aat_uri: "http://vocab.getty.edu/aat/300139140"
+  - name: marine scene
+    aat_uri: "http://vocab.getty.edu/aat/300015639"
+  - name: animal study
+    aat_uri: "http://vocab.getty.edu/aat/300249799"
+  - name: botanical illustration
+    aat_uri: "http://vocab.getty.edu/aat/300015578"
+  - name: architectural view
+    aat_uri: "http://vocab.getty.edu/aat/300015636"
+  - name: battle scene
+    aat_uri: "http://vocab.getty.edu/aat/300386274"
+  - name: allegory
+    aat_uri: "http://vocab.getty.edu/aat/300055866"
+  - name: folk life
+    aat_uri: "http://vocab.getty.edu/aat/300139140"
+  - name: winter scene
+    aat_uri: "http://vocab.getty.edu/aat/300015636"
+  - name: self-portrait
+    aat_uri: "http://vocab.getty.edu/aat/300124534"
+
+title_adjectives:
+  - Northern
+  - Summer
+  - Winter
+  - Autumn
+  - Spring
+  - Evening
+  - Morning
+  - Midnight
+  - Golden
+  - Silver
+  - Ancient
+  - Lost
+  - Hidden
+  - Sacred
+  - Royal
+  - Coastal
+  - Mountain
+  - Forest
+  - Lake
+  - River
+  - Ceremonial
+  - Decorated
+  - Ornamental
+  - Miniature
+  - Grand
+
+title_nouns:
+  - Landscape
+  - Harbor
+  - Interior
+  - Garden
+  - Shore
+  - Village
+  - Meadow
+  - Fjord
+  - Archipelago
+  - Bridge
+  - Chapel
+  - Farmstead
+  - Market
+  - Festival
+  - Procession
+  - Portrait
+  - Study
+  - Composition
+  - Scene
+  - View
+  - Vessel
+  - Ornament
+  - Pendant
+  - Figurine
+  - Relief

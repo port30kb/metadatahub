@@ -16,6 +16,7 @@ echo "=== Building metadatahub.eu ==="
 # Step 1: Generate data files from YAML
 echo "[1/4] Generating data files..."
 python3 "$SCRIPT_DIR/generate-geologic-timescale.py"
+python3 "$SCRIPT_DIR/generate-example-data.py"
 
 # Step 2: Build Hugo site
 echo "[2/4] Building Hugo site..."
