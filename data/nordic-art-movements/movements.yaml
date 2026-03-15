@@ -1,0 +1,1118 @@
+# ═══════════════════════════════════════════════════════════════
+# Nordic Art and Design Movements Thesaurus
+# ═══════════════════════════════════════════════════════════════
+#
+# ~95 entries covering Nordic art, architecture, and design movements
+# from the Renaissance through contemporary movements.
+#
+# Organized into temporal/thematic groups:
+#   - Pre-modern Nordic (~10)
+#   - Golden Ages (~10)
+#   - Late 19th Century (~20)
+#   - Fin-de-siècle / Early Modern (~15)
+#   - Modernism (~15)
+#   - Post-war / Design (~15)
+#   - Contemporary (~10)
+#
+# Schema: data/nordic-art-movements/_schema.yaml
+# Generator: scripts/generate-nordic-art-movements.py
+
+# ═══════════════════════════════════════════════════════════════
+# PRE-MODERN NORDIC (~10 entries)
+# ═══════════════════════════════════════════════════════════════
+
+- id: nordic-renaissance
+  start: "1500"
+  end: "1650"
+  aat_uri: "http://vocab.getty.edu/aat/300021140"
+  labels:
+    en: Nordic Renaissance
+    sv: Nordisk renässans
+    da: Nordisk renæssance
+    nb: Nordisk renessanse
+    fi: Pohjoismainen renessanssi
+  description: "Renaissance art and architecture in Scandinavia, influenced by German, Dutch, and Italian models; characterized by castle construction and Lutheran church decoration."
+
+- id: danish-norwegian-baroque
+  broader: nordic-baroque
+  start: "1620"
+  end: "1750"
+  labels:
+    en: Danish-Norwegian Baroque
+    sv: Dansk-norsk barock
+    da: Dansk-norsk barok
+    nb: Dansk-norsk barokk
+    fi: Tanskalais-norjalainen barokki
+  description: "Baroque art and architecture in the dual monarchy of Denmark-Norway, seen in palaces like Frederiksborg and churches with elaborate altarpieces."
+
+- id: nordic-baroque
+  start: "1600"
+  end: "1750"
+  aat_uri: "http://vocab.getty.edu/aat/300021147"
+  labels:
+    en: Nordic Baroque
+    sv: Nordisk barock
+    da: Nordisk barok
+    nb: Nordisk barokk
+    fi: Pohjoismainen barokki
+  description: "Baroque style in the Nordic countries, adapted to local materials and Lutheran sensibility; prominent in royal palaces, churches, and portraiture."
+
+- id: swedish-baroque
+  broader: nordic-baroque
+  start: "1620"
+  end: "1750"
+  labels:
+    en: Swedish Baroque
+    sv: Svensk barock
+    da: Svensk barok
+    nb: Svensk barokk
+    fi: Ruotsalainen barokki
+  description: "Baroque period in Sweden during the era of great power (stormaktstiden), exemplified by architects like Nicodemus Tessin the Elder and Younger."
+
+- id: nordic-rococo
+  start: "1730"
+  end: "1790"
+  aat_uri: "http://vocab.getty.edu/aat/300021155"
+  labels:
+    en: Nordic Rococo
+    sv: Nordisk rokoko
+    da: Nordisk rokoko
+    nb: Nordisk rokokko
+    fi: Pohjoismainen rokokoo
+  description: "Rococo style in Scandinavia, lighter and more ornamental than Baroque; visible in interiors, furniture, and decorative arts of the mid-18th century."
+
+- id: gustavian-neoclassicism
+  start: "1772"
+  end: "1809"
+  aat_uri: "http://vocab.getty.edu/aat/300021477"
+  labels:
+    en: Gustavian Neoclassicism
+    sv: Gustaviansk stil
+    da: Gustaviansk neoklassicisme
+    nb: Gustaviansk nyklassisisme
+    fi: Kustaavilainen uusklassismi
+  description: "Swedish neoclassical style under Gustav III, blending French Louis XVI elegance with Nordic restraint; defined Swedish interior design with pale colors and clean lines."
+
+- id: swedish-classicism
+  start: "1780"
+  end: "1850"
+  labels:
+    en: Swedish Classicism
+    sv: Svensk klassicism
+    da: Svensk klassicisme
+    nb: Svensk klassisisme
+    fi: Ruotsalainen klassismi
+  description: "Neoclassical and Empire-influenced architecture and decorative arts in Sweden, continued under Karl XIV Johan; marked by symmetry and antique references."
+
+- id: nordic-neoclassicism
+  start: "1760"
+  end: "1850"
+  aat_uri: "http://vocab.getty.edu/aat/300021477"
+  labels:
+    en: Nordic Neoclassicism
+    sv: Nordisk nyklassicism
+    da: Nordisk neoklassicisme
+    nb: Nordisk nyklassisisme
+    fi: Pohjoismainen uusklassismi
+  description: "Neoclassical movement across the Nordic countries, inspired by Greco-Roman ideals; prominent in public buildings, sculpture, and the works of Bertel Thorvaldsen."
+
+- id: danish-neoclassicism
+  broader: nordic-neoclassicism
+  start: "1770"
+  end: "1850"
+  labels:
+    en: Danish Neoclassicism
+    sv: Dansk nyklassicism
+    da: Dansk neoklassicisme
+    nb: Dansk nyklassisisme
+    fi: Tanskalainen uusklassismi
+  description: "Neoclassical period in Denmark centered on the Royal Danish Academy; Thorvaldsen's sculpture and C.F. Hansen's architecture defined Copenhagen's cityscape."
+
+- id: finnish-early-art
+  start: "1750"
+  end: "1850"
+  labels:
+    en: Early Finnish Art
+    sv: Tidig finsk konst
+    da: Tidlig finsk kunst
+    nb: Tidlig finsk kunst
+    fi: Varhainen suomalainen taide
+  description: "Earliest distinct Finnish artistic production under Swedish and then Russian rule, primarily church paintings, portraiture, and folk art traditions."
+
+# ═══════════════════════════════════════════════════════════════
+# GOLDEN AGES (~10 entries)
+# ═══════════════════════════════════════════════════════════════
+
+- id: danish-golden-age
+  start: "1800"
+  end: "1850"
+  aat_uri: "http://vocab.getty.edu/aat/300379342"
+  labels:
+    en: Danish Golden Age
+    sv: Dansk guldålder
+    da: Dansk guldalder
+    nb: Dansk gullalder
+    fi: Tanskan kulta-aika
+  description: "Flourishing of Danish painting, sculpture, and literature in the first half of the 19th century; artists include C.W. Eckersberg, Christen Købke, and Wilhelm Bendz."
+
+- id: nordic-romanticism
+  start: "1800"
+  end: "1870"
+  aat_uri: "http://vocab.getty.edu/aat/300021474"
+  labels:
+    en: Nordic Romanticism
+    sv: Nordisk romantik
+    da: Nordisk romantik
+    nb: Nordisk romantikk
+    fi: Pohjoismainen romantiikka
+  description: "Romantic movement in the Nordic countries emphasizing national identity, folk culture, and dramatic landscapes; foundational for later national movements."
+
+- id: norwegian-romantic-nationalism
+  broader: nordic-romanticism
+  start: "1840"
+  end: "1870"
+  labels:
+    en: Norwegian Romantic Nationalism
+    sv: Norsk nationalromantik
+    da: Norsk nationalromantik
+    nb: Norsk nasjonalromantikk
+    fi: Norjalainen kansallisromantiikka
+  description: "Norwegian art movement celebrating national landscape and folk culture after independence from Denmark; painters like J.C. Dahl and Adolph Tidemand."
+
+- id: finnish-national-awakening
+  start: "1835"
+  end: "1880"
+  labels:
+    en: Finnish National Awakening
+    sv: Finlands nationella uppvaknande
+    da: Finsk national opvågning
+    nb: Finsk nasjonal oppvåkning
+    fi: Suomen kansallinen herääminen
+  description: "Cultural and artistic movement in Finland promoting Finnish language and identity under Russian rule; connected to the publication of the Kalevala (1835)."
+
+- id: swedish-romantic-landscape
+  broader: nordic-romanticism
+  start: "1830"
+  end: "1870"
+  labels:
+    en: Swedish Romantic Landscape Painting
+    sv: Svensk romantisk landskapsmåleri
+    da: Svensk romantisk landskabsmaleri
+    nb: Svensk romantisk landskapsmaleri
+    fi: Ruotsalainen romanttinen maisemamaalaus
+  description: "Swedish landscape painting tradition emphasizing sublime Nordic nature; artists include Marcus Larson and the early work of Carl Fredrik Hill."
+
+- id: scandinavian-romanticism-music
+  broader: nordic-romanticism
+  start: "1840"
+  end: "1910"
+  labels:
+    en: Scandinavian Musical Romanticism
+    sv: Skandinavisk musikromantik
+    da: Skandinavisk musikromantik
+    nb: Skandinavisk musikkromantikk
+    fi: Skandinaavinen musiikkiromantiikka
+  description: "Nordic Romantic music tradition drawing on folk melodies and national themes; composers include Edvard Grieg, Jean Sibelius, and Carl Nielsen."
+
+- id: dusseldorf-school-nordic
+  start: "1840"
+  end: "1870"
+  labels:
+    en: Düsseldorf School (Nordic Students)
+    sv: Düsseldorfskolan (nordiska elever)
+    da: Düsseldorfskolen (nordiske elever)
+    nb: Düsseldorfskolen (nordiske elever)
+    fi: Düsseldorfin koulu (pohjoismaiset opiskelijat)
+  description: "Nordic artists who studied at the Düsseldorf Academy, bringing German Romantic techniques back to Scandinavia; included Hans Gude, Adolph Tidemand, and August Malmström."
+
+- id: icelandic-romanticism
+  broader: nordic-romanticism
+  start: "1850"
+  end: "1920"
+  labels:
+    en: Icelandic Romanticism
+    sv: Isländsk romantik
+    da: Islandsk romantik
+    nb: Islandsk romantikk
+    fi: Islantilainen romantiikka
+    is: Íslensk rómantík
+  description: "Late Romantic movement in Iceland connected to independence aspirations; landscape painting by Þórarinn B. Þorláksson and saga-inspired literary arts."
+
+- id: nordic-history-painting
+  start: "1820"
+  end: "1880"
+  labels:
+    en: Nordic History Painting
+    sv: Nordisk historiemåleri
+    da: Nordisk historiemaleri
+    nb: Nordisk historiemåleri
+    fi: Pohjoismainen historiamaalaus
+  description: "History painting tradition in the Nordic countries depicting Viking sagas, medieval events, and national myths; served nation-building purposes across Scandinavia."
+
+- id: finnish-romantic-painting
+  broader: nordic-romanticism
+  start: "1850"
+  end: "1880"
+  labels:
+    en: Finnish Romantic Painting
+    sv: Finsk romantisk målning
+    da: Finsk romantisk maleri
+    nb: Finsk romantisk maleri
+    fi: Suomalainen romanttinen maalaus
+  description: "Romantic painting in Finland depicting Karelian landscapes and scenes from the Kalevala; artists include Robert Wilhelm Ekman and Werner Holmberg."
+
+# ═══════════════════════════════════════════════════════════════
+# LATE 19TH CENTURY (~20 entries)
+# ═══════════════════════════════════════════════════════════════
+
+- id: nordic-realism
+  start: "1870"
+  end: "1900"
+  aat_uri: "http://vocab.getty.edu/aat/300056529"
+  labels:
+    en: Nordic Realism
+    sv: Nordisk realism
+    da: Nordisk realisme
+    nb: Nordisk realisme
+    fi: Pohjoismainen realismi
+  description: "Realist movement in Scandinavian art and literature from the 1870s onward, depicting everyday life and social conditions; influenced by Georg Brandes' Modern Breakthrough."
+
+- id: nordic-naturalism
+  start: "1880"
+  end: "1900"
+  aat_uri: "http://vocab.getty.edu/aat/300056428"
+  labels:
+    en: Nordic Naturalism
+    sv: Nordisk naturalism
+    da: Nordisk naturalisme
+    nb: Nordisk naturalisme
+    fi: Pohjoismainen naturalismi
+  description: "Naturalist movement in Nordic painting emphasizing scientific observation of light, landscape, and social realities; parallel to French Naturalism."
+
+- id: skagen-painters
+  broader: nordic-realism
+  start: "1870"
+  end: "1910"
+  aat_uri: "http://vocab.getty.edu/aat/300379344"
+  labels:
+    en: Skagen Painters
+    sv: Skagenmålarna
+    da: Skagensmalerne
+    nb: Skagenmalerne
+    fi: Skagenin maalarit
+  description: "Danish-Scandinavian artists' colony at Skagen painting en plein air, known for their depictions of light and local life; key figures include P.S. Krøyer, Anna and Michael Ancher."
+
+- id: grez-sur-loing-nordic
+  start: "1882"
+  end: "1900"
+  labels:
+    en: Swedish Artists' Colony at Grez-sur-Loing
+    sv: Grezdkolonin
+    da: Svenske kunstnere i Grez-sur-Loing
+    nb: Svenske kunstnere i Grez-sur-Loing
+    fi: Ruotsalaiset taiteilijat Grez-sur-Loingissa
+  description: "Colony of Swedish and Nordic artists in the French village of Grez-sur-Loing during the 1880s; included Carl Larsson, Karl Nordström, and other opponents (opponenterna)."
+
+- id: opponenterna
+  broader: nordic-realism
+  start: "1885"
+  end: "1895"
+  labels:
+    en: The Opponents (Opponenterna)
+    sv: Opponenterna
+    da: Opponenterne
+    nb: Opponentene
+    fi: Opponentit
+  description: "Group of young Swedish artists who rebelled against the Royal Academy in the 1880s, demanding modernization; led by Ernst Josephson, Richard Bergh, and Karl Nordström."
+
+- id: finnish-golden-age-art
+  start: "1880"
+  end: "1910"
+  labels:
+    en: Finnish Golden Age of Art
+    sv: Finsk konstens guldålder
+    da: Finsk kunsts guldalder
+    nb: Finsk kunsts gullalder
+    fi: Suomen taiteen kultakausi
+  description: "Peak of Finnish visual arts from the 1880s to 1910, combining Realism, Naturalism, and National Romanticism; artists include Akseli Gallen-Kallela, Albert Edelfelt, and Helene Schjerfbeck."
+
+- id: norwegian-neo-romanticism
+  start: "1890"
+  end: "1910"
+  labels:
+    en: Norwegian Neo-Romanticism
+    sv: Norsk nyromantik
+    da: Norsk nyromantik
+    nb: Norsk nyromantikk
+    fi: Norjalainen uusromantiikka
+  description: "Late 19th-century Norwegian movement returning to Romantic themes of nature and myth with modernist techniques; artists include Nikolai Astrup and Halfdan Egedius."
+
+- id: national-romanticism
+  start: "1880"
+  end: "1920"
+  aat_uri: "http://vocab.getty.edu/aat/300021478"
+  labels:
+    en: Nordic National Romanticism
+    sv: Nordisk nationalromantik
+    da: Nordisk nationalromantik
+    nb: Nordisk nasjonalromantikk
+    fi: Pohjoismainen kansallisromantiikka
+  description: "Pan-Nordic movement in art, architecture, and design drawing on medieval, folk, and mythological sources to express national identity; flourished in architecture and applied arts."
+
+- id: swedish-national-romanticism
+  broader: national-romanticism
+  start: "1890"
+  end: "1920"
+  labels:
+    en: Swedish National Romanticism
+    sv: Svensk nationalromantik
+    da: Svensk nationalromantik
+    nb: Svensk nasjonalromantikk
+    fi: Ruotsalainen kansallisromantiikka
+  description: "Swedish National Romantic movement in architecture and art, drawing on Viking and medieval motifs; Stockholm City Hall by Ragnar Östberg is a key example."
+
+- id: karelian-national-romanticism
+  broader: national-romanticism
+  start: "1890"
+  end: "1920"
+  labels:
+    en: Finnish Karelian National Romanticism
+    sv: Finsk-karelsk nationalromantik
+    da: Finsk-karelsk nationalromantik
+    nb: Finsk-karelsk nasjonalromantikk
+    fi: Karjalainen kansallisromantiikka
+  description: "Finnish National Romantic movement inspired by Karelian culture and the Kalevala; Akseli Gallen-Kallela's paintings and Eliel Saarinen's architecture epitomize the style."
+
+- id: norwegian-dragestil
+  broader: national-romanticism
+  start: "1880"
+  end: "1910"
+  labels:
+    en: Norwegian Dragon Style (Dragestil)
+    sv: Norsk drakstil
+    da: Norsk dragestil
+    nb: Norsk dragestil
+    fi: Norjalainen lohikäärmetyyli
+  description: "Norwegian architectural style combining Viking-era dragon motifs with Art Nouveau forms; seen in stave church-inspired buildings and wooden villas."
+
+- id: nordic-impressionism
+  start: "1880"
+  end: "1910"
+  aat_uri: "http://vocab.getty.edu/aat/300021503"
+  labels:
+    en: Nordic Impressionism
+    sv: Nordisk impressionism
+    da: Nordisk impressionisme
+    nb: Nordisk impresjonisme
+    fi: Pohjoismainen impressionismi
+  description: "Nordic adaptation of French Impressionism emphasizing the distinctive quality of Scandinavian light; artists include Anders Zorn, Peder Severin Krøyer, and Christian Krohg."
+
+- id: varberg-school
+  broader: nordic-realism
+  start: "1893"
+  end: "1910"
+  labels:
+    en: Varberg School
+    sv: Varbergsskolan
+    da: Varbergskolen
+    nb: Varbergskolen
+    fi: Varbergin koulu
+  description: "Swedish artists' group based at Varberg, led by Karl Nordström and Nils Kreuger, painting the west Swedish landscape in a style blending Naturalism and Symbolism."
+
+- id: nordic-plein-air
+  start: "1880"
+  end: "1910"
+  labels:
+    en: Nordic Plein Air Painting
+    sv: Nordisk friluftsmåleri
+    da: Nordisk friluftsmaleri
+    nb: Nordisk friluftsmaleri
+    fi: Pohjoismainen ulkoilmamaalaus
+  description: "Open-air painting tradition across the Nordic countries, influenced by French practice but adapted to northern light; central to Skagen, Grez-sur-Loing, and the Opponents."
+
+- id: finska-konstforeningen
+  start: "1846"
+  end: "1920"
+  labels:
+    en: Finnish Art Society Movement
+    sv: Finska Konstföreningen
+    da: Finsk Kunstforening
+    nb: Finsk Kunstforening
+    fi: Suomen Taideyhdistys
+  description: "Institutional movement centered on the Finnish Art Society (est. 1846), promoting Finnish national art and establishing collections that formed the basis of Finnish art museums."
+
+- id: artists-colony-tuusula
+  start: "1897"
+  end: "1920"
+  labels:
+    en: Tuusula Lake Artists' Colony
+    sv: Tuusby sjö konstnärskoloni
+    da: Tuusulasøens kunstnerkoloni
+    nb: Tuusjøens kunstnerkoloni
+    fi: Tuusulanjärven taiteilijayhteisö
+  description: "Finnish artists' colony on Lake Tuusula north of Helsinki; residents included Jean Sibelius, Juhani Aho, Pekka Halonen, and Eero Järnefelt."
+
+- id: copenhagen-secession
+  start: "1891"
+  end: "1910"
+  labels:
+    en: Free Exhibition (Den Frie Udstilling)
+    sv: Den Fria Utställningen (Köpenhamn)
+    da: Den Frie Udstilling
+    nb: Den Frie Utstilling
+    fi: Vapaa näyttely (Kööpenhamina)
+  description: "Independent exhibition society in Copenhagen founded in 1891 as an alternative to the official Charlottenborg exhibition; showed progressive and international art."
+
+- id: munch-circle
+  start: "1890"
+  end: "1910"
+  labels:
+    en: Edvard Munch and Nordic Expressionist Precursors
+    sv: Edvard Munch och nordiska expressionistiska föregångare
+    da: Edvard Munch og nordiske ekspressionistiske forløbere
+    nb: Edvard Munch og nordiske ekspresjonistiske forgjengere
+    fi: Edvard Munch ja pohjoismaisten ekspressionismin edelläkävijät
+  description: "The artistic circle and influence of Edvard Munch, whose psychological and symbolic work anticipated Expressionism; The Scream (1893) became an icon of modern anxiety."
+
+- id: swedish-arts-crafts
+  start: "1880"
+  end: "1910"
+  labels:
+    en: Swedish Arts and Crafts Movement
+    sv: Svensk arts and crafts-rörelse
+    da: Svensk kunsthåndværksbevægelse
+    nb: Svensk kunsthåndverksbevegelse
+    fi: Ruotsalainen taidekäsityöliike
+  description: "Swedish adaptation of the British Arts and Crafts movement promoting handcraft, good design, and collaboration between art and industry; connected to Carl and Karin Larsson."
+
+# ═══════════════════════════════════════════════════════════════
+# FIN-DE-SIÈCLE / EARLY MODERN (~15 entries)
+# ═══════════════════════════════════════════════════════════════
+
+- id: nordic-art-nouveau
+  start: "1890"
+  end: "1915"
+  aat_uri: "http://vocab.getty.edu/aat/300021430"
+  labels:
+    en: Nordic Art Nouveau / Jugend
+    sv: Nordisk jugend
+    da: Nordisk jugendstil
+    nb: Nordisk jugendstil
+    fi: Pohjoismainen jugend
+  description: "Art Nouveau movement in the Nordic countries, known as Jugend, emphasizing organic forms, nature motifs, and the integration of art with architecture and craft."
+
+- id: swedish-jugend
+  broader: nordic-art-nouveau
+  start: "1895"
+  end: "1915"
+  labels:
+    en: Swedish Jugend
+    sv: Svensk jugend
+    da: Svensk jugend
+    nb: Svensk jugend
+    fi: Ruotsalainen jugend
+  description: "Swedish variant of Art Nouveau influenced by both Continental Jugendstil and National Romantic themes; visible in Stockholm architecture and applied arts."
+
+- id: finnish-jugend
+  broader: nordic-art-nouveau
+  start: "1895"
+  end: "1915"
+  labels:
+    en: Finnish Jugend (National Romantic Architecture)
+    sv: Finsk jugend
+    da: Finsk jugend
+    nb: Finsk jugend
+    fi: Suomalainen jugend
+  description: "Finnish Art Nouveau blending Jugendstil with National Romantic architecture; Helsinki Central Station by Eliel Saarinen and buildings in Katajanokka exemplify the style."
+
+- id: alesund-jugend
+  broader: nordic-art-nouveau
+  start: "1904"
+  end: "1915"
+  labels:
+    en: Ålesund Jugend
+    sv: Ålesund jugend
+    da: Ålesund jugend
+    nb: Ålesund jugend
+    fi: Ålesundin jugend
+  description: "Distinctive concentration of Art Nouveau architecture in Ålesund, Norway, rebuilt after the 1904 fire in Jugendstil; now a UNESCO-recognized heritage area."
+
+- id: nordic-symbolism
+  start: "1890"
+  end: "1910"
+  aat_uri: "http://vocab.getty.edu/aat/300021479"
+  labels:
+    en: Nordic Symbolism
+    sv: Nordisk symbolism
+    da: Nordisk symbolisme
+    nb: Nordisk symbolisme
+    fi: Pohjoismainen symbolismi
+  description: "Symbolist movement in Scandinavian art exploring mysticism, dreams, and inner life; artists include Hugo Simberg, Vilhelm Hammershøi, and Magnus Enckell."
+
+- id: nordic-expressionism
+  start: "1905"
+  end: "1940"
+  aat_uri: "http://vocab.getty.edu/aat/300021505"
+  labels:
+    en: Nordic Expressionism
+    sv: Nordisk expressionism
+    da: Nordisk ekspressionisme
+    nb: Nordisk ekspresjonisme
+    fi: Pohjoismainen ekspressionismi
+  description: "Expressionist movement in Nordic art characterized by bold colors, emotional intensity, and distorted forms; influenced by Munch and connected to German Expressionism."
+
+- id: swedish-grace
+  start: "1920"
+  end: "1935"
+  labels:
+    en: Swedish Grace
+    sv: Swedish grace
+    da: Swedish grace
+    nb: Swedish grace
+    fi: Swedish grace
+  description: "Elegant Swedish decorative style of the 1920s blending neoclassicism with modernism; showcased at the 1925 Paris Exhibition; associated with architect-designers like Carl Malmsten."
+
+- id: nordic-classicism
+  start: "1910"
+  end: "1935"
+  aat_uri: "http://vocab.getty.edu/aat/300021477"
+  labels:
+    en: Nordic Classicism (1910s–1930s)
+    sv: Nordisk klassicism
+    da: Nordisk klassicisme
+    nb: Nordisk klassisisme
+    fi: Pohjoismainen klassismi
+  description: "Restrained classical architecture in the Nordic countries as a transition between National Romanticism and Functionalism; Gunnar Asplund's Stockholm Public Library is iconic."
+
+- id: danish-neoclassical-revival
+  broader: nordic-classicism
+  start: "1915"
+  end: "1930"
+  labels:
+    en: Danish Neoclassical Revival
+    sv: Dansk nyklassicistisk revival
+    da: Dansk nyklassicistisk revival
+    nb: Dansk nyklassisistisk revival
+    fi: Tanskalainen uusklassistinen elpyminen
+  description: "Danish architecture of the 1910s–1920s returning to neoclassical simplicity; Hack Kampmann and Carl Petersen's Faaborg Museum exemplify the movement."
+
+- id: finnish-classicism
+  broader: nordic-classicism
+  start: "1920"
+  end: "1930"
+  labels:
+    en: Finnish Classicism
+    sv: Finsk klassicism
+    da: Finsk klassicisme
+    nb: Finsk klassisisme
+    fi: Suomalainen klassismi
+  description: "Brief but significant classical phase in Finnish architecture during the 1920s; early works of Alvar Aalto and J.S. Sirén's Parliament House represent the period."
+
+- id: de-stijl-nordic-influence
+  start: "1917"
+  end: "1935"
+  labels:
+    en: De Stijl Influence in the Nordics
+    sv: De Stijl-inflytande i Norden
+    da: De Stijl-indflydelse i Norden
+    nb: De Stijl-innflytelse i Norden
+    fi: De Stijl -vaikutus Pohjoismaissa
+  description: "Impact of the Dutch De Stijl movement on Nordic abstract art and design, particularly in Swedish and Danish geometric abstraction of the interwar years."
+
+- id: scandinavian-surrealism
+  start: "1930"
+  end: "1950"
+  labels:
+    en: Scandinavian Surrealism
+    sv: Skandinavisk surrealism
+    da: Skandinavisk surrealisme
+    nb: Skandinavisk surrealisme
+    fi: Skandinaavinen surrealismi
+  description: "Surrealist tendencies in Nordic art from the 1930s onward; artists include Wilhelm Bjerke-Petersen (Denmark), Max Walter Svanberg (Sweden), and Stellan Mörner."
+
+- id: halmstad-group
+  start: "1929"
+  end: "1970"
+  labels:
+    en: Halmstad Group
+    sv: Halmstadgruppen
+    da: Halmstadgruppen
+    nb: Halmstadgruppen
+    fi: Halmstadin ryhmä
+  description: "Swedish Surrealist art group from Halmstad active from 1929; six artists including the Olson brothers who became Scandinavia's foremost Surrealist painters."
+
+- id: nordic-vitalism
+  start: "1900"
+  end: "1920"
+  labels:
+    en: Nordic Vitalism
+    sv: Nordisk vitalism
+    da: Nordisk vitalisme
+    nb: Nordisk vitalisme
+    fi: Pohjoismainen vitalismi
+  description: "Early 20th-century Nordic art movement emphasizing life force, physicality, and connection to nature; influenced by Nietzsche and visible in painting and sculpture."
+
+- id: colour-realism-sweden
+  start: "1910"
+  end: "1930"
+  labels:
+    en: Swedish Colour Realism
+    sv: Svensk kolorism
+    da: Svensk kolorisme
+    nb: Svensk kolorisme
+    fi: Ruotsalainen koloriitti
+  description: "Swedish interwar painting movement emphasizing rich color and solid form, influenced by Cézanne and Matisse; artists include Isaac Grünewald, Sigrid Hjertén, and Leander Engström."
+
+# ═══════════════════════════════════════════════════════════════
+# MODERNISM (~15 entries)
+# ═══════════════════════════════════════════════════════════════
+
+- id: nordic-functionalism
+  start: "1927"
+  end: "1950"
+  aat_uri: "http://vocab.getty.edu/aat/300021473"
+  labels:
+    en: Nordic Functionalism (Funkis)
+    sv: Nordisk funktionalism (funkis)
+    da: Nordisk funktionalisme (funkis)
+    nb: Nordisk funksjonalisme (funkis)
+    fi: Pohjoismainen funktionalismi (funkis)
+  description: "Functionalist architecture and design in the Nordic countries from the late 1920s, emphasizing utility, social housing, and modern materials; funkis became colloquial across Scandinavia."
+
+- id: swedish-functionalism
+  broader: nordic-functionalism
+  start: "1930"
+  end: "1950"
+  labels:
+    en: Swedish Functionalism
+    sv: Svensk funktionalism
+    da: Svensk funktionalisme
+    nb: Svensk funksjonalisme
+    fi: Ruotsalainen funktionalismi
+  description: "Swedish Functionalism launched by the 1930 Stockholm Exhibition organized by Gunnar Asplund; the acceptera manifesto advocated rational design for modern life."
+
+- id: danish-functionalism
+  broader: nordic-functionalism
+  start: "1930"
+  end: "1960"
+  labels:
+    en: Danish Functionalism
+    sv: Dansk funktionalism
+    da: Dansk funktionalisme
+    nb: Dansk funksjonalisme
+    fi: Tanskalainen funktionalismi
+  description: "Danish Functionalist movement in architecture and furniture design; Arne Jacobsen's Bellavista and Kay Fisker's housing projects merged social ideals with modernist aesthetics."
+
+- id: finnish-modernism
+  start: "1928"
+  end: "1960"
+  labels:
+    en: Finnish Modernism (Aalto School)
+    sv: Finsk modernism
+    da: Finsk modernisme
+    nb: Finsk modernisme
+    fi: Suomalainen modernismi
+  description: "Finnish architectural and design modernism defined by Alvar Aalto's humanistic approach, combining functionalism with organic forms, natural materials, and sensitivity to landscape."
+
+- id: norwegian-modernism
+  start: "1930"
+  end: "1960"
+  labels:
+    en: Norwegian Modernism
+    sv: Norsk modernism
+    da: Norsk modernisme
+    nb: Norsk modernisme
+    fi: Norjalainen modernismi
+  description: "Modernist movement in Norwegian art and architecture; architects like Ove Bang and Knut Knutsen developed a regional modernism blending international style with Norwegian materials."
+
+- id: cobra-nordic
+  start: "1948"
+  end: "1951"
+  aat_uri: "http://vocab.getty.edu/aat/300021482"
+  labels:
+    en: CoBrA (Nordic Participants)
+    sv: CoBrA (nordiska deltagare)
+    da: CoBrA (nordiske deltagere)
+    nb: CoBrA (nordiske deltakere)
+    fi: CoBrA (pohjoismaiset osallistujat)
+  description: "Danish artists in the CoBrA movement (Copenhagen-Brussels-Amsterdam, 1948–1951); Asger Jorn and Carl-Henning Pedersen brought Nordic expressionist energy to avant-garde abstraction."
+
+- id: nordic-concrete-art
+  start: "1945"
+  end: "1970"
+  aat_uri: "http://vocab.getty.edu/aat/300264837"
+  labels:
+    en: Nordic Concrete Art
+    sv: Nordisk konkret konst
+    da: Nordisk konkret kunst
+    nb: Nordisk konkret kunst
+    fi: Pohjoismainen konkreettinen taide
+  description: "Concrete art movement in the Nordic countries featuring geometric abstraction and systematic composition; influenced by Max Bill and developed in Swedish and Danish art circles."
+
+- id: nordic-constructivism
+  start: "1950"
+  end: "1970"
+  labels:
+    en: Nordic Constructivism
+    sv: Nordisk konstruktivism
+    da: Nordisk konstruktivisme
+    nb: Nordisk konstruktivisme
+    fi: Pohjoismainen konstruktivismi
+  description: "Constructivist tendencies in Nordic art and sculpture emphasizing geometric forms and industrial materials; connected to international Constructivism and kinetic art."
+
+- id: imaginisterna
+  start: "1945"
+  end: "1956"
+  labels:
+    en: The Imaginists (Imaginisterna)
+    sv: Imaginisterna
+    da: Imaginisterne
+    nb: Imaginistene
+    fi: Imaginistit
+  description: "Swedish avant-garde art group founded in 1945 in Malmö, bridging Surrealism and CoBrA; members included C.O. Hultén and Max Walter Svanberg."
+
+- id: linien-group
+  start: "1934"
+  end: "1940"
+  labels:
+    en: Linien Group
+    sv: Linien-gruppen
+    da: Linien
+    nb: Linien-gruppen
+    fi: Linien-ryhmä
+  description: "Danish abstract art group and journal founded in 1934; among the first to promote pure abstraction and Surrealism in Scandinavia; precursor to CoBrA."
+
+- id: finnish-informalism
+  start: "1955"
+  end: "1970"
+  labels:
+    en: Finnish Informalism
+    sv: Finsk informalism
+    da: Finsk informalisme
+    nb: Finsk informalisme
+    fi: Suomalainen informalismi
+  description: "Finnish contribution to Art Informel and abstract expressionism in the 1950s–60s; artists like Juhana Blomstedt and Sam Vanni explored gestural abstraction and color-field painting."
+
+- id: swedish-neo-realism
+  start: "1947"
+  end: "1960"
+  labels:
+    en: Swedish Neo-Realism (1947 Group)
+    sv: Svensk nyrealism (1947 års grupp)
+    da: Svensk nyrealisme (1947-gruppen)
+    nb: Svensk nyrealisme (1947-gruppen)
+    fi: Ruotsalainen uusrealismi (1947-ryhmä)
+  description: "Post-war Swedish movement returning to figuration with social awareness; the 1947 Group (Torsten Andersson, Lage Lindell) reacted against pure abstraction."
+
+- id: folk-art-revival
+  start: "1890"
+  end: "1940"
+  labels:
+    en: Nordic Folk Art Revival
+    sv: Nordisk folkkonst-revival
+    da: Nordisk folkekunst-revival
+    nb: Nordisk folkekunst-revival
+    fi: Pohjoismainen kansantaiteen elpyminen
+  description: "Pan-Nordic movement to preserve and revitalize traditional folk art, textiles, and crafts; connected to National Romanticism and the emergence of the home crafts associations (hemslöjd)."
+
+- id: nordic-social-realism
+  start: "1930"
+  end: "1950"
+  labels:
+    en: Nordic Social Realism
+    sv: Nordisk socialrealism
+    da: Nordisk socialrealisme
+    nb: Nordisk sosialrealisme
+    fi: Pohjoismainen sosiaalinen realismi
+  description: "Socially engaged realist art in the Nordic countries during the 1930s–40s, depicting workers, poverty, and solidarity; Albin Amelin in Sweden and Henrik Sørensen in Norway."
+
+# ═══════════════════════════════════════════════════════════════
+# POST-WAR / DESIGN (~15 entries)
+# ═══════════════════════════════════════════════════════════════
+
+- id: scandinavian-design
+  start: "1945"
+  end: "1975"
+  aat_uri: "http://vocab.getty.edu/aat/300264869"
+  labels:
+    en: Scandinavian Design
+    sv: Skandinavisk design
+    da: Skandinavisk design
+    nb: Skandinavisk design
+    fi: Skandinaavinen muotoilu
+  description: "Post-war design movement emphasizing democratic design, natural materials, functionalism, and beauty of everyday objects; internationally promoted through the Design in Scandinavia touring exhibition (1954–57)."
+
+- id: danish-modern
+  broader: scandinavian-design
+  start: "1945"
+  end: "1970"
+  aat_uri: "http://vocab.getty.edu/aat/300264870"
+  labels:
+    en: Danish Modern
+    sv: Dansk modern
+    da: Dansk design (dansk moderne)
+    nb: Dansk moderne
+    fi: Tanskalainen moderni
+  description: "Danish furniture and industrial design tradition of clean lines, organic forms, and superb craftsmanship; masters include Hans Wegner, Finn Juhl, Arne Jacobsen, and Børge Mogensen."
+
+- id: swedish-modern
+  broader: scandinavian-design
+  start: "1930"
+  end: "1970"
+  labels:
+    en: Swedish Modern
+    sv: Svensk modern
+    da: Svensk moderne
+    nb: Svensk moderne
+    fi: Ruotsalainen moderni
+  description: "Swedish design philosophy combining social democratic ideals with beautiful, affordable everyday goods; promoted by Gregor Paulsson's 'More Beautiful Everyday Things' (1919) and realized through IKEA and Swedish glass."
+
+- id: finnish-design
+  broader: scandinavian-design
+  start: "1945"
+  end: "1975"
+  labels:
+    en: Finnish Design (Marimekko, Arabia, Iittala)
+    sv: Finsk design
+    da: Finsk design
+    nb: Finsk design
+    fi: Suomalainen muotoilu
+  description: "Post-war Finnish design achieving international fame through companies like Marimekko (textiles), Arabia (ceramics), Iittala (glass), and designers like Tapio Wirkkala and Timo Sarpaneva."
+
+- id: scandinavian-mid-century
+  broader: scandinavian-design
+  start: "1950"
+  end: "1970"
+  labels:
+    en: Scandinavian Mid-Century Modern
+    sv: Skandinavisk mitten av seklet modern
+    da: Skandinavisk midcentury moderne
+    nb: Skandinavisk midtmoderne
+    fi: Skandinaavinen mid-century moderni
+  description: "The peak international impact of Scandinavian design in the 1950s–60s, when Nordic furniture, glass, ceramics, and textiles became globally iconic for their organic modernism."
+
+- id: nordic-industrial-design
+  start: "1960"
+  end: "1990"
+  labels:
+    en: Nordic Industrial Design
+    sv: Nordisk industridesign
+    da: Nordisk industrielt design
+    nb: Nordisk industridesign
+    fi: Pohjoismainen teollinen muotoilu
+  description: "Industrial design tradition in the Nordic countries extending Scandinavian Design principles to electronics, appliances, and transportation; Bang & Olufsen, Volvo, Saab, Nokia."
+
+- id: norwegian-rosemaling-revival
+  start: "1950"
+  end: "1980"
+  labels:
+    en: Norwegian Rosemaling Revival
+    sv: Norsk rosemålnings-revival
+    da: Norsk rosemalings-revival
+    nb: Norsk rosemalings-revival
+    fi: Norjalainen ruusumaalauksen elpyminen
+  description: "Post-war revival of traditional Norwegian decorative painting (rosemaling), promoted by folk art societies and Norwegian-American communities preserving heritage crafts."
+
+- id: swedish-textile-art
+  start: "1950"
+  end: "1980"
+  labels:
+    en: Swedish Textile Art Movement
+    sv: Svensk textilkonströrelse
+    da: Svensk tekstilkunstbevægelse
+    nb: Svensk tekstilkunstbevegelse
+    fi: Ruotsalainen tekstiilitaideliike
+  description: "Elevation of textile art to fine art in post-war Sweden; artists like Märta Måås-Fjetterström and later Kaisa Melanton created monumental tapestries and weavings."
+
+- id: danish-ceramic-movement
+  start: "1955"
+  end: "1985"
+  labels:
+    en: Danish Studio Ceramic Movement
+    sv: Dansk studiokeramikrörelse
+    da: Dansk studiokeramikbevægelse
+    nb: Dansk studiokeramikkbevegelse
+    fi: Tanskalainen studiokeramiikkaliike
+  description: "Post-war Danish ceramics movement elevating studio pottery as art; Royal Copenhagen, Saxbo, and individual artists like Axel Salto and Gertrud Vasegaard gained international recognition."
+
+- id: nordic-brutalism
+  start: "1955"
+  end: "1975"
+  aat_uri: "http://vocab.getty.edu/aat/300021562"
+  labels:
+    en: Nordic Brutalism
+    sv: Nordisk brutalism
+    da: Nordisk brutalisme
+    nb: Nordisk brutalisme
+    fi: Pohjoismainen brutalismi
+  description: "Brutalist architecture in the Nordic countries using raw concrete with humanistic sensitivity; examples include Bagsværd Church (Utzon) and the University of Jyväskylä buildings (Aalto)."
+
+- id: nordic-pop-art
+  start: "1962"
+  end: "1975"
+  labels:
+    en: Nordic Pop Art
+    sv: Nordisk popkonst
+    da: Nordisk popkunst
+    nb: Nordisk popkunst
+    fi: Pohjoismainen pop-taide
+  description: "Pop Art movement in the Nordic countries, often with political and social critique distinct from Anglo-American pop; Öyvind Fahlström (Sweden) and Per Olof Ultvedt were key figures."
+
+- id: nordic-textile-design
+  broader: scandinavian-design
+  start: "1950"
+  end: "1975"
+  labels:
+    en: Nordic Textile Design
+    sv: Nordisk textildesign
+    da: Nordisk tekstildesign
+    nb: Nordisk tekstildesign
+    fi: Pohjoismainen tekstiilisuunnittelu
+  description: "Post-war Nordic textile design characterized by bold patterns and vibrant colors; Marimekko's Maija Isola, Sweden's Josef Frank at Svenskt Tenn, and Danish designers at Georg Jensen Damask."
+
+- id: ergonomic-design-nordic
+  start: "1970"
+  end: "1995"
+  labels:
+    en: Nordic Ergonomic Design
+    sv: Nordisk ergonomisk design
+    da: Nordisk ergonomisk design
+    nb: Nordisk ergonomisk design
+    fi: Pohjoismainen ergonominen muotoilu
+  description: "Nordic emphasis on ergonomics and human-centered design in furniture, tools, and workspaces; Scandinavian office design and Peter Opsvik's Balans chairs exemplify the tradition."
+
+- id: finnish-architecture-postwar
+  start: "1950"
+  end: "1980"
+  labels:
+    en: Post-war Finnish Architecture
+    sv: Efterkrigstidens finska arkitektur
+    da: Efterkrigstidens finske arkitektur
+    nb: Etterkrigstidens finske arkitektur
+    fi: Sodanjälkeinen suomalainen arkkitehtuuri
+  description: "Finnish post-war architecture continuing Aalto's organic modernism; Viljo Revell (Toronto City Hall), Reima Pietilä (Dipoli), and Timo Penttilä developed a distinctive national modernism."
+
+- id: nordic-landscape-architecture
+  start: "1945"
+  end: "1980"
+  labels:
+    en: Nordic Landscape Architecture
+    sv: Nordisk landskapsarkitektur
+    da: Nordisk landskabsarkitektur
+    nb: Nordisk landskapsarkitektur
+    fi: Pohjoismainen maisema-arkkitehtuuri
+  description: "Post-war Nordic landscape design tradition emphasizing naturalistic planting, public parks, and democratic outdoor spaces; C.Th. Sørensen's adventure playgrounds pioneered participatory design."
+
+# ═══════════════════════════════════════════════════════════════
+# CONTEMPORARY (~10 entries)
+# ═══════════════════════════════════════════════════════════════
+
+- id: nordic-noir-aesthetic
+  start: "1990"
+  end: "2025"
+  labels:
+    en: Nordic Noir (Aesthetic)
+    sv: Nordisk noir (estetik)
+    da: Nordic noir (æstetik)
+    nb: Nordisk noir (estetikk)
+    fi: Pohjoismainen noir (estetiikka)
+  description: "Visual and narrative aesthetic originating in Scandinavian crime fiction and TV; characterized by dark palettes, austere landscapes, and minimalist interiors reflecting social critique."
+
+- id: new-nordic-design
+  start: "2000"
+  end: "2025"
+  labels:
+    en: New Nordic (Design Philosophy)
+    sv: Ny nordisk design
+    da: Ny nordisk design
+    nb: Ny nordisk design
+    fi: Uusi pohjoismainen muotoilu
+  description: "21st-century Nordic design philosophy emphasizing sustainability, local materials, and cultural identity; extends from New Nordic cuisine to architecture and product design."
+
+- id: scandinavian-minimalism
+  start: "1990"
+  end: "2025"
+  labels:
+    en: Scandinavian Minimalism
+    sv: Skandinavisk minimalism
+    da: Skandinavisk minimalisme
+    nb: Skandinavisk minimalisme
+    fi: Skandinaavinen minimalismi
+  description: "Contemporary minimalist design and lifestyle aesthetic rooted in Scandinavian design traditions; characterized by white spaces, natural materials, and lagom (just enough) philosophy."
+
+- id: nordic-contemporary-art
+  start: "1990"
+  end: "2025"
+  labels:
+    en: Nordic Contemporary Art
+    sv: Nordisk samtidskonst
+    da: Nordisk samtidskunst
+    nb: Nordisk samtidskunst
+    fi: Pohjoismainen nykytaide
+  description: "Contemporary art scene in the Nordic countries, internationally prominent through artists like Olafur Eliasson, Ragnar Kjartansson, and institutions like Moderna Museet and Louisiana."
+
+- id: nordic-light-photography
+  start: "1985"
+  end: "2025"
+  labels:
+    en: Nordic Light (Photography Movement)
+    sv: Nordiskt ljus (fotografi)
+    da: Nordisk lys (fotografi)
+    nb: Nordisk lys (fotografi)
+    fi: Pohjoismainen valo (valokuvaus)
+  description: "Nordic photography movement exploring the distinctive quality of northern light; the Nordic Light photography festival in Kristiansund and Helsinki School of photography."
+
+- id: superflat-nordic
+  start: "2005"
+  end: "2025"
+  labels:
+    en: Superflat Nordic
+    sv: Superflat nordisk
+    da: Superflat nordisk
+    nb: Superflat nordisk
+    fi: Superflat pohjoismainen
+  description: "Nordic artists engaging with flat surface aesthetics, digital culture, and post-internet art; blending Scandinavian graphic design traditions with contemporary global art discourse."
+
+- id: nordic-sustainable-design
+  start: "2010"
+  end: "2025"
+  labels:
+    en: Nordic Sustainable Design
+    sv: Nordisk hållbar design
+    da: Nordisk bæredygtigt design
+    nb: Nordisk bærekraftig design
+    fi: Pohjoismainen kestävä muotoilu
+  description: "Design movement prioritizing circular economy, sustainable materials, and environmental responsibility in the Nordic tradition; extends from architecture to fashion and industrial design."
+
+- id: nordic-neo-expressionism
+  start: "1980"
+  end: "2000"
+  labels:
+    en: Nordic Neo-Expressionism
+    sv: Nordisk nyexpressionism
+    da: Nordisk nyekspressionisme
+    nb: Nordisk nyekspresjonisme
+    fi: Pohjoismainen uusekspressionismi
+  description: "Return to figurative, emotionally charged painting in the Nordic countries during the 1980s; part of the international Neo-Expressionist wave; artists include Per Kirkeby and Odd Nerdrum."
+
+- id: helsinki-school
+  start: "1995"
+  end: "2025"
+  labels:
+    en: Helsinki School (Photography)
+    sv: Helsingforsskolan (fotografi)
+    da: Helsinkiskolen (fotografi)
+    nb: Helsinkiskolen (fotografi)
+    fi: Helsinki-koulu (valokuvaus)
+  description: "Finnish contemporary photography movement originating at the University of Art and Design Helsinki; known for large-scale, contemplative images; artists include Elina Brotherus and Esko Männikkö."
+
+- id: nordic-parametric-architecture
+  start: "2005"
+  end: "2025"
+  labels:
+    en: Nordic Parametric Architecture
+    sv: Nordisk parametrisk arkitektur
+    da: Nordisk parametrisk arkitektur
+    nb: Nordisk parametrisk arkitektur
+    fi: Pohjoismainen parametrinen arkkitehtuuri
+  description: "Computational and parametric architecture in the Nordic countries; firms like BIG (Bjarke Ingels Group), Snøhetta, and 3XN use algorithmic design for innovative public buildings."

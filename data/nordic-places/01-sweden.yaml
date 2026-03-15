@@ -1,0 +1,687 @@
+# ═══════════════════════════════════════════════════════════════
+# Nordic Place Name Authority — Sweden
+# Country, landskap (historical provinces), major cities,
+# towns, islands, and archaeological sites.
+# ═══════════════════════════════════════════════════════════════
+
+# ── Country ──────────────────────────────────────────────────
+
+- id: sweden
+  type: country
+  labels:
+    en: Sweden
+    sv: Sverige
+  alt_labels:
+    sv: ["Konungariket Sverige"]
+    en: ["Kingdom of Sweden"]
+  lat: 62.0
+  lon: 15.0
+  geonames_uri: "http://sws.geonames.org/2661886/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q34"
+  description: "Nordic country on the Scandinavian Peninsula. Constitutional monarchy with a population of about 10.5 million."
+
+# ── Landskap (Historical Provinces) ─────────────────────────
+
+- id: uppland
+  type: landskap
+  broader: sweden
+  labels:
+    en: Uppland
+    sv: Uppland
+  lat: 59.85
+  lon: 17.63
+  geonames_uri: "http://sws.geonames.org/2666218/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q103686"
+  description: "Historical province in eastern central Sweden. Heartland of the Svear tribe and site of ancient Uppsala."
+
+- id: sodermanland
+  type: landskap
+  broader: sweden
+  labels:
+    en: Södermanland
+    sv: Södermanland
+  alt_labels:
+    sv: ["Sörmland"]
+  lat: 59.03
+  lon: 16.75
+  geonames_uri: "http://sws.geonames.org/2676209/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q103691"
+  description: "Historical province south of Lake Mälaren, known for its many runestones and medieval churches."
+
+- id: ostergotland
+  type: landskap
+  broader: sweden
+  labels:
+    en: Östergötland
+    sv: Östergötland
+  lat: 58.42
+  lon: 15.62
+  geonames_uri: "http://sws.geonames.org/2685867/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q103692"
+  description: "Historical province in southeastern Sweden, home to the Göta Canal and the medieval town of Vadstena."
+
+- id: smaland
+  type: landskap
+  broader: sweden
+  labels:
+    en: Småland
+    sv: Småland
+  lat: 57.17
+  lon: 15.58
+  geonames_uri: "http://sws.geonames.org/2676340/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q103693"
+  description: "Historical province in southern Sweden. Name means 'small lands'; birthplace of Linnaeus and the Kingdom of Crystal."
+
+- id: vastergotland
+  type: landskap
+  broader: sweden
+  labels:
+    en: Västergötland
+    sv: Västergötland
+  lat: 58.17
+  lon: 13.17
+  geonames_uri: "http://sws.geonames.org/2664454/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q103694"
+  description: "Historical province in western Sweden. Heartland of the Götar tribe and site of Skara, one of Sweden's oldest towns."
+
+- id: skane
+  type: landskap
+  broader: sweden
+  labels:
+    en: Scania
+    sv: Skåne
+  alt_labels:
+    en: ["Skåne"]
+    da: ["Skåne"]
+  lat: 55.95
+  lon: 13.60
+  geonames_uri: "http://sws.geonames.org/2676780/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q103695"
+  description: "Southernmost historical province. Part of Denmark until 1658. Known for fertile plains and Ales Stenar."
+
+- id: gotland
+  type: landskap
+  broader: sweden
+  labels:
+    en: Gotland
+    sv: Gotland
+  lat: 57.50
+  lon: 18.55
+  geonames_uri: "http://sws.geonames.org/2712209/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q103700"
+  description: "Sweden's largest island in the Baltic Sea. Major Viking Age trading hub with the medieval town of Visby."
+
+- id: dalarna
+  type: landskap
+  broader: sweden
+  labels:
+    en: Dalarna
+    sv: Dalarna
+  alt_labels:
+    en: ["Dalecarlia"]
+  lat: 61.09
+  lon: 14.67
+  geonames_uri: "http://sws.geonames.org/2718986/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q103696"
+  description: "Historical province in central Sweden. Known for the Dalecarlian horse, copper mining at Falun, and midsummer traditions."
+
+- id: varmland
+  type: landskap
+  broader: sweden
+  labels:
+    en: Värmland
+    sv: Värmland
+  lat: 59.73
+  lon: 13.23
+  geonames_uri: "http://sws.geonames.org/2664547/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q103697"
+  description: "Historical province in western Sweden bordering Norway. Known for forests, lakes, and the novels of Selma Lagerlöf."
+
+- id: norrbotten
+  type: landskap
+  broader: sweden
+  labels:
+    en: Norrbotten
+    sv: Norrbotten
+  lat: 66.33
+  lon: 20.00
+  geonames_uri: "http://sws.geonames.org/2690340/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q103703"
+  description: "Northernmost historical province of Sweden. Rich in iron ore (Kiruna, Gällivare) and home to Sámi communities."
+
+- id: vasterbotten
+  type: landskap
+  broader: sweden
+  labels:
+    en: Västerbotten
+    sv: Västerbotten
+  lat: 64.75
+  lon: 18.50
+  geonames_uri: "http://sws.geonames.org/2664452/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q103702"
+  description: "Historical province in northern Sweden. Home to Umeå, the European Capital of Culture in 2014."
+
+- id: angermanland
+  type: landskap
+  broader: sweden
+  labels:
+    en: Ångermanland
+    sv: Ångermanland
+  lat: 63.33
+  lon: 17.50
+  geonames_uri: "http://sws.geonames.org/2725468/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q103701"
+  description: "Historical province in northern Sweden known for the Höga Kusten (High Coast), a UNESCO World Heritage Site."
+
+- id: jamtland
+  type: landskap
+  broader: sweden
+  labels:
+    en: Jämtland
+    sv: Jämtland
+  lat: 63.17
+  lon: 14.64
+  geonames_uri: "http://sws.geonames.org/2710818/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q103698"
+  description: "Historical province in northwestern Sweden. Historically Norwegian until 1645. Known for Storsjöodjuret legend and winter sports."
+
+- id: harjedalen
+  type: landskap
+  broader: sweden
+  labels:
+    en: Härjedalen
+    sv: Härjedalen
+  lat: 62.40
+  lon: 14.10
+  geonames_uri: "http://sws.geonames.org/2707766/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q103699"
+  description: "Historical province in northwestern Sweden. Sweden's least populated landskap, known for mountain areas."
+
+- id: halsingland
+  type: landskap
+  broader: sweden
+  labels:
+    en: Hälsingland
+    sv: Hälsingland
+  lat: 61.75
+  lon: 16.50
+  geonames_uri: "http://sws.geonames.org/2708756/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q103704"
+  description: "Historical province in central Sweden. UNESCO-listed decorated farmhouses and folk music traditions."
+
+- id: gastrikland
+  type: landskap
+  broader: sweden
+  labels:
+    en: Gästrikland
+    sv: Gästrikland
+  lat: 60.70
+  lon: 16.82
+  geonames_uri: "http://sws.geonames.org/2712414/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q103705"
+  description: "Historical province in central Sweden. Sweden's smallest landskap by area."
+
+- id: narke
+  type: landskap
+  broader: sweden
+  labels:
+    en: Närke
+    sv: Närke
+  lat: 59.07
+  lon: 15.17
+  geonames_uri: "http://sws.geonames.org/2689775/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q103690"
+  description: "Historical province in central Sweden surrounding Örebro. Known as the heart of Sweden."
+
+- id: vastmanland
+  type: landskap
+  broader: sweden
+  labels:
+    en: Västmanland
+    sv: Västmanland
+  lat: 59.72
+  lon: 16.25
+  geonames_uri: "http://sws.geonames.org/2664453/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q103689"
+  description: "Historical province in central Sweden. Site of the mining town Sala and Lake Mälaren's western shore."
+
+- id: halland
+  type: landskap
+  broader: sweden
+  labels:
+    en: Halland
+    sv: Halland
+  lat: 56.90
+  lon: 12.80
+  geonames_uri: "http://sws.geonames.org/2708834/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q103706"
+  description: "Historical province on the Swedish west coast. Danish until 1645. Known for sandy beaches and agriculture."
+
+- id: blekinge
+  type: landskap
+  broader: sweden
+  labels:
+    en: Blekinge
+    sv: Blekinge
+  lat: 56.17
+  lon: 15.50
+  geonames_uri: "http://sws.geonames.org/2723261/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q103707"
+  description: "Historical province in southern Sweden. Danish until 1658. Known as the Garden of Sweden."
+
+- id: bohuslan
+  type: landskap
+  broader: sweden
+  labels:
+    en: Bohuslän
+    sv: Bohuslän
+  lat: 58.50
+  lon: 11.50
+  geonames_uri: "http://sws.geonames.org/2722242/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q103708"
+  description: "Historical province on the Swedish west coast. Norwegian until 1658. Famous for Bronze Age rock carvings at Tanum."
+
+- id: dalsland
+  type: landskap
+  broader: sweden
+  labels:
+    en: Dalsland
+    sv: Dalsland
+  lat: 59.00
+  lon: 12.30
+  geonames_uri: "http://sws.geonames.org/2719080/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q103709"
+  description: "Historical province in western Sweden. One of the smallest provinces, known for its lakes and the Dalsland Canal."
+
+- id: oland
+  type: landskap
+  broader: sweden
+  labels:
+    en: Öland
+    sv: Öland
+  lat: 56.75
+  lon: 16.63
+  geonames_uri: "http://sws.geonames.org/2686655/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q103710"
+  description: "Sweden's second-largest island. UNESCO World Heritage agricultural landscape and home to Borgholm Castle."
+
+- id: lappland
+  type: landskap
+  broader: sweden
+  labels:
+    en: Lapland
+    sv: Lappland
+    se: Sápmi
+  lat: 67.50
+  lon: 18.00
+  geonames_uri: "http://sws.geonames.org/2699787/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q103711"
+  description: "Largest historical province, covering northern Sweden. Traditional homeland of the Sámi people with mountains, forests, and the midnight sun."
+
+# ── Major Cities ─────────────────────────────────────────────
+
+- id: stockholm
+  type: city
+  broader: uppland
+  labels:
+    en: Stockholm
+    sv: Stockholm
+  alt_labels:
+    sv: ["Stockholms stad"]
+  lat: 59.3293
+  lon: 18.0686
+  geonames_uri: "http://sws.geonames.org/2673730/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1754"
+  description: "Capital of Sweden, founded in the 13th century. Built on 14 islands where Lake Mälaren meets the Baltic Sea."
+
+- id: gothenburg
+  type: city
+  broader: vastergotland
+  labels:
+    en: Gothenburg
+    sv: Göteborg
+  lat: 57.7089
+  lon: 11.9746
+  geonames_uri: "http://sws.geonames.org/2711537/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25287"
+  description: "Sweden's second-largest city and largest port. Founded in 1621 by Gustav II Adolf."
+
+- id: malmo
+  type: city
+  broader: skane
+  labels:
+    en: Malmö
+    sv: Malmö
+  lat: 55.6050
+  lon: 13.0038
+  geonames_uri: "http://sws.geonames.org/2692969/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q2211"
+  description: "Third-largest city in Sweden, connected to Copenhagen by the Öresund Bridge."
+
+- id: uppsala
+  type: city
+  broader: uppland
+  labels:
+    en: Uppsala
+    sv: Uppsala
+  lat: 59.8586
+  lon: 17.6389
+  geonames_uri: "http://sws.geonames.org/2666199/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25286"
+  description: "Fourth-largest city in Sweden. Seat of the Archbishop and home to Scandinavia's oldest university (1477)."
+
+- id: linkoping
+  type: city
+  broader: ostergotland
+  labels:
+    en: Linköping
+    sv: Linköping
+  lat: 58.4108
+  lon: 15.6214
+  geonames_uri: "http://sws.geonames.org/2694762/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25288"
+  description: "Major city in Östergötland. Centre of the Swedish aviation industry (Saab)."
+
+- id: norrkoping
+  type: city
+  broader: ostergotland
+  labels:
+    en: Norrköping
+    sv: Norrköping
+  lat: 58.5942
+  lon: 16.1826
+  geonames_uri: "http://sws.geonames.org/2690579/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25290"
+  description: "Historic industrial city in Östergötland. Once called Sweden's Manchester for its textile mills."
+
+- id: vasteras
+  type: city
+  broader: vastmanland
+  labels:
+    en: Västerås
+    sv: Västerås
+  lat: 59.6162
+  lon: 16.5528
+  geonames_uri: "http://sws.geonames.org/2664454/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25291"
+  description: "One of Sweden's oldest cities, seat of the Reformation-era Riksdag (1527) and home to ABB."
+
+- id: orebro
+  type: city
+  broader: narke
+  labels:
+    en: Örebro
+    sv: Örebro
+  lat: 59.2753
+  lon: 15.2134
+  geonames_uri: "http://sws.geonames.org/2686657/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25289"
+  description: "City in central Sweden known for its medieval castle on an island in the Svartån river."
+
+- id: umea
+  type: city
+  broader: vasterbotten
+  labels:
+    en: Umeå
+    sv: Umeå
+  lat: 63.8258
+  lon: 20.2630
+  geonames_uri: "http://sws.geonames.org/2666218/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25293"
+  description: "Largest city in northern Sweden. European Capital of Culture 2014. University city known as the City of Birches."
+
+- id: lulea
+  type: city
+  broader: norrbotten
+  labels:
+    en: Luleå
+    sv: Luleå
+  lat: 65.5848
+  lon: 22.1547
+  geonames_uri: "http://sws.geonames.org/2693678/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25294"
+  description: "Coastal city in Norrbotten. The Church Town of Gammelstad is a UNESCO World Heritage Site."
+
+- id: kiruna
+  type: city
+  broader: lappland
+  labels:
+    en: Kiruna
+    sv: Kiruna
+    se: Giron
+  lat: 67.8558
+  lon: 20.2253
+  geonames_uri: "http://sws.geonames.org/604490/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25295"
+  description: "Northernmost city in Sweden. Home to the world's largest underground iron ore mine (LKAB). Currently being relocated due to mining subsidence."
+
+- id: kalmar
+  type: city
+  broader: smaland
+  labels:
+    en: Kalmar
+    sv: Kalmar
+  lat: 56.6634
+  lon: 16.3566
+  geonames_uri: "http://sws.geonames.org/2702406/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25296"
+  description: "Historic city in Småland. Site of the Kalmar Union (1397) that united the Nordic kingdoms."
+
+- id: visby
+  type: city
+  broader: gotland
+  labels:
+    en: Visby
+    sv: Visby
+  lat: 57.6348
+  lon: 18.2948
+  geonames_uri: "http://sws.geonames.org/2662689/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25297"
+  description: "Medieval Hanseatic town on Gotland. UNESCO World Heritage Site with well-preserved ring wall and church ruins."
+
+- id: lund
+  type: city
+  broader: skane
+  labels:
+    en: Lund
+    sv: Lund
+  lat: 55.7047
+  lon: 13.1910
+  geonames_uri: "http://sws.geonames.org/2693678/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25298"
+  description: "Historic university city in Scania. Founded c. 990 CE. Home to Lund University (1666) and Lund Cathedral."
+
+- id: sundsvall
+  type: city
+  broader: halsingland
+  labels:
+    en: Sundsvall
+    sv: Sundsvall
+  lat: 62.3908
+  lon: 17.3069
+  geonames_uri: "http://sws.geonames.org/2674831/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25301"
+  description: "City in northern Sweden known as the Stone City due to its stone buildings rebuilt after the great fire of 1888."
+
+- id: gavle
+  type: city
+  broader: gastrikland
+  labels:
+    en: Gävle
+    sv: Gävle
+  lat: 60.6749
+  lon: 17.1413
+  geonames_uri: "http://sws.geonames.org/2712414/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25300"
+  description: "City in central Sweden. Known for the Gävle Goat, a giant straw Yule goat erected annually since 1966."
+
+- id: ostersund
+  type: city
+  broader: jamtland
+  labels:
+    en: Östersund
+    sv: Östersund
+  lat: 63.1792
+  lon: 14.6357
+  geonames_uri: "http://sws.geonames.org/2685750/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25299"
+  description: "Capital of Jämtland on the shore of Lake Storsjön. Founded in 1786 by Gustav III."
+
+- id: karlstad
+  type: city
+  broader: varmland
+  labels:
+    en: Karlstad
+    sv: Karlstad
+  lat: 59.3793
+  lon: 13.5036
+  geonames_uri: "http://sws.geonames.org/2701713/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25302"
+  description: "City in Värmland at the mouth of Klarälven. Known as the sunshine city."
+
+- id: halmstad
+  type: city
+  broader: halland
+  labels:
+    en: Halmstad
+    sv: Halmstad
+  lat: 56.6745
+  lon: 12.8578
+  geonames_uri: "http://sws.geonames.org/2708965/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25303"
+  description: "City on the Swedish west coast. Once an important Danish fortress town."
+
+- id: vaxjo
+  type: city
+  broader: smaland
+  labels:
+    en: Växjö
+    sv: Växjö
+  lat: 56.8777
+  lon: 14.8091
+  geonames_uri: "http://sws.geonames.org/2664454/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25304"
+  description: "City in Småland known as the greenest city in Europe. Home to the Swedish Glass Museum."
+
+- id: falun
+  type: city
+  broader: dalarna
+  labels:
+    en: Falun
+    sv: Falun
+  lat: 60.6065
+  lon: 15.6355
+  geonames_uri: "http://sws.geonames.org/2715196/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25305"
+  description: "City in Dalarna. The Great Copper Mountain mining area is a UNESCO World Heritage Site."
+
+- id: gallivare
+  type: city
+  broader: norrbotten
+  labels:
+    en: Gällivare
+    sv: Gällivare
+    se: Váhčir
+  lat: 67.1341
+  lon: 20.6532
+  geonames_uri: "http://sws.geonames.org/2712669/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25306"
+  description: "Mining town in Norrbotten above the Arctic Circle. Major iron ore mining centre."
+
+- id: sigtuna
+  type: town
+  broader: uppland
+  labels:
+    en: Sigtuna
+    sv: Sigtuna
+  lat: 59.6179
+  lon: 17.7236
+  geonames_uri: "http://sws.geonames.org/2676209/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q189143"
+  description: "Sweden's oldest surviving town, founded c. 970 CE. Site of early medieval churches and runic inscriptions."
+
+- id: jokkmokk
+  type: town
+  broader: lappland
+  labels:
+    en: Jokkmokk
+    sv: Jokkmokk
+    se: Jåhkåmåhkke
+  lat: 66.6082
+  lon: 19.8286
+  geonames_uri: "http://sws.geonames.org/2703841/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q189144"
+  description: "Town in Swedish Lapland. Host of the annual Jokkmokk Winter Market since 1605, a major Sámi cultural event."
+
+- id: ystad
+  type: town
+  broader: skane
+  labels:
+    en: Ystad
+    sv: Ystad
+  lat: 55.4295
+  lon: 13.8200
+  geonames_uri: "http://sws.geonames.org/2660454/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q191297"
+  description: "Medieval town in southern Scania. Setting of Henning Mankell's Wallander novels."
+
+# ── Islands ──────────────────────────────────────────────────
+
+- id: oland-island
+  type: island
+  broader: sweden
+  labels:
+    en: Öland
+    sv: Öland
+  lat: 56.75
+  lon: 16.63
+  geonames_uri: "http://sws.geonames.org/2686655/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q46127"
+  description: "Sweden's second-largest island and smallest historical province. Connected to mainland by the Öland Bridge."
+
+- id: gotland-island
+  type: island
+  broader: sweden
+  labels:
+    en: Gotland
+    sv: Gotland
+  lat: 57.50
+  lon: 18.55
+  geonames_uri: "http://sws.geonames.org/2712209/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q180629"
+  description: "Sweden's largest island in the Baltic Sea. Major Viking Age trading centre and home to the medieval city of Visby."
+
+# ── Regions (modern) ────────────────────────────────────────
+
+- id: norrland
+  type: region
+  broader: sweden
+  labels:
+    en: Norrland
+    sv: Norrland
+  lat: 64.50
+  lon: 18.00
+  wikidata_uri: "http://www.wikidata.org/entity/Q193510"
+  description: "Traditional designation for the northern three-fifths of Sweden, comprising nine historical provinces."
+
+- id: svealand
+  type: region
+  broader: sweden
+  labels:
+    en: Svealand
+    sv: Svealand
+  lat: 59.80
+  lon: 16.50
+  wikidata_uri: "http://www.wikidata.org/entity/Q193511"
+  description: "Traditional designation for central Sweden, heartland of the Swedish kingdom. Comprises six historical provinces."
+
+- id: gotaland
+  type: region
+  broader: sweden
+  labels:
+    en: Götaland
+    sv: Götaland
+  lat: 57.50
+  lon: 14.50
+  wikidata_uri: "http://www.wikidata.org/entity/Q193512"
+  description: "Traditional designation for southern Sweden. Comprises ten historical provinces including Skåne and Gotland."

@@ -1,0 +1,1693 @@
+# Nordic Techniques Vocabulary
+# ============================
+# SKOS-style hierarchical vocabulary of techniques used in Nordic museum cataloguing.
+# Covers metalworking, textiles, woodworking, ceramics, stone, painting,
+# printmaking, glass, leather/fiber, and Sami/Nordic-specific crafts.
+#
+# Sources:
+#   Getty Art & Architecture Thesaurus (AAT)
+#     http://www.getty.edu/research/tools/vocabularies/aat/
+#   Wikipedia: various technique articles
+#   Nordic museum cataloguing traditions
+
+# ══════════════════════════════════════════════════════════════
+# METALWORKING (~30 entries)
+# ══════════════════════════════════════════════════════════════
+
+- id: metalworking
+  labels:
+    en: Metalworking
+    sv: Metallarbete
+    da: Metalarbejde
+    nb: Metallarbeid
+    fi: Metallityö
+  description: "Techniques for shaping, joining, and decorating metal objects."
+
+- id: forging
+  broader: metalworking
+  aat_uri: "http://vocab.getty.edu/aat/300053798"
+  labels:
+    en: Forging
+    sv: Smide
+    da: Smedning
+    nb: Smiing
+    fi: Takominen
+  description: "Shaping metal by heating and hammering on an anvil."
+
+- id: pattern-welding
+  broader: forging
+  aat_uri: "http://vocab.getty.edu/aat/300264568"
+  labels:
+    en: Pattern welding
+    sv: Mönstersvetsning
+    da: Mønstersvejsning
+    nb: Mønstersveising
+    fi: Kuviohitsaus
+  description: "Viking Age sword-making technique combining iron and steel rods to create patterned blades."
+
+- id: wrought-ironwork
+  broader: forging
+  aat_uri: "http://vocab.getty.edu/aat/300053937"
+  labels:
+    en: Wrought ironwork
+    sv: Smidesarbete
+    da: Smedejernsarbejde
+    nb: Smijernsarbeid
+    fi: Takorautatyö
+  description: "Decorative and structural work in wrought iron, common in Nordic church fittings and gates."
+
+- id: casting
+  broader: metalworking
+  aat_uri: "http://vocab.getty.edu/aat/300053104"
+  labels:
+    en: Casting
+    sv: Gjutning
+    da: Støbning
+    nb: Støping
+    fi: Valaminen
+  description: "Pouring molten metal into a mould to create objects."
+
+- id: lost-wax-casting
+  broader: casting
+  aat_uri: "http://vocab.getty.edu/aat/300053113"
+  labels:
+    en: Lost-wax casting
+    sv: Cire perdue-gjutning
+    da: Cire perdue-støbning
+    nb: Cire perdue-støping
+    fi: Vahavalutekniikka
+  description: "Casting method using a wax model that is melted away, used for Viking brooches and pendants."
+
+- id: sand-casting
+  broader: casting
+  aat_uri: "http://vocab.getty.edu/aat/300053118"
+  labels:
+    en: Sand casting
+    sv: Sandgjutning
+    da: Sandstøbning
+    nb: Sandstøping
+    fi: Hiekkavalu
+  description: "Casting using sand moulds, common for larger metal objects."
+
+- id: chasing
+  broader: metalworking
+  aat_uri: "http://vocab.getty.edu/aat/300053854"
+  labels:
+    en: Chasing
+    sv: Ciselering
+    da: Ciselering
+    nb: Siselering
+    fi: Siselöinti
+  description: "Decorating metal by indenting the front surface with punches and hammers."
+
+- id: repousse
+  broader: metalworking
+  aat_uri: "http://vocab.getty.edu/aat/300053882"
+  labels:
+    en: Repoussé
+    sv: Repoussé
+    da: Repoussé
+    nb: Repoussé
+    fi: Kohokuviointi
+  description: "Shaping metal by hammering from the reverse side to create relief decoration."
+
+- id: filigree
+  broader: metalworking
+  aat_uri: "http://vocab.getty.edu/aat/300053841"
+  labels:
+    en: Filigree
+    sv: Filigran
+    da: Filigran
+    nb: Filigran
+    fi: Filigraani
+  description: "Delicate ornamental work using fine twisted wire, widespread in Viking and medieval Nordic jewellery."
+
+- id: granulation
+  broader: metalworking
+  aat_uri: "http://vocab.getty.edu/aat/300053846"
+  labels:
+    en: Granulation
+    sv: Granulering
+    da: Granulering
+    nb: Granulering
+    fi: Granulointi
+  description: "Decorating metal surfaces with tiny spheres of metal fused in patterns."
+
+- id: gilding
+  broader: metalworking
+  aat_uri: "http://vocab.getty.edu/aat/300053789"
+  labels:
+    en: Gilding
+    sv: Förgyllning
+    da: Forgyldning
+    nb: Forgylling
+    fi: Kultaus
+  description: "Applying a thin layer of gold to a surface, used extensively on Nordic church furnishings."
+
+- id: fire-gilding
+  broader: gilding
+  aat_uri: "http://vocab.getty.edu/aat/300053793"
+  labels:
+    en: Fire gilding
+    sv: Eldförgyllning
+    da: Ildforgyldning
+    nb: Ildforgylling
+    fi: Tulikultaus
+  description: "Mercury amalgam gilding where gold-mercury paste is applied and heated to evaporate mercury."
+
+- id: niello
+  broader: metalworking
+  aat_uri: "http://vocab.getty.edu/aat/300053856"
+  labels:
+    en: Niello
+    sv: Niello
+    da: Niello
+    nb: Niello
+    fi: Niello
+  description: "Inlaying engraved lines with a black metallic alloy, common on Viking silver jewellery."
+
+- id: damascening
+  broader: metalworking
+  aat_uri: "http://vocab.getty.edu/aat/300053829"
+  labels:
+    en: Damascening
+    sv: Damascering
+    da: Damascering
+    nb: Damascering
+    fi: Damaskiinti
+  description: "Inlaying one metal into another for decorative effect, related to pattern welding in blade-making."
+
+- id: metal-engraving
+  broader: metalworking
+  aat_uri: "http://vocab.getty.edu/aat/300053835"
+  labels:
+    en: Metal engraving
+    sv: Metallgravyr
+    da: Metalindgravering
+    nb: Metallgravering
+    fi: Metallikaiverrus
+  description: "Cutting designs into metal surfaces with a burin or graver."
+
+- id: enameling
+  broader: metalworking
+  aat_uri: "http://vocab.getty.edu/aat/300053780"
+  labels:
+    en: Enameling
+    sv: Emaljering
+    da: Emaljering
+    nb: Emaljering
+    fi: Emalointi
+  description: "Fusing powdered glass onto metal surfaces to create coloured decoration."
+
+- id: cloisonne
+  broader: enameling
+  aat_uri: "http://vocab.getty.edu/aat/300053764"
+  labels:
+    en: Cloisonné
+    sv: Cloisonné
+    da: Cloisonné
+    nb: Cloisonné
+    fi: Cloisonné
+  description: "Enamel technique using thin metal strips to create cells filled with coloured glass paste."
+
+- id: champleve
+  broader: enameling
+  aat_uri: "http://vocab.getty.edu/aat/300053758"
+  labels:
+    en: Champlevé
+    sv: Champlevé
+    da: Champlevé
+    nb: Champlevé
+    fi: Champlevé
+  description: "Enamel technique where troughs are carved into metal and filled with enamel."
+
+- id: tinning
+  broader: metalworking
+  aat_uri: "http://vocab.getty.edu/aat/300053922"
+  labels:
+    en: Tinning
+    sv: Förtenning
+    da: Fortinning
+    nb: Fortinning
+    fi: Tinaus
+  description: "Coating metal with a thin layer of tin to prevent corrosion."
+
+- id: soldering
+  broader: metalworking
+  aat_uri: "http://vocab.getty.edu/aat/300053910"
+  labels:
+    en: Soldering
+    sv: Lödning
+    da: Lodning
+    nb: Lodding
+    fi: Juottaminen
+  description: "Joining metal parts using a filler metal with a lower melting point."
+
+- id: riveting
+  broader: metalworking
+  aat_uri: "http://vocab.getty.edu/aat/300053897"
+  labels:
+    en: Riveting
+    sv: Nitning
+    da: Nitning
+    nb: Nagling
+    fi: Niittaus
+  description: "Joining metal sheets or parts using rivets, essential in Viking ship construction."
+
+- id: wire-drawing
+  broader: metalworking
+  aat_uri: "http://vocab.getty.edu/aat/300053942"
+  labels:
+    en: Wire drawing
+    sv: Tråddragning
+    da: Trådtrækning
+    nb: Trådtrekking
+    fi: Lankaveto
+  description: "Pulling metal through progressively smaller dies to form wire."
+
+- id: sheet-metalwork
+  broader: metalworking
+  aat_uri: "http://vocab.getty.edu/aat/300053905"
+  labels:
+    en: Sheet metalwork
+    sv: Plåtslageri
+    da: Blikkenslagerarbejde
+    nb: Blikkenslagerarbeid
+    fi: Peltisuutarintyö
+  description: "Forming objects from flat sheets of metal by cutting, bending, and joining."
+
+- id: raising
+  broader: metalworking
+  aat_uri: "http://vocab.getty.edu/aat/300053879"
+  labels:
+    en: Raising
+    sv: Uppdrivning
+    da: Opdrivning
+    nb: Oppdrivning
+    fi: Ylöslyönti
+  description: "Hammering a flat metal disc over a stake to form hollow vessels."
+
+- id: patination
+  broader: metalworking
+  aat_uri: "http://vocab.getty.edu/aat/300053869"
+  labels:
+    en: Patination
+    sv: Patinering
+    da: Patinering
+    nb: Patinering
+    fi: Patinointi
+  description: "Controlled surface oxidation to give metal an aged or coloured appearance."
+
+- id: metal-spinning
+  broader: metalworking
+  aat_uri: "http://vocab.getty.edu/aat/300053914"
+  labels:
+    en: Metal spinning
+    sv: Metallsvarvning
+    da: Metaldrejning
+    nb: Metallspinning
+    fi: Metallisorvaus
+  description: "Forming metal discs into axially symmetric shapes on a lathe."
+
+- id: stamping
+  broader: metalworking
+  aat_uri: "http://vocab.getty.edu/aat/300053917"
+  labels:
+    en: Stamping
+    sv: Stämpling
+    da: Stempling
+    nb: Stempling
+    fi: Meistäminen
+  description: "Impressing designs into metal using dies or punches."
+
+# ══════════════════════════════════════════════════════════════
+# TEXTILE TECHNIQUES (~25 entries)
+# ══════════════════════════════════════════════════════════════
+
+- id: textile-techniques
+  labels:
+    en: Textile techniques
+    sv: Textila tekniker
+    da: Tekstilteknikker
+    nb: Tekstilteknikker
+    fi: Tekstiilitekniikat
+  description: "Techniques for producing, decorating, and finishing fabrics and fibre objects."
+
+- id: weaving
+  broader: textile-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300053642"
+  labels:
+    en: Weaving
+    sv: Vävning
+    da: Vævning
+    nb: Veving
+    fi: Kudonta
+  description: "Interlacing warp and weft threads on a loom to form cloth."
+
+- id: tapestry-weaving
+  broader: weaving
+  aat_uri: "http://vocab.getty.edu/aat/300053636"
+  labels:
+    en: Tapestry weaving
+    sv: Gobelängvävning
+    da: Gobelinvævning
+    nb: Gobelinveving
+    fi: Gobeliininkudonta
+  description: "Weft-faced weaving producing pictorial or patterned textiles, as in Nordic wall hangings."
+
+- id: tablet-weaving
+  broader: weaving
+  aat_uri: "http://vocab.getty.edu/aat/300263029"
+  labels:
+    en: Tablet weaving
+    sv: Brickbandsvävning
+    da: Brikvævning
+    nb: Brikkebåndsveving
+    fi: Lautanauhakankaiden kudonta
+  description: "Weaving narrow bands using perforated cards to create complex patterns, widespread in Viking Age."
+
+- id: rya-knotting
+  broader: textile-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300263041"
+  labels:
+    en: Rya knotting
+    sv: Ryaknutning
+    da: Ryaknytning
+    nb: Ryeknyting
+    fi: Ryijyn solmiminen
+  description: "Knotting technique for making rya rugs, a Nordic tradition since the Viking Age."
+
+- id: nalbinding
+  broader: textile-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300264572"
+  labels:
+    en: Nalbinding
+    sv: Nålbindning
+    da: Nålebinding
+    nb: Nålebinding
+    fi: Kinnasneulatekniikka
+  description: "Ancient Viking needle-binding technique predating knitting, using a single needle and short lengths of yarn."
+
+- id: spinning
+  broader: textile-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300053614"
+  labels:
+    en: Spinning
+    sv: Spinning
+    da: Spinding
+    nb: Spinning
+    fi: Kehrääminen
+  description: "Drawing out and twisting fibres into continuous yarn or thread."
+
+- id: felting
+  broader: textile-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300231592"
+  labels:
+    en: Felting
+    sv: Filtning
+    da: Filtning
+    nb: Filting
+    fi: Huovutus
+  description: "Matting fibres together using moisture, heat, and pressure without weaving."
+
+- id: dyeing
+  broader: textile-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300053470"
+  labels:
+    en: Dyeing
+    sv: Färgning
+    da: Farvning
+    nb: Farging
+    fi: Värjäys
+  description: "Colouring textiles using natural or synthetic dyes."
+
+- id: embroidery
+  broader: textile-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300053487"
+  labels:
+    en: Embroidery
+    sv: Broderi
+    da: Broderi
+    nb: Broderi
+    fi: Kirjonta
+  description: "Decorating fabric with needle and thread, a major Nordic decorative tradition."
+
+- id: applique
+  broader: textile-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300053410"
+  labels:
+    en: Appliqué
+    sv: Applikation
+    da: Applikation
+    nb: Applikasjon
+    fi: Applikointi
+  description: "Sewing pieces of fabric onto a ground cloth to form patterns or pictures."
+
+- id: lace-making
+  broader: textile-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300053526"
+  labels:
+    en: Lace making
+    sv: Spetsknypling
+    da: Knipleri
+    nb: Knipleri
+    fi: Pitsinnypläys
+  description: "Creating openwork fabric by looping, twisting, or knotting threads."
+
+- id: bobbin-lace
+  broader: lace-making
+  aat_uri: "http://vocab.getty.edu/aat/300053415"
+  labels:
+    en: Bobbin lace
+    sv: Knyppelspets
+    da: Knipleplet
+    nb: Knipling
+    fi: Nyplätty pitsi
+  description: "Lace made by braiding threads wound on bobbins around pins set in a pattern."
+
+- id: knitting
+  broader: textile-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300053522"
+  labels:
+    en: Knitting
+    sv: Stickning
+    da: Strikning
+    nb: Strikking
+    fi: Neulominen
+  description: "Creating fabric by interlocking loops of yarn with needles."
+
+- id: braiding
+  broader: textile-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300053418"
+  labels:
+    en: Braiding
+    sv: Flätning
+    da: Fletning
+    nb: Fletting
+    fi: Palmikoiminen
+  description: "Interlacing three or more strands of material to form a flat or round braid."
+
+- id: quilting
+  broader: textile-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300053584"
+  labels:
+    en: Quilting
+    sv: Quiltning
+    da: Quiltning
+    nb: Quilting
+    fi: Tilkkutyö
+  description: "Stitching together layers of fabric with padding between them."
+
+- id: printing-on-fabric
+  broader: textile-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300053580"
+  labels:
+    en: Textile printing
+    sv: Textiltryck
+    da: Tekstiltryk
+    nb: Tekstiltrykk
+    fi: Kankaanpainanta
+  description: "Applying colour to fabric in patterns using blocks, screens, or rollers."
+
+- id: bleaching
+  broader: textile-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300053413"
+  labels:
+    en: Bleaching
+    sv: Blekning
+    da: Blegning
+    nb: Bleking
+    fi: Valkaisu
+  description: "Whitening textiles through chemical or sunlight exposure."
+
+- id: carding
+  broader: textile-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300053430"
+  labels:
+    en: Carding
+    sv: Kardning
+    da: Kardning
+    nb: Karding
+    fi: Karstaus
+  description: "Combing and aligning fibres to prepare them for spinning."
+
+- id: fulling
+  broader: textile-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300053498"
+  labels:
+    en: Fulling
+    sv: Valkning
+    da: Valkning
+    nb: Valking
+    fi: Vanuttaminen
+  description: "Shrinking and thickening woven cloth by moistening, heating, and beating."
+
+# ══════════════════════════════════════════════════════════════
+# WOODWORKING (~20 entries)
+# ══════════════════════════════════════════════════════════════
+
+- id: woodworking
+  labels:
+    en: Woodworking
+    sv: Träslöjd
+    da: Træarbejde
+    nb: Trearbeid
+    fi: Puutyö
+  description: "Techniques for shaping, joining, and decorating wood."
+
+- id: wood-carving
+  broader: woodworking
+  aat_uri: "http://vocab.getty.edu/aat/300053637"
+  labels:
+    en: Wood carving
+    sv: Träsnideri
+    da: Træskæring
+    nb: Treskjæring
+    fi: Puunveisto
+  description: "Shaping wood by cutting with tools, a central Nordic decorative tradition (stave churches, ships)."
+
+- id: wood-turning
+  broader: woodworking
+  aat_uri: "http://vocab.getty.edu/aat/300053658"
+  labels:
+    en: Wood turning
+    sv: Svarvning
+    da: Drejning
+    nb: Dreiing
+    fi: Puunsorvaus
+  description: "Shaping wood on a lathe to produce symmetrical objects."
+
+- id: stave-construction
+  broader: woodworking
+  labels:
+    en: Stave construction
+    sv: Stavkonstruktion
+    da: Stavkonstruktion
+    nb: Stavkonstruksjon
+    fi: Sauvakonstruktio
+  description: "Building technique using vertical planks (staves), as in Norwegian stave churches."
+
+- id: joinery
+  broader: woodworking
+  aat_uri: "http://vocab.getty.edu/aat/300053359"
+  labels:
+    en: Joinery
+    sv: Snickeri
+    da: Snedkeri
+    nb: Snekring
+    fi: Puusepäntyö
+  description: "Connecting wood pieces using joints (mortise-and-tenon, dovetail) without nails."
+
+- id: marquetry
+  broader: woodworking
+  aat_uri: "http://vocab.getty.edu/aat/300053368"
+  labels:
+    en: Marquetry
+    sv: Marketeri
+    da: Marketteri
+    nb: Marketteri
+    fi: Marketteria
+  description: "Decorating surfaces with inlaid veneers of different coloured woods."
+
+- id: chip-carving
+  broader: wood-carving
+  aat_uri: "http://vocab.getty.edu/aat/300053326"
+  labels:
+    en: Chip carving
+    sv: Spånsnideri
+    da: Spånskæring
+    nb: Sponeskjæring
+    fi: Lastuveisto
+  description: "Removing small chips of wood with a knife to create geometric patterns."
+
+- id: relief-carving
+  broader: wood-carving
+  aat_uri: "http://vocab.getty.edu/aat/300053390"
+  labels:
+    en: Relief carving
+    sv: Reliefsnideri
+    da: Reliefskæring
+    nb: Relieffskjæring
+    fi: Kohoveisto
+  description: "Carving figures that project from a flat background, as on Viking ship prows."
+
+- id: coopering
+  broader: woodworking
+  aat_uri: "http://vocab.getty.edu/aat/300053339"
+  labels:
+    en: Coopering
+    sv: Tunnbinderi
+    da: Bødkeri
+    nb: Bøkkerarbeid
+    fi: Tynnyrinteko
+  description: "Making barrels, casks, and tubs from staves bound with hoops."
+
+- id: bark-working
+  broader: woodworking
+  labels:
+    en: Bark working
+    sv: Näverskinnarbete
+    da: Barkarbejde
+    nb: Neverarbeid
+    fi: Tuohityö
+  description: "Using tree bark (especially birch) for containers, roofing, and decorative objects."
+
+- id: birch-bark-plaiting
+  broader: bark-working
+  labels:
+    en: Birch bark plaiting
+    sv: Näverflätning
+    da: Birkebarkfletning
+    nb: Neverfletting
+    fi: Tuohipunonta
+  description: "Weaving strips of birch bark into containers, shoes, and other objects, a traditional Nordic and Sami craft."
+
+- id: log-building
+  broader: woodworking
+  aat_uri: "http://vocab.getty.edu/aat/300002789"
+  labels:
+    en: Log building
+    sv: Timring
+    da: Tømmerkonstruktion
+    nb: Lafting
+    fi: Hirsityö
+  description: "Constructing walls by stacking and interlocking horizontal logs, the dominant Nordic building technique."
+
+- id: bentwood
+  broader: woodworking
+  labels:
+    en: Bentwood work
+    sv: Bockträ
+    da: Bøjet træ
+    nb: Bøyd tre
+    fi: Taivutettu puu
+  description: "Shaping wood by steaming or boiling and bending into curves."
+
+- id: boat-building
+  broader: woodworking
+  aat_uri: "http://vocab.getty.edu/aat/300053308"
+  labels:
+    en: Boat building
+    sv: Båtbyggeri
+    da: Bådbyggeri
+    nb: Båtbygging
+    fi: Veneenrakennus
+  description: "Constructing watercraft from wood, central to Nordic seafaring culture and Viking ships."
+
+- id: clinker-building
+  broader: boat-building
+  labels:
+    en: Clinker building
+    sv: Klinkbyggnad
+    da: Klinkbygning
+    nb: Klinkbygging
+    fi: Limisaumarakenne
+  description: "Overlapping hull planks fastened with rivets, the defining technique of Viking longships."
+
+- id: wooden-shingle-making
+  broader: woodworking
+  labels:
+    en: Shingle making
+    sv: Spåntillverkning
+    da: Spånfremstilling
+    nb: Sponproduksjon
+    fi: Pärevalmistus
+  description: "Splitting and shaping thin wooden tiles for roofing, traditional in Nordic architecture."
+
+- id: wood-bending
+  broader: woodworking
+  aat_uri: "http://vocab.getty.edu/aat/300053305"
+  labels:
+    en: Wood bending
+    sv: Träböjning
+    da: Træbøjning
+    nb: Trebøying
+    fi: Puun taivutus
+  description: "Using steam or heat to bend wood into curved shapes for furniture and vessels."
+
+- id: wood-inlay
+  broader: woodworking
+  aat_uri: "http://vocab.getty.edu/aat/300053353"
+  labels:
+    en: Wood inlay
+    sv: Träintarsia
+    da: Træintarsia
+    nb: Treintarsia
+    fi: Puuintarsia
+  description: "Embedding pieces of contrasting wood, metal, or other materials into a wood surface."
+
+# ══════════════════════════════════════════════════════════════
+# CERAMICS (~15 entries)
+# ══════════════════════════════════════════════════════════════
+
+- id: ceramics
+  labels:
+    en: Ceramics
+    sv: Keramik
+    da: Keramik
+    nb: Keramikk
+    fi: Keramiikka
+  description: "Techniques for forming, decorating, and firing objects from clay."
+
+- id: throwing
+  broader: ceramics
+  aat_uri: "http://vocab.getty.edu/aat/300053929"
+  labels:
+    en: Throwing
+    sv: Drejning
+    da: Drejning
+    nb: Dreiing
+    fi: Dreijaus
+  description: "Forming clay vessels on a spinning potter's wheel."
+
+- id: hand-building
+  broader: ceramics
+  aat_uri: "http://vocab.getty.edu/aat/300264572"
+  labels:
+    en: Hand building
+    sv: Handbyggning
+    da: Håndbygning
+    nb: Håndbygging
+    fi: Käsinrakentaminen
+  description: "Forming pottery by hand without a wheel, using pinching, coiling, or slab techniques."
+
+- id: coiling
+  broader: hand-building
+  aat_uri: "http://vocab.getty.edu/aat/300053757"
+  labels:
+    en: Coiling
+    sv: Rullning
+    da: Opbygning med pølser
+    nb: Rulleteknikk
+    fi: Makkaratekniikka
+  description: "Building pottery by stacking and smoothing coils of clay."
+
+- id: slab-building
+  broader: hand-building
+  aat_uri: "http://vocab.getty.edu/aat/300263720"
+  labels:
+    en: Slab building
+    sv: Plattbyggning
+    da: Pladeopbygning
+    nb: Platebygging
+    fi: Laattarakentaminen
+  description: "Forming pottery by joining flat slabs of clay."
+
+- id: slip-decoration
+  broader: ceramics
+  aat_uri: "http://vocab.getty.edu/aat/300053907"
+  labels:
+    en: Slip decoration
+    sv: Slipdekor
+    da: Slibdekoration
+    nb: Slipdekor
+    fi: Lietekoristelu
+  description: "Decorating pottery by applying liquid clay (slip) in patterns."
+
+- id: glazing
+  broader: ceramics
+  aat_uri: "http://vocab.getty.edu/aat/300053851"
+  labels:
+    en: Glazing
+    sv: Glasering
+    da: Glasering
+    nb: Glasering
+    fi: Lasitus
+  description: "Applying a vitreous coating to pottery before firing to create a smooth, waterproof surface."
+
+- id: firing
+  broader: ceramics
+  aat_uri: "http://vocab.getty.edu/aat/300053839"
+  labels:
+    en: Firing
+    sv: Bränning
+    da: Brænding
+    nb: Brenning
+    fi: Poltto
+  description: "Heating clay objects in a kiln to harden them permanently."
+
+- id: salt-glazing
+  broader: glazing
+  aat_uri: "http://vocab.getty.edu/aat/300053896"
+  labels:
+    en: Salt glazing
+    sv: Saltglasering
+    da: Saltglasering
+    nb: Saltglasering
+    fi: Suolalasitus
+  description: "Glazing by throwing salt into the kiln during firing, creating a characteristic orange-peel texture."
+
+- id: tin-glazing
+  broader: glazing
+  aat_uri: "http://vocab.getty.edu/aat/300053925"
+  labels:
+    en: Tin glazing
+    sv: Tennglasering
+    da: Tinglasering
+    nb: Tinglasering
+    fi: Tinalasitus
+  description: "Opaque white glaze containing tin oxide, used in Scandinavian faience production."
+
+- id: stoneware-firing
+  broader: firing
+  aat_uri: "http://vocab.getty.edu/aat/300151372"
+  labels:
+    en: Stoneware firing
+    sv: Stengodsbränning
+    da: Stentøjsbrænding
+    nb: Steintøybrenning
+    fi: Kivitavarapoltto
+  description: "High-temperature firing (1200-1300°C) producing dense, vitrified ceramic ware."
+
+- id: raku
+  broader: firing
+  aat_uri: "http://vocab.getty.edu/aat/300053884"
+  labels:
+    en: Raku
+    sv: Raku
+    da: Raku
+    nb: Raku
+    fi: Raku
+  description: "Rapid firing and cooling technique originating in Japan, adopted by Nordic studio potters."
+
+- id: sgraffito
+  broader: ceramics
+  aat_uri: "http://vocab.getty.edu/aat/300053902"
+  labels:
+    en: Sgraffito
+    sv: Sgraffito
+    da: Sgraffito
+    nb: Sgraffito
+    fi: Sgraffito
+  description: "Scratching through a surface layer of slip to reveal contrasting clay colour beneath."
+
+- id: kiln-building
+  broader: ceramics
+  labels:
+    en: Kiln building
+    sv: Ugnsbygning
+    da: Ovnsbygning
+    nb: Ovnsbygging
+    fi: Uuninrakennus
+  description: "Constructing furnaces for firing ceramics, from pit kilns to updraft and downdraft designs."
+
+# ══════════════════════════════════════════════════════════════
+# STONE AND LAPIDARY (~15 entries)
+# ══════════════════════════════════════════════════════════════
+
+- id: stone-techniques
+  labels:
+    en: Stone and lapidary techniques
+    sv: Sten- och sliperitekniker
+    da: Sten- og slibeteknikker
+    nb: Stein- og slipeteknikker
+    fi: Kivi- ja hiontatekniikat
+  description: "Techniques for shaping, carving, and finishing stone."
+
+- id: stone-carving
+  broader: stone-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300053546"
+  labels:
+    en: Stone carving
+    sv: Stenhuggeri
+    da: Stenhugning
+    nb: Steinhogging
+    fi: Kivenveisto
+  description: "Shaping stone by removing material with chisels, hammers, and other tools."
+
+- id: rune-carving
+  broader: stone-carving
+  labels:
+    en: Rune carving
+    sv: Runristning
+    da: Runeristning
+    nb: Runerissing
+    fi: Riimukaiverrus
+  description: "Carving runic inscriptions into stone, a distinctive Viking and Norse tradition."
+
+- id: polishing-stone
+  broader: stone-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300053876"
+  labels:
+    en: Stone polishing
+    sv: Stenpolering
+    da: Stenpolering
+    nb: Steinpolering
+    fi: Kivenhionta
+  description: "Smoothing and finishing stone surfaces by abrasion with increasingly fine materials."
+
+- id: flint-knapping
+  broader: stone-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300053837"
+  labels:
+    en: Flint knapping
+    sv: Flinthuggning
+    da: Flinttilhugning
+    nb: Flinthogging
+    fi: Piiniseppä
+  description: "Shaping flint by striking to produce sharp-edged tools and weapons, from Nordic Stone Age."
+
+- id: stone-grinding
+  broader: stone-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300053552"
+  labels:
+    en: Stone grinding
+    sv: Stenslipning
+    da: Stenslibning
+    nb: Steinsliping
+    fi: Kivenjauhanta
+  description: "Shaping stone by abrasion against another stone, used for Neolithic axes."
+
+- id: gem-cutting
+  broader: stone-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300053843"
+  labels:
+    en: Gem cutting
+    sv: Ädelstensslipning
+    da: Ædelstenslibning
+    nb: Edelsteinsliping
+    fi: Jalokivien hionta
+  description: "Cutting and polishing precious and semi-precious stones for jewellery."
+
+- id: mosaic-work
+  broader: stone-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300015342"
+  labels:
+    en: Mosaic work
+    sv: Mosaik
+    da: Mosaik
+    nb: Mosaikk
+    fi: Mosaiikkityö
+  description: "Creating images or patterns by assembling small pieces of stone, glass, or tile."
+
+- id: stone-masonry
+  broader: stone-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300053555"
+  labels:
+    en: Stone masonry
+    sv: Murning
+    da: Murværk
+    nb: Steinmuring
+    fi: Kivimuuraus
+  description: "Building structures from stone blocks, important in Nordic church and fortress construction."
+
+- id: stone-dressing
+  broader: stone-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300053549"
+  labels:
+    en: Stone dressing
+    sv: Stentilhuggning
+    da: Stentilhugning
+    nb: Steintilhogging
+    fi: Kivenmuotoilu
+  description: "Shaping rough quarried stone into finished building blocks."
+
+- id: soapstone-carving
+  broader: stone-carving
+  labels:
+    en: Soapstone carving
+    sv: Täljstenssnideri
+    da: Fedtstensskæring
+    nb: Klebersteinsarbeid
+    fi: Vuolukiviveisto
+  description: "Carving soft soapstone (steatite) into vessels, moulds, and ornaments, common in Viking Age."
+
+- id: stone-setting
+  broader: stone-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300053919"
+  labels:
+    en: Stone setting
+    sv: Stenfattning
+    da: Stenfattning
+    nb: Steinfatning
+    fi: Kivistys
+  description: "Securing gemstones or decorative stones in metal settings for jewellery."
+
+- id: petroglyph-carving
+  broader: stone-carving
+  labels:
+    en: Petroglyph carving
+    sv: Hällristning
+    da: Helleristning
+    nb: Helleristning
+    fi: Kalliopiirros
+  description: "Carving or pecking images into rock surfaces, abundant in Scandinavian Bronze Age sites."
+
+# ══════════════════════════════════════════════════════════════
+# PAINTING AND SURFACE DECORATION (~15 entries)
+# ══════════════════════════════════════════════════════════════
+
+- id: painting-techniques
+  labels:
+    en: Painting and surface decoration
+    sv: Måleri och ytdekor
+    da: Maleri og overfladedekoration
+    nb: Maleri og overflatedekor
+    fi: Maalaus ja pintakoristelutekniikat
+  description: "Techniques for applying colour and decoration to surfaces."
+
+- id: oil-painting
+  broader: painting-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300178684"
+  labels:
+    en: Oil painting
+    sv: Oljemålning
+    da: Oliemaleri
+    nb: Oljemaleri
+    fi: Öljymaalaus
+  description: "Painting with pigments suspended in drying oil, the dominant technique since the Renaissance."
+
+- id: tempera
+  broader: painting-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300178685"
+  labels:
+    en: Tempera
+    sv: Tempera
+    da: Tempera
+    nb: Tempera
+    fi: Tempera
+  description: "Painting with pigments mixed with egg yolk or other binders, used in medieval Nordic altarpieces."
+
+- id: fresco
+  broader: painting-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300053357"
+  labels:
+    en: Fresco
+    sv: Fresk
+    da: Fresko
+    nb: Fresko
+    fi: Freskotekniikka
+  description: "Painting on freshly applied wet plaster, found in Scandinavian medieval churches."
+
+- id: watercolour
+  broader: painting-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300078925"
+  labels:
+    en: Watercolour
+    sv: Akvarell
+    da: Akvarel
+    nb: Akvarell
+    fi: Akvarelli
+  description: "Painting with pigments dissolved in water, applied to paper or other absorbent surfaces."
+
+- id: lacquering
+  broader: painting-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300053361"
+  labels:
+    en: Lacquering
+    sv: Lackering
+    da: Lakering
+    nb: Lakkering
+    fi: Lakkaus
+  description: "Applying layers of lacquer to create a hard, glossy, protective surface."
+
+- id: rosemaling
+  broader: painting-techniques
+  labels:
+    en: Rosemaling
+    sv: Rosenmålning
+    da: Rosemaling
+    nb: Rosemaling
+    fi: Rosemaling
+  description: "Norwegian decorative folk painting featuring flowing scrollwork, flowers, and geometric patterns."
+
+- id: kurbits-painting
+  broader: painting-techniques
+  labels:
+    en: Kurbits painting
+    sv: Kurbitsmåleri
+    da: Kurbitsmaleri
+    nb: Kurbitsmaleri
+    fi: Kurbitsmaalaus
+  description: "Swedish Dalarna folk painting tradition featuring stylised gourd-like flowers and biblical scenes."
+
+- id: icon-painting
+  broader: painting-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300264554"
+  labels:
+    en: Icon painting
+    sv: Ikonmålning
+    da: Ikonmaleri
+    nb: Ikonmaleri
+    fi: Ikonimaalaus
+  description: "Painting religious images on wood panels, practised in Orthodox Nordic communities."
+
+- id: encaustic
+  broader: painting-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300053339"
+  labels:
+    en: Encaustic
+    sv: Enkaustik
+    da: Enkaustik
+    nb: Enkaustikk
+    fi: Enkaustiikka
+  description: "Painting with pigments mixed with heated beeswax."
+
+- id: polychromy
+  broader: painting-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300053875"
+  labels:
+    en: Polychromy
+    sv: Polykromi
+    da: Polykromi
+    nb: Polykromi
+    fi: Polykromia
+  description: "Painting sculptures and architectural elements in multiple colours, common on medieval Nordic church furnishings."
+
+- id: stenciling
+  broader: painting-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300053612"
+  labels:
+    en: Stenciling
+    sv: Schablonmålning
+    da: Skabelonmaleri
+    nb: Sjablonmaling
+    fi: Sapluunamaalaus
+  description: "Applying paint through cut-out patterns to create repeated motifs."
+
+- id: dala-painting
+  broader: painting-techniques
+  labels:
+    en: Dala painting
+    sv: Dalamålning
+    da: Dalamaling
+    nb: Dalamaling
+    fi: Dalamaalaus
+  description: "Decorative folk painting tradition from Dalarna, Sweden, including furniture and wall decoration."
+
+- id: limewashing
+  broader: painting-techniques
+  labels:
+    en: Limewashing
+    sv: Kalkmålning
+    da: Kalkmaleri
+    nb: Kalkmaling
+    fi: Kalkkimaalaus
+  description: "Painting with lime-based pigments, the primary technique for medieval Scandinavian church murals."
+
+# ══════════════════════════════════════════════════════════════
+# PRINTMAKING (~10 entries)
+# ══════════════════════════════════════════════════════════════
+
+- id: printmaking
+  labels:
+    en: Printmaking
+    sv: Grafik
+    da: Grafik
+    nb: Grafikk
+    fi: Taidegrafiikka
+  description: "Techniques for producing images by printing from a prepared surface."
+
+- id: woodcut
+  broader: printmaking
+  aat_uri: "http://vocab.getty.edu/aat/300041405"
+  labels:
+    en: Woodcut
+    sv: Träsnitt
+    da: Træsnit
+    nb: Tresnitt
+    fi: Puupiirros
+  description: "Relief printing from a carved wooden block."
+
+- id: print-engraving
+  broader: printmaking
+  aat_uri: "http://vocab.getty.edu/aat/300053225"
+  labels:
+    en: Engraving (printmaking)
+    sv: Kopparstick
+    da: Kobberstik
+    nb: Kobberstikk
+    fi: Kaiverrus
+  description: "Incising a design into a metal plate and printing from the incised lines."
+
+- id: etching
+  broader: printmaking
+  aat_uri: "http://vocab.getty.edu/aat/300053241"
+  labels:
+    en: Etching
+    sv: Etsning
+    da: Radering
+    nb: Radering
+    fi: Etsaus
+  description: "Using acid to cut into a metal plate to create a design for printing."
+
+- id: lithography
+  broader: printmaking
+  aat_uri: "http://vocab.getty.edu/aat/300053279"
+  labels:
+    en: Lithography
+    sv: Litografi
+    da: Litografi
+    nb: Litografi
+    fi: Litografia
+  description: "Printing from a flat stone or metal plate using the principle that oil and water do not mix."
+
+- id: aquatint
+  broader: printmaking
+  aat_uri: "http://vocab.getty.edu/aat/300053208"
+  labels:
+    en: Aquatint
+    sv: Akvatint
+    da: Akvatinte
+    nb: Akvatint
+    fi: Akvatinta
+  description: "Etching technique using powdered resin to create tonal areas."
+
+- id: mezzotint
+  broader: printmaking
+  aat_uri: "http://vocab.getty.edu/aat/300053284"
+  labels:
+    en: Mezzotint
+    sv: Mezzotint
+    da: Mezzotint
+    nb: Mezzotint
+    fi: Mezzotinto
+  description: "Intaglio technique creating rich tonal gradations by roughening a metal plate."
+
+- id: screen-printing
+  broader: printmaking
+  aat_uri: "http://vocab.getty.edu/aat/300053371"
+  labels:
+    en: Screen printing
+    sv: Serigrafi
+    da: Serigafi
+    nb: Serigrafi
+    fi: Serigrafia
+  description: "Pushing ink through a mesh screen onto a surface through blocked and open areas."
+
+- id: linocut
+  broader: printmaking
+  aat_uri: "http://vocab.getty.edu/aat/300053265"
+  labels:
+    en: Linocut
+    sv: Linoleumsnitt
+    da: Linoleumssnit
+    nb: Linoleumssnitt
+    fi: Linoleikkaus
+  description: "Relief printing from a carved linoleum block, widely used by Nordic artists."
+
+- id: drypoint
+  broader: printmaking
+  aat_uri: "http://vocab.getty.edu/aat/300053233"
+  labels:
+    en: Drypoint
+    sv: Torrnål
+    da: Koldnål
+    nb: Koldnål
+    fi: Kuivaneula
+  description: "Scratching a design directly into a metal plate with a pointed tool."
+
+# ══════════════════════════════════════════════════════════════
+# GLASS (~10 entries)
+# ══════════════════════════════════════════════════════════════
+
+- id: glass-techniques
+  labels:
+    en: Glass techniques
+    sv: Glastekniker
+    da: Glasteknikker
+    nb: Glassteknikker
+    fi: Lasitekniikat
+  description: "Techniques for forming, shaping, and decorating glass."
+
+- id: glassblowing
+  broader: glass-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300053932"
+  labels:
+    en: Glassblowing
+    sv: Glasblåsning
+    da: Glasblæsning
+    nb: Glassblåsing
+    fi: Lasinpuhallus
+  description: "Forming molten glass by inflating it into a bubble using a blowpipe."
+
+- id: lampworking
+  broader: glass-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300264573"
+  labels:
+    en: Lampworking
+    sv: Lamparbete
+    da: Flammearbejde
+    nb: Flammearbeid
+    fi: Lampputyö
+  description: "Working glass rods and tubes by heating them with a torch flame."
+
+- id: glass-cutting
+  broader: glass-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300053763"
+  labels:
+    en: Glass cutting
+    sv: Glasslipning
+    da: Glasslibning
+    nb: Glasslipning
+    fi: Lasinhionta
+  description: "Decorating glass by cutting facets and patterns with a rotating wheel."
+
+- id: glass-engraving
+  broader: glass-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300053765"
+  labels:
+    en: Glass engraving
+    sv: Glasgravyr
+    da: Glasgravering
+    nb: Glassgravering
+    fi: Lasinkaiverrus
+  description: "Incising designs into glass using diamond-point tools or copper wheels."
+
+- id: stained-glass
+  broader: glass-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300263722"
+  labels:
+    en: Stained glass
+    sv: Glasmåleri
+    da: Glasmaleri
+    nb: Glassmaleri
+    fi: Lasimaalaus
+  description: "Creating coloured glass panels by cutting and assembling glass pieces with lead strips."
+
+- id: glass-fusing
+  broader: glass-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300053834"
+  labels:
+    en: Glass fusing
+    sv: Glasfusing
+    da: Glasfusing
+    nb: Glassfusing
+    fi: Lasifuusio
+  description: "Joining glass pieces by heating them in a kiln until they melt together."
+
+- id: glass-bead-making
+  broader: glass-techniques
+  labels:
+    en: Glass bead making
+    sv: Glaspärletillverkning
+    da: Glasperlefremstilling
+    nb: Glassperlefremstilling
+    fi: Lasihelmenteko
+  description: "Forming decorative glass beads by winding molten glass around a mandrel, a major Viking craft."
+
+- id: glass-moulding
+  broader: glass-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300053769"
+  labels:
+    en: Glass moulding
+    sv: Glasformning
+    da: Glasformning
+    nb: Glassforming
+    fi: Lasinmuovaus
+  description: "Shaping molten glass by pressing or blowing it into a mould."
+
+- id: glass-casting
+  broader: glass-techniques
+  aat_uri: "http://vocab.getty.edu/aat/300053761"
+  labels:
+    en: Glass casting
+    sv: Glasgjutning
+    da: Glasstøbning
+    nb: Glassstøping
+    fi: Lasinvalu
+  description: "Pouring or fusing molten glass into a mould to create solid forms."
+
+# ══════════════════════════════════════════════════════════════
+# LEATHER AND FIBER (~10 entries)
+# ══════════════════════════════════════════════════════════════
+
+- id: leather-and-fiber
+  labels:
+    en: Leather and fibre techniques
+    sv: Läder- och fibertekniker
+    da: Læder- og fiberteknikker
+    nb: Lær- og fiberteknikker
+    fi: Nahka- ja kuitutekniikat
+  description: "Techniques for working leather, parchment, and plant fibres."
+
+- id: tanning
+  broader: leather-and-fiber
+  aat_uri: "http://vocab.getty.edu/aat/300053920"
+  labels:
+    en: Tanning
+    sv: Garvning
+    da: Garvning
+    nb: Garving
+    fi: Parkitseminen
+  description: "Processing animal hides into leather by treating with tannins or other agents."
+
+- id: leather-tooling
+  broader: leather-and-fiber
+  aat_uri: "http://vocab.getty.edu/aat/300053937"
+  labels:
+    en: Leather tooling
+    sv: Läderpunkning
+    da: Læderbearbejdning
+    nb: Lærpunsling
+    fi: Nahkakuviointi
+  description: "Decorating leather by stamping, carving, or embossing patterns."
+
+- id: bookbinding
+  broader: leather-and-fiber
+  aat_uri: "http://vocab.getty.edu/aat/300053305"
+  labels:
+    en: Bookbinding
+    sv: Bokbinderi
+    da: Bogbinderi
+    nb: Bokbinding
+    fi: Kirjansidonta
+  description: "Assembling and covering books, traditionally using leather-covered wooden boards."
+
+- id: parchment-making
+  broader: leather-and-fiber
+  aat_uri: "http://vocab.getty.edu/aat/300053867"
+  labels:
+    en: Parchment making
+    sv: Pergamenttillverkning
+    da: Pergamentfremstilling
+    nb: Pergamentfremstilling
+    fi: Pergamentinteko
+  description: "Preparing animal skins for writing by liming, scraping, and drying under tension."
+
+- id: basket-weaving
+  broader: leather-and-fiber
+  aat_uri: "http://vocab.getty.edu/aat/300053403"
+  labels:
+    en: Basket weaving
+    sv: Korgflätning
+    da: Kurvefletning
+    nb: Kurvfletting
+    fi: Korinpunonta
+  description: "Weaving flexible plant materials into containers, trays, and other objects."
+
+- id: rope-making
+  broader: leather-and-fiber
+  aat_uri: "http://vocab.getty.edu/aat/300053893"
+  labels:
+    en: Rope making
+    sv: Reptillverkning
+    da: Rebslagning
+    nb: Tautilvirkning
+    fi: Köydenteko
+  description: "Twisting or braiding fibres into cordage, essential for Nordic seafaring."
+
+- id: saddlery
+  broader: leather-and-fiber
+  aat_uri: "http://vocab.getty.edu/aat/300053898"
+  labels:
+    en: Saddlery
+    sv: Sadelmakeri
+    da: Sadelmagerarbejde
+    nb: Salmakerarbeid
+    fi: Satulasepäntyö
+  description: "Making and repairing saddles, harnesses, and other horse equipment from leather."
+
+- id: leather-sewing
+  broader: leather-and-fiber
+  labels:
+    en: Leather sewing
+    sv: Lädersömnad
+    da: Lædersøm
+    nb: Lærsøm
+    fi: Nahanompelu
+  description: "Hand-stitching leather for garments, shoes, and accessories using waxed thread and awls."
+
+- id: bark-tanning
+  broader: tanning
+  labels:
+    en: Bark tanning
+    sv: Barkgarvning
+    da: Barkgarvning
+    nb: Barkgarving
+    fi: Kuoriparkitseminen
+  description: "Traditional tanning using oak or birch bark tannins, the dominant Nordic method before industrialisation."
+
+# ══════════════════════════════════════════════════════════════
+# SAMI AND NORDIC-SPECIFIC TECHNIQUES (~15 entries)
+# ══════════════════════════════════════════════════════════════
+
+- id: nordic-specific
+  labels:
+    en: Sámi and Nordic-specific techniques
+    sv: Samiska och nordiska tekniker
+    da: Samiske og nordiske teknikker
+    nb: Samiske og nordiske teknikker
+    fi: Saamelaisia ja pohjoismaisia tekniikoita
+  description: "Craft techniques specific to Sámi culture and Nordic traditions."
+
+- id: duodji
+  broader: nordic-specific
+  labels:
+    en: Duodji
+    sv: Duodji
+    da: Duodji
+    nb: Duodji
+    fi: Duodji
+    se: Duodji
+  description: "Sámi handicraft tradition encompassing all traditional Sámi material culture and craft skills."
+
+- id: tin-thread-embroidery
+  broader: duodji
+  labels:
+    en: Tin thread embroidery
+    sv: Tenntrådsbroderi
+    da: Tintrådsbroderi
+    nb: Tinntrådsbroderi
+    fi: Tinaompelu
+    se: Dáidda
+  description: "Sámi technique of embroidering with fine threads of tin or pewter wire wound around a fibre core."
+
+- id: root-weaving
+  broader: duodji
+  labels:
+    en: Root weaving
+    sv: Rotslöjd
+    da: Rodfletning
+    nb: Rotfletting
+    fi: Juuripunonta
+    se: Ruohtabáddi
+  description: "Sámi tradition of weaving containers from split spruce or pine roots."
+
+- id: reindeer-horn-carving
+  broader: duodji
+  labels:
+    en: Reindeer antler carving
+    sv: Hornslöjd
+    da: Rensdyrhornskæring
+    nb: Reinsdyrhornskjæring
+    fi: Poronluuveisto
+    se: Čoarvvebarggu
+  description: "Sámi craft of carving reindeer antler into knife handles, buttons, and decorative objects."
+
+- id: birch-bark-craft
+  broader: duodji
+  labels:
+    en: Birch bark craft
+    sv: Näverslöjd
+    da: Birkebarkslöjd
+    nb: Neverslöjd
+    fi: Tuohityö
+    se: Biessebargu
+  description: "Sámi and Nordic tradition of making containers, shoes, and utensils from birch bark."
+
+- id: bone-carving
+  broader: nordic-specific
+  aat_uri: "http://vocab.getty.edu/aat/300053310"
+  labels:
+    en: Bone carving
+    sv: Bensnideri
+    da: Benskæring
+    nb: Beinskjæring
+    fi: Luunveisto
+  description: "Carving bone and antler into tools, combs, gaming pieces, and decorative objects."
+
+- id: horn-working
+  broader: nordic-specific
+  aat_uri: "http://vocab.getty.edu/aat/300053347"
+  labels:
+    en: Horn working
+    sv: Hornarbete
+    da: Hornarbejde
+    nb: Hornarbeid
+    fi: Sarventyöstö
+  description: "Shaping animal horn by heating and pressing into spoons, cups, combs, and other objects."
+
+- id: amber-working
+  broader: nordic-specific
+  aat_uri: "http://vocab.getty.edu/aat/300053299"
+  labels:
+    en: Amber working
+    sv: Bärnstensarbete
+    da: Ravarbejde
+    nb: Ravarbeid
+    fi: Meripihkatyö
+  description: "Carving and polishing amber into beads, pendants, and figurines, an ancient Baltic and Nordic craft."
+
+- id: viking-ship-building
+  broader: nordic-specific
+  labels:
+    en: Viking ship building
+    sv: Vikingaskeppsbygge
+    da: Vikingeskibsbygning
+    nb: Vikingskipsbygging
+    fi: Viikinkialuksen rakennus
+  description: "Specialised Nordic boat-building combining clinker construction, keelson design, and flexible hull engineering."
+
+- id: sami-knife-making
+  broader: duodji
+  labels:
+    en: Sámi knife making
+    sv: Samisk knivslöjd
+    da: Samisk knivfremstilling
+    nb: Samisk knivlaging
+    fi: Saamelainen puukkonteko
+    se: Niibbebarggu
+  description: "Traditional Sámi craft of making knives with decorated reindeer antler or birch handles."
+
+- id: sami-belt-weaving
+  broader: duodji
+  labels:
+    en: Sámi belt weaving
+    sv: Samisk bandvävning
+    da: Samisk bæltevævning
+    nb: Samisk belteveving
+    fi: Saamelainen vyönkudonta
+    se: Avvobáddi
+  description: "Sámi technique for weaving decorative woven bands and belts using tablet or inkle looms."
+
+- id: ivory-carving
+  broader: nordic-specific
+  aat_uri: "http://vocab.getty.edu/aat/300053355"
+  labels:
+    en: Ivory carving
+    sv: Elfenbenssnideri
+    da: Elfenbensskæring
+    nb: Elfenbeinskjæring
+    fi: Norsunluunveisto
+  description: "Carving walrus ivory into chess pieces, religious figures, and decorative objects in medieval Scandinavia."
+
+- id: tar-production
+  broader: nordic-specific
+  labels:
+    en: Tar production
+    sv: Tjärbränning
+    da: Tjærebrænding
+    nb: Tjærebrenning
+    fi: Tervanpoltto
+  description: "Producing pine tar in kilns for waterproofing boats, ropes, and buildings, a key Nordic industry."
+
+- id: charcoal-making
+  broader: nordic-specific
+  labels:
+    en: Charcoal making
+    sv: Kolning
+    da: Trækulsbrænding
+    nb: Kullbrenning
+    fi: Puuhiilenvalmistus
+  description: "Producing charcoal by slow burning of wood in covered pits or kilns, essential for Nordic iron smelting."
+
+- id: bog-iron-smelting
+  broader: nordic-specific
+  labels:
+    en: Bog iron smelting
+    sv: Myrjärnsframställning
+    da: Myremalmudvinding
+    nb: Myrjernfremstilling
+    fi: Suomalmin sulatus
+  description: "Extracting iron from bog ore using bloomery furnaces, the primary iron source in Viking Age Scandinavia."

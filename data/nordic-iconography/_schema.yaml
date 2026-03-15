@@ -1,0 +1,62 @@
+# Nordic Iconography and Subject Classification — Data Format
+# ==========================================================
+#
+# Each numbered YAML file (01-norse-mythology.yaml, 02-kalevala.yaml, etc.)
+# contains a list of subject/concept entries for Nordic iconography
+# and cultural classification.
+#
+# Required fields for every entry:
+#
+#   id:          Unique identifier (lowercase, use hyphens for spaces)
+#   labels:      Translations — must always include "en" and "sv"
+#                Add other Nordic languages as available (da, nb, fi, is, non)
+#   description: English description of the subject (in double quotes)
+#
+# Optional fields:
+#
+#   broader:     ID of a broader/parent concept (omit if none)
+#   aat_uri:     Getty Art & Architecture Thesaurus URI
+#                (e.g. "http://vocab.getty.edu/aat/300379889")
+#   iconclass:   Iconclass notation code
+#                (e.g. "91D" for Norse mythology)
+#
+# Language codes follow ISO 639:
+#   en  = English
+#   sv  = Swedish
+#   da  = Danish
+#   nb  = Norwegian Bokmål
+#   fi  = Finnish
+#   is  = Icelandic
+#   non = Old Norse
+#   se  = Northern Sámi
+#
+# External vocabulary mappings:
+#   aat_uri   → mapped as skos:closeMatch  (Getty AAT)
+#   iconclass → mapped as skos:relatedMatch (Iconclass)
+#
+# Example entry:
+#
+#   - id: odin
+#     broader: norse-gods
+#     aat_uri: "http://vocab.getty.edu/aat/300379889"
+#     iconclass: "91D"
+#     labels:
+#       en: Odin
+#       sv: Oden
+#       da: Odin
+#       nb: Odin
+#       fi: Odin
+#       is: Óðinn
+#       non: Óðinn
+#     description: "Chief god of Norse mythology, associated with wisdom, war, death, and poetry."
+#
+# Example without optional fields:
+#
+#   - id: midnight-sun
+#     labels:
+#       en: Midnight sun
+#       sv: Midnattssol
+#     description: "Natural phenomenon where the sun remains visible at midnight."
+#
+# To regenerate the output files after editing:
+#   python3 scripts/generate-nordic-iconography.py

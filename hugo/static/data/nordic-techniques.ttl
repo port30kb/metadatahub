@@ -1,0 +1,2753 @@
+# ═══════════════════════════════════════════════════════════════
+# Nordic Techniques Vocabulary — Linked Data for metadatahub.eu
+# 153 entries: techniques used in Nordic museum cataloguing.
+#
+# Categories: metalworking, textiles, woodworking, ceramics,
+# stone/lapidary, painting, printmaking, glass, leather/fibre,
+# and Sami/Nordic-specific crafts.
+#
+# Sources:
+#   Getty Art & Architecture Thesaurus (AAT)
+#     http://www.getty.edu/research/tools/vocabularies/aat/
+#   Wikipedia (various technique articles)
+#   Nordic museum cataloguing traditions
+#
+# Total entries: 153
+# ═══════════════════════════════════════════════════════════════
+
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix nt:      <https://metadatahub.eu/data/nordic-techniques/> .
+
+<https://metadatahub.eu/data/nordic-techniques> a skos:ConceptScheme ;
+    dcterms:title "Nordic Techniques Vocabulary"@en ;
+    dcterms:title "Nordisk teknikvokabulär"@sv ;
+    dcterms:description "153 entries covering techniques used in Nordic museum cataloguing — metalworking, textiles, woodworking, ceramics, stone, painting, printmaking, glass, leather, and Sami/Nordic-specific crafts."@en ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> ;
+    dcterms:creator "Port 30 KB" ;
+    dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dcterms:modified "2025-03-15"^^xsd:date .
+
+# ── 1/153: Metalworking ──
+nt:metalworking a skos:Concept ;
+    rdfs:label "Metalworking"@en ;
+    skos:prefLabel "Metalworking"@en ;
+    rdfs:label "Metalarbejde"@da ;
+    skos:prefLabel "Metalarbejde"@da ;
+    rdfs:label "Metallityö"@fi ;
+    skos:prefLabel "Metallityö"@fi ;
+    rdfs:label "Metallarbeid"@nb ;
+    skos:prefLabel "Metallarbeid"@nb ;
+    rdfs:label "Metallarbete"@sv ;
+    skos:prefLabel "Metallarbete"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Techniques for shaping, joining, and decorating metal objects."@en ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 2/153: Forging ──
+nt:forging a skos:Concept ;
+    rdfs:label "Forging"@en ;
+    skos:prefLabel "Forging"@en ;
+    rdfs:label "Smedning"@da ;
+    skos:prefLabel "Smedning"@da ;
+    rdfs:label "Takominen"@fi ;
+    skos:prefLabel "Takominen"@fi ;
+    rdfs:label "Smiing"@nb ;
+    skos:prefLabel "Smiing"@nb ;
+    rdfs:label "Smide"@sv ;
+    skos:prefLabel "Smide"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Shaping metal by heating and hammering on an anvil."@en ;
+    skos:broader nt:metalworking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053798> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 3/153: Pattern welding ──
+nt:pattern-welding a skos:Concept ;
+    rdfs:label "Pattern welding"@en ;
+    skos:prefLabel "Pattern welding"@en ;
+    rdfs:label "Mønstersvejsning"@da ;
+    skos:prefLabel "Mønstersvejsning"@da ;
+    rdfs:label "Kuviohitsaus"@fi ;
+    skos:prefLabel "Kuviohitsaus"@fi ;
+    rdfs:label "Mønstersveising"@nb ;
+    skos:prefLabel "Mønstersveising"@nb ;
+    rdfs:label "Mönstersvetsning"@sv ;
+    skos:prefLabel "Mönstersvetsning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Viking Age sword-making technique combining iron and steel rods to create patterned blades."@en ;
+    skos:broader nt:forging ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300264568> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 4/153: Wrought ironwork ──
+nt:wrought-ironwork a skos:Concept ;
+    rdfs:label "Wrought ironwork"@en ;
+    skos:prefLabel "Wrought ironwork"@en ;
+    rdfs:label "Smedejernsarbejde"@da ;
+    skos:prefLabel "Smedejernsarbejde"@da ;
+    rdfs:label "Takorautatyö"@fi ;
+    skos:prefLabel "Takorautatyö"@fi ;
+    rdfs:label "Smijernsarbeid"@nb ;
+    skos:prefLabel "Smijernsarbeid"@nb ;
+    rdfs:label "Smidesarbete"@sv ;
+    skos:prefLabel "Smidesarbete"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Decorative and structural work in wrought iron, common in Nordic church fittings and gates."@en ;
+    skos:broader nt:forging ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053937> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 5/153: Casting ──
+nt:casting a skos:Concept ;
+    rdfs:label "Casting"@en ;
+    skos:prefLabel "Casting"@en ;
+    rdfs:label "Støbning"@da ;
+    skos:prefLabel "Støbning"@da ;
+    rdfs:label "Valaminen"@fi ;
+    skos:prefLabel "Valaminen"@fi ;
+    rdfs:label "Støping"@nb ;
+    skos:prefLabel "Støping"@nb ;
+    rdfs:label "Gjutning"@sv ;
+    skos:prefLabel "Gjutning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Pouring molten metal into a mould to create objects."@en ;
+    skos:broader nt:metalworking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053104> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 6/153: Lost-wax casting ──
+nt:lost-wax-casting a skos:Concept ;
+    rdfs:label "Lost-wax casting"@en ;
+    skos:prefLabel "Lost-wax casting"@en ;
+    rdfs:label "Cire perdue-støbning"@da ;
+    skos:prefLabel "Cire perdue-støbning"@da ;
+    rdfs:label "Vahavalutekniikka"@fi ;
+    skos:prefLabel "Vahavalutekniikka"@fi ;
+    rdfs:label "Cire perdue-støping"@nb ;
+    skos:prefLabel "Cire perdue-støping"@nb ;
+    rdfs:label "Cire perdue-gjutning"@sv ;
+    skos:prefLabel "Cire perdue-gjutning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Casting method using a wax model that is melted away, used for Viking brooches and pendants."@en ;
+    skos:broader nt:casting ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053113> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 7/153: Sand casting ──
+nt:sand-casting a skos:Concept ;
+    rdfs:label "Sand casting"@en ;
+    skos:prefLabel "Sand casting"@en ;
+    rdfs:label "Sandstøbning"@da ;
+    skos:prefLabel "Sandstøbning"@da ;
+    rdfs:label "Hiekkavalu"@fi ;
+    skos:prefLabel "Hiekkavalu"@fi ;
+    rdfs:label "Sandstøping"@nb ;
+    skos:prefLabel "Sandstøping"@nb ;
+    rdfs:label "Sandgjutning"@sv ;
+    skos:prefLabel "Sandgjutning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Casting using sand moulds, common for larger metal objects."@en ;
+    skos:broader nt:casting ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053118> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 8/153: Chasing ──
+nt:chasing a skos:Concept ;
+    rdfs:label "Chasing"@en ;
+    skos:prefLabel "Chasing"@en ;
+    rdfs:label "Ciselering"@da ;
+    skos:prefLabel "Ciselering"@da ;
+    rdfs:label "Siselöinti"@fi ;
+    skos:prefLabel "Siselöinti"@fi ;
+    rdfs:label "Siselering"@nb ;
+    skos:prefLabel "Siselering"@nb ;
+    rdfs:label "Ciselering"@sv ;
+    skos:prefLabel "Ciselering"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Decorating metal by indenting the front surface with punches and hammers."@en ;
+    skos:broader nt:metalworking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053854> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 9/153: Repoussé ──
+nt:repousse a skos:Concept ;
+    rdfs:label "Repoussé"@en ;
+    skos:prefLabel "Repoussé"@en ;
+    rdfs:label "Repoussé"@da ;
+    skos:prefLabel "Repoussé"@da ;
+    rdfs:label "Kohokuviointi"@fi ;
+    skos:prefLabel "Kohokuviointi"@fi ;
+    rdfs:label "Repoussé"@nb ;
+    skos:prefLabel "Repoussé"@nb ;
+    rdfs:label "Repoussé"@sv ;
+    skos:prefLabel "Repoussé"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Shaping metal by hammering from the reverse side to create relief decoration."@en ;
+    skos:broader nt:metalworking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053882> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 10/153: Filigree ──
+nt:filigree a skos:Concept ;
+    rdfs:label "Filigree"@en ;
+    skos:prefLabel "Filigree"@en ;
+    rdfs:label "Filigran"@da ;
+    skos:prefLabel "Filigran"@da ;
+    rdfs:label "Filigraani"@fi ;
+    skos:prefLabel "Filigraani"@fi ;
+    rdfs:label "Filigran"@nb ;
+    skos:prefLabel "Filigran"@nb ;
+    rdfs:label "Filigran"@sv ;
+    skos:prefLabel "Filigran"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Delicate ornamental work using fine twisted wire, widespread in Viking and medieval Nordic jewellery."@en ;
+    skos:broader nt:metalworking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053841> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 11/153: Granulation ──
+nt:granulation a skos:Concept ;
+    rdfs:label "Granulation"@en ;
+    skos:prefLabel "Granulation"@en ;
+    rdfs:label "Granulering"@da ;
+    skos:prefLabel "Granulering"@da ;
+    rdfs:label "Granulointi"@fi ;
+    skos:prefLabel "Granulointi"@fi ;
+    rdfs:label "Granulering"@nb ;
+    skos:prefLabel "Granulering"@nb ;
+    rdfs:label "Granulering"@sv ;
+    skos:prefLabel "Granulering"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Decorating metal surfaces with tiny spheres of metal fused in patterns."@en ;
+    skos:broader nt:metalworking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053846> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 12/153: Gilding ──
+nt:gilding a skos:Concept ;
+    rdfs:label "Gilding"@en ;
+    skos:prefLabel "Gilding"@en ;
+    rdfs:label "Forgyldning"@da ;
+    skos:prefLabel "Forgyldning"@da ;
+    rdfs:label "Kultaus"@fi ;
+    skos:prefLabel "Kultaus"@fi ;
+    rdfs:label "Forgylling"@nb ;
+    skos:prefLabel "Forgylling"@nb ;
+    rdfs:label "Förgyllning"@sv ;
+    skos:prefLabel "Förgyllning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Applying a thin layer of gold to a surface, used extensively on Nordic church furnishings."@en ;
+    skos:broader nt:metalworking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053789> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 13/153: Fire gilding ──
+nt:fire-gilding a skos:Concept ;
+    rdfs:label "Fire gilding"@en ;
+    skos:prefLabel "Fire gilding"@en ;
+    rdfs:label "Ildforgyldning"@da ;
+    skos:prefLabel "Ildforgyldning"@da ;
+    rdfs:label "Tulikultaus"@fi ;
+    skos:prefLabel "Tulikultaus"@fi ;
+    rdfs:label "Ildforgylling"@nb ;
+    skos:prefLabel "Ildforgylling"@nb ;
+    rdfs:label "Eldförgyllning"@sv ;
+    skos:prefLabel "Eldförgyllning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Mercury amalgam gilding where gold-mercury paste is applied and heated to evaporate mercury."@en ;
+    skos:broader nt:gilding ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053793> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 14/153: Niello ──
+nt:niello a skos:Concept ;
+    rdfs:label "Niello"@en ;
+    skos:prefLabel "Niello"@en ;
+    rdfs:label "Niello"@da ;
+    skos:prefLabel "Niello"@da ;
+    rdfs:label "Niello"@fi ;
+    skos:prefLabel "Niello"@fi ;
+    rdfs:label "Niello"@nb ;
+    skos:prefLabel "Niello"@nb ;
+    rdfs:label "Niello"@sv ;
+    skos:prefLabel "Niello"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Inlaying engraved lines with a black metallic alloy, common on Viking silver jewellery."@en ;
+    skos:broader nt:metalworking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053856> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 15/153: Damascening ──
+nt:damascening a skos:Concept ;
+    rdfs:label "Damascening"@en ;
+    skos:prefLabel "Damascening"@en ;
+    rdfs:label "Damascering"@da ;
+    skos:prefLabel "Damascering"@da ;
+    rdfs:label "Damaskiinti"@fi ;
+    skos:prefLabel "Damaskiinti"@fi ;
+    rdfs:label "Damascering"@nb ;
+    skos:prefLabel "Damascering"@nb ;
+    rdfs:label "Damascering"@sv ;
+    skos:prefLabel "Damascering"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Inlaying one metal into another for decorative effect, related to pattern welding in blade-making."@en ;
+    skos:broader nt:metalworking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053829> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 16/153: Metal engraving ──
+nt:metal-engraving a skos:Concept ;
+    rdfs:label "Metal engraving"@en ;
+    skos:prefLabel "Metal engraving"@en ;
+    rdfs:label "Metalindgravering"@da ;
+    skos:prefLabel "Metalindgravering"@da ;
+    rdfs:label "Metallikaiverrus"@fi ;
+    skos:prefLabel "Metallikaiverrus"@fi ;
+    rdfs:label "Metallgravering"@nb ;
+    skos:prefLabel "Metallgravering"@nb ;
+    rdfs:label "Metallgravyr"@sv ;
+    skos:prefLabel "Metallgravyr"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Cutting designs into metal surfaces with a burin or graver."@en ;
+    skos:broader nt:metalworking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053835> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 17/153: Enameling ──
+nt:enameling a skos:Concept ;
+    rdfs:label "Enameling"@en ;
+    skos:prefLabel "Enameling"@en ;
+    rdfs:label "Emaljering"@da ;
+    skos:prefLabel "Emaljering"@da ;
+    rdfs:label "Emalointi"@fi ;
+    skos:prefLabel "Emalointi"@fi ;
+    rdfs:label "Emaljering"@nb ;
+    skos:prefLabel "Emaljering"@nb ;
+    rdfs:label "Emaljering"@sv ;
+    skos:prefLabel "Emaljering"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Fusing powdered glass onto metal surfaces to create coloured decoration."@en ;
+    skos:broader nt:metalworking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053780> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 18/153: Cloisonné ──
+nt:cloisonne a skos:Concept ;
+    rdfs:label "Cloisonné"@en ;
+    skos:prefLabel "Cloisonné"@en ;
+    rdfs:label "Cloisonné"@da ;
+    skos:prefLabel "Cloisonné"@da ;
+    rdfs:label "Cloisonné"@fi ;
+    skos:prefLabel "Cloisonné"@fi ;
+    rdfs:label "Cloisonné"@nb ;
+    skos:prefLabel "Cloisonné"@nb ;
+    rdfs:label "Cloisonné"@sv ;
+    skos:prefLabel "Cloisonné"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Enamel technique using thin metal strips to create cells filled with coloured glass paste."@en ;
+    skos:broader nt:enameling ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053764> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 19/153: Champlevé ──
+nt:champleve a skos:Concept ;
+    rdfs:label "Champlevé"@en ;
+    skos:prefLabel "Champlevé"@en ;
+    rdfs:label "Champlevé"@da ;
+    skos:prefLabel "Champlevé"@da ;
+    rdfs:label "Champlevé"@fi ;
+    skos:prefLabel "Champlevé"@fi ;
+    rdfs:label "Champlevé"@nb ;
+    skos:prefLabel "Champlevé"@nb ;
+    rdfs:label "Champlevé"@sv ;
+    skos:prefLabel "Champlevé"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Enamel technique where troughs are carved into metal and filled with enamel."@en ;
+    skos:broader nt:enameling ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053758> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 20/153: Tinning ──
+nt:tinning a skos:Concept ;
+    rdfs:label "Tinning"@en ;
+    skos:prefLabel "Tinning"@en ;
+    rdfs:label "Fortinning"@da ;
+    skos:prefLabel "Fortinning"@da ;
+    rdfs:label "Tinaus"@fi ;
+    skos:prefLabel "Tinaus"@fi ;
+    rdfs:label "Fortinning"@nb ;
+    skos:prefLabel "Fortinning"@nb ;
+    rdfs:label "Förtenning"@sv ;
+    skos:prefLabel "Förtenning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Coating metal with a thin layer of tin to prevent corrosion."@en ;
+    skos:broader nt:metalworking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053922> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 21/153: Soldering ──
+nt:soldering a skos:Concept ;
+    rdfs:label "Soldering"@en ;
+    skos:prefLabel "Soldering"@en ;
+    rdfs:label "Lodning"@da ;
+    skos:prefLabel "Lodning"@da ;
+    rdfs:label "Juottaminen"@fi ;
+    skos:prefLabel "Juottaminen"@fi ;
+    rdfs:label "Lodding"@nb ;
+    skos:prefLabel "Lodding"@nb ;
+    rdfs:label "Lödning"@sv ;
+    skos:prefLabel "Lödning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Joining metal parts using a filler metal with a lower melting point."@en ;
+    skos:broader nt:metalworking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053910> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 22/153: Riveting ──
+nt:riveting a skos:Concept ;
+    rdfs:label "Riveting"@en ;
+    skos:prefLabel "Riveting"@en ;
+    rdfs:label "Nitning"@da ;
+    skos:prefLabel "Nitning"@da ;
+    rdfs:label "Niittaus"@fi ;
+    skos:prefLabel "Niittaus"@fi ;
+    rdfs:label "Nagling"@nb ;
+    skos:prefLabel "Nagling"@nb ;
+    rdfs:label "Nitning"@sv ;
+    skos:prefLabel "Nitning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Joining metal sheets or parts using rivets, essential in Viking ship construction."@en ;
+    skos:broader nt:metalworking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053897> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 23/153: Wire drawing ──
+nt:wire-drawing a skos:Concept ;
+    rdfs:label "Wire drawing"@en ;
+    skos:prefLabel "Wire drawing"@en ;
+    rdfs:label "Trådtrækning"@da ;
+    skos:prefLabel "Trådtrækning"@da ;
+    rdfs:label "Lankaveto"@fi ;
+    skos:prefLabel "Lankaveto"@fi ;
+    rdfs:label "Trådtrekking"@nb ;
+    skos:prefLabel "Trådtrekking"@nb ;
+    rdfs:label "Tråddragning"@sv ;
+    skos:prefLabel "Tråddragning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Pulling metal through progressively smaller dies to form wire."@en ;
+    skos:broader nt:metalworking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053942> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 24/153: Sheet metalwork ──
+nt:sheet-metalwork a skos:Concept ;
+    rdfs:label "Sheet metalwork"@en ;
+    skos:prefLabel "Sheet metalwork"@en ;
+    rdfs:label "Blikkenslagerarbejde"@da ;
+    skos:prefLabel "Blikkenslagerarbejde"@da ;
+    rdfs:label "Peltisuutarintyö"@fi ;
+    skos:prefLabel "Peltisuutarintyö"@fi ;
+    rdfs:label "Blikkenslagerarbeid"@nb ;
+    skos:prefLabel "Blikkenslagerarbeid"@nb ;
+    rdfs:label "Plåtslageri"@sv ;
+    skos:prefLabel "Plåtslageri"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Forming objects from flat sheets of metal by cutting, bending, and joining."@en ;
+    skos:broader nt:metalworking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053905> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 25/153: Raising ──
+nt:raising a skos:Concept ;
+    rdfs:label "Raising"@en ;
+    skos:prefLabel "Raising"@en ;
+    rdfs:label "Opdrivning"@da ;
+    skos:prefLabel "Opdrivning"@da ;
+    rdfs:label "Ylöslyönti"@fi ;
+    skos:prefLabel "Ylöslyönti"@fi ;
+    rdfs:label "Oppdrivning"@nb ;
+    skos:prefLabel "Oppdrivning"@nb ;
+    rdfs:label "Uppdrivning"@sv ;
+    skos:prefLabel "Uppdrivning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Hammering a flat metal disc over a stake to form hollow vessels."@en ;
+    skos:broader nt:metalworking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053879> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 26/153: Patination ──
+nt:patination a skos:Concept ;
+    rdfs:label "Patination"@en ;
+    skos:prefLabel "Patination"@en ;
+    rdfs:label "Patinering"@da ;
+    skos:prefLabel "Patinering"@da ;
+    rdfs:label "Patinointi"@fi ;
+    skos:prefLabel "Patinointi"@fi ;
+    rdfs:label "Patinering"@nb ;
+    skos:prefLabel "Patinering"@nb ;
+    rdfs:label "Patinering"@sv ;
+    skos:prefLabel "Patinering"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Controlled surface oxidation to give metal an aged or coloured appearance."@en ;
+    skos:broader nt:metalworking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053869> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 27/153: Metal spinning ──
+nt:metal-spinning a skos:Concept ;
+    rdfs:label "Metal spinning"@en ;
+    skos:prefLabel "Metal spinning"@en ;
+    rdfs:label "Metaldrejning"@da ;
+    skos:prefLabel "Metaldrejning"@da ;
+    rdfs:label "Metallisorvaus"@fi ;
+    skos:prefLabel "Metallisorvaus"@fi ;
+    rdfs:label "Metallspinning"@nb ;
+    skos:prefLabel "Metallspinning"@nb ;
+    rdfs:label "Metallsvarvning"@sv ;
+    skos:prefLabel "Metallsvarvning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Forming metal discs into axially symmetric shapes on a lathe."@en ;
+    skos:broader nt:metalworking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053914> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 28/153: Stamping ──
+nt:stamping a skos:Concept ;
+    rdfs:label "Stamping"@en ;
+    skos:prefLabel "Stamping"@en ;
+    rdfs:label "Stempling"@da ;
+    skos:prefLabel "Stempling"@da ;
+    rdfs:label "Meistäminen"@fi ;
+    skos:prefLabel "Meistäminen"@fi ;
+    rdfs:label "Stempling"@nb ;
+    skos:prefLabel "Stempling"@nb ;
+    rdfs:label "Stämpling"@sv ;
+    skos:prefLabel "Stämpling"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Impressing designs into metal using dies or punches."@en ;
+    skos:broader nt:metalworking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053917> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 29/153: Textile techniques ──
+nt:textile-techniques a skos:Concept ;
+    rdfs:label "Textile techniques"@en ;
+    skos:prefLabel "Textile techniques"@en ;
+    rdfs:label "Tekstilteknikker"@da ;
+    skos:prefLabel "Tekstilteknikker"@da ;
+    rdfs:label "Tekstiilitekniikat"@fi ;
+    skos:prefLabel "Tekstiilitekniikat"@fi ;
+    rdfs:label "Tekstilteknikker"@nb ;
+    skos:prefLabel "Tekstilteknikker"@nb ;
+    rdfs:label "Textila tekniker"@sv ;
+    skos:prefLabel "Textila tekniker"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Techniques for producing, decorating, and finishing fabrics and fibre objects."@en ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 30/153: Weaving ──
+nt:weaving a skos:Concept ;
+    rdfs:label "Weaving"@en ;
+    skos:prefLabel "Weaving"@en ;
+    rdfs:label "Vævning"@da ;
+    skos:prefLabel "Vævning"@da ;
+    rdfs:label "Kudonta"@fi ;
+    skos:prefLabel "Kudonta"@fi ;
+    rdfs:label "Veving"@nb ;
+    skos:prefLabel "Veving"@nb ;
+    rdfs:label "Vävning"@sv ;
+    skos:prefLabel "Vävning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Interlacing warp and weft threads on a loom to form cloth."@en ;
+    skos:broader nt:textile-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053642> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 31/153: Tapestry weaving ──
+nt:tapestry-weaving a skos:Concept ;
+    rdfs:label "Tapestry weaving"@en ;
+    skos:prefLabel "Tapestry weaving"@en ;
+    rdfs:label "Gobelinvævning"@da ;
+    skos:prefLabel "Gobelinvævning"@da ;
+    rdfs:label "Gobeliininkudonta"@fi ;
+    skos:prefLabel "Gobeliininkudonta"@fi ;
+    rdfs:label "Gobelinveving"@nb ;
+    skos:prefLabel "Gobelinveving"@nb ;
+    rdfs:label "Gobelängvävning"@sv ;
+    skos:prefLabel "Gobelängvävning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Weft-faced weaving producing pictorial or patterned textiles, as in Nordic wall hangings."@en ;
+    skos:broader nt:weaving ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053636> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 32/153: Tablet weaving ──
+nt:tablet-weaving a skos:Concept ;
+    rdfs:label "Tablet weaving"@en ;
+    skos:prefLabel "Tablet weaving"@en ;
+    rdfs:label "Brikvævning"@da ;
+    skos:prefLabel "Brikvævning"@da ;
+    rdfs:label "Lautanauhakankaiden kudonta"@fi ;
+    skos:prefLabel "Lautanauhakankaiden kudonta"@fi ;
+    rdfs:label "Brikkebåndsveving"@nb ;
+    skos:prefLabel "Brikkebåndsveving"@nb ;
+    rdfs:label "Brickbandsvävning"@sv ;
+    skos:prefLabel "Brickbandsvävning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Weaving narrow bands using perforated cards to create complex patterns, widespread in Viking Age."@en ;
+    skos:broader nt:weaving ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300263029> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 33/153: Rya knotting ──
+nt:rya-knotting a skos:Concept ;
+    rdfs:label "Rya knotting"@en ;
+    skos:prefLabel "Rya knotting"@en ;
+    rdfs:label "Ryaknytning"@da ;
+    skos:prefLabel "Ryaknytning"@da ;
+    rdfs:label "Ryijyn solmiminen"@fi ;
+    skos:prefLabel "Ryijyn solmiminen"@fi ;
+    rdfs:label "Ryeknyting"@nb ;
+    skos:prefLabel "Ryeknyting"@nb ;
+    rdfs:label "Ryaknutning"@sv ;
+    skos:prefLabel "Ryaknutning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Knotting technique for making rya rugs, a Nordic tradition since the Viking Age."@en ;
+    skos:broader nt:textile-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300263041> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 34/153: Nalbinding ──
+nt:nalbinding a skos:Concept ;
+    rdfs:label "Nalbinding"@en ;
+    skos:prefLabel "Nalbinding"@en ;
+    rdfs:label "Nålebinding"@da ;
+    skos:prefLabel "Nålebinding"@da ;
+    rdfs:label "Kinnasneulatekniikka"@fi ;
+    skos:prefLabel "Kinnasneulatekniikka"@fi ;
+    rdfs:label "Nålebinding"@nb ;
+    skos:prefLabel "Nålebinding"@nb ;
+    rdfs:label "Nålbindning"@sv ;
+    skos:prefLabel "Nålbindning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Ancient Viking needle-binding technique predating knitting, using a single needle and short lengths of yarn."@en ;
+    skos:broader nt:textile-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300264572> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 35/153: Spinning ──
+nt:spinning a skos:Concept ;
+    rdfs:label "Spinning"@en ;
+    skos:prefLabel "Spinning"@en ;
+    rdfs:label "Spinding"@da ;
+    skos:prefLabel "Spinding"@da ;
+    rdfs:label "Kehrääminen"@fi ;
+    skos:prefLabel "Kehrääminen"@fi ;
+    rdfs:label "Spinning"@nb ;
+    skos:prefLabel "Spinning"@nb ;
+    rdfs:label "Spinning"@sv ;
+    skos:prefLabel "Spinning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Drawing out and twisting fibres into continuous yarn or thread."@en ;
+    skos:broader nt:textile-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053614> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 36/153: Felting ──
+nt:felting a skos:Concept ;
+    rdfs:label "Felting"@en ;
+    skos:prefLabel "Felting"@en ;
+    rdfs:label "Filtning"@da ;
+    skos:prefLabel "Filtning"@da ;
+    rdfs:label "Huovutus"@fi ;
+    skos:prefLabel "Huovutus"@fi ;
+    rdfs:label "Filting"@nb ;
+    skos:prefLabel "Filting"@nb ;
+    rdfs:label "Filtning"@sv ;
+    skos:prefLabel "Filtning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Matting fibres together using moisture, heat, and pressure without weaving."@en ;
+    skos:broader nt:textile-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300231592> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 37/153: Dyeing ──
+nt:dyeing a skos:Concept ;
+    rdfs:label "Dyeing"@en ;
+    skos:prefLabel "Dyeing"@en ;
+    rdfs:label "Farvning"@da ;
+    skos:prefLabel "Farvning"@da ;
+    rdfs:label "Värjäys"@fi ;
+    skos:prefLabel "Värjäys"@fi ;
+    rdfs:label "Farging"@nb ;
+    skos:prefLabel "Farging"@nb ;
+    rdfs:label "Färgning"@sv ;
+    skos:prefLabel "Färgning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Colouring textiles using natural or synthetic dyes."@en ;
+    skos:broader nt:textile-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053470> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 38/153: Embroidery ──
+nt:embroidery a skos:Concept ;
+    rdfs:label "Embroidery"@en ;
+    skos:prefLabel "Embroidery"@en ;
+    rdfs:label "Broderi"@da ;
+    skos:prefLabel "Broderi"@da ;
+    rdfs:label "Kirjonta"@fi ;
+    skos:prefLabel "Kirjonta"@fi ;
+    rdfs:label "Broderi"@nb ;
+    skos:prefLabel "Broderi"@nb ;
+    rdfs:label "Broderi"@sv ;
+    skos:prefLabel "Broderi"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Decorating fabric with needle and thread, a major Nordic decorative tradition."@en ;
+    skos:broader nt:textile-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053487> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 39/153: Appliqué ──
+nt:applique a skos:Concept ;
+    rdfs:label "Appliqué"@en ;
+    skos:prefLabel "Appliqué"@en ;
+    rdfs:label "Applikation"@da ;
+    skos:prefLabel "Applikation"@da ;
+    rdfs:label "Applikointi"@fi ;
+    skos:prefLabel "Applikointi"@fi ;
+    rdfs:label "Applikasjon"@nb ;
+    skos:prefLabel "Applikasjon"@nb ;
+    rdfs:label "Applikation"@sv ;
+    skos:prefLabel "Applikation"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Sewing pieces of fabric onto a ground cloth to form patterns or pictures."@en ;
+    skos:broader nt:textile-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053410> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 40/153: Lace making ──
+nt:lace-making a skos:Concept ;
+    rdfs:label "Lace making"@en ;
+    skos:prefLabel "Lace making"@en ;
+    rdfs:label "Knipleri"@da ;
+    skos:prefLabel "Knipleri"@da ;
+    rdfs:label "Pitsinnypläys"@fi ;
+    skos:prefLabel "Pitsinnypläys"@fi ;
+    rdfs:label "Knipleri"@nb ;
+    skos:prefLabel "Knipleri"@nb ;
+    rdfs:label "Spetsknypling"@sv ;
+    skos:prefLabel "Spetsknypling"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Creating openwork fabric by looping, twisting, or knotting threads."@en ;
+    skos:broader nt:textile-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053526> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 41/153: Bobbin lace ──
+nt:bobbin-lace a skos:Concept ;
+    rdfs:label "Bobbin lace"@en ;
+    skos:prefLabel "Bobbin lace"@en ;
+    rdfs:label "Knipleplet"@da ;
+    skos:prefLabel "Knipleplet"@da ;
+    rdfs:label "Nyplätty pitsi"@fi ;
+    skos:prefLabel "Nyplätty pitsi"@fi ;
+    rdfs:label "Knipling"@nb ;
+    skos:prefLabel "Knipling"@nb ;
+    rdfs:label "Knyppelspets"@sv ;
+    skos:prefLabel "Knyppelspets"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Lace made by braiding threads wound on bobbins around pins set in a pattern."@en ;
+    skos:broader nt:lace-making ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053415> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 42/153: Knitting ──
+nt:knitting a skos:Concept ;
+    rdfs:label "Knitting"@en ;
+    skos:prefLabel "Knitting"@en ;
+    rdfs:label "Strikning"@da ;
+    skos:prefLabel "Strikning"@da ;
+    rdfs:label "Neulominen"@fi ;
+    skos:prefLabel "Neulominen"@fi ;
+    rdfs:label "Strikking"@nb ;
+    skos:prefLabel "Strikking"@nb ;
+    rdfs:label "Stickning"@sv ;
+    skos:prefLabel "Stickning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Creating fabric by interlocking loops of yarn with needles."@en ;
+    skos:broader nt:textile-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053522> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 43/153: Braiding ──
+nt:braiding a skos:Concept ;
+    rdfs:label "Braiding"@en ;
+    skos:prefLabel "Braiding"@en ;
+    rdfs:label "Fletning"@da ;
+    skos:prefLabel "Fletning"@da ;
+    rdfs:label "Palmikoiminen"@fi ;
+    skos:prefLabel "Palmikoiminen"@fi ;
+    rdfs:label "Fletting"@nb ;
+    skos:prefLabel "Fletting"@nb ;
+    rdfs:label "Flätning"@sv ;
+    skos:prefLabel "Flätning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Interlacing three or more strands of material to form a flat or round braid."@en ;
+    skos:broader nt:textile-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053418> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 44/153: Quilting ──
+nt:quilting a skos:Concept ;
+    rdfs:label "Quilting"@en ;
+    skos:prefLabel "Quilting"@en ;
+    rdfs:label "Quiltning"@da ;
+    skos:prefLabel "Quiltning"@da ;
+    rdfs:label "Tilkkutyö"@fi ;
+    skos:prefLabel "Tilkkutyö"@fi ;
+    rdfs:label "Quilting"@nb ;
+    skos:prefLabel "Quilting"@nb ;
+    rdfs:label "Quiltning"@sv ;
+    skos:prefLabel "Quiltning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Stitching together layers of fabric with padding between them."@en ;
+    skos:broader nt:textile-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053584> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 45/153: Textile printing ──
+nt:printing-on-fabric a skos:Concept ;
+    rdfs:label "Textile printing"@en ;
+    skos:prefLabel "Textile printing"@en ;
+    rdfs:label "Tekstiltryk"@da ;
+    skos:prefLabel "Tekstiltryk"@da ;
+    rdfs:label "Kankaanpainanta"@fi ;
+    skos:prefLabel "Kankaanpainanta"@fi ;
+    rdfs:label "Tekstiltrykk"@nb ;
+    skos:prefLabel "Tekstiltrykk"@nb ;
+    rdfs:label "Textiltryck"@sv ;
+    skos:prefLabel "Textiltryck"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Applying colour to fabric in patterns using blocks, screens, or rollers."@en ;
+    skos:broader nt:textile-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053580> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 46/153: Bleaching ──
+nt:bleaching a skos:Concept ;
+    rdfs:label "Bleaching"@en ;
+    skos:prefLabel "Bleaching"@en ;
+    rdfs:label "Blegning"@da ;
+    skos:prefLabel "Blegning"@da ;
+    rdfs:label "Valkaisu"@fi ;
+    skos:prefLabel "Valkaisu"@fi ;
+    rdfs:label "Bleking"@nb ;
+    skos:prefLabel "Bleking"@nb ;
+    rdfs:label "Blekning"@sv ;
+    skos:prefLabel "Blekning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Whitening textiles through chemical or sunlight exposure."@en ;
+    skos:broader nt:textile-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053413> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 47/153: Carding ──
+nt:carding a skos:Concept ;
+    rdfs:label "Carding"@en ;
+    skos:prefLabel "Carding"@en ;
+    rdfs:label "Kardning"@da ;
+    skos:prefLabel "Kardning"@da ;
+    rdfs:label "Karstaus"@fi ;
+    skos:prefLabel "Karstaus"@fi ;
+    rdfs:label "Karding"@nb ;
+    skos:prefLabel "Karding"@nb ;
+    rdfs:label "Kardning"@sv ;
+    skos:prefLabel "Kardning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Combing and aligning fibres to prepare them for spinning."@en ;
+    skos:broader nt:textile-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053430> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 48/153: Fulling ──
+nt:fulling a skos:Concept ;
+    rdfs:label "Fulling"@en ;
+    skos:prefLabel "Fulling"@en ;
+    rdfs:label "Valkning"@da ;
+    skos:prefLabel "Valkning"@da ;
+    rdfs:label "Vanuttaminen"@fi ;
+    skos:prefLabel "Vanuttaminen"@fi ;
+    rdfs:label "Valking"@nb ;
+    skos:prefLabel "Valking"@nb ;
+    rdfs:label "Valkning"@sv ;
+    skos:prefLabel "Valkning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Shrinking and thickening woven cloth by moistening, heating, and beating."@en ;
+    skos:broader nt:textile-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053498> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 49/153: Woodworking ──
+nt:woodworking a skos:Concept ;
+    rdfs:label "Woodworking"@en ;
+    skos:prefLabel "Woodworking"@en ;
+    rdfs:label "Træarbejde"@da ;
+    skos:prefLabel "Træarbejde"@da ;
+    rdfs:label "Puutyö"@fi ;
+    skos:prefLabel "Puutyö"@fi ;
+    rdfs:label "Trearbeid"@nb ;
+    skos:prefLabel "Trearbeid"@nb ;
+    rdfs:label "Träslöjd"@sv ;
+    skos:prefLabel "Träslöjd"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Techniques for shaping, joining, and decorating wood."@en ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 50/153: Wood carving ──
+nt:wood-carving a skos:Concept ;
+    rdfs:label "Wood carving"@en ;
+    skos:prefLabel "Wood carving"@en ;
+    rdfs:label "Træskæring"@da ;
+    skos:prefLabel "Træskæring"@da ;
+    rdfs:label "Puunveisto"@fi ;
+    skos:prefLabel "Puunveisto"@fi ;
+    rdfs:label "Treskjæring"@nb ;
+    skos:prefLabel "Treskjæring"@nb ;
+    rdfs:label "Träsnideri"@sv ;
+    skos:prefLabel "Träsnideri"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Shaping wood by cutting with tools, a central Nordic decorative tradition (stave churches, ships)."@en ;
+    skos:broader nt:woodworking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053637> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 51/153: Wood turning ──
+nt:wood-turning a skos:Concept ;
+    rdfs:label "Wood turning"@en ;
+    skos:prefLabel "Wood turning"@en ;
+    rdfs:label "Drejning"@da ;
+    skos:prefLabel "Drejning"@da ;
+    rdfs:label "Puunsorvaus"@fi ;
+    skos:prefLabel "Puunsorvaus"@fi ;
+    rdfs:label "Dreiing"@nb ;
+    skos:prefLabel "Dreiing"@nb ;
+    rdfs:label "Svarvning"@sv ;
+    skos:prefLabel "Svarvning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Shaping wood on a lathe to produce symmetrical objects."@en ;
+    skos:broader nt:woodworking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053658> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 52/153: Stave construction ──
+nt:stave-construction a skos:Concept ;
+    rdfs:label "Stave construction"@en ;
+    skos:prefLabel "Stave construction"@en ;
+    rdfs:label "Stavkonstruktion"@da ;
+    skos:prefLabel "Stavkonstruktion"@da ;
+    rdfs:label "Sauvakonstruktio"@fi ;
+    skos:prefLabel "Sauvakonstruktio"@fi ;
+    rdfs:label "Stavkonstruksjon"@nb ;
+    skos:prefLabel "Stavkonstruksjon"@nb ;
+    rdfs:label "Stavkonstruktion"@sv ;
+    skos:prefLabel "Stavkonstruktion"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Building technique using vertical planks (staves), as in Norwegian stave churches."@en ;
+    skos:broader nt:woodworking ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 53/153: Joinery ──
+nt:joinery a skos:Concept ;
+    rdfs:label "Joinery"@en ;
+    skos:prefLabel "Joinery"@en ;
+    rdfs:label "Snedkeri"@da ;
+    skos:prefLabel "Snedkeri"@da ;
+    rdfs:label "Puusepäntyö"@fi ;
+    skos:prefLabel "Puusepäntyö"@fi ;
+    rdfs:label "Snekring"@nb ;
+    skos:prefLabel "Snekring"@nb ;
+    rdfs:label "Snickeri"@sv ;
+    skos:prefLabel "Snickeri"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Connecting wood pieces using joints (mortise-and-tenon, dovetail) without nails."@en ;
+    skos:broader nt:woodworking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053359> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 54/153: Marquetry ──
+nt:marquetry a skos:Concept ;
+    rdfs:label "Marquetry"@en ;
+    skos:prefLabel "Marquetry"@en ;
+    rdfs:label "Marketteri"@da ;
+    skos:prefLabel "Marketteri"@da ;
+    rdfs:label "Marketteria"@fi ;
+    skos:prefLabel "Marketteria"@fi ;
+    rdfs:label "Marketteri"@nb ;
+    skos:prefLabel "Marketteri"@nb ;
+    rdfs:label "Marketeri"@sv ;
+    skos:prefLabel "Marketeri"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Decorating surfaces with inlaid veneers of different coloured woods."@en ;
+    skos:broader nt:woodworking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053368> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 55/153: Chip carving ──
+nt:chip-carving a skos:Concept ;
+    rdfs:label "Chip carving"@en ;
+    skos:prefLabel "Chip carving"@en ;
+    rdfs:label "Spånskæring"@da ;
+    skos:prefLabel "Spånskæring"@da ;
+    rdfs:label "Lastuveisto"@fi ;
+    skos:prefLabel "Lastuveisto"@fi ;
+    rdfs:label "Sponeskjæring"@nb ;
+    skos:prefLabel "Sponeskjæring"@nb ;
+    rdfs:label "Spånsnideri"@sv ;
+    skos:prefLabel "Spånsnideri"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Removing small chips of wood with a knife to create geometric patterns."@en ;
+    skos:broader nt:wood-carving ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053326> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 56/153: Relief carving ──
+nt:relief-carving a skos:Concept ;
+    rdfs:label "Relief carving"@en ;
+    skos:prefLabel "Relief carving"@en ;
+    rdfs:label "Reliefskæring"@da ;
+    skos:prefLabel "Reliefskæring"@da ;
+    rdfs:label "Kohoveisto"@fi ;
+    skos:prefLabel "Kohoveisto"@fi ;
+    rdfs:label "Relieffskjæring"@nb ;
+    skos:prefLabel "Relieffskjæring"@nb ;
+    rdfs:label "Reliefsnideri"@sv ;
+    skos:prefLabel "Reliefsnideri"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Carving figures that project from a flat background, as on Viking ship prows."@en ;
+    skos:broader nt:wood-carving ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053390> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 57/153: Coopering ──
+nt:coopering a skos:Concept ;
+    rdfs:label "Coopering"@en ;
+    skos:prefLabel "Coopering"@en ;
+    rdfs:label "Bødkeri"@da ;
+    skos:prefLabel "Bødkeri"@da ;
+    rdfs:label "Tynnyrinteko"@fi ;
+    skos:prefLabel "Tynnyrinteko"@fi ;
+    rdfs:label "Bøkkerarbeid"@nb ;
+    skos:prefLabel "Bøkkerarbeid"@nb ;
+    rdfs:label "Tunnbinderi"@sv ;
+    skos:prefLabel "Tunnbinderi"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Making barrels, casks, and tubs from staves bound with hoops."@en ;
+    skos:broader nt:woodworking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053339> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 58/153: Bark working ──
+nt:bark-working a skos:Concept ;
+    rdfs:label "Bark working"@en ;
+    skos:prefLabel "Bark working"@en ;
+    rdfs:label "Barkarbejde"@da ;
+    skos:prefLabel "Barkarbejde"@da ;
+    rdfs:label "Tuohityö"@fi ;
+    skos:prefLabel "Tuohityö"@fi ;
+    rdfs:label "Neverarbeid"@nb ;
+    skos:prefLabel "Neverarbeid"@nb ;
+    rdfs:label "Näverskinnarbete"@sv ;
+    skos:prefLabel "Näverskinnarbete"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Using tree bark (especially birch) for containers, roofing, and decorative objects."@en ;
+    skos:broader nt:woodworking ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 59/153: Birch bark plaiting ──
+nt:birch-bark-plaiting a skos:Concept ;
+    rdfs:label "Birch bark plaiting"@en ;
+    skos:prefLabel "Birch bark plaiting"@en ;
+    rdfs:label "Birkebarkfletning"@da ;
+    skos:prefLabel "Birkebarkfletning"@da ;
+    rdfs:label "Tuohipunonta"@fi ;
+    skos:prefLabel "Tuohipunonta"@fi ;
+    rdfs:label "Neverfletting"@nb ;
+    skos:prefLabel "Neverfletting"@nb ;
+    rdfs:label "Näverflätning"@sv ;
+    skos:prefLabel "Näverflätning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Weaving strips of birch bark into containers, shoes, and other objects, a traditional Nordic and Sami craft."@en ;
+    skos:broader nt:bark-working ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 60/153: Log building ──
+nt:log-building a skos:Concept ;
+    rdfs:label "Log building"@en ;
+    skos:prefLabel "Log building"@en ;
+    rdfs:label "Tømmerkonstruktion"@da ;
+    skos:prefLabel "Tømmerkonstruktion"@da ;
+    rdfs:label "Hirsityö"@fi ;
+    skos:prefLabel "Hirsityö"@fi ;
+    rdfs:label "Lafting"@nb ;
+    skos:prefLabel "Lafting"@nb ;
+    rdfs:label "Timring"@sv ;
+    skos:prefLabel "Timring"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Constructing walls by stacking and interlocking horizontal logs, the dominant Nordic building technique."@en ;
+    skos:broader nt:woodworking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300002789> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 61/153: Bentwood work ──
+nt:bentwood a skos:Concept ;
+    rdfs:label "Bentwood work"@en ;
+    skos:prefLabel "Bentwood work"@en ;
+    rdfs:label "Bøjet træ"@da ;
+    skos:prefLabel "Bøjet træ"@da ;
+    rdfs:label "Taivutettu puu"@fi ;
+    skos:prefLabel "Taivutettu puu"@fi ;
+    rdfs:label "Bøyd tre"@nb ;
+    skos:prefLabel "Bøyd tre"@nb ;
+    rdfs:label "Bockträ"@sv ;
+    skos:prefLabel "Bockträ"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Shaping wood by steaming or boiling and bending into curves."@en ;
+    skos:broader nt:woodworking ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 62/153: Boat building ──
+nt:boat-building a skos:Concept ;
+    rdfs:label "Boat building"@en ;
+    skos:prefLabel "Boat building"@en ;
+    rdfs:label "Bådbyggeri"@da ;
+    skos:prefLabel "Bådbyggeri"@da ;
+    rdfs:label "Veneenrakennus"@fi ;
+    skos:prefLabel "Veneenrakennus"@fi ;
+    rdfs:label "Båtbygging"@nb ;
+    skos:prefLabel "Båtbygging"@nb ;
+    rdfs:label "Båtbyggeri"@sv ;
+    skos:prefLabel "Båtbyggeri"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Constructing watercraft from wood, central to Nordic seafaring culture and Viking ships."@en ;
+    skos:broader nt:woodworking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053308> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 63/153: Clinker building ──
+nt:clinker-building a skos:Concept ;
+    rdfs:label "Clinker building"@en ;
+    skos:prefLabel "Clinker building"@en ;
+    rdfs:label "Klinkbygning"@da ;
+    skos:prefLabel "Klinkbygning"@da ;
+    rdfs:label "Limisaumarakenne"@fi ;
+    skos:prefLabel "Limisaumarakenne"@fi ;
+    rdfs:label "Klinkbygging"@nb ;
+    skos:prefLabel "Klinkbygging"@nb ;
+    rdfs:label "Klinkbyggnad"@sv ;
+    skos:prefLabel "Klinkbyggnad"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Overlapping hull planks fastened with rivets, the defining technique of Viking longships."@en ;
+    skos:broader nt:boat-building ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 64/153: Shingle making ──
+nt:wooden-shingle-making a skos:Concept ;
+    rdfs:label "Shingle making"@en ;
+    skos:prefLabel "Shingle making"@en ;
+    rdfs:label "Spånfremstilling"@da ;
+    skos:prefLabel "Spånfremstilling"@da ;
+    rdfs:label "Pärevalmistus"@fi ;
+    skos:prefLabel "Pärevalmistus"@fi ;
+    rdfs:label "Sponproduksjon"@nb ;
+    skos:prefLabel "Sponproduksjon"@nb ;
+    rdfs:label "Spåntillverkning"@sv ;
+    skos:prefLabel "Spåntillverkning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Splitting and shaping thin wooden tiles for roofing, traditional in Nordic architecture."@en ;
+    skos:broader nt:woodworking ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 65/153: Wood bending ──
+nt:wood-bending a skos:Concept ;
+    rdfs:label "Wood bending"@en ;
+    skos:prefLabel "Wood bending"@en ;
+    rdfs:label "Træbøjning"@da ;
+    skos:prefLabel "Træbøjning"@da ;
+    rdfs:label "Puun taivutus"@fi ;
+    skos:prefLabel "Puun taivutus"@fi ;
+    rdfs:label "Trebøying"@nb ;
+    skos:prefLabel "Trebøying"@nb ;
+    rdfs:label "Träböjning"@sv ;
+    skos:prefLabel "Träböjning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Using steam or heat to bend wood into curved shapes for furniture and vessels."@en ;
+    skos:broader nt:woodworking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053305> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 66/153: Wood inlay ──
+nt:wood-inlay a skos:Concept ;
+    rdfs:label "Wood inlay"@en ;
+    skos:prefLabel "Wood inlay"@en ;
+    rdfs:label "Træintarsia"@da ;
+    skos:prefLabel "Træintarsia"@da ;
+    rdfs:label "Puuintarsia"@fi ;
+    skos:prefLabel "Puuintarsia"@fi ;
+    rdfs:label "Treintarsia"@nb ;
+    skos:prefLabel "Treintarsia"@nb ;
+    rdfs:label "Träintarsia"@sv ;
+    skos:prefLabel "Träintarsia"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Embedding pieces of contrasting wood, metal, or other materials into a wood surface."@en ;
+    skos:broader nt:woodworking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053353> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 67/153: Ceramics ──
+nt:ceramics a skos:Concept ;
+    rdfs:label "Ceramics"@en ;
+    skos:prefLabel "Ceramics"@en ;
+    rdfs:label "Keramik"@da ;
+    skos:prefLabel "Keramik"@da ;
+    rdfs:label "Keramiikka"@fi ;
+    skos:prefLabel "Keramiikka"@fi ;
+    rdfs:label "Keramikk"@nb ;
+    skos:prefLabel "Keramikk"@nb ;
+    rdfs:label "Keramik"@sv ;
+    skos:prefLabel "Keramik"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Techniques for forming, decorating, and firing objects from clay."@en ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 68/153: Throwing ──
+nt:throwing a skos:Concept ;
+    rdfs:label "Throwing"@en ;
+    skos:prefLabel "Throwing"@en ;
+    rdfs:label "Drejning"@da ;
+    skos:prefLabel "Drejning"@da ;
+    rdfs:label "Dreijaus"@fi ;
+    skos:prefLabel "Dreijaus"@fi ;
+    rdfs:label "Dreiing"@nb ;
+    skos:prefLabel "Dreiing"@nb ;
+    rdfs:label "Drejning"@sv ;
+    skos:prefLabel "Drejning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Forming clay vessels on a spinning potter's wheel."@en ;
+    skos:broader nt:ceramics ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053929> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 69/153: Hand building ──
+nt:hand-building a skos:Concept ;
+    rdfs:label "Hand building"@en ;
+    skos:prefLabel "Hand building"@en ;
+    rdfs:label "Håndbygning"@da ;
+    skos:prefLabel "Håndbygning"@da ;
+    rdfs:label "Käsinrakentaminen"@fi ;
+    skos:prefLabel "Käsinrakentaminen"@fi ;
+    rdfs:label "Håndbygging"@nb ;
+    skos:prefLabel "Håndbygging"@nb ;
+    rdfs:label "Handbyggning"@sv ;
+    skos:prefLabel "Handbyggning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Forming pottery by hand without a wheel, using pinching, coiling, or slab techniques."@en ;
+    skos:broader nt:ceramics ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300264572> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 70/153: Coiling ──
+nt:coiling a skos:Concept ;
+    rdfs:label "Coiling"@en ;
+    skos:prefLabel "Coiling"@en ;
+    rdfs:label "Opbygning med pølser"@da ;
+    skos:prefLabel "Opbygning med pølser"@da ;
+    rdfs:label "Makkaratekniikka"@fi ;
+    skos:prefLabel "Makkaratekniikka"@fi ;
+    rdfs:label "Rulleteknikk"@nb ;
+    skos:prefLabel "Rulleteknikk"@nb ;
+    rdfs:label "Rullning"@sv ;
+    skos:prefLabel "Rullning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Building pottery by stacking and smoothing coils of clay."@en ;
+    skos:broader nt:hand-building ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053757> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 71/153: Slab building ──
+nt:slab-building a skos:Concept ;
+    rdfs:label "Slab building"@en ;
+    skos:prefLabel "Slab building"@en ;
+    rdfs:label "Pladeopbygning"@da ;
+    skos:prefLabel "Pladeopbygning"@da ;
+    rdfs:label "Laattarakentaminen"@fi ;
+    skos:prefLabel "Laattarakentaminen"@fi ;
+    rdfs:label "Platebygging"@nb ;
+    skos:prefLabel "Platebygging"@nb ;
+    rdfs:label "Plattbyggning"@sv ;
+    skos:prefLabel "Plattbyggning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Forming pottery by joining flat slabs of clay."@en ;
+    skos:broader nt:hand-building ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300263720> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 72/153: Slip decoration ──
+nt:slip-decoration a skos:Concept ;
+    rdfs:label "Slip decoration"@en ;
+    skos:prefLabel "Slip decoration"@en ;
+    rdfs:label "Slibdekoration"@da ;
+    skos:prefLabel "Slibdekoration"@da ;
+    rdfs:label "Lietekoristelu"@fi ;
+    skos:prefLabel "Lietekoristelu"@fi ;
+    rdfs:label "Slipdekor"@nb ;
+    skos:prefLabel "Slipdekor"@nb ;
+    rdfs:label "Slipdekor"@sv ;
+    skos:prefLabel "Slipdekor"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Decorating pottery by applying liquid clay (slip) in patterns."@en ;
+    skos:broader nt:ceramics ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053907> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 73/153: Glazing ──
+nt:glazing a skos:Concept ;
+    rdfs:label "Glazing"@en ;
+    skos:prefLabel "Glazing"@en ;
+    rdfs:label "Glasering"@da ;
+    skos:prefLabel "Glasering"@da ;
+    rdfs:label "Lasitus"@fi ;
+    skos:prefLabel "Lasitus"@fi ;
+    rdfs:label "Glasering"@nb ;
+    skos:prefLabel "Glasering"@nb ;
+    rdfs:label "Glasering"@sv ;
+    skos:prefLabel "Glasering"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Applying a vitreous coating to pottery before firing to create a smooth, waterproof surface."@en ;
+    skos:broader nt:ceramics ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053851> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 74/153: Firing ──
+nt:firing a skos:Concept ;
+    rdfs:label "Firing"@en ;
+    skos:prefLabel "Firing"@en ;
+    rdfs:label "Brænding"@da ;
+    skos:prefLabel "Brænding"@da ;
+    rdfs:label "Poltto"@fi ;
+    skos:prefLabel "Poltto"@fi ;
+    rdfs:label "Brenning"@nb ;
+    skos:prefLabel "Brenning"@nb ;
+    rdfs:label "Bränning"@sv ;
+    skos:prefLabel "Bränning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Heating clay objects in a kiln to harden them permanently."@en ;
+    skos:broader nt:ceramics ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053839> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 75/153: Salt glazing ──
+nt:salt-glazing a skos:Concept ;
+    rdfs:label "Salt glazing"@en ;
+    skos:prefLabel "Salt glazing"@en ;
+    rdfs:label "Saltglasering"@da ;
+    skos:prefLabel "Saltglasering"@da ;
+    rdfs:label "Suolalasitus"@fi ;
+    skos:prefLabel "Suolalasitus"@fi ;
+    rdfs:label "Saltglasering"@nb ;
+    skos:prefLabel "Saltglasering"@nb ;
+    rdfs:label "Saltglasering"@sv ;
+    skos:prefLabel "Saltglasering"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Glazing by throwing salt into the kiln during firing, creating a characteristic orange-peel texture."@en ;
+    skos:broader nt:glazing ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053896> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 76/153: Tin glazing ──
+nt:tin-glazing a skos:Concept ;
+    rdfs:label "Tin glazing"@en ;
+    skos:prefLabel "Tin glazing"@en ;
+    rdfs:label "Tinglasering"@da ;
+    skos:prefLabel "Tinglasering"@da ;
+    rdfs:label "Tinalasitus"@fi ;
+    skos:prefLabel "Tinalasitus"@fi ;
+    rdfs:label "Tinglasering"@nb ;
+    skos:prefLabel "Tinglasering"@nb ;
+    rdfs:label "Tennglasering"@sv ;
+    skos:prefLabel "Tennglasering"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Opaque white glaze containing tin oxide, used in Scandinavian faience production."@en ;
+    skos:broader nt:glazing ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053925> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 77/153: Stoneware firing ──
+nt:stoneware-firing a skos:Concept ;
+    rdfs:label "Stoneware firing"@en ;
+    skos:prefLabel "Stoneware firing"@en ;
+    rdfs:label "Stentøjsbrænding"@da ;
+    skos:prefLabel "Stentøjsbrænding"@da ;
+    rdfs:label "Kivitavarapoltto"@fi ;
+    skos:prefLabel "Kivitavarapoltto"@fi ;
+    rdfs:label "Steintøybrenning"@nb ;
+    skos:prefLabel "Steintøybrenning"@nb ;
+    rdfs:label "Stengodsbränning"@sv ;
+    skos:prefLabel "Stengodsbränning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "High-temperature firing (1200-1300°C) producing dense, vitrified ceramic ware."@en ;
+    skos:broader nt:firing ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300151372> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 78/153: Raku ──
+nt:raku a skos:Concept ;
+    rdfs:label "Raku"@en ;
+    skos:prefLabel "Raku"@en ;
+    rdfs:label "Raku"@da ;
+    skos:prefLabel "Raku"@da ;
+    rdfs:label "Raku"@fi ;
+    skos:prefLabel "Raku"@fi ;
+    rdfs:label "Raku"@nb ;
+    skos:prefLabel "Raku"@nb ;
+    rdfs:label "Raku"@sv ;
+    skos:prefLabel "Raku"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Rapid firing and cooling technique originating in Japan, adopted by Nordic studio potters."@en ;
+    skos:broader nt:firing ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053884> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 79/153: Sgraffito ──
+nt:sgraffito a skos:Concept ;
+    rdfs:label "Sgraffito"@en ;
+    skos:prefLabel "Sgraffito"@en ;
+    rdfs:label "Sgraffito"@da ;
+    skos:prefLabel "Sgraffito"@da ;
+    rdfs:label "Sgraffito"@fi ;
+    skos:prefLabel "Sgraffito"@fi ;
+    rdfs:label "Sgraffito"@nb ;
+    skos:prefLabel "Sgraffito"@nb ;
+    rdfs:label "Sgraffito"@sv ;
+    skos:prefLabel "Sgraffito"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Scratching through a surface layer of slip to reveal contrasting clay colour beneath."@en ;
+    skos:broader nt:ceramics ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053902> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 80/153: Kiln building ──
+nt:kiln-building a skos:Concept ;
+    rdfs:label "Kiln building"@en ;
+    skos:prefLabel "Kiln building"@en ;
+    rdfs:label "Ovnsbygning"@da ;
+    skos:prefLabel "Ovnsbygning"@da ;
+    rdfs:label "Uuninrakennus"@fi ;
+    skos:prefLabel "Uuninrakennus"@fi ;
+    rdfs:label "Ovnsbygging"@nb ;
+    skos:prefLabel "Ovnsbygging"@nb ;
+    rdfs:label "Ugnsbygning"@sv ;
+    skos:prefLabel "Ugnsbygning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Constructing furnaces for firing ceramics, from pit kilns to updraft and downdraft designs."@en ;
+    skos:broader nt:ceramics ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 81/153: Stone and lapidary techniques ──
+nt:stone-techniques a skos:Concept ;
+    rdfs:label "Stone and lapidary techniques"@en ;
+    skos:prefLabel "Stone and lapidary techniques"@en ;
+    rdfs:label "Sten- og slibeteknikker"@da ;
+    skos:prefLabel "Sten- og slibeteknikker"@da ;
+    rdfs:label "Kivi- ja hiontatekniikat"@fi ;
+    skos:prefLabel "Kivi- ja hiontatekniikat"@fi ;
+    rdfs:label "Stein- og slipeteknikker"@nb ;
+    skos:prefLabel "Stein- og slipeteknikker"@nb ;
+    rdfs:label "Sten- och sliperitekniker"@sv ;
+    skos:prefLabel "Sten- och sliperitekniker"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Techniques for shaping, carving, and finishing stone."@en ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 82/153: Stone carving ──
+nt:stone-carving a skos:Concept ;
+    rdfs:label "Stone carving"@en ;
+    skos:prefLabel "Stone carving"@en ;
+    rdfs:label "Stenhugning"@da ;
+    skos:prefLabel "Stenhugning"@da ;
+    rdfs:label "Kivenveisto"@fi ;
+    skos:prefLabel "Kivenveisto"@fi ;
+    rdfs:label "Steinhogging"@nb ;
+    skos:prefLabel "Steinhogging"@nb ;
+    rdfs:label "Stenhuggeri"@sv ;
+    skos:prefLabel "Stenhuggeri"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Shaping stone by removing material with chisels, hammers, and other tools."@en ;
+    skos:broader nt:stone-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053546> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 83/153: Rune carving ──
+nt:rune-carving a skos:Concept ;
+    rdfs:label "Rune carving"@en ;
+    skos:prefLabel "Rune carving"@en ;
+    rdfs:label "Runeristning"@da ;
+    skos:prefLabel "Runeristning"@da ;
+    rdfs:label "Riimukaiverrus"@fi ;
+    skos:prefLabel "Riimukaiverrus"@fi ;
+    rdfs:label "Runerissing"@nb ;
+    skos:prefLabel "Runerissing"@nb ;
+    rdfs:label "Runristning"@sv ;
+    skos:prefLabel "Runristning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Carving runic inscriptions into stone, a distinctive Viking and Norse tradition."@en ;
+    skos:broader nt:stone-carving ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 84/153: Stone polishing ──
+nt:polishing-stone a skos:Concept ;
+    rdfs:label "Stone polishing"@en ;
+    skos:prefLabel "Stone polishing"@en ;
+    rdfs:label "Stenpolering"@da ;
+    skos:prefLabel "Stenpolering"@da ;
+    rdfs:label "Kivenhionta"@fi ;
+    skos:prefLabel "Kivenhionta"@fi ;
+    rdfs:label "Steinpolering"@nb ;
+    skos:prefLabel "Steinpolering"@nb ;
+    rdfs:label "Stenpolering"@sv ;
+    skos:prefLabel "Stenpolering"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Smoothing and finishing stone surfaces by abrasion with increasingly fine materials."@en ;
+    skos:broader nt:stone-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053876> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 85/153: Flint knapping ──
+nt:flint-knapping a skos:Concept ;
+    rdfs:label "Flint knapping"@en ;
+    skos:prefLabel "Flint knapping"@en ;
+    rdfs:label "Flinttilhugning"@da ;
+    skos:prefLabel "Flinttilhugning"@da ;
+    rdfs:label "Piiniseppä"@fi ;
+    skos:prefLabel "Piiniseppä"@fi ;
+    rdfs:label "Flinthogging"@nb ;
+    skos:prefLabel "Flinthogging"@nb ;
+    rdfs:label "Flinthuggning"@sv ;
+    skos:prefLabel "Flinthuggning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Shaping flint by striking to produce sharp-edged tools and weapons, from Nordic Stone Age."@en ;
+    skos:broader nt:stone-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053837> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 86/153: Stone grinding ──
+nt:stone-grinding a skos:Concept ;
+    rdfs:label "Stone grinding"@en ;
+    skos:prefLabel "Stone grinding"@en ;
+    rdfs:label "Stenslibning"@da ;
+    skos:prefLabel "Stenslibning"@da ;
+    rdfs:label "Kivenjauhanta"@fi ;
+    skos:prefLabel "Kivenjauhanta"@fi ;
+    rdfs:label "Steinsliping"@nb ;
+    skos:prefLabel "Steinsliping"@nb ;
+    rdfs:label "Stenslipning"@sv ;
+    skos:prefLabel "Stenslipning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Shaping stone by abrasion against another stone, used for Neolithic axes."@en ;
+    skos:broader nt:stone-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053552> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 87/153: Gem cutting ──
+nt:gem-cutting a skos:Concept ;
+    rdfs:label "Gem cutting"@en ;
+    skos:prefLabel "Gem cutting"@en ;
+    rdfs:label "Ædelstenslibning"@da ;
+    skos:prefLabel "Ædelstenslibning"@da ;
+    rdfs:label "Jalokivien hionta"@fi ;
+    skos:prefLabel "Jalokivien hionta"@fi ;
+    rdfs:label "Edelsteinsliping"@nb ;
+    skos:prefLabel "Edelsteinsliping"@nb ;
+    rdfs:label "Ädelstensslipning"@sv ;
+    skos:prefLabel "Ädelstensslipning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Cutting and polishing precious and semi-precious stones for jewellery."@en ;
+    skos:broader nt:stone-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053843> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 88/153: Mosaic work ──
+nt:mosaic-work a skos:Concept ;
+    rdfs:label "Mosaic work"@en ;
+    skos:prefLabel "Mosaic work"@en ;
+    rdfs:label "Mosaik"@da ;
+    skos:prefLabel "Mosaik"@da ;
+    rdfs:label "Mosaiikkityö"@fi ;
+    skos:prefLabel "Mosaiikkityö"@fi ;
+    rdfs:label "Mosaikk"@nb ;
+    skos:prefLabel "Mosaikk"@nb ;
+    rdfs:label "Mosaik"@sv ;
+    skos:prefLabel "Mosaik"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Creating images or patterns by assembling small pieces of stone, glass, or tile."@en ;
+    skos:broader nt:stone-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300015342> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 89/153: Stone masonry ──
+nt:stone-masonry a skos:Concept ;
+    rdfs:label "Stone masonry"@en ;
+    skos:prefLabel "Stone masonry"@en ;
+    rdfs:label "Murværk"@da ;
+    skos:prefLabel "Murværk"@da ;
+    rdfs:label "Kivimuuraus"@fi ;
+    skos:prefLabel "Kivimuuraus"@fi ;
+    rdfs:label "Steinmuring"@nb ;
+    skos:prefLabel "Steinmuring"@nb ;
+    rdfs:label "Murning"@sv ;
+    skos:prefLabel "Murning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Building structures from stone blocks, important in Nordic church and fortress construction."@en ;
+    skos:broader nt:stone-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053555> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 90/153: Stone dressing ──
+nt:stone-dressing a skos:Concept ;
+    rdfs:label "Stone dressing"@en ;
+    skos:prefLabel "Stone dressing"@en ;
+    rdfs:label "Stentilhugning"@da ;
+    skos:prefLabel "Stentilhugning"@da ;
+    rdfs:label "Kivenmuotoilu"@fi ;
+    skos:prefLabel "Kivenmuotoilu"@fi ;
+    rdfs:label "Steintilhogging"@nb ;
+    skos:prefLabel "Steintilhogging"@nb ;
+    rdfs:label "Stentilhuggning"@sv ;
+    skos:prefLabel "Stentilhuggning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Shaping rough quarried stone into finished building blocks."@en ;
+    skos:broader nt:stone-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053549> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 91/153: Soapstone carving ──
+nt:soapstone-carving a skos:Concept ;
+    rdfs:label "Soapstone carving"@en ;
+    skos:prefLabel "Soapstone carving"@en ;
+    rdfs:label "Fedtstensskæring"@da ;
+    skos:prefLabel "Fedtstensskæring"@da ;
+    rdfs:label "Vuolukiviveisto"@fi ;
+    skos:prefLabel "Vuolukiviveisto"@fi ;
+    rdfs:label "Klebersteinsarbeid"@nb ;
+    skos:prefLabel "Klebersteinsarbeid"@nb ;
+    rdfs:label "Täljstenssnideri"@sv ;
+    skos:prefLabel "Täljstenssnideri"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Carving soft soapstone (steatite) into vessels, moulds, and ornaments, common in Viking Age."@en ;
+    skos:broader nt:stone-carving ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 92/153: Stone setting ──
+nt:stone-setting a skos:Concept ;
+    rdfs:label "Stone setting"@en ;
+    skos:prefLabel "Stone setting"@en ;
+    rdfs:label "Stenfattning"@da ;
+    skos:prefLabel "Stenfattning"@da ;
+    rdfs:label "Kivistys"@fi ;
+    skos:prefLabel "Kivistys"@fi ;
+    rdfs:label "Steinfatning"@nb ;
+    skos:prefLabel "Steinfatning"@nb ;
+    rdfs:label "Stenfattning"@sv ;
+    skos:prefLabel "Stenfattning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Securing gemstones or decorative stones in metal settings for jewellery."@en ;
+    skos:broader nt:stone-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053919> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 93/153: Petroglyph carving ──
+nt:petroglyph-carving a skos:Concept ;
+    rdfs:label "Petroglyph carving"@en ;
+    skos:prefLabel "Petroglyph carving"@en ;
+    rdfs:label "Helleristning"@da ;
+    skos:prefLabel "Helleristning"@da ;
+    rdfs:label "Kalliopiirros"@fi ;
+    skos:prefLabel "Kalliopiirros"@fi ;
+    rdfs:label "Helleristning"@nb ;
+    skos:prefLabel "Helleristning"@nb ;
+    rdfs:label "Hällristning"@sv ;
+    skos:prefLabel "Hällristning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Carving or pecking images into rock surfaces, abundant in Scandinavian Bronze Age sites."@en ;
+    skos:broader nt:stone-carving ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 94/153: Painting and surface decoration ──
+nt:painting-techniques a skos:Concept ;
+    rdfs:label "Painting and surface decoration"@en ;
+    skos:prefLabel "Painting and surface decoration"@en ;
+    rdfs:label "Maleri og overfladedekoration"@da ;
+    skos:prefLabel "Maleri og overfladedekoration"@da ;
+    rdfs:label "Maalaus ja pintakoristelutekniikat"@fi ;
+    skos:prefLabel "Maalaus ja pintakoristelutekniikat"@fi ;
+    rdfs:label "Maleri og overflatedekor"@nb ;
+    skos:prefLabel "Maleri og overflatedekor"@nb ;
+    rdfs:label "Måleri och ytdekor"@sv ;
+    skos:prefLabel "Måleri och ytdekor"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Techniques for applying colour and decoration to surfaces."@en ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 95/153: Oil painting ──
+nt:oil-painting a skos:Concept ;
+    rdfs:label "Oil painting"@en ;
+    skos:prefLabel "Oil painting"@en ;
+    rdfs:label "Oliemaleri"@da ;
+    skos:prefLabel "Oliemaleri"@da ;
+    rdfs:label "Öljymaalaus"@fi ;
+    skos:prefLabel "Öljymaalaus"@fi ;
+    rdfs:label "Oljemaleri"@nb ;
+    skos:prefLabel "Oljemaleri"@nb ;
+    rdfs:label "Oljemålning"@sv ;
+    skos:prefLabel "Oljemålning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Painting with pigments suspended in drying oil, the dominant technique since the Renaissance."@en ;
+    skos:broader nt:painting-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300178684> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 96/153: Tempera ──
+nt:tempera a skos:Concept ;
+    rdfs:label "Tempera"@en ;
+    skos:prefLabel "Tempera"@en ;
+    rdfs:label "Tempera"@da ;
+    skos:prefLabel "Tempera"@da ;
+    rdfs:label "Tempera"@fi ;
+    skos:prefLabel "Tempera"@fi ;
+    rdfs:label "Tempera"@nb ;
+    skos:prefLabel "Tempera"@nb ;
+    rdfs:label "Tempera"@sv ;
+    skos:prefLabel "Tempera"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Painting with pigments mixed with egg yolk or other binders, used in medieval Nordic altarpieces."@en ;
+    skos:broader nt:painting-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300178685> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 97/153: Fresco ──
+nt:fresco a skos:Concept ;
+    rdfs:label "Fresco"@en ;
+    skos:prefLabel "Fresco"@en ;
+    rdfs:label "Fresko"@da ;
+    skos:prefLabel "Fresko"@da ;
+    rdfs:label "Freskotekniikka"@fi ;
+    skos:prefLabel "Freskotekniikka"@fi ;
+    rdfs:label "Fresko"@nb ;
+    skos:prefLabel "Fresko"@nb ;
+    rdfs:label "Fresk"@sv ;
+    skos:prefLabel "Fresk"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Painting on freshly applied wet plaster, found in Scandinavian medieval churches."@en ;
+    skos:broader nt:painting-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053357> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 98/153: Watercolour ──
+nt:watercolour a skos:Concept ;
+    rdfs:label "Watercolour"@en ;
+    skos:prefLabel "Watercolour"@en ;
+    rdfs:label "Akvarel"@da ;
+    skos:prefLabel "Akvarel"@da ;
+    rdfs:label "Akvarelli"@fi ;
+    skos:prefLabel "Akvarelli"@fi ;
+    rdfs:label "Akvarell"@nb ;
+    skos:prefLabel "Akvarell"@nb ;
+    rdfs:label "Akvarell"@sv ;
+    skos:prefLabel "Akvarell"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Painting with pigments dissolved in water, applied to paper or other absorbent surfaces."@en ;
+    skos:broader nt:painting-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300078925> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 99/153: Lacquering ──
+nt:lacquering a skos:Concept ;
+    rdfs:label "Lacquering"@en ;
+    skos:prefLabel "Lacquering"@en ;
+    rdfs:label "Lakering"@da ;
+    skos:prefLabel "Lakering"@da ;
+    rdfs:label "Lakkaus"@fi ;
+    skos:prefLabel "Lakkaus"@fi ;
+    rdfs:label "Lakkering"@nb ;
+    skos:prefLabel "Lakkering"@nb ;
+    rdfs:label "Lackering"@sv ;
+    skos:prefLabel "Lackering"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Applying layers of lacquer to create a hard, glossy, protective surface."@en ;
+    skos:broader nt:painting-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053361> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 100/153: Rosemaling ──
+nt:rosemaling a skos:Concept ;
+    rdfs:label "Rosemaling"@en ;
+    skos:prefLabel "Rosemaling"@en ;
+    rdfs:label "Rosemaling"@da ;
+    skos:prefLabel "Rosemaling"@da ;
+    rdfs:label "Rosemaling"@fi ;
+    skos:prefLabel "Rosemaling"@fi ;
+    rdfs:label "Rosemaling"@nb ;
+    skos:prefLabel "Rosemaling"@nb ;
+    rdfs:label "Rosenmålning"@sv ;
+    skos:prefLabel "Rosenmålning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Norwegian decorative folk painting featuring flowing scrollwork, flowers, and geometric patterns."@en ;
+    skos:broader nt:painting-techniques ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 101/153: Kurbits painting ──
+nt:kurbits-painting a skos:Concept ;
+    rdfs:label "Kurbits painting"@en ;
+    skos:prefLabel "Kurbits painting"@en ;
+    rdfs:label "Kurbitsmaleri"@da ;
+    skos:prefLabel "Kurbitsmaleri"@da ;
+    rdfs:label "Kurbitsmaalaus"@fi ;
+    skos:prefLabel "Kurbitsmaalaus"@fi ;
+    rdfs:label "Kurbitsmaleri"@nb ;
+    skos:prefLabel "Kurbitsmaleri"@nb ;
+    rdfs:label "Kurbitsmåleri"@sv ;
+    skos:prefLabel "Kurbitsmåleri"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Swedish Dalarna folk painting tradition featuring stylised gourd-like flowers and biblical scenes."@en ;
+    skos:broader nt:painting-techniques ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 102/153: Icon painting ──
+nt:icon-painting a skos:Concept ;
+    rdfs:label "Icon painting"@en ;
+    skos:prefLabel "Icon painting"@en ;
+    rdfs:label "Ikonmaleri"@da ;
+    skos:prefLabel "Ikonmaleri"@da ;
+    rdfs:label "Ikonimaalaus"@fi ;
+    skos:prefLabel "Ikonimaalaus"@fi ;
+    rdfs:label "Ikonmaleri"@nb ;
+    skos:prefLabel "Ikonmaleri"@nb ;
+    rdfs:label "Ikonmålning"@sv ;
+    skos:prefLabel "Ikonmålning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Painting religious images on wood panels, practised in Orthodox Nordic communities."@en ;
+    skos:broader nt:painting-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300264554> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 103/153: Encaustic ──
+nt:encaustic a skos:Concept ;
+    rdfs:label "Encaustic"@en ;
+    skos:prefLabel "Encaustic"@en ;
+    rdfs:label "Enkaustik"@da ;
+    skos:prefLabel "Enkaustik"@da ;
+    rdfs:label "Enkaustiikka"@fi ;
+    skos:prefLabel "Enkaustiikka"@fi ;
+    rdfs:label "Enkaustikk"@nb ;
+    skos:prefLabel "Enkaustikk"@nb ;
+    rdfs:label "Enkaustik"@sv ;
+    skos:prefLabel "Enkaustik"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Painting with pigments mixed with heated beeswax."@en ;
+    skos:broader nt:painting-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053339> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 104/153: Polychromy ──
+nt:polychromy a skos:Concept ;
+    rdfs:label "Polychromy"@en ;
+    skos:prefLabel "Polychromy"@en ;
+    rdfs:label "Polykromi"@da ;
+    skos:prefLabel "Polykromi"@da ;
+    rdfs:label "Polykromia"@fi ;
+    skos:prefLabel "Polykromia"@fi ;
+    rdfs:label "Polykromi"@nb ;
+    skos:prefLabel "Polykromi"@nb ;
+    rdfs:label "Polykromi"@sv ;
+    skos:prefLabel "Polykromi"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Painting sculptures and architectural elements in multiple colours, common on medieval Nordic church furnishings."@en ;
+    skos:broader nt:painting-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053875> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 105/153: Stenciling ──
+nt:stenciling a skos:Concept ;
+    rdfs:label "Stenciling"@en ;
+    skos:prefLabel "Stenciling"@en ;
+    rdfs:label "Skabelonmaleri"@da ;
+    skos:prefLabel "Skabelonmaleri"@da ;
+    rdfs:label "Sapluunamaalaus"@fi ;
+    skos:prefLabel "Sapluunamaalaus"@fi ;
+    rdfs:label "Sjablonmaling"@nb ;
+    skos:prefLabel "Sjablonmaling"@nb ;
+    rdfs:label "Schablonmålning"@sv ;
+    skos:prefLabel "Schablonmålning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Applying paint through cut-out patterns to create repeated motifs."@en ;
+    skos:broader nt:painting-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053612> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 106/153: Dala painting ──
+nt:dala-painting a skos:Concept ;
+    rdfs:label "Dala painting"@en ;
+    skos:prefLabel "Dala painting"@en ;
+    rdfs:label "Dalamaling"@da ;
+    skos:prefLabel "Dalamaling"@da ;
+    rdfs:label "Dalamaalaus"@fi ;
+    skos:prefLabel "Dalamaalaus"@fi ;
+    rdfs:label "Dalamaling"@nb ;
+    skos:prefLabel "Dalamaling"@nb ;
+    rdfs:label "Dalamålning"@sv ;
+    skos:prefLabel "Dalamålning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Decorative folk painting tradition from Dalarna, Sweden, including furniture and wall decoration."@en ;
+    skos:broader nt:painting-techniques ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 107/153: Limewashing ──
+nt:limewashing a skos:Concept ;
+    rdfs:label "Limewashing"@en ;
+    skos:prefLabel "Limewashing"@en ;
+    rdfs:label "Kalkmaleri"@da ;
+    skos:prefLabel "Kalkmaleri"@da ;
+    rdfs:label "Kalkkimaalaus"@fi ;
+    skos:prefLabel "Kalkkimaalaus"@fi ;
+    rdfs:label "Kalkmaling"@nb ;
+    skos:prefLabel "Kalkmaling"@nb ;
+    rdfs:label "Kalkmålning"@sv ;
+    skos:prefLabel "Kalkmålning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Painting with lime-based pigments, the primary technique for medieval Scandinavian church murals."@en ;
+    skos:broader nt:painting-techniques ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 108/153: Printmaking ──
+nt:printmaking a skos:Concept ;
+    rdfs:label "Printmaking"@en ;
+    skos:prefLabel "Printmaking"@en ;
+    rdfs:label "Grafik"@da ;
+    skos:prefLabel "Grafik"@da ;
+    rdfs:label "Taidegrafiikka"@fi ;
+    skos:prefLabel "Taidegrafiikka"@fi ;
+    rdfs:label "Grafikk"@nb ;
+    skos:prefLabel "Grafikk"@nb ;
+    rdfs:label "Grafik"@sv ;
+    skos:prefLabel "Grafik"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Techniques for producing images by printing from a prepared surface."@en ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 109/153: Woodcut ──
+nt:woodcut a skos:Concept ;
+    rdfs:label "Woodcut"@en ;
+    skos:prefLabel "Woodcut"@en ;
+    rdfs:label "Træsnit"@da ;
+    skos:prefLabel "Træsnit"@da ;
+    rdfs:label "Puupiirros"@fi ;
+    skos:prefLabel "Puupiirros"@fi ;
+    rdfs:label "Tresnitt"@nb ;
+    skos:prefLabel "Tresnitt"@nb ;
+    rdfs:label "Träsnitt"@sv ;
+    skos:prefLabel "Träsnitt"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Relief printing from a carved wooden block."@en ;
+    skos:broader nt:printmaking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300041405> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 110/153: Engraving (printmaking) ──
+nt:print-engraving a skos:Concept ;
+    rdfs:label "Engraving (printmaking)"@en ;
+    skos:prefLabel "Engraving (printmaking)"@en ;
+    rdfs:label "Kobberstik"@da ;
+    skos:prefLabel "Kobberstik"@da ;
+    rdfs:label "Kaiverrus"@fi ;
+    skos:prefLabel "Kaiverrus"@fi ;
+    rdfs:label "Kobberstikk"@nb ;
+    skos:prefLabel "Kobberstikk"@nb ;
+    rdfs:label "Kopparstick"@sv ;
+    skos:prefLabel "Kopparstick"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Incising a design into a metal plate and printing from the incised lines."@en ;
+    skos:broader nt:printmaking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053225> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 111/153: Etching ──
+nt:etching a skos:Concept ;
+    rdfs:label "Etching"@en ;
+    skos:prefLabel "Etching"@en ;
+    rdfs:label "Radering"@da ;
+    skos:prefLabel "Radering"@da ;
+    rdfs:label "Etsaus"@fi ;
+    skos:prefLabel "Etsaus"@fi ;
+    rdfs:label "Radering"@nb ;
+    skos:prefLabel "Radering"@nb ;
+    rdfs:label "Etsning"@sv ;
+    skos:prefLabel "Etsning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Using acid to cut into a metal plate to create a design for printing."@en ;
+    skos:broader nt:printmaking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053241> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 112/153: Lithography ──
+nt:lithography a skos:Concept ;
+    rdfs:label "Lithography"@en ;
+    skos:prefLabel "Lithography"@en ;
+    rdfs:label "Litografi"@da ;
+    skos:prefLabel "Litografi"@da ;
+    rdfs:label "Litografia"@fi ;
+    skos:prefLabel "Litografia"@fi ;
+    rdfs:label "Litografi"@nb ;
+    skos:prefLabel "Litografi"@nb ;
+    rdfs:label "Litografi"@sv ;
+    skos:prefLabel "Litografi"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Printing from a flat stone or metal plate using the principle that oil and water do not mix."@en ;
+    skos:broader nt:printmaking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053279> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 113/153: Aquatint ──
+nt:aquatint a skos:Concept ;
+    rdfs:label "Aquatint"@en ;
+    skos:prefLabel "Aquatint"@en ;
+    rdfs:label "Akvatinte"@da ;
+    skos:prefLabel "Akvatinte"@da ;
+    rdfs:label "Akvatinta"@fi ;
+    skos:prefLabel "Akvatinta"@fi ;
+    rdfs:label "Akvatint"@nb ;
+    skos:prefLabel "Akvatint"@nb ;
+    rdfs:label "Akvatint"@sv ;
+    skos:prefLabel "Akvatint"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Etching technique using powdered resin to create tonal areas."@en ;
+    skos:broader nt:printmaking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053208> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 114/153: Mezzotint ──
+nt:mezzotint a skos:Concept ;
+    rdfs:label "Mezzotint"@en ;
+    skos:prefLabel "Mezzotint"@en ;
+    rdfs:label "Mezzotint"@da ;
+    skos:prefLabel "Mezzotint"@da ;
+    rdfs:label "Mezzotinto"@fi ;
+    skos:prefLabel "Mezzotinto"@fi ;
+    rdfs:label "Mezzotint"@nb ;
+    skos:prefLabel "Mezzotint"@nb ;
+    rdfs:label "Mezzotint"@sv ;
+    skos:prefLabel "Mezzotint"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Intaglio technique creating rich tonal gradations by roughening a metal plate."@en ;
+    skos:broader nt:printmaking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053284> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 115/153: Screen printing ──
+nt:screen-printing a skos:Concept ;
+    rdfs:label "Screen printing"@en ;
+    skos:prefLabel "Screen printing"@en ;
+    rdfs:label "Serigafi"@da ;
+    skos:prefLabel "Serigafi"@da ;
+    rdfs:label "Serigrafia"@fi ;
+    skos:prefLabel "Serigrafia"@fi ;
+    rdfs:label "Serigrafi"@nb ;
+    skos:prefLabel "Serigrafi"@nb ;
+    rdfs:label "Serigrafi"@sv ;
+    skos:prefLabel "Serigrafi"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Pushing ink through a mesh screen onto a surface through blocked and open areas."@en ;
+    skos:broader nt:printmaking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053371> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 116/153: Linocut ──
+nt:linocut a skos:Concept ;
+    rdfs:label "Linocut"@en ;
+    skos:prefLabel "Linocut"@en ;
+    rdfs:label "Linoleumssnit"@da ;
+    skos:prefLabel "Linoleumssnit"@da ;
+    rdfs:label "Linoleikkaus"@fi ;
+    skos:prefLabel "Linoleikkaus"@fi ;
+    rdfs:label "Linoleumssnitt"@nb ;
+    skos:prefLabel "Linoleumssnitt"@nb ;
+    rdfs:label "Linoleumsnitt"@sv ;
+    skos:prefLabel "Linoleumsnitt"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Relief printing from a carved linoleum block, widely used by Nordic artists."@en ;
+    skos:broader nt:printmaking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053265> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 117/153: Drypoint ──
+nt:drypoint a skos:Concept ;
+    rdfs:label "Drypoint"@en ;
+    skos:prefLabel "Drypoint"@en ;
+    rdfs:label "Koldnål"@da ;
+    skos:prefLabel "Koldnål"@da ;
+    rdfs:label "Kuivaneula"@fi ;
+    skos:prefLabel "Kuivaneula"@fi ;
+    rdfs:label "Koldnål"@nb ;
+    skos:prefLabel "Koldnål"@nb ;
+    rdfs:label "Torrnål"@sv ;
+    skos:prefLabel "Torrnål"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Scratching a design directly into a metal plate with a pointed tool."@en ;
+    skos:broader nt:printmaking ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053233> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 118/153: Glass techniques ──
+nt:glass-techniques a skos:Concept ;
+    rdfs:label "Glass techniques"@en ;
+    skos:prefLabel "Glass techniques"@en ;
+    rdfs:label "Glasteknikker"@da ;
+    skos:prefLabel "Glasteknikker"@da ;
+    rdfs:label "Lasitekniikat"@fi ;
+    skos:prefLabel "Lasitekniikat"@fi ;
+    rdfs:label "Glassteknikker"@nb ;
+    skos:prefLabel "Glassteknikker"@nb ;
+    rdfs:label "Glastekniker"@sv ;
+    skos:prefLabel "Glastekniker"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Techniques for forming, shaping, and decorating glass."@en ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 119/153: Glassblowing ──
+nt:glassblowing a skos:Concept ;
+    rdfs:label "Glassblowing"@en ;
+    skos:prefLabel "Glassblowing"@en ;
+    rdfs:label "Glasblæsning"@da ;
+    skos:prefLabel "Glasblæsning"@da ;
+    rdfs:label "Lasinpuhallus"@fi ;
+    skos:prefLabel "Lasinpuhallus"@fi ;
+    rdfs:label "Glassblåsing"@nb ;
+    skos:prefLabel "Glassblåsing"@nb ;
+    rdfs:label "Glasblåsning"@sv ;
+    skos:prefLabel "Glasblåsning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Forming molten glass by inflating it into a bubble using a blowpipe."@en ;
+    skos:broader nt:glass-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053932> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 120/153: Lampworking ──
+nt:lampworking a skos:Concept ;
+    rdfs:label "Lampworking"@en ;
+    skos:prefLabel "Lampworking"@en ;
+    rdfs:label "Flammearbejde"@da ;
+    skos:prefLabel "Flammearbejde"@da ;
+    rdfs:label "Lampputyö"@fi ;
+    skos:prefLabel "Lampputyö"@fi ;
+    rdfs:label "Flammearbeid"@nb ;
+    skos:prefLabel "Flammearbeid"@nb ;
+    rdfs:label "Lamparbete"@sv ;
+    skos:prefLabel "Lamparbete"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Working glass rods and tubes by heating them with a torch flame."@en ;
+    skos:broader nt:glass-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300264573> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 121/153: Glass cutting ──
+nt:glass-cutting a skos:Concept ;
+    rdfs:label "Glass cutting"@en ;
+    skos:prefLabel "Glass cutting"@en ;
+    rdfs:label "Glasslibning"@da ;
+    skos:prefLabel "Glasslibning"@da ;
+    rdfs:label "Lasinhionta"@fi ;
+    skos:prefLabel "Lasinhionta"@fi ;
+    rdfs:label "Glasslipning"@nb ;
+    skos:prefLabel "Glasslipning"@nb ;
+    rdfs:label "Glasslipning"@sv ;
+    skos:prefLabel "Glasslipning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Decorating glass by cutting facets and patterns with a rotating wheel."@en ;
+    skos:broader nt:glass-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053763> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 122/153: Glass engraving ──
+nt:glass-engraving a skos:Concept ;
+    rdfs:label "Glass engraving"@en ;
+    skos:prefLabel "Glass engraving"@en ;
+    rdfs:label "Glasgravering"@da ;
+    skos:prefLabel "Glasgravering"@da ;
+    rdfs:label "Lasinkaiverrus"@fi ;
+    skos:prefLabel "Lasinkaiverrus"@fi ;
+    rdfs:label "Glassgravering"@nb ;
+    skos:prefLabel "Glassgravering"@nb ;
+    rdfs:label "Glasgravyr"@sv ;
+    skos:prefLabel "Glasgravyr"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Incising designs into glass using diamond-point tools or copper wheels."@en ;
+    skos:broader nt:glass-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053765> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 123/153: Stained glass ──
+nt:stained-glass a skos:Concept ;
+    rdfs:label "Stained glass"@en ;
+    skos:prefLabel "Stained glass"@en ;
+    rdfs:label "Glasmaleri"@da ;
+    skos:prefLabel "Glasmaleri"@da ;
+    rdfs:label "Lasimaalaus"@fi ;
+    skos:prefLabel "Lasimaalaus"@fi ;
+    rdfs:label "Glassmaleri"@nb ;
+    skos:prefLabel "Glassmaleri"@nb ;
+    rdfs:label "Glasmåleri"@sv ;
+    skos:prefLabel "Glasmåleri"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Creating coloured glass panels by cutting and assembling glass pieces with lead strips."@en ;
+    skos:broader nt:glass-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300263722> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 124/153: Glass fusing ──
+nt:glass-fusing a skos:Concept ;
+    rdfs:label "Glass fusing"@en ;
+    skos:prefLabel "Glass fusing"@en ;
+    rdfs:label "Glasfusing"@da ;
+    skos:prefLabel "Glasfusing"@da ;
+    rdfs:label "Lasifuusio"@fi ;
+    skos:prefLabel "Lasifuusio"@fi ;
+    rdfs:label "Glassfusing"@nb ;
+    skos:prefLabel "Glassfusing"@nb ;
+    rdfs:label "Glasfusing"@sv ;
+    skos:prefLabel "Glasfusing"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Joining glass pieces by heating them in a kiln until they melt together."@en ;
+    skos:broader nt:glass-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053834> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 125/153: Glass bead making ──
+nt:glass-bead-making a skos:Concept ;
+    rdfs:label "Glass bead making"@en ;
+    skos:prefLabel "Glass bead making"@en ;
+    rdfs:label "Glasperlefremstilling"@da ;
+    skos:prefLabel "Glasperlefremstilling"@da ;
+    rdfs:label "Lasihelmenteko"@fi ;
+    skos:prefLabel "Lasihelmenteko"@fi ;
+    rdfs:label "Glassperlefremstilling"@nb ;
+    skos:prefLabel "Glassperlefremstilling"@nb ;
+    rdfs:label "Glaspärletillverkning"@sv ;
+    skos:prefLabel "Glaspärletillverkning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Forming decorative glass beads by winding molten glass around a mandrel, a major Viking craft."@en ;
+    skos:broader nt:glass-techniques ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 126/153: Glass moulding ──
+nt:glass-moulding a skos:Concept ;
+    rdfs:label "Glass moulding"@en ;
+    skos:prefLabel "Glass moulding"@en ;
+    rdfs:label "Glasformning"@da ;
+    skos:prefLabel "Glasformning"@da ;
+    rdfs:label "Lasinmuovaus"@fi ;
+    skos:prefLabel "Lasinmuovaus"@fi ;
+    rdfs:label "Glassforming"@nb ;
+    skos:prefLabel "Glassforming"@nb ;
+    rdfs:label "Glasformning"@sv ;
+    skos:prefLabel "Glasformning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Shaping molten glass by pressing or blowing it into a mould."@en ;
+    skos:broader nt:glass-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053769> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 127/153: Glass casting ──
+nt:glass-casting a skos:Concept ;
+    rdfs:label "Glass casting"@en ;
+    skos:prefLabel "Glass casting"@en ;
+    rdfs:label "Glasstøbning"@da ;
+    skos:prefLabel "Glasstøbning"@da ;
+    rdfs:label "Lasinvalu"@fi ;
+    skos:prefLabel "Lasinvalu"@fi ;
+    rdfs:label "Glassstøping"@nb ;
+    skos:prefLabel "Glassstøping"@nb ;
+    rdfs:label "Glasgjutning"@sv ;
+    skos:prefLabel "Glasgjutning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Pouring or fusing molten glass into a mould to create solid forms."@en ;
+    skos:broader nt:glass-techniques ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053761> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 128/153: Leather and fibre techniques ──
+nt:leather-and-fiber a skos:Concept ;
+    rdfs:label "Leather and fibre techniques"@en ;
+    skos:prefLabel "Leather and fibre techniques"@en ;
+    rdfs:label "Læder- og fiberteknikker"@da ;
+    skos:prefLabel "Læder- og fiberteknikker"@da ;
+    rdfs:label "Nahka- ja kuitutekniikat"@fi ;
+    skos:prefLabel "Nahka- ja kuitutekniikat"@fi ;
+    rdfs:label "Lær- og fiberteknikker"@nb ;
+    skos:prefLabel "Lær- og fiberteknikker"@nb ;
+    rdfs:label "Läder- och fibertekniker"@sv ;
+    skos:prefLabel "Läder- och fibertekniker"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Techniques for working leather, parchment, and plant fibres."@en ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 129/153: Tanning ──
+nt:tanning a skos:Concept ;
+    rdfs:label "Tanning"@en ;
+    skos:prefLabel "Tanning"@en ;
+    rdfs:label "Garvning"@da ;
+    skos:prefLabel "Garvning"@da ;
+    rdfs:label "Parkitseminen"@fi ;
+    skos:prefLabel "Parkitseminen"@fi ;
+    rdfs:label "Garving"@nb ;
+    skos:prefLabel "Garving"@nb ;
+    rdfs:label "Garvning"@sv ;
+    skos:prefLabel "Garvning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Processing animal hides into leather by treating with tannins or other agents."@en ;
+    skos:broader nt:leather-and-fiber ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053920> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 130/153: Leather tooling ──
+nt:leather-tooling a skos:Concept ;
+    rdfs:label "Leather tooling"@en ;
+    skos:prefLabel "Leather tooling"@en ;
+    rdfs:label "Læderbearbejdning"@da ;
+    skos:prefLabel "Læderbearbejdning"@da ;
+    rdfs:label "Nahkakuviointi"@fi ;
+    skos:prefLabel "Nahkakuviointi"@fi ;
+    rdfs:label "Lærpunsling"@nb ;
+    skos:prefLabel "Lærpunsling"@nb ;
+    rdfs:label "Läderpunkning"@sv ;
+    skos:prefLabel "Läderpunkning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Decorating leather by stamping, carving, or embossing patterns."@en ;
+    skos:broader nt:leather-and-fiber ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053937> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 131/153: Bookbinding ──
+nt:bookbinding a skos:Concept ;
+    rdfs:label "Bookbinding"@en ;
+    skos:prefLabel "Bookbinding"@en ;
+    rdfs:label "Bogbinderi"@da ;
+    skos:prefLabel "Bogbinderi"@da ;
+    rdfs:label "Kirjansidonta"@fi ;
+    skos:prefLabel "Kirjansidonta"@fi ;
+    rdfs:label "Bokbinding"@nb ;
+    skos:prefLabel "Bokbinding"@nb ;
+    rdfs:label "Bokbinderi"@sv ;
+    skos:prefLabel "Bokbinderi"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Assembling and covering books, traditionally using leather-covered wooden boards."@en ;
+    skos:broader nt:leather-and-fiber ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053305> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 132/153: Parchment making ──
+nt:parchment-making a skos:Concept ;
+    rdfs:label "Parchment making"@en ;
+    skos:prefLabel "Parchment making"@en ;
+    rdfs:label "Pergamentfremstilling"@da ;
+    skos:prefLabel "Pergamentfremstilling"@da ;
+    rdfs:label "Pergamentinteko"@fi ;
+    skos:prefLabel "Pergamentinteko"@fi ;
+    rdfs:label "Pergamentfremstilling"@nb ;
+    skos:prefLabel "Pergamentfremstilling"@nb ;
+    rdfs:label "Pergamenttillverkning"@sv ;
+    skos:prefLabel "Pergamenttillverkning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Preparing animal skins for writing by liming, scraping, and drying under tension."@en ;
+    skos:broader nt:leather-and-fiber ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053867> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 133/153: Basket weaving ──
+nt:basket-weaving a skos:Concept ;
+    rdfs:label "Basket weaving"@en ;
+    skos:prefLabel "Basket weaving"@en ;
+    rdfs:label "Kurvefletning"@da ;
+    skos:prefLabel "Kurvefletning"@da ;
+    rdfs:label "Korinpunonta"@fi ;
+    skos:prefLabel "Korinpunonta"@fi ;
+    rdfs:label "Kurvfletting"@nb ;
+    skos:prefLabel "Kurvfletting"@nb ;
+    rdfs:label "Korgflätning"@sv ;
+    skos:prefLabel "Korgflätning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Weaving flexible plant materials into containers, trays, and other objects."@en ;
+    skos:broader nt:leather-and-fiber ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053403> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 134/153: Rope making ──
+nt:rope-making a skos:Concept ;
+    rdfs:label "Rope making"@en ;
+    skos:prefLabel "Rope making"@en ;
+    rdfs:label "Rebslagning"@da ;
+    skos:prefLabel "Rebslagning"@da ;
+    rdfs:label "Köydenteko"@fi ;
+    skos:prefLabel "Köydenteko"@fi ;
+    rdfs:label "Tautilvirkning"@nb ;
+    skos:prefLabel "Tautilvirkning"@nb ;
+    rdfs:label "Reptillverkning"@sv ;
+    skos:prefLabel "Reptillverkning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Twisting or braiding fibres into cordage, essential for Nordic seafaring."@en ;
+    skos:broader nt:leather-and-fiber ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053893> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 135/153: Saddlery ──
+nt:saddlery a skos:Concept ;
+    rdfs:label "Saddlery"@en ;
+    skos:prefLabel "Saddlery"@en ;
+    rdfs:label "Sadelmagerarbejde"@da ;
+    skos:prefLabel "Sadelmagerarbejde"@da ;
+    rdfs:label "Satulasepäntyö"@fi ;
+    skos:prefLabel "Satulasepäntyö"@fi ;
+    rdfs:label "Salmakerarbeid"@nb ;
+    skos:prefLabel "Salmakerarbeid"@nb ;
+    rdfs:label "Sadelmakeri"@sv ;
+    skos:prefLabel "Sadelmakeri"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Making and repairing saddles, harnesses, and other horse equipment from leather."@en ;
+    skos:broader nt:leather-and-fiber ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053898> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 136/153: Leather sewing ──
+nt:leather-sewing a skos:Concept ;
+    rdfs:label "Leather sewing"@en ;
+    skos:prefLabel "Leather sewing"@en ;
+    rdfs:label "Lædersøm"@da ;
+    skos:prefLabel "Lædersøm"@da ;
+    rdfs:label "Nahanompelu"@fi ;
+    skos:prefLabel "Nahanompelu"@fi ;
+    rdfs:label "Lærsøm"@nb ;
+    skos:prefLabel "Lærsøm"@nb ;
+    rdfs:label "Lädersömnad"@sv ;
+    skos:prefLabel "Lädersömnad"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Hand-stitching leather for garments, shoes, and accessories using waxed thread and awls."@en ;
+    skos:broader nt:leather-and-fiber ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 137/153: Bark tanning ──
+nt:bark-tanning a skos:Concept ;
+    rdfs:label "Bark tanning"@en ;
+    skos:prefLabel "Bark tanning"@en ;
+    rdfs:label "Barkgarvning"@da ;
+    skos:prefLabel "Barkgarvning"@da ;
+    rdfs:label "Kuoriparkitseminen"@fi ;
+    skos:prefLabel "Kuoriparkitseminen"@fi ;
+    rdfs:label "Barkgarving"@nb ;
+    skos:prefLabel "Barkgarving"@nb ;
+    rdfs:label "Barkgarvning"@sv ;
+    skos:prefLabel "Barkgarvning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Traditional tanning using oak or birch bark tannins, the dominant Nordic method before industrialisation."@en ;
+    skos:broader nt:tanning ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 138/153: Sámi and Nordic-specific techniques ──
+nt:nordic-specific a skos:Concept ;
+    rdfs:label "Sámi and Nordic-specific techniques"@en ;
+    skos:prefLabel "Sámi and Nordic-specific techniques"@en ;
+    rdfs:label "Samiske og nordiske teknikker"@da ;
+    skos:prefLabel "Samiske og nordiske teknikker"@da ;
+    rdfs:label "Saamelaisia ja pohjoismaisia tekniikoita"@fi ;
+    skos:prefLabel "Saamelaisia ja pohjoismaisia tekniikoita"@fi ;
+    rdfs:label "Samiske og nordiske teknikker"@nb ;
+    skos:prefLabel "Samiske og nordiske teknikker"@nb ;
+    rdfs:label "Samiska och nordiska tekniker"@sv ;
+    skos:prefLabel "Samiska och nordiska tekniker"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Craft techniques specific to Sámi culture and Nordic traditions."@en ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 139/153: Duodji ──
+nt:duodji a skos:Concept ;
+    rdfs:label "Duodji"@en ;
+    skos:prefLabel "Duodji"@en ;
+    rdfs:label "Duodji"@da ;
+    skos:prefLabel "Duodji"@da ;
+    rdfs:label "Duodji"@fi ;
+    skos:prefLabel "Duodji"@fi ;
+    rdfs:label "Duodji"@nb ;
+    skos:prefLabel "Duodji"@nb ;
+    rdfs:label "Duodji"@se ;
+    skos:prefLabel "Duodji"@se ;
+    rdfs:label "Duodji"@sv ;
+    skos:prefLabel "Duodji"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Sámi handicraft tradition encompassing all traditional Sámi material culture and craft skills."@en ;
+    skos:broader nt:nordic-specific ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 140/153: Tin thread embroidery ──
+nt:tin-thread-embroidery a skos:Concept ;
+    rdfs:label "Tin thread embroidery"@en ;
+    skos:prefLabel "Tin thread embroidery"@en ;
+    rdfs:label "Tintrådsbroderi"@da ;
+    skos:prefLabel "Tintrådsbroderi"@da ;
+    rdfs:label "Tinaompelu"@fi ;
+    skos:prefLabel "Tinaompelu"@fi ;
+    rdfs:label "Tinntrådsbroderi"@nb ;
+    skos:prefLabel "Tinntrådsbroderi"@nb ;
+    rdfs:label "Dáidda"@se ;
+    skos:prefLabel "Dáidda"@se ;
+    rdfs:label "Tenntrådsbroderi"@sv ;
+    skos:prefLabel "Tenntrådsbroderi"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Sámi technique of embroidering with fine threads of tin or pewter wire wound around a fibre core."@en ;
+    skos:broader nt:duodji ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 141/153: Root weaving ──
+nt:root-weaving a skos:Concept ;
+    rdfs:label "Root weaving"@en ;
+    skos:prefLabel "Root weaving"@en ;
+    rdfs:label "Rodfletning"@da ;
+    skos:prefLabel "Rodfletning"@da ;
+    rdfs:label "Juuripunonta"@fi ;
+    skos:prefLabel "Juuripunonta"@fi ;
+    rdfs:label "Rotfletting"@nb ;
+    skos:prefLabel "Rotfletting"@nb ;
+    rdfs:label "Ruohtabáddi"@se ;
+    skos:prefLabel "Ruohtabáddi"@se ;
+    rdfs:label "Rotslöjd"@sv ;
+    skos:prefLabel "Rotslöjd"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Sámi tradition of weaving containers from split spruce or pine roots."@en ;
+    skos:broader nt:duodji ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 142/153: Reindeer antler carving ──
+nt:reindeer-horn-carving a skos:Concept ;
+    rdfs:label "Reindeer antler carving"@en ;
+    skos:prefLabel "Reindeer antler carving"@en ;
+    rdfs:label "Rensdyrhornskæring"@da ;
+    skos:prefLabel "Rensdyrhornskæring"@da ;
+    rdfs:label "Poronluuveisto"@fi ;
+    skos:prefLabel "Poronluuveisto"@fi ;
+    rdfs:label "Reinsdyrhornskjæring"@nb ;
+    skos:prefLabel "Reinsdyrhornskjæring"@nb ;
+    rdfs:label "Čoarvvebarggu"@se ;
+    skos:prefLabel "Čoarvvebarggu"@se ;
+    rdfs:label "Hornslöjd"@sv ;
+    skos:prefLabel "Hornslöjd"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Sámi craft of carving reindeer antler into knife handles, buttons, and decorative objects."@en ;
+    skos:broader nt:duodji ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 143/153: Birch bark craft ──
+nt:birch-bark-craft a skos:Concept ;
+    rdfs:label "Birch bark craft"@en ;
+    skos:prefLabel "Birch bark craft"@en ;
+    rdfs:label "Birkebarkslöjd"@da ;
+    skos:prefLabel "Birkebarkslöjd"@da ;
+    rdfs:label "Tuohityö"@fi ;
+    skos:prefLabel "Tuohityö"@fi ;
+    rdfs:label "Neverslöjd"@nb ;
+    skos:prefLabel "Neverslöjd"@nb ;
+    rdfs:label "Biessebargu"@se ;
+    skos:prefLabel "Biessebargu"@se ;
+    rdfs:label "Näverslöjd"@sv ;
+    skos:prefLabel "Näverslöjd"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Sámi and Nordic tradition of making containers, shoes, and utensils from birch bark."@en ;
+    skos:broader nt:duodji ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 144/153: Bone carving ──
+nt:bone-carving a skos:Concept ;
+    rdfs:label "Bone carving"@en ;
+    skos:prefLabel "Bone carving"@en ;
+    rdfs:label "Benskæring"@da ;
+    skos:prefLabel "Benskæring"@da ;
+    rdfs:label "Luunveisto"@fi ;
+    skos:prefLabel "Luunveisto"@fi ;
+    rdfs:label "Beinskjæring"@nb ;
+    skos:prefLabel "Beinskjæring"@nb ;
+    rdfs:label "Bensnideri"@sv ;
+    skos:prefLabel "Bensnideri"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Carving bone and antler into tools, combs, gaming pieces, and decorative objects."@en ;
+    skos:broader nt:nordic-specific ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053310> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 145/153: Horn working ──
+nt:horn-working a skos:Concept ;
+    rdfs:label "Horn working"@en ;
+    skos:prefLabel "Horn working"@en ;
+    rdfs:label "Hornarbejde"@da ;
+    skos:prefLabel "Hornarbejde"@da ;
+    rdfs:label "Sarventyöstö"@fi ;
+    skos:prefLabel "Sarventyöstö"@fi ;
+    rdfs:label "Hornarbeid"@nb ;
+    skos:prefLabel "Hornarbeid"@nb ;
+    rdfs:label "Hornarbete"@sv ;
+    skos:prefLabel "Hornarbete"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Shaping animal horn by heating and pressing into spoons, cups, combs, and other objects."@en ;
+    skos:broader nt:nordic-specific ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053347> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 146/153: Amber working ──
+nt:amber-working a skos:Concept ;
+    rdfs:label "Amber working"@en ;
+    skos:prefLabel "Amber working"@en ;
+    rdfs:label "Ravarbejde"@da ;
+    skos:prefLabel "Ravarbejde"@da ;
+    rdfs:label "Meripihkatyö"@fi ;
+    skos:prefLabel "Meripihkatyö"@fi ;
+    rdfs:label "Ravarbeid"@nb ;
+    skos:prefLabel "Ravarbeid"@nb ;
+    rdfs:label "Bärnstensarbete"@sv ;
+    skos:prefLabel "Bärnstensarbete"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Carving and polishing amber into beads, pendants, and figurines, an ancient Baltic and Nordic craft."@en ;
+    skos:broader nt:nordic-specific ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053299> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 147/153: Viking ship building ──
+nt:viking-ship-building a skos:Concept ;
+    rdfs:label "Viking ship building"@en ;
+    skos:prefLabel "Viking ship building"@en ;
+    rdfs:label "Vikingeskibsbygning"@da ;
+    skos:prefLabel "Vikingeskibsbygning"@da ;
+    rdfs:label "Viikinkialuksen rakennus"@fi ;
+    skos:prefLabel "Viikinkialuksen rakennus"@fi ;
+    rdfs:label "Vikingskipsbygging"@nb ;
+    skos:prefLabel "Vikingskipsbygging"@nb ;
+    rdfs:label "Vikingaskeppsbygge"@sv ;
+    skos:prefLabel "Vikingaskeppsbygge"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Specialised Nordic boat-building combining clinker construction, keelson design, and flexible hull engineering."@en ;
+    skos:broader nt:nordic-specific ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 148/153: Sámi knife making ──
+nt:sami-knife-making a skos:Concept ;
+    rdfs:label "Sámi knife making"@en ;
+    skos:prefLabel "Sámi knife making"@en ;
+    rdfs:label "Samisk knivfremstilling"@da ;
+    skos:prefLabel "Samisk knivfremstilling"@da ;
+    rdfs:label "Saamelainen puukkonteko"@fi ;
+    skos:prefLabel "Saamelainen puukkonteko"@fi ;
+    rdfs:label "Samisk knivlaging"@nb ;
+    skos:prefLabel "Samisk knivlaging"@nb ;
+    rdfs:label "Niibbebarggu"@se ;
+    skos:prefLabel "Niibbebarggu"@se ;
+    rdfs:label "Samisk knivslöjd"@sv ;
+    skos:prefLabel "Samisk knivslöjd"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Traditional Sámi craft of making knives with decorated reindeer antler or birch handles."@en ;
+    skos:broader nt:duodji ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 149/153: Sámi belt weaving ──
+nt:sami-belt-weaving a skos:Concept ;
+    rdfs:label "Sámi belt weaving"@en ;
+    skos:prefLabel "Sámi belt weaving"@en ;
+    rdfs:label "Samisk bæltevævning"@da ;
+    skos:prefLabel "Samisk bæltevævning"@da ;
+    rdfs:label "Saamelainen vyönkudonta"@fi ;
+    skos:prefLabel "Saamelainen vyönkudonta"@fi ;
+    rdfs:label "Samisk belteveving"@nb ;
+    skos:prefLabel "Samisk belteveving"@nb ;
+    rdfs:label "Avvobáddi"@se ;
+    skos:prefLabel "Avvobáddi"@se ;
+    rdfs:label "Samisk bandvävning"@sv ;
+    skos:prefLabel "Samisk bandvävning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Sámi technique for weaving decorative woven bands and belts using tablet or inkle looms."@en ;
+    skos:broader nt:duodji ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 150/153: Ivory carving ──
+nt:ivory-carving a skos:Concept ;
+    rdfs:label "Ivory carving"@en ;
+    skos:prefLabel "Ivory carving"@en ;
+    rdfs:label "Elfenbensskæring"@da ;
+    skos:prefLabel "Elfenbensskæring"@da ;
+    rdfs:label "Norsunluunveisto"@fi ;
+    skos:prefLabel "Norsunluunveisto"@fi ;
+    rdfs:label "Elfenbeinskjæring"@nb ;
+    skos:prefLabel "Elfenbeinskjæring"@nb ;
+    rdfs:label "Elfenbenssnideri"@sv ;
+    skos:prefLabel "Elfenbenssnideri"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Carving walrus ivory into chess pieces, religious figures, and decorative objects in medieval Scandinavia."@en ;
+    skos:broader nt:nordic-specific ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300053355> ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 151/153: Tar production ──
+nt:tar-production a skos:Concept ;
+    rdfs:label "Tar production"@en ;
+    skos:prefLabel "Tar production"@en ;
+    rdfs:label "Tjærebrænding"@da ;
+    skos:prefLabel "Tjærebrænding"@da ;
+    rdfs:label "Tervanpoltto"@fi ;
+    skos:prefLabel "Tervanpoltto"@fi ;
+    rdfs:label "Tjærebrenning"@nb ;
+    skos:prefLabel "Tjærebrenning"@nb ;
+    rdfs:label "Tjärbränning"@sv ;
+    skos:prefLabel "Tjärbränning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Producing pine tar in kilns for waterproofing boats, ropes, and buildings, a key Nordic industry."@en ;
+    skos:broader nt:nordic-specific ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 152/153: Charcoal making ──
+nt:charcoal-making a skos:Concept ;
+    rdfs:label "Charcoal making"@en ;
+    skos:prefLabel "Charcoal making"@en ;
+    rdfs:label "Trækulsbrænding"@da ;
+    skos:prefLabel "Trækulsbrænding"@da ;
+    rdfs:label "Puuhiilenvalmistus"@fi ;
+    skos:prefLabel "Puuhiilenvalmistus"@fi ;
+    rdfs:label "Kullbrenning"@nb ;
+    skos:prefLabel "Kullbrenning"@nb ;
+    rdfs:label "Kolning"@sv ;
+    skos:prefLabel "Kolning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Producing charcoal by slow burning of wood in covered pits or kilns, essential for Nordic iron smelting."@en ;
+    skos:broader nt:nordic-specific ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .
+
+# ── 153/153: Bog iron smelting ──
+nt:bog-iron-smelting a skos:Concept ;
+    rdfs:label "Bog iron smelting"@en ;
+    skos:prefLabel "Bog iron smelting"@en ;
+    rdfs:label "Myremalmudvinding"@da ;
+    skos:prefLabel "Myremalmudvinding"@da ;
+    rdfs:label "Suomalmin sulatus"@fi ;
+    skos:prefLabel "Suomalmin sulatus"@fi ;
+    rdfs:label "Myrjernfremstilling"@nb ;
+    skos:prefLabel "Myrjernfremstilling"@nb ;
+    rdfs:label "Myrjärnsframställning"@sv ;
+    skos:prefLabel "Myrjärnsframställning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-techniques> ;
+    skos:definition "Extracting iron from bog ore using bloomery furnaces, the primary iron source in Viking Age Scandinavia."@en ;
+    skos:broader nt:nordic-specific ;
+    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .

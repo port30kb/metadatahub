@@ -1,0 +1,145 @@
+# Nordic seasonal and cultural subjects
+
+- id: nordic-seasons
+  labels:
+    en: Nordic Seasonal and Cultural Subjects
+    sv: Nordiska säsongs- och kulturmotiv
+    fi: Pohjoismaiset vuodenaika- ja kulttuuriaiheet
+    da: Nordiske sæson- og kulturmotiver
+    nb: Nordiske sesong- og kulturmotiver
+  description: "Seasonal celebrations, traditions, and cultural practices depicted in Nordic art and folk culture."
+
+- id: midsummer
+  broader: nordic-seasons
+  labels:
+    en: Midsummer celebration
+    sv: Midsommarfirande
+    fi: Juhannusjuhla
+    da: Sankt Hans fest
+    nb: Sankthansfeiring
+    is: Jónsmessa
+  description: "Major Nordic summer solstice celebration featuring maypoles, dancing, flower wreaths, bonfires, and feasting, one of the most depicted seasonal subjects in Nordic art."
+
+- id: lucia
+  broader: nordic-seasons
+  labels:
+    en: Saint Lucy's Day / Lucia
+    sv: Luciadagen
+    fi: Lucian päivä
+    da: Luciadag
+    nb: Luciadagen
+    is: Lúsíuhátíð
+  description: "December 13th celebration particularly prominent in Sweden, featuring a procession led by a girl wearing a crown of candles, singing traditional songs."
+
+- id: nordic-jul
+  broader: nordic-seasons
+  labels:
+    en: Nordic Christmas / Jul
+    sv: Jul
+    fi: Joulu
+    da: Jul
+    nb: Jul
+    is: Jól
+  description: "Nordic Christmas traditions blending Christian observance with pre-Christian Yule customs, depicted through scenes of celebrations, decorations, and seasonal activities."
+
+- id: valborg
+  broader: nordic-seasons
+  labels:
+    en: Walpurgis Night / Valborg
+    sv: Valborgsmässoafton
+    fi: Vappu
+    da: Valborgsaften
+    nb: Valborgaften
+  description: "April 30th celebration marking the arrival of spring with bonfires, singing, and student festivities, particularly significant in Sweden and Finland."
+
+- id: easter-witches
+  broader: nordic-seasons
+  labels:
+    en: Easter witches
+    sv: Påskkärringar
+    fi: Virpominen / Trulli
+    da: Påskeheks
+    nb: Påskeheks
+  description: "Nordic Easter tradition where children dress as witches and go door-to-door exchanging willow twigs for treats, particularly in Finland and Sweden."
+
+- id: crayfish-party
+  broader: nordic-seasons
+  labels:
+    en: Crayfish party
+    sv: Kräftskiva
+    fi: Rapujuhlat
+    da: Krebs-fest
+    nb: Krepselag
+  description: "Traditional late-summer Swedish festivity centered around eating freshwater crayfish, with decorations of paper lanterns and singing of drinking songs (snapsvisor)."
+
+- id: sami-national-day
+  broader: nordic-seasons
+  labels:
+    en: Sámi National Day
+    sv: Samernas nationaldag
+    fi: Saamelaisten kansallispäivä
+    da: Samisk nationaldag
+    nb: Samefolkets dag
+    se: Sámi álbmotbeaivi
+  description: "February 6th celebration of Sámi culture and identity across the Nordic countries, commemorating the first pan-Sámi congress in 1917."
+
+- id: finnish-sauna
+  broader: nordic-seasons
+  labels:
+    en: Finnish sauna
+    sv: Finsk bastu
+    fi: Sauna
+    da: Finsk sauna
+    nb: Finsk badstue
+  description: "Central Finnish cultural institution and social ritual, depicted in art from folk paintings to contemporary works, representing purification, community, and Finnish identity."
+
+- id: norwegian-constitution-day
+  broader: nordic-seasons
+  labels:
+    en: Norwegian Constitution Day
+    sv: Norges nationaldag
+    fi: Norjan perustuslakipäivä
+    da: Norges nationaldag
+    nb: Syttende mai
+  description: "May 17th national celebration of Norway's 1814 constitution, featuring children's parades, folk costumes (bunad), and festive gatherings, widely depicted in Norwegian art."
+
+- id: icelandic-thorrablot
+  broader: nordic-seasons
+  labels:
+    en: Þorrablót
+    sv: Torrablot
+    fi: Þorrablót
+    da: Thorrablot
+    nb: Thorrablot
+    is: Þorrablót
+  description: "Icelandic midwinter festival revived in the 19th century, featuring traditional foods and celebrating Old Norse heritage."
+
+- id: danish-fastelavn
+  broader: nordic-seasons
+  labels:
+    en: Danish Fastelavn
+    sv: Fastlagen
+    fi: Laskiainen
+    da: Fastelavn
+    nb: Fastelavn
+  description: "Scandinavian carnival celebration before Lent, featuring children in costumes hitting a barrel to release candy, and eating cream-filled buns (fastelavnsboller)."
+
+- id: nordic-harvest
+  broader: nordic-seasons
+  labels:
+    en: Nordic harvest traditions
+    sv: Nordiska skördetraditioner
+    fi: Pohjoismaiset sadonkorjuuperinteet
+    da: Nordiske høsttraditioner
+    nb: Nordiske høsttradisjoner
+  description: "Agricultural harvest celebrations depicted in Nordic art, including grain harvesting, hay-making, and autumn feasts."
+
+- id: marten-goose
+  broader: nordic-seasons
+  labels:
+    en: Mårten Gås / St. Martin's Day goose
+    sv: Mårten Gås
+    fi: Martinpäivä
+    da: Mortensaften
+    nb: Mortensgås
+  description: "November 11th feast day tradition of eating roasted goose, particularly strong in southern Sweden (Skåne) and Denmark."

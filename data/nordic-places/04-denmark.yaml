@@ -1,0 +1,329 @@
+# ═══════════════════════════════════════════════════════════════
+# Nordic Place Name Authority — Denmark
+# Country, historical regions, major cities, towns,
+# islands, and archaeological sites.
+# ═══════════════════════════════════════════════════════════════
+
+# ── Country ──────────────────────────────────────────────────
+
+- id: denmark
+  type: country
+  labels:
+    en: Denmark
+    da: Danmark
+  alt_labels:
+    en: ["Kingdom of Denmark"]
+    da: ["Kongeriget Danmark"]
+  lat: 56.0
+  lon: 10.0
+  geonames_uri: "http://sws.geonames.org/2623032/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q35"
+  description: "Nordic country in northern Europe. Constitutional monarchy and the southernmost Scandinavian country."
+
+# ── Historical/Geographic Regions ────────────────────────────
+
+- id: jutland
+  type: region
+  broader: denmark
+  labels:
+    en: Jutland
+    da: Jylland
+    de: Jütland
+  lat: 56.00
+  lon: 9.50
+  geonames_uri: "http://sws.geonames.org/2621830/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q32479"
+  description: "Peninsula forming the continental portion of Denmark. Also historically includes Schleswig-Holstein."
+
+- id: zealand
+  type: island
+  broader: denmark
+  labels:
+    en: Zealand
+    da: Sjælland
+  lat: 55.50
+  lon: 11.80
+  geonames_uri: "http://sws.geonames.org/2613119/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q13430"
+  description: "Largest island in Denmark and most populous. Home to Copenhagen and Roskilde."
+
+- id: funen
+  type: island
+  broader: denmark
+  labels:
+    en: Funen
+    da: Fyn
+  lat: 55.33
+  lon: 10.37
+  geonames_uri: "http://sws.geonames.org/2622380/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q26169"
+  description: "Third-largest island in Denmark. Known as the Garden of Denmark. Birthplace of Hans Christian Andersen."
+
+- id: bornholm
+  type: island
+  broader: denmark
+  labels:
+    en: Bornholm
+    da: Bornholm
+  lat: 55.13
+  lon: 14.92
+  geonames_uri: "http://sws.geonames.org/2624537/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q26169"
+  description: "Danish island in the Baltic Sea east of the rest of Denmark. Known for round churches and smoked herring."
+
+- id: north-jutland
+  type: region
+  broader: jutland
+  labels:
+    en: North Jutland
+    da: Nordjylland
+  lat: 57.20
+  lon: 9.90
+  geonames_uri: "http://sws.geonames.org/2615876/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q26101"
+  description: "Northernmost region of Jutland. Includes the Skagen headland where the North Sea meets the Kattegat."
+
+- id: south-jutland
+  type: region
+  broader: jutland
+  labels:
+    en: South Jutland
+    da: Sønderjylland
+    de: Nordschleswig
+  lat: 55.10
+  lon: 9.20
+  geonames_uri: "http://sws.geonames.org/2614027/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q26102"
+  description: "Southern Jutland, historically disputed between Denmark and Germany. Reunited with Denmark in 1920."
+
+- id: lolland
+  type: island
+  broader: denmark
+  labels:
+    en: Lolland
+    da: Lolland
+  lat: 54.77
+  lon: 11.50
+  geonames_uri: "http://sws.geonames.org/2618683/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q26169"
+  description: "Fourth-largest island in Denmark. Known for sugar beet farming and the Knuthenborg Safari Park."
+
+- id: greenland
+  type: region
+  broader: denmark
+  labels:
+    en: Greenland
+    da: Grønland
+    kl: Kalaallit Nunaat
+  lat: 72.00
+  lon: -40.00
+  geonames_uri: "http://sws.geonames.org/3425505/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q223"
+  description: "Autonomous territory within the Kingdom of Denmark. World's largest island. Home to Inuit peoples."
+
+- id: faroe-islands
+  type: region
+  broader: denmark
+  labels:
+    en: Faroe Islands
+    da: Færøerne
+    fo: Føroyar
+  lat: 62.00
+  lon: -7.00
+  geonames_uri: "http://sws.geonames.org/2622320/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q4628"
+  description: "Autonomous territory within the Kingdom of Denmark. Archipelago in the North Atlantic between Norway and Iceland."
+
+# ── Major Cities ─────────────────────────────────────────────
+
+- id: copenhagen
+  type: city
+  broader: zealand
+  labels:
+    en: Copenhagen
+    da: København
+  alt_labels:
+    da: ["Københavns Kommune"]
+  lat: 55.6761
+  lon: 12.5683
+  geonames_uri: "http://sws.geonames.org/2618425/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1748"
+  description: "Capital of Denmark, founded as a fishing village in the 10th century. Known for Tivoli, the Little Mermaid, and Nyhavn."
+
+- id: aarhus
+  type: city
+  broader: jutland
+  labels:
+    en: Aarhus
+    da: Aarhus
+  historical_labels:
+    da: ["Århus"]
+  lat: 56.1629
+  lon: 10.2039
+  geonames_uri: "http://sws.geonames.org/2624652/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25471"
+  description: "Second-largest city in Denmark. Viking Age origins. European Capital of Culture 2017."
+
+- id: odense
+  type: city
+  broader: funen
+  labels:
+    en: Odense
+    da: Odense
+  lat: 55.4038
+  lon: 10.4024
+  geonames_uri: "http://sws.geonames.org/2615876/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25414"
+  description: "Third-largest city in Denmark. Named after the Norse god Odin. Birthplace of Hans Christian Andersen."
+
+- id: aalborg
+  type: city
+  broader: north-jutland
+  labels:
+    en: Aalborg
+    da: Aalborg
+  historical_labels:
+    da: ["Ålborg"]
+  lat: 57.0488
+  lon: 9.9217
+  geonames_uri: "http://sws.geonames.org/2624886/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25410"
+  description: "Fourth-largest city in Denmark. Viking Age settlement with the Lindholm Høje burial site nearby."
+
+- id: esbjerg
+  type: city
+  broader: jutland
+  labels:
+    en: Esbjerg
+    da: Esbjerg
+  lat: 55.4764
+  lon: 8.4594
+  geonames_uri: "http://sws.geonames.org/2622447/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25411"
+  description: "City on the west coast of Jutland. Denmark's largest North Sea port."
+
+- id: roskilde
+  type: city
+  broader: zealand
+  labels:
+    en: Roskilde
+    da: Roskilde
+  lat: 55.6416
+  lon: 12.0879
+  geonames_uri: "http://sws.geonames.org/2614481/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25412"
+  description: "Historic city on Zealand. Former capital of Denmark. UNESCO-listed Roskilde Cathedral houses royal tombs."
+
+- id: helsingore
+  type: city
+  broader: zealand
+  labels:
+    en: Helsingør
+    da: Helsingør
+  alt_labels:
+    en: ["Elsinore"]
+  lat: 56.0361
+  lon: 12.6136
+  geonames_uri: "http://sws.geonames.org/2620473/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25413"
+  description: "City in northeastern Zealand. Home to Kronborg Castle, the setting of Shakespeare's Hamlet."
+
+- id: ribe
+  type: town
+  broader: jutland
+  labels:
+    en: Ribe
+    da: Ribe
+  lat: 55.3306
+  lon: 8.7595
+  geonames_uri: "http://sws.geonames.org/2614553/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25415"
+  description: "Oldest continuously inhabited town in Scandinavia, founded c. 710 CE. Well-preserved medieval centre."
+
+- id: skagen
+  type: town
+  broader: north-jutland
+  labels:
+    en: Skagen
+    da: Skagen
+  lat: 57.7209
+  lon: 10.5839
+  geonames_uri: "http://sws.geonames.org/2613483/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q264668"
+  description: "Northernmost town in Denmark where the Skagerrak and Kattegat seas meet. Famous for the Skagen Painters."
+
+- id: hillerod
+  type: city
+  broader: zealand
+  labels:
+    en: Hillerød
+    da: Hillerød
+  lat: 55.9296
+  lon: 12.3035
+  geonames_uri: "http://sws.geonames.org/2620245/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q158671"
+  description: "City in northern Zealand. Home to Frederiksborg Castle, the largest Renaissance palace in Scandinavia."
+
+- id: torshavn
+  type: city
+  broader: faroe-islands
+  labels:
+    en: Tórshavn
+    da: Thorshavn
+    fo: Tórshavn
+  lat: 62.0107
+  lon: -6.7716
+  geonames_uri: "http://sws.geonames.org/2611396/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25428"
+  description: "Capital of the Faroe Islands. One of the smallest capitals in the world. Named after the Norse god Thor."
+
+- id: nuuk
+  type: city
+  broader: greenland
+  labels:
+    en: Nuuk
+    da: Godthåb
+    kl: Nuuk
+  historical_labels:
+    da: ["Godthåb"]
+  lat: 64.1748
+  lon: -51.7389
+  geonames_uri: "http://sws.geonames.org/3421319/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q3516"
+  description: "Capital of Greenland. Founded as Godthåb in 1728 by Hans Egede. Smallest capital in the Nordic countries."
+
+- id: kolding
+  type: city
+  broader: jutland
+  labels:
+    en: Kolding
+    da: Kolding
+  lat: 55.4904
+  lon: 9.4702
+  geonames_uri: "http://sws.geonames.org/2618827/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25419"
+  description: "City in southeastern Jutland. Home to Koldinghus, a royal castle dating from the 13th century."
+
+- id: vejle
+  type: city
+  broader: jutland
+  labels:
+    en: Vejle
+    da: Vejle
+  lat: 55.7093
+  lon: 9.5357
+  geonames_uri: "http://sws.geonames.org/2610613/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25420"
+  description: "City at the head of Vejle Fjord. Known for the Haraldskær Woman, a preserved Iron Age bog body."
+
+- id: svendborg
+  type: city
+  broader: funen
+  labels:
+    en: Svendborg
+    da: Svendborg
+  lat: 55.0596
+  lon: 10.6069
+  geonames_uri: "http://sws.geonames.org/2612045/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25421"
+  description: "City on southern Funen. Gateway to the South Funen Archipelago and maritime museum centre."

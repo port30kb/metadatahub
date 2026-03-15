@@ -1,0 +1,364 @@
+# K-samsök (Swedish Cultural Heritage) object types → Getty AAT mappings
+# K-samsök: https://kulturarvsdata.se/
+# AAT: http://vocab.getty.edu/aat/
+
+- id: ksamsok-malning-aat
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Målning"
+  source_label: "Målning"
+  source_lang: sv
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300033618"
+  target_label: paintings
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Painting (K-samsök → AAT)"
+    sv: "Målning (K-samsök → AAT)"
+  description: "Direct equivalence for easel paintings and painted works."
+
+- id: ksamsok-skulptur-aat
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Skulptur"
+  source_label: "Skulptur"
+  source_lang: sv
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300047090"
+  target_label: sculpture
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Sculpture (K-samsök → AAT)"
+    sv: "Skulptur (K-samsök → AAT)"
+  description: "Direct equivalence for three-dimensional sculptural works."
+
+- id: ksamsok-teckning-aat
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Teckning"
+  source_label: "Teckning"
+  source_lang: sv
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300033973"
+  target_label: drawings
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Drawing (K-samsök → AAT)"
+    sv: "Teckning (K-samsök → AAT)"
+  description: "Direct equivalence for drawn works on paper or other supports."
+
+- id: ksamsok-grafik-aat
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Grafik"
+  source_label: "Grafik"
+  source_lang: sv
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300041273"
+  target_label: prints
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Print/Graphic (K-samsök → AAT)"
+    sv: "Grafik (K-samsök → AAT)"
+  description: "Direct equivalence for printed graphic works."
+
+- id: ksamsok-fotografi-aat
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Fotografi"
+  source_label: "Fotografi"
+  source_lang: sv
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300046300"
+  target_label: photographs
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Photograph (K-samsök → AAT)"
+    sv: "Fotografi (K-samsök → AAT)"
+  description: "Direct equivalence for photographic works."
+
+- id: ksamsok-mynt-aat
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Mynt"
+  source_label: "Mynt"
+  source_lang: sv
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300037222"
+  target_label: coins
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Coin (K-samsök → AAT)"
+    sv: "Mynt (K-samsök → AAT)"
+  description: "Direct equivalence for numismatic objects."
+
+- id: ksamsok-textil-aat
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Textil"
+  source_label: "Textil"
+  source_lang: sv
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300014063"
+  target_label: textiles
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Textile (K-samsök → AAT)"
+    sv: "Textil (K-samsök → AAT)"
+  description: "Direct equivalence for textile objects."
+
+- id: ksamsok-keramik-aat
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Keramik"
+  source_label: "Keramik"
+  source_lang: sv
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300151343"
+  target_label: ceramics
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Ceramic (K-samsök → AAT)"
+    sv: "Keramik (K-samsök → AAT)"
+  description: "Direct equivalence for ceramic objects."
+
+- id: ksamsok-smycke-aat
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Smycke"
+  source_label: "Smycke"
+  source_lang: sv
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300209286"
+  target_label: jewelry
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Jewelry (K-samsök → AAT)"
+    sv: "Smycke (K-samsök → AAT)"
+  description: "Direct equivalence for jewelry and personal adornment objects."
+
+- id: ksamsok-vapen-aat
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Vapen"
+  source_label: "Vapen"
+  source_lang: sv
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300036926"
+  target_label: weapons
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Weapon (K-samsök → AAT)"
+    sv: "Vapen (K-samsök → AAT)"
+  description: "Direct equivalence for weapons and arms."
+
+- id: ksamsok-mobel-aat
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Möbel"
+  source_label: "Möbel"
+  source_lang: sv
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300037680"
+  target_label: furniture
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Furniture (K-samsök → AAT)"
+    sv: "Möbel (K-samsök → AAT)"
+  description: "Direct equivalence for furniture objects."
+
+- id: ksamsok-musikinstrument-aat
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Musikinstrument"
+  source_label: "Musikinstrument"
+  source_lang: sv
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300041620"
+  target_label: musical instruments
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Musical instrument (K-samsök → AAT)"
+    sv: "Musikinstrument (K-samsök → AAT)"
+  description: "Direct equivalence for musical instruments."
+
+- id: ksamsok-glas-aat
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Glas"
+  source_label: "Glas"
+  source_lang: sv
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300010898"
+  target_label: glass
+  match_type: closeMatch
+  confidence: high
+  labels:
+    en: "Glass (K-samsök → AAT)"
+    sv: "Glas (K-samsök → AAT)"
+  description: "Close match; K-samsök 'Glas' covers glass objects broadly, AAT 300010898 is 'glass (material)'."
+
+- id: ksamsok-silver-aat
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Silver"
+  source_label: "Silver"
+  source_lang: sv
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300011029"
+  target_label: silver
+  match_type: closeMatch
+  confidence: medium
+  labels:
+    en: "Silver (K-samsök → AAT)"
+    sv: "Silver (K-samsök → AAT)"
+  description: "Close match; K-samsök classifies by material, AAT 300011029 is silver as material. K-samsök 'Silver' implies silverware objects."
+  note: "K-samsök uses material as object type; AAT separates material from object type."
+
+- id: ksamsok-runsten-aat
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Runsten"
+  source_label: "Runsten"
+  source_lang: sv
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300006958"
+  target_label: runestones
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Runestone (K-samsök → AAT)"
+    sv: "Runsten (K-samsök → AAT)"
+  description: "Direct equivalence for inscribed rune stones."
+
+- id: ksamsok-gravfynd-aat
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Gravfynd"
+  source_label: "Gravfynd"
+  source_lang: sv
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300185711"
+  target_label: grave goods
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Grave find (K-samsök → AAT)"
+    sv: "Gravfynd (K-samsök → AAT)"
+  description: "Direct equivalence for objects recovered from burial contexts."
+
+- id: ksamsok-verktyg-aat
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Verktyg"
+  source_label: "Verktyg"
+  source_lang: sv
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300024841"
+  target_label: tools
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Tool (K-samsök → AAT)"
+    sv: "Verktyg (K-samsök → AAT)"
+  description: "Direct equivalence for hand tools and implements."
+
+- id: ksamsok-manuskript-aat
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Manuskript"
+  source_label: "Manuskript"
+  source_lang: sv
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300028569"
+  target_label: manuscripts
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Manuscript (K-samsök → AAT)"
+    sv: "Manuskript (K-samsök → AAT)"
+  description: "Direct equivalence for handwritten documents and codices."
+
+- id: ksamsok-karta-aat
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Karta"
+  source_label: "Karta"
+  source_lang: sv
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300028094"
+  target_label: maps
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Map (K-samsök → AAT)"
+    sv: "Karta (K-samsök → AAT)"
+  description: "Direct equivalence for cartographic objects."
+
+- id: ksamsok-medalj-aat
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Medalj"
+  source_label: "Medalj"
+  source_lang: sv
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300046025"
+  target_label: medals
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Medal (K-samsök → AAT)"
+    sv: "Medalj (K-samsök → AAT)"
+  description: "Direct equivalence for commemorative and award medals."
+
+- id: ksamsok-draktillbehor-aat
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Dräkttillbehör"
+  source_label: "Dräkttillbehör"
+  source_lang: sv
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300209273"
+  target_label: costume accessories
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Costume accessory (K-samsök → AAT)"
+    sv: "Dräkttillbehör (K-samsök → AAT)"
+  description: "Direct equivalence for clothing accessories and costume components."
+
+- id: ksamsok-kyrkokonst-aat
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Kyrkokonst"
+  source_label: "Kyrkokonst"
+  source_lang: sv
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300073708"
+  target_label: religious art
+  match_type: closeMatch
+  confidence: medium
+  labels:
+    en: "Church art (K-samsök → AAT)"
+    sv: "Kyrkokonst (K-samsök → AAT)"
+  description: "Close match; K-samsök 'Kyrkokonst' specifically refers to Christian church art, while AAT 'religious art' is broader."
+
+- id: ksamsok-arkeologisktfynd-aat
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/ArkeologisktFynd"
+  source_label: "Arkeologiskt fynd"
+  source_lang: sv
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300117127"
+  target_label: archaeological objects
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Archaeological find (K-samsök → AAT)"
+    sv: "Arkeologiskt fynd (K-samsök → AAT)"
+  description: "Direct equivalence for objects recovered through archaeological excavation."
+
+- id: ksamsok-sigill-aat
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Sigill"
+  source_label: "Sigill"
+  source_lang: sv
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300028877"
+  target_label: seals
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Seal (K-samsök → AAT)"
+    sv: "Sigill (K-samsök → AAT)"
+  description: "Direct equivalence for seal stamps and seal impressions."

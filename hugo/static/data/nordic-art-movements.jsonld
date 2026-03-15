@@ -1,0 +1,5954 @@
+{
+  "@context": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "time": "http://www.w3.org/2006/time#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://metadatahub.eu/data/nordic-art-movements",
+  "@type": "skos:ConceptScheme",
+  "dcterms:title": [
+    {
+      "@value": "Nordic Art and Design Movements Thesaurus",
+      "@language": "en"
+    },
+    {
+      "@value": "Tesaurus för nordisk konst och design",
+      "@language": "sv"
+    }
+  ],
+  "dcterms:description": "93 entries covering Nordic art, architecture, and design movements from the Renaissance to contemporary, with multilingual labels in five Nordic languages.",
+  "dcterms:source": [
+    "https://en.wikipedia.org/wiki/Scandinavian_design",
+    "https://en.wikipedia.org/wiki/Nordic_art",
+    "https://en.wikipedia.org/wiki/Danish_Golden_Age",
+    "https://en.wikipedia.org/wiki/National_Romanticism",
+    "https://en.wikipedia.org/wiki/Skagen_Painters",
+    "https://en.wikipedia.org/wiki/Functionalism_(architecture)"
+  ],
+  "dcterms:license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "dcterms:modified": "2025-03-15",
+  "@graph": [
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-renaissance",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Nordic Renaissance",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk renæssance",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen renessanssi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk renessanse",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk renässans",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Nordic Renaissance",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk renæssance",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen renessanssi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk renessanse",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk renässans",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Renaissance art and architecture in Scandinavia, influenced by German, Dutch, and Italian models; characterized by castle construction and Lutheran church decoration.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:closeMatch": {
+        "@id": "http://vocab.getty.edu/aat/300021140"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1500"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1650"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/danish-norwegian-baroque",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Danish-Norwegian Baroque",
+          "@language": "en"
+        },
+        {
+          "@value": "Dansk-norsk barok",
+          "@language": "da"
+        },
+        {
+          "@value": "Tanskalais-norjalainen barokki",
+          "@language": "fi"
+        },
+        {
+          "@value": "Dansk-norsk barokk",
+          "@language": "nb"
+        },
+        {
+          "@value": "Dansk-norsk barock",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Danish-Norwegian Baroque",
+          "@language": "en"
+        },
+        {
+          "@value": "Dansk-norsk barok",
+          "@language": "da"
+        },
+        {
+          "@value": "Tanskalais-norjalainen barokki",
+          "@language": "fi"
+        },
+        {
+          "@value": "Dansk-norsk barokk",
+          "@language": "nb"
+        },
+        {
+          "@value": "Dansk-norsk barock",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Baroque art and architecture in the dual monarchy of Denmark-Norway, seen in palaces like Frederiksborg and churches with elaborate altarpieces.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-baroque"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1620"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1750"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-baroque",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Nordic Baroque",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk barok",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen barokki",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk barokk",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk barock",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Nordic Baroque",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk barok",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen barokki",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk barokk",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk barock",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Baroque style in the Nordic countries, adapted to local materials and Lutheran sensibility; prominent in royal palaces, churches, and portraiture.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:closeMatch": {
+        "@id": "http://vocab.getty.edu/aat/300021147"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1600"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1750"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/swedish-baroque",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Swedish Baroque",
+          "@language": "en"
+        },
+        {
+          "@value": "Svensk barok",
+          "@language": "da"
+        },
+        {
+          "@value": "Ruotsalainen barokki",
+          "@language": "fi"
+        },
+        {
+          "@value": "Svensk barokk",
+          "@language": "nb"
+        },
+        {
+          "@value": "Svensk barock",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Swedish Baroque",
+          "@language": "en"
+        },
+        {
+          "@value": "Svensk barok",
+          "@language": "da"
+        },
+        {
+          "@value": "Ruotsalainen barokki",
+          "@language": "fi"
+        },
+        {
+          "@value": "Svensk barokk",
+          "@language": "nb"
+        },
+        {
+          "@value": "Svensk barock",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Baroque period in Sweden during the era of great power (stormaktstiden), exemplified by architects like Nicodemus Tessin the Elder and Younger.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-baroque"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1620"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1750"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-rococo",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Nordic Rococo",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk rokoko",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen rokokoo",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk rokokko",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk rokoko",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Nordic Rococo",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk rokoko",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen rokokoo",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk rokokko",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk rokoko",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Rococo style in Scandinavia, lighter and more ornamental than Baroque; visible in interiors, furniture, and decorative arts of the mid-18th century.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:closeMatch": {
+        "@id": "http://vocab.getty.edu/aat/300021155"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1730"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1790"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/gustavian-neoclassicism",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Gustavian Neoclassicism",
+          "@language": "en"
+        },
+        {
+          "@value": "Gustaviansk neoklassicisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Kustaavilainen uusklassismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Gustaviansk nyklassisisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Gustaviansk stil",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Gustavian Neoclassicism",
+          "@language": "en"
+        },
+        {
+          "@value": "Gustaviansk neoklassicisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Kustaavilainen uusklassismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Gustaviansk nyklassisisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Gustaviansk stil",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Swedish neoclassical style under Gustav III, blending French Louis XVI elegance with Nordic restraint; defined Swedish interior design with pale colors and clean lines.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:closeMatch": {
+        "@id": "http://vocab.getty.edu/aat/300021477"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1772"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1809"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/swedish-classicism",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Swedish Classicism",
+          "@language": "en"
+        },
+        {
+          "@value": "Svensk klassicisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Ruotsalainen klassismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Svensk klassisisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Svensk klassicism",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Swedish Classicism",
+          "@language": "en"
+        },
+        {
+          "@value": "Svensk klassicisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Ruotsalainen klassismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Svensk klassisisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Svensk klassicism",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Neoclassical and Empire-influenced architecture and decorative arts in Sweden, continued under Karl XIV Johan; marked by symmetry and antique references.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1780"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1850"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-neoclassicism",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Nordic Neoclassicism",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk neoklassicisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen uusklassismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk nyklassisisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk nyklassicism",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Nordic Neoclassicism",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk neoklassicisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen uusklassismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk nyklassisisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk nyklassicism",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Neoclassical movement across the Nordic countries, inspired by Greco-Roman ideals; prominent in public buildings, sculpture, and the works of Bertel Thorvaldsen.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:closeMatch": {
+        "@id": "http://vocab.getty.edu/aat/300021477"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1760"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1850"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/danish-neoclassicism",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Danish Neoclassicism",
+          "@language": "en"
+        },
+        {
+          "@value": "Dansk neoklassicisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Tanskalainen uusklassismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Dansk nyklassisisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Dansk nyklassicism",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Danish Neoclassicism",
+          "@language": "en"
+        },
+        {
+          "@value": "Dansk neoklassicisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Tanskalainen uusklassismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Dansk nyklassisisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Dansk nyklassicism",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Neoclassical period in Denmark centered on the Royal Danish Academy; Thorvaldsen's sculpture and C.F. Hansen's architecture defined Copenhagen's cityscape.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-neoclassicism"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1770"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1850"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/finnish-early-art",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Early Finnish Art",
+          "@language": "en"
+        },
+        {
+          "@value": "Tidlig finsk kunst",
+          "@language": "da"
+        },
+        {
+          "@value": "Varhainen suomalainen taide",
+          "@language": "fi"
+        },
+        {
+          "@value": "Tidlig finsk kunst",
+          "@language": "nb"
+        },
+        {
+          "@value": "Tidig finsk konst",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Early Finnish Art",
+          "@language": "en"
+        },
+        {
+          "@value": "Tidlig finsk kunst",
+          "@language": "da"
+        },
+        {
+          "@value": "Varhainen suomalainen taide",
+          "@language": "fi"
+        },
+        {
+          "@value": "Tidlig finsk kunst",
+          "@language": "nb"
+        },
+        {
+          "@value": "Tidig finsk konst",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Earliest distinct Finnish artistic production under Swedish and then Russian rule, primarily church paintings, portraiture, and folk art traditions.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1750"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1850"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/danish-golden-age",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Danish Golden Age",
+          "@language": "en"
+        },
+        {
+          "@value": "Dansk guldalder",
+          "@language": "da"
+        },
+        {
+          "@value": "Tanskan kulta-aika",
+          "@language": "fi"
+        },
+        {
+          "@value": "Dansk gullalder",
+          "@language": "nb"
+        },
+        {
+          "@value": "Dansk guldålder",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Danish Golden Age",
+          "@language": "en"
+        },
+        {
+          "@value": "Dansk guldalder",
+          "@language": "da"
+        },
+        {
+          "@value": "Tanskan kulta-aika",
+          "@language": "fi"
+        },
+        {
+          "@value": "Dansk gullalder",
+          "@language": "nb"
+        },
+        {
+          "@value": "Dansk guldålder",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Flourishing of Danish painting, sculpture, and literature in the first half of the 19th century; artists include C.W. Eckersberg, Christen Købke, and Wilhelm Bendz.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:closeMatch": {
+        "@id": "http://vocab.getty.edu/aat/300379342"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1800"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1850"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-romanticism",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Nordic Romanticism",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk romantik",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen romantiikka",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk romantikk",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk romantik",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Nordic Romanticism",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk romantik",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen romantiikka",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk romantikk",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk romantik",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Romantic movement in the Nordic countries emphasizing national identity, folk culture, and dramatic landscapes; foundational for later national movements.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:closeMatch": {
+        "@id": "http://vocab.getty.edu/aat/300021474"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1800"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1870"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/norwegian-romantic-nationalism",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Norwegian Romantic Nationalism",
+          "@language": "en"
+        },
+        {
+          "@value": "Norsk nationalromantik",
+          "@language": "da"
+        },
+        {
+          "@value": "Norjalainen kansallisromantiikka",
+          "@language": "fi"
+        },
+        {
+          "@value": "Norsk nasjonalromantikk",
+          "@language": "nb"
+        },
+        {
+          "@value": "Norsk nationalromantik",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Norwegian Romantic Nationalism",
+          "@language": "en"
+        },
+        {
+          "@value": "Norsk nationalromantik",
+          "@language": "da"
+        },
+        {
+          "@value": "Norjalainen kansallisromantiikka",
+          "@language": "fi"
+        },
+        {
+          "@value": "Norsk nasjonalromantikk",
+          "@language": "nb"
+        },
+        {
+          "@value": "Norsk nationalromantik",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Norwegian art movement celebrating national landscape and folk culture after independence from Denmark; painters like J.C. Dahl and Adolph Tidemand.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-romanticism"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1840"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1870"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/finnish-national-awakening",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Finnish National Awakening",
+          "@language": "en"
+        },
+        {
+          "@value": "Finsk national opvågning",
+          "@language": "da"
+        },
+        {
+          "@value": "Suomen kansallinen herääminen",
+          "@language": "fi"
+        },
+        {
+          "@value": "Finsk nasjonal oppvåkning",
+          "@language": "nb"
+        },
+        {
+          "@value": "Finlands nationella uppvaknande",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Finnish National Awakening",
+          "@language": "en"
+        },
+        {
+          "@value": "Finsk national opvågning",
+          "@language": "da"
+        },
+        {
+          "@value": "Suomen kansallinen herääminen",
+          "@language": "fi"
+        },
+        {
+          "@value": "Finsk nasjonal oppvåkning",
+          "@language": "nb"
+        },
+        {
+          "@value": "Finlands nationella uppvaknande",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Cultural and artistic movement in Finland promoting Finnish language and identity under Russian rule; connected to the publication of the Kalevala (1835).",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1835"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1880"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/swedish-romantic-landscape",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Swedish Romantic Landscape Painting",
+          "@language": "en"
+        },
+        {
+          "@value": "Svensk romantisk landskabsmaleri",
+          "@language": "da"
+        },
+        {
+          "@value": "Ruotsalainen romanttinen maisemamaalaus",
+          "@language": "fi"
+        },
+        {
+          "@value": "Svensk romantisk landskapsmaleri",
+          "@language": "nb"
+        },
+        {
+          "@value": "Svensk romantisk landskapsmåleri",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Swedish Romantic Landscape Painting",
+          "@language": "en"
+        },
+        {
+          "@value": "Svensk romantisk landskabsmaleri",
+          "@language": "da"
+        },
+        {
+          "@value": "Ruotsalainen romanttinen maisemamaalaus",
+          "@language": "fi"
+        },
+        {
+          "@value": "Svensk romantisk landskapsmaleri",
+          "@language": "nb"
+        },
+        {
+          "@value": "Svensk romantisk landskapsmåleri",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Swedish landscape painting tradition emphasizing sublime Nordic nature; artists include Marcus Larson and the early work of Carl Fredrik Hill.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-romanticism"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1830"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1870"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/scandinavian-romanticism-music",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Scandinavian Musical Romanticism",
+          "@language": "en"
+        },
+        {
+          "@value": "Skandinavisk musikromantik",
+          "@language": "da"
+        },
+        {
+          "@value": "Skandinaavinen musiikkiromantiikka",
+          "@language": "fi"
+        },
+        {
+          "@value": "Skandinavisk musikkromantikk",
+          "@language": "nb"
+        },
+        {
+          "@value": "Skandinavisk musikromantik",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Scandinavian Musical Romanticism",
+          "@language": "en"
+        },
+        {
+          "@value": "Skandinavisk musikromantik",
+          "@language": "da"
+        },
+        {
+          "@value": "Skandinaavinen musiikkiromantiikka",
+          "@language": "fi"
+        },
+        {
+          "@value": "Skandinavisk musikkromantikk",
+          "@language": "nb"
+        },
+        {
+          "@value": "Skandinavisk musikromantik",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Nordic Romantic music tradition drawing on folk melodies and national themes; composers include Edvard Grieg, Jean Sibelius, and Carl Nielsen.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-romanticism"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1840"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1910"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/dusseldorf-school-nordic",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Düsseldorf School (Nordic Students)",
+          "@language": "en"
+        },
+        {
+          "@value": "Düsseldorfskolen (nordiske elever)",
+          "@language": "da"
+        },
+        {
+          "@value": "Düsseldorfin koulu (pohjoismaiset opiskelijat)",
+          "@language": "fi"
+        },
+        {
+          "@value": "Düsseldorfskolen (nordiske elever)",
+          "@language": "nb"
+        },
+        {
+          "@value": "Düsseldorfskolan (nordiska elever)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Düsseldorf School (Nordic Students)",
+          "@language": "en"
+        },
+        {
+          "@value": "Düsseldorfskolen (nordiske elever)",
+          "@language": "da"
+        },
+        {
+          "@value": "Düsseldorfin koulu (pohjoismaiset opiskelijat)",
+          "@language": "fi"
+        },
+        {
+          "@value": "Düsseldorfskolen (nordiske elever)",
+          "@language": "nb"
+        },
+        {
+          "@value": "Düsseldorfskolan (nordiska elever)",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Nordic artists who studied at the Düsseldorf Academy, bringing German Romantic techniques back to Scandinavia; included Hans Gude, Adolph Tidemand, and August Malmström.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1840"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1870"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/icelandic-romanticism",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Icelandic Romanticism",
+          "@language": "en"
+        },
+        {
+          "@value": "Islandsk romantik",
+          "@language": "da"
+        },
+        {
+          "@value": "Islantilainen romantiikka",
+          "@language": "fi"
+        },
+        {
+          "@value": "Íslensk rómantík",
+          "@language": "is"
+        },
+        {
+          "@value": "Islandsk romantikk",
+          "@language": "nb"
+        },
+        {
+          "@value": "Isländsk romantik",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Icelandic Romanticism",
+          "@language": "en"
+        },
+        {
+          "@value": "Islandsk romantik",
+          "@language": "da"
+        },
+        {
+          "@value": "Islantilainen romantiikka",
+          "@language": "fi"
+        },
+        {
+          "@value": "Íslensk rómantík",
+          "@language": "is"
+        },
+        {
+          "@value": "Islandsk romantikk",
+          "@language": "nb"
+        },
+        {
+          "@value": "Isländsk romantik",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Late Romantic movement in Iceland connected to independence aspirations; landscape painting by Þórarinn B. Þorláksson and saga-inspired literary arts.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-romanticism"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1850"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1920"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-history-painting",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Nordic History Painting",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk historiemaleri",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen historiamaalaus",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk historiemåleri",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk historiemåleri",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Nordic History Painting",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk historiemaleri",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen historiamaalaus",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk historiemåleri",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk historiemåleri",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "History painting tradition in the Nordic countries depicting Viking sagas, medieval events, and national myths; served nation-building purposes across Scandinavia.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1820"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1880"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/finnish-romantic-painting",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Finnish Romantic Painting",
+          "@language": "en"
+        },
+        {
+          "@value": "Finsk romantisk maleri",
+          "@language": "da"
+        },
+        {
+          "@value": "Suomalainen romanttinen maalaus",
+          "@language": "fi"
+        },
+        {
+          "@value": "Finsk romantisk maleri",
+          "@language": "nb"
+        },
+        {
+          "@value": "Finsk romantisk målning",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Finnish Romantic Painting",
+          "@language": "en"
+        },
+        {
+          "@value": "Finsk romantisk maleri",
+          "@language": "da"
+        },
+        {
+          "@value": "Suomalainen romanttinen maalaus",
+          "@language": "fi"
+        },
+        {
+          "@value": "Finsk romantisk maleri",
+          "@language": "nb"
+        },
+        {
+          "@value": "Finsk romantisk målning",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Romantic painting in Finland depicting Karelian landscapes and scenes from the Kalevala; artists include Robert Wilhelm Ekman and Werner Holmberg.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-romanticism"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1850"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1880"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-realism",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Nordic Realism",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk realisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen realismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk realisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk realism",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Nordic Realism",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk realisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen realismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk realisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk realism",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Realist movement in Scandinavian art and literature from the 1870s onward, depicting everyday life and social conditions; influenced by Georg Brandes' Modern Breakthrough.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:closeMatch": {
+        "@id": "http://vocab.getty.edu/aat/300056529"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1870"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1900"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-naturalism",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Nordic Naturalism",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk naturalisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen naturalismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk naturalisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk naturalism",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Nordic Naturalism",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk naturalisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen naturalismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk naturalisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk naturalism",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Naturalist movement in Nordic painting emphasizing scientific observation of light, landscape, and social realities; parallel to French Naturalism.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:closeMatch": {
+        "@id": "http://vocab.getty.edu/aat/300056428"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1880"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1900"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/skagen-painters",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Skagen Painters",
+          "@language": "en"
+        },
+        {
+          "@value": "Skagensmalerne",
+          "@language": "da"
+        },
+        {
+          "@value": "Skagenin maalarit",
+          "@language": "fi"
+        },
+        {
+          "@value": "Skagenmalerne",
+          "@language": "nb"
+        },
+        {
+          "@value": "Skagenmålarna",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Skagen Painters",
+          "@language": "en"
+        },
+        {
+          "@value": "Skagensmalerne",
+          "@language": "da"
+        },
+        {
+          "@value": "Skagenin maalarit",
+          "@language": "fi"
+        },
+        {
+          "@value": "Skagenmalerne",
+          "@language": "nb"
+        },
+        {
+          "@value": "Skagenmålarna",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Danish-Scandinavian artists' colony at Skagen painting en plein air, known for their depictions of light and local life; key figures include P.S. Krøyer, Anna and Michael Ancher.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-realism"
+      },
+      "skos:closeMatch": {
+        "@id": "http://vocab.getty.edu/aat/300379344"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1870"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1910"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/grez-sur-loing-nordic",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Swedish Artists' Colony at Grez-sur-Loing",
+          "@language": "en"
+        },
+        {
+          "@value": "Svenske kunstnere i Grez-sur-Loing",
+          "@language": "da"
+        },
+        {
+          "@value": "Ruotsalaiset taiteilijat Grez-sur-Loingissa",
+          "@language": "fi"
+        },
+        {
+          "@value": "Svenske kunstnere i Grez-sur-Loing",
+          "@language": "nb"
+        },
+        {
+          "@value": "Grezdkolonin",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Swedish Artists' Colony at Grez-sur-Loing",
+          "@language": "en"
+        },
+        {
+          "@value": "Svenske kunstnere i Grez-sur-Loing",
+          "@language": "da"
+        },
+        {
+          "@value": "Ruotsalaiset taiteilijat Grez-sur-Loingissa",
+          "@language": "fi"
+        },
+        {
+          "@value": "Svenske kunstnere i Grez-sur-Loing",
+          "@language": "nb"
+        },
+        {
+          "@value": "Grezdkolonin",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Colony of Swedish and Nordic artists in the French village of Grez-sur-Loing during the 1880s; included Carl Larsson, Karl Nordström, and other opponents (opponenterna).",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1882"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1900"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/opponenterna",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "The Opponents (Opponenterna)",
+          "@language": "en"
+        },
+        {
+          "@value": "Opponenterne",
+          "@language": "da"
+        },
+        {
+          "@value": "Opponentit",
+          "@language": "fi"
+        },
+        {
+          "@value": "Opponentene",
+          "@language": "nb"
+        },
+        {
+          "@value": "Opponenterna",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "The Opponents (Opponenterna)",
+          "@language": "en"
+        },
+        {
+          "@value": "Opponenterne",
+          "@language": "da"
+        },
+        {
+          "@value": "Opponentit",
+          "@language": "fi"
+        },
+        {
+          "@value": "Opponentene",
+          "@language": "nb"
+        },
+        {
+          "@value": "Opponenterna",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Group of young Swedish artists who rebelled against the Royal Academy in the 1880s, demanding modernization; led by Ernst Josephson, Richard Bergh, and Karl Nordström.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-realism"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1885"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1895"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/finnish-golden-age-art",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Finnish Golden Age of Art",
+          "@language": "en"
+        },
+        {
+          "@value": "Finsk kunsts guldalder",
+          "@language": "da"
+        },
+        {
+          "@value": "Suomen taiteen kultakausi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Finsk kunsts gullalder",
+          "@language": "nb"
+        },
+        {
+          "@value": "Finsk konstens guldålder",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Finnish Golden Age of Art",
+          "@language": "en"
+        },
+        {
+          "@value": "Finsk kunsts guldalder",
+          "@language": "da"
+        },
+        {
+          "@value": "Suomen taiteen kultakausi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Finsk kunsts gullalder",
+          "@language": "nb"
+        },
+        {
+          "@value": "Finsk konstens guldålder",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Peak of Finnish visual arts from the 1880s to 1910, combining Realism, Naturalism, and National Romanticism; artists include Akseli Gallen-Kallela, Albert Edelfelt, and Helene Schjerfbeck.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1880"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1910"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/norwegian-neo-romanticism",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Norwegian Neo-Romanticism",
+          "@language": "en"
+        },
+        {
+          "@value": "Norsk nyromantik",
+          "@language": "da"
+        },
+        {
+          "@value": "Norjalainen uusromantiikka",
+          "@language": "fi"
+        },
+        {
+          "@value": "Norsk nyromantikk",
+          "@language": "nb"
+        },
+        {
+          "@value": "Norsk nyromantik",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Norwegian Neo-Romanticism",
+          "@language": "en"
+        },
+        {
+          "@value": "Norsk nyromantik",
+          "@language": "da"
+        },
+        {
+          "@value": "Norjalainen uusromantiikka",
+          "@language": "fi"
+        },
+        {
+          "@value": "Norsk nyromantikk",
+          "@language": "nb"
+        },
+        {
+          "@value": "Norsk nyromantik",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Late 19th-century Norwegian movement returning to Romantic themes of nature and myth with modernist techniques; artists include Nikolai Astrup and Halfdan Egedius.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1890"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1910"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/national-romanticism",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Nordic National Romanticism",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk nationalromantik",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen kansallisromantiikka",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk nasjonalromantikk",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk nationalromantik",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Nordic National Romanticism",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk nationalromantik",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen kansallisromantiikka",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk nasjonalromantikk",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk nationalromantik",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Pan-Nordic movement in art, architecture, and design drawing on medieval, folk, and mythological sources to express national identity; flourished in architecture and applied arts.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:closeMatch": {
+        "@id": "http://vocab.getty.edu/aat/300021478"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1880"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1920"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/swedish-national-romanticism",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Swedish National Romanticism",
+          "@language": "en"
+        },
+        {
+          "@value": "Svensk nationalromantik",
+          "@language": "da"
+        },
+        {
+          "@value": "Ruotsalainen kansallisromantiikka",
+          "@language": "fi"
+        },
+        {
+          "@value": "Svensk nasjonalromantikk",
+          "@language": "nb"
+        },
+        {
+          "@value": "Svensk nationalromantik",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Swedish National Romanticism",
+          "@language": "en"
+        },
+        {
+          "@value": "Svensk nationalromantik",
+          "@language": "da"
+        },
+        {
+          "@value": "Ruotsalainen kansallisromantiikka",
+          "@language": "fi"
+        },
+        {
+          "@value": "Svensk nasjonalromantikk",
+          "@language": "nb"
+        },
+        {
+          "@value": "Svensk nationalromantik",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Swedish National Romantic movement in architecture and art, drawing on Viking and medieval motifs; Stockholm City Hall by Ragnar Östberg is a key example.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements/national-romanticism"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1890"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1920"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/karelian-national-romanticism",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Finnish Karelian National Romanticism",
+          "@language": "en"
+        },
+        {
+          "@value": "Finsk-karelsk nationalromantik",
+          "@language": "da"
+        },
+        {
+          "@value": "Karjalainen kansallisromantiikka",
+          "@language": "fi"
+        },
+        {
+          "@value": "Finsk-karelsk nasjonalromantikk",
+          "@language": "nb"
+        },
+        {
+          "@value": "Finsk-karelsk nationalromantik",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Finnish Karelian National Romanticism",
+          "@language": "en"
+        },
+        {
+          "@value": "Finsk-karelsk nationalromantik",
+          "@language": "da"
+        },
+        {
+          "@value": "Karjalainen kansallisromantiikka",
+          "@language": "fi"
+        },
+        {
+          "@value": "Finsk-karelsk nasjonalromantikk",
+          "@language": "nb"
+        },
+        {
+          "@value": "Finsk-karelsk nationalromantik",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Finnish National Romantic movement inspired by Karelian culture and the Kalevala; Akseli Gallen-Kallela's paintings and Eliel Saarinen's architecture epitomize the style.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements/national-romanticism"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1890"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1920"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/norwegian-dragestil",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Norwegian Dragon Style (Dragestil)",
+          "@language": "en"
+        },
+        {
+          "@value": "Norsk dragestil",
+          "@language": "da"
+        },
+        {
+          "@value": "Norjalainen lohikäärmetyyli",
+          "@language": "fi"
+        },
+        {
+          "@value": "Norsk dragestil",
+          "@language": "nb"
+        },
+        {
+          "@value": "Norsk drakstil",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Norwegian Dragon Style (Dragestil)",
+          "@language": "en"
+        },
+        {
+          "@value": "Norsk dragestil",
+          "@language": "da"
+        },
+        {
+          "@value": "Norjalainen lohikäärmetyyli",
+          "@language": "fi"
+        },
+        {
+          "@value": "Norsk dragestil",
+          "@language": "nb"
+        },
+        {
+          "@value": "Norsk drakstil",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Norwegian architectural style combining Viking-era dragon motifs with Art Nouveau forms; seen in stave church-inspired buildings and wooden villas.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements/national-romanticism"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1880"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1910"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-impressionism",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Nordic Impressionism",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk impressionisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen impressionismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk impresjonisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk impressionism",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Nordic Impressionism",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk impressionisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen impressionismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk impresjonisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk impressionism",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Nordic adaptation of French Impressionism emphasizing the distinctive quality of Scandinavian light; artists include Anders Zorn, Peder Severin Krøyer, and Christian Krohg.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:closeMatch": {
+        "@id": "http://vocab.getty.edu/aat/300021503"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1880"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1910"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/varberg-school",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Varberg School",
+          "@language": "en"
+        },
+        {
+          "@value": "Varbergskolen",
+          "@language": "da"
+        },
+        {
+          "@value": "Varbergin koulu",
+          "@language": "fi"
+        },
+        {
+          "@value": "Varbergskolen",
+          "@language": "nb"
+        },
+        {
+          "@value": "Varbergsskolan",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Varberg School",
+          "@language": "en"
+        },
+        {
+          "@value": "Varbergskolen",
+          "@language": "da"
+        },
+        {
+          "@value": "Varbergin koulu",
+          "@language": "fi"
+        },
+        {
+          "@value": "Varbergskolen",
+          "@language": "nb"
+        },
+        {
+          "@value": "Varbergsskolan",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Swedish artists' group based at Varberg, led by Karl Nordström and Nils Kreuger, painting the west Swedish landscape in a style blending Naturalism and Symbolism.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-realism"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1893"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1910"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-plein-air",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Nordic Plein Air Painting",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk friluftsmaleri",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen ulkoilmamaalaus",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk friluftsmaleri",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk friluftsmåleri",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Nordic Plein Air Painting",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk friluftsmaleri",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen ulkoilmamaalaus",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk friluftsmaleri",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk friluftsmåleri",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Open-air painting tradition across the Nordic countries, influenced by French practice but adapted to northern light; central to Skagen, Grez-sur-Loing, and the Opponents.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1880"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1910"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/finska-konstforeningen",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Finnish Art Society Movement",
+          "@language": "en"
+        },
+        {
+          "@value": "Finsk Kunstforening",
+          "@language": "da"
+        },
+        {
+          "@value": "Suomen Taideyhdistys",
+          "@language": "fi"
+        },
+        {
+          "@value": "Finsk Kunstforening",
+          "@language": "nb"
+        },
+        {
+          "@value": "Finska Konstföreningen",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Finnish Art Society Movement",
+          "@language": "en"
+        },
+        {
+          "@value": "Finsk Kunstforening",
+          "@language": "da"
+        },
+        {
+          "@value": "Suomen Taideyhdistys",
+          "@language": "fi"
+        },
+        {
+          "@value": "Finsk Kunstforening",
+          "@language": "nb"
+        },
+        {
+          "@value": "Finska Konstföreningen",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Institutional movement centered on the Finnish Art Society (est. 1846), promoting Finnish national art and establishing collections that formed the basis of Finnish art museums.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1846"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1920"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/artists-colony-tuusula",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Tuusula Lake Artists' Colony",
+          "@language": "en"
+        },
+        {
+          "@value": "Tuusulasøens kunstnerkoloni",
+          "@language": "da"
+        },
+        {
+          "@value": "Tuusulanjärven taiteilijayhteisö",
+          "@language": "fi"
+        },
+        {
+          "@value": "Tuusjøens kunstnerkoloni",
+          "@language": "nb"
+        },
+        {
+          "@value": "Tuusby sjö konstnärskoloni",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Tuusula Lake Artists' Colony",
+          "@language": "en"
+        },
+        {
+          "@value": "Tuusulasøens kunstnerkoloni",
+          "@language": "da"
+        },
+        {
+          "@value": "Tuusulanjärven taiteilijayhteisö",
+          "@language": "fi"
+        },
+        {
+          "@value": "Tuusjøens kunstnerkoloni",
+          "@language": "nb"
+        },
+        {
+          "@value": "Tuusby sjö konstnärskoloni",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Finnish artists' colony on Lake Tuusula north of Helsinki; residents included Jean Sibelius, Juhani Aho, Pekka Halonen, and Eero Järnefelt.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1897"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1920"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/copenhagen-secession",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Free Exhibition (Den Frie Udstilling)",
+          "@language": "en"
+        },
+        {
+          "@value": "Den Frie Udstilling",
+          "@language": "da"
+        },
+        {
+          "@value": "Vapaa näyttely (Kööpenhamina)",
+          "@language": "fi"
+        },
+        {
+          "@value": "Den Frie Utstilling",
+          "@language": "nb"
+        },
+        {
+          "@value": "Den Fria Utställningen (Köpenhamn)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Free Exhibition (Den Frie Udstilling)",
+          "@language": "en"
+        },
+        {
+          "@value": "Den Frie Udstilling",
+          "@language": "da"
+        },
+        {
+          "@value": "Vapaa näyttely (Kööpenhamina)",
+          "@language": "fi"
+        },
+        {
+          "@value": "Den Frie Utstilling",
+          "@language": "nb"
+        },
+        {
+          "@value": "Den Fria Utställningen (Köpenhamn)",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Independent exhibition society in Copenhagen founded in 1891 as an alternative to the official Charlottenborg exhibition; showed progressive and international art.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1891"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1910"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/munch-circle",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Edvard Munch and Nordic Expressionist Precursors",
+          "@language": "en"
+        },
+        {
+          "@value": "Edvard Munch og nordiske ekspressionistiske forløbere",
+          "@language": "da"
+        },
+        {
+          "@value": "Edvard Munch ja pohjoismaisten ekspressionismin edelläkävijät",
+          "@language": "fi"
+        },
+        {
+          "@value": "Edvard Munch og nordiske ekspresjonistiske forgjengere",
+          "@language": "nb"
+        },
+        {
+          "@value": "Edvard Munch och nordiska expressionistiska föregångare",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Edvard Munch and Nordic Expressionist Precursors",
+          "@language": "en"
+        },
+        {
+          "@value": "Edvard Munch og nordiske ekspressionistiske forløbere",
+          "@language": "da"
+        },
+        {
+          "@value": "Edvard Munch ja pohjoismaisten ekspressionismin edelläkävijät",
+          "@language": "fi"
+        },
+        {
+          "@value": "Edvard Munch og nordiske ekspresjonistiske forgjengere",
+          "@language": "nb"
+        },
+        {
+          "@value": "Edvard Munch och nordiska expressionistiska föregångare",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "The artistic circle and influence of Edvard Munch, whose psychological and symbolic work anticipated Expressionism; The Scream (1893) became an icon of modern anxiety.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1890"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1910"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/swedish-arts-crafts",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Swedish Arts and Crafts Movement",
+          "@language": "en"
+        },
+        {
+          "@value": "Svensk kunsthåndværksbevægelse",
+          "@language": "da"
+        },
+        {
+          "@value": "Ruotsalainen taidekäsityöliike",
+          "@language": "fi"
+        },
+        {
+          "@value": "Svensk kunsthåndverksbevegelse",
+          "@language": "nb"
+        },
+        {
+          "@value": "Svensk arts and crafts-rörelse",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Swedish Arts and Crafts Movement",
+          "@language": "en"
+        },
+        {
+          "@value": "Svensk kunsthåndværksbevægelse",
+          "@language": "da"
+        },
+        {
+          "@value": "Ruotsalainen taidekäsityöliike",
+          "@language": "fi"
+        },
+        {
+          "@value": "Svensk kunsthåndverksbevegelse",
+          "@language": "nb"
+        },
+        {
+          "@value": "Svensk arts and crafts-rörelse",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Swedish adaptation of the British Arts and Crafts movement promoting handcraft, good design, and collaboration between art and industry; connected to Carl and Karin Larsson.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1880"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1910"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-art-nouveau",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Nordic Art Nouveau / Jugend",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk jugendstil",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen jugend",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk jugendstil",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk jugend",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Nordic Art Nouveau / Jugend",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk jugendstil",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen jugend",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk jugendstil",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk jugend",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Art Nouveau movement in the Nordic countries, known as Jugend, emphasizing organic forms, nature motifs, and the integration of art with architecture and craft.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:closeMatch": {
+        "@id": "http://vocab.getty.edu/aat/300021430"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1890"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1915"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/swedish-jugend",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Swedish Jugend",
+          "@language": "en"
+        },
+        {
+          "@value": "Svensk jugend",
+          "@language": "da"
+        },
+        {
+          "@value": "Ruotsalainen jugend",
+          "@language": "fi"
+        },
+        {
+          "@value": "Svensk jugend",
+          "@language": "nb"
+        },
+        {
+          "@value": "Svensk jugend",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Swedish Jugend",
+          "@language": "en"
+        },
+        {
+          "@value": "Svensk jugend",
+          "@language": "da"
+        },
+        {
+          "@value": "Ruotsalainen jugend",
+          "@language": "fi"
+        },
+        {
+          "@value": "Svensk jugend",
+          "@language": "nb"
+        },
+        {
+          "@value": "Svensk jugend",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Swedish variant of Art Nouveau influenced by both Continental Jugendstil and National Romantic themes; visible in Stockholm architecture and applied arts.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-art-nouveau"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1895"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1915"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/finnish-jugend",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Finnish Jugend (National Romantic Architecture)",
+          "@language": "en"
+        },
+        {
+          "@value": "Finsk jugend",
+          "@language": "da"
+        },
+        {
+          "@value": "Suomalainen jugend",
+          "@language": "fi"
+        },
+        {
+          "@value": "Finsk jugend",
+          "@language": "nb"
+        },
+        {
+          "@value": "Finsk jugend",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Finnish Jugend (National Romantic Architecture)",
+          "@language": "en"
+        },
+        {
+          "@value": "Finsk jugend",
+          "@language": "da"
+        },
+        {
+          "@value": "Suomalainen jugend",
+          "@language": "fi"
+        },
+        {
+          "@value": "Finsk jugend",
+          "@language": "nb"
+        },
+        {
+          "@value": "Finsk jugend",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Finnish Art Nouveau blending Jugendstil with National Romantic architecture; Helsinki Central Station by Eliel Saarinen and buildings in Katajanokka exemplify the style.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-art-nouveau"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1895"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1915"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/alesund-jugend",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Ålesund Jugend",
+          "@language": "en"
+        },
+        {
+          "@value": "Ålesund jugend",
+          "@language": "da"
+        },
+        {
+          "@value": "Ålesundin jugend",
+          "@language": "fi"
+        },
+        {
+          "@value": "Ålesund jugend",
+          "@language": "nb"
+        },
+        {
+          "@value": "Ålesund jugend",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Ålesund Jugend",
+          "@language": "en"
+        },
+        {
+          "@value": "Ålesund jugend",
+          "@language": "da"
+        },
+        {
+          "@value": "Ålesundin jugend",
+          "@language": "fi"
+        },
+        {
+          "@value": "Ålesund jugend",
+          "@language": "nb"
+        },
+        {
+          "@value": "Ålesund jugend",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Distinctive concentration of Art Nouveau architecture in Ålesund, Norway, rebuilt after the 1904 fire in Jugendstil; now a UNESCO-recognized heritage area.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-art-nouveau"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1904"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1915"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-symbolism",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Nordic Symbolism",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk symbolisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen symbolismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk symbolisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk symbolism",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Nordic Symbolism",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk symbolisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen symbolismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk symbolisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk symbolism",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Symbolist movement in Scandinavian art exploring mysticism, dreams, and inner life; artists include Hugo Simberg, Vilhelm Hammershøi, and Magnus Enckell.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:closeMatch": {
+        "@id": "http://vocab.getty.edu/aat/300021479"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1890"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1910"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-expressionism",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Nordic Expressionism",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk ekspressionisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen ekspressionismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk ekspresjonisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk expressionism",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Nordic Expressionism",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk ekspressionisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen ekspressionismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk ekspresjonisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk expressionism",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Expressionist movement in Nordic art characterized by bold colors, emotional intensity, and distorted forms; influenced by Munch and connected to German Expressionism.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:closeMatch": {
+        "@id": "http://vocab.getty.edu/aat/300021505"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1905"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1940"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/swedish-grace",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Swedish Grace",
+          "@language": "en"
+        },
+        {
+          "@value": "Swedish grace",
+          "@language": "da"
+        },
+        {
+          "@value": "Swedish grace",
+          "@language": "fi"
+        },
+        {
+          "@value": "Swedish grace",
+          "@language": "nb"
+        },
+        {
+          "@value": "Swedish grace",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Swedish Grace",
+          "@language": "en"
+        },
+        {
+          "@value": "Swedish grace",
+          "@language": "da"
+        },
+        {
+          "@value": "Swedish grace",
+          "@language": "fi"
+        },
+        {
+          "@value": "Swedish grace",
+          "@language": "nb"
+        },
+        {
+          "@value": "Swedish grace",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Elegant Swedish decorative style of the 1920s blending neoclassicism with modernism; showcased at the 1925 Paris Exhibition; associated with architect-designers like Carl Malmsten.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1920"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1935"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-classicism",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Nordic Classicism (1910s–1930s)",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk klassicisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen klassismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk klassisisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk klassicism",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Nordic Classicism (1910s–1930s)",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk klassicisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen klassismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk klassisisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk klassicism",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Restrained classical architecture in the Nordic countries as a transition between National Romanticism and Functionalism; Gunnar Asplund's Stockholm Public Library is iconic.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:closeMatch": {
+        "@id": "http://vocab.getty.edu/aat/300021477"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1910"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1935"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/danish-neoclassical-revival",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Danish Neoclassical Revival",
+          "@language": "en"
+        },
+        {
+          "@value": "Dansk nyklassicistisk revival",
+          "@language": "da"
+        },
+        {
+          "@value": "Tanskalainen uusklassistinen elpyminen",
+          "@language": "fi"
+        },
+        {
+          "@value": "Dansk nyklassisistisk revival",
+          "@language": "nb"
+        },
+        {
+          "@value": "Dansk nyklassicistisk revival",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Danish Neoclassical Revival",
+          "@language": "en"
+        },
+        {
+          "@value": "Dansk nyklassicistisk revival",
+          "@language": "da"
+        },
+        {
+          "@value": "Tanskalainen uusklassistinen elpyminen",
+          "@language": "fi"
+        },
+        {
+          "@value": "Dansk nyklassisistisk revival",
+          "@language": "nb"
+        },
+        {
+          "@value": "Dansk nyklassicistisk revival",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Danish architecture of the 1910s–1920s returning to neoclassical simplicity; Hack Kampmann and Carl Petersen's Faaborg Museum exemplify the movement.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-classicism"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1915"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1930"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/finnish-classicism",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Finnish Classicism",
+          "@language": "en"
+        },
+        {
+          "@value": "Finsk klassicisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Suomalainen klassismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Finsk klassisisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Finsk klassicism",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Finnish Classicism",
+          "@language": "en"
+        },
+        {
+          "@value": "Finsk klassicisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Suomalainen klassismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Finsk klassisisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Finsk klassicism",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Brief but significant classical phase in Finnish architecture during the 1920s; early works of Alvar Aalto and J.S. Sirén's Parliament House represent the period.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-classicism"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1920"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1930"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/de-stijl-nordic-influence",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "De Stijl Influence in the Nordics",
+          "@language": "en"
+        },
+        {
+          "@value": "De Stijl-indflydelse i Norden",
+          "@language": "da"
+        },
+        {
+          "@value": "De Stijl -vaikutus Pohjoismaissa",
+          "@language": "fi"
+        },
+        {
+          "@value": "De Stijl-innflytelse i Norden",
+          "@language": "nb"
+        },
+        {
+          "@value": "De Stijl-inflytande i Norden",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "De Stijl Influence in the Nordics",
+          "@language": "en"
+        },
+        {
+          "@value": "De Stijl-indflydelse i Norden",
+          "@language": "da"
+        },
+        {
+          "@value": "De Stijl -vaikutus Pohjoismaissa",
+          "@language": "fi"
+        },
+        {
+          "@value": "De Stijl-innflytelse i Norden",
+          "@language": "nb"
+        },
+        {
+          "@value": "De Stijl-inflytande i Norden",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Impact of the Dutch De Stijl movement on Nordic abstract art and design, particularly in Swedish and Danish geometric abstraction of the interwar years.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1917"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1935"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/scandinavian-surrealism",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Scandinavian Surrealism",
+          "@language": "en"
+        },
+        {
+          "@value": "Skandinavisk surrealisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Skandinaavinen surrealismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Skandinavisk surrealisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Skandinavisk surrealism",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Scandinavian Surrealism",
+          "@language": "en"
+        },
+        {
+          "@value": "Skandinavisk surrealisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Skandinaavinen surrealismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Skandinavisk surrealisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Skandinavisk surrealism",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Surrealist tendencies in Nordic art from the 1930s onward; artists include Wilhelm Bjerke-Petersen (Denmark), Max Walter Svanberg (Sweden), and Stellan Mörner.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1930"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1950"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/halmstad-group",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Halmstad Group",
+          "@language": "en"
+        },
+        {
+          "@value": "Halmstadgruppen",
+          "@language": "da"
+        },
+        {
+          "@value": "Halmstadin ryhmä",
+          "@language": "fi"
+        },
+        {
+          "@value": "Halmstadgruppen",
+          "@language": "nb"
+        },
+        {
+          "@value": "Halmstadgruppen",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Halmstad Group",
+          "@language": "en"
+        },
+        {
+          "@value": "Halmstadgruppen",
+          "@language": "da"
+        },
+        {
+          "@value": "Halmstadin ryhmä",
+          "@language": "fi"
+        },
+        {
+          "@value": "Halmstadgruppen",
+          "@language": "nb"
+        },
+        {
+          "@value": "Halmstadgruppen",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Swedish Surrealist art group from Halmstad active from 1929; six artists including the Olson brothers who became Scandinavia's foremost Surrealist painters.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1929"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1970"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-vitalism",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Nordic Vitalism",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk vitalisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen vitalismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk vitalisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk vitalism",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Nordic Vitalism",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk vitalisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen vitalismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk vitalisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk vitalism",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Early 20th-century Nordic art movement emphasizing life force, physicality, and connection to nature; influenced by Nietzsche and visible in painting and sculpture.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1900"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1920"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/colour-realism-sweden",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Swedish Colour Realism",
+          "@language": "en"
+        },
+        {
+          "@value": "Svensk kolorisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Ruotsalainen koloriitti",
+          "@language": "fi"
+        },
+        {
+          "@value": "Svensk kolorisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Svensk kolorism",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Swedish Colour Realism",
+          "@language": "en"
+        },
+        {
+          "@value": "Svensk kolorisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Ruotsalainen koloriitti",
+          "@language": "fi"
+        },
+        {
+          "@value": "Svensk kolorisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Svensk kolorism",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Swedish interwar painting movement emphasizing rich color and solid form, influenced by Cézanne and Matisse; artists include Isaac Grünewald, Sigrid Hjertén, and Leander Engström.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1910"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1930"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-functionalism",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Nordic Functionalism (Funkis)",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk funktionalisme (funkis)",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen funktionalismi (funkis)",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk funksjonalisme (funkis)",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk funktionalism (funkis)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Nordic Functionalism (Funkis)",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk funktionalisme (funkis)",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen funktionalismi (funkis)",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk funksjonalisme (funkis)",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk funktionalism (funkis)",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Functionalist architecture and design in the Nordic countries from the late 1920s, emphasizing utility, social housing, and modern materials; funkis became colloquial across Scandinavia.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:closeMatch": {
+        "@id": "http://vocab.getty.edu/aat/300021473"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1927"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1950"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/swedish-functionalism",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Swedish Functionalism",
+          "@language": "en"
+        },
+        {
+          "@value": "Svensk funktionalisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Ruotsalainen funktionalismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Svensk funksjonalisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Svensk funktionalism",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Swedish Functionalism",
+          "@language": "en"
+        },
+        {
+          "@value": "Svensk funktionalisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Ruotsalainen funktionalismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Svensk funksjonalisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Svensk funktionalism",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Swedish Functionalism launched by the 1930 Stockholm Exhibition organized by Gunnar Asplund; the acceptera manifesto advocated rational design for modern life.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-functionalism"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1930"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1950"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/danish-functionalism",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Danish Functionalism",
+          "@language": "en"
+        },
+        {
+          "@value": "Dansk funktionalisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Tanskalainen funktionalismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Dansk funksjonalisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Dansk funktionalism",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Danish Functionalism",
+          "@language": "en"
+        },
+        {
+          "@value": "Dansk funktionalisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Tanskalainen funktionalismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Dansk funksjonalisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Dansk funktionalism",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Danish Functionalist movement in architecture and furniture design; Arne Jacobsen's Bellavista and Kay Fisker's housing projects merged social ideals with modernist aesthetics.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-functionalism"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1930"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1960"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/finnish-modernism",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Finnish Modernism (Aalto School)",
+          "@language": "en"
+        },
+        {
+          "@value": "Finsk modernisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Suomalainen modernismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Finsk modernisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Finsk modernism",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Finnish Modernism (Aalto School)",
+          "@language": "en"
+        },
+        {
+          "@value": "Finsk modernisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Suomalainen modernismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Finsk modernisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Finsk modernism",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Finnish architectural and design modernism defined by Alvar Aalto's humanistic approach, combining functionalism with organic forms, natural materials, and sensitivity to landscape.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1928"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1960"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/norwegian-modernism",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Norwegian Modernism",
+          "@language": "en"
+        },
+        {
+          "@value": "Norsk modernisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Norjalainen modernismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Norsk modernisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Norsk modernism",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Norwegian Modernism",
+          "@language": "en"
+        },
+        {
+          "@value": "Norsk modernisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Norjalainen modernismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Norsk modernisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Norsk modernism",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Modernist movement in Norwegian art and architecture; architects like Ove Bang and Knut Knutsen developed a regional modernism blending international style with Norwegian materials.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1930"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1960"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/cobra-nordic",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "CoBrA (Nordic Participants)",
+          "@language": "en"
+        },
+        {
+          "@value": "CoBrA (nordiske deltagere)",
+          "@language": "da"
+        },
+        {
+          "@value": "CoBrA (pohjoismaiset osallistujat)",
+          "@language": "fi"
+        },
+        {
+          "@value": "CoBrA (nordiske deltakere)",
+          "@language": "nb"
+        },
+        {
+          "@value": "CoBrA (nordiska deltagare)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "CoBrA (Nordic Participants)",
+          "@language": "en"
+        },
+        {
+          "@value": "CoBrA (nordiske deltagere)",
+          "@language": "da"
+        },
+        {
+          "@value": "CoBrA (pohjoismaiset osallistujat)",
+          "@language": "fi"
+        },
+        {
+          "@value": "CoBrA (nordiske deltakere)",
+          "@language": "nb"
+        },
+        {
+          "@value": "CoBrA (nordiska deltagare)",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Danish artists in the CoBrA movement (Copenhagen-Brussels-Amsterdam, 1948–1951); Asger Jorn and Carl-Henning Pedersen brought Nordic expressionist energy to avant-garde abstraction.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:closeMatch": {
+        "@id": "http://vocab.getty.edu/aat/300021482"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1948"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1951"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-concrete-art",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Nordic Concrete Art",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk konkret kunst",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen konkreettinen taide",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk konkret kunst",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk konkret konst",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Nordic Concrete Art",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk konkret kunst",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen konkreettinen taide",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk konkret kunst",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk konkret konst",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Concrete art movement in the Nordic countries featuring geometric abstraction and systematic composition; influenced by Max Bill and developed in Swedish and Danish art circles.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:closeMatch": {
+        "@id": "http://vocab.getty.edu/aat/300264837"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1945"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1970"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-constructivism",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Nordic Constructivism",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk konstruktivisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen konstruktivismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk konstruktivisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk konstruktivism",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Nordic Constructivism",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk konstruktivisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen konstruktivismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk konstruktivisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk konstruktivism",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Constructivist tendencies in Nordic art and sculpture emphasizing geometric forms and industrial materials; connected to international Constructivism and kinetic art.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1950"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1970"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/imaginisterna",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "The Imaginists (Imaginisterna)",
+          "@language": "en"
+        },
+        {
+          "@value": "Imaginisterne",
+          "@language": "da"
+        },
+        {
+          "@value": "Imaginistit",
+          "@language": "fi"
+        },
+        {
+          "@value": "Imaginistene",
+          "@language": "nb"
+        },
+        {
+          "@value": "Imaginisterna",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "The Imaginists (Imaginisterna)",
+          "@language": "en"
+        },
+        {
+          "@value": "Imaginisterne",
+          "@language": "da"
+        },
+        {
+          "@value": "Imaginistit",
+          "@language": "fi"
+        },
+        {
+          "@value": "Imaginistene",
+          "@language": "nb"
+        },
+        {
+          "@value": "Imaginisterna",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Swedish avant-garde art group founded in 1945 in Malmö, bridging Surrealism and CoBrA; members included C.O. Hultén and Max Walter Svanberg.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1945"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1956"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/linien-group",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Linien Group",
+          "@language": "en"
+        },
+        {
+          "@value": "Linien",
+          "@language": "da"
+        },
+        {
+          "@value": "Linien-ryhmä",
+          "@language": "fi"
+        },
+        {
+          "@value": "Linien-gruppen",
+          "@language": "nb"
+        },
+        {
+          "@value": "Linien-gruppen",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Linien Group",
+          "@language": "en"
+        },
+        {
+          "@value": "Linien",
+          "@language": "da"
+        },
+        {
+          "@value": "Linien-ryhmä",
+          "@language": "fi"
+        },
+        {
+          "@value": "Linien-gruppen",
+          "@language": "nb"
+        },
+        {
+          "@value": "Linien-gruppen",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Danish abstract art group and journal founded in 1934; among the first to promote pure abstraction and Surrealism in Scandinavia; precursor to CoBrA.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1934"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1940"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/finnish-informalism",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Finnish Informalism",
+          "@language": "en"
+        },
+        {
+          "@value": "Finsk informalisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Suomalainen informalismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Finsk informalisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Finsk informalism",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Finnish Informalism",
+          "@language": "en"
+        },
+        {
+          "@value": "Finsk informalisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Suomalainen informalismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Finsk informalisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Finsk informalism",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Finnish contribution to Art Informel and abstract expressionism in the 1950s–60s; artists like Juhana Blomstedt and Sam Vanni explored gestural abstraction and color-field painting.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1955"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1970"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/swedish-neo-realism",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Swedish Neo-Realism (1947 Group)",
+          "@language": "en"
+        },
+        {
+          "@value": "Svensk nyrealisme (1947-gruppen)",
+          "@language": "da"
+        },
+        {
+          "@value": "Ruotsalainen uusrealismi (1947-ryhmä)",
+          "@language": "fi"
+        },
+        {
+          "@value": "Svensk nyrealisme (1947-gruppen)",
+          "@language": "nb"
+        },
+        {
+          "@value": "Svensk nyrealism (1947 års grupp)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Swedish Neo-Realism (1947 Group)",
+          "@language": "en"
+        },
+        {
+          "@value": "Svensk nyrealisme (1947-gruppen)",
+          "@language": "da"
+        },
+        {
+          "@value": "Ruotsalainen uusrealismi (1947-ryhmä)",
+          "@language": "fi"
+        },
+        {
+          "@value": "Svensk nyrealisme (1947-gruppen)",
+          "@language": "nb"
+        },
+        {
+          "@value": "Svensk nyrealism (1947 års grupp)",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Post-war Swedish movement returning to figuration with social awareness; the 1947 Group (Torsten Andersson, Lage Lindell) reacted against pure abstraction.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1947"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1960"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/folk-art-revival",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Nordic Folk Art Revival",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk folkekunst-revival",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen kansantaiteen elpyminen",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk folkekunst-revival",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk folkkonst-revival",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Nordic Folk Art Revival",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk folkekunst-revival",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen kansantaiteen elpyminen",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk folkekunst-revival",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk folkkonst-revival",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Pan-Nordic movement to preserve and revitalize traditional folk art, textiles, and crafts; connected to National Romanticism and the emergence of the home crafts associations (hemslöjd).",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1890"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1940"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-social-realism",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Nordic Social Realism",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk socialrealisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen sosiaalinen realismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk sosialrealisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk socialrealism",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Nordic Social Realism",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk socialrealisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen sosiaalinen realismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk sosialrealisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk socialrealism",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Socially engaged realist art in the Nordic countries during the 1930s–40s, depicting workers, poverty, and solidarity; Albin Amelin in Sweden and Henrik Sørensen in Norway.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1930"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1950"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/scandinavian-design",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Scandinavian Design",
+          "@language": "en"
+        },
+        {
+          "@value": "Skandinavisk design",
+          "@language": "da"
+        },
+        {
+          "@value": "Skandinaavinen muotoilu",
+          "@language": "fi"
+        },
+        {
+          "@value": "Skandinavisk design",
+          "@language": "nb"
+        },
+        {
+          "@value": "Skandinavisk design",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Scandinavian Design",
+          "@language": "en"
+        },
+        {
+          "@value": "Skandinavisk design",
+          "@language": "da"
+        },
+        {
+          "@value": "Skandinaavinen muotoilu",
+          "@language": "fi"
+        },
+        {
+          "@value": "Skandinavisk design",
+          "@language": "nb"
+        },
+        {
+          "@value": "Skandinavisk design",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Post-war design movement emphasizing democratic design, natural materials, functionalism, and beauty of everyday objects; internationally promoted through the Design in Scandinavia touring exhibition (1954–57).",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:closeMatch": {
+        "@id": "http://vocab.getty.edu/aat/300264869"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1945"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1975"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/danish-modern",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Danish Modern",
+          "@language": "en"
+        },
+        {
+          "@value": "Dansk design (dansk moderne)",
+          "@language": "da"
+        },
+        {
+          "@value": "Tanskalainen moderni",
+          "@language": "fi"
+        },
+        {
+          "@value": "Dansk moderne",
+          "@language": "nb"
+        },
+        {
+          "@value": "Dansk modern",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Danish Modern",
+          "@language": "en"
+        },
+        {
+          "@value": "Dansk design (dansk moderne)",
+          "@language": "da"
+        },
+        {
+          "@value": "Tanskalainen moderni",
+          "@language": "fi"
+        },
+        {
+          "@value": "Dansk moderne",
+          "@language": "nb"
+        },
+        {
+          "@value": "Dansk modern",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Danish furniture and industrial design tradition of clean lines, organic forms, and superb craftsmanship; masters include Hans Wegner, Finn Juhl, Arne Jacobsen, and Børge Mogensen.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements/scandinavian-design"
+      },
+      "skos:closeMatch": {
+        "@id": "http://vocab.getty.edu/aat/300264870"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1945"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1970"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/swedish-modern",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Swedish Modern",
+          "@language": "en"
+        },
+        {
+          "@value": "Svensk moderne",
+          "@language": "da"
+        },
+        {
+          "@value": "Ruotsalainen moderni",
+          "@language": "fi"
+        },
+        {
+          "@value": "Svensk moderne",
+          "@language": "nb"
+        },
+        {
+          "@value": "Svensk modern",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Swedish Modern",
+          "@language": "en"
+        },
+        {
+          "@value": "Svensk moderne",
+          "@language": "da"
+        },
+        {
+          "@value": "Ruotsalainen moderni",
+          "@language": "fi"
+        },
+        {
+          "@value": "Svensk moderne",
+          "@language": "nb"
+        },
+        {
+          "@value": "Svensk modern",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Swedish design philosophy combining social democratic ideals with beautiful, affordable everyday goods; promoted by Gregor Paulsson's 'More Beautiful Everyday Things' (1919) and realized through IKEA and Swedish glass.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements/scandinavian-design"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1930"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1970"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/finnish-design",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Finnish Design (Marimekko, Arabia, Iittala)",
+          "@language": "en"
+        },
+        {
+          "@value": "Finsk design",
+          "@language": "da"
+        },
+        {
+          "@value": "Suomalainen muotoilu",
+          "@language": "fi"
+        },
+        {
+          "@value": "Finsk design",
+          "@language": "nb"
+        },
+        {
+          "@value": "Finsk design",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Finnish Design (Marimekko, Arabia, Iittala)",
+          "@language": "en"
+        },
+        {
+          "@value": "Finsk design",
+          "@language": "da"
+        },
+        {
+          "@value": "Suomalainen muotoilu",
+          "@language": "fi"
+        },
+        {
+          "@value": "Finsk design",
+          "@language": "nb"
+        },
+        {
+          "@value": "Finsk design",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Post-war Finnish design achieving international fame through companies like Marimekko (textiles), Arabia (ceramics), Iittala (glass), and designers like Tapio Wirkkala and Timo Sarpaneva.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements/scandinavian-design"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1945"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1975"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/scandinavian-mid-century",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Scandinavian Mid-Century Modern",
+          "@language": "en"
+        },
+        {
+          "@value": "Skandinavisk midcentury moderne",
+          "@language": "da"
+        },
+        {
+          "@value": "Skandinaavinen mid-century moderni",
+          "@language": "fi"
+        },
+        {
+          "@value": "Skandinavisk midtmoderne",
+          "@language": "nb"
+        },
+        {
+          "@value": "Skandinavisk mitten av seklet modern",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Scandinavian Mid-Century Modern",
+          "@language": "en"
+        },
+        {
+          "@value": "Skandinavisk midcentury moderne",
+          "@language": "da"
+        },
+        {
+          "@value": "Skandinaavinen mid-century moderni",
+          "@language": "fi"
+        },
+        {
+          "@value": "Skandinavisk midtmoderne",
+          "@language": "nb"
+        },
+        {
+          "@value": "Skandinavisk mitten av seklet modern",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "The peak international impact of Scandinavian design in the 1950s–60s, when Nordic furniture, glass, ceramics, and textiles became globally iconic for their organic modernism.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements/scandinavian-design"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1950"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1970"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-industrial-design",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Nordic Industrial Design",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk industrielt design",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen teollinen muotoilu",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk industridesign",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk industridesign",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Nordic Industrial Design",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk industrielt design",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen teollinen muotoilu",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk industridesign",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk industridesign",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Industrial design tradition in the Nordic countries extending Scandinavian Design principles to electronics, appliances, and transportation; Bang & Olufsen, Volvo, Saab, Nokia.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1960"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1990"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/norwegian-rosemaling-revival",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Norwegian Rosemaling Revival",
+          "@language": "en"
+        },
+        {
+          "@value": "Norsk rosemalings-revival",
+          "@language": "da"
+        },
+        {
+          "@value": "Norjalainen ruusumaalauksen elpyminen",
+          "@language": "fi"
+        },
+        {
+          "@value": "Norsk rosemalings-revival",
+          "@language": "nb"
+        },
+        {
+          "@value": "Norsk rosemålnings-revival",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Norwegian Rosemaling Revival",
+          "@language": "en"
+        },
+        {
+          "@value": "Norsk rosemalings-revival",
+          "@language": "da"
+        },
+        {
+          "@value": "Norjalainen ruusumaalauksen elpyminen",
+          "@language": "fi"
+        },
+        {
+          "@value": "Norsk rosemalings-revival",
+          "@language": "nb"
+        },
+        {
+          "@value": "Norsk rosemålnings-revival",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Post-war revival of traditional Norwegian decorative painting (rosemaling), promoted by folk art societies and Norwegian-American communities preserving heritage crafts.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1950"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1980"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/swedish-textile-art",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Swedish Textile Art Movement",
+          "@language": "en"
+        },
+        {
+          "@value": "Svensk tekstilkunstbevægelse",
+          "@language": "da"
+        },
+        {
+          "@value": "Ruotsalainen tekstiilitaideliike",
+          "@language": "fi"
+        },
+        {
+          "@value": "Svensk tekstilkunstbevegelse",
+          "@language": "nb"
+        },
+        {
+          "@value": "Svensk textilkonströrelse",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Swedish Textile Art Movement",
+          "@language": "en"
+        },
+        {
+          "@value": "Svensk tekstilkunstbevægelse",
+          "@language": "da"
+        },
+        {
+          "@value": "Ruotsalainen tekstiilitaideliike",
+          "@language": "fi"
+        },
+        {
+          "@value": "Svensk tekstilkunstbevegelse",
+          "@language": "nb"
+        },
+        {
+          "@value": "Svensk textilkonströrelse",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Elevation of textile art to fine art in post-war Sweden; artists like Märta Måås-Fjetterström and later Kaisa Melanton created monumental tapestries and weavings.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1950"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1980"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/danish-ceramic-movement",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Danish Studio Ceramic Movement",
+          "@language": "en"
+        },
+        {
+          "@value": "Dansk studiokeramikbevægelse",
+          "@language": "da"
+        },
+        {
+          "@value": "Tanskalainen studiokeramiikkaliike",
+          "@language": "fi"
+        },
+        {
+          "@value": "Dansk studiokeramikkbevegelse",
+          "@language": "nb"
+        },
+        {
+          "@value": "Dansk studiokeramikrörelse",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Danish Studio Ceramic Movement",
+          "@language": "en"
+        },
+        {
+          "@value": "Dansk studiokeramikbevægelse",
+          "@language": "da"
+        },
+        {
+          "@value": "Tanskalainen studiokeramiikkaliike",
+          "@language": "fi"
+        },
+        {
+          "@value": "Dansk studiokeramikkbevegelse",
+          "@language": "nb"
+        },
+        {
+          "@value": "Dansk studiokeramikrörelse",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Post-war Danish ceramics movement elevating studio pottery as art; Royal Copenhagen, Saxbo, and individual artists like Axel Salto and Gertrud Vasegaard gained international recognition.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1955"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1985"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-brutalism",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Nordic Brutalism",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk brutalisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen brutalismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk brutalisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk brutalism",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Nordic Brutalism",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk brutalisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen brutalismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk brutalisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk brutalism",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Brutalist architecture in the Nordic countries using raw concrete with humanistic sensitivity; examples include Bagsværd Church (Utzon) and the University of Jyväskylä buildings (Aalto).",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:closeMatch": {
+        "@id": "http://vocab.getty.edu/aat/300021562"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1955"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1975"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-pop-art",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Nordic Pop Art",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk popkunst",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen pop-taide",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk popkunst",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk popkonst",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Nordic Pop Art",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk popkunst",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen pop-taide",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk popkunst",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk popkonst",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Pop Art movement in the Nordic countries, often with political and social critique distinct from Anglo-American pop; Öyvind Fahlström (Sweden) and Per Olof Ultvedt were key figures.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1962"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1975"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-textile-design",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Nordic Textile Design",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk tekstildesign",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen tekstiilisuunnittelu",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk tekstildesign",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk textildesign",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Nordic Textile Design",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk tekstildesign",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen tekstiilisuunnittelu",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk tekstildesign",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk textildesign",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Post-war Nordic textile design characterized by bold patterns and vibrant colors; Marimekko's Maija Isola, Sweden's Josef Frank at Svenskt Tenn, and Danish designers at Georg Jensen Damask.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements/scandinavian-design"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1950"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1975"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/ergonomic-design-nordic",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Nordic Ergonomic Design",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk ergonomisk design",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen ergonominen muotoilu",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk ergonomisk design",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk ergonomisk design",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Nordic Ergonomic Design",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk ergonomisk design",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen ergonominen muotoilu",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk ergonomisk design",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk ergonomisk design",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Nordic emphasis on ergonomics and human-centered design in furniture, tools, and workspaces; Scandinavian office design and Peter Opsvik's Balans chairs exemplify the tradition.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1970"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1995"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/finnish-architecture-postwar",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Post-war Finnish Architecture",
+          "@language": "en"
+        },
+        {
+          "@value": "Efterkrigstidens finske arkitektur",
+          "@language": "da"
+        },
+        {
+          "@value": "Sodanjälkeinen suomalainen arkkitehtuuri",
+          "@language": "fi"
+        },
+        {
+          "@value": "Etterkrigstidens finske arkitektur",
+          "@language": "nb"
+        },
+        {
+          "@value": "Efterkrigstidens finska arkitektur",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Post-war Finnish Architecture",
+          "@language": "en"
+        },
+        {
+          "@value": "Efterkrigstidens finske arkitektur",
+          "@language": "da"
+        },
+        {
+          "@value": "Sodanjälkeinen suomalainen arkkitehtuuri",
+          "@language": "fi"
+        },
+        {
+          "@value": "Etterkrigstidens finske arkitektur",
+          "@language": "nb"
+        },
+        {
+          "@value": "Efterkrigstidens finska arkitektur",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Finnish post-war architecture continuing Aalto's organic modernism; Viljo Revell (Toronto City Hall), Reima Pietilä (Dipoli), and Timo Penttilä developed a distinctive national modernism.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1950"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1980"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-landscape-architecture",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Nordic Landscape Architecture",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk landskabsarkitektur",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen maisema-arkkitehtuuri",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk landskapsarkitektur",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk landskapsarkitektur",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Nordic Landscape Architecture",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk landskabsarkitektur",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen maisema-arkkitehtuuri",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk landskapsarkitektur",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk landskapsarkitektur",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Post-war Nordic landscape design tradition emphasizing naturalistic planting, public parks, and democratic outdoor spaces; C.Th. Sørensen's adventure playgrounds pioneered participatory design.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1945"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "1980"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-noir-aesthetic",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Nordic Noir (Aesthetic)",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordic noir (æstetik)",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen noir (estetiikka)",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk noir (estetikk)",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk noir (estetik)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Nordic Noir (Aesthetic)",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordic noir (æstetik)",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen noir (estetiikka)",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk noir (estetikk)",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk noir (estetik)",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Visual and narrative aesthetic originating in Scandinavian crime fiction and TV; characterized by dark palettes, austere landscapes, and minimalist interiors reflecting social critique.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1990"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "2025"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/new-nordic-design",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "New Nordic (Design Philosophy)",
+          "@language": "en"
+        },
+        {
+          "@value": "Ny nordisk design",
+          "@language": "da"
+        },
+        {
+          "@value": "Uusi pohjoismainen muotoilu",
+          "@language": "fi"
+        },
+        {
+          "@value": "Ny nordisk design",
+          "@language": "nb"
+        },
+        {
+          "@value": "Ny nordisk design",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "New Nordic (Design Philosophy)",
+          "@language": "en"
+        },
+        {
+          "@value": "Ny nordisk design",
+          "@language": "da"
+        },
+        {
+          "@value": "Uusi pohjoismainen muotoilu",
+          "@language": "fi"
+        },
+        {
+          "@value": "Ny nordisk design",
+          "@language": "nb"
+        },
+        {
+          "@value": "Ny nordisk design",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "21st-century Nordic design philosophy emphasizing sustainability, local materials, and cultural identity; extends from New Nordic cuisine to architecture and product design.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "2000"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "2025"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/scandinavian-minimalism",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Scandinavian Minimalism",
+          "@language": "en"
+        },
+        {
+          "@value": "Skandinavisk minimalisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Skandinaavinen minimalismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Skandinavisk minimalisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Skandinavisk minimalism",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Scandinavian Minimalism",
+          "@language": "en"
+        },
+        {
+          "@value": "Skandinavisk minimalisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Skandinaavinen minimalismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Skandinavisk minimalisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Skandinavisk minimalism",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Contemporary minimalist design and lifestyle aesthetic rooted in Scandinavian design traditions; characterized by white spaces, natural materials, and lagom (just enough) philosophy.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1990"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "2025"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-contemporary-art",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Nordic Contemporary Art",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk samtidskunst",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen nykytaide",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk samtidskunst",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk samtidskonst",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Nordic Contemporary Art",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk samtidskunst",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen nykytaide",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk samtidskunst",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk samtidskonst",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Contemporary art scene in the Nordic countries, internationally prominent through artists like Olafur Eliasson, Ragnar Kjartansson, and institutions like Moderna Museet and Louisiana.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1990"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "2025"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-light-photography",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Nordic Light (Photography Movement)",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk lys (fotografi)",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen valo (valokuvaus)",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk lys (fotografi)",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordiskt ljus (fotografi)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Nordic Light (Photography Movement)",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk lys (fotografi)",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen valo (valokuvaus)",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk lys (fotografi)",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordiskt ljus (fotografi)",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Nordic photography movement exploring the distinctive quality of northern light; the Nordic Light photography festival in Kristiansund and Helsinki School of photography.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1985"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "2025"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/superflat-nordic",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Superflat Nordic",
+          "@language": "en"
+        },
+        {
+          "@value": "Superflat nordisk",
+          "@language": "da"
+        },
+        {
+          "@value": "Superflat pohjoismainen",
+          "@language": "fi"
+        },
+        {
+          "@value": "Superflat nordisk",
+          "@language": "nb"
+        },
+        {
+          "@value": "Superflat nordisk",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Superflat Nordic",
+          "@language": "en"
+        },
+        {
+          "@value": "Superflat nordisk",
+          "@language": "da"
+        },
+        {
+          "@value": "Superflat pohjoismainen",
+          "@language": "fi"
+        },
+        {
+          "@value": "Superflat nordisk",
+          "@language": "nb"
+        },
+        {
+          "@value": "Superflat nordisk",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Nordic artists engaging with flat surface aesthetics, digital culture, and post-internet art; blending Scandinavian graphic design traditions with contemporary global art discourse.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "2005"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "2025"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-sustainable-design",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Nordic Sustainable Design",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk bæredygtigt design",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen kestävä muotoilu",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk bærekraftig design",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk hållbar design",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Nordic Sustainable Design",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk bæredygtigt design",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen kestävä muotoilu",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk bærekraftig design",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk hållbar design",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Design movement prioritizing circular economy, sustainable materials, and environmental responsibility in the Nordic tradition; extends from architecture to fashion and industrial design.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "2010"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "2025"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-neo-expressionism",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Nordic Neo-Expressionism",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk nyekspressionisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen uusekspressionismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk nyekspresjonisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk nyexpressionism",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Nordic Neo-Expressionism",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk nyekspressionisme",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen uusekspressionismi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk nyekspresjonisme",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk nyexpressionism",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Return to figurative, emotionally charged painting in the Nordic countries during the 1980s; part of the international Neo-Expressionist wave; artists include Per Kirkeby and Odd Nerdrum.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1980"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "2000"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/helsinki-school",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Helsinki School (Photography)",
+          "@language": "en"
+        },
+        {
+          "@value": "Helsinkiskolen (fotografi)",
+          "@language": "da"
+        },
+        {
+          "@value": "Helsinki-koulu (valokuvaus)",
+          "@language": "fi"
+        },
+        {
+          "@value": "Helsinkiskolen (fotografi)",
+          "@language": "nb"
+        },
+        {
+          "@value": "Helsingforsskolan (fotografi)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Helsinki School (Photography)",
+          "@language": "en"
+        },
+        {
+          "@value": "Helsinkiskolen (fotografi)",
+          "@language": "da"
+        },
+        {
+          "@value": "Helsinki-koulu (valokuvaus)",
+          "@language": "fi"
+        },
+        {
+          "@value": "Helsinkiskolen (fotografi)",
+          "@language": "nb"
+        },
+        {
+          "@value": "Helsingforsskolan (fotografi)",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Finnish contemporary photography movement originating at the University of Art and Design Helsinki; known for large-scale, contemplative images; artists include Elina Brotherus and Esko Männikkö.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "1995"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "2025"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-art-movements/nordic-parametric-architecture",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Nordic Parametric Architecture",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk parametrisk arkitektur",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen parametrinen arkkitehtuuri",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk parametrisk arkitektur",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk parametrisk arkitektur",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Nordic Parametric Architecture",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk parametrisk arkitektur",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen parametrinen arkkitehtuuri",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk parametrisk arkitektur",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk parametrisk arkitektur",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Computational and parametric architecture in the Nordic countries; firms like BIG (Bjarke Ingels Group), Snøhetta, and 3XN use algorithmic design for innovative public buildings.",
+        "@language": "en"
+      },
+      "skos:inScheme": {
+        "@id": "https://metadatahub.eu/data/nordic-art-movements"
+      },
+      "time:hasBeginning": {
+        "time:inXSDgYear": "2005"
+      },
+      "time:hasEnd": {
+        "time:inXSDgYear": "2025"
+      },
+      "dcterms:source": "https://en.wikipedia.org/wiki/Nordic_art"
+    }
+  ]
+}

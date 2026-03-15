@@ -1,0 +1,248 @@
+# Nordic Nature and Landscape Subjects
+
+# ── Top-level category ──
+
+- id: nordic-nature
+  labels:
+    en: Nordic nature and landscape
+    sv: Nordisk natur och landskap
+    fi: Pohjoismainen luonto ja maisema
+    da: Nordisk natur og landskab
+    nb: Nordisk natur og landskap
+    is: Norræn náttúra og landslag
+  description: "Natural phenomena, landscapes, and environmental subjects characteristic of the Nordic countries, frequently depicted in Scandinavian and Finnish art from Romanticism to the present."
+
+- id: nordic-light
+  broader: nordic-nature
+  labels:
+    en: Nordic light phenomena
+    sv: Nordiska ljusfenomen
+    fi: Pohjoismaiset valofenomenit
+    da: Nordiske lysfænomener
+    nb: Nordiske lysfenomener
+  description: "Atmospheric and celestial light phenomena characteristic of high-latitude Nordic regions, central subjects in Nordic landscape painting and photography."
+
+- id: nordic-terrain
+  broader: nordic-nature
+  labels:
+    en: Nordic terrain and landforms
+    sv: Nordiska terrängformer
+    fi: Pohjoismaiset maastonmuodot
+    da: Nordiske terrænformer
+    nb: Nordiske terrengformer
+  description: "Distinctive geological and geographical landforms of the Nordic countries, shaped by glaciation, volcanism, and coastal processes."
+
+# ── Light Phenomena ──
+
+- id: midnight-sun
+  broader: nordic-light
+  aat_uri: "http://vocab.getty.edu/aat/300264567"
+  labels:
+    en: Midnight sun
+    sv: Midnattssol
+    fi: Keskiyön aurinko
+    da: Midnatssol
+    nb: Midnattssol
+    is: Miðnætursól
+  description: "Natural phenomenon occurring above the Arctic Circle where the sun remains visible at midnight during summer months. A defining subject of Nordic landscape art, painted by artists from Peder Balke to contemporary photographers."
+
+- id: aurora-borealis
+  broader: nordic-light
+  aat_uri: "http://vocab.getty.edu/aat/300264566"
+  labels:
+    en: Aurora borealis / Northern lights
+    sv: Norrsken
+    fi: Revontulet
+    da: Nordlys
+    nb: Nordlys
+    is: Norðurljós
+    se: Guovssahas
+  description: "Luminous atmospheric phenomenon caused by charged solar particles interacting with Earth's magnetic field, producing curtains and arcs of green, purple, and red light. In Finnish folklore, 'revontulet' means fox fires."
+
+- id: nordic-winter-light
+  broader: nordic-light
+  labels:
+    en: Nordic winter light
+    sv: Nordiskt vinterljus
+    fi: Pohjoismainen talvivalo
+    da: Nordisk vinterlys
+    nb: Nordisk vinterlys
+  description: "The characteristic low-angle, blue-toned light of Nordic winter, including the polar twilight (mørketid/kaamos) and the brief golden hours of midwinter days. A central atmospheric quality in Scandinavian painting."
+
+- id: nordic-summer-light
+  broader: nordic-light
+  labels:
+    en: Nordic summer light
+    sv: Nordiskt sommarljus
+    fi: Pohjoismainen kesävalo
+    da: Nordisk sommerlys
+    nb: Nordisk sommerlys
+  description: "The extended daylight and luminous quality of Nordic summer nights, from the white nights of southern Scandinavia to the midnight sun above the Arctic Circle. Celebrated in art from the Skagen painters to contemporary works."
+
+# ── Water Landscapes ──
+
+- id: fjord
+  broader: nordic-terrain
+  aat_uri: "http://vocab.getty.edu/aat/300008745"
+  labels:
+    en: Fjord
+    sv: Fjord
+    fi: Vuono
+    da: Fjord
+    nb: Fjord
+    is: Fjörður
+  description: "A long, narrow, deep inlet of the sea between high cliffs, formed by glacial erosion. Particularly characteristic of the Norwegian coast but also found in Iceland, Greenland, and western Sweden. Among the most iconic Nordic landscape subjects."
+
+- id: archipelago
+  broader: nordic-terrain
+  labels:
+    en: Archipelago
+    sv: Skärgård
+    fi: Saaristo
+    da: Skærgård
+    nb: Skjærgård
+  description: "Chains of islands and skerries along the Nordic coasts, particularly the Stockholm, Finnish, and Turku archipelagos. Comprising thousands of rocky islands of varying sizes, the archipelago landscape is central to Swedish and Finnish coastal culture and art."
+
+- id: forest-lake
+  broader: nordic-terrain
+  labels:
+    en: Forest lake
+    sv: Skogstjärn
+    fi: Metsäjärvi
+    da: Skovsø
+    nb: Skogstjern
+  description: "Still inland lakes surrounded by boreal forest, characteristic of the Finnish and Swedish lake districts. Finland alone has over 187,000 lakes. A quintessential motif in Finnish and Scandinavian landscape painting."
+
+- id: waterfall
+  broader: nordic-terrain
+  aat_uri: "http://vocab.getty.edu/aat/300008736"
+  labels:
+    en: Waterfall
+    sv: Vattenfall
+    fi: Vesiputous
+    da: Vandfald
+    nb: Foss
+    is: Foss
+  description: "Cascading water features common across the Nordic landscape, from Norway's dramatic mountain falls to Iceland's glacial cataracts. Subject of Romantic-era painters including J.C. Dahl and Peder Balke."
+
+- id: skerry
+  broader: nordic-terrain
+  labels:
+    en: Skerry
+    sv: Skär
+    fi: Kari
+    da: Skær
+    nb: Skjær
+    is: Sker
+  description: "Small, rocky islands or reefs too small for habitation, formed by glacial scouring. Characteristic of the Nordic coastline, particularly the Swedish and Finnish archipelagos. A frequent subject in Nordic marine painting."
+
+- id: strandflat
+  broader: nordic-terrain
+  labels:
+    en: Strandflat
+    sv: Strandflata
+    fi: Rantatasanko
+    da: Strandfladen
+    nb: Strandflaten
+  description: "A distinctive coastal platform of low, flat rock found along the Norwegian coast, formed by frost weathering and wave erosion. Creates a characteristic low-profile coastal landscape dotted with small islands and shoals."
+
+# ── Mountain and Forest Landscapes ──
+
+- id: fjall
+  broader: nordic-terrain
+  labels:
+    en: Fjäll / Mountain landscape
+    sv: Fjäll
+    fi: Tunturi
+    da: Fjeld
+    nb: Fjell
+    is: Fjall
+  description: "High mountain terrain above the tree line in Scandinavia, characterized by barren, rounded plateaus with alpine vegetation, snow patches, and wide vistas. The Scandinavian mountain chain (Scandes) forms the spine of the peninsula."
+
+- id: birch-forest
+  broader: nordic-terrain
+  labels:
+    en: Birch forest
+    sv: Björkskog
+    fi: Koivumetsä
+    da: Birkeskov
+    nb: Bjørkeskog
+    is: Birkiskógur
+  description: "Forests dominated by birch trees (Betula), forming the tree line across much of northern Scandinavia and Iceland. The silver birch and downy birch create luminous, airy woodlands celebrated in Nordic art and literature."
+
+- id: boreal-forest
+  broader: nordic-terrain
+  labels:
+    en: Boreal forest / Taiga
+    sv: Barrskog / Taiga
+    fi: Havumetsä / Taiga
+    da: Nåleskov / Taiga
+    nb: Barskog / Taiga
+  description: "The vast coniferous forests of spruce and pine that cover much of Sweden, Finland, and Norway. The taiga represents one of the world's largest biomes and provides the dominant landscape character of inland Scandinavia and Finland."
+
+- id: tundra-fell
+  broader: nordic-terrain
+  labels:
+    en: Tundra / Fell landscape
+    sv: Tundra / Fjällandskap
+    fi: Tundra / Tunturimaisema
+    da: Tundra / Fjeldlandskab
+    nb: Tundra / Fjelllandskap
+  description: "Treeless Arctic and subarctic landscapes with permafrost, lichens, mosses, and dwarf shrubs. Found in northernmost Scandinavia, Iceland, and Svalbard. Sámi reindeer herding grounds for millennia."
+
+- id: bog-mire
+  broader: nordic-terrain
+  labels:
+    en: Bog / Mire
+    sv: Myr / Mosse
+    fi: Suo
+    da: Mose
+    nb: Myr
+  description: "Peatland wetlands prevalent across Scandinavia and Finland, from raised bogs to aapa mires. Finland is one of the most mire-rich countries in the world. Bogs have preserved Viking Age and Iron Age artifacts and bog bodies."
+
+# ── Coastal and Marine ──
+
+- id: coastal-cliff
+  broader: nordic-terrain
+  labels:
+    en: Coastal cliff
+    sv: Strandklippa
+    fi: Merenrantakallio
+    da: Kystklint
+    nb: Sjøklippe
+    is: Sjávarhamrar
+  description: "Dramatic sea cliffs found along Nordic coastlines, from the North Cape of Norway to the bird cliffs of Iceland and the Faroe Islands. Subject of sublime Romantic landscape painting by artists such as Peder Balke."
+
+- id: arctic-ice
+  broader: nordic-terrain
+  labels:
+    en: Arctic ice
+    sv: Arktisk is
+    fi: Arktinen jää
+    da: Arktisk is
+    nb: Arktisk is
+    is: Norðurheimskautsis
+  description: "Sea ice, icebergs, glaciers, and frozen landscapes of the Arctic regions connected to Nordic countries, including Svalbard, Greenland, and northern Iceland. A subject of exploration art and contemporary climate-focused works."
+
+- id: glacier
+  broader: nordic-terrain
+  aat_uri: "http://vocab.getty.edu/aat/300008746"
+  labels:
+    en: Glacier
+    sv: Glaciär
+    fi: Jäätikkö
+    da: Gletsjer
+    nb: Isbre
+    is: Jökull
+  description: "Ice masses found in Norway (Jostedalsbreen), Iceland (Vatnajökull), and Svalbard. Glaciers have shaped the entire Nordic landscape through repeated ice ages and remain iconic subjects in Nordic nature art."
+
+- id: volcanic-landscape
+  broader: nordic-terrain
+  labels:
+    en: Volcanic landscape
+    sv: Vulkaniskt landskap
+    fi: Vulkaaninen maisema
+    da: Vulkansk landskab
+    nb: Vulkansk landskap
+    is: Eldfjallahraun
+  description: "Landscapes shaped by volcanic activity, particularly in Iceland with its lava fields, geysers, hot springs, and active volcanoes. Iceland's volcanic terrain has inspired artists from the saga writers to contemporary photographers."

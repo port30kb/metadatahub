@@ -17,6 +17,13 @@ echo "=== Building metadatahub.eu ==="
 echo "[1/4] Generating data files..."
 python3 "$SCRIPT_DIR/generate-geologic-timescale.py"
 python3 "$SCRIPT_DIR/generate-example-data.py"
+python3 "$SCRIPT_DIR/generate-nordic-techniques.py"
+python3 "$SCRIPT_DIR/generate-nordic-institutions.py"
+python3 "$SCRIPT_DIR/generate-nordic-places.py"
+python3 "$SCRIPT_DIR/generate-nordic-art-movements.py"
+python3 "$SCRIPT_DIR/generate-nordic-rights.py"
+python3 "$SCRIPT_DIR/generate-nordic-iconography.py"
+python3 "$SCRIPT_DIR/generate-nordic-mappings.py"
 
 # Step 2: Build Hugo site
 echo "[2/4] Building Hugo site..."

@@ -1,0 +1,273 @@
+# Finnish Finna subject/object types → Getty AAT mappings
+# Finna: https://finna.fi/
+# AAT: http://vocab.getty.edu/aat/
+
+- id: finna-maalaus-aat
+  source_system: finna
+  source_uri: "https://finto.fi/yso/fi/p4932"
+  source_label: "maalaus"
+  source_lang: fi
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300033618"
+  target_label: paintings
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Painting (Finna/YSO → AAT)"
+    sv: "Målning (Finna/YSO → AAT)"
+  description: "Direct equivalence for painted artworks."
+
+- id: finna-veistos-aat
+  source_system: finna
+  source_uri: "https://finto.fi/yso/fi/p10541"
+  source_label: "veistos"
+  source_lang: fi
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300047090"
+  target_label: sculpture
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Sculpture (Finna/YSO → AAT)"
+    sv: "Skulptur (Finna/YSO → AAT)"
+  description: "Direct equivalence for sculptural works."
+
+- id: finna-piirustus-aat
+  source_system: finna
+  source_uri: "https://finto.fi/yso/fi/p6774"
+  source_label: "piirustus"
+  source_lang: fi
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300033973"
+  target_label: drawings
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Drawing (Finna/YSO → AAT)"
+    sv: "Teckning (Finna/YSO → AAT)"
+  description: "Direct equivalence for drawn works."
+
+- id: finna-grafiikka-aat
+  source_system: finna
+  source_uri: "https://finto.fi/yso/fi/p15621"
+  source_label: "grafiikka"
+  source_lang: fi
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300041273"
+  target_label: prints
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Graphic art (Finna/YSO → AAT)"
+    sv: "Grafik (Finna/YSO → AAT)"
+  description: "Direct equivalence for graphic art and prints."
+
+- id: finna-valokuva-aat
+  source_system: finna
+  source_uri: "https://finto.fi/yso/fi/p4890"
+  source_label: "valokuva"
+  source_lang: fi
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300046300"
+  target_label: photographs
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Photograph (Finna/YSO → AAT)"
+    sv: "Fotografi (Finna/YSO → AAT)"
+  description: "Direct equivalence for photographic works."
+
+- id: finna-keramiikka-aat
+  source_system: finna
+  source_uri: "https://finto.fi/yso/fi/p9227"
+  source_label: "keramiikka"
+  source_lang: fi
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300151343"
+  target_label: ceramics
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Ceramics (Finna/YSO → AAT)"
+    sv: "Keramik (Finna/YSO → AAT)"
+  description: "Direct equivalence for ceramic objects."
+
+- id: finna-tekstiili-aat
+  source_system: finna
+  source_uri: "https://finto.fi/yso/fi/p7862"
+  source_label: "tekstiili"
+  source_lang: fi
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300014063"
+  target_label: textiles
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Textile (Finna/YSO → AAT)"
+    sv: "Textil (Finna/YSO → AAT)"
+  description: "Direct equivalence for textile objects."
+
+- id: finna-kolikko-aat
+  source_system: finna
+  source_uri: "https://finto.fi/yso/fi/p19622"
+  source_label: "kolikko"
+  source_lang: fi
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300037222"
+  target_label: coins
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Coin (Finna/YSO → AAT)"
+    sv: "Mynt (Finna/YSO → AAT)"
+  description: "Direct equivalence for numismatic objects."
+
+- id: finna-koru-aat
+  source_system: finna
+  source_uri: "https://finto.fi/yso/fi/p7028"
+  source_label: "koru"
+  source_lang: fi
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300209286"
+  target_label: jewelry
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Jewelry (Finna/YSO → AAT)"
+    sv: "Smycke (Finna/YSO → AAT)"
+  description: "Direct equivalence for jewelry and personal ornaments."
+
+- id: finna-ase-aat
+  source_system: finna
+  source_uri: "https://finto.fi/yso/fi/p1396"
+  source_label: "ase"
+  source_lang: fi
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300036926"
+  target_label: weapons
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Weapon (Finna/YSO → AAT)"
+    sv: "Vapen (Finna/YSO → AAT)"
+  description: "Direct equivalence for weapons."
+
+- id: finna-huonekalu-aat
+  source_system: finna
+  source_uri: "https://finto.fi/yso/fi/p2787"
+  source_label: "huonekalu"
+  source_lang: fi
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300037680"
+  target_label: furniture
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Furniture (Finna/YSO → AAT)"
+    sv: "Möbel (Finna/YSO → AAT)"
+  description: "Direct equivalence for furniture objects."
+
+- id: finna-lasi-aat
+  source_system: finna
+  source_uri: "https://finto.fi/yso/fi/p9229"
+  source_label: "lasi"
+  source_lang: fi
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300010898"
+  target_label: glass
+  match_type: closeMatch
+  confidence: high
+  labels:
+    en: "Glass (Finna/YSO → AAT)"
+    sv: "Glas (Finna/YSO → AAT)"
+  description: "Close match; Finna 'lasi' covers glass objects and glass as material."
+
+- id: finna-soitin-aat
+  source_system: finna
+  source_uri: "https://finto.fi/yso/fi/p1888"
+  source_label: "soitin"
+  source_lang: fi
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300041620"
+  target_label: musical instruments
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Musical instrument (Finna/YSO → AAT)"
+    sv: "Musikinstrument (Finna/YSO → AAT)"
+  description: "Direct equivalence for musical instruments."
+
+- id: finna-kartta-aat
+  source_system: finna
+  source_uri: "https://finto.fi/yso/fi/p3428"
+  source_label: "kartta"
+  source_lang: fi
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300028094"
+  target_label: maps
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Map (Finna/YSO → AAT)"
+    sv: "Karta (Finna/YSO → AAT)"
+  description: "Direct equivalence for cartographic objects."
+
+- id: finna-tyokalu-aat
+  source_system: finna
+  source_uri: "https://finto.fi/yso/fi/p6045"
+  source_label: "työkalu"
+  source_lang: fi
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300024841"
+  target_label: tools
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Tool (Finna/YSO → AAT)"
+    sv: "Verktyg (Finna/YSO → AAT)"
+  description: "Direct equivalence for hand tools and implements."
+
+- id: finna-ikoni-aat
+  source_system: finna
+  source_uri: "https://finto.fi/yso/fi/p6629"
+  source_label: "ikoni"
+  source_lang: fi
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300263063"
+  target_label: icons
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Icon (Finna/YSO → AAT)"
+    sv: "Ikon (Finna/YSO → AAT)"
+  description: "Direct equivalence for religious icon paintings. Finnish museums have notable Orthodox icon collections."
+
+- id: finna-muinaisesine-aat
+  source_system: finna
+  source_uri: "https://finto.fi/yso/fi/p10765"
+  source_label: "muinaisesine"
+  source_lang: fi
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300117127"
+  target_label: archaeological objects
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Ancient artifact (Finna/YSO → AAT)"
+    sv: "Fornfynd (Finna/YSO → AAT)"
+  description: "Direct equivalence for archaeological artifacts and ancient objects."
+
+- id: finna-puku-aat
+  source_system: finna
+  source_uri: "https://finto.fi/yso/fi/p3466"
+  source_label: "puku"
+  source_lang: fi
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300209261"
+  target_label: costume
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Costume (Finna/YSO → AAT)"
+    sv: "Dräkt (Finna/YSO → AAT)"
+  description: "Direct equivalence for costume and clothing."

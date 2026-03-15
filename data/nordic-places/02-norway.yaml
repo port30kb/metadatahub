@@ -1,0 +1,420 @@
+# ═══════════════════════════════════════════════════════════════
+# Nordic Place Name Authority — Norway
+# Country, historical regions, major cities, towns,
+# and archaeological sites.
+# ═══════════════════════════════════════════════════════════════
+
+# ── Country ──────────────────────────────────────────────────
+
+- id: norway
+  type: country
+  labels:
+    en: Norway
+    nb: Norge
+    nn: Noreg
+    se: Norga
+  alt_labels:
+    en: ["Kingdom of Norway"]
+    nb: ["Kongeriket Norge"]
+    nn: ["Kongeriket Noreg"]
+  lat: 62.0
+  lon: 10.0
+  geonames_uri: "http://sws.geonames.org/3144096/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q20"
+  description: "Nordic country on the western Scandinavian Peninsula. Known for its fjords, oil wealth, and Viking heritage."
+
+# ── Historical/Geographic Regions ────────────────────────────
+
+- id: ostlandet
+  type: region
+  broader: norway
+  labels:
+    en: Eastern Norway
+    nb: Østlandet
+    nn: Austlandet
+  lat: 60.50
+  lon: 10.75
+  wikidata_uri: "http://www.wikidata.org/entity/Q50613"
+  description: "Most populous region of Norway, including the capital Oslo and the inland valleys."
+
+- id: vestlandet
+  type: region
+  broader: norway
+  labels:
+    en: Western Norway
+    nb: Vestlandet
+    nn: Vestlandet
+  lat: 61.00
+  lon: 6.00
+  wikidata_uri: "http://www.wikidata.org/entity/Q50614"
+  description: "Region of fjords and mountains along Norway's western coast. Includes Bergen and Stavanger."
+
+- id: trondelag
+  type: region
+  broader: norway
+  labels:
+    en: Trøndelag
+    nb: Trøndelag
+    nn: Trøndelag
+  lat: 63.80
+  lon: 12.00
+  geonames_uri: "http://sws.geonames.org/3133896/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q50615"
+  description: "Central Norwegian region around the Trondheimsfjord. Historic heartland with Nidaros Cathedral."
+
+- id: nord-norge
+  type: region
+  broader: norway
+  labels:
+    en: Northern Norway
+    nb: Nord-Norge
+    nn: Nord-Noreg
+  lat: 69.00
+  lon: 18.00
+  wikidata_uri: "http://www.wikidata.org/entity/Q50616"
+  description: "Norway's Arctic region. Includes Tromsø, the Lofoten Islands, and Finnmark."
+
+- id: sorlandet
+  type: region
+  broader: norway
+  labels:
+    en: Southern Norway
+    nb: Sørlandet
+    nn: Sørlandet
+  lat: 58.30
+  lon: 8.00
+  wikidata_uri: "http://www.wikidata.org/entity/Q50617"
+  description: "Southern coastal region of Norway. Known as the Norwegian Riviera for its summer tourism."
+
+- id: telemark
+  type: region
+  broader: norway
+  labels:
+    en: Telemark
+    nb: Telemark
+  lat: 59.40
+  lon: 8.50
+  geonames_uri: "http://sws.geonames.org/3134697/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q50618"
+  description: "Historical region in southern Norway. Known for the Telemark Canal and the birthplace of modern skiing."
+
+- id: nordland
+  type: region
+  broader: norway
+  labels:
+    en: Nordland
+    nb: Nordland
+  lat: 67.00
+  lon: 15.00
+  geonames_uri: "http://sws.geonames.org/3144094/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q50619"
+  description: "County in northern Norway spanning both sides of the Arctic Circle. Home to the Lofoten Islands."
+
+- id: finnmark
+  type: region
+  broader: norway
+  labels:
+    en: Finnmark
+    nb: Finnmark
+    se: Finnmárku
+  lat: 70.50
+  lon: 26.00
+  geonames_uri: "http://sws.geonames.org/3156564/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q50621"
+  description: "Norway's northernmost and easternmost region. Large Sámi population. Borders Russia and Finland."
+
+- id: troms
+  type: region
+  broader: norway
+  labels:
+    en: Troms
+    nb: Troms
+    se: Romsa
+  lat: 69.30
+  lon: 18.50
+  geonames_uri: "http://sws.geonames.org/3133897/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q50620"
+  description: "County in northern Norway. Home to Tromsø, the largest city in the Arctic."
+
+- id: rogaland
+  type: region
+  broader: norway
+  labels:
+    en: Rogaland
+    nb: Rogaland
+  lat: 59.00
+  lon: 6.00
+  geonames_uri: "http://sws.geonames.org/3141558/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q50622"
+  description: "County in southwestern Norway. Centre of the Norwegian petroleum industry."
+
+- id: hordaland
+  type: region
+  broader: norway
+  labels:
+    en: Hordaland
+    nb: Hordaland
+  lat: 60.50
+  lon: 6.00
+  geonames_uri: "http://sws.geonames.org/3151864/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q50623"
+  description: "Historical county in western Norway centred on Bergen. Now part of Vestland county."
+
+# ── Major Cities ─────────────────────────────────────────────
+
+- id: oslo
+  type: city
+  broader: ostlandet
+  labels:
+    en: Oslo
+    nb: Oslo
+  historical_labels:
+    nb: ["Kristiania", "Christiania"]
+  alt_labels:
+    nb: ["Tigerstaden"]
+  lat: 59.9139
+  lon: 10.7522
+  geonames_uri: "http://sws.geonames.org/3143244/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q585"
+  description: "Capital of Norway, founded c. 1040. Known as Kristiania/Christiania from 1624 to 1925."
+
+- id: bergen
+  type: city
+  broader: hordaland
+  labels:
+    en: Bergen
+    nb: Bergen
+  lat: 60.3913
+  lon: 5.3221
+  geonames_uri: "http://sws.geonames.org/3161732/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q36600"
+  description: "Second-largest city in Norway. Major Hanseatic trading post. UNESCO-listed Bryggen wharf."
+
+- id: trondheim
+  type: city
+  broader: trondelag
+  labels:
+    en: Trondheim
+    nb: Trondheim
+  historical_labels:
+    nb: ["Nidaros", "Trondhjem"]
+  lat: 63.4305
+  lon: 10.3951
+  geonames_uri: "http://sws.geonames.org/3133880/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25804"
+  description: "Third-largest city in Norway. Founded as Nidaros by Olav Tryggvason in 997. Home to Nidaros Cathedral."
+
+- id: stavanger
+  type: city
+  broader: rogaland
+  labels:
+    en: Stavanger
+    nb: Stavanger
+  lat: 58.9700
+  lon: 5.7331
+  geonames_uri: "http://sws.geonames.org/3137115/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25416"
+  description: "Oil capital of Norway. Historic city with the oldest cathedral in Norway (c. 1125)."
+
+- id: tromso
+  type: city
+  broader: troms
+  labels:
+    en: Tromsø
+    nb: Tromsø
+    se: Romssa
+  lat: 69.6496
+  lon: 18.9560
+  geonames_uri: "http://sws.geonames.org/3133895/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25474"
+  description: "Largest city in northern Norway. Known as the Gateway to the Arctic and for the Arctic Cathedral."
+
+- id: bodo
+  type: city
+  broader: nordland
+  labels:
+    en: Bodø
+    nb: Bodø
+  lat: 67.2804
+  lon: 14.4049
+  geonames_uri: "http://sws.geonames.org/3160876/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25473"
+  description: "City in Nordland just north of the Arctic Circle. Gateway to the Lofoten Islands."
+
+- id: kristiansand
+  type: city
+  broader: sorlandet
+  labels:
+    en: Kristiansand
+    nb: Kristiansand
+  lat: 58.1599
+  lon: 8.0182
+  geonames_uri: "http://sws.geonames.org/3149312/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25417"
+  description: "Largest city in southern Norway. Founded in 1641 by Christian IV with a distinctive grid plan."
+
+- id: drammen
+  type: city
+  broader: ostlandet
+  labels:
+    en: Drammen
+    nb: Drammen
+  lat: 59.7440
+  lon: 10.2045
+  geonames_uri: "http://sws.geonames.org/3157900/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25418"
+  description: "City in eastern Norway at the mouth of the Drammenselva river. Historic timber trade centre."
+
+- id: hammerfest
+  type: city
+  broader: finnmark
+  labels:
+    en: Hammerfest
+    nb: Hammerfest
+    se: Hámmerfeasta
+  lat: 70.6634
+  lon: 23.6821
+  geonames_uri: "http://sws.geonames.org/3154023/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25465"
+  description: "One of the northernmost cities in the world. Important for Arctic fishing and LNG processing."
+
+- id: kirkenes
+  type: town
+  broader: finnmark
+  labels:
+    en: Kirkenes
+    nb: Kirkenes
+    se: Girkonjárga
+  lat: 69.7271
+  lon: 30.0453
+  geonames_uri: "http://sws.geonames.org/3150159/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q128178"
+  description: "Town in easternmost Norway near the Russian and Finnish borders. Terminal point of the Hurtigruten coastal route."
+
+- id: alesund
+  type: city
+  broader: vestlandet
+  labels:
+    en: Ålesund
+    nb: Ålesund
+  lat: 62.4723
+  lon: 6.1549
+  geonames_uri: "http://sws.geonames.org/3163392/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25387"
+  description: "City in western Norway famous for its Art Nouveau architecture, rebuilt after the 1904 fire."
+
+- id: lillehammer
+  type: city
+  broader: ostlandet
+  labels:
+    en: Lillehammer
+    nb: Lillehammer
+  lat: 61.1152
+  lon: 10.4662
+  geonames_uri: "http://sws.geonames.org/3147395/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25422"
+  description: "City in eastern Norway. Host of the 1994 Winter Olympics. Home to the Maihaugen open-air museum."
+
+# ── Islands and Fjords ───────────────────────────────────────
+
+- id: lofoten
+  type: island
+  broader: nordland
+  labels:
+    en: Lofoten Islands
+    nb: Lofoten
+  lat: 68.2000
+  lon: 14.5000
+  geonames_uri: "http://sws.geonames.org/3146847/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25374"
+  description: "Archipelago in northern Norway known for dramatic scenery, fishing villages, and the Viking Museum at Borg."
+
+- id: svalbard
+  type: island
+  broader: norway
+  labels:
+    en: Svalbard
+    nb: Svalbard
+  alt_labels:
+    en: ["Spitsbergen"]
+  lat: 78.0000
+  lon: 16.0000
+  geonames_uri: "http://sws.geonames.org/607072/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25231"
+  description: "Norwegian Arctic archipelago. Home to the Svalbard Global Seed Vault and polar research stations."
+
+- id: vesteralen
+  type: island
+  broader: nordland
+  labels:
+    en: Vesterålen
+    nb: Vesterålen
+  lat: 68.8000
+  lon: 15.5000
+  geonames_uri: "http://sws.geonames.org/3131924/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25370"
+  description: "Island group north of Lofoten. Known for whale watching and the Hurtigruten port of Sortland."
+
+# ── Key Towns ────────────────────────────────────────────────
+
+- id: flam
+  type: village
+  broader: vestlandet
+  labels:
+    en: Flåm
+    nb: Flåm
+  lat: 60.8631
+  lon: 7.1137
+  geonames_uri: "http://sws.geonames.org/3156404/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q613671"
+  description: "Village at the inner end of the Aurlandsfjord. Famous for the Flåm Railway, one of the world's steepest rail lines."
+
+- id: roros
+  type: town
+  broader: trondelag
+  labels:
+    en: Røros
+    nb: Røros
+  lat: 62.5744
+  lon: 11.3849
+  geonames_uri: "http://sws.geonames.org/3141310/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q125894"
+  description: "UNESCO World Heritage mining town. Copper mining operated from 1644 to 1977."
+
+- id: alta
+  type: city
+  broader: finnmark
+  labels:
+    en: Alta
+    nb: Alta
+    se: Áltá
+  lat: 69.9689
+  lon: 23.2716
+  geonames_uri: "http://sws.geonames.org/3163529/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25456"
+  description: "City in Finnmark. Site of UNESCO-listed rock carvings dating to c. 4200–500 BCE."
+
+- id: longyearbyen
+  type: town
+  broader: svalbard
+  labels:
+    en: Longyearbyen
+    nb: Longyearbyen
+  lat: 78.2232
+  lon: 15.6267
+  geonames_uri: "http://sws.geonames.org/2729907/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25335"
+  description: "World's northernmost settlement with more than 1,000 people. Administrative centre of Svalbard."
+
+- id: kautokeino
+  type: town
+  broader: finnmark
+  labels:
+    en: Kautokeino
+    nb: Kautokeino
+    se: Guovdageaidnu
+  lat: 69.0124
+  lon: 23.0402
+  geonames_uri: "http://sws.geonames.org/3150613/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q131646"
+  description: "Largest municipality in Norway by area. One of the most important Sámi cultural centres."

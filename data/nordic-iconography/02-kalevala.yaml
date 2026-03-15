@@ -1,0 +1,252 @@
+# Finnish Mythology and Kalevala — characters, objects, places, and scenes
+
+# ── Top-level category ──
+
+- id: kalevala-characters
+  labels:
+    en: Kalevala characters
+    sv: Kalevala-gestalter
+    fi: Kalevalan hahmot
+    da: Kalevala-figurer
+    nb: Kalevala-figurer
+  description: "Characters from the Finnish national epic Kalevala, compiled by Elias Lönnrot from Finnish and Karelian oral folklore and first published in 1835."
+
+- id: kalevala-concepts
+  labels:
+    en: Kalevala concepts and objects
+    sv: Kalevala-föremål och begrepp
+    fi: Kalevalan esineet ja käsitteet
+    da: Kalevala-genstande og begreber
+    nb: Kalevala-gjenstander og begreper
+  description: "Significant objects, places, and concepts from the Finnish national epic Kalevala and related Finnish mythological tradition."
+
+- id: kalevala-scenes
+  labels:
+    en: Kalevala scenes
+    sv: Kalevala-scener
+    fi: Kalevalan kohtaukset
+    da: Kalevala-scener
+    nb: Kalevala-scener
+  description: "Key narrative episodes from the Kalevala epic, frequently depicted in Finnish art, especially by Akseli Gallen-Kallela and other Golden Age artists."
+
+# ── Characters ──
+
+- id: vainamoinen
+  broader: kalevala-characters
+  iconclass: "91E"
+  labels:
+    en: Väinämöinen
+    sv: Väinämöinen
+    fi: Väinämöinen
+    da: Väinämöinen
+    nb: Väinämöinen
+  description: "Central hero of the Kalevala, an ancient sage and powerful shaman with magical singing abilities. Son of the primal goddess Ilmatar, he is a culture hero who creates music, wins knowledge, and ultimately departs Finland in a copper boat."
+
+- id: ilmarinen
+  broader: kalevala-characters
+  iconclass: "91E"
+  labels:
+    en: Ilmarinen
+    sv: Ilmarinen
+    fi: Ilmarinen
+    da: Ilmarinen
+    nb: Ilmarinen
+  description: "The eternal smith and one of the main heroes of the Kalevala. Forger of the Sampo, the magical artifact of prosperity, and the sky itself. Suitor of the Maiden of Pohjola, he represents craftsmanship and creation."
+
+- id: lemminkainen
+  broader: kalevala-characters
+  iconclass: "91E"
+  labels:
+    en: Lemminkäinen
+    sv: Lemminkäinen
+    fi: Lemminkäinen
+    da: Lemminkäinen
+    nb: Lemminkäinen
+  description: "A reckless, handsome warrior-hero of the Kalevala. Known for his adventures, his death and resurrection by his mother from the river of Tuonela, and his attempts to woo the Maiden of Pohjola."
+
+- id: louhi
+  broader: kalevala-characters
+  iconclass: "91E"
+  labels:
+    en: Louhi
+    sv: Louhi
+    fi: Louhi
+    da: Louhi
+    nb: Louhi
+  description: "Mistress of Pohjola (the Northland), a powerful sorceress and antagonist in the Kalevala. She sets impossible tasks for heroes seeking her daughter's hand, and battles to keep the Sampo after its theft."
+
+- id: aino
+  broader: kalevala-characters
+  iconclass: "91E"
+  labels:
+    en: Aino
+    sv: Aino
+    fi: Aino
+    da: Aino
+    nb: Aino
+  description: "A young woman promised in marriage to the aged Väinämöinen by her brother Joukahainen. Rather than wed the old sage, she drowns herself and transforms into a fish. A tragic figure frequently depicted in Finnish art."
+
+- id: kullervo
+  broader: kalevala-characters
+  iconclass: "91E"
+  labels:
+    en: Kullervo
+    sv: Kullervo
+    fi: Kullervo
+    da: Kullervo
+    nb: Kullervo
+  description: "A tragic figure in the Kalevala, a slave of supernatural strength driven by vengeance. After unknowingly committing incest with his sister, he falls on his own sword. Inspired Tolkien's Túrin Turambar and Sibelius's symphonic poem."
+
+- id: joukahainen
+  broader: kalevala-characters
+  iconclass: "91E"
+  labels:
+    en: Joukahainen
+    sv: Joukahainen
+    fi: Joukahainen
+    da: Joukahainen
+    nb: Joukahainen
+  description: "A young and boastful Laplander who challenges Väinämöinen to a singing contest and loses. To save himself from sinking into a swamp, he pledges his sister Aino as Väinämöinen's bride."
+
+- id: ilmatar
+  broader: kalevala-characters
+  iconclass: "91E"
+  labels:
+    en: Ilmatar
+    sv: Ilmatar
+    fi: Ilmatar
+    da: Ilmatar
+    nb: Ilmatar
+  description: "The Virgin Spirit of the Air, a primal creatrix in Finnish mythology. She descends to the primordial waters and, impregnated by the sea, gives birth to Väinämöinen. The world is formed from an eagle's egg on her knee."
+
+- id: marjatta
+  broader: kalevala-characters
+  labels:
+    en: Marjatta
+    sv: Marjatta
+    fi: Marjatta
+    da: Marjatta
+    nb: Marjatta
+  description: "A virgin who becomes pregnant after swallowing a lingonberry, giving birth to a son who is baptized King of Karelia. Her story in the final canto of the Kalevala echoes the Virgin Mary narrative and marks the transition to Christianity."
+
+- id: untamo
+  broader: kalevala-characters
+  labels:
+    en: Untamo
+    sv: Untamo
+    fi: Untamo
+    da: Untamo
+    nb: Untamo
+  description: "Kullervo's uncle and enemy, who wages war against Kullervo's father Kalervo and enslaves the young Kullervo. His conflict with Kalervo sets in motion the tragic cycle of the Kullervo story."
+
+# ── Objects and Concepts ──
+
+- id: sampo
+  broader: kalevala-concepts
+  iconclass: "91E"
+  labels:
+    en: Sampo
+    sv: Sampo
+    fi: Sampo
+    da: Sampo
+    nb: Sampo
+  description: "A magical artifact of immense power forged by Ilmarinen, which grinds out flour, salt, and gold, bringing prosperity to its owner. Its exact nature is debated — mill, world pillar, or cosmic axis. Central object of the Kalevala."
+
+- id: kantele
+  broader: kalevala-concepts
+  iconclass: "91E"
+  labels:
+    en: Kantele
+    sv: Kantele
+    fi: Kantele
+    da: Kantele
+    nb: Kantele
+  description: "A traditional Finnish and Karelian plucked string instrument. In the Kalevala, Väinämöinen creates the first kantele from the jawbone of a giant pike, and its music enchants all of nature."
+
+- id: pohjola
+  broader: kalevala-concepts
+  iconclass: "91E"
+  labels:
+    en: Pohjola
+    sv: Pohjola
+    fi: Pohjola
+    da: Pohjola
+    nb: Pohjola
+  description: "The Northland in the Kalevala, a dark and distant realm ruled by the sorceress Louhi. It is the destination of heroes' quests and home of the Sampo. Represents the mythical north, cold and hostile."
+
+- id: tuonela
+  broader: kalevala-concepts
+  iconclass: "91E"
+  labels:
+    en: Tuonela
+    sv: Tuonela
+    fi: Tuonela
+    da: Tuonela
+    nb: Tuonela
+  description: "The Finnish underworld or realm of the dead, ruled by Tuoni and his wife Tuonetar. Separated from the living world by a dark river. Väinämöinen and Lemminkäinen both journey there and return."
+
+- id: kalevala-land
+  broader: kalevala-concepts
+  iconclass: "91E"
+  labels:
+    en: Kalevala (land)
+    sv: Kalevala (land)
+    fi: Kalevala (maa)
+    da: Kalevala (land)
+    nb: Kalevala (land)
+  description: "The mythical homeland of the Kalevala heroes, contrasted with Pohjola. Represents the idealized Finnish heartland — a place of forests, lakes, and ancient wisdom in Finnish mythology."
+
+# ── Key Scenes ──
+
+- id: forging-of-sampo
+  broader: kalevala-scenes
+  iconclass: "91E"
+  labels:
+    en: Forging of the Sampo
+    sv: Sampos smidande
+    fi: Sammon taonta
+    da: Sampos smedning
+    nb: Sampos smiing
+  description: "Ilmarinen forges the Sampo for Louhi of Pohjola as bride-price for her daughter. From the fire emerge first a golden bow, a red boat, a golden heifer, and a golden plough before the Sampo itself is created."
+
+- id: defense-of-sampo
+  broader: kalevala-scenes
+  iconclass: "91E"
+  labels:
+    en: Defense of the Sampo
+    sv: Sampos försvar
+    fi: Sammon puolustus
+    da: Sampos forsvar
+    nb: Sampos forsvar
+  description: "The heroes of Kalevala steal the Sampo from Pohjola, but Louhi pursues them. In the ensuing struggle on the sea, the Sampo is broken and its fragments scatter — those washing ashore bring prosperity to Finland."
+
+- id: vainamoinen-departure
+  broader: kalevala-scenes
+  iconclass: "91E"
+  labels:
+    en: Väinämöinen's departure
+    sv: Väinämöinens avfärd
+    fi: Väinämöisen lähtö
+    da: Väinämöinens afsked
+    nb: Väinämöinens avskjed
+  description: "In the final canto of the Kalevala, the aged Väinämöinen sails away in a copper boat, yielding to the new Christian era represented by Marjatta's son. He leaves behind his kantele and songs for the Finnish people."
+
+- id: lemminkainen-resurrection
+  broader: kalevala-scenes
+  labels:
+    en: Resurrection of Lemminkäinen
+    sv: Lemminkäinens uppståndelse
+    fi: Lemminkäisen virittäminen
+    da: Lemminkäinens genopstandelse
+    nb: Lemminkäinens oppstandelse
+  description: "After Lemminkäinen is killed and dismembered in the river of Tuonela, his mother rakes his body parts from the water, reassembles him, and restores him to life with magical ointment and incantations."
+
+- id: aino-drowning
+  broader: kalevala-scenes
+  labels:
+    en: Drowning of Aino
+    sv: Ainos drunkning
+    fi: Ainon hukkuminen
+    da: Ainos drukning
+    nb: Ainos drukning
+  description: "Rather than marry the aged Väinämöinen, the young Aino walks into the sea and drowns. One of the most frequently depicted scenes in Finnish art, notably by Akseli Gallen-Kallela in his Aino triptych (1891)."

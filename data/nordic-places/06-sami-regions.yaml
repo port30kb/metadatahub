@@ -1,0 +1,238 @@
+# ═══════════════════════════════════════════════════════════════
+# Nordic Place Name Authority — Sámi Regions
+# Sápmi (Sámi homeland) regions and key Sámi place names
+# across Norway, Sweden, Finland, and Russia.
+# ═══════════════════════════════════════════════════════════════
+
+# ── Sápmi (overall) ──────────────────────────────────────────
+
+- id: sapmi
+  type: region
+  labels:
+    se: Sápmi
+    en: Sápmi
+    sv: Sameland
+    nb: Sameland
+    fi: Saamenalue
+  lat: 68.50
+  lon: 22.00
+  wikidata_uri: "http://www.wikidata.org/entity/Q47345"
+  description: "Cultural region of the Sámi people spanning northern Norway, Sweden, Finland, and the Kola Peninsula of Russia."
+
+# ── Sámi Administrative Regions ──────────────────────────────
+
+- id: tromso-sami
+  type: region
+  broader: sapmi
+  labels:
+    se: Romsa
+    en: Tromsø Sámi area
+    nb: Tromsø samiske område
+  lat: 69.65
+  lon: 18.96
+  wikidata_uri: "http://www.wikidata.org/entity/Q25474"
+  description: "Sámi cultural area around Tromsø in northern Norway. Important centre for coastal Sámi culture."
+
+- id: finnmark-sami
+  type: region
+  broader: sapmi
+  labels:
+    se: Finnmárku
+    en: Finnmark Sámi area
+    nb: Finnmark samisk område
+  lat: 70.00
+  lon: 26.00
+  wikidata_uri: "http://www.wikidata.org/entity/Q50621"
+  description: "Sámi heartland in northernmost Norway. Home to the Sámi Parliament (Sámediggi) in Karasjok."
+
+- id: norrbotten-sami
+  type: region
+  broader: sapmi
+  labels:
+    se: Norrbottena
+    en: Norrbotten Sámi area
+    sv: Norrbottens samiska område
+  lat: 67.00
+  lon: 20.00
+  wikidata_uri: "http://www.wikidata.org/entity/Q103703"
+  description: "Sámi cultural area in northernmost Sweden. Major reindeer herding region with several Sámi villages (samebyar)."
+
+- id: lule-sami-area
+  type: region
+  broader: sapmi
+  labels:
+    se: Julevsábme
+    en: Lule Sámi area
+    sv: Lulesamiskt område
+  lat: 66.80
+  lon: 19.50
+  wikidata_uri: "http://www.wikidata.org/entity/Q56395"
+  description: "Region in northern Sweden and Norway where the Lule Sámi language and culture are centred."
+
+- id: south-sami-area
+  type: region
+  broader: sapmi
+  labels:
+    se: Åarjelsaemien dajve
+    en: South Sámi area
+    sv: Sydsamiskt område
+    nb: Sørsamisk område
+  lat: 63.50
+  lon: 14.50
+  wikidata_uri: "http://www.wikidata.org/entity/Q56396"
+  description: "Southernmost Sámi area spanning central Norway and Sweden. Distinct South Sámi language and culture."
+
+- id: inari-sami-area
+  type: region
+  broader: sapmi
+  labels:
+    se: Anárašgiella guovlu
+    en: Inari Sámi area
+    fi: Inarinsaamelainen alue
+  lat: 69.07
+  lon: 27.01
+  wikidata_uri: "http://www.wikidata.org/entity/Q125897"
+  description: "Area around Lake Inari in Finnish Lapland. Home to the Inari Sámi, one of the smallest Sámi groups."
+
+- id: skolt-sami-area
+  type: region
+  broader: sapmi
+  labels:
+    en: Skolt Sámi area
+    fi: Kolttasaamelainen alue
+  lat: 69.50
+  lon: 28.50
+  wikidata_uri: "http://www.wikidata.org/entity/Q56398"
+  description: "Easternmost Sámi area in Finland and Russia. The Skolt Sámi were resettled after WWII."
+
+# ── Key Sámi Places ─────────────────────────────────────────
+
+- id: karasjok
+  type: town
+  broader: finnmark-sami
+  labels:
+    se: Kárášjohka
+    en: Karasjok
+    nb: Karasjok
+  lat: 69.4717
+  lon: 25.5108
+  geonames_uri: "http://sws.geonames.org/3150616/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q131647"
+  description: "Seat of the Norwegian Sámi Parliament (Sámediggi). Important centre of Sámi political and cultural life."
+
+- id: giron
+  type: city
+  broader: norrbotten-sami
+  labels:
+    se: Giron
+    en: Kiruna
+    sv: Kiruna
+  lat: 67.8558
+  lon: 20.2253
+  geonames_uri: "http://sws.geonames.org/604490/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25295"
+  description: "City known as Giron in Northern Sámi. Sweden's northernmost city, currently being relocated due to mining."
+
+- id: guovdageaidnu
+  type: town
+  broader: finnmark-sami
+  labels:
+    se: Guovdageaidnu
+    en: Kautokeino
+    nb: Kautokeino
+  lat: 69.0124
+  lon: 23.0402
+  geonames_uri: "http://sws.geonames.org/3150613/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q131646"
+  description: "Major Sámi cultural centre. Home to the Sámi University of Applied Sciences, the International Sámi Film Institute, and the Beaivváš Sámi Theatre."
+
+- id: aanaar
+  type: town
+  broader: inari-sami-area
+  labels:
+    se: Anár
+    en: Inari
+    fi: Inari
+  lat: 69.0714
+  lon: 27.0139
+  geonames_uri: "http://sws.geonames.org/656687/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q125897"
+  description: "Known as Anár in Northern Sámi. Home to the Finnish Sámi Parliament and the Siida Sámi Museum."
+
+- id: jokkmokk-sami
+  type: town
+  broader: norrbotten-sami
+  labels:
+    se: Jåhkåmåhkke
+    en: Jokkmokk
+    sv: Jokkmokk
+  lat: 66.6082
+  lon: 19.8286
+  geonames_uri: "http://sws.geonames.org/2703841/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q189144"
+  description: "Known as Jåhkåmåhkke in Lule Sámi. Host of the Jokkmokk Winter Market (since 1605), a major Sámi cultural event."
+
+- id: snasa
+  type: town
+  broader: south-sami-area
+  labels:
+    se: Snåase
+    en: Snåsa
+    nb: Snåsa
+  lat: 64.2261
+  lon: 11.8321
+  geonames_uri: "http://sws.geonames.org/3137069/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q131648"
+  description: "Known as Snåase in South Sámi. Centre of South Sámi culture with bilingual signage and Sámi kindergarten."
+
+- id: deatnu
+  type: town
+  broader: finnmark-sami
+  labels:
+    se: Deatnu
+    en: Tana
+    nb: Tana
+  lat: 70.0064
+  lon: 27.0021
+  geonames_uri: "http://sws.geonames.org/3134688/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q131649"
+  description: "Known as Deatnu in Northern Sámi. Located along the Tana River, one of Europe's best Atlantic salmon rivers."
+
+- id: gallivare-sami
+  type: city
+  broader: norrbotten-sami
+  labels:
+    se: Váhčir
+    en: Gällivare
+    sv: Gällivare
+  lat: 67.1341
+  lon: 20.6532
+  geonames_uri: "http://sws.geonames.org/2712669/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q25306"
+  description: "Known as Váhčir in Northern Sámi. Mining town in Norrbotten with significant Sámi population."
+
+- id: neiden
+  type: village
+  broader: finnmark-sami
+  labels:
+    se: Njauddâm
+    en: Neiden
+    nb: Neiden
+  lat: 69.7283
+  lon: 29.3467
+  geonames_uri: "http://sws.geonames.org/3144741/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q2559716"
+  description: "Village in Sør-Varanger municipality. Important Skolt Sámi centre with the historic St. George's Chapel."
+
+- id: hattfjelldal
+  type: town
+  broader: south-sami-area
+  labels:
+    en: Hattfjelldal
+    nb: Hattfjelldal
+    se: Aarborte
+  lat: 65.5746
+  lon: 13.9869
+  geonames_uri: "http://sws.geonames.org/3153832/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q131650"
+  description: "Known as Aarborte in South Sámi. Centre of South Sámi culture in Norway with traditional handicrafts (duodji)."

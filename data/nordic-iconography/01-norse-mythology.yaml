@@ -1,0 +1,571 @@
+# Norse Mythology — gods, beings, places, and mythological events
+
+# ── Top-level category concepts ──
+
+- id: norse-gods
+  iconclass: "91D"
+  labels:
+    en: Norse gods
+    sv: Nordiska gudar
+    da: Nordiske guder
+    nb: Norrøne guder
+    fi: Skandinaaviset jumalat
+    is: Norræn goð
+    non: Goð
+  description: "Deities of the Norse pantheon as described in the Poetic Edda and Prose Edda, worshipped across Scandinavia during the Viking Age and earlier."
+
+- id: norse-beings
+  iconclass: "91D"
+  labels:
+    en: Norse mythological beings
+    sv: Nordiska mytologiska väsen
+    da: Nordiske mytologiske væsener
+    nb: Norrøne mytologiske vesener
+    fi: Pohjoismaiset myyttiset olennot
+    is: Norrænar goðsagnaverur
+  description: "Supernatural creatures and beings from Norse mythology including giants, dwarves, elves, dragons, and other entities described in the Eddas and sagas."
+
+- id: norse-places
+  iconclass: "91D"
+  labels:
+    en: Norse mythological places
+    sv: Nordiska mytologiska platser
+    da: Nordiske mytologiske steder
+    nb: Norrøne mytologiske steder
+    fi: Pohjoismaiset myyttiset paikat
+    is: Norræn goðsagnastaðir
+  description: "Cosmological realms and sacred locations in Norse mythology, including the Nine Worlds connected by the world tree Yggdrasil."
+
+- id: norse-events
+  iconclass: "91D"
+  labels:
+    en: Norse mythological events
+    sv: Nordiska mytologiska händelser
+    da: Nordiske mytologiske begivenheder
+    nb: Norrøne mytologiske hendelser
+    fi: Pohjoismaiset myyttiset tapahtumat
+    is: Norrænar goðsagnaatburðir
+  description: "Major events and narratives from Norse mythology as recounted in the Poetic Edda, Prose Edda, and related sources."
+
+# ── Norse Gods (Æsir and Vanir) ──
+
+- id: odin
+  broader: norse-gods
+  aat_uri: "http://vocab.getty.edu/aat/300379889"
+  iconclass: "91D1"
+  labels:
+    en: Odin
+    sv: Oden
+    da: Odin
+    nb: Odin
+    fi: Odin
+    is: Óðinn
+    non: Óðinn
+  description: "Chief god of Norse mythology, the Allfather, associated with wisdom, war, death, poetry, and runes. Often depicted as a one-eyed wanderer with ravens Huginn and Muninn, wolves Geri and Freki, the spear Gungnir, and the eight-legged horse Sleipnir."
+
+- id: thor
+  broader: norse-gods
+  aat_uri: "http://vocab.getty.edu/aat/300379893"
+  iconclass: "91D2"
+  labels:
+    en: Thor
+    sv: Tor
+    da: Thor
+    nb: Tor
+    fi: Thor
+    is: Þór
+    non: Þórr
+  description: "God of thunder, lightning, storms, strength, and the protection of humanity. Son of Odin, wielder of the hammer Mjölnir, wearer of the belt Megingjörð and iron gloves Járngreipr. Most widely worshipped Norse deity."
+
+- id: freyja
+  broader: norse-gods
+  aat_uri: "http://vocab.getty.edu/aat/300379886"
+  iconclass: "91D3"
+  labels:
+    en: Freyja
+    sv: Freja
+    da: Freja
+    nb: Frøya
+    fi: Freija
+    is: Freyja
+    non: Freyja
+  description: "Vanir goddess of love, beauty, fertility, war, and death. Owner of the necklace Brísingamen, rides a chariot drawn by cats, and receives half of the battle-slain in her hall Fólkvangr."
+
+- id: loki
+  broader: norse-gods
+  aat_uri: "http://vocab.getty.edu/aat/300379888"
+  iconclass: "91D4"
+  labels:
+    en: Loki
+    sv: Loke
+    da: Loke
+    nb: Loke
+    fi: Loki
+    is: Loki
+    non: Loki
+  description: "Trickster god and shape-shifter, blood brother of Odin. Father of Hel, Fenrir, and Jörmungandr. A complex figure who aids and undermines the gods, ultimately leading the forces of chaos at Ragnarök."
+
+- id: frigg
+  broader: norse-gods
+  aat_uri: "http://vocab.getty.edu/aat/300379885"
+  iconclass: "91D5"
+  labels:
+    en: Frigg
+    sv: Frigg
+    da: Frigg
+    nb: Frigg
+    fi: Frigg
+    is: Frigg
+    non: Frigg
+  description: "Queen of the Æsir, wife of Odin, goddess of marriage, motherhood, and domestic arts. Associated with foresight and wisdom, she dwells in the hall Fensalir and is mother of Baldr."
+
+- id: tyr
+  broader: norse-gods
+  aat_uri: "http://vocab.getty.edu/aat/300379894"
+  iconclass: "91D6"
+  labels:
+    en: Tyr
+    sv: Tyr
+    da: Tyr
+    nb: Ty
+    fi: Tyr
+    is: Týr
+    non: Týr
+  description: "God of war, justice, and law. Known for sacrificing his right hand to bind the wolf Fenrir with the magical fetter Gleipnir. Originally the chief sky god in Proto-Germanic religion."
+
+- id: baldr
+  broader: norse-gods
+  aat_uri: "http://vocab.getty.edu/aat/300379880"
+  iconclass: "91D7"
+  labels:
+    en: Baldr
+    sv: Balder
+    da: Balder
+    nb: Balder
+    fi: Baldur
+    is: Baldur
+    non: Baldr
+  description: "God of light, purity, and beauty. Son of Odin and Frigg, his death — caused by Loki's trickery with a mistletoe dart — is one of the most significant events in Norse mythology, foreshadowing Ragnarök."
+
+- id: heimdall
+  broader: norse-gods
+  aat_uri: "http://vocab.getty.edu/aat/300379887"
+  iconclass: "91D8"
+  labels:
+    en: Heimdall
+    sv: Heimdall
+    da: Heimdal
+    nb: Heimdall
+    fi: Heimdall
+    is: Heimdallur
+    non: Heimdallr
+  description: "Guardian of the gods and watchman of Bifröst, the rainbow bridge to Asgard. Possesses the horn Gjallarhorn, extraordinary senses, and is said to have founded the classes of humankind according to Rígsþula."
+
+- id: njord
+  broader: norse-gods
+  iconclass: "91D9"
+  labels:
+    en: Njörðr
+    sv: Njord
+    da: Njord
+    nb: Njord
+    fi: Njord
+    is: Njörður
+    non: Njörðr
+  description: "Vanir god of the sea, wind, fishing, and wealth. Father of Freyr and Freyja, associated with seafaring and prosperity. Dwells in Nóatún by the sea."
+
+- id: freyr
+  broader: norse-gods
+  aat_uri: "http://vocab.getty.edu/aat/300379884"
+  iconclass: "91D10"
+  labels:
+    en: Freyr
+    sv: Frej
+    da: Frej
+    nb: Frøy
+    fi: Freyr
+    is: Freyr
+    non: Freyr
+  description: "Vanir god of fertility, prosperity, sunshine, and fair weather. Twin brother of Freyja, owner of the ship Skíðblaðnir and the golden boar Gullinbursti. Ruler of Álfheimr."
+
+- id: hel
+  broader: norse-gods
+  iconclass: "91D11"
+  labels:
+    en: Hel
+    sv: Hel
+    da: Hel
+    nb: Hel
+    fi: Hel
+    is: Hel
+    non: Hel
+  description: "Daughter of Loki and the giantess Angrboða, ruler of the realm of the dead also called Hel (or Helheim). Often depicted as half living and half dead, she presides over those who die of illness or old age."
+
+- id: idunn
+  broader: norse-gods
+  iconclass: "91D12"
+  labels:
+    en: Iðunn
+    sv: Idun
+    da: Idun
+    nb: Idunn
+    fi: Idunn
+    is: Iðunn
+    non: Iðunn
+  description: "Goddess of youth and rejuvenation, keeper of the golden apples that grant the gods their immortality. Her abduction by the giant Þjazi is a key myth illustrating the gods' dependence on her."
+
+# ── Mythological Beings ──
+
+- id: valkyries
+  broader: norse-beings
+  aat_uri: "http://vocab.getty.edu/aat/300379895"
+  iconclass: "91D131"
+  labels:
+    en: Valkyries
+    sv: Valkyrior
+    da: Valkyrier
+    nb: Valkyrjer
+    fi: Valkyriat
+    is: Valkyrjur
+    non: Valkyrjur
+  description: "Female figures who choose those who may die in battle and those who may live. They bring the worthy slain (einherjar) to Odin's hall Valhalla. Often depicted as armed maidens riding winged horses."
+
+- id: norns
+  broader: norse-beings
+  iconclass: "91D132"
+  labels:
+    en: Norns
+    sv: Nornor
+    da: Norner
+    nb: Norner
+    fi: Nornit
+    is: Nornir
+    non: Nornir
+  description: "Three female figures who rule destiny — Urðr (fate), Verðandi (becoming), and Skuld (debt/future). They dwell at the Well of Urðr beneath Yggdrasil, tending the world tree and carving runes of fate."
+
+- id: einherjar
+  broader: norse-beings
+  iconclass: "91D133"
+  labels:
+    en: Einherjar
+    sv: Einherjar
+    da: Einherjer
+    nb: Einherjar
+    fi: Einherjar
+    is: Einherjar
+    non: Einherjar
+  description: "Warriors who have died gloriously in battle and are brought to Valhalla by the Valkyries. They feast and fight daily in preparation for the final battle of Ragnarök."
+
+- id: jormungandr
+  broader: norse-beings
+  aat_uri: "http://vocab.getty.edu/aat/300412118"
+  iconclass: "91D134"
+  labels:
+    en: Jörmungandr
+    sv: Midgårdsormen
+    da: Midgårdsormen
+    nb: Midgardsormen
+    fi: Midgårdinmato
+    is: Miðgarðsormur
+    non: Jǫrmungandr
+  description: "The Midgard Serpent, a sea serpent so large it encircles the entire world (Midgard) grasping its own tail. Child of Loki and Angrboða, arch-enemy of Thor. At Ragnarök they slay each other."
+
+- id: fenrir
+  broader: norse-beings
+  iconclass: "91D135"
+  labels:
+    en: Fenrir
+    sv: Fenrisulven
+    da: Fenris
+    nb: Fenrisulven
+    fi: Fenrir
+    is: Fenrir
+    non: Fenrir
+  description: "Monstrous wolf, son of Loki and Angrboða. Bound by the gods using the magical fetter Gleipnir at the cost of Tyr's hand. At Ragnarök, Fenrir breaks free and swallows Odin."
+
+- id: sleipnir
+  broader: norse-beings
+  iconclass: "91D136"
+  labels:
+    en: Sleipnir
+    sv: Sleipner
+    da: Sleipner
+    nb: Sleipner
+    fi: Sleipnir
+    is: Sleipnir
+    non: Sleipnir
+  description: "Odin's eight-legged horse, the best of all horses. Born from Loki (in mare form) and the stallion Svaðilfari. Depicted on the Tjängvide image stone from Gotland and other Viking Age artifacts."
+
+- id: huginn-muninn
+  broader: norse-beings
+  iconclass: "91D137"
+  labels:
+    en: Huginn and Muninn
+    sv: Hugin och Munin
+    da: Hugin og Munin
+    nb: Hugin og Munin
+    fi: Hugin ja Munin
+    is: Huginn og Muninn
+    non: Huginn ok Muninn
+  description: "Odin's two ravens whose names mean 'thought' and 'memory'. They fly over the world each day gathering information and return to whisper news into Odin's ears. Frequently depicted in Viking Age art."
+
+- id: ratatoskr
+  broader: norse-beings
+  iconclass: "91D138"
+  labels:
+    en: Ratatoskr
+    sv: Ratatosk
+    da: Ratatosk
+    nb: Ratatosk
+    fi: Ratatoskr
+    is: Ratatoskur
+    non: Ratatoskr
+  description: "A squirrel that runs up and down the world tree Yggdrasil carrying messages between the eagle perched at the top and the serpent Níðhöggr gnawing at the roots, stirring strife between them."
+
+- id: dwarves
+  broader: norse-beings
+  iconclass: "91D139"
+  labels:
+    en: Dwarves (Norse)
+    sv: Dvärgar
+    da: Dværge
+    nb: Dverger
+    fi: Kääpiöt
+    is: Dvergar
+    non: Dvergar
+  description: "Master craftsmen of Norse mythology who forged many of the gods' treasures including Mjölnir, Gungnir, Gleipnir, Skíðblaðnir, and Brísingamen. Created from the flesh of the primordial giant Ymir."
+
+- id: elves
+  broader: norse-beings
+  iconclass: "91D140"
+  labels:
+    en: Elves (Norse)
+    sv: Alver
+    da: Alfer
+    nb: Alver
+    fi: Haltiat
+    is: Álfar
+    non: Álfar
+  description: "Supernatural beings in Norse mythology divided into light elves (ljósálfar) dwelling in Álfheimr and dark elves (dökkálfar). Associated with fertility, nature, and ancestral worship in Scandinavian folk belief."
+
+- id: giants
+  broader: norse-beings
+  iconclass: "91D141"
+  labels:
+    en: Giants (Jötnar)
+    sv: Jättar
+    da: Jætter
+    nb: Jotner
+    fi: Jättiläiset
+    is: Jötnar
+    non: Jǫtnar
+  description: "Primordial beings in Norse cosmology, often in conflict with the gods. Descended from the first being Ymir, they inhabit Jötunheimr. Not always evil — many intermarry with gods, and some possess great wisdom."
+
+# ── Mythological Places ──
+
+- id: yggdrasil
+  broader: norse-places
+  aat_uri: "http://vocab.getty.edu/aat/300379896"
+  iconclass: "91D21"
+  labels:
+    en: Yggdrasil
+    sv: Yggdrasil
+    da: Yggdrasil
+    nb: Yggdrasil
+    fi: Yggdrasil
+    is: Yggdrasill
+    non: Yggdrasill
+  description: "The world tree, an immense sacred ash tree that connects the Nine Worlds of Norse cosmology. Three roots reach into different realms, and various creatures dwell in and around it. Central symbol of Norse cosmology."
+
+- id: asgard
+  broader: norse-places
+  iconclass: "91D22"
+  labels:
+    en: Asgard
+    sv: Asgård
+    da: Asgård
+    nb: Åsgard
+    fi: Asgård
+    is: Ásgarður
+    non: Ásgarðr
+  description: "Home of the Æsir gods, one of the Nine Worlds, located at the top of Yggdrasil. Contains halls such as Valhalla (Odin's), Þrúðheimr (Thor's), and Fensalir (Frigg's). Connected to Midgard by Bifröst."
+
+- id: midgard
+  broader: norse-places
+  iconclass: "91D23"
+  labels:
+    en: Midgard
+    sv: Midgård
+    da: Midgård
+    nb: Midgard
+    fi: Midgård
+    is: Miðgarður
+    non: Miðgarðr
+  description: "The world of humans, literally 'middle enclosure', situated between Asgard (above) and the underworld realms. Encircled by the great ocean in which Jörmungandr lies, and connected to Asgard by Bifröst."
+
+- id: valhalla
+  broader: norse-places
+  aat_uri: "http://vocab.getty.edu/aat/300379897"
+  iconclass: "91D24"
+  labels:
+    en: Valhalla
+    sv: Valhall
+    da: Valhal
+    nb: Valhall
+    fi: Valhalla
+    is: Valhöll
+    non: Valhǫll
+  description: "Odin's great hall in Asgard where the einherjar (chosen slain warriors) feast and fight daily. Has 540 doors, rafters of spears, a roof of shields, and benches strewn with mail coats."
+
+- id: ragnarok
+  broader: norse-places
+  iconclass: "91D25"
+  labels:
+    en: Ragnarök
+    sv: Ragnarök
+    da: Ragnarok
+    nb: Ragnarok
+    fi: Ragnarök
+    is: Ragnarök
+    non: Ragnarǫk
+  description: "The prophesied end of the world in Norse mythology — a series of apocalyptic events including a great battle, natural disasters, and the submersion of the world in water. A renewed world rises afterward."
+
+- id: bifrost
+  broader: norse-places
+  iconclass: "91D26"
+  labels:
+    en: Bifröst
+    sv: Bifrost
+    da: Bifrost
+    nb: Bifrost
+    fi: Bifröst
+    is: Bifröst
+    non: Bifröst
+  description: "The burning rainbow bridge connecting Midgard (the world of humans) to Asgard (the realm of the gods). Guarded by the god Heimdall, it will shatter when the sons of Muspell ride forth at Ragnarök."
+
+- id: niflheim
+  broader: norse-places
+  iconclass: "91D27"
+  labels:
+    en: Niflheim
+    sv: Nifelheim
+    da: Niflheim
+    nb: Niflheim
+    fi: Niflheim
+    is: Niflheimur
+    non: Niflheimr
+  description: "The primordial realm of ice, mist, and cold in Norse cosmology. One of the two primordial realms (with Muspelheim) that existed before creation. Contains the wellspring Hvergelmir and is associated with the dead."
+
+- id: muspelheim
+  broader: norse-places
+  iconclass: "91D28"
+  labels:
+    en: Muspelheim
+    sv: Muspelheim
+    da: Muspelheim
+    nb: Muspelheim
+    fi: Muspelheim
+    is: Múspellsheimur
+    non: Múspellsheimr
+  description: "The primordial realm of fire and heat in Norse cosmology, guarded by the fire giant Surtr. Sparks from Muspelheim and ice from Niflheim met in the void Ginnungagap, creating the first being Ymir."
+
+- id: helheim
+  broader: norse-places
+  iconclass: "91D29"
+  labels:
+    en: Helheim
+    sv: Helheim
+    da: Helheim
+    nb: Helheim
+    fi: Helheim
+    is: Helheimur
+    non: Helheimr
+  description: "The realm of the dead ruled by Hel, daughter of Loki. Those who die of sickness, old age, or otherwise inglorious deaths are sent here. Distinguished from Valhalla, which receives the battle-slain."
+
+- id: jotunheim
+  broader: norse-places
+  iconclass: "91D30"
+  labels:
+    en: Jötunheimr
+    sv: Jotunheim
+    da: Jotunheim
+    nb: Jotunheim
+    fi: Jotunheim
+    is: Jötunheimur
+    non: Jǫtunheimr
+  description: "The realm of the giants (jötnar) in Norse cosmology, one of the Nine Worlds. A wilderness of rock, ice, and forests, separated from Midgard by rivers and mountains. Home of Útgarðr-Loki and many frost giants."
+
+# ── Mythological Events ──
+
+- id: ragnarok-battle
+  broader: norse-events
+  iconclass: "91D31"
+  labels:
+    en: Battle of Ragnarök
+    sv: Ragnarökstriden
+    da: Ragnarokslaget
+    nb: Ragnarokslaget
+    fi: Ragnarökin taistelu
+    is: Ragnaröksorrusta
+  description: "The final battle at the end of the world where gods and their enemies destroy each other. Odin is swallowed by Fenrir, Thor slays Jörmungandr but dies from its venom, and Surtr engulfs the world in fire."
+
+- id: binding-of-fenrir
+  broader: norse-events
+  iconclass: "91D32"
+  labels:
+    en: Binding of Fenrir
+    sv: Fenrisulvens fjättring
+    da: Fenris lænkning
+    nb: Fenrisulvens lenking
+    fi: Fenririn kahlitseminen
+    is: Fjötur Fenris
+  description: "The gods bind the monstrous wolf Fenrir using the magical chain Gleipnir, forged by dwarves from impossible ingredients. Tyr sacrifices his right hand as a pledge of good faith, placing it in Fenrir's mouth."
+
+- id: death-of-baldr
+  broader: norse-events
+  iconclass: "91D33"
+  labels:
+    en: Death of Baldr
+    sv: Balders död
+    da: Balders død
+    nb: Balders død
+    fi: Balderin kuolema
+    is: Dauði Baldurs
+  description: "Baldr is killed by a mistletoe dart thrown by his blind brother Höðr, manipulated by Loki. Frigg had secured oaths from all things not to harm Baldr, but overlooked the mistletoe. His death presages Ragnarök."
+
+- id: theft-of-thors-hammer
+  broader: norse-events
+  iconclass: "91D34"
+  labels:
+    en: Theft of Thor's Hammer
+    sv: Stölden av Tors hammare
+    da: Tyveriet af Thors hammer
+    nb: Tyveriet av Tors hammer
+    fi: Thorin vasaran varastaminen
+    is: Þjófnaður hamars Þórs
+  description: "The giant Þrymr steals Mjölnir and demands Freyja as bride for its return. Thor disguises himself as Freyja and travels to Jötunheimr, reclaiming the hammer and slaying the giants. Told in the poem Þrymskviða."
+
+- id: creation-of-world
+  broader: norse-events
+  iconclass: "91D35"
+  labels:
+    en: Creation of the World (Norse)
+    sv: Världens skapelse
+    da: Verdens skabelse
+    nb: Verdens skapelse
+    fi: Maailman luominen
+    is: Sköpun heimsins
+  description: "From the primordial void Ginnungagap, where fire from Muspelheim met ice from Niflheim, the giant Ymir formed. The gods Odin, Vili, and Vé slew Ymir and fashioned the world from his body."
+
+- id: mead-of-poetry
+  broader: norse-events
+  iconclass: "91D36"
+  labels:
+    en: Mead of Poetry
+    sv: Skaldemjödet
+    da: Digtermjøden
+    nb: Skaldmjøden
+    fi: Runojen sima
+    is: Skáldamjöður
+    non: Óðrœrir
+  description: "The mythical mead brewed from the blood of the wise being Kvasir, granting the gift of poetry and wisdom to any who drink it. Odin obtained it through cunning from the giant Suttungr."

@@ -1,0 +1,2596 @@
+{
+  "@context": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "cc": "http://creativecommons.org/ns#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "mhub": "https://metadatahub.eu/data/nordic-rights/ontology/"
+  },
+  "@id": "https://metadatahub.eu/data/nordic-rights",
+  "@type": "skos:ConceptScheme",
+  "dcterms:title": [
+    {
+      "@value": "Nordic Rights and Licenses Vocabulary",
+      "@language": "en"
+    },
+    {
+      "@value": "Nordiskt rattighets- och licensvokabular",
+      "@language": "sv"
+    }
+  ],
+  "dcterms:description": "55 entries covering rights statements, licenses, and copyright concepts for Nordic cultural heritage institutions.",
+  "dcterms:source": [
+    "https://creativecommons.org/licenses/",
+    "https://rightsstatements.org/",
+    "https://pro.europeana.eu/page/available-rights-statements"
+  ],
+  "dcterms:license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "dcterms:creator": "Port 30 KB",
+  "dcterms:modified": "2025-01-15",
+  "@graph": [
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/creative-commons",
+      "@type": [
+        "mhub:License",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Creative Commons",
+          "@language": "en"
+        },
+        {
+          "@value": "Creative Commons",
+          "@language": "da"
+        },
+        {
+          "@value": "Creative Commons",
+          "@language": "fi"
+        },
+        {
+          "@value": "Creative Commons",
+          "@language": "nb"
+        },
+        {
+          "@value": "Creative Commons",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Creative Commons",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Top-level grouping for all Creative Commons license types. Creative Commons provides free, easy-to-use copyright licenses to make a simple and standardized way to give the public permission to share and use creative work.",
+        "@language": "en"
+      },
+      "mhub:category": "creative-commons",
+      "skos:exactMatch": {
+        "@id": "https://creativecommons.org/"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/cc0-1",
+      "@type": [
+        "mhub:License",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "CC0 1.0 Universal (Public Domain Dedication)",
+          "@language": "en"
+        },
+        {
+          "@value": "CC0 1.0 Universel (Frigivelse til det offentlige domæne)",
+          "@language": "da"
+        },
+        {
+          "@value": "CC0 1.0 Yleismaailmallinen (Tekijänoikeuksista luopuminen)",
+          "@language": "fi"
+        },
+        {
+          "@value": "CC0 1.0 Universell (Fristilling av opphavsrett)",
+          "@language": "nb"
+        },
+        {
+          "@value": "CC0 1.0 Universell (Public Domain-dedikation)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "CC0 1.0 Universal (Public Domain Dedication)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Waives all copyright and related rights. The creator dedicates the work to the public domain worldwide. Recommended for metadata, catalog records, and factual data where maximum reuse is desired.",
+        "@language": "en"
+      },
+      "mhub:category": "creative-commons",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/creative-commons"
+      },
+      "skos:exactMatch": {
+        "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "mhub:europeanaTier": "tier-4",
+      "skos:scopeNote": {
+        "@value": "Ideal for museum metadata/catalog records, measurement data, and factual descriptions. Cannot be revoked once applied. Note that moral rights (ideell ratt) in Nordic countries cannot be waived.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/cc-by-4",
+      "@type": [
+        "mhub:License",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Creative Commons Attribution 4.0 International",
+          "@language": "en"
+        },
+        {
+          "@value": "Creative Commons Navngivelse 4.0 International",
+          "@language": "da"
+        },
+        {
+          "@value": "Creative Commons Nimea 4.0 Kansainvalinen",
+          "@language": "fi"
+        },
+        {
+          "@value": "Creative Commons Navngivelse 4.0 Internasjonal",
+          "@language": "nb"
+        },
+        {
+          "@value": "Creative Commons Erkannande 4.0 Internationell",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Creative Commons Attribution 4.0 International",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Allows reuse with attribution. Recommended for museum-created metadata, documentation photos, and digitized works where the museum holds all rights.",
+        "@language": "en"
+      },
+      "mhub:category": "creative-commons",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/creative-commons"
+      },
+      "skos:exactMatch": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "mhub:europeanaTier": "tier-4",
+      "skos:scopeNote": {
+        "@value": "Use when the museum created the digital reproduction and the original work is in the public domain, or when the museum holds all necessary rights.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/cc-by-sa-4",
+      "@type": [
+        "mhub:License",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Creative Commons Attribution-ShareAlike 4.0 International",
+          "@language": "en"
+        },
+        {
+          "@value": "Creative Commons Navngivelse-DelPaSammeVilkar 4.0 International",
+          "@language": "da"
+        },
+        {
+          "@value": "Creative Commons Nimea-JaaSamoin 4.0 Kansainvalinen",
+          "@language": "fi"
+        },
+        {
+          "@value": "Creative Commons Navngivelse-DelPaSammeVilkar 4.0 Internasjonal",
+          "@language": "nb"
+        },
+        {
+          "@value": "Creative Commons Erkannande-DelaLika 4.0 Internationell",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Creative Commons Attribution-ShareAlike 4.0 International",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Allows reuse with attribution, provided derivatives are shared under the same or a compatible license. Ensures that improvements remain openly available.",
+        "@language": "en"
+      },
+      "mhub:category": "creative-commons",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/creative-commons"
+      },
+      "skos:exactMatch": {
+        "@id": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "mhub:europeanaTier": "tier-4",
+      "skos:scopeNote": {
+        "@value": "Good for collaborative projects where the museum wants to ensure derivative works also remain open. Wikipedia/Wikimedia Commons uses this license.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/cc-by-nc-4",
+      "@type": [
+        "mhub:License",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Creative Commons Attribution-NonCommercial 4.0 International",
+          "@language": "en"
+        },
+        {
+          "@value": "Creative Commons Navngivelse-IkkeKommerciel 4.0 International",
+          "@language": "da"
+        },
+        {
+          "@value": "Creative Commons Nimea-EiKaupallinen 4.0 Kansainvalinen",
+          "@language": "fi"
+        },
+        {
+          "@value": "Creative Commons Navngivelse-IkkeKommersiell 4.0 Internasjonal",
+          "@language": "nb"
+        },
+        {
+          "@value": "Creative Commons Erkannande-IckeKommersiell 4.0 Internationell",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Creative Commons Attribution-NonCommercial 4.0 International",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Allows reuse with attribution for non-commercial purposes only. Commercial use requires separate permission from the rights holder.",
+        "@language": "en"
+      },
+      "mhub:category": "creative-commons",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/creative-commons"
+      },
+      "skos:exactMatch": {
+        "@id": "https://creativecommons.org/licenses/by-nc/4.0/"
+      },
+      "mhub:europeanaTier": "tier-2",
+      "skos:scopeNote": {
+        "@value": "Use when the museum wants to allow educational and personal reuse but restrict commercial exploitation. Note that 'non-commercial' can be ambiguous in practice.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/cc-by-nc-sa-4",
+      "@type": [
+        "mhub:License",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+          "@language": "en"
+        },
+        {
+          "@value": "Creative Commons Navngivelse-IkkeKommerciel-DelPaSammeVilkar 4.0 International",
+          "@language": "da"
+        },
+        {
+          "@value": "Creative Commons Nimea-EiKaupallinen-JaaSamoin 4.0 Kansainvalinen",
+          "@language": "fi"
+        },
+        {
+          "@value": "Creative Commons Navngivelse-IkkeKommersiell-DelPaSammeVilkar 4.0 Internasjonal",
+          "@language": "nb"
+        },
+        {
+          "@value": "Creative Commons Erkannande-IckeKommersiell-DelaLika 4.0 Internationell",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Allows non-commercial reuse with attribution, provided derivatives are shared under the same or compatible license.",
+        "@language": "en"
+      },
+      "mhub:category": "creative-commons",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/creative-commons"
+      },
+      "skos:exactMatch": {
+        "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      },
+      "mhub:europeanaTier": "tier-2",
+      "skos:scopeNote": {
+        "@value": "Combines non-commercial restriction with share-alike requirement. Common in educational and cultural heritage contexts.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/cc-by-nd-4",
+      "@type": [
+        "mhub:License",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Creative Commons Attribution-NoDerivatives 4.0 International",
+          "@language": "en"
+        },
+        {
+          "@value": "Creative Commons Navngivelse-IngenBearbejdelser 4.0 International",
+          "@language": "da"
+        },
+        {
+          "@value": "Creative Commons Nimea-EiMuutoksia 4.0 Kansainvalinen",
+          "@language": "fi"
+        },
+        {
+          "@value": "Creative Commons Navngivelse-IngenBearbeidelser 4.0 Internasjonal",
+          "@language": "nb"
+        },
+        {
+          "@value": "Creative Commons Erkannande-IngaBearbetningar 4.0 Internationell",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Creative Commons Attribution-NoDerivatives 4.0 International",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Allows redistribution with attribution but no derivative works. The work must be shared in its original, unmodified form.",
+        "@language": "en"
+      },
+      "mhub:category": "creative-commons",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/creative-commons"
+      },
+      "skos:exactMatch": {
+        "@id": "https://creativecommons.org/licenses/by-nd/4.0/"
+      },
+      "mhub:europeanaTier": "tier-3",
+      "skos:scopeNote": {
+        "@value": "Rarely recommended for cultural heritage data. Use when integrity of the original representation is paramount (e.g., exhibition catalog essays).",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/cc-by-nc-nd-4",
+      "@type": [
+        "mhub:License",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International",
+          "@language": "en"
+        },
+        {
+          "@value": "Creative Commons Navngivelse-IkkeKommerciel-IngenBearbejdelser 4.0 International",
+          "@language": "da"
+        },
+        {
+          "@value": "Creative Commons Nimea-EiKaupallinen-EiMuutoksia 4.0 Kansainvalinen",
+          "@language": "fi"
+        },
+        {
+          "@value": "Creative Commons Navngivelse-IkkeKommersiell-IngenBearbeidelser 4.0 Internasjonal",
+          "@language": "nb"
+        },
+        {
+          "@value": "Creative Commons Erkannande-IckeKommersiell-IngaBearbetningar 4.0 Internationell",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "The most restrictive Creative Commons license. Allows downloading and sharing with attribution, but no commercial use and no modifications.",
+        "@language": "en"
+      },
+      "mhub:category": "creative-commons",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/creative-commons"
+      },
+      "skos:exactMatch": {
+        "@id": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+      },
+      "mhub:europeanaTier": "tier-1",
+      "skos:scopeNote": {
+        "@value": "Most restrictive CC license. Consider whether a more open license or a rights statement would be more appropriate.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/pdm-1",
+      "@type": [
+        "mhub:License",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Public Domain Mark 1.0",
+          "@language": "en"
+        },
+        {
+          "@value": "Public Domain-markering 1.0",
+          "@language": "da"
+        },
+        {
+          "@value": "Public Domain -merkinta 1.0",
+          "@language": "fi"
+        },
+        {
+          "@value": "Public Domain-merke 1.0",
+          "@language": "nb"
+        },
+        {
+          "@value": "Public Domain-marke 1.0",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Public Domain Mark 1.0",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Indicates that a work is free of known copyright restrictions worldwide. Not a license but a label indicating public domain status.",
+        "@language": "en"
+      },
+      "mhub:category": "creative-commons",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/creative-commons"
+      },
+      "skos:exactMatch": {
+        "@id": "https://creativecommons.org/publicdomain/mark/1.0/"
+      },
+      "mhub:europeanaTier": "tier-4",
+      "skos:scopeNote": {
+        "@value": "Use for works where copyright has expired (typically 70 years after author's death in the EU/EEA). The work itself must be in the public domain; this mark does not place it there.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/rights-statements",
+      "@type": [
+        "mhub:RightsStatement",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "RightsStatements.org",
+          "@language": "en"
+        },
+        {
+          "@value": "RightsStatements.org",
+          "@language": "da"
+        },
+        {
+          "@value": "RightsStatements.org",
+          "@language": "fi"
+        },
+        {
+          "@value": "RightsStatements.org",
+          "@language": "nb"
+        },
+        {
+          "@value": "RightsStatements.org",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "RightsStatements.org",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Top-level grouping for RightsStatements.org standardized rights statements. Provides a set of 12 standardized rights statements for use by cultural heritage institutions to communicate the copyright and reuse status of digital objects.",
+        "@language": "en"
+      },
+      "mhub:category": "rights-statement",
+      "skos:exactMatch": {
+        "@id": "https://rightsstatements.org/"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/inc",
+      "@type": [
+        "mhub:RightsStatement",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "In Copyright",
+          "@language": "en"
+        },
+        {
+          "@value": "Ophavsretligt beskyttet",
+          "@language": "da"
+        },
+        {
+          "@value": "Tekijanoikeuden alainen",
+          "@language": "fi"
+        },
+        {
+          "@value": "Opphavsrettsbeskyttet",
+          "@language": "nb"
+        },
+        {
+          "@value": "Upphovsrattsskyddat",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "In Copyright",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "The item is in copyright. The rights holder has not given authorization for reuse. Users may only use the item in ways permitted by copyright limitations and exceptions.",
+        "@language": "en"
+      },
+      "mhub:category": "rights-statement",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/rights-statements"
+      },
+      "skos:exactMatch": {
+        "@id": "http://rightsstatements.org/vocab/InC/1.0/"
+      },
+      "mhub:europeanaTier": "tier-1",
+      "skos:scopeNote": {
+        "@value": "Default statement for copyrighted works. Ensure you have verified the copyright status before applying.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/inc-ow-eu",
+      "@type": [
+        "mhub:RightsStatement",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "In Copyright - EU Orphan Work",
+          "@language": "en"
+        },
+        {
+          "@value": "Ophavsretligt beskyttet - EU foraldrelost vark",
+          "@language": "da"
+        },
+        {
+          "@value": "Tekijanoikeuden alainen - EU orpoteos",
+          "@language": "fi"
+        },
+        {
+          "@value": "Opphavsrettsbeskyttet - EU foreldrelost verk",
+          "@language": "nb"
+        },
+        {
+          "@value": "Upphovsrattsskyddat - EU foraldralost verk",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "In Copyright - EU Orphan Work",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "The item has been identified as an orphan work in the EU. A diligent search for the rights holder has been conducted in accordance with Directive 2012/28/EU.",
+        "@language": "en"
+      },
+      "mhub:category": "rights-statement",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/rights-statements"
+      },
+      "skos:exactMatch": {
+        "@id": "http://rightsstatements.org/vocab/InC-OW-EU/1.0/"
+      },
+      "mhub:europeanaTier": "tier-1",
+      "skos:scopeNote": {
+        "@value": "Requires a documented diligent search conducted according to EU Orphan Works Directive. The search must be recorded in the EUIPO Orphan Works Database.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/inc-edu",
+      "@type": [
+        "mhub:RightsStatement",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "In Copyright - Educational Use Permitted",
+          "@language": "en"
+        },
+        {
+          "@value": "Ophavsretligt beskyttet - Undervisningsbrug tilladt",
+          "@language": "da"
+        },
+        {
+          "@value": "Tekijanoikeuden alainen - Opetuskaytto sallittu",
+          "@language": "fi"
+        },
+        {
+          "@value": "Opphavsrettsbeskyttet - Undervisningsbruk tillatt",
+          "@language": "nb"
+        },
+        {
+          "@value": "Upphovsrattsskyddat - Utbildningsanvandning tilllaten",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "In Copyright - Educational Use Permitted",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "The item is in copyright, but the rights holder has authorized educational use. Non-educational use requires additional permission.",
+        "@language": "en"
+      },
+      "mhub:category": "rights-statement",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/rights-statements"
+      },
+      "skos:exactMatch": {
+        "@id": "http://rightsstatements.org/vocab/InC-EDU/1.0/"
+      },
+      "mhub:europeanaTier": "tier-1",
+      "skos:scopeNote": {
+        "@value": "Use when the rights holder has granted specific permission for educational use. Define 'educational use' clearly in the institution's terms.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/inc-nc",
+      "@type": [
+        "mhub:RightsStatement",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "In Copyright - Non-Commercial Use Permitted",
+          "@language": "en"
+        },
+        {
+          "@value": "Ophavsretligt beskyttet - Ikke-kommerciel brug tilladt",
+          "@language": "da"
+        },
+        {
+          "@value": "Tekijanoikeuden alainen - Ei-kaupallinen kaytto sallittu",
+          "@language": "fi"
+        },
+        {
+          "@value": "Opphavsrettsbeskyttet - Ikke-kommersiell bruk tillatt",
+          "@language": "nb"
+        },
+        {
+          "@value": "Upphovsrattsskyddat - Icke-kommersiell anvandning tilllaten",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "In Copyright - Non-Commercial Use Permitted",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "The item is in copyright, but the rights holder has authorized non-commercial use. Commercial use requires additional permission.",
+        "@language": "en"
+      },
+      "mhub:category": "rights-statement",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/rights-statements"
+      },
+      "skos:exactMatch": {
+        "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
+      },
+      "mhub:europeanaTier": "tier-2",
+      "skos:scopeNote": {
+        "@value": "Use when the rights holder has explicitly permitted non-commercial reuse. Different from CC-BY-NC in that it does not grant a formal license.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/inc-ruu",
+      "@type": [
+        "mhub:RightsStatement",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "In Copyright - Rights-holder(s) Unlocatable or Unidentifiable",
+          "@language": "en"
+        },
+        {
+          "@value": "Ophavsretligt beskyttet - Rettighedshaver ikke lokaliserbar eller identificerbar",
+          "@language": "da"
+        },
+        {
+          "@value": "Tekijanoikeuden alainen - Oikeudenhaltijaa ei loydeta tai tunnisteta",
+          "@language": "fi"
+        },
+        {
+          "@value": "Opphavsrettsbeskyttet - Rettighetshaver ikke lokaliserbar eller identifiserbar",
+          "@language": "nb"
+        },
+        {
+          "@value": "Upphovsrattsskyddat - Rattighetsinnehavare ej lokaliserbar eller identifierbar",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "In Copyright - Rights-holder(s) Unlocatable or Unidentifiable",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "The item is in copyright but the rights holder has not been identified or located after a reasonable investigation. Not an EU orphan work designation.",
+        "@language": "en"
+      },
+      "mhub:category": "rights-statement",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/rights-statements"
+      },
+      "skos:exactMatch": {
+        "@id": "http://rightsstatements.org/vocab/InC-RUU/1.0/"
+      },
+      "mhub:europeanaTier": "tier-1",
+      "skos:scopeNote": {
+        "@value": "Use when a search has been conducted but does not meet the EU Orphan Works Directive requirements. Document the search efforts undertaken.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/noc-cr",
+      "@type": [
+        "mhub:RightsStatement",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "No Copyright - Contractual Restrictions",
+          "@language": "en"
+        },
+        {
+          "@value": "Ingen ophavsret - Kontraktmaessige begraensninger",
+          "@language": "da"
+        },
+        {
+          "@value": "Ei tekijanoikeutta - Sopimusrajoitukset",
+          "@language": "fi"
+        },
+        {
+          "@value": "Ingen opphavsrett - Kontraktsmessige begrensninger",
+          "@language": "nb"
+        },
+        {
+          "@value": "Ingen upphovsratt - Avtalsmassiga begransningar",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "No Copyright - Contractual Restrictions",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "The underlying work is not in copyright but contractual restrictions apply to the digital surrogate. Common when a third party digitized the work under contract.",
+        "@language": "en"
+      },
+      "mhub:category": "rights-statement",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/rights-statements"
+      },
+      "skos:exactMatch": {
+        "@id": "http://rightsstatements.org/vocab/NoC-CR/1.0/"
+      },
+      "mhub:europeanaTier": "tier-3",
+      "skos:scopeNote": {
+        "@value": "Use when a digitization partner's contract restricts reuse of the digital copy. The original work remains in the public domain.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/noc-oklr",
+      "@type": [
+        "mhub:RightsStatement",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "No Copyright - Other Known Legal Restrictions",
+          "@language": "en"
+        },
+        {
+          "@value": "Ingen ophavsret - Andre kendte juridiske begraensninger",
+          "@language": "da"
+        },
+        {
+          "@value": "Ei tekijanoikeutta - Muut tunnetut oikeudelliset rajoitukset",
+          "@language": "fi"
+        },
+        {
+          "@value": "Ingen opphavsrett - Andre kjente rettslige begrensninger",
+          "@language": "nb"
+        },
+        {
+          "@value": "Ingen upphovsratt - Andra kanda rattsliga begransningar",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "No Copyright - Other Known Legal Restrictions",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "The work is not in copyright but other legal restrictions prevent free reuse. May include cultural heritage protection laws, privacy laws, or export restrictions.",
+        "@language": "en"
+      },
+      "mhub:category": "rights-statement",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/rights-statements"
+      },
+      "skos:exactMatch": {
+        "@id": "http://rightsstatements.org/vocab/NoC-OKLR/1.0/"
+      },
+      "mhub:europeanaTier": "tier-3",
+      "skos:scopeNote": {
+        "@value": "Use when non-copyright legal restrictions apply, such as cultural heritage protection legislation or privacy regulations (GDPR).",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/noc-us",
+      "@type": [
+        "mhub:RightsStatement",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "No Copyright - United States",
+          "@language": "en"
+        },
+        {
+          "@value": "Ingen ophavsret - USA",
+          "@language": "da"
+        },
+        {
+          "@value": "Ei tekijanoikeutta - Yhdysvallat",
+          "@language": "fi"
+        },
+        {
+          "@value": "Ingen opphavsrett - USA",
+          "@language": "nb"
+        },
+        {
+          "@value": "Ingen upphovsratt - Forenta Staterna",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "No Copyright - United States",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "The item has been determined to be free of copyright in the United States. This does not necessarily mean it is free of copyright in other jurisdictions.",
+        "@language": "en"
+      },
+      "mhub:category": "rights-statement",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/rights-statements"
+      },
+      "skos:exactMatch": {
+        "@id": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+      },
+      "mhub:europeanaTier": "tier-4",
+      "skos:scopeNote": {
+        "@value": "Primarily relevant for US-based institutions. Nordic museums should generally use Public Domain Mark or country-specific assessments instead.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/cne",
+      "@type": [
+        "mhub:RightsStatement",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Copyright Not Evaluated",
+          "@language": "en"
+        },
+        {
+          "@value": "Ophavsret ikke vurderet",
+          "@language": "da"
+        },
+        {
+          "@value": "Tekijanoikeutta ei arvioitu",
+          "@language": "fi"
+        },
+        {
+          "@value": "Opphavsrett ikke vurdert",
+          "@language": "nb"
+        },
+        {
+          "@value": "Upphovsratt ej utvarderats",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Copyright Not Evaluated",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "The copyright status of the item has not been evaluated. Users must determine copyright status themselves before reuse.",
+        "@language": "en"
+      },
+      "mhub:category": "rights-statement",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/rights-statements"
+      },
+      "skos:exactMatch": {
+        "@id": "http://rightsstatements.org/vocab/CNE/1.0/"
+      },
+      "mhub:europeanaTier": "tier-1",
+      "skos:scopeNote": {
+        "@value": "A temporary status. Institutions should work toward evaluating and assigning a more specific rights statement over time.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/und",
+      "@type": [
+        "mhub:RightsStatement",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Copyright Undetermined",
+          "@language": "en"
+        },
+        {
+          "@value": "Ophavsret ubestemt",
+          "@language": "da"
+        },
+        {
+          "@value": "Tekijanoikeus maarittelematon",
+          "@language": "fi"
+        },
+        {
+          "@value": "Opphavsrett ubestemt",
+          "@language": "nb"
+        },
+        {
+          "@value": "Upphovsratt obestamd",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Copyright Undetermined",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "The copyright status has been reviewed but could not be determined. This may be due to incomplete information or complex rights situations.",
+        "@language": "en"
+      },
+      "mhub:category": "rights-statement",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/rights-statements"
+      },
+      "skos:exactMatch": {
+        "@id": "http://rightsstatements.org/vocab/UND/1.0/"
+      },
+      "mhub:europeanaTier": "tier-1",
+      "skos:scopeNote": {
+        "@value": "Use when an evaluation has been attempted but the status remains unclear. Document what information is missing or uncertain.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/nkc",
+      "@type": [
+        "mhub:RightsStatement",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "No Known Copyright",
+          "@language": "en"
+        },
+        {
+          "@value": "Ingen kendt ophavsret",
+          "@language": "da"
+        },
+        {
+          "@value": "Ei tunnettua tekijanoikeutta",
+          "@language": "fi"
+        },
+        {
+          "@value": "Ingen kjent opphavsrett",
+          "@language": "nb"
+        },
+        {
+          "@value": "Ingen kand upphovsratt",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "No Known Copyright",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "No copyright holder has been identified for the work. The institution believes the work may be used freely but cannot guarantee there are no copyright claims.",
+        "@language": "en"
+      },
+      "mhub:category": "rights-statement",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/rights-statements"
+      },
+      "skos:exactMatch": {
+        "@id": "http://rightsstatements.org/vocab/NKC/1.0/"
+      },
+      "mhub:europeanaTier": "tier-4",
+      "skos:scopeNote": {
+        "@value": "Use when research indicates no copyright applies but absolute certainty cannot be established. More cautious than Public Domain Mark.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/nordic-copyright",
+      "@type": [
+        "mhub:CopyrightConcept",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Nordic Copyright Law",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordisk ophavsret",
+          "@language": "da"
+        },
+        {
+          "@value": "Pohjoismainen tekijanoikeus",
+          "@language": "fi"
+        },
+        {
+          "@value": "Nordisk opphavsrett",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordisk upphovsratt",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Nordic Copyright Law",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Top-level grouping for Nordic copyright legislation and legal concepts. The Nordic countries share a common copyright tradition with harmonized but nationally distinct legislation.",
+        "@language": "en"
+      },
+      "mhub:category": "nordic-copyright-law"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/se-copyright-act",
+      "@type": [
+        "mhub:CopyrightConcept",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Swedish Copyright Act (Upphovsrattslagen)",
+          "@language": "en"
+        },
+        {
+          "@value": "Svensk ophavsretslov",
+          "@language": "da"
+        },
+        {
+          "@value": "Ruotsin tekijanoikeuslaki",
+          "@language": "fi"
+        },
+        {
+          "@value": "Svensk lov om opphavsrett",
+          "@language": "nb"
+        },
+        {
+          "@value": "Upphovsrattslagen (1960:729)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Swedish Copyright Act (Upphovsrattslagen)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "The Swedish Act on Copyright in Literary and Artistic Works (1960:729). Provides comprehensive copyright protection for literary and artistic works, including visual art, photographs, and databases.",
+        "@language": "en"
+      },
+      "mhub:category": "nordic-copyright-law",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/nordic-copyright"
+      },
+      "skos:exactMatch": {
+        "@id": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-1960729-om-upphovsratt-till-litterara-och_sfs-1960-729/"
+      },
+      "skos:scopeNote": {
+        "@value": "Key provisions: Section 44a on photographic images (shorter protection), Section 49 on catalogs/databases, Section 26e on extended collective licensing.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/fi-copyright-act",
+      "@type": [
+        "mhub:CopyrightConcept",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Finnish Copyright Act (Tekijanoikeuslaki)",
+          "@language": "en"
+        },
+        {
+          "@value": "Finsk ophavsretslov",
+          "@language": "da"
+        },
+        {
+          "@value": "Tekijanoikeuslaki (404/1961)",
+          "@language": "fi"
+        },
+        {
+          "@value": "Finsk lov om opphavsrett",
+          "@language": "nb"
+        },
+        {
+          "@value": "Finlands upphovsrattslag",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Finnish Copyright Act (Tekijanoikeuslaki)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "The Finnish Copyright Act (404/1961). Protects literary and artistic works with specific provisions for photographic works, databases, and cultural heritage institutions.",
+        "@language": "en"
+      },
+      "mhub:category": "nordic-copyright-law",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/nordic-copyright"
+      },
+      "skos:exactMatch": {
+        "@id": "https://www.finlex.fi/fi/laki/ajantasa/1961/19610404"
+      },
+      "skos:scopeNote": {
+        "@value": "Key provisions: Section 49a on photographic images, Chapter 2 on limitations and exceptions, extended collective licensing provisions in Section 26.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/no-copyright-act",
+      "@type": [
+        "mhub:CopyrightConcept",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Norwegian Copyright Act (Andsverkloven)",
+          "@language": "en"
+        },
+        {
+          "@value": "Norsk ophavsretslov",
+          "@language": "da"
+        },
+        {
+          "@value": "Norjan tekijanoikeuslaki",
+          "@language": "fi"
+        },
+        {
+          "@value": "Lov om opphavsrett til andsverk (andsverkloven)",
+          "@language": "nb"
+        },
+        {
+          "@value": "Norska upphovsrattslagen",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Norwegian Copyright Act (Andsverkloven)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "The Norwegian Act on Copyright in Literary and Artistic Works (LOV-2018-06-15-40). Modernized in 2018, it covers copyright, neighboring rights, and database protection.",
+        "@language": "en"
+      },
+      "mhub:category": "nordic-copyright-law",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/nordic-copyright"
+      },
+      "skos:exactMatch": {
+        "@id": "https://lovdata.no/dokument/NL/lov/2018-06-15-40"
+      },
+      "skos:scopeNote": {
+        "@value": "The 2018 act replaced the 1961 law. Chapter 3 covers exceptions and limitations relevant to cultural heritage institutions.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/dk-copyright-act",
+      "@type": [
+        "mhub:CopyrightConcept",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Danish Copyright Act (Ophavsretsloven)",
+          "@language": "en"
+        },
+        {
+          "@value": "Ophavsretsloven (LBK nr 1144)",
+          "@language": "da"
+        },
+        {
+          "@value": "Tanskan tekijanoikeuslaki",
+          "@language": "fi"
+        },
+        {
+          "@value": "Dansk lov om opphavsrett",
+          "@language": "nb"
+        },
+        {
+          "@value": "Danska upphovsrattslagen",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Danish Copyright Act (Ophavsretsloven)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "The Danish Consolidated Act on Copyright (ophavsretsloven). Provides protection for literary and artistic works with provisions for cultural heritage use.",
+        "@language": "en"
+      },
+      "mhub:category": "nordic-copyright-law",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/nordic-copyright"
+      },
+      "skos:exactMatch": {
+        "@id": "https://www.retsinformation.dk/eli/lta/2014/1144"
+      },
+      "skos:scopeNote": {
+        "@value": "Key provisions: Section 70 on photographic images, Chapter 2 on limitations, extended collective licensing in Section 50.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/is-copyright-act",
+      "@type": [
+        "mhub:CopyrightConcept",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Icelandic Copyright Act (Hofundalog)",
+          "@language": "en"
+        },
+        {
+          "@value": "Islandsk ophavsretslov",
+          "@language": "da"
+        },
+        {
+          "@value": "Islannin tekijanoikeuslaki",
+          "@language": "fi"
+        },
+        {
+          "@value": "Hofundalog (nr. 73/1972)",
+          "@language": "is"
+        },
+        {
+          "@value": "Islandsk lov om opphavsrett",
+          "@language": "nb"
+        },
+        {
+          "@value": "Islandska upphovsrattslagen",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Icelandic Copyright Act (Hofundalog)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "The Icelandic Copyright Act (No. 73/1972). Provides copyright protection following the Nordic tradition with harmonized rules for literary and artistic works.",
+        "@language": "en"
+      },
+      "mhub:category": "nordic-copyright-law",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/nordic-copyright"
+      },
+      "skos:exactMatch": {
+        "@id": "https://www.althingi.is/lagas/nuna/1972073.html"
+      },
+      "skos:scopeNote": {
+        "@value": "Follows the same Nordic copyright tradition as the other Scandinavian countries. EEA membership requires alignment with EU copyright directives.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/post-mortem-70",
+      "@type": [
+        "mhub:CopyrightConcept",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "70-Year Post-Mortem Rule",
+          "@language": "en"
+        },
+        {
+          "@value": "70 ar efter ophavsmandens dod",
+          "@language": "da"
+        },
+        {
+          "@value": "70 vuotta tekijan kuoleman jalkeen",
+          "@language": "fi"
+        },
+        {
+          "@value": "70 ar etter opphavsmannens dod",
+          "@language": "nb"
+        },
+        {
+          "@value": "70 ar efter upphovsmannens dod",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "70-Year Post-Mortem Rule",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Copyright in the EU/EEA expires 70 years after the death of the author (post mortem auctoris). This term was harmonized by EU Directive 2006/116/EC across all member states.",
+        "@language": "en"
+      },
+      "mhub:category": "nordic-copyright-law",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/nordic-copyright"
+      },
+      "skos:scopeNote": {
+        "@value": "For works by known authors, copyright expires on January 1st of the year following the 70th anniversary of the author's death. For anonymous/pseudonymous works, 70 years from publication.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/freedom-of-panorama",
+      "@type": [
+        "mhub:CopyrightConcept",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Freedom of Panorama",
+          "@language": "en"
+        },
+        {
+          "@value": "Panoramafrihed",
+          "@language": "da"
+        },
+        {
+          "@value": "Panoraamavapaus",
+          "@language": "fi"
+        },
+        {
+          "@value": "Panoramafrihet",
+          "@language": "nb"
+        },
+        {
+          "@value": "Panoramafrihet",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Freedom of Panorama",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Legal provision allowing photography and reproduction of works permanently situated in public places. Implementation varies significantly across the Nordic countries.",
+        "@language": "en"
+      },
+      "mhub:category": "nordic-copyright-law",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/nordic-copyright"
+      },
+      "skos:scopeNote": {
+        "@value": "Sweden (Section 24): allows reproduction of outdoor public artworks. Denmark (Section 24): similar provision. Finland (Section 25a): limited to buildings and outdoor sculptures. Norway (Section 31): allows reproduction of outdoor works. Always verify current national legislation.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/public-domain-concept",
+      "@type": [
+        "mhub:CopyrightConcept",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Public Domain",
+          "@language": "en"
+        },
+        {
+          "@value": "Det fri vark (public domain)",
+          "@language": "da"
+        },
+        {
+          "@value": "Public domain (tekijanoikeudesta vapaa)",
+          "@language": "fi"
+        },
+        {
+          "@value": "Det fri verket (public domain)",
+          "@language": "nb"
+        },
+        {
+          "@value": "Allmanningen (fri fran upphovsratt)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Public Domain",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Works not protected by copyright, either because protection has expired, been waived, or never existed. In the Nordic context, note that moral rights persist even after economic rights expire.",
+        "@language": "en"
+      },
+      "mhub:category": "nordic-copyright-law",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/nordic-copyright"
+      },
+      "skos:scopeNote": {
+        "@value": "Mark with Public Domain Mark 1.0 or CC0. Remember that moral rights (attribution and integrity) may still apply under Nordic law even for public domain works.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/orphan-works",
+      "@type": [
+        "mhub:CopyrightConcept",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Orphan Works",
+          "@language": "en"
+        },
+        {
+          "@value": "Foraldrelose vaerker",
+          "@language": "da"
+        },
+        {
+          "@value": "Orpoteokset",
+          "@language": "fi"
+        },
+        {
+          "@value": "Foreldrelose verk",
+          "@language": "nb"
+        },
+        {
+          "@value": "Herrelosa verk",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Orphan Works",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Works still in copyright whose rights holder cannot be identified or located after a diligent search. EU Directive 2012/28/EU provides a framework for use by cultural heritage institutions.",
+        "@language": "en"
+      },
+      "mhub:category": "nordic-copyright-law",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/nordic-copyright"
+      },
+      "skos:scopeNote": {
+        "@value": "Nordic museums can use orphan works under the EU Directive after conducting and documenting a diligent search. Extended collective licensing (avtalslicens) offers an alternative Nordic approach.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/extended-collective-licensing",
+      "@type": [
+        "mhub:CopyrightConcept",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Extended Collective Licensing",
+          "@language": "en"
+        },
+        {
+          "@value": "Aftalelicens",
+          "@language": "da"
+        },
+        {
+          "@value": "Sopimuslisenssit",
+          "@language": "fi"
+        },
+        {
+          "@value": "Avtalelisens",
+          "@language": "nb"
+        },
+        {
+          "@value": "Avtalslicens",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Extended Collective Licensing",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "A distinctly Nordic mechanism where agreements between users and representative collecting societies are extended to cover non-member rights holders. Enables mass digitization and online access.",
+        "@language": "en"
+      },
+      "mhub:category": "nordic-copyright-law",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/nordic-copyright"
+      },
+      "skos:scopeNote": {
+        "@value": "Particularly valuable for mass digitization projects. In Sweden, governed by Section 42a-42j of the Copyright Act. Collecting societies include Bildupphovsratt (images) and Bonus Copyright Access (text).",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/reproduction-right",
+      "@type": [
+        "mhub:CopyrightConcept",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Right of Reproduction",
+          "@language": "en"
+        },
+        {
+          "@value": "Reproduktionsret",
+          "@language": "da"
+        },
+        {
+          "@value": "Kappaleenoikeus",
+          "@language": "fi"
+        },
+        {
+          "@value": "Eksemplarfremstillingsrett",
+          "@language": "nb"
+        },
+        {
+          "@value": "Mangfaldiganderatt",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Right of Reproduction",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "The exclusive right of the copyright holder to reproduce the work in any material form, including digital copies. A core economic right under all Nordic copyright acts.",
+        "@language": "en"
+      },
+      "mhub:category": "nordic-copyright-law",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/nordic-copyright"
+      },
+      "skos:scopeNote": {
+        "@value": "Digitization of museum objects constitutes reproduction. Ensure you have authorization from rights holders or rely on applicable exceptions before digitizing.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/moral-rights",
+      "@type": [
+        "mhub:CopyrightConcept",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Moral Rights",
+          "@language": "en"
+        },
+        {
+          "@value": "Ideelle rettigheder",
+          "@language": "da"
+        },
+        {
+          "@value": "Moraaliset oikeudet",
+          "@language": "fi"
+        },
+        {
+          "@value": "Ideelle rettigheter",
+          "@language": "nb"
+        },
+        {
+          "@value": "Ideell ratt",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Moral Rights",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Non-transferable personal rights of the author including the right of attribution (namnangivelseratt) and the right of integrity (respektratt). In Nordic countries, moral rights cannot be fully waived.",
+        "@language": "en"
+      },
+      "mhub:category": "nordic-copyright-law",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/nordic-copyright"
+      },
+      "skos:scopeNote": {
+        "@value": "Always attribute the creator even when using CC0 or Public Domain Mark. Avoid modifications that could harm the author's reputation, even for public domain works.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/database-rights",
+      "@type": [
+        "mhub:CopyrightConcept",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Database Rights (Sui Generis)",
+          "@language": "en"
+        },
+        {
+          "@value": "Databaserettigheder (sui generis)",
+          "@language": "da"
+        },
+        {
+          "@value": "Tietokantaoikeus (sui generis)",
+          "@language": "fi"
+        },
+        {
+          "@value": "Databaserettigheter (sui generis)",
+          "@language": "nb"
+        },
+        {
+          "@value": "Databasratt (sui generis)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Database Rights (Sui Generis)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Sui generis protection for databases under EU Directive 96/9/EC, implemented in all Nordic countries. Protects substantial investment in obtaining, verifying, or presenting database contents for 15 years.",
+        "@language": "en"
+      },
+      "mhub:category": "nordic-copyright-law",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/nordic-copyright"
+      },
+      "skos:scopeNote": {
+        "@value": "Museum collection databases may qualify for sui generis protection. This is separate from copyright in individual entries. Consider CC0 for maximum interoperability of metadata.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/photographic-works-vs-images",
+      "@type": [
+        "mhub:CopyrightConcept",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Photographic Works vs. Photographic Images",
+          "@language": "en"
+        },
+        {
+          "@value": "Fotografiske vaerker vs. fotografiske billeder",
+          "@language": "da"
+        },
+        {
+          "@value": "Valokuvateokset vs. valokuvat",
+          "@language": "fi"
+        },
+        {
+          "@value": "Fotografiske verk vs. fotografiske bilder",
+          "@language": "nb"
+        },
+        {
+          "@value": "Fotografiska verk vs. fotografiska bilder",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Photographic Works vs. Photographic Images",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Nordic copyright law distinguishes between photographic works (original creative expression, full copyright term) and photographic images (any photograph, shorter protection of 50 years from creation). Critical for museum documentation photography.",
+        "@language": "en"
+      },
+      "mhub:category": "nordic-copyright-law",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/nordic-copyright"
+      },
+      "skos:scopeNote": {
+        "@value": "Most museum documentation photography (catalog photos, condition reports) qualifies as photographic images with 50-year protection. Artistic photography gets full copyright term (70 years post mortem).",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/museum-reproduction-rights",
+      "@type": [
+        "mhub:CopyrightConcept",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Museum Reproduction Rights",
+          "@language": "en"
+        },
+        {
+          "@value": "Museets reproduktionsrettigheder",
+          "@language": "da"
+        },
+        {
+          "@value": "Museon toisinto-oikeudet",
+          "@language": "fi"
+        },
+        {
+          "@value": "Museets reproduksjonsrettigheter",
+          "@language": "nb"
+        },
+        {
+          "@value": "Museets reproduktionsratt",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Museum Reproduction Rights",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "The legal framework governing museum rights to reproduce and make available works in their collections. Varies based on whether the original work is in copyright and whether the reproduction itself generates new rights.",
+        "@language": "en"
+      },
+      "mhub:category": "nordic-copyright-law",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/nordic-copyright"
+      },
+      "skos:scopeNote": {
+        "@value": "For public domain originals, the museum's reproduction may still be protected as a photographic image. The Bridgeman Art Library v. Corel Corp. precedent (US) is not binding in Nordic jurisdictions.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/europeana-framework",
+      "@type": [
+        "mhub:RightsFramework",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Europeana Rights Framework",
+          "@language": "en"
+        },
+        {
+          "@value": "Europeanas rettighetsrammeverk",
+          "@language": "da"
+        },
+        {
+          "@value": "Europeanan oikeuksien kehys",
+          "@language": "fi"
+        },
+        {
+          "@value": "Europeanas rettighetsrammeverk",
+          "@language": "nb"
+        },
+        {
+          "@value": "Europeanas rattighetsramverk",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Europeana Rights Framework",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Top-level grouping for the Europeana rights and licensing framework. Europeana uses a tiered system to classify the openness of content rights statements.",
+        "@language": "en"
+      },
+      "mhub:category": "europeana-framework",
+      "skos:exactMatch": {
+        "@id": "https://www.europeana.eu/en/rights"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/europeana-tier-1",
+      "@type": [
+        "mhub:RightsFramework",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Europeana Tier 1: Most Restrictive",
+          "@language": "en"
+        },
+        {
+          "@value": "Europeana Niveau 1: Mest restriktiv",
+          "@language": "da"
+        },
+        {
+          "@value": "Europeana Taso 1: Rajoittavin",
+          "@language": "fi"
+        },
+        {
+          "@value": "Europeana Niva 1: Mest restriktiv",
+          "@language": "nb"
+        },
+        {
+          "@value": "Europeana Niva 1: Mest restriktiv",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Europeana Tier 1: Most Restrictive",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "The most restrictive tier in the Europeana licensing framework. Includes InC (In Copyright) and CC-BY-NC-ND. Content is viewable on Europeana but not reusable.",
+        "@language": "en"
+      },
+      "mhub:category": "europeana-framework",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/europeana-framework"
+      },
+      "skos:scopeNote": {
+        "@value": "Content at this tier has limited visibility and reuse potential on Europeana. Aim for more open tiers when possible to maximize cultural impact.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/europeana-tier-2",
+      "@type": [
+        "mhub:RightsFramework",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Europeana Tier 2: Restricted Reuse",
+          "@language": "en"
+        },
+        {
+          "@value": "Europeana Niveau 2: Begraenset genbrug",
+          "@language": "da"
+        },
+        {
+          "@value": "Europeana Taso 2: Rajoitettu uudelleenkaytto",
+          "@language": "fi"
+        },
+        {
+          "@value": "Europeana Niva 2: Begrenset gjenbruk",
+          "@language": "nb"
+        },
+        {
+          "@value": "Europeana Niva 2: Begransad ateranvandning",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Europeana Tier 2: Restricted Reuse",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "The restricted reuse tier. Includes CC-BY-NC and CC-BY-NC-SA licenses. Content can be reused for non-commercial purposes with attribution.",
+        "@language": "en"
+      },
+      "mhub:category": "europeana-framework",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/europeana-framework"
+      },
+      "skos:scopeNote": {
+        "@value": "Suitable for content where the institution needs to restrict commercial exploitation. Non-commercial licenses are widely used in education.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/europeana-tier-3",
+      "@type": [
+        "mhub:RightsFramework",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Europeana Tier 3: Free Reuse with Conditions",
+          "@language": "en"
+        },
+        {
+          "@value": "Europeana Niveau 3: Fri genbrug med vilkar",
+          "@language": "da"
+        },
+        {
+          "@value": "Europeana Taso 3: Vapaa uudelleenkaytto ehdoin",
+          "@language": "fi"
+        },
+        {
+          "@value": "Europeana Niva 3: Fri gjenbruk med vilkar",
+          "@language": "nb"
+        },
+        {
+          "@value": "Europeana Niva 3: Fri ateranvandning med villkor",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Europeana Tier 3: Free Reuse with Conditions",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Free reuse tier with conditions. Includes CC-BY-ND and NoC-CR (contractual restrictions). Content is generally reusable but with some limitations.",
+        "@language": "en"
+      },
+      "mhub:category": "europeana-framework",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/europeana-framework"
+      },
+      "skos:scopeNote": {
+        "@value": "A good middle ground. Content reaches a broad audience while maintaining some control over how it is presented or used.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/europeana-tier-4",
+      "@type": [
+        "mhub:RightsFramework",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Europeana Tier 4: Open / Public Domain",
+          "@language": "en"
+        },
+        {
+          "@value": "Europeana Niveau 4: Aben / Public Domain",
+          "@language": "da"
+        },
+        {
+          "@value": "Europeana Taso 4: Avoin / Public Domain",
+          "@language": "fi"
+        },
+        {
+          "@value": "Europeana Niva 4: Apen / Public Domain",
+          "@language": "nb"
+        },
+        {
+          "@value": "Europeana Niva 4: Oppen / Public Domain",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Europeana Tier 4: Open / Public Domain",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "The most open tier. Includes CC0, CC-BY, CC-BY-SA, Public Domain Mark, and NoC-US. Content is freely reusable, maximizing cultural and educational impact.",
+        "@language": "en"
+      },
+      "mhub:category": "europeana-framework",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/europeana-framework"
+      },
+      "skos:scopeNote": {
+        "@value": "The gold standard for open cultural heritage. Maximizes discoverability, reuse, and impact. Strongly recommended for metadata and public domain reproductions.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/europeana-dea",
+      "@type": [
+        "mhub:RightsFramework",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Europeana Data Exchange Agreement",
+          "@language": "en"
+        },
+        {
+          "@value": "Europeanas dataudvekslingsaftale",
+          "@language": "da"
+        },
+        {
+          "@value": "Europeanan tiedonvaihtosopimus",
+          "@language": "fi"
+        },
+        {
+          "@value": "Europeanas datautvekslingsavtale",
+          "@language": "nb"
+        },
+        {
+          "@value": "Europeanas datautbytesavtal",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Europeana Data Exchange Agreement",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "The agreement governing data exchange between Europeana and its data providers. Requires metadata to be provided under CC0 to enable maximum interoperability and reuse.",
+        "@language": "en"
+      },
+      "mhub:category": "europeana-framework",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/europeana-framework"
+      },
+      "skos:exactMatch": {
+        "@id": "https://pro.europeana.eu/page/the-data-exchange-agreement"
+      },
+      "skos:scopeNote": {
+        "@value": "All metadata submitted to Europeana must be licensed under CC0 per this agreement. This applies to descriptive metadata only, not to the digital objects themselves.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/europeana-metadata-guidelines",
+      "@type": [
+        "mhub:RightsFramework",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Europeana Usage Guidelines for Metadata",
+          "@language": "en"
+        },
+        {
+          "@value": "Europeanas retningslinjer for brug af metadata",
+          "@language": "da"
+        },
+        {
+          "@value": "Europeanan metatiedon kayttoohjeet",
+          "@language": "fi"
+        },
+        {
+          "@value": "Europeanas retningslinjer for bruk av metadata",
+          "@language": "nb"
+        },
+        {
+          "@value": "Europeanas riktlinjer for anvandning av metadata",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Europeana Usage Guidelines for Metadata",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Guidelines specifying how Europeana metadata should be used and attributed. Metadata provided to Europeana is available under CC0 for maximum reuse.",
+        "@language": "en"
+      },
+      "mhub:category": "europeana-framework",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/europeana-framework"
+      },
+      "skos:exactMatch": {
+        "@id": "https://pro.europeana.eu/page/usage-guidelines-for-metadata"
+      },
+      "skos:scopeNote": {
+        "@value": "Follow these guidelines when reusing metadata obtained from the Europeana API or portal. Attribution is encouraged as good practice even though CC0 does not legally require it.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/europeana-pd-charter",
+      "@type": [
+        "mhub:RightsFramework",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Europeana Public Domain Charter",
+          "@language": "en"
+        },
+        {
+          "@value": "Europeanas Public Domain-charter",
+          "@language": "da"
+        },
+        {
+          "@value": "Europeanan Public Domain -peruskirja",
+          "@language": "fi"
+        },
+        {
+          "@value": "Europeanas Public Domain-charter",
+          "@language": "nb"
+        },
+        {
+          "@value": "Europeanas Public Domain-stadga",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Europeana Public Domain Charter",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Europeana's charter affirming that works in the public domain should remain freely available. Digitization of public domain works should not create new exclusive rights over the digital reproductions.",
+        "@language": "en"
+      },
+      "mhub:category": "europeana-framework",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/europeana-framework"
+      },
+      "skos:exactMatch": {
+        "@id": "https://pro.europeana.eu/page/the-europeana-public-domain-charter"
+      },
+      "skos:scopeNote": {
+        "@value": "Key principle: faithful digital reproductions of public domain 2D works should not be restricted by new copyright claims. This reflects the spirit of open access to cultural heritage.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/museum-scenarios",
+      "@type": [
+        "mhub:UsageScenario",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Common Museum Rights Scenarios",
+          "@language": "en"
+        },
+        {
+          "@value": "Almindelige museumsrettighedsscenarier",
+          "@language": "da"
+        },
+        {
+          "@value": "Yleiset museooikeusskenaariot",
+          "@language": "fi"
+        },
+        {
+          "@value": "Vanlige museumsrettighetsscenarier",
+          "@language": "nb"
+        },
+        {
+          "@value": "Vanliga museirattighetsscenarier",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Common Museum Rights Scenarios",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Top-level grouping for common rights scenarios encountered by Nordic museums when digitizing and publishing collection materials.",
+        "@language": "en"
+      },
+      "mhub:category": "museum-scenario"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/scenario-pre-1900-artwork",
+      "@type": [
+        "mhub:UsageScenario",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Pre-1900 Artwork (Photographer Unknown)",
+          "@language": "en"
+        },
+        {
+          "@value": "Kunstvaerk for 1900 (fotograf ukendt)",
+          "@language": "da"
+        },
+        {
+          "@value": "Ennen vuotta 1900 luotu taideteos (valokuvaaja tuntematon)",
+          "@language": "fi"
+        },
+        {
+          "@value": "Kunstverk for 1900 (fotograf ukjent)",
+          "@language": "nb"
+        },
+        {
+          "@value": "Konstverk fore 1900 (fotograf okand)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Pre-1900 Artwork (Photographer Unknown)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Artwork created before 1900 where the photographer of the digital reproduction is unknown. The original is almost certainly in the public domain (70-year post-mortem rule), but the digital reproduction may have limited protection as a photographic image.",
+        "@language": "en"
+      },
+      "mhub:category": "museum-scenario",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/museum-scenarios"
+      },
+      "skos:scopeNote": {
+        "@value": "Recommended: Public Domain Mark 1.0 for the original work. For faithful 2D reproductions, follow the Europeana Public Domain Charter principle. If the photographer is a museum employee, apply the museum's standard open license.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/scenario-contemporary-artwork",
+      "@type": [
+        "mhub:UsageScenario",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Contemporary Artwork with Living Artist",
+          "@language": "en"
+        },
+        {
+          "@value": "Samtidskunstvaerk med levende kunstner",
+          "@language": "da"
+        },
+        {
+          "@value": "Nykytaideteos elavan taiteilijan kanssa",
+          "@language": "fi"
+        },
+        {
+          "@value": "Samtidskunstverk med levende kunstner",
+          "@language": "nb"
+        },
+        {
+          "@value": "Samtida konstverk med levande konstnar",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Contemporary Artwork with Living Artist",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Artworks by living or recently deceased artists where copyright is still active. Both the original work and the documentation photograph may be separately protected.",
+        "@language": "en"
+      },
+      "mhub:category": "museum-scenario",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/museum-scenarios"
+      },
+      "skos:scopeNote": {
+        "@value": "Recommended: InC (In Copyright) unless the artist has granted a specific license. Consider extended collective licensing (avtalslicens) for online access. Contact Bildupphovsratt (SE), Kuvasto (FI), or BONO (NO).",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/scenario-museum-photography-2d",
+      "@type": [
+        "mhub:UsageScenario",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Museum-Commissioned Photography of 2D Works",
+          "@language": "en"
+        },
+        {
+          "@value": "Museumsbestilte fotografier af 2D-vaerker",
+          "@language": "da"
+        },
+        {
+          "@value": "Museon tilaamat valokuvat 2D-teoksista",
+          "@language": "fi"
+        },
+        {
+          "@value": "Museumsbestilte fotografier av 2D-verk",
+          "@language": "nb"
+        },
+        {
+          "@value": "Museibestallda fotografier av 2D-verk",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Museum-Commissioned Photography of 2D Works",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Photographs commissioned by the museum to document flat/2D collection objects. For faithful reproductions of public domain 2D works, the photograph may not generate independent copyright (following the Europeana Public Domain Charter).",
+        "@language": "en"
+      },
+      "mhub:category": "museum-scenario",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/museum-scenarios"
+      },
+      "skos:scopeNote": {
+        "@value": "If the original 2D work is in the public domain, recommended: Public Domain Mark or CC0 for faithful reproductions. If the original is in copyright, the photograph adds a layer of rights requiring both artist and photographer clearance.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/scenario-archaeological-finds",
+      "@type": [
+        "mhub:UsageScenario",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Archaeological Finds (State Ownership)",
+          "@language": "en"
+        },
+        {
+          "@value": "Arkaeologiske fund (statseje)",
+          "@language": "da"
+        },
+        {
+          "@value": "Arkeologiset loydot (valtion omistus)",
+          "@language": "fi"
+        },
+        {
+          "@value": "Arkeologiske funn (statlig eiendom)",
+          "@language": "nb"
+        },
+        {
+          "@value": "Arkeologiska fynd (statlig aganderatt)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Archaeological Finds (State Ownership)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Archaeological objects typically owned by the state under Nordic cultural heritage legislation. Copyright may not apply to the objects themselves, but documentation photographs may be protected.",
+        "@language": "en"
+      },
+      "mhub:category": "museum-scenario",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/museum-scenarios"
+      },
+      "skos:scopeNote": {
+        "@value": "The objects themselves are generally not copyrighted (utilitarian or ancient). Recommended: CC-BY 4.0 or CC0 for museum-created documentation photographs. Respect any export or cultural property restrictions (NoC-OKLR).",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/scenario-born-digital",
+      "@type": [
+        "mhub:UsageScenario",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Born-Digital Museum Content",
+          "@language": "en"
+        },
+        {
+          "@value": "Digitalt fodt museumsindhold",
+          "@language": "da"
+        },
+        {
+          "@value": "Digitaalisesti syntynyt museosisalto",
+          "@language": "fi"
+        },
+        {
+          "@value": "Digitalt fodt museumsinnhold",
+          "@language": "nb"
+        },
+        {
+          "@value": "Digitalt fodd museiinnehall",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Born-Digital Museum Content",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Content created directly in digital form by the museum, such as virtual exhibitions, 3D scans, interactive guides, educational materials, and social media content.",
+        "@language": "en"
+      },
+      "mhub:category": "museum-scenario",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/museum-scenarios"
+      },
+      "skos:scopeNote": {
+        "@value": "The museum typically holds all rights. Recommended: CC-BY 4.0 for maximum reuse, or CC-BY-SA 4.0 if share-alike is desired. Use CC0 for metadata and factual data.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/scenario-metadata-records",
+      "@type": [
+        "mhub:UsageScenario",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Metadata and Catalog Records",
+          "@language": "en"
+        },
+        {
+          "@value": "Metadata og katalogposter",
+          "@language": "da"
+        },
+        {
+          "@value": "Metatiedot ja luettelointitietueet",
+          "@language": "fi"
+        },
+        {
+          "@value": "Metadata og katalogposter",
+          "@language": "nb"
+        },
+        {
+          "@value": "Metadata och katalogposter",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Metadata and Catalog Records",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Descriptive metadata, catalog records, and structured data about collection objects. Generally factual in nature with limited or no copyright protection, but may be protected as databases.",
+        "@language": "en"
+      },
+      "mhub:category": "museum-scenario",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/museum-scenarios"
+      },
+      "skos:scopeNote": {
+        "@value": "Strongly recommended: CC0. Required by Europeana Data Exchange Agreement. Factual metadata has minimal copyright protection in most cases, making CC0 the natural choice.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/scenario-educational-use",
+      "@type": [
+        "mhub:UsageScenario",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Educational Use of Copyrighted Material",
+          "@language": "en"
+        },
+        {
+          "@value": "Undervisningsbrug af ophavsretligt beskyttet materiale",
+          "@language": "da"
+        },
+        {
+          "@value": "Tekijanoikeudella suojatun materiaalin opetuskaytto",
+          "@language": "fi"
+        },
+        {
+          "@value": "Undervisningsbruk av opphavsrettsbeskyttet materiale",
+          "@language": "nb"
+        },
+        {
+          "@value": "Utbildningsanvandning av upphovsrattsskyddat material",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Educational Use of Copyrighted Material",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Use of copyrighted collection materials for educational purposes such as lectures, teaching materials, and school programs. Nordic copyright laws provide specific exceptions for educational use.",
+        "@language": "en"
+      },
+      "mhub:category": "museum-scenario",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/museum-scenarios"
+      },
+      "skos:scopeNote": {
+        "@value": "Apply InC-EDU if the rights holder has authorized educational use. Otherwise, rely on national copyright exceptions for education (e.g., Swedish Copyright Act Section 42c). Extended collective licensing may also apply.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/scenario-sami-heritage",
+      "@type": [
+        "mhub:UsageScenario",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Sami Cultural Heritage Considerations",
+          "@language": "en"
+        },
+        {
+          "@value": "Samisk kulturarvshensyn",
+          "@language": "da"
+        },
+        {
+          "@value": "Saamelaisen kulttuuriperinnon huomiointi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Samisk kulturarvshensyn",
+          "@language": "nb"
+        },
+        {
+          "@value": "Sami kulturarbi",
+          "@language": "se"
+        },
+        {
+          "@value": "Samisk kulturarvshantering",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Sami Cultural Heritage Considerations",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Special considerations for Sami cultural heritage materials, including traditional knowledge, joik recordings, duodji (crafts), and sacred or sensitive cultural objects. Requires engagement with Sami communities and institutions.",
+        "@language": "en"
+      },
+      "mhub:category": "museum-scenario",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/museum-scenarios"
+      },
+      "skos:scopeNote": {
+        "@value": "Standard copyright licenses may be insufficient. Consider Traditional Knowledge labels (Local Contexts). Consult with Sami Parliament (Sametinget) and relevant Sami museums (Ajtte, Siida, RiddoDuottarMuseat). Follow CARE principles for Indigenous data governance.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-rights/scenario-traditional-knowledge",
+      "@type": [
+        "mhub:UsageScenario",
+        "skos:Concept"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Traditional Knowledge Labels",
+          "@language": "en"
+        },
+        {
+          "@value": "Traditionel vidensmaerkning",
+          "@language": "da"
+        },
+        {
+          "@value": "Perinteisen tiedon merkinta",
+          "@language": "fi"
+        },
+        {
+          "@value": "Tradisjonell kunnskapsmerking",
+          "@language": "nb"
+        },
+        {
+          "@value": "Traditionell kunskapsmarkning",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Traditional Knowledge Labels",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Labels developed by the Local Contexts initiative to address intellectual property issues for Indigenous communities. Provide culturally specific information about how traditional knowledge should be accessed and used.",
+        "@language": "en"
+      },
+      "mhub:category": "museum-scenario",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-rights/museum-scenarios"
+      },
+      "skos:exactMatch": {
+        "@id": "https://localcontexts.org/labels/traditional-knowledge-labels/"
+      },
+      "skos:scopeNote": {
+        "@value": "TK Labels complement rather than replace standard licenses. They communicate community expectations for use. Applicable to Sami collections and other Indigenous materials in Nordic museums. Work with communities to select appropriate labels.",
+        "@language": "en"
+      }
+    }
+  ]
+}

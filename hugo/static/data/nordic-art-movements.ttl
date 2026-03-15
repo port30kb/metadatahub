@@ -1,0 +1,1763 @@
+# ═══════════════════════════════════════════════════════════════
+# Nordic Art and Design Movements Thesaurus
+# Linked Data for metadatahub.eu
+# 93 entries: art, architecture, and design movements
+# from the Nordic countries (Denmark, Finland, Iceland, Norway, Sweden).
+#
+# Sources:
+#   https://en.wikipedia.org/wiki/Scandinavian_design
+#   https://en.wikipedia.org/wiki/Nordic_art
+#   https://en.wikipedia.org/wiki/Danish_Golden_Age
+#   https://en.wikipedia.org/wiki/National_Romanticism
+#   https://en.wikipedia.org/wiki/Skagen_Painters
+#   https://en.wikipedia.org/wiki/Functionalism_(architecture)
+#
+# Total entries: 93
+# ═══════════════════════════════════════════════════════════════
+
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix time:    <http://www.w3.org/2006/time#> .
+@prefix nam:     <https://metadatahub.eu/data/nordic-art-movements/> .
+
+<https://metadatahub.eu/data/nordic-art-movements> a skos:ConceptScheme ;
+    dcterms:title "Nordic Art and Design Movements Thesaurus"@en ;
+    dcterms:title "Tesaurus för nordisk konst och design"@sv ;
+    dcterms:description "93 entries covering Nordic art, architecture, and design movements from the Renaissance to contemporary, with multilingual labels in five Nordic languages."@en ;
+    dcterms:source <https://en.wikipedia.org/wiki/Scandinavian_design> ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> ;
+    dcterms:source <https://en.wikipedia.org/wiki/Danish_Golden_Age> ;
+    dcterms:source <https://en.wikipedia.org/wiki/National_Romanticism> ;
+    dcterms:source <https://en.wikipedia.org/wiki/Skagen_Painters> ;
+    dcterms:source <https://en.wikipedia.org/wiki/Functionalism_(architecture)> ;
+    dcterms:creator "Port 30 KB" ;
+    dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dcterms:modified "2025-03-15"^^xsd:date .
+
+# ── 1/93: Nordic Renaissance ──
+nam:nordic-renaissance a skos:Concept ;
+    rdfs:label "Nordic Renaissance"@en ;
+    rdfs:label "Nordisk renæssance"@da ;
+    rdfs:label "Pohjoismainen renessanssi"@fi ;
+    rdfs:label "Nordisk renessanse"@nb ;
+    rdfs:label "Nordisk renässans"@sv ;
+    skos:prefLabel "Nordic Renaissance"@en ;
+    skos:prefLabel "Nordisk renæssance"@da ;
+    skos:prefLabel "Pohjoismainen renessanssi"@fi ;
+    skos:prefLabel "Nordisk renessanse"@nb ;
+    skos:prefLabel "Nordisk renässans"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Renaissance art and architecture in Scandinavia, influenced by German, Dutch, and Italian models; characterized by castle construction and Lutheran church decoration."@en ;
+    skos:closeMatch <http://vocab.getty.edu/aat/300021140> ;
+    time:hasBeginning [ time:inXSDgYear "1500"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1650"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 2/93: Danish-Norwegian Baroque ──
+nam:danish-norwegian-baroque a skos:Concept ;
+    rdfs:label "Danish-Norwegian Baroque"@en ;
+    rdfs:label "Dansk-norsk barok"@da ;
+    rdfs:label "Tanskalais-norjalainen barokki"@fi ;
+    rdfs:label "Dansk-norsk barokk"@nb ;
+    rdfs:label "Dansk-norsk barock"@sv ;
+    skos:prefLabel "Danish-Norwegian Baroque"@en ;
+    skos:prefLabel "Dansk-norsk barok"@da ;
+    skos:prefLabel "Tanskalais-norjalainen barokki"@fi ;
+    skos:prefLabel "Dansk-norsk barokk"@nb ;
+    skos:prefLabel "Dansk-norsk barock"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Baroque art and architecture in the dual monarchy of Denmark-Norway, seen in palaces like Frederiksborg and churches with elaborate altarpieces."@en ;
+    skos:broader nam:nordic-baroque ;
+    time:hasBeginning [ time:inXSDgYear "1620"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1750"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 3/93: Nordic Baroque ──
+nam:nordic-baroque a skos:Concept ;
+    rdfs:label "Nordic Baroque"@en ;
+    rdfs:label "Nordisk barok"@da ;
+    rdfs:label "Pohjoismainen barokki"@fi ;
+    rdfs:label "Nordisk barokk"@nb ;
+    rdfs:label "Nordisk barock"@sv ;
+    skos:prefLabel "Nordic Baroque"@en ;
+    skos:prefLabel "Nordisk barok"@da ;
+    skos:prefLabel "Pohjoismainen barokki"@fi ;
+    skos:prefLabel "Nordisk barokk"@nb ;
+    skos:prefLabel "Nordisk barock"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Baroque style in the Nordic countries, adapted to local materials and Lutheran sensibility; prominent in royal palaces, churches, and portraiture."@en ;
+    skos:closeMatch <http://vocab.getty.edu/aat/300021147> ;
+    time:hasBeginning [ time:inXSDgYear "1600"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1750"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 4/93: Swedish Baroque ──
+nam:swedish-baroque a skos:Concept ;
+    rdfs:label "Swedish Baroque"@en ;
+    rdfs:label "Svensk barok"@da ;
+    rdfs:label "Ruotsalainen barokki"@fi ;
+    rdfs:label "Svensk barokk"@nb ;
+    rdfs:label "Svensk barock"@sv ;
+    skos:prefLabel "Swedish Baroque"@en ;
+    skos:prefLabel "Svensk barok"@da ;
+    skos:prefLabel "Ruotsalainen barokki"@fi ;
+    skos:prefLabel "Svensk barokk"@nb ;
+    skos:prefLabel "Svensk barock"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Baroque period in Sweden during the era of great power (stormaktstiden), exemplified by architects like Nicodemus Tessin the Elder and Younger."@en ;
+    skos:broader nam:nordic-baroque ;
+    time:hasBeginning [ time:inXSDgYear "1620"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1750"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 5/93: Nordic Rococo ──
+nam:nordic-rococo a skos:Concept ;
+    rdfs:label "Nordic Rococo"@en ;
+    rdfs:label "Nordisk rokoko"@da ;
+    rdfs:label "Pohjoismainen rokokoo"@fi ;
+    rdfs:label "Nordisk rokokko"@nb ;
+    rdfs:label "Nordisk rokoko"@sv ;
+    skos:prefLabel "Nordic Rococo"@en ;
+    skos:prefLabel "Nordisk rokoko"@da ;
+    skos:prefLabel "Pohjoismainen rokokoo"@fi ;
+    skos:prefLabel "Nordisk rokokko"@nb ;
+    skos:prefLabel "Nordisk rokoko"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Rococo style in Scandinavia, lighter and more ornamental than Baroque; visible in interiors, furniture, and decorative arts of the mid-18th century."@en ;
+    skos:closeMatch <http://vocab.getty.edu/aat/300021155> ;
+    time:hasBeginning [ time:inXSDgYear "1730"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1790"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 6/93: Gustavian Neoclassicism ──
+nam:gustavian-neoclassicism a skos:Concept ;
+    rdfs:label "Gustavian Neoclassicism"@en ;
+    rdfs:label "Gustaviansk neoklassicisme"@da ;
+    rdfs:label "Kustaavilainen uusklassismi"@fi ;
+    rdfs:label "Gustaviansk nyklassisisme"@nb ;
+    rdfs:label "Gustaviansk stil"@sv ;
+    skos:prefLabel "Gustavian Neoclassicism"@en ;
+    skos:prefLabel "Gustaviansk neoklassicisme"@da ;
+    skos:prefLabel "Kustaavilainen uusklassismi"@fi ;
+    skos:prefLabel "Gustaviansk nyklassisisme"@nb ;
+    skos:prefLabel "Gustaviansk stil"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Swedish neoclassical style under Gustav III, blending French Louis XVI elegance with Nordic restraint; defined Swedish interior design with pale colors and clean lines."@en ;
+    skos:closeMatch <http://vocab.getty.edu/aat/300021477> ;
+    time:hasBeginning [ time:inXSDgYear "1772"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1809"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 7/93: Swedish Classicism ──
+nam:swedish-classicism a skos:Concept ;
+    rdfs:label "Swedish Classicism"@en ;
+    rdfs:label "Svensk klassicisme"@da ;
+    rdfs:label "Ruotsalainen klassismi"@fi ;
+    rdfs:label "Svensk klassisisme"@nb ;
+    rdfs:label "Svensk klassicism"@sv ;
+    skos:prefLabel "Swedish Classicism"@en ;
+    skos:prefLabel "Svensk klassicisme"@da ;
+    skos:prefLabel "Ruotsalainen klassismi"@fi ;
+    skos:prefLabel "Svensk klassisisme"@nb ;
+    skos:prefLabel "Svensk klassicism"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Neoclassical and Empire-influenced architecture and decorative arts in Sweden, continued under Karl XIV Johan; marked by symmetry and antique references."@en ;
+    time:hasBeginning [ time:inXSDgYear "1780"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1850"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 8/93: Nordic Neoclassicism ──
+nam:nordic-neoclassicism a skos:Concept ;
+    rdfs:label "Nordic Neoclassicism"@en ;
+    rdfs:label "Nordisk neoklassicisme"@da ;
+    rdfs:label "Pohjoismainen uusklassismi"@fi ;
+    rdfs:label "Nordisk nyklassisisme"@nb ;
+    rdfs:label "Nordisk nyklassicism"@sv ;
+    skos:prefLabel "Nordic Neoclassicism"@en ;
+    skos:prefLabel "Nordisk neoklassicisme"@da ;
+    skos:prefLabel "Pohjoismainen uusklassismi"@fi ;
+    skos:prefLabel "Nordisk nyklassisisme"@nb ;
+    skos:prefLabel "Nordisk nyklassicism"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Neoclassical movement across the Nordic countries, inspired by Greco-Roman ideals; prominent in public buildings, sculpture, and the works of Bertel Thorvaldsen."@en ;
+    skos:closeMatch <http://vocab.getty.edu/aat/300021477> ;
+    time:hasBeginning [ time:inXSDgYear "1760"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1850"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 9/93: Danish Neoclassicism ──
+nam:danish-neoclassicism a skos:Concept ;
+    rdfs:label "Danish Neoclassicism"@en ;
+    rdfs:label "Dansk neoklassicisme"@da ;
+    rdfs:label "Tanskalainen uusklassismi"@fi ;
+    rdfs:label "Dansk nyklassisisme"@nb ;
+    rdfs:label "Dansk nyklassicism"@sv ;
+    skos:prefLabel "Danish Neoclassicism"@en ;
+    skos:prefLabel "Dansk neoklassicisme"@da ;
+    skos:prefLabel "Tanskalainen uusklassismi"@fi ;
+    skos:prefLabel "Dansk nyklassisisme"@nb ;
+    skos:prefLabel "Dansk nyklassicism"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Neoclassical period in Denmark centered on the Royal Danish Academy; Thorvaldsen's sculpture and C.F. Hansen's architecture defined Copenhagen's cityscape."@en ;
+    skos:broader nam:nordic-neoclassicism ;
+    time:hasBeginning [ time:inXSDgYear "1770"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1850"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 10/93: Early Finnish Art ──
+nam:finnish-early-art a skos:Concept ;
+    rdfs:label "Early Finnish Art"@en ;
+    rdfs:label "Tidlig finsk kunst"@da ;
+    rdfs:label "Varhainen suomalainen taide"@fi ;
+    rdfs:label "Tidlig finsk kunst"@nb ;
+    rdfs:label "Tidig finsk konst"@sv ;
+    skos:prefLabel "Early Finnish Art"@en ;
+    skos:prefLabel "Tidlig finsk kunst"@da ;
+    skos:prefLabel "Varhainen suomalainen taide"@fi ;
+    skos:prefLabel "Tidlig finsk kunst"@nb ;
+    skos:prefLabel "Tidig finsk konst"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Earliest distinct Finnish artistic production under Swedish and then Russian rule, primarily church paintings, portraiture, and folk art traditions."@en ;
+    time:hasBeginning [ time:inXSDgYear "1750"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1850"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 11/93: Danish Golden Age ──
+nam:danish-golden-age a skos:Concept ;
+    rdfs:label "Danish Golden Age"@en ;
+    rdfs:label "Dansk guldalder"@da ;
+    rdfs:label "Tanskan kulta-aika"@fi ;
+    rdfs:label "Dansk gullalder"@nb ;
+    rdfs:label "Dansk guldålder"@sv ;
+    skos:prefLabel "Danish Golden Age"@en ;
+    skos:prefLabel "Dansk guldalder"@da ;
+    skos:prefLabel "Tanskan kulta-aika"@fi ;
+    skos:prefLabel "Dansk gullalder"@nb ;
+    skos:prefLabel "Dansk guldålder"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Flourishing of Danish painting, sculpture, and literature in the first half of the 19th century; artists include C.W. Eckersberg, Christen Købke, and Wilhelm Bendz."@en ;
+    skos:closeMatch <http://vocab.getty.edu/aat/300379342> ;
+    time:hasBeginning [ time:inXSDgYear "1800"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1850"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 12/93: Nordic Romanticism ──
+nam:nordic-romanticism a skos:Concept ;
+    rdfs:label "Nordic Romanticism"@en ;
+    rdfs:label "Nordisk romantik"@da ;
+    rdfs:label "Pohjoismainen romantiikka"@fi ;
+    rdfs:label "Nordisk romantikk"@nb ;
+    rdfs:label "Nordisk romantik"@sv ;
+    skos:prefLabel "Nordic Romanticism"@en ;
+    skos:prefLabel "Nordisk romantik"@da ;
+    skos:prefLabel "Pohjoismainen romantiikka"@fi ;
+    skos:prefLabel "Nordisk romantikk"@nb ;
+    skos:prefLabel "Nordisk romantik"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Romantic movement in the Nordic countries emphasizing national identity, folk culture, and dramatic landscapes; foundational for later national movements."@en ;
+    skos:closeMatch <http://vocab.getty.edu/aat/300021474> ;
+    time:hasBeginning [ time:inXSDgYear "1800"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1870"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 13/93: Norwegian Romantic Nationalism ──
+nam:norwegian-romantic-nationalism a skos:Concept ;
+    rdfs:label "Norwegian Romantic Nationalism"@en ;
+    rdfs:label "Norsk nationalromantik"@da ;
+    rdfs:label "Norjalainen kansallisromantiikka"@fi ;
+    rdfs:label "Norsk nasjonalromantikk"@nb ;
+    rdfs:label "Norsk nationalromantik"@sv ;
+    skos:prefLabel "Norwegian Romantic Nationalism"@en ;
+    skos:prefLabel "Norsk nationalromantik"@da ;
+    skos:prefLabel "Norjalainen kansallisromantiikka"@fi ;
+    skos:prefLabel "Norsk nasjonalromantikk"@nb ;
+    skos:prefLabel "Norsk nationalromantik"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Norwegian art movement celebrating national landscape and folk culture after independence from Denmark; painters like J.C. Dahl and Adolph Tidemand."@en ;
+    skos:broader nam:nordic-romanticism ;
+    time:hasBeginning [ time:inXSDgYear "1840"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1870"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 14/93: Finnish National Awakening ──
+nam:finnish-national-awakening a skos:Concept ;
+    rdfs:label "Finnish National Awakening"@en ;
+    rdfs:label "Finsk national opvågning"@da ;
+    rdfs:label "Suomen kansallinen herääminen"@fi ;
+    rdfs:label "Finsk nasjonal oppvåkning"@nb ;
+    rdfs:label "Finlands nationella uppvaknande"@sv ;
+    skos:prefLabel "Finnish National Awakening"@en ;
+    skos:prefLabel "Finsk national opvågning"@da ;
+    skos:prefLabel "Suomen kansallinen herääminen"@fi ;
+    skos:prefLabel "Finsk nasjonal oppvåkning"@nb ;
+    skos:prefLabel "Finlands nationella uppvaknande"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Cultural and artistic movement in Finland promoting Finnish language and identity under Russian rule; connected to the publication of the Kalevala (1835)."@en ;
+    time:hasBeginning [ time:inXSDgYear "1835"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1880"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 15/93: Swedish Romantic Landscape Painting ──
+nam:swedish-romantic-landscape a skos:Concept ;
+    rdfs:label "Swedish Romantic Landscape Painting"@en ;
+    rdfs:label "Svensk romantisk landskabsmaleri"@da ;
+    rdfs:label "Ruotsalainen romanttinen maisemamaalaus"@fi ;
+    rdfs:label "Svensk romantisk landskapsmaleri"@nb ;
+    rdfs:label "Svensk romantisk landskapsmåleri"@sv ;
+    skos:prefLabel "Swedish Romantic Landscape Painting"@en ;
+    skos:prefLabel "Svensk romantisk landskabsmaleri"@da ;
+    skos:prefLabel "Ruotsalainen romanttinen maisemamaalaus"@fi ;
+    skos:prefLabel "Svensk romantisk landskapsmaleri"@nb ;
+    skos:prefLabel "Svensk romantisk landskapsmåleri"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Swedish landscape painting tradition emphasizing sublime Nordic nature; artists include Marcus Larson and the early work of Carl Fredrik Hill."@en ;
+    skos:broader nam:nordic-romanticism ;
+    time:hasBeginning [ time:inXSDgYear "1830"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1870"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 16/93: Scandinavian Musical Romanticism ──
+nam:scandinavian-romanticism-music a skos:Concept ;
+    rdfs:label "Scandinavian Musical Romanticism"@en ;
+    rdfs:label "Skandinavisk musikromantik"@da ;
+    rdfs:label "Skandinaavinen musiikkiromantiikka"@fi ;
+    rdfs:label "Skandinavisk musikkromantikk"@nb ;
+    rdfs:label "Skandinavisk musikromantik"@sv ;
+    skos:prefLabel "Scandinavian Musical Romanticism"@en ;
+    skos:prefLabel "Skandinavisk musikromantik"@da ;
+    skos:prefLabel "Skandinaavinen musiikkiromantiikka"@fi ;
+    skos:prefLabel "Skandinavisk musikkromantikk"@nb ;
+    skos:prefLabel "Skandinavisk musikromantik"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Nordic Romantic music tradition drawing on folk melodies and national themes; composers include Edvard Grieg, Jean Sibelius, and Carl Nielsen."@en ;
+    skos:broader nam:nordic-romanticism ;
+    time:hasBeginning [ time:inXSDgYear "1840"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1910"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 17/93: Düsseldorf School (Nordic Students) ──
+nam:dusseldorf-school-nordic a skos:Concept ;
+    rdfs:label "Düsseldorf School (Nordic Students)"@en ;
+    rdfs:label "Düsseldorfskolen (nordiske elever)"@da ;
+    rdfs:label "Düsseldorfin koulu (pohjoismaiset opiskelijat)"@fi ;
+    rdfs:label "Düsseldorfskolen (nordiske elever)"@nb ;
+    rdfs:label "Düsseldorfskolan (nordiska elever)"@sv ;
+    skos:prefLabel "Düsseldorf School (Nordic Students)"@en ;
+    skos:prefLabel "Düsseldorfskolen (nordiske elever)"@da ;
+    skos:prefLabel "Düsseldorfin koulu (pohjoismaiset opiskelijat)"@fi ;
+    skos:prefLabel "Düsseldorfskolen (nordiske elever)"@nb ;
+    skos:prefLabel "Düsseldorfskolan (nordiska elever)"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Nordic artists who studied at the Düsseldorf Academy, bringing German Romantic techniques back to Scandinavia; included Hans Gude, Adolph Tidemand, and August Malmström."@en ;
+    time:hasBeginning [ time:inXSDgYear "1840"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1870"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 18/93: Icelandic Romanticism ──
+nam:icelandic-romanticism a skos:Concept ;
+    rdfs:label "Icelandic Romanticism"@en ;
+    rdfs:label "Islandsk romantik"@da ;
+    rdfs:label "Islantilainen romantiikka"@fi ;
+    rdfs:label "Íslensk rómantík"@is ;
+    rdfs:label "Islandsk romantikk"@nb ;
+    rdfs:label "Isländsk romantik"@sv ;
+    skos:prefLabel "Icelandic Romanticism"@en ;
+    skos:prefLabel "Islandsk romantik"@da ;
+    skos:prefLabel "Islantilainen romantiikka"@fi ;
+    skos:prefLabel "Íslensk rómantík"@is ;
+    skos:prefLabel "Islandsk romantikk"@nb ;
+    skos:prefLabel "Isländsk romantik"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Late Romantic movement in Iceland connected to independence aspirations; landscape painting by Þórarinn B. Þorláksson and saga-inspired literary arts."@en ;
+    skos:broader nam:nordic-romanticism ;
+    time:hasBeginning [ time:inXSDgYear "1850"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1920"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 19/93: Nordic History Painting ──
+nam:nordic-history-painting a skos:Concept ;
+    rdfs:label "Nordic History Painting"@en ;
+    rdfs:label "Nordisk historiemaleri"@da ;
+    rdfs:label "Pohjoismainen historiamaalaus"@fi ;
+    rdfs:label "Nordisk historiemåleri"@nb ;
+    rdfs:label "Nordisk historiemåleri"@sv ;
+    skos:prefLabel "Nordic History Painting"@en ;
+    skos:prefLabel "Nordisk historiemaleri"@da ;
+    skos:prefLabel "Pohjoismainen historiamaalaus"@fi ;
+    skos:prefLabel "Nordisk historiemåleri"@nb ;
+    skos:prefLabel "Nordisk historiemåleri"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "History painting tradition in the Nordic countries depicting Viking sagas, medieval events, and national myths; served nation-building purposes across Scandinavia."@en ;
+    time:hasBeginning [ time:inXSDgYear "1820"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1880"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 20/93: Finnish Romantic Painting ──
+nam:finnish-romantic-painting a skos:Concept ;
+    rdfs:label "Finnish Romantic Painting"@en ;
+    rdfs:label "Finsk romantisk maleri"@da ;
+    rdfs:label "Suomalainen romanttinen maalaus"@fi ;
+    rdfs:label "Finsk romantisk maleri"@nb ;
+    rdfs:label "Finsk romantisk målning"@sv ;
+    skos:prefLabel "Finnish Romantic Painting"@en ;
+    skos:prefLabel "Finsk romantisk maleri"@da ;
+    skos:prefLabel "Suomalainen romanttinen maalaus"@fi ;
+    skos:prefLabel "Finsk romantisk maleri"@nb ;
+    skos:prefLabel "Finsk romantisk målning"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Romantic painting in Finland depicting Karelian landscapes and scenes from the Kalevala; artists include Robert Wilhelm Ekman and Werner Holmberg."@en ;
+    skos:broader nam:nordic-romanticism ;
+    time:hasBeginning [ time:inXSDgYear "1850"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1880"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 21/93: Nordic Realism ──
+nam:nordic-realism a skos:Concept ;
+    rdfs:label "Nordic Realism"@en ;
+    rdfs:label "Nordisk realisme"@da ;
+    rdfs:label "Pohjoismainen realismi"@fi ;
+    rdfs:label "Nordisk realisme"@nb ;
+    rdfs:label "Nordisk realism"@sv ;
+    skos:prefLabel "Nordic Realism"@en ;
+    skos:prefLabel "Nordisk realisme"@da ;
+    skos:prefLabel "Pohjoismainen realismi"@fi ;
+    skos:prefLabel "Nordisk realisme"@nb ;
+    skos:prefLabel "Nordisk realism"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Realist movement in Scandinavian art and literature from the 1870s onward, depicting everyday life and social conditions; influenced by Georg Brandes' Modern Breakthrough."@en ;
+    skos:closeMatch <http://vocab.getty.edu/aat/300056529> ;
+    time:hasBeginning [ time:inXSDgYear "1870"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1900"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 22/93: Nordic Naturalism ──
+nam:nordic-naturalism a skos:Concept ;
+    rdfs:label "Nordic Naturalism"@en ;
+    rdfs:label "Nordisk naturalisme"@da ;
+    rdfs:label "Pohjoismainen naturalismi"@fi ;
+    rdfs:label "Nordisk naturalisme"@nb ;
+    rdfs:label "Nordisk naturalism"@sv ;
+    skos:prefLabel "Nordic Naturalism"@en ;
+    skos:prefLabel "Nordisk naturalisme"@da ;
+    skos:prefLabel "Pohjoismainen naturalismi"@fi ;
+    skos:prefLabel "Nordisk naturalisme"@nb ;
+    skos:prefLabel "Nordisk naturalism"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Naturalist movement in Nordic painting emphasizing scientific observation of light, landscape, and social realities; parallel to French Naturalism."@en ;
+    skos:closeMatch <http://vocab.getty.edu/aat/300056428> ;
+    time:hasBeginning [ time:inXSDgYear "1880"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1900"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 23/93: Skagen Painters ──
+nam:skagen-painters a skos:Concept ;
+    rdfs:label "Skagen Painters"@en ;
+    rdfs:label "Skagensmalerne"@da ;
+    rdfs:label "Skagenin maalarit"@fi ;
+    rdfs:label "Skagenmalerne"@nb ;
+    rdfs:label "Skagenmålarna"@sv ;
+    skos:prefLabel "Skagen Painters"@en ;
+    skos:prefLabel "Skagensmalerne"@da ;
+    skos:prefLabel "Skagenin maalarit"@fi ;
+    skos:prefLabel "Skagenmalerne"@nb ;
+    skos:prefLabel "Skagenmålarna"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Danish-Scandinavian artists' colony at Skagen painting en plein air, known for their depictions of light and local life; key figures include P.S. Krøyer, Anna and Michael Ancher."@en ;
+    skos:broader nam:nordic-realism ;
+    skos:closeMatch <http://vocab.getty.edu/aat/300379344> ;
+    time:hasBeginning [ time:inXSDgYear "1870"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1910"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 24/93: Swedish Artists' Colony at Grez-sur-Loing ──
+nam:grez-sur-loing-nordic a skos:Concept ;
+    rdfs:label "Swedish Artists' Colony at Grez-sur-Loing"@en ;
+    rdfs:label "Svenske kunstnere i Grez-sur-Loing"@da ;
+    rdfs:label "Ruotsalaiset taiteilijat Grez-sur-Loingissa"@fi ;
+    rdfs:label "Svenske kunstnere i Grez-sur-Loing"@nb ;
+    rdfs:label "Grezdkolonin"@sv ;
+    skos:prefLabel "Swedish Artists' Colony at Grez-sur-Loing"@en ;
+    skos:prefLabel "Svenske kunstnere i Grez-sur-Loing"@da ;
+    skos:prefLabel "Ruotsalaiset taiteilijat Grez-sur-Loingissa"@fi ;
+    skos:prefLabel "Svenske kunstnere i Grez-sur-Loing"@nb ;
+    skos:prefLabel "Grezdkolonin"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Colony of Swedish and Nordic artists in the French village of Grez-sur-Loing during the 1880s; included Carl Larsson, Karl Nordström, and other opponents (opponenterna)."@en ;
+    time:hasBeginning [ time:inXSDgYear "1882"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1900"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 25/93: The Opponents (Opponenterna) ──
+nam:opponenterna a skos:Concept ;
+    rdfs:label "The Opponents (Opponenterna)"@en ;
+    rdfs:label "Opponenterne"@da ;
+    rdfs:label "Opponentit"@fi ;
+    rdfs:label "Opponentene"@nb ;
+    rdfs:label "Opponenterna"@sv ;
+    skos:prefLabel "The Opponents (Opponenterna)"@en ;
+    skos:prefLabel "Opponenterne"@da ;
+    skos:prefLabel "Opponentit"@fi ;
+    skos:prefLabel "Opponentene"@nb ;
+    skos:prefLabel "Opponenterna"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Group of young Swedish artists who rebelled against the Royal Academy in the 1880s, demanding modernization; led by Ernst Josephson, Richard Bergh, and Karl Nordström."@en ;
+    skos:broader nam:nordic-realism ;
+    time:hasBeginning [ time:inXSDgYear "1885"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1895"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 26/93: Finnish Golden Age of Art ──
+nam:finnish-golden-age-art a skos:Concept ;
+    rdfs:label "Finnish Golden Age of Art"@en ;
+    rdfs:label "Finsk kunsts guldalder"@da ;
+    rdfs:label "Suomen taiteen kultakausi"@fi ;
+    rdfs:label "Finsk kunsts gullalder"@nb ;
+    rdfs:label "Finsk konstens guldålder"@sv ;
+    skos:prefLabel "Finnish Golden Age of Art"@en ;
+    skos:prefLabel "Finsk kunsts guldalder"@da ;
+    skos:prefLabel "Suomen taiteen kultakausi"@fi ;
+    skos:prefLabel "Finsk kunsts gullalder"@nb ;
+    skos:prefLabel "Finsk konstens guldålder"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Peak of Finnish visual arts from the 1880s to 1910, combining Realism, Naturalism, and National Romanticism; artists include Akseli Gallen-Kallela, Albert Edelfelt, and Helene Schjerfbeck."@en ;
+    time:hasBeginning [ time:inXSDgYear "1880"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1910"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 27/93: Norwegian Neo-Romanticism ──
+nam:norwegian-neo-romanticism a skos:Concept ;
+    rdfs:label "Norwegian Neo-Romanticism"@en ;
+    rdfs:label "Norsk nyromantik"@da ;
+    rdfs:label "Norjalainen uusromantiikka"@fi ;
+    rdfs:label "Norsk nyromantikk"@nb ;
+    rdfs:label "Norsk nyromantik"@sv ;
+    skos:prefLabel "Norwegian Neo-Romanticism"@en ;
+    skos:prefLabel "Norsk nyromantik"@da ;
+    skos:prefLabel "Norjalainen uusromantiikka"@fi ;
+    skos:prefLabel "Norsk nyromantikk"@nb ;
+    skos:prefLabel "Norsk nyromantik"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Late 19th-century Norwegian movement returning to Romantic themes of nature and myth with modernist techniques; artists include Nikolai Astrup and Halfdan Egedius."@en ;
+    time:hasBeginning [ time:inXSDgYear "1890"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1910"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 28/93: Nordic National Romanticism ──
+nam:national-romanticism a skos:Concept ;
+    rdfs:label "Nordic National Romanticism"@en ;
+    rdfs:label "Nordisk nationalromantik"@da ;
+    rdfs:label "Pohjoismainen kansallisromantiikka"@fi ;
+    rdfs:label "Nordisk nasjonalromantikk"@nb ;
+    rdfs:label "Nordisk nationalromantik"@sv ;
+    skos:prefLabel "Nordic National Romanticism"@en ;
+    skos:prefLabel "Nordisk nationalromantik"@da ;
+    skos:prefLabel "Pohjoismainen kansallisromantiikka"@fi ;
+    skos:prefLabel "Nordisk nasjonalromantikk"@nb ;
+    skos:prefLabel "Nordisk nationalromantik"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Pan-Nordic movement in art, architecture, and design drawing on medieval, folk, and mythological sources to express national identity; flourished in architecture and applied arts."@en ;
+    skos:closeMatch <http://vocab.getty.edu/aat/300021478> ;
+    time:hasBeginning [ time:inXSDgYear "1880"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1920"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 29/93: Swedish National Romanticism ──
+nam:swedish-national-romanticism a skos:Concept ;
+    rdfs:label "Swedish National Romanticism"@en ;
+    rdfs:label "Svensk nationalromantik"@da ;
+    rdfs:label "Ruotsalainen kansallisromantiikka"@fi ;
+    rdfs:label "Svensk nasjonalromantikk"@nb ;
+    rdfs:label "Svensk nationalromantik"@sv ;
+    skos:prefLabel "Swedish National Romanticism"@en ;
+    skos:prefLabel "Svensk nationalromantik"@da ;
+    skos:prefLabel "Ruotsalainen kansallisromantiikka"@fi ;
+    skos:prefLabel "Svensk nasjonalromantikk"@nb ;
+    skos:prefLabel "Svensk nationalromantik"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Swedish National Romantic movement in architecture and art, drawing on Viking and medieval motifs; Stockholm City Hall by Ragnar Östberg is a key example."@en ;
+    skos:broader nam:national-romanticism ;
+    time:hasBeginning [ time:inXSDgYear "1890"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1920"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 30/93: Finnish Karelian National Romanticism ──
+nam:karelian-national-romanticism a skos:Concept ;
+    rdfs:label "Finnish Karelian National Romanticism"@en ;
+    rdfs:label "Finsk-karelsk nationalromantik"@da ;
+    rdfs:label "Karjalainen kansallisromantiikka"@fi ;
+    rdfs:label "Finsk-karelsk nasjonalromantikk"@nb ;
+    rdfs:label "Finsk-karelsk nationalromantik"@sv ;
+    skos:prefLabel "Finnish Karelian National Romanticism"@en ;
+    skos:prefLabel "Finsk-karelsk nationalromantik"@da ;
+    skos:prefLabel "Karjalainen kansallisromantiikka"@fi ;
+    skos:prefLabel "Finsk-karelsk nasjonalromantikk"@nb ;
+    skos:prefLabel "Finsk-karelsk nationalromantik"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Finnish National Romantic movement inspired by Karelian culture and the Kalevala; Akseli Gallen-Kallela's paintings and Eliel Saarinen's architecture epitomize the style."@en ;
+    skos:broader nam:national-romanticism ;
+    time:hasBeginning [ time:inXSDgYear "1890"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1920"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 31/93: Norwegian Dragon Style (Dragestil) ──
+nam:norwegian-dragestil a skos:Concept ;
+    rdfs:label "Norwegian Dragon Style (Dragestil)"@en ;
+    rdfs:label "Norsk dragestil"@da ;
+    rdfs:label "Norjalainen lohikäärmetyyli"@fi ;
+    rdfs:label "Norsk dragestil"@nb ;
+    rdfs:label "Norsk drakstil"@sv ;
+    skos:prefLabel "Norwegian Dragon Style (Dragestil)"@en ;
+    skos:prefLabel "Norsk dragestil"@da ;
+    skos:prefLabel "Norjalainen lohikäärmetyyli"@fi ;
+    skos:prefLabel "Norsk dragestil"@nb ;
+    skos:prefLabel "Norsk drakstil"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Norwegian architectural style combining Viking-era dragon motifs with Art Nouveau forms; seen in stave church-inspired buildings and wooden villas."@en ;
+    skos:broader nam:national-romanticism ;
+    time:hasBeginning [ time:inXSDgYear "1880"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1910"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 32/93: Nordic Impressionism ──
+nam:nordic-impressionism a skos:Concept ;
+    rdfs:label "Nordic Impressionism"@en ;
+    rdfs:label "Nordisk impressionisme"@da ;
+    rdfs:label "Pohjoismainen impressionismi"@fi ;
+    rdfs:label "Nordisk impresjonisme"@nb ;
+    rdfs:label "Nordisk impressionism"@sv ;
+    skos:prefLabel "Nordic Impressionism"@en ;
+    skos:prefLabel "Nordisk impressionisme"@da ;
+    skos:prefLabel "Pohjoismainen impressionismi"@fi ;
+    skos:prefLabel "Nordisk impresjonisme"@nb ;
+    skos:prefLabel "Nordisk impressionism"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Nordic adaptation of French Impressionism emphasizing the distinctive quality of Scandinavian light; artists include Anders Zorn, Peder Severin Krøyer, and Christian Krohg."@en ;
+    skos:closeMatch <http://vocab.getty.edu/aat/300021503> ;
+    time:hasBeginning [ time:inXSDgYear "1880"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1910"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 33/93: Varberg School ──
+nam:varberg-school a skos:Concept ;
+    rdfs:label "Varberg School"@en ;
+    rdfs:label "Varbergskolen"@da ;
+    rdfs:label "Varbergin koulu"@fi ;
+    rdfs:label "Varbergskolen"@nb ;
+    rdfs:label "Varbergsskolan"@sv ;
+    skos:prefLabel "Varberg School"@en ;
+    skos:prefLabel "Varbergskolen"@da ;
+    skos:prefLabel "Varbergin koulu"@fi ;
+    skos:prefLabel "Varbergskolen"@nb ;
+    skos:prefLabel "Varbergsskolan"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Swedish artists' group based at Varberg, led by Karl Nordström and Nils Kreuger, painting the west Swedish landscape in a style blending Naturalism and Symbolism."@en ;
+    skos:broader nam:nordic-realism ;
+    time:hasBeginning [ time:inXSDgYear "1893"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1910"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 34/93: Nordic Plein Air Painting ──
+nam:nordic-plein-air a skos:Concept ;
+    rdfs:label "Nordic Plein Air Painting"@en ;
+    rdfs:label "Nordisk friluftsmaleri"@da ;
+    rdfs:label "Pohjoismainen ulkoilmamaalaus"@fi ;
+    rdfs:label "Nordisk friluftsmaleri"@nb ;
+    rdfs:label "Nordisk friluftsmåleri"@sv ;
+    skos:prefLabel "Nordic Plein Air Painting"@en ;
+    skos:prefLabel "Nordisk friluftsmaleri"@da ;
+    skos:prefLabel "Pohjoismainen ulkoilmamaalaus"@fi ;
+    skos:prefLabel "Nordisk friluftsmaleri"@nb ;
+    skos:prefLabel "Nordisk friluftsmåleri"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Open-air painting tradition across the Nordic countries, influenced by French practice but adapted to northern light; central to Skagen, Grez-sur-Loing, and the Opponents."@en ;
+    time:hasBeginning [ time:inXSDgYear "1880"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1910"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 35/93: Finnish Art Society Movement ──
+nam:finska-konstforeningen a skos:Concept ;
+    rdfs:label "Finnish Art Society Movement"@en ;
+    rdfs:label "Finsk Kunstforening"@da ;
+    rdfs:label "Suomen Taideyhdistys"@fi ;
+    rdfs:label "Finsk Kunstforening"@nb ;
+    rdfs:label "Finska Konstföreningen"@sv ;
+    skos:prefLabel "Finnish Art Society Movement"@en ;
+    skos:prefLabel "Finsk Kunstforening"@da ;
+    skos:prefLabel "Suomen Taideyhdistys"@fi ;
+    skos:prefLabel "Finsk Kunstforening"@nb ;
+    skos:prefLabel "Finska Konstföreningen"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Institutional movement centered on the Finnish Art Society (est. 1846), promoting Finnish national art and establishing collections that formed the basis of Finnish art museums."@en ;
+    time:hasBeginning [ time:inXSDgYear "1846"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1920"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 36/93: Tuusula Lake Artists' Colony ──
+nam:artists-colony-tuusula a skos:Concept ;
+    rdfs:label "Tuusula Lake Artists' Colony"@en ;
+    rdfs:label "Tuusulasøens kunstnerkoloni"@da ;
+    rdfs:label "Tuusulanjärven taiteilijayhteisö"@fi ;
+    rdfs:label "Tuusjøens kunstnerkoloni"@nb ;
+    rdfs:label "Tuusby sjö konstnärskoloni"@sv ;
+    skos:prefLabel "Tuusula Lake Artists' Colony"@en ;
+    skos:prefLabel "Tuusulasøens kunstnerkoloni"@da ;
+    skos:prefLabel "Tuusulanjärven taiteilijayhteisö"@fi ;
+    skos:prefLabel "Tuusjøens kunstnerkoloni"@nb ;
+    skos:prefLabel "Tuusby sjö konstnärskoloni"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Finnish artists' colony on Lake Tuusula north of Helsinki; residents included Jean Sibelius, Juhani Aho, Pekka Halonen, and Eero Järnefelt."@en ;
+    time:hasBeginning [ time:inXSDgYear "1897"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1920"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 37/93: Free Exhibition (Den Frie Udstilling) ──
+nam:copenhagen-secession a skos:Concept ;
+    rdfs:label "Free Exhibition (Den Frie Udstilling)"@en ;
+    rdfs:label "Den Frie Udstilling"@da ;
+    rdfs:label "Vapaa näyttely (Kööpenhamina)"@fi ;
+    rdfs:label "Den Frie Utstilling"@nb ;
+    rdfs:label "Den Fria Utställningen (Köpenhamn)"@sv ;
+    skos:prefLabel "Free Exhibition (Den Frie Udstilling)"@en ;
+    skos:prefLabel "Den Frie Udstilling"@da ;
+    skos:prefLabel "Vapaa näyttely (Kööpenhamina)"@fi ;
+    skos:prefLabel "Den Frie Utstilling"@nb ;
+    skos:prefLabel "Den Fria Utställningen (Köpenhamn)"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Independent exhibition society in Copenhagen founded in 1891 as an alternative to the official Charlottenborg exhibition; showed progressive and international art."@en ;
+    time:hasBeginning [ time:inXSDgYear "1891"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1910"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 38/93: Edvard Munch and Nordic Expressionist Precursors ──
+nam:munch-circle a skos:Concept ;
+    rdfs:label "Edvard Munch and Nordic Expressionist Precursors"@en ;
+    rdfs:label "Edvard Munch og nordiske ekspressionistiske forløbere"@da ;
+    rdfs:label "Edvard Munch ja pohjoismaisten ekspressionismin edelläkävijät"@fi ;
+    rdfs:label "Edvard Munch og nordiske ekspresjonistiske forgjengere"@nb ;
+    rdfs:label "Edvard Munch och nordiska expressionistiska föregångare"@sv ;
+    skos:prefLabel "Edvard Munch and Nordic Expressionist Precursors"@en ;
+    skos:prefLabel "Edvard Munch og nordiske ekspressionistiske forløbere"@da ;
+    skos:prefLabel "Edvard Munch ja pohjoismaisten ekspressionismin edelläkävijät"@fi ;
+    skos:prefLabel "Edvard Munch og nordiske ekspresjonistiske forgjengere"@nb ;
+    skos:prefLabel "Edvard Munch och nordiska expressionistiska föregångare"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "The artistic circle and influence of Edvard Munch, whose psychological and symbolic work anticipated Expressionism; The Scream (1893) became an icon of modern anxiety."@en ;
+    time:hasBeginning [ time:inXSDgYear "1890"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1910"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 39/93: Swedish Arts and Crafts Movement ──
+nam:swedish-arts-crafts a skos:Concept ;
+    rdfs:label "Swedish Arts and Crafts Movement"@en ;
+    rdfs:label "Svensk kunsthåndværksbevægelse"@da ;
+    rdfs:label "Ruotsalainen taidekäsityöliike"@fi ;
+    rdfs:label "Svensk kunsthåndverksbevegelse"@nb ;
+    rdfs:label "Svensk arts and crafts-rörelse"@sv ;
+    skos:prefLabel "Swedish Arts and Crafts Movement"@en ;
+    skos:prefLabel "Svensk kunsthåndværksbevægelse"@da ;
+    skos:prefLabel "Ruotsalainen taidekäsityöliike"@fi ;
+    skos:prefLabel "Svensk kunsthåndverksbevegelse"@nb ;
+    skos:prefLabel "Svensk arts and crafts-rörelse"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Swedish adaptation of the British Arts and Crafts movement promoting handcraft, good design, and collaboration between art and industry; connected to Carl and Karin Larsson."@en ;
+    time:hasBeginning [ time:inXSDgYear "1880"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1910"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 40/93: Nordic Art Nouveau / Jugend ──
+nam:nordic-art-nouveau a skos:Concept ;
+    rdfs:label "Nordic Art Nouveau / Jugend"@en ;
+    rdfs:label "Nordisk jugendstil"@da ;
+    rdfs:label "Pohjoismainen jugend"@fi ;
+    rdfs:label "Nordisk jugendstil"@nb ;
+    rdfs:label "Nordisk jugend"@sv ;
+    skos:prefLabel "Nordic Art Nouveau / Jugend"@en ;
+    skos:prefLabel "Nordisk jugendstil"@da ;
+    skos:prefLabel "Pohjoismainen jugend"@fi ;
+    skos:prefLabel "Nordisk jugendstil"@nb ;
+    skos:prefLabel "Nordisk jugend"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Art Nouveau movement in the Nordic countries, known as Jugend, emphasizing organic forms, nature motifs, and the integration of art with architecture and craft."@en ;
+    skos:closeMatch <http://vocab.getty.edu/aat/300021430> ;
+    time:hasBeginning [ time:inXSDgYear "1890"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1915"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 41/93: Swedish Jugend ──
+nam:swedish-jugend a skos:Concept ;
+    rdfs:label "Swedish Jugend"@en ;
+    rdfs:label "Svensk jugend"@da ;
+    rdfs:label "Ruotsalainen jugend"@fi ;
+    rdfs:label "Svensk jugend"@nb ;
+    rdfs:label "Svensk jugend"@sv ;
+    skos:prefLabel "Swedish Jugend"@en ;
+    skos:prefLabel "Svensk jugend"@da ;
+    skos:prefLabel "Ruotsalainen jugend"@fi ;
+    skos:prefLabel "Svensk jugend"@nb ;
+    skos:prefLabel "Svensk jugend"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Swedish variant of Art Nouveau influenced by both Continental Jugendstil and National Romantic themes; visible in Stockholm architecture and applied arts."@en ;
+    skos:broader nam:nordic-art-nouveau ;
+    time:hasBeginning [ time:inXSDgYear "1895"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1915"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 42/93: Finnish Jugend (National Romantic Architecture) ──
+nam:finnish-jugend a skos:Concept ;
+    rdfs:label "Finnish Jugend (National Romantic Architecture)"@en ;
+    rdfs:label "Finsk jugend"@da ;
+    rdfs:label "Suomalainen jugend"@fi ;
+    rdfs:label "Finsk jugend"@nb ;
+    rdfs:label "Finsk jugend"@sv ;
+    skos:prefLabel "Finnish Jugend (National Romantic Architecture)"@en ;
+    skos:prefLabel "Finsk jugend"@da ;
+    skos:prefLabel "Suomalainen jugend"@fi ;
+    skos:prefLabel "Finsk jugend"@nb ;
+    skos:prefLabel "Finsk jugend"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Finnish Art Nouveau blending Jugendstil with National Romantic architecture; Helsinki Central Station by Eliel Saarinen and buildings in Katajanokka exemplify the style."@en ;
+    skos:broader nam:nordic-art-nouveau ;
+    time:hasBeginning [ time:inXSDgYear "1895"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1915"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 43/93: Ålesund Jugend ──
+nam:alesund-jugend a skos:Concept ;
+    rdfs:label "Ålesund Jugend"@en ;
+    rdfs:label "Ålesund jugend"@da ;
+    rdfs:label "Ålesundin jugend"@fi ;
+    rdfs:label "Ålesund jugend"@nb ;
+    rdfs:label "Ålesund jugend"@sv ;
+    skos:prefLabel "Ålesund Jugend"@en ;
+    skos:prefLabel "Ålesund jugend"@da ;
+    skos:prefLabel "Ålesundin jugend"@fi ;
+    skos:prefLabel "Ålesund jugend"@nb ;
+    skos:prefLabel "Ålesund jugend"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Distinctive concentration of Art Nouveau architecture in Ålesund, Norway, rebuilt after the 1904 fire in Jugendstil; now a UNESCO-recognized heritage area."@en ;
+    skos:broader nam:nordic-art-nouveau ;
+    time:hasBeginning [ time:inXSDgYear "1904"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1915"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 44/93: Nordic Symbolism ──
+nam:nordic-symbolism a skos:Concept ;
+    rdfs:label "Nordic Symbolism"@en ;
+    rdfs:label "Nordisk symbolisme"@da ;
+    rdfs:label "Pohjoismainen symbolismi"@fi ;
+    rdfs:label "Nordisk symbolisme"@nb ;
+    rdfs:label "Nordisk symbolism"@sv ;
+    skos:prefLabel "Nordic Symbolism"@en ;
+    skos:prefLabel "Nordisk symbolisme"@da ;
+    skos:prefLabel "Pohjoismainen symbolismi"@fi ;
+    skos:prefLabel "Nordisk symbolisme"@nb ;
+    skos:prefLabel "Nordisk symbolism"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Symbolist movement in Scandinavian art exploring mysticism, dreams, and inner life; artists include Hugo Simberg, Vilhelm Hammershøi, and Magnus Enckell."@en ;
+    skos:closeMatch <http://vocab.getty.edu/aat/300021479> ;
+    time:hasBeginning [ time:inXSDgYear "1890"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1910"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 45/93: Nordic Expressionism ──
+nam:nordic-expressionism a skos:Concept ;
+    rdfs:label "Nordic Expressionism"@en ;
+    rdfs:label "Nordisk ekspressionisme"@da ;
+    rdfs:label "Pohjoismainen ekspressionismi"@fi ;
+    rdfs:label "Nordisk ekspresjonisme"@nb ;
+    rdfs:label "Nordisk expressionism"@sv ;
+    skos:prefLabel "Nordic Expressionism"@en ;
+    skos:prefLabel "Nordisk ekspressionisme"@da ;
+    skos:prefLabel "Pohjoismainen ekspressionismi"@fi ;
+    skos:prefLabel "Nordisk ekspresjonisme"@nb ;
+    skos:prefLabel "Nordisk expressionism"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Expressionist movement in Nordic art characterized by bold colors, emotional intensity, and distorted forms; influenced by Munch and connected to German Expressionism."@en ;
+    skos:closeMatch <http://vocab.getty.edu/aat/300021505> ;
+    time:hasBeginning [ time:inXSDgYear "1905"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1940"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 46/93: Swedish Grace ──
+nam:swedish-grace a skos:Concept ;
+    rdfs:label "Swedish Grace"@en ;
+    rdfs:label "Swedish grace"@da ;
+    rdfs:label "Swedish grace"@fi ;
+    rdfs:label "Swedish grace"@nb ;
+    rdfs:label "Swedish grace"@sv ;
+    skos:prefLabel "Swedish Grace"@en ;
+    skos:prefLabel "Swedish grace"@da ;
+    skos:prefLabel "Swedish grace"@fi ;
+    skos:prefLabel "Swedish grace"@nb ;
+    skos:prefLabel "Swedish grace"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Elegant Swedish decorative style of the 1920s blending neoclassicism with modernism; showcased at the 1925 Paris Exhibition; associated with architect-designers like Carl Malmsten."@en ;
+    time:hasBeginning [ time:inXSDgYear "1920"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1935"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 47/93: Nordic Classicism (1910s–1930s) ──
+nam:nordic-classicism a skos:Concept ;
+    rdfs:label "Nordic Classicism (1910s–1930s)"@en ;
+    rdfs:label "Nordisk klassicisme"@da ;
+    rdfs:label "Pohjoismainen klassismi"@fi ;
+    rdfs:label "Nordisk klassisisme"@nb ;
+    rdfs:label "Nordisk klassicism"@sv ;
+    skos:prefLabel "Nordic Classicism (1910s–1930s)"@en ;
+    skos:prefLabel "Nordisk klassicisme"@da ;
+    skos:prefLabel "Pohjoismainen klassismi"@fi ;
+    skos:prefLabel "Nordisk klassisisme"@nb ;
+    skos:prefLabel "Nordisk klassicism"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Restrained classical architecture in the Nordic countries as a transition between National Romanticism and Functionalism; Gunnar Asplund's Stockholm Public Library is iconic."@en ;
+    skos:closeMatch <http://vocab.getty.edu/aat/300021477> ;
+    time:hasBeginning [ time:inXSDgYear "1910"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1935"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 48/93: Danish Neoclassical Revival ──
+nam:danish-neoclassical-revival a skos:Concept ;
+    rdfs:label "Danish Neoclassical Revival"@en ;
+    rdfs:label "Dansk nyklassicistisk revival"@da ;
+    rdfs:label "Tanskalainen uusklassistinen elpyminen"@fi ;
+    rdfs:label "Dansk nyklassisistisk revival"@nb ;
+    rdfs:label "Dansk nyklassicistisk revival"@sv ;
+    skos:prefLabel "Danish Neoclassical Revival"@en ;
+    skos:prefLabel "Dansk nyklassicistisk revival"@da ;
+    skos:prefLabel "Tanskalainen uusklassistinen elpyminen"@fi ;
+    skos:prefLabel "Dansk nyklassisistisk revival"@nb ;
+    skos:prefLabel "Dansk nyklassicistisk revival"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Danish architecture of the 1910s–1920s returning to neoclassical simplicity; Hack Kampmann and Carl Petersen's Faaborg Museum exemplify the movement."@en ;
+    skos:broader nam:nordic-classicism ;
+    time:hasBeginning [ time:inXSDgYear "1915"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1930"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 49/93: Finnish Classicism ──
+nam:finnish-classicism a skos:Concept ;
+    rdfs:label "Finnish Classicism"@en ;
+    rdfs:label "Finsk klassicisme"@da ;
+    rdfs:label "Suomalainen klassismi"@fi ;
+    rdfs:label "Finsk klassisisme"@nb ;
+    rdfs:label "Finsk klassicism"@sv ;
+    skos:prefLabel "Finnish Classicism"@en ;
+    skos:prefLabel "Finsk klassicisme"@da ;
+    skos:prefLabel "Suomalainen klassismi"@fi ;
+    skos:prefLabel "Finsk klassisisme"@nb ;
+    skos:prefLabel "Finsk klassicism"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Brief but significant classical phase in Finnish architecture during the 1920s; early works of Alvar Aalto and J.S. Sirén's Parliament House represent the period."@en ;
+    skos:broader nam:nordic-classicism ;
+    time:hasBeginning [ time:inXSDgYear "1920"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1930"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 50/93: De Stijl Influence in the Nordics ──
+nam:de-stijl-nordic-influence a skos:Concept ;
+    rdfs:label "De Stijl Influence in the Nordics"@en ;
+    rdfs:label "De Stijl-indflydelse i Norden"@da ;
+    rdfs:label "De Stijl -vaikutus Pohjoismaissa"@fi ;
+    rdfs:label "De Stijl-innflytelse i Norden"@nb ;
+    rdfs:label "De Stijl-inflytande i Norden"@sv ;
+    skos:prefLabel "De Stijl Influence in the Nordics"@en ;
+    skos:prefLabel "De Stijl-indflydelse i Norden"@da ;
+    skos:prefLabel "De Stijl -vaikutus Pohjoismaissa"@fi ;
+    skos:prefLabel "De Stijl-innflytelse i Norden"@nb ;
+    skos:prefLabel "De Stijl-inflytande i Norden"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Impact of the Dutch De Stijl movement on Nordic abstract art and design, particularly in Swedish and Danish geometric abstraction of the interwar years."@en ;
+    time:hasBeginning [ time:inXSDgYear "1917"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1935"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 51/93: Scandinavian Surrealism ──
+nam:scandinavian-surrealism a skos:Concept ;
+    rdfs:label "Scandinavian Surrealism"@en ;
+    rdfs:label "Skandinavisk surrealisme"@da ;
+    rdfs:label "Skandinaavinen surrealismi"@fi ;
+    rdfs:label "Skandinavisk surrealisme"@nb ;
+    rdfs:label "Skandinavisk surrealism"@sv ;
+    skos:prefLabel "Scandinavian Surrealism"@en ;
+    skos:prefLabel "Skandinavisk surrealisme"@da ;
+    skos:prefLabel "Skandinaavinen surrealismi"@fi ;
+    skos:prefLabel "Skandinavisk surrealisme"@nb ;
+    skos:prefLabel "Skandinavisk surrealism"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Surrealist tendencies in Nordic art from the 1930s onward; artists include Wilhelm Bjerke-Petersen (Denmark), Max Walter Svanberg (Sweden), and Stellan Mörner."@en ;
+    time:hasBeginning [ time:inXSDgYear "1930"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1950"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 52/93: Halmstad Group ──
+nam:halmstad-group a skos:Concept ;
+    rdfs:label "Halmstad Group"@en ;
+    rdfs:label "Halmstadgruppen"@da ;
+    rdfs:label "Halmstadin ryhmä"@fi ;
+    rdfs:label "Halmstadgruppen"@nb ;
+    rdfs:label "Halmstadgruppen"@sv ;
+    skos:prefLabel "Halmstad Group"@en ;
+    skos:prefLabel "Halmstadgruppen"@da ;
+    skos:prefLabel "Halmstadin ryhmä"@fi ;
+    skos:prefLabel "Halmstadgruppen"@nb ;
+    skos:prefLabel "Halmstadgruppen"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Swedish Surrealist art group from Halmstad active from 1929; six artists including the Olson brothers who became Scandinavia's foremost Surrealist painters."@en ;
+    time:hasBeginning [ time:inXSDgYear "1929"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1970"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 53/93: Nordic Vitalism ──
+nam:nordic-vitalism a skos:Concept ;
+    rdfs:label "Nordic Vitalism"@en ;
+    rdfs:label "Nordisk vitalisme"@da ;
+    rdfs:label "Pohjoismainen vitalismi"@fi ;
+    rdfs:label "Nordisk vitalisme"@nb ;
+    rdfs:label "Nordisk vitalism"@sv ;
+    skos:prefLabel "Nordic Vitalism"@en ;
+    skos:prefLabel "Nordisk vitalisme"@da ;
+    skos:prefLabel "Pohjoismainen vitalismi"@fi ;
+    skos:prefLabel "Nordisk vitalisme"@nb ;
+    skos:prefLabel "Nordisk vitalism"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Early 20th-century Nordic art movement emphasizing life force, physicality, and connection to nature; influenced by Nietzsche and visible in painting and sculpture."@en ;
+    time:hasBeginning [ time:inXSDgYear "1900"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1920"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 54/93: Swedish Colour Realism ──
+nam:colour-realism-sweden a skos:Concept ;
+    rdfs:label "Swedish Colour Realism"@en ;
+    rdfs:label "Svensk kolorisme"@da ;
+    rdfs:label "Ruotsalainen koloriitti"@fi ;
+    rdfs:label "Svensk kolorisme"@nb ;
+    rdfs:label "Svensk kolorism"@sv ;
+    skos:prefLabel "Swedish Colour Realism"@en ;
+    skos:prefLabel "Svensk kolorisme"@da ;
+    skos:prefLabel "Ruotsalainen koloriitti"@fi ;
+    skos:prefLabel "Svensk kolorisme"@nb ;
+    skos:prefLabel "Svensk kolorism"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Swedish interwar painting movement emphasizing rich color and solid form, influenced by Cézanne and Matisse; artists include Isaac Grünewald, Sigrid Hjertén, and Leander Engström."@en ;
+    time:hasBeginning [ time:inXSDgYear "1910"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1930"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 55/93: Nordic Functionalism (Funkis) ──
+nam:nordic-functionalism a skos:Concept ;
+    rdfs:label "Nordic Functionalism (Funkis)"@en ;
+    rdfs:label "Nordisk funktionalisme (funkis)"@da ;
+    rdfs:label "Pohjoismainen funktionalismi (funkis)"@fi ;
+    rdfs:label "Nordisk funksjonalisme (funkis)"@nb ;
+    rdfs:label "Nordisk funktionalism (funkis)"@sv ;
+    skos:prefLabel "Nordic Functionalism (Funkis)"@en ;
+    skos:prefLabel "Nordisk funktionalisme (funkis)"@da ;
+    skos:prefLabel "Pohjoismainen funktionalismi (funkis)"@fi ;
+    skos:prefLabel "Nordisk funksjonalisme (funkis)"@nb ;
+    skos:prefLabel "Nordisk funktionalism (funkis)"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Functionalist architecture and design in the Nordic countries from the late 1920s, emphasizing utility, social housing, and modern materials; funkis became colloquial across Scandinavia."@en ;
+    skos:closeMatch <http://vocab.getty.edu/aat/300021473> ;
+    time:hasBeginning [ time:inXSDgYear "1927"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1950"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 56/93: Swedish Functionalism ──
+nam:swedish-functionalism a skos:Concept ;
+    rdfs:label "Swedish Functionalism"@en ;
+    rdfs:label "Svensk funktionalisme"@da ;
+    rdfs:label "Ruotsalainen funktionalismi"@fi ;
+    rdfs:label "Svensk funksjonalisme"@nb ;
+    rdfs:label "Svensk funktionalism"@sv ;
+    skos:prefLabel "Swedish Functionalism"@en ;
+    skos:prefLabel "Svensk funktionalisme"@da ;
+    skos:prefLabel "Ruotsalainen funktionalismi"@fi ;
+    skos:prefLabel "Svensk funksjonalisme"@nb ;
+    skos:prefLabel "Svensk funktionalism"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Swedish Functionalism launched by the 1930 Stockholm Exhibition organized by Gunnar Asplund; the acceptera manifesto advocated rational design for modern life."@en ;
+    skos:broader nam:nordic-functionalism ;
+    time:hasBeginning [ time:inXSDgYear "1930"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1950"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 57/93: Danish Functionalism ──
+nam:danish-functionalism a skos:Concept ;
+    rdfs:label "Danish Functionalism"@en ;
+    rdfs:label "Dansk funktionalisme"@da ;
+    rdfs:label "Tanskalainen funktionalismi"@fi ;
+    rdfs:label "Dansk funksjonalisme"@nb ;
+    rdfs:label "Dansk funktionalism"@sv ;
+    skos:prefLabel "Danish Functionalism"@en ;
+    skos:prefLabel "Dansk funktionalisme"@da ;
+    skos:prefLabel "Tanskalainen funktionalismi"@fi ;
+    skos:prefLabel "Dansk funksjonalisme"@nb ;
+    skos:prefLabel "Dansk funktionalism"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Danish Functionalist movement in architecture and furniture design; Arne Jacobsen's Bellavista and Kay Fisker's housing projects merged social ideals with modernist aesthetics."@en ;
+    skos:broader nam:nordic-functionalism ;
+    time:hasBeginning [ time:inXSDgYear "1930"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1960"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 58/93: Finnish Modernism (Aalto School) ──
+nam:finnish-modernism a skos:Concept ;
+    rdfs:label "Finnish Modernism (Aalto School)"@en ;
+    rdfs:label "Finsk modernisme"@da ;
+    rdfs:label "Suomalainen modernismi"@fi ;
+    rdfs:label "Finsk modernisme"@nb ;
+    rdfs:label "Finsk modernism"@sv ;
+    skos:prefLabel "Finnish Modernism (Aalto School)"@en ;
+    skos:prefLabel "Finsk modernisme"@da ;
+    skos:prefLabel "Suomalainen modernismi"@fi ;
+    skos:prefLabel "Finsk modernisme"@nb ;
+    skos:prefLabel "Finsk modernism"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Finnish architectural and design modernism defined by Alvar Aalto's humanistic approach, combining functionalism with organic forms, natural materials, and sensitivity to landscape."@en ;
+    time:hasBeginning [ time:inXSDgYear "1928"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1960"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 59/93: Norwegian Modernism ──
+nam:norwegian-modernism a skos:Concept ;
+    rdfs:label "Norwegian Modernism"@en ;
+    rdfs:label "Norsk modernisme"@da ;
+    rdfs:label "Norjalainen modernismi"@fi ;
+    rdfs:label "Norsk modernisme"@nb ;
+    rdfs:label "Norsk modernism"@sv ;
+    skos:prefLabel "Norwegian Modernism"@en ;
+    skos:prefLabel "Norsk modernisme"@da ;
+    skos:prefLabel "Norjalainen modernismi"@fi ;
+    skos:prefLabel "Norsk modernisme"@nb ;
+    skos:prefLabel "Norsk modernism"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Modernist movement in Norwegian art and architecture; architects like Ove Bang and Knut Knutsen developed a regional modernism blending international style with Norwegian materials."@en ;
+    time:hasBeginning [ time:inXSDgYear "1930"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1960"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 60/93: CoBrA (Nordic Participants) ──
+nam:cobra-nordic a skos:Concept ;
+    rdfs:label "CoBrA (Nordic Participants)"@en ;
+    rdfs:label "CoBrA (nordiske deltagere)"@da ;
+    rdfs:label "CoBrA (pohjoismaiset osallistujat)"@fi ;
+    rdfs:label "CoBrA (nordiske deltakere)"@nb ;
+    rdfs:label "CoBrA (nordiska deltagare)"@sv ;
+    skos:prefLabel "CoBrA (Nordic Participants)"@en ;
+    skos:prefLabel "CoBrA (nordiske deltagere)"@da ;
+    skos:prefLabel "CoBrA (pohjoismaiset osallistujat)"@fi ;
+    skos:prefLabel "CoBrA (nordiske deltakere)"@nb ;
+    skos:prefLabel "CoBrA (nordiska deltagare)"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Danish artists in the CoBrA movement (Copenhagen-Brussels-Amsterdam, 1948–1951); Asger Jorn and Carl-Henning Pedersen brought Nordic expressionist energy to avant-garde abstraction."@en ;
+    skos:closeMatch <http://vocab.getty.edu/aat/300021482> ;
+    time:hasBeginning [ time:inXSDgYear "1948"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1951"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 61/93: Nordic Concrete Art ──
+nam:nordic-concrete-art a skos:Concept ;
+    rdfs:label "Nordic Concrete Art"@en ;
+    rdfs:label "Nordisk konkret kunst"@da ;
+    rdfs:label "Pohjoismainen konkreettinen taide"@fi ;
+    rdfs:label "Nordisk konkret kunst"@nb ;
+    rdfs:label "Nordisk konkret konst"@sv ;
+    skos:prefLabel "Nordic Concrete Art"@en ;
+    skos:prefLabel "Nordisk konkret kunst"@da ;
+    skos:prefLabel "Pohjoismainen konkreettinen taide"@fi ;
+    skos:prefLabel "Nordisk konkret kunst"@nb ;
+    skos:prefLabel "Nordisk konkret konst"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Concrete art movement in the Nordic countries featuring geometric abstraction and systematic composition; influenced by Max Bill and developed in Swedish and Danish art circles."@en ;
+    skos:closeMatch <http://vocab.getty.edu/aat/300264837> ;
+    time:hasBeginning [ time:inXSDgYear "1945"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1970"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 62/93: Nordic Constructivism ──
+nam:nordic-constructivism a skos:Concept ;
+    rdfs:label "Nordic Constructivism"@en ;
+    rdfs:label "Nordisk konstruktivisme"@da ;
+    rdfs:label "Pohjoismainen konstruktivismi"@fi ;
+    rdfs:label "Nordisk konstruktivisme"@nb ;
+    rdfs:label "Nordisk konstruktivism"@sv ;
+    skos:prefLabel "Nordic Constructivism"@en ;
+    skos:prefLabel "Nordisk konstruktivisme"@da ;
+    skos:prefLabel "Pohjoismainen konstruktivismi"@fi ;
+    skos:prefLabel "Nordisk konstruktivisme"@nb ;
+    skos:prefLabel "Nordisk konstruktivism"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Constructivist tendencies in Nordic art and sculpture emphasizing geometric forms and industrial materials; connected to international Constructivism and kinetic art."@en ;
+    time:hasBeginning [ time:inXSDgYear "1950"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1970"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 63/93: The Imaginists (Imaginisterna) ──
+nam:imaginisterna a skos:Concept ;
+    rdfs:label "The Imaginists (Imaginisterna)"@en ;
+    rdfs:label "Imaginisterne"@da ;
+    rdfs:label "Imaginistit"@fi ;
+    rdfs:label "Imaginistene"@nb ;
+    rdfs:label "Imaginisterna"@sv ;
+    skos:prefLabel "The Imaginists (Imaginisterna)"@en ;
+    skos:prefLabel "Imaginisterne"@da ;
+    skos:prefLabel "Imaginistit"@fi ;
+    skos:prefLabel "Imaginistene"@nb ;
+    skos:prefLabel "Imaginisterna"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Swedish avant-garde art group founded in 1945 in Malmö, bridging Surrealism and CoBrA; members included C.O. Hultén and Max Walter Svanberg."@en ;
+    time:hasBeginning [ time:inXSDgYear "1945"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1956"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 64/93: Linien Group ──
+nam:linien-group a skos:Concept ;
+    rdfs:label "Linien Group"@en ;
+    rdfs:label "Linien"@da ;
+    rdfs:label "Linien-ryhmä"@fi ;
+    rdfs:label "Linien-gruppen"@nb ;
+    rdfs:label "Linien-gruppen"@sv ;
+    skos:prefLabel "Linien Group"@en ;
+    skos:prefLabel "Linien"@da ;
+    skos:prefLabel "Linien-ryhmä"@fi ;
+    skos:prefLabel "Linien-gruppen"@nb ;
+    skos:prefLabel "Linien-gruppen"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Danish abstract art group and journal founded in 1934; among the first to promote pure abstraction and Surrealism in Scandinavia; precursor to CoBrA."@en ;
+    time:hasBeginning [ time:inXSDgYear "1934"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1940"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 65/93: Finnish Informalism ──
+nam:finnish-informalism a skos:Concept ;
+    rdfs:label "Finnish Informalism"@en ;
+    rdfs:label "Finsk informalisme"@da ;
+    rdfs:label "Suomalainen informalismi"@fi ;
+    rdfs:label "Finsk informalisme"@nb ;
+    rdfs:label "Finsk informalism"@sv ;
+    skos:prefLabel "Finnish Informalism"@en ;
+    skos:prefLabel "Finsk informalisme"@da ;
+    skos:prefLabel "Suomalainen informalismi"@fi ;
+    skos:prefLabel "Finsk informalisme"@nb ;
+    skos:prefLabel "Finsk informalism"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Finnish contribution to Art Informel and abstract expressionism in the 1950s–60s; artists like Juhana Blomstedt and Sam Vanni explored gestural abstraction and color-field painting."@en ;
+    time:hasBeginning [ time:inXSDgYear "1955"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1970"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 66/93: Swedish Neo-Realism (1947 Group) ──
+nam:swedish-neo-realism a skos:Concept ;
+    rdfs:label "Swedish Neo-Realism (1947 Group)"@en ;
+    rdfs:label "Svensk nyrealisme (1947-gruppen)"@da ;
+    rdfs:label "Ruotsalainen uusrealismi (1947-ryhmä)"@fi ;
+    rdfs:label "Svensk nyrealisme (1947-gruppen)"@nb ;
+    rdfs:label "Svensk nyrealism (1947 års grupp)"@sv ;
+    skos:prefLabel "Swedish Neo-Realism (1947 Group)"@en ;
+    skos:prefLabel "Svensk nyrealisme (1947-gruppen)"@da ;
+    skos:prefLabel "Ruotsalainen uusrealismi (1947-ryhmä)"@fi ;
+    skos:prefLabel "Svensk nyrealisme (1947-gruppen)"@nb ;
+    skos:prefLabel "Svensk nyrealism (1947 års grupp)"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Post-war Swedish movement returning to figuration with social awareness; the 1947 Group (Torsten Andersson, Lage Lindell) reacted against pure abstraction."@en ;
+    time:hasBeginning [ time:inXSDgYear "1947"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1960"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 67/93: Nordic Folk Art Revival ──
+nam:folk-art-revival a skos:Concept ;
+    rdfs:label "Nordic Folk Art Revival"@en ;
+    rdfs:label "Nordisk folkekunst-revival"@da ;
+    rdfs:label "Pohjoismainen kansantaiteen elpyminen"@fi ;
+    rdfs:label "Nordisk folkekunst-revival"@nb ;
+    rdfs:label "Nordisk folkkonst-revival"@sv ;
+    skos:prefLabel "Nordic Folk Art Revival"@en ;
+    skos:prefLabel "Nordisk folkekunst-revival"@da ;
+    skos:prefLabel "Pohjoismainen kansantaiteen elpyminen"@fi ;
+    skos:prefLabel "Nordisk folkekunst-revival"@nb ;
+    skos:prefLabel "Nordisk folkkonst-revival"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Pan-Nordic movement to preserve and revitalize traditional folk art, textiles, and crafts; connected to National Romanticism and the emergence of the home crafts associations (hemslöjd)."@en ;
+    time:hasBeginning [ time:inXSDgYear "1890"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1940"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 68/93: Nordic Social Realism ──
+nam:nordic-social-realism a skos:Concept ;
+    rdfs:label "Nordic Social Realism"@en ;
+    rdfs:label "Nordisk socialrealisme"@da ;
+    rdfs:label "Pohjoismainen sosiaalinen realismi"@fi ;
+    rdfs:label "Nordisk sosialrealisme"@nb ;
+    rdfs:label "Nordisk socialrealism"@sv ;
+    skos:prefLabel "Nordic Social Realism"@en ;
+    skos:prefLabel "Nordisk socialrealisme"@da ;
+    skos:prefLabel "Pohjoismainen sosiaalinen realismi"@fi ;
+    skos:prefLabel "Nordisk sosialrealisme"@nb ;
+    skos:prefLabel "Nordisk socialrealism"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Socially engaged realist art in the Nordic countries during the 1930s–40s, depicting workers, poverty, and solidarity; Albin Amelin in Sweden and Henrik Sørensen in Norway."@en ;
+    time:hasBeginning [ time:inXSDgYear "1930"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1950"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 69/93: Scandinavian Design ──
+nam:scandinavian-design a skos:Concept ;
+    rdfs:label "Scandinavian Design"@en ;
+    rdfs:label "Skandinavisk design"@da ;
+    rdfs:label "Skandinaavinen muotoilu"@fi ;
+    rdfs:label "Skandinavisk design"@nb ;
+    rdfs:label "Skandinavisk design"@sv ;
+    skos:prefLabel "Scandinavian Design"@en ;
+    skos:prefLabel "Skandinavisk design"@da ;
+    skos:prefLabel "Skandinaavinen muotoilu"@fi ;
+    skos:prefLabel "Skandinavisk design"@nb ;
+    skos:prefLabel "Skandinavisk design"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Post-war design movement emphasizing democratic design, natural materials, functionalism, and beauty of everyday objects; internationally promoted through the Design in Scandinavia touring exhibition (1954–57)."@en ;
+    skos:closeMatch <http://vocab.getty.edu/aat/300264869> ;
+    time:hasBeginning [ time:inXSDgYear "1945"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1975"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 70/93: Danish Modern ──
+nam:danish-modern a skos:Concept ;
+    rdfs:label "Danish Modern"@en ;
+    rdfs:label "Dansk design (dansk moderne)"@da ;
+    rdfs:label "Tanskalainen moderni"@fi ;
+    rdfs:label "Dansk moderne"@nb ;
+    rdfs:label "Dansk modern"@sv ;
+    skos:prefLabel "Danish Modern"@en ;
+    skos:prefLabel "Dansk design (dansk moderne)"@da ;
+    skos:prefLabel "Tanskalainen moderni"@fi ;
+    skos:prefLabel "Dansk moderne"@nb ;
+    skos:prefLabel "Dansk modern"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Danish furniture and industrial design tradition of clean lines, organic forms, and superb craftsmanship; masters include Hans Wegner, Finn Juhl, Arne Jacobsen, and Børge Mogensen."@en ;
+    skos:broader nam:scandinavian-design ;
+    skos:closeMatch <http://vocab.getty.edu/aat/300264870> ;
+    time:hasBeginning [ time:inXSDgYear "1945"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1970"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 71/93: Swedish Modern ──
+nam:swedish-modern a skos:Concept ;
+    rdfs:label "Swedish Modern"@en ;
+    rdfs:label "Svensk moderne"@da ;
+    rdfs:label "Ruotsalainen moderni"@fi ;
+    rdfs:label "Svensk moderne"@nb ;
+    rdfs:label "Svensk modern"@sv ;
+    skos:prefLabel "Swedish Modern"@en ;
+    skos:prefLabel "Svensk moderne"@da ;
+    skos:prefLabel "Ruotsalainen moderni"@fi ;
+    skos:prefLabel "Svensk moderne"@nb ;
+    skos:prefLabel "Svensk modern"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Swedish design philosophy combining social democratic ideals with beautiful, affordable everyday goods; promoted by Gregor Paulsson's 'More Beautiful Everyday Things' (1919) and realized through IKEA and Swedish glass."@en ;
+    skos:broader nam:scandinavian-design ;
+    time:hasBeginning [ time:inXSDgYear "1930"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1970"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 72/93: Finnish Design (Marimekko, Arabia, Iittala) ──
+nam:finnish-design a skos:Concept ;
+    rdfs:label "Finnish Design (Marimekko, Arabia, Iittala)"@en ;
+    rdfs:label "Finsk design"@da ;
+    rdfs:label "Suomalainen muotoilu"@fi ;
+    rdfs:label "Finsk design"@nb ;
+    rdfs:label "Finsk design"@sv ;
+    skos:prefLabel "Finnish Design (Marimekko, Arabia, Iittala)"@en ;
+    skos:prefLabel "Finsk design"@da ;
+    skos:prefLabel "Suomalainen muotoilu"@fi ;
+    skos:prefLabel "Finsk design"@nb ;
+    skos:prefLabel "Finsk design"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Post-war Finnish design achieving international fame through companies like Marimekko (textiles), Arabia (ceramics), Iittala (glass), and designers like Tapio Wirkkala and Timo Sarpaneva."@en ;
+    skos:broader nam:scandinavian-design ;
+    time:hasBeginning [ time:inXSDgYear "1945"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1975"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 73/93: Scandinavian Mid-Century Modern ──
+nam:scandinavian-mid-century a skos:Concept ;
+    rdfs:label "Scandinavian Mid-Century Modern"@en ;
+    rdfs:label "Skandinavisk midcentury moderne"@da ;
+    rdfs:label "Skandinaavinen mid-century moderni"@fi ;
+    rdfs:label "Skandinavisk midtmoderne"@nb ;
+    rdfs:label "Skandinavisk mitten av seklet modern"@sv ;
+    skos:prefLabel "Scandinavian Mid-Century Modern"@en ;
+    skos:prefLabel "Skandinavisk midcentury moderne"@da ;
+    skos:prefLabel "Skandinaavinen mid-century moderni"@fi ;
+    skos:prefLabel "Skandinavisk midtmoderne"@nb ;
+    skos:prefLabel "Skandinavisk mitten av seklet modern"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "The peak international impact of Scandinavian design in the 1950s–60s, when Nordic furniture, glass, ceramics, and textiles became globally iconic for their organic modernism."@en ;
+    skos:broader nam:scandinavian-design ;
+    time:hasBeginning [ time:inXSDgYear "1950"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1970"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 74/93: Nordic Industrial Design ──
+nam:nordic-industrial-design a skos:Concept ;
+    rdfs:label "Nordic Industrial Design"@en ;
+    rdfs:label "Nordisk industrielt design"@da ;
+    rdfs:label "Pohjoismainen teollinen muotoilu"@fi ;
+    rdfs:label "Nordisk industridesign"@nb ;
+    rdfs:label "Nordisk industridesign"@sv ;
+    skos:prefLabel "Nordic Industrial Design"@en ;
+    skos:prefLabel "Nordisk industrielt design"@da ;
+    skos:prefLabel "Pohjoismainen teollinen muotoilu"@fi ;
+    skos:prefLabel "Nordisk industridesign"@nb ;
+    skos:prefLabel "Nordisk industridesign"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Industrial design tradition in the Nordic countries extending Scandinavian Design principles to electronics, appliances, and transportation; Bang & Olufsen, Volvo, Saab, Nokia."@en ;
+    time:hasBeginning [ time:inXSDgYear "1960"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1990"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 75/93: Norwegian Rosemaling Revival ──
+nam:norwegian-rosemaling-revival a skos:Concept ;
+    rdfs:label "Norwegian Rosemaling Revival"@en ;
+    rdfs:label "Norsk rosemalings-revival"@da ;
+    rdfs:label "Norjalainen ruusumaalauksen elpyminen"@fi ;
+    rdfs:label "Norsk rosemalings-revival"@nb ;
+    rdfs:label "Norsk rosemålnings-revival"@sv ;
+    skos:prefLabel "Norwegian Rosemaling Revival"@en ;
+    skos:prefLabel "Norsk rosemalings-revival"@da ;
+    skos:prefLabel "Norjalainen ruusumaalauksen elpyminen"@fi ;
+    skos:prefLabel "Norsk rosemalings-revival"@nb ;
+    skos:prefLabel "Norsk rosemålnings-revival"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Post-war revival of traditional Norwegian decorative painting (rosemaling), promoted by folk art societies and Norwegian-American communities preserving heritage crafts."@en ;
+    time:hasBeginning [ time:inXSDgYear "1950"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1980"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 76/93: Swedish Textile Art Movement ──
+nam:swedish-textile-art a skos:Concept ;
+    rdfs:label "Swedish Textile Art Movement"@en ;
+    rdfs:label "Svensk tekstilkunstbevægelse"@da ;
+    rdfs:label "Ruotsalainen tekstiilitaideliike"@fi ;
+    rdfs:label "Svensk tekstilkunstbevegelse"@nb ;
+    rdfs:label "Svensk textilkonströrelse"@sv ;
+    skos:prefLabel "Swedish Textile Art Movement"@en ;
+    skos:prefLabel "Svensk tekstilkunstbevægelse"@da ;
+    skos:prefLabel "Ruotsalainen tekstiilitaideliike"@fi ;
+    skos:prefLabel "Svensk tekstilkunstbevegelse"@nb ;
+    skos:prefLabel "Svensk textilkonströrelse"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Elevation of textile art to fine art in post-war Sweden; artists like Märta Måås-Fjetterström and later Kaisa Melanton created monumental tapestries and weavings."@en ;
+    time:hasBeginning [ time:inXSDgYear "1950"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1980"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 77/93: Danish Studio Ceramic Movement ──
+nam:danish-ceramic-movement a skos:Concept ;
+    rdfs:label "Danish Studio Ceramic Movement"@en ;
+    rdfs:label "Dansk studiokeramikbevægelse"@da ;
+    rdfs:label "Tanskalainen studiokeramiikkaliike"@fi ;
+    rdfs:label "Dansk studiokeramikkbevegelse"@nb ;
+    rdfs:label "Dansk studiokeramikrörelse"@sv ;
+    skos:prefLabel "Danish Studio Ceramic Movement"@en ;
+    skos:prefLabel "Dansk studiokeramikbevægelse"@da ;
+    skos:prefLabel "Tanskalainen studiokeramiikkaliike"@fi ;
+    skos:prefLabel "Dansk studiokeramikkbevegelse"@nb ;
+    skos:prefLabel "Dansk studiokeramikrörelse"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Post-war Danish ceramics movement elevating studio pottery as art; Royal Copenhagen, Saxbo, and individual artists like Axel Salto and Gertrud Vasegaard gained international recognition."@en ;
+    time:hasBeginning [ time:inXSDgYear "1955"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1985"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 78/93: Nordic Brutalism ──
+nam:nordic-brutalism a skos:Concept ;
+    rdfs:label "Nordic Brutalism"@en ;
+    rdfs:label "Nordisk brutalisme"@da ;
+    rdfs:label "Pohjoismainen brutalismi"@fi ;
+    rdfs:label "Nordisk brutalisme"@nb ;
+    rdfs:label "Nordisk brutalism"@sv ;
+    skos:prefLabel "Nordic Brutalism"@en ;
+    skos:prefLabel "Nordisk brutalisme"@da ;
+    skos:prefLabel "Pohjoismainen brutalismi"@fi ;
+    skos:prefLabel "Nordisk brutalisme"@nb ;
+    skos:prefLabel "Nordisk brutalism"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Brutalist architecture in the Nordic countries using raw concrete with humanistic sensitivity; examples include Bagsværd Church (Utzon) and the University of Jyväskylä buildings (Aalto)."@en ;
+    skos:closeMatch <http://vocab.getty.edu/aat/300021562> ;
+    time:hasBeginning [ time:inXSDgYear "1955"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1975"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 79/93: Nordic Pop Art ──
+nam:nordic-pop-art a skos:Concept ;
+    rdfs:label "Nordic Pop Art"@en ;
+    rdfs:label "Nordisk popkunst"@da ;
+    rdfs:label "Pohjoismainen pop-taide"@fi ;
+    rdfs:label "Nordisk popkunst"@nb ;
+    rdfs:label "Nordisk popkonst"@sv ;
+    skos:prefLabel "Nordic Pop Art"@en ;
+    skos:prefLabel "Nordisk popkunst"@da ;
+    skos:prefLabel "Pohjoismainen pop-taide"@fi ;
+    skos:prefLabel "Nordisk popkunst"@nb ;
+    skos:prefLabel "Nordisk popkonst"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Pop Art movement in the Nordic countries, often with political and social critique distinct from Anglo-American pop; Öyvind Fahlström (Sweden) and Per Olof Ultvedt were key figures."@en ;
+    time:hasBeginning [ time:inXSDgYear "1962"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1975"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 80/93: Nordic Textile Design ──
+nam:nordic-textile-design a skos:Concept ;
+    rdfs:label "Nordic Textile Design"@en ;
+    rdfs:label "Nordisk tekstildesign"@da ;
+    rdfs:label "Pohjoismainen tekstiilisuunnittelu"@fi ;
+    rdfs:label "Nordisk tekstildesign"@nb ;
+    rdfs:label "Nordisk textildesign"@sv ;
+    skos:prefLabel "Nordic Textile Design"@en ;
+    skos:prefLabel "Nordisk tekstildesign"@da ;
+    skos:prefLabel "Pohjoismainen tekstiilisuunnittelu"@fi ;
+    skos:prefLabel "Nordisk tekstildesign"@nb ;
+    skos:prefLabel "Nordisk textildesign"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Post-war Nordic textile design characterized by bold patterns and vibrant colors; Marimekko's Maija Isola, Sweden's Josef Frank at Svenskt Tenn, and Danish designers at Georg Jensen Damask."@en ;
+    skos:broader nam:scandinavian-design ;
+    time:hasBeginning [ time:inXSDgYear "1950"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1975"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 81/93: Nordic Ergonomic Design ──
+nam:ergonomic-design-nordic a skos:Concept ;
+    rdfs:label "Nordic Ergonomic Design"@en ;
+    rdfs:label "Nordisk ergonomisk design"@da ;
+    rdfs:label "Pohjoismainen ergonominen muotoilu"@fi ;
+    rdfs:label "Nordisk ergonomisk design"@nb ;
+    rdfs:label "Nordisk ergonomisk design"@sv ;
+    skos:prefLabel "Nordic Ergonomic Design"@en ;
+    skos:prefLabel "Nordisk ergonomisk design"@da ;
+    skos:prefLabel "Pohjoismainen ergonominen muotoilu"@fi ;
+    skos:prefLabel "Nordisk ergonomisk design"@nb ;
+    skos:prefLabel "Nordisk ergonomisk design"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Nordic emphasis on ergonomics and human-centered design in furniture, tools, and workspaces; Scandinavian office design and Peter Opsvik's Balans chairs exemplify the tradition."@en ;
+    time:hasBeginning [ time:inXSDgYear "1970"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1995"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 82/93: Post-war Finnish Architecture ──
+nam:finnish-architecture-postwar a skos:Concept ;
+    rdfs:label "Post-war Finnish Architecture"@en ;
+    rdfs:label "Efterkrigstidens finske arkitektur"@da ;
+    rdfs:label "Sodanjälkeinen suomalainen arkkitehtuuri"@fi ;
+    rdfs:label "Etterkrigstidens finske arkitektur"@nb ;
+    rdfs:label "Efterkrigstidens finska arkitektur"@sv ;
+    skos:prefLabel "Post-war Finnish Architecture"@en ;
+    skos:prefLabel "Efterkrigstidens finske arkitektur"@da ;
+    skos:prefLabel "Sodanjälkeinen suomalainen arkkitehtuuri"@fi ;
+    skos:prefLabel "Etterkrigstidens finske arkitektur"@nb ;
+    skos:prefLabel "Efterkrigstidens finska arkitektur"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Finnish post-war architecture continuing Aalto's organic modernism; Viljo Revell (Toronto City Hall), Reima Pietilä (Dipoli), and Timo Penttilä developed a distinctive national modernism."@en ;
+    time:hasBeginning [ time:inXSDgYear "1950"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1980"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 83/93: Nordic Landscape Architecture ──
+nam:nordic-landscape-architecture a skos:Concept ;
+    rdfs:label "Nordic Landscape Architecture"@en ;
+    rdfs:label "Nordisk landskabsarkitektur"@da ;
+    rdfs:label "Pohjoismainen maisema-arkkitehtuuri"@fi ;
+    rdfs:label "Nordisk landskapsarkitektur"@nb ;
+    rdfs:label "Nordisk landskapsarkitektur"@sv ;
+    skos:prefLabel "Nordic Landscape Architecture"@en ;
+    skos:prefLabel "Nordisk landskabsarkitektur"@da ;
+    skos:prefLabel "Pohjoismainen maisema-arkkitehtuuri"@fi ;
+    skos:prefLabel "Nordisk landskapsarkitektur"@nb ;
+    skos:prefLabel "Nordisk landskapsarkitektur"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Post-war Nordic landscape design tradition emphasizing naturalistic planting, public parks, and democratic outdoor spaces; C.Th. Sørensen's adventure playgrounds pioneered participatory design."@en ;
+    time:hasBeginning [ time:inXSDgYear "1945"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "1980"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 84/93: Nordic Noir (Aesthetic) ──
+nam:nordic-noir-aesthetic a skos:Concept ;
+    rdfs:label "Nordic Noir (Aesthetic)"@en ;
+    rdfs:label "Nordic noir (æstetik)"@da ;
+    rdfs:label "Pohjoismainen noir (estetiikka)"@fi ;
+    rdfs:label "Nordisk noir (estetikk)"@nb ;
+    rdfs:label "Nordisk noir (estetik)"@sv ;
+    skos:prefLabel "Nordic Noir (Aesthetic)"@en ;
+    skos:prefLabel "Nordic noir (æstetik)"@da ;
+    skos:prefLabel "Pohjoismainen noir (estetiikka)"@fi ;
+    skos:prefLabel "Nordisk noir (estetikk)"@nb ;
+    skos:prefLabel "Nordisk noir (estetik)"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Visual and narrative aesthetic originating in Scandinavian crime fiction and TV; characterized by dark palettes, austere landscapes, and minimalist interiors reflecting social critique."@en ;
+    time:hasBeginning [ time:inXSDgYear "1990"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "2025"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 85/93: New Nordic (Design Philosophy) ──
+nam:new-nordic-design a skos:Concept ;
+    rdfs:label "New Nordic (Design Philosophy)"@en ;
+    rdfs:label "Ny nordisk design"@da ;
+    rdfs:label "Uusi pohjoismainen muotoilu"@fi ;
+    rdfs:label "Ny nordisk design"@nb ;
+    rdfs:label "Ny nordisk design"@sv ;
+    skos:prefLabel "New Nordic (Design Philosophy)"@en ;
+    skos:prefLabel "Ny nordisk design"@da ;
+    skos:prefLabel "Uusi pohjoismainen muotoilu"@fi ;
+    skos:prefLabel "Ny nordisk design"@nb ;
+    skos:prefLabel "Ny nordisk design"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "21st-century Nordic design philosophy emphasizing sustainability, local materials, and cultural identity; extends from New Nordic cuisine to architecture and product design."@en ;
+    time:hasBeginning [ time:inXSDgYear "2000"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "2025"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 86/93: Scandinavian Minimalism ──
+nam:scandinavian-minimalism a skos:Concept ;
+    rdfs:label "Scandinavian Minimalism"@en ;
+    rdfs:label "Skandinavisk minimalisme"@da ;
+    rdfs:label "Skandinaavinen minimalismi"@fi ;
+    rdfs:label "Skandinavisk minimalisme"@nb ;
+    rdfs:label "Skandinavisk minimalism"@sv ;
+    skos:prefLabel "Scandinavian Minimalism"@en ;
+    skos:prefLabel "Skandinavisk minimalisme"@da ;
+    skos:prefLabel "Skandinaavinen minimalismi"@fi ;
+    skos:prefLabel "Skandinavisk minimalisme"@nb ;
+    skos:prefLabel "Skandinavisk minimalism"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Contemporary minimalist design and lifestyle aesthetic rooted in Scandinavian design traditions; characterized by white spaces, natural materials, and lagom (just enough) philosophy."@en ;
+    time:hasBeginning [ time:inXSDgYear "1990"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "2025"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 87/93: Nordic Contemporary Art ──
+nam:nordic-contemporary-art a skos:Concept ;
+    rdfs:label "Nordic Contemporary Art"@en ;
+    rdfs:label "Nordisk samtidskunst"@da ;
+    rdfs:label "Pohjoismainen nykytaide"@fi ;
+    rdfs:label "Nordisk samtidskunst"@nb ;
+    rdfs:label "Nordisk samtidskonst"@sv ;
+    skos:prefLabel "Nordic Contemporary Art"@en ;
+    skos:prefLabel "Nordisk samtidskunst"@da ;
+    skos:prefLabel "Pohjoismainen nykytaide"@fi ;
+    skos:prefLabel "Nordisk samtidskunst"@nb ;
+    skos:prefLabel "Nordisk samtidskonst"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Contemporary art scene in the Nordic countries, internationally prominent through artists like Olafur Eliasson, Ragnar Kjartansson, and institutions like Moderna Museet and Louisiana."@en ;
+    time:hasBeginning [ time:inXSDgYear "1990"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "2025"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 88/93: Nordic Light (Photography Movement) ──
+nam:nordic-light-photography a skos:Concept ;
+    rdfs:label "Nordic Light (Photography Movement)"@en ;
+    rdfs:label "Nordisk lys (fotografi)"@da ;
+    rdfs:label "Pohjoismainen valo (valokuvaus)"@fi ;
+    rdfs:label "Nordisk lys (fotografi)"@nb ;
+    rdfs:label "Nordiskt ljus (fotografi)"@sv ;
+    skos:prefLabel "Nordic Light (Photography Movement)"@en ;
+    skos:prefLabel "Nordisk lys (fotografi)"@da ;
+    skos:prefLabel "Pohjoismainen valo (valokuvaus)"@fi ;
+    skos:prefLabel "Nordisk lys (fotografi)"@nb ;
+    skos:prefLabel "Nordiskt ljus (fotografi)"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Nordic photography movement exploring the distinctive quality of northern light; the Nordic Light photography festival in Kristiansund and Helsinki School of photography."@en ;
+    time:hasBeginning [ time:inXSDgYear "1985"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "2025"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 89/93: Superflat Nordic ──
+nam:superflat-nordic a skos:Concept ;
+    rdfs:label "Superflat Nordic"@en ;
+    rdfs:label "Superflat nordisk"@da ;
+    rdfs:label "Superflat pohjoismainen"@fi ;
+    rdfs:label "Superflat nordisk"@nb ;
+    rdfs:label "Superflat nordisk"@sv ;
+    skos:prefLabel "Superflat Nordic"@en ;
+    skos:prefLabel "Superflat nordisk"@da ;
+    skos:prefLabel "Superflat pohjoismainen"@fi ;
+    skos:prefLabel "Superflat nordisk"@nb ;
+    skos:prefLabel "Superflat nordisk"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Nordic artists engaging with flat surface aesthetics, digital culture, and post-internet art; blending Scandinavian graphic design traditions with contemporary global art discourse."@en ;
+    time:hasBeginning [ time:inXSDgYear "2005"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "2025"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 90/93: Nordic Sustainable Design ──
+nam:nordic-sustainable-design a skos:Concept ;
+    rdfs:label "Nordic Sustainable Design"@en ;
+    rdfs:label "Nordisk bæredygtigt design"@da ;
+    rdfs:label "Pohjoismainen kestävä muotoilu"@fi ;
+    rdfs:label "Nordisk bærekraftig design"@nb ;
+    rdfs:label "Nordisk hållbar design"@sv ;
+    skos:prefLabel "Nordic Sustainable Design"@en ;
+    skos:prefLabel "Nordisk bæredygtigt design"@da ;
+    skos:prefLabel "Pohjoismainen kestävä muotoilu"@fi ;
+    skos:prefLabel "Nordisk bærekraftig design"@nb ;
+    skos:prefLabel "Nordisk hållbar design"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Design movement prioritizing circular economy, sustainable materials, and environmental responsibility in the Nordic tradition; extends from architecture to fashion and industrial design."@en ;
+    time:hasBeginning [ time:inXSDgYear "2010"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "2025"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 91/93: Nordic Neo-Expressionism ──
+nam:nordic-neo-expressionism a skos:Concept ;
+    rdfs:label "Nordic Neo-Expressionism"@en ;
+    rdfs:label "Nordisk nyekspressionisme"@da ;
+    rdfs:label "Pohjoismainen uusekspressionismi"@fi ;
+    rdfs:label "Nordisk nyekspresjonisme"@nb ;
+    rdfs:label "Nordisk nyexpressionism"@sv ;
+    skos:prefLabel "Nordic Neo-Expressionism"@en ;
+    skos:prefLabel "Nordisk nyekspressionisme"@da ;
+    skos:prefLabel "Pohjoismainen uusekspressionismi"@fi ;
+    skos:prefLabel "Nordisk nyekspresjonisme"@nb ;
+    skos:prefLabel "Nordisk nyexpressionism"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Return to figurative, emotionally charged painting in the Nordic countries during the 1980s; part of the international Neo-Expressionist wave; artists include Per Kirkeby and Odd Nerdrum."@en ;
+    time:hasBeginning [ time:inXSDgYear "1980"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "2000"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 92/93: Helsinki School (Photography) ──
+nam:helsinki-school a skos:Concept ;
+    rdfs:label "Helsinki School (Photography)"@en ;
+    rdfs:label "Helsinkiskolen (fotografi)"@da ;
+    rdfs:label "Helsinki-koulu (valokuvaus)"@fi ;
+    rdfs:label "Helsinkiskolen (fotografi)"@nb ;
+    rdfs:label "Helsingforsskolan (fotografi)"@sv ;
+    skos:prefLabel "Helsinki School (Photography)"@en ;
+    skos:prefLabel "Helsinkiskolen (fotografi)"@da ;
+    skos:prefLabel "Helsinki-koulu (valokuvaus)"@fi ;
+    skos:prefLabel "Helsinkiskolen (fotografi)"@nb ;
+    skos:prefLabel "Helsingforsskolan (fotografi)"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Finnish contemporary photography movement originating at the University of Art and Design Helsinki; known for large-scale, contemplative images; artists include Elina Brotherus and Esko Männikkö."@en ;
+    time:hasBeginning [ time:inXSDgYear "1995"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "2025"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
+
+# ── 93/93: Nordic Parametric Architecture ──
+nam:nordic-parametric-architecture a skos:Concept ;
+    rdfs:label "Nordic Parametric Architecture"@en ;
+    rdfs:label "Nordisk parametrisk arkitektur"@da ;
+    rdfs:label "Pohjoismainen parametrinen arkkitehtuuri"@fi ;
+    rdfs:label "Nordisk parametrisk arkitektur"@nb ;
+    rdfs:label "Nordisk parametrisk arkitektur"@sv ;
+    skos:prefLabel "Nordic Parametric Architecture"@en ;
+    skos:prefLabel "Nordisk parametrisk arkitektur"@da ;
+    skos:prefLabel "Pohjoismainen parametrinen arkkitehtuuri"@fi ;
+    skos:prefLabel "Nordisk parametrisk arkitektur"@nb ;
+    skos:prefLabel "Nordisk parametrisk arkitektur"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-art-movements> ;
+    skos:definition "Computational and parametric architecture in the Nordic countries; firms like BIG (Bjarke Ingels Group), Snøhetta, and 3XN use algorithmic design for innovative public buildings."@en ;
+    time:hasBeginning [ time:inXSDgYear "2005"^^xsd:gYear ] ;
+    time:hasEnd [ time:inXSDgYear "2025"^^xsd:gYear ] ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .

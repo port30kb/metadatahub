@@ -1,0 +1,1961 @@
+# ═══════════════════════════════════════════════════════════════
+# Nordic Museum Institutions Authority — Linked Data for metadatahub.eu
+# 116 museum institutions across Sweden, Norway, Finland,
+# Denmark, and Iceland.
+#
+# Sources:
+#   https://en.wikipedia.org/wiki/List_of_museums_in_Sweden
+#   https://en.wikipedia.org/wiki/List_of_museums_in_Norway
+#   https://en.wikipedia.org/wiki/List_of_museums_in_Finland
+#   https://en.wikipedia.org/wiki/List_of_museums_in_Denmark
+#   https://en.wikipedia.org/wiki/List_of_museums_in_Iceland
+#
+# Total entries: 116
+# ═══════════════════════════════════════════════════════════════
+
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix org:     <http://www.w3.org/ns/org#> .
+@prefix schema:  <https://schema.org/> .
+@prefix crm:     <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix wd:      <http://www.wikidata.org/entity/> .
+@prefix gn:      <http://sws.geonames.org/> .
+@prefix ni:      <https://metadatahub.eu/data/nordic-institutions/> .
+
+<https://metadatahub.eu/data/nordic-institutions> a skos:ConceptScheme ;
+    dcterms:title "Nordic Museum Institutions Authority"@en ;
+    dcterms:description "116 museum institutions across Sweden, Norway, Finland, Denmark, and Iceland — an authority file for Nordic cultural heritage organisations."@en ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Iceland> ;
+    dcterms:creator "Port 30 KB" ;
+    dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dcterms:modified "2025-01-15"^^xsd:date .
+
+# ── 1/116: Nationalmuseum (SE) ──
+ni:nationalmuseum-se a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Nationalmuseum"@en ;
+    rdfs:label "Nationalmuseum"@sv ;
+    skos:prefLabel "Nationalmuseum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Sweden's museum of art and design, housing the nation's premier collection of paintings, sculptures, and applied art from the Renaissance to the present."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Stockholm" ;
+    schema:location <http://sws.geonames.org/2673730/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q842858> ;
+    dcterms:identifier "SE-Nm" ;
+    foaf:homepage <https://www.nationalmuseum.se/> ;
+    schema:foundingDate "1792"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 2/116: Nordic Museum (SE) ──
+ni:nordiska-museet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Nordic Museum"@en ;
+    rdfs:label "Nordiska museet"@sv ;
+    skos:prefLabel "Nordic Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Sweden's largest museum of cultural history, dedicated to the cultural history and ethnography of Sweden from the early modern period to the present day."@en ;
+    schema:additionalType "history-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Stockholm" ;
+    schema:location <http://sws.geonames.org/2673730/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1141978> ;
+    dcterms:identifier "SE-Nom" ;
+    foaf:homepage <https://www.nordiskamuseet.se/> ;
+    schema:foundingDate "1873"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 3/116: Swedish History Museum (SE) ──
+ni:historiska-museet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Swedish History Museum"@en ;
+    rdfs:label "Historiska museet"@sv ;
+    skos:prefLabel "Swedish History Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Sweden's national museum of history, featuring artifacts from the Stone Age through the Viking period and medieval era, including the famous Gold Room."@en ;
+    schema:additionalType "history-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Stockholm" ;
+    schema:location <http://sws.geonames.org/2673730/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1058735> ;
+    dcterms:identifier "SE-Hm" ;
+    foaf:homepage <https://historiska.se/> ;
+    schema:foundingDate "1866"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 4/116: Moderna Museet (SE) ──
+ni:moderna-museet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Moderna Museet"@en ;
+    rdfs:label "Moderna museet"@sv ;
+    skos:prefLabel "Moderna Museet"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Sweden's national museum of modern and contemporary art, housing one of Europe's foremost collections of art from the 20th and 21st centuries."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Stockholm" ;
+    schema:location <http://sws.geonames.org/2673730/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q842887> ;
+    dcterms:identifier "SE-Mm" ;
+    foaf:homepage <https://www.modernamuseet.se/> ;
+    schema:foundingDate "1958"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 5/116: Vasa Museum (SE) ──
+ni:vasamuseet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Vasa Museum"@en ;
+    rdfs:label "Vasamuseet"@sv ;
+    skos:prefLabel "Vasa Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Maritime museum displaying the Vasa, a 17th-century warship that sank on her maiden voyage in 1628 and was salvaged in 1961. Scandinavia's most visited museum."@en ;
+    schema:additionalType "maritime-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Stockholm" ;
+    schema:location <http://sws.geonames.org/2673730/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q622136> ;
+    dcterms:identifier "SE-Sjhm" ;
+    foaf:homepage <https://www.vasamuseet.se/> ;
+    schema:foundingDate "1990"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 6/116: Skansen (SE) ──
+ni:skansen a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Skansen"@en ;
+    rdfs:label "Skansen"@sv ;
+    skos:prefLabel "Skansen"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "The world's first open-air museum, founded by Artur Hazelius, showcasing Swedish traditional life with over 150 historic buildings from across the country."@en ;
+    schema:additionalType "open-air-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Stockholm" ;
+    schema:location <http://sws.geonames.org/2673730/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q578375> ;
+    foaf:homepage <https://www.skansen.se/> ;
+    schema:foundingDate "1891"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 7/116: Royal Armoury (SE) ──
+ni:livrustkammaren a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Royal Armoury"@en ;
+    rdfs:label "Livrustkammaren"@sv ;
+    skos:prefLabel "Royal Armoury"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Sweden's oldest museum, located in the Royal Palace, displaying royal armoury, costumes, and carriages from Swedish royal history."@en ;
+    schema:additionalType "history-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Stockholm" ;
+    schema:location <http://sws.geonames.org/2673730/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1573823> ;
+    foaf:homepage <https://livrustkammaren.se/> ;
+    schema:foundingDate "1628"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 8/116: Swedish Museum of Natural History (SE) ──
+ni:naturhistoriska-riksmuseet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Swedish Museum of Natural History"@en ;
+    rdfs:label "Naturhistoriska riksmuseet"@sv ;
+    skos:prefLabel "Swedish Museum of Natural History"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Sweden's national natural history museum, one of the ten largest in the world, with collections spanning botany, geology, palaeontology, and zoology."@en ;
+    schema:additionalType "natural-history-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Stockholm" ;
+    schema:location <http://sws.geonames.org/2673730/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1147608> ;
+    dcterms:identifier "SE-NRM" ;
+    foaf:homepage <https://www.nrm.se/> ;
+    schema:foundingDate "1819"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 9/116: National Maritime Museum (SE) ──
+ni:sjohistoriska-museet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "National Maritime Museum"@en ;
+    rdfs:label "Sjöhistoriska museet"@sv ;
+    skos:prefLabel "National Maritime Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Sweden's national maritime museum, documenting the history of Swedish seafaring, naval defence, and shipbuilding."@en ;
+    schema:additionalType "maritime-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Stockholm" ;
+    schema:location <http://sws.geonames.org/2673730/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1754929> ;
+    foaf:homepage <https://www.sjohistoriska.se/> ;
+    schema:foundingDate "1938"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 10/116: Prins Eugens Waldemarsudde (SE) ──
+ni:waldemarsudde a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Prins Eugens Waldemarsudde"@en ;
+    rdfs:label "Prins Eugens Waldemarsudde"@sv ;
+    skos:prefLabel "Prins Eugens Waldemarsudde"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Art museum and former home of Prince Eugen, displaying his collection of Swedish art alongside the prince's own paintings in a scenic Djurgården setting."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Stockholm" ;
+    schema:location <http://sws.geonames.org/2673730/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2083567> ;
+    foaf:homepage <https://www.waldemarsudde.se/> ;
+    schema:foundingDate "1947"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 11/116: Thiel Gallery (SE) ──
+ni:thielska-galleriet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Thiel Gallery"@en ;
+    rdfs:label "Thielska Galleriet"@sv ;
+    skos:prefLabel "Thiel Gallery"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Art gallery in a former villa on Djurgården, housing Ernest Thiel's collection of Nordic art including major works by Edvard Munch, Carl Larsson, and Bruno Liljefors."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Stockholm" ;
+    schema:location <http://sws.geonames.org/2673730/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1371375> ;
+    foaf:homepage <https://www.thielskagalleriet.se/> ;
+    schema:foundingDate "1924"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 12/116: Millesgården (SE) ──
+ni:millesgarden a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Millesgården"@en ;
+    rdfs:label "Millesgården"@sv ;
+    skos:prefLabel "Millesgården"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Sculpture garden and art museum on Lidingö island, the former home and studio of sculptor Carl Milles, featuring his monumental sculptures in a terraced garden."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Lidingö" ;
+    schema:location <http://sws.geonames.org/2696524/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1537594> ;
+    foaf:homepage <https://www.millesgarden.se/> ;
+    schema:foundingDate "1936"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 13/116: Gothenburg Museum of Art (SE) ──
+ni:goteborgs-konstmuseum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Gothenburg Museum of Art"@en ;
+    rdfs:label "Göteborgs konstmuseum"@sv ;
+    skos:prefLabel "Gothenburg Museum of Art"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "One of the largest art museums in Northern Europe, renowned for its Nordic collection featuring works by Carl Larsson, Anders Zorn, Edvard Munch, and the Gothenburg Colourists."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Gothenburg" ;
+    schema:location <http://sws.geonames.org/2711537/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q730954> ;
+    dcterms:identifier "SE-Gkm" ;
+    foaf:homepage <https://goteborgskonstmuseum.se/> ;
+    schema:foundingDate "1923"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 14/116: Gothenburg City Museum (SE) ──
+ni:goteborgs-stadsmuseum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Gothenburg City Museum"@en ;
+    rdfs:label "Göteborgs stadsmuseum"@sv ;
+    skos:prefLabel "Gothenburg City Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Gothenburg's city museum housed in the historic East India House, covering the city's history from prehistoric times to the present."@en ;
+    schema:additionalType "history-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Gothenburg" ;
+    schema:location <http://sws.geonames.org/2711537/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2156373> ;
+    foaf:homepage <https://goteborgsstadsmuseum.se/> ;
+    schema:foundingDate "1861"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 15/116: Röhsska Museum (SE) ──
+ni:rohsska-museet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Röhsska Museum"@en ;
+    rdfs:label "Röhsska museet"@sv ;
+    skos:prefLabel "Röhsska Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Sweden's only independent museum of design and decorative arts, with collections spanning fashion, furniture, textiles, and industrial design."@en ;
+    schema:additionalType "design-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Gothenburg" ;
+    schema:location <http://sws.geonames.org/2711537/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1571581> ;
+    dcterms:identifier "SE-Rö" ;
+    foaf:homepage <https://rohsska.se/> ;
+    schema:foundingDate "1916"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 16/116: Malmö Museums (SE) ──
+ni:malmo-museer a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Malmö Museums"@en ;
+    rdfs:label "Malmö Museer"@sv ;
+    skos:prefLabel "Malmö Museums"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Museum complex in Malmöhus Castle covering art, natural history, city history, science, and technology — one of the oldest preserved Renaissance castles in Scandinavia."@en ;
+    schema:additionalType "history-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Malmö" ;
+    schema:location <http://sws.geonames.org/2692969/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1798890> ;
+    foaf:homepage <https://malmo.se/museer> ;
+    schema:foundingDate "1841"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 17/116: Malmö Art Museum (SE) ──
+ni:malmo-konstmuseum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Malmö Art Museum"@en ;
+    rdfs:label "Malmö Konstmuseum"@sv ;
+    skos:prefLabel "Malmö Art Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Art museum within the Malmö Museums complex, housing a significant collection of Nordic and international art from the 16th century to the present."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Malmö" ;
+    schema:location <http://sws.geonames.org/2692969/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1798890> ;
+    foaf:homepage <https://malmo.se/konstmuseum> ;
+    schema:foundingDate "1841"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 18/116: Lund University Historical Museum (SE) ──
+ni:lunds-universitets-historiska-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Lund University Historical Museum"@en ;
+    rdfs:label "Lunds Universitets Historiska Museum"@sv ;
+    skos:prefLabel "Lund University Historical Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "University museum housing archaeological and ecclesiastical collections, including important Viking Age and medieval finds from Scania."@en ;
+    schema:additionalType "university-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Lund" ;
+    schema:location <http://sws.geonames.org/2693678/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q10568729> ;
+    dcterms:identifier "SE-Lu" ;
+    foaf:homepage <https://www.luhm.lu.se/> ;
+    schema:foundingDate "1805"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 19/116: Uppsala University Museum Gustavianum (SE) ──
+ni:gustavianum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Uppsala University Museum Gustavianum"@en ;
+    rdfs:label "Uppsala universitetsmuseum Gustavianum"@sv ;
+    skos:prefLabel "Uppsala University Museum Gustavianum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Uppsala University's museum in the historic Gustavianum building featuring the Augsburg Art Cabinet, Egyptian antiquities, and the 17th-century anatomical theatre."@en ;
+    schema:additionalType "university-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Uppsala" ;
+    schema:location <http://sws.geonames.org/2666199/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1556079> ;
+    foaf:homepage <https://www.gustavianum.uu.se/> ;
+    schema:foundingDate "1997"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 20/116: Uppland Museum (SE) ──
+ni:upplandsmuseet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Uppland Museum"@en ;
+    rdfs:label "Upplandsmuseet"@sv ;
+    skos:prefLabel "Uppland Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Regional museum covering the cultural history and art of Uppland province, located in a historic watermill on the Fyris River."@en ;
+    schema:additionalType "history-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Uppsala" ;
+    schema:location <http://sws.geonames.org/2666199/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q10711413> ;
+    foaf:homepage <https://www.upplandsmuseet.se/> ;
+    schema:foundingDate "1909"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 21/116: Gotland Museum (SE) ──
+ni:gotlands-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Gotland Museum"@en ;
+    rdfs:label "Gotlands Museum"@sv ;
+    skos:prefLabel "Gotland Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Museum on the island of Gotland with one of the finest Viking Age collections in the world, including silver hoards, picture stones, and medieval church art."@en ;
+    schema:additionalType "history-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Visby" ;
+    schema:location <http://sws.geonames.org/2662689/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q10510043> ;
+    foaf:homepage <https://www.gotlandsmuseum.se/> ;
+    schema:foundingDate "1875"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 22/116: Kalmar County Museum (SE) ──
+ni:kalmar-lans-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Kalmar County Museum"@en ;
+    rdfs:label "Kalmar läns museum"@sv ;
+    skos:prefLabel "Kalmar County Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Regional museum known for its exhibition on the warship Kronan, which sank in 1676, alongside cultural history of the Kalmar region."@en ;
+    schema:additionalType "history-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Kalmar" ;
+    schema:location <http://sws.geonames.org/2702703/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q10547450> ;
+    foaf:homepage <https://www.kalmarlansmuseum.se/> ;
+    schema:foundingDate "1977"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 23/116: Jamtli (SE) ──
+ni:jamtlands-lans-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Jamtli"@en ;
+    rdfs:label "Jämtlands läns museum"@sv ;
+    skos:prefLabel "Jamtli"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Regional museum and open-air museum in Jämtland featuring the Överhogdal tapestries, Viking Age finds, and living history environments."@en ;
+    schema:additionalType "open-air-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Östersund" ;
+    schema:location <http://sws.geonames.org/2685750/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q10538927> ;
+    foaf:homepage <https://www.jamtli.com/> ;
+    schema:foundingDate "1886"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 24/116: Ájtte - Swedish Mountain and Sami Museum (SE) ──
+ni:ajtte a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Ájtte - Swedish Mountain and Sami Museum"@en ;
+    rdfs:label "Ájtte"@se ;
+    rdfs:label "Ájtte, Svenskt Fjäll- och Samemuseum"@sv ;
+    skos:prefLabel "Ájtte - Swedish Mountain and Sami Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Principal museum of Sami culture and the Swedish mountain region, documenting Sami history, traditions, and the ecology of the Scandinavian mountain world."@en ;
+    schema:additionalType "folk-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Jokkmokk" ;
+    schema:location <http://sws.geonames.org/2703860/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1645107> ;
+    foaf:homepage <https://www.ajtte.com/> ;
+    schema:foundingDate "1989"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 25/116: Norrbotten Museum (SE) ──
+ni:norrbottens-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Norrbotten Museum"@en ;
+    rdfs:label "Norrbottens museum"@sv ;
+    skos:prefLabel "Norrbotten Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Regional museum of Norrbotten County covering the cultural history of Sweden's northernmost region, including Sami heritage and industrial history."@en ;
+    schema:additionalType "history-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Luleå" ;
+    schema:location <http://sws.geonames.org/2693678/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q10601840> ;
+    foaf:homepage <https://www.norrbottensmuseum.se/> ;
+    schema:foundingDate "1936"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 26/116: Västerbotten Museum (SE) ──
+ni:vasterbottens-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Västerbotten Museum"@en ;
+    rdfs:label "Västerbottens museum"@sv ;
+    skos:prefLabel "Västerbotten Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Regional museum in Umeå documenting life in Västerbotten from prehistory to present, with an open-air section featuring traditional buildings."@en ;
+    schema:additionalType "history-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Umeå" ;
+    schema:location <http://sws.geonames.org/2666218/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2539156> ;
+    foaf:homepage <https://www.vbm.se/> ;
+    schema:foundingDate "1943"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 27/116: Bohuslän Museum (SE) ──
+ni:bohusians-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Bohuslän Museum"@en ;
+    rdfs:label "Bohusläns museum"@sv ;
+    skos:prefLabel "Bohuslän Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Regional museum of Bohuslän province featuring Bronze Age rock carvings, maritime history, and the cultural heritage of western Sweden."@en ;
+    schema:additionalType "history-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Uddevalla" ;
+    schema:location <http://sws.geonames.org/2666253/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q10434918> ;
+    foaf:homepage <https://www.bohuslansmuseum.se/> ;
+    schema:foundingDate "1928"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 28/116: Dalarna Museum (SE) ──
+ni:dalarnas-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Dalarna Museum"@en ;
+    rdfs:label "Dalarnas museum"@sv ;
+    skos:prefLabel "Dalarna Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Regional museum showcasing Dalarna's folk art traditions including Dala horses, folk costumes, and traditional paintings, along with the region's mining heritage."@en ;
+    schema:additionalType "history-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Falun" ;
+    schema:location <http://sws.geonames.org/2715195/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q10457340> ;
+    foaf:homepage <https://www.dalarnasmuseum.se/> ;
+    schema:foundingDate "1862"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 29/116: National Museum of Science and Technology (SE) ──
+ni:tekniska-museet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "National Museum of Science and Technology"@en ;
+    rdfs:label "Tekniska museet"@sv ;
+    skos:prefLabel "National Museum of Science and Technology"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Sweden's national museum of science and technology, covering innovations from Swedish industry including telecommunications, mining, and engineering."@en ;
+    schema:additionalType "specialized-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Stockholm" ;
+    schema:location <http://sws.geonames.org/2673730/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1046515> ;
+    dcterms:identifier "SE-Tm" ;
+    foaf:homepage <https://www.tekniskamuseet.se/> ;
+    schema:foundingDate "1924"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 30/116: ArkDes - Swedish Centre for Architecture and Design (SE) ──
+ni:arkdes a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "ArkDes - Swedish Centre for Architecture and Design"@en ;
+    rdfs:label "ArkDes"@sv ;
+    skos:prefLabel "ArkDes - Swedish Centre for Architecture and Design"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Sweden's national centre for architecture and design, promoting understanding of architecture's role in society through exhibitions and public programmes."@en ;
+    schema:additionalType "design-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Stockholm" ;
+    schema:location <http://sws.geonames.org/2673730/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1568634> ;
+    foaf:homepage <https://arkdes.se/> ;
+    schema:foundingDate "1962"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 31/116: Fotografiska (SE) ──
+ni:fotografiska a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Fotografiska"@en ;
+    rdfs:label "Fotografiska"@sv ;
+    skos:prefLabel "Fotografiska"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "One of the world's largest museums of photography, hosting major international exhibitions of contemporary photography in a converted Art Nouveau customs house."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Stockholm" ;
+    schema:location <http://sws.geonames.org/2673730/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q4479898> ;
+    foaf:homepage <https://www.fotografiska.com/> ;
+    schema:foundingDate "2010"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 32/116: Hallwyl Museum (SE) ──
+ni:hallwylska-museet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Hallwyl Museum"@en ;
+    rdfs:label "Hallwylska museet"@sv ;
+    skos:prefLabel "Hallwyl Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Palatial private residence turned museum, preserving the art collections and lavish interiors of Countess Wilhelmina von Hallwyl."@en ;
+    schema:additionalType "history-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Stockholm" ;
+    schema:location <http://sws.geonames.org/2673730/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1572556> ;
+    foaf:homepage <https://hallwylskamuseet.se/> ;
+    schema:foundingDate "1938"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 33/116: Museum of Mediterranean and Near Eastern Antiquities (SE) ──
+ni:medelhavsmuseet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Museum of Mediterranean and Near Eastern Antiquities"@en ;
+    rdfs:label "Medelhavsmuseet"@sv ;
+    skos:prefLabel "Museum of Mediterranean and Near Eastern Antiquities"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Museum dedicated to ancient cultures of the Mediterranean and Near East, including important Egyptian, Greek, Cypriot, and Near Eastern collections."@en ;
+    schema:additionalType "archaeology-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Stockholm" ;
+    schema:location <http://sws.geonames.org/2673730/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1715082> ;
+    foaf:homepage <https://www.medelhavsmuseet.se/> ;
+    schema:foundingDate "1954"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 34/116: Museum of Far Eastern Antiquities (SE) ──
+ni:ostasiatiska-museet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Museum of Far Eastern Antiquities"@en ;
+    rdfs:label "Östasiatiska museet"@sv ;
+    skos:prefLabel "Museum of Far Eastern Antiquities"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Museum devoted to art and archaeology from China, Japan, Korea, and South and Southeast Asia, with outstanding Chinese Neolithic and Bronze Age collections."@en ;
+    schema:additionalType "archaeology-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Stockholm" ;
+    schema:location <http://sws.geonames.org/2673730/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1570908> ;
+    foaf:homepage <https://www.ostasiatiskamuseet.se/> ;
+    schema:foundingDate "1926"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 35/116: Värmlands Museum (SE) ──
+ni:varmlands-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Värmlands Museum"@en ;
+    rdfs:label "Värmlands Museum"@sv ;
+    skos:prefLabel "Värmlands Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Regional museum of Värmland on the banks of the Klarälven river, covering the cultural history and art of the province."@en ;
+    schema:additionalType "history-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Karlstad" ;
+    schema:location <http://sws.geonames.org/2701713/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q10720058> ;
+    foaf:homepage <https://www.varmlandsmuseum.se/> ;
+    schema:foundingDate "1839"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 36/116: Sörmlands Museum (SE) ──
+ni:sormlands-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Sörmlands Museum"@en ;
+    rdfs:label "Sörmlands museum"@sv ;
+    skos:prefLabel "Sörmlands Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Regional museum of Södermanland covering the county's cultural history from the Viking Age through the industrial era."@en ;
+    schema:additionalType "history-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Nyköping" ;
+    schema:location <http://sws.geonames.org/2687929/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q10685625> ;
+    foaf:homepage <https://www.sormlandsmuseum.se/> ;
+    schema:foundingDate "1908"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 37/116: Östergötland Museum (SE) ──
+ni:ostergotlands-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Östergötland Museum"@en ;
+    rdfs:label "Östergötlands museum"@sv ;
+    skos:prefLabel "Östergötland Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Regional museum presenting the cultural history and art of Östergötland, housed in a building complex near the medieval cathedral."@en ;
+    schema:additionalType "history-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Linköping" ;
+    schema:location <http://sws.geonames.org/2694762/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q10739125> ;
+    foaf:homepage <https://www.ostergotlandsmuseum.se/> ;
+    schema:foundingDate "1903"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 38/116: Swedish Air Force Museum (SE) ──
+ni:flygvapenmuseum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Swedish Air Force Museum"@en ;
+    rdfs:label "Flygvapenmuseum"@sv ;
+    skos:prefLabel "Swedish Air Force Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Museum of Swedish military aviation history displaying historic aircraft, engines, and equipment from World War I to the modern era."@en ;
+    schema:additionalType "specialized-museum" ;
+    schema:addressCountry "SE" ;
+    schema:addressLocality "Linköping" ;
+    schema:location <http://sws.geonames.org/2694762/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q10497898> ;
+    foaf:homepage <https://www.flygvapenmuseum.se/> ;
+    schema:foundingDate "1984"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
+
+# ── 39/116: National Museum of Norway (NO) ──
+ni:nasjonalmuseet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "National Museum of Norway"@en ;
+    rdfs:label "Nasjonalmuseet"@nb ;
+    rdfs:label "Nasjonalmuseet"@nn ;
+    skos:prefLabel "National Museum of Norway"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Norway's largest institution for art, architecture, and design, combining the former National Gallery, Museum of Decorative Arts, Museum of Contemporary Art, and Architecture Museum."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "NO" ;
+    schema:addressLocality "Oslo" ;
+    schema:location <http://sws.geonames.org/3143244/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1132918> ;
+    dcterms:identifier "NO-0183300" ;
+    foaf:homepage <https://www.nasjonalmuseet.no/> ;
+    schema:foundingDate "2003"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
+
+# ── 40/116: Munch Museum (NO) ──
+ni:munchmuseet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Munch Museum"@en ;
+    rdfs:label "Munchmuseet"@nb ;
+    rdfs:label "Munchmuseet"@nn ;
+    skos:prefLabel "Munch Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Museum dedicated to the life and work of Edvard Munch, housing the world's largest collection of his paintings, prints, and drawings, now in a landmark waterfront building."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "NO" ;
+    schema:addressLocality "Oslo" ;
+    schema:location <http://sws.geonames.org/3143244/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q594316> ;
+    foaf:homepage <https://www.munchmuseet.no/> ;
+    schema:foundingDate "1963"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
+
+# ── 41/116: Viking Ship Museum (NO) ──
+ni:vikingskipshuset a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Viking Ship Museum"@en ;
+    rdfs:label "Vikingskipshuset"@nb ;
+    rdfs:label "Vikingskipshuset"@nn ;
+    skos:prefLabel "Viking Ship Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Museum housing the best-preserved Viking ships in the world — the Oseberg, Gokstad, and Tune ships — along with Viking Age grave goods and artefacts."@en ;
+    schema:additionalType "archaeology-museum" ;
+    schema:addressCountry "NO" ;
+    schema:addressLocality "Oslo" ;
+    schema:location <http://sws.geonames.org/3143244/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1327702> ;
+    foaf:homepage <https://www.khm.uio.no/besok-oss/vikingskipshuset/> ;
+    schema:foundingDate "1926"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
+
+# ── 42/116: Museum of Cultural History Oslo (NO) ──
+ni:kulturhistorisk-museum-oslo a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Museum of Cultural History Oslo"@en ;
+    rdfs:label "Kulturhistorisk museum"@nb ;
+    rdfs:label "Kulturhistorisk museum"@nn ;
+    skos:prefLabel "Museum of Cultural History Oslo"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "University of Oslo's museum of cultural history, covering Norwegian and international cultural history from ancient to medieval periods, including runic inscriptions and stave church portals."@en ;
+    schema:additionalType "history-museum" ;
+    schema:addressCountry "NO" ;
+    schema:addressLocality "Oslo" ;
+    schema:location <http://sws.geonames.org/3143244/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1141339> ;
+    foaf:homepage <https://www.khm.uio.no/> ;
+    schema:foundingDate "1904"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
+
+# ── 43/116: Norwegian Museum of Cultural History (NO) ──
+ni:norsk-folkemuseum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Norwegian Museum of Cultural History"@en ;
+    rdfs:label "Norsk Folkemuseum"@nb ;
+    rdfs:label "Norsk Folkemuseum"@nn ;
+    skos:prefLabel "Norwegian Museum of Cultural History"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "One of the world's oldest and largest open-air museums, with 160 historic buildings including the Gol stave church, documenting Norwegian life from 1500 to the present."@en ;
+    schema:additionalType "open-air-museum" ;
+    schema:addressCountry "NO" ;
+    schema:addressLocality "Oslo" ;
+    schema:location <http://sws.geonames.org/3143244/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1137097> ;
+    dcterms:identifier "NO-0183500" ;
+    foaf:homepage <https://norskfolkemuseum.no/> ;
+    schema:foundingDate "1894"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
+
+# ── 44/116: Norwegian Maritime Museum (NO) ──
+ni:norsk-maritimt-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Norwegian Maritime Museum"@en ;
+    rdfs:label "Norsk Maritimt Museum"@nb ;
+    rdfs:label "Norsk Maritimt Museum"@nn ;
+    skos:prefLabel "Norwegian Maritime Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Museum dedicated to Norway's maritime heritage, covering fishing, shipping, polar exploration, and coastal culture."@en ;
+    schema:additionalType "maritime-museum" ;
+    schema:addressCountry "NO" ;
+    schema:addressLocality "Oslo" ;
+    schema:location <http://sws.geonames.org/3143244/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1747830> ;
+    foaf:homepage <https://marmuseum.no/> ;
+    schema:foundingDate "1914"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
+
+# ── 45/116: Kon-Tiki Museum (NO) ──
+ni:kon-tiki-museet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Kon-Tiki Museum"@en ;
+    rdfs:label "Kon-Tiki Museet"@nb ;
+    rdfs:label "Kon-Tiki Museet"@nn ;
+    skos:prefLabel "Kon-Tiki Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Museum dedicated to Thor Heyerdahl's expeditions, displaying the original Kon-Tiki balsa raft and Ra II papyrus boat."@en ;
+    schema:additionalType "specialized-museum" ;
+    schema:addressCountry "NO" ;
+    schema:addressLocality "Oslo" ;
+    schema:location <http://sws.geonames.org/3143244/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q898947> ;
+    foaf:homepage <https://www.kon-tiki.no/> ;
+    schema:foundingDate "1950"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
+
+# ── 46/116: Fram Museum (NO) ──
+ni:frammuseet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Fram Museum"@en ;
+    rdfs:label "Frammuseet"@nb ;
+    rdfs:label "Frammuseet"@nn ;
+    skos:prefLabel "Fram Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Museum housing the polar ship Fram, the strongest wooden ship ever built, used by Nansen and Amundsen in their Arctic and Antarctic expeditions."@en ;
+    schema:additionalType "maritime-museum" ;
+    schema:addressCountry "NO" ;
+    schema:addressLocality "Oslo" ;
+    schema:location <http://sws.geonames.org/3143244/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1233422> ;
+    foaf:homepage <https://frammuseum.no/> ;
+    schema:foundingDate "1936"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
+
+# ── 47/116: University Museum of Bergen (NO) ──
+ni:bergen-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "University Museum of Bergen"@en ;
+    rdfs:label "Universitetsmuseet i Bergen"@nb ;
+    rdfs:label "Universitetsmuseet i Bergen"@nn ;
+    skos:prefLabel "University Museum of Bergen"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "University museum with cultural history and natural history departments, housing important collections from the Viking Age and medieval Bergen."@en ;
+    schema:additionalType "university-museum" ;
+    schema:addressCountry "NO" ;
+    schema:addressLocality "Bergen" ;
+    schema:location <http://sws.geonames.org/3161732/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2361864> ;
+    foaf:homepage <https://www.uib.no/universitetsmuseet> ;
+    schema:foundingDate "1825"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
+
+# ── 48/116: KODE Art Museums and Composer Homes (NO) ──
+ni:kode-bergen a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "KODE Art Museums and Composer Homes"@en ;
+    rdfs:label "KODE Kunstmuseer og Komponisthjem"@nb ;
+    rdfs:label "KODE Kunstmuseum og Komponistheimar"@nn ;
+    skos:prefLabel "KODE Art Museums and Composer Homes"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Bergen's art museum comprising four gallery buildings and the homes of composers Edvard Grieg and Ole Bull, with extensive Nordic art and craft collections."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "NO" ;
+    schema:addressLocality "Bergen" ;
+    schema:location <http://sws.geonames.org/3161732/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1777977> ;
+    foaf:homepage <https://www.kfrb.no/> ;
+    schema:foundingDate "2007"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
+
+# ── 49/116: Tromsø Museum (NO) ──
+ni:tromso-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Tromsø Museum"@en ;
+    rdfs:label "Tromsø Museum"@nb ;
+    rdfs:label "Tromsø Museum"@nn ;
+    skos:prefLabel "Tromsø Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Northern Norway's university museum covering Sami culture, Arctic natural history, and the Northern Lights, affiliated with UiT The Arctic University of Norway."@en ;
+    schema:additionalType "university-museum" ;
+    schema:addressCountry "NO" ;
+    schema:addressLocality "Tromsø" ;
+    schema:location <http://sws.geonames.org/3133895/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2474281> ;
+    foaf:homepage <https://uit.no/tmu> ;
+    schema:foundingDate "1872"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
+
+# ── 50/116: Northern Norway Art Museum (NO) ──
+ni:nordnorsk-kunstmuseum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Northern Norway Art Museum"@en ;
+    rdfs:label "Nordnorsk Kunstmuseum"@nb ;
+    rdfs:label "Nordnorsk Kunstmuseum"@nn ;
+    skos:prefLabel "Northern Norway Art Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "The northernmost art museum in the world, dedicated to visual art from Northern Norway and the Sami region."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "NO" ;
+    schema:addressLocality "Tromsø" ;
+    schema:location <http://sws.geonames.org/3133895/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1996942> ;
+    foaf:homepage <https://www.nnkm.no/> ;
+    schema:foundingDate "1985"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
+
+# ── 51/116: RiddoDuottarMuseat - Sami Museums (NO) ──
+ni:riddoduottarmuseat a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "RiddoDuottarMuseat - Sami Museums"@en ;
+    rdfs:label "RiddoDuottarMuseat"@nb ;
+    rdfs:label "RiddoDuottarMuseat"@se ;
+    skos:prefLabel "RiddoDuottarMuseat - Sami Museums"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Sami museum consortium in Finnmark, preserving and presenting Sami cultural heritage through exhibitions, collections, and an open-air section."@en ;
+    schema:additionalType "folk-museum" ;
+    schema:addressCountry "NO" ;
+    schema:addressLocality "Karasjok" ;
+    schema:location <http://sws.geonames.org/3150935/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7331957> ;
+    foaf:homepage <https://rdm.no/> ;
+    schema:foundingDate "1972"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
+
+# ── 52/116: Maihaugen (NO) ──
+ni:maihaugen a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Maihaugen"@en ;
+    rdfs:label "Maihaugen"@nb ;
+    rdfs:label "Maihaugen"@nn ;
+    skos:prefLabel "Maihaugen"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "One of the largest open-air museums in Northern Europe with over 200 historical buildings, including a stave church and farms from the Gudbrandsdalen valley."@en ;
+    schema:additionalType "open-air-museum" ;
+    schema:addressCountry "NO" ;
+    schema:addressLocality "Lillehammer" ;
+    schema:location <http://sws.geonames.org/3148100/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1092184> ;
+    foaf:homepage <https://maihaugen.no/> ;
+    schema:foundingDate "1887"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
+
+# ── 53/116: Astrup Fearnley Museum of Modern Art (NO) ──
+ni:astrup-fearnley a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Astrup Fearnley Museum of Modern Art"@en ;
+    rdfs:label "Astrup Fearnley Museet"@nb ;
+    rdfs:label "Astrup Fearnley Museet"@nn ;
+    skos:prefLabel "Astrup Fearnley Museum of Modern Art"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Private contemporary art museum in a Renzo Piano-designed building on the Oslo waterfront, with a major collection of international post-war and contemporary art."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "NO" ;
+    schema:addressLocality "Oslo" ;
+    schema:location <http://sws.geonames.org/3143244/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1192081> ;
+    foaf:homepage <https://www.afmuseet.no/> ;
+    schema:foundingDate "1993"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
+
+# ── 54/116: National Museum of Decorative Arts (NO) ──
+ni:nordenfjeldske-kunstindustrimuseum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "National Museum of Decorative Arts"@en ;
+    rdfs:label "Nordenfjeldske Kunstindustrimuseum"@nb ;
+    rdfs:label "Nordenfjeldske Kunstindustrimuseum"@nn ;
+    skos:prefLabel "National Museum of Decorative Arts"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "National museum of decorative arts in Trondheim, housing furniture, textiles, ceramics, and silver from the Renaissance to contemporary Scandinavian design."@en ;
+    schema:additionalType "design-museum" ;
+    schema:addressCountry "NO" ;
+    schema:addressLocality "Trondheim" ;
+    schema:location <http://sws.geonames.org/3133880/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3272424> ;
+    foaf:homepage <https://nkim.no/> ;
+    schema:foundingDate "1893"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
+
+# ── 55/116: NTNU University Museum (NO) ──
+ni:vitenskapsmuseet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "NTNU University Museum"@en ;
+    rdfs:label "Vitenskapsmuseet"@nb ;
+    rdfs:label "Vitskapsmuseet"@nn ;
+    skos:prefLabel "NTNU University Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "One of Norway's oldest scientific institutions, part of NTNU, with natural history and archaeological collections from central Norway."@en ;
+    schema:additionalType "university-museum" ;
+    schema:addressCountry "NO" ;
+    schema:addressLocality "Trondheim" ;
+    schema:location <http://sws.geonames.org/3133880/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3272406> ;
+    foaf:homepage <https://www.ntnu.no/vitenskapsmuseet> ;
+    schema:foundingDate "1760"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
+
+# ── 56/116: Museum of Archaeology Stavanger (NO) ──
+ni:stavanger-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Museum of Archaeology Stavanger"@en ;
+    rdfs:label "Arkeologisk museum Stavanger"@nb ;
+    rdfs:label "Arkeologisk museum Stavanger"@nn ;
+    skos:prefLabel "Museum of Archaeology Stavanger"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "University of Stavanger's archaeological museum, responsible for archaeological heritage management in Rogaland, with collections from the Stone Age to the Middle Ages."@en ;
+    schema:additionalType "archaeology-museum" ;
+    schema:addressCountry "NO" ;
+    schema:addressLocality "Stavanger" ;
+    schema:location <http://sws.geonames.org/3137115/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5445741> ;
+    foaf:homepage <https://www.uis.no/nb/arkeologisk-museum> ;
+    schema:foundingDate "1877"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
+
+# ── 57/116: Norwegian Museum of Science and Technology (NO) ──
+ni:norsk-teknisk-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Norwegian Museum of Science and Technology"@en ;
+    rdfs:label "Norsk Teknisk Museum"@nb ;
+    rdfs:label "Norsk Teknisk Museum"@nn ;
+    skos:prefLabel "Norwegian Museum of Science and Technology"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Norway's national museum of technology, industry, science, and medicine, with interactive exhibits on energy, transport, and communications."@en ;
+    schema:additionalType "specialized-museum" ;
+    schema:addressCountry "NO" ;
+    schema:addressLocality "Oslo" ;
+    schema:location <http://sws.geonames.org/3143244/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1773919> ;
+    foaf:homepage <https://www.tekniskmuseum.no/> ;
+    schema:foundingDate "1914"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
+
+# ── 58/116: Henie Onstad Art Centre (NO) ──
+ni:henie-onstad a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Henie Onstad Art Centre"@en ;
+    rdfs:label "Henie Onstad Kunstsenter"@nb ;
+    rdfs:label "Henie Onstad Kunstsenter"@nn ;
+    skos:prefLabel "Henie Onstad Art Centre"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "International art centre founded by figure skater Sonja Henie and her husband Niels Onstad, with a collection of modern and contemporary art."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "NO" ;
+    schema:addressLocality "Bærum" ;
+    schema:location <http://sws.geonames.org/3162163/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1602622> ;
+    foaf:homepage <https://hok.no/> ;
+    schema:foundingDate "1968"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
+
+# ── 59/116: Norwegian Industrial Workers Museum (NO) ──
+ni:norsk-industriarbeidermuseum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Norwegian Industrial Workers Museum"@en ;
+    rdfs:label "Norsk Industriarbeidermuseum"@nb ;
+    rdfs:label "Norsk Industriarbeidarmuseum"@nn ;
+    skos:prefLabel "Norwegian Industrial Workers Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Museum at Vemork power station documenting the history of Norsk Hydro and the famous WWII heavy water sabotage operation."@en ;
+    schema:additionalType "history-museum" ;
+    schema:addressCountry "NO" ;
+    schema:addressLocality "Rjukan" ;
+    schema:location <http://sws.geonames.org/3141667/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3345230> ;
+    foaf:homepage <https://www.telemarkmuseum.no/> ;
+    schema:foundingDate "1988"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
+
+# ── 60/116: Lofotr Viking Museum (NO) ──
+ni:lofotr-vikingmuseum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Lofotr Viking Museum"@en ;
+    rdfs:label "Lofotr Vikingmuseum"@nb ;
+    rdfs:label "Lofotr Vikingmuseum"@nn ;
+    skos:prefLabel "Lofotr Viking Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Museum built around the excavated remains of the largest Viking Age longhouse ever found, with a full-scale reconstruction in the Lofoten Islands."@en ;
+    schema:additionalType "archaeology-museum" ;
+    schema:addressCountry "NO" ;
+    schema:addressLocality "Borg" ;
+    schema:location <http://sws.geonames.org/3159810/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1869099> ;
+    foaf:homepage <https://lofotr.no/> ;
+    schema:foundingDate "1995"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
+
+# ── 61/116: Kistefos Museum (NO) ──
+ni:kistefos a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Kistefos Museum"@en ;
+    rdfs:label "Kistefos-Museet"@nb ;
+    rdfs:label "Kistefos-Museet"@nn ;
+    skos:prefLabel "Kistefos Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Industrial museum and sculpture park featuring The Twist gallery by BIG architects, combining contemporary art with the heritage of a 19th-century wood pulp mill."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "NO" ;
+    schema:addressLocality "Jevnaker" ;
+    schema:location <http://sws.geonames.org/3151770/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3196816> ;
+    foaf:homepage <https://www.kistefosmuseum.no/> ;
+    schema:foundingDate "1996"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
+
+# ── 62/116: Stiklestad National Culture Centre (NO) ──
+ni:stiklestad a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Stiklestad National Culture Centre"@en ;
+    rdfs:label "Stiklestad Nasjonale Kultursenter"@nb ;
+    rdfs:label "Stiklestad Nasjonale Kultursenter"@nn ;
+    skos:prefLabel "Stiklestad National Culture Centre"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Museum and culture centre at the site of the Battle of Stiklestad (1030), where King Olav Haraldsson fell, a pivotal event in the Christianisation of Norway."@en ;
+    schema:additionalType "history-museum" ;
+    schema:addressCountry "NO" ;
+    schema:addressLocality "Verdal" ;
+    schema:location <http://sws.geonames.org/3132998/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2479747> ;
+    foaf:homepage <https://stiklestad.no/> ;
+    schema:foundingDate "1930"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
+
+# ── 63/116: Ateneum Art Museum (FI) ──
+ni:ateneum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Ateneum Art Museum"@en ;
+    rdfs:label "Ateneum"@fi ;
+    rdfs:label "Ateneum"@sv ;
+    skos:prefLabel "Ateneum Art Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Finland's premier classical art museum and part of the Finnish National Gallery, housing the largest collection of Finnish art from the 18th century to the modern era."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "FI" ;
+    schema:addressLocality "Helsinki" ;
+    schema:location <http://sws.geonames.org/658225/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q754507> ;
+    dcterms:identifier "FI-Ate" ;
+    foaf:homepage <https://ateneum.fi/> ;
+    schema:foundingDate "1887"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
+
+# ── 64/116: Kiasma Museum of Contemporary Art (FI) ──
+ni:kiasma a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Kiasma Museum of Contemporary Art"@en ;
+    rdfs:label "Nykytaiteen museo Kiasma"@fi ;
+    rdfs:label "Museet för nutidskonst Kiasma"@sv ;
+    skos:prefLabel "Kiasma Museum of Contemporary Art"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Finland's museum of contemporary art, part of the Finnish National Gallery, housed in a Steven Holl-designed building showcasing Finnish and international contemporary art."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "FI" ;
+    schema:addressLocality "Helsinki" ;
+    schema:location <http://sws.geonames.org/658225/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1421498> ;
+    foaf:homepage <https://kiasma.fi/> ;
+    schema:foundingDate "1998"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
+
+# ── 65/116: Sinebrychoff Art Museum (FI) ──
+ni:sinebrychoff a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Sinebrychoff Art Museum"@en ;
+    rdfs:label "Sinebrychoffin taidemuseo"@fi ;
+    rdfs:label "Sinebrychoffs konstmuseum"@sv ;
+    skos:prefLabel "Sinebrychoff Art Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Part of the Finnish National Gallery specialising in European old masters, with collections of paintings, miniatures, porcelain, and silver in a historic brewery building."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "FI" ;
+    schema:addressLocality "Helsinki" ;
+    schema:location <http://sws.geonames.org/658225/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1396704> ;
+    foaf:homepage <https://sfrm.fi/> ;
+    schema:foundingDate "1921"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
+
+# ── 66/116: National Museum of Finland (FI) ──
+ni:kansallismuseo a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "National Museum of Finland"@en ;
+    rdfs:label "Suomen kansallismuseo"@fi ;
+    rdfs:label "Finlands nationalmuseum"@sv ;
+    skos:prefLabel "National Museum of Finland"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Finland's national history museum covering Finnish cultural history from prehistoric times to the present, housed in a National Romantic style building."@en ;
+    schema:additionalType "history-museum" ;
+    schema:addressCountry "FI" ;
+    schema:addressLocality "Helsinki" ;
+    schema:location <http://sws.geonames.org/658225/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1331756> ;
+    dcterms:identifier "FI-Km" ;
+    foaf:homepage <https://www.kansallismuseo.fi/> ;
+    schema:foundingDate "1916"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
+
+# ── 67/116: Design Museum Helsinki (FI) ──
+ni:designmuseo a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Design Museum Helsinki"@en ;
+    rdfs:label "Designmuseo"@fi ;
+    rdfs:label "Designmuseet"@sv ;
+    skos:prefLabel "Design Museum Helsinki"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "One of the world's oldest design museums, documenting Finnish design history from the decorative arts to industrial and graphic design."@en ;
+    schema:additionalType "design-museum" ;
+    schema:addressCountry "FI" ;
+    schema:addressLocality "Helsinki" ;
+    schema:location <http://sws.geonames.org/658225/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1198723> ;
+    foaf:homepage <https://www.designmuseum.fi/> ;
+    schema:foundingDate "1873"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
+
+# ── 68/116: Seurasaari Open-Air Museum (FI) ──
+ni:seurasaari a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Seurasaari Open-Air Museum"@en ;
+    rdfs:label "Seurasaaren ulkomuseo"@fi ;
+    rdfs:label "Fölisöns friluftsmuseum"@sv ;
+    skos:prefLabel "Seurasaari Open-Air Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Open-air museum on Seurasaari island displaying traditional Finnish wooden buildings from the 18th to 20th centuries, including farmsteads, a church, and a manor."@en ;
+    schema:additionalType "open-air-museum" ;
+    schema:addressCountry "FI" ;
+    schema:addressLocality "Helsinki" ;
+    schema:location <http://sws.geonames.org/658225/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1413035> ;
+    foaf:homepage <https://www.kansallismuseo.fi/en/seurasaari> ;
+    schema:foundingDate "1909"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
+
+# ── 69/116: Turku Castle Museum (FI) ──
+ni:turku-linna a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Turku Castle Museum"@en ;
+    rdfs:label "Turun linna"@fi ;
+    rdfs:label "Åbo slott"@sv ;
+    skos:prefLabel "Turku Castle Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Museum within Finland's largest medieval castle, dating from the 1280s, presenting the history of the castle and the city of Turku."@en ;
+    schema:additionalType "history-museum" ;
+    schema:addressCountry "FI" ;
+    schema:addressLocality "Turku" ;
+    schema:location <http://sws.geonames.org/633679/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1215078> ;
+    foaf:homepage <https://www.turku.fi/turunlinna> ;
+    schema:foundingDate "1881"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
+
+# ── 70/116: Turku Art Museum (FI) ──
+ni:turun-taidemuseo a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Turku Art Museum"@en ;
+    rdfs:label "Turun taidemuseo"@fi ;
+    rdfs:label "Åbo konstmuseum"@sv ;
+    skos:prefLabel "Turku Art Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "One of Finland's major regional art museums with a collection of Finnish and Nordic art, housed in a granite Art Nouveau building."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "FI" ;
+    schema:addressLocality "Turku" ;
+    schema:location <http://sws.geonames.org/633679/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2034910> ;
+    foaf:homepage <https://www.turuntaidemuseo.fi/> ;
+    schema:foundingDate "1904"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
+
+# ── 71/116: Aboa Vetus Ars Nova (FI) ──
+ni:aboa-vetus-ars-nova a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Aboa Vetus Ars Nova"@en ;
+    rdfs:label "Aboa Vetus Ars Nova"@fi ;
+    rdfs:label "Aboa Vetus Ars Nova"@sv ;
+    skos:prefLabel "Aboa Vetus Ars Nova"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Unique museum combining archaeology and contemporary art, built over the excavated remains of medieval Turku's streets and cellars."@en ;
+    schema:additionalType "archaeology-museum" ;
+    schema:addressCountry "FI" ;
+    schema:addressLocality "Turku" ;
+    schema:location <http://sws.geonames.org/633679/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q11853228> ;
+    foaf:homepage <https://www.afrfrm.fi/> ;
+    schema:foundingDate "1995"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
+
+# ── 72/116: Tampere Art Museum (FI) ──
+ni:tampereen-taidemuseo a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Tampere Art Museum"@en ;
+    rdfs:label "Tampereen taidemuseo"@fi ;
+    rdfs:label "Tammerfors konstmuseum"@sv ;
+    skos:prefLabel "Tampere Art Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Tampere's central art museum with a collection of Finnish art and an active programme of contemporary exhibitions."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "FI" ;
+    schema:addressLocality "Tampere" ;
+    schema:location <http://sws.geonames.org/634963/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6067702> ;
+    foaf:homepage <https://www.tampereentaidemuseo.fi/> ;
+    schema:foundingDate "1931"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
+
+# ── 73/116: Sara Hildén Art Museum (FI) ──
+ni:sara-hilden a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Sara Hildén Art Museum"@en ;
+    rdfs:label "Sara Hildénin taidemuseo"@fi ;
+    rdfs:label "Sara Hildéns konstmuseum"@sv ;
+    skos:prefLabel "Sara Hildén Art Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Museum of modern and contemporary Finnish and international art, based on the collection of businesswoman and art collector Sara Hildén."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "FI" ;
+    schema:addressLocality "Tampere" ;
+    schema:location <http://sws.geonames.org/634963/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2377432> ;
+    foaf:homepage <https://www.sarahilden.fi/> ;
+    schema:foundingDate "1979"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
+
+# ── 74/116: Siida - Sami Museum and Nature Centre (FI) ──
+ni:siida a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Siida - Sami Museum and Nature Centre"@en ;
+    rdfs:label "Siida - Saamelaismuseo ja luontokeskus"@fi ;
+    rdfs:label "Siida - Sámemusea ja luondduguovddáš"@se ;
+    skos:prefLabel "Siida - Sami Museum and Nature Centre"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "National museum of the Finnish Sami, presenting Sami culture and the nature of northern Lapland, with an open-air section featuring traditional Sami dwellings."@en ;
+    schema:additionalType "folk-museum" ;
+    schema:addressCountry "FI" ;
+    schema:addressLocality "Inari" ;
+    schema:location <http://sws.geonames.org/656677/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3482458> ;
+    foaf:homepage <https://sifrda.fi/> ;
+    schema:foundingDate "1962"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
+
+# ── 75/116: Oulu Museum of Art (FI) ──
+ni:oulun-taidemuseo a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Oulu Museum of Art"@en ;
+    rdfs:label "Oulun taidemuseo"@fi ;
+    rdfs:label "Uleåborgs konstmuseum"@sv ;
+    skos:prefLabel "Oulu Museum of Art"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Northern Finland's leading art museum with a collection focusing on Finnish art from the 20th and 21st centuries."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "FI" ;
+    schema:addressLocality "Oulu" ;
+    schema:location <http://sws.geonames.org/643492/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18345226> ;
+    foaf:homepage <https://www.ouka.fi/oulu/taidemuseo> ;
+    schema:foundingDate "1963"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
+
+# ── 76/116: Helsinki City Museum (FI) ──
+ni:helsingin-kaupunginmuseo a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Helsinki City Museum"@en ;
+    rdfs:label "Helsingin kaupunginmuseo"@fi ;
+    rdfs:label "Helsingfors stadsmuseum"@sv ;
+    skos:prefLabel "Helsinki City Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "City museum documenting the history and everyday life of Helsinki from its founding in 1550 to the present day."@en ;
+    schema:additionalType "history-museum" ;
+    schema:addressCountry "FI" ;
+    schema:addressLocality "Helsinki" ;
+    schema:location <http://sws.geonames.org/658225/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3330210> ;
+    foaf:homepage <https://www.helsinginkaupunginmuseo.fi/> ;
+    schema:foundingDate "1911"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
+
+# ── 77/116: Finnish Museum of Natural History (FI) ──
+ni:luonnontieteellinen-museo a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Finnish Museum of Natural History"@en ;
+    rdfs:label "Luonnontieteellinen keskusmuseo Luomus"@fi ;
+    rdfs:label "Naturhistoriska centralmuseet"@sv ;
+    skos:prefLabel "Finnish Museum of Natural History"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Finland's national natural history museum and research institution, part of the University of Helsinki, with collections spanning botany, zoology, and geology."@en ;
+    schema:additionalType "natural-history-museum" ;
+    schema:addressCountry "FI" ;
+    schema:addressLocality "Helsinki" ;
+    schema:location <http://sws.geonames.org/658225/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1404452> ;
+    foaf:homepage <https://www.luomus.fi/> ;
+    schema:foundingDate "1988"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
+
+# ── 78/116: Vapriikki Museum Centre (FI) ──
+ni:vapriikki a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Vapriikki Museum Centre"@en ;
+    rdfs:label "Vapriikki"@fi ;
+    rdfs:label "Vapriikki"@sv ;
+    skos:prefLabel "Vapriikki Museum Centre"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Museum centre in a converted factory complex hosting multiple exhibitions on Tampere's industrial heritage, natural history, ice hockey, and Finnish games."@en ;
+    schema:additionalType "history-museum" ;
+    schema:addressCountry "FI" ;
+    schema:addressLocality "Tampere" ;
+    schema:location <http://sws.geonames.org/634963/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3267772> ;
+    foaf:homepage <https://vapriikki.fi/> ;
+    schema:foundingDate "1996"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
+
+# ── 79/116: Amos Rex (FI) ──
+ni:amos-rex a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Amos Rex"@en ;
+    rdfs:label "Amos Rex"@fi ;
+    rdfs:label "Amos Rex"@sv ;
+    skos:prefLabel "Amos Rex"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Art museum beneath the iconic Lasipalatsi building, presenting modern and contemporary art exhibitions with distinctive subterranean gallery spaces."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "FI" ;
+    schema:addressLocality "Helsinki" ;
+    schema:location <http://sws.geonames.org/658225/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q56308665> ;
+    foaf:homepage <https://amosrex.fi/> ;
+    schema:foundingDate "2018"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
+
+# ── 80/116: Arktikum Science Museum (FI) ──
+ni:arktikum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Arktikum Science Museum"@en ;
+    rdfs:label "Arktikum"@fi ;
+    rdfs:label "Arktikum"@sv ;
+    skos:prefLabel "Arktikum Science Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Museum and science centre on the Arctic, combining the Provincial Museum of Lapland and the Arctic Centre of the University of Lapland."@en ;
+    schema:additionalType "specialized-museum" ;
+    schema:addressCountry "FI" ;
+    schema:addressLocality "Rovaniemi" ;
+    schema:location <http://sws.geonames.org/640276/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2858595> ;
+    foaf:homepage <https://www.arktikum.fi/> ;
+    schema:foundingDate "1992"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
+
+# ── 81/116: EMMA - Espoo Museum of Modern Art (FI) ──
+ni:emma a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "EMMA - Espoo Museum of Modern Art"@en ;
+    rdfs:label "EMMA - Espoon modernin taiteen museo"@fi ;
+    rdfs:label "EMMA - Esbo moderna konstmuseum"@sv ;
+    skos:prefLabel "EMMA - Espoo Museum of Modern Art"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Finland's largest art museum by exhibition area, located in the WeeGee Exhibition Centre, presenting modern and contemporary art."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "FI" ;
+    schema:addressLocality "Espoo" ;
+    schema:location <http://sws.geonames.org/660158/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1059774> ;
+    foaf:homepage <https://emmamuseum.fi/> ;
+    schema:foundingDate "2006"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
+
+# ── 82/116: Hämeenlinna Art Museum (FI) ──
+ni:hameenlinnan-taidemuseo a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Hämeenlinna Art Museum"@en ;
+    rdfs:label "Hämeenlinnan taidemuseo"@fi ;
+    rdfs:label "Tavastehus konstmuseum"@sv ;
+    skos:prefLabel "Hämeenlinna Art Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Art museum in the birthplace of Jean Sibelius, with a collection of Finnish art from the 19th century to the present."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "FI" ;
+    schema:addressLocality "Hämeenlinna" ;
+    schema:location <http://sws.geonames.org/659282/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18345156> ;
+    foaf:homepage <https://www.hameenlinna.fi/taidemuseo> ;
+    schema:foundingDate "1952"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
+
+# ── 83/116: Maritime Museum of Finland (FI) ──
+ni:suomen-merimuseo a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Maritime Museum of Finland"@en ;
+    rdfs:label "Suomen merimuseo"@fi ;
+    rdfs:label "Finlands sjöhistoriska museum"@sv ;
+    skos:prefLabel "Maritime Museum of Finland"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Finland's national maritime museum documenting the country's maritime history, seafaring traditions, and underwater archaeology."@en ;
+    schema:additionalType "maritime-museum" ;
+    schema:addressCountry "FI" ;
+    schema:addressLocality "Kotka" ;
+    schema:location <http://sws.geonames.org/650224/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q11893116> ;
+    foaf:homepage <https://www.merikeskusfrelluma.fi/> ;
+    schema:foundingDate "2008"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
+
+# ── 84/116: Ainola - Home of Jean Sibelius (FI) ──
+ni:ainola a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Ainola - Home of Jean Sibelius"@en ;
+    rdfs:label "Ainola"@fi ;
+    rdfs:label "Ainola"@sv ;
+    skos:prefLabel "Ainola - Home of Jean Sibelius"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "The lakeside home of composer Jean Sibelius where he lived from 1904 until his death in 1957, preserved as a museum with original furnishings and personal items."@en ;
+    schema:additionalType "specialized-museum" ;
+    schema:addressCountry "FI" ;
+    schema:addressLocality "Järvenpää" ;
+    schema:location <http://sws.geonames.org/655811/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1139286> ;
+    foaf:homepage <https://www.ainola.fi/> ;
+    schema:foundingDate "1974"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
+
+# ── 85/116: Ostrobothnian Museum (FI) ──
+ni:pohjanmaan-museo a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Ostrobothnian Museum"@en ;
+    rdfs:label "Pohjanmaan museo"@fi ;
+    rdfs:label "Österbottens museum"@sv ;
+    skos:prefLabel "Ostrobothnian Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Regional museum of Ostrobothnia covering the cultural history of Finland's western coast, with collections on the region's bilingual Finnish-Swedish heritage."@en ;
+    schema:additionalType "history-museum" ;
+    schema:addressCountry "FI" ;
+    schema:addressLocality "Vaasa" ;
+    schema:location <http://sws.geonames.org/632978/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q11885882> ;
+    foaf:homepage <https://www.pohjanmaanmuseo.fi/> ;
+    schema:foundingDate "1895"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
+
+# ── 86/116: Kuopio Museum (FI) ──
+ni:kuopio-museo a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Kuopio Museum"@en ;
+    rdfs:label "Kuopion museo"@fi ;
+    rdfs:label "Kuopio museum"@sv ;
+    skos:prefLabel "Kuopio Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Cultural history and natural history museum of the Kuopio region, one of the oldest museums in eastern Finland."@en ;
+    schema:additionalType "history-museum" ;
+    schema:addressCountry "FI" ;
+    schema:addressLocality "Kuopio" ;
+    schema:location <http://sws.geonames.org/650225/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18345179> ;
+    foaf:homepage <https://kuopionmuseo.fi/> ;
+    schema:foundingDate "1907"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
+
+# ── 87/116: National Museum of Denmark (DK) ──
+ni:nationalmuseet-dk a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "National Museum of Denmark"@en ;
+    rdfs:label "Nationalmuseet"@da ;
+    skos:prefLabel "National Museum of Denmark"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Denmark's principal museum of cultural history, covering Danish and international cultures from the Stone Age to the present, including the famous Sun Chariot."@en ;
+    schema:additionalType "history-museum" ;
+    schema:addressCountry "DK" ;
+    schema:addressLocality "Copenhagen" ;
+    schema:location <http://sws.geonames.org/2618425/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1140507> ;
+    dcterms:identifier "DK-810010" ;
+    foaf:homepage <https://www.natmus.dk/> ;
+    schema:foundingDate "1819"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
+
+# ── 88/116: SMK - National Gallery of Denmark (DK) ──
+ni:smk a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "SMK - National Gallery of Denmark"@en ;
+    rdfs:label "Statens Museum for Kunst"@da ;
+    skos:prefLabel "SMK - National Gallery of Denmark"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Denmark's national art gallery with the largest collection of Danish and international art spanning 700 years, from Lucas Cranach to contemporary art."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "DK" ;
+    schema:addressLocality "Copenhagen" ;
+    schema:location <http://sws.geonames.org/2618425/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q671384> ;
+    dcterms:identifier "DK-820010" ;
+    foaf:homepage <https://www.smk.dk/> ;
+    schema:foundingDate "1849"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
+
+# ── 89/116: Ny Carlsberg Glyptotek (DK) ──
+ni:ny-carlsberg-glyptotek a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Ny Carlsberg Glyptotek"@en ;
+    rdfs:label "Ny Carlsberg Glyptotek"@da ;
+    skos:prefLabel "Ny Carlsberg Glyptotek"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Art museum founded by brewer Carl Jacobsen housing a world-class collection of ancient Egyptian, Greek, and Roman sculpture alongside French Impressionism and Danish Golden Age painting."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "DK" ;
+    schema:addressLocality "Copenhagen" ;
+    schema:location <http://sws.geonames.org/2618425/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1138030> ;
+    foaf:homepage <https://www.glfrptotek.dk/> ;
+    schema:foundingDate "1888"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
+
+# ── 90/116: Louisiana Museum of Modern Art (DK) ──
+ni:louisiana a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Louisiana Museum of Modern Art"@en ;
+    rdfs:label "Louisiana Museum for Moderne Kunst"@da ;
+    skos:prefLabel "Louisiana Museum of Modern Art"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Denmark's most visited art museum, situated on the Øresund coast, with an outstanding collection of modern and contemporary art in a landscape setting."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "DK" ;
+    schema:addressLocality "Humlebæk" ;
+    schema:location <http://sws.geonames.org/2620679/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q671384> ;
+    foaf:homepage <https://louisiana.dk/> ;
+    schema:foundingDate "1958"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
+
+# ── 91/116: ARoS Aarhus Art Museum (DK) ──
+ni:aros a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "ARoS Aarhus Art Museum"@en ;
+    rdfs:label "ARoS Aarhus Kunstmuseum"@da ;
+    skos:prefLabel "ARoS Aarhus Art Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "One of Europe's largest art museums, known for Olafur Eliasson's rainbow panorama walkway and a collection spanning the Danish Golden Age to international contemporary art."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "DK" ;
+    schema:addressLocality "Aarhus" ;
+    schema:location <http://sws.geonames.org/2624652/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q845584> ;
+    foaf:homepage <https://www.aros.dk/> ;
+    schema:foundingDate "1859"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
+
+# ── 92/116: Thorvaldsens Museum (DK) ──
+ni:thorvaldsens-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Thorvaldsens Museum"@en ;
+    rdfs:label "Thorvaldsens Museum"@da ;
+    skos:prefLabel "Thorvaldsens Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Museum dedicated to the works of sculptor Bertel Thorvaldsen, Denmark's most celebrated Neoclassical artist, in a purpose-built colourful building beside Christiansborg."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "DK" ;
+    schema:addressLocality "Copenhagen" ;
+    schema:location <http://sws.geonames.org/2618425/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1140535> ;
+    foaf:homepage <https://www.thorvaldsensmuseum.dk/> ;
+    schema:foundingDate "1848"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
+
+# ── 93/116: The Hirschsprung Collection (DK) ──
+ni:hirschsprungske a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "The Hirschsprung Collection"@en ;
+    rdfs:label "Den Hirschsprungske Samling"@da ;
+    skos:prefLabel "The Hirschsprung Collection"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Museum housing tobacco manufacturer Heinrich Hirschsprung's collection of Danish art from the 19th and early 20th centuries, including the Skagen painters."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "DK" ;
+    schema:addressLocality "Copenhagen" ;
+    schema:location <http://sws.geonames.org/2618425/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1191916> ;
+    foaf:homepage <https://www.hirschsprung.dk/> ;
+    schema:foundingDate "1911"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
+
+# ── 94/116: Ordrupgaard (DK) ──
+ni:ordrupgaard a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Ordrupgaard"@en ;
+    rdfs:label "Ordrupgaard"@da ;
+    skos:prefLabel "Ordrupgaard"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Art museum in a country house setting, renowned for its collection of French Impressionist and Post-Impressionist paintings alongside Danish Golden Age works."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "DK" ;
+    schema:addressLocality "Charlottenlund" ;
+    schema:location <http://sws.geonames.org/2618862/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1138041> ;
+    foaf:homepage <https://ordrupgaard.dk/> ;
+    schema:foundingDate "1953"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
+
+# ── 95/116: Viking Ship Museum Roskilde (DK) ──
+ni:vikingeskibsmuseet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Viking Ship Museum Roskilde"@en ;
+    rdfs:label "Vikingeskibsmuseet"@da ;
+    skos:prefLabel "Viking Ship Museum Roskilde"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Museum dedicated to Viking Age seafaring, built around five original Viking ships excavated from Roskilde Fjord, with a working boatyard."@en ;
+    schema:additionalType "maritime-museum" ;
+    schema:addressCountry "DK" ;
+    schema:addressLocality "Roskilde" ;
+    schema:location <http://sws.geonames.org/2615876/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1133976> ;
+    foaf:homepage <https://www.vikingeskibsmuseet.dk/> ;
+    schema:foundingDate "1969"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
+
+# ── 96/116: M/S Maritime Museum of Denmark (DK) ──
+ni:ms-maritime-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "M/S Maritime Museum of Denmark"@en ;
+    rdfs:label "M/S Museet for Søfart"@da ;
+    skos:prefLabel "M/S Maritime Museum of Denmark"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Award-winning maritime museum designed by BIG architects, built around an old dry dock, documenting Denmark's maritime history and global trade."@en ;
+    schema:additionalType "maritime-museum" ;
+    schema:addressCountry "DK" ;
+    schema:addressLocality "Helsingør" ;
+    schema:location <http://sws.geonames.org/2620473/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2362154> ;
+    foaf:homepage <https://mfrfs.dk/> ;
+    schema:foundingDate "2013"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
+
+# ── 97/116: Den Gamle By - The Old Town (DK) ──
+ni:den-gamle-by a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Den Gamle By - The Old Town"@en ;
+    rdfs:label "Den Gamle By"@da ;
+    skos:prefLabel "Den Gamle By - The Old Town"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "The world's first open-air town museum, recreating Danish urban life through three historical periods with more than 75 buildings from across Denmark."@en ;
+    schema:additionalType "open-air-museum" ;
+    schema:addressCountry "DK" ;
+    schema:addressLocality "Aarhus" ;
+    schema:location <http://sws.geonames.org/2624652/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1182781> ;
+    foaf:homepage <https://www.dengamleby.dk/> ;
+    schema:foundingDate "1909"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
+
+# ── 98/116: Moesgaard Museum (DK) ──
+ni:moesgaard a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Moesgaard Museum"@en ;
+    rdfs:label "Moesgaard Museum"@da ;
+    skos:prefLabel "Moesgaard Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Ethnographic and archaeological museum in a landmark building, housing the Grauballe Man and presenting Danish prehistory and cultures from around the world."@en ;
+    schema:additionalType "archaeology-museum" ;
+    schema:addressCountry "DK" ;
+    schema:addressLocality "Aarhus" ;
+    schema:location <http://sws.geonames.org/2624652/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1535628> ;
+    foaf:homepage <https://www.moesgaardmuseum.dk/> ;
+    schema:foundingDate "2014"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
+
+# ── 99/116: Danish Jewish Museum (DK) ──
+ni:dansk-jodisk-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Danish Jewish Museum"@en ;
+    rdfs:label "Dansk Jødisk Museum"@da ;
+    skos:prefLabel "Danish Jewish Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Museum designed by Daniel Libeskind documenting the history of the Jewish community in Denmark, including the rescue of Danish Jews during World War II."@en ;
+    schema:additionalType "history-museum" ;
+    schema:addressCountry "DK" ;
+    schema:addressLocality "Copenhagen" ;
+    schema:location <http://sws.geonames.org/2618425/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1173631> ;
+    foaf:homepage <https://www.jewmus.dk/> ;
+    schema:foundingDate "2004"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
+
+# ── 100/116: Kunsten Museum of Modern Art Aalborg (DK) ──
+ni:kunsten a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Kunsten Museum of Modern Art Aalborg"@en ;
+    rdfs:label "Kunsten - Museum of Modern Art Aalborg"@da ;
+    skos:prefLabel "Kunsten Museum of Modern Art Aalborg"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Museum of modern and contemporary art in a building designed by Alvar Aalto and Jean-Jacques Baruël, with Danish and international art from 1900 to the present."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "DK" ;
+    schema:addressLocality "Aalborg" ;
+    schema:location <http://sws.geonames.org/2624886/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1764404> ;
+    foaf:homepage <https://kunsten.dk/> ;
+    schema:foundingDate "1972"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
+
+# ── 101/116: The Open Air Museum (DK) ──
+ni:frilandsmuseet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "The Open Air Museum"@en ;
+    rdfs:label "Frilandsmuseet"@da ;
+    skos:prefLabel "The Open Air Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "One of the world's oldest and largest open-air museums, part of the National Museum, with over 100 historical buildings from Denmark, southern Sweden, and northern Germany."@en ;
+    schema:additionalType "open-air-museum" ;
+    schema:addressCountry "DK" ;
+    schema:addressLocality "Lyngby" ;
+    schema:location <http://sws.geonames.org/2618627/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1321613> ;
+    foaf:homepage <https://natmus.dk/frilandsmuseet/> ;
+    schema:foundingDate "1897"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
+
+# ── 102/116: Designmuseum Danmark (DK) ──
+ni:designmuseum-dk a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Designmuseum Danmark"@en ;
+    rdfs:label "Designmuseum Danmark"@da ;
+    skos:prefLabel "Designmuseum Danmark"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Denmark's museum of design and decorative arts, housed in a rococo hospital building, covering Danish and international design, fashion, crafts, and industrial design."@en ;
+    schema:additionalType "design-museum" ;
+    schema:addressCountry "DK" ;
+    schema:addressLocality "Copenhagen" ;
+    schema:location <http://sws.geonames.org/2618425/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1140506> ;
+    foaf:homepage <https://designmuseum.dk/> ;
+    schema:foundingDate "1890"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
+
+# ── 103/116: Randers Art Museum (DK) ──
+ni:randers-kunstmuseum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Randers Art Museum"@en ;
+    rdfs:label "Randers Kunstmuseum"@da ;
+    skos:prefLabel "Randers Art Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "One of Denmark's oldest art museums, with a collection focusing on Danish art from the Golden Age through Modernism."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "DK" ;
+    schema:addressLocality "Randers" ;
+    schema:location <http://sws.geonames.org/2615006/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7293968> ;
+    foaf:homepage <https://randerskunstmuseum.dk/> ;
+    schema:foundingDate "1887"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
+
+# ── 104/116: Ribe VikingeCenter (DK) ──
+ni:ribe-vikingecenter a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Ribe VikingeCenter"@en ;
+    rdfs:label "Ribe VikingeCenter"@da ;
+    skos:prefLabel "Ribe VikingeCenter"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Open-air museum and reconstructed Viking marketplace based on archaeological findings from Ribe, Denmark's oldest town."@en ;
+    schema:additionalType "open-air-museum" ;
+    schema:addressCountry "DK" ;
+    schema:addressLocality "Ribe" ;
+    schema:location <http://sws.geonames.org/2615060/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7325006> ;
+    foaf:homepage <https://www.ribevikingecenter.dk/> ;
+    schema:foundingDate "1992"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
+
+# ── 105/116: Skagens Museum (DK) ──
+ni:skagens-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Skagens Museum"@en ;
+    rdfs:label "Skagens Museum"@da ;
+    skos:prefLabel "Skagens Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Art museum dedicated to the Skagen Painters, a group of Scandinavian artists who gathered at the northernmost point of Denmark in the late 19th century to paint light and seascapes."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "DK" ;
+    schema:addressLocality "Skagen" ;
+    schema:location <http://sws.geonames.org/2613854/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1572584> ;
+    foaf:homepage <https://skagenskunstmuseer.dk/> ;
+    schema:foundingDate "1908"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
+
+# ── 106/116: Brandts Museum of Art and Visual Culture (DK) ──
+ni:brandts a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Brandts Museum of Art and Visual Culture"@en ;
+    rdfs:label "Brandts"@da ;
+    skos:prefLabel "Brandts Museum of Art and Visual Culture"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Art and visual culture museum in a converted textile mill, presenting photography, graphic art, and contemporary visual culture."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "DK" ;
+    schema:addressLocality "Odense" ;
+    schema:location <http://sws.geonames.org/2615876/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q4955912> ;
+    foaf:homepage <https://brandts.dk/> ;
+    schema:foundingDate "1984"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
+
+# ── 107/116: National Museum of Iceland (IS) ──
+ni:thjodminjasafn a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "National Museum of Iceland"@en ;
+    rdfs:label "Þjóðminjasafn Íslands"@is ;
+    skos:prefLabel "National Museum of Iceland"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Iceland's national museum of cultural history, tracing Icelandic civilisation from Viking settlement in the 9th century to the present day."@en ;
+    schema:additionalType "history-museum" ;
+    schema:addressCountry "IS" ;
+    schema:addressLocality "Reykjavik" ;
+    schema:location <http://sws.geonames.org/3413829/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1418298> ;
+    foaf:homepage <https://www.thjodminjasafn.is/> ;
+    schema:foundingDate "1863"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Iceland> .
+
+# ── 108/116: Reykjavik Art Museum (IS) ──
+ni:listasafn-reykjavikur a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Reykjavik Art Museum"@en ;
+    rdfs:label "Listasafn Reykjavíkur"@is ;
+    skos:prefLabel "Reykjavik Art Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Reykjavik's art museum operating across three venues: Hafnarhús (contemporary art), Kjarvalsstaðir (Kjarval's works), and Ásmundarsafn (Ásmundur Sveinsson sculpture)."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "IS" ;
+    schema:addressLocality "Reykjavik" ;
+    schema:location <http://sws.geonames.org/3413829/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1762225> ;
+    foaf:homepage <https://listfrsfnreykjavikur.is/> ;
+    schema:foundingDate "1973"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Iceland> .
+
+# ── 109/116: National Gallery of Iceland (IS) ──
+ni:listasafn-islands a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "National Gallery of Iceland"@en ;
+    rdfs:label "Listasafn Íslands"@is ;
+    skos:prefLabel "National Gallery of Iceland"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Iceland's national art gallery, housing the country's most important collection of visual art by Icelandic and international artists."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "IS" ;
+    schema:addressLocality "Reykjavik" ;
+    schema:location <http://sws.geonames.org/3413829/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1460820> ;
+    foaf:homepage <https://www.listasafn.is/> ;
+    schema:foundingDate "1884"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Iceland> .
+
+# ── 110/116: Saga Museum (IS) ──
+ni:saga-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Saga Museum"@en ;
+    rdfs:label "Sögusetrið"@is ;
+    skos:prefLabel "Saga Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Museum recreating key moments from Iceland's history using lifelike silicone figures, from the settlement era through the sagas."@en ;
+    schema:additionalType "history-museum" ;
+    schema:addressCountry "IS" ;
+    schema:addressLocality "Reykjavik" ;
+    schema:location <http://sws.geonames.org/3413829/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7399131> ;
+    foaf:homepage <https://www.sagamuseum.is/> ;
+    schema:foundingDate "2004"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Iceland> .
+
+# ── 111/116: Árbær Open Air Museum (IS) ──
+ni:arbaer a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Árbær Open Air Museum"@en ;
+    rdfs:label "Árbæjarsafn"@is ;
+    skos:prefLabel "Árbær Open Air Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Open-air museum preserving more than 20 historical buildings showing how Reykjavik residents lived and worked in earlier centuries."@en ;
+    schema:additionalType "open-air-museum" ;
+    schema:addressCountry "IS" ;
+    schema:addressLocality "Reykjavik" ;
+    schema:location <http://sws.geonames.org/3413829/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3560972> ;
+    foaf:homepage <https://borgarsogusafn.is/arbaejarsafn> ;
+    schema:foundingDate "1957"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Iceland> .
+
+# ── 112/116: Akureyri Art Museum (IS) ──
+ni:akureyri-listasafn a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Akureyri Art Museum"@en ;
+    rdfs:label "Listasafnið á Akureyri"@is ;
+    skos:prefLabel "Akureyri Art Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Art museum in northern Iceland's largest town, presenting contemporary Icelandic and international visual art."@en ;
+    schema:additionalType "art-museum" ;
+    schema:addressCountry "IS" ;
+    schema:addressLocality "Akureyri" ;
+    schema:location <http://sws.geonames.org/3418399/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q4700942> ;
+    foaf:homepage <https://www.listak.is/> ;
+    schema:foundingDate "1993"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Iceland> .
+
+# ── 113/116: Húsavík Whale Museum (IS) ──
+ni:husavik-whale-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Húsavík Whale Museum"@en ;
+    rdfs:label "Hvalasafnið á Húsavík"@is ;
+    skos:prefLabel "Húsavík Whale Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Museum dedicated to whales and whale research, featuring real whale skeletons and the ecology of Skjálfandi Bay, Iceland's whale watching capital."@en ;
+    schema:additionalType "natural-history-museum" ;
+    schema:addressCountry "IS" ;
+    schema:addressLocality "Húsavík" ;
+    schema:location <http://sws.geonames.org/2630048/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q12007817> ;
+    foaf:homepage <https://www.whalemuseum.is/> ;
+    schema:foundingDate "1997"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Iceland> .
+
+# ── 114/116: Skógar Museum (IS) ──
+ni:skogar-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Skógar Museum"@en ;
+    rdfs:label "Skógasafn"@is ;
+    skos:prefLabel "Skógar Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Folk museum near the Skógafoss waterfall, preserving Icelandic heritage with a collection of over 18,000 regional artefacts and an open-air section of turf houses."@en ;
+    schema:additionalType "folk-museum" ;
+    schema:addressCountry "IS" ;
+    schema:addressLocality "Skógar" ;
+    schema:location <http://sws.geonames.org/3413604/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7535416> ;
+    foaf:homepage <https://www.skogasafn.is/> ;
+    schema:foundingDate "1949"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Iceland> .
+
+# ── 115/116: Reykjanes Heritage Museum (IS) ──
+ni:reykjanes-heritage-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Reykjanes Heritage Museum"@en ;
+    rdfs:label "Byggðasafn Reykjaness"@is ;
+    skos:prefLabel "Reykjanes Heritage Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Regional museum documenting the history and culture of the Reykjanes peninsula, focusing on fishing heritage and saltfish production."@en ;
+    schema:additionalType "history-museum" ;
+    schema:addressCountry "IS" ;
+    schema:addressLocality "Keflavík" ;
+    schema:location <http://sws.geonames.org/3414356/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q16338935> ;
+    foaf:homepage <https://www.byggdasafn.is/> ;
+    schema:foundingDate "1977"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Iceland> .
+
+# ── 116/116: Herring Era Museum (IS) ──
+ni:herring-era-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
+    rdfs:label "Herring Era Museum"@en ;
+    rdfs:label "Síldarminjasafnið á Siglufirði"@is ;
+    skos:prefLabel "Herring Era Museum"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-institutions> ;
+    skos:definition "Award-winning museum documenting Iceland's herring fishing boom of the early to mid 20th century, in a historic waterfront setting in Siglufjörður."@en ;
+    schema:additionalType "maritime-museum" ;
+    schema:addressCountry "IS" ;
+    schema:addressLocality "Siglufjörður" ;
+    schema:location <http://sws.geonames.org/3414079/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3480783> ;
+    foaf:homepage <https://www.sfrld.is/> ;
+    schema:foundingDate "1994"^^xsd:gYear ;
+    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Iceland> .
