@@ -143,3 +143,65 @@
     da: Mortensaften
     nb: Mortensgås
   description: "November 11th feast day tradition of eating roasted goose, particularly strong in southern Sweden (Skåne) and Denmark."
+
+- id: icelandic-independence-day
+  broader: nordic-seasons
+  labels:
+    en: Icelandic National Day
+    sv: Islands nationaldag
+    fi: Islannin kansallispäivä
+    da: Islands nationaldag
+    nb: Islands nasjonaldag
+    is: Þjóðhátíðardagurinn
+  description: "June 17th celebration of Icelandic independence, commemorating the founding of the Republic of Iceland in 1944 and the birthday of independence leader Jón Sigurðsson."
+
+- id: finnish-independence-day
+  broader: nordic-seasons
+  labels:
+    en: Finnish Independence Day
+    sv: Finlands självständighetsdag
+    fi: Itsenäisyyspäivä
+    da: Finlands uafhængighedsdag
+    nb: Finlands uavhengighetsdag
+  description: "December 6th celebration of Finland's independence from Russia in 1917, marked by solemn ceremonies, candles in windows, and the Presidential Independence Day reception."
+
+- id: swedish-midsommar
+  broader: nordic-seasons
+  labels:
+    en: Swedish Midsommar
+    sv: Midsommar
+    fi: Juhannus
+    da: Midsommer
+    nb: Sankthans
+  description: "The quintessential Swedish celebration on the Friday closest to the summer solstice, featuring raising and dancing around the maypole, flower wreaths, strawberries, herring, and singing drinking songs."
+
+- id: nordic-advent
+  broader: nordic-seasons
+  labels:
+    en: Nordic Advent traditions
+    sv: Adventsljusstake
+    fi: Adventti
+    da: Adventstid
+    nb: Adventstid
+  description: "Nordic Advent customs including the Advent candlestick (adventsljusstake) in windows, Advent calendars, and the progressive lighting of four candles on successive Sundays before Christmas."
+
+- id: kaamos
+  broader: nordic-seasons
+  labels:
+    en: Kaamos / Polar night
+    sv: Mörketid
+    fi: Kaamos
+    da: Mørketid
+    nb: Mørketid
+    se: Skábma
+  description: "The period of polar night in the Arctic when the sun does not rise above the horizon. In Finnish Lapland, kaamos lasts from late November to mid-January. A subject of contemplative art exploring darkness and inner light."
+
+- id: russefeiring
+  broader: nordic-seasons
+  labels:
+    en: Russefeiring (Norwegian graduation)
+    sv: Studentexamen
+    fi: Ylioppilasjuhla
+    da: Studenterfest
+    nb: Russefeiring
+  description: "Norwegian high school graduation celebration where students wear colored overalls (russedress) and participate in festivities during May, culminating on Constitution Day (May 17th)."

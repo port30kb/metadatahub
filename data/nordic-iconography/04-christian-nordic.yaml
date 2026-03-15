@@ -223,3 +223,57 @@
     da: Sankt Sigfrid
     nb: Hellig Sigfrid
   description: "English missionary bishop who baptized King Olof Skötkonung of Sweden around 1008, traditionally at Husaby. Patron saint of Växjö. Depicted with three heads in a barrel, representing his murdered nephews."
+
+- id: st-thorlakur
+  broader: nordic-saints
+  iconclass: "11HH(THORLAK)"
+  labels:
+    en: Saint Þorlákur
+    sv: Sankt Torlak
+    fi: Pyhä Þorlákur
+    da: Sankt Thorlak
+    nb: Hellig Torlak
+    is: Þorlákur helgi
+  description: "Þorlákur Þórhallsson (1133–1193), Bishop of Skálholt and patron saint of Iceland. Championed church reform and clerical celibacy. His feast day, Þorláksmessa (December 23), is celebrated with traditional Icelandic fermented skate."
+
+- id: st-hallvard
+  broader: nordic-saints
+  iconclass: "11HH(HALLVARD)"
+  labels:
+    en: Saint Hallvard
+    sv: Sankt Hallvard
+    fi: Pyhä Hallvard
+    da: Sankt Hallvard
+    nb: Hellig Hallvard
+  description: "Hallvard Vebjørnsson (c. 1020–1043), patron saint of Oslo. Killed while defending a woman accused of theft. Depicted with millstones, arrows, and the woman he tried to save. His image appears on Oslo's coat of arms."
+
+- id: st-ansgar
+  broader: nordic-saints
+  iconclass: "11HH(ANSGAR)"
+  labels:
+    en: Saint Ansgar
+    sv: Sankt Ansgar
+    fi: Pyhä Ansgar
+    da: Sankt Ansgar
+    nb: Hellig Ansgar
+  description: "Ansgar of Bremen (801–865), the 'Apostle of the North', Frankish missionary who brought Christianity to Scandinavia. Founded the first Christian churches in Hedeby and Birka. Patron saint of Scandinavia."
+
+- id: golden-altarpiece
+  broader: nordic-church-art
+  labels:
+    en: Golden altarpieces (Nordic)
+    sv: Gyllene altarskåp
+    fi: Kultaiset alttaritaulut
+    da: Gyldne alterfrontaler
+    nb: Gyldne alterfrontaler
+  description: "Richly gilded altar frontals and retables from the medieval period, including the famous golden altarpieces of Scandinavia such as those from Broddetorp, Tamdrup, and Lisbjerg in Denmark."
+
+- id: church-ship-model
+  broader: nordic-church-art
+  labels:
+    en: Votive ship (church)
+    sv: Kyrkoskepp (votivskeppp)
+    fi: Kirkkolaiva
+    da: Kirkeskib
+    nb: Kirkeskip
+  description: "Model ships hung from the ceilings of Nordic churches, particularly common in Denmark, as votive offerings for safe voyages. A distinctive feature of Scandinavian church interiors from the 15th century onward."
