@@ -11,7 +11,7 @@
   "@id": "https://metadatahub.eu/data/geologic-timescale",
   "@type": "skos:ConceptScheme",
   "dcterms:title": "Geologic Time Scale",
-  "dcterms:description": "836 entries covering the geologic time scale from Hadean eon (4600 Ma) to present, including Scandinavian, European, and South American cultural/historical periods.",
+  "dcterms:description": "852 entries covering the geologic time scale from Hadean eon (4600 Ma) to present, including Scandinavian, European, and South American cultural/historical periods.",
   "dcterms:source": [
     "https://en.wikipedia.org/wiki/Geologic_time_scale",
     "https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf",
@@ -540,7 +540,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/phanerozoic"
       },
       "time:hasBeginning": "538.8 Ma",
-      "time:hasEnd": "251.9 Ma",
+      "time:hasEnd": "251.902 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -559,7 +559,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/paleozoic"
       },
       "time:hasBeginning": "538.8 Ma",
-      "time:hasEnd": "485.4 Ma",
+      "time:hasEnd": "486.85 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -635,7 +635,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/cambrian"
       },
       "time:hasBeginning": "521 Ma",
-      "time:hasEnd": "509 Ma",
+      "time:hasEnd": "506.5 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -654,7 +654,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/epoch2-cambrian"
       },
       "time:hasBeginning": "521 Ma",
-      "time:hasEnd": "514 Ma",
+      "time:hasEnd": "514.5 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -672,8 +672,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/epoch2-cambrian"
       },
-      "time:hasBeginning": "514 Ma",
-      "time:hasEnd": "509 Ma",
+      "time:hasBeginning": "514.5 Ma",
+      "time:hasEnd": "506.5 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -691,7 +691,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/cambrian"
       },
-      "time:hasBeginning": "509 Ma",
+      "time:hasBeginning": "506.5 Ma",
       "time:hasEnd": "497 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -710,7 +710,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/miaolingian"
       },
-      "time:hasBeginning": "509 Ma",
+      "time:hasBeginning": "506.5 Ma",
       "time:hasEnd": "504.5 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -768,7 +768,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/cambrian"
       },
       "time:hasBeginning": "497 Ma",
-      "time:hasEnd": "485.4 Ma",
+      "time:hasEnd": "486.85 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -825,7 +825,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/furongian"
       },
       "time:hasBeginning": "491 Ma",
-      "time:hasEnd": "485.4 Ma",
+      "time:hasEnd": "486.85 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -843,8 +843,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/paleozoic"
       },
-      "time:hasBeginning": "485.4 Ma",
-      "time:hasEnd": "443.8 Ma",
+      "time:hasBeginning": "486.85 Ma",
+      "time:hasEnd": "443.1 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -862,7 +862,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/ordovician"
       },
-      "time:hasBeginning": "485.4 Ma",
+      "time:hasBeginning": "486.85 Ma",
       "time:hasEnd": "471.3 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -881,15 +881,15 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-ordovician"
       },
-      "time:hasBeginning": "485.4 Ma",
-      "time:hasEnd": "477.7 Ma",
+      "time:hasBeginning": "486.85 Ma",
+      "time:hasEnd": "477.1 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
       "@id": "https://metadatahub.eu/data/geologic-timescale/floian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Floian (Flo, Hunneberg)",
+        "@value": "Floian (Flo, Västergötland; GSSP at Hunneberg)",
         "@language": "en"
       },
       "skos:definition": {
@@ -900,7 +900,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-ordovician"
       },
-      "time:hasBeginning": "477.7 Ma",
+      "time:hasBeginning": "477.1 Ma",
       "time:hasEnd": "471.3 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -920,7 +920,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/ordovician"
       },
       "time:hasBeginning": "471.3 Ma",
-      "time:hasEnd": "458.4 Ma",
+      "time:hasEnd": "458.2 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -958,7 +958,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/middle-ordovician"
       },
       "time:hasBeginning": "469.4 Ma",
-      "time:hasEnd": "458.4 Ma",
+      "time:hasEnd": "458.2 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -976,27 +976,27 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/ordovician"
       },
-      "time:hasBeginning": "458.4 Ma",
-      "time:hasEnd": "443.8 Ma",
+      "time:hasBeginning": "458.2 Ma",
+      "time:hasEnd": "443.1 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
       "@id": "https://metadatahub.eu/data/geologic-timescale/sandbian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Sandbian (Sandby, Öland)",
+        "@value": "Sandbian (Södra Sandby, Skåne)",
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Taconic orogeny; diverse brachiopod communities.",
+        "@value": "Taconic orogeny; diverse brachiopod communities; GSSP at Fågelsång, east of Lund.",
         "@language": "en"
       },
       "gts:rank": "Age",
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/late-ordovician"
       },
-      "time:hasBeginning": "458.4 Ma",
-      "time:hasEnd": "453.0 Ma",
+      "time:hasBeginning": "458.2 Ma",
+      "time:hasEnd": "452.8 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1014,7 +1014,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/late-ordovician"
       },
-      "time:hasBeginning": "453.0 Ma",
+      "time:hasBeginning": "452.8 Ma",
       "time:hasEnd": "445.2 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -1034,7 +1034,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/late-ordovician"
       },
       "time:hasBeginning": "445.2 Ma",
-      "time:hasEnd": "443.8 Ma",
+      "time:hasEnd": "443.1 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1052,8 +1052,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/paleozoic"
       },
-      "time:hasBeginning": "443.8 Ma",
-      "time:hasEnd": "419.2 Ma",
+      "time:hasBeginning": "443.1 Ma",
+      "time:hasEnd": "419.62 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1071,8 +1071,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/silurian"
       },
-      "time:hasBeginning": "443.8 Ma",
-      "time:hasEnd": "433.4 Ma",
+      "time:hasBeginning": "443.1 Ma",
+      "time:hasEnd": "432.9 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1090,8 +1090,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/llandovery"
       },
-      "time:hasBeginning": "443.8 Ma",
-      "time:hasEnd": "440.8 Ma",
+      "time:hasBeginning": "443.1 Ma",
+      "time:hasEnd": "440.5 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1109,8 +1109,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/llandovery"
       },
-      "time:hasBeginning": "440.8 Ma",
-      "time:hasEnd": "438.5 Ma",
+      "time:hasBeginning": "440.5 Ma",
+      "time:hasEnd": "438.6 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1128,8 +1128,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/llandovery"
       },
-      "time:hasBeginning": "438.5 Ma",
-      "time:hasEnd": "433.4 Ma",
+      "time:hasBeginning": "438.6 Ma",
+      "time:hasEnd": "432.9 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1147,15 +1147,15 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/silurian"
       },
-      "time:hasBeginning": "433.4 Ma",
-      "time:hasEnd": "427.4 Ma",
+      "time:hasBeginning": "432.9 Ma",
+      "time:hasEnd": "426.7 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
       "@id": "https://metadatahub.eu/data/geologic-timescale/sheinwoodian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Sheinwoodian (Sheinton Brook)",
+        "@value": "Sheinwoodian (Sheinwood)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1166,8 +1166,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/wenlock"
       },
-      "time:hasBeginning": "433.4 Ma",
-      "time:hasEnd": "430.5 Ma",
+      "time:hasBeginning": "432.9 Ma",
+      "time:hasEnd": "430.6 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1185,8 +1185,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/wenlock"
       },
-      "time:hasBeginning": "430.5 Ma",
-      "time:hasEnd": "427.4 Ma",
+      "time:hasBeginning": "430.6 Ma",
+      "time:hasEnd": "426.7 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1204,27 +1204,27 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/silurian"
       },
-      "time:hasBeginning": "427.4 Ma",
-      "time:hasEnd": "423.0 Ma",
+      "time:hasBeginning": "426.7 Ma",
+      "time:hasEnd": "422.7 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
       "@id": "https://metadatahub.eu/data/geologic-timescale/gorstian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Gorstian (Gorst, Shropshire)",
+        "@value": "Gorstian (Gorsty, Shropshire)",
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Lau extinction event; graptolite fauna turnover.",
+        "@value": "Linde Event; marine fauna turnover.",
         "@language": "en"
       },
       "gts:rank": "Age",
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/ludlow"
       },
-      "time:hasBeginning": "427.4 Ma",
-      "time:hasEnd": "425.6 Ma",
+      "time:hasBeginning": "426.7 Ma",
+      "time:hasEnd": "425 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1235,15 +1235,15 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "First terrestrial arthropod traces; jawed fish diversify.",
+        "@value": "Lau extinction event; first terrestrial arthropod traces; jawed fish diversify.",
         "@language": "en"
       },
       "gts:rank": "Age",
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/ludlow"
       },
-      "time:hasBeginning": "425.6 Ma",
-      "time:hasEnd": "423.0 Ma",
+      "time:hasBeginning": "425 Ma",
+      "time:hasEnd": "422.7 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1261,8 +1261,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/silurian"
       },
-      "time:hasBeginning": "423.0 Ma",
-      "time:hasEnd": "419.2 Ma",
+      "time:hasBeginning": "422.7 Ma",
+      "time:hasEnd": "419.62 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1280,8 +1280,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/paleozoic"
       },
-      "time:hasBeginning": "419.2 Ma",
-      "time:hasEnd": "358.9 Ma",
+      "time:hasBeginning": "419.62 Ma",
+      "time:hasEnd": "358.86 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1299,8 +1299,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/pridoli"
       },
-      "time:hasBeginning": "419.2 Ma",
-      "time:hasEnd": "419.2 Ma",
+      "time:hasBeginning": "419.62 Ma",
+      "time:hasEnd": "419.62 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1318,8 +1318,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/devonian"
       },
-      "time:hasBeginning": "419.2 Ma",
-      "time:hasEnd": "393.3 Ma",
+      "time:hasBeginning": "419.62 Ma",
+      "time:hasEnd": "393.47 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1337,8 +1337,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-devonian"
       },
-      "time:hasBeginning": "419.2 Ma",
-      "time:hasEnd": "410.8 Ma",
+      "time:hasBeginning": "419.62 Ma",
+      "time:hasEnd": "413.02 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1356,8 +1356,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-devonian"
       },
-      "time:hasBeginning": "410.8 Ma",
-      "time:hasEnd": "407.6 Ma",
+      "time:hasBeginning": "413.02 Ma",
+      "time:hasEnd": "410.62 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1375,8 +1375,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-devonian"
       },
-      "time:hasBeginning": "407.6 Ma",
-      "time:hasEnd": "393.3 Ma",
+      "time:hasBeginning": "410.62 Ma",
+      "time:hasEnd": "393.47 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1394,8 +1394,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/devonian"
       },
-      "time:hasBeginning": "393.3 Ma",
-      "time:hasEnd": "382.7 Ma",
+      "time:hasBeginning": "393.47 Ma",
+      "time:hasEnd": "382.31 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1413,8 +1413,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/middle-devonian"
       },
-      "time:hasBeginning": "393.3 Ma",
-      "time:hasEnd": "387.7 Ma",
+      "time:hasBeginning": "393.47 Ma",
+      "time:hasEnd": "387.95 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1432,8 +1432,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/middle-devonian"
       },
-      "time:hasBeginning": "387.7 Ma",
-      "time:hasEnd": "382.7 Ma",
+      "time:hasBeginning": "387.95 Ma",
+      "time:hasEnd": "382.31 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1451,8 +1451,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/devonian"
       },
-      "time:hasBeginning": "382.7 Ma",
-      "time:hasEnd": "358.9 Ma",
+      "time:hasBeginning": "382.31 Ma",
+      "time:hasEnd": "358.86 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1470,8 +1470,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/late-devonian"
       },
-      "time:hasBeginning": "382.7 Ma",
-      "time:hasEnd": "372.2 Ma",
+      "time:hasBeginning": "382.31 Ma",
+      "time:hasEnd": "372.15 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1489,8 +1489,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/late-devonian"
       },
-      "time:hasBeginning": "372.2 Ma",
-      "time:hasEnd": "358.9 Ma",
+      "time:hasBeginning": "372.15 Ma",
+      "time:hasEnd": "358.86 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1508,7 +1508,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/paleozoic"
       },
-      "time:hasBeginning": "358.9 Ma",
+      "time:hasBeginning": "358.86 Ma",
       "time:hasEnd": "298.9 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -1527,7 +1527,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/carboniferous"
       },
-      "time:hasBeginning": "358.9 Ma",
+      "time:hasBeginning": "358.86 Ma",
       "time:hasEnd": "323.4 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -1546,7 +1546,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/mississippian"
       },
-      "time:hasBeginning": "358.9 Ma",
+      "time:hasBeginning": "358.86 Ma",
       "time:hasEnd": "346.7 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -1565,7 +1565,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-mississippian"
       },
-      "time:hasBeginning": "358.9 Ma",
+      "time:hasBeginning": "358.86 Ma",
       "time:hasEnd": "346.7 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -1687,7 +1687,7 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/bashkirian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Bashkirian (Башҡортостан)",
+        "@value": "Bashkirian (Башкирский ярус / Башҡортостан)",
         "@language": "en"
       },
       "skos:definition": {
@@ -1813,7 +1813,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/paleozoic"
       },
       "time:hasBeginning": "298.9 Ma",
-      "time:hasEnd": "251.9 Ma",
+      "time:hasEnd": "251.902 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -1862,7 +1862,7 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Pelycosaurs (sail-backed reptiles) diversify, including Dimetrodon.",
+        "@value": "Pelycosaurs (sail-backed synapsids) diversify, including Dimetrodon.",
         "@language": "en"
       },
       "gts:rank": "Age",
@@ -2003,7 +2003,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/permian"
       },
       "time:hasBeginning": "259.51 Ma",
-      "time:hasEnd": "251.9 Ma",
+      "time:hasEnd": "251.902 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -2041,7 +2041,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/lopingian"
       },
       "time:hasBeginning": "254.14 Ma",
-      "time:hasEnd": "251.9 Ma",
+      "time:hasEnd": "251.902 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -2059,7 +2059,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/phanerozoic"
       },
-      "time:hasBeginning": "251.9 Ma",
+      "time:hasBeginning": "251.902 Ma",
       "time:hasEnd": "66 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -2078,7 +2078,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/mesozoic"
       },
-      "time:hasBeginning": "251.9 Ma",
+      "time:hasBeginning": "251.902 Ma",
       "time:hasEnd": "201.4 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -2097,7 +2097,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/triassic"
       },
-      "time:hasBeginning": "251.9 Ma",
+      "time:hasBeginning": "251.902 Ma",
       "time:hasEnd": "246.7 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -2116,7 +2116,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-triassic"
       },
-      "time:hasBeginning": "251.9 Ma",
+      "time:hasBeginning": "251.902 Ma",
       "time:hasEnd": "249.9 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -2174,14 +2174,14 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/middle-triassic"
       },
       "time:hasBeginning": "246.7 Ma",
-      "time:hasEnd": "242 Ma",
+      "time:hasEnd": "241.464 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
       "@id": "https://metadatahub.eu/data/geologic-timescale/ladinian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Ladinian (Ladins)",
+        "@value": "Ladinian (Ladins / Ladinisch)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2192,7 +2192,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/middle-triassic"
       },
-      "time:hasBeginning": "242 Ma",
+      "time:hasBeginning": "241.464 Ma",
       "time:hasEnd": "237 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -2231,7 +2231,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/late-triassic"
       },
       "time:hasBeginning": "237 Ma",
-      "time:hasEnd": "227 Ma",
+      "time:hasEnd": "227.3 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -2249,15 +2249,15 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/late-triassic"
       },
-      "time:hasBeginning": "227 Ma",
-      "time:hasEnd": "208.5 Ma",
+      "time:hasBeginning": "227.3 Ma",
+      "time:hasEnd": "205.7 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
       "@id": "https://metadatahub.eu/data/geologic-timescale/rhaetian",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Rhaetian (Raetia)",
+        "@value": "Rhaetian (Raetia / Rätisch)",
         "@language": "en"
       },
       "skos:definition": {
@@ -2268,7 +2268,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/late-triassic"
       },
-      "time:hasBeginning": "208.5 Ma",
+      "time:hasBeginning": "205.7 Ma",
       "time:hasEnd": "201.4 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -3492,11 +3492,11 @@
       "@id": "https://metadatahub.eu/data/geologic-timescale/meghalayan",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Meghalayan (मेघालय Meghālaya)",
+        "@value": "Meghalayan (मेघालय Meghālaya / Khasi: Ri Khasi)",
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Late Holocene; 4.2 ka drought; rise and fall of Bronze Age civilizations; present day.",
+        "@value": "Late Holocene; 4.2 ka drought; rise and fall of Bronze Age civilizations; present day; GSSP at Mawmluh Cave, Khasi Hills.",
         "@language": "en"
       },
       "gts:rank": "Age",
@@ -3770,7 +3770,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/mesolithic"
       },
       "time:hasBeginning": "6000 BCE",
-      "time:hasEnd": "4000 BCE",
+      "time:hasEnd": "3200 BCE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -3845,7 +3845,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/neolithic"
       },
-      "time:hasBeginning": "3200 BCE",
+      "time:hasBeginning": "3400 BCE",
       "time:hasEnd": "2300 BCE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -4700,7 +4700,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/early-modern"
       },
-      "time:hasBeginning": "1718 CE",
+      "time:hasBeginning": "1719 CE",
       "time:hasEnd": "1772 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -6183,7 +6183,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/lopingian"
       },
       "time:hasBeginning": "252 Ma",
-      "time:hasEnd": "251 Ma",
+      "time:hasEnd": "251.9 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -6239,8 +6239,84 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/maastrichtian"
       },
-      "time:hasBeginning": "67 Ma",
-      "time:hasEnd": "65 Ma",
+      "time:hasBeginning": "66.4 Ma",
+      "time:hasEnd": "65.5 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/chicxulub-impact",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Chicxulub Impact (Chicxulub, Yucatán / Maaya)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "~10 km asteroid strikes Yucatán Peninsula; 180 km crater; impact winter; global wildfires; acid rain; tsunami; primary trigger of K-Pg mass extinction; iridium anomaly discovered by Alvarez et al. (1980).",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/maastrichtian"
+      },
+      "time:hasBeginning": "66.05 Ma",
+      "time:hasEnd": "66 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/siberian-traps",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Siberian Traps (Сибирские траппы Sibirskiye trappy)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Largest known continental flood basalt; ~7 million km² lava; released massive CO₂ and SO₂; primary trigger of Permian–Triassic extinction; thermogenic carbon from coal and evaporite contact metamorphism.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/lopingian"
+      },
+      "time:hasBeginning": "252.2 Ma",
+      "time:hasEnd": "250.6 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/emeishan-traps",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Emeishan Traps (峨眉山暗色岩 Éméishān ànsèyán)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Large igneous province in southwestern China (Sichuan, Yunnan, Guizhou); ~0.5 million km²; linked to Capitanian/end-Guadalupian extinction event; preceded Siberian Traps by ~8 Myr.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/permian"
+      },
+      "time:hasBeginning": "260.5 Ma",
+      "time:hasEnd": "257 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/camp-volcanism",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Central Atlantic Magmatic Province (CAMP)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "One of Earth's largest igneous provinces; erupted as Pangaea rifted; ~11 million km²; primary trigger of end-Triassic mass extinction; CO₂-driven warming and ocean acidification.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/late-triassic"
+      },
+      "time:hasBeginning": "201.6 Ma",
+      "time:hasEnd": "200.9 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -6279,6 +6355,44 @@
       },
       "time:hasBeginning": "2400 Ma",
       "time:hasEnd": "2100 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/lomagundi-jatuli",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Lomagundi–Jatuli Event (Lomagundi, Zimbabwe / Jatuli, Karelia)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Largest positive carbon isotope excursion in Earth history (δ¹³C up to +12‰); immediately follows GOE; indicates massive organic carbon burial; associated with first rise of atmospheric oxygen; global extent confirmed from Fennoscandia to southern Africa.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/paleoproterozoic"
+      },
+      "time:hasBeginning": "2220 Ma",
+      "time:hasEnd": "2060 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/great-unconformity",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Great Unconformity (Grand Canyon / Lipalian)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Global gap in the rock record between Precambrian basement and Cambrian strata; up to 1.2 billion years missing in places; cause debated: Snowball Earth glacial erosion, continental denudation, or Rodinia rifting; term coined by John Wesley Powell (1869); Lipalian interval of Walcott (1910).",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/neoproterozoic"
+      },
+      "time:hasBeginning": "1000 Ma",
+      "time:hasEnd": "539 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -6396,6 +6510,25 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/carnian-pluvial",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Carnian Pluvial Episode (CPE / Karnische Alpen)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Major climate perturbation; ~2 Myr of increased rainfall globally; Wrangellia LIP volcanism as trigger; diversification of dinosaurs, conifers, corals; reef crisis; significant turnover in marine and terrestrial ecosystems.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/carnian"
+      },
+      "time:hasBeginning": "234 Ma",
+      "time:hasEnd": "232 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
       "@id": "https://metadatahub.eu/data/geologic-timescale/boring-billion",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
@@ -6431,6 +6564,158 @@
       },
       "time:hasBeginning": "0.074 Ma",
       "time:hasEnd": "0.074 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/rodinia-assembly",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Rodinia Assembly (Grenville Orogeny / родина Rodina)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Assembly of supercontinent Rodinia via Grenville orogeny; included most of Earth's continental crust; name from Russian 'родина' (homeland); precursor configuration shaped later tectonic and glacial history.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/proterozoic"
+      },
+      "time:hasBeginning": "1100 Ma",
+      "time:hasEnd": "900 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/rodinia-breakup",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Rodinia Breakup (родина распад)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Rifting and breakup of supercontinent Rodinia; opened Iapetus Ocean; weathering of newly exposed continental margins may have triggered Snowball Earth glaciations (Sturtian, Marinoan); led to formation of Gondwana.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/neoproterozoic"
+      },
+      "time:hasBeginning": "750 Ma",
+      "time:hasEnd": "633 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/pangaea-assembly",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Pangaea Assembly (Πᾶν γαῖα / Variscan–Alleghenian)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Assembly of Earth's most recent supercontinent from collision of Gondwana and Laurussia; Variscan/Hercynian and Alleghanian orogenies; enclosed Tethys Ocean; profoundly altered global climate and ocean circulation.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/paleozoic"
+      },
+      "time:hasBeginning": "335 Ma",
+      "time:hasEnd": "270 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/pangaea-breakup",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Pangaea Breakup (Πᾶν γαῖα rift)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Rifting of Pangaea beginning in Late Triassic/Early Jurassic; separation into Laurasia and Gondwana; opening of Central Atlantic Ocean; CAMP volcanism associated with initial rifting; shaped modern continental configuration.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/jurassic"
+      },
+      "time:hasBeginning": "200 Ma",
+      "time:hasEnd": "150 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/oae-1a",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Oceanic Anoxic Event 1a (OAE 1a / Selli Event / Selli, Italia)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Widespread ocean anoxia linked to Ontong Java Plateau volcanism; massive organic carbon burial; black shale deposition; major perturbation of global carbon cycle; significant marine biotic turnover.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/aptian"
+      },
+      "time:hasBeginning": "120 Ma",
+      "time:hasEnd": "119 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/oae-2",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Oceanic Anoxic Event 2 (OAE 2 / Bonarelli Event / Bonarelli, Italia)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Most severe Cretaceous oceanic anoxic event; global black shale deposition; ~27% of marine invertebrate genera extinct; linked to Caribbean LIP volcanism; major δ¹³C excursion used as global stratigraphic marker.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/cenomanian"
+      },
+      "time:hasBeginning": "94.4 Ma",
+      "time:hasEnd": "93.9 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/isthmus-panama",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Isthmus of Panama Closure (Istmo de Panamá / GABI)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Tectonic closure of Central American Seaway; diverted Atlantic/Pacific currents; strengthened Gulf Stream and thermohaline circulation; triggered Great American Biotic Interchange (GABI); contributed to Northern Hemisphere glaciation onset.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/piacenzian"
+      },
+      "time:hasBeginning": "3.5 Ma",
+      "time:hasEnd": "2.8 Ma",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/mmct",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Mid-Miocene Climate Transition (MMCT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Abrupt global cooling following Mid-Miocene Climatic Optimum; major expansion of East Antarctic ice sheet; global sea level drop; grasslands expand at expense of forests; key inflection point toward modern icehouse climate.",
+        "@language": "en"
+      },
+      "gts:rank": "Age",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/serravallian"
+      },
+      "time:hasBeginning": "14.0 Ma",
+      "time:hasEnd": "13.8 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -8063,8 +8348,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/paleo-indians"
       },
-      "time:hasBeginning": "11500 BCE",
-      "time:hasEnd": "10800 BCE",
+      "time:hasBeginning": "11050 BCE",
+      "time:hasEnd": "10750 BCE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -8246,7 +8531,7 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Largest city in pre-Columbian Americas (~125,000 people); Pyramids of the Sun and Moon; Avenue of the Dead; influence across Mesoamerica.",
+        "@value": "Largest city in pre-Columbian Americas (~125,000 people); Pyramids of the Sun and Moon; Avenue of the Dead; major fire ~550 CE; final abandonment ~750 CE.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
@@ -8254,7 +8539,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/mesoamerica"
       },
       "time:hasBeginning": "100 CE",
-      "time:hasEnd": "550 CE",
+      "time:hasEnd": "750 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -10108,7 +10393,7 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Napata capital; 25th Dynasty pharaohs rule Egypt (Piye, Taharqa ~700 BCE); expelled by Assyrians; continued as independent kingdom.",
+        "@value": "Napata capital; 25th Dynasty pharaohs rule Egypt (Piye, Taharqa ~700 BCE); expelled by Assyrians; capital shifts to Meroe ~300 BCE.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
@@ -10116,7 +10401,7 @@
         "@id": "https://metadatahub.eu/data/geologic-timescale/nubia-kush"
       },
       "time:hasBeginning": "1070 BCE",
-      "time:hasEnd": "350 BCE",
+      "time:hasEnd": "300 BCE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -15523,15 +15808,15 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Long-pause then rapid expansion; Marquesas (~300 CE), Hawaiʻi (~1000 CE), Rapa Nui (~1200 CE); double-hulled canoes; star navigation.",
+        "@value": "Rapid expansion into Eastern Polynesia; Marquesas (~300 CE), Hawaiʻi (~1000 CE), Rapa Nui (~1200 CE), Aotearoa (~1250 CE); double-hulled canoes; star navigation.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/polynesia-history"
       },
-      "time:hasBeginning": "200 CE",
-      "time:hasEnd": "1200 CE",
+      "time:hasBeginning": "300 CE",
+      "time:hasEnd": "1300 CE",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
@@ -15554,14 +15839,14 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
-      "@id": "https://metadatahub.eu/data/geologic-timescale/tuamotuan-cook",
+      "@id": "https://metadatahub.eu/data/geologic-timescale/cook-islands-settlement",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
-        "@value": "Cook Islands & Tuamotus Settlement (Kūki 'Āirani / Tuāmotu)",
+        "@value": "Cook Islands Settlement (Kūki 'Āirani)",
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Settlement of remote atolls and islands; coral architecture; lagoon aquaculture; celestial navigation mastery; pre-European contact societies.",
+        "@value": "Settlement from Society Islands; coral architecture; lagoon aquaculture; Rarotonga seat of power; pre-European contact societies.",
         "@language": "en"
       },
       "gts:rank": "CulturalAge",
@@ -15573,7 +15858,26 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
-      "@id": "https://metadatahub.eu/data/geologic-timescale/hawaiian-kingdom-pre",
+      "@id": "https://metadatahub.eu/data/geologic-timescale/tuamotu-settlement",
+      "@type": "gts:GeochronologicAge",
+      "rdfs:label": {
+        "@value": "Tuamotu Settlement (Tuāmotu)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Settlement of remote atolls; pearl diving; celestial navigation mastery; coral-atoll adaptation; pre-European contact societies.",
+        "@language": "en"
+      },
+      "gts:rank": "CulturalAge",
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/geologic-timescale/polynesia-history"
+      },
+      "time:hasBeginning": "900 CE",
+      "time:hasEnd": "1595 CE",
+      "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/geologic-timescale/ancient-hawaii",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
         "@value": "Ancient Hawaiʻi (Hawaiʻi kahiko)",
@@ -15630,7 +15934,7 @@
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {
-      "@id": "https://metadatahub.eu/data/geologic-timescale/tongaempire",
+      "@id": "https://metadatahub.eu/data/geologic-timescale/tui-tonga-empire",
       "@type": "gts:GeochronologicAge",
       "rdfs:label": {
         "@value": "Tuʻi Tonga Empire (Puleʻanga Tuʻi Tonga)",

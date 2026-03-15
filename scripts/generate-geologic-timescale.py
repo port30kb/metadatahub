@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """Generate the Geologic Time Scale as Linked Data (Turtle + JSON-LD).
 
-836 data points covering:
+852 data points covering:
 - 4 Eons
 - 10 Eras
 - 22 Periods (incl. Mississippian/Pennsylvanian sub-periods)
 - 38 Epochs
-- ~83 Ages/Stages (Mesozoic + Cenozoic + Pleistocene + Holocene + geologic events)
+- ~90 Ages/Stages (Mesozoic + Cenozoic + Pleistocene + Holocene + geologic events)
 - ~20 Paleozoic epoch-level divisions
 - Archaeological/cultural ages bridging into human history
 
@@ -127,10 +127,10 @@ add("gaskiers", "Gaskiers Glaciation (Gaskiers, Terre-Neuve)", "Age", "ediacaran
 # ═══════════════════════════════════════════════════════════════
 # PHANEROZOIC — PALEOZOIC ERA & PERIODS
 # ═══════════════════════════════════════════════════════════════
-add("paleozoic", "Paleozoic (Παλαιός ζωή)", "Era", "phanerozoic", 538.8, 251.9, "Ma",
+add("paleozoic", "Paleozoic (Παλαιός ζωή)", "Era", "phanerozoic", 538.8, 251.902, "Ma",
     "Era of ancient life; Cambrian explosion, first fish, amphibians, reptiles, forests.")
 
-add("cambrian", "Cambrian (Cymru)", "Period", "paleozoic", 538.8, 485.4, "Ma",
+add("cambrian", "Cambrian (Cymru)", "Period", "paleozoic", 538.8, 486.85, "Ma",
     "Cambrian explosion: most major animal phyla appear rapidly in the fossil record.")
 add("terreneuvian", "Terreneuvian (Terre-Neuve)", "Epoch", "cambrian", 538.8, 521, "Ma",
     "Earliest Cambrian epoch; small shelly fossils appear.")
@@ -138,109 +138,109 @@ add("fortunian", "Fortunian (Fortune Head)", "Age", "terreneuvian", 538.8, 529, 
     "Earliest Cambrian age; first trace fossils of bilaterian animals.")
 add("stage2-cambrian", "Cambrian Stage 2 (unnamed)", "Age", "terreneuvian", 529, 521, "Ma",
     "Small shelly fauna diversify; archaeocyathids appear.")
-add("epoch2-cambrian", "Cambrian Series 2 (unnamed)", "Epoch", "cambrian", 521, 509, "Ma",
+add("epoch2-cambrian", "Cambrian Series 2 (unnamed)", "Epoch", "cambrian", 521, 506.5, "Ma",
     "Trilobites diversify; archaeocyathid reefs.")
-add("stage3-cambrian", "Cambrian Stage 3 (unnamed)", "Age", "epoch2-cambrian", 521, 514, "Ma",
+add("stage3-cambrian", "Cambrian Stage 3 (unnamed)", "Age", "epoch2-cambrian", 521, 514.5, "Ma",
     "First trilobites appear; Cambrian explosion accelerates.")
-add("stage4-cambrian", "Cambrian Stage 4 (unnamed)", "Age", "epoch2-cambrian", 514, 509, "Ma",
+add("stage4-cambrian", "Cambrian Stage 4 (unnamed)", "Age", "epoch2-cambrian", 514.5, 506.5, "Ma",
     "Archaeocyathid reef-builders peak then decline.")
-add("miaolingian", "Miaolingian (苗岭)", "Epoch", "cambrian", 509, 497, "Ma",
+add("miaolingian", "Miaolingian (苗岭)", "Epoch", "cambrian", 506.5, 497, "Ma",
     "Peak trilobite diversity; Burgess Shale-type faunas.")
-add("wuliuan", "Wuliuan (乌溜)", "Age", "miaolingian", 509, 504.5, "Ma",
+add("wuliuan", "Wuliuan (乌溜)", "Age", "miaolingian", 506.5, 504.5, "Ma",
     "Burgess Shale fauna; diverse arthropods and anomalocaridids.")
 add("drumian", "Drumian (Drum Mountains)", "Age", "miaolingian", 504.5, 500.5, "Ma",
     "Agnostid trilobites flourish; deep-water faunas diversify.")
 add("guzhangian", "Guzhangian (古丈)", "Age", "miaolingian", 500.5, 497, "Ma",
     "Trilobite turnover; transition toward Furongian faunas.")
-add("furongian", "Furongian (芙蓉)", "Epoch", "cambrian", 497, 485.4, "Ma",
+add("furongian", "Furongian (芙蓉)", "Epoch", "cambrian", 497, 486.85, "Ma",
     "Trilobite extinctions; first cephalopods appear.")
 add("paibian", "Paibian (排碧)", "Age", "furongian", 497, 494.2, "Ma",
     "SPICE carbon isotope excursion; trilobite extinction pulse.")
 add("jiangshanian", "Jiangshanian (江山)", "Age", "furongian", 494.2, 491, "Ma",
     "Trilobite recovery; earliest cephalopods diversify.")
-add("stage10-cambrian", "Cambrian Stage 10 (unnamed)", "Age", "furongian", 491, 485.4, "Ma",
+add("stage10-cambrian", "Cambrian Stage 10 (unnamed)", "Age", "furongian", 491, 486.85, "Ma",
     "Final Cambrian stage; transition to Ordovician biodiversification.")
 
-add("ordovician", "Ordovician (Ordowices)", "Period", "paleozoic", 485.4, 443.8, "Ma",
+add("ordovician", "Ordovician (Ordowices)", "Period", "paleozoic", 486.85, 443.1, "Ma",
     "Great Ordovician Biodiversification Event; first land plants; ends with mass extinction.")
-add("early-ordovician", "Early Ordovician (Ordowices)", "Epoch", "ordovician", 485.4, 471.3, "Ma",
+add("early-ordovician", "Early Ordovician (Ordowices)", "Epoch", "ordovician", 486.85, 471.3, "Ma",
     "Biodiversification begins; graptolites and brachiopods flourish.")
-add("tremadocian", "Tremadocian (Tremadog)", "Age", "early-ordovician", 485.4, 477.7, "Ma",
+add("tremadocian", "Tremadocian (Tremadog)", "Age", "early-ordovician", 486.85, 477.1, "Ma",
     "Conodonts and graptolites diversify; first planktonic ecosystems.")
-add("floian", "Floian (Flo, Hunneberg)", "Age", "early-ordovician", 477.7, 471.3, "Ma",
+add("floian", "Floian (Flo, Västergötland; GSSP at Hunneberg)", "Age", "early-ordovician", 477.1, 471.3, "Ma",
     "First bryozoans; corals begin to diversify.")
-add("middle-ordovician", "Middle Ordovician (Ordowices)", "Epoch", "ordovician", 471.3, 458.4, "Ma",
+add("middle-ordovician", "Middle Ordovician (Ordowices)", "Epoch", "ordovician", 471.3, 458.2, "Ma",
     "Great Ordovician Biodiversification Event peaks.")
 add("dapingian", "Dapingian (大坪)", "Age", "middle-ordovician", 471.3, 469.4, "Ma",
     "GOBE intensifies; cephalopods diversify as top marine predators.")
-add("darriwilian", "Darriwilian (Darriwil)", "Age", "middle-ordovician", 469.4, 458.4, "Ma",
+add("darriwilian", "Darriwilian (Darriwil)", "Age", "middle-ordovician", 469.4, 458.2, "Ma",
     "Peak of Great Ordovician Biodiversification; stromatoporoid reefs.")
-add("late-ordovician", "Late Ordovician (Ordowices)", "Epoch", "ordovician", 458.4, 443.8, "Ma",
+add("late-ordovician", "Late Ordovician (Ordowices)", "Epoch", "ordovician", 458.2, 443.1, "Ma",
     "End-Ordovician glaciation and mass extinction; ~85% of marine species lost.")
-add("sandbian", "Sandbian (Sandby, Öland)", "Age", "late-ordovician", 458.4, 453.0, "Ma",
-    "Taconic orogeny; diverse brachiopod communities.")
-add("katian", "Katian (Katy, Oklahoma)", "Age", "late-ordovician", 453.0, 445.2, "Ma",
+add("sandbian", "Sandbian (Södra Sandby, Skåne)", "Age", "late-ordovician", 458.2, 452.8, "Ma",
+    "Taconic orogeny; diverse brachiopod communities; GSSP at Fågelsång, east of Lund.")
+add("katian", "Katian (Katy, Oklahoma)", "Age", "late-ordovician", 452.8, 445.2, "Ma",
     "Peak marine diversity; Gondwanan glaciation begins.")
-add("hirnantian", "Hirnantian (Cwm Hirnant)", "Age", "late-ordovician", 445.2, 443.8, "Ma",
+add("hirnantian", "Hirnantian (Cwm Hirnant)", "Age", "late-ordovician", 445.2, 443.1, "Ma",
     "End-Ordovician mass extinction; rapid glaciation and sea level drop.")
 
-add("silurian", "Silurian (Silures)", "Period", "paleozoic", 443.8, 419.2, "Ma",
+add("silurian", "Silurian (Silures)", "Period", "paleozoic", 443.1, 419.62, "Ma",
     "Recovery from extinction; first vascular land plants; jawed fish appear.")
-add("llandovery", "Llandovery (Llanymddyfri)", "Epoch", "silurian", 443.8, 433.4, "Ma",
+add("llandovery", "Llandovery (Llanymddyfri)", "Epoch", "silurian", 443.1, 432.9, "Ma",
     "Post-extinction recovery; graptolite diversification.")
-add("rhuddanian", "Rhuddanian (Cefn-cerig Rhuddan)", "Age", "llandovery", 443.8, 440.8, "Ma",
+add("rhuddanian", "Rhuddanian (Cefn-cerig Rhuddan)", "Age", "llandovery", 443.1, 440.5, "Ma",
     "Earliest Silurian; rapid recovery of graptolite faunas.")
-add("aeronian", "Aeronian (Cwm-coed-Aeron)", "Age", "llandovery", 440.8, 438.5, "Ma",
+add("aeronian", "Aeronian (Cwm-coed-Aeron)", "Age", "llandovery", 440.5, 438.6, "Ma",
     "Continued recovery; first land plant spores.")
-add("telychian", "Telychian (Pen-lan-Telechi)", "Age", "llandovery", 438.5, 433.4, "Ma",
+add("telychian", "Telychian (Pen-lan-Telechi)", "Age", "llandovery", 438.6, 432.9, "Ma",
     "Graptolite diversity peak; first vascular plant fossils.")
-add("wenlock", "Wenlock (Much Wenlock)", "Epoch", "silurian", 433.4, 427.4, "Ma",
+add("wenlock", "Wenlock (Much Wenlock)", "Epoch", "silurian", 432.9, 426.7, "Ma",
     "First land plants with vascular tissue; coral reef expansion.")
-add("sheinwoodian", "Sheinwoodian (Sheinton Brook)", "Age", "wenlock", 433.4, 430.5, "Ma",
+add("sheinwoodian", "Sheinwoodian (Sheinwood)", "Age", "wenlock", 432.9, 430.6, "Ma",
     "Ireviken extinction event; reef ecosystems expand.")
-add("homerian", "Homerian (Homer, Shropshire)", "Age", "wenlock", 430.5, 427.4, "Ma",
+add("homerian", "Homerian (Homer, Shropshire)", "Age", "wenlock", 430.6, 426.7, "Ma",
     "Mulde extinction event; eurypterids (sea scorpions) diversify.")
-add("ludlow", "Ludlow (Ludlow, Shropshire)", "Epoch", "silurian", 427.4, 423.0, "Ma",
+add("ludlow", "Ludlow (Ludlow, Shropshire)", "Epoch", "silurian", 426.7, 422.7, "Ma",
     "First terrestrial arachnids; brachiopod diversity peak.")
-add("gorstian", "Gorstian (Gorst, Shropshire)", "Age", "ludlow", 427.4, 425.6, "Ma",
-    "Lau extinction event; graptolite fauna turnover.")
-add("ludfordian", "Ludfordian (Ludford, Shropshire)", "Age", "ludlow", 425.6, 423.0, "Ma",
-    "First terrestrial arthropod traces; jawed fish diversify.")
-add("pridoli", "Přídolí (Přídolí, Česko)", "Epoch", "silurian", 423.0, 419.2, "Ma",
+add("gorstian", "Gorstian (Gorsty, Shropshire)", "Age", "ludlow", 426.7, 425, "Ma",
+    "Linde Event; marine fauna turnover.")
+add("ludfordian", "Ludfordian (Ludford, Shropshire)", "Age", "ludlow", 425, 422.7, "Ma",
+    "Lau extinction event; first terrestrial arthropod traces; jawed fish diversify.")
+add("pridoli", "Přídolí (Přídolí, Česko)", "Epoch", "silurian", 422.7, 419.62, "Ma",
     "First jawed fish diversify; transition toward Devonian.")
 
-add("devonian", "Devonian (Devon)", "Period", "paleozoic", 419.2, 358.9, "Ma",
+add("devonian", "Devonian (Devon)", "Period", "paleozoic", 419.62, 358.86, "Ma",
     "Age of Fishes; first forests, first insects, first amphibians.")
-add("klonk-event", "Klonk GSSP (Silurian–Devonian boundary / Klonk, Česko)", "Age", "pridoli", 419.2, 419.2, "Ma",
+add("klonk-event", "Klonk GSSP (Silurian–Devonian boundary / Klonk, Česko)", "Age", "pridoli", 419.62, 419.62, "Ma",
     "First GSSP ever ratified (1972); Klonk, Czech Republic; defined by first appearance of graptolite Monograptus uniformis; marks base of Devonian.")
-add("early-devonian", "Early Devonian (Devon)", "Epoch", "devonian", 419.2, 393.3, "Ma",
+add("early-devonian", "Early Devonian (Devon)", "Epoch", "devonian", 419.62, 393.47, "Ma",
     "First seed plants; armored fish diversify.")
-add("lochkovian", "Lochkovian (Lochkov, Praha)", "Age", "early-devonian", 419.2, 410.8, "Ma",
+add("lochkovian", "Lochkovian (Lochkov, Praha)", "Age", "early-devonian", 419.62, 413.02, "Ma",
     "Earliest Devonian; jawed fish radiation continues.")
-add("pragian", "Pragian (Praha)", "Age", "early-devonian", 410.8, 407.6, "Ma",
+add("pragian", "Pragian (Praha)", "Age", "early-devonian", 413.02, 410.62, "Ma",
     "First true leaves (lycopsids); early vascular plants spread onto land.")
-add("emsian", "Emsian (Bad Ems)", "Age", "early-devonian", 407.6, 393.3, "Ma",
+add("emsian", "Emsian (Bad Ems)", "Age", "early-devonian", 410.62, 393.47, "Ma",
     "First insects; ammonoids appear; widespread reef systems.")
-add("middle-devonian", "Middle Devonian (Devon)", "Epoch", "devonian", 393.3, 382.7, "Ma",
+add("middle-devonian", "Middle Devonian (Devon)", "Epoch", "devonian", 393.47, 382.31, "Ma",
     "First forests appear; ammonoids originate.")
-add("eifelian", "Eifelian (Eifel)", "Age", "middle-devonian", 393.3, 387.7, "Ma",
+add("eifelian", "Eifelian (Eifel)", "Age", "middle-devonian", 393.47, 387.95, "Ma",
     "Stromatoporoid-coral reefs peak; first seed ferns.")
-add("givetian", "Givetian (Givet)", "Age", "middle-devonian", 387.7, 382.7, "Ma",
+add("givetian", "Givetian (Givet)", "Age", "middle-devonian", 387.95, 382.31, "Ma",
     "First forests (Archaeopteris); placoderms diversify.")
-add("late-devonian", "Late Devonian (Devon)", "Epoch", "devonian", 382.7, 358.9, "Ma",
+add("late-devonian", "Late Devonian (Devon)", "Epoch", "devonian", 382.31, 358.86, "Ma",
     "First tetrapods; Late Devonian extinction event (~75% of species).")
-add("frasnian", "Frasnian (Frasnes-lez-Couvin)", "Age", "late-devonian", 382.7, 372.2, "Ma",
+add("frasnian", "Frasnian (Frasnes-lez-Couvin)", "Age", "late-devonian", 382.31, 372.15, "Ma",
     "Massive reef systems; Frasnian-Famennian extinction (Kellwasser Event).")
-add("famennian", "Famennian (Famenne)", "Age", "late-devonian", 372.2, 358.9, "Ma",
+add("famennian", "Famennian (Famenne)", "Age", "late-devonian", 372.15, 358.86, "Ma",
     "Post-extinction recovery; first tetrapod trackways; Hangenberg Event at end.")
 
-add("carboniferous", "Carboniferous (carbō + ferre)", "Period", "paleozoic", 358.9, 298.9, "Ma",
+add("carboniferous", "Carboniferous (carbō + ferre)", "Period", "paleozoic", 358.86, 298.9, "Ma",
     "Vast coal swamp forests; first reptiles; high atmospheric oxygen.")
-add("mississippian", "Mississippian (Mississippi)", "SubPeriod", "carboniferous", 358.9, 323.4, "Ma",
+add("mississippian", "Mississippian (Mississippi)", "SubPeriod", "carboniferous", 358.86, 323.4, "Ma",
     "Early Carboniferous; large crinoid and coral reefs; amphibians diversify.")
-add("early-mississippian", "Early Mississippian (Mississippi)", "Epoch", "mississippian", 358.9, 346.7, "Ma",
+add("early-mississippian", "Early Mississippian (Mississippi)", "Epoch", "mississippian", 358.86, 346.7, "Ma",
     "Tournaisian age; recovery after Devonian extinction.")
-add("tournaisian", "Tournaisian (Tournai / Doornik)", "Age", "early-mississippian", 358.9, 346.7, "Ma",
+add("tournaisian", "Tournaisian (Tournai / Doornik)", "Age", "early-mississippian", 358.86, 346.7, "Ma",
     "Post-Devonian recovery; crinoid meadows; early tetrapod diversification (Romer's Gap).")
 add("middle-mississippian", "Middle Mississippian (Mississippi)", "Epoch", "mississippian", 346.7, 330.3, "Ma",
     "Viséan age; widespread limestone deposition; large coral reefs.")
@@ -254,7 +254,7 @@ add("pennsylvanian", "Pennsylvanian (Pennsylvania)", "SubPeriod", "carboniferous
     "Late Carboniferous; coal swamps peak; first reptiles appear.")
 add("early-pennsylvanian", "Early Pennsylvanian (Pennsylvania)", "Epoch", "pennsylvanian", 323.4, 315.2, "Ma",
     "Bashkirian age; Pangaea begins to assemble.")
-add("bashkirian", "Bashkirian (Башҡортостан)", "Age", "early-pennsylvanian", 323.4, 315.2, "Ma",
+add("bashkirian", "Bashkirian (Башкирский ярус / Башҡортостан)", "Age", "early-pennsylvanian", 323.4, 315.2, "Ma",
     "First large coal swamps; Pangaea assembly accelerates; early reptile diversification.")
 add("middle-pennsylvanian", "Middle Pennsylvanian (Pennsylvania)", "Epoch", "pennsylvanian", 315.2, 307, "Ma",
     "Moscovian age; giant insects thrive in high-oxygen atmosphere.")
@@ -267,14 +267,14 @@ add("kasimovian", "Kasimovian (Касимов)", "Age", "late-pennsylvanian", 30
 add("gzhelian", "Gzhelian (Гжель)", "Age", "late-pennsylvanian", 303.7, 298.9, "Ma",
     "Coal swamps retreat as climate dries; Pangaea nearly complete.")
 
-add("permian", "Permian (Пермь)", "Period", "paleozoic", 298.9, 251.9, "Ma",
+add("permian", "Permian (Пермь)", "Period", "paleozoic", 298.9, 251.902, "Ma",
     "Pangaea complete; therapsids (mammal ancestors) dominate; ends with the Great Dying.")
 add("cisuralian", "Cisuralian (Цис-Урал)", "Epoch", "permian", 298.9, 274.4, "Ma",
     "Early Permian; diverse amphibian and reptile faunas.")
 add("asselian", "Asselian (Ассель)", "Age", "cisuralian", 298.9, 293.52, "Ma",
     "Earliest Permian; glaciation continues in Gondwana.")
 add("sakmarian", "Sakmarian (Сакмара)", "Age", "cisuralian", 293.52, 290.1, "Ma",
-    "Pelycosaurs (sail-backed reptiles) diversify, including Dimetrodon.")
+    "Pelycosaurs (sail-backed synapsids) diversify, including Dimetrodon.")
 add("artinskian", "Artinskian (Артинск)", "Age", "cisuralian", 290.1, 283.3, "Ma",
     "Gondwanan glaciation wanes; conifers spread.")
 add("kungurian", "Kungurian (Кунгур)", "Age", "cisuralian", 283.3, 274.4, "Ma",
@@ -287,40 +287,40 @@ add("wordian", "Wordian (Word Formation)", "Age", "guadalupian", 266.9, 264.28, 
     "Reef ecosystems flourish; diverse fusulinid foraminifera.")
 add("capitanian", "Capitanian (El Capitán)", "Age", "guadalupian", 264.28, 259.51, "Ma",
     "Capitanian mass extinction: major reef collapse and biodiversity loss.")
-add("lopingian", "Lopingian (乐平 Lèpíng)", "Epoch", "permian", 259.51, 251.9, "Ma",
+add("lopingian", "Lopingian (乐平 Lèpíng)", "Epoch", "permian", 259.51, 251.902, "Ma",
     "Late Permian; Permian–Triassic extinction: ~96% of marine species lost.")
 add("wuchiapingian", "Wuchiapingian (吴家坪)", "Age", "lopingian", 259.51, 254.14, "Ma",
     "Post-Capitanian recovery; Dicynodonts become dominant herbivores.")
-add("changhsingian", "Changhsingian (长兴)", "Age", "lopingian", 254.14, 251.9, "Ma",
+add("changhsingian", "Changhsingian (长兴)", "Age", "lopingian", 254.14, 251.902, "Ma",
     "The Great Dying: Siberian Traps volcanism triggers worst mass extinction in Earth history.")
 
 # ═══════════════════════════════════════════════════════════════
 # PHANEROZOIC — MESOZOIC ERA & PERIODS
 # ═══════════════════════════════════════════════════════════════
-add("mesozoic", "Mesozoic (Μέσος ζωή)", "Era", "phanerozoic", 251.9, 66, "Ma",
+add("mesozoic", "Mesozoic (Μέσος ζωή)", "Era", "phanerozoic", 251.902, 66, "Ma",
     "Age of Reptiles; dinosaurs, first mammals, first birds, first flowering plants.")
 
-add("triassic", "Triassic (trias)", "Period", "mesozoic", 251.9, 201.4, "Ma",
+add("triassic", "Triassic (trias)", "Period", "mesozoic", 251.902, 201.4, "Ma",
     "Recovery from Permian extinction; first dinosaurs, first mammals, first pterosaurs.")
-add("early-triassic", "Early Triassic (trias)", "Epoch", "triassic", 251.9, 246.7, "Ma",
+add("early-triassic", "Early Triassic (trias)", "Epoch", "triassic", 251.902, 246.7, "Ma",
     "Slow recovery from extinction; Lystrosaurus dominates terrestrial fauna.")
-add("induan", "Induan (सिन्धु / Sindh)", "Age", "early-triassic", 251.9, 249.9, "Ma",
+add("induan", "Induan (सिन्धु / Sindh)", "Age", "early-triassic", 251.902, 249.9, "Ma",
     "Earliest Triassic stage; extremely low biodiversity, harsh conditions.")
 add("olenekian", "Olenekian (Оленёк)", "Age", "early-triassic", 249.9, 246.7, "Ma",
     "Marine ecosystems begin recovery; first ichthyosaurs appear.")
 add("middle-triassic", "Middle Triassic (trias)", "Epoch", "triassic", 246.7, 237, "Ma",
     "Archosaurs diversify; first dinosauromorphs.")
-add("anisian", "Anisian (Enns / Anisus)", "Age", "middle-triassic", 246.7, 242, "Ma",
+add("anisian", "Anisian (Enns / Anisus)", "Age", "middle-triassic", 246.7, 241.464, "Ma",
     "Marine reptiles diversify; coral reefs re-establish.")
-add("ladinian", "Ladinian (Ladins)", "Age", "middle-triassic", 242, 237, "Ma",
+add("ladinian", "Ladinian (Ladins / Ladinisch)", "Age", "middle-triassic", 241.464, 237, "Ma",
     "First dinosauriform tracks; seed ferns and conifers dominate.")
 add("late-triassic", "Late Triassic (trias)", "Epoch", "triassic", 237, 201.4, "Ma",
     "First true dinosaurs, mammals, and pterosaurs; Triassic–Jurassic extinction at end.")
-add("carnian", "Carnian (Karnische Alpen)", "Age", "late-triassic", 237, 227, "Ma",
+add("carnian", "Carnian (Karnische Alpen)", "Age", "late-triassic", 237, 227.3, "Ma",
     "Carnian Pluvial Episode: major climate shift; first dinosaurs appear.")
-add("norian", "Norian (Noricum)", "Age", "late-triassic", 227, 208.5, "Ma",
+add("norian", "Norian (Noricum)", "Age", "late-triassic", 227.3, 205.7, "Ma",
     "Dinosaurs diversify; first turtles and crocodylomorphs.")
-add("rhaetian", "Rhaetian (Raetia)", "Age", "late-triassic", 208.5, 201.4, "Ma",
+add("rhaetian", "Rhaetian (Raetia / Rätisch)", "Age", "late-triassic", 205.7, 201.4, "Ma",
     "End-Triassic extinction opens ecological niches for dinosaurs.")
 
 add("jurassic", "Jurassic (Jura)", "Period", "mesozoic", 201.4, 143.1, "Ma",
@@ -413,9 +413,9 @@ add("priabonian", "Priabonian (Priabona)", "Age", "eocene", 37.71, 33.9, "Ma",
     "Grande Coupure extinction event in Europe; dramatic cooling.")
 add("oligocene", "Oligocene (ὀλίγος καινός)", "Epoch", "paleogene", 33.9, 23.04, "Ma",
     "Cooler and drier; grasslands expand; modern mammal families establish.")
-add("rupelian", "Rupelian (Rupel)", "Age", "oligocene", 33.9, 27.30, "Ma",
+add("rupelian", "Rupelian (Rupel)", "Age", "oligocene", 33.9, 27.3, "Ma",
     "Antarctic ice sheet permanent; global cooling continues.")
-add("chattian", "Chattian (Chatti / Chatten)", "Age", "oligocene", 27.30, 23.04, "Ma",
+add("chattian", "Chattian (Chatti / Chatten)", "Age", "oligocene", 27.3, 23.04, "Ma",
     "Late Oligocene warming; first deer and pigs appear.")
 
 add("neogene", "Neogene (νέος γένος)", "Period", "cenozoic", 23.04, 2.58, "Ma",
@@ -463,8 +463,8 @@ add("greenlandian", "Greenlandian (Kalaallit Nunaat / Grønland)", "Age", "holoc
     "Early Holocene; post-glacial warming; Mesolithic hunter-gatherers in Europe.")
 add("northgrippian", "Northgrippian (NorthGRIP, Grønland)", "Age", "holocene", 8200, 4200, "BP",
     "Middle Holocene; 8.2 ka cold event; agriculture spreads through Europe.")
-add("meghalayan", "Meghalayan (मेघालय Meghālaya)", "Age", "holocene", 4200, 0, "BP",
-    "Late Holocene; 4.2 ka drought; rise and fall of Bronze Age civilizations; present day.")
+add("meghalayan", "Meghalayan (मेघालय Meghālaya / Khasi: Ri Khasi)", "Age", "holocene", 4200, 0, "BP",
+    "Late Holocene; 4.2 ka drought; rise and fall of Bronze Age civilizations; present day; GSSP at Mawmluh Cave, Khasi Hills.")
 
 # Anthropocene (informal — rejected by IUGS March 2024, but widely used)
 add("anthropocene", "Anthropocene (informal / ἄνθρωπος καινός)", "Epoch", "quaternary", 1952, 0, "CE",
@@ -499,7 +499,7 @@ add("maglemosian", "Maglemosian Culture (Maglemosekulturen)", "CulturalAge", "me
     "Early Mesolithic hunter-gatherer culture in southern Scandinavia and northern Germany; flint microliths, bone harpoons.")
 add("kongemose", "Kongemose Culture (Kongemosekulturen)", "CulturalAge", "mesolithic", 6000, 5200, "BCE",
     "Middle Mesolithic in Denmark and southern Sweden; coastal adaptation, fishing, seal hunting.")
-add("nostvet-lihult", "Nøstvet and Lihult Cultures (Nøstvetkulturen / Lihultkulturen)", "CulturalAge", "mesolithic", 6000, 4000, "BCE",
+add("nostvet-lihult", "Nøstvet and Lihult Cultures (Nøstvetkulturen / Lihultkulturen)", "CulturalAge", "mesolithic", 6000, 3200, "BCE",
     "Middle-Late Mesolithic in most of southern Norway and Sweden; descendants of Fosna-Hensbacka; polished stone axes.")
 add("ertebolleculture", "Ertebølle Culture (Ertebøllekulturen)", "CulturalAge", "mesolithic", 5400, 3950, "BCE",
     "Late Mesolithic in southern Scandinavia; first pottery, large shell middens, transition to agriculture.")
@@ -507,7 +507,7 @@ add("neolithic", "Neolithic / New Stone Age (Neolitikum / Yngre stenåldern / Ju
     "Agriculture, polished stone tools, pottery, permanent settlements. Funnelbeaker culture in Scandinavia (~4000–2700 BCE).")
 add("funnelbeaker", "Funnelbeaker Culture (TRB)", "CulturalAge", "neolithic", 4000, 2700, "BCE",
     "First farming culture in Scandinavia; megalithic tombs (dolmens, passage graves); pottery with funnel-shaped rims.")
-add("pitted-ware", "Pitted Ware Culture (Gropkeramisk kultur)", "CulturalAge", "neolithic", 3200, 2300, "BCE",
+add("pitted-ware", "Pitted Ware Culture (Gropkeramisk kultur)", "CulturalAge", "neolithic", 3400, 2300, "BCE",
     "Concurrent hunter-gatherer-fisher culture in eastern Sweden, Gotland, and Finland; seal hunting, characteristic pitted pottery.")
 add("battle-axe", "Battle Axe Culture (Boat Axe Culture)", "CulturalAge", "neolithic", 2800, 2300, "BCE",
     "Scandinavian variant of Corded Ware culture; single graves, polished stone battle axes, early Indo-European influences.")
@@ -611,7 +611,7 @@ add("thirty-years-war", "Thirty Years' War Period (Trettioåriga kriget)", "Cult
     "Sweden enters as Protestant champion under Gustav II Adolf; Battle of Breitenfeld (1631); Peace of Westphalia (1648).")
 add("caroline-era", "Caroline Era (Karolinska tiden)", "CulturalAge", "swedish-empire", 1654, 1718, "CE",
     "Absolute monarchy under Charles X, XI, XII; reduktion land reforms; Great Northern War ends Swedish empire.")
-add("age-of-liberty", "Age of Liberty (Frihetstiden)", "CulturalAge", "early-modern", 1718, 1772, "CE",
+add("age-of-liberty", "Age of Liberty (Frihetstiden)", "CulturalAge", "early-modern", 1719, 1772, "CE",
     "Parliamentary rule after Charles XII; Hat and Cap party factions; Enlightenment science (Linnaeus, Celsius).")
 add("gustavian-era", "Gustavian Era (Gustavianska tiden)", "CulturalAge", "early-modern", 1772, 1809, "CE",
     "Gustav III's coup restores royal power; patron of arts; Royal Opera and Royal Dramatic Theatre founded; assassinated 1792.")
@@ -800,14 +800,22 @@ add("end-ordovician-extinction", "End-Ordovician Extinction (Ordowices)", "Age",
     "First of the Big Five; ~85% of marine species lost; caused by Gondwanan glaciation and sea-level fall.")
 add("late-devonian-extinction", "Late Devonian Extinction (Devon)", "Age", "late-devonian", 375, 359, "Ma",
     "Second of the Big Five; ~75% of species lost over millions of years; reef ecosystems collapse.")
-add("permian-triassic-extinction", "Permian–Triassic Extinction (The Great Dying / Пермь–trias)", "Age", "lopingian", 252, 251, "Ma",
+add("permian-triassic-extinction", "Permian–Triassic Extinction (The Great Dying / Пермь–trias)", "Age", "lopingian", 252, 251.9, "Ma",
     "Worst mass extinction: ~96% of marine and ~70% of land species; Siberian Traps volcanism.")
 add("triassic-jurassic-extinction", "Triassic–Jurassic Extinction (trias–Jura)", "Age", "late-triassic", 201.5, 201.3, "Ma",
     "Fourth of the Big Five; ~80% of species lost; CAMP volcanism; opens way for dinosaur dominance.")
 add("cretaceous-paleogene-extinction", "Cretaceous–Paleogene Extinction (K-Pg / Chicxulub, Yucatán)", "Age", "late-cretaceous", 66.05, 66, "Ma",
     "Fifth of the Big Five; Chicxulub asteroid impact; all non-avian dinosaurs extinct; ~76% of species lost.")
-add("deccan-traps", "Deccan Traps Volcanism (दक्खन Dakhan)", "Age", "maastrichtian", 67, 65, "Ma",
+add("deccan-traps", "Deccan Traps Volcanism (दक्खन Dakhan)", "Age", "maastrichtian", 66.4, 65.5, "Ma",
     "One of Earth's largest volcanic events; ~1.5 million km² basalt flows in India; co-contributor to K-Pg extinction; climate disruption preceded and overlapped Chicxulub impact.")
+add("chicxulub-impact", "Chicxulub Impact (Chicxulub, Yucatán / Maaya)", "Age", "maastrichtian", 66.05, 66, "Ma",
+    "~10 km asteroid strikes Yucatán Peninsula; 180 km crater; impact winter; global wildfires; acid rain; tsunami; primary trigger of K-Pg mass extinction; iridium anomaly discovered by Alvarez et al. (1980).")
+add("siberian-traps", "Siberian Traps (Сибирские траппы Sibirskiye trappy)", "Age", "lopingian", 252.2, 250.6, "Ma",
+    "Largest known continental flood basalt; ~7 million km² lava; released massive CO₂ and SO₂; primary trigger of Permian–Triassic extinction; thermogenic carbon from coal and evaporite contact metamorphism.")
+add("emeishan-traps", "Emeishan Traps (峨眉山暗色岩 Éméishān ànsèyán)", "Age", "permian", 260.5, 257, "Ma",
+    "Large igneous province in southwestern China (Sichuan, Yunnan, Guizhou); ~0.5 million km²; linked to Capitanian/end-Guadalupian extinction event; preceded Siberian Traps by ~8 Myr.")
+add("camp-volcanism", "Central Atlantic Magmatic Province (CAMP)", "Age", "late-triassic", 201.6, 200.9, "Ma",
+    "One of Earth's largest igneous provinces; erupted as Pangaea rifted; ~11 million km²; primary trigger of end-Triassic mass extinction; CO₂-driven warming and ocean acidification.")
 
 # ═══════════════════════════════════════════════════════════════
 # ADDITIONAL GEOLOGICAL / CLIMATE EVENTS
@@ -816,6 +824,10 @@ add("great-oxidation", "Great Oxidation Event (GOE)", "Age", "paleoproterozoic",
     "Free oxygen accumulates in atmosphere for first time; mass die-off of anaerobic organisms; banded iron formations cease.")
 add("huronian-glaciation", "Huronian Glaciation (Lake Huron)", "Age", "paleoproterozoic", 2400, 2100, "Ma",
     "First known Snowball Earth event; possibly triggered by Great Oxidation Event reducing methane greenhouse.")
+add("lomagundi-jatuli", "Lomagundi–Jatuli Event (Lomagundi, Zimbabwe / Jatuli, Karelia)", "Age", "paleoproterozoic", 2220, 2060, "Ma",
+    "Largest positive carbon isotope excursion in Earth history (δ¹³C up to +12‰); immediately follows GOE; indicates massive organic carbon burial; associated with first rise of atmospheric oxygen; global extent confirmed from Fennoscandia to southern Africa.")
+add("great-unconformity", "Great Unconformity (Grand Canyon / Lipalian)", "Age", "neoproterozoic", 1000, 539, "Ma",
+    "Global gap in the rock record between Precambrian basement and Cambrian strata; up to 1.2 billion years missing in places; cause debated: Snowball Earth glacial erosion, continental denudation, or Rodinia rifting; term coined by John Wesley Powell (1869); Lipalian interval of Walcott (1910).")
 add("petm", "Paleocene–Eocene Thermal Maximum (PETM / παλαιός ἠώς)", "Age", "ypresian", 55.8, 55.6, "Ma",
     "Rapid global warming of 5–8 °C; massive carbon release; mammals disperse across continents.")
 add("messinian-crisis", "Messinian Salinity Crisis (Messina)", "Age", "messinian", 5.96, 5.33, "Ma",
@@ -829,11 +841,30 @@ add("8.2ka-event", "8.2 ka Cold Event (Laurentide)", "Age", "northgrippian", 820
 add("4.2ka-event", "4.2 ka Aridification Event (मेघालय Meghālaya)", "Age", "meghalayan", 4200, 3900, "BP",
     "Severe drought lasting ~200 years; contributes to collapse of Akkadian Empire, Old Kingdom Egypt, Harappan civilization.")
 
+add("carnian-pluvial", "Carnian Pluvial Episode (CPE / Karnische Alpen)", "Age", "carnian", 234, 232, "Ma",
+    "Major climate perturbation; ~2 Myr of increased rainfall globally; Wrangellia LIP volcanism as trigger; diversification of dinosaurs, conifers, corals; reef crisis; significant turnover in marine and terrestrial ecosystems.")
 add("boring-billion", "Boring Billion (Dull Billion / Mesoproterozoic Stasis / μέσος πρότερος)", "Age", "proterozoic", 1800, 800, "Ma",
     "Informal name for ~1 billion years of apparent evolutionary and environmental stability; low atmospheric oxygen (~1-10% modern); subdued tectonic activity; minimal carbon isotope variation; recent work challenges 'boring' label.")
 
 add("toba-catastrophe", "Toba Catastrophe (~74 ka / Toba, Sumatera)", "Age", "late-pleistocene", 0.074, 0.074, "Ma",
     "Supervolcanic eruption of Mount Toba, Sumatra (~74 ka); Volcanic Explosivity Index 8; ~2,800 km³ ejecta; volcanic winter; possible human population bottleneck (debated); largest eruption in last 2 million years.")
+
+add("rodinia-assembly", "Rodinia Assembly (Grenville Orogeny / родина Rodina)", "Age", "proterozoic", 1100, 900, "Ma",
+    "Assembly of supercontinent Rodinia via Grenville orogeny; included most of Earth's continental crust; name from Russian 'родина' (homeland); precursor configuration shaped later tectonic and glacial history.")
+add("rodinia-breakup", "Rodinia Breakup (родина распад)", "Age", "neoproterozoic", 750, 633, "Ma",
+    "Rifting and breakup of supercontinent Rodinia; opened Iapetus Ocean; weathering of newly exposed continental margins may have triggered Snowball Earth glaciations (Sturtian, Marinoan); led to formation of Gondwana.")
+add("pangaea-assembly", "Pangaea Assembly (Πᾶν γαῖα / Variscan–Alleghenian)", "Age", "paleozoic", 335, 270, "Ma",
+    "Assembly of Earth's most recent supercontinent from collision of Gondwana and Laurussia; Variscan/Hercynian and Alleghanian orogenies; enclosed Tethys Ocean; profoundly altered global climate and ocean circulation.")
+add("pangaea-breakup", "Pangaea Breakup (Πᾶν γαῖα rift)", "Age", "jurassic", 200, 150, "Ma",
+    "Rifting of Pangaea beginning in Late Triassic/Early Jurassic; separation into Laurasia and Gondwana; opening of Central Atlantic Ocean; CAMP volcanism associated with initial rifting; shaped modern continental configuration.")
+add("oae-1a", "Oceanic Anoxic Event 1a (OAE 1a / Selli Event / Selli, Italia)", "Age", "aptian", 120, 119, "Ma",
+    "Widespread ocean anoxia linked to Ontong Java Plateau volcanism; massive organic carbon burial; black shale deposition; major perturbation of global carbon cycle; significant marine biotic turnover.")
+add("oae-2", "Oceanic Anoxic Event 2 (OAE 2 / Bonarelli Event / Bonarelli, Italia)", "Age", "cenomanian", 94.4, 93.9, "Ma",
+    "Most severe Cretaceous oceanic anoxic event; global black shale deposition; ~27% of marine invertebrate genera extinct; linked to Caribbean LIP volcanism; major δ¹³C excursion used as global stratigraphic marker.")
+add("isthmus-panama", "Isthmus of Panama Closure (Istmo de Panamá / GABI)", "Age", "piacenzian", 3.5, 2.8, "Ma",
+    "Tectonic closure of Central American Seaway; diverted Atlantic/Pacific currents; strengthened Gulf Stream and thermohaline circulation; triggered Great American Biotic Interchange (GABI); contributed to Northern Hemisphere glaciation onset.")
+add("mmct", "Mid-Miocene Climate Transition (MMCT)", "Age", "serravallian", 14.0, 13.8, "Ma",
+    "Abrupt global cooling following Mid-Miocene Climatic Optimum; major expansion of East Antarctic ice sheet; global sea level drop; grasslands expand at expense of forests; key inflection point toward modern icehouse climate.")
 
 # ═══════════════════════════════════════════════════════════════
 # ADDITIONAL CULTURAL PERIODS (Sámi, Baltic, Finnish)
@@ -1038,7 +1069,7 @@ add("monte-verde", "Monte Verde (Monteverde)", "CulturalAge", "south-america-pre
     "Southern Chile; pre-Clovis archaeological site; evidence of human habitation ~14,800 BCE; challenges Clovis-first model; seaweed, mastodon remains; Tom Dillehay excavations.")
 add("paleo-indians", "Paleo-Indian Period (Período Paleoindio)", "CulturalAge", "north-america-precolumbian", 15000, 8000, "BCE",
     "First peoples of the Americas; Clovis culture (~13,000 BP); mammoth and megafauna hunters; Folsom points; Beringia land bridge migration.")
-add("clovis-culture", "Clovis Culture (Cultura Clovis)", "CulturalAge", "paleo-indians", 11500, 10800, "BCE",
+add("clovis-culture", "Clovis Culture (Cultura Clovis)", "CulturalAge", "paleo-indians", 11050, 10750, "BCE",
     "Distinctive fluted projectile points; widespread across North America; associated with Pleistocene megafauna hunting; Blackwater Draw type site.")
 add("folsom-culture", "Folsom Culture (Cultura Folsom)", "CulturalAge", "paleo-indians", 10800, 10200, "BCE",
     "Post-Clovis bison hunters on Great Plains; refined fluted points; Folsom, New Mexico type site; megafauna extinction.")
@@ -1060,8 +1091,8 @@ add("olmec", "Olmec Civilization (Ōlmēcah)", "CulturalAge", "mesoamerica", 150
     "Mother culture of Mesoamerica; colossal stone heads; San Lorenzo and La Venta; first Mesoamerican writing and calendar; rubber ball game.")
 add("zapotec", "Zapotec Civilization (Binnizá)", "CulturalAge", "mesoamerica", 700, 1521, "BCE-CE",
     "Oaxaca Valley, Mexico; Monte Albán capital; earliest Mesoamerican writing system; 2,500-year continuous culture.")
-add("teotihuacan", "Teotihuacán (Teōtīhuacān)", "CulturalAge", "mesoamerica", 100, 550, "CE",
-    "Largest city in pre-Columbian Americas (~125,000 people); Pyramids of the Sun and Moon; Avenue of the Dead; influence across Mesoamerica.")
+add("teotihuacan", "Teotihuacán (Teōtīhuacān)", "CulturalAge", "mesoamerica", 100, 750, "CE",
+    "Largest city in pre-Columbian Americas (~125,000 people); Pyramids of the Sun and Moon; Avenue of the Dead; major fire ~550 CE; final abandonment ~750 CE.")
 add("maya-classic", "Classic Maya Civilization (Maaya)", "CulturalAge", "mesoamerica", 250, 900, "CE",
     "City-states across Yucatán, Guatemala, Belize; hieroglyphic writing; Long Count calendar; Tikal, Palenque, Copán; mysterious collapse ~900 CE.")
 add("maya-preclassic", "Preclassic Maya (Maya Preclásico)", "CulturalAge", "mesoamerica", 2000, 250, "BCE-CE",
@@ -1286,8 +1317,8 @@ add("nubia-kush", "Nubian and Kushite Civilizations (الحضارة النوبي
     "Civilizations along Upper Nile (modern Sudan); rivals and successors of Egypt; pyramids of Meroë; iron production; distinct art and religion.")
 add("kerma-culture", "Kingdom of Kerma (مملكة كرمة)", "CulturalAge", "nubia-kush", 2500, 1500, "BCE",
     "First major Nubian kingdom; capital at Kerma; monumental deffufas (mud-brick temples); wealthy burials; rival to Egyptian Middle Kingdom.")
-add("kingdom-kush", "Kingdom of Kush (Napatan)", "CulturalAge", "nubia-kush", 1070, 350, "BCE",
-    "Napata capital; 25th Dynasty pharaohs rule Egypt (Piye, Taharqa ~700 BCE); expelled by Assyrians; continued as independent kingdom.")
+add("kingdom-kush", "Kingdom of Kush (Napatan)", "CulturalAge", "nubia-kush", 1070, 300, "BCE",
+    "Napata capital; 25th Dynasty pharaohs rule Egypt (Piye, Taharqa ~700 BCE); expelled by Assyrians; capital shifts to Meroe ~300 BCE.")
 add("meroe", "Meroitic Period (الفترة المروية)", "CulturalAge", "nubia-kush", 270, 350, "BCE-CE",
     "Capital moves to Meroë; iron smelting center; Meroitic script (deciphered, but language only partially understood); over 200 pyramids; Kandake (queen) warriors; trade with Rome.")
 
@@ -1930,19 +1961,21 @@ add("polynesia-history", "Polynesian Civilizations (Polynesiska civilisationer)"
     "Greatest maritime expansion in human history; settled Pacific from Tonga/Samoa to Hawaiʻi, Easter Island, New Zealand; navigation by stars, currents, birds.")
 add("polynesia-ancestral", "Ancestral Polynesia (Tonga & Samoa)", "CulturalAge", "polynesia-history", 1500, 200, "BCE",
     "Tonga settled ~1500 BCE, Samoa ~1000 BCE; development of Polynesian culture, language, navigation; chiefdom societies; kava traditions.")
-add("polynesia-expansion", "Polynesian Expansion (Te Hekenga-ā-Polynesia)", "CulturalAge", "polynesia-history", 200, 1200, "CE",
-    "Long-pause then rapid expansion; Marquesas (~300 CE), Hawaiʻi (~1000 CE), Rapa Nui (~1200 CE); double-hulled canoes; star navigation.")
+add("polynesia-expansion", "Polynesian Expansion (Te Hekenga-ā-Polynesia)", "CulturalAge", "polynesia-history", 300, 1300, "CE",
+    "Rapid expansion into Eastern Polynesia; Marquesas (~300 CE), Hawaiʻi (~1000 CE), Rapa Nui (~1200 CE), Aotearoa (~1250 CE); double-hulled canoes; star navigation.")
 add("rapa-nui", "Rapa Nui (Easter Island)", "CulturalAge", "polynesia-history", 1200, 1722, "CE",
     "Moai statues (~900 carved); ahu platforms; rongorongo script (undeciphered); ecological transformation; European contact (1722).")
-add("tuamotuan-cook", "Cook Islands & Tuamotus Settlement (Kūki 'Āirani / Tuāmotu)", "CulturalAge", "polynesia-history", 800, 1595, "CE",
-    "Settlement of remote atolls and islands; coral architecture; lagoon aquaculture; celestial navigation mastery; pre-European contact societies.")
-add("hawaiian-kingdom-pre", "Ancient Hawaiʻi (Hawaiʻi kahiko)", "CulturalAge", "polynesia-history", 1000, 1795, "CE",
+add("cook-islands-settlement", "Cook Islands Settlement (Kūki 'Āirani)", "CulturalAge", "polynesia-history", 800, 1595, "CE",
+    "Settlement from Society Islands; coral architecture; lagoon aquaculture; Rarotonga seat of power; pre-European contact societies.")
+add("tuamotu-settlement", "Tuamotu Settlement (Tuāmotu)", "CulturalAge", "polynesia-history", 900, 1595, "CE",
+    "Settlement of remote atolls; pearl diving; celestial navigation mastery; coral-atoll adaptation; pre-European contact societies.")
+add("ancient-hawaii", "Ancient Hawaiʻi (Hawaiʻi kahiko)", "CulturalAge", "polynesia-history", 1000, 1795, "CE",
     "Settlement from Marquesas/Tahiti; ahupuaʻa land management; heiau temples; kapu system; taro cultivation; fish ponds; ali'i chiefs.")
 add("hawaiian-kingdom", "Kingdom of Hawaiʻi (Aupuni Mōʻī o Hawaiʻi)", "CulturalAge", "polynesia-history", 1795, 1893, "CE",
     "Kamehameha I unifies islands; constitutional monarchy; Hawaiian Renaissance; written language; sugar plantations; overthrown by U.S.-backed coup (1893).")
 add("tui-manua", "Tuʻi Manuʻa (Tupu o Manuʻa)", "CulturalAge", "polynesia-history", 1000, 1904, "CE",
     "Ancient Samoan paramount chieftainship; Manuʻa Islands (Taʻū, Ofu, Olosega); oldest Polynesian title; legendary Tagaloa origin; ceded to U.S. 1904.")
-add("tongaempire", "Tuʻi Tonga Empire (Puleʻanga Tuʻi Tonga)", "CulturalAge", "polynesia-history", 950, 1865, "CE",
+add("tui-tonga-empire", "Tuʻi Tonga Empire (Puleʻanga Tuʻi Tonga)", "CulturalAge", "polynesia-history", 950, 1865, "CE",
     "Maritime empire spanning central Pacific; Tongatapu capital; Haʻamonga trilithon; influenced Samoa, Fiji, Niue; one of Polynesia's largest polities.")
 
 # --- Micronesia ---
