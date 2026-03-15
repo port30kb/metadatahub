@@ -19,7 +19,7 @@
       "@language": "sv"
     }
   ],
-  "dcterms:description": "161 entries covering Nordic iconographic subjects from Norse mythology, Finnish Kalevala, Sámi culture, Christian Nordic art, folk art traditions, seasonal celebrations, and landscape subjects.",
+  "dcterms:description": "180 entries covering Nordic iconographic subjects from Norse mythology, Finnish Kalevala, Sámi culture, Christian Nordic art, folk art traditions, seasonal celebrations, and landscape subjects.",
   "dcterms:source": [
     "https://en.wikipedia.org/wiki/Norse_mythology",
     "https://en.wikipedia.org/wiki/Kalevala",
@@ -5676,6 +5676,69 @@
       }
     },
     {
+      "@id": "https://metadatahub.eu/data/nordic-iconography/sami-flag",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Sámi flag",
+          "@language": "en"
+        },
+        {
+          "@value": "Det samiske flag",
+          "@language": "da"
+        },
+        {
+          "@value": "Saamelaislippu",
+          "@language": "fi"
+        },
+        {
+          "@value": "Det samiske flagget",
+          "@language": "nb"
+        },
+        {
+          "@value": "Sámi leavga",
+          "@language": "se"
+        },
+        {
+          "@value": "Samiska flaggan",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Sámi flag",
+          "@language": "en"
+        },
+        {
+          "@value": "Det samiske flag",
+          "@language": "da"
+        },
+        {
+          "@value": "Saamelaislippu",
+          "@language": "fi"
+        },
+        {
+          "@value": "Det samiske flagget",
+          "@language": "nb"
+        },
+        {
+          "@value": "Sámi leavga",
+          "@language": "se"
+        },
+        {
+          "@value": "Samiska flaggan",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "The pan-Sámi flag adopted in 1986, designed by Astrid Båhl. Features a circle divided into red and blue halves against stripes of red, blue, green, and yellow, representing the sun and moon from the shaman drum tradition.",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-iconography/sami-culture"
+      }
+    },
+    {
       "@id": "https://metadatahub.eu/data/nordic-iconography/nordic-church-art",
       "@type": "skos:Concept",
       "rdfs:label": [
@@ -6827,6 +6890,298 @@
       },
       "skos:relatedMatch": {
         "@id": "http://iconclass.org/11HH(SIGFRID)"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-iconography/st-thorlakur",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Saint Þorlákur",
+          "@language": "en"
+        },
+        {
+          "@value": "Sankt Thorlak",
+          "@language": "da"
+        },
+        {
+          "@value": "Pyhä Þorlákur",
+          "@language": "fi"
+        },
+        {
+          "@value": "Þorlákur helgi",
+          "@language": "is"
+        },
+        {
+          "@value": "Hellig Torlak",
+          "@language": "nb"
+        },
+        {
+          "@value": "Sankt Torlak",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Saint Þorlákur",
+          "@language": "en"
+        },
+        {
+          "@value": "Sankt Thorlak",
+          "@language": "da"
+        },
+        {
+          "@value": "Pyhä Þorlákur",
+          "@language": "fi"
+        },
+        {
+          "@value": "Þorlákur helgi",
+          "@language": "is"
+        },
+        {
+          "@value": "Hellig Torlak",
+          "@language": "nb"
+        },
+        {
+          "@value": "Sankt Torlak",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Þorlákur Þórhallsson (1133–1193), Bishop of Skálholt and patron saint of Iceland. Championed church reform and clerical celibacy. His feast day, Þorláksmessa (December 23), is celebrated with traditional Icelandic fermented skate.",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-iconography/nordic-saints"
+      },
+      "skos:relatedMatch": {
+        "@id": "http://iconclass.org/11HH(THORLAK)"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-iconography/st-hallvard",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Saint Hallvard",
+          "@language": "en"
+        },
+        {
+          "@value": "Sankt Hallvard",
+          "@language": "da"
+        },
+        {
+          "@value": "Pyhä Hallvard",
+          "@language": "fi"
+        },
+        {
+          "@value": "Hellig Hallvard",
+          "@language": "nb"
+        },
+        {
+          "@value": "Sankt Hallvard",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Saint Hallvard",
+          "@language": "en"
+        },
+        {
+          "@value": "Sankt Hallvard",
+          "@language": "da"
+        },
+        {
+          "@value": "Pyhä Hallvard",
+          "@language": "fi"
+        },
+        {
+          "@value": "Hellig Hallvard",
+          "@language": "nb"
+        },
+        {
+          "@value": "Sankt Hallvard",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Hallvard Vebjørnsson (c. 1020–1043), patron saint of Oslo. Killed while defending a woman accused of theft. Depicted with millstones, arrows, and the woman he tried to save. His image appears on Oslo's coat of arms.",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-iconography/nordic-saints"
+      },
+      "skos:relatedMatch": {
+        "@id": "http://iconclass.org/11HH(HALLVARD)"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-iconography/st-ansgar",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Saint Ansgar",
+          "@language": "en"
+        },
+        {
+          "@value": "Sankt Ansgar",
+          "@language": "da"
+        },
+        {
+          "@value": "Pyhä Ansgar",
+          "@language": "fi"
+        },
+        {
+          "@value": "Hellig Ansgar",
+          "@language": "nb"
+        },
+        {
+          "@value": "Sankt Ansgar",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Saint Ansgar",
+          "@language": "en"
+        },
+        {
+          "@value": "Sankt Ansgar",
+          "@language": "da"
+        },
+        {
+          "@value": "Pyhä Ansgar",
+          "@language": "fi"
+        },
+        {
+          "@value": "Hellig Ansgar",
+          "@language": "nb"
+        },
+        {
+          "@value": "Sankt Ansgar",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Ansgar of Bremen (801–865), the 'Apostle of the North', Frankish missionary who brought Christianity to Scandinavia. Founded the first Christian churches in Hedeby and Birka. Patron saint of Scandinavia.",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-iconography/nordic-saints"
+      },
+      "skos:relatedMatch": {
+        "@id": "http://iconclass.org/11HH(ANSGAR)"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-iconography/golden-altarpiece",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Golden altarpieces (Nordic)",
+          "@language": "en"
+        },
+        {
+          "@value": "Gyldne alterfrontaler",
+          "@language": "da"
+        },
+        {
+          "@value": "Kultaiset alttaritaulut",
+          "@language": "fi"
+        },
+        {
+          "@value": "Gyldne alterfrontaler",
+          "@language": "nb"
+        },
+        {
+          "@value": "Gyllene altarskåp",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Golden altarpieces (Nordic)",
+          "@language": "en"
+        },
+        {
+          "@value": "Gyldne alterfrontaler",
+          "@language": "da"
+        },
+        {
+          "@value": "Kultaiset alttaritaulut",
+          "@language": "fi"
+        },
+        {
+          "@value": "Gyldne alterfrontaler",
+          "@language": "nb"
+        },
+        {
+          "@value": "Gyllene altarskåp",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Richly gilded altar frontals and retables from the medieval period, including the famous golden altarpieces of Scandinavia such as those from Broddetorp, Tamdrup, and Lisbjerg in Denmark.",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-iconography/nordic-church-art"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-iconography/church-ship-model",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Votive ship (church)",
+          "@language": "en"
+        },
+        {
+          "@value": "Kirkeskib",
+          "@language": "da"
+        },
+        {
+          "@value": "Kirkkolaiva",
+          "@language": "fi"
+        },
+        {
+          "@value": "Kirkeskip",
+          "@language": "nb"
+        },
+        {
+          "@value": "Kyrkoskepp (votivskeppp)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Votive ship (church)",
+          "@language": "en"
+        },
+        {
+          "@value": "Kirkeskib",
+          "@language": "da"
+        },
+        {
+          "@value": "Kirkkolaiva",
+          "@language": "fi"
+        },
+        {
+          "@value": "Kirkeskip",
+          "@language": "nb"
+        },
+        {
+          "@value": "Kyrkoskepp (votivskeppp)",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Model ships hung from the ceilings of Nordic churches, particularly common in Denmark, as votive offerings for safe voyages. A distinctive feature of Scandinavian church interiors from the 15th century onward.",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-iconography/nordic-church-art"
       }
     },
     {
@@ -8038,6 +8393,229 @@
       }
     },
     {
+      "@id": "https://metadatahub.eu/data/nordic-iconography/ryijy",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Ryijy (Finnish textile)",
+          "@language": "en"
+        },
+        {
+          "@value": "Rya",
+          "@language": "da"
+        },
+        {
+          "@value": "Ryijy",
+          "@language": "fi"
+        },
+        {
+          "@value": "Rye",
+          "@language": "nb"
+        },
+        {
+          "@value": "Rya",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Ryijy (Finnish textile)",
+          "@language": "en"
+        },
+        {
+          "@value": "Rya",
+          "@language": "da"
+        },
+        {
+          "@value": "Ryijy",
+          "@language": "fi"
+        },
+        {
+          "@value": "Rye",
+          "@language": "nb"
+        },
+        {
+          "@value": "Rya",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "A traditional Nordic knotted-pile textile originally used as a bed covering and later as a wall hanging. Finnish ryijy rugs developed into an important art form with distinctive geometric and floral patterns. Swedish rya rugs share a related tradition.",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-iconography/nordic-folk-motifs"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-iconography/bunad",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Bunad (Norwegian costume)",
+          "@language": "en"
+        },
+        {
+          "@value": "Bunad (norsk folkedragt)",
+          "@language": "da"
+        },
+        {
+          "@value": "Bunad (norjalainen kansallispuku)",
+          "@language": "fi"
+        },
+        {
+          "@value": "Bunad",
+          "@language": "nb"
+        },
+        {
+          "@value": "Bunad (norsk folkdräkt)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Bunad (Norwegian costume)",
+          "@language": "en"
+        },
+        {
+          "@value": "Bunad (norsk folkedragt)",
+          "@language": "da"
+        },
+        {
+          "@value": "Bunad (norjalainen kansallispuku)",
+          "@language": "fi"
+        },
+        {
+          "@value": "Bunad",
+          "@language": "nb"
+        },
+        {
+          "@value": "Bunad (norsk folkdräkt)",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Norwegian folk costume worn for festive occasions and national holidays. Each region has distinctive designs with elaborate embroidery, silver jewelry (sølje), and specific color schemes. Modern bunads are based on historical regional dress.",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-iconography/nordic-folk-motifs"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-iconography/ale-bowl",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Ale bowl / Ölskål",
+          "@language": "en"
+        },
+        {
+          "@value": "Ølskål",
+          "@language": "da"
+        },
+        {
+          "@value": "Olutkulho",
+          "@language": "fi"
+        },
+        {
+          "@value": "Ølbolle",
+          "@language": "nb"
+        },
+        {
+          "@value": "Ölskål",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Ale bowl / Ölskål",
+          "@language": "en"
+        },
+        {
+          "@value": "Ølskål",
+          "@language": "da"
+        },
+        {
+          "@value": "Olutkulho",
+          "@language": "fi"
+        },
+        {
+          "@value": "Ølbolle",
+          "@language": "nb"
+        },
+        {
+          "@value": "Ölskål",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Carved and painted wooden drinking vessels used for communal ale-drinking at Nordic festivals and celebrations. Often decorated with horse heads, dragon motifs, or rosemaling. The Norwegian kjenge (handled ale bowl) is a distinctive form.",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-iconography/nordic-folk-motifs"
+      },
+      "skos:closeMatch": {
+        "@id": "http://vocab.getty.edu/aat/300197729"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-iconography/weather-vane-viking",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Viking weather vane",
+          "@language": "en"
+        },
+        {
+          "@value": "Vikingetids vindfløj",
+          "@language": "da"
+        },
+        {
+          "@value": "Viikinkiajan tuuliviiri",
+          "@language": "fi"
+        },
+        {
+          "@value": "Vikingtids vindfløy",
+          "@language": "nb"
+        },
+        {
+          "@value": "Vikingatida vindflöjel",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Viking weather vane",
+          "@language": "en"
+        },
+        {
+          "@value": "Vikingetids vindfløj",
+          "@language": "da"
+        },
+        {
+          "@value": "Viikinkiajan tuuliviiri",
+          "@language": "fi"
+        },
+        {
+          "@value": "Vikingtids vindfløy",
+          "@language": "nb"
+        },
+        {
+          "@value": "Vikingatida vindflöjel",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Ornate gilt-bronze weather vanes from the Viking Age, originally mounted on ship prows or church gables. Decorated with openwork animal ornament. Surviving examples include vanes from Söderala, Heggen, and Källunge.",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-iconography/nordic-folk-motifs"
+      }
+    },
+    {
       "@id": "https://metadatahub.eu/data/nordic-iconography/nordic-seasons",
       "@type": "skos:Concept",
       "rdfs:label": [
@@ -8838,6 +9416,352 @@
       ],
       "skos:definition": {
         "@value": "November 11th feast day tradition of eating roasted goose, particularly strong in southern Sweden (Skåne) and Denmark.",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-iconography/nordic-seasons"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-iconography/icelandic-independence-day",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Icelandic National Day",
+          "@language": "en"
+        },
+        {
+          "@value": "Islands nationaldag",
+          "@language": "da"
+        },
+        {
+          "@value": "Islannin kansallispäivä",
+          "@language": "fi"
+        },
+        {
+          "@value": "Þjóðhátíðardagurinn",
+          "@language": "is"
+        },
+        {
+          "@value": "Islands nasjonaldag",
+          "@language": "nb"
+        },
+        {
+          "@value": "Islands nationaldag",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Icelandic National Day",
+          "@language": "en"
+        },
+        {
+          "@value": "Islands nationaldag",
+          "@language": "da"
+        },
+        {
+          "@value": "Islannin kansallispäivä",
+          "@language": "fi"
+        },
+        {
+          "@value": "Þjóðhátíðardagurinn",
+          "@language": "is"
+        },
+        {
+          "@value": "Islands nasjonaldag",
+          "@language": "nb"
+        },
+        {
+          "@value": "Islands nationaldag",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "June 17th celebration of Icelandic independence, commemorating the founding of the Republic of Iceland in 1944 and the birthday of independence leader Jón Sigurðsson.",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-iconography/nordic-seasons"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-iconography/finnish-independence-day",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Finnish Independence Day",
+          "@language": "en"
+        },
+        {
+          "@value": "Finlands uafhængighedsdag",
+          "@language": "da"
+        },
+        {
+          "@value": "Itsenäisyyspäivä",
+          "@language": "fi"
+        },
+        {
+          "@value": "Finlands uavhengighetsdag",
+          "@language": "nb"
+        },
+        {
+          "@value": "Finlands självständighetsdag",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Finnish Independence Day",
+          "@language": "en"
+        },
+        {
+          "@value": "Finlands uafhængighedsdag",
+          "@language": "da"
+        },
+        {
+          "@value": "Itsenäisyyspäivä",
+          "@language": "fi"
+        },
+        {
+          "@value": "Finlands uavhengighetsdag",
+          "@language": "nb"
+        },
+        {
+          "@value": "Finlands självständighetsdag",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "December 6th celebration of Finland's independence from Russia in 1917, marked by solemn ceremonies, candles in windows, and the Presidential Independence Day reception.",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-iconography/nordic-seasons"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-iconography/swedish-midsommar",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Swedish Midsommar",
+          "@language": "en"
+        },
+        {
+          "@value": "Midsommer",
+          "@language": "da"
+        },
+        {
+          "@value": "Juhannus",
+          "@language": "fi"
+        },
+        {
+          "@value": "Sankthans",
+          "@language": "nb"
+        },
+        {
+          "@value": "Midsommar",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Swedish Midsommar",
+          "@language": "en"
+        },
+        {
+          "@value": "Midsommer",
+          "@language": "da"
+        },
+        {
+          "@value": "Juhannus",
+          "@language": "fi"
+        },
+        {
+          "@value": "Sankthans",
+          "@language": "nb"
+        },
+        {
+          "@value": "Midsommar",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "The quintessential Swedish celebration on the Friday closest to the summer solstice, featuring raising and dancing around the maypole, flower wreaths, strawberries, herring, and singing drinking songs.",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-iconography/nordic-seasons"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-iconography/nordic-advent",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Nordic Advent traditions",
+          "@language": "en"
+        },
+        {
+          "@value": "Adventstid",
+          "@language": "da"
+        },
+        {
+          "@value": "Adventti",
+          "@language": "fi"
+        },
+        {
+          "@value": "Adventstid",
+          "@language": "nb"
+        },
+        {
+          "@value": "Adventsljusstake",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Nordic Advent traditions",
+          "@language": "en"
+        },
+        {
+          "@value": "Adventstid",
+          "@language": "da"
+        },
+        {
+          "@value": "Adventti",
+          "@language": "fi"
+        },
+        {
+          "@value": "Adventstid",
+          "@language": "nb"
+        },
+        {
+          "@value": "Adventsljusstake",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Nordic Advent customs including the Advent candlestick (adventsljusstake) in windows, Advent calendars, and the progressive lighting of four candles on successive Sundays before Christmas.",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-iconography/nordic-seasons"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-iconography/kaamos",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Kaamos / Polar night",
+          "@language": "en"
+        },
+        {
+          "@value": "Mørketid",
+          "@language": "da"
+        },
+        {
+          "@value": "Kaamos",
+          "@language": "fi"
+        },
+        {
+          "@value": "Mørketid",
+          "@language": "nb"
+        },
+        {
+          "@value": "Skábma",
+          "@language": "se"
+        },
+        {
+          "@value": "Mörketid",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Kaamos / Polar night",
+          "@language": "en"
+        },
+        {
+          "@value": "Mørketid",
+          "@language": "da"
+        },
+        {
+          "@value": "Kaamos",
+          "@language": "fi"
+        },
+        {
+          "@value": "Mørketid",
+          "@language": "nb"
+        },
+        {
+          "@value": "Skábma",
+          "@language": "se"
+        },
+        {
+          "@value": "Mörketid",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "The period of polar night in the Arctic when the sun does not rise above the horizon. In Finnish Lapland, kaamos lasts from late November to mid-January. A subject of contemplative art exploring darkness and inner light.",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-iconography/nordic-seasons"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-iconography/russefeiring",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Russefeiring (Norwegian graduation)",
+          "@language": "en"
+        },
+        {
+          "@value": "Studenterfest",
+          "@language": "da"
+        },
+        {
+          "@value": "Ylioppilasjuhla",
+          "@language": "fi"
+        },
+        {
+          "@value": "Russefeiring",
+          "@language": "nb"
+        },
+        {
+          "@value": "Studentexamen",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Russefeiring (Norwegian graduation)",
+          "@language": "en"
+        },
+        {
+          "@value": "Studenterfest",
+          "@language": "da"
+        },
+        {
+          "@value": "Ylioppilasjuhla",
+          "@language": "fi"
+        },
+        {
+          "@value": "Russefeiring",
+          "@language": "nb"
+        },
+        {
+          "@value": "Studentexamen",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Norwegian high school graduation celebration where students wear colored overalls (russedress) and participate in festivities during May, culminating on Constitution Day (May 17th).",
         "@language": "en"
       },
       "skos:broader": {
@@ -10164,6 +11088,190 @@
       ],
       "skos:definition": {
         "@value": "Landscapes shaped by volcanic activity, particularly in Iceland with its lava fields, geysers, hot springs, and active volcanoes. Iceland's volcanic terrain has inspired artists from the saga writers to contemporary photographers.",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-iconography/nordic-terrain"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-iconography/geyser",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Geyser",
+          "@language": "en"
+        },
+        {
+          "@value": "Gejser",
+          "@language": "da"
+        },
+        {
+          "@value": "Geysir",
+          "@language": "fi"
+        },
+        {
+          "@value": "Goshver",
+          "@language": "is"
+        },
+        {
+          "@value": "Geysir",
+          "@language": "nb"
+        },
+        {
+          "@value": "Gejser",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Geyser",
+          "@language": "en"
+        },
+        {
+          "@value": "Gejser",
+          "@language": "da"
+        },
+        {
+          "@value": "Geysir",
+          "@language": "fi"
+        },
+        {
+          "@value": "Goshver",
+          "@language": "is"
+        },
+        {
+          "@value": "Geysir",
+          "@language": "nb"
+        },
+        {
+          "@value": "Gejser",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Hot springs that periodically erupt with columns of hot water and steam. The word derives from Geysir, the Great Geyser in Iceland's Haukadalur valley. A subject of wonder in travel art and natural history illustration since the 18th century.",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-iconography/nordic-terrain"
+      },
+      "skos:closeMatch": {
+        "@id": "http://vocab.getty.edu/aat/300008744"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-iconography/moraine-landscape",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Moraine landscape",
+          "@language": "en"
+        },
+        {
+          "@value": "Morænelandskab",
+          "@language": "da"
+        },
+        {
+          "@value": "Moreenimaisema",
+          "@language": "fi"
+        },
+        {
+          "@value": "Morenelandskap",
+          "@language": "nb"
+        },
+        {
+          "@value": "Morän-landskap",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Moraine landscape",
+          "@language": "en"
+        },
+        {
+          "@value": "Morænelandskab",
+          "@language": "da"
+        },
+        {
+          "@value": "Moreenimaisema",
+          "@language": "fi"
+        },
+        {
+          "@value": "Morenelandskap",
+          "@language": "nb"
+        },
+        {
+          "@value": "Morän-landskap",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Landscapes shaped by glacial deposits including drumlins, eskers, and terminal moraines. Characteristic of the south-Scandinavian and Finnish lowlands, forming rolling terrain, lake-dotted plains, and the distinctive Finnish ridge systems (harjut).",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "https://metadatahub.eu/data/nordic-iconography/nordic-terrain"
+      }
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-iconography/sea-stack",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Sea stack (Rauk)",
+          "@language": "en"
+        },
+        {
+          "@value": "Havstakk",
+          "@language": "da"
+        },
+        {
+          "@value": "Meripaasi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Drangur",
+          "@language": "is"
+        },
+        {
+          "@value": "Rauk",
+          "@language": "nb"
+        },
+        {
+          "@value": "Rauk",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@value": "Sea stack (Rauk)",
+          "@language": "en"
+        },
+        {
+          "@value": "Havstakk",
+          "@language": "da"
+        },
+        {
+          "@value": "Meripaasi",
+          "@language": "fi"
+        },
+        {
+          "@value": "Drangur",
+          "@language": "is"
+        },
+        {
+          "@value": "Rauk",
+          "@language": "nb"
+        },
+        {
+          "@value": "Rauk",
+          "@language": "sv"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Eroded limestone pillars standing in the sea or along coastlines, particularly abundant on Gotland and Fårö in Sweden. The raukar of Gotland are iconic geological features and have inspired artists and filmmakers including Ingmar Bergman.",
         "@language": "en"
       },
       "skos:broader": {

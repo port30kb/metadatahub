@@ -228,3 +228,44 @@
     da: Gribedyrstilen
     nb: Gripedyrstilen
   description: "A defining motif of Viking Age art: small, compact animal figures whose paws grip the borders of the composition, adjacent beasts, or their own bodies. First appearing in the Oseberg style and persisting through several later phases."
+
+- id: ryijy
+  broader: nordic-folk-motifs
+  labels:
+    en: Ryijy (Finnish textile)
+    sv: Rya
+    fi: Ryijy
+    da: Rya
+    nb: Rye
+  description: "A traditional Nordic knotted-pile textile originally used as a bed covering and later as a wall hanging. Finnish ryijy rugs developed into an important art form with distinctive geometric and floral patterns. Swedish rya rugs share a related tradition."
+
+- id: bunad
+  broader: nordic-folk-motifs
+  labels:
+    en: Bunad (Norwegian costume)
+    sv: Bunad (norsk folkdräkt)
+    fi: Bunad (norjalainen kansallispuku)
+    da: Bunad (norsk folkedragt)
+    nb: Bunad
+  description: "Norwegian folk costume worn for festive occasions and national holidays. Each region has distinctive designs with elaborate embroidery, silver jewelry (sølje), and specific color schemes. Modern bunads are based on historical regional dress."
+
+- id: ale-bowl
+  broader: nordic-folk-motifs
+  aat_uri: "http://vocab.getty.edu/aat/300197729"
+  labels:
+    en: Ale bowl / Ölskål
+    sv: Ölskål
+    fi: Olutkulho
+    da: Ølskål
+    nb: Ølbolle
+  description: "Carved and painted wooden drinking vessels used for communal ale-drinking at Nordic festivals and celebrations. Often decorated with horse heads, dragon motifs, or rosemaling. The Norwegian kjenge (handled ale bowl) is a distinctive form."
+
+- id: weather-vane-viking
+  broader: nordic-folk-motifs
+  labels:
+    en: Viking weather vane
+    sv: Vikingatida vindflöjel
+    fi: Viikinkiajan tuuliviiri
+    da: Vikingetids vindfløj
+    nb: Vikingtids vindfløy
+  description: "Ornate gilt-bronze weather vanes from the Viking Age, originally mounted on ship prows or church gables. Decorated with openwork animal ornament. Surviving examples include vanes from Söderala, Heggen, and Källunge."

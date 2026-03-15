@@ -246,3 +246,36 @@
     nb: Vulkansk landskap
     is: Eldfjallahraun
   description: "Landscapes shaped by volcanic activity, particularly in Iceland with its lava fields, geysers, hot springs, and active volcanoes. Iceland's volcanic terrain has inspired artists from the saga writers to contemporary photographers."
+
+- id: geyser
+  broader: nordic-terrain
+  aat_uri: "http://vocab.getty.edu/aat/300008744"
+  labels:
+    en: Geyser
+    sv: Gejser
+    fi: Geysir
+    da: Gejser
+    nb: Geysir
+    is: Goshver
+  description: "Hot springs that periodically erupt with columns of hot water and steam. The word derives from Geysir, the Great Geyser in Iceland's Haukadalur valley. A subject of wonder in travel art and natural history illustration since the 18th century."
+
+- id: moraine-landscape
+  broader: nordic-terrain
+  labels:
+    en: Moraine landscape
+    sv: Morän-landskap
+    fi: Moreenimaisema
+    da: Morænelandskab
+    nb: Morenelandskap
+  description: "Landscapes shaped by glacial deposits including drumlins, eskers, and terminal moraines. Characteristic of the south-Scandinavian and Finnish lowlands, forming rolling terrain, lake-dotted plains, and the distinctive Finnish ridge systems (harjut)."
+
+- id: sea-stack
+  broader: nordic-terrain
+  labels:
+    en: Sea stack (Rauk)
+    sv: Rauk
+    fi: Meripaasi
+    da: Havstakk
+    nb: Rauk
+    is: Drangur
+  description: "Eroded limestone pillars standing in the sea or along coastlines, particularly abundant on Gotland and Fårö in Sweden. The raukar of Gotland are iconic geological features and have inspired artists and filmmakers including Ingmar Bergman."
