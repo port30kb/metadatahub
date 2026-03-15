@@ -18,8 +18,8 @@ Each entry has multilingual labels:
   - Local/etymological language (e.g. "grc" for Ancient Greek, "zh" for Chinese)
   - "sv" (Swedish) — always included
 
-Data files: scripts/data/geologic-timescale/*.yaml
-Schema:     scripts/data/geologic-timescale/_schema.yaml
+Data files: data/geologic-timescale/*.yaml
+Schema:     data/geologic-timescale/_schema.yaml
 
 Source: Wikipedia, "Geologic time scale"
   https://en.wikipedia.org/wiki/Geologic_time_scale
@@ -56,7 +56,7 @@ import yaml
 
 BASE = "https://metadatahub.eu/data/geologic-timescale"
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(SCRIPT_DIR, "data", "geologic-timescale")
+DATA_DIR = os.path.join(SCRIPT_DIR, "..", "data", "geologic-timescale")
 OUT_DIR = os.path.join(SCRIPT_DIR, "..", "hugo", "static", "data")
 
 VALID_RANKS = {"Eon", "Era", "Period", "SubPeriod", "Epoch", "Age", "CulturalAge"}

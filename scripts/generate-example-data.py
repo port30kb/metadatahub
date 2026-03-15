@@ -19,7 +19,7 @@ random.seed(42)
 
 BASE = "https://metadatahub.eu/data/example-collection"
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_FILE = os.path.join(SCRIPT_DIR, "data", "example-collection", "reference-data.yaml")
+DATA_FILE = os.path.join(SCRIPT_DIR, "..", "data", "example-collection", "reference-data.yaml")
 OUT_DIR = os.path.join(SCRIPT_DIR, "..", "hugo", "static", "data")
 
 # ══════════════════════════════════════════════════════════════
