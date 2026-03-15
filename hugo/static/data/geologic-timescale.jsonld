@@ -841,8 +841,16 @@
           "@language": "adt"
         },
         {
+          "@value": "Эдиакарий",
+          "@language": "ru"
+        },
+        {
           "@value": "Ediacarium",
           "@language": "sv"
+        },
+        {
+          "@value": "埃迪卡拉纪",
+          "@language": "zh"
         }
       ],
       "skos:prefLabel": {
@@ -850,7 +858,7 @@
         "@language": "en"
       },
       "skos:definition": {
-        "@value": "Ediacaran biota: first large complex organisms; soft-bodied fauna. Named for Ediacara Creek, Flinders Ranges, South Australia, on traditional Adnyamathanha lands; Adnyamathanha name disputed: 'Idiyakra' (place near water, oldest recorded form) or 'Yata Takarra' (hard/stony ground); 2023 Nilpena Ediacara National Park formalizes Adnyamathanha custodianship.",
+        "@value": "Ediacaran biota: first large complex organisms; soft-bodied fauna. Named for Ediacara Creek, Flinders Ranges, South Australia, on traditional Adnyamathanha lands; historically known as Vendian (Вендский) in Russian and Sinian (震旦系) in Chinese stratigraphy; 2023 Nilpena Ediacara National Park formalizes Adnyamathanha custodianship.",
         "@language": "en"
       },
       "gts:rank": "Period",
@@ -5972,7 +5980,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/quaternary"
       },
-      "time:hasBeginning": "1952 CE",
+      "time:hasBeginning": "1950 CE",
       "time:hasEnd": "Present",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
@@ -10728,8 +10736,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/geologic-timescale/ypresian"
       },
-      "time:hasBeginning": "55.8 Ma",
-      "time:hasEnd": "55.6 Ma",
+      "time:hasBeginning": "55.93 Ma",
+      "time:hasEnd": "55.73 Ma",
       "dcterms:source": "https://en.wikipedia.org/wiki/Geologic_time_scale"
     },
     {

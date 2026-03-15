@@ -6,9 +6,8 @@ Multi-language data covering:
 - 10 Eras
 - 22 Periods (incl. Mississippian/Pennsylvanian sub-periods)
 - 38 Epochs
-- ~90 Ages/Stages (Mesozoic + Cenozoic + Pleistocene + Holocene + geologic events)
-- ~20 Paleozoic epoch-level divisions
-- Archaeological/cultural ages bridging into human history
+- ~140 Ages/Stages (all ICS formal stages + geologic events)
+- ~630 Archaeological/cultural ages bridging into human history
 
 Each entry has multilingual labels:
   - "en" (English) — primary language
@@ -137,8 +136,8 @@ add("sturtian", {"en": "Sturtian Glaciation", "sv": "Sturtianglaciationen"}, "Ag
     "First and longer Snowball Earth event; global ice cover for ~57 million years. Named for Sturt River, South Australia.")
 add("marinoan", {"en": "Marinoan Glaciation", "sv": "Marinoanglaciationen"}, "Age", "cryogenian", 639, 635, "Ma",
     "Second Snowball Earth; onset ~639 Ma per U-Pb geochronology; cap carbonates deposited after deglaciation. Named for Marino, South Australia.")
-add("ediacaran", {"en": "Ediacaran", "sv": "Ediacarium", "adt": "Idiyakra"}, "Period", "neoproterozoic", 635, 538.8, "Ma",
-    "Ediacaran biota: first large complex organisms; soft-bodied fauna. Named for Ediacara Creek, Flinders Ranges, South Australia, on traditional Adnyamathanha lands; Adnyamathanha name disputed: 'Idiyakra' (place near water, oldest recorded form) or 'Yata Takarra' (hard/stony ground); 2023 Nilpena Ediacara National Park formalizes Adnyamathanha custodianship.")
+add("ediacaran", {"en": "Ediacaran", "sv": "Ediacarium", "adt": "Idiyakra", "ru": "Эдиакарий", "zh": "埃迪卡拉纪"}, "Period", "neoproterozoic", 635, 538.8, "Ma",
+    "Ediacaran biota: first large complex organisms; soft-bodied fauna. Named for Ediacara Creek, Flinders Ranges, South Australia, on traditional Adnyamathanha lands; historically known as Vendian (Вендский) in Russian and Sinian (震旦系) in Chinese stratigraphy; 2023 Nilpena Ediacara National Park formalizes Adnyamathanha custodianship.")
 add("gaskiers", {"en": "Gaskiers Glaciation", "sv": "Gaskiersglaciationen", "fr": "Glaciation de Gaskiers"}, "Age", "ediacaran", 580.9, 579.6, "Ma",
     "Last major Neoproterozoic glaciation; short-lived (~1.3 Myr); followed by deep ocean oxygenation enabling rise of Ediacaran fauna.")
 
@@ -485,7 +484,7 @@ add("meghalayan", {"en": "Meghalayan", "sv": "Meghalayum", "hi": "मेघा�
     "Late Holocene; 4.2 ka drought; rise and fall of Bronze Age civilizations; present day; GSSP at Mawmluh Cave, Khasi Hills.")
 
 # Anthropocene (informal — rejected by IUGS March 2024, but widely used)
-add("anthropocene", {"en": "Anthropocene (informal)", "sv": "Antropocen (informell)", "grc": "ἄνθρωπος καινός"}, "Epoch", "quaternary", 1952, 0, "CE",
+add("anthropocene", {"en": "Anthropocene (informal)", "sv": "Antropocen (informell)", "grc": "ἄνθρωπος καινός"}, "Epoch", "quaternary", 1950, 0, "CE",
     "Proposed epoch marking dominant human influence on Earth systems; IUGS rejected formal ratification in March 2024; widely used informally in science and policy; proposed GSSP at Crawford Lake, Canada, based on nuclear fallout markers.")
 
 # ═══════════════════════════════════════════════════════════════
@@ -846,7 +845,7 @@ add("lomagundi-jatuli", {"en": "Lomagundi–Jatuli Event", "sv": "Lomagundi–Ja
     "Largest positive carbon isotope excursion in Earth history (δ¹³C up to +12‰); immediately follows GOE; indicates massive organic carbon burial; associated with first rise of atmospheric oxygen; global extent confirmed from Fennoscandia to southern Africa.")
 add("great-unconformity", {"en": "Great Unconformity", "sv": "Stora diskonformiteten"}, "Age", "neoproterozoic", 1000, 539, "Ma",
     "Global gap in the rock record between Precambrian basement and Cambrian strata; up to 1.2 billion years missing in places; cause debated: Snowball Earth glacial erosion, continental denudation, or Rodinia rifting; term coined by John Wesley Powell (1869); Lipalian interval of Walcott (1910).")
-add("petm", {"en": "Paleocene–Eocene Thermal Maximum", "sv": "Paleocen–eocen termiska maximumet"}, "Age", "ypresian", 55.8, 55.6, "Ma",
+add("petm", {"en": "Paleocene–Eocene Thermal Maximum", "sv": "Paleocen–eocen termiska maximumet"}, "Age", "ypresian", 55.93, 55.73, "Ma",
     "Rapid global warming of 5–8 °C; massive carbon release; mammals disperse across continents.")
 add("messinian-crisis", {"en": "Messinian Salinity Crisis", "sv": "Messiniska saltkrisen"}, "Age", "messinian", 5.96, 5.33, "Ma",
     "Mediterranean Sea nearly dries up due to tectonic closure of Strait of Gibraltar; massive evaporite deposits.")

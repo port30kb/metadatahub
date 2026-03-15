@@ -394,10 +394,12 @@ ts:marinoan a gts:GeochronologicAge ;
 ts:ediacaran a gts:GeochronologicPeriod ;
     rdfs:label "Ediacaran"@en ;
     rdfs:label "Idiyakra"@adt ;
+    rdfs:label "Эдиакарий"@ru ;
     rdfs:label "Ediacarium"@sv ;
+    rdfs:label "埃迪卡拉纪"@zh ;
     skos:prefLabel "Ediacaran"@en ;
     skos:inScheme <https://metadatahub.eu/data/geologic-timescale> ;
-    skos:definition "Ediacaran biota: first large complex organisms; soft-bodied fauna. Named for Ediacara Creek, Flinders Ranges, South Australia, on traditional Adnyamathanha lands; Adnyamathanha name disputed: 'Idiyakra' (place near water, oldest recorded form) or 'Yata Takarra' (hard/stony ground); 2023 Nilpena Ediacara National Park formalizes Adnyamathanha custodianship."@en ;
+    skos:definition "Ediacaran biota: first large complex organisms; soft-bodied fauna. Named for Ediacara Creek, Flinders Ranges, South Australia, on traditional Adnyamathanha lands; historically known as Vendian (Вендский) in Russian and Sinian (震旦系) in Chinese stratigraphy; 2023 Nilpena Ediacara National Park formalizes Adnyamathanha custodianship."@en ;
     gts:rank "Period" ;
     skos:broader ts:neoproterozoic ;
     time:hasBeginning [ time:inXSDgYear "635"^^xsd:decimal ; rdfs:label "635 Ma" ] ;
@@ -2593,7 +2595,7 @@ ts:anthropocene a gts:GeochronologicEpoch ;
     skos:definition "Proposed epoch marking dominant human influence on Earth systems; IUGS rejected formal ratification in March 2024; widely used informally in science and policy; proposed GSSP at Crawford Lake, Canada, based on nuclear fallout markers."@en ;
     gts:rank "Epoch" ;
     skos:broader ts:quaternary ;
-    time:hasBeginning [ rdfs:label "1952 CE" ] ;
+    time:hasBeginning [ rdfs:label "1950 CE" ] ;
     time:hasEnd [ rdfs:label "Present" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
@@ -4656,8 +4658,8 @@ ts:petm a gts:GeochronologicAge ;
     skos:definition "Rapid global warming of 5–8 °C; massive carbon release; mammals disperse across continents."@en ;
     gts:rank "Age" ;
     skos:broader ts:ypresian ;
-    time:hasBeginning [ time:inXSDgYear "55.8"^^xsd:decimal ; rdfs:label "55.8 Ma" ] ;
-    time:hasEnd [ time:inXSDgYear "55.6"^^xsd:decimal ; rdfs:label "55.6 Ma" ] ;
+    time:hasBeginning [ time:inXSDgYear "55.93"^^xsd:decimal ; rdfs:label "55.93 Ma" ] ;
+    time:hasEnd [ time:inXSDgYear "55.73"^^xsd:decimal ; rdfs:label "55.73 Ma" ] ;
     dcterms:source <https://en.wikipedia.org/wiki/Geologic_time_scale> .
 
 # ── 338/852: Messinian Salinity Crisis (Age) ──
