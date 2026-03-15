@@ -79,7 +79,7 @@ add("hadean", {"en": "Hadean", "sv": "Hadeikum", "grc": "Ἅιδης"}, "Eon", N
 # Hadean informal divisions (proposed by Goldblatt et al. 2010; GTS 2012; not ratified by ICS)
 add("chaotian", {"en": "Chaotian (informal)", "sv": "Chaotium (informell)", "grc": "Χάος"}, "Era", "hadean", 4567, 4404, "Ma",
     "Accretion and differentiation of Earth; Moon-forming giant impact (Theia hypothesis, ~4510 Ma); surface entirely molten magma ocean.")
-add("zirconian", {"en": "Zirconian (informal)", "sv": "Zirkonium (informell)", "grc": "ζίρκων", "fa": "زرگون"}, "Era", "hadean", 4404, 4031, "Ma",
+add("zirconian", {"en": "Zirconian (informal)", "sv": "Zirkonien (informell)", "grc": "ζίρκων", "fa": "زرگون"}, "Era", "hadean", 4404, 4031, "Ma",
     "Oldest known mineral grains (Jack Hills zircons, ~4.4 Ga); first solid crust forms; Late Heavy Bombardment.")
 add("late-heavy-bombardment", {"en": "Late Heavy Bombardment (LHB)", "sv": "Sena tunga bombardemanget"}, "Age", "hadean", 4100, 3800, "Ma",
     "Proposed period of intense asteroid and comet impacts on inner Solar System; evidence from lunar craters and Apollo samples; shaped early Earth crust; timing and intensity debated (Nice model).")
@@ -163,7 +163,7 @@ add("stage4-cambrian", {"en": "Cambrian Stage 4 (unnamed)", "sv": "Kambrium steg
     "Archaeocyathid reef-builders peak then decline.")
 add("miaolingian", {"en": "Miaolingian", "sv": "Miaolingium", "zh": "苗岭"}, "Epoch", "cambrian", 506.5, 497, "Ma",
     "Peak trilobite diversity; Burgess Shale-type faunas.")
-add("wuliuan", {"en": "Wuliuan", "sv": "Wuliuan", "zh": "乌溜"}, "Age", "miaolingian", 506.5, 504.5, "Ma",
+add("wuliuan", {"en": "Wuliuan", "sv": "Wuliuanium", "zh": "乌溜"}, "Age", "miaolingian", 506.5, 504.5, "Ma",
     "Burgess Shale fauna; diverse arthropods and anomalocaridids.")
 add("drumian", {"en": "Drumian", "sv": "Drumium"}, "Age", "miaolingian", 504.5, 500.5, "Ma",
     "Agnostid trilobites flourish; deep-water faunas diversify. Named for Drum Mountains, Utah.")
@@ -321,7 +321,7 @@ add("triassic", {"en": "Triassic", "sv": "Trias", "de": "Trias"}, "Period", "mes
     "Recovery from Permian extinction; first dinosaurs, first mammals, first pterosaurs.")
 add("early-triassic", {"en": "Early Triassic", "sv": "Undre trias"}, "Epoch", "triassic", 251.902, 246.7, "Ma",
     "Slow recovery from extinction; Lystrosaurus dominates terrestrial fauna.")
-add("induan", {"en": "Induan", "sv": "Indium (geol.)", "sa": "सिन्धु", "ur": "سنڌ"}, "Age", "early-triassic", 251.902, 249.9, "Ma",
+add("induan", {"en": "Induan", "sv": "Induium", "sa": "सिन्धु", "ur": "سنڌ"}, "Age", "early-triassic", 251.902, 249.9, "Ma",
     "Earliest Triassic stage; extremely low biodiversity, harsh conditions. Named for Indus/Sindh region.")
 add("olenekian", {"en": "Olenekian", "sv": "Olenekium", "ru": "Оленёк"}, "Age", "early-triassic", 249.9, 246.7, "Ma",
     "Marine ecosystems begin recovery; first ichthyosaurs appear.")
@@ -422,7 +422,7 @@ add("eocene", {"en": "Eocene", "sv": "Eocen", "grc": "ἠώς καινός"}, "E
     "Warmest Cenozoic epoch; first modern mammal orders; early whales, horses, bats.")
 add("ypresian", {"en": "Ypresian", "sv": "Ypresium", "nl": "Ieper", "fr": "Ypres"}, "Age", "eocene", 56, 48.07, "Ma",
     "Paleocene-Eocene Thermal Maximum (PETM); warmest global temperatures.")
-add("lutetian", {"en": "Lutetian", "sv": "Lutetium (geol.)", "la": "Lutetia", "fr": "Paris"}, "Age", "eocene", 48.07, 41.03, "Ma",
+add("lutetian", {"en": "Lutetian", "sv": "Lutetium (geologi)", "la": "Lutetia", "fr": "Paris"}, "Age", "eocene", 48.07, 41.03, "Ma",
     "Diversification of modern mammal families; early elephants.")
 add("bartonian", {"en": "Bartonian", "sv": "Bartonium"}, "Age", "eocene", 41.03, 37.71, "Ma",
     "Gradual cooling begins; Antarctic ice sheet starts forming. Named for Barton-on-Sea, England.")
