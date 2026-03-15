@@ -13,14 +13,18 @@ OXIGRAPH_URL="${OXIGRAPH_URL:-http://localhost:7878}"
 
 echo "=== Building metadatahub.eu ==="
 
-# Step 1: Build Hugo site
-echo "[1/3] Building Hugo site..."
+# Step 1: Generate data files from YAML
+echo "[1/4] Generating data files..."
+python3 "$SCRIPT_DIR/generate-geologic-timescale.py"
+
+# Step 2: Build Hugo site
+echo "[2/4] Building Hugo site..."
 cd "$HUGO_DIR"
 hugo --minify
 echo "  Hugo build complete: $(find public -name '*.html' | wc -l) HTML files generated"
 
-# Step 2: Load RDF data into Oxigraph
-echo "[2/3] Loading RDF data into Oxigraph..."
+# Step 3: Load RDF data into Oxigraph
+echo "[3/4] Loading RDF data into Oxigraph..."
 TURTLE_FILES=$(find "$HUGO_DIR/public" -name "*.ttl" -type f 2>/dev/null || true)
 if [ -n "$TURTLE_FILES" ]; then
     # Clear existing data
@@ -40,8 +44,8 @@ else
     echo "  No Turtle files found to load"
 fi
 
-# Step 3: Update OAI-PMH SQLite database
-echo "[3/3] Updating OAI-PMH database..."
+# Step 4: Update OAI-PMH SQLite database
+echo "[4/4] Updating OAI-PMH database..."
 mkdir -p "$OAI_DATA_DIR"
 "$SCRIPT_DIR/update-oai-db.sh"
 

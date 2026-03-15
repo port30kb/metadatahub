@@ -2,6 +2,10 @@
 hugo/public/
 hugo/resources/_gen/
 
+# Generated data files (rebuild with: python3 scripts/generate-geologic-timescale.py)
+hugo/static/data/geologic-timescale.ttl
+hugo/static/data/geologic-timescale.jsonld
+
 # OAI-PMH database (generated)
 oai-pmh/data/oai.sqlite
 
