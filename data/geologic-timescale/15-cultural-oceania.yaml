@@ -1,0 +1,408 @@
+# Oceanian Historical & Cultural Periods
+
+- id: oceania-history
+  rank: CulturalAge
+  parent: holocene
+  start: 65000
+  end: 0
+  unit: BCE-CE
+  labels:
+    en: Oceanian Historical Periods
+    sv: Oceaniens historiska perioder
+  description: "Oldest continuous cultures on Earth; Aboriginal Australians, Melanesian, Polynesian, Micronesian peoples; maritime mastery; colonial disruption."
+
+- id: aboriginal-australia
+  rank: CulturalAge
+  parent: oceania-history
+  start: 65000
+  end: 1788
+  unit: BCE-CE
+  labels:
+    en: Aboriginal Australian Periods
+    sv: Aboriginsk australisk historia
+  description: "Oldest continuous civilization; Dreamtime/Dreaming; rock art (Kakadu, Kimberley); fire-stick farming; ~250 language groups; 65,000+ years."
+
+- id: aboriginal-early
+  rank: CulturalAge
+  parent: aboriginal-australia
+  start: 65000
+  end: 10000
+  unit: BCE
+  labels:
+    en: Early Aboriginal Period
+    sv: Tidig aboriginsk period
+  description: "First Australians arrive (~65,000 BP); Lake Mungo burials (~42,000 BP); megafauna coexistence and extinction; continent-wide spread; earliest rock art."
+
+- id: aboriginal-holocene
+  rank: CulturalAge
+  parent: aboriginal-australia
+  start: 10000
+  end: 1788
+  unit: BCE-CE
+  labels:
+    en: Aboriginal Holocene Period
+    sv: Aboriginsk holocen period
+  description: "Sea level rise creates modern coastline; Torres Strait Islands separate; intensification; fish traps (Brewarrina ~40,000 years); complex trade networks; songlines."
+
+- id: budj-bim
+  rank: CulturalAge
+  parent: aboriginal-australia
+  start: 6600
+  end: 1788
+  unit: BCE-CE
+  labels:
+    en: Budj Bim Cultural Landscape
+    sv: Budj Bim kulturlandskap
+  description: "Gunditjmara people, Victoria; world's oldest aquaculture system (~6,600 years); eel traps and stone channels; permanent stone dwellings; UNESCO World Heritage Site (2019)."
+
+- id: torres-strait-islanders
+  rank: CulturalAge
+  parent: oceania-history
+  start: 8000
+  end: 0
+  unit: BCE-CE
+  labels:
+    en: Torres Strait Islander Culture
+    sv: "Torres Sund-öbornas kultur"
+  description: "Melanesian peoples of Torres Strait Islands; distinct from Aboriginal Australians; seafaring; horticulture; Tombstone Opening ceremonies; star lore navigation."
+
+- id: australian-colonial
+  rank: CulturalAge
+  parent: oceania-history
+  start: 1788
+  end: 1901
+  unit: CE
+  labels:
+    en: Colonial Australia
+    sv: Koloniala Australien
+  description: "First Fleet (1788); penal colony; frontier wars; gold rushes (1850s); pastoralism; Stolen Generations begin; six colonies; White Australia policy roots."
+
+- id: australian-federation
+  rank: CulturalAge
+  parent: oceania-history
+  start: 1901
+  end: 0
+  unit: CE
+  labels:
+    en: Federation and Modern Australia
+    sv: Australiens federation och modern tid
+  description: "Commonwealth of Australia (1901); Gallipoli (1915); White Australia policy (ended 1973); Mabo decision (1992); Sorry Day; multiculturalism."
+
+- id: melanesia-history
+  rank: CulturalAge
+  parent: oceania-history
+  start: 50000
+  end: 0
+  unit: BCE-CE
+  labels:
+    en: Melanesian Civilizations
+    sv: Melanesiska civilisationer
+  description: "Oldest Pacific settlement; Papua New Guinea highlands agriculture (~7000 BCE); diverse cultures; Kuk Swamp; Lapita pottery tradition."
+
+- id: sahul-settlement
+  rank: CulturalAge
+  parent: melanesia-history
+  start: 50000
+  end: 30000
+  unit: BCE
+  labels:
+    en: Settlement of Sahul
+    sv: Bosättningen av Sahul
+  description: "First humans in New Guinea/Australia (connected as Sahul); maritime crossing from Sunda; earliest evidence of ocean voyaging by humans."
+
+- id: png-highlands
+  rank: CulturalAge
+  parent: melanesia-history
+  start: 40000
+  end: 1930
+  unit: BCE-CE
+  labels:
+    en: Papua New Guinea Highlands Cultures
+    sv: Papua Nya Guineas höglandskultur
+  description: "Diverse highland societies; 850+ languages; sweet potato revolution (~1600 CE); sing-sing gatherings; kina shell currency; first European contact 1930s."
+
+- id: kuk-early-agriculture
+  rank: CulturalAge
+  parent: melanesia-history
+  start: 7000
+  end: 4000
+  unit: BCE
+  labels:
+    en: Kuk Early Agriculture
+    sv: Tidig jordbruk vid Kuk
+  description: "Kuk Swamp, PNG highlands; independent invention of agriculture; banana, taro, yam cultivation; drainage ditches; one of world's earliest farming sites."
+
+- id: ancient-fiji
+  rank: CulturalAge
+  parent: melanesia-history
+  start: 1300
+  end: 1874
+  unit: BCE-CE
+  labels:
+    en: Ancient Fiji
+    sv: Forntida Fiji
+  description: "Settled by Lapita people ~1300 BCE; complex chiefdom system; cannibal culture; drua double-hulled canoes; cultural crossroads of Melanesia and Polynesia."
+
+- id: lapita-culture
+  rank: CulturalAge
+  parent: oceania-history
+  start: 1600
+  end: 500
+  unit: BCE
+  labels:
+    en: Lapita Culture
+    sv: Lapitakulturen
+  description: "Ancestral Polynesian culture; distinctive dentate-stamped pottery; originated Bismarck Archipelago; spread to Fiji, Tonga, Samoa; skilled navigators."
+
+- id: polynesia-history
+  rank: CulturalAge
+  parent: oceania-history
+  start: 1500
+  end: 0
+  unit: BCE-CE
+  labels:
+    en: Polynesian Civilizations
+    sv: Polynesiska civilisationer
+  description: "Greatest maritime expansion in human history; settled Pacific from Tonga/Samoa to Hawaiʻi, Easter Island, New Zealand; navigation by stars, currents, birds."
+
+- id: polynesia-ancestral
+  rank: CulturalAge
+  parent: polynesia-history
+  start: 1500
+  end: 200
+  unit: BCE
+  labels:
+    en: Ancestral Polynesia
+    sv: Forntida Polynesien
+  description: "Tonga settled ~1500 BCE, Samoa ~1000 BCE; development of Polynesian culture, language, navigation; chiefdom societies; kava traditions."
+
+- id: polynesia-expansion
+  rank: CulturalAge
+  parent: polynesia-history
+  start: 300
+  end: 1300
+  unit: CE
+  labels:
+    en: Polynesian Expansion
+    sv: Polynesisk expansion
+  description: "Rapid expansion into Eastern Polynesia; Marquesas (~300 CE), Hawaiʻi (~1000 CE), Rapa Nui (~1200 CE), Aotearoa (~1250 CE); double-hulled canoes; star navigation."
+
+- id: rapa-nui
+  rank: CulturalAge
+  parent: polynesia-history
+  start: 1200
+  end: 1722
+  unit: CE
+  labels:
+    en: Rapa Nui
+    sv: Rapa Nui
+  description: "Moai statues (~900 carved); ahu platforms; rongorongo script (undeciphered); ecological transformation; European contact (1722)."
+
+- id: cook-islands-settlement
+  rank: CulturalAge
+  parent: polynesia-history
+  start: 800
+  end: 1595
+  unit: CE
+  labels:
+    en: Cook Islands Settlement
+    sv: "Cook-öarnas bebyggelse"
+  description: "Settlement from Society Islands; coral architecture; lagoon aquaculture; Rarotonga seat of power; pre-European contact societies."
+
+- id: tuamotu-settlement
+  rank: CulturalAge
+  parent: polynesia-history
+  start: 900
+  end: 1595
+  unit: CE
+  labels:
+    en: Tuamotu Settlement
+    sv: Tuamotus bebyggelse
+  description: "Settlement of remote atolls; pearl diving; celestial navigation mastery; coral-atoll adaptation; pre-European contact societies."
+
+- id: ancient-hawaii
+  rank: CulturalAge
+  parent: polynesia-history
+  start: 1000
+  end: 1795
+  unit: CE
+  labels:
+    en: Ancient Hawaiʻi
+    sv: Forntida Hawaiʻi
+  description: "Settlement from Marquesas/Tahiti; ahupuaʻa land management; heiau temples; kapu system; taro cultivation; fish ponds; ali'i chiefs."
+
+- id: hawaiian-kingdom
+  rank: CulturalAge
+  parent: polynesia-history
+  start: 1795
+  end: 1893
+  unit: CE
+  labels:
+    en: Kingdom of Hawaiʻi
+    sv: Kungariket Hawaiʻi
+  description: "Kamehameha I unifies islands; constitutional monarchy; Hawaiian Renaissance; written language; sugar plantations; overthrown by U.S.-backed coup (1893)."
+
+- id: tui-manua
+  rank: CulturalAge
+  parent: polynesia-history
+  start: 1000
+  end: 1904
+  unit: CE
+  labels:
+    en: Tuʻi Manuʻa
+    sv: Tuʻi Manuʻa
+  description: "Ancient Samoan paramount chieftainship; Manuʻa Islands (Taʻū, Ofu, Olosega); oldest Polynesian title; legendary Tagaloa origin; ceded to U.S. 1904."
+
+- id: tui-tonga-empire
+  rank: CulturalAge
+  parent: polynesia-history
+  start: 950
+  end: 1865
+  unit: CE
+  labels:
+    en: Tuʻi Tonga Empire
+    sv: "Tuʻi Tonga-riket"
+  description: "Maritime empire spanning central Pacific; Tongatapu capital; Haʻamonga trilithon; influenced Samoa, Fiji, Niue; one of Polynesia's largest polities."
+
+- id: micronesia-history
+  rank: CulturalAge
+  parent: oceania-history
+  start: 2000
+  end: 0
+  unit: BCE-CE
+  labels:
+    en: Micronesian Civilizations
+    sv: Mikronesiska civilisationer
+  description: "Thousands of small islands; skilled navigators; Carolinian stick charts; varied cultures from Palau to Marshall Islands."
+
+- id: nan-madol
+  rank: CulturalAge
+  parent: micronesia-history
+  start: 1180
+  end: 1628
+  unit: CE
+  labels:
+    en: Nan Madol
+    sv: Nan Madol
+  description: "Megalithic city built on artificial islets, Pohnpei; 'Venice of the Pacific'; basalt log-cabin architecture; Saudeleur dynasty; UNESCO site."
+
+- id: palau-earthworks
+  rank: CulturalAge
+  parent: micronesia-history
+  start: 1200
+  end: 1600
+  unit: CE
+  labels:
+    en: Palau Earthwork Era
+    sv: Palaus jordarbetsperiod
+  description: "Monumental earthwork terraces on Babeldaob; largest earthworks in Oceania; hillside terracing for agriculture and defense; stone villages; bai meeting houses."
+
+- id: marshallese-navigation
+  rank: CulturalAge
+  parent: micronesia-history
+  start: 500
+  end: 1900
+  unit: CE
+  labels:
+    en: Marshallese Navigation Tradition
+    sv: Marshallesisk navigationstradition
+  description: "Stick chart navigation (mattang, meddo, rebbelib); wave piloting; outrigger canoes; settlement of remote atolls; unique ocean-reading knowledge."
+
+- id: chamorro-ancient
+  rank: CulturalAge
+  parent: micronesia-history
+  start: 1500
+  end: 1668
+  unit: BCE-CE
+  labels:
+    en: Ancient Chamorro
+    sv: Ancient Chamorro
+  description: "Mariana Islands (Guam, Saipan); latte stone pillars; rice cultivation unique in Pacific; proa sailing canoes; matrilineal society; Spanish colonization begins 1668."
+
+- id: aotearoa-history
+  rank: CulturalAge
+  parent: oceania-history
+  start: 1250
+  end: 0
+  unit: CE
+  labels:
+    en: Aotearoa / New Zealand History
+    sv: Aotearoa / Nya Zeelands historia
+  description: "Last major landmass settled by humans; Māori culture; Treaty of Waitangi (1840); bicultural nation."
+
+- id: maori-settlement
+  rank: CulturalAge
+  parent: aotearoa-history
+  start: 1250
+  end: 1500
+  unit: CE
+  labels:
+    en: Māori Settlement Period
+    sv: Māori bosättningsperiod
+  description: "East Polynesian voyagers arrive; moa hunting; early pā (fortified villages); adaptation to temperate climate; kūmara cultivation."
+
+- id: maori-classic
+  rank: CulturalAge
+  parent: aotearoa-history
+  start: 1500
+  end: 1769
+  unit: CE
+  labels:
+    en: Classic Māori Period
+    sv: Klassisk māoriperiod
+  description: "Elaborate pā fortifications; whakairo (carving); tā moko (tattoo); haka; complex tribal (iwi) society; inter-tribal warfare; greenstone (pounamu) trade."
+
+- id: new-zealand-colonial
+  rank: CulturalAge
+  parent: aotearoa-history
+  start: 1769
+  end: 1907
+  unit: CE
+  labels:
+    en: Colonial New Zealand
+    sv: Koloniala Nya Zeeland
+  description: "Cook arrives (1769); sealers, whalers; Musket Wars; Treaty of Waitangi (1840); New Zealand Wars (1845-72); gold rushes; Dominion status (1907)."
+
+- id: new-zealand-modern
+  rank: CulturalAge
+  parent: aotearoa-history
+  start: 1907
+  end: 0
+  unit: CE
+  labels:
+    en: Modern New Zealand
+    sv: Moderna Nya Zeeland
+  description: "Women's suffrage (1893, first nation); Gallipoli; welfare state; Māori Renaissance; nuclear-free (1987); Treaty settlements; multicultural Aotearoa."
+
+- id: colonial-pacific
+  rank: CulturalAge
+  parent: oceania-history
+  start: 1521
+  end: 1975
+  unit: CE
+  labels:
+    en: Colonial Pacific
+    sv: Koloniala Stilla havet
+  description: "Magellan (1521); Spanish, British, French, German, Japanese, American colonial claims; copra trade; nuclear testing (Bikini, Moruroa); independence wave."
+
+- id: pacific-nuclear-era
+  rank: CulturalAge
+  parent: colonial-pacific
+  start: 1946
+  end: 1996
+  unit: CE
+  labels:
+    en: Pacific Nuclear Testing Era
+    sv: Stillahavsområdets kärnvapentest
+  description: "Bikini Atoll (1946); 315+ nuclear tests in Pacific; Marshall Islands, French Polynesia, Christmas Island; health and environmental devastation; ban movement."
+
+- id: pacific-independence
+  rank: CulturalAge
+  parent: contemporary
+  start: 1962
+  end: 0
+  unit: CE
+  labels:
+    en: Pacific Island Independence
+    sv: Stillahavsnationernas självständighet
+  description: "Western Samoa first (1962); Fiji, PNG, Vanuatu, Kiribati follow; Pacific Islands Forum; climate change existential threat; 'Blue Pacific' identity."

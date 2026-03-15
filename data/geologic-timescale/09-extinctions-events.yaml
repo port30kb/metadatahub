@@ -1,0 +1,345 @@
+# Major Mass Extinction Events and Geological/Climate Events
+
+- id: end-ordovician-extinction
+  rank: Age
+  parent: late-ordovician
+  start: 445
+  end: 443
+  unit: Ma
+  labels:
+    en: "End-Ordovician Extinction"
+    sv: "Ordovicium-silur-utdöendet"
+  description: "First of the Big Five; ~85% of marine species lost; caused by Gondwanan glaciation and sea-level fall."
+
+- id: late-devonian-extinction
+  rank: Age
+  parent: late-devonian
+  start: 375
+  end: 359
+  unit: Ma
+  labels:
+    en: Late Devonian Extinction
+    sv: "Sendevon-utdöendet"
+  description: "Second of the Big Five; ~75% of species lost over millions of years; reef ecosystems collapse."
+
+- id: permian-triassic-extinction
+  rank: Age
+  parent: lopingian
+  start: 252
+  end: 251.9
+  unit: Ma
+  labels:
+    en: Permian–Triassic Extinction
+    sv: "Perm–trias-utdöendet"
+  description: "Worst mass extinction: ~96% of marine and ~70% of land species; Siberian Traps volcanism."
+
+- id: triassic-jurassic-extinction
+  rank: Age
+  parent: late-triassic
+  start: 201.5
+  end: 201.3
+  unit: Ma
+  labels:
+    en: Triassic–Jurassic Extinction
+    sv: "Trias–jura-utdöendet"
+  description: "Fourth of the Big Five; ~80% of species lost; CAMP volcanism; opens way for dinosaur dominance."
+
+- id: cretaceous-paleogene-extinction
+  rank: Age
+  parent: late-cretaceous
+  start: 66.05
+  end: 66
+  unit: Ma
+  labels:
+    en: Cretaceous–Paleogene Extinction
+    sv: "Krita–paleogen-utdöendet"
+  description: "Fifth of the Big Five; Chicxulub asteroid impact; all non-avian dinosaurs extinct; ~76% of species lost."
+
+- id: deccan-traps
+  rank: Age
+  parent: maastrichtian
+  start: 66.4
+  end: 65.5
+  unit: Ma
+  labels:
+    en: Deccan Traps Volcanism
+    sv: Deckantrapperna
+    hi: दक्खन Dakhan
+  description: "One of Earth's largest volcanic events; ~1.5 million km² basalt flows in India; co-contributor to K-Pg extinction; climate disruption preceded and overlapped Chicxulub impact."
+
+- id: chicxulub-impact
+  rank: Age
+  parent: maastrichtian
+  start: 66.05
+  end: 66
+  unit: Ma
+  labels:
+    en: Chicxulub Impact
+    sv: Chicxulubnedslagen
+  description: "~10 km asteroid strikes Yucatán Peninsula; 180 km crater; impact winter; global wildfires; acid rain; tsunami; primary trigger of K-Pg mass extinction; iridium anomaly discovered by Alvarez et al. (1980)."
+
+- id: siberian-traps
+  rank: Age
+  parent: lopingian
+  start: 252.2
+  end: 250.6
+  unit: Ma
+  labels:
+    en: Siberian Traps
+    sv: Sibiriska trapperna
+  description: "Largest known continental flood basalt; ~7 million km² lava; released massive CO₂ and SO₂; primary trigger of Permian–Triassic extinction; thermogenic carbon from coal and evaporite contact metamorphism."
+
+- id: emeishan-traps
+  rank: Age
+  parent: permian
+  start: 260.5
+  end: 257
+  unit: Ma
+  labels:
+    en: Emeishan Traps
+    sv: Emeishantrapperna
+    zh: 峨眉山暗色岩 Éméishān ànsèyán
+  description: "Large igneous province in southwestern China (Sichuan, Yunnan, Guizhou); ~0.5 million km²; linked to Capitanian/end-Guadalupian extinction event; preceded Siberian Traps by ~8 Myr."
+
+- id: camp-volcanism
+  rank: Age
+  parent: late-triassic
+  start: 201.6
+  end: 200.9
+  unit: Ma
+  labels:
+    en: Central Atlantic Magmatic Province
+    sv: Centralatlantiska magmaprovinsen
+  description: "One of Earth's largest igneous provinces; erupted as Pangaea rifted; ~11 million km²; primary trigger of end-Triassic mass extinction; CO₂-driven warming and ocean acidification."
+
+- id: great-oxidation
+  rank: Age
+  parent: paleoproterozoic
+  start: 2400
+  end: 2060
+  unit: Ma
+  labels:
+    en: Great Oxidation Event
+    sv: Stora oxidationshändelsen
+  description: "Free oxygen accumulates in atmosphere for first time; mass die-off of anaerobic organisms; banded iron formations cease."
+
+- id: huronian-glaciation
+  rank: Age
+  parent: paleoproterozoic
+  start: 2400
+  end: 2100
+  unit: Ma
+  labels:
+    en: Huronian Glaciation
+    sv: Huroniska glaciationen
+  description: "First known Snowball Earth event; possibly triggered by Great Oxidation Event reducing methane greenhouse."
+
+- id: lomagundi-jatuli
+  rank: Age
+  parent: paleoproterozoic
+  start: 2220
+  end: 2060
+  unit: Ma
+  labels:
+    en: Lomagundi–Jatuli Event
+    sv: "Lomagundi–Jatuli-händelsen"
+  description: "Largest positive carbon isotope excursion in Earth history (δ¹³C up to +12‰); immediately follows GOE; indicates massive organic carbon burial; associated with first rise of atmospheric oxygen; global extent confirmed from Fennoscandia to southern Africa."
+
+- id: great-unconformity
+  rank: Age
+  parent: neoproterozoic
+  start: 1000
+  end: 539
+  unit: Ma
+  labels:
+    en: Great Unconformity
+    sv: Stora diskonformiteten
+  description: "Global gap in the rock record between Precambrian basement and Cambrian strata; up to 1.2 billion years missing in places; cause debated: Snowball Earth glacial erosion, continental denudation, or Rodinia rifting; term coined by John Wesley Powell (1869); Lipalian interval of Walcott (1910)."
+
+- id: petm
+  rank: Age
+  parent: ypresian
+  start: 55.93
+  end: 55.73
+  unit: Ma
+  labels:
+    en: Paleocene–Eocene Thermal Maximum
+    sv: Paleocen–eocen termiska maximumet
+  description: "Rapid global warming of 5–8 °C; massive carbon release; mammals disperse across continents."
+
+- id: messinian-crisis
+  rank: Age
+  parent: messinian
+  start: 5.96
+  end: 5.33
+  unit: Ma
+  labels:
+    en: Messinian Salinity Crisis
+    sv: Messiniska saltkrisen
+  description: "Mediterranean Sea nearly dries up due to tectonic closure of Strait of Gibraltar; massive evaporite deposits."
+
+- id: last-glacial-max
+  rank: Age
+  parent: late-pleistocene
+  start: 0.026
+  end: 0.019
+  unit: Ma
+  labels:
+    en: Last Glacial Maximum
+    sv: Senaste glaciala maximum
+  description: "Peak of last ice age ~26,000 years ago; ice sheets cover Scandinavia, Britain, northern Europe; sea level ~120 m lower."
+
+- id: younger-dryas
+  rank: Age
+  parent: late-pleistocene
+  start: 12900
+  end: 11700
+  unit: BP
+  labels:
+    en: Younger Dryas
+    sv: Yngre Dryas
+  description: "Abrupt return to glacial conditions for ~1,200 years; end marks start of Holocene; cause debated (meltwater pulse?)."
+
+- id: 8.2ka-event
+  rank: Age
+  parent: northgrippian
+  start: 8200
+  end: 8000
+  unit: BP
+  labels:
+    en: 8.2 ka Cold Event
+    sv: "8200-årshändelsen"
+  description: "Sudden cooling for ~150 years; collapse of Laurentide ice sheet drains glacial lakes into Atlantic; disrupts thermohaline circulation."
+
+- id: 4.2ka-event
+  rank: Age
+  parent: meghalayan
+  start: 4200
+  end: 3900
+  unit: BP
+  labels:
+    en: 4.2 ka Aridification Event
+    sv: "4200-årshändelsen"
+    hi: मेघालय Meghālaya
+  description: "Severe drought lasting ~200 years; contributes to collapse of Akkadian Empire, Old Kingdom Egypt, Harappan civilization."
+
+- id: carnian-pluvial
+  rank: Age
+  parent: carnian
+  start: 234
+  end: 232
+  unit: Ma
+  labels:
+    en: Carnian Pluvial Episode
+    sv: Karniska regnperioden
+  description: "Major climate perturbation; ~2 Myr of increased rainfall globally; Wrangellia LIP volcanism as trigger; diversification of dinosaurs, conifers, corals; reef crisis; significant turnover in marine and terrestrial ecosystems."
+
+- id: boring-billion
+  rank: Age
+  parent: proterozoic
+  start: 1800
+  end: 800
+  unit: Ma
+  labels:
+    en: Boring Billion
+    sv: Tråkiga miljarden
+  description: "Informal name for ~1 billion years of apparent evolutionary and environmental stability; low atmospheric oxygen (~1-10% modern); subdued tectonic activity; minimal carbon isotope variation; recent work challenges 'boring' label."
+
+- id: toba-catastrophe
+  rank: Age
+  parent: late-pleistocene
+  start: 0.074
+  end: 0.074
+  unit: Ma
+  labels:
+    en: Toba Catastrophe
+    sv: Tobakatastrofen
+  description: "Supervolcanic eruption of Mount Toba, Sumatra (~74 ka); Volcanic Explosivity Index 8; ~2,800 km³ ejecta; volcanic winter; possible human population bottleneck (debated); largest eruption in last 2 million years."
+
+- id: rodinia-assembly
+  rank: Age
+  parent: proterozoic
+  start: 1100
+  end: 900
+  unit: Ma
+  labels:
+    en: Rodinia Assembly
+    sv: Rodinias bildande
+  description: "Assembly of supercontinent Rodinia via Grenville orogeny; included most of Earth's continental crust; name from Russian 'родина' (homeland); precursor configuration shaped later tectonic and glacial history."
+
+- id: rodinia-breakup
+  rank: Age
+  parent: neoproterozoic
+  start: 750
+  end: 633
+  unit: Ma
+  labels:
+    en: Rodinia Breakup
+    sv: Rodinias upplösning
+  description: "Rifting and breakup of supercontinent Rodinia; opened Iapetus Ocean; weathering of newly exposed continental margins may have triggered Snowball Earth glaciations (Sturtian, Marinoan); led to formation of Gondwana."
+
+- id: pangaea-assembly
+  rank: Age
+  parent: paleozoic
+  start: 335
+  end: 270
+  unit: Ma
+  labels:
+    en: Pangaea Assembly
+    sv: Pangeas bildande
+  description: "Assembly of Earth's most recent supercontinent from collision of Gondwana and Laurussia; Variscan/Hercynian and Alleghanian orogenies; enclosed Tethys Ocean; profoundly altered global climate and ocean circulation."
+
+- id: pangaea-breakup
+  rank: Age
+  parent: jurassic
+  start: 200
+  end: 150
+  unit: Ma
+  labels:
+    en: Pangaea Breakup
+    sv: Pangeas upplösning
+  description: "Rifting of Pangaea beginning in Late Triassic/Early Jurassic; separation into Laurasia and Gondwana; opening of Central Atlantic Ocean; CAMP volcanism associated with initial rifting; shaped modern continental configuration."
+
+- id: oae-1a
+  rank: Age
+  parent: aptian
+  start: 120
+  end: 119
+  unit: Ma
+  labels:
+    en: Oceanic Anoxic Event 1a
+    sv: Oceanisk anoxisk händelse 1a
+  description: "Widespread ocean anoxia linked to Ontong Java Plateau volcanism; massive organic carbon burial; black shale deposition; major perturbation of global carbon cycle; significant marine biotic turnover."
+
+- id: oae-2
+  rank: Age
+  parent: cenomanian
+  start: 94.4
+  end: 93.9
+  unit: Ma
+  labels:
+    en: Oceanic Anoxic Event 2
+    sv: Oceanisk anoxisk händelse 2
+  description: "Most severe Cretaceous oceanic anoxic event; global black shale deposition; ~27% of marine invertebrate genera extinct; linked to Caribbean LIP volcanism; major δ¹³C excursion used as global stratigraphic marker."
+
+- id: isthmus-panama
+  rank: Age
+  parent: piacenzian
+  start: 3.5
+  end: 2.8
+  unit: Ma
+  labels:
+    en: Isthmus of Panama Closure
+    sv: Panamänäsets slutning
+  description: "Tectonic closure of Central American Seaway; diverted Atlantic/Pacific currents; strengthened Gulf Stream and thermohaline circulation; triggered Great American Biotic Interchange (GABI); contributed to Northern Hemisphere glaciation onset."
+
+- id: mmct
+  rank: Age
+  parent: miocene
+  start: 14.0
+  end: 13.8
+  unit: Ma
+  labels:
+    en: "Mid-Miocene Climate Transition"
+    sv: Mellanmiocena klimatomställningen
+  description: "Abrupt global cooling following Mid-Miocene Climatic Optimum; major expansion of East Antarctic ice sheet; global sea level drop; grasslands expand at expense of forests; key inflection point toward modern icehouse climate."

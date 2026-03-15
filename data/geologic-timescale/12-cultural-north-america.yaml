@@ -1,0 +1,1007 @@
+# North American Historical & Cultural Periods
+
+- id: north-america-precolumbian
+  rank: CulturalAge
+  parent: holocene
+  start: 15000
+  end: 1492
+  unit: BCE-CE
+  labels:
+    en: "Pre-Columbian North America"
+    sv: Förkolumbisk Nordamerika
+  description: "Indigenous civilizations of North America before European contact; from Clovis hunters to complex societies of Mesoamerica and the Southwest."
+
+- id: monte-verde
+  rank: CulturalAge
+  parent: south-america-precolumbian
+  start: 14800
+  end: 13800
+  unit: BCE
+  labels:
+    en: Monte Verde
+    sv: Monte Verde
+  description: "Southern Chile; pre-Clovis archaeological site; evidence of human habitation ~14,800 BCE; challenges Clovis-first model; seaweed, mastodon remains; Tom Dillehay excavations."
+
+- id: paleo-indians
+  rank: CulturalAge
+  parent: north-america-precolumbian
+  start: 15000
+  end: 8000
+  unit: BCE
+  labels:
+    en: "Paleo-Indian Period"
+    sv: Paleoindian period
+  description: "First peoples of the Americas; Clovis culture (~13,000 BP); mammoth and megafauna hunters; Folsom points; Beringia land bridge migration."
+
+- id: clovis-culture
+  rank: CulturalAge
+  parent: paleo-indians
+  start: 11050
+  end: 10750
+  unit: BCE
+  labels:
+    en: Clovis Culture
+    sv: Cloviskulturen
+  description: "Distinctive fluted projectile points; widespread across North America; associated with Pleistocene megafauna hunting; Blackwater Draw type site."
+
+- id: folsom-culture
+  rank: CulturalAge
+  parent: paleo-indians
+  start: 10800
+  end: 10200
+  unit: BCE
+  labels:
+    en: Folsom Culture
+    sv: Folsomkulturen
+  description: "Post-Clovis bison hunters on Great Plains; refined fluted points; Folsom, New Mexico type site; megafauna extinction."
+
+- id: na-archaic-period
+  rank: CulturalAge
+  parent: north-america-precolumbian
+  start: 8000
+  end: 1000
+  unit: BCE
+  labels:
+    en: Archaic Period
+    sv: Archaicperioden
+  description: "Post-megafauna adaptation; diversified subsistence; ground stone tools; regional traditions develop across the continent."
+
+- id: na-archaic-early
+  rank: CulturalAge
+  parent: na-archaic-period
+  start: 8000
+  end: 5000
+  unit: BCE
+  labels:
+    en: Early Archaic
+    sv: Tidig arkaisk period
+  description: "Adaptation to Holocene environments; Dalton and Kirk point traditions; increasing plant use; seasonal rounds."
+
+- id: na-archaic-middle
+  rank: CulturalAge
+  parent: na-archaic-period
+  start: 5000
+  end: 3000
+  unit: BCE
+  labels:
+    en: Middle Archaic
+    sv: Mellanarkaisk period
+  description: "Population growth; specialized tool kits; long-distance exchange networks begin; Poverty Point site (Louisiana)."
+
+- id: na-archaic-late
+  rank: CulturalAge
+  parent: na-archaic-period
+  start: 3000
+  end: 1000
+  unit: BCE
+  labels:
+    en: Late Archaic
+    sv: Senarkaisk period
+  description: "First pottery in Southeast; mound building begins; Poverty Point earthworks; early squash cultivation; copper tools in Great Lakes."
+
+- id: poverty-point
+  rank: CulturalAge
+  parent: na-archaic-late
+  start: 1700
+  end: 1100
+  unit: BCE
+  labels:
+    en: Poverty Point Culture
+    sv: "Poverty Point-kulturen"
+  description: "Massive earthwork complex in Louisiana; concentric ridges, Mound A (largest in North America at the time); long-distance trade network."
+
+- id: mesoamerica
+  rank: CulturalAge
+  parent: north-america-precolumbian
+  start: 2000
+  end: 1521
+  unit: BCE-CE
+  labels:
+    en: Mesoamerican Civilizations
+    sv: Mesoamerikanska civilisationer
+  description: "Complex civilizations of Mexico and Central America; writing, calendars, monumental architecture, agriculture (maize, beans, squash)."
+
+- id: olmec
+  rank: CulturalAge
+  parent: mesoamerica
+  start: 1500
+  end: 400
+  unit: BCE
+  labels:
+    en: Olmec Civilization
+    sv: Olmekisk civilisation
+    nah: Ōlmēcah
+  description: "Mother culture of Mesoamerica; colossal stone heads; San Lorenzo and La Venta; first Mesoamerican writing and calendar; rubber ball game."
+
+- id: zapotec
+  rank: CulturalAge
+  parent: mesoamerica
+  start: 700
+  end: 1521
+  unit: BCE-CE
+  labels:
+    en: Zapotec Civilization
+    sv: Zapotekisk civilisation
+    zap: Binnizá
+  description: "Oaxaca Valley, Mexico; Monte Albán capital; earliest Mesoamerican writing system; 2,500-year continuous culture."
+
+- id: teotihuacan
+  rank: CulturalAge
+  parent: mesoamerica
+  start: 100
+  end: 750
+  unit: CE
+  labels:
+    en: Teotihuacán
+    sv: Teotihuacán
+    nah: Teōtīhuacān
+  description: "Largest city in pre-Columbian Americas (~125,000 people); Pyramids of the Sun and Moon; Avenue of the Dead; major fire ~550 CE; final abandonment ~750 CE."
+
+- id: maya-classic
+  rank: CulturalAge
+  parent: mesoamerica
+  start: 250
+  end: 900
+  unit: CE
+  labels:
+    en: Classic Maya Civilization
+    sv: Klassisk mayacivilisation
+    yua: Maaya
+  description: "City-states across Yucatán, Guatemala, Belize; hieroglyphic writing; Long Count calendar; Tikal, Palenque, Copán; mysterious collapse ~900 CE."
+
+- id: maya-preclassic
+  rank: CulturalAge
+  parent: mesoamerica
+  start: 2000
+  end: 250
+  unit: BCE-CE
+  labels:
+    en: Preclassic Maya
+    sv: Maya
+  description: "Origins of Maya civilization; El Mirador massive pyramids; development of writing and calendar; early agriculture and village life."
+
+- id: maya-postclassic
+  rank: CulturalAge
+  parent: mesoamerica
+  start: 900
+  end: 1521
+  unit: CE
+  labels:
+    en: Postclassic Maya
+    sv: Maya
+  description: "After Classic collapse; Chichén Itzá, Mayapán, K'iche' kingdoms; Kukulkán/Quetzalcoatl cult; Spanish conquest of Yucatán."
+
+- id: toltec
+  rank: CulturalAge
+  parent: mesoamerica
+  start: 900
+  end: 1168
+  unit: CE
+  labels:
+    en: Toltec Empire
+    sv: Toltecriket
+  description: "Tula as capital; warrior culture; Quetzalcoatl legend; influence on Aztec ideology; feathered serpent imagery."
+
+- id: aztec-empire
+  rank: CulturalAge
+  parent: mesoamerica
+  start: 1428
+  end: 1521
+  unit: CE
+  labels:
+    en: Aztec Empire / Triple Alliance
+    sv: Aztekiska riket
+    nah: Ēxcān Tlahtōlōyān
+  description: "Tenochtitlán on Lake Texcoco (~200,000 people); Mexica Triple Alliance; human sacrifice; chinampas; conquered by Cortés 1521."
+
+- id: aztec-rise
+  rank: CulturalAge
+  parent: mesoamerica
+  start: 1325
+  end: 1428
+  unit: CE
+  labels:
+    en: Rise of the Aztecs
+    sv: Aztekernas framväxt
+  description: "Founding of Tenochtitlán (1325); Mexica as mercenaries and vassals; Triple Alliance formed with Texcoco and Tlacopan (1428)."
+
+- id: aztec-expansion
+  rank: CulturalAge
+  parent: aztec-empire
+  start: 1428
+  end: 1502
+  unit: CE
+  labels:
+    en: Aztec Imperial Expansion
+    sv: Aztekiska rikets expansion
+  description: "Itzcoatl, Moctezuma I, Ahuitzotl expand empire from Gulf to Pacific; flower wars; tribute system; Great Temple of Tenochtitlán."
+
+- id: aztec-moctezuma-ii
+  rank: CulturalAge
+  parent: aztec-empire
+  start: 1502
+  end: 1520
+  unit: CE
+  labels:
+    en: Reign of Moctezuma II
+    sv: "Moctezuma II:s regeringstid"
+  description: "Empire at greatest extent; omens and prophecies; arrival of Cortés (1519); Moctezuma captured; dies during La Noche Triste (1520)."
+
+- id: mixtec
+  rank: CulturalAge
+  parent: mesoamerica
+  start: 900
+  end: 1521
+  unit: CE
+  labels:
+    en: Mixtec Civilization
+    sv: Mixteccivilisationen
+  description: "Oaxaca highlands; codex tradition (only pre-Columbian books to survive); Lord Eight Deer; goldsmithing; competed with Zapotec and Aztec."
+
+- id: purepecha
+  rank: CulturalAge
+  parent: mesoamerica
+  start: 1300
+  end: 1530
+  unit: CE
+  labels:
+    en: Purépecha (Tarascan) Empire
+    sv: "Purépecha-riket"
+  description: "Western Mexico (Michoacán); never conquered by Aztecs; Tzintzuntzan capital; metalworking (copper, bronze); yácatas stepped pyramids."
+
+- id: totonac
+  rank: CulturalAge
+  parent: mesoamerica
+  start: 300
+  end: 1521
+  unit: CE
+  labels:
+    en: Totonac Civilization
+    sv: Totonaccivilisationen
+  description: "Veracruz Gulf coast; El Tajín with Pyramid of the Niches; Cempoala; allies of Cortés against Aztecs; voladores ceremony."
+
+- id: epi-olmec
+  rank: CulturalAge
+  parent: mesoamerica
+  start: 300
+  end: 250
+  unit: BCE-CE
+  labels:
+    en: "Epi-Olmec Culture"
+    sv: Epiolmekisk kultur
+  description: "Successor to Olmec in Veracruz; Tres Zapotes; La Mojarra stela with Long Count date; transitional between Olmec and Classic cultures."
+
+- id: woodland-period
+  rank: CulturalAge
+  parent: north-america-precolumbian
+  start: 1000
+  end: 1000
+  unit: BCE-CE
+  labels:
+    en: Woodland Period
+    sv: Woodlandperioden
+  description: "Eastern North America; introduction of pottery, mound building, and incipient agriculture; Adena and Hopewell traditions."
+
+- id: adena-culture
+  rank: CulturalAge
+  parent: woodland-period
+  start: 800
+  end: 100
+  unit: BCE
+  labels:
+    en: Adena Culture
+    sv: Adenakulturen
+  description: "Ohio Valley mound builders; conical burial mounds; Adena pipe; early cultivation of sunflower, squash; long-distance trade."
+
+- id: hopewell-tradition
+  rank: CulturalAge
+  parent: woodland-period
+  start: 100
+  end: 500
+  unit: CE
+  labels:
+    en: Hopewell Tradition
+    sv: Hopewelltraditionen
+  description: "Middle Woodland; elaborate burial mounds and earthworks; Hopewell Interaction Sphere; obsidian, copper, shells traded across continent."
+
+- id: mississippian-culture
+  rank: CulturalAge
+  parent: north-america-precolumbian
+  start: 800
+  end: 1600
+  unit: CE
+  labels:
+    en: Mississippian Culture
+    sv: Mississippiankulturen
+  description: "Complex chiefdoms across Southeast and Midwest; platform mounds; maize agriculture; Cahokia as largest city north of Mexico."
+
+- id: cahokia
+  rank: CulturalAge
+  parent: mississippian-culture
+  start: 1050
+  end: 1350
+  unit: CE
+  labels:
+    en: Cahokia
+    sv: Cahokia
+  description: "Largest pre-Columbian city north of Mexico (~20,000 people); Monks Mound (largest earthwork in Americas); Woodhenge; UNESCO World Heritage Site."
+
+- id: fort-ancient
+  rank: CulturalAge
+  parent: mississippian-culture
+  start: 1000
+  end: 1650
+  unit: CE
+  labels:
+    en: Fort Ancient Culture
+    sv: "Fort Ancient-kulturen"
+  description: "Ohio Valley; maize-based agriculture; circular villages; Serpent Mound (Great Serpent Mound); distinct from Mississippian but contemporaneous."
+
+- id: plaquemine
+  rank: CulturalAge
+  parent: mississippian-culture
+  start: 1200
+  end: 1700
+  unit: CE
+  labels:
+    en: Plaquemine Culture
+    sv: Plaqueminekulturen
+  description: "Lower Mississippi Valley; platform mounds; evolved from Coles Creek; Winterville, Lake George sites; ancestral to Natchez."
+
+- id: ancestral-pueblo
+  rank: CulturalAge
+  parent: north-america-precolumbian
+  start: 100
+  end: 1600
+  unit: CE
+  labels:
+    en: Ancestral Puebloans
+    sv: Pueblofolkets förfäder
+  description: "Four Corners region; cliff dwellings (Mesa Verde); Chaco Canyon great houses; kiva ceremonial architecture; maize, beans, squash agriculture."
+
+- id: chaco-canyon
+  rank: CulturalAge
+  parent: ancestral-pueblo
+  start: 850
+  end: 1150
+  unit: CE
+  labels:
+    en: Chaco Canyon Florescence
+    sv: Chaco Canyons blomstringsperiod
+  description: "Chaco Culture; great houses (Pueblo Bonito); road network; astronomical alignments; regional trade center; UNESCO World Heritage Site."
+
+- id: hohokam
+  rank: CulturalAge
+  parent: north-america-precolumbian
+  start: 300
+  end: 1450
+  unit: CE
+  labels:
+    en: Hohokam Culture
+    sv: Hohokamkulturen
+  description: "Southern Arizona; extensive canal irrigation (over 1,000 km); Snaketown; ball courts; Mesoamerican trade connections; ancestors of O'odham."
+
+- id: mogollon
+  rank: CulturalAge
+  parent: north-america-precolumbian
+  start: 200
+  end: 1450
+  unit: CE
+  labels:
+    en: Mogollon Culture
+    sv: Mogollonkulturen
+  description: "Southwestern mountains (Arizona, New Mexico, Chihuahua); pithouses to pueblos; Mimbres pottery with distinctive black-on-white designs."
+
+- id: northwest-coast
+  rank: CulturalAge
+  parent: north-america-precolumbian
+  start: 3000
+  end: 1774
+  unit: BCE-CE
+  labels:
+    en: Northwest Coast Cultures
+    sv: Nordvästkustens kulturer
+  description: "Pacific Northwest; Haida, Tlingit, Kwakwaka'wakw; cedar plank houses, totem poles, potlatch ceremonies; salmon-based economy; complex non-agricultural society."
+
+- id: thule-culture
+  rank: CulturalAge
+  parent: north-america-precolumbian
+  start: 200
+  end: 1600
+  unit: CE
+  labels:
+    en: Thule Culture
+    sv: Thulekulturen
+  description: "Arctic whale hunters; ancestors of modern Inuit; spread from Alaska across Canadian Arctic to Greenland; dog sleds, kayaks, umiaks."
+
+- id: dorset-culture
+  rank: CulturalAge
+  parent: north-america-precolumbian
+  start: 500
+  end: 1500
+  unit: BCE-CE
+  labels:
+    en: Dorset Culture
+    sv: Dorsetkulturen
+  description: "Paleo-Eskimo Arctic culture; replaced by Thule people; soapstone lamps, snow houses; miniature ivory carvings; no dog sleds or bows."
+
+- id: plains-village
+  rank: CulturalAge
+  parent: north-america-precolumbian
+  start: 1000
+  end: 1780
+  unit: CE
+  labels:
+    en: Plains Village Period
+    sv: Slättlandsbyperioden
+  description: "Semi-sedentary farming communities on Great Plains; earth lodge villages; maize agriculture; Mandan, Hidatsa, Arikara, Pawnee, Wichita."
+
+- id: iroquois-confederacy
+  rank: CulturalAge
+  parent: north-america-precolumbian
+  start: 1450
+  end: 1776
+  unit: CE
+  labels:
+    en: Haudenosaunee (Iroquois) Confederacy
+    sv: Irokesförbundet
+  description: "Originally Five Nations (Mohawk, Oneida, Onondaga, Cayuga, Seneca; Tuscarora joined 1722); Great Law of Peace; longhouse society; influenced U.S. Constitution debates."
+
+- id: taino
+  rank: CulturalAge
+  parent: north-america-precolumbian
+  start: 1200
+  end: 1550
+  unit: CE
+  labels:
+    en: Taíno Civilization
+    sv: Taínocivilisationen
+  description: "Caribbean (Hispaniola, Puerto Rico, Cuba, Jamaica); first indigenous people encountered by Columbus; cacique chiefs; ball courts; zemí worship; decimated by colonization."
+
+- id: kalinago
+  rank: CulturalAge
+  parent: north-america-precolumbian
+  start: 1200
+  end: 1700
+  unit: CE
+  labels:
+    en: Kalinago
+    sv: Kalinago
+  description: "Lesser Antilles (Dominica, St. Vincent, Grenada); skilled seafarers and warriors; resisted European colonization longest in Caribbean; cassava cultivation."
+
+- id: saladoid
+  rank: CulturalAge
+  parent: north-america-precolumbian
+  start: 500
+  end: 600
+  unit: BCE-CE
+  labels:
+    en: Saladoid Culture
+    sv: Saladoidkulturen
+  description: "Orinoco River origin; spread through Lesser Antilles to Puerto Rico; white-on-red pottery (Saladero type site); ancestral to Taíno; introduced agriculture to Caribbean."
+
+- id: gran-cocle
+  rank: CulturalAge
+  parent: north-america-precolumbian
+  start: 200
+  end: 1520
+  unit: CE
+  labels:
+    en: Gran Coclé Culture
+    sv: "Gran Coclé-kulturen"
+  description: "Central Panama; Sitio Conte gold and polychrome ceramics; elaborate burial goods; goldwork (huacas); bridge between Mesoamerican and South American traditions."
+
+- id: diquis
+  rank: CulturalAge
+  parent: north-america-precolumbian
+  start: 700
+  end: 1530
+  unit: CE
+  labels:
+    en: Diquís Culture
+    sv: Diquískulturen
+  description: "Southern Costa Rica; stone spheres (Las Bolas, UNESCO); gold figurines; complex chiefdoms; connection to Chibchan cultural area."
+
+- id: cherokee-nation
+  rank: CulturalAge
+  parent: north-america-precolumbian
+  start: 1540
+  end: 1838
+  unit: CE
+  labels:
+    en: Cherokee Nation
+    sv: Cherokeenationen
+  description: "Southeast woodlands; one of 'Five Civilized Tribes'; Sequoyah's syllabary (1821); Cherokee Phoenix newspaper; Trail of Tears (1838)."
+
+- id: north-america-colonial
+  rank: CulturalAge
+  parent: holocene
+  start: 1492
+  end: 1783
+  unit: CE
+  labels:
+    en: Colonial North America
+    sv: Kolonialt Nordamerika
+  description: "European colonization of North America; Spanish, French, English, Dutch settlements; fur trade; displacement of indigenous peoples."
+
+- id: spanish-exploration-na
+  rank: CulturalAge
+  parent: north-america-colonial
+  start: 1492
+  end: 1600
+  unit: CE
+  labels:
+    en: Spanish Exploration of North America
+    sv: Spansk utforskning av Nordamerika
+  description: "Columbus (1492); Ponce de León in Florida (1513); Coronado explores Southwest (1540); de Soto crosses Southeast; St. Augustine founded (1565)."
+
+- id: new-france
+  rank: CulturalAge
+  parent: north-america-colonial
+  start: 1534
+  end: 1763
+  unit: CE
+  labels:
+    en: New France
+    sv: Nya Frankrike
+  description: "French colonial empire; Cartier, Champlain; Quebec (1608), Montreal (1642); fur trade; coureurs des bois; alliance with Huron-Wendat; ceded to Britain 1763."
+
+- id: new-spain-north
+  rank: CulturalAge
+  parent: north-america-colonial
+  start: 1521
+  end: 1821
+  unit: CE
+  labels:
+    en: New Spain
+    sv: Nya Spanien
+  description: "Spanish colonial frontier; missions and presidios; California missions (1769–1833); Santa Fe (1610); mestizo culture; Mexican independence ends era."
+
+- id: thirteen-colonies
+  rank: CulturalAge
+  parent: north-america-colonial
+  start: 1607
+  end: 1776
+  unit: CE
+  labels:
+    en: Thirteen British Colonies
+    sv: De tretton brittiska kolonierna
+  description: "Jamestown (1607), Plymouth (1620), Massachusetts Bay; tobacco and slavery in South; town meetings in New England; growing self-governance."
+
+- id: new-netherland
+  rank: CulturalAge
+  parent: north-america-colonial
+  start: 1614
+  end: 1667
+  unit: CE
+  labels:
+    en: New Netherland
+    sv: Nya Nederländerna
+  description: "Dutch colony; New Amsterdam (Manhattan); fur trade with Lenape and Mohawk; diverse population; conquered by English (1664), becomes New York."
+
+- id: french-indian-war
+  rank: CulturalAge
+  parent: north-america-colonial
+  start: 1754
+  end: 1763
+  unit: CE
+  labels:
+    en: French and Indian War
+    sv: Franska och indianska kriget
+  description: "North American theater of Seven Years' War; British defeat France; Treaty of Paris (1763); France cedes Canada; sets stage for American Revolution."
+
+- id: american-revolution
+  rank: CulturalAge
+  parent: holocene
+  start: 1765
+  end: 1783
+  unit: CE
+  labels:
+    en: American Revolution
+    sv: Amerikanska revolutionen
+  description: "Colonial resistance to British taxation; Declaration of Independence (1776); Revolutionary War; Treaty of Paris (1783); birth of the United States."
+
+- id: early-american-republic
+  rank: CulturalAge
+  parent: holocene
+  start: 1783
+  end: 1815
+  unit: CE
+  labels:
+    en: Early American Republic
+    sv: Tidiga amerikanska republiken
+  description: "Constitution ratified (1788); Bill of Rights; Washington, Adams, Jefferson; Louisiana Purchase (1803); War of 1812; westward expansion begins."
+
+- id: jacksonian-era
+  rank: CulturalAge
+  parent: modern-period
+  start: 1828
+  end: 1850
+  unit: CE
+  labels:
+    en: Jacksonian Era
+    sv: Jacksonska eran
+  description: "Andrew Jackson; expansion of white male suffrage; Indian Removal Act (1830); Trail of Tears; Manifest Destiny; Mexican-American War (1846-1848)."
+
+- id: antebellum-period
+  rank: CulturalAge
+  parent: modern-period
+  start: 1815
+  end: 1861
+  unit: CE
+  labels:
+    en: Antebellum Period
+    sv: Antebellumperioden
+  description: "Pre-Civil War era; cotton kingdom and slave economy; abolitionist movement; Underground Railroad; Missouri Compromise; Compromise of 1850."
+
+- id: american-civil-war
+  rank: CulturalAge
+  parent: modern-period
+  start: 1861
+  end: 1865
+  unit: CE
+  labels:
+    en: American Civil War
+    sv: Amerikanska inbördeskriget
+  description: "Union vs. Confederacy; slavery as central cause; ~620,000 dead; Emancipation Proclamation (1863); Lee surrenders at Appomattox (1865)."
+
+- id: reconstruction
+  rank: CulturalAge
+  parent: modern-period
+  start: 1865
+  end: 1877
+  unit: CE
+  labels:
+    en: Reconstruction Era
+    sv: Rekonstruktionseran
+  description: "Post-Civil War rebuilding; 13th-15th Amendments; freedmen's rights; Ku Klux Klan backlash; ends with Compromise of 1877; Jim Crow begins."
+
+- id: gilded-age
+  rank: CulturalAge
+  parent: modern-period
+  start: 1877
+  end: 1900
+  unit: CE
+  labels:
+    en: Gilded Age
+    sv: Den förgyllda tidsåldern
+  description: "Rapid industrialization; robber barons (Carnegie, Rockefeller, Vanderbilt); immigration waves; labor unrest; railroads; Native American displacement."
+
+- id: mexican-american-war
+  rank: CulturalAge
+  parent: modern-period
+  start: 1846
+  end: 1848
+  unit: CE
+  labels:
+    en: Mexican–American War
+    sv: "Mexikansk-amerikanska kriget"
+  description: "U.S. vs. Mexico; annexation of Texas as catalyst; Treaty of Guadalupe Hidalgo; Mexico cedes California, New Mexico, Arizona; ~55% of territory lost."
+
+- id: california-gold-rush
+  rank: CulturalAge
+  parent: modern-period
+  start: 1848
+  end: 1855
+  unit: CE
+  labels:
+    en: California Gold Rush
+    sv: Guldrushen i Kalifornien
+  description: "Gold discovered at Sutter's Mill (1848); ~300,000 migrants ('49ers); California statehood (1850); devastation of Native Californians; San Francisco boom."
+
+- id: indian-wars
+  rank: CulturalAge
+  parent: modern-period
+  start: 1860
+  end: 1890
+  unit: CE
+  labels:
+    en: Indian Wars
+    sv: Indiankrigen
+  description: "U.S. military campaigns against Indigenous nations; Sand Creek (1864); Little Bighorn (1876); Wounded Knee (1890); reservation system; Dawes Act."
+
+- id: spanish-american-war
+  rank: CulturalAge
+  parent: modern-period
+  start: 1898
+  end: 1898
+  unit: CE
+  labels:
+    en: Spanish–American War
+    sv: "Spansk-amerikanska kriget"
+  description: "U.S. vs. Spain; USS Maine; 'splendid little war'; U.S. gains Cuba, Puerto Rico, Guam, Philippines; emergence as world power."
+
+- id: mexican-history
+  rank: CulturalAge
+  parent: holocene
+  start: 1521
+  end: 0
+  unit: CE
+  labels:
+    en: Mexican Historical Periods
+    sv: Mexikanska historiska perioder
+  description: "Post-conquest Mexico; colonial New Spain, independence, revolution, and modern nation-state."
+
+- id: colonial-mexico
+  rank: CulturalAge
+  parent: mexican-history
+  start: 1521
+  end: 1821
+  unit: CE
+  labels:
+    en: Colonial Mexico
+    sv: Koloniala Mexiko
+  description: "Spanish viceroyalty; encomienda system; silver mining (Zacatecas, Guanajuato); Baroque art and architecture; mestizo and creole society."
+
+- id: mexican-independence
+  rank: CulturalAge
+  parent: mexican-history
+  start: 1810
+  end: 1821
+  unit: CE
+  labels:
+    en: Mexican War of Independence
+    sv: Mexikanska självständighetskriget
+  description: "Grito de Dolores (1810, Father Hidalgo); Morelos; Iturbide declares independence (1821); First Mexican Empire briefly established."
+
+- id: mexican-republic-early
+  rank: CulturalAge
+  parent: mexican-history
+  start: 1824
+  end: 1876
+  unit: CE
+  labels:
+    en: Early Mexican Republic
+    sv: Tidiga mexikanska republiken
+  description: "Federal republic; Texas independence (1836); Mexican-American War (1846-1848); loss of half territory; Benito Juárez; French Intervention; Maximilian."
+
+- id: french-intervention-mexico
+  rank: CulturalAge
+  parent: mexican-history
+  start: 1861
+  end: 1867
+  unit: CE
+  labels:
+    en: French Intervention in Mexico
+    sv: Franska interventionen i Mexiko
+  description: "Napoleon III installs Maximilian as Emperor; Cinco de Mayo (1862, Battle of Puebla); Republican resistance under Juárez; Maximilian executed 1867."
+
+- id: cristero-war
+  rank: CulturalAge
+  parent: mexican-history
+  start: 1926
+  end: 1929
+  unit: CE
+  labels:
+    en: Cristero War
+    sv: Cristerokriget
+  description: "Catholic uprising against anticlerical laws of Calles government; ~90,000 dead; arreglos settlement; shaped Church-state relations in Mexico."
+
+- id: porfiriato
+  rank: CulturalAge
+  parent: mexican-history
+  start: 1876
+  end: 1911
+  unit: CE
+  labels:
+    en: Porfiriato
+    sv: Porfiriato
+  description: "Porfirio Díaz dictatorship; modernization, railways, foreign investment; extreme inequality; hacienda system; triggers revolution."
+
+- id: mexican-revolution
+  rank: CulturalAge
+  parent: mexican-history
+  start: 1910
+  end: 1920
+  unit: CE
+  labels:
+    en: Mexican Revolution
+    sv: Mexikanska revolutionen
+  description: "Madero, Villa, Zapata, Carranza, Obregón; 'Land and Liberty'; Constitution of 1917; agrarian reform; ~1-2 million dead."
+
+- id: mexico-post-revolution
+  rank: CulturalAge
+  parent: mexican-history
+  start: 1920
+  end: 2000
+  unit: CE
+  labels:
+    en: "Post-Revolutionary Mexico"
+    sv: Postrevolutionärt Mexiko
+  description: "PRI one-party rule (1929-2000); muralist movement (Rivera, Orozco, Siqueiros); oil nationalization (1938); NAFTA (1994); Zapatista uprising."
+
+- id: canadian-history
+  rank: CulturalAge
+  parent: holocene
+  start: 1534
+  end: 0
+  unit: CE
+  labels:
+    en: Canadian Historical Periods
+    sv: Kanadensiska historiska perioder
+  description: "From French exploration through Confederation to modern multicultural nation."
+
+- id: fur-trade-era
+  rank: CulturalAge
+  parent: canadian-history
+  start: 1600
+  end: 1870
+  unit: CE
+  labels:
+    en: Fur Trade Era
+    sv: Pälshandelsperioden
+  description: "Hudson's Bay Company (1670) vs. North West Company; voyageurs; Métis people; York Factory; pemmican trade; shaped Canadian expansion westward."
+
+- id: british-north-america
+  rank: CulturalAge
+  parent: canadian-history
+  start: 1763
+  end: 1867
+  unit: CE
+  labels:
+    en: British North America
+    sv: Brittiska Nordamerika
+  description: "After Treaty of Paris; Quebec Act (1774); Loyalist migration; War of 1812; Rebellions of 1837; Responsible Government; path to Confederation."
+
+- id: red-river-metis
+  rank: CulturalAge
+  parent: canadian-history
+  start: 1869
+  end: 1885
+  unit: CE
+  labels:
+    en: Red River and Métis Resistance
+    sv: "Red River och Métis-motståndet"
+  description: "Louis Riel; Red River Resistance (1869-1870); Manitoba Act; North-West Rebellion (1885); Riel executed; Métis land rights; shaping of Western Canada."
+
+- id: klondike-gold-rush
+  rank: CulturalAge
+  parent: canadian-history
+  start: 1896
+  end: 1899
+  unit: CE
+  labels:
+    en: Klondike Gold Rush
+    sv: "Klondike-guldrushen"
+  description: "Gold discovered on Bonanza Creek, Yukon (1896); ~100,000 stampeders; Dawson City boom; Chilkoot Pass; Canadian sovereignty asserted in North."
+
+- id: canadian-confederation
+  rank: CulturalAge
+  parent: canadian-history
+  start: 1867
+  end: 1931
+  unit: CE
+  labels:
+    en: Canadian Confederation
+    sv: Canadiankonfederationen
+  description: "Dominion of Canada (1867); transcontinental railway (1885); Western settlement; Riel Rebellions; WWI and Vimy Ridge; Statute of Westminster (1931)."
+
+- id: modern-canada
+  rank: CulturalAge
+  parent: canadian-history
+  start: 1931
+  end: 0
+  unit: CE
+  labels:
+    en: Modern Canada
+    sv: Moderna Kanada
+  description: "WWII; welfare state; Quiet Revolution in Quebec; Official Languages Act (1969); Charter of Rights (1982); multiculturalism; reconciliation with Indigenous peoples."
+
+- id: progressive-era
+  rank: CulturalAge
+  parent: modern-period
+  start: 1896
+  end: 1920
+  unit: CE
+  labels:
+    en: Progressive Era
+    sv: Progressiva eran
+  description: "Reform movements; trust-busting (Roosevelt); women's suffrage (19th Amendment, 1920); muckraking journalism; conservation movement."
+
+- id: roaring-twenties-na
+  rank: CulturalAge
+  parent: contemporary
+  start: 1920
+  end: 1929
+  unit: CE
+  labels:
+    en: Roaring Twenties
+    sv: De glada tjugotalet
+  description: "Jazz Age; Harlem Renaissance; Prohibition; economic boom; Model T; cultural modernism; ends with Wall Street Crash (1929)."
+
+- id: great-depression-na
+  rank: CulturalAge
+  parent: contemporary
+  start: 1929
+  end: 1939
+  unit: CE
+  labels:
+    en: Great Depression
+    sv: Stora depressionen
+  description: "Wall Street Crash; ~25% unemployment; Dust Bowl; New Deal (FDR); Social Security; transformation of federal government role."
+
+- id: us-wwii
+  rank: CulturalAge
+  parent: contemporary
+  start: 1941
+  end: 1945
+  unit: CE
+  labels:
+    en: United States in World War II
+    sv: Första världskriget
+  description: "Pearl Harbor (1941); Arsenal of Democracy; D-Day (1944); Pacific island-hopping; Manhattan Project; atomic bombs on Hiroshima and Nagasaki (1945)."
+
+- id: us-cold-war
+  rank: CulturalAge
+  parent: contemporary
+  start: 1947
+  end: 1991
+  unit: CE
+  labels:
+    en: Cold War
+    sv: Kalla kriget
+  description: "Containment doctrine; Korean War (1950-53); McCarthyism; Cuban Missile Crisis (1962); Vietnam War; détente; Reagan buildup; fall of Berlin Wall (1989)."
+
+- id: us-civil-rights
+  rank: CulturalAge
+  parent: contemporary
+  start: 1954
+  end: 1968
+  unit: CE
+  labels:
+    en: Civil Rights Movement
+    sv: Medborgarrättsrörelsen
+  description: "Brown v. Board (1954); Montgomery Bus Boycott; March on Washington (1963); Civil Rights Act (1964); Voting Rights Act (1965); MLK assassinated (1968)."
+
+- id: vietnam-war-era
+  rank: CulturalAge
+  parent: contemporary
+  start: 1955
+  end: 1975
+  unit: CE
+  labels:
+    en: Vietnam War Era
+    sv: Vietnamkrigsperioden
+  description: "U.S. involvement in Vietnam; Gulf of Tonkin (1964); Tet Offensive (1968); anti-war movement; Kent State; Fall of Saigon (1975); ~58,000 U.S. dead."
+
+- id: space-race
+  rank: CulturalAge
+  parent: contemporary
+  start: 1957
+  end: 1975
+  unit: CE
+  labels:
+    en: Space Race
+    sv: Rymdkapplöpningen
+  description: "U.S.-Soviet competition; Sputnik (1957); Mercury, Gemini programs; Apollo 11 Moon landing (1969); NASA; Apollo-Soyuz (1975)."
+
+- id: post-911-era
+  rank: CulturalAge
+  parent: contemporary
+  start: 2001
+  end: 2021
+  unit: CE
+  labels:
+    en: "Post-9/11 Era"
+    sv: Eran efter 11 september
+  description: "September 11 attacks; War on Terror; Afghanistan War (2001-2021); Iraq War (2003); Patriot Act; Department of Homeland Security; reshaping of U.S. foreign policy."

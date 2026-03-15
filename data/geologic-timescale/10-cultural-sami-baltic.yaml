@@ -1,0 +1,255 @@
+# Additional Cultural Periods (Sámi, Baltic, Finnish)
+
+- id: sami-prehistory
+  rank: CulturalAge
+  parent: holocene
+  start: 8000
+  end: 1600
+  unit: BCE-CE
+  labels:
+    en: Sámi Prehistory
+    sv: Samisk förhistoria
+  description: "Indigenous Sámi settlement of northern Fennoscandia; reindeer herding develops; Komsa and Fosna cultures; sieiddit (sacred sites)."
+
+- id: sami-modern
+  rank: CulturalAge
+  parent: holocene
+  start: 1600
+  end: 0
+  unit: CE
+  labels:
+    en: Sámi Modern History
+    sv: Samisk modern historia
+  description: "Colonization and forced assimilation; Lapland witch trials; state borders divide Sápmi; Sámi parliaments (Norway 1989, Sweden 1993, Finland 1996); cultural revitalization."
+
+- id: comb-ceramic
+  rank: CulturalAge
+  parent: neolithic
+  start: 3900
+  end: 2800
+  unit: BCE
+  labels:
+    en: Comb Ceramic Culture
+    sv: Kamkeramisk kultur
+  description: "Widespread Neolithic culture across Finland and the Baltic; characteristic comb-stamped pottery; hunter-gatherer-fishers."
+
+- id: asbestos-ceramic
+  rank: CulturalAge
+  parent: neolithic
+  start: 3500
+  end: 2000
+  unit: BCE
+  labels:
+    en: Asbestos Ceramic Period
+    sv: Asbestkeramiska perioden
+  description: "Distinctive Finnish Neolithic pottery tempered with asbestos fibers; concurrent with Comb Ceramic in eastern Finland."
+
+- id: nordic-iron-age-celtic
+  rank: CulturalAge
+  parent: pre-roman-iron-age
+  start: 400
+  end: 200
+  unit: BCE
+  labels:
+    en: Celtic Iron Age Influences in Scandinavia
+    sv: Keltisk järnålderspåverkan i Skandinavien
+  description: "La Tène art style reaches Scandinavia; Hjortspring boat; early hillforts in southern Sweden and Denmark."
+
+- id: jastorf-culture
+  rank: CulturalAge
+  parent: pre-roman-iron-age
+  start: 500
+  end: 100
+  unit: BCE
+  labels:
+    en: Jastorf Culture
+    sv: Jastorfkulturen
+  description: "Pre-Roman Iron Age culture of northern Germany and southern Scandinavia; first iron smelting from bog ore; cremation burials."
+
+- id: danelaw
+  rank: CulturalAge
+  parent: viking-age
+  start: 865
+  end: 954
+  unit: CE
+  labels:
+    en: Danelaw Period
+    sv: Danelagen
+  description: "Norse-controlled territory in eastern and northern England; established after the Great Heathen Army; York as Viking capital."
+
+- id: viking-iceland
+  rank: CulturalAge
+  parent: viking-age
+  start: 870
+  end: 930
+  unit: CE
+  labels:
+    en: Settlement of Iceland
+    sv: Islands bebyggelse
+  description: "Norse colonization of Iceland; Ingólfr Arnarson (874); Althing established 930 as one of the oldest parliaments."
+
+- id: viking-normandy
+  rank: CulturalAge
+  parent: middle-viking-age
+  start: 911
+  end: 1066
+  unit: CE
+  labels:
+    en: Norse Settlement of Normandy
+    sv: Normandiets bebyggelse
+  description: "Rollo receives Normandy from French king (911); Norse settlers adopt French language; William the Conqueror descends from Vikings."
+
+- id: viking-rus
+  rank: CulturalAge
+  parent: viking-age
+  start: 800
+  end: 1054
+  unit: CE
+  labels:
+    en: "Varangians and Kievan Rus'"
+    sv: Väringarna och Kievrus
+  description: "Swedish Vikings (Varangians) establish trade routes through Russia; found Kyiv and Novgorod; Varangian Guard in Constantinople."
+
+- id: norse-greenland
+  rank: CulturalAge
+  parent: viking-age
+  start: 985
+  end: 1450
+  unit: CE
+  labels:
+    en: Norse Greenland
+    sv: Norrön Grönland
+  description: "Erik the Red founds Eastern and Western Settlements (~985); Brattahlíð; launching point for Vinland voyages; Garðar diocese (northernmost in Christendom); population ~3,000-5,000; abandoned by ~1450; climate deterioration and trade isolation."
+
+- id: norse-vinland
+  rank: CulturalAge
+  parent: viking-age
+  start: 1000
+  end: 1021
+  unit: CE
+  labels:
+    en: Norse Vinland
+    sv: Norrön Vinland
+  description: "Leif Erikson reaches North America (~1000 CE); L'Anse aux Meadows, Newfoundland (UNESCO World Heritage Site); tree-ring dated to 1021 CE; first confirmed European presence in the Americas; sagas of Eiríks saga rauða and Grœnlendinga saga."
+
+- id: christianization-scandinavia
+  rank: CulturalAge
+  parent: viking-age
+  start: 960
+  end: 1150
+  unit: CE
+  labels:
+    en: Christianization of Scandinavia
+    sv: Skandinaviens kristnande
+  description: "Gradual conversion: Denmark (~960, Harald Bluetooth), Norway (~1000, Olaf Tryggvason), Sweden (~1000, Olof Skötkonung); Uppsala temple destroyed ~1087."
+
+- id: baltic-crusades
+  rank: CulturalAge
+  parent: medieval-period
+  start: 1147
+  end: 1290
+  unit: CE
+  labels:
+    en: Baltic Crusades Period
+    sv: Nordliga korstågen
+  description: "Northern Crusades; Christianization of Baltic region; Teutonic Order; Swedish crusades to Finland."
+
+- id: hanseatic-period
+  rank: CulturalAge
+  parent: medieval-period
+  start: 1250
+  end: 1450
+  unit: CE
+  labels:
+    en: Hanseatic Period in Scandinavia
+    sv: Hansatiden
+  description: "Hanseatic League dominates Baltic trade; German merchants in Visby, Bergen, Stockholm; Lübeck law adopted."
+
+- id: black-death-scandinavia
+  rank: CulturalAge
+  parent: medieval-period
+  start: 1349
+  end: 1360
+  unit: CE
+  labels:
+    en: Black Death in Scandinavia
+    sv: Digerdöden
+    nb: Svartedauden
+  description: "Plague reaches Norway (1349), Sweden and Denmark; kills ~50-60% of Scandinavian population; abandoned farms (ödegårdar)."
+
+- id: kalmar-union
+  rank: CulturalAge
+  parent: late-medieval
+  start: 1397
+  end: 1523
+  unit: CE
+  labels:
+    en: Kalmar Union
+    sv: Kalmarunionen
+  description: "Union of Denmark, Norway, and Sweden under one monarch; Queen Margrete I; dissolved by Gustav Vasa's rebellion."
+
+- id: stockholm-bloodbath
+  rank: CulturalAge
+  parent: late-medieval
+  start: 1520
+  end: 1520
+  unit: CE
+  labels:
+    en: Stockholm Bloodbath
+    sv: Stockholms blodbad
+  description: "Danish King Christian II executes ~80 Swedish nobles and clergy; triggers Gustav Vasa's rebellion and end of Kalmar Union."
+
+- id: danish-golden-age
+  rank: CulturalAge
+  parent: modern-period
+  start: 1800
+  end: 1850
+  unit: CE
+  labels:
+    en: Danish Golden Age
+    sv: Dansk guldalder
+  description: "Cultural flourishing in Denmark: H.C. Andersen, Søren Kierkegaard, Bertel Thorvaldsen, C.W. Eckersberg; national romanticism."
+
+- id: norway-independence
+  rank: CulturalAge
+  parent: modern-period
+  start: 1814
+  end: 1905
+  unit: CE
+  labels:
+    en: Norwegian Independence
+    sv: Norsk självständighet
+  description: "Norwegian constitution (1814, Eidsvoll); forced union with Sweden; dissolution of union (1905); Haakon VII elected king."
+
+- id: finland-grand-duchy
+  rank: CulturalAge
+  parent: modern-period
+  start: 1809
+  end: 1917
+  unit: CE
+  labels:
+    en: Grand Duchy of Finland
+    sv: Storfurstendömet Finland
+  description: "Finland as autonomous Grand Duchy of Russia after Swedish loss (1809); Kalevala published (1835); Finnish nationalism; independence 1917."
+
+- id: eocene-oligocene-extinction
+  rank: Age
+  parent: priabonian
+  start: 33.9
+  end: 33.7
+  unit: Ma
+  labels:
+    en: Eocene–Oligocene Extinction
+    sv: "Eocen-oligocen-utdöendet"
+  description: "Major faunal turnover in Europe; Asian mammals invade; dramatic cooling as Antarctic ice sheet forms."
+
+- id: cambrian-explosion
+  rank: Age
+  parent: cambrian
+  start: 538.8
+  end: 510
+  unit: Ma
+  labels:
+    en: Cambrian Explosion
+    sv: Kambriska explosionen
+  description: "Most major animal phyla appear in fossil record within ~25 Myr; Burgess Shale, Chengjiang faunas; cause debated."

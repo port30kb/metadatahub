@@ -1,0 +1,780 @@
+# Archaeological / Cultural Ages (European & Scandinavian focus)
+
+- id: stone-age
+  rank: CulturalAge
+  parent: holocene
+  start: 3300000
+  end: 3300
+  unit: BCE
+  labels:
+    en: Stone Age
+    sv: Stenåldern
+    de: Steinzeit
+    es: Edad de Piedra
+    fr: Âge de pierre
+    it: Età della Pietra
+    nl: Steentijd
+    ru: Каменный век
+  description: "Longest period of human prehistory; defined by use of stone tools. Three-age system by C.J. Thomsen."
+
+- id: paleolithic
+  rank: CulturalAge
+  parent: stone-age
+  start: 3300000
+  end: 10000
+  unit: BCE
+  labels:
+    en: Paleolithic / Old Stone Age
+    sv: Paleolitikum
+    de: Altsteinzeit
+    es: Paleolítico
+    fr: Paléolithique
+    it: Paleolitico
+    ru: Палеолит
+  description: "Oldest division; hunter-gatherer societies; development of stone tool technology."
+
+- id: lower-paleolithic
+  rank: CulturalAge
+  parent: paleolithic
+  start: 3300000
+  end: 300000
+  unit: BCE
+  labels:
+    en: Lower Paleolithic
+    sv: Äldre paleolitikum
+  description: "Homo habilis, Homo erectus; Oldowan and Acheulean tool industries."
+
+- id: middle-paleolithic
+  rank: CulturalAge
+  parent: paleolithic
+  start: 300000
+  end: 50000
+  unit: BCE
+  labels:
+    en: Middle Paleolithic
+    sv: Mellersta paleolitikum
+  description: "Neanderthals in Europe; Mousterian tool industry; first evidence of symbolic behavior."
+
+- id: upper-paleolithic
+  rank: CulturalAge
+  parent: paleolithic
+  start: 50000
+  end: 10000
+  unit: BCE
+  labels:
+    en: Upper Paleolithic
+    sv: Yngre paleolitikum
+  description: "Homo sapiens in Europe; cave art (Lascaux, Altamira); Aurignacian, Gravettian, Magdalenian cultures."
+
+- id: bromme-culture
+  rank: CulturalAge
+  parent: upper-paleolithic
+  start: 11600
+  end: 10000
+  unit: BCE
+  labels:
+    en: Bromme Culture
+    sv: Brommekulturen
+  description: "Late Paleolithic reindeer hunters at the edge of the Scandinavian ice sheet; earliest human presence in Sweden (Scania)."
+
+- id: ahrensburg-culture
+  rank: CulturalAge
+  parent: upper-paleolithic
+  start: 10900
+  end: 9700
+  unit: BCE
+  labels:
+    en: Ahrensburg Culture
+    sv: Ahrensburgkulturen
+  description: "Late Paleolithic/early Mesolithic nomadic hunters from the North German Plain; migrated north via Jutland following retreating ice."
+
+- id: mesolithic
+  rank: CulturalAge
+  parent: stone-age
+  start: 10000
+  end: 4000
+  unit: BCE
+  labels:
+    en: Mesolithic / Middle Stone Age
+    sv: Mesolitikum
+    de: Mittelsteinzeit
+    es: Mesolítico
+    fr: Mésolithique
+    it: Mesolitico
+    ru: Мезолит
+  description: "Post-glacial; microlithic tools; Scandinavia first settled ~9500 BCE. Maglemosian, Kongemose, Ertebølle cultures."
+
+- id: fosna-hensbacka
+  rank: CulturalAge
+  parent: mesolithic
+  start: 8300
+  end: 7300
+  unit: BCE
+  labels:
+    en: Fosna–Hensbacka Culture
+    sv: Fosna–Hensbackakulturen
+  description: "Early Mesolithic culture along the Norwegian and Swedish west coasts; descended from Ahrensburg tradition; coastal seal hunting and fishing."
+
+- id: komsa-culture
+  rank: CulturalAge
+  parent: mesolithic
+  start: 10000
+  end: 6000
+  unit: BCE
+  labels:
+    en: Komsa Culture
+    sv: Komsakulturen
+  description: "Early Mesolithic culture of northern Norway coast; sea-oriented seal hunters and fishermen; relatively crude stone tools compared to southern Fosna."
+
+- id: maglemosian
+  rank: CulturalAge
+  parent: mesolithic
+  start: 9000
+  end: 6000
+  unit: BCE
+  labels:
+    en: Maglemosian Culture
+    sv: Maglemosekulturen
+  description: "Early Mesolithic hunter-gatherer culture in southern Scandinavia and northern Germany; flint microliths, bone harpoons."
+
+- id: kongemose
+  rank: CulturalAge
+  parent: mesolithic
+  start: 6000
+  end: 5200
+  unit: BCE
+  labels:
+    en: Kongemose Culture
+    sv: Kongemosekulturen
+  description: "Middle Mesolithic in Denmark and southern Sweden; coastal adaptation, fishing, seal hunting."
+
+- id: nostvet-lihult
+  rank: CulturalAge
+  parent: mesolithic
+  start: 6000
+  end: 3200
+  unit: BCE
+  labels:
+    en: Nøstvet and Lihult Cultures
+    sv: "Nøstvet- och Lihultkulturen"
+  description: "Middle-Late Mesolithic in most of southern Norway and Sweden; descendants of Fosna-Hensbacka; polished stone axes."
+
+- id: ertebolleculture
+  rank: CulturalAge
+  parent: mesolithic
+  start: 5400
+  end: 3950
+  unit: BCE
+  labels:
+    en: Ertebølle Culture
+    sv: Ertebøllekulturen
+  description: "Late Mesolithic in southern Scandinavia; first pottery, large shell middens, transition to agriculture."
+
+- id: neolithic
+  rank: CulturalAge
+  parent: stone-age
+  start: 4000
+  end: 2000
+  unit: BCE
+  labels:
+    en: Neolithic / New Stone Age
+    sv: Neolitikum
+    de: Jungsteinzeit
+    es: Neolítico
+    fr: Néolithique
+    it: Neolitico
+    ru: Неолит
+  description: "Agriculture, polished stone tools, pottery, permanent settlements. Funnelbeaker culture in Scandinavia (~4000–2700 BCE)."
+
+- id: funnelbeaker
+  rank: CulturalAge
+  parent: neolithic
+  start: 4000
+  end: 2700
+  unit: BCE
+  labels:
+    en: Funnelbeaker Culture
+    sv: Trattbägarkulturen
+  description: "First farming culture in Scandinavia; megalithic tombs (dolmens, passage graves); pottery with funnel-shaped rims."
+
+- id: pitted-ware
+  rank: CulturalAge
+  parent: neolithic
+  start: 3400
+  end: 2300
+  unit: BCE
+  labels:
+    en: Pitted Ware Culture
+    sv: Gropkeramisk kultur
+  description: "Concurrent hunter-gatherer-fisher culture in eastern Sweden, Gotland, and Finland; seal hunting, characteristic pitted pottery."
+
+- id: battle-axe
+  rank: CulturalAge
+  parent: neolithic
+  start: 2800
+  end: 2300
+  unit: BCE
+  labels:
+    en: Battle Axe Culture
+    sv: Stridsyxekulturen
+  description: "Scandinavian variant of Corded Ware culture; single graves, polished stone battle axes, early Indo-European influences."
+
+- id: nordic-neolithic-late
+  rank: CulturalAge
+  parent: neolithic
+  start: 2300
+  end: 1750
+  unit: BCE
+  labels:
+    en: Late Neolithic Scandinavia
+    sv: Senneolitikum
+  description: "Transition to metalworking; flint daggers imitate bronze; Bell Beaker influences reach Scandinavia."
+
+- id: chalcolithic
+  rank: CulturalAge
+  parent: holocene
+  start: 3500
+  end: 2000
+  unit: BCE
+  labels:
+    en: Chalcolithic / Copper Age
+    sv: Kalkolitikum
+    de: Kupferzeit
+    el: Χαλκολιθική
+    es: Calcolítico
+    fr: Chalcolithique
+    it: Calcolitico
+  description: "Transitional period; first metalworking (copper); Ötzi the Iceman; Corded Ware culture in Northern Europe."
+
+- id: bronze-age
+  rank: CulturalAge
+  parent: holocene
+  start: 3300
+  end: 1200
+  unit: BCE
+  labels:
+    en: Bronze Age
+    sv: Bronsåldern
+    de: Bronzezeit
+    el: Εποχή του Χαλκού
+    es: Edad del Bronce
+    fr: Âge du Bronze
+    it: Età del Bronzo
+    ru: Бронзовый век
+  description: "Defined by bronze metallurgy. Near East ~3300 BCE; Nordic Bronze Age begins ~1750 BCE."
+
+- id: early-bronze-age
+  rank: CulturalAge
+  parent: bronze-age
+  start: 3300
+  end: 2000
+  unit: BCE
+  labels:
+    en: Early Bronze Age
+    sv: Äldre bronsåldern
+  description: "Near East & Mediterranean: urbanization, writing systems, first empires."
+
+- id: middle-bronze-age
+  rank: CulturalAge
+  parent: bronze-age
+  start: 2000
+  end: 1550
+  unit: BCE
+  labels:
+    en: Middle Bronze Age
+    sv: Mellersta bronsåldern
+  description: "Minoan civilization peaks; Nordic Bronze Age begins (~1750 BCE); extensive trade networks."
+
+- id: late-bronze-age
+  rank: CulturalAge
+  parent: bronze-age
+  start: 1550
+  end: 1200
+  unit: BCE
+  labels:
+    en: Late Bronze Age
+    sv: Yngre bronsåldern
+  description: "Mycenaean Greece; New Kingdom Egypt; Late Bronze Age collapse (~1200 BCE)."
+
+- id: nordic-bronze-age
+  rank: CulturalAge
+  parent: bronze-age
+  start: 1700
+  end: 500
+  unit: BCE
+  labels:
+    en: Nordic Bronze Age
+    sv: Nordisk bronsålder
+  description: "Scandinavian Bronze Age; elaborate burial mounds, rock carvings (hällristningar), sun chariot of Trundholm."
+
+- id: nordic-bronze-early
+  rank: CulturalAge
+  parent: nordic-bronze-age
+  start: 1700
+  end: 1100
+  unit: BCE
+  labels:
+    en: Early Nordic Bronze Age / Period I–III
+    sv: Äldre bronsåldern
+  description: "Oak coffin burials (Egtved Girl, Skrydstrup Woman); Trundholm sun chariot; wealth from amber trade."
+
+- id: montelius-i
+  rank: CulturalAge
+  parent: nordic-bronze-early
+  start: 1700
+  end: 1500
+  unit: BCE
+  labels:
+    en: Montelius Period I
+    sv: Monteliusperiod I
+  description: "Earliest Nordic Bronze Age; first bronze imports; flint daggers gradually replaced by bronze weapons."
+
+- id: montelius-ii
+  rank: CulturalAge
+  parent: nordic-bronze-early
+  start: 1500
+  end: 1300
+  unit: BCE
+  labels:
+    en: Montelius Period II
+    sv: Monteliusperiod II
+  description: "Peak of early bronze wealth; Egtved Girl burial (1370 BCE); Trundholm sun chariot (~1400 BCE); elaborate spiral ornaments and fibulae."
+
+- id: montelius-iii
+  rank: CulturalAge
+  parent: nordic-bronze-early
+  start: 1300
+  end: 1100
+  unit: BCE
+  labels:
+    en: Montelius Period III
+    sv: Monteliusperiod III
+  description: "Skrydstrup Woman burial; oak coffin burials continue; extensive amber trade networks with Mediterranean."
+
+- id: nordic-bronze-late
+  rank: CulturalAge
+  parent: nordic-bronze-age
+  start: 1100
+  end: 500
+  unit: BCE
+  labels:
+    en: Late Nordic Bronze Age / Period IV–VI
+    sv: Yngre bronsåldern
+  description: "Cremation replaces inhumation; lur horns; rock carvings peak; declining bronze imports."
+
+- id: montelius-iv
+  rank: CulturalAge
+  parent: nordic-bronze-late
+  start: 1100
+  end: 900
+  unit: BCE
+  labels:
+    en: Montelius Period IV
+    sv: Monteliusperiod IV
+  description: "Shift from inhumation to cremation; rock carvings (hällristningar) flourish; bronze lur horns crafted."
+
+- id: montelius-v
+  rank: CulturalAge
+  parent: nordic-bronze-late
+  start: 900
+  end: 700
+  unit: BCE
+  labels:
+    en: Montelius Period V
+    sv: Monteliusperiod V
+  description: "Elaborate ritual depositions in lakes and bogs; continued rock carving tradition; Hallstatt imports arrive."
+
+- id: montelius-vi
+  rank: CulturalAge
+  parent: nordic-bronze-late
+  start: 700
+  end: 500
+  unit: BCE
+  labels:
+    en: Montelius Period VI
+    sv: Monteliusperiod VI
+  description: "Final Bronze Age period; Hallstatt iron influence from Central Europe; transition to local iron production."
+
+- id: iron-age
+  rank: CulturalAge
+  parent: holocene
+  start: 1200
+  end: 1
+  unit: BCE
+  labels:
+    en: Iron Age
+    sv: Järnåldern
+    de: Eisenzeit
+    el: Εποχή του Σιδήρου
+    es: Edad del Hierro
+    fr: Âge du Fer
+    he: עת הברזל
+    it: Età del Ferro
+    ru: Железный век
+  description: "Defined by iron smelting and tools. Near East ~1200 BCE; Scandinavia ~500 BCE."
+
+- id: pre-roman-iron-age
+  rank: CulturalAge
+  parent: iron-age
+  start: 500
+  end: 1
+  unit: BCE
+  labels:
+    en: "Pre-Roman Iron Age"
+    sv: Förromersk järnålder
+  description: "Iron working spreads to Scandinavia; bog ore smelting; Jastorf culture."
+
+- id: pre-roman-iron-early
+  rank: CulturalAge
+  parent: pre-roman-iron-age
+  start: 500
+  end: 250
+  unit: BCE
+  labels:
+    en: "Early Pre-Roman Iron Age"
+    sv: Äldre förromersk järnålder
+  description: "Transition from bronze; first local iron production from bog ore in southern Scandinavia."
+
+- id: pre-roman-iron-late
+  rank: CulturalAge
+  parent: pre-roman-iron-age
+  start: 250
+  end: 1
+  unit: BCE
+  labels:
+    en: "Late Pre-Roman Iron Age"
+    sv: Yngre förromersk järnålder
+  description: "Celtic La Tène influences; complex hillforts; Dejbjerg wagons; widespread bog iron production."
+
+- id: roman-iron-age
+  rank: CulturalAge
+  parent: holocene
+  start: 1
+  end: 400
+  unit: CE
+  labels:
+    en: Roman Iron Age
+    sv: Romersk järnålder
+  description: "Roman influence on Germanic societies; runes develop; trade with the Roman Empire."
+
+- id: early-roman-iron
+  rank: CulturalAge
+  parent: roman-iron-age
+  start: 1
+  end: 200
+  unit: CE
+  labels:
+    en: Early Roman Iron Age
+    sv: Äldre romersk järnålder
+  description: "Increasing trade with Roman provinces; imported bronze vessels; first runic inscriptions."
+
+- id: late-roman-iron
+  rank: CulturalAge
+  parent: roman-iron-age
+  start: 200
+  end: 400
+  unit: CE
+  labels:
+    en: Late Roman Iron Age
+    sv: Yngre romersk järnålder
+  description: "Gold solidi flow north; Nydam boat (320 CE); elaborate weapon deposits in bogs."
+
+- id: germanic-iron-age
+  rank: CulturalAge
+  parent: holocene
+  start: 400
+  end: 790
+  unit: CE
+  labels:
+    en: Germanic Iron Age
+    sv: Germansk järnålder
+  description: "Post-Roman period in Scandinavia; divided into Early (Migration Period) and Late (Vendel/Merovingian) by Oscar Montelius."
+
+- id: migration-period
+  rank: CulturalAge
+  parent: germanic-iron-age
+  start: 400
+  end: 550
+  unit: CE
+  labels:
+    en: Migration Period
+    sv: Folkvandringstiden
+    de: Völkerwanderung
+  description: "Fall of Western Rome; Germanic peoples migrate across Europe; gold bracteates and collars in Scandinavia."
+
+- id: migration-early
+  rank: CulturalAge
+  parent: migration-period
+  start: 400
+  end: 475
+  unit: CE
+  labels:
+    en: Early Migration Period
+    sv: Äldre folkvandringstiden
+  description: "Huns invade Europe (375); Scandinavian gold hoards peak; elaborate gold collars (e.g. Ålleberg, Möne, Färjestaden)."
+
+- id: migration-late
+  rank: CulturalAge
+  parent: migration-period
+  start: 475
+  end: 550
+  unit: CE
+  labels:
+    en: Late Migration Period
+    sv: Yngre folkvandringstiden
+  description: "Post-Roman gold scarcity; gilded bronze replaces gold; animal-style ornamentation (Style I) develops."
+
+- id: vendel-period
+  rank: CulturalAge
+  parent: germanic-iron-age
+  start: 550
+  end: 790
+  unit: CE
+  labels:
+    en: Vendel Period
+    sv: Vendeltiden
+  description: "Swedish golden age; Vendel and Valsgärde boat burials; elaborate animal-style ornamentation."
+
+- id: vendel-early
+  rank: CulturalAge
+  parent: vendel-period
+  start: 550
+  end: 650
+  unit: CE
+  labels:
+    en: Early Vendel Period
+    sv: Äldre vendeltiden
+  description: "Sutton Hoo parallels; Vendel I–VII boat graves near Uppsala; Style II animal ornamentation."
+
+- id: vendel-late
+  rank: CulturalAge
+  parent: vendel-period
+  start: 650
+  end: 790
+  unit: CE
+  labels:
+    en: Late Vendel Period
+    sv: Yngre vendeltiden
+  description: "Valsgärde boat burials continue; Style III ornamentation; Birka's proto-urban precursors; transition to Viking Age."
+
+- id: viking-age
+  rank: CulturalAge
+  parent: holocene
+  start: 793
+  end: 1100
+  unit: CE
+  labels:
+    en: Viking Age
+    sv: Vikingatiden
+  description: "Norse expansion, raiding, trading, and settlement; Birka, Hedeby; Christianization of Scandinavia."
+
+- id: early-viking-age
+  rank: CulturalAge
+  parent: viking-age
+  start: 793
+  end: 900
+  unit: CE
+  labels:
+    en: Early Viking Age
+    sv: Äldre vikingatiden
+  description: "Raid on Lindisfarne (793); establishment of Norse trading centers; Oseberg ship burial."
+
+- id: middle-viking-age
+  rank: CulturalAge
+  parent: viking-age
+  start: 900
+  end: 1000
+  unit: CE
+  labels:
+    en: Middle Viking Age
+    sv: Mellersta vikingatiden
+  description: "Danelaw in England; Normandy settled; Icelandic settlement; Bluetooth's Denmark."
+
+- id: late-viking-age
+  rank: CulturalAge
+  parent: viking-age
+  start: 1000
+  end: 1100
+  unit: CE
+  labels:
+    en: Late Viking Age
+    sv: Yngre vikingatiden
+  description: "Christianization; end of Norse paganism; Cnut the Great's North Sea Empire."
+
+- id: medieval-period
+  rank: CulturalAge
+  parent: holocene
+  start: 1050
+  end: 1520
+  unit: CE
+  labels:
+    en: Medieval Period
+    sv: Medeltiden
+    es: Edad Media
+    fr: Moyen Âge
+  description: "Scandinavian medieval period; Christianity dominant; Hanseatic trade; Gothic cathedrals; Black Death (1349)."
+
+- id: early-medieval
+  rank: CulturalAge
+  parent: medieval-period
+  start: 1050
+  end: 1200
+  unit: CE
+  labels:
+    en: Early Medieval Period
+    sv: Tidig medeltid
+  description: "Church consolidation; first Scandinavian dioceses; Romanesque architecture."
+
+- id: high-medieval
+  rank: CulturalAge
+  parent: medieval-period
+  start: 1200
+  end: 1350
+  unit: CE
+  labels:
+    en: High Medieval Period
+    sv: Högmedeltiden
+  description: "Hanseatic League; Gothic architecture; Kalmar Union precursors; population growth."
+
+- id: late-medieval
+  rank: CulturalAge
+  parent: medieval-period
+  start: 1350
+  end: 1520
+  unit: CE
+  labels:
+    en: Late Medieval Period
+    sv: Senmedeltiden
+  description: "Black Death aftermath; Kalmar Union (1397); Reformation approaches."
+
+- id: early-modern
+  rank: CulturalAge
+  parent: holocene
+  start: 1520
+  end: 1789
+  unit: CE
+  labels:
+    en: Early Modern Period
+    sv: Tidigmodern tid
+  description: "Reformation; Vasa dynasty; Swedish Empire (stormaktstiden); Age of Enlightenment."
+
+- id: early-vasa-era
+  rank: CulturalAge
+  parent: early-modern
+  start: 1523
+  end: 1611
+  unit: CE
+  labels:
+    en: Early Vasa Era
+    sv: Äldre Vasatiden
+  description: "Gustav Vasa breaks from Kalmar Union; Protestant Reformation; hereditary monarchy established; Stockholm Bloodbath aftermath."
+
+- id: reformation-era
+  rank: CulturalAge
+  parent: early-vasa-era
+  start: 1527
+  end: 1600
+  unit: CE
+  labels:
+    en: Reformation Era
+    sv: Reformationstiden
+  description: "Protestant Reformation in Sweden (1527) and Denmark-Norway (1536); seizure of Catholic Church property; new church ordinances."
+
+- id: swedish-empire
+  rank: CulturalAge
+  parent: early-modern
+  start: 1611
+  end: 1721
+  unit: CE
+  labels:
+    en: Swedish Empire
+    sv: Stormaktstiden
+  description: "Sweden as great power; Thirty Years War; Baltic dominance; ends with Great Northern War."
+
+- id: thirty-years-war
+  rank: CulturalAge
+  parent: swedish-empire
+  start: 1618
+  end: 1648
+  unit: CE
+  labels:
+    en: "Thirty Years' War Period"
+    sv: Trettioåriga kriget
+  description: "Sweden enters as Protestant champion under Gustav II Adolf; Battle of Breitenfeld (1631); Peace of Westphalia (1648)."
+
+- id: caroline-era
+  rank: CulturalAge
+  parent: swedish-empire
+  start: 1654
+  end: 1718
+  unit: CE
+  labels:
+    en: Caroline Era
+    sv: Karolinska tiden
+  description: "Absolute monarchy under Charles X, XI, XII; reduktion land reforms; Great Northern War ends Swedish empire."
+
+- id: age-of-liberty
+  rank: CulturalAge
+  parent: early-modern
+  start: 1719
+  end: 1772
+  unit: CE
+  labels:
+    en: Age of Liberty
+    sv: Frihetstiden
+  description: "Parliamentary rule after Charles XII; Hat and Cap party factions; Enlightenment science (Linnaeus, Celsius)."
+
+- id: gustavian-era
+  rank: CulturalAge
+  parent: early-modern
+  start: 1772
+  end: 1809
+  unit: CE
+  labels:
+    en: Gustavian Era
+    sv: Gustavianska tiden
+  description: "Gustav III's coup restores royal power; patron of arts; Royal Opera and Royal Dramatic Theatre founded; assassinated 1792."
+
+- id: modern-period
+  rank: CulturalAge
+  parent: holocene
+  start: 1789
+  end: 0
+  unit: CE
+  labels:
+    en: Modern Period
+    sv: Moderna tiden
+  description: "French Revolution to present; industrialization, nation-states, globalization."
+
+- id: bernadotte-era
+  rank: CulturalAge
+  parent: modern-period
+  start: 1809
+  end: 1905
+  unit: CE
+  labels:
+    en: Bernadotte Era / Union Period
+    sv: Bernadottetiden
+  description: "New constitution (1809); French Marshal Bernadotte becomes Crown Prince (1810); Sweden-Norway union (1814–1905); loss of Finland to Russia."
+
+- id: industrial-age
+  rank: CulturalAge
+  parent: modern-period
+  start: 1850
+  end: 1914
+  unit: CE
+  labels:
+    en: Industrial Age
+    sv: Industrialiseringen
+  description: "Railways from 1850s; mass emigration to Americas (~1.3M Swedes); Alfred Nobel; rapid urbanization."
+
+- id: contemporary
+  rank: CulturalAge
+  parent: modern-period
+  start: 1914
+  end: 0
+  unit: CE
+  labels:
+    en: Contemporary Period
+    sv: Samtiden
+  description: "World Wars (neutral), welfare states (folkhemmet), digital revolution; Scandinavian social democracies."

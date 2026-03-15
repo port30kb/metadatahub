@@ -1,0 +1,62 @@
+# Geologic Timescale Data Format
+# ================================
+#
+# Each numbered YAML file (01-eons.yaml, 02-archean.yaml, etc.)
+# contains a list of time period entries.
+#
+# Required fields for every entry:
+#
+#   id:          Unique identifier (lowercase, use hyphens for spaces)
+#   rank:        One of: Eon, Era, Period, SubPeriod, Epoch, Age, CulturalAge
+#   start:       Start time (number)
+#   end:         End time (number, use 0 for "present")
+#   unit:        One of: Ma, ka, BP, BCE, CE, BCE-CE
+#                  Ma = million years ago
+#                  ka = thousand years ago
+#                  BP = before present (1950)
+#                  BCE = before common era
+#                  CE = common era
+#                  BCE-CE = start is BCE, end is CE
+#   labels:      Translations — must always include "en" and "sv"
+#                Add local/etymological languages as needed (e.g. grc, zh, fr)
+#   description: English description of the time period (in double quotes)
+#
+# Optional fields:
+#
+#   parent:      ID of the parent entry (omit this line entirely if none)
+#
+# Language codes follow ISO 639:
+#   en = English, sv = Swedish, grc = Ancient Greek, el = Modern Greek,
+#   fr = French, de = German, zh = Chinese, ru = Russian, la = Latin,
+#   ar = Arabic, es = Spanish, it = Italian, da = Danish, nb = Norwegian,
+#   fi = Finnish, ja = Japanese, ko = Korean, fa = Persian, etc.
+#
+# Example entry:
+#
+#   - id: hadean
+#     rank: Eon
+#     start: 4567
+#     end: 4031
+#     unit: Ma
+#     labels:
+#       en: Hadean
+#       sv: Hadeikum
+#       grc: Ἅιδης
+#     description: "Earliest eon; Earth forms from accretion."
+#
+# Example with parent:
+#
+#   - id: eoarchean
+#     rank: Era
+#     parent: archean
+#     start: 4031
+#     end: 3600
+#     unit: Ma
+#     labels:
+#       en: Eoarchean
+#       sv: Eoarkeikum
+#       grc: Ἠώς ἀρχαῖος
+#     description: "Oldest known rocks; possible earliest life."
+#
+# To regenerate the output files after editing:
+#   python3 scripts/generate-geologic-timescale.py

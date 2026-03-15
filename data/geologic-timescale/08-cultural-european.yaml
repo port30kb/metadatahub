@@ -1,0 +1,814 @@
+# Broader European Historical Periods
+
+- id: archaic-greece
+  rank: CulturalAge
+  parent: holocene
+  start: 800
+  end: 480
+  unit: BCE
+  labels:
+    en: Archaic Greece
+    sv: Arkaisk tid i Grekland
+  description: "Rise of city-states (poleis); Greek colonization; development of the alphabet, Homer's epics, early philosophy."
+
+- id: classical-greece
+  rank: CulturalAge
+  parent: holocene
+  start: 480
+  end: 323
+  unit: BCE
+  labels:
+    en: Classical Greece
+    sv: Klassisk tid i Grekland
+  description: "Golden Age of Athens; Parthenon; Socrates, Plato, Aristotle; Athenian democracy; Peloponnesian War."
+
+- id: hellenistic-period
+  rank: CulturalAge
+  parent: holocene
+  start: 323
+  end: 31
+  unit: BCE
+  labels:
+    en: Hellenistic Period
+    sv: Hellenistisk tid
+  description: "Alexander the Great's empire fragments; spread of Greek culture across Mediterranean and Near East; Library of Alexandria."
+
+- id: roman-republic
+  rank: CulturalAge
+  parent: holocene
+  start: 509
+  end: 27
+  unit: BCE
+  labels:
+    en: Roman Republic
+    sv: Romerska republiken
+    de: Römische Republik
+    el: Ρωμαϊκή Δημοκρατία
+    la: Res Publica Romana
+  description: "Roman expansion across Mediterranean; Punic Wars; Julius Caesar; transition to Empire."
+
+- id: roman-empire
+  rank: CulturalAge
+  parent: holocene
+  start: 27
+  end: 476
+  unit: CE
+  labels:
+    en: Roman Empire
+    sv: Romerska riket
+    de: Römisches Reich
+    el: Ρωμαϊκή Αυτοκρατορία
+    la: Imperium Romanum
+    tr: Roma İmparatorluğu
+  description: "Pax Romana; peak Roman civilization; roads, aqueducts, law; Christianity becomes state religion (380 CE)."
+
+- id: late-antiquity
+  rank: CulturalAge
+  parent: holocene
+  start: 250
+  end: 750
+  unit: CE
+  labels:
+    en: Late Antiquity
+    sv: Senantiken
+  description: "Transition from classical to medieval; fall of Western Rome (476); rise of Christianity; Byzantine Empire continues in East."
+
+- id: hunnic-empire
+  rank: CulturalAge
+  parent: holocene
+  start: 370
+  end: 469
+  unit: CE
+  labels:
+    en: Hunnic Empire
+    sv: Hunniska riket
+  description: "Nomadic steppe empire originating in Central Asia; swept west ~370 CE displacing Germanic peoples; Attila the Hun (434-453 CE) at peak; raided Balkans and Gaul; Battle of Catalaunian Plains (451 CE); dissolved rapidly after Attila's death (453 CE); possible relation to Xiongnu (匈奴) of Chinese records."
+
+- id: byzantine-empire
+  rank: CulturalAge
+  parent: holocene
+  start: 330
+  end: 1453
+  unit: CE
+  labels:
+    en: Byzantine Empire
+    sv: Bysantinska riket
+    el: Βυζαντινή Αυτοκρατορία
+  description: "Eastern Roman Empire; Constantinople capital; Justinian's Code; Hagia Sophia; Greek culture; Orthodox Christianity; fell to Ottoman Turks (1453)."
+
+- id: byzantine-early
+  rank: CulturalAge
+  parent: byzantine-empire
+  start: 330
+  end: 717
+  unit: CE
+  labels:
+    en: Early Byzantine Period
+    sv: Tidig bysantinsk period
+  description: "Constantine founds Constantinople (330); Justinian I (527-565); Corpus Juris Civilis; Hagia Sophia (537); wars with Sasanian Persia; Arab sieges."
+
+- id: byzantine-middle
+  rank: CulturalAge
+  parent: byzantine-empire
+  start: 717
+  end: 1204
+  unit: CE
+  labels:
+    en: Middle Byzantine Period
+    sv: Mellersta bysantinsk period
+  description: "Iconoclasm controversy; Macedonian Renaissance; Great Schism (1054); Komnenian dynasty; Battle of Manzikert (1071); themes system."
+
+- id: byzantine-late
+  rank: CulturalAge
+  parent: byzantine-empire
+  start: 1204
+  end: 1453
+  unit: CE
+  labels:
+    en: Late Byzantine Period
+    sv: Sen bysantinsk period
+  description: "Fourth Crusade sacks Constantinople (1204); Latin Empire; Palaiologos restoration (1261); decline; Fall of Constantinople (1453) ends Roman continuity."
+
+- id: european-early-medieval
+  rank: CulturalAge
+  parent: holocene
+  start: 476
+  end: 1000
+  unit: CE
+  labels:
+    en: Early Middle Ages
+    sv: Tidig medeltid
+  description: "Fall of Western Rome (476); Merovingian and Carolingian kingdoms; spread of Christianity; feudalism develops."
+
+- id: merovingian-period
+  rank: CulturalAge
+  parent: european-early-medieval
+  start: 481
+  end: 751
+  unit: CE
+  labels:
+    en: Merovingian Period
+    sv: Merovingertiden
+  description: "Merovingian dynasty rules Frankish kingdoms; Clovis I converts to Christianity; foundation of medieval France."
+
+- id: carolingian-period
+  rank: CulturalAge
+  parent: european-early-medieval
+  start: 751
+  end: 888
+  unit: CE
+  labels:
+    en: Carolingian Period
+    sv: Karolingiska perioden
+    de: Karolingerzeit
+  description: "Charlemagne crowned Emperor (800); Carolingian Renaissance; revival of learning, Latin scholarship, and arts."
+
+- id: ottonian-period
+  rank: CulturalAge
+  parent: european-early-medieval
+  start: 919
+  end: 1024
+  unit: CE
+  labels:
+    en: Ottonian Period
+    sv: Ottonska perioden
+  description: "Holy Roman Empire under Otto I; Ottonian Renaissance; expansion of Christianity into central Europe."
+
+- id: european-high-medieval
+  rank: CulturalAge
+  parent: holocene
+  start: 1000
+  end: 1300
+  unit: CE
+  labels:
+    en: High Middle Ages
+    sv: Högmedeltiden
+  description: "Crusades; Gothic cathedrals; universities founded (Bologna, Paris, Oxford); population growth; Magna Carta (1215)."
+
+- id: crusades-period
+  rank: CulturalAge
+  parent: european-high-medieval
+  start: 1095
+  end: 1291
+  unit: CE
+  labels:
+    en: Crusades Period
+    sv: Korstågen
+    ar: الحروب الصليبية
+  description: "Series of religious wars for control of the Holy Land; First Crusade captures Jerusalem (1099); cultural exchange between East and West."
+
+- id: twelfth-century-renaissance
+  rank: CulturalAge
+  parent: european-high-medieval
+  start: 1100
+  end: 1200
+  unit: CE
+  labels:
+    en: Renaissance of the 12th Century
+    sv: "1100-talets renässans"
+  description: "Revival of learning; translations of Greek and Arabic texts; founding of universities; scholasticism; Gothic architecture begins."
+
+- id: european-late-medieval
+  rank: CulturalAge
+  parent: holocene
+  start: 1300
+  end: 1500
+  unit: CE
+  labels:
+    en: Late Middle Ages
+    sv: Senmedeltiden
+  description: "Black Death (1347-1351); Hundred Years' War; Great Western Schism; decline of feudalism; printing press (1440)."
+
+- id: renaissance
+  rank: CulturalAge
+  parent: holocene
+  start: 1350
+  end: 1600
+  unit: CE
+  labels:
+    en: Renaissance
+    sv: Renässansen
+    it: Rinascimento
+  description: "Revival of classical learning and art; began in Italy (Florence); humanism, perspective painting, scientific inquiry; Michelangelo, Leonardo, Raphael."
+
+- id: italian-renaissance
+  rank: CulturalAge
+  parent: renaissance
+  start: 1350
+  end: 1550
+  unit: CE
+  labels:
+    en: Italian Renaissance
+    sv: Italienska renässansen
+    it: Rinascimento italiano
+  description: "Florence, Venice, Rome as cultural centers; Medici patronage; Brunelleschi, Botticelli, Machiavelli, da Vinci."
+
+- id: northern-renaissance
+  rank: CulturalAge
+  parent: renaissance
+  start: 1450
+  end: 1600
+  unit: CE
+  labels:
+    en: Northern Renaissance
+    sv: Nordisk renässans
+  description: "Renaissance spreads north of Alps; Dürer, Erasmus, Holbein, Bruegel; printing revolution; Protestant Reformation begins."
+
+- id: age-of-exploration
+  rank: CulturalAge
+  parent: holocene
+  start: 1415
+  end: 1600
+  unit: CE
+  labels:
+    en: Age of Exploration
+    sv: Upptäcktsresorna
+  description: "European maritime exploration; Columbus (1492), Vasco da Gama (1498), Magellan (1519); colonial empires begin."
+
+- id: european-reformation
+  rank: CulturalAge
+  parent: holocene
+  start: 1517
+  end: 1648
+  unit: CE
+  labels:
+    en: European Reformation
+    sv: Reformationen
+  description: "Luther's 95 Theses (1517); Protestant churches emerge; Counter-Reformation; Wars of Religion; Peace of Westphalia (1648)."
+
+- id: baroque-period
+  rank: CulturalAge
+  parent: holocene
+  start: 1600
+  end: 1750
+  unit: CE
+  labels:
+    en: Baroque Period
+    sv: Barocken
+  description: "Dramatic, ornate art and architecture; Bernini, Caravaggio, Rubens, Bach, Vivaldi; absolutist monarchies."
+
+- id: enlightenment
+  rank: CulturalAge
+  parent: holocene
+  start: 1685
+  end: 1815
+  unit: CE
+  labels:
+    en: Age of Enlightenment
+    sv: Upplysningen
+    de: Aufklärung
+  description: "Reason, science, individual rights; Voltaire, Rousseau, Kant, Locke; influence on American and French Revolutions."
+
+- id: age-of-revolutions
+  rank: CulturalAge
+  parent: holocene
+  start: 1775
+  end: 1848
+  unit: CE
+  labels:
+    en: Age of Revolutions
+    sv: Revolutionernas tid
+  description: "American Revolution (1775), French Revolution (1789), Napoleonic Wars, Revolutions of 1848; end of ancien régime."
+
+- id: romanticism
+  rank: CulturalAge
+  parent: modern-period
+  start: 1790
+  end: 1850
+  unit: CE
+  labels:
+    en: Romantic Period
+    sv: Romantiken
+  description: "Reaction against Enlightenment rationalism; emphasis on emotion, nature, nationalism; Goethe, Byron, Beethoven, Delacroix."
+
+- id: world-wars-era
+  rank: CulturalAge
+  parent: contemporary
+  start: 1914
+  end: 1945
+  unit: CE
+  labels:
+    en: World Wars Era
+    sv: Världskrigen
+  description: "Two global conflicts and an interwar period that reshaped Europe; tens of millions killed; colonial empires begin to dissolve."
+
+- id: world-war-i
+  rank: CulturalAge
+  parent: world-wars-era
+  start: 1914
+  end: 1918
+  unit: CE
+  labels:
+    en: World War I
+    sv: Första världskriget
+  description: "The Great War; trench warfare; fall of empires (Ottoman, Austro-Hungarian, Russian, German); Treaty of Versailles (1919)."
+
+- id: interwar-period
+  rank: CulturalAge
+  parent: world-wars-era
+  start: 1918
+  end: 1939
+  unit: CE
+  labels:
+    en: Interwar Period
+    sv: Mellankrigstiden
+  description: "League of Nations; Weimar Republic; Great Depression (1929); rise of fascism in Italy, Germany, Spain; Spanish Civil War."
+
+- id: world-war-ii
+  rank: CulturalAge
+  parent: world-wars-era
+  start: 1939
+  end: 1945
+  unit: CE
+  labels:
+    en: World War II
+    sv: Andra världskriget
+  description: "Global conflict; Nazi Germany, Holocaust; Allied victory; atomic bombs; United Nations founded (1945); Europe devastated."
+
+- id: cold-war-era
+  rank: CulturalAge
+  parent: contemporary
+  start: 1947
+  end: 1991
+  unit: CE
+  labels:
+    en: Cold War Era
+    sv: Kalla kriget
+    ru: Холодная война
+  description: "East-West division; NATO vs Warsaw Pact; Iron Curtain; Berlin Wall (1961-1989); European integration begins (EEC 1957)."
+
+- id: european-integration
+  rank: CulturalAge
+  parent: contemporary
+  start: 1957
+  end: 0
+  unit: CE
+  labels:
+    en: European Integration
+    sv: Europeisk integration
+  description: "Treaty of Rome (1957); EEC to EU; Schengen Area; Euro currency; expansion from 6 to 27+ member states."
+
+- id: minoan-civilization
+  rank: CulturalAge
+  parent: holocene
+  start: 2700
+  end: 1450
+  unit: BCE
+  labels:
+    en: Minoan Civilization
+    sv: Minoiska civilisationen
+    el: Μινωικός πολιτισμός
+  description: "First advanced European civilization; Knossos palace; Linear A script (undeciphered); bull-leaping; thalassocracy; Thera eruption."
+
+- id: mycenaean-civilization
+  rank: CulturalAge
+  parent: holocene
+  start: 1600
+  end: 1100
+  unit: BCE
+  labels:
+    en: Mycenaean Civilization
+    sv: Mykenska civilisationen
+    el: Μυκηναϊκός πολιτισμός
+  description: "First mainland Greek civilization; Linear B script; fortified palaces (Mycenae, Tiryns, Pylos); Trojan War tradition; Bronze Age collapse."
+
+- id: greek-dark-ages
+  rank: CulturalAge
+  parent: holocene
+  start: 1100
+  end: 800
+  unit: BCE
+  labels:
+    en: Greek Dark Ages
+    sv: Grekiska mörka medeltiden
+  description: "Collapse of Mycenaean palatial civilization; loss of writing; population decline; Dorian migration; leads to Archaic Greece."
+
+- id: kingdom-macedon
+  rank: CulturalAge
+  parent: holocene
+  start: 808
+  end: 168
+  unit: BCE
+  labels:
+    en: Kingdom of Macedon
+    sv: Makedonska riket
+  description: "Ancient Greek kingdom in northern Greece; Argead dynasty; Philip II unified Greek city-states; Alexander the Great conquered Persia, Egypt, India (336-323 BCE); Antigonid dynasty; conquered by Rome at Battle of Pydna (168 BCE)."
+
+- id: hallstatt-culture
+  rank: CulturalAge
+  parent: holocene
+  start: 800
+  end: 450
+  unit: BCE
+  labels:
+    en: Hallstatt Culture
+    sv: Hallstattkulturen
+    de: Hallstattkultur
+  description: "Early Iron Age Celtic culture; salt mining center in Austria; elite chariot burials; first identifiable Celtic material culture."
+
+- id: la-tene-culture
+  rank: CulturalAge
+  parent: holocene
+  start: 450
+  end: 1
+  unit: BCE
+  labels:
+    en: La Tène Culture
+    sv: "La Tène-kulturen"
+    de: "La-Tène-Kultur"
+  description: "Mature Celtic civilization; characteristic art style; oppida proto-urban centers; spread from Switzerland across Europe."
+
+- id: yamnaya
+  rank: CulturalAge
+  parent: holocene
+  start: 3300
+  end: 2600
+  unit: BCE
+  labels:
+    en: Yamnaya Culture
+    sv: Jamnakulturen
+    ru: Ямная культура
+  description: "Pontic-Caspian steppe pastoralists; Proto-Indo-European homeland hypothesis (Kurgan model); wheeled vehicles; horse domestication; massive westward migration transformed Bronze Age European gene pool (ancient DNA evidence, Haak et al. 2015)."
+
+- id: corded-ware
+  rank: CulturalAge
+  parent: holocene
+  start: 2900
+  end: 2350
+  unit: BCE
+  labels:
+    en: Corded Ware Culture
+    sv: Stridsyxekulturen
+    de: Schnurkeramik
+  description: "Widespread Chalcolithic-Early Bronze Age culture across northern/central Europe; derived partly from Yamnaya migration; single burial tradition; cord-impressed pottery; stone battle axes; Indo-European language spread vector."
+
+- id: etruscan-civilization
+  rank: CulturalAge
+  parent: holocene
+  start: 900
+  end: 27
+  unit: BCE
+  labels:
+    en: Etruscan Civilization
+    sv: Etruskisk civilisation
+    ett: Rasenna
+  description: "Pre-Roman Italian civilization in Tuscany; sophisticated metalwork and tomb painting; influenced Roman religion, architecture, engineering."
+
+- id: visigothic-kingdom
+  rank: CulturalAge
+  parent: holocene
+  start: 418
+  end: 721
+  unit: CE
+  labels:
+    en: Visigothic Kingdom
+    sv: Västgotiska riket
+    es: Reino visigodo
+  description: "Germanic successor state controlling Iberia; Toledo capital; Liber Iudiciorum legal code; Arian then Catholic Christianity."
+
+- id: al-andalus
+  rank: CulturalAge
+  parent: holocene
+  start: 711
+  end: 1492
+  unit: CE
+  labels:
+    en: "Al-Andalus"
+    sv: "Al-Andalus"
+    ar: الأندلس
+  description: "Islamic Iberia; Caliphate of Córdoba; convivencia; Alhambra, Mezquita; advances in science, medicine, philosophy."
+
+- id: reconquista
+  rank: CulturalAge
+  parent: holocene
+  start: 722
+  end: 1492
+  unit: CE
+  labels:
+    en: Reconquista
+    sv: Reconquista
+    ar: إسترداد
+  description: "Christian reconquest of Iberia; Covadonga (722) to Fall of Granada (1492); shaped Spanish and Portuguese national identity."
+
+- id: spanish-empire
+  rank: CulturalAge
+  parent: holocene
+  start: 1492
+  end: 1976
+  unit: CE
+  labels:
+    en: Spanish Empire
+    sv: Spanska riket
+  description: "First global empire; colonization of Americas and Philippines; 'empire on which the sun never sets'; Habsburg and Bourbon dynasties."
+
+- id: lombard-kingdom
+  rank: CulturalAge
+  parent: holocene
+  start: 568
+  end: 774
+  unit: CE
+  labels:
+    en: Lombard Kingdom
+    sv: Langobardiska riket
+    la: Regnum Langobardorum
+  description: "Germanic kingdom in Italy after Roman fall; Lombard law; conquered by Charlemagne; origin of 'Lombardy'."
+
+- id: republic-of-venice
+  rank: CulturalAge
+  parent: holocene
+  start: 697
+  end: 1797
+  unit: CE
+  labels:
+    en: Republic of Venice
+    sv: Republiken Venedig
+    it: Serenissima Repubblica di Venezia
+  description: "Over 1,100 years of continuous republican government; maritime empire; eastern Mediterranean trade monopoly; Arsenal; Doge system."
+
+- id: papal-states
+  rank: CulturalAge
+  parent: holocene
+  start: 756
+  end: 1870
+  unit: CE
+  labels:
+    en: Papal States
+    sv: Kyrkostaten
+    it: Stato Pontificio
+  description: "Temporal domain of the Pope; central Italian territories; Papal diplomacy; key barrier to Italian unification."
+
+- id: italian-unification
+  rank: CulturalAge
+  parent: holocene
+  start: 1815
+  end: 1871
+  unit: CE
+  labels:
+    en: Italian Unification
+    sv: Italiens enande
+    it: Risorgimento
+  description: "Unification movement; Garibaldi, Cavour, Mazzini; Kingdom of Italy proclaimed 1861; Rome annexed 1870."
+
+- id: holy-roman-empire
+  rank: CulturalAge
+  parent: holocene
+  start: 962
+  end: 1806
+  unit: CE
+  labels:
+    en: Holy Roman Empire
+    sv: Heliga romerska riket
+    de: Heiliges Römisches Reich
+  description: "Central European polity; Imperial Diet; framework for German politics for 800+ years; 'neither Holy, nor Roman, nor an Empire'; dissolved by Napoleon."
+
+- id: habsburg-monarchy
+  rank: CulturalAge
+  parent: holocene
+  start: 1282
+  end: 1918
+  unit: CE
+  labels:
+    en: Habsburg Monarchy
+    sv: Habsburgska monarkin
+    de: Habsburgermonarchie
+  description: "Dominant European dynasty; controlled Austria, Spain, Netherlands, Italy; Charles V ruled largest European empire; Catholic champions."
+
+- id: austro-hungarian-empire
+  rank: CulturalAge
+  parent: holocene
+  start: 1867
+  end: 1918
+  unit: CE
+  labels:
+    en: "Austro-Hungarian Empire"
+    sv: "Österrike-Ungern"
+    de: "Österreichisch-Ungarische Monarchie"
+  description: "Dual monarchy; second-largest European state; multi-ethnic tension; assassination of Franz Ferdinand triggers WWI."
+
+- id: first-bulgarian-empire
+  rank: CulturalAge
+  parent: holocene
+  start: 681
+  end: 1018
+  unit: CE
+  labels:
+    en: First Bulgarian Empire
+    sv: Första bulgariska riket
+    bg: Първо българско царство
+  description: "First Slavic state recognized by Byzantium; Simeon the Great; Cyrillic script origin; conquered by Basil II 'the Bulgar-Slayer'."
+
+- id: second-bulgarian-empire
+  rank: CulturalAge
+  parent: holocene
+  start: 1185
+  end: 1396
+  unit: CE
+  labels:
+    en: Second Bulgarian Empire
+    sv: Andra bulgariska riket
+    bg: Второ българско царство
+  description: "Asen dynasty revival; Tarnovo capital; fell to Ottoman conquest."
+
+- id: kingdom-of-poland
+  rank: CulturalAge
+  parent: holocene
+  start: 1025
+  end: 1569
+  unit: CE
+  labels:
+    en: Kingdom of Poland
+    sv: Kungariket Polen
+    pl: Królestwo Polskie
+  description: "Piast and Jagiellonian dynasties; Christianization (966); Copernicus; union with Lithuania."
+
+- id: polish-lithuanian-commonwealth
+  rank: CulturalAge
+  parent: holocene
+  start: 1569
+  end: 1795
+  unit: CE
+  labels:
+    en: "Polish-Lithuanian Commonwealth"
+    sv: "Polsk-litauiska samväldet"
+    pl: Rzeczpospolita Obojga Narodów
+  description: "Largest European state of its era; elected monarchy; religious tolerance; Sarmatism; partitioned by Russia, Prussia, Austria."
+
+- id: kingdom-of-hungary
+  rank: CulturalAge
+  parent: holocene
+  start: 1000
+  end: 1526
+  unit: CE
+  labels:
+    en: Kingdom of Hungary
+    sv: Kungariket Ungern
+    hu: Magyar Királyság
+  description: "St. Stephen I; buffer against Ottoman expansion; Battle of Mohács (1526) ends independence; major Central European power."
+
+- id: grand-duchy-of-lithuania
+  rank: CulturalAge
+  parent: holocene
+  start: 1236
+  end: 1569
+  unit: CE
+  labels:
+    en: Grand Duchy of Lithuania
+    sv: Storfurstendömet Litauen
+    lt: Lietuvos Didžioji Kunigaikštystė
+  description: "Last pagan state in Europe; largest European state in 15th century; encompassed Belarus, Ukraine, parts of Russia."
+
+- id: kingdom-of-serbia
+  rank: CulturalAge
+  parent: holocene
+  start: 1217
+  end: 1346
+  unit: CE
+  labels:
+    en: Kingdom of Serbia
+    sv: Kungariket Serbien
+    sr: Краљевина Србија
+  description: "Nemanjić dynasty kingdom; autocephalous Serbian Orthodox Church (1219); cultural golden age; ends when Stefan Dušan proclaims the Serbian Empire in 1346."
+
+- id: grand-duchy-moscow
+  rank: CulturalAge
+  parent: holocene
+  start: 1263
+  end: 1547
+  unit: CE
+  labels:
+    en: Grand Duchy of Moscow
+    sv: Storfurstendömet Moskva
+    ru: Великое княжество Московское
+  description: "Rise of Moscow as successor to Kievan Rus'; Ivan III ends Mongol rule (1480); 'Third Rome' ideology."
+
+- id: tsardom-of-russia
+  rank: CulturalAge
+  parent: holocene
+  start: 1547
+  end: 1721
+  unit: CE
+  labels:
+    en: Tsardom of Russia
+    sv: Tsardömet Ryssland
+    ru: Русское царство
+  description: "Ivan IV 'the Terrible'; Time of Troubles; Romanov dynasty begins (1613); expansion into Siberia."
+
+- id: russian-empire
+  rank: CulturalAge
+  parent: holocene
+  start: 1721
+  end: 1917
+  unit: CE
+  labels:
+    en: Russian Empire
+    sv: Ryska riket
+    ru: Российская империя
+  description: "Peter the Great's modernization; St. Petersburg; largest contiguous empire; Napoleonic Wars; emancipation of serfs (1861)."
+
+- id: soviet-union
+  rank: CulturalAge
+  parent: contemporary
+  start: 1922
+  end: 1991
+  unit: CE
+  labels:
+    en: Soviet Union
+    sv: Sovjetunionen
+    ru: Союз Советских Социалистических Республик
+  description: "First communist state; superpower; industrialization; WWII Eastern Front; Space Race; Cold War; collapse reshapes world order."
+
+- id: napoleonic-era
+  rank: CulturalAge
+  parent: modern-period
+  start: 1799
+  end: 1815
+  unit: CE
+  labels:
+    en: Napoleonic Era
+    sv: Napoleontiden
+  description: "Napoleon reshapes European borders; Code Napoléon; Battle of Austerlitz, Trafalgar, Waterloo; Congress of Vienna."
+
+- id: victorian-era
+  rank: CulturalAge
+  parent: modern-period
+  start: 1837
+  end: 1901
+  unit: CE
+  labels:
+    en: Victorian Era
+    sv: Viktorianska eran
+  description: "British global hegemony; Industrial Revolution peak; British Empire at zenith; cultural, scientific, social transformation."
+
+- id: british-empire
+  rank: CulturalAge
+  parent: holocene
+  start: 1583
+  end: 1997
+  unit: CE
+  labels:
+    en: British Empire
+    sv: Brittiska imperiet
+  description: "Largest empire in history; shaped global language, law, trade; decolonization post-WWII; Commonwealth of Nations."
+
+- id: dutch-golden-age
+  rank: CulturalAge
+  parent: holocene
+  start: 1588
+  end: 1672
+  unit: CE
+  labels:
+    en: Dutch Golden Age
+    sv: Holländska guldåldern
+    nl: Gouden Eeuw
+  description: "Dutch Republic as global trade power; VOC; Rembrandt, Vermeer; religious tolerance; scientific revolution."
+
+- id: german-unification
+  rank: CulturalAge
+  parent: modern-period
+  start: 1864
+  end: 1871
+  unit: CE
+  labels:
+    en: German Unification
+    sv: Tyska enandet
+  description: "Bismarck; Franco-Prussian War; German Empire proclaimed at Versailles; reshapes European power balance."
