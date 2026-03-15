@@ -1,14 +1,18 @@
 #!/usr/bin/env python3
 """Generate the Geologic Time Scale as Linked Data (Turtle + JSON-LD).
 
-852 data points covering:
+Multi-language data covering:
 - 4 Eons
 - 10 Eras
 - 22 Periods (incl. Mississippian/Pennsylvanian sub-periods)
 - 38 Epochs
-- ~90 Ages/Stages (Mesozoic + Cenozoic + Pleistocene + Holocene + geologic events)
-- ~20 Paleozoic epoch-level divisions
-- Archaeological/cultural ages bridging into human history
+- ~140 Ages/Stages (all ICS formal stages + geologic events)
+- ~630 Archaeological/cultural ages bridging into human history
+
+Each entry has multilingual labels:
+  - "en" (English) — primary language
+  - Local/etymological language (e.g. "grc" for Ancient Greek, "zh" for Chinese)
+  - "sv" (Swedish) — always included
 
 Source: Wikipedia, "Geologic time scale"
   https://en.wikipedia.org/wiki/Geologic_time_scale
@@ -23,6 +27,17 @@ ICS International Chronostratigraphic Chart v2024/12
 
 All dates follow the ICS 2024/12 chart where available.
 Ma = million years ago; ka = thousand years ago; BP = before present.
+
+Language codes follow ISO 639:
+  en=English, sv=Swedish, grc=Ancient Greek, el=Modern Greek,
+  cy=Welsh, fr=French, de=German, zh=Chinese, ru=Russian,
+  la=Latin, ar=Arabic, es=Spanish, it=Italian, pt=Portuguese,
+  nl=Dutch, ja=Japanese, ko=Korean, hi=Hindi, ur=Urdu,
+  nb=Norwegian Bokmål, nn=Norwegian Nynorsk, da=Danish,
+  fi=Finnish, is=Icelandic, se=Northern Sámi, pl=Polish,
+  cs=Czech, hu=Hungarian, tr=Turkish, ka=Georgian, hy=Armenian,
+  he=Hebrew, fa=Persian, sa=Sanskrit, nah=Nahuatl, qu=Quechua,
+  mi=Māori, haw=Hawaiian, sm=Samoan, to=Tongan
 """
 
 import json
@@ -30,7 +45,8 @@ import json
 BASE = "https://metadatahub.eu/data/geologic-timescale"
 
 # ──────────────────────────────────────────────────────────────
-# Data: each entry is (id, label, rank, parent_id, start, end, unit, description)
+# Data: each entry is (id, labels, rank, parent_id, start, end, unit, description)
+#   labels: dict of {lang_code: name} — "en" and "sv" always present
 #   rank: Eon | Era | Period | SubPeriod | Epoch | Age | CulturalAge
 #   start/end: numeric (Ma for geologic, years BP or BCE/CE for cultural)
 #   unit: "Ma" | "ka" | "BP" | "BCE" | "CE"
@@ -39,11 +55,12 @@ BASE = "https://metadatahub.eu/data/geologic-timescale"
 DATA = []
 n = [0]  # mutable counter
 
-def add(id_, label, rank, parent, start, end, unit, desc):
+def add(id_, labels, rank, parent, start, end, unit, desc):
+    """Add an entry. labels is a dict like {"en": "Hadean", "sv": "Hadeikum", "grc": "Ἅιδης"}."""
     n[0] += 1
     DATA.append({
         "id": id_,
-        "label": label,
+        "labels": labels,
         "rank": rank,
         "parent": parent,
         "start": start,
@@ -56,418 +73,418 @@ def add(id_, label, rank, parent, start, end, unit, desc):
 # ═══════════════════════════════════════════════════════════════
 # EONS
 # ═══════════════════════════════════════════════════════════════
-add("hadean", "Hadean (Ἅιδης)", "Eon", None, 4567, 4031, "Ma",
+add("hadean", {"en": "Hadean", "sv": "Hadeikum", "grc": "Ἅιδης"}, "Eon", None, 4567, 4031, "Ma",
     "Earliest eon; Earth forms from accretion, heavy bombardment, formation of the Moon.")
 
 # Hadean informal divisions (proposed by Goldblatt et al. 2010; GTS 2012; not ratified by ICS)
-add("chaotian", "Chaotian (informal / Χάος Cháos)", "Era", "hadean", 4567, 4404, "Ma",
+add("chaotian", {"en": "Chaotian (informal)", "sv": "Chaotium (informell)", "grc": "Χάος"}, "Era", "hadean", 4567, 4404, "Ma",
     "Accretion and differentiation of Earth; Moon-forming giant impact (Theia hypothesis, ~4510 Ma); surface entirely molten magma ocean.")
-add("zirconian", "Zirconian (informal / Zirkon, زرگون zargun)", "Era", "hadean", 4404, 4031, "Ma",
+add("zirconian", {"en": "Zirconian (informal)", "sv": "Zirkonien (informell)", "grc": "ζίρκων", "fa": "زرگون"}, "Era", "hadean", 4404, 4031, "Ma",
     "Oldest known mineral grains (Jack Hills zircons, ~4.4 Ga); first solid crust forms; Late Heavy Bombardment.")
-add("late-heavy-bombardment", "Late Heavy Bombardment (LHB / Ἅιδης)", "Age", "hadean", 4100, 3800, "Ma",
+add("late-heavy-bombardment", {"en": "Late Heavy Bombardment (LHB)", "sv": "Sena tunga bombardemanget"}, "Age", "hadean", 4100, 3800, "Ma",
     "Proposed period of intense asteroid and comet impacts on inner Solar System; evidence from lunar craters and Apollo samples; shaped early Earth crust; timing and intensity debated (Nice model).")
 
-add("archean", "Archean (Ἀρχαῖος)", "Eon", None, 4031, 2500, "Ma",
+add("archean", {"en": "Archean", "sv": "Arkeikum", "grc": "Ἀρχαῖος"}, "Eon", None, 4031, 2500, "Ma",
     "First stable continents form; earliest evidence of life (stromatolites).")
-add("proterozoic", "Proterozoic (Πρότερος ζωή)", "Eon", None, 2500, 538.8, "Ma",
+add("proterozoic", {"en": "Proterozoic", "sv": "Proterozoikum", "grc": "Πρότερος ζωή"}, "Eon", None, 2500, 538.8, "Ma",
     "Oxygen accumulates in atmosphere; first eukaryotes and multicellular life.")
-add("phanerozoic", "Phanerozoic (Φανερός ζωή)", "Eon", None, 538.8, 0, "Ma",
+add("phanerozoic", {"en": "Phanerozoic", "sv": "Fanerozoikum", "grc": "Φανερός ζωή"}, "Eon", None, 538.8, 0, "Ma",
     "Eon of visible life; all complex animal phyla appear and diversify.")
 
 # ═══════════════════════════════════════════════════════════════
 # ARCHEAN ERAS
 # ═══════════════════════════════════════════════════════════════
-add("eoarchean", "Eoarchean (Ἠώς ἀρχαῖος)", "Era", "archean", 4031, 3600, "Ma",
+add("eoarchean", {"en": "Eoarchean", "sv": "Eoarkeikum", "grc": "Ἠώς ἀρχαῖος"}, "Era", "archean", 4031, 3600, "Ma",
     "Oldest known rocks; possible earliest life.")
-add("paleoarchean", "Paleoarchean (Παλαιός ἀρχαῖος)", "Era", "archean", 3600, 3200, "Ma",
+add("paleoarchean", {"en": "Paleoarchean", "sv": "Paleoarkeikum", "grc": "Παλαιός ἀρχαῖος"}, "Era", "archean", 3600, 3200, "Ma",
     "Earliest confirmed microbial life; oldest stromatolites.")
-add("mesoarchean", "Mesoarchean (Μέσος ἀρχαῖος)", "Era", "archean", 3200, 2800, "Ma",
+add("mesoarchean", {"en": "Mesoarchean", "sv": "Mesoarkeikum", "grc": "Μέσος ἀρχαῖος"}, "Era", "archean", 3200, 2800, "Ma",
     "First large-scale stromatolite reefs; earliest photosynthesis evidence.")
-add("neoarchean", "Neoarchean (Νέος ἀρχαῖος)", "Era", "archean", 2800, 2500, "Ma",
+add("neoarchean", {"en": "Neoarchean", "sv": "Neoarkeikum", "grc": "Νέος ἀρχαῖος"}, "Era", "archean", 2800, 2500, "Ma",
     "Oxygen-producing cyanobacteria proliferate; banded iron formations peak.")
 
 # ═══════════════════════════════════════════════════════════════
 # PROTEROZOIC ERAS & PERIODS
 # ═══════════════════════════════════════════════════════════════
-add("paleoproterozoic", "Paleoproterozoic (Παλαιός πρότερος)", "Era", "proterozoic", 2500, 1600, "Ma",
+add("paleoproterozoic", {"en": "Paleoproterozoic", "sv": "Paleoproterozoikum", "grc": "Παλαιός πρότερος"}, "Era", "proterozoic", 2500, 1600, "Ma",
     "Great Oxidation Event; first supercontinent (Nuna/Columbia).")
-add("siderian", "Siderian (σίδηρος)", "Period", "paleoproterozoic", 2500, 2300, "Ma",
+add("siderian", {"en": "Siderian", "sv": "Siderium", "grc": "σίδηρος"}, "Period", "paleoproterozoic", 2500, 2300, "Ma",
     "Banded iron formations dominate; oxygen levels still rising.")
-add("rhyacian", "Rhyacian (ῥύαξ)", "Period", "paleoproterozoic", 2300, 2050, "Ma",
+add("rhyacian", {"en": "Rhyacian", "sv": "Rhyacium", "grc": "ῥύαξ"}, "Period", "paleoproterozoic", 2300, 2050, "Ma",
     "Huronian glaciation; first global ice age.")
-add("orosirian", "Orosirian (ὀροσειρά)", "Period", "paleoproterozoic", 2050, 1800, "Ma",
+add("orosirian", {"en": "Orosirian", "sv": "Orosirium", "grc": "ὀροσειρά"}, "Period", "paleoproterozoic", 2050, 1800, "Ma",
     "Major mountain-building events; Vredefort and Sudbury impacts.")
-add("statherian", "Statherian (σταθερός)", "Period", "paleoproterozoic", 1800, 1600, "Ma",
+add("statherian", {"en": "Statherian", "sv": "Statherium", "grc": "σταθερός"}, "Period", "paleoproterozoic", 1800, 1600, "Ma",
     "First complex single-celled organisms with nuclei.")
 
-add("mesoproterozoic", "Mesoproterozoic (Μέσος πρότερος)", "Era", "proterozoic", 1600, 1000, "Ma",
+add("mesoproterozoic", {"en": "Mesoproterozoic", "sv": "Mesoproterozoikum", "grc": "Μέσος πρότερος"}, "Era", "proterozoic", 1600, 1000, "Ma",
     "Supercontinent Rodinia assembles; first sexual reproduction evidence.")
-add("calymmian", "Calymmian (κάλυμμα)", "Period", "mesoproterozoic", 1600, 1400, "Ma",
+add("calymmian", {"en": "Calymmian", "sv": "Calymmium", "grc": "κάλυμμα"}, "Period", "mesoproterozoic", 1600, 1400, "Ma",
     "Platform covers expand; stable continental interiors.")
-add("ectasian", "Ectasian (ἔκτασις)", "Period", "mesoproterozoic", 1400, 1200, "Ma",
+add("ectasian", {"en": "Ectasian", "sv": "Ectasium", "grc": "ἔκτασις"}, "Period", "mesoproterozoic", 1400, 1200, "Ma",
     "Continued platform expansion; green algae diversify.")
-add("stenian", "Stenian (στενός)", "Period", "mesoproterozoic", 1200, 1000, "Ma",
+add("stenian", {"en": "Stenian", "sv": "Stenium", "grc": "στενός"}, "Period", "mesoproterozoic", 1200, 1000, "Ma",
     "Grenville orogeny; supercontinent Rodinia forms.")
 
-add("neoproterozoic", "Neoproterozoic (Νέος πρότερος)", "Era", "proterozoic", 1000, 538.8, "Ma",
+add("neoproterozoic", {"en": "Neoproterozoic", "sv": "Neoproterozoikum", "grc": "Νέος πρότερος"}, "Era", "proterozoic", 1000, 538.8, "Ma",
     "Snowball Earth glaciations; first animals appear (Ediacaran biota).")
-add("tonian", "Tonian (τόνος)", "Period", "neoproterozoic", 1000, 720, "Ma",
+add("tonian", {"en": "Tonian", "sv": "Tonium", "grc": "τόνος"}, "Period", "neoproterozoic", 1000, 720, "Ma",
     "Rodinia begins to break apart; first multicellular organisms.")
-add("cryogenian", "Cryogenian (κρύος γένεσις)", "Period", "neoproterozoic", 720, 635, "Ma",
+add("cryogenian", {"en": "Cryogenian", "sv": "Kryogenium", "grc": "κρύος γένεσις"}, "Period", "neoproterozoic", 720, 635, "Ma",
     "Snowball Earth glaciations: Sturtian and Marinoan; life survives in refugia.")
-add("sturtian", "Sturtian Glaciation (Sturt River, South Australia)", "Age", "cryogenian", 717, 660, "Ma",
-    "First and longer Snowball Earth event; global ice cover for ~57 million years.")
-add("marinoan", "Marinoan Glaciation (Marino, South Australia)", "Age", "cryogenian", 639, 635, "Ma",
-    "Second Snowball Earth; onset ~639 Ma per U-Pb geochronology; cap carbonates deposited after deglaciation.")
-add("ediacaran", "Ediacaran (Idiyakra / Yata Takarra)", "Period", "neoproterozoic", 635, 538.8, "Ma",
-    "Ediacaran biota: first large complex organisms; soft-bodied fauna. Named for Ediacara Creek, Flinders Ranges, South Australia, on traditional Adnyamathanha lands; Adnyamathanha name disputed: 'Idiyakra' (place near water, oldest recorded form) or 'Yata Takarra' (hard/stony ground); 2023 Nilpena Ediacara National Park formalizes Adnyamathanha custodianship.")
-add("gaskiers", "Gaskiers Glaciation (Gaskiers, Terre-Neuve)", "Age", "ediacaran", 580.9, 579.6, "Ma",
+add("sturtian", {"en": "Sturtian Glaciation", "sv": "Sturtianglaciationen"}, "Age", "cryogenian", 717, 660, "Ma",
+    "First and longer Snowball Earth event; global ice cover for ~57 million years. Named for Sturt River, South Australia.")
+add("marinoan", {"en": "Marinoan Glaciation", "sv": "Marinoanglaciationen"}, "Age", "cryogenian", 639, 635, "Ma",
+    "Second Snowball Earth; onset ~639 Ma per U-Pb geochronology; cap carbonates deposited after deglaciation. Named for Marino, South Australia.")
+add("ediacaran", {"en": "Ediacaran", "sv": "Ediacarium", "adt": "Idiyakra", "ru": "Эдиакарий", "zh": "埃迪卡拉纪"}, "Period", "neoproterozoic", 635, 538.8, "Ma",
+    "Ediacaran biota: first large complex organisms; soft-bodied fauna. Named for Ediacara Creek, Flinders Ranges, South Australia, on traditional Adnyamathanha lands; historically known as Vendian (Вендский) in Russian and Sinian (震旦系) in Chinese stratigraphy; 2023 Nilpena Ediacara National Park formalizes Adnyamathanha custodianship.")
+add("gaskiers", {"en": "Gaskiers Glaciation", "sv": "Gaskiersglaciationen", "fr": "Glaciation de Gaskiers"}, "Age", "ediacaran", 580.9, 579.6, "Ma",
     "Last major Neoproterozoic glaciation; short-lived (~1.3 Myr); followed by deep ocean oxygenation enabling rise of Ediacaran fauna.")
 
 # ═══════════════════════════════════════════════════════════════
 # PHANEROZOIC — PALEOZOIC ERA & PERIODS
 # ═══════════════════════════════════════════════════════════════
-add("paleozoic", "Paleozoic (Παλαιός ζωή)", "Era", "phanerozoic", 538.8, 251.902, "Ma",
+add("paleozoic", {"en": "Paleozoic", "sv": "Paleozoikum", "grc": "Παλαιός ζωή"}, "Era", "phanerozoic", 538.8, 251.902, "Ma",
     "Era of ancient life; Cambrian explosion, first fish, amphibians, reptiles, forests.")
 
-add("cambrian", "Cambrian (Cymru)", "Period", "paleozoic", 538.8, 486.85, "Ma",
+add("cambrian", {"en": "Cambrian", "sv": "Kambrium", "cy": "Cymru"}, "Period", "paleozoic", 538.8, 486.85, "Ma",
     "Cambrian explosion: most major animal phyla appear rapidly in the fossil record.")
-add("terreneuvian", "Terreneuvian (Terre-Neuve)", "Epoch", "cambrian", 538.8, 521, "Ma",
+add("terreneuvian", {"en": "Terreneuvian", "sv": "Terreneuvium", "fr": "Terre-Neuve"}, "Epoch", "cambrian", 538.8, 521, "Ma",
     "Earliest Cambrian epoch; small shelly fossils appear.")
-add("fortunian", "Fortunian (Fortune Head)", "Age", "terreneuvian", 538.8, 529, "Ma",
-    "Earliest Cambrian age; first trace fossils of bilaterian animals.")
-add("stage2-cambrian", "Cambrian Stage 2 (unnamed)", "Age", "terreneuvian", 529, 521, "Ma",
+add("fortunian", {"en": "Fortunian", "sv": "Fortunium"}, "Age", "terreneuvian", 538.8, 529, "Ma",
+    "Earliest Cambrian age; first trace fossils of bilaterian animals. Named for Fortune Head, Newfoundland.")
+add("stage2-cambrian", {"en": "Cambrian Stage 2 (unnamed)", "sv": "Kambrium steg 2 (ej namngiven)"}, "Age", "terreneuvian", 529, 521, "Ma",
     "Small shelly fauna diversify; archaeocyathids appear.")
-add("epoch2-cambrian", "Cambrian Series 2 (unnamed)", "Epoch", "cambrian", 521, 506.5, "Ma",
+add("epoch2-cambrian", {"en": "Cambrian Series 2 (unnamed)", "sv": "Kambrium serie 2 (ej namngiven)"}, "Epoch", "cambrian", 521, 506.5, "Ma",
     "Trilobites diversify; archaeocyathid reefs.")
-add("stage3-cambrian", "Cambrian Stage 3 (unnamed)", "Age", "epoch2-cambrian", 521, 514.5, "Ma",
+add("stage3-cambrian", {"en": "Cambrian Stage 3 (unnamed)", "sv": "Kambrium steg 3 (ej namngiven)"}, "Age", "epoch2-cambrian", 521, 514.5, "Ma",
     "First trilobites appear; Cambrian explosion accelerates.")
-add("stage4-cambrian", "Cambrian Stage 4 (unnamed)", "Age", "epoch2-cambrian", 514.5, 506.5, "Ma",
+add("stage4-cambrian", {"en": "Cambrian Stage 4 (unnamed)", "sv": "Kambrium steg 4 (ej namngiven)"}, "Age", "epoch2-cambrian", 514.5, 506.5, "Ma",
     "Archaeocyathid reef-builders peak then decline.")
-add("miaolingian", "Miaolingian (苗岭)", "Epoch", "cambrian", 506.5, 497, "Ma",
+add("miaolingian", {"en": "Miaolingian", "sv": "Miaolingium", "zh": "苗岭"}, "Epoch", "cambrian", 506.5, 497, "Ma",
     "Peak trilobite diversity; Burgess Shale-type faunas.")
-add("wuliuan", "Wuliuan (乌溜)", "Age", "miaolingian", 506.5, 504.5, "Ma",
+add("wuliuan", {"en": "Wuliuan", "sv": "Wuliuanium", "zh": "乌溜"}, "Age", "miaolingian", 506.5, 504.5, "Ma",
     "Burgess Shale fauna; diverse arthropods and anomalocaridids.")
-add("drumian", "Drumian (Drum Mountains)", "Age", "miaolingian", 504.5, 500.5, "Ma",
-    "Agnostid trilobites flourish; deep-water faunas diversify.")
-add("guzhangian", "Guzhangian (古丈)", "Age", "miaolingian", 500.5, 497, "Ma",
+add("drumian", {"en": "Drumian", "sv": "Drumium"}, "Age", "miaolingian", 504.5, 500.5, "Ma",
+    "Agnostid trilobites flourish; deep-water faunas diversify. Named for Drum Mountains, Utah.")
+add("guzhangian", {"en": "Guzhangian", "sv": "Guzhangium", "zh": "古丈"}, "Age", "miaolingian", 500.5, 497, "Ma",
     "Trilobite turnover; transition toward Furongian faunas.")
-add("furongian", "Furongian (芙蓉)", "Epoch", "cambrian", 497, 486.85, "Ma",
+add("furongian", {"en": "Furongian", "sv": "Furongium", "zh": "芙蓉"}, "Epoch", "cambrian", 497, 486.85, "Ma",
     "Trilobite extinctions; first cephalopods appear.")
-add("paibian", "Paibian (排碧)", "Age", "furongian", 497, 494.2, "Ma",
+add("paibian", {"en": "Paibian", "sv": "Paibium", "zh": "排碧"}, "Age", "furongian", 497, 494.2, "Ma",
     "SPICE carbon isotope excursion; trilobite extinction pulse.")
-add("jiangshanian", "Jiangshanian (江山)", "Age", "furongian", 494.2, 491, "Ma",
+add("jiangshanian", {"en": "Jiangshanian", "sv": "Jiangshanium", "zh": "江山"}, "Age", "furongian", 494.2, 491, "Ma",
     "Trilobite recovery; earliest cephalopods diversify.")
-add("stage10-cambrian", "Cambrian Stage 10 (unnamed)", "Age", "furongian", 491, 486.85, "Ma",
+add("stage10-cambrian", {"en": "Cambrian Stage 10 (unnamed)", "sv": "Kambrium steg 10 (ej namngiven)"}, "Age", "furongian", 491, 486.85, "Ma",
     "Final Cambrian stage; transition to Ordovician biodiversification.")
 
-add("ordovician", "Ordovician (Ordowices)", "Period", "paleozoic", 486.85, 443.1, "Ma",
+add("ordovician", {"en": "Ordovician", "sv": "Ordovicium", "cy": "Ordowices"}, "Period", "paleozoic", 486.85, 443.1, "Ma",
     "Great Ordovician Biodiversification Event; first land plants; ends with mass extinction.")
-add("early-ordovician", "Early Ordovician (Ordowices)", "Epoch", "ordovician", 486.85, 471.3, "Ma",
+add("early-ordovician", {"en": "Early Ordovician", "sv": "Undre ordovicium"}, "Epoch", "ordovician", 486.85, 471.3, "Ma",
     "Biodiversification begins; graptolites and brachiopods flourish.")
-add("tremadocian", "Tremadocian (Tremadog)", "Age", "early-ordovician", 486.85, 477.1, "Ma",
+add("tremadocian", {"en": "Tremadocian", "sv": "Tremadocium", "cy": "Tremadog"}, "Age", "early-ordovician", 486.85, 477.1, "Ma",
     "Conodonts and graptolites diversify; first planktonic ecosystems.")
-add("floian", "Floian (Flo, Västergötland; GSSP at Hunneberg)", "Age", "early-ordovician", 477.1, 471.3, "Ma",
-    "First bryozoans; corals begin to diversify.")
-add("middle-ordovician", "Middle Ordovician (Ordowices)", "Epoch", "ordovician", 471.3, 458.2, "Ma",
+add("floian", {"en": "Floian", "sv": "Floium"}, "Age", "early-ordovician", 477.1, 471.3, "Ma",
+    "First bryozoans; corals begin to diversify. Named for Flo, Västergötland, Sweden; GSSP at Hunneberg.")
+add("middle-ordovician", {"en": "Middle Ordovician", "sv": "Mellersta ordovicium"}, "Epoch", "ordovician", 471.3, 458.2, "Ma",
     "Great Ordovician Biodiversification Event peaks.")
-add("dapingian", "Dapingian (大坪)", "Age", "middle-ordovician", 471.3, 469.4, "Ma",
+add("dapingian", {"en": "Dapingian", "sv": "Dapingium", "zh": "大坪"}, "Age", "middle-ordovician", 471.3, 469.4, "Ma",
     "GOBE intensifies; cephalopods diversify as top marine predators.")
-add("darriwilian", "Darriwilian (Darriwil)", "Age", "middle-ordovician", 469.4, 458.2, "Ma",
-    "Peak of Great Ordovician Biodiversification; stromatoporoid reefs.")
-add("late-ordovician", "Late Ordovician (Ordowices)", "Epoch", "ordovician", 458.2, 443.1, "Ma",
+add("darriwilian", {"en": "Darriwilian", "sv": "Darriwilium"}, "Age", "middle-ordovician", 469.4, 458.2, "Ma",
+    "Peak of Great Ordovician Biodiversification; stromatoporoid reefs. Named for Darriwil, Victoria, Australia.")
+add("late-ordovician", {"en": "Late Ordovician", "sv": "Övre ordovicium"}, "Epoch", "ordovician", 458.2, 443.1, "Ma",
     "End-Ordovician glaciation and mass extinction; ~85% of marine species lost.")
-add("sandbian", "Sandbian (Södra Sandby, Skåne)", "Age", "late-ordovician", 458.2, 452.8, "Ma",
-    "Taconic orogeny; diverse brachiopod communities; GSSP at Fågelsång, east of Lund.")
-add("katian", "Katian (Katy, Oklahoma)", "Age", "late-ordovician", 452.8, 445.2, "Ma",
-    "Peak marine diversity; Gondwanan glaciation begins.")
-add("hirnantian", "Hirnantian (Cwm Hirnant)", "Age", "late-ordovician", 445.2, 443.1, "Ma",
+add("sandbian", {"en": "Sandbian", "sv": "Sandbium"}, "Age", "late-ordovician", 458.2, 452.8, "Ma",
+    "Taconic orogeny; diverse brachiopod communities; named for Södra Sandby, Skåne, Sweden; GSSP at Fågelsång, east of Lund.")
+add("katian", {"en": "Katian", "sv": "Katium"}, "Age", "late-ordovician", 452.8, 445.2, "Ma",
+    "Peak marine diversity; Gondwanan glaciation begins. Named for Katy, Oklahoma.")
+add("hirnantian", {"en": "Hirnantian", "sv": "Hirnantium", "cy": "Cwm Hirnant"}, "Age", "late-ordovician", 445.2, 443.1, "Ma",
     "End-Ordovician mass extinction; rapid glaciation and sea level drop.")
 
-add("silurian", "Silurian (Silures)", "Period", "paleozoic", 443.1, 419.62, "Ma",
+add("silurian", {"en": "Silurian", "sv": "Silur", "cy": "Silures"}, "Period", "paleozoic", 443.1, 419.62, "Ma",
     "Recovery from extinction; first vascular land plants; jawed fish appear.")
-add("llandovery", "Llandovery (Llanymddyfri)", "Epoch", "silurian", 443.1, 432.9, "Ma",
+add("llandovery", {"en": "Llandovery", "sv": "Llandovery", "cy": "Llanymddyfri"}, "Epoch", "silurian", 443.1, 432.9, "Ma",
     "Post-extinction recovery; graptolite diversification.")
-add("rhuddanian", "Rhuddanian (Cefn-cerig Rhuddan)", "Age", "llandovery", 443.1, 440.5, "Ma",
+add("rhuddanian", {"en": "Rhuddanian", "sv": "Rhuddanium", "cy": "Cefn-cerig Rhuddan"}, "Age", "llandovery", 443.1, 440.5, "Ma",
     "Earliest Silurian; rapid recovery of graptolite faunas.")
-add("aeronian", "Aeronian (Cwm-coed-Aeron)", "Age", "llandovery", 440.5, 438.6, "Ma",
+add("aeronian", {"en": "Aeronian", "sv": "Aeronium", "cy": "Cwm-coed-Aeron"}, "Age", "llandovery", 440.5, 438.6, "Ma",
     "Continued recovery; first land plant spores.")
-add("telychian", "Telychian (Pen-lan-Telechi)", "Age", "llandovery", 438.6, 432.9, "Ma",
+add("telychian", {"en": "Telychian", "sv": "Telychium", "cy": "Pen-lan-Telechi"}, "Age", "llandovery", 438.6, 432.9, "Ma",
     "Graptolite diversity peak; first vascular plant fossils.")
-add("wenlock", "Wenlock (Much Wenlock)", "Epoch", "silurian", 432.9, 426.7, "Ma",
-    "First land plants with vascular tissue; coral reef expansion.")
-add("sheinwoodian", "Sheinwoodian (Sheinwood)", "Age", "wenlock", 432.9, 430.6, "Ma",
-    "Ireviken extinction event; reef ecosystems expand.")
-add("homerian", "Homerian (Homer, Shropshire)", "Age", "wenlock", 430.6, 426.7, "Ma",
-    "Mulde extinction event; eurypterids (sea scorpions) diversify.")
-add("ludlow", "Ludlow (Ludlow, Shropshire)", "Epoch", "silurian", 426.7, 422.7, "Ma",
-    "First terrestrial arachnids; brachiopod diversity peak.")
-add("gorstian", "Gorstian (Gorsty, Shropshire)", "Age", "ludlow", 426.7, 425, "Ma",
-    "Linde Event; marine fauna turnover.")
-add("ludfordian", "Ludfordian (Ludford, Shropshire)", "Age", "ludlow", 425, 422.7, "Ma",
-    "Lau extinction event; first terrestrial arthropod traces; jawed fish diversify.")
-add("pridoli", "Přídolí (Přídolí, Česko)", "Epoch", "silurian", 422.7, 419.62, "Ma",
-    "First jawed fish diversify; transition toward Devonian.")
+add("wenlock", {"en": "Wenlock", "sv": "Wenlock"}, "Epoch", "silurian", 432.9, 426.7, "Ma",
+    "First land plants with vascular tissue; coral reef expansion. Named for Much Wenlock, Shropshire.")
+add("sheinwoodian", {"en": "Sheinwoodian", "sv": "Sheinwoodium"}, "Age", "wenlock", 432.9, 430.6, "Ma",
+    "Ireviken extinction event; reef ecosystems expand. Named for Sheinwood, Shropshire.")
+add("homerian", {"en": "Homerian", "sv": "Homerium"}, "Age", "wenlock", 430.6, 426.7, "Ma",
+    "Mulde extinction event; eurypterids (sea scorpions) diversify. Named for Homer, Shropshire.")
+add("ludlow", {"en": "Ludlow", "sv": "Ludlow"}, "Epoch", "silurian", 426.7, 422.7, "Ma",
+    "First terrestrial arachnids; brachiopod diversity peak. Named for Ludlow, Shropshire.")
+add("gorstian", {"en": "Gorstian", "sv": "Gorstium"}, "Age", "ludlow", 426.7, 425, "Ma",
+    "Linde Event; marine fauna turnover. Named for Gorsty, Shropshire.")
+add("ludfordian", {"en": "Ludfordian", "sv": "Ludfordium"}, "Age", "ludlow", 425, 422.7, "Ma",
+    "Lau extinction event; first terrestrial arthropod traces; jawed fish diversify. Named for Ludford, Shropshire.")
+add("pridoli", {"en": "Přídolí", "sv": "Přídolí", "cs": "Přídolí"}, "Epoch", "silurian", 422.7, 419.62, "Ma",
+    "First jawed fish diversify; transition toward Devonian. Named for Přídolí, Czech Republic.")
 
-add("devonian", "Devonian (Devon)", "Period", "paleozoic", 419.62, 358.86, "Ma",
-    "Age of Fishes; first forests, first insects, first amphibians.")
-add("klonk-event", "Klonk GSSP (Silurian–Devonian boundary / Klonk, Česko)", "Age", "pridoli", 419.62, 419.62, "Ma",
+add("devonian", {"en": "Devonian", "sv": "Devon"}, "Period", "paleozoic", 419.62, 358.86, "Ma",
+    "Age of Fishes; first forests, first insects, first amphibians. Named for Devon, England.")
+add("klonk-event", {"en": "Klonk GSSP (Silurian–Devonian boundary)", "sv": "Klonk GSSP (silur–devon-gränsen)", "cs": "Klonk"}, "Age", "pridoli", 419.62, 419.62, "Ma",
     "First GSSP ever ratified (1972); Klonk, Czech Republic; defined by first appearance of graptolite Monograptus uniformis; marks base of Devonian.")
-add("early-devonian", "Early Devonian (Devon)", "Epoch", "devonian", 419.62, 393.47, "Ma",
+add("early-devonian", {"en": "Early Devonian", "sv": "Undre devon"}, "Epoch", "devonian", 419.62, 393.47, "Ma",
     "First seed plants; armored fish diversify.")
-add("lochkovian", "Lochkovian (Lochkov, Praha)", "Age", "early-devonian", 419.62, 413.02, "Ma",
-    "Earliest Devonian; jawed fish radiation continues.")
-add("pragian", "Pragian (Praha)", "Age", "early-devonian", 413.02, 410.62, "Ma",
+add("lochkovian", {"en": "Lochkovian", "sv": "Lochkovium", "cs": "Lochkov"}, "Age", "early-devonian", 419.62, 413.02, "Ma",
+    "Earliest Devonian; jawed fish radiation continues. Named for Lochkov, Prague.")
+add("pragian", {"en": "Pragian", "sv": "Pragium", "cs": "Praha"}, "Age", "early-devonian", 413.02, 410.62, "Ma",
     "First true leaves (lycopsids); early vascular plants spread onto land.")
-add("emsian", "Emsian (Bad Ems)", "Age", "early-devonian", 410.62, 393.47, "Ma",
+add("emsian", {"en": "Emsian", "sv": "Emsium", "de": "Bad Ems"}, "Age", "early-devonian", 410.62, 393.47, "Ma",
     "First insects; ammonoids appear; widespread reef systems.")
-add("middle-devonian", "Middle Devonian (Devon)", "Epoch", "devonian", 393.47, 382.31, "Ma",
+add("middle-devonian", {"en": "Middle Devonian", "sv": "Mellersta devon"}, "Epoch", "devonian", 393.47, 382.31, "Ma",
     "First forests appear; ammonoids originate.")
-add("eifelian", "Eifelian (Eifel)", "Age", "middle-devonian", 393.47, 387.95, "Ma",
+add("eifelian", {"en": "Eifelian", "sv": "Eifelium", "de": "Eifel"}, "Age", "middle-devonian", 393.47, 387.95, "Ma",
     "Stromatoporoid-coral reefs peak; first seed ferns.")
-add("givetian", "Givetian (Givet)", "Age", "middle-devonian", 387.95, 382.31, "Ma",
+add("givetian", {"en": "Givetian", "sv": "Givetium", "fr": "Givet"}, "Age", "middle-devonian", 387.95, 382.31, "Ma",
     "First forests (Archaeopteris); placoderms diversify.")
-add("late-devonian", "Late Devonian (Devon)", "Epoch", "devonian", 382.31, 358.86, "Ma",
+add("late-devonian", {"en": "Late Devonian", "sv": "Övre devon"}, "Epoch", "devonian", 382.31, 358.86, "Ma",
     "First tetrapods; Late Devonian extinction event (~75% of species).")
-add("frasnian", "Frasnian (Frasnes-lez-Couvin)", "Age", "late-devonian", 382.31, 372.15, "Ma",
+add("frasnian", {"en": "Frasnian", "sv": "Frasnium", "fr": "Frasnes-lez-Couvin"}, "Age", "late-devonian", 382.31, 372.15, "Ma",
     "Massive reef systems; Frasnian-Famennian extinction (Kellwasser Event).")
-add("famennian", "Famennian (Famenne)", "Age", "late-devonian", 372.15, 358.86, "Ma",
+add("famennian", {"en": "Famennian", "sv": "Famennium", "fr": "Famenne"}, "Age", "late-devonian", 372.15, 358.86, "Ma",
     "Post-extinction recovery; first tetrapod trackways; Hangenberg Event at end.")
 
-add("carboniferous", "Carboniferous (carbō + ferre)", "Period", "paleozoic", 358.86, 298.9, "Ma",
+add("carboniferous", {"en": "Carboniferous", "sv": "Karbon", "la": "carbō + ferre"}, "Period", "paleozoic", 358.86, 298.9, "Ma",
     "Vast coal swamp forests; first reptiles; high atmospheric oxygen.")
-add("mississippian", "Mississippian (Mississippi)", "SubPeriod", "carboniferous", 358.86, 323.4, "Ma",
+add("mississippian", {"en": "Mississippian", "sv": "Mississippium"}, "SubPeriod", "carboniferous", 358.86, 323.4, "Ma",
     "Early Carboniferous; large crinoid and coral reefs; amphibians diversify.")
-add("early-mississippian", "Early Mississippian (Mississippi)", "Epoch", "mississippian", 358.86, 346.7, "Ma",
+add("early-mississippian", {"en": "Early Mississippian", "sv": "Undre mississippium"}, "Epoch", "mississippian", 358.86, 346.7, "Ma",
     "Tournaisian age; recovery after Devonian extinction.")
-add("tournaisian", "Tournaisian (Tournai / Doornik)", "Age", "early-mississippian", 358.86, 346.7, "Ma",
+add("tournaisian", {"en": "Tournaisian", "sv": "Tournaisium", "fr": "Tournai", "nl": "Doornik"}, "Age", "early-mississippian", 358.86, 346.7, "Ma",
     "Post-Devonian recovery; crinoid meadows; early tetrapod diversification (Romer's Gap).")
-add("middle-mississippian", "Middle Mississippian (Mississippi)", "Epoch", "mississippian", 346.7, 330.3, "Ma",
+add("middle-mississippian", {"en": "Middle Mississippian", "sv": "Mellersta mississippium"}, "Epoch", "mississippian", 346.7, 330.3, "Ma",
     "Viséan age; widespread limestone deposition; large coral reefs.")
-add("visean", "Viséan (Visé)", "Age", "middle-mississippian", 346.7, 330.3, "Ma",
+add("visean", {"en": "Viséan", "sv": "Viséum", "fr": "Visé"}, "Age", "middle-mississippian", 346.7, 330.3, "Ma",
     "Extensive carbonate platforms; first large tetrapods; coal forests begin.")
-add("late-mississippian", "Late Mississippian (Mississippi)", "Epoch", "mississippian", 330.3, 323.4, "Ma",
+add("late-mississippian", {"en": "Late Mississippian", "sv": "Övre mississippium"}, "Epoch", "mississippian", 330.3, 323.4, "Ma",
     "Serpukhovian age; glaciation begins in Gondwana.")
-add("serpukhovian", "Serpukhovian (Серпухов)", "Age", "late-mississippian", 330.3, 323.4, "Ma",
+add("serpukhovian", {"en": "Serpukhovian", "sv": "Serpukhovium", "ru": "Серпухов"}, "Age", "late-mississippian", 330.3, 323.4, "Ma",
     "Late Mississippian ice ages; sea level drops; first winged insects.")
-add("pennsylvanian", "Pennsylvanian (Pennsylvania)", "SubPeriod", "carboniferous", 323.4, 298.9, "Ma",
+add("pennsylvanian", {"en": "Pennsylvanian", "sv": "Pennsylvanium"}, "SubPeriod", "carboniferous", 323.4, 298.9, "Ma",
     "Late Carboniferous; coal swamps peak; first reptiles appear.")
-add("early-pennsylvanian", "Early Pennsylvanian (Pennsylvania)", "Epoch", "pennsylvanian", 323.4, 315.2, "Ma",
+add("early-pennsylvanian", {"en": "Early Pennsylvanian", "sv": "Undre pennsylvanium"}, "Epoch", "pennsylvanian", 323.4, 315.2, "Ma",
     "Bashkirian age; Pangaea begins to assemble.")
-add("bashkirian", "Bashkirian (Башкирский ярус / Башҡортостан)", "Age", "early-pennsylvanian", 323.4, 315.2, "Ma",
+add("bashkirian", {"en": "Bashkirian", "sv": "Bashkirium", "ru": "Башкирский ярус", "ba": "Башҡортостан"}, "Age", "early-pennsylvanian", 323.4, 315.2, "Ma",
     "First large coal swamps; Pangaea assembly accelerates; early reptile diversification.")
-add("middle-pennsylvanian", "Middle Pennsylvanian (Pennsylvania)", "Epoch", "pennsylvanian", 315.2, 307, "Ma",
+add("middle-pennsylvanian", {"en": "Middle Pennsylvanian", "sv": "Mellersta pennsylvanium"}, "Epoch", "pennsylvanian", 315.2, 307, "Ma",
     "Moscovian age; giant insects thrive in high-oxygen atmosphere.")
-add("moscovian", "Moscovian (Москва)", "Age", "middle-pennsylvanian", 315.2, 307, "Ma",
+add("moscovian", {"en": "Moscovian", "sv": "Moskovium", "ru": "Москва"}, "Age", "middle-pennsylvanian", 315.2, 307, "Ma",
     "Giant dragonflies (Meganeura); atmospheric oxygen ~35%; vast coal swamp forests.")
-add("late-pennsylvanian", "Late Pennsylvanian (Pennsylvania)", "Epoch", "pennsylvanian", 307, 298.9, "Ma",
+add("late-pennsylvanian", {"en": "Late Pennsylvanian", "sv": "Övre pennsylvanium"}, "Epoch", "pennsylvanian", 307, 298.9, "Ma",
     "Kasimovian–Gzhelian; earliest amniotes diversify; coal swamps decline.")
-add("kasimovian", "Kasimovian (Касимов)", "Age", "late-pennsylvanian", 307, 303.7, "Ma",
+add("kasimovian", {"en": "Kasimovian", "sv": "Kasimovium", "ru": "Касимов"}, "Age", "late-pennsylvanian", 307, 303.7, "Ma",
     "Amniote reptiles diversify; first diapsids appear.")
-add("gzhelian", "Gzhelian (Гжель)", "Age", "late-pennsylvanian", 303.7, 298.9, "Ma",
+add("gzhelian", {"en": "Gzhelian", "sv": "Gzhelium", "ru": "Гжель"}, "Age", "late-pennsylvanian", 303.7, 298.9, "Ma",
     "Coal swamps retreat as climate dries; Pangaea nearly complete.")
 
-add("permian", "Permian (Пермь)", "Period", "paleozoic", 298.9, 251.902, "Ma",
+add("permian", {"en": "Permian", "sv": "Perm", "ru": "Пермь"}, "Period", "paleozoic", 298.9, 251.902, "Ma",
     "Pangaea complete; therapsids (mammal ancestors) dominate; ends with the Great Dying.")
-add("cisuralian", "Cisuralian (Цис-Урал)", "Epoch", "permian", 298.9, 274.4, "Ma",
+add("cisuralian", {"en": "Cisuralian", "sv": "Cisural", "ru": "Цис-Урал"}, "Epoch", "permian", 298.9, 274.4, "Ma",
     "Early Permian; diverse amphibian and reptile faunas.")
-add("asselian", "Asselian (Ассель)", "Age", "cisuralian", 298.9, 293.52, "Ma",
+add("asselian", {"en": "Asselian", "sv": "Asselium", "ru": "Ассель"}, "Age", "cisuralian", 298.9, 293.52, "Ma",
     "Earliest Permian; glaciation continues in Gondwana.")
-add("sakmarian", "Sakmarian (Сакмара)", "Age", "cisuralian", 293.52, 290.1, "Ma",
+add("sakmarian", {"en": "Sakmarian", "sv": "Sakmarium", "ru": "Сакмара"}, "Age", "cisuralian", 293.52, 290.1, "Ma",
     "Pelycosaurs (sail-backed synapsids) diversify, including Dimetrodon.")
-add("artinskian", "Artinskian (Артинск)", "Age", "cisuralian", 290.1, 283.3, "Ma",
+add("artinskian", {"en": "Artinskian", "sv": "Artinskium", "ru": "Артинск"}, "Age", "cisuralian", 290.1, 283.3, "Ma",
     "Gondwanan glaciation wanes; conifers spread.")
-add("kungurian", "Kungurian (Кунгур)", "Age", "cisuralian", 283.3, 274.4, "Ma",
+add("kungurian", {"en": "Kungurian", "sv": "Kungurium", "ru": "Кунгур"}, "Age", "cisuralian", 283.3, 274.4, "Ma",
     "Evaporite deposits; therapsids begin to appear.")
-add("guadalupian", "Guadalupian (Guadalupe Mountains)", "Epoch", "permian", 274.4, 259.51, "Ma",
+add("guadalupian", {"en": "Guadalupian", "sv": "Guadalupium", "es": "Guadalupe"}, "Epoch", "permian", 274.4, 259.51, "Ma",
     "Middle Permian; therapsids rise to dominance; Capitanian extinction event.")
-add("roadian", "Roadian (Road Canyon)", "Age", "guadalupian", 274.4, 266.9, "Ma",
-    "Therapsids diversify; dinocephalians dominate.")
-add("wordian", "Wordian (Word Formation)", "Age", "guadalupian", 266.9, 264.28, "Ma",
-    "Reef ecosystems flourish; diverse fusulinid foraminifera.")
-add("capitanian", "Capitanian (El Capitán)", "Age", "guadalupian", 264.28, 259.51, "Ma",
+add("roadian", {"en": "Roadian", "sv": "Roadium"}, "Age", "guadalupian", 274.4, 266.9, "Ma",
+    "Therapsids diversify; dinocephalians dominate. Named for Road Canyon, Texas.")
+add("wordian", {"en": "Wordian", "sv": "Wordium"}, "Age", "guadalupian", 266.9, 264.28, "Ma",
+    "Reef ecosystems flourish; diverse fusulinid foraminifera. Named for Word Formation, Texas.")
+add("capitanian", {"en": "Capitanian", "sv": "Capitanium", "es": "El Capitán"}, "Age", "guadalupian", 264.28, 259.51, "Ma",
     "Capitanian mass extinction: major reef collapse and biodiversity loss.")
-add("lopingian", "Lopingian (乐平 Lèpíng)", "Epoch", "permian", 259.51, 251.902, "Ma",
+add("lopingian", {"en": "Lopingian", "sv": "Lopingium", "zh": "乐平"}, "Epoch", "permian", 259.51, 251.902, "Ma",
     "Late Permian; Permian–Triassic extinction: ~96% of marine species lost.")
-add("wuchiapingian", "Wuchiapingian (吴家坪)", "Age", "lopingian", 259.51, 254.14, "Ma",
+add("wuchiapingian", {"en": "Wuchiapingian", "sv": "Wuchiapingium", "zh": "吴家坪"}, "Age", "lopingian", 259.51, 254.14, "Ma",
     "Post-Capitanian recovery; Dicynodonts become dominant herbivores.")
-add("changhsingian", "Changhsingian (长兴)", "Age", "lopingian", 254.14, 251.902, "Ma",
+add("changhsingian", {"en": "Changhsingian", "sv": "Changhsingium", "zh": "长兴"}, "Age", "lopingian", 254.14, 251.902, "Ma",
     "The Great Dying: Siberian Traps volcanism triggers worst mass extinction in Earth history.")
 
 # ═══════════════════════════════════════════════════════════════
 # PHANEROZOIC — MESOZOIC ERA & PERIODS
 # ═══════════════════════════════════════════════════════════════
-add("mesozoic", "Mesozoic (Μέσος ζωή)", "Era", "phanerozoic", 251.902, 66, "Ma",
+add("mesozoic", {"en": "Mesozoic", "sv": "Mesozoikum", "grc": "Μέσος ζωή"}, "Era", "phanerozoic", 251.902, 66, "Ma",
     "Age of Reptiles; dinosaurs, first mammals, first birds, first flowering plants.")
 
-add("triassic", "Triassic (trias)", "Period", "mesozoic", 251.902, 201.4, "Ma",
+add("triassic", {"en": "Triassic", "sv": "Trias", "de": "Trias"}, "Period", "mesozoic", 251.902, 201.4, "Ma",
     "Recovery from Permian extinction; first dinosaurs, first mammals, first pterosaurs.")
-add("early-triassic", "Early Triassic (trias)", "Epoch", "triassic", 251.902, 246.7, "Ma",
+add("early-triassic", {"en": "Early Triassic", "sv": "Undre trias"}, "Epoch", "triassic", 251.902, 246.7, "Ma",
     "Slow recovery from extinction; Lystrosaurus dominates terrestrial fauna.")
-add("induan", "Induan (सिन्धु / Sindh)", "Age", "early-triassic", 251.902, 249.9, "Ma",
-    "Earliest Triassic stage; extremely low biodiversity, harsh conditions.")
-add("olenekian", "Olenekian (Оленёк)", "Age", "early-triassic", 249.9, 246.7, "Ma",
+add("induan", {"en": "Induan", "sv": "Induium", "sa": "सिन्धु", "ur": "سنڌ"}, "Age", "early-triassic", 251.902, 249.9, "Ma",
+    "Earliest Triassic stage; extremely low biodiversity, harsh conditions. Named for Indus/Sindh region.")
+add("olenekian", {"en": "Olenekian", "sv": "Olenekium", "ru": "Оленёк"}, "Age", "early-triassic", 249.9, 246.7, "Ma",
     "Marine ecosystems begin recovery; first ichthyosaurs appear.")
-add("middle-triassic", "Middle Triassic (trias)", "Epoch", "triassic", 246.7, 237, "Ma",
+add("middle-triassic", {"en": "Middle Triassic", "sv": "Mellersta trias"}, "Epoch", "triassic", 246.7, 237, "Ma",
     "Archosaurs diversify; first dinosauromorphs.")
-add("anisian", "Anisian (Enns / Anisus)", "Age", "middle-triassic", 246.7, 241.464, "Ma",
+add("anisian", {"en": "Anisian", "sv": "Anisium", "de": "Enns/Anisus"}, "Age", "middle-triassic", 246.7, 241.464, "Ma",
     "Marine reptiles diversify; coral reefs re-establish.")
-add("ladinian", "Ladinian (Ladins / Ladinisch)", "Age", "middle-triassic", 241.464, 237, "Ma",
+add("ladinian", {"en": "Ladinian", "sv": "Ladinium", "lld": "Ladins"}, "Age", "middle-triassic", 241.464, 237, "Ma",
     "First dinosauriform tracks; seed ferns and conifers dominate.")
-add("late-triassic", "Late Triassic (trias)", "Epoch", "triassic", 237, 201.4, "Ma",
+add("late-triassic", {"en": "Late Triassic", "sv": "Övre trias"}, "Epoch", "triassic", 237, 201.4, "Ma",
     "First true dinosaurs, mammals, and pterosaurs; Triassic–Jurassic extinction at end.")
-add("carnian", "Carnian (Karnische Alpen)", "Age", "late-triassic", 237, 227.3, "Ma",
+add("carnian", {"en": "Carnian", "sv": "Carnium", "de": "Karnische Alpen"}, "Age", "late-triassic", 237, 227.3, "Ma",
     "Carnian Pluvial Episode: major climate shift; first dinosaurs appear.")
-add("norian", "Norian (Noricum)", "Age", "late-triassic", 227.3, 205.7, "Ma",
+add("norian", {"en": "Norian", "sv": "Norium", "la": "Noricum"}, "Age", "late-triassic", 227.3, 205.7, "Ma",
     "Dinosaurs diversify; first turtles and crocodylomorphs.")
-add("rhaetian", "Rhaetian (Raetia / Rätisch)", "Age", "late-triassic", 205.7, 201.4, "Ma",
+add("rhaetian", {"en": "Rhaetian", "sv": "Rhaetium", "la": "Raetia", "de": "Rätisch"}, "Age", "late-triassic", 205.7, 201.4, "Ma",
     "End-Triassic extinction opens ecological niches for dinosaurs.")
 
-add("jurassic", "Jurassic (Jura)", "Period", "mesozoic", 201.4, 143.1, "Ma",
+add("jurassic", {"en": "Jurassic", "sv": "Jura", "fr": "Jura"}, "Period", "mesozoic", 201.4, 143.1, "Ma",
     "Dinosaurs dominate; first birds (Archaeopteryx); Pangaea breaks apart.")
-add("early-jurassic", "Early Jurassic (Jura)", "Epoch", "jurassic", 201.4, 174.7, "Ma",
+add("early-jurassic", {"en": "Early Jurassic", "sv": "Undre jura"}, "Epoch", "jurassic", 201.4, 174.7, "Ma",
     "Dinosaurs diversify into dominant land animals; large marine reptiles.")
-add("hettangian", "Hettangian (Hettange-Grande)", "Age", "early-jurassic", 201.4, 199.5, "Ma",
+add("hettangian", {"en": "Hettangian", "sv": "Hettangium", "fr": "Hettange-Grande"}, "Age", "early-jurassic", 201.4, 199.5, "Ma",
     "Post-extinction recovery; early dinosaur radiation.")
-add("sinemurian", "Sinemurian (Semur-en-Auxois)", "Age", "early-jurassic", 199.5, 192.9, "Ma",
+add("sinemurian", {"en": "Sinemurian", "sv": "Sinemurium", "fr": "Semur-en-Auxois"}, "Age", "early-jurassic", 199.5, 192.9, "Ma",
     "Early large sauropodomorphs; ammonite diversity increases.")
-add("pliensbachian", "Pliensbachian (Pliensbach)", "Age", "early-jurassic", 192.9, 184.2, "Ma",
+add("pliensbachian", {"en": "Pliensbachian", "sv": "Pliensbachium", "de": "Pliensbach"}, "Age", "early-jurassic", 192.9, 184.2, "Ma",
     "Warm climates; diverse marine ecosystems, ichthyosaurs abundant.")
-add("toarcian", "Toarcian (Thouars)", "Age", "early-jurassic", 184.2, 174.7, "Ma",
+add("toarcian", {"en": "Toarcian", "sv": "Toarcium", "fr": "Thouars"}, "Age", "early-jurassic", 184.2, 174.7, "Ma",
     "Toarcian Oceanic Anoxic Event (Karoo-Ferrar volcanism); marine extinctions; widespread black shales.")
-add("middle-jurassic", "Middle Jurassic (Jura)", "Epoch", "jurassic", 174.7, 161.5, "Ma",
+add("middle-jurassic", {"en": "Middle Jurassic", "sv": "Mellersta jura"}, "Epoch", "jurassic", 174.7, 161.5, "Ma",
     "Sauropods and theropods diversify; earliest flowering plant evidence.")
-add("aalenian", "Aalenian (Aalen)", "Age", "middle-jurassic", 174.7, 170.9, "Ma",
+add("aalenian", {"en": "Aalenian", "sv": "Aalenium", "de": "Aalen"}, "Age", "middle-jurassic", 174.7, 170.9, "Ma",
     "Pangaea continues to rift; ammonites flourish.")
-add("bajocian", "Bajocian (Bayeux)", "Age", "middle-jurassic", 170.9, 168.2, "Ma",
+add("bajocian", {"en": "Bajocian", "sv": "Bajocium", "fr": "Bayeux"}, "Age", "middle-jurassic", 170.9, 168.2, "Ma",
     "Diverse coral reefs; stegosaurs appear.")
-add("bathonian", "Bathonian (Bath)", "Age", "middle-jurassic", 168.2, 165.3, "Ma",
-    "First definitive mammals diversify; microcontinent formation.")
-add("callovian", "Callovian (Kellaways)", "Age", "middle-jurassic", 165.3, 161.5, "Ma",
-    "Marine transgression; ammonite diversity peak in Jurassic.")
-add("late-jurassic", "Late Jurassic (Jura)", "Epoch", "jurassic", 161.5, 143.1, "Ma",
+add("bathonian", {"en": "Bathonian", "sv": "Bathonium"}, "Age", "middle-jurassic", 168.2, 165.3, "Ma",
+    "First definitive mammals diversify; microcontinent formation. Named for Bath, England.")
+add("callovian", {"en": "Callovian", "sv": "Callovium"}, "Age", "middle-jurassic", 165.3, 161.5, "Ma",
+    "Marine transgression; ammonite diversity peak in Jurassic. Named for Kellaways, England.")
+add("late-jurassic", {"en": "Late Jurassic", "sv": "Övre jura"}, "Epoch", "jurassic", 161.5, 143.1, "Ma",
     "Giant sauropods; Archaeopteryx; Morrison Formation dinosaurs.")
-add("oxfordian", "Oxfordian (Oxford)", "Age", "late-jurassic", 161.5, 154.8, "Ma",
-    "Widespread coral reefs; large theropods like Allosaurus.")
-add("kimmeridgian", "Kimmeridgian (Kimmeridge)", "Age", "late-jurassic", 154.8, 149.2, "Ma",
-    "Rich marine ecosystems; source rocks for North Sea oil form.")
-add("tithonian", "Tithonian (Τιθωνός)", "Age", "late-jurassic", 149.2, 143.1, "Ma",
+add("oxfordian", {"en": "Oxfordian", "sv": "Oxfordium"}, "Age", "late-jurassic", 161.5, 154.8, "Ma",
+    "Widespread coral reefs; large theropods like Allosaurus. Named for Oxford, England.")
+add("kimmeridgian", {"en": "Kimmeridgian", "sv": "Kimmeridgium"}, "Age", "late-jurassic", 154.8, 149.2, "Ma",
+    "Rich marine ecosystems; source rocks for North Sea oil form. Named for Kimmeridge, England.")
+add("tithonian", {"en": "Tithonian", "sv": "Tithonium", "grc": "Τιθωνός"}, "Age", "late-jurassic", 149.2, 143.1, "Ma",
     "Archaeopteryx; Solnhofen limestone; transition to Cretaceous.")
 
-add("cretaceous", "Cretaceous (creta)", "Period", "mesozoic", 143.1, 66, "Ma",
+add("cretaceous", {"en": "Cretaceous", "sv": "Krita", "la": "creta"}, "Period", "mesozoic", 143.1, 66, "Ma",
     "Longest Mesozoic period; flowering plants rise; ends with asteroid impact (K-Pg).")
-add("early-cretaceous", "Early Cretaceous (creta)", "Epoch", "cretaceous", 143.1, 100.5, "Ma",
+add("early-cretaceous", {"en": "Early Cretaceous", "sv": "Undre krita"}, "Epoch", "cretaceous", 143.1, 100.5, "Ma",
     "Flowering plants diversify; feathered dinosaurs; continental drift accelerates.")
-add("berriasian", "Berriasian (Berrias, Ardèche)", "Age", "early-cretaceous", 143.1, 137.05, "Ma",
-    "Earliest Cretaceous; GSSP boundary still under discussion.")
-add("valanginian", "Valanginian (Valangin, Neuchâtel)", "Age", "early-cretaceous", 137.05, 132.6, "Ma",
-    "Weald clay environments; early angiosperms in fossil record.")
-add("hauterivian", "Hauterivian (Hauterive, Neuchâtel)", "Age", "early-cretaceous", 132.6, 125.77, "Ma",
-    "Iguanodon and early ornithopod diversity; warm global climate.")
-add("barremian", "Barremian (Barrême)", "Age", "early-cretaceous", 125.77, 121.4, "Ma",
+add("berriasian", {"en": "Berriasian", "sv": "Berriasium", "fr": "Berrias"}, "Age", "early-cretaceous", 143.1, 137.05, "Ma",
+    "Earliest Cretaceous; GSSP boundary still under discussion. Named for Berrias, Ardèche, France.")
+add("valanginian", {"en": "Valanginian", "sv": "Valanginium", "fr": "Valangin"}, "Age", "early-cretaceous", 137.05, 132.6, "Ma",
+    "Weald clay environments; early angiosperms in fossil record. Named for Valangin, Neuchâtel, Switzerland.")
+add("hauterivian", {"en": "Hauterivian", "sv": "Hauterivium", "fr": "Hauterive"}, "Age", "early-cretaceous", 132.6, 125.77, "Ma",
+    "Iguanodon and early ornithopod diversity; warm global climate. Named for Hauterive, Neuchâtel, Switzerland.")
+add("barremian", {"en": "Barremian", "sv": "Barremium", "fr": "Barrême"}, "Age", "early-cretaceous", 125.77, 121.4, "Ma",
     "Las Hoyas and Jehol Biota; feathered theropods preserved.")
-add("aptian", "Aptian (Apt, Provence)", "Age", "early-cretaceous", 121.4, 113.2, "Ma",
-    "Oceanic Anoxic Event 1a; first diverse angiosperm floras.")
-add("albian", "Albian (Aube / Alba)", "Age", "early-cretaceous", 113.2, 100.5, "Ma",
+add("aptian", {"en": "Aptian", "sv": "Aptium", "fr": "Apt"}, "Age", "early-cretaceous", 121.4, 113.2, "Ma",
+    "Oceanic Anoxic Event 1a; first diverse angiosperm floras. Named for Apt, Provence, France.")
+add("albian", {"en": "Albian", "sv": "Albium", "fr": "Aube", "la": "Alba"}, "Age", "early-cretaceous", 113.2, 100.5, "Ma",
     "High sea levels; diverse ammonites; early social insects.")
-add("late-cretaceous", "Late Cretaceous (creta)", "Epoch", "cretaceous", 100.5, 66, "Ma",
+add("late-cretaceous", {"en": "Late Cretaceous", "sv": "Övre krita"}, "Epoch", "cretaceous", 100.5, 66, "Ma",
     "Tyrannosaurus, Triceratops; angiosperms dominant; K-Pg extinction.")
-add("cenomanian", "Cenomanian (Le Mans / Cenomanum)", "Age", "late-cretaceous", 100.5, 93.9, "Ma",
+add("cenomanian", {"en": "Cenomanian", "sv": "Cenomanium", "fr": "Le Mans", "la": "Cenomanum"}, "Age", "late-cretaceous", 100.5, 93.9, "Ma",
     "Highest sea levels in Cretaceous; OAE 2 at boundary.")
-add("turonian", "Turonian (Tours / Turones)", "Age", "late-cretaceous", 93.9, 89.8, "Ma",
+add("turonian", {"en": "Turonian", "sv": "Turonium", "fr": "Tours", "la": "Turones"}, "Age", "late-cretaceous", 93.9, 89.8, "Ma",
     "Warmest period of Cretaceous; diverse reef ecosystems.")
-add("coniacian", "Coniacian (Cognac)", "Age", "late-cretaceous", 89.8, 85.7, "Ma",
+add("coniacian", {"en": "Coniacian", "sv": "Coniacium", "fr": "Cognac"}, "Age", "late-cretaceous", 89.8, 85.7, "Ma",
     "Continued warm climates; hadrosaur diversification begins.")
-add("santonian", "Santonian (Saintes / Santones)", "Age", "late-cretaceous", 85.7, 83.6, "Ma",
+add("santonian", {"en": "Santonian", "sv": "Santonium", "fr": "Saintes", "la": "Santones"}, "Age", "late-cretaceous", 85.7, 83.6, "Ma",
     "Ceratopsian dinosaurs diversify; early modern bird lineages.")
-add("campanian", "Campanian (Champagne, Charente)", "Age", "late-cretaceous", 83.6, 72.2, "Ma",
+add("campanian", {"en": "Campanian", "sv": "Campanium", "fr": "Champagne"}, "Age", "late-cretaceous", 83.6, 72.2, "Ma",
     "Rich dinosaur faunas worldwide; chalk deposits form.")
-add("maastrichtian", "Maastrichtian (Maastricht / Mestreech)", "Age", "late-cretaceous", 72.2, 66, "Ma",
+add("maastrichtian", {"en": "Maastrichtian", "sv": "Maastrichtium", "nl": "Maastricht", "li": "Mestreech"}, "Age", "late-cretaceous", 72.2, 66, "Ma",
     "Final stage; Chicxulub impact ends Mesozoic; ~76% of species extinct.")
 
 # ═══════════════════════════════════════════════════════════════
 # PHANEROZOIC — CENOZOIC ERA & PERIODS
 # ═══════════════════════════════════════════════════════════════
-add("cenozoic", "Cenozoic (Καινός ζωή)", "Era", "phanerozoic", 66, 0, "Ma",
+add("cenozoic", {"en": "Cenozoic", "sv": "Kenozoikum", "grc": "Καινός ζωή"}, "Era", "phanerozoic", 66, 0, "Ma",
     "Age of Mammals; grasslands, primates, hominins; current era.")
 
-add("paleogene", "Paleogene (παλαιός γένος)", "Period", "cenozoic", 66, 23.04, "Ma",
+add("paleogene", {"en": "Paleogene", "sv": "Paleogen", "grc": "παλαιός γένος"}, "Period", "cenozoic", 66, 23.04, "Ma",
     "Mammals diversify rapidly after K-Pg extinction; first primates.")
-add("paleocene", "Paleocene (παλαιός καινός)", "Epoch", "paleogene", 66, 56, "Ma",
+add("paleocene", {"en": "Paleocene", "sv": "Paleocen", "grc": "παλαιός καινός"}, "Epoch", "paleogene", 66, 56, "Ma",
     "Post-extinction recovery; mammals remain small but diversify.")
-add("danian", "Danian (Danmark)", "Age", "paleocene", 66, 61.66, "Ma",
+add("danian", {"en": "Danian", "sv": "Danium", "da": "Danmark"}, "Age", "paleocene", 66, 61.66, "Ma",
     "Earliest Cenozoic stage; mammals fill vacant ecological niches.")
-add("selandian", "Selandian (Sjælland)", "Age", "paleocene", 61.66, 59.24, "Ma",
+add("selandian", {"en": "Selandian", "sv": "Selandium", "da": "Sjælland"}, "Age", "paleocene", 61.66, 59.24, "Ma",
     "Warm climates; early primate evolution.")
-add("thanetian", "Thanetian (Isle of Thanet)", "Age", "paleocene", 59.24, 56, "Ma",
-    "Warming trend; diverse mammal faunas; London Clay formation.")
-add("eocene", "Eocene (ἠώς καινός)", "Epoch", "paleogene", 56, 33.9, "Ma",
+add("thanetian", {"en": "Thanetian", "sv": "Thanetium"}, "Age", "paleocene", 59.24, 56, "Ma",
+    "Warming trend; diverse mammal faunas; London Clay formation. Named for Isle of Thanet, England.")
+add("eocene", {"en": "Eocene", "sv": "Eocen", "grc": "ἠώς καινός"}, "Epoch", "paleogene", 56, 33.9, "Ma",
     "Warmest Cenozoic epoch; first modern mammal orders; early whales, horses, bats.")
-add("ypresian", "Ypresian (Ieper / Ypres)", "Age", "eocene", 56, 48.07, "Ma",
+add("ypresian", {"en": "Ypresian", "sv": "Ypresium", "nl": "Ieper", "fr": "Ypres"}, "Age", "eocene", 56, 48.07, "Ma",
     "Paleocene-Eocene Thermal Maximum (PETM); warmest global temperatures.")
-add("lutetian", "Lutetian (Lutetia / Paris)", "Age", "eocene", 48.07, 41.03, "Ma",
+add("lutetian", {"en": "Lutetian", "sv": "Lutetium (geologi)", "la": "Lutetia", "fr": "Paris"}, "Age", "eocene", 48.07, 41.03, "Ma",
     "Diversification of modern mammal families; early elephants.")
-add("bartonian", "Bartonian (Barton-on-Sea)", "Age", "eocene", 41.03, 37.71, "Ma",
-    "Gradual cooling begins; Antarctic ice sheet starts forming.")
-add("priabonian", "Priabonian (Priabona)", "Age", "eocene", 37.71, 33.9, "Ma",
+add("bartonian", {"en": "Bartonian", "sv": "Bartonium"}, "Age", "eocene", 41.03, 37.71, "Ma",
+    "Gradual cooling begins; Antarctic ice sheet starts forming. Named for Barton-on-Sea, England.")
+add("priabonian", {"en": "Priabonian", "sv": "Priabonium", "it": "Priabona"}, "Age", "eocene", 37.71, 33.9, "Ma",
     "Grande Coupure extinction event in Europe; dramatic cooling.")
-add("oligocene", "Oligocene (ὀλίγος καινός)", "Epoch", "paleogene", 33.9, 23.04, "Ma",
+add("oligocene", {"en": "Oligocene", "sv": "Oligocen", "grc": "ὀλίγος καινός"}, "Epoch", "paleogene", 33.9, 23.04, "Ma",
     "Cooler and drier; grasslands expand; modern mammal families establish.")
-add("rupelian", "Rupelian (Rupel)", "Age", "oligocene", 33.9, 27.3, "Ma",
+add("rupelian", {"en": "Rupelian", "sv": "Rupelium", "nl": "Rupel"}, "Age", "oligocene", 33.9, 27.3, "Ma",
     "Antarctic ice sheet permanent; global cooling continues.")
-add("chattian", "Chattian (Chatti / Chatten)", "Age", "oligocene", 27.3, 23.04, "Ma",
-    "Late Oligocene warming; first deer and pigs appear.")
+add("chattian", {"en": "Chattian", "sv": "Chattium", "de": "Chatten"}, "Age", "oligocene", 27.3, 23.04, "Ma",
+    "Late Oligocene warming; first deer and pigs appear. Named for the Chatti Germanic tribe.")
 
-add("neogene", "Neogene (νέος γένος)", "Period", "cenozoic", 23.04, 2.58, "Ma",
+add("neogene", {"en": "Neogene", "sv": "Neogen", "grc": "νέος γένος"}, "Period", "cenozoic", 23.04, 2.58, "Ma",
     "Grasslands dominate; great apes evolve; Isthmus of Panama forms.")
-add("miocene", "Miocene (μείων καινός)", "Epoch", "neogene", 23.04, 5.333, "Ma",
+add("miocene", {"en": "Miocene", "sv": "Miocen", "grc": "μείων καινός"}, "Epoch", "neogene", 23.04, 5.333, "Ma",
     "Kelp forests, grasslands; diverse apes; Messinian salinity crisis.")
-add("aquitanian", "Aquitanian (Aquitaine)", "Age", "miocene", 23.04, 20.45, "Ma",
+add("aquitanian", {"en": "Aquitanian", "sv": "Aquitanium", "fr": "Aquitaine"}, "Age", "miocene", 23.04, 20.45, "Ma",
     "Early Miocene; warm climates; diverse marine mammals.")
-add("burdigalian", "Burdigalian (Bordeaux / Burdigala)", "Age", "miocene", 20.45, 15.98, "Ma",
+add("burdigalian", {"en": "Burdigalian", "sv": "Burdigalium", "fr": "Bordeaux", "la": "Burdigala"}, "Age", "miocene", 20.45, 15.98, "Ma",
     "Mountain building (Alps, Himalayas); first great apes.")
-add("langhian", "Langhian (Langhe)", "Age", "miocene", 15.98, 13.82, "Ma",
+add("langhian", {"en": "Langhian", "sv": "Langhium", "it": "Langhe"}, "Age", "miocene", 15.98, 13.82, "Ma",
     "Mid-Miocene Climatic Optimum; widespread warmth.")
-add("serravallian", "Serravallian (Serravalle Scrivia)", "Age", "miocene", 13.82, 11.63, "Ma",
+add("serravallian", {"en": "Serravallian", "sv": "Serravallium", "it": "Serravalle Scrivia"}, "Age", "miocene", 13.82, 11.63, "Ma",
     "Cooling resumes; East Antarctic ice sheet expands.")
-add("tortonian", "Tortonian (Tortona)", "Age", "miocene", 11.63, 7.246, "Ma",
+add("tortonian", {"en": "Tortonian", "sv": "Tortonium", "it": "Tortona"}, "Age", "miocene", 11.63, 7.246, "Ma",
     "Mediterranean begins to close; hominoids disperse from Africa.")
-add("messinian", "Messinian (Messina)", "Age", "miocene", 7.246, 5.333, "Ma",
+add("messinian", {"en": "Messinian", "sv": "Messinium", "it": "Messina"}, "Age", "miocene", 7.246, 5.333, "Ma",
     "Messinian Salinity Crisis: Mediterranean nearly dries up.")
-add("pliocene", "Pliocene (πλεῖον καινός)", "Epoch", "neogene", 5.333, 2.58, "Ma",
+add("pliocene", {"en": "Pliocene", "sv": "Pliocen", "grc": "πλεῖον καινός"}, "Epoch", "neogene", 5.333, 2.58, "Ma",
     "Australopithecus; Arctic ice cap forms; Isthmus of Panama closes.")
-add("zanclean", "Zanclean (Ζάγκλη / Messina)", "Age", "pliocene", 5.333, 3.6, "Ma",
+add("zanclean", {"en": "Zanclean", "sv": "Zancleum", "grc": "Ζάγκλη", "it": "Messina"}, "Age", "pliocene", 5.333, 3.6, "Ma",
     "Zanclean flood refills Mediterranean; Australopithecus afarensis.")
-add("piacenzian", "Piacenzian (Piacenza)", "Age", "pliocene", 3.6, 2.58, "Ma",
+add("piacenzian", {"en": "Piacenzian", "sv": "Piacenzium", "it": "Piacenza"}, "Age", "pliocene", 3.6, 2.58, "Ma",
     "Mid-Piacenzian Warm Period; early Homo?; Northern Hemisphere glaciation starts.")
 
-add("quaternary", "Quaternary (quaternarius)", "Period", "cenozoic", 2.58, 0, "Ma",
+add("quaternary", {"en": "Quaternary", "sv": "Kvartär", "la": "quaternarius"}, "Period", "cenozoic", 2.58, 0, "Ma",
     "Ice ages and interglacials; evolution and spread of Homo sapiens.")
 
 # ── Pleistocene ──
-add("pleistocene", "Pleistocene (πλεῖστος καινός)", "Epoch", "quaternary", 2.58, 0.0117, "Ma",
+add("pleistocene", {"en": "Pleistocene", "sv": "Pleistocen", "grc": "πλεῖστος καινός"}, "Epoch", "quaternary", 2.58, 0.0117, "Ma",
     "Repeated glaciations; megafauna; Homo erectus, Neanderthals, modern humans.")
-add("gelasian", "Gelasian (γέλα)", "Age", "pleistocene", 2.58, 1.80, "Ma",
+add("gelasian", {"en": "Gelasian", "sv": "Gelasium", "grc": "γέλα"}, "Age", "pleistocene", 2.58, 1.80, "Ma",
     "Earliest Pleistocene; Northern Hemisphere glaciation intensifies; early Homo.")
-add("calabrian", "Calabrian (Calabria)", "Age", "pleistocene", 1.80, 0.774, "Ma",
+add("calabrian", {"en": "Calabrian", "sv": "Calabrium", "it": "Calabria"}, "Age", "pleistocene", 1.80, 0.774, "Ma",
     "Homo erectus disperses out of Africa; Brunhes-Matuyama reversal at end.")
-add("chibanian", "Chibanian (千葉 Chiba)", "Age", "pleistocene", 0.774, 0.129, "Ma",
-    "Homo heidelbergensis; Neanderthals evolve; major glacial cycles.")
-add("late-pleistocene", "Late Pleistocene (πλεῖστος καινός)", "Age", "pleistocene", 0.129, 0.0117, "Ma",
+add("chibanian", {"en": "Chibanian", "sv": "Chibanium", "ja": "千葉"}, "Age", "pleistocene", 0.774, 0.129, "Ma",
+    "Homo heidelbergensis; Neanderthals evolve; major glacial cycles. Named for Chiba, Japan.")
+add("late-pleistocene", {"en": "Late Pleistocene", "sv": "Övre pleistocen", "grc": "πλεῖστος καινός"}, "Age", "pleistocene", 0.129, 0.0117, "Ma",
     "Homo sapiens expands globally; Neanderthal extinction; Last Glacial Maximum.")
 
 # ── Holocene ──
-add("holocene", "Holocene (ὅλος καινός)", "Epoch", "quaternary", 11700, 0, "BP",
+add("holocene", {"en": "Holocene", "sv": "Holocen", "grc": "ὅλος καινός"}, "Epoch", "quaternary", 11700, 0, "BP",
     "Current epoch; stable warm climate; rise of agriculture, civilization.")
-add("greenlandian", "Greenlandian (Kalaallit Nunaat / Grønland)", "Age", "holocene", 11700, 8200, "BP",
+add("greenlandian", {"en": "Greenlandian", "sv": "Grönlandium", "kl": "Kalaallit Nunaat", "da": "Grønland"}, "Age", "holocene", 11700, 8200, "BP",
     "Early Holocene; post-glacial warming; Mesolithic hunter-gatherers in Europe.")
-add("northgrippian", "Northgrippian (NorthGRIP, Grønland)", "Age", "holocene", 8200, 4200, "BP",
+add("northgrippian", {"en": "Northgrippian", "sv": "Nordgrippium", "da": "NorthGRIP, Grønland"}, "Age", "holocene", 8200, 4200, "BP",
     "Middle Holocene; 8.2 ka cold event; agriculture spreads through Europe.")
-add("meghalayan", "Meghalayan (मेघालय Meghālaya / Khasi: Ri Khasi)", "Age", "holocene", 4200, 0, "BP",
+add("meghalayan", {"en": "Meghalayan", "sv": "Meghalayum", "hi": "मेघालय", "kha": "Ri Khasi"}, "Age", "holocene", 4200, 0, "BP",
     "Late Holocene; 4.2 ka drought; rise and fall of Bronze Age civilizations; present day; GSSP at Mawmluh Cave, Khasi Hills.")
 
 # Anthropocene (informal — rejected by IUGS March 2024, but widely used)
-add("anthropocene", "Anthropocene (informal / ἄνθρωπος καινός)", "Epoch", "quaternary", 1952, 0, "CE",
+add("anthropocene", {"en": "Anthropocene (informal)", "sv": "Antropocen (informell)", "grc": "ἄνθρωπος καινός"}, "Epoch", "quaternary", 1950, 0, "CE",
     "Proposed epoch marking dominant human influence on Earth systems; IUGS rejected formal ratification in March 2024; widely used informally in science and policy; proposed GSSP at Crawford Lake, Canada, based on nuclear fallout markers.")
 
 # ═══════════════════════════════════════════════════════════════
@@ -475,155 +492,155 @@ add("anthropocene", "Anthropocene (informal / ἄνθρωπος καινός)", 
 # ═══════════════════════════════════════════════════════════════
 
 # --- Stone Age ---
-add("stone-age", "Stone Age (Stenåldern / Steinzeit / Âge de pierre / Edad de Piedra / Età della Pietra / Steentijd / Каменный век)", "CulturalAge", "holocene", 3300000, 3300, "BCE",
+add("stone-age", {"en": "Stone Age", "sv": "Stenåldern", "de": "Steinzeit", "es": "Edad de Piedra", "fr": "Âge de pierre", "it": "Età della Pietra", "nl": "Steentijd", "ru": "Каменный век"}, "CulturalAge", "holocene", 3300000, 3300, "BCE",
     "Longest period of human prehistory; defined by use of stone tools. Three-age system by C.J. Thomsen.")
-add("paleolithic", "Paleolithic / Old Stone Age (Paleolitikum / Äldre stenåldern / Altsteinzeit / Paléolithique / Paleolítico / Paleolitico / Палеолит)", "CulturalAge", "stone-age", 3300000, 10000, "BCE",
+add("paleolithic", {"en": "Paleolithic / Old Stone Age", "sv": "Paleolitikum", "de": "Altsteinzeit", "es": "Paleolítico", "fr": "Paléolithique", "it": "Paleolitico", "ru": "Палеолит"}, "CulturalAge", "stone-age", 3300000, 10000, "BCE",
     "Oldest division; hunter-gatherer societies; development of stone tool technology.")
-add("lower-paleolithic", "Lower Paleolithic (Äldre paleolitikum)", "CulturalAge", "paleolithic", 3300000, 300000, "BCE",
+add("lower-paleolithic", {"en": "Lower Paleolithic", "sv": "Äldre paleolitikum"}, "CulturalAge", "paleolithic", 3300000, 300000, "BCE",
     "Homo habilis, Homo erectus; Oldowan and Acheulean tool industries.")
-add("middle-paleolithic", "Middle Paleolithic (Mellersta paleolitikum)", "CulturalAge", "paleolithic", 300000, 50000, "BCE",
+add("middle-paleolithic", {"en": "Middle Paleolithic", "sv": "Mellersta paleolitikum"}, "CulturalAge", "paleolithic", 300000, 50000, "BCE",
     "Neanderthals in Europe; Mousterian tool industry; first evidence of symbolic behavior.")
-add("upper-paleolithic", "Upper Paleolithic (Yngre paleolitikum)", "CulturalAge", "paleolithic", 50000, 10000, "BCE",
+add("upper-paleolithic", {"en": "Upper Paleolithic", "sv": "Yngre paleolitikum"}, "CulturalAge", "paleolithic", 50000, 10000, "BCE",
     "Homo sapiens in Europe; cave art (Lascaux, Altamira); Aurignacian, Gravettian, Magdalenian cultures.")
-add("bromme-culture", "Bromme Culture (Brommekulturen)", "CulturalAge", "upper-paleolithic", 11600, 10000, "BCE",
+add("bromme-culture", {"en": "Bromme Culture", "sv": "Brommekulturen"}, "CulturalAge", "upper-paleolithic", 11600, 10000, "BCE",
     "Late Paleolithic reindeer hunters at the edge of the Scandinavian ice sheet; earliest human presence in Sweden (Scania).")
-add("ahrensburg-culture", "Ahrensburg Culture (Ahrensburgkulturen)", "CulturalAge", "upper-paleolithic", 10900, 9700, "BCE",
+add("ahrensburg-culture", {"en": "Ahrensburg Culture", "sv": "Ahrensburgkulturen"}, "CulturalAge", "upper-paleolithic", 10900, 9700, "BCE",
     "Late Paleolithic/early Mesolithic nomadic hunters from the North German Plain; migrated north via Jutland following retreating ice.")
-add("mesolithic", "Mesolithic / Middle Stone Age (Mesolitikum / Mellersta stenåldern / Mittelsteinzeit / Mésolithique / Mesolítico / Mesolitico / Мезолит)", "CulturalAge", "stone-age", 10000, 4000, "BCE",
+add("mesolithic", {"en": "Mesolithic / Middle Stone Age", "sv": "Mesolitikum", "de": "Mittelsteinzeit", "es": "Mesolítico", "fr": "Mésolithique", "it": "Mesolitico", "ru": "Мезолит"}, "CulturalAge", "stone-age", 10000, 4000, "BCE",
     "Post-glacial; microlithic tools; Scandinavia first settled ~9500 BCE. Maglemosian, Kongemose, Ertebølle cultures.")
-add("fosna-hensbacka", "Fosna–Hensbacka Culture (Fosna–Hensbackakulturen)", "CulturalAge", "mesolithic", 8300, 7300, "BCE",
+add("fosna-hensbacka", {"en": "Fosna–Hensbacka Culture", "sv": "Fosna–Hensbackakulturen"}, "CulturalAge", "mesolithic", 8300, 7300, "BCE",
     "Early Mesolithic culture along the Norwegian and Swedish west coasts; descended from Ahrensburg tradition; coastal seal hunting and fishing.")
-add("komsa-culture", "Komsa Culture (Komsakulturen)", "CulturalAge", "mesolithic", 10000, 6000, "BCE",
+add("komsa-culture", {"en": "Komsa Culture", "sv": "Komsakulturen"}, "CulturalAge", "mesolithic", 10000, 6000, "BCE",
     "Early Mesolithic culture of northern Norway coast; sea-oriented seal hunters and fishermen; relatively crude stone tools compared to southern Fosna.")
-add("maglemosian", "Maglemosian Culture (Maglemosekulturen)", "CulturalAge", "mesolithic", 9000, 6000, "BCE",
+add("maglemosian", {"en": "Maglemosian Culture", "sv": "Maglemosekulturen"}, "CulturalAge", "mesolithic", 9000, 6000, "BCE",
     "Early Mesolithic hunter-gatherer culture in southern Scandinavia and northern Germany; flint microliths, bone harpoons.")
-add("kongemose", "Kongemose Culture (Kongemosekulturen)", "CulturalAge", "mesolithic", 6000, 5200, "BCE",
+add("kongemose", {"en": "Kongemose Culture", "sv": "Kongemosekulturen"}, "CulturalAge", "mesolithic", 6000, 5200, "BCE",
     "Middle Mesolithic in Denmark and southern Sweden; coastal adaptation, fishing, seal hunting.")
-add("nostvet-lihult", "Nøstvet and Lihult Cultures (Nøstvetkulturen / Lihultkulturen)", "CulturalAge", "mesolithic", 6000, 3200, "BCE",
+add("nostvet-lihult", {"en": "Nøstvet and Lihult Cultures", "sv": "Nøstvet- och Lihultkulturen"}, "CulturalAge", "mesolithic", 6000, 3200, "BCE",
     "Middle-Late Mesolithic in most of southern Norway and Sweden; descendants of Fosna-Hensbacka; polished stone axes.")
-add("ertebolleculture", "Ertebølle Culture (Ertebøllekulturen)", "CulturalAge", "mesolithic", 5400, 3950, "BCE",
+add("ertebolleculture", {"en": "Ertebølle Culture", "sv": "Ertebøllekulturen"}, "CulturalAge", "mesolithic", 5400, 3950, "BCE",
     "Late Mesolithic in southern Scandinavia; first pottery, large shell middens, transition to agriculture.")
-add("neolithic", "Neolithic / New Stone Age (Neolitikum / Yngre stenåldern / Jungsteinzeit / Néolithique / Neolítico / Neolitico / Неолит)", "CulturalAge", "stone-age", 4000, 2000, "BCE",
+add("neolithic", {"en": "Neolithic / New Stone Age", "sv": "Neolitikum", "de": "Jungsteinzeit", "es": "Neolítico", "fr": "Néolithique", "it": "Neolitico", "ru": "Неолит"}, "CulturalAge", "stone-age", 4000, 2000, "BCE",
     "Agriculture, polished stone tools, pottery, permanent settlements. Funnelbeaker culture in Scandinavia (~4000–2700 BCE).")
-add("funnelbeaker", "Funnelbeaker Culture (TRB)", "CulturalAge", "neolithic", 4000, 2700, "BCE",
+add("funnelbeaker", {"en": "Funnelbeaker Culture", "sv": "Trattbägarkulturen"}, "CulturalAge", "neolithic", 4000, 2700, "BCE",
     "First farming culture in Scandinavia; megalithic tombs (dolmens, passage graves); pottery with funnel-shaped rims.")
-add("pitted-ware", "Pitted Ware Culture (Gropkeramisk kultur)", "CulturalAge", "neolithic", 3400, 2300, "BCE",
+add("pitted-ware", {"en": "Pitted Ware Culture", "sv": "Gropkeramisk kultur"}, "CulturalAge", "neolithic", 3400, 2300, "BCE",
     "Concurrent hunter-gatherer-fisher culture in eastern Sweden, Gotland, and Finland; seal hunting, characteristic pitted pottery.")
-add("battle-axe", "Battle Axe Culture (Boat Axe Culture)", "CulturalAge", "neolithic", 2800, 2300, "BCE",
+add("battle-axe", {"en": "Battle Axe Culture", "sv": "Stridsyxekulturen"}, "CulturalAge", "neolithic", 2800, 2300, "BCE",
     "Scandinavian variant of Corded Ware culture; single graves, polished stone battle axes, early Indo-European influences.")
-add("nordic-neolithic-late", "Late Neolithic Scandinavia (Senneolitikum)", "CulturalAge", "neolithic", 2300, 1750, "BCE",
+add("nordic-neolithic-late", {"en": "Late Neolithic Scandinavia", "sv": "Senneolitikum"}, "CulturalAge", "neolithic", 2300, 1750, "BCE",
     "Transition to metalworking; flint daggers imitate bronze; Bell Beaker influences reach Scandinavia.")
 
 # --- Chalcolithic (Copper Age) ---
-add("chalcolithic", "Chalcolithic / Copper Age (Kopparåldern / Kupferzeit / Chalcolithique / Calcolítico / Calcolitico / Chalkolit / Χαλκολιθική)", "CulturalAge", "holocene", 3500, 2000, "BCE",
+add("chalcolithic", {"en": "Chalcolithic / Copper Age", "sv": "Kalkolitikum", "de": "Kupferzeit", "el": "Χαλκολιθική", "es": "Calcolítico", "fr": "Chalcolithique", "it": "Calcolitico"}, "CulturalAge", "holocene", 3500, 2000, "BCE",
     "Transitional period; first metalworking (copper); Ötzi the Iceman; Corded Ware culture in Northern Europe.")
 
 # --- Bronze Age ---
-add("bronze-age", "Bronze Age (Bronsåldern / Bronzezeit / Âge du Bronze / Edad del Bronce / Età del Bronzo / Бронзовый век / Εποχή του Χαλκού)", "CulturalAge", "holocene", 3300, 1200, "BCE",
+add("bronze-age", {"en": "Bronze Age", "sv": "Bronsåldern", "de": "Bronzezeit", "el": "Εποχή του Χαλκού", "es": "Edad del Bronce", "fr": "Âge du Bronze", "it": "Età del Bronzo", "ru": "Бронзовый век"}, "CulturalAge", "holocene", 3300, 1200, "BCE",
     "Defined by bronze metallurgy. Near East ~3300 BCE; Nordic Bronze Age begins ~1750 BCE.")
-add("early-bronze-age", "Early Bronze Age (Äldre bronsåldern)", "CulturalAge", "bronze-age", 3300, 2000, "BCE",
+add("early-bronze-age", {"en": "Early Bronze Age", "sv": "Äldre bronsåldern"}, "CulturalAge", "bronze-age", 3300, 2000, "BCE",
     "Near East & Mediterranean: urbanization, writing systems, first empires.")
-add("middle-bronze-age", "Middle Bronze Age (Mellersta bronsåldern)", "CulturalAge", "bronze-age", 2000, 1550, "BCE",
+add("middle-bronze-age", {"en": "Middle Bronze Age", "sv": "Mellersta bronsåldern"}, "CulturalAge", "bronze-age", 2000, 1550, "BCE",
     "Minoan civilization peaks; Nordic Bronze Age begins (~1750 BCE); extensive trade networks.")
-add("late-bronze-age", "Late Bronze Age (Yngre bronsåldern)", "CulturalAge", "bronze-age", 1550, 1200, "BCE",
+add("late-bronze-age", {"en": "Late Bronze Age", "sv": "Yngre bronsåldern"}, "CulturalAge", "bronze-age", 1550, 1200, "BCE",
     "Mycenaean Greece; New Kingdom Egypt; Late Bronze Age collapse (~1200 BCE).")
-add("nordic-bronze-age", "Nordic Bronze Age (Nordisk bronsålder)", "CulturalAge", "bronze-age", 1700, 500, "BCE",
+add("nordic-bronze-age", {"en": "Nordic Bronze Age", "sv": "Nordisk bronsålder"}, "CulturalAge", "bronze-age", 1700, 500, "BCE",
     "Scandinavian Bronze Age; elaborate burial mounds, rock carvings (hällristningar), sun chariot of Trundholm.")
-add("nordic-bronze-early", "Early Nordic Bronze Age / Period I–III (Äldre bronsåldern)", "CulturalAge", "nordic-bronze-age", 1700, 1100, "BCE",
+add("nordic-bronze-early", {"en": "Early Nordic Bronze Age / Period I–III", "sv": "Äldre bronsåldern"}, "CulturalAge", "nordic-bronze-age", 1700, 1100, "BCE",
     "Oak coffin burials (Egtved Girl, Skrydstrup Woman); Trundholm sun chariot; wealth from amber trade.")
-add("montelius-i", "Montelius Period I (Monteliusperiod I)", "CulturalAge", "nordic-bronze-early", 1700, 1500, "BCE",
+add("montelius-i", {"en": "Montelius Period I", "sv": "Monteliusperiod I"}, "CulturalAge", "nordic-bronze-early", 1700, 1500, "BCE",
     "Earliest Nordic Bronze Age; first bronze imports; flint daggers gradually replaced by bronze weapons.")
-add("montelius-ii", "Montelius Period II (Monteliusperiod II)", "CulturalAge", "nordic-bronze-early", 1500, 1300, "BCE",
+add("montelius-ii", {"en": "Montelius Period II", "sv": "Monteliusperiod II"}, "CulturalAge", "nordic-bronze-early", 1500, 1300, "BCE",
     "Peak of early bronze wealth; Egtved Girl burial (1370 BCE); Trundholm sun chariot (~1400 BCE); elaborate spiral ornaments and fibulae.")
-add("montelius-iii", "Montelius Period III (Monteliusperiod III)", "CulturalAge", "nordic-bronze-early", 1300, 1100, "BCE",
+add("montelius-iii", {"en": "Montelius Period III", "sv": "Monteliusperiod III"}, "CulturalAge", "nordic-bronze-early", 1300, 1100, "BCE",
     "Skrydstrup Woman burial; oak coffin burials continue; extensive amber trade networks with Mediterranean.")
-add("nordic-bronze-late", "Late Nordic Bronze Age / Period IV–VI (Yngre bronsåldern)", "CulturalAge", "nordic-bronze-age", 1100, 500, "BCE",
+add("nordic-bronze-late", {"en": "Late Nordic Bronze Age / Period IV–VI", "sv": "Yngre bronsåldern"}, "CulturalAge", "nordic-bronze-age", 1100, 500, "BCE",
     "Cremation replaces inhumation; lur horns; rock carvings peak; declining bronze imports.")
-add("montelius-iv", "Montelius Period IV (Monteliusperiod IV)", "CulturalAge", "nordic-bronze-late", 1100, 900, "BCE",
+add("montelius-iv", {"en": "Montelius Period IV", "sv": "Monteliusperiod IV"}, "CulturalAge", "nordic-bronze-late", 1100, 900, "BCE",
     "Shift from inhumation to cremation; rock carvings (hällristningar) flourish; bronze lur horns crafted.")
-add("montelius-v", "Montelius Period V (Monteliusperiod V)", "CulturalAge", "nordic-bronze-late", 900, 700, "BCE",
+add("montelius-v", {"en": "Montelius Period V", "sv": "Monteliusperiod V"}, "CulturalAge", "nordic-bronze-late", 900, 700, "BCE",
     "Elaborate ritual depositions in lakes and bogs; continued rock carving tradition; Hallstatt imports arrive.")
-add("montelius-vi", "Montelius Period VI (Monteliusperiod VI)", "CulturalAge", "nordic-bronze-late", 700, 500, "BCE",
+add("montelius-vi", {"en": "Montelius Period VI", "sv": "Monteliusperiod VI"}, "CulturalAge", "nordic-bronze-late", 700, 500, "BCE",
     "Final Bronze Age period; Hallstatt iron influence from Central Europe; transition to local iron production.")
 
 # --- Iron Age ---
-add("iron-age", "Iron Age (Järnåldern / Eisenzeit / Âge du Fer / Edad del Hierro / Età del Ferro / Железный век / Εποχή του Σιδήρου / עת הברזל)", "CulturalAge", "holocene", 1200, 1, "BCE",
+add("iron-age", {"en": "Iron Age", "sv": "Järnåldern", "de": "Eisenzeit", "el": "Εποχή του Σιδήρου", "es": "Edad del Hierro", "fr": "Âge du Fer", "he": "עת הברזל", "it": "Età del Ferro", "ru": "Железный век"}, "CulturalAge", "holocene", 1200, 1, "BCE",
     "Defined by iron smelting and tools. Near East ~1200 BCE; Scandinavia ~500 BCE.")
-add("pre-roman-iron-age", "Pre-Roman Iron Age (Förromersk järnålder)", "CulturalAge", "iron-age", 500, 1, "BCE",
+add("pre-roman-iron-age", {"en": "Pre-Roman Iron Age", "sv": "Förromersk järnålder"}, "CulturalAge", "iron-age", 500, 1, "BCE",
     "Iron working spreads to Scandinavia; bog ore smelting; Jastorf culture.")
-add("pre-roman-iron-early", "Early Pre-Roman Iron Age (Äldre förromersk järnålder)", "CulturalAge", "pre-roman-iron-age", 500, 250, "BCE",
+add("pre-roman-iron-early", {"en": "Early Pre-Roman Iron Age", "sv": "Äldre förromersk järnålder"}, "CulturalAge", "pre-roman-iron-age", 500, 250, "BCE",
     "Transition from bronze; first local iron production from bog ore in southern Scandinavia.")
-add("pre-roman-iron-late", "Late Pre-Roman Iron Age (Yngre förromersk järnålder)", "CulturalAge", "pre-roman-iron-age", 250, 1, "BCE",
+add("pre-roman-iron-late", {"en": "Late Pre-Roman Iron Age", "sv": "Yngre förromersk järnålder"}, "CulturalAge", "pre-roman-iron-age", 250, 1, "BCE",
     "Celtic La Tène influences; complex hillforts; Dejbjerg wagons; widespread bog iron production.")
 
 # --- Roman & Migration Period ---
-add("roman-iron-age", "Roman Iron Age (Romersk järnålder)", "CulturalAge", "holocene", 1, 400, "CE",
+add("roman-iron-age", {"en": "Roman Iron Age", "sv": "Romersk järnålder"}, "CulturalAge", "holocene", 1, 400, "CE",
     "Roman influence on Germanic societies; runes develop; trade with the Roman Empire.")
-add("early-roman-iron", "Early Roman Iron Age (Äldre romersk järnålder)", "CulturalAge", "roman-iron-age", 1, 200, "CE",
+add("early-roman-iron", {"en": "Early Roman Iron Age", "sv": "Äldre romersk järnålder"}, "CulturalAge", "roman-iron-age", 1, 200, "CE",
     "Increasing trade with Roman provinces; imported bronze vessels; first runic inscriptions.")
-add("late-roman-iron", "Late Roman Iron Age (Yngre romersk järnålder)", "CulturalAge", "roman-iron-age", 200, 400, "CE",
+add("late-roman-iron", {"en": "Late Roman Iron Age", "sv": "Yngre romersk järnålder"}, "CulturalAge", "roman-iron-age", 200, 400, "CE",
     "Gold solidi flow north; Nydam boat (320 CE); elaborate weapon deposits in bogs.")
-add("germanic-iron-age", "Germanic Iron Age (Germansk järnålder)", "CulturalAge", "holocene", 400, 790, "CE",
+add("germanic-iron-age", {"en": "Germanic Iron Age", "sv": "Germansk järnålder"}, "CulturalAge", "holocene", 400, 790, "CE",
     "Post-Roman period in Scandinavia; divided into Early (Migration Period) and Late (Vendel/Merovingian) by Oscar Montelius.")
-add("migration-period", "Migration Period (Folkvandringstiden / Völkerwanderung)", "CulturalAge", "germanic-iron-age", 400, 550, "CE",
+add("migration-period", {"en": "Migration Period", "sv": "Folkvandringstiden", "de": "Völkerwanderung"}, "CulturalAge", "germanic-iron-age", 400, 550, "CE",
     "Fall of Western Rome; Germanic peoples migrate across Europe; gold bracteates and collars in Scandinavia.")
-add("migration-early", "Early Migration Period (Äldre folkvandringstiden)", "CulturalAge", "migration-period", 400, 475, "CE",
+add("migration-early", {"en": "Early Migration Period", "sv": "Äldre folkvandringstiden"}, "CulturalAge", "migration-period", 400, 475, "CE",
     "Huns invade Europe (375); Scandinavian gold hoards peak; elaborate gold collars (e.g. Ålleberg, Möne, Färjestaden).")
-add("migration-late", "Late Migration Period (Yngre folkvandringstiden)", "CulturalAge", "migration-period", 475, 550, "CE",
+add("migration-late", {"en": "Late Migration Period", "sv": "Yngre folkvandringstiden"}, "CulturalAge", "migration-period", 475, 550, "CE",
     "Post-Roman gold scarcity; gilded bronze replaces gold; animal-style ornamentation (Style I) develops.")
-add("vendel-period", "Vendel Period (Merovingian Period)", "CulturalAge", "germanic-iron-age", 550, 790, "CE",
+add("vendel-period", {"en": "Vendel Period", "sv": "Vendeltiden"}, "CulturalAge", "germanic-iron-age", 550, 790, "CE",
     "Swedish golden age; Vendel and Valsgärde boat burials; elaborate animal-style ornamentation.")
-add("vendel-early", "Early Vendel Period (Äldre vendeltiden)", "CulturalAge", "vendel-period", 550, 650, "CE",
+add("vendel-early", {"en": "Early Vendel Period", "sv": "Äldre vendeltiden"}, "CulturalAge", "vendel-period", 550, 650, "CE",
     "Sutton Hoo parallels; Vendel I–VII boat graves near Uppsala; Style II animal ornamentation.")
-add("vendel-late", "Late Vendel Period (Yngre vendeltiden)", "CulturalAge", "vendel-period", 650, 790, "CE",
+add("vendel-late", {"en": "Late Vendel Period", "sv": "Yngre vendeltiden"}, "CulturalAge", "vendel-period", 650, 790, "CE",
     "Valsgärde boat burials continue; Style III ornamentation; Birka's proto-urban precursors; transition to Viking Age.")
 
 # --- Viking Age ---
-add("viking-age", "Viking Age (Vikingatiden)", "CulturalAge", "holocene", 793, 1100, "CE",
+add("viking-age", {"en": "Viking Age", "sv": "Vikingatiden"}, "CulturalAge", "holocene", 793, 1100, "CE",
     "Norse expansion, raiding, trading, and settlement; Birka, Hedeby; Christianization of Scandinavia.")
-add("early-viking-age", "Early Viking Age (Äldre vikingatiden)", "CulturalAge", "viking-age", 793, 900, "CE",
+add("early-viking-age", {"en": "Early Viking Age", "sv": "Äldre vikingatiden"}, "CulturalAge", "viking-age", 793, 900, "CE",
     "Raid on Lindisfarne (793); establishment of Norse trading centers; Oseberg ship burial.")
-add("middle-viking-age", "Middle Viking Age (Mellersta vikingatiden)", "CulturalAge", "viking-age", 900, 1000, "CE",
+add("middle-viking-age", {"en": "Middle Viking Age", "sv": "Mellersta vikingatiden"}, "CulturalAge", "viking-age", 900, 1000, "CE",
     "Danelaw in England; Normandy settled; Icelandic settlement; Bluetooth's Denmark.")
-add("late-viking-age", "Late Viking Age (Yngre vikingatiden)", "CulturalAge", "viking-age", 1000, 1100, "CE",
+add("late-viking-age", {"en": "Late Viking Age", "sv": "Yngre vikingatiden"}, "CulturalAge", "viking-age", 1000, 1100, "CE",
     "Christianization; end of Norse paganism; Cnut the Great's North Sea Empire.")
 
 # --- Medieval Period ---
-add("medieval-period", "Medieval Period (Medeltiden / Mittelalter / Moyen Âge / Edad Media / Medioevo / Средневековье / Μεσαίωνας)", "CulturalAge", "holocene", 1050, 1520, "CE",
+add("medieval-period", {"en": "Medieval Period", "sv": "Medeltiden", "es": "Edad Media", "fr": "Moyen Âge"}, "CulturalAge", "holocene", 1050, 1520, "CE",
     "Scandinavian medieval period; Christianity dominant; Hanseatic trade; Gothic cathedrals; Black Death (1349).")
-add("early-medieval", "Early Medieval Period (Tidig medeltid)", "CulturalAge", "medieval-period", 1050, 1200, "CE",
+add("early-medieval", {"en": "Early Medieval Period", "sv": "Tidig medeltid"}, "CulturalAge", "medieval-period", 1050, 1200, "CE",
     "Church consolidation; first Scandinavian dioceses; Romanesque architecture.")
-add("high-medieval", "High Medieval Period (Högmedeltiden)", "CulturalAge", "medieval-period", 1200, 1350, "CE",
+add("high-medieval", {"en": "High Medieval Period", "sv": "Högmedeltiden"}, "CulturalAge", "medieval-period", 1200, 1350, "CE",
     "Hanseatic League; Gothic architecture; Kalmar Union precursors; population growth.")
-add("late-medieval", "Late Medieval Period (Senmedeltiden)", "CulturalAge", "medieval-period", 1350, 1520, "CE",
+add("late-medieval", {"en": "Late Medieval Period", "sv": "Senmedeltiden"}, "CulturalAge", "medieval-period", 1350, 1520, "CE",
     "Black Death aftermath; Kalmar Union (1397); Reformation approaches.")
 
 # --- Early Modern ---
-add("early-modern", "Early Modern Period (Tidigmodern tid)", "CulturalAge", "holocene", 1520, 1789, "CE",
+add("early-modern", {"en": "Early Modern Period", "sv": "Tidigmodern tid"}, "CulturalAge", "holocene", 1520, 1789, "CE",
     "Reformation; Vasa dynasty; Swedish Empire (stormaktstiden); Age of Enlightenment.")
-add("early-vasa-era", "Early Vasa Era (Äldre Vasatiden)", "CulturalAge", "early-modern", 1523, 1611, "CE",
+add("early-vasa-era", {"en": "Early Vasa Era", "sv": "Äldre Vasatiden"}, "CulturalAge", "early-modern", 1523, 1611, "CE",
     "Gustav Vasa breaks from Kalmar Union; Protestant Reformation; hereditary monarchy established; Stockholm Bloodbath aftermath.")
-add("reformation-era", "Reformation Era (Reformationstiden)", "CulturalAge", "early-vasa-era", 1527, 1600, "CE",
+add("reformation-era", {"en": "Reformation Era", "sv": "Reformationstiden"}, "CulturalAge", "early-vasa-era", 1527, 1600, "CE",
     "Protestant Reformation in Sweden (1527) and Denmark-Norway (1536); seizure of Catholic Church property; new church ordinances.")
-add("swedish-empire", "Swedish Empire (Stormaktstiden)", "CulturalAge", "early-modern", 1611, 1721, "CE",
+add("swedish-empire", {"en": "Swedish Empire", "sv": "Stormaktstiden"}, "CulturalAge", "early-modern", 1611, 1721, "CE",
     "Sweden as great power; Thirty Years War; Baltic dominance; ends with Great Northern War.")
-add("thirty-years-war", "Thirty Years' War Period (Trettioåriga kriget)", "CulturalAge", "swedish-empire", 1618, 1648, "CE",
+add("thirty-years-war", {"en": "Thirty Years' War Period", "sv": "Trettioåriga kriget"}, "CulturalAge", "swedish-empire", 1618, 1648, "CE",
     "Sweden enters as Protestant champion under Gustav II Adolf; Battle of Breitenfeld (1631); Peace of Westphalia (1648).")
-add("caroline-era", "Caroline Era (Karolinska tiden)", "CulturalAge", "swedish-empire", 1654, 1718, "CE",
+add("caroline-era", {"en": "Caroline Era", "sv": "Karolinska tiden"}, "CulturalAge", "swedish-empire", 1654, 1718, "CE",
     "Absolute monarchy under Charles X, XI, XII; reduktion land reforms; Great Northern War ends Swedish empire.")
-add("age-of-liberty", "Age of Liberty (Frihetstiden)", "CulturalAge", "early-modern", 1719, 1772, "CE",
+add("age-of-liberty", {"en": "Age of Liberty", "sv": "Frihetstiden"}, "CulturalAge", "early-modern", 1719, 1772, "CE",
     "Parliamentary rule after Charles XII; Hat and Cap party factions; Enlightenment science (Linnaeus, Celsius).")
-add("gustavian-era", "Gustavian Era (Gustavianska tiden)", "CulturalAge", "early-modern", 1772, 1809, "CE",
+add("gustavian-era", {"en": "Gustavian Era", "sv": "Gustavianska tiden"}, "CulturalAge", "early-modern", 1772, 1809, "CE",
     "Gustav III's coup restores royal power; patron of arts; Royal Opera and Royal Dramatic Theatre founded; assassinated 1792.")
 
 # --- Modern Period ---
-add("modern-period", "Modern Period (Moderna tiden)", "CulturalAge", "holocene", 1789, 0, "CE",
+add("modern-period", {"en": "Modern Period", "sv": "Moderna tiden"}, "CulturalAge", "holocene", 1789, 0, "CE",
     "French Revolution to present; industrialization, nation-states, globalization.")
-add("bernadotte-era", "Bernadotte Era / Union Period (Bernadottetiden / Unionstiden)", "CulturalAge", "modern-period", 1809, 1905, "CE",
+add("bernadotte-era", {"en": "Bernadotte Era / Union Period", "sv": "Bernadottetiden"}, "CulturalAge", "modern-period", 1809, 1905, "CE",
     "New constitution (1809); French Marshal Bernadotte becomes Crown Prince (1810); Sweden-Norway union (1814–1905); loss of Finland to Russia.")
-add("industrial-age", "Industrial Age (Industrialiseringen)", "CulturalAge", "modern-period", 1850, 1914, "CE",
+add("industrial-age", {"en": "Industrial Age", "sv": "Industrialiseringen"}, "CulturalAge", "modern-period", 1850, 1914, "CE",
     "Railways from 1850s; mass emigration to Americas (~1.3M Swedes); Alfred Nobel; rapid urbanization.")
-add("contemporary", "Contemporary Period (Samtiden)", "CulturalAge", "modern-period", 1914, 0, "CE",
+add("contemporary", {"en": "Contemporary Period", "sv": "Samtiden"}, "CulturalAge", "modern-period", 1914, 0, "CE",
     "World Wars (neutral), welfare states (folkhemmet), digital revolution; Scandinavian social democracies.")
 
 # ═══════════════════════════════════════════════════════════════
@@ -631,295 +648,295 @@ add("contemporary", "Contemporary Period (Samtiden)", "CulturalAge", "modern-per
 # ═══════════════════════════════════════════════════════════════
 
 # --- Classical Antiquity ---
-add("archaic-greece", "Archaic Greece (Αρχαϊκή Ελλάδα)", "CulturalAge", "holocene", 800, 480, "BCE",
+add("archaic-greece", {"en": "Archaic Greece", "sv": "Arkaisk tid i Grekland"}, "CulturalAge", "holocene", 800, 480, "BCE",
     "Rise of city-states (poleis); Greek colonization; development of the alphabet, Homer's epics, early philosophy.")
-add("classical-greece", "Classical Greece (Κλασική Ελλάδα)", "CulturalAge", "holocene", 480, 323, "BCE",
+add("classical-greece", {"en": "Classical Greece", "sv": "Klassisk tid i Grekland"}, "CulturalAge", "holocene", 480, 323, "BCE",
     "Golden Age of Athens; Parthenon; Socrates, Plato, Aristotle; Athenian democracy; Peloponnesian War.")
-add("hellenistic-period", "Hellenistic Period (Ελληνιστική περίοδος)", "CulturalAge", "holocene", 323, 31, "BCE",
+add("hellenistic-period", {"en": "Hellenistic Period", "sv": "Hellenistisk tid"}, "CulturalAge", "holocene", 323, 31, "BCE",
     "Alexander the Great's empire fragments; spread of Greek culture across Mediterranean and Near East; Library of Alexandria.")
-add("roman-republic", "Roman Republic (Res Publica Romana / Ρωμαϊκή Δημοκρατία / Roma Cumhuriyeti / Römische Republik)", "CulturalAge", "holocene", 509, 27, "BCE",
+add("roman-republic", {"en": "Roman Republic", "sv": "Romerska republiken", "la": "Res Publica Romana", "el": "Ρωμαϊκή Δημοκρατία", "de": "Römische Republik"}, "CulturalAge", "holocene", 509, 27, "BCE",
     "Roman expansion across Mediterranean; Punic Wars; Julius Caesar; transition to Empire.")
-add("roman-empire", "Roman Empire (Imperium Romanum / Ρωμαϊκή Αυτοκρατορία / Roma İmparatorluğu / Römisches Reich / Империя Рима)", "CulturalAge", "holocene", 27, 476, "CE",
+add("roman-empire", {"en": "Roman Empire", "sv": "Romerska riket", "la": "Imperium Romanum", "el": "Ρωμαϊκή Αυτοκρατορία", "tr": "Roma İmparatorluğu", "de": "Römisches Reich"}, "CulturalAge", "holocene", 27, 476, "CE",
     "Pax Romana; peak Roman civilization; roads, aqueducts, law; Christianity becomes state religion (380 CE).")
-add("late-antiquity", "Late Antiquity (Spätantike)", "CulturalAge", "holocene", 250, 750, "CE",
+add("late-antiquity", {"en": "Late Antiquity", "sv": "Senantiken"}, "CulturalAge", "holocene", 250, 750, "CE",
     "Transition from classical to medieval; fall of Western Rome (476); rise of Christianity; Byzantine Empire continues in East.")
-add("hunnic-empire", "Hunnic Empire (Хунска империја / Hunnenreich / Birodalom hunok)", "CulturalAge", "holocene", 370, 469, "CE",
+add("hunnic-empire", {"en": "Hunnic Empire", "sv": "Hunniska riket"}, "CulturalAge", "holocene", 370, 469, "CE",
     "Nomadic steppe empire originating in Central Asia; swept west ~370 CE displacing Germanic peoples; Attila the Hun (434-453 CE) at peak; raided Balkans and Gaul; Battle of Catalaunian Plains (451 CE); dissolved rapidly after Attila's death (453 CE); possible relation to Xiongnu (匈奴) of Chinese records.")
-add("byzantine-empire", "Byzantine Empire (Βυζαντινή Αυτοκρατορία / Byzantinska riket)", "CulturalAge", "holocene", 330, 1453, "CE",
+add("byzantine-empire", {"en": "Byzantine Empire", "sv": "Bysantinska riket", "el": "Βυζαντινή Αυτοκρατορία"}, "CulturalAge", "holocene", 330, 1453, "CE",
     "Eastern Roman Empire; Constantinople capital; Justinian's Code; Hagia Sophia; Greek culture; Orthodox Christianity; fell to Ottoman Turks (1453).")
-add("byzantine-early", "Early Byzantine Period (Πρώιμη Βυζαντινή Περίοδος)", "CulturalAge", "byzantine-empire", 330, 717, "CE",
+add("byzantine-early", {"en": "Early Byzantine Period", "sv": "Tidig bysantinsk period"}, "CulturalAge", "byzantine-empire", 330, 717, "CE",
     "Constantine founds Constantinople (330); Justinian I (527-565); Corpus Juris Civilis; Hagia Sophia (537); wars with Sasanian Persia; Arab sieges.")
-add("byzantine-middle", "Middle Byzantine Period (Μέση Βυζαντινή Περίοδος)", "CulturalAge", "byzantine-empire", 717, 1204, "CE",
+add("byzantine-middle", {"en": "Middle Byzantine Period", "sv": "Mellersta bysantinsk period"}, "CulturalAge", "byzantine-empire", 717, 1204, "CE",
     "Iconoclasm controversy; Macedonian Renaissance; Great Schism (1054); Komnenian dynasty; Battle of Manzikert (1071); themes system.")
-add("byzantine-late", "Late Byzantine Period (Ύστερη Βυζαντινή Περίοδος)", "CulturalAge", "byzantine-empire", 1204, 1453, "CE",
+add("byzantine-late", {"en": "Late Byzantine Period", "sv": "Sen bysantinsk period"}, "CulturalAge", "byzantine-empire", 1204, 1453, "CE",
     "Fourth Crusade sacks Constantinople (1204); Latin Empire; Palaiologos restoration (1261); decline; Fall of Constantinople (1453) ends Roman continuity.")
 
 # --- European Middle Ages (continental) ---
-add("european-early-medieval", "Early Middle Ages (Europe)", "CulturalAge", "holocene", 476, 1000, "CE",
+add("european-early-medieval", {"en": "Early Middle Ages", "sv": "Tidig medeltid"}, "CulturalAge", "holocene", 476, 1000, "CE",
     "Fall of Western Rome (476); Merovingian and Carolingian kingdoms; spread of Christianity; feudalism develops.")
-add("merovingian-period", "Merovingian Period (Frankish)", "CulturalAge", "european-early-medieval", 481, 751, "CE",
+add("merovingian-period", {"en": "Merovingian Period", "sv": "Merovingertiden"}, "CulturalAge", "european-early-medieval", 481, 751, "CE",
     "Merovingian dynasty rules Frankish kingdoms; Clovis I converts to Christianity; foundation of medieval France.")
-add("carolingian-period", "Carolingian Period (Karolingerzeit / L'ère carolingienne)", "CulturalAge", "european-early-medieval", 751, 888, "CE",
+add("carolingian-period", {"en": "Carolingian Period", "sv": "Karolingiska perioden", "de": "Karolingerzeit"}, "CulturalAge", "european-early-medieval", 751, 888, "CE",
     "Charlemagne crowned Emperor (800); Carolingian Renaissance; revival of learning, Latin scholarship, and arts.")
-add("ottonian-period", "Ottonian Period (Ottonische Zeit)", "CulturalAge", "european-early-medieval", 919, 1024, "CE",
+add("ottonian-period", {"en": "Ottonian Period", "sv": "Ottonska perioden"}, "CulturalAge", "european-early-medieval", 919, 1024, "CE",
     "Holy Roman Empire under Otto I; Ottonian Renaissance; expansion of Christianity into central Europe.")
-add("european-high-medieval", "High Middle Ages (Europe)", "CulturalAge", "holocene", 1000, 1300, "CE",
+add("european-high-medieval", {"en": "High Middle Ages", "sv": "Högmedeltiden"}, "CulturalAge", "holocene", 1000, 1300, "CE",
     "Crusades; Gothic cathedrals; universities founded (Bologna, Paris, Oxford); population growth; Magna Carta (1215).")
-add("crusades-period", "Crusades Period (Korstågen / Les Croisades / الحروب الصليبية)", "CulturalAge", "european-high-medieval", 1095, 1291, "CE",
+add("crusades-period", {"en": "Crusades Period", "sv": "Korstågen", "ar": "الحروب الصليبية"}, "CulturalAge", "european-high-medieval", 1095, 1291, "CE",
     "Series of religious wars for control of the Holy Land; First Crusade captures Jerusalem (1099); cultural exchange between East and West.")
-add("twelfth-century-renaissance", "Renaissance of the 12th Century (Renaissance du XIIe siècle)", "CulturalAge", "european-high-medieval", 1100, 1200, "CE",
+add("twelfth-century-renaissance", {"en": "Renaissance of the 12th Century", "sv": "1100-talets renässans"}, "CulturalAge", "european-high-medieval", 1100, 1200, "CE",
     "Revival of learning; translations of Greek and Arabic texts; founding of universities; scholasticism; Gothic architecture begins.")
-add("european-late-medieval", "Late Middle Ages (Europe)", "CulturalAge", "holocene", 1300, 1500, "CE",
+add("european-late-medieval", {"en": "Late Middle Ages", "sv": "Senmedeltiden"}, "CulturalAge", "holocene", 1300, 1500, "CE",
     "Black Death (1347-1351); Hundred Years' War; Great Western Schism; decline of feudalism; printing press (1440).")
 
 # --- Renaissance & Early Modern Europe ---
-add("renaissance", "Renaissance (Rinascimento)", "CulturalAge", "holocene", 1350, 1600, "CE",
+add("renaissance", {"en": "Renaissance", "sv": "Renässansen", "it": "Rinascimento"}, "CulturalAge", "holocene", 1350, 1600, "CE",
     "Revival of classical learning and art; began in Italy (Florence); humanism, perspective painting, scientific inquiry; Michelangelo, Leonardo, Raphael.")
-add("italian-renaissance", "Italian Renaissance (Rinascimento italiano)", "CulturalAge", "renaissance", 1350, 1550, "CE",
+add("italian-renaissance", {"en": "Italian Renaissance", "sv": "Italienska renässansen", "it": "Rinascimento italiano"}, "CulturalAge", "renaissance", 1350, 1550, "CE",
     "Florence, Venice, Rome as cultural centers; Medici patronage; Brunelleschi, Botticelli, Machiavelli, da Vinci.")
-add("northern-renaissance", "Northern Renaissance (Nordisk renässans)", "CulturalAge", "renaissance", 1450, 1600, "CE",
+add("northern-renaissance", {"en": "Northern Renaissance", "sv": "Nordisk renässans"}, "CulturalAge", "renaissance", 1450, 1600, "CE",
     "Renaissance spreads north of Alps; Dürer, Erasmus, Holbein, Bruegel; printing revolution; Protestant Reformation begins.")
-add("age-of-exploration", "Age of Exploration (Era dos Descobrimentos)", "CulturalAge", "holocene", 1415, 1600, "CE",
+add("age-of-exploration", {"en": "Age of Exploration", "sv": "Upptäcktsresorna"}, "CulturalAge", "holocene", 1415, 1600, "CE",
     "European maritime exploration; Columbus (1492), Vasco da Gama (1498), Magellan (1519); colonial empires begin.")
-add("european-reformation", "European Reformation (Reformationen)", "CulturalAge", "holocene", 1517, 1648, "CE",
+add("european-reformation", {"en": "European Reformation", "sv": "Reformationen"}, "CulturalAge", "holocene", 1517, 1648, "CE",
     "Luther's 95 Theses (1517); Protestant churches emerge; Counter-Reformation; Wars of Religion; Peace of Westphalia (1648).")
-add("baroque-period", "Baroque Period (Barocken)", "CulturalAge", "holocene", 1600, 1750, "CE",
+add("baroque-period", {"en": "Baroque Period", "sv": "Barocken"}, "CulturalAge", "holocene", 1600, 1750, "CE",
     "Dramatic, ornate art and architecture; Bernini, Caravaggio, Rubens, Bach, Vivaldi; absolutist monarchies.")
-add("enlightenment", "Age of Enlightenment (Upplysningen / Aufklärung / Les Lumières)", "CulturalAge", "holocene", 1685, 1815, "CE",
+add("enlightenment", {"en": "Age of Enlightenment", "sv": "Upplysningen", "de": "Aufklärung"}, "CulturalAge", "holocene", 1685, 1815, "CE",
     "Reason, science, individual rights; Voltaire, Rousseau, Kant, Locke; influence on American and French Revolutions.")
-add("age-of-revolutions", "Age of Revolutions (Revolutionernas tid)", "CulturalAge", "holocene", 1775, 1848, "CE",
+add("age-of-revolutions", {"en": "Age of Revolutions", "sv": "Revolutionernas tid"}, "CulturalAge", "holocene", 1775, 1848, "CE",
     "American Revolution (1775), French Revolution (1789), Napoleonic Wars, Revolutions of 1848; end of ancien régime.")
-add("romanticism", "Romantic Period (Romantiken / Romantik)", "CulturalAge", "modern-period", 1790, 1850, "CE",
+add("romanticism", {"en": "Romantic Period", "sv": "Romantiken"}, "CulturalAge", "modern-period", 1790, 1850, "CE",
     "Reaction against Enlightenment rationalism; emphasis on emotion, nature, nationalism; Goethe, Byron, Beethoven, Delacroix.")
-add("world-wars-era", "World Wars Era (Världskrigen)", "CulturalAge", "contemporary", 1914, 1945, "CE",
+add("world-wars-era", {"en": "World Wars Era", "sv": "Världskrigen"}, "CulturalAge", "contemporary", 1914, 1945, "CE",
     "Two global conflicts and an interwar period that reshaped Europe; tens of millions killed; colonial empires begin to dissolve.")
-add("world-war-i", "World War I (Första världskriget / Erster Weltkrieg)", "CulturalAge", "world-wars-era", 1914, 1918, "CE",
+add("world-war-i", {"en": "World War I", "sv": "Första världskriget"}, "CulturalAge", "world-wars-era", 1914, 1918, "CE",
     "The Great War; trench warfare; fall of empires (Ottoman, Austro-Hungarian, Russian, German); Treaty of Versailles (1919).")
-add("interwar-period", "Interwar Period (Mellankrigstiden)", "CulturalAge", "world-wars-era", 1918, 1939, "CE",
+add("interwar-period", {"en": "Interwar Period", "sv": "Mellankrigstiden"}, "CulturalAge", "world-wars-era", 1918, 1939, "CE",
     "League of Nations; Weimar Republic; Great Depression (1929); rise of fascism in Italy, Germany, Spain; Spanish Civil War.")
-add("world-war-ii", "World War II (Andra världskriget / Zweiter Weltkrieg)", "CulturalAge", "world-wars-era", 1939, 1945, "CE",
+add("world-war-ii", {"en": "World War II", "sv": "Andra världskriget"}, "CulturalAge", "world-wars-era", 1939, 1945, "CE",
     "Global conflict; Nazi Germany, Holocaust; Allied victory; atomic bombs; United Nations founded (1945); Europe devastated.")
-add("cold-war-era", "Cold War Era (Kalla kriget / Холодная война)", "CulturalAge", "contemporary", 1947, 1991, "CE",
+add("cold-war-era", {"en": "Cold War Era", "sv": "Kalla kriget", "ru": "Холодная война"}, "CulturalAge", "contemporary", 1947, 1991, "CE",
     "East-West division; NATO vs Warsaw Pact; Iron Curtain; Berlin Wall (1961-1989); European integration begins (EEC 1957).")
-add("european-integration", "European Integration (Europeisk integration)", "CulturalAge", "contemporary", 1957, 0, "CE",
+add("european-integration", {"en": "European Integration", "sv": "Europeisk integration"}, "CulturalAge", "contemporary", 1957, 0, "CE",
     "Treaty of Rome (1957); EEC to EU; Schengen Area; Euro currency; expansion from 6 to 27+ member states.")
 
 # --- Pre-Classical Aegean ---
-add("minoan-civilization", "Minoan Civilization (Μινωικός πολιτισμός)", "CulturalAge", "holocene", 2700, 1450, "BCE",
+add("minoan-civilization", {"en": "Minoan Civilization", "sv": "Minoiska civilisationen", "el": "Μινωικός πολιτισμός"}, "CulturalAge", "holocene", 2700, 1450, "BCE",
     "First advanced European civilization; Knossos palace; Linear A script (undeciphered); bull-leaping; thalassocracy; Thera eruption.")
-add("mycenaean-civilization", "Mycenaean Civilization (Μυκηναϊκός πολιτισμός)", "CulturalAge", "holocene", 1600, 1100, "BCE",
+add("mycenaean-civilization", {"en": "Mycenaean Civilization", "sv": "Mykenska civilisationen", "el": "Μυκηναϊκός πολιτισμός"}, "CulturalAge", "holocene", 1600, 1100, "BCE",
     "First mainland Greek civilization; Linear B script; fortified palaces (Mycenae, Tiryns, Pylos); Trojan War tradition; Bronze Age collapse.")
-add("greek-dark-ages", "Greek Dark Ages (Ελληνικοί Σκοτεινοί Αιώνες)", "CulturalAge", "holocene", 1100, 800, "BCE",
+add("greek-dark-ages", {"en": "Greek Dark Ages", "sv": "Grekiska mörka medeltiden"}, "CulturalAge", "holocene", 1100, 800, "BCE",
     "Collapse of Mycenaean palatial civilization; loss of writing; population decline; Dorian migration; leads to Archaic Greece.")
-add("kingdom-macedon", "Kingdom of Macedon (Βασίλειο της Μακεδονίας / Makedonija / Mazedonien)", "CulturalAge", "holocene", 808, 168, "BCE",
+add("kingdom-macedon", {"en": "Kingdom of Macedon", "sv": "Makedonska riket"}, "CulturalAge", "holocene", 808, 168, "BCE",
     "Ancient Greek kingdom in northern Greece; Argead dynasty; Philip II unified Greek city-states; Alexander the Great conquered Persia, Egypt, India (336-323 BCE); Antigonid dynasty; conquered by Rome at Battle of Pydna (168 BCE).")
 
 # --- Celtic Civilizations ---
-add("hallstatt-culture", "Hallstatt Culture (Hallstattkultur)", "CulturalAge", "holocene", 800, 450, "BCE",
+add("hallstatt-culture", {"en": "Hallstatt Culture", "sv": "Hallstattkulturen", "de": "Hallstattkultur"}, "CulturalAge", "holocene", 800, 450, "BCE",
     "Early Iron Age Celtic culture; salt mining center in Austria; elite chariot burials; first identifiable Celtic material culture.")
-add("la-tene-culture", "La Tène Culture (La-Tène-Kultur)", "CulturalAge", "holocene", 450, 1, "BCE",
+add("la-tene-culture", {"en": "La Tène Culture", "sv": "La Tène-kulturen", "de": "La-Tène-Kultur"}, "CulturalAge", "holocene", 450, 1, "BCE",
     "Mature Celtic civilization; characteristic art style; oppida proto-urban centers; spread from Switzerland across Europe.")
-add("yamnaya", "Yamnaya Culture (Ямная культура / Pit Grave culture)", "CulturalAge", "holocene", 3300, 2600, "BCE",
+add("yamnaya", {"en": "Yamnaya Culture", "sv": "Jamnakulturen", "ru": "Ямная культура"}, "CulturalAge", "holocene", 3300, 2600, "BCE",
     "Pontic-Caspian steppe pastoralists; Proto-Indo-European homeland hypothesis (Kurgan model); wheeled vehicles; horse domestication; massive westward migration transformed Bronze Age European gene pool (ancient DNA evidence, Haak et al. 2015).")
-add("corded-ware", "Corded Ware Culture (Schnurkeramik / Stridsyxekultur)", "CulturalAge", "holocene", 2900, 2350, "BCE",
+add("corded-ware", {"en": "Corded Ware Culture", "sv": "Stridsyxekulturen", "de": "Schnurkeramik"}, "CulturalAge", "holocene", 2900, 2350, "BCE",
     "Widespread Chalcolithic-Early Bronze Age culture across northern/central Europe; derived partly from Yamnaya migration; single burial tradition; cord-impressed pottery; stone battle axes; Indo-European language spread vector.")
 
-add("etruscan-civilization", "Etruscan Civilization (Rasenna/Rasna)", "CulturalAge", "holocene", 900, 27, "BCE",
+add("etruscan-civilization", {"en": "Etruscan Civilization", "sv": "Etruskisk civilisation", "ett": "Rasenna"}, "CulturalAge", "holocene", 900, 27, "BCE",
     "Pre-Roman Italian civilization in Tuscany; sophisticated metalwork and tomb painting; influenced Roman religion, architecture, engineering.")
 
 # --- Iberian Peninsula ---
-add("visigothic-kingdom", "Visigothic Kingdom (Reino visigodo)", "CulturalAge", "holocene", 418, 721, "CE",
+add("visigothic-kingdom", {"en": "Visigothic Kingdom", "sv": "Västgotiska riket", "es": "Reino visigodo"}, "CulturalAge", "holocene", 418, 721, "CE",
     "Germanic successor state controlling Iberia; Toledo capital; Liber Iudiciorum legal code; Arian then Catholic Christianity.")
-add("al-andalus", "Al-Andalus (الأندلس)", "CulturalAge", "holocene", 711, 1492, "CE",
+add("al-andalus", {"en": "Al-Andalus", "sv": "Al-Andalus", "ar": "الأندلس"}, "CulturalAge", "holocene", 711, 1492, "CE",
     "Islamic Iberia; Caliphate of Córdoba; convivencia; Alhambra, Mezquita; advances in science, medicine, philosophy.")
-add("reconquista", "Reconquista (Reconquista / إسترداد)", "CulturalAge", "holocene", 722, 1492, "CE",
+add("reconquista", {"en": "Reconquista", "sv": "Reconquista", "ar": "إسترداد"}, "CulturalAge", "holocene", 722, 1492, "CE",
     "Christian reconquest of Iberia; Covadonga (722) to Fall of Granada (1492); shaped Spanish and Portuguese national identity.")
-add("spanish-empire", "Spanish Empire (Imperio español)", "CulturalAge", "holocene", 1492, 1976, "CE",
+add("spanish-empire", {"en": "Spanish Empire", "sv": "Spanska riket"}, "CulturalAge", "holocene", 1492, 1976, "CE",
     "First global empire; colonization of Americas and Philippines; 'empire on which the sun never sets'; Habsburg and Bourbon dynasties.")
 
 # --- Italian States ---
-add("lombard-kingdom", "Lombard Kingdom (Regnum Langobardorum)", "CulturalAge", "holocene", 568, 774, "CE",
+add("lombard-kingdom", {"en": "Lombard Kingdom", "sv": "Langobardiska riket", "la": "Regnum Langobardorum"}, "CulturalAge", "holocene", 568, 774, "CE",
     "Germanic kingdom in Italy after Roman fall; Lombard law; conquered by Charlemagne; origin of 'Lombardy'.")
-add("republic-of-venice", "Republic of Venice (Serenissima Repubblica di Venezia)", "CulturalAge", "holocene", 697, 1797, "CE",
+add("republic-of-venice", {"en": "Republic of Venice", "sv": "Republiken Venedig", "it": "Serenissima Repubblica di Venezia"}, "CulturalAge", "holocene", 697, 1797, "CE",
     "Over 1,100 years of continuous republican government; maritime empire; eastern Mediterranean trade monopoly; Arsenal; Doge system.")
-add("papal-states", "Papal States (Stato Pontificio)", "CulturalAge", "holocene", 756, 1870, "CE",
+add("papal-states", {"en": "Papal States", "sv": "Kyrkostaten", "it": "Stato Pontificio"}, "CulturalAge", "holocene", 756, 1870, "CE",
     "Temporal domain of the Pope; central Italian territories; Papal diplomacy; key barrier to Italian unification.")
-add("italian-unification", "Italian Unification (Risorgimento)", "CulturalAge", "holocene", 1815, 1871, "CE",
+add("italian-unification", {"en": "Italian Unification", "sv": "Italiens enande", "it": "Risorgimento"}, "CulturalAge", "holocene", 1815, 1871, "CE",
     "Unification movement; Garibaldi, Cavour, Mazzini; Kingdom of Italy proclaimed 1861; Rome annexed 1870.")
 
 # --- Holy Roman Empire & Central Europe ---
-add("holy-roman-empire", "Holy Roman Empire (Heiliges Römisches Reich)", "CulturalAge", "holocene", 962, 1806, "CE",
+add("holy-roman-empire", {"en": "Holy Roman Empire", "sv": "Heliga romerska riket", "de": "Heiliges Römisches Reich"}, "CulturalAge", "holocene", 962, 1806, "CE",
     "Central European polity; Imperial Diet; framework for German politics for 800+ years; 'neither Holy, nor Roman, nor an Empire'; dissolved by Napoleon.")
-add("habsburg-monarchy", "Habsburg Monarchy (Habsburgermonarchie)", "CulturalAge", "holocene", 1282, 1918, "CE",
+add("habsburg-monarchy", {"en": "Habsburg Monarchy", "sv": "Habsburgska monarkin", "de": "Habsburgermonarchie"}, "CulturalAge", "holocene", 1282, 1918, "CE",
     "Dominant European dynasty; controlled Austria, Spain, Netherlands, Italy; Charles V ruled largest European empire; Catholic champions.")
-add("austro-hungarian-empire", "Austro-Hungarian Empire (Österreichisch-Ungarische Monarchie)", "CulturalAge", "holocene", 1867, 1918, "CE",
+add("austro-hungarian-empire", {"en": "Austro-Hungarian Empire", "sv": "Österrike-Ungern", "de": "Österreichisch-Ungarische Monarchie"}, "CulturalAge", "holocene", 1867, 1918, "CE",
     "Dual monarchy; second-largest European state; multi-ethnic tension; assassination of Franz Ferdinand triggers WWI.")
 
 # --- Eastern Europe ---
-add("first-bulgarian-empire", "First Bulgarian Empire (Първо българско царство)", "CulturalAge", "holocene", 681, 1018, "CE",
+add("first-bulgarian-empire", {"en": "First Bulgarian Empire", "sv": "Första bulgariska riket", "bg": "Първо българско царство"}, "CulturalAge", "holocene", 681, 1018, "CE",
     "First Slavic state recognized by Byzantium; Simeon the Great; Cyrillic script origin; conquered by Basil II 'the Bulgar-Slayer'.")
-add("second-bulgarian-empire", "Second Bulgarian Empire (Второ българско царство)", "CulturalAge", "holocene", 1185, 1396, "CE",
+add("second-bulgarian-empire", {"en": "Second Bulgarian Empire", "sv": "Andra bulgariska riket", "bg": "Второ българско царство"}, "CulturalAge", "holocene", 1185, 1396, "CE",
     "Asen dynasty revival; Tarnovo capital; fell to Ottoman conquest.")
-add("kingdom-of-poland", "Kingdom of Poland (Królestwo Polskie)", "CulturalAge", "holocene", 1025, 1569, "CE",
+add("kingdom-of-poland", {"en": "Kingdom of Poland", "sv": "Kungariket Polen", "pl": "Królestwo Polskie"}, "CulturalAge", "holocene", 1025, 1569, "CE",
     "Piast and Jagiellonian dynasties; Christianization (966); Copernicus; union with Lithuania.")
-add("polish-lithuanian-commonwealth", "Polish-Lithuanian Commonwealth (Rzeczpospolita Obojga Narodów)", "CulturalAge", "holocene", 1569, 1795, "CE",
+add("polish-lithuanian-commonwealth", {"en": "Polish-Lithuanian Commonwealth", "sv": "Polsk-litauiska samväldet", "pl": "Rzeczpospolita Obojga Narodów"}, "CulturalAge", "holocene", 1569, 1795, "CE",
     "Largest European state of its era; elected monarchy; religious tolerance; Sarmatism; partitioned by Russia, Prussia, Austria.")
-add("kingdom-of-hungary", "Kingdom of Hungary (Magyar Királyság)", "CulturalAge", "holocene", 1000, 1526, "CE",
+add("kingdom-of-hungary", {"en": "Kingdom of Hungary", "sv": "Kungariket Ungern", "hu": "Magyar Királyság"}, "CulturalAge", "holocene", 1000, 1526, "CE",
     "St. Stephen I; buffer against Ottoman expansion; Battle of Mohács (1526) ends independence; major Central European power.")
-add("grand-duchy-of-lithuania", "Grand Duchy of Lithuania (Lietuvos Didžioji Kunigaikštystė)", "CulturalAge", "holocene", 1236, 1569, "CE",
+add("grand-duchy-of-lithuania", {"en": "Grand Duchy of Lithuania", "sv": "Storfurstendömet Litauen", "lt": "Lietuvos Didžioji Kunigaikštystė"}, "CulturalAge", "holocene", 1236, 1569, "CE",
     "Last pagan state in Europe; largest European state in 15th century; encompassed Belarus, Ukraine, parts of Russia.")
-add("kingdom-of-serbia", "Kingdom of Serbia (Краљевина Србија)", "CulturalAge", "holocene", 1217, 1346, "CE",
+add("kingdom-of-serbia", {"en": "Kingdom of Serbia", "sv": "Kungariket Serbien", "sr": "Краљевина Србија"}, "CulturalAge", "holocene", 1217, 1346, "CE",
     "Nemanjić dynasty kingdom; autocephalous Serbian Orthodox Church (1219); cultural golden age; ends when Stefan Dušan proclaims the Serbian Empire in 1346.")
 
 # --- Russian History ---
-add("grand-duchy-moscow", "Grand Duchy of Moscow (Великое княжество Московское)", "CulturalAge", "holocene", 1263, 1547, "CE",
+add("grand-duchy-moscow", {"en": "Grand Duchy of Moscow", "sv": "Storfurstendömet Moskva", "ru": "Великое княжество Московское"}, "CulturalAge", "holocene", 1263, 1547, "CE",
     "Rise of Moscow as successor to Kievan Rus'; Ivan III ends Mongol rule (1480); 'Third Rome' ideology.")
-add("tsardom-of-russia", "Tsardom of Russia (Русское царство)", "CulturalAge", "holocene", 1547, 1721, "CE",
+add("tsardom-of-russia", {"en": "Tsardom of Russia", "sv": "Tsardömet Ryssland", "ru": "Русское царство"}, "CulturalAge", "holocene", 1547, 1721, "CE",
     "Ivan IV 'the Terrible'; Time of Troubles; Romanov dynasty begins (1613); expansion into Siberia.")
-add("russian-empire", "Russian Empire (Российская империя)", "CulturalAge", "holocene", 1721, 1917, "CE",
+add("russian-empire", {"en": "Russian Empire", "sv": "Ryska riket", "ru": "Российская империя"}, "CulturalAge", "holocene", 1721, 1917, "CE",
     "Peter the Great's modernization; St. Petersburg; largest contiguous empire; Napoleonic Wars; emancipation of serfs (1861).")
-add("soviet-union", "Soviet Union (Союз Советских Социалистических Республик)", "CulturalAge", "contemporary", 1922, 1991, "CE",
+add("soviet-union", {"en": "Soviet Union", "sv": "Sovjetunionen", "ru": "Союз Советских Социалистических Республик"}, "CulturalAge", "contemporary", 1922, 1991, "CE",
     "First communist state; superpower; industrialization; WWII Eastern Front; Space Race; Cold War; collapse reshapes world order.")
 
 # --- Additional European periods ---
-add("napoleonic-era", "Napoleonic Era (Ère napoléonienne)", "CulturalAge", "modern-period", 1799, 1815, "CE",
+add("napoleonic-era", {"en": "Napoleonic Era", "sv": "Napoleontiden"}, "CulturalAge", "modern-period", 1799, 1815, "CE",
     "Napoleon reshapes European borders; Code Napoléon; Battle of Austerlitz, Trafalgar, Waterloo; Congress of Vienna.")
-add("victorian-era", "Victorian Era (Viktorianska eran)", "CulturalAge", "modern-period", 1837, 1901, "CE",
+add("victorian-era", {"en": "Victorian Era", "sv": "Viktorianska eran"}, "CulturalAge", "modern-period", 1837, 1901, "CE",
     "British global hegemony; Industrial Revolution peak; British Empire at zenith; cultural, scientific, social transformation.")
-add("british-empire", "British Empire (Brittiska imperiet)", "CulturalAge", "holocene", 1583, 1997, "CE",
+add("british-empire", {"en": "British Empire", "sv": "Brittiska imperiet"}, "CulturalAge", "holocene", 1583, 1997, "CE",
     "Largest empire in history; shaped global language, law, trade; decolonization post-WWII; Commonwealth of Nations.")
-add("dutch-golden-age", "Dutch Golden Age (Gouden Eeuw)", "CulturalAge", "holocene", 1588, 1672, "CE",
+add("dutch-golden-age", {"en": "Dutch Golden Age", "sv": "Holländska guldåldern", "nl": "Gouden Eeuw"}, "CulturalAge", "holocene", 1588, 1672, "CE",
     "Dutch Republic as global trade power; VOC; Rembrandt, Vermeer; religious tolerance; scientific revolution.")
-add("german-unification", "German Unification (Deutsche Einigung)", "CulturalAge", "modern-period", 1864, 1871, "CE",
+add("german-unification", {"en": "German Unification", "sv": "Tyska enandet"}, "CulturalAge", "modern-period", 1864, 1871, "CE",
     "Bismarck; Franco-Prussian War; German Empire proclaimed at Versailles; reshapes European power balance.")
 
 # ═══════════════════════════════════════════════════════════════
 # MAJOR MASS EXTINCTION EVENTS (cross-cutting markers)
 # ═══════════════════════════════════════════════════════════════
-add("end-ordovician-extinction", "End-Ordovician Extinction (Ordowices)", "Age", "late-ordovician", 445, 443, "Ma",
+add("end-ordovician-extinction", {"en": "End-Ordovician Extinction", "sv": "Ordovicium-silur-utdöendet"}, "Age", "late-ordovician", 445, 443, "Ma",
     "First of the Big Five; ~85% of marine species lost; caused by Gondwanan glaciation and sea-level fall.")
-add("late-devonian-extinction", "Late Devonian Extinction (Devon)", "Age", "late-devonian", 375, 359, "Ma",
+add("late-devonian-extinction", {"en": "Late Devonian Extinction", "sv": "Sendevon-utdöendet"}, "Age", "late-devonian", 375, 359, "Ma",
     "Second of the Big Five; ~75% of species lost over millions of years; reef ecosystems collapse.")
-add("permian-triassic-extinction", "Permian–Triassic Extinction (The Great Dying / Пермь–trias)", "Age", "lopingian", 252, 251.9, "Ma",
+add("permian-triassic-extinction", {"en": "Permian–Triassic Extinction", "sv": "Perm–trias-utdöendet"}, "Age", "lopingian", 252, 251.9, "Ma",
     "Worst mass extinction: ~96% of marine and ~70% of land species; Siberian Traps volcanism.")
-add("triassic-jurassic-extinction", "Triassic–Jurassic Extinction (trias–Jura)", "Age", "late-triassic", 201.5, 201.3, "Ma",
+add("triassic-jurassic-extinction", {"en": "Triassic–Jurassic Extinction", "sv": "Trias–jura-utdöendet"}, "Age", "late-triassic", 201.5, 201.3, "Ma",
     "Fourth of the Big Five; ~80% of species lost; CAMP volcanism; opens way for dinosaur dominance.")
-add("cretaceous-paleogene-extinction", "Cretaceous–Paleogene Extinction (K-Pg / Chicxulub, Yucatán)", "Age", "late-cretaceous", 66.05, 66, "Ma",
+add("cretaceous-paleogene-extinction", {"en": "Cretaceous–Paleogene Extinction", "sv": "Krita–paleogen-utdöendet"}, "Age", "late-cretaceous", 66.05, 66, "Ma",
     "Fifth of the Big Five; Chicxulub asteroid impact; all non-avian dinosaurs extinct; ~76% of species lost.")
-add("deccan-traps", "Deccan Traps Volcanism (दक्खन Dakhan)", "Age", "maastrichtian", 66.4, 65.5, "Ma",
+add("deccan-traps", {"en": "Deccan Traps Volcanism", "sv": "Deckantrapperna", "hi": "दक्खन Dakhan"}, "Age", "maastrichtian", 66.4, 65.5, "Ma",
     "One of Earth's largest volcanic events; ~1.5 million km² basalt flows in India; co-contributor to K-Pg extinction; climate disruption preceded and overlapped Chicxulub impact.")
-add("chicxulub-impact", "Chicxulub Impact (Chicxulub, Yucatán / Maaya)", "Age", "maastrichtian", 66.05, 66, "Ma",
+add("chicxulub-impact", {"en": "Chicxulub Impact", "sv": "Chicxulubnedslagen"}, "Age", "maastrichtian", 66.05, 66, "Ma",
     "~10 km asteroid strikes Yucatán Peninsula; 180 km crater; impact winter; global wildfires; acid rain; tsunami; primary trigger of K-Pg mass extinction; iridium anomaly discovered by Alvarez et al. (1980).")
-add("siberian-traps", "Siberian Traps (Сибирские траппы Sibirskiye trappy)", "Age", "lopingian", 252.2, 250.6, "Ma",
+add("siberian-traps", {"en": "Siberian Traps", "sv": "Sibiriska trapperna"}, "Age", "lopingian", 252.2, 250.6, "Ma",
     "Largest known continental flood basalt; ~7 million km² lava; released massive CO₂ and SO₂; primary trigger of Permian–Triassic extinction; thermogenic carbon from coal and evaporite contact metamorphism.")
-add("emeishan-traps", "Emeishan Traps (峨眉山暗色岩 Éméishān ànsèyán)", "Age", "permian", 260.5, 257, "Ma",
+add("emeishan-traps", {"en": "Emeishan Traps", "sv": "Emeishantrapperna", "zh": "峨眉山暗色岩 Éméishān ànsèyán"}, "Age", "permian", 260.5, 257, "Ma",
     "Large igneous province in southwestern China (Sichuan, Yunnan, Guizhou); ~0.5 million km²; linked to Capitanian/end-Guadalupian extinction event; preceded Siberian Traps by ~8 Myr.")
-add("camp-volcanism", "Central Atlantic Magmatic Province (CAMP)", "Age", "late-triassic", 201.6, 200.9, "Ma",
+add("camp-volcanism", {"en": "Central Atlantic Magmatic Province", "sv": "Centralatlantiska magmaprovinsen"}, "Age", "late-triassic", 201.6, 200.9, "Ma",
     "One of Earth's largest igneous provinces; erupted as Pangaea rifted; ~11 million km²; primary trigger of end-Triassic mass extinction; CO₂-driven warming and ocean acidification.")
 
 # ═══════════════════════════════════════════════════════════════
 # ADDITIONAL GEOLOGICAL / CLIMATE EVENTS
 # ═══════════════════════════════════════════════════════════════
-add("great-oxidation", "Great Oxidation Event (GOE)", "Age", "paleoproterozoic", 2400, 2060, "Ma",
+add("great-oxidation", {"en": "Great Oxidation Event", "sv": "Stora oxidationshändelsen"}, "Age", "paleoproterozoic", 2400, 2060, "Ma",
     "Free oxygen accumulates in atmosphere for first time; mass die-off of anaerobic organisms; banded iron formations cease.")
-add("huronian-glaciation", "Huronian Glaciation (Lake Huron)", "Age", "paleoproterozoic", 2400, 2100, "Ma",
+add("huronian-glaciation", {"en": "Huronian Glaciation", "sv": "Huroniska glaciationen"}, "Age", "paleoproterozoic", 2400, 2100, "Ma",
     "First known Snowball Earth event; possibly triggered by Great Oxidation Event reducing methane greenhouse.")
-add("lomagundi-jatuli", "Lomagundi–Jatuli Event (Lomagundi, Zimbabwe / Jatuli, Karelia)", "Age", "paleoproterozoic", 2220, 2060, "Ma",
+add("lomagundi-jatuli", {"en": "Lomagundi–Jatuli Event", "sv": "Lomagundi–Jatuli-händelsen"}, "Age", "paleoproterozoic", 2220, 2060, "Ma",
     "Largest positive carbon isotope excursion in Earth history (δ¹³C up to +12‰); immediately follows GOE; indicates massive organic carbon burial; associated with first rise of atmospheric oxygen; global extent confirmed from Fennoscandia to southern Africa.")
-add("great-unconformity", "Great Unconformity (Grand Canyon / Lipalian)", "Age", "neoproterozoic", 1000, 539, "Ma",
+add("great-unconformity", {"en": "Great Unconformity", "sv": "Stora diskonformiteten"}, "Age", "neoproterozoic", 1000, 539, "Ma",
     "Global gap in the rock record between Precambrian basement and Cambrian strata; up to 1.2 billion years missing in places; cause debated: Snowball Earth glacial erosion, continental denudation, or Rodinia rifting; term coined by John Wesley Powell (1869); Lipalian interval of Walcott (1910).")
-add("petm", "Paleocene–Eocene Thermal Maximum (PETM / παλαιός ἠώς)", "Age", "ypresian", 55.8, 55.6, "Ma",
+add("petm", {"en": "Paleocene–Eocene Thermal Maximum", "sv": "Paleocen–eocen termiska maximumet"}, "Age", "ypresian", 55.93, 55.73, "Ma",
     "Rapid global warming of 5–8 °C; massive carbon release; mammals disperse across continents.")
-add("messinian-crisis", "Messinian Salinity Crisis (Messina)", "Age", "messinian", 5.96, 5.33, "Ma",
+add("messinian-crisis", {"en": "Messinian Salinity Crisis", "sv": "Messiniska saltkrisen"}, "Age", "messinian", 5.96, 5.33, "Ma",
     "Mediterranean Sea nearly dries up due to tectonic closure of Strait of Gibraltar; massive evaporite deposits.")
-add("last-glacial-max", "Last Glacial Maximum (LGM)", "Age", "late-pleistocene", 0.026, 0.019, "Ma",
+add("last-glacial-max", {"en": "Last Glacial Maximum", "sv": "Senaste glaciala maximum"}, "Age", "late-pleistocene", 0.026, 0.019, "Ma",
     "Peak of last ice age ~26,000 years ago; ice sheets cover Scandinavia, Britain, northern Europe; sea level ~120 m lower.")
-add("younger-dryas", "Younger Dryas (Dryas octopetala)", "Age", "late-pleistocene", 12900, 11700, "BP",
+add("younger-dryas", {"en": "Younger Dryas", "sv": "Yngre Dryas"}, "Age", "late-pleistocene", 12900, 11700, "BP",
     "Abrupt return to glacial conditions for ~1,200 years; end marks start of Holocene; cause debated (meltwater pulse?).")
-add("8.2ka-event", "8.2 ka Cold Event (Laurentide)", "Age", "northgrippian", 8200, 8000, "BP",
+add("8.2ka-event", {"en": "8.2 ka Cold Event", "sv": "8200-årshändelsen"}, "Age", "northgrippian", 8200, 8000, "BP",
     "Sudden cooling for ~150 years; collapse of Laurentide ice sheet drains glacial lakes into Atlantic; disrupts thermohaline circulation.")
-add("4.2ka-event", "4.2 ka Aridification Event (मेघालय Meghālaya)", "Age", "meghalayan", 4200, 3900, "BP",
+add("4.2ka-event", {"en": "4.2 ka Aridification Event", "sv": "4200-årshändelsen", "hi": "मेघालय Meghālaya"}, "Age", "meghalayan", 4200, 3900, "BP",
     "Severe drought lasting ~200 years; contributes to collapse of Akkadian Empire, Old Kingdom Egypt, Harappan civilization.")
 
-add("carnian-pluvial", "Carnian Pluvial Episode (CPE / Karnische Alpen)", "Age", "carnian", 234, 232, "Ma",
+add("carnian-pluvial", {"en": "Carnian Pluvial Episode", "sv": "Karniska regnperioden"}, "Age", "carnian", 234, 232, "Ma",
     "Major climate perturbation; ~2 Myr of increased rainfall globally; Wrangellia LIP volcanism as trigger; diversification of dinosaurs, conifers, corals; reef crisis; significant turnover in marine and terrestrial ecosystems.")
-add("boring-billion", "Boring Billion (Dull Billion / Mesoproterozoic Stasis / μέσος πρότερος)", "Age", "proterozoic", 1800, 800, "Ma",
+add("boring-billion", {"en": "Boring Billion", "sv": "Tråkiga miljarden"}, "Age", "proterozoic", 1800, 800, "Ma",
     "Informal name for ~1 billion years of apparent evolutionary and environmental stability; low atmospheric oxygen (~1-10% modern); subdued tectonic activity; minimal carbon isotope variation; recent work challenges 'boring' label.")
 
-add("toba-catastrophe", "Toba Catastrophe (~74 ka / Toba, Sumatera)", "Age", "late-pleistocene", 0.074, 0.074, "Ma",
+add("toba-catastrophe", {"en": "Toba Catastrophe", "sv": "Tobakatastrofen"}, "Age", "late-pleistocene", 0.074, 0.074, "Ma",
     "Supervolcanic eruption of Mount Toba, Sumatra (~74 ka); Volcanic Explosivity Index 8; ~2,800 km³ ejecta; volcanic winter; possible human population bottleneck (debated); largest eruption in last 2 million years.")
 
-add("rodinia-assembly", "Rodinia Assembly (Grenville Orogeny / родина Rodina)", "Age", "proterozoic", 1100, 900, "Ma",
+add("rodinia-assembly", {"en": "Rodinia Assembly", "sv": "Rodinias bildande"}, "Age", "proterozoic", 1100, 900, "Ma",
     "Assembly of supercontinent Rodinia via Grenville orogeny; included most of Earth's continental crust; name from Russian 'родина' (homeland); precursor configuration shaped later tectonic and glacial history.")
-add("rodinia-breakup", "Rodinia Breakup (родина распад)", "Age", "neoproterozoic", 750, 633, "Ma",
+add("rodinia-breakup", {"en": "Rodinia Breakup", "sv": "Rodinias upplösning"}, "Age", "neoproterozoic", 750, 633, "Ma",
     "Rifting and breakup of supercontinent Rodinia; opened Iapetus Ocean; weathering of newly exposed continental margins may have triggered Snowball Earth glaciations (Sturtian, Marinoan); led to formation of Gondwana.")
-add("pangaea-assembly", "Pangaea Assembly (Πᾶν γαῖα / Variscan–Alleghenian)", "Age", "paleozoic", 335, 270, "Ma",
+add("pangaea-assembly", {"en": "Pangaea Assembly", "sv": "Pangeas bildande"}, "Age", "paleozoic", 335, 270, "Ma",
     "Assembly of Earth's most recent supercontinent from collision of Gondwana and Laurussia; Variscan/Hercynian and Alleghanian orogenies; enclosed Tethys Ocean; profoundly altered global climate and ocean circulation.")
-add("pangaea-breakup", "Pangaea Breakup (Πᾶν γαῖα rift)", "Age", "jurassic", 200, 150, "Ma",
+add("pangaea-breakup", {"en": "Pangaea Breakup", "sv": "Pangeas upplösning"}, "Age", "jurassic", 200, 150, "Ma",
     "Rifting of Pangaea beginning in Late Triassic/Early Jurassic; separation into Laurasia and Gondwana; opening of Central Atlantic Ocean; CAMP volcanism associated with initial rifting; shaped modern continental configuration.")
-add("oae-1a", "Oceanic Anoxic Event 1a (OAE 1a / Selli Event / Selli, Italia)", "Age", "aptian", 120, 119, "Ma",
+add("oae-1a", {"en": "Oceanic Anoxic Event 1a", "sv": "Oceanisk anoxisk händelse 1a"}, "Age", "aptian", 120, 119, "Ma",
     "Widespread ocean anoxia linked to Ontong Java Plateau volcanism; massive organic carbon burial; black shale deposition; major perturbation of global carbon cycle; significant marine biotic turnover.")
-add("oae-2", "Oceanic Anoxic Event 2 (OAE 2 / Bonarelli Event / Bonarelli, Italia)", "Age", "cenomanian", 94.4, 93.9, "Ma",
+add("oae-2", {"en": "Oceanic Anoxic Event 2", "sv": "Oceanisk anoxisk händelse 2"}, "Age", "cenomanian", 94.4, 93.9, "Ma",
     "Most severe Cretaceous oceanic anoxic event; global black shale deposition; ~27% of marine invertebrate genera extinct; linked to Caribbean LIP volcanism; major δ¹³C excursion used as global stratigraphic marker.")
-add("isthmus-panama", "Isthmus of Panama Closure (Istmo de Panamá / GABI)", "Age", "piacenzian", 3.5, 2.8, "Ma",
+add("isthmus-panama", {"en": "Isthmus of Panama Closure", "sv": "Panamänäsets slutning"}, "Age", "piacenzian", 3.5, 2.8, "Ma",
     "Tectonic closure of Central American Seaway; diverted Atlantic/Pacific currents; strengthened Gulf Stream and thermohaline circulation; triggered Great American Biotic Interchange (GABI); contributed to Northern Hemisphere glaciation onset.")
-add("mmct", "Mid-Miocene Climate Transition (MMCT)", "Age", "serravallian", 14.0, 13.8, "Ma",
+add("mmct", {"en": "Mid-Miocene Climate Transition", "sv": "Mellanmiocena klimatomställningen"}, "Age", "miocene", 14.0, 13.8, "Ma",
     "Abrupt global cooling following Mid-Miocene Climatic Optimum; major expansion of East Antarctic ice sheet; global sea level drop; grasslands expand at expense of forests; key inflection point toward modern icehouse climate.")
 
 # ═══════════════════════════════════════════════════════════════
 # ADDITIONAL CULTURAL PERIODS (Sámi, Baltic, Finnish)
 # ═══════════════════════════════════════════════════════════════
-add("sami-prehistory", "Sámi Prehistory (Sámi ovdahistorjá)", "CulturalAge", "holocene", 8000, 1600, "BCE-CE",
+add("sami-prehistory", {"en": "Sámi Prehistory", "sv": "Samisk förhistoria"}, "CulturalAge", "holocene", 8000, 1600, "BCE-CE",
     "Indigenous Sámi settlement of northern Fennoscandia; reindeer herding develops; Komsa and Fosna cultures; sieiddit (sacred sites).")
-add("sami-modern", "Sámi Modern History (Sámi ođasáiggi historjá)", "CulturalAge", "holocene", 1600, 0, "CE",
+add("sami-modern", {"en": "Sámi Modern History", "sv": "Samisk modern historia"}, "CulturalAge", "holocene", 1600, 0, "CE",
     "Colonization and forced assimilation; Lapland witch trials; state borders divide Sápmi; Sámi parliaments (Norway 1989, Sweden 1993, Finland 1996); cultural revitalization.")
-add("comb-ceramic", "Comb Ceramic Culture (Kamkeramisk kultur)", "CulturalAge", "neolithic", 3900, 2800, "BCE",
+add("comb-ceramic", {"en": "Comb Ceramic Culture", "sv": "Kamkeramisk kultur"}, "CulturalAge", "neolithic", 3900, 2800, "BCE",
     "Widespread Neolithic culture across Finland and the Baltic; characteristic comb-stamped pottery; hunter-gatherer-fishers.")
-add("asbestos-ceramic", "Asbestos Ceramic Period (Asbestikeramiikka / Finland)", "CulturalAge", "neolithic", 3500, 2000, "BCE",
+add("asbestos-ceramic", {"en": "Asbestos Ceramic Period", "sv": "Asbestkeramiska perioden"}, "CulturalAge", "neolithic", 3500, 2000, "BCE",
     "Distinctive Finnish Neolithic pottery tempered with asbestos fibers; concurrent with Comb Ceramic in eastern Finland.")
-add("nordic-iron-age-celtic", "Celtic Iron Age Influences in Scandinavia (Keltisk järnålderspåverkan)", "CulturalAge", "pre-roman-iron-age", 400, 200, "BCE",
+add("nordic-iron-age-celtic", {"en": "Celtic Iron Age Influences in Scandinavia", "sv": "Keltisk järnålderspåverkan i Skandinavien"}, "CulturalAge", "pre-roman-iron-age", 400, 200, "BCE",
     "La Tène art style reaches Scandinavia; Hjortspring boat; early hillforts in southern Sweden and Denmark.")
-add("jastorf-culture", "Jastorf Culture (Jastorfkulturen)", "CulturalAge", "pre-roman-iron-age", 500, 100, "BCE",
+add("jastorf-culture", {"en": "Jastorf Culture", "sv": "Jastorfkulturen"}, "CulturalAge", "pre-roman-iron-age", 500, 100, "BCE",
     "Pre-Roman Iron Age culture of northern Germany and southern Scandinavia; first iron smelting from bog ore; cremation burials.")
 
 # --- Viking Age sub-events ---
-add("danelaw", "Danelaw Period (Danelagen)", "CulturalAge", "viking-age", 865, 954, "CE",
+add("danelaw", {"en": "Danelaw Period", "sv": "Danelagen"}, "CulturalAge", "viking-age", 865, 954, "CE",
     "Norse-controlled territory in eastern and northern England; established after the Great Heathen Army; York as Viking capital.")
-add("viking-iceland", "Settlement of Iceland (Landnám Íslands)", "CulturalAge", "viking-age", 870, 930, "CE",
+add("viking-iceland", {"en": "Settlement of Iceland", "sv": "Islands bebyggelse"}, "CulturalAge", "viking-age", 870, 930, "CE",
     "Norse colonization of Iceland; Ingólfr Arnarson (874); Althing established 930 as one of the oldest parliaments.")
-add("viking-normandy", "Norse Settlement of Normandy (Normandie / Norðmandí)", "CulturalAge", "middle-viking-age", 911, 1066, "CE",
+add("viking-normandy", {"en": "Norse Settlement of Normandy", "sv": "Normandiets bebyggelse"}, "CulturalAge", "middle-viking-age", 911, 1066, "CE",
     "Rollo receives Normandy from French king (911); Norse settlers adopt French language; William the Conqueror descends from Vikings.")
-add("viking-rus", "Varangians and Kievan Rus' (Väringar / Киевская Русь)", "CulturalAge", "viking-age", 800, 1054, "CE",
+add("viking-rus", {"en": "Varangians and Kievan Rus'", "sv": "Väringarna och Kievrus"}, "CulturalAge", "viking-age", 800, 1054, "CE",
     "Swedish Vikings (Varangians) establish trade routes through Russia; found Kyiv and Novgorod; Varangian Guard in Constantinople.")
-add("norse-greenland", "Norse Greenland (Grænland / Grønland)", "CulturalAge", "viking-age", 985, 1450, "CE",
+add("norse-greenland", {"en": "Norse Greenland", "sv": "Norrön Grönland"}, "CulturalAge", "viking-age", 985, 1450, "CE",
     "Erik the Red founds Eastern and Western Settlements (~985); Brattahlíð; launching point for Vinland voyages; Garðar diocese (northernmost in Christendom); population ~3,000-5,000; abandoned by ~1450; climate deterioration and trade isolation.")
-add("norse-vinland", "Norse Vinland (Vínland)", "CulturalAge", "viking-age", 1000, 1021, "CE",
+add("norse-vinland", {"en": "Norse Vinland", "sv": "Norrön Vinland"}, "CulturalAge", "viking-age", 1000, 1021, "CE",
     "Leif Erikson reaches North America (~1000 CE); L'Anse aux Meadows, Newfoundland (UNESCO World Heritage Site); tree-ring dated to 1021 CE; first confirmed European presence in the Americas; sagas of Eiríks saga rauða and Grœnlendinga saga.")
 
 # --- Medieval & Hanseatic ---
-add("christianization-scandinavia", "Christianization of Scandinavia (Skandinaviens kristnande)", "CulturalAge", "viking-age", 960, 1150, "CE",
+add("christianization-scandinavia", {"en": "Christianization of Scandinavia", "sv": "Skandinaviens kristnande"}, "CulturalAge", "viking-age", 960, 1150, "CE",
     "Gradual conversion: Denmark (~960, Harald Bluetooth), Norway (~1000, Olaf Tryggvason), Sweden (~1000, Olof Skötkonung); Uppsala temple destroyed ~1087.")
-add("baltic-crusades", "Baltic Crusades Period (Nordliga korstågen)", "CulturalAge", "medieval-period", 1147, 1290, "CE",
+add("baltic-crusades", {"en": "Baltic Crusades Period", "sv": "Nordliga korstågen"}, "CulturalAge", "medieval-period", 1147, 1290, "CE",
     "Northern Crusades; Christianization of Baltic region; Teutonic Order; Swedish crusades to Finland.")
-add("hanseatic-period", "Hanseatic Period in Scandinavia (Hansatiden / Hanse)", "CulturalAge", "medieval-period", 1250, 1450, "CE",
+add("hanseatic-period", {"en": "Hanseatic Period in Scandinavia", "sv": "Hansatiden"}, "CulturalAge", "medieval-period", 1250, 1450, "CE",
     "Hanseatic League dominates Baltic trade; German merchants in Visby, Bergen, Stockholm; Lübeck law adopted.")
-add("black-death-scandinavia", "Black Death in Scandinavia (Digerdöden / Svartedauden)", "CulturalAge", "medieval-period", 1349, 1360, "CE",
+add("black-death-scandinavia", {"en": "Black Death in Scandinavia", "sv": "Digerdöden", "nb": "Svartedauden"}, "CulturalAge", "medieval-period", 1349, 1360, "CE",
     "Plague reaches Norway (1349), Sweden and Denmark; kills ~50-60% of Scandinavian population; abandoned farms (ödegårdar).")
-add("kalmar-union", "Kalmar Union (Kalmarunionen)", "CulturalAge", "late-medieval", 1397, 1523, "CE",
+add("kalmar-union", {"en": "Kalmar Union", "sv": "Kalmarunionen"}, "CulturalAge", "late-medieval", 1397, 1523, "CE",
     "Union of Denmark, Norway, and Sweden under one monarch; Queen Margrete I; dissolved by Gustav Vasa's rebellion.")
-add("stockholm-bloodbath", "Stockholm Bloodbath (Stockholms blodbad)", "CulturalAge", "late-medieval", 1520, 1520, "CE",
+add("stockholm-bloodbath", {"en": "Stockholm Bloodbath", "sv": "Stockholms blodbad"}, "CulturalAge", "late-medieval", 1520, 1520, "CE",
     "Danish King Christian II executes ~80 Swedish nobles and clergy; triggers Gustav Vasa's rebellion and end of Kalmar Union.")
 
 # --- Danish / Norwegian specific ---
-add("danish-golden-age", "Danish Golden Age (Dansk guldalder)", "CulturalAge", "modern-period", 1800, 1850, "CE",
+add("danish-golden-age", {"en": "Danish Golden Age", "sv": "Dansk guldalder"}, "CulturalAge", "modern-period", 1800, 1850, "CE",
     "Cultural flourishing in Denmark: H.C. Andersen, Søren Kierkegaard, Bertel Thorvaldsen, C.W. Eckersberg; national romanticism.")
-add("norway-independence", "Norwegian Independence (Norsk selvstendighet)", "CulturalAge", "modern-period", 1814, 1905, "CE",
+add("norway-independence", {"en": "Norwegian Independence", "sv": "Norsk självständighet"}, "CulturalAge", "modern-period", 1814, 1905, "CE",
     "Norwegian constitution (1814, Eidsvoll); forced union with Sweden; dissolution of union (1905); Haakon VII elected king.")
-add("finland-grand-duchy", "Grand Duchy of Finland (Suomen suuriruhtinaskunta)", "CulturalAge", "modern-period", 1809, 1917, "CE",
+add("finland-grand-duchy", {"en": "Grand Duchy of Finland", "sv": "Storfurstendömet Finland"}, "CulturalAge", "modern-period", 1809, 1917, "CE",
     "Finland as autonomous Grand Duchy of Russia after Swedish loss (1809); Kalevala published (1835); Finnish nationalism; independence 1917.")
-add("eocene-oligocene-extinction", "Eocene–Oligocene Extinction (Grande Coupure / Priabona)", "Age", "priabonian", 33.9, 33.7, "Ma",
+add("eocene-oligocene-extinction", {"en": "Eocene–Oligocene Extinction", "sv": "Eocen-oligocen-utdöendet"}, "Age", "priabonian", 33.9, 33.7, "Ma",
     "Major faunal turnover in Europe; Asian mammals invade; dramatic cooling as Antarctic ice sheet forms.")
-add("cambrian-explosion", "Cambrian Explosion (Cymru)", "Age", "cambrian", 538.8, 510, "Ma",
+add("cambrian-explosion", {"en": "Cambrian Explosion", "sv": "Kambriska explosionen"}, "Age", "cambrian", 538.8, 510, "Ma",
     "Most major animal phyla appear in fossil record within ~25 Myr; Burgess Shale, Chengjiang faunas; cause debated.")
 
 # ═══════════════════════════════════════════════════════════════
@@ -927,135 +944,135 @@ add("cambrian-explosion", "Cambrian Explosion (Cymru)", "Age", "cambrian", 538.8
 # ═══════════════════════════════════════════════════════════════
 
 # --- Pre-Columbian Civilizations ---
-add("south-america-precolumbian", "Pre-Columbian South America (América del Sur precolombina)", "CulturalAge", "holocene", 14800, 1533, "BCE-CE",
+add("south-america-precolumbian", {"en": "Pre-Columbian South America", "sv": "Förkolumbisk Sydamerika"}, "CulturalAge", "holocene", 14800, 1533, "BCE-CE",
     "Indigenous civilizations of South America before European contact; from Monte Verde (~14,800 BCE) through Norte Chico to the Inca Empire.")
-add("norte-chico", "Norte Chico (Caral) Civilization", "CulturalAge", "south-america-precolumbian", 3000, 1800, "BCE",
+add("norte-chico", {"en": "Norte Chico (Caral) Civilization", "sv": "Norte Chico (Caral)-civilisationen"}, "CulturalAge", "south-america-precolumbian", 3000, 1800, "BCE",
     "Oldest known civilization in the Americas; Caral, Supe Valley, Peru; monumental architecture, quipu precursors; no pottery or writing.")
-add("valdivia-culture", "Valdivia Culture (Cultura Valdivia)", "CulturalAge", "south-america-precolumbian", 3500, 1800, "BCE",
+add("valdivia-culture", {"en": "Valdivia Culture", "sv": "Valdiviakulturen"}, "CulturalAge", "south-america-precolumbian", 3500, 1800, "BCE",
     "Early Formative culture on coast of Ecuador; some of the oldest pottery in the Americas; Venus figurines; early maize cultivation.")
-add("chavin-culture", "Chavín Culture (Chavín de Huántar)", "CulturalAge", "south-america-precolumbian", 900, 200, "BCE",
+add("chavin-culture", {"en": "Chavín Culture", "sv": "Chavínkulturen"}, "CulturalAge", "south-america-precolumbian", 900, 200, "BCE",
     "Early Horizon unifying culture of Andean Peru; Chavín de Huántar temple complex; jaguar iconography; influence across highlands and coast.")
-add("paracas-culture", "Paracas Culture (Cultura Paracas)", "CulturalAge", "south-america-precolumbian", 800, 100, "BCE",
+add("paracas-culture", {"en": "Paracas Culture", "sv": "Paracaskulturen"}, "CulturalAge", "south-america-precolumbian", 800, 100, "BCE",
     "Southern Peruvian coastal culture; extraordinary textiles and embroidery; cranial trepanation; Paracas Necropolis burials.")
-add("nazca-culture", "Nazca Culture (Cultura Nazca)", "CulturalAge", "south-america-precolumbian", 100, 800, "BCE-CE",
+add("nazca-culture", {"en": "Nazca Culture", "sv": "Nazcakulturen"}, "CulturalAge", "south-america-precolumbian", 100, 800, "BCE-CE",
     "Southern Peruvian desert; Nazca Lines geoglyphs; polychrome pottery; underground aqueducts (puquios).")
-add("moche-civilization", "Moche Civilization (Civilización Moche / Mochica)", "CulturalAge", "south-america-precolumbian", 100, 700, "CE",
+add("moche-civilization", {"en": "Moche Civilization", "sv": "Mochecivilisationen"}, "CulturalAge", "south-america-precolumbian", 100, 700, "CE",
     "Northern Peruvian coast; Huaca del Sol and Huaca de la Luna; portrait vessels; Sipán royal tombs; advanced irrigation.")
-add("tiwanaku-empire", "Tiwanaku Empire (Tiahuanaco / Tiwanaku)", "CulturalAge", "south-america-precolumbian", 300, 1000, "CE",
+add("tiwanaku-empire", {"en": "Tiwanaku Empire", "sv": "Tiwanakuriket"}, "CulturalAge", "south-america-precolumbian", 300, 1000, "CE",
     "Andean civilization centered at Lake Titicaca, Bolivia; Gateway of the Sun; raised-field agriculture; altitude ~3,800 m.")
-add("wari-empire", "Wari Empire (Huari)", "CulturalAge", "south-america-precolumbian", 600, 1000, "CE",
+add("wari-empire", {"en": "Wari Empire", "sv": "Waririket"}, "CulturalAge", "south-america-precolumbian", 600, 1000, "CE",
     "Middle Horizon Andean empire; administrative centers across Peru; road network predating Inca; terraced agriculture.")
-add("chinchorro-culture", "Chinchorro Culture (Cultura Chinchorro)", "CulturalAge", "south-america-precolumbian", 7000, 1500, "BCE",
+add("chinchorro-culture", {"en": "Chinchorro Culture", "sv": "Chinchorrokulturen"}, "CulturalAge", "south-america-precolumbian", 7000, 1500, "BCE",
     "Atacama Desert coast (Chile/Peru); oldest artificial mummification in the world (~5000 BCE, predating Egypt); fishing and gathering; egalitarian society.")
-add("recuay-culture", "Recuay Culture (Cultura Recuay)", "CulturalAge", "south-america-precolumbian", 200, 600, "CE",
+add("recuay-culture", {"en": "Recuay Culture", "sv": "Recuaykulturen"}, "CulturalAge", "south-america-precolumbian", 200, 600, "CE",
     "Northern Peruvian highlands (Ancash); stone sculpture; kaolin pottery; underground galleries; warrior iconography; contemporaneous with Moche.")
-add("lima-culture", "Lima Culture (Cultura Lima)", "CulturalAge", "south-america-precolumbian", 100, 650, "CE",
+add("lima-culture", {"en": "Lima Culture", "sv": "Limakulturen"}, "CulturalAge", "south-america-precolumbian", 100, 650, "CE",
     "Central Peruvian coast; Huaca Pucllana and Huaca Huallamarca; interlocking adobe bricks ('librero' style); irrigation agriculture; fish and shellfish.")
-add("lambayeque-sican", "Lambayeque / Sicán Culture (Cultura Lambayeque / Sicán)", "CulturalAge", "south-america-precolumbian", 750, 1375, "CE",
+add("lambayeque-sican", {"en": "Lambayeque / Sicán Culture", "sv": "Lambayeque/Sicán-kulturen"}, "CulturalAge", "south-america-precolumbian", 750, 1375, "CE",
     "Northern Peru; Batán Grande and Túcume pyramids; Sicán Lord gold mask; master goldsmiths; Naylamp dynasty legend; conquered by Chimú.")
-add("chimu-empire", "Chimú Empire (Imperio Chimú / Chimor)", "CulturalAge", "south-america-precolumbian", 900, 1470, "CE",
+add("chimu-empire", {"en": "Chimú Empire", "sv": "Chimúriket"}, "CulturalAge", "south-america-precolumbian", 900, 1470, "CE",
     "Late Intermediate kingdom of northern Peru; Chan Chan (largest adobe city); sophisticated metalwork; conquered by Inca.")
-add("chachapoya", "Chachapoya Civilization (Civilización Chachapoya)", "CulturalAge", "south-america-precolumbian", 800, 1470, "CE",
+add("chachapoya", {"en": "Chachapoya Civilization", "sv": "Chachapoyacivilisationen"}, "CulturalAge", "south-america-precolumbian", 800, 1470, "CE",
     "Cloud Warriors of northern Peru; Kuélap fortress (stone citadel at 3,000 m); cliff tombs and sarcophagi; conquered by Inca; Revash mausolea.")
-add("muisca-confederation", "Muisca Confederation (Muysca / Confederación Muisca)", "CulturalAge", "south-america-precolumbian", 600, 1541, "CE",
+add("muisca-confederation", {"en": "Muisca Confederation", "sv": "Muiscakonfederationen"}, "CulturalAge", "south-america-precolumbian", 600, 1541, "CE",
     "Chibcha-speaking confederation in Colombian highlands; gold and tumbaga metalwork; El Dorado legend; salt and emerald trade.")
-add("tairona", "Tairona Civilization (Civilización Tairona)", "CulturalAge", "south-america-precolumbian", 200, 1600, "CE",
+add("tairona", {"en": "Tairona Civilization", "sv": "Taironacivilisationen"}, "CulturalAge", "south-america-precolumbian", 200, 1600, "CE",
     "Sierra Nevada de Santa Marta, Colombia; Ciudad Perdida (Teyuna); stone terraces and stairways; gold and tumbaga work; ancestors of Kogi people.")
-add("tierradentro", "Tierradentro Culture (Cultura de Tierradentro)", "CulturalAge", "south-america-precolumbian", 600, 900, "CE",
+add("tierradentro", {"en": "Tierradentro Culture", "sv": "Tierradentrokulturen"}, "CulturalAge", "south-america-precolumbian", 600, 900, "CE",
     "Underground hypogea (burial chambers) carved into volcanic rock, Colombia; painted geometric designs; UNESCO World Heritage Site; Páez territory.")
-add("san-agustin-culture", "San Agustín Culture (Cultura de San Agustín)", "CulturalAge", "south-america-precolumbian", 100, 1350, "CE",
+add("san-agustin-culture", {"en": "San Agustín Culture", "sv": "San Agustín-kulturen"}, "CulturalAge", "south-america-precolumbian", 100, 1350, "CE",
     "Pre-Columbian culture of southwestern Colombia; monumental stone sculptures and burial mounds; UNESCO World Heritage Site.")
-add("mapuche-precolonial", "Mapuche (Pre-Colonial / Mapudungun)", "CulturalAge", "south-america-precolumbian", 600, 1550, "CE",
+add("mapuche-precolonial", {"en": "Mapuche", "sv": "Mapuche"}, "CulturalAge", "south-america-precolumbian", 600, 1550, "CE",
     "Indigenous people of south-central Chile and Argentina; agricultural and pastoral; fierce resistance to Inca and Spanish expansion.")
-add("marajoara-culture", "Marajoara Culture (Cultura Marajoara)", "CulturalAge", "south-america-precolumbian", 400, 1300, "CE",
+add("marajoara-culture", {"en": "Marajoara Culture", "sv": "Marajoarakulturen"}, "CulturalAge", "south-america-precolumbian", 400, 1300, "CE",
     "Marajó Island, Amazon estuary, Brazil; elaborate polychrome ceramics; earthen mounds (tesos); complex chiefdom; challenging 'virgin Amazon' myth.")
-add("diaguita", "Diaguita Culture (Cultura Diaguita)", "CulturalAge", "south-america-precolumbian", 800, 1536, "CE",
+add("diaguita", {"en": "Diaguita Culture", "sv": "Diaguitakulturen"}, "CulturalAge", "south-america-precolumbian", 800, 1536, "CE",
     "Northwestern Argentina and Chilean Norte Chico; distinctive geometric pottery; terraced agriculture; fortified settlements (pucará); resisted Inca then Spanish.")
-add("guarani-precolonial", "Guaraní (Pre-Colonial / Avañe'ẽ)", "CulturalAge", "south-america-precolumbian", 500, 1537, "CE",
+add("guarani-precolonial", {"en": "Guaraní", "sv": "Guaraní"}, "CulturalAge", "south-america-precolumbian", 500, 1537, "CE",
     "Tupi-Guaraní peoples of Paraguay, Brazil, and Argentina; slash-and-burn agriculture; canoe navigation; religious migrations (Land Without Evil).")
-add("selknam", "Selk'nam Period (Ona People)", "CulturalAge", "south-america-precolumbian", 8000, 1900, "BCE-CE",
+add("selknam", {"en": "Selk'nam Period", "sv": "Selk'namperioden"}, "CulturalAge", "south-america-precolumbian", 8000, 1900, "BCE-CE",
     "Tierra del Fuego hunter-gatherer cultural tradition; Hain initiation ceremony; guanaco hunters; body painting; genocided during Patagonian sheep boom (late 1800s).")
 
 # --- Inca Empire ---
-add("inca-empire", "Inca Empire (Tawantinsuyu)", "CulturalAge", "south-america-precolumbian", 1438, 1533, "CE",
+add("inca-empire", {"en": "Inca Empire", "sv": "Inkariket", "qu": "Tawantinsuyu"}, "CulturalAge", "south-america-precolumbian", 1438, 1533, "CE",
     "Largest pre-Columbian empire; Cusco as capital; Machu Picchu; quipu record-keeping; road system (Qhapaq Ñan); conquered by Pizarro.")
-add("inca-expansion", "Inca Expansion Period (Hatun Tawantinsuyu)", "CulturalAge", "inca-empire", 1438, 1493, "CE",
+add("inca-expansion", {"en": "Inca Expansion Period", "sv": "Inkaimperiets expansionsperiod"}, "CulturalAge", "inca-empire", 1438, 1493, "CE",
     "Pachacuti and Túpac Inca Yupanqui expand Tawantinsuyu from Ecuador to Chile; conquer Chimú; build Machu Picchu.")
-add("inca-huayna-capac", "Reign of Huayna Cápac (Wayna Qhapaq)", "CulturalAge", "inca-empire", 1493, 1527, "CE",
+add("inca-huayna-capac", {"en": "Reign of Huayna Cápac", "sv": "Huayna Cápacs regeringstid"}, "CulturalAge", "inca-empire", 1493, 1527, "CE",
     "Empire at greatest extent; integration of conquered peoples; smallpox arrives before Spanish contact; death triggers civil war.")
-add("inca-civil-war", "Inca Civil War (Atawallpa–Waskhar Awqanakuy)", "CulturalAge", "inca-empire", 1529, 1532, "CE",
+add("inca-civil-war", {"en": "Inca Civil War", "sv": "Inkainbördeskriget"}, "CulturalAge", "inca-empire", 1529, 1532, "CE",
     "War of succession between Atahualpa and Huáscar; weakens empire on eve of Spanish arrival; Atahualpa's generals capture Huáscar and Cusco.")
 
 # --- Colonial Period ---
-add("south-america-colonial", "Colonial South America (América del Sur colonial)", "CulturalAge", "holocene", 1492, 1825, "CE",
+add("south-america-colonial", {"en": "Colonial South America", "sv": "Kolonialt Sydamerika"}, "CulturalAge", "holocene", 1492, 1825, "CE",
     "European colonization of South America; Spanish and Portuguese empires; encomienda and hacienda systems; Jesuit missions.")
-add("spanish-conquest-sa", "Spanish Conquest of South America (Conquista de América del Sur)", "CulturalAge", "south-america-colonial", 1532, 1572, "CE",
+add("spanish-conquest-sa", {"en": "Spanish Conquest of South America", "sv": "Spanska erövringen av Sydamerika"}, "CulturalAge", "south-america-colonial", 1532, 1572, "CE",
     "Pizarro captures Atahualpa (1532); fall of Cusco (1533); Neo-Inca resistance at Vilcabamba until 1572; Potosí silver discovered (1545).")
-add("portuguese-brazil-colonial", "Portuguese Colonial Brazil (Brasil Colonial)", "CulturalAge", "south-america-colonial", 1500, 1822, "CE",
+add("portuguese-brazil-colonial", {"en": "Portuguese Colonial Brazil", "sv": "Koloniala Brasilien"}, "CulturalAge", "south-america-colonial", 1500, 1822, "CE",
     "Cabral claims Brazil (1500); sugar plantations; Atlantic slave trade; gold rush in Minas Gerais (1690s); Rio becomes capital (1763).")
-add("viceroyalty-peru", "Viceroyalty of Peru (Virreinato del Perú)", "CulturalAge", "south-america-colonial", 1542, 1824, "CE",
+add("viceroyalty-peru", {"en": "Viceroyalty of Peru", "sv": "Vicekungadömet Peru"}, "CulturalAge", "south-america-colonial", 1542, 1824, "CE",
     "Spanish colonial administration covering most of South America; Lima as capital; Potosí silver mines; encomienda; Baroque churches.")
-add("viceroyalty-new-granada", "Viceroyalty of New Granada (Virreinato de Nueva Granada)", "CulturalAge", "south-america-colonial", 1717, 1819, "CE",
+add("viceroyalty-new-granada", {"en": "Viceroyalty of New Granada", "sv": "Vicekungadömet Nya Granada"}, "CulturalAge", "south-america-colonial", 1717, 1819, "CE",
     "Spanish colony covering modern Colombia, Ecuador, Venezuela, Panama; Bogotá as capital; separated from Viceroyalty of Peru.")
-add("viceroyalty-rio-plata", "Viceroyalty of the Río de la Plata (Virreinato del Río de la Plata)", "CulturalAge", "south-america-colonial", 1776, 1814, "CE",
+add("viceroyalty-rio-plata", {"en": "Viceroyalty of the Río de la Plata", "sv": "Vicekungadömet Río de la Plata"}, "CulturalAge", "south-america-colonial", 1776, 1814, "CE",
     "Spanish colony covering modern Argentina, Uruguay, Paraguay, Bolivia; Buenos Aires as capital; cattle ranching; gaucho culture emerges.")
-add("jesuit-missions-guarani", "Jesuit Missions of the Guaraní (Misiones Jesuíticas Guaraníes)", "CulturalAge", "south-america-colonial", 1609, 1767, "CE",
+add("jesuit-missions-guarani", {"en": "Jesuit Missions of the Guaraní", "sv": "Jesuiternas guaranímissioner"}, "CulturalAge", "south-america-colonial", 1609, 1767, "CE",
     "Jesuit reductions in Paraguay, Argentina, Brazil; autonomous theocratic communities; Guaraní autonomy; expelled 1767 by Spanish Crown.")
-add("potosi-silver", "Silver Age of Potosí (Auge de la Plata de Potosí)", "CulturalAge", "south-america-colonial", 1545, 1800, "CE",
+add("potosi-silver", {"en": "Silver Age of Potosí", "sv": "Potosís silverepok"}, "CulturalAge", "south-america-colonial", 1545, 1800, "CE",
     "Cerro Rico, Potosí (Bolivia); one of the largest silver deposits ever; forced indigenous labor (mita); funded Spanish Empire; population peaked at ~200,000.")
-add("tupac-amaru-rebellion", "Túpac Amaru II Rebellion (Rebelión de Túpac Amaru II)", "CulturalAge", "south-america-colonial", 1780, 1783, "CE",
+add("tupac-amaru-rebellion", {"en": "Túpac Amaru II Rebellion", "sv": "Túpac Amaru II:s uppror"}, "CulturalAge", "south-america-colonial", 1780, 1783, "CE",
     "Indigenous uprising against Spanish colonial rule in Peru and Bolivia; led by José Gabriel Condorcanqui; ~100,000 dead; precursor to independence.")
 
 # --- Independence Era ---
-add("south-america-independence", "South American Wars of Independence (Guerras de independencia hispanoamericanas)", "CulturalAge", "modern-period", 1808, 1833, "CE",
+add("south-america-independence", {"en": "South American Wars of Independence", "sv": "Sydamerikas befrielsekrig"}, "CulturalAge", "modern-period", 1808, 1833, "CE",
     "Liberation movements across South America; inspired by American and French Revolutions; Napoleonic invasion of Spain as catalyst.")
-add("independence-argentina", "Argentine War of Independence (Guerra de Independencia Argentina)", "CulturalAge", "south-america-independence", 1810, 1818, "CE",
+add("independence-argentina", {"en": "Argentine War of Independence", "sv": "Argentinska befrielsekrig"}, "CulturalAge", "south-america-independence", 1810, 1818, "CE",
     "May Revolution (1810); Congress of Tucumán declares independence (1816); San Martín crosses the Andes; United Provinces of the Río de la Plata.")
-add("independence-chile", "Chilean War of Independence (Guerra de la Independencia de Chile)", "CulturalAge", "south-america-independence", 1810, 1826, "CE",
+add("independence-chile", {"en": "Chilean War of Independence", "sv": "Chilenska befrielsekrig"}, "CulturalAge", "south-america-independence", 1810, 1826, "CE",
     "First junta (1810); Patria Vieja and Reconquista; San Martín and O'Higgins victory at Chacabuco (1817); independence declared 1818.")
-add("independence-gran-colombia", "Gran Colombia and Bolívar's Campaign (Campaña de Bolívar)", "CulturalAge", "south-america-independence", 1811, 1830, "CE",
+add("independence-gran-colombia", {"en": "Gran Colombia and Bolívar's Campaign", "sv": "Storcolombia och Bolívars fälttåg"}, "CulturalAge", "south-america-independence", 1811, 1830, "CE",
     "Simón Bolívar liberates Venezuela, Colombia, Ecuador; Gran Colombia (1819-1831); Battle of Boyacá (1819); Sucre at Ayacucho (1824).")
-add("independence-peru", "Peruvian War of Independence (Guerra de Independencia del Perú)", "CulturalAge", "south-america-independence", 1820, 1824, "CE",
+add("independence-peru", {"en": "Peruvian War of Independence", "sv": "Peruanska befrielsekrig"}, "CulturalAge", "south-america-independence", 1820, 1824, "CE",
     "San Martín declares independence (1821); Bolívar and Sucre complete liberation; Battle of Ayacucho (1824) ends Spanish rule in South America.")
-add("independence-brazil", "Brazilian Independence (Independência do Brasil)", "CulturalAge", "south-america-independence", 1822, 1825, "CE",
+add("independence-brazil", {"en": "Brazilian Independence", "sv": "Brasiliansk självständighet"}, "CulturalAge", "south-america-independence", 1822, 1825, "CE",
     "Prince Pedro declares independence from Portugal (1822, 'Grito do Ipiranga'); Empire of Brazil established; Pedro I crowned Emperor.")
-add("independence-uruguay", "Uruguayan Independence (Independencia del Uruguay)", "CulturalAge", "south-america-independence", 1811, 1828, "CE",
+add("independence-uruguay", {"en": "Uruguayan Independence", "sv": "Uruguays självständighet"}, "CulturalAge", "south-america-independence", 1811, 1828, "CE",
     "Artigas leads Oriental revolution; Cisplatine Province under Brazil; independence recognized 1828 (Treaty of Montevideo).")
-add("independence-paraguay", "Paraguayan Independence (Independencia del Paraguay)", "CulturalAge", "south-america-independence", 1811, 1813, "CE",
+add("independence-paraguay", {"en": "Paraguayan Independence", "sv": "Paraguays självständighet"}, "CulturalAge", "south-america-independence", 1811, 1813, "CE",
     "Bloodless revolution (1811); one of the first South American nations to gain independence; Francia's isolationist dictatorship follows.")
-add("independence-bolivia", "Bolivian Independence (Independencia de Bolivia)", "CulturalAge", "south-america-independence", 1809, 1825, "CE",
+add("independence-bolivia", {"en": "Bolivian Independence", "sv": "Bolivias självständighet"}, "CulturalAge", "south-america-independence", 1809, 1825, "CE",
     "First Cry of Freedom in Chuquisaca (1809); Sucre defeats Spanish at Ayacucho; Republic of Bolivia named for Simón Bolívar (1825).")
 
 # --- 19th Century South America ---
-add("empire-brazil", "Empire of Brazil (Império do Brasil)", "CulturalAge", "modern-period", 1822, 1889, "CE",
+add("empire-brazil", {"en": "Empire of Brazil", "sv": "Kejsardömet Brasilien"}, "CulturalAge", "modern-period", 1822, 1889, "CE",
     "Constitutional monarchy under Pedro I and Pedro II; coffee economy; abolition of slavery (Lei Áurea 1888); overthrown by military republic.")
-add("gran-colombia", "Gran Colombia (La Gran Colombia)", "CulturalAge", "modern-period", 1819, 1831, "CE",
+add("gran-colombia", {"en": "Gran Colombia", "sv": "Storcolombia"}, "CulturalAge", "modern-period", 1819, 1831, "CE",
     "Union of Venezuela, Colombia, Ecuador, Panama under Bolívar; dissolved due to regional rivalries; Bolívar dies 1830.")
-add("war-of-the-pacific", "War of the Pacific (Guerra del Pacífico)", "CulturalAge", "modern-period", 1879, 1884, "CE",
+add("war-of-the-pacific", {"en": "War of the Pacific", "sv": "the Pacifickriget"}, "CulturalAge", "modern-period", 1879, 1884, "CE",
     "Chile vs. Bolivia and Peru over nitrate-rich Atacama; Chile victorious; Bolivia loses coastal access; shapes modern borders.")
-add("war-of-triple-alliance", "War of the Triple Alliance (Guerra de la Triple Alianza / Guerra Guasu)", "CulturalAge", "modern-period", 1864, 1870, "CE",
+add("war-of-triple-alliance", {"en": "War of the Triple Alliance", "sv": "the Triple Alliancekriget"}, "CulturalAge", "modern-period", 1864, 1870, "CE",
     "Paraguay vs. Argentina, Brazil, Uruguay; most destructive war in South American history; Paraguay loses ~60-70% of its population.")
-add("rubber-boom", "Amazon Rubber Boom (Ciclo da Borracha)", "CulturalAge", "modern-period", 1879, 1912, "CE",
+add("rubber-boom", {"en": "Amazon Rubber Boom", "sv": "Amazonas gummiboom"}, "CulturalAge", "modern-period", 1879, 1912, "CE",
     "Manaus and Belém prosper from rubber exports; Teatro Amazonas built; indigenous exploitation; ends when Asian plantations undercut prices.")
 
 # --- 20th Century South America ---
-add("south-america-20th", "20th-Century South America (América del Sur en el siglo XX)", "CulturalAge", "contemporary", 1914, 2000, "CE",
+add("south-america-20th", {"en": "20th-Century South America", "sv": "Sydamerika under 1900-talet"}, "CulturalAge", "contemporary", 1914, 2000, "CE",
     "Urbanization, populism, military dictatorships, Cold War proxy conflicts, democratization; Peronism, Allende, Pinochet, Vargas.")
-add("peronism-era", "Peronist Era (Argentina)", "CulturalAge", "south-america-20th", 1943, 1976, "CE",
+add("peronism-era", {"en": "Peronist Era", "sv": "Peronistperioden"}, "CulturalAge", "south-america-20th", 1943, 1976, "CE",
     "Juan Perón and Evita; justicialismo; workers' rights and industrialization; exile, return, and military overthrow; enduring political movement.")
-add("vargas-era", "Vargas Era (Brazil)", "CulturalAge", "south-america-20th", 1930, 1954, "CE",
+add("vargas-era", {"en": "Vargas Era", "sv": "Vargasperioden"}, "CulturalAge", "south-america-20th", 1930, 1954, "CE",
     "Getúlio Vargas modernizes Brazil; Estado Novo dictatorship (1937-1945); industrialization; labor laws; suicide in office (1954).")
-add("dirty-wars", "Dirty Wars (Southern Cone)", "CulturalAge", "south-america-20th", 1968, 1990, "CE",
+add("dirty-wars", {"en": "Dirty Wars", "sv": "Smutsiga krigen"}, "CulturalAge", "south-america-20th", 1968, 1990, "CE",
     "Military dictatorships and state terrorism in Argentina, Chile, Uruguay, Brazil; Operation Condor; desaparecidos; ~60,000+ killed or disappeared.")
-add("pinochet-chile", "Pinochet Regime (Chile)", "CulturalAge", "dirty-wars", 1973, 1990, "CE",
+add("pinochet-chile", {"en": "Pinochet Regime", "sv": "Pinochetregimen"}, "CulturalAge", "dirty-wars", 1973, 1990, "CE",
     "CIA-backed coup against Allende (1973); military dictatorship under Augusto Pinochet; neoliberal economic reforms; ~3,000 killed or disappeared.")
-add("falklands-war", "Falklands War (Malvinas)", "CulturalAge", "south-america-20th", 1982, 1982, "CE",
+add("falklands-war", {"en": "Falklands War", "sv": "Falklandskriget"}, "CulturalAge", "south-america-20th", 1982, 1982, "CE",
     "Argentina invades British Falkland Islands; 74-day war; British victory; 649 Argentine and 255 British dead; accelerates fall of Argentine junta.")
 
 # --- 21st Century & Contemporary ---
-add("south-america-21st", "21st-Century South America (América del Sur en el siglo XXI)", "CulturalAge", "contemporary", 2000, 0, "CE",
+add("south-america-21st", {"en": "21st-Century South America", "sv": "Sydamerika under 2000-talet"}, "CulturalAge", "contemporary", 2000, 0, "CE",
     "Pink tide leftist governments; commodity boom; democratic consolidation; Mercosur and UNASUR; environmental challenges in Amazon.")
-add("pink-tide", "Pink Tide (Marea Rosa)", "CulturalAge", "contemporary", 1998, 2015, "CE",
+add("pink-tide", {"en": "Pink Tide", "sv": "Rosa vågen"}, "CulturalAge", "contemporary", 1998, 2015, "CE",
     "Wave of left-wing governments: Chávez (Venezuela), Lula (Brazil), Morales (Bolivia), Correa (Ecuador), Kirchner (Argentina); social programs, resource nationalism.")
 
 # ═══════════════════════════════════════════════════════════════
@@ -1063,209 +1080,209 @@ add("pink-tide", "Pink Tide (Marea Rosa)", "CulturalAge", "contemporary", 1998, 
 # ═══════════════════════════════════════════════════════════════
 
 # --- Paleo-Indian & Archaic ---
-add("north-america-precolumbian", "Pre-Columbian North America (América del Norte precolombina)", "CulturalAge", "holocene", 15000, 1492, "BCE-CE",
+add("north-america-precolumbian", {"en": "Pre-Columbian North America", "sv": "Förkolumbisk Nordamerika"}, "CulturalAge", "holocene", 15000, 1492, "BCE-CE",
     "Indigenous civilizations of North America before European contact; from Clovis hunters to complex societies of Mesoamerica and the Southwest.")
-add("monte-verde", "Monte Verde (Monteverde)", "CulturalAge", "south-america-precolumbian", 14800, 13800, "BCE",
+add("monte-verde", {"en": "Monte Verde", "sv": "Monte Verde"}, "CulturalAge", "south-america-precolumbian", 14800, 13800, "BCE",
     "Southern Chile; pre-Clovis archaeological site; evidence of human habitation ~14,800 BCE; challenges Clovis-first model; seaweed, mastodon remains; Tom Dillehay excavations.")
-add("paleo-indians", "Paleo-Indian Period (Período Paleoindio)", "CulturalAge", "north-america-precolumbian", 15000, 8000, "BCE",
+add("paleo-indians", {"en": "Paleo-Indian Period", "sv": "Paleoindian period"}, "CulturalAge", "north-america-precolumbian", 15000, 8000, "BCE",
     "First peoples of the Americas; Clovis culture (~13,000 BP); mammoth and megafauna hunters; Folsom points; Beringia land bridge migration.")
-add("clovis-culture", "Clovis Culture (Cultura Clovis)", "CulturalAge", "paleo-indians", 11050, 10750, "BCE",
+add("clovis-culture", {"en": "Clovis Culture", "sv": "Cloviskulturen"}, "CulturalAge", "paleo-indians", 11050, 10750, "BCE",
     "Distinctive fluted projectile points; widespread across North America; associated with Pleistocene megafauna hunting; Blackwater Draw type site.")
-add("folsom-culture", "Folsom Culture (Cultura Folsom)", "CulturalAge", "paleo-indians", 10800, 10200, "BCE",
+add("folsom-culture", {"en": "Folsom Culture", "sv": "Folsomkulturen"}, "CulturalAge", "paleo-indians", 10800, 10200, "BCE",
     "Post-Clovis bison hunters on Great Plains; refined fluted points; Folsom, New Mexico type site; megafauna extinction.")
-add("na-archaic-period", "Archaic Period (North America)", "CulturalAge", "north-america-precolumbian", 8000, 1000, "BCE",
+add("na-archaic-period", {"en": "Archaic Period", "sv": "Archaicperioden"}, "CulturalAge", "north-america-precolumbian", 8000, 1000, "BCE",
     "Post-megafauna adaptation; diversified subsistence; ground stone tools; regional traditions develop across the continent.")
-add("na-archaic-early", "Early Archaic (Arcaico Temprano)", "CulturalAge", "na-archaic-period", 8000, 5000, "BCE",
+add("na-archaic-early", {"en": "Early Archaic", "sv": "Tidig arkaisk period"}, "CulturalAge", "na-archaic-period", 8000, 5000, "BCE",
     "Adaptation to Holocene environments; Dalton and Kirk point traditions; increasing plant use; seasonal rounds.")
-add("na-archaic-middle", "Middle Archaic (Arcaico Medio)", "CulturalAge", "na-archaic-period", 5000, 3000, "BCE",
+add("na-archaic-middle", {"en": "Middle Archaic", "sv": "Mellanarkaisk period"}, "CulturalAge", "na-archaic-period", 5000, 3000, "BCE",
     "Population growth; specialized tool kits; long-distance exchange networks begin; Poverty Point site (Louisiana).")
-add("na-archaic-late", "Late Archaic (Arcaico Tardío)", "CulturalAge", "na-archaic-period", 3000, 1000, "BCE",
+add("na-archaic-late", {"en": "Late Archaic", "sv": "Senarkaisk period"}, "CulturalAge", "na-archaic-period", 3000, 1000, "BCE",
     "First pottery in Southeast; mound building begins; Poverty Point earthworks; early squash cultivation; copper tools in Great Lakes.")
-add("poverty-point", "Poverty Point Culture (Cultura de Poverty Point)", "CulturalAge", "na-archaic-late", 1700, 1100, "BCE",
+add("poverty-point", {"en": "Poverty Point Culture", "sv": "Poverty Point-kulturen"}, "CulturalAge", "na-archaic-late", 1700, 1100, "BCE",
     "Massive earthwork complex in Louisiana; concentric ridges, Mound A (largest in North America at the time); long-distance trade network.")
 
 # --- Mesoamerican Civilizations ---
-add("mesoamerica", "Mesoamerican Civilizations (Civilizaciones Mesoamericanas)", "CulturalAge", "north-america-precolumbian", 2000, 1521, "BCE-CE",
+add("mesoamerica", {"en": "Mesoamerican Civilizations", "sv": "Mesoamerikanska civilisationer"}, "CulturalAge", "north-america-precolumbian", 2000, 1521, "BCE-CE",
     "Complex civilizations of Mexico and Central America; writing, calendars, monumental architecture, agriculture (maize, beans, squash).")
-add("olmec", "Olmec Civilization (Ōlmēcah)", "CulturalAge", "mesoamerica", 1500, 400, "BCE",
+add("olmec", {"en": "Olmec Civilization", "sv": "Olmekisk civilisation", "nah": "Ōlmēcah"}, "CulturalAge", "mesoamerica", 1500, 400, "BCE",
     "Mother culture of Mesoamerica; colossal stone heads; San Lorenzo and La Venta; first Mesoamerican writing and calendar; rubber ball game.")
-add("zapotec", "Zapotec Civilization (Binnizá)", "CulturalAge", "mesoamerica", 700, 1521, "BCE-CE",
+add("zapotec", {"en": "Zapotec Civilization", "sv": "Zapotekisk civilisation", "zap": "Binnizá"}, "CulturalAge", "mesoamerica", 700, 1521, "BCE-CE",
     "Oaxaca Valley, Mexico; Monte Albán capital; earliest Mesoamerican writing system; 2,500-year continuous culture.")
-add("teotihuacan", "Teotihuacán (Teōtīhuacān)", "CulturalAge", "mesoamerica", 100, 750, "CE",
+add("teotihuacan", {"en": "Teotihuacán", "sv": "Teotihuacán", "nah": "Teōtīhuacān"}, "CulturalAge", "mesoamerica", 100, 750, "CE",
     "Largest city in pre-Columbian Americas (~125,000 people); Pyramids of the Sun and Moon; Avenue of the Dead; major fire ~550 CE; final abandonment ~750 CE.")
-add("maya-classic", "Classic Maya Civilization (Maaya)", "CulturalAge", "mesoamerica", 250, 900, "CE",
+add("maya-classic", {"en": "Classic Maya Civilization", "sv": "Klassisk mayacivilisation", "yua": "Maaya"}, "CulturalAge", "mesoamerica", 250, 900, "CE",
     "City-states across Yucatán, Guatemala, Belize; hieroglyphic writing; Long Count calendar; Tikal, Palenque, Copán; mysterious collapse ~900 CE.")
-add("maya-preclassic", "Preclassic Maya (Maya Preclásico)", "CulturalAge", "mesoamerica", 2000, 250, "BCE-CE",
+add("maya-preclassic", {"en": "Preclassic Maya", "sv": "Maya"}, "CulturalAge", "mesoamerica", 2000, 250, "BCE-CE",
     "Origins of Maya civilization; El Mirador massive pyramids; development of writing and calendar; early agriculture and village life.")
-add("maya-postclassic", "Postclassic Maya (Maya Posclásico)", "CulturalAge", "mesoamerica", 900, 1521, "CE",
+add("maya-postclassic", {"en": "Postclassic Maya", "sv": "Maya"}, "CulturalAge", "mesoamerica", 900, 1521, "CE",
     "After Classic collapse; Chichén Itzá, Mayapán, K'iche' kingdoms; Kukulkán/Quetzalcoatl cult; Spanish conquest of Yucatán.")
-add("toltec", "Toltec Empire (Imperio Tolteca / Tōltēcāyōtl)", "CulturalAge", "mesoamerica", 900, 1168, "CE",
+add("toltec", {"en": "Toltec Empire", "sv": "Toltecriket"}, "CulturalAge", "mesoamerica", 900, 1168, "CE",
     "Tula as capital; warrior culture; Quetzalcoatl legend; influence on Aztec ideology; feathered serpent imagery.")
-add("aztec-empire", "Aztec Empire / Triple Alliance (Ēxcān Tlahtōlōyān)", "CulturalAge", "mesoamerica", 1428, 1521, "CE",
+add("aztec-empire", {"en": "Aztec Empire / Triple Alliance", "sv": "Aztekiska riket", "nah": "Ēxcān Tlahtōlōyān"}, "CulturalAge", "mesoamerica", 1428, 1521, "CE",
     "Tenochtitlán on Lake Texcoco (~200,000 people); Mexica Triple Alliance; human sacrifice; chinampas; conquered by Cortés 1521.")
-add("aztec-rise", "Rise of the Aztecs (Ascenso de los Mexicas)", "CulturalAge", "mesoamerica", 1325, 1428, "CE",
+add("aztec-rise", {"en": "Rise of the Aztecs", "sv": "Aztekernas framväxt"}, "CulturalAge", "mesoamerica", 1325, 1428, "CE",
     "Founding of Tenochtitlán (1325); Mexica as mercenaries and vassals; Triple Alliance formed with Texcoco and Tlacopan (1428).")
-add("aztec-expansion", "Aztec Imperial Expansion (Expansión del Ēxcān Tlahtōlōyān)", "CulturalAge", "aztec-empire", 1428, 1502, "CE",
+add("aztec-expansion", {"en": "Aztec Imperial Expansion", "sv": "Aztekiska rikets expansion"}, "CulturalAge", "aztec-empire", 1428, 1502, "CE",
     "Itzcoatl, Moctezuma I, Ahuitzotl expand empire from Gulf to Pacific; flower wars; tribute system; Great Temple of Tenochtitlán.")
-add("aztec-moctezuma-ii", "Reign of Moctezuma II (Motēcuhzōma Xōcoyōtzin)", "CulturalAge", "aztec-empire", 1502, 1520, "CE",
+add("aztec-moctezuma-ii", {"en": "Reign of Moctezuma II", "sv": "Moctezuma II:s regeringstid"}, "CulturalAge", "aztec-empire", 1502, 1520, "CE",
     "Empire at greatest extent; omens and prophecies; arrival of Cortés (1519); Moctezuma captured; dies during La Noche Triste (1520).")
-add("mixtec", "Mixtec Civilization (Ñuu Dzahui / Civilización Mixteca)", "CulturalAge", "mesoamerica", 900, 1521, "CE",
+add("mixtec", {"en": "Mixtec Civilization", "sv": "Mixteccivilisationen"}, "CulturalAge", "mesoamerica", 900, 1521, "CE",
     "Oaxaca highlands; codex tradition (only pre-Columbian books to survive); Lord Eight Deer; goldsmithing; competed with Zapotec and Aztec.")
-add("purepecha", "Purépecha (Tarascan) Empire", "CulturalAge", "mesoamerica", 1300, 1530, "CE",
+add("purepecha", {"en": "Purépecha (Tarascan) Empire", "sv": "Purépecha-riket"}, "CulturalAge", "mesoamerica", 1300, 1530, "CE",
     "Western Mexico (Michoacán); never conquered by Aztecs; Tzintzuntzan capital; metalworking (copper, bronze); yácatas stepped pyramids.")
-add("totonac", "Totonac Civilization (Civilización Totonaca / Tachiwin)", "CulturalAge", "mesoamerica", 300, 1521, "CE",
+add("totonac", {"en": "Totonac Civilization", "sv": "Totonaccivilisationen"}, "CulturalAge", "mesoamerica", 300, 1521, "CE",
     "Veracruz Gulf coast; El Tajín with Pyramid of the Niches; Cempoala; allies of Cortés against Aztecs; voladores ceremony.")
-add("epi-olmec", "Epi-Olmec Culture (Cultura Epi-Olmeca)", "CulturalAge", "mesoamerica", 300, 250, "BCE-CE",
+add("epi-olmec", {"en": "Epi-Olmec Culture", "sv": "Epiolmekisk kultur"}, "CulturalAge", "mesoamerica", 300, 250, "BCE-CE",
     "Successor to Olmec in Veracruz; Tres Zapotes; La Mojarra stela with Long Count date; transitional between Olmec and Classic cultures.")
 
 # --- Woodland & Mississippian (Eastern North America) ---
-add("woodland-period", "Woodland Period (Período Woodland)", "CulturalAge", "north-america-precolumbian", 1000, 1000, "BCE-CE",
+add("woodland-period", {"en": "Woodland Period", "sv": "Woodlandperioden"}, "CulturalAge", "north-america-precolumbian", 1000, 1000, "BCE-CE",
     "Eastern North America; introduction of pottery, mound building, and incipient agriculture; Adena and Hopewell traditions.")
-add("adena-culture", "Adena Culture (Cultura Adena)", "CulturalAge", "woodland-period", 800, 100, "BCE",
+add("adena-culture", {"en": "Adena Culture", "sv": "Adenakulturen"}, "CulturalAge", "woodland-period", 800, 100, "BCE",
     "Ohio Valley mound builders; conical burial mounds; Adena pipe; early cultivation of sunflower, squash; long-distance trade.")
-add("hopewell-tradition", "Hopewell Tradition (Tradición Hopewell)", "CulturalAge", "woodland-period", 100, 500, "CE",
+add("hopewell-tradition", {"en": "Hopewell Tradition", "sv": "Hopewelltraditionen"}, "CulturalAge", "woodland-period", 100, 500, "CE",
     "Middle Woodland; elaborate burial mounds and earthworks; Hopewell Interaction Sphere; obsidian, copper, shells traded across continent.")
-add("mississippian-culture", "Mississippian Culture (Cultura Misisipiana)", "CulturalAge", "north-america-precolumbian", 800, 1600, "CE",
+add("mississippian-culture", {"en": "Mississippian Culture", "sv": "Mississippiankulturen"}, "CulturalAge", "north-america-precolumbian", 800, 1600, "CE",
     "Complex chiefdoms across Southeast and Midwest; platform mounds; maize agriculture; Cahokia as largest city north of Mexico.")
-add("cahokia", "Cahokia (Cahokia Mounds)", "CulturalAge", "mississippian-culture", 1050, 1350, "CE",
+add("cahokia", {"en": "Cahokia", "sv": "Cahokia"}, "CulturalAge", "mississippian-culture", 1050, 1350, "CE",
     "Largest pre-Columbian city north of Mexico (~20,000 people); Monks Mound (largest earthwork in Americas); Woodhenge; UNESCO World Heritage Site.")
-add("fort-ancient", "Fort Ancient Culture (Cultura Fort Ancient)", "CulturalAge", "mississippian-culture", 1000, 1650, "CE",
+add("fort-ancient", {"en": "Fort Ancient Culture", "sv": "Fort Ancient-kulturen"}, "CulturalAge", "mississippian-culture", 1000, 1650, "CE",
     "Ohio Valley; maize-based agriculture; circular villages; Serpent Mound (Great Serpent Mound); distinct from Mississippian but contemporaneous.")
-add("plaquemine", "Plaquemine Culture (Cultura Plaquemine)", "CulturalAge", "mississippian-culture", 1200, 1700, "CE",
+add("plaquemine", {"en": "Plaquemine Culture", "sv": "Plaqueminekulturen"}, "CulturalAge", "mississippian-culture", 1200, 1700, "CE",
     "Lower Mississippi Valley; platform mounds; evolved from Coles Creek; Winterville, Lake George sites; ancestral to Natchez.")
 
 # --- Southwest Cultures ---
-add("ancestral-pueblo", "Ancestral Puebloans (Anasazi)", "CulturalAge", "north-america-precolumbian", 100, 1600, "CE",
+add("ancestral-pueblo", {"en": "Ancestral Puebloans", "sv": "Pueblofolkets förfäder"}, "CulturalAge", "north-america-precolumbian", 100, 1600, "CE",
     "Four Corners region; cliff dwellings (Mesa Verde); Chaco Canyon great houses; kiva ceremonial architecture; maize, beans, squash agriculture.")
-add("chaco-canyon", "Chaco Canyon Florescence (Chaco Canyon / Tségháhoodzání)", "CulturalAge", "ancestral-pueblo", 850, 1150, "CE",
+add("chaco-canyon", {"en": "Chaco Canyon Florescence", "sv": "Chaco Canyons blomstringsperiod"}, "CulturalAge", "ancestral-pueblo", 850, 1150, "CE",
     "Chaco Culture; great houses (Pueblo Bonito); road network; astronomical alignments; regional trade center; UNESCO World Heritage Site.")
-add("hohokam", "Hohokam Culture (Huhugam)", "CulturalAge", "north-america-precolumbian", 300, 1450, "CE",
+add("hohokam", {"en": "Hohokam Culture", "sv": "Hohokamkulturen"}, "CulturalAge", "north-america-precolumbian", 300, 1450, "CE",
     "Southern Arizona; extensive canal irrigation (over 1,000 km); Snaketown; ball courts; Mesoamerican trade connections; ancestors of O'odham.")
-add("mogollon", "Mogollon Culture (Cultura Mogollón)", "CulturalAge", "north-america-precolumbian", 200, 1450, "CE",
+add("mogollon", {"en": "Mogollon Culture", "sv": "Mogollonkulturen"}, "CulturalAge", "north-america-precolumbian", 200, 1450, "CE",
     "Southwestern mountains (Arizona, New Mexico, Chihuahua); pithouses to pueblos; Mimbres pottery with distinctive black-on-white designs.")
 
 # --- Northwest Coast & Arctic ---
-add("northwest-coast", "Northwest Coast Cultures (Kulturer vid nordvästkusten)", "CulturalAge", "north-america-precolumbian", 3000, 1774, "BCE-CE",
+add("northwest-coast", {"en": "Northwest Coast Cultures", "sv": "Nordvästkustens kulturer"}, "CulturalAge", "north-america-precolumbian", 3000, 1774, "BCE-CE",
     "Pacific Northwest; Haida, Tlingit, Kwakwaka'wakw; cedar plank houses, totem poles, potlatch ceremonies; salmon-based economy; complex non-agricultural society.")
-add("thule-culture", "Thule Culture (Thulekulturen)", "CulturalAge", "north-america-precolumbian", 200, 1600, "CE",
+add("thule-culture", {"en": "Thule Culture", "sv": "Thulekulturen"}, "CulturalAge", "north-america-precolumbian", 200, 1600, "CE",
     "Arctic whale hunters; ancestors of modern Inuit; spread from Alaska across Canadian Arctic to Greenland; dog sleds, kayaks, umiaks.")
-add("dorset-culture", "Dorset Culture (Tuniit)", "CulturalAge", "north-america-precolumbian", 500, 1500, "BCE-CE",
+add("dorset-culture", {"en": "Dorset Culture", "sv": "Dorsetkulturen"}, "CulturalAge", "north-america-precolumbian", 500, 1500, "BCE-CE",
     "Paleo-Eskimo Arctic culture; replaced by Thule people; soapstone lamps, snow houses; miniature ivory carvings; no dog sleds or bows.")
 
 # --- Plains & Mound Builders ---
-add("plains-village", "Plains Village Period (Período de las Aldeas de las Llanuras)", "CulturalAge", "north-america-precolumbian", 1000, 1780, "CE",
+add("plains-village", {"en": "Plains Village Period", "sv": "Slättlandsbyperioden"}, "CulturalAge", "north-america-precolumbian", 1000, 1780, "CE",
     "Semi-sedentary farming communities on Great Plains; earth lodge villages; maize agriculture; Mandan, Hidatsa, Arikara, Pawnee, Wichita.")
-add("iroquois-confederacy", "Haudenosaunee (Iroquois) Confederacy", "CulturalAge", "north-america-precolumbian", 1450, 1776, "CE",
+add("iroquois-confederacy", {"en": "Haudenosaunee (Iroquois) Confederacy", "sv": "Irokesförbundet"}, "CulturalAge", "north-america-precolumbian", 1450, 1776, "CE",
     "Originally Five Nations (Mohawk, Oneida, Onondaga, Cayuga, Seneca; Tuscarora joined 1722); Great Law of Peace; longhouse society; influenced U.S. Constitution debates.")
-add("taino", "Taíno Civilization (Civilización Taína)", "CulturalAge", "north-america-precolumbian", 1200, 1550, "CE",
+add("taino", {"en": "Taíno Civilization", "sv": "Taínocivilisationen"}, "CulturalAge", "north-america-precolumbian", 1200, 1550, "CE",
     "Caribbean (Hispaniola, Puerto Rico, Cuba, Jamaica); first indigenous people encountered by Columbus; cacique chiefs; ball courts; zemí worship; decimated by colonization.")
-add("kalinago", "Kalinago (Island Caribs)", "CulturalAge", "north-america-precolumbian", 1200, 1700, "CE",
+add("kalinago", {"en": "Kalinago", "sv": "Kalinago"}, "CulturalAge", "north-america-precolumbian", 1200, 1700, "CE",
     "Lesser Antilles (Dominica, St. Vincent, Grenada); skilled seafarers and warriors; resisted European colonization longest in Caribbean; cassava cultivation.")
-add("saladoid", "Saladoid Culture (Cultura Saladoide)", "CulturalAge", "north-america-precolumbian", 500, 600, "BCE-CE",
+add("saladoid", {"en": "Saladoid Culture", "sv": "Saladoidkulturen"}, "CulturalAge", "north-america-precolumbian", 500, 600, "BCE-CE",
     "Orinoco River origin; spread through Lesser Antilles to Puerto Rico; white-on-red pottery (Saladero type site); ancestral to Taíno; introduced agriculture to Caribbean.")
-add("gran-cocle", "Gran Coclé Culture (Cultura Gran Coclé)", "CulturalAge", "north-america-precolumbian", 200, 1520, "CE",
+add("gran-cocle", {"en": "Gran Coclé Culture", "sv": "Gran Coclé-kulturen"}, "CulturalAge", "north-america-precolumbian", 200, 1520, "CE",
     "Central Panama; Sitio Conte gold and polychrome ceramics; elaborate burial goods; goldwork (huacas); bridge between Mesoamerican and South American traditions.")
-add("diquis", "Diquís Culture (Cultura Diquís)", "CulturalAge", "north-america-precolumbian", 700, 1530, "CE",
+add("diquis", {"en": "Diquís Culture", "sv": "Diquískulturen"}, "CulturalAge", "north-america-precolumbian", 700, 1530, "CE",
     "Southern Costa Rica; stone spheres (Las Bolas, UNESCO); gold figurines; complex chiefdoms; connection to Chibchan cultural area.")
-add("cherokee-nation", "Cherokee Nation (Pre-Removal)", "CulturalAge", "north-america-precolumbian", 1540, 1838, "CE",
+add("cherokee-nation", {"en": "Cherokee Nation", "sv": "Cherokeenationen"}, "CulturalAge", "north-america-precolumbian", 1540, 1838, "CE",
     "Southeast woodlands; one of 'Five Civilized Tribes'; Sequoyah's syllabary (1821); Cherokee Phoenix newspaper; Trail of Tears (1838).")
 
 # --- European Exploration & Colonial ---
-add("north-america-colonial", "Colonial North America (Nordamerika under kolonisationen)", "CulturalAge", "holocene", 1492, 1783, "CE",
+add("north-america-colonial", {"en": "Colonial North America", "sv": "Kolonialt Nordamerika"}, "CulturalAge", "holocene", 1492, 1783, "CE",
     "European colonization of North America; Spanish, French, English, Dutch settlements; fur trade; displacement of indigenous peoples.")
-add("spanish-exploration-na", "Spanish Exploration of North America (Exploración española de Norteamérica)", "CulturalAge", "north-america-colonial", 1492, 1600, "CE",
+add("spanish-exploration-na", {"en": "Spanish Exploration of North America", "sv": "Spansk utforskning av Nordamerika"}, "CulturalAge", "north-america-colonial", 1492, 1600, "CE",
     "Columbus (1492); Ponce de León in Florida (1513); Coronado explores Southwest (1540); de Soto crosses Southeast; St. Augustine founded (1565).")
-add("new-france", "New France (Nouvelle-France)", "CulturalAge", "north-america-colonial", 1534, 1763, "CE",
+add("new-france", {"en": "New France", "sv": "Nya Frankrike"}, "CulturalAge", "north-america-colonial", 1534, 1763, "CE",
     "French colonial empire; Cartier, Champlain; Quebec (1608), Montreal (1642); fur trade; coureurs des bois; alliance with Huron-Wendat; ceded to Britain 1763.")
-add("new-spain-north", "New Spain (Northern Frontier)", "CulturalAge", "north-america-colonial", 1521, 1821, "CE",
+add("new-spain-north", {"en": "New Spain", "sv": "Nya Spanien"}, "CulturalAge", "north-america-colonial", 1521, 1821, "CE",
     "Spanish colonial frontier; missions and presidios; California missions (1769–1833); Santa Fe (1610); mestizo culture; Mexican independence ends era.")
-add("thirteen-colonies", "Thirteen British Colonies (Tretton kolonierna)", "CulturalAge", "north-america-colonial", 1607, 1776, "CE",
+add("thirteen-colonies", {"en": "Thirteen British Colonies", "sv": "De tretton brittiska kolonierna"}, "CulturalAge", "north-america-colonial", 1607, 1776, "CE",
     "Jamestown (1607), Plymouth (1620), Massachusetts Bay; tobacco and slavery in South; town meetings in New England; growing self-governance.")
-add("new-netherland", "New Netherland (Nieuw-Nederland)", "CulturalAge", "north-america-colonial", 1614, 1667, "CE",
+add("new-netherland", {"en": "New Netherland", "sv": "Nya Nederländerna"}, "CulturalAge", "north-america-colonial", 1614, 1667, "CE",
     "Dutch colony; New Amsterdam (Manhattan); fur trade with Lenape and Mohawk; diverse population; conquered by English (1664), becomes New York.")
-add("french-indian-war", "French and Indian War (Guerre de la Conquête)", "CulturalAge", "north-america-colonial", 1754, 1763, "CE",
+add("french-indian-war", {"en": "French and Indian War", "sv": "Franska och indianska kriget"}, "CulturalAge", "north-america-colonial", 1754, 1763, "CE",
     "North American theater of Seven Years' War; British defeat France; Treaty of Paris (1763); France cedes Canada; sets stage for American Revolution.")
 
 # --- American Revolution & Early Republic ---
-add("american-revolution", "American Revolution (Amerikanska revolutionen)", "CulturalAge", "holocene", 1765, 1783, "CE",
+add("american-revolution", {"en": "American Revolution", "sv": "Amerikanska revolutionen"}, "CulturalAge", "holocene", 1765, 1783, "CE",
     "Colonial resistance to British taxation; Declaration of Independence (1776); Revolutionary War; Treaty of Paris (1783); birth of the United States.")
-add("early-american-republic", "Early American Republic (Tidiga amerikanska republiken)", "CulturalAge", "holocene", 1783, 1815, "CE",
+add("early-american-republic", {"en": "Early American Republic", "sv": "Tidiga amerikanska republiken"}, "CulturalAge", "holocene", 1783, 1815, "CE",
     "Constitution ratified (1788); Bill of Rights; Washington, Adams, Jefferson; Louisiana Purchase (1803); War of 1812; westward expansion begins.")
-add("jacksonian-era", "Jacksonian Era (Den jacksonianska eran)", "CulturalAge", "modern-period", 1828, 1850, "CE",
+add("jacksonian-era", {"en": "Jacksonian Era", "sv": "Jacksonska eran"}, "CulturalAge", "modern-period", 1828, 1850, "CE",
     "Andrew Jackson; expansion of white male suffrage; Indian Removal Act (1830); Trail of Tears; Manifest Destiny; Mexican-American War (1846-1848).")
 
 # --- Westward Expansion & Civil War ---
-add("antebellum-period", "Antebellum Period (Antebellumperioden)", "CulturalAge", "modern-period", 1815, 1861, "CE",
+add("antebellum-period", {"en": "Antebellum Period", "sv": "Antebellumperioden"}, "CulturalAge", "modern-period", 1815, 1861, "CE",
     "Pre-Civil War era; cotton kingdom and slave economy; abolitionist movement; Underground Railroad; Missouri Compromise; Compromise of 1850.")
-add("american-civil-war", "American Civil War (Amerikanska inbördeskriget)", "CulturalAge", "modern-period", 1861, 1865, "CE",
+add("american-civil-war", {"en": "American Civil War", "sv": "Amerikanska inbördeskriget"}, "CulturalAge", "modern-period", 1861, 1865, "CE",
     "Union vs. Confederacy; slavery as central cause; ~620,000 dead; Emancipation Proclamation (1863); Lee surrenders at Appomattox (1865).")
-add("reconstruction", "Reconstruction Era (Rekonstruktionseran)", "CulturalAge", "modern-period", 1865, 1877, "CE",
+add("reconstruction", {"en": "Reconstruction Era", "sv": "Rekonstruktionseran"}, "CulturalAge", "modern-period", 1865, 1877, "CE",
     "Post-Civil War rebuilding; 13th-15th Amendments; freedmen's rights; Ku Klux Klan backlash; ends with Compromise of 1877; Jim Crow begins.")
-add("gilded-age", "Gilded Age (Den förgyllda tidsåldern)", "CulturalAge", "modern-period", 1877, 1900, "CE",
+add("gilded-age", {"en": "Gilded Age", "sv": "Den förgyllda tidsåldern"}, "CulturalAge", "modern-period", 1877, 1900, "CE",
     "Rapid industrialization; robber barons (Carnegie, Rockefeller, Vanderbilt); immigration waves; labor unrest; railroads; Native American displacement.")
-add("mexican-american-war", "Mexican–American War (Intervención estadounidense en México)", "CulturalAge", "modern-period", 1846, 1848, "CE",
+add("mexican-american-war", {"en": "Mexican–American War", "sv": "Mexikansk-amerikanska kriget"}, "CulturalAge", "modern-period", 1846, 1848, "CE",
     "U.S. vs. Mexico; annexation of Texas as catalyst; Treaty of Guadalupe Hidalgo; Mexico cedes California, New Mexico, Arizona; ~55% of territory lost.")
-add("california-gold-rush", "California Gold Rush (Guldrushen i Kalifornien)", "CulturalAge", "modern-period", 1848, 1855, "CE",
+add("california-gold-rush", {"en": "California Gold Rush", "sv": "Guldrushen i Kalifornien"}, "CulturalAge", "modern-period", 1848, 1855, "CE",
     "Gold discovered at Sutter's Mill (1848); ~300,000 migrants ('49ers); California statehood (1850); devastation of Native Californians; San Francisco boom.")
-add("indian-wars", "Indian Wars (Indiankrigen)", "CulturalAge", "modern-period", 1860, 1890, "CE",
+add("indian-wars", {"en": "Indian Wars", "sv": "Indiankrigen"}, "CulturalAge", "modern-period", 1860, 1890, "CE",
     "U.S. military campaigns against Indigenous nations; Sand Creek (1864); Little Bighorn (1876); Wounded Knee (1890); reservation system; Dawes Act.")
-add("spanish-american-war", "Spanish–American War (Guerra hispano-estadounidense)", "CulturalAge", "modern-period", 1898, 1898, "CE",
+add("spanish-american-war", {"en": "Spanish–American War", "sv": "Spansk-amerikanska kriget"}, "CulturalAge", "modern-period", 1898, 1898, "CE",
     "U.S. vs. Spain; USS Maine; 'splendid little war'; U.S. gains Cuba, Puerto Rico, Guam, Philippines; emergence as world power.")
 
 # --- Mexican History ---
-add("mexican-history", "Mexican Historical Periods (Periodos históricos de México)", "CulturalAge", "holocene", 1521, 0, "CE",
+add("mexican-history", {"en": "Mexican Historical Periods", "sv": "Mexikanska historiska perioder"}, "CulturalAge", "holocene", 1521, 0, "CE",
     "Post-conquest Mexico; colonial New Spain, independence, revolution, and modern nation-state.")
-add("colonial-mexico", "Colonial Mexico (New Spain)", "CulturalAge", "mexican-history", 1521, 1821, "CE",
+add("colonial-mexico", {"en": "Colonial Mexico", "sv": "Koloniala Mexiko"}, "CulturalAge", "mexican-history", 1521, 1821, "CE",
     "Spanish viceroyalty; encomienda system; silver mining (Zacatecas, Guanajuato); Baroque art and architecture; mestizo and creole society.")
-add("mexican-independence", "Mexican War of Independence (Guerra de Independencia de México)", "CulturalAge", "mexican-history", 1810, 1821, "CE",
+add("mexican-independence", {"en": "Mexican War of Independence", "sv": "Mexikanska självständighetskriget"}, "CulturalAge", "mexican-history", 1810, 1821, "CE",
     "Grito de Dolores (1810, Father Hidalgo); Morelos; Iturbide declares independence (1821); First Mexican Empire briefly established.")
-add("mexican-republic-early", "Early Mexican Republic (Primera República Mexicana)", "CulturalAge", "mexican-history", 1824, 1876, "CE",
+add("mexican-republic-early", {"en": "Early Mexican Republic", "sv": "Tidiga mexikanska republiken"}, "CulturalAge", "mexican-history", 1824, 1876, "CE",
     "Federal republic; Texas independence (1836); Mexican-American War (1846-1848); loss of half territory; Benito Juárez; French Intervention; Maximilian.")
-add("french-intervention-mexico", "French Intervention in Mexico (Segunda intervención francesa en México)", "CulturalAge", "mexican-history", 1861, 1867, "CE",
+add("french-intervention-mexico", {"en": "French Intervention in Mexico", "sv": "Franska interventionen i Mexiko"}, "CulturalAge", "mexican-history", 1861, 1867, "CE",
     "Napoleon III installs Maximilian as Emperor; Cinco de Mayo (1862, Battle of Puebla); Republican resistance under Juárez; Maximilian executed 1867.")
-add("cristero-war", "Cristero War (Guerra Cristera)", "CulturalAge", "mexican-history", 1926, 1929, "CE",
+add("cristero-war", {"en": "Cristero War", "sv": "Cristerokriget"}, "CulturalAge", "mexican-history", 1926, 1929, "CE",
     "Catholic uprising against anticlerical laws of Calles government; ~90,000 dead; arreglos settlement; shaped Church-state relations in Mexico.")
-add("porfiriato", "Porfiriato (El Porfiriato)", "CulturalAge", "mexican-history", 1876, 1911, "CE",
+add("porfiriato", {"en": "Porfiriato", "sv": "Porfiriato"}, "CulturalAge", "mexican-history", 1876, 1911, "CE",
     "Porfirio Díaz dictatorship; modernization, railways, foreign investment; extreme inequality; hacienda system; triggers revolution.")
-add("mexican-revolution", "Mexican Revolution (Revolución Mexicana)", "CulturalAge", "mexican-history", 1910, 1920, "CE",
+add("mexican-revolution", {"en": "Mexican Revolution", "sv": "Mexikanska revolutionen"}, "CulturalAge", "mexican-history", 1910, 1920, "CE",
     "Madero, Villa, Zapata, Carranza, Obregón; 'Land and Liberty'; Constitution of 1917; agrarian reform; ~1-2 million dead.")
-add("mexico-post-revolution", "Post-Revolutionary Mexico (México posrevolucionario)", "CulturalAge", "mexican-history", 1920, 2000, "CE",
+add("mexico-post-revolution", {"en": "Post-Revolutionary Mexico", "sv": "Postrevolutionärt Mexiko"}, "CulturalAge", "mexican-history", 1920, 2000, "CE",
     "PRI one-party rule (1929-2000); muralist movement (Rivera, Orozco, Siqueiros); oil nationalization (1938); NAFTA (1994); Zapatista uprising.")
 
 # --- Canadian History ---
-add("canadian-history", "Canadian Historical Periods (Périodes historiques du Canada)", "CulturalAge", "holocene", 1534, 0, "CE",
+add("canadian-history", {"en": "Canadian Historical Periods", "sv": "Kanadensiska historiska perioder"}, "CulturalAge", "holocene", 1534, 0, "CE",
     "From French exploration through Confederation to modern multicultural nation.")
-add("fur-trade-era", "Fur Trade Era (Ère de la traite des fourrures)", "CulturalAge", "canadian-history", 1600, 1870, "CE",
+add("fur-trade-era", {"en": "Fur Trade Era", "sv": "Pälshandelsperioden"}, "CulturalAge", "canadian-history", 1600, 1870, "CE",
     "Hudson's Bay Company (1670) vs. North West Company; voyageurs; Métis people; York Factory; pemmican trade; shaped Canadian expansion westward.")
-add("british-north-america", "British North America (Amérique du Nord britannique)", "CulturalAge", "canadian-history", 1763, 1867, "CE",
+add("british-north-america", {"en": "British North America", "sv": "Brittiska Nordamerika"}, "CulturalAge", "canadian-history", 1763, 1867, "CE",
     "After Treaty of Paris; Quebec Act (1774); Loyalist migration; War of 1812; Rebellions of 1837; Responsible Government; path to Confederation.")
-add("red-river-metis", "Red River and Métis Resistance (Résistance de la rivière Rouge et des Métis)", "CulturalAge", "canadian-history", 1869, 1885, "CE",
+add("red-river-metis", {"en": "Red River and Métis Resistance", "sv": "Red River och Métis-motståndet"}, "CulturalAge", "canadian-history", 1869, 1885, "CE",
     "Louis Riel; Red River Resistance (1869-1870); Manitoba Act; North-West Rebellion (1885); Riel executed; Métis land rights; shaping of Western Canada.")
-add("klondike-gold-rush", "Klondike Gold Rush (Ruée vers l'or du Klondike)", "CulturalAge", "canadian-history", 1896, 1899, "CE",
+add("klondike-gold-rush", {"en": "Klondike Gold Rush", "sv": "Klondike-guldrushen"}, "CulturalAge", "canadian-history", 1896, 1899, "CE",
     "Gold discovered on Bonanza Creek, Yukon (1896); ~100,000 stampeders; Dawson City boom; Chilkoot Pass; Canadian sovereignty asserted in North.")
-add("canadian-confederation", "Canadian Confederation (Confédération canadienne)", "CulturalAge", "canadian-history", 1867, 1931, "CE",
+add("canadian-confederation", {"en": "Canadian Confederation", "sv": "Canadiankonfederationen"}, "CulturalAge", "canadian-history", 1867, 1931, "CE",
     "Dominion of Canada (1867); transcontinental railway (1885); Western settlement; Riel Rebellions; WWI and Vimy Ridge; Statute of Westminster (1931).")
-add("modern-canada", "Modern Canada (Canada moderne)", "CulturalAge", "canadian-history", 1931, 0, "CE",
+add("modern-canada", {"en": "Modern Canada", "sv": "Moderna Kanada"}, "CulturalAge", "canadian-history", 1931, 0, "CE",
     "WWII; welfare state; Quiet Revolution in Quebec; Official Languages Act (1969); Charter of Rights (1982); multiculturalism; reconciliation with Indigenous peoples.")
 
 # --- US 20th–21st Century ---
-add("progressive-era", "Progressive Era (Progressiva eran)", "CulturalAge", "modern-period", 1896, 1920, "CE",
+add("progressive-era", {"en": "Progressive Era", "sv": "Progressiva eran"}, "CulturalAge", "modern-period", 1896, 1920, "CE",
     "Reform movements; trust-busting (Roosevelt); women's suffrage (19th Amendment, 1920); muckraking journalism; conservation movement.")
-add("roaring-twenties-na", "Roaring Twenties (North America)", "CulturalAge", "contemporary", 1920, 1929, "CE",
+add("roaring-twenties-na", {"en": "Roaring Twenties", "sv": "De glada tjugotalet"}, "CulturalAge", "contemporary", 1920, 1929, "CE",
     "Jazz Age; Harlem Renaissance; Prohibition; economic boom; Model T; cultural modernism; ends with Wall Street Crash (1929).")
-add("great-depression-na", "Great Depression (North America)", "CulturalAge", "contemporary", 1929, 1939, "CE",
+add("great-depression-na", {"en": "Great Depression", "sv": "Stora depressionen"}, "CulturalAge", "contemporary", 1929, 1939, "CE",
     "Wall Street Crash; ~25% unemployment; Dust Bowl; New Deal (FDR); Social Security; transformation of federal government role.")
-add("us-wwii", "United States in World War II (USA under andra världskriget)", "CulturalAge", "contemporary", 1941, 1945, "CE",
+add("us-wwii", {"en": "United States in World War II", "sv": "Första världskriget"}, "CulturalAge", "contemporary", 1941, 1945, "CE",
     "Pearl Harbor (1941); Arsenal of Democracy; D-Day (1944); Pacific island-hopping; Manhattan Project; atomic bombs on Hiroshima and Nagasaki (1945).")
-add("us-cold-war", "Cold War (United States)", "CulturalAge", "contemporary", 1947, 1991, "CE",
+add("us-cold-war", {"en": "Cold War", "sv": "Kalla kriget"}, "CulturalAge", "contemporary", 1947, 1991, "CE",
     "Containment doctrine; Korean War (1950-53); McCarthyism; Cuban Missile Crisis (1962); Vietnam War; détente; Reagan buildup; fall of Berlin Wall (1989).")
-add("us-civil-rights", "Civil Rights Movement (Medborgarrättsrörelsen)", "CulturalAge", "contemporary", 1954, 1968, "CE",
+add("us-civil-rights", {"en": "Civil Rights Movement", "sv": "Medborgarrättsrörelsen"}, "CulturalAge", "contemporary", 1954, 1968, "CE",
     "Brown v. Board (1954); Montgomery Bus Boycott; March on Washington (1963); Civil Rights Act (1964); Voting Rights Act (1965); MLK assassinated (1968).")
-add("vietnam-war-era", "Vietnam War Era (Chiến tranh Việt Nam)", "CulturalAge", "contemporary", 1955, 1975, "CE",
+add("vietnam-war-era", {"en": "Vietnam War Era", "sv": "Vietnamkrigsperioden"}, "CulturalAge", "contemporary", 1955, 1975, "CE",
     "U.S. involvement in Vietnam; Gulf of Tonkin (1964); Tet Offensive (1968); anti-war movement; Kent State; Fall of Saigon (1975); ~58,000 U.S. dead.")
-add("space-race", "Space Race (Kapplöpningen till rymden)", "CulturalAge", "contemporary", 1957, 1975, "CE",
+add("space-race", {"en": "Space Race", "sv": "Rymdkapplöpningen"}, "CulturalAge", "contemporary", 1957, 1975, "CE",
     "U.S.-Soviet competition; Sputnik (1957); Mercury, Gemini programs; Apollo 11 Moon landing (1969); NASA; Apollo-Soyuz (1975).")
-add("post-911-era", "Post-9/11 Era (Eran efter 11 september)", "CulturalAge", "contemporary", 2001, 2021, "CE",
+add("post-911-era", {"en": "Post-9/11 Era", "sv": "Eran efter 11 september"}, "CulturalAge", "contemporary", 2001, 2021, "CE",
     "September 11 attacks; War on Terror; Afghanistan War (2001-2021); Iraq War (2003); Patriot Act; Department of Homeland Security; reshaping of U.S. foreign policy.")
 
 # ═══════════════════════════════════════════════════════════════
@@ -1273,205 +1290,205 @@ add("post-911-era", "Post-9/11 Era (Eran efter 11 september)", "CulturalAge", "c
 # ═══════════════════════════════════════════════════════════════
 
 # --- Cradle of Humankind & Prehistoric ---
-add("africa-prehistoric", "Prehistoric Africa (Förhistoriska Afrika)", "CulturalAge", "holocene", 3300000, 3100, "BCE",
+add("africa-prehistoric", {"en": "Prehistoric Africa", "sv": "Förhistoriska Afrika"}, "CulturalAge", "holocene", 3300000, 3100, "BCE",
     "Birthplace of Homo sapiens; earliest stone tools (Lomekwian ~3.3 Ma); earliest modern human behavior; rock art; Neolithic revolution in Sahara and Nile; transition to complex societies.")
-add("african-early-stone-age", "African Early Stone Age (Afrikanska äldre stenåldern / ESA)", "CulturalAge", "africa-prehistoric", 3300000, 300000, "BCE",
+add("african-early-stone-age", {"en": "African Early Stone Age", "sv": "Stenåldern"}, "CulturalAge", "africa-prehistoric", 3300000, 300000, "BCE",
     "Oldest stone tool traditions: Lomekwian (~3.3 Ma), Oldowan (~2.6 Ma, Homo habilis), Acheulean (~1.76 Ma, Homo erectus/heidelbergensis); hand axes; control of fire; covers c. 3.3 million to ~300,000 years ago. African archaeological periodization: ESA/MSA/LSA (distinct from European Paleolithic/Mesolithic/Neolithic framework).")
-add("african-middle-stone-age", "African Middle Stone Age (Afrikanska mellersta stenåldern / MSA)", "CulturalAge", "africa-prehistoric", 300000, 30000, "BCE",
+add("african-middle-stone-age", {"en": "African Middle Stone Age", "sv": "Stenåldern"}, "CulturalAge", "africa-prehistoric", 300000, 30000, "BCE",
     "Emergence of Homo sapiens; Blombos Cave engravings (~75,000 BP); ochre use; shell beads; earliest evidence of symbolic thought and art.")
-add("african-later-stone-age", "African Later Stone Age (Afrikanska senare stenåldern / LSA)", "CulturalAge", "africa-prehistoric", 50000, 2000, "BCE",
+add("african-later-stone-age", {"en": "African Later Stone Age", "sv": "Stenåldern"}, "CulturalAge", "africa-prehistoric", 50000, 2000, "BCE",
     "Microlithic tools; bow and arrow; San rock art (southern Africa); population diversification; expansion across continent.")
-add("saharan-neolithic", "Saharan Neolithic (Green Sahara)", "CulturalAge", "africa-prehistoric", 7500, 3500, "BCE",
+add("saharan-neolithic", {"en": "Saharan Neolithic", "sv": "Saharisk neolitikum"}, "CulturalAge", "africa-prehistoric", 7500, 3500, "BCE",
     "African Humid Period; cattle pastoralism; rock art at Tassili n'Ajjer; pottery; lakeside settlements; desertification drives migration to Nile.")
-add("nile-predynastic", "Predynastic Nile Valley (مصر ما قبل الأسرات Miṣr mā qabl al-usrāt)", "CulturalAge", "africa-prehistoric", 5500, 3100, "BCE",
+add("nile-predynastic", {"en": "Predynastic Nile Valley", "sv": "Predynastiska Nildalen", "ar": "مصر ما قبل الأسرات Miṣr mā qabl al-usrāt"}, "CulturalAge", "africa-prehistoric", 5500, 3100, "BCE",
     "Badarian, Naqada I–III cultures; early agriculture; social stratification; Upper and Lower Egypt emerge; writing begins ~3200 BCE.")
 
 # --- Ancient Egypt ---
-add("ancient-egypt", "Ancient Egypt (Kemet / مصر القديمة)", "CulturalAge", "holocene", 3100, 30, "BCE",
+add("ancient-egypt", {"en": "Ancient Egypt", "sv": "Forntidens Egypten", "ar": "مصر القديمة", "egy": "Kemet"}, "CulturalAge", "holocene", 3100, 30, "BCE",
     "One of the world's first civilizations; self-named km.t ('Black Land'); 3,000 years of pharaonic rule along the Nile; pyramids, hieroglyphs, monumental architecture.")
-add("egypt-early-dynastic", "Early Dynastic Egypt (عصر الأسرات المبكر)", "CulturalAge", "ancient-egypt", 3100, 2686, "BCE",
+add("egypt-early-dynastic", {"en": "Early Dynastic Egypt", "sv": "Tidigt dynastiskt Egypten", "ar": "عصر الأسرات المبكر"}, "CulturalAge", "ancient-egypt", 3100, 2686, "BCE",
     "Unification of Upper and Lower Egypt; Narmer/Menes; Memphis as capital; First and Second Dynasties; development of hieroglyphic writing.")
-add("egypt-old-kingdom", "Old Kingdom of Egypt (الدولة القديمة ad-Dawla al-Qadīma)", "CulturalAge", "ancient-egypt", 2686, 2181, "BCE",
+add("egypt-old-kingdom", {"en": "Old Kingdom of Egypt", "sv": "Gamla riket", "ar": "الدولة القديمة ad-Dawla al-Qadīma"}, "CulturalAge", "ancient-egypt", 2686, 2181, "BCE",
     "Age of the Pyramids; Djoser's Step Pyramid; Great Pyramid of Giza (Khufu); Sphinx; centralized pharaonic power; 3rd–6th Dynasties.")
-add("egypt-first-intermediate", "First Intermediate Period (عصر الاضمحلال الأول)", "CulturalAge", "ancient-egypt", 2181, 2055, "BCE",
+add("egypt-first-intermediate", {"en": "First Intermediate Period", "sv": "Första mellanperioden", "ar": "عصر الاضمحلال الأول"}, "CulturalAge", "ancient-egypt", 2181, 2055, "BCE",
     "Collapse of central authority; regional rulers; famine and social upheaval; 7th–11th Dynasties; Herakleopolis vs. Thebes.")
-add("egypt-middle-kingdom", "Middle Kingdom of Egypt (الدولة الوسطى ad-Dawla al-Wusṭā)", "CulturalAge", "ancient-egypt", 2055, 1650, "BCE",
+add("egypt-middle-kingdom", {"en": "Middle Kingdom of Egypt", "sv": "Mellersta riket", "ar": "الدولة الوسطى ad-Dawla al-Wusṭā"}, "CulturalAge", "ancient-egypt", 2055, 1650, "BCE",
     "Reunification under Mentuhotep II; classical Egyptian literature; Faiyum irrigation; trade with Nubia and Levant; 11th–13th Dynasties.")
-add("egypt-second-intermediate", "Second Intermediate Period (Hyksos)", "CulturalAge", "ancient-egypt", 1650, 1550, "BCE",
+add("egypt-second-intermediate", {"en": "Second Intermediate Period", "sv": "Andra mellanperioden"}, "CulturalAge", "ancient-egypt", 1650, 1550, "BCE",
     "Hyksos ('rulers of foreign lands') control Lower Egypt; introduce horse and chariot, composite bow; Theban resistance; 15th–17th Dynasties.")
-add("egypt-new-kingdom", "New Kingdom of Egypt (الدولة الحديثة ad-Dawla al-Ḥadītha)", "CulturalAge", "ancient-egypt", 1550, 1069, "BCE",
+add("egypt-new-kingdom", {"en": "New Kingdom of Egypt", "sv": "Nya riket", "ar": "الدولة الحديثة ad-Dawla al-Ḥadītha"}, "CulturalAge", "ancient-egypt", 1550, 1069, "BCE",
     "Egypt's golden age; Valley of the Kings; Hatshepsut, Thutmose III, Akhenaten, Tutankhamun, Ramesses II; empire from Nubia to Syria.")
-add("amarna-period", "Amarna Period (عصر العمارنة ʿAṣr al-ʿAmārna)", "CulturalAge", "egypt-new-kingdom", 1353, 1336, "BCE",
+add("amarna-period", {"en": "Amarna Period", "sv": "Amarnaperioden", "ar": "عصر العمارنة ʿAṣr al-ʿAmārna"}, "CulturalAge", "egypt-new-kingdom", 1353, 1336, "BCE",
     "Akhenaten's religious revolution; monotheistic Atenism; new capital Akhetaten (Amarna); Nefertiti; distinctive art style; reversed after his death.")
-add("ramesside-period", "Ramesside Period (عصر الرعامسة ʿAṣr ar-Raʿāmisa)", "CulturalAge", "egypt-new-kingdom", 1292, 1069, "BCE",
+add("ramesside-period", {"en": "Ramesside Period", "sv": "Ramessidetiden", "ar": "عصر الرعامسة ʿAṣr ar-Raʿāmisa"}, "CulturalAge", "egypt-new-kingdom", 1292, 1069, "BCE",
     "19th–20th Dynasties; Ramesses II (Battle of Kadesh, Abu Simbel); Sea Peoples invasions; gradual decline of Egyptian power.")
-add("egypt-third-intermediate", "Third Intermediate Period (عصر الاضمحلال الثالث)", "CulturalAge", "ancient-egypt", 1069, 664, "BCE",
+add("egypt-third-intermediate", {"en": "Third Intermediate Period", "sv": "Tredje mellanperioden", "ar": "عصر الاضمحلال الثالث"}, "CulturalAge", "ancient-egypt", 1069, 664, "BCE",
     "Fragmentation; Libyan and Nubian pharaohs; Shoshenq I (biblical Shishak); Theban high priests; 21st–25th Dynasties.")
-add("egypt-late-period", "Late Period of Egypt (العصر المتأخر al-ʿAṣr al-Mutaʾakhkhir)", "CulturalAge", "ancient-egypt", 664, 332, "BCE",
+add("egypt-late-period", {"en": "Late Period of Egypt", "sv": "Senperioden", "ar": "العصر المتأخر al-ʿAṣr al-Mutaʾakhkhir"}, "CulturalAge", "ancient-egypt", 664, 332, "BCE",
     "Saite Renaissance (26th Dynasty); Persian conquests (27th, 31st Dynasties); last native dynasties; Nectanebo II last Egyptian pharaoh.")
-add("ptolemaic-egypt", "Ptolemaic Egypt (مصر البطلمية / Πτολεμαϊκή Αίγυπτος)", "CulturalAge", "ancient-egypt", 332, 30, "BCE",
+add("ptolemaic-egypt", {"en": "Ptolemaic Egypt", "sv": "Ptolemeiska Egypten", "ar": "مصر البطلمية"}, "CulturalAge", "ancient-egypt", 332, 30, "BCE",
     "Alexander conquers Egypt (332 BCE); Ptolemaic dynasty; Library of Alexandria; Rosetta Stone; Cleopatra VII; annexed by Rome (30 BCE).")
 
 # --- Nubia & Kush ---
-add("nubia-kush", "Nubian and Kushite Civilizations (الحضارة النوبية والكوشية)", "CulturalAge", "holocene", 2500, 350, "BCE-CE",
+add("nubia-kush", {"en": "Nubian and Kushite Civilizations", "sv": "Nubiska och kushitiska civilisationer", "ar": "الحضارة النوبية والكوشية"}, "CulturalAge", "holocene", 2500, 350, "BCE-CE",
     "Civilizations along Upper Nile (modern Sudan); rivals and successors of Egypt; pyramids of Meroë; iron production; distinct art and religion.")
-add("kerma-culture", "Kingdom of Kerma (مملكة كرمة)", "CulturalAge", "nubia-kush", 2500, 1500, "BCE",
+add("kerma-culture", {"en": "Kingdom of Kerma", "sv": "Kungariket Kerma", "ar": "مملكة كرمة"}, "CulturalAge", "nubia-kush", 2500, 1500, "BCE",
     "First major Nubian kingdom; capital at Kerma; monumental deffufas (mud-brick temples); wealthy burials; rival to Egyptian Middle Kingdom.")
-add("kingdom-kush", "Kingdom of Kush (Napatan)", "CulturalAge", "nubia-kush", 1070, 300, "BCE",
+add("kingdom-kush", {"en": "Kingdom of Kush", "sv": "Kungariket Kush"}, "CulturalAge", "nubia-kush", 1070, 300, "BCE",
     "Napata capital; 25th Dynasty pharaohs rule Egypt (Piye, Taharqa ~700 BCE); expelled by Assyrians; capital shifts to Meroe ~300 BCE.")
-add("meroe", "Meroitic Period (الفترة المروية)", "CulturalAge", "nubia-kush", 270, 350, "BCE-CE",
+add("meroe", {"en": "Meroitic Period", "sv": "Meroiticperioden", "ar": "الفترة المروية"}, "CulturalAge", "nubia-kush", 270, 350, "BCE-CE",
     "Capital moves to Meroë; iron smelting center; Meroitic script (deciphered, but language only partially understood); over 200 pyramids; Kandake (queen) warriors; trade with Rome.")
 
 # --- Horn of Africa ---
-add("land-of-punt", "Land of Punt (أرض بونت Arḍ Būnt / Pwnt)", "CulturalAge", "holocene", 2500, 1000, "BCE",
+add("land-of-punt", {"en": "Land of Punt", "sv": "Landet Punt", "ar": "أرض بونت Arḍ Būnt"}, "CulturalAge", "holocene", 2500, 1000, "BCE",
     "Legendary trading partner of Egypt; source of incense, gold, ebony; Hatshepsut's expedition (~1470 BCE); location debated (Eritrea/Somalia/Djibouti).")
-add("daamt", "Kingdom of D'mt (ዳዕማት Daʿmat)", "CulturalAge", "holocene", 980, 400, "BCE",
+add("daamt", {"en": "Kingdom of D'mt", "sv": "Kungariket D'mt"}, "CulturalAge", "holocene", 980, 400, "BCE",
     "Early kingdom in Eritrea/northern Ethiopia; Sabaean cultural influences; Yeha temple; precursor to Aksumite civilization.")
-add("aksum", "Kingdom of Aksum (መንግሥተ አክሱም Mangəśtä Aksūm)", "CulturalAge", "holocene", 100, 940, "CE",
+add("aksum", {"en": "Kingdom of Aksum", "sv": "Kungariket Aksum", "am": "መንግሥተ አክሱም"}, "CulturalAge", "holocene", 100, 940, "CE",
     "Major trading empire; Adulis port; obelisks of Aksum; adopted Christianity (~330 CE, King Ezana); Ge'ez script; one of the 'four great empires' of antiquity.")
-add("zagwe-dynasty", "Zagwe Dynasty (ዛጉዌ ሥርወ መንግሥት)", "CulturalAge", "holocene", 1137, 1270, "CE",
+add("zagwe-dynasty", {"en": "Zagwe Dynasty", "sv": "Zagwedynastin", "am": "ዛጉዌ ሥርወ መንግሥት"}, "CulturalAge", "holocene", 1137, 1270, "CE",
     "Ethiopian highland dynasty; rock-hewn churches of Lalibela (UNESCO); Christian kingdom; succeeded Aksumite decline.")
-add("solomonic-dynasty", "Solomonic Dynasty (የሰለሞን ሥርወ መንግሥት)", "CulturalAge", "holocene", 1270, 1974, "CE",
+add("solomonic-dynasty", {"en": "Solomonic Dynasty", "sv": "Salomoniska dynastin", "am": "የሰለሞን ሥርወ መንግሥት"}, "CulturalAge", "holocene", 1270, 1974, "CE",
     "Ethiopian ruling dynasty claiming descent from Solomon and Sheba; Kebra Nagast; Prester John legends; Gondar castles; Haile Selassie last emperor.")
 
 # --- West Africa ---
-add("west-africa-ancient", "Ancient West African Civilizations (Civilisations anciennes d'Afrique de l'Ouest)", "CulturalAge", "holocene", 1000, 1900, "BCE-CE",
+add("west-africa-ancient", {"en": "Ancient West African Civilizations", "sv": "Forntida västafrikanska civilisationer"}, "CulturalAge", "holocene", 1000, 1900, "BCE-CE",
     "Trans-Saharan trade; gold, salt, slaves; powerful empires and kingdoms; Islam spreads from 8th century; rich oral traditions and art.")
-add("nok-culture", "Nok Culture (Nok-kulturen)", "CulturalAge", "west-africa-ancient", 1000, 300, "BCE-CE",
+add("nok-culture", {"en": "Nok Culture", "sv": "Nokkulturen"}, "CulturalAge", "west-africa-ancient", 1000, 300, "BCE-CE",
     "Central Nigeria; earliest known sub-Saharan terracotta sculptures; early iron smelting in West Africa; agricultural communities.")
-add("ghana-empire", "Ghana Empire (Wagadu)", "CulturalAge", "west-africa-ancient", 300, 1200, "CE",
+add("ghana-empire", {"en": "Ghana Empire", "sv": "Ghanariket", "snk": "Wagadu"}, "CulturalAge", "west-africa-ancient", 300, 1200, "CE",
     "First great West African empire; gold-salt trade; Koumbi Saleh capital; 'Land of Gold'; Soninke people; weakened by Almoravids (~1076).")
-add("mali-empire", "Mali Empire (Manden Kurufaba)", "CulturalAge", "west-africa-ancient", 1235, 1600, "CE",
+add("mali-empire", {"en": "Mali Empire", "sv": "Maliriket", "mnk": "Manden Kurufaba"}, "CulturalAge", "west-africa-ancient", 1235, 1600, "CE",
     "Founded by Sundiata Keita; Mansa Musa's pilgrimage to Mecca (1324, richest person ever); Timbuktu university; Manding Charter.")
-add("songhai-empire", "Songhai Empire (Songhay)", "CulturalAge", "west-africa-ancient", 1464, 1591, "CE",
+add("songhai-empire", {"en": "Songhai Empire", "sv": "Songhayriket", "son": "Songhay"}, "CulturalAge", "west-africa-ancient", 1464, 1591, "CE",
     "Largest empire in African history; Sunni Ali, Askia Muhammad; Timbuktu, Djenné; conquered by Moroccan invasion (1591).")
-add("kanem-bornu", "Kanem-Bornu Empire (Empire du Kanem-Bornou)", "CulturalAge", "west-africa-ancient", 700, 1900, "CE",
+add("kanem-bornu", {"en": "Kanem-Bornu Empire", "sv": "Kanem-Bornu Empire"}, "CulturalAge", "west-africa-ancient", 700, 1900, "CE",
     "Lake Chad basin; one of longest-lasting African empires (~1,100 years); Sayfawa dynasty; trans-Saharan trade; Islam from 11th century.")
-add("benin-kingdom", "Kingdom of Benin (Ọba N'Ẹdó)", "CulturalAge", "west-africa-ancient", 1180, 1897, "CE",
+add("benin-kingdom", {"en": "Kingdom of Benin", "sv": "Kungariket Benin", "bin": "Ọba N'Ẹdó"}, "CulturalAge", "west-africa-ancient", 1180, 1897, "CE",
     "Edo people, southern Nigeria; Benin Bronzes (sophisticated lost-wax casting); Oba rulers; city walls; destroyed by British punitive expedition (1897).")
-add("oyo-empire", "Oyo Empire (Ilú Ọ̀yọ́)", "CulturalAge", "west-africa-ancient", 1400, 1896, "CE",
+add("oyo-empire", {"en": "Oyo Empire", "sv": "Oyoriket", "yo": "Ilú Ọ̀yọ́"}, "CulturalAge", "west-africa-ancient", 1400, 1896, "CE",
     "Yoruba empire; powerful cavalry; Alaafin rulers; Atlantic trade; Oyo ile capital; influenced Yoruba diaspora culture in Americas.")
-add("ashanti-empire", "Ashanti Empire (Asanteman / Asante Hene)", "CulturalAge", "west-africa-ancient", 1701, 1902, "CE",
+add("ashanti-empire", {"en": "Ashanti Empire", "sv": "Ashantiimperiet", "ak": "Asanteman"}, "CulturalAge", "west-africa-ancient", 1701, 1902, "CE",
     "Akan people, modern Ghana; Golden Stool; Osei Tutu I; gold trade; kente cloth; resisted British colonization; Anglo-Ashanti Wars.")
-add("jolof-empire", "Jolof Empire (Buurba Jolof)", "CulturalAge", "west-africa-ancient", 1350, 1549, "CE",
+add("jolof-empire", {"en": "Jolof Empire", "sv": "Jolofriket"}, "CulturalAge", "west-africa-ancient", 1350, 1549, "CE",
     "Wolof confederacy in Senegal; former Mali vassal; major early Atlantic slave trade participant; dissolved at Battle of Danki (1549).")
-add("kingdom-of-dahomey", "Kingdom of Dahomey (Danhomè)", "CulturalAge", "west-africa-ancient", 1600, 1904, "CE",
+add("kingdom-of-dahomey", {"en": "Kingdom of Dahomey", "sv": "Kungariket Dahomey"}, "CulturalAge", "west-africa-ancient", 1600, 1904, "CE",
     "Fon people, modern Benin; Dahomey Amazons (Mino) all-female regiment; Vodun religion origin; major slave-trading state; fell to French 1892.")
-add("mossi-kingdoms", "Mossi Kingdoms (Moogo)", "CulturalAge", "west-africa-ancient", 1050, 1896, "CE",
+add("mossi-kingdoms", {"en": "Mossi Kingdoms", "sv": "Mossikungarikena"}, "CulturalAge", "west-africa-ancient", 1050, 1896, "CE",
     "Upper Volta (Burkina Faso); Mogho Naaba supreme ruler; raided Timbuktu (1329); resisted Islamization; largest ethnic group in Burkina Faso today.")
-add("hausa-city-states", "Hausa City-States (Ƙasashen Hausa)", "CulturalAge", "west-africa-ancient", 1000, 1808, "CE",
+add("hausa-city-states", {"en": "Hausa City-States", "sv": "Hausa stadsstater"}, "CulturalAge", "west-africa-ancient", 1000, 1808, "CE",
     "Northern Nigeria/Niger; Kano, Katsina, Zaria; trans-Saharan trade hubs; indigo-dyed cloth; Islamic learning; conquered by Fulani jihad (1804).")
-add("sokoto-caliphate", "Sokoto Caliphate (خلافة صكتو Ḫilāfat Sokoto)", "CulturalAge", "west-africa-ancient", 1804, 1903, "CE",
+add("sokoto-caliphate", {"en": "Sokoto Caliphate", "sv": "Sokotokalifatet", "ar": "خلافة صكتو Ḫilāfat Sokoto"}, "CulturalAge", "west-africa-ancient", 1804, 1903, "CE",
     "Fulani jihad led by Usman dan Fodio; largest state in 19th-century Africa; Islamic scholarship; conquered by British (1903).")
-add("timbuktu-golden-age", "Golden Age of Timbuktu (Âge d'or de Tombouctou)", "CulturalAge", "mali-empire", 1300, 1600, "CE",
+add("timbuktu-golden-age", {"en": "Golden Age of Timbuktu", "sv": "Timbuktus guldålder", "fr": "Âge d'or de Tombouctou"}, "CulturalAge", "mali-empire", 1300, 1600, "CE",
     "Major intellectual center; Sankore University; 100,000+ manuscripts; Islamic scholarship; Ahmed Baba; gold-salt trade crossroads.")
-add("ife-kingdom", "Kingdom of Ifẹ̀ (Ilé-Ifẹ̀)", "CulturalAge", "west-africa-ancient", 1000, 1420, "CE",
+add("ife-kingdom", {"en": "Kingdom of Ifẹ̀", "sv": "Kungariket Ifẹ̀"}, "CulturalAge", "west-africa-ancient", 1000, 1420, "CE",
     "Sacred Yoruba city; naturalistic bronze and terracotta portrait heads (among finest art in world history); Ooni rulers; spiritual capital of all Yoruba people; influenced Benin Kingdom art tradition; Ife bronzes predate European Renaissance.")
 
 # --- East & Southeast Africa ---
-add("swahili-coast", "Swahili Coast Civilization (Ustaarabu wa Pwani ya Swahili)", "CulturalAge", "holocene", 100, 1500, "CE",
+add("swahili-coast", {"en": "Swahili Coast Civilization", "sv": "Swahilikustens civilisation"}, "CulturalAge", "holocene", 100, 1500, "CE",
     "Indian Ocean trading cities; Kilwa, Mombasa, Zanzibar, Mogadishu; Swahili language (Bantu with Arabic loanwords); stone towns; gold, ivory, spice trade.")
-add("kilwa-sultanate", "Kilwa Sultanate (Usultani wa Kilwa)", "CulturalAge", "swahili-coast", 960, 1513, "CE",
+add("kilwa-sultanate", {"en": "Kilwa Sultanate", "sv": "Kilwasultanatet"}, "CulturalAge", "swahili-coast", 960, 1513, "CE",
     "Wealthiest Swahili city-state; controlled gold trade from Great Zimbabwe; Great Mosque of Kilwa; copper coins; sacked by Portuguese (1505).")
-add("great-zimbabwe", "Great Zimbabwe (Dzimba dza mabwe)", "CulturalAge", "holocene", 1100, 1450, "CE",
+add("great-zimbabwe", {"en": "Great Zimbabwe", "sv": "Stora Zimbabwe", "sn": "Dzimba dza mabwe"}, "CulturalAge", "holocene", 1100, 1450, "CE",
     "Largest stone structure in sub-Saharan Africa; name means 'houses of stone' in Shona; Great Enclosure; gold trade; ~18,000 inhabitants; inspired modern Zimbabwe's name.")
-add("mutapa-empire", "Kingdom of Mutapa (Wene wa Mutapa)", "CulturalAge", "holocene", 1430, 1760, "CE",
+add("mutapa-empire", {"en": "Kingdom of Mutapa", "sv": "Kungariket Mutapa"}, "CulturalAge", "holocene", 1430, 1760, "CE",
     "Successor to Great Zimbabwe; controlled gold-producing region; Shona; Portuguese trade and interference; 'emperor of gold mines'.")
-add("buganda-kingdom", "Kingdom of Buganda (Obwakabaka bwa Buganda)", "CulturalAge", "holocene", 1300, 1966, "CE",
+add("buganda-kingdom", {"en": "Kingdom of Buganda", "sv": "Kungariket Buganda"}, "CulturalAge", "holocene", 1300, 1966, "CE",
     "Central Uganda; Lake Victoria; Kabaka rulers; sophisticated political system; resisted and then accommodated British; integral to modern Uganda.")
-add("zanzibar-sultanate", "Zanzibar Sultanate (Usultani wa Zanzibar)", "CulturalAge", "holocene", 1856, 1964, "CE",
+add("zanzibar-sultanate", {"en": "Zanzibar Sultanate", "sv": "Zanzibarsultanatet"}, "CulturalAge", "holocene", 1856, 1964, "CE",
     "Independent from Oman after Said bin Sultan's death (1856); dominated East African slave trade; world's leading clove producer; Anglo-Zanzibar War (38 min); merged into Tanzania.")
-add("bunyoro-kitara", "Bunyoro-Kitara Empire (Obukama bwa Bunyoro-Kitara)", "CulturalAge", "holocene", 1300, 1899, "CE",
+add("bunyoro-kitara", {"en": "Bunyoro-Kitara Empire", "sv": "Bunyoro-Kitarariket"}, "CulturalAge", "holocene", 1300, 1899, "CE",
     "Successor to legendary Chwezi Empire; Babiito dynasty; one of most powerful Great Lakes kingdoms; Omukama Kabalega resisted British; restored 1993.")
-add("adal-sultanate", "Adal Sultanate (سلطنة عدل Salṭanat ʿAdal)", "CulturalAge", "holocene", 1415, 1577, "CE",
+add("adal-sultanate", {"en": "Adal Sultanate", "sv": "Adalsultanatet", "ar": "سلطنة عدل Salṭanat ʿAdal"}, "CulturalAge", "holocene", 1415, 1577, "CE",
     "Somali-Harari Islamic state; Imam Ahmad ibn Ibrahim al-Ghazi's jihad conquered vast Ethiopian territory (1529); controlled parts of Somalia, Ethiopia, Djibouti.")
-add("ajuran-sultanate", "Ajuran Sultanate (Dawladda Ajuuraan)", "CulturalAge", "holocene", 1200, 1700, "CE",
+add("ajuran-sultanate", {"en": "Ajuran Sultanate", "sv": "Ajuransultanatet"}, "CulturalAge", "holocene", 1200, 1700, "CE",
     "Africa's only known hydraulic empire; monopolized Shebelle/Jubba rivers; Indian Ocean trade; repelled Portuguese; limestone wells still in use today.")
 
 # --- Southern Africa ---
-add("mapungubwe", "Kingdom of Mapungubwe (Mmuso wa Mapungubwe)", "CulturalAge", "holocene", 1075, 1220, "CE",
+add("mapungubwe", {"en": "Kingdom of Mapungubwe", "sv": "Kungariket Mapungubwe"}, "CulturalAge", "holocene", 1075, 1220, "CE",
     "First major southern African kingdom; gold trade; distinctive golden rhinoceros; social stratification; predecessor to Great Zimbabwe; UNESCO site.")
-add("zulu-kingdom", "Zulu Kingdom (uMbuso kaZulu)", "CulturalAge", "holocene", 1816, 1897, "CE",
+add("zulu-kingdom", {"en": "Zulu Kingdom", "sv": "Zulukungadömet", "zu": "uMbuso kaZulu"}, "CulturalAge", "holocene", 1816, 1897, "CE",
     "Founded by Shaka Zulu; revolutionary military tactics (iklwa spear, impi regiments); Mfecane/Difaqane upheaval; Anglo-Zulu War (1879, Isandlwana).")
-add("mfecane", "Mfecane/Difaqane (umFecane / Lifaqane)", "CulturalAge", "holocene", 1815, 1840, "CE",
+add("mfecane", {"en": "Mfecane/Difaqane", "sv": "Mfecane"}, "CulturalAge", "holocene", 1815, 1840, "CE",
     "Period of widespread chaos and migration in southern Africa; triggered by Zulu expansion; Ndebele, Swazi, Sotho, Nguni states formed.")
-add("rozwi-empire", "Rozwi Empire (Rozvi)", "CulturalAge", "holocene", 1684, 1834, "CE",
+add("rozwi-empire", {"en": "Rozwi Empire", "sv": "Rozwiriket"}, "CulturalAge", "holocene", 1684, 1834, "CE",
     "Shona state; Changamire Dombo expelled Portuguese from Zambezi; revived monumental stone architecture; fell to Ndebele during Mfecane.")
-add("ndebele-kingdom", "Ndebele Kingdom (Mthwakazi)", "CulturalAge", "holocene", 1823, 1894, "CE",
+add("ndebele-kingdom", {"en": "Ndebele Kingdom", "sv": "Kungariket Ndebele"}, "CulturalAge", "holocene", 1823, 1894, "CE",
     "Founded by Mzilikazi, former Shaka lieutenant; crossed Limpopo to Matabeleland; Lobengula; fell to British South Africa Company (1893).")
-add("basotho-kingdom", "Basotho Kingdom (Lesotho)", "CulturalAge", "holocene", 1822, 1966, "CE",
+add("basotho-kingdom", {"en": "Basotho Kingdom", "sv": "Kungariket Basotho"}, "CulturalAge", "holocene", 1822, 1966, "CE",
     "Moshoeshoe I united Mfecane refugees; Thaba Bosiu stronghold; defeated British at Viervoet and Berea; secured British protection 1868; independent 1966.")
-add("maravi-confederacy", "Maravi Confederacy (Malaui)", "CulturalAge", "holocene", 1480, 1720, "CE",
+add("maravi-confederacy", {"en": "Maravi Confederacy", "sv": "Maravikonfederationen"}, "CulturalAge", "holocene", 1480, 1720, "CE",
     "Namesake of modern Malawi; Kalonga rulers from Mankhamba; ivory and iron trade with Swahili and Portuguese; Zimba raiders.")
-add("khoisan-pastoral", "Khoisan Pastoral Period (Khoisan-pastoral perioden)", "CulturalAge", "africa-prehistoric", 2000, 1652, "BCE-CE",
+add("khoisan-pastoral", {"en": "Khoisan Pastoral Period", "sv": "Khoisan-pastorala perioden"}, "CulturalAge", "africa-prehistoric", 2000, 1652, "BCE-CE",
     "Khoikhoi pastoralists and San hunter-gatherers; southern Africa; earliest inhabitants; click languages; rock art tradition spanning millennia.")
 
 # --- Central Africa ---
-add("bantu-expansion", "Bantu Expansion (Uenezi wa Wabantu)", "CulturalAge", "holocene", 1000, 500, "BCE-CE",
+add("bantu-expansion", {"en": "Bantu Expansion", "sv": "Bantuexpansionen"}, "CulturalAge", "holocene", 1000, 500, "BCE-CE",
     "One of the largest migrations in human history; Bantu-speaking peoples spread from Cameroon/Nigeria across central, eastern, and southern Africa; iron, agriculture, languages.")
-add("kongo-kingdom", "Kingdom of Kongo (Wene wa Kongo)", "CulturalAge", "holocene", 1390, 1914, "CE",
+add("kongo-kingdom", {"en": "Kingdom of Kongo", "sv": "Kungariket Kongo", "kg": "Wene wa Kongo"}, "CulturalAge", "holocene", 1390, 1914, "CE",
     "Central Africa (modern Angola, DRC, Congo); Mbanza Kongo capital; early contact with Portugal (1483); conversion to Christianity; Atlantic slave trade devastation.")
-add("luba-kingdom", "Luba Kingdom (Bulopwe / Royaume Luba)", "CulturalAge", "holocene", 1585, 1889, "CE",
+add("luba-kingdom", {"en": "Luba Kingdom", "sv": "Kungariket Luba"}, "CulturalAge", "holocene", 1585, 1889, "CE",
     "Central Congo basin; sophisticated governance (balopwe sacred kingship); memory boards (lukasa); influence on Lunda and other kingdoms.")
-add("lunda-empire", "Lunda Empire (Mwaant Yaav / Empire Lunda)", "CulturalAge", "holocene", 1665, 1887, "CE",
+add("lunda-empire", {"en": "Lunda Empire", "sv": "Lundariket"}, "CulturalAge", "holocene", 1665, 1887, "CE",
     "Offshoot of Luba; vast territory across central-southern Africa; long-distance trade; influenced political systems across a wide region.")
-add("kingdom-of-rwanda", "Kingdom of Rwanda (Ubwami bw'u Rwanda)", "CulturalAge", "holocene", 1500, 1961, "CE",
+add("kingdom-of-rwanda", {"en": "Kingdom of Rwanda", "sv": "Kungariket Rwanda"}, "CulturalAge", "holocene", 1500, 1961, "CE",
     "Most centralized Great Lakes kingdom; divine Mwami; Kigeri IV Rwabugiri expanded beyond modern borders; colonial Belgium racialized Hutu-Tutsi; monarchy abolished 1961.")
-add("kingdom-of-burundi", "Kingdom of Burundi (Ubwami bw'Urundi)", "CulturalAge", "holocene", 1680, 1966, "CE",
+add("kingdom-of-burundi", {"en": "Kingdom of Burundi", "sv": "Kungariket Burundi"}, "CulturalAge", "holocene", 1680, 1966, "CE",
     "Ganwa royal dynasty (neither Hutu nor Tutsi); Mwezi IV Gisabo resisted Germans; direct territorial continuation of pre-colonial state; monarchy ended by coup 1966.")
 
 # --- Madagascar ---
-add("merina-kingdom", "Merina Kingdom (Fanjakan'Imerina)", "CulturalAge", "holocene", 1540, 1897, "CE",
+add("merina-kingdom", {"en": "Merina Kingdom", "sv": "Merinariket", "mg": "Fanjakan'Imerina"}, "CulturalAge", "holocene", 1540, 1897, "CE",
     "Dominated Madagascar; Andrianampoinimerina unified kingdom; Radama I gained British recognition; Antananarivo capital; fell to French colonization 1895-97.")
 
 # --- Sudan ---
-add("funj-sultanate", "Funj Sultanate of Sennar (سلطنة سنار)", "CulturalAge", "holocene", 1504, 1821, "CE",
+add("funj-sultanate", {"en": "Funj Sultanate of Sennar", "sv": "Funjsultanatet i Sennar", "ar": "سلطنة سنار"}, "CulturalAge", "holocene", 1504, 1821, "CE",
     "Blue Sultanate; 300+ years; central to Islamization of Sudan; defeated Ottomans at Hannik (1585); major trading city; fell to Muhammad Ali's Egypt 1821.")
-add("darfur-sultanate", "Sultanate of Darfur (سلطنة دارفور)", "CulturalAge", "holocene", 1603, 1916, "CE",
+add("darfur-sultanate", {"en": "Sultanate of Darfur", "sv": "Sultanatet Darfur", "ar": "سلطنة دارفور"}, "CulturalAge", "holocene", 1603, 1916, "CE",
     "Keira dynasty; Islam state religion; Darb al-Arba'in trade route to Egypt; nearly twice the size of France at peak; colonial neglect root of modern conflict.")
 
 # --- North Africa (Post-Ancient) ---
-add("north-africa-islamic", "Islamic North Africa (شمال أفريقيا الإسلامي)", "CulturalAge", "holocene", 647, 1830, "CE",
+add("north-africa-islamic", {"en": "Islamic North Africa", "sv": "Islamiskt Nordafrika", "ar": "شمال أفريقيا الإسلامي"}, "CulturalAge", "holocene", 647, 1830, "CE",
     "Arab conquest of the Maghreb; Berber dynasties; al-Andalus connections; Fatimids, Almohads, Marinids, Hafsids, Ottomans.")
-add("umayyad-maghreb", "Umayyad Conquest of the Maghreb (الفتح الأموي للمغرب)", "CulturalAge", "north-africa-islamic", 647, 750, "CE",
+add("umayyad-maghreb", {"en": "Umayyad Conquest of the Maghreb", "sv": "Umayyadernas erövring av Maghreb", "ar": "الفتح الأموي للمغرب"}, "CulturalAge", "north-africa-islamic", 647, 750, "CE",
     "Arab armies conquer North Africa; fall of Carthage (698); Berber resistance (Kahina); springboard for conquest of Iberia (711).")
-add("almoravid", "Almoravid Dynasty (المرابطون al-Murābiṭūn)", "CulturalAge", "north-africa-islamic", 1040, 1147, "CE",
+add("almoravid", {"en": "Almoravid Dynasty", "sv": "Almoraviddynastin", "ar": "المرابطون al-Murābiṭūn"}, "CulturalAge", "north-africa-islamic", 1040, 1147, "CE",
     "Berber dynasty from Sahara; conquered Morocco, western Algeria, al-Andalus; Marrakech founded (1070); trans-Saharan gold trade.")
-add("almohad", "Almohad Caliphate (الموحدون al-Muwaḥḥidūn)", "CulturalAge", "north-africa-islamic", 1121, 1269, "CE",
+add("almohad", {"en": "Almohad Caliphate", "sv": "Almohadkalifatet", "ar": "الموحدون al-Muwaḥḥidūn"}, "CulturalAge", "north-africa-islamic", 1121, 1269, "CE",
     "Berber reformist dynasty; largest Berber empire; Koutoubia Mosque, Giralda; controlled Maghreb and al-Andalus; defeated at Las Navas de Tolosa (1212).")
-add("fatimid-caliphate-africa", "Fatimid Caliphate (North Africa)", "CulturalAge", "north-africa-islamic", 909, 1171, "CE",
+add("fatimid-caliphate-africa", {"en": "Fatimid Caliphate", "sv": "Fatimidkalifatet"}, "CulturalAge", "north-africa-islamic", 909, 1171, "CE",
     "Ismaili Shia caliphate; founded in Tunisia; conquered Egypt, founded Cairo (969); Al-Azhar University; rivaled Abbasid Baghdad.")
-add("vandal-kingdom", "Vandal Kingdom (Regnum Vandalorum)", "CulturalAge", "holocene", 429, 534, "CE",
+add("vandal-kingdom", {"en": "Vandal Kingdom", "sv": "Kungariket Vandal"}, "CulturalAge", "holocene", 429, 534, "CE",
     "Germanic kingdom in North Africa; Gaiseric captured Carthage (439); sacked Rome (455); controlled Tunisia, Sardinia, Corsica; defeated by Belisarius 534.")
-add("idrisid-dynasty", "Idrisid Dynasty (الأدارسة)", "CulturalAge", "north-africa-islamic", 788, 974, "CE",
+add("idrisid-dynasty", {"en": "Idrisid Dynasty", "sv": "Idrisiddynastin", "ar": "الأدارسة"}, "CulturalAge", "north-africa-islamic", 788, 974, "CE",
     "Morocco's first independent Islamic dynasty; descendant of Prophet Muhammad; son Idris II founded Fez (808); Al-Qarawiyyin (oldest university); Sharifian precedent.")
-add("marinid-dynasty", "Marinid Dynasty (المرينيون)", "CulturalAge", "north-africa-islamic", 1244, 1465, "CE",
+add("marinid-dynasty", {"en": "Marinid Dynasty", "sv": "Mariniddynastin", "ar": "المرينيون"}, "CulturalAge", "north-africa-islamic", 1244, 1465, "CE",
     "Zenata Berbers; Fez golden age; Morocco's first madrasas; Ibn Khaldun and Ibn Battuta products of this milieu; defeated at Rio Salado (1340).")
-add("hafsid-dynasty", "Hafsid Dynasty (الحفصيون)", "CulturalAge", "north-africa-islamic", 1229, 1574, "CE",
+add("hafsid-dynasty", {"en": "Hafsid Dynasty", "sv": "Hafsiddynastin", "ar": "الحفصيون"}, "CulturalAge", "north-africa-islamic", 1229, 1574, "CE",
     "Ruled Ifriqiya (Tunisia, Libya, Algeria) 345 years; al-Mustansir proclaimed Caliph after Mongol sack of Baghdad; fell to Ottomans 1574.")
-add("barbary-states", "Barbary States (إيالات بربرية / États barbaresques)", "CulturalAge", "north-africa-islamic", 1516, 1830, "CE",
+add("barbary-states", {"en": "Barbary States", "sv": "Barbareskstaterna", "ar": "إيالات بربرية"}, "CulturalAge", "north-africa-islamic", 1516, 1830, "CE",
     "Ottoman-aligned North African regencies; Algiers, Tunis, Tripoli; corsair piracy; Barbary Wars with U.S.; French conquest of Algiers (1830).")
 
 # --- Colonialism & Independence ---
-add("scramble-for-africa", "Scramble for Africa (Kugawanywa kwa Afrika / La course au clocher)", "CulturalAge", "modern-period", 1881, 1914, "CE",
+add("scramble-for-africa", {"en": "Scramble for Africa", "sv": "Kapplöpningen om Afrika"}, "CulturalAge", "modern-period", 1881, 1914, "CE",
     "European partition of Africa; Berlin Conference (1884-85); only Ethiopia and Liberia remain independent; arbitrary borders; exploitation of resources and peoples.")
-add("colonial-africa", "Colonial Africa (Koloniala Afrika)", "CulturalAge", "modern-period", 1884, 1966, "CE",
+add("colonial-africa", {"en": "Colonial Africa", "sv": "Koloniala Afrika"}, "CulturalAge", "modern-period", 1884, 1966, "CE",
     "European colonial rule; British, French, Portuguese, Belgian, German, Italian, Spanish territories; extraction economies; forced labor; resistance movements.")
-add("atlantic-slave-trade", "Atlantic Slave Trade (Maafa / تجارة الرقيق عبر الأطلسي)", "CulturalAge", "holocene", 1501, 1867, "CE",
+add("atlantic-slave-trade", {"en": "Atlantic Slave Trade", "sv": "Atlantiska slavhandeln", "ar": "تجارة الرقيق عبر الأطلسي"}, "CulturalAge", "holocene", 1501, 1867, "CE",
     "Forced transportation of ~12.5 million Africans to the Americas; devastating demographic and social impact; abolished progressively through 19th century.")
-add("congo-free-state", "Congo Free State (État indépendant du Congo)", "CulturalAge", "colonial-africa", 1885, 1908, "CE",
+add("congo-free-state", {"en": "Congo Free State", "sv": "Fristaten Kongo"}, "CulturalAge", "colonial-africa", 1885, 1908, "CE",
     "Personal colony of Leopold II of Belgium; rubber terror; forced labor; hand amputations; estimated 1-10 million dead; international outcry.")
-add("mau-mau-uprising", "Mau Mau Uprising (Mau Mau / Kĩmaathi)", "CulturalAge", "colonial-africa", 1952, 1960, "CE",
+add("mau-mau-uprising", {"en": "Mau Mau Uprising", "sv": "Mau Mau-upproret"}, "CulturalAge", "colonial-africa", 1952, 1960, "CE",
     "Kikuyu-led rebellion against British rule in Kenya; detention camps; Jomo Kenyatta; catalyst for Kenyan independence (1963).")
-add("african-independence", "African Independence Movements (Afrikanska självständighetsrörelserna)", "CulturalAge", "contemporary", 1951, 1994, "CE",
+add("african-independence", {"en": "African Independence Movements", "sv": "Afrikanska självständighetsrörelserna"}, "CulturalAge", "contemporary", 1951, 1994, "CE",
     "Wave of decolonization; Ghana first sub-Saharan (1957, Nkrumah); Year of Africa (1960, 17 nations); last: South Africa apartheid ends (1994).")
-add("pan-africanism", "Pan-African Movement (Panafrikanska rörelsen)", "CulturalAge", "modern-period", 1900, 1963, "CE",
+add("pan-africanism", {"en": "Pan-African Movement", "sv": "Panafrikanska rörelsen"}, "CulturalAge", "modern-period", 1900, 1963, "CE",
     "Du Bois, Garvey, Nkrumah, Nyerere; Pan-African Congresses; négritude; Organization of African Unity founded (1963); African unity ideology.")
-add("apartheid", "Apartheid South Africa (Apartheid Suid-Afrika)", "CulturalAge", "contemporary", 1948, 1994, "CE",
+add("apartheid", {"en": "Apartheid South Africa", "sv": "Apartheid"}, "CulturalAge", "contemporary", 1948, 1994, "CE",
     "Institutionalized racial segregation; ANC resistance; Sharpeville (1960); Soweto (1976); Mandela imprisoned 27 years; free elections 1994.")
-add("rwandan-genocide", "Rwandan Genocide (Jenoside yakorewe Abatutsi)", "CulturalAge", "contemporary", 1994, 1994, "CE",
+add("rwandan-genocide", {"en": "Rwandan Genocide", "sv": "Folkmordet i Rwanda"}, "CulturalAge", "contemporary", 1994, 1994, "CE",
     "~800,000 Tutsi and moderate Hutu killed in 100 days; international failure to intervene; RPF ends genocide; Gacaca justice; reconciliation.")
-add("african-union-era", "African Union Era (الاتحاد الأفريقي / Union africaine)", "CulturalAge", "contemporary", 2002, 0, "CE",
+add("african-union-era", {"en": "African Union Era", "sv": "Afrikanska unionens era", "ar": "الاتحاد الأفريقي"}, "CulturalAge", "contemporary", 2002, 0, "CE",
     "AU succeeds OAU (2002); Agenda 2063; peacekeeping missions; AfCFTA free trade area (2021); economic growth; demographic dividend; challenges remain.")
 
 # ═══════════════════════════════════════════════════════════════
@@ -1479,445 +1496,445 @@ add("african-union-era", "African Union Era (الاتحاد الأفريقي / U
 # ═══════════════════════════════════════════════════════════════
 
 # --- Indus Valley & South Asia (Ancient) ---
-add("south-asia-history", "South Asian Historical Periods (दक्षिण एशिया के ऐतिहासिक काल)", "CulturalAge", "holocene", 7000, 0, "BCE-CE",
+add("south-asia-history", {"en": "South Asian Historical Periods", "sv": "Sydasiatiska historiska perioder", "hi": "दक्षिण एशिया के ऐतिहासिक काल"}, "CulturalAge", "holocene", 7000, 0, "BCE-CE",
     "From Mehrgarh Neolithic through Indus Valley, Vedic, Mauryan, Mughal to modern India, Pakistan, Bangladesh, Sri Lanka.")
-add("mehrgarh", "Mehrgarh (مہرگڑھ Mehrgaṛh)", "CulturalAge", "south-asia-history", 7000, 2500, "BCE",
+add("mehrgarh", {"en": "Mehrgarh", "sv": "Mehrgarh", "ar": "مہرگڑھ Mehrgaṛh"}, "CulturalAge", "south-asia-history", 7000, 2500, "BCE",
     "Neolithic site in Balochistan; one of earliest farming settlements in South Asia; precursor to Indus Valley; dentistry evidence ~7000 BCE.")
-add("indus-valley", "Indus Valley Civilization (सिन्धु घाटी सभ्यता)", "CulturalAge", "south-asia-history", 3300, 1300, "BCE",
+add("indus-valley", {"en": "Indus Valley Civilization", "sv": "Induskulturen", "hi": "सिन्धु घाटी सभ्यता"}, "CulturalAge", "south-asia-history", 3300, 1300, "BCE",
     "Harappa, Mohenjo-daro; urban planning, drainage systems; undeciphered script; ~5 million people; one of three earliest civilizations.")
-add("indus-early", "Early Harappan Phase (प्रारंभिक हड़प्पा काल / ابتدائی ہڑپہ دور)", "CulturalAge", "indus-valley", 3300, 2600, "BCE",
+add("indus-early", {"en": "Early Harappan Phase", "sv": "Tidig Harappafas", "ar": "ابتدائی ہڑپہ دور", "hi": "प्रारंभिक हड़प्पा काल"}, "CulturalAge", "indus-valley", 3300, 2600, "BCE",
     "Pre-urban phase; small farming communities; Ravi and Kot Diji cultures; early pottery and copper tools; transition to urban phase c. 2600 BCE; sites include Rehman Dheri and Amri.")
-add("indus-mature", "Mature Harappan Phase (परिपक्व हड़प्पा काल / پختہ ہڑپہ دور)", "CulturalAge", "indus-valley", 2600, 1900, "BCE",
+add("indus-mature", {"en": "Mature Harappan Phase", "sv": "Mogen Harappafas", "ar": "پختہ ہڑپہ دور", "hi": "परिपक्व हड़प्पा काल"}, "CulturalAge", "indus-valley", 2600, 1900, "BCE",
     "Peak of Indus civilization; standardized weights and measures; Great Bath of Mohenjo-daro; trade with Mesopotamia; citadel-lower town layout.")
-add("indus-late", "Late Harappan Phase (उत्तर हड़प्पा काल / آخری ہڑپہ دور)", "CulturalAge", "indus-valley", 1900, 1300, "BCE",
+add("indus-late", {"en": "Late Harappan Phase", "sv": "Sen Harappafas", "ar": "آخری ہڑپہ دور", "hi": "उत्तर हड़प्पा काल"}, "CulturalAge", "indus-valley", 1900, 1300, "BCE",
     "Post-urban decline; abandonment of major cities; Cemetery H and Gandhara Grave cultures; localization of material culture; climate change and monsoon shifts implicated in collapse; possible continuity into early Vedic culture.")
-add("vedic-period", "Vedic Period (वैदिक काल)", "CulturalAge", "south-asia-history", 1500, 500, "BCE",
+add("vedic-period", {"en": "Vedic Period", "sv": "Vedisk period", "hi": "वैदिक काल"}, "CulturalAge", "south-asia-history", 1500, 500, "BCE",
     "Composition of the Vedas (Rigveda ~1500 BCE); Sanskrit; varna system; Aryan migration debate; transition from pastoral to settled agriculture.")
-add("vedic-early", "Early Vedic Period (पूर्व वैदिक काल Pūrva Vaidika Kāl)", "CulturalAge", "vedic-period", 1500, 1000, "BCE",
+add("vedic-early", {"en": "Early Vedic Period", "sv": "Vedisk period", "hi": "पूर्व वैदिक काल Pūrva Vaidika Kāl"}, "CulturalAge", "vedic-period", 1500, 1000, "BCE",
     "Rigveda composition; pastoral-nomadic society; Indra worship; tribal kingdoms (janapadas); Punjab region focus.")
-add("vedic-late", "Late Vedic Period (उत्तर वैदिक काल Uttara Vaidika Kāl)", "CulturalAge", "vedic-period", 1000, 500, "BCE",
+add("vedic-late", {"en": "Late Vedic Period", "sv": "Vedisk period", "hi": "उत्तर वैदिक काल Uttara Vaidika Kāl"}, "CulturalAge", "vedic-period", 1000, 500, "BCE",
     "Expansion to Ganges plain; Painted Grey Ware; Upanishads; emergence of Buddhism and Jainism; Mahajanapadas (16 great kingdoms).")
-add("maurya-empire", "Maurya Empire (मौर्य साम्राज्य)", "CulturalAge", "south-asia-history", 322, 185, "BCE",
+add("maurya-empire", {"en": "Maurya Empire", "sv": "Mauryariket", "hi": "मौर्य साम्राज्य"}, "CulturalAge", "south-asia-history", 322, 185, "BCE",
     "First pan-Indian empire; Chandragupta Maurya; Ashoka the Great (~268-232 BCE); edicts of non-violence; Arthashastra; Pataliputra capital.")
-add("ashoka", "Reign of Ashoka (अशोक का शासनकाल / 𑀅𑀲𑁄𑀓 Asoka)", "CulturalAge", "maurya-empire", 268, 232, "BCE",
+add("ashoka", {"en": "Reign of Ashoka", "sv": "Ashokas regeringstid", "hi": "अशोक का शासनकाल"}, "CulturalAge", "maurya-empire", 268, 232, "BCE",
     "Greatest Mauryan emperor; Kalinga War conversion to Buddhism; rock and pillar edicts; Lion Capital (Indian national emblem); spread of Dharma.")
-add("gandhara", "Gandhara Civilization (گندھارا / गन्धार Gandhāra)", "CulturalAge", "south-asia-history", 600, 1021, "BCE-CE",
+add("gandhara", {"en": "Gandhara Civilization", "sv": "Gandharacivilisationen", "ar": "گندھارا", "hi": "गन्धार Gandhāra"}, "CulturalAge", "south-asia-history", 600, 1021, "BCE-CE",
     "Northwest Pakistan/eastern Afghanistan; Greco-Buddhist art synthesis; Taxila university; Alexander's campaigns; Kushan patronage; Hindu Shahi; fell to Ghaznavids.")
-add("kushan-empire", "Kushan Empire (कुषाण साम्राज्य Kuṣāṇa)", "CulturalAge", "south-asia-history", 30, 375, "CE",
+add("kushan-empire", {"en": "Kushan Empire", "sv": "Kushanriket", "hi": "कुषाण साम्राज्य Kuṣāṇa"}, "CulturalAge", "south-asia-history", 30, 375, "CE",
     "Central Asian origin; Kanishka I; Gandhara Buddhist art (Greco-Buddhist); Silk Road trade; Mathura and Peshawar; spread Buddhism to China.")
-add("gupta-empire", "Gupta Empire (गुप्त साम्राज्य)", "CulturalAge", "south-asia-history", 320, 550, "CE",
+add("gupta-empire", {"en": "Gupta Empire", "sv": "Guptariket", "hi": "गुप्त साम्राज्य"}, "CulturalAge", "south-asia-history", 320, 550, "CE",
     "Golden Age of India; Chandragupta I, Samudragupta, Chandragupta II; Aryabhata (mathematics/astronomy); Kalidasa; Nalanda University; decimal system.")
-add("satavahana", "Satavahana Dynasty (शातवाहन / సాతవాహన Śātavāhana)", "CulturalAge", "south-asia-history", 100, 220, "BCE-CE",
+add("satavahana", {"en": "Satavahana Dynasty", "sv": "Satavahanadynastin", "hi": "शातवाहन"}, "CulturalAge", "south-asia-history", 100, 220, "BCE-CE",
     "Major Deccan power; bridge between Maurya and Gupta; Amaravati stupa; Prakrit patronage; controlled trade routes between north and south India.")
-add("pallava-dynasty", "Pallava Dynasty (பல்லவ மரபு Pallava Marapu)", "CulturalAge", "south-asia-history", 275, 897, "CE",
+add("pallava-dynasty", {"en": "Pallava Dynasty", "sv": "Pallavadynastin"}, "CulturalAge", "south-asia-history", 275, 897, "CE",
     "South Indian dynasty; Shore Temple and Pancha Rathas at Mamallapuram (UNESCO); Pallava script influenced Southeast Asian scripts; Dravidian architecture.")
-add("chalukya-dynasty", "Chalukya Dynasty (ಚಾಲುಕ್ಯ ರಾಜವಂಶ Cāḷukya)", "CulturalAge", "south-asia-history", 543, 1190, "CE",
+add("chalukya-dynasty", {"en": "Chalukya Dynasty", "sv": "Chalukyadynastin"}, "CulturalAge", "south-asia-history", 543, 1190, "CE",
     "Major Deccan empire; Badami, Western and Eastern Chalukyas; Pattadakal temples (UNESCO); rival to Pallavas and Cholas; Kannada literary tradition.")
-add("chola-dynasty", "Chola Dynasty (சோழ மரபு Cōḻa)", "CulturalAge", "south-asia-history", 300, 1279, "BCE-CE",
+add("chola-dynasty", {"en": "Chola Dynasty", "sv": "Choladynastin"}, "CulturalAge", "south-asia-history", 300, 1279, "BCE-CE",
     "Tamil Nadu; one of longest-ruling dynasties; Rajaraja I, Rajendra I; naval power; Brihadeeswarar Temple; influence across Southeast Asia.")
-add("pala-empire", "Pala Empire (পাল সাম্রাজ্য Pāla Sāmrājya)", "CulturalAge", "south-asia-history", 750, 1174, "CE",
+add("pala-empire", {"en": "Pala Empire", "sv": "Palariket"}, "CulturalAge", "south-asia-history", 750, 1174, "CE",
     "Eastern India (Bengal-Bihar); last major Buddhist empire in India; Nalanda and Vikramashila universities; Pala school of art; tantric Buddhism.")
-add("delhi-sultanate", "Delhi Sultanate (دلی سلطنت / दिल्ली सल्तनत)", "CulturalAge", "south-asia-history", 1206, 1526, "CE",
+add("delhi-sultanate", {"en": "Delhi Sultanate", "sv": "Delhisultanatet", "ar": "دلی سلطنت", "hi": "दिल्ली सल्तनत"}, "CulturalAge", "south-asia-history", 1206, 1526, "CE",
     "Five successive Islamic dynasties ruling from Delhi; Qutub Minar; repelled Mongol invasions; Slave, Khalji, Tughlaq, Sayyid, Lodi dynasties.")
-add("vijayanagara", "Vijayanagara Empire (ವಿಜಯನಗರ ಸಾಮ್ರಾಜ್ಯ Vijayanagara)", "CulturalAge", "south-asia-history", 1336, 1646, "CE",
+add("vijayanagara", {"en": "Vijayanagara Empire", "sv": "Vijayanagarariket"}, "CulturalAge", "south-asia-history", 1336, 1646, "CE",
     "Hindu empire of southern India; Hampi capital (UNESCO); resisted Bahmani/Deccan sultanates; patronized Telugu, Kannada, Tamil literature.")
-add("mughal-empire", "Mughal Empire (مغلیہ سلطنت / मुग़ल सल्तनत)", "CulturalAge", "south-asia-history", 1526, 1857, "CE",
+add("mughal-empire", {"en": "Mughal Empire", "sv": "Mogulriket", "ar": "مغلیہ سلطنت", "hi": "मुग़ल सल्तनत"}, "CulturalAge", "south-asia-history", 1526, 1857, "CE",
     "Babur, Akbar, Shah Jahan, Aurangzeb; Taj Mahal; religious tolerance (Akbar's Din-i Ilahi); zenith of Indo-Islamic architecture; ~25% of world GDP.")
-add("mughal-golden-age", "Mughal Golden Age (مغلیہ سلطنت کا عروج)", "CulturalAge", "mughal-empire", 1556, 1707, "CE",
+add("mughal-golden-age", {"en": "Mughal Golden Age", "sv": "Mogulrikets guldålder", "ar": "مغلیہ سلطنت کا عروج"}, "CulturalAge", "mughal-empire", 1556, 1707, "CE",
     "Akbar through Aurangzeb; Taj Mahal (1632-53); Red Fort; miniature painting; administrative reforms; territorial peak under Aurangzeb.")
-add("maratha-empire", "Maratha Empire (मराठा साम्राज्य)", "CulturalAge", "south-asia-history", 1674, 1818, "CE",
+add("maratha-empire", {"en": "Maratha Empire", "sv": "Marathariket", "hi": "मराठा साम्राज्य"}, "CulturalAge", "south-asia-history", 1674, 1818, "CE",
     "Shivaji Maharaj; Hindu Padshahi; challenged Mughal decline; Peshwa era; confederacy; Battle of Panipat (1761); eventually fell to British.")
-add("sikh-empire", "Sikh Empire (ਸਿੱਖ ਰਾਜ / Sarkar-e-Khalsa)", "CulturalAge", "south-asia-history", 1799, 1849, "CE",
+add("sikh-empire", {"en": "Sikh Empire", "sv": "Sikhriket"}, "CulturalAge", "south-asia-history", 1799, 1849, "CE",
     "Maharaja Ranjit Singh; Punjab-based empire; secular governance; Khalsa army; Kohinoor diamond; Anglo-Sikh Wars; annexed by British East India Company.")
-add("british-raj", "British Raj (ब्रिटिश राज)", "CulturalAge", "south-asia-history", 1858, 1947, "CE",
+add("british-raj", {"en": "British Raj", "sv": "Brittiska Indien", "hi": "ब्रिटिश राज"}, "CulturalAge", "south-asia-history", 1858, 1947, "CE",
     "Direct British Crown rule; railways; English education; Bengal famine (1943); Indian National Congress; Muslim League; independence movement.")
-add("indian-independence", "Indian Independence Movement (भारतीय स्वतंत्रता आन्दोलन)", "CulturalAge", "british-raj", 1885, 1947, "CE",
+add("indian-independence", {"en": "Indian Independence Movement", "sv": "Indiska självständighetsrörelsen", "hi": "भारतीय स्वतंत्रता आन्दोलन"}, "CulturalAge", "british-raj", 1885, 1947, "CE",
     "INC founded (1885); Swadeshi; Gandhi's satyagraha; Salt March (1930); Quit India (1942); Partition; independence August 15, 1947.")
-add("south-asia-modern", "Modern South Asia (आधुनिक दक्षिण एशिया)", "CulturalAge", "contemporary", 1947, 0, "CE",
+add("south-asia-modern", {"en": "Modern South Asia", "sv": "Moderna Sydasien", "hi": "आधुनिक दक्षिण एशिया"}, "CulturalAge", "contemporary", 1947, 0, "CE",
     "Partition of India and Pakistan; Bangladesh liberation (1971); Sri Lankan civil war; nuclear powers; IT revolution; world's largest democracy.")
 
 # --- Sri Lanka ---
-add("anuradhapura-kingdom", "Anuradhapura Kingdom (අනුරාධපුර රාජධානිය)", "CulturalAge", "south-asia-history", 377, 1017, "BCE-CE",
+add("anuradhapura-kingdom", {"en": "Anuradhapura Kingdom", "sv": "Kungariket Anuradhapura"}, "CulturalAge", "south-asia-history", 377, 1017, "BCE-CE",
     "First major Sinhalese kingdom; 1,400-year rule; center of Theravada Buddhism; massive irrigation works (tanks); UNESCO World Heritage site.")
-add("polonnaruwa-kingdom", "Polonnaruwa Kingdom (පොළොන්නරුව රාජධානිය)", "CulturalAge", "south-asia-history", 1055, 1212, "CE",
+add("polonnaruwa-kingdom", {"en": "Polonnaruwa Kingdom", "sv": "Kungariket Polonnaruwa"}, "CulturalAge", "south-asia-history", 1055, 1212, "CE",
     "Second Sinhalese capital after Chola expulsion; Parakramabahu the Great; superior irrigation systems; Gal Vihara Buddha statues; UNESCO site.")
-add("kingdom-of-kandy", "Kingdom of Kandy (මහනුවර රාජධානිය)", "CulturalAge", "south-asia-history", 1469, 1815, "CE",
+add("kingdom-of-kandy", {"en": "Kingdom of Kandy", "sv": "Kungariket Kandy"}, "CulturalAge", "south-asia-history", 1469, 1815, "CE",
     "Last independent Sinhalese monarchy; resisted Portuguese and Dutch for centuries; Temple of the Tooth Relic (Sri Dalada Maligawa); fell to British 1815.")
 
 # --- Nepal ---
-add("licchavi-nepal", "Licchavi Kingdom of Nepal (लिच्छवि राजवंश)", "CulturalAge", "south-asia-history", 400, 750, "CE",
+add("licchavi-nepal", {"en": "Licchavi Kingdom of Nepal", "sv": "Licchavi-riket i Nepal", "hi": "लिच्छवि राजवंश"}, "CulturalAge", "south-asia-history", 400, 750, "CE",
     "Golden Period of Nepal; earliest inscriptions (Manadeva, 464 CE); connected Kathmandu Valley to Indian subcontinent trade and culture.")
-add("malla-nepal", "Malla Kingdoms of Nepal (मल्ल राजवंश)", "CulturalAge", "south-asia-history", 1200, 1768, "CE",
+add("malla-nepal", {"en": "Malla Kingdoms of Nepal", "sv": "Malla-rikena i Nepal", "hi": "मल्ल राजवंश"}, "CulturalAge", "south-asia-history", 1200, 1768, "CE",
     "600-year rule; split into Kathmandu, Bhaktapur, Lalitpur after 1482; Newar civilization flourished; extraordinary pagoda temple architecture.")
 
 # --- Bangladesh/Bengal ---
-add("sena-dynasty", "Sena Dynasty (সেন রাজবংশ)", "CulturalAge", "south-asia-history", 1097, 1225, "CE",
+add("sena-dynasty", {"en": "Sena Dynasty", "sv": "Senadynastin"}, "CulturalAge", "south-asia-history", 1097, 1225, "CE",
     "Unified all of Bengal; Hindu revival after Buddhist Pala rule; Jayadeva's Gita Govinda; established Bengali caste system.")
-add("bengal-sultanate", "Bengal Sultanate (বাংলা সালতানাত)", "CulturalAge", "south-asia-history", 1342, 1538, "CE",
+add("bengal-sultanate", {"en": "Bengal Sultanate", "sv": "Bengalsultanatet"}, "CulturalAge", "south-asia-history", 1342, 1538, "CE",
     "Independent Islamic state; 'richest country to trade with'; first Bengali court language recognition; distinctive Bengali-Islamic architecture.")
 
 # --- China ---
-add("china-history", "Chinese Historical Periods (中国历史时期 Zhōngguó lìshǐ shíqī)", "CulturalAge", "holocene", 7000, 0, "BCE-CE",
+add("china-history", {"en": "Chinese Historical Periods", "sv": "Kinesiska historiska perioder", "zh": "中国历史时期 Zhōngguó lìshǐ shíqī"}, "CulturalAge", "holocene", 7000, 0, "BCE-CE",
     "From Neolithic cultures through dynastic cycle to modern People's Republic; continuous civilization spanning 5,000+ years.")
-add("chinese-neolithic", "Chinese Neolithic Cultures (中国新石器时代文化 Zhōngguó xīn shíqì shídài wénhuà)", "CulturalAge", "china-history", 7000, 2070, "BCE",
+add("chinese-neolithic", {"en": "Chinese Neolithic Cultures", "sv": "Kinesiska neolitiska kulturer", "zh": "中国新石器时代文化 Zhōngguó xīn shíqì shídài wénhuà"}, "CulturalAge", "china-history", 7000, 2070, "BCE",
     "Yangshao (painted pottery), Longshan (black pottery), Liangzhu (jade); rice and millet cultivation; proto-cities; foundations of Chinese civilization.")
-add("xia-dynasty", "Xia Dynasty (夏朝 Xià Cháo)", "CulturalAge", "china-history", 2070, 1600, "BCE",
+add("xia-dynasty", {"en": "Xia Dynasty", "sv": "Xiadynastin", "zh": "夏朝 Xià Cháo"}, "CulturalAge", "china-history", 2070, 1600, "BCE",
     "First Chinese dynasty (semi-legendary); Yu the Great; flood control; Erlitou culture; bronze vessels; transition from Neolithic to Bronze Age.")
-add("shang-dynasty", "Shang Dynasty (商朝 Shāng Cháo)", "CulturalAge", "china-history", 1600, 1046, "BCE",
+add("shang-dynasty", {"en": "Shang Dynasty", "sv": "Shangdynastin", "zh": "商朝 Shāng Cháo"}, "CulturalAge", "china-history", 1600, 1046, "BCE",
     "First historically verified dynasty; oracle bone inscriptions (earliest Chinese writing); bronze ritual vessels; Anyang capital; ancestor worship.")
-add("zhou-dynasty", "Zhou Dynasty (周朝 Zhōu Cháo)", "CulturalAge", "china-history", 1046, 256, "BCE",
+add("zhou-dynasty", {"en": "Zhou Dynasty", "sv": "Zhoudynastin", "zh": "周朝 Zhōu Cháo"}, "CulturalAge", "china-history", 1046, 256, "BCE",
     "Longest Chinese dynasty; Mandate of Heaven concept; feudal system; divided into Western Zhou and Eastern Zhou (Spring and Autumn, Warring States).")
-add("spring-autumn", "Spring and Autumn Period (春秋時代 Chūnqiū)", "CulturalAge", "zhou-dynasty", 771, 476, "BCE",
+add("spring-autumn", {"en": "Spring and Autumn Period", "sv": "Vår- och höstperioden", "zh": "春秋時代 Chūnqiū"}, "CulturalAge", "zhou-dynasty", 771, 476, "BCE",
     "Confucius (551-479), Laozi (Daoism), Sun Tzu; Hundred Schools of Thought begins; hegemonic states; iron technology spreads.")
-add("warring-states", "Warring States Period (戰國時代 Zhànguó)", "CulturalAge", "zhou-dynasty", 475, 221, "BCE",
+add("warring-states", {"en": "Warring States Period", "sv": "De stridande staternas period", "zh": "戰國時代 Zhànguó"}, "CulturalAge", "zhou-dynasty", 475, 221, "BCE",
     "Seven major states; Mencius, Zhuangzi, Legalism (Han Feizi); crossbow, cavalry; mass armies; ends with Qin unification.")
-add("qin-dynasty", "Qin Dynasty (秦朝 Qín Cháo)", "CulturalAge", "china-history", 221, 206, "BCE",
+add("qin-dynasty", {"en": "Qin Dynasty", "sv": "Qindynastin", "zh": "秦朝 Qín Cháo"}, "CulturalAge", "china-history", 221, 206, "BCE",
     "First unified Chinese empire; Qin Shi Huang; Great Wall begun; Terracotta Army; standardized weights, measures, writing; Legalist rule; burned books.")
-add("han-dynasty", "Han Dynasty (漢朝 Hàn Cháo)", "CulturalAge", "china-history", 206, 220, "BCE-CE",
+add("han-dynasty", {"en": "Han Dynasty", "sv": "Handynastin", "zh": "漢朝 Hàn Cháo"}, "CulturalAge", "china-history", 206, 220, "BCE-CE",
     "Golden age; Confucianism as state ideology; Silk Road opens (Zhang Qian); paper invented; civil service exams; ~60 million people; 'Han Chinese' identity.")
-add("han-western", "Western Han (西漢 Xī Hàn)", "CulturalAge", "han-dynasty", 206, 9, "BCE",
+add("han-western", {"en": "Western Han", "sv": "Västra Han", "zh": "西漢 Xī Hàn"}, "CulturalAge", "han-dynasty", 206, 9, "BCE",
     "Emperor Wu expands empire; Silk Road trade; Sima Qian's Records of the Grand Historian; Confucian academy; Chang'an capital.")
-add("han-eastern", "Eastern Han (東漢 Dōng Hàn)", "CulturalAge", "han-dynasty", 25, 220, "CE",
+add("han-eastern", {"en": "Eastern Han", "sv": "Östra Han", "zh": "東漢 Dōng Hàn"}, "CulturalAge", "han-dynasty", 25, 220, "CE",
     "Restored Han; Luoyang capital; Buddhism arrives; invention of paper (Cai Lun, 105 CE); seismograph (Zhang Heng); Yellow Turban Rebellion.")
-add("three-kingdoms", "Three Kingdoms Period (三國時代 Sānguó)", "CulturalAge", "china-history", 220, 280, "CE",
+add("three-kingdoms", {"en": "Three Kingdoms Period", "sv": "De tre rikenas tid", "zh": "三國時代 Sānguó"}, "CulturalAge", "china-history", 220, 280, "CE",
     "Wei, Shu, Wu; Cao Cao, Liu Bei, Sun Quan, Zhuge Liang; Romance of the Three Kingdoms; one of most romanticized eras in Chinese culture.")
-add("six-dynasties", "Six Dynasties / Northern and Southern Dynasties (六朝/南北朝)", "CulturalAge", "china-history", 220, 589, "CE",
+add("six-dynasties", {"en": "Six Dynasties / Northern and Southern Dynasties", "sv": "Sex dynastierna / Nord- och Syddynastierna", "zh": "六朝/南北朝"}, "CulturalAge", "china-history", 220, 589, "CE",
     "300-year era of division; Jin, Sixteen Kingdoms, Northern and Southern Dynasties; Buddhism takes root; Wang Xizhi calligraphy; ethnic integration of steppe peoples.")
-add("sixteen-kingdoms", "Sixteen Kingdoms (十六國/五胡十六國)", "CulturalAge", "six-dynasties", 304, 439, "CE",
+add("sixteen-kingdoms", {"en": "Sixteen Kingdoms", "sv": "Sexton kungadömena", "zh": "十六國/五胡十六國"}, "CulturalAge", "six-dynasties", 304, 439, "CE",
     "Non-Han peoples (Xiongnu, Xianbei, Di, Qiang, Jie) establish kingdoms across northern China; reshapes Chinese demographics and culture.")
-add("sui-dynasty", "Sui Dynasty (隋朝 Suí Cháo)", "CulturalAge", "china-history", 581, 618, "CE",
+add("sui-dynasty", {"en": "Sui Dynasty", "sv": "Suidynastin", "zh": "隋朝 Suí Cháo"}, "CulturalAge", "china-history", 581, 618, "CE",
     "Reunification after centuries of division; Grand Canal construction; Great Wall rebuilt; civil service exams restored; overextension leads to collapse.")
-add("tang-dynasty", "Tang Dynasty (唐朝 Táng Cháo)", "CulturalAge", "china-history", 618, 907, "CE",
+add("tang-dynasty", {"en": "Tang Dynasty", "sv": "Tangdynastin", "zh": "唐朝 Táng Cháo"}, "CulturalAge", "china-history", 618, 907, "CE",
     "Golden age of Chinese civilization; Chang'an largest city in world; Li Bai, Du Fu (poetry); Wu Zetian (only female emperor); cosmopolitan culture; Silk Road peak.")
-add("five-dynasties", "Five Dynasties and Ten Kingdoms (五代十國 Wǔdài Shíguó)", "CulturalAge", "china-history", 907, 960, "CE",
+add("five-dynasties", {"en": "Five Dynasties and Ten Kingdoms", "sv": "Fem dynastier och tio kungadömen", "zh": "五代十國 Wǔdài Shíguó"}, "CulturalAge", "china-history", 907, 960, "CE",
     "Fragmentation after Tang; five rapid northern dynasties; ten southern kingdoms; political chaos; printing technology spreads; prelude to Song reunification.")
-add("song-dynasty", "Song Dynasty (宋朝 Sòng Cháo)", "CulturalAge", "china-history", 960, 1279, "CE",
+add("song-dynasty", {"en": "Song Dynasty", "sv": "Songdynastin", "zh": "宋朝 Sòng Cháo"}, "CulturalAge", "china-history", 960, 1279, "CE",
     "Economic revolution; movable type printing; gunpowder weapons; compass; paper money; Neo-Confucianism; landscape painting; commercial economy.")
-add("song-northern", "Northern Song (北宋 Běi Sòng)", "CulturalAge", "song-dynasty", 960, 1127, "CE",
+add("song-northern", {"en": "Northern Song", "sv": "Norra Song", "zh": "北宋 Běi Sòng"}, "CulturalAge", "song-dynasty", 960, 1127, "CE",
     "Kaifeng capital; Su Shi (poet); Shen Kuo (polymath); Dream Pool Essays; commercial revolution; lost north to Jurchen Jin dynasty.")
-add("jin-jurchen", "Jin Dynasty (Jurchen, 金朝)", "CulturalAge", "china-history", 1115, 1234, "CE",
+add("jin-jurchen", {"en": "Jin Dynasty", "sv": "Jindynastin", "zh": "Jurchen, 金朝"}, "CulturalAge", "china-history", 1115, 1234, "CE",
     "Jurchen conquest of northern China; sinicized administration; rivalry with Southern Song; fell to Mongols; predecessor to Manchu Qing.")
-add("liao-dynasty", "Liao Dynasty (遼朝)", "CulturalAge", "china-history", 916, 1125, "CE",
+add("liao-dynasty", {"en": "Liao Dynasty", "sv": "Liaodynastin", "zh": "遼朝"}, "CulturalAge", "china-history", 916, 1125, "CE",
     "Khitan empire; 'Cathay' derives from Khitan; dual administration (nomadic + Chinese); Chanyuan Treaty with Song (1004); own writing system.")
-add("western-xia", "Western Xia (西夏)", "CulturalAge", "china-history", 1038, 1227, "CE",
+add("western-xia", {"en": "Western Xia", "sv": "Västra Xia", "zh": "西夏"}, "CulturalAge", "china-history", 1038, 1227, "CE",
     "Tangut empire controlling Hexi Corridor (Silk Road); unique Tangut script; three-way balance with Song and Liao/Jin; annihilated by Mongols.")
-add("song-southern", "Southern Song (南宋 Nán Sòng)", "CulturalAge", "song-dynasty", 1127, 1279, "CE",
+add("song-southern", {"en": "Southern Song", "sv": "Södra Song", "zh": "南宋 Nán Sòng"}, "CulturalAge", "song-dynasty", 1127, 1279, "CE",
     "Hangzhou capital ('above is heaven, below is Hangzhou'); maritime trade; Zhu Xi Neo-Confucianism; fell to Mongol Yuan dynasty.")
-add("yuan-dynasty", "Yuan Dynasty (Mongol)", "CulturalAge", "china-history", 1271, 1368, "CE",
+add("yuan-dynasty", {"en": "Yuan Dynasty", "sv": "Yuandynastin"}, "CulturalAge", "china-history", 1271, 1368, "CE",
     "Kublai Khan; Mongol rule over China; Marco Polo visits; Grand Canal extended; Yuan drama; paper money inflation; ethnic hierarchy.")
-add("ming-dynasty", "Ming Dynasty (明朝 Míng Cháo)", "CulturalAge", "china-history", 1368, 1644, "CE",
+add("ming-dynasty", {"en": "Ming Dynasty", "sv": "Mingdynastin", "zh": "明朝 Míng Cháo"}, "CulturalAge", "china-history", 1368, 1644, "CE",
     "Han Chinese restoration; Forbidden City (Beijing); Zheng He voyages (1405-33); Great Wall rebuilt; porcelain golden age; novel tradition flourishes.")
-add("zheng-he", "Zheng He Voyages (郑和下西洋 Zhèng Hé xià Xīyáng)", "CulturalAge", "ming-dynasty", 1405, 1433, "CE",
+add("zheng-he", {"en": "Zheng He Voyages", "sv": "Zheng He Voyages", "zh": "郑和下西洋 Zhèng Hé xià Xīyáng"}, "CulturalAge", "ming-dynasty", 1405, 1433, "CE",
     "Seven grand maritime expeditions; treasure ships; reached East Africa, Arabia, Southeast Asia; then China turned inward; ended oceanic exploration.")
-add("qing-dynasty", "Qing Dynasty (清朝 Qīng Cháo)", "CulturalAge", "china-history", 1644, 1912, "CE",
+add("qing-dynasty", {"en": "Qing Dynasty", "sv": "Qingdynastin", "zh": "清朝 Qīng Cháo"}, "CulturalAge", "china-history", 1644, 1912, "CE",
     "Manchu rule; largest Qing territory; Kangxi, Qianlong emperors; Opium Wars; Taiping Rebellion (~20-30M dead); Century of Humiliation; fall to revolution.")
-add("qing-golden-age", "High Qing Era (康乾盛世 Kāng-Qián shèngshì)", "CulturalAge", "qing-dynasty", 1661, 1796, "CE",
+add("qing-golden-age", {"en": "High Qing Era", "sv": "High Qing Era", "zh": "康乾盛世 Kāng-Qián shèngshì"}, "CulturalAge", "qing-dynasty", 1661, 1796, "CE",
     "Kangxi-Yongzheng-Qianlong; population doubles to 300M; territorial expansion (Tibet, Xinjiang, Taiwan); literary inquisition; Dream of the Red Chamber.")
-add("opium-wars", "Opium Wars Era (鸦片战争 Yāpiàn Zhànzhēng)", "CulturalAge", "qing-dynasty", 1839, 1860, "CE",
+add("opium-wars", {"en": "Opium Wars Era", "sv": "Opiumkrigens tid", "zh": "鸦片战争 Yāpiàn Zhànzhēng"}, "CulturalAge", "qing-dynasty", 1839, 1860, "CE",
     "First (1839-42) and Second (1856-60) Opium Wars; Treaty of Nanjing; Hong Kong ceded; unequal treaties; Summer Palace burned; forced opening.")
-add("republic-of-china", "Republic of China (中華民國 Zhōnghuá Mínguó)", "CulturalAge", "china-history", 1912, 1949, "CE",
+add("republic-of-china", {"en": "Republic of China", "sv": "Republiken Kina", "zh": "中華民國 Zhōnghuá Mínguó"}, "CulturalAge", "china-history", 1912, 1949, "CE",
     "Sun Yat-sen; warlord era; Northern Expedition; Nanjing decade; Second Sino-Japanese War (1937-45); Chinese Civil War; Chiang Kai-shek retreats to Taiwan.")
-add("prc", "People's Republic of China (中华人民共和国 Zhōnghuá Rénmín Gònghéguó)", "CulturalAge", "contemporary", 1949, 0, "CE",
+add("prc", {"en": "People's Republic of China", "sv": "Folkrepubliken Kina", "zh": "中华人民共和国 Zhōnghuá Rénmín Gònghéguó"}, "CulturalAge", "contemporary", 1949, 0, "CE",
     "Mao Zedong; Great Leap Forward; Cultural Revolution (1966-76); Deng Xiaoping reforms (1978); economic miracle; world's second-largest economy.")
-add("taiwan-japanese", "Taiwan under Japanese Rule (台灣日治時期)", "CulturalAge", "japan-history", 1895, 1945, "CE",
+add("taiwan-japanese", {"en": "Taiwan under Japanese Rule", "sv": "Taiwan under japanskt styre", "zh": "台灣日治時期"}, "CulturalAge", "japan-history", 1895, 1945, "CE",
     "Japan's first colony (Treaty of Shimonoseki); Republic of Formosa (1895); modernized infrastructure; cultural suppression; shaped modern Taiwanese identity.")
-add("roc-taiwan", "ROC on Taiwan (中華民國在臺灣)", "CulturalAge", "contemporary", 1949, 0, "CE",
+add("roc-taiwan", {"en": "ROC on Taiwan", "sv": "Republiken Kina på Taiwan", "zh": "中華民國在臺灣"}, "CulturalAge", "contemporary", 1949, 0, "CE",
     "KMT retreat to Taiwan; White Terror; martial law (1949-1987); economic miracle (Four Asian Tigers); democratization; first direct presidential election (1996).")
 
 # --- Japan ---
-add("japan-history", "Japanese Historical Periods (日本の歴史時代 Nihon no rekishi jidai)", "CulturalAge", "holocene", 14000, 0, "BCE-CE",
+add("japan-history", {"en": "Japanese Historical Periods", "sv": "Japanska historiska perioder", "ja": "日本の歴史時代 Nihon no rekishi jidai"}, "CulturalAge", "holocene", 14000, 0, "BCE-CE",
     "From Jōmon hunter-gatherers through samurai shoguns to modern economic power; island civilization with unique cultural synthesis.")
-add("jomon", "Jōmon Period (縄文時代 Jōmon jidai)", "CulturalAge", "japan-history", 14000, 300, "BCE",
+add("jomon", {"en": "Jōmon Period", "sv": "Jōmonperioden", "zh": "縄文時代 Jōmon jidai"}, "CulturalAge", "japan-history", 14000, 300, "BCE",
     "Hunter-gatherer-fishers; world's oldest pottery (~16,000 BP); cord-marked ceramics; Sannai-Maruyama settlement; dogu figurines; 10,000+ year span.")
-add("yayoi", "Yayoi Period (弥生時代 Yayoi jidai)", "CulturalAge", "japan-history", 300, 250, "BCE-CE",
+add("yayoi", {"en": "Yayoi Period", "sv": "Yayoiperioden", "zh": "弥生時代 Yayoi jidai"}, "CulturalAge", "japan-history", 300, 250, "BCE-CE",
     "Wet-rice agriculture from Korean peninsula; bronze and iron tools; social stratification; Yoshinogari site; foundation of Japanese agricultural society.")
-add("kofun", "Kofun Period (古墳時代 Kofun jidai)", "CulturalAge", "japan-history", 250, 538, "CE",
+add("kofun", {"en": "Kofun Period", "sv": "Kofunperioden", "zh": "古墳時代 Kofun jidai"}, "CulturalAge", "japan-history", 250, 538, "CE",
     "Keyhole-shaped burial mounds; Yamato court emergence; introduction of Chinese writing; haniwa clay figures; imperial lineage established.")
-add("asuka-period", "Asuka Period (飛鳥時代 Asuka jidai)", "CulturalAge", "japan-history", 538, 710, "CE",
+add("asuka-period", {"en": "Asuka Period", "sv": "Asukaperioden", "zh": "飛鳥時代 Asuka jidai"}, "CulturalAge", "japan-history", 538, 710, "CE",
     "Buddhism arrives; Prince Shōtoku; Taika Reform (645); Ritsuryō legal codes; Chinese-style centralized government; Hōryū-ji temple.")
-add("nara-period", "Nara Period (奈良時代 Nara jidai)", "CulturalAge", "japan-history", 710, 794, "CE",
+add("nara-period", {"en": "Nara Period", "sv": "Naraperioden", "zh": "奈良時代 Nara jidai"}, "CulturalAge", "japan-history", 710, 794, "CE",
     "First permanent capital at Nara; Kojiki and Nihon Shoki (earliest histories); Tōdai-ji Great Buddha; Buddhist monastery power grows.")
-add("heian-period", "Heian Period (平安時代 Heian jidai)", "CulturalAge", "japan-history", 794, 1185, "CE",
+add("heian-period", {"en": "Heian Period", "sv": "Heianperioden", "zh": "平安時代 Heian jidai"}, "CulturalAge", "japan-history", 794, 1185, "CE",
     "Kyoto capital; Tale of Genji (Murasaki Shikibu, world's first novel); Fujiwara regents; kana script; refined court culture; samurai class rises.")
-add("kamakura-shogunate", "Kamakura Period (鎌倉時代 Kamakura jidai)", "CulturalAge", "japan-history", 1185, 1333, "CE",
+add("kamakura-shogunate", {"en": "Kamakura Period", "sv": "Kamakuraperioden", "zh": "鎌倉時代 Kamakura jidai"}, "CulturalAge", "japan-history", 1185, 1333, "CE",
     "First shogunate (Minamoto Yoritomo); samurai government; Zen Buddhism; Mongol invasions repelled (1274, 1281, 'kamikaze'); warrior culture.")
-add("muromachi-period", "Muromachi Period (室町時代 Muromachi jidai)", "CulturalAge", "japan-history", 1336, 1573, "CE",
+add("muromachi-period", {"en": "Muromachi Period", "sv": "Muromachiperioden", "zh": "室町時代 Muromachi jidai"}, "CulturalAge", "japan-history", 1336, 1573, "CE",
     "Ashikaga shogunate; Noh theater; tea ceremony; Zen gardens (Ryōan-ji); Ōnin War (1467); Sengoku (Warring States) era begins.")
-add("sengoku", "Sengoku Period (戦国時代 Sengoku jidai)", "CulturalAge", "japan-history", 1467, 1615, "CE",
+add("sengoku", {"en": "Sengoku Period", "sv": "Sengokuperioden", "zh": "戦国時代 Sengoku jidai"}, "CulturalAge", "japan-history", 1467, 1615, "CE",
     "Warring States; Oda Nobunaga, Toyotomi Hideyoshi, Tokugawa Ieyasu (three unifiers); firearms arrive (1543); castles; samurai warfare peak.")
-add("azuchi-momoyama", "Azuchi-Momoyama Period (安土桃山時代)", "CulturalAge", "sengoku", 1573, 1603, "CE",
+add("azuchi-momoyama", {"en": "Azuchi-Momoyama Period", "sv": "Azuchi-Momoyama Period", "zh": "安土桃山時代"}, "CulturalAge", "sengoku", 1573, 1603, "CE",
     "Nobunaga and Hideyoshi era; grand castles (Azuchi, Osaka); Sen no Rikyū tea ceremony; Namban trade with Europeans; Korea invasions (1592-98).")
-add("edo-period", "Edo Period (江戸時代 Edo jidai / Tokugawa)", "CulturalAge", "japan-history", 1603, 1868, "CE",
+add("edo-period", {"en": "Edo Period", "sv": "Edoperioden", "zh": "江戸時代 Edo jidai"}, "CulturalAge", "japan-history", 1603, 1868, "CE",
     "Tokugawa shogunate; 250 years of peace; sakoku isolation; Edo (Tokyo) grows to 1M+; kabuki, ukiyo-e, haiku; rigid social hierarchy; merchant culture.")
-add("meiji-era", "Meiji Era (明治時代 Meiji jidai)", "CulturalAge", "japan-history", 1868, 1912, "CE",
+add("meiji-era", {"en": "Meiji Era", "sv": "Meiji Era", "zh": "明治時代 Meiji jidai"}, "CulturalAge", "japan-history", 1868, 1912, "CE",
     "Meiji Restoration; rapid modernization/industrialization; Meiji Constitution (1889); Sino-Japanese War (1894-95); Russo-Japanese War (1904-05); world power.")
-add("taisho-era", "Taishō Era (大正時代)", "CulturalAge", "japan-history", 1912, 1926, "CE",
+add("taisho-era", {"en": "Taishō Era", "sv": "Taishō Era", "zh": "大正時代"}, "CulturalAge", "japan-history", 1912, 1926, "CE",
     "Japan's brief democratic flowering; party-led cabinets; universal male suffrage (1925); modern culture (cinema, radio); Great Kantō Earthquake (1923).")
-add("imperial-japan", "Early Shōwa / Militarist Japan (昭和)", "CulturalAge", "japan-history", 1926, 1945, "CE",
+add("imperial-japan", {"en": "Early Shōwa / Militarist Japan", "sv": "Early Shōwa / Militarist Japan", "zh": "昭和"}, "CulturalAge", "japan-history", 1926, 1945, "CE",
     "Militarism rises; Manchuria invasion (1931); Second Sino-Japanese War; Pearl Harbor; Pacific War; atomic bombs; surrender.")
-add("postwar-japan", "Postwar Japan (戦後日本 Sengo Nihon)", "CulturalAge", "contemporary", 1945, 0, "CE",
+add("postwar-japan", {"en": "Postwar Japan", "sv": "Efterkrigstidens Japan", "zh": "戦後日本 Sengo Nihon"}, "CulturalAge", "contemporary", 1945, 0, "CE",
     "U.S. occupation; new constitution; economic miracle; world's 2nd largest economy (1968-2010); Sony, Toyota; anime/manga cultural export; aging society.")
-add("ryukyu-kingdom", "Ryukyu Kingdom (琉球王国 / Ruuchuu)", "CulturalAge", "japan-history", 1429, 1879, "CE",
+add("ryukyu-kingdom", {"en": "Ryukyu Kingdom", "sv": "Kungariket Ryukyu", "zh": "琉球王国"}, "CulturalAge", "japan-history", 1429, 1879, "CE",
     "Independent maritime kingdom (Okinawa); trade hub connecting China, Japan, Korea, SE Asia; Shuri Castle (UNESCO); dual subordination after Satsuma 1609; annexed by Meiji Japan.")
 
 # --- Korea ---
-add("korea-history", "Korean Historical Periods (한국 역사 시대 / 韓國歷史時代)", "CulturalAge", "holocene", 2333, 0, "BCE-CE",
+add("korea-history", {"en": "Korean Historical Periods", "sv": "Koreanska historiska perioder", "ko": "한국 역사 시대", "zh": "韓國歷史時代"}, "CulturalAge", "holocene", 2333, 0, "BCE-CE",
     "From legendary Gojoseon through Three Kingdoms, Goryeo, Joseon to modern divided peninsula.")
-add("gojoseon", "Gojoseon (고조선 / 古朝鮮)", "CulturalAge", "korea-history", 2333, 108, "BCE",
+add("gojoseon", {"en": "Gojoseon", "sv": "Gojoseon", "ko": "고조선", "zh": "古朝鮮"}, "CulturalAge", "korea-history", 2333, 108, "BCE",
     "First Korean kingdom (legendary founding by Dangun); bronze culture; Wiman Joseon; conquered by Han China (108 BCE); Korean identity origins.")
-add("three-kingdoms-korea", "Three Kingdoms of Korea (삼국시대 / 三國時代)", "CulturalAge", "korea-history", 57, 668, "BCE-CE",
+add("three-kingdoms-korea", {"en": "Three Kingdoms of Korea", "sv": "Koreas tre riken", "ko": "삼국시대", "zh": "三國時代"}, "CulturalAge", "korea-history", 57, 668, "BCE-CE",
     "Goguryeo (north, military), Baekje (southwest, maritime), Silla (southeast); Buddhism adopted; tomb murals; cultural exchange with Japan and China.")
-add("gaya-confederacy", "Gaya Confederacy (가야/加耶)", "CulturalAge", "korea-history", 42, 562, "CE",
+add("gaya-confederacy", {"en": "Gaya Confederacy", "sv": "Gaya Confederacy", "zh": "가야/加耶"}, "CulturalAge", "korea-history", 42, 562, "CE",
     "City-states in Nakdong River basin; peninsula's iron-working center; gayageum zither invented; absorbed by Silla; Kim Yu-sin was Gaya descendant.")
-add("silla-unified", "Unified Silla (통일신라 / 統一新羅)", "CulturalAge", "korea-history", 668, 935, "CE",
+add("silla-unified", {"en": "Unified Silla", "sv": "Enade Silla", "ko": "통일신라", "zh": "統一新羅"}, "CulturalAge", "korea-history", 668, 935, "CE",
     "Silla unifies peninsula with Tang alliance; Gyeongju capital; Bulguksa Temple; golden age of Korean Buddhism; Seokguram Grotto.")
-add("balhae", "Balhae (Bohai)", "CulturalAge", "korea-history", 698, 926, "CE",
+add("balhae", {"en": "Balhae", "sv": "Balhae"}, "CulturalAge", "korea-history", 698, 926, "CE",
     "Northern successor to Goguryeo; ruled Manchuria and northern Korea; 'Flourishing Land in the East'; fell to Khitan Liao; claimed by both Korean and Chinese histories.")
-add("later-three-kingdoms", "Later Three Kingdoms (후삼국시대)", "CulturalAge", "korea-history", 892, 936, "CE",
+add("later-three-kingdoms", {"en": "Later Three Kingdoms", "sv": "De tre senare rikena", "ko": "후삼국시대"}, "CulturalAge", "korea-history", 892, 936, "CE",
     "Silla collapses; Later Baekje and Later Goguryeo arise; Wang Geon unifies under Goryeo (936); origin of name 'Korea'.")
-add("goryeo-dynasty", "Goryeo Dynasty (고려 / 高麗)", "CulturalAge", "korea-history", 918, 1392, "CE",
+add("goryeo-dynasty", {"en": "Goryeo Dynasty", "sv": "Goryeodynastin", "ko": "고려", "zh": "高麗"}, "CulturalAge", "korea-history", 918, 1392, "CE",
     "Origin of name 'Korea'; celadon ceramics; Tripitaka Koreana (woodblock Buddhist canon); movable metal type (1234, before Gutenberg); Mongol invasions.")
-add("joseon-dynasty", "Joseon Dynasty (조선 / 朝鮮)", "CulturalAge", "korea-history", 1392, 1897, "CE",
+add("joseon-dynasty", {"en": "Joseon Dynasty", "sv": "Joseondynastin", "ko": "조선", "zh": "朝鮮"}, "CulturalAge", "korea-history", 1392, 1897, "CE",
     "Neo-Confucian state; Sejong the Great invents Hangul (1443); Gyeongbokgung Palace; Imjin War (Japanese invasions, 1592-98); 500-year dynasty.")
-add("joseon-golden-age", "Joseon Golden Age (조선 세종대왕 시대 / 朝鮮 世宗大王 時代)", "CulturalAge", "joseon-dynasty", 1418, 1494, "CE",
+add("joseon-golden-age", {"en": "Joseon Golden Age", "sv": "Joseons guldålder", "ko": "조선 세종대왕 시대", "zh": "朝鮮 世宗大王 時代"}, "CulturalAge", "joseon-dynasty", 1418, 1494, "CE",
     "Sejong the Great; Hangul alphabet (1443); rain gauge, sundials, water clocks; Jang Yeong-sil (inventor); agricultural treatises; Confucian scholarship.")
-add("korean-empire", "Korean Empire (대한제국/大韓帝國)", "CulturalAge", "korea-history", 1897, 1910, "CE",
+add("korean-empire", {"en": "Korean Empire", "sv": "Koreanriket", "zh": "대한제국/大韓帝國"}, "CulturalAge", "korea-history", 1897, 1910, "CE",
     "Emperor Gojong proclaims empire; Gwangmu Reform; modernization; 'Daehan' origin of South Korea's name; annexed by Japan 1910.")
-add("japanese-occupation-korea", "Japanese Occupation of Korea (일제강점기 / 日帝強占期)", "CulturalAge", "korea-history", 1910, 1945, "CE",
+add("japanese-occupation-korea", {"en": "Japanese Occupation of Korea", "sv": "Japans ockupation av Korea", "ko": "일제강점기", "zh": "日帝強占期"}, "CulturalAge", "korea-history", 1910, 1945, "CE",
     "Annexation by Japan; cultural suppression; forced labor; comfort women; March 1st Movement (1919); Korean language banned; liberation with WWII end.")
-add("korea-modern", "Modern Korea (Divided)", "CulturalAge", "contemporary", 1945, 0, "CE",
+add("korea-modern", {"en": "Modern Korea", "sv": "Moderna Korea"}, "CulturalAge", "contemporary", 1945, 0, "CE",
     "Division at 38th parallel; Korean War (1950-53); North Korea (DPRK); South Korea's 'Miracle on the Han River'; K-pop, Samsung; DMZ.")
 
 # --- Southeast Asia ---
-add("southeast-asia-history", "Southeast Asian Historical Periods (ประวัติศาสตร์เอเชียตะวันออกเฉียงใต้)", "CulturalAge", "holocene", 1000, 0, "BCE-CE",
+add("southeast-asia-history", {"en": "Southeast Asian Historical Periods", "sv": "Sydostasiatiska historiska perioder"}, "CulturalAge", "holocene", 1000, 0, "BCE-CE",
     "Maritime and mainland kingdoms; Indianization and Sinicization; spice trade; colonial era; modern ASEAN nations.")
-add("funan", "Kingdom of Funan (扶南 Fúnán / នគរភ្នំ)", "CulturalAge", "southeast-asia-history", 100, 550, "CE",
+add("funan", {"en": "Kingdom of Funan", "sv": "Kungariket Funan", "zh": "扶南 Fúnán"}, "CulturalAge", "southeast-asia-history", 100, 550, "CE",
     "Earliest known Indianized kingdom in mainland Southeast Asia; Mekong Delta; maritime trade hub; Hinduism and Buddhism; Óc Eo port city.")
-add("chenla-kingdom", "Kingdom of Chenla (真臘 Zhēnlà / ចេនឡា Chenla / ប្រទេសកម្ពុជា)", "CulturalAge", "southeast-asia-history", 550, 802, "CE",
+add("chenla-kingdom", {"en": "Kingdom of Chenla", "sv": "Kungariket Chenla", "zh": "真臘 Zhēnlà"}, "CulturalAge", "southeast-asia-history", 550, 802, "CE",
     "Khmer predecessor state; successor to Funan in mainland Southeast Asia; fragmented c. 706 CE into Land Chenla (upper) and Water Chenla (lower); Jayavarman II unified and proclaimed devaraja (god-king), founding the Khmer Empire in 802 CE.")
-add("champa", "Kingdom of Champa (Chăm Pa / 占婆 Zhànpó)", "CulturalAge", "southeast-asia-history", 192, 1832, "CE",
+add("champa", {"en": "Kingdom of Champa", "sv": "Kungariket Champa", "zh": "占婆 Zhànpó"}, "CulturalAge", "southeast-asia-history", 192, 1832, "CE",
     "Hindu-Buddhist kingdom in central/southern Vietnam; Cham towers (Mỹ Sơn); maritime trade; rivalry with Khmer and Đại Việt; Austronesian people.")
-add("srivijaya", "Srivijaya Empire (ศรีวิชัย / Śrīvijaya)", "CulturalAge", "southeast-asia-history", 650, 1377, "CE",
+add("srivijaya", {"en": "Srivijaya Empire", "sv": "Srivijayariket"}, "CulturalAge", "southeast-asia-history", 650, 1377, "CE",
     "Maritime empire based in Sumatra; controlled Malacca Strait; Buddhist center (Nalanda connections); Malay language spread; spice trade.")
-add("dongson-culture", "Đông Sơn Culture (Văn hóa Đông Sơn / 東山文化)", "CulturalAge", "southeast-asia-history", 600, 200, "BCE-CE",
+add("dongson-culture", {"en": "Đông Sơn Culture", "sv": "Đông Sơn Culture", "zh": "東山文化"}, "CulturalAge", "southeast-asia-history", 600, 200, "BCE-CE",
     "Bronze Age culture of northern Vietnam's Red River Delta; elaborate bronze drums (trống đồng Đông Sơn); wet-rice cultivation; maritime trade; Heger Type I drums found from Indonesia to southern China; foundation of Vietnamese Bronze Age identity.")
-add("ban-chiang", "Ban Chiang (บ้านเชียง)", "CulturalAge", "southeast-asia-history", 3600, 200, "BCE",
+add("ban-chiang", {"en": "Ban Chiang", "sv": "Ban Chiang"}, "CulturalAge", "southeast-asia-history", 3600, 200, "BCE",
     "Prehistoric site in northeast Thailand; UNESCO World Heritage Site; early bronze metallurgy (debated dating); distinctive red-painted pottery; rice agriculture; challenges 'diffusion from China' model of Southeast Asian metalworking.")
 
-add("dvaravati", "Dvaravati Kingdom (ทวารวดี Thawārawadī)", "CulturalAge", "southeast-asia-history", 550, 1050, "CE",
+add("dvaravati", {"en": "Dvaravati Kingdom", "sv": "Kungariket Dvaravati"}, "CulturalAge", "southeast-asia-history", 550, 1050, "CE",
     "Mon Buddhist kingdom in central Thailand; Theravada Buddhism center; Dharmachakra (Wheel of Law) sculptures; absorbed by Khmer and later Thai kingdoms.")
-add("khmer-empire", "Khmer Empire (ចក្រភពខ្មែរ)", "CulturalAge", "southeast-asia-history", 802, 1431, "CE",
+add("khmer-empire", {"en": "Khmer Empire", "sv": "Khmerriket"}, "CulturalAge", "southeast-asia-history", 802, 1431, "CE",
     "Angkor Wat and Angkor Thom; Jayavarman II, Suryavarman II, Jayavarman VII; hydraulic engineering; largest pre-industrial city; Hindu-Buddhist synthesis.")
-add("pagan-kingdom", "Pagan Kingdom (ပုဂံ ပြည် Pugaṃ Pyi)", "CulturalAge", "southeast-asia-history", 849, 1297, "CE",
+add("pagan-kingdom", {"en": "Pagan Kingdom", "sv": "Kungariket Pagan"}, "CulturalAge", "southeast-asia-history", 849, 1297, "CE",
     "First unified Myanmar/Burma; Anawrahta; 10,000+ Buddhist temples at Bagan; Theravada Buddhism; Pali scriptures; Mongol invasion ends dynasty.")
-add("majapahit", "Majapahit Empire (Kerajaan Majapahit / ꦩꦗꦥꦲꦶꦠ꧀)", "CulturalAge", "southeast-asia-history", 1293, 1527, "CE",
+add("majapahit", {"en": "Majapahit Empire", "sv": "Majapahitriket"}, "CulturalAge", "southeast-asia-history", 1293, 1527, "CE",
     "Java-based Hindu-Buddhist empire; Gajah Mada (prime minister); Nagarakretagama poem; controlled much of maritime Southeast Asia; Indonesian national heritage.")
-add("sukhothai", "Sukhothai Kingdom (อาณาจักรสุโขทัย Anāčhak Sukhōthai)", "CulturalAge", "southeast-asia-history", 1238, 1438, "CE",
+add("sukhothai", {"en": "Sukhothai Kingdom", "sv": "Kungariket Sukhothai"}, "CulturalAge", "southeast-asia-history", 1238, 1438, "CE",
     "First Thai kingdom; King Ramkhamhaeng; Thai script created; Theravada Buddhism state religion; Si Satchanalai ceramics; foundation of Thai identity.")
-add("ayutthaya", "Ayutthaya Kingdom (อาณาจักรอยุธยา Anāčhak Ayutthayā)", "CulturalAge", "southeast-asia-history", 1351, 1767, "CE",
+add("ayutthaya", {"en": "Ayutthaya Kingdom", "sv": "Kungariket Ayutthaya"}, "CulturalAge", "southeast-asia-history", 1351, 1767, "CE",
     "Siamese kingdom; cosmopolitan capital; trade with China, Japan, Europe; 33 kings; destroyed by Burma (1767); predecessor to modern Thailand.")
-add("malacca-sultanate", "Malacca Sultanate (Kesultanan Melayu Melaka)", "CulturalAge", "southeast-asia-history", 1400, 1511, "CE",
+add("malacca-sultanate", {"en": "Malacca Sultanate", "sv": "Malaccasultanatet"}, "CulturalAge", "southeast-asia-history", 1400, 1511, "CE",
     "Strategic Strait of Malacca; spread of Islam in maritime Southeast Asia; Malay court culture; fell to Portuguese (1511); origin of modern Malaysia.")
-add("dai-viet", "Đại Việt (大越)", "CulturalAge", "southeast-asia-history", 1009, 1802, "CE",
+add("dai-viet", {"en": "Đại Việt", "sv": "Đại Việt", "zh": "大越"}, "CulturalAge", "southeast-asia-history", 1009, 1802, "CE",
     "Vietnamese state; Lý, Trần, Lê dynasties; repelled Mongol invasions (3 times); Confucian governance; Temple of Literature (1070); southward expansion.")
 # --- Myanmar (post-Pagan) ---
-add("toungoo-dynasty", "Toungoo Dynasty (တောင်ငူ ခေတ်)", "CulturalAge", "southeast-asia-history", 1510, 1752, "CE",
+add("toungoo-dynasty", {"en": "Toungoo Dynasty", "sv": "Toungoodynastin"}, "CulturalAge", "southeast-asia-history", 1510, 1752, "CE",
     "Reunified Burma; under Bayinnaung created largest empire in Southeast Asian history; conquered Ava, Lan Na, Siam, Lan Xang.")
-add("konbaung-dynasty", "Konbaung Dynasty (ကုန်းဘောင် ခေတ်)", "CulturalAge", "southeast-asia-history", 1752, 1885, "CE",
+add("konbaung-dynasty", {"en": "Konbaung Dynasty", "sv": "Konbaungdynastin"}, "CulturalAge", "southeast-asia-history", 1752, 1885, "CE",
     "Last Burmese dynasty; destroyed Ayutthaya (1767); defeated four Qing invasions; fell to British in three Anglo-Burmese Wars.")
 
 # --- Thailand (post-Ayutthaya) ---
-add("lan-na-kingdom", "Lan Na Kingdom (ล้านนา)", "CulturalAge", "southeast-asia-history", 1292, 1558, "CE",
+add("lan-na-kingdom", {"en": "Lan Na Kingdom", "sv": "Lan Na Kingdom"}, "CulturalAge", "southeast-asia-history", 1292, 1558, "CE",
     "Northern Thai kingdom centered on Chiang Mai; distinct Lan Na script and culture; resisted Mongol incursions; eventually absorbed into Siam.")
-add("rattanakosin", "Rattanakosin Kingdom (อาณาจักรรัตนโกสินทร์)", "CulturalAge", "southeast-asia-history", 1782, 1932, "CE",
+add("rattanakosin", {"en": "Rattanakosin Kingdom", "sv": "Kungariket Rattanakosin"}, "CulturalAge", "southeast-asia-history", 1782, 1932, "CE",
     "Chakri dynasty; Bangkok capital; Siam's modernization; only Southeast Asian nation to avoid colonization; precursor to modern Thailand.")
 
 # --- Vietnam (specific dynasties) ---
-add("ly-dynasty", "Lý Dynasty (Nhà Lý/李朝)", "CulturalAge", "dai-viet", 1010, 1225, "CE",
+add("ly-dynasty", {"en": "Lý Dynasty", "sv": "Lýdynastin", "zh": "Nhà Lý/李朝"}, "CulturalAge", "dai-viet", 1010, 1225, "CE",
     "Founded Thăng Long (Hanoi); established centralized Vietnamese state; drove out Chinese influence; laid foundation for Vietnamese nationhood.")
-add("tran-dynasty", "Trần Dynasty (Nhà Trần/陳朝)", "CulturalAge", "dai-viet", 1226, 1400, "CE",
+add("tran-dynasty", {"en": "Trần Dynasty", "sv": "Trầndynastin", "zh": "Nhà Trần/陳朝"}, "CulturalAge", "dai-viet", 1226, 1400, "CE",
     "Repelled three Mongol invasions under Trần Hưng Đạo; chữ Nôm writing system; golden age of Vietnamese literature.")
-add("later-le-dynasty", "Later Lê Dynasty (Nhà Hậu Lê/後黎朝)", "CulturalAge", "dai-viet", 1428, 1789, "CE",
+add("later-le-dynasty", {"en": "Later Lê Dynasty", "sv": "Later Lê Dynasty", "zh": "Nhà Hậu Lê/後黎朝"}, "CulturalAge", "dai-viet", 1428, 1789, "CE",
     "Longest-ruling Vietnamese dynasty (360 years); Lê Lợi expelled Ming Chinese; Hồng Đức law code with progressive women's rights.")
-add("nguyen-dynasty", "Nguyễn Dynasty (Nhà Nguyễn/阮朝)", "CulturalAge", "southeast-asia-history", 1802, 1945, "CE",
+add("nguyen-dynasty", {"en": "Nguyễn Dynasty", "sv": "Nguyễndynastin", "zh": "Nhà Nguyễn/阮朝"}, "CulturalAge", "southeast-asia-history", 1802, 1945, "CE",
     "Last Vietnamese dynasty; unified all modern Vietnam; Imperial City of Huế (UNESCO); French protectorate from 1883.")
 
 # --- Indonesia ---
-add("sailendra-dynasty", "Sailendra Dynasty (Wangsa Syailendra)", "CulturalAge", "southeast-asia-history", 750, 850, "CE",
+add("sailendra-dynasty", {"en": "Sailendra Dynasty", "sv": "Sailendradynastin"}, "CulturalAge", "southeast-asia-history", 750, 850, "CE",
     "Buddhist dynasty of Central Java; built Borobudur, largest Buddhist monument in the world (UNESCO); connected to Srivijaya.")
-add("mataram-hindu", "Mataram Kingdom (Kerajaan Mataram Kuno)", "CulturalAge", "southeast-asia-history", 732, 1006, "CE",
+add("mataram-hindu", {"en": "Mataram Kingdom", "sv": "Kungariket Mataram"}, "CulturalAge", "southeast-asia-history", 732, 1006, "CE",
     "Hindu-Shaivite kingdom of Central Java; built Prambanan temple complex (UNESCO); rival/coexistent with Sailendra.")
-add("singhasari", "Singhasari Kingdom (Kerajaan Singhasari)", "CulturalAge", "southeast-asia-history", 1222, 1292, "CE",
+add("singhasari", {"en": "Singhasari Kingdom", "sv": "Kungariket Singhasari"}, "CulturalAge", "southeast-asia-history", 1222, 1292, "CE",
     "East Javanese kingdom; conquered Srivijaya; predecessor to Majapahit; Ken Angrok's unification of Javanese territories.")
-add("mataram-islamic", "Mataram Sultanate (Kesultanan Mataram Islam)", "CulturalAge", "southeast-asia-history", 1587, 1755, "CE",
+add("mataram-islamic", {"en": "Mataram Sultanate", "sv": "Mataramsultanatet"}, "CulturalAge", "southeast-asia-history", 1587, 1755, "CE",
     "Last major independent Javanese kingdom; Sultan Agung; shaped Javanese culture (gamelan, batik, wayang kulit); split into Yogyakarta and Surakarta.")
 
 # --- Cambodia (post-Angkor) ---
-add("longvek-period", "Post-Angkor / Longvek Period (សម័យលង្វែក)", "CulturalAge", "southeast-asia-history", 1431, 1594, "CE",
+add("longvek-period", {"en": "Post-Angkor / Longvek Period", "sv": "Post-Angkor / Longvek Period"}, "CulturalAge", "southeast-asia-history", 1431, 1594, "CE",
     "Capital moved to Longvek after Angkor's fall; maritime trade hub with European, Chinese, Japanese communities; fell to Ayutthaya 1594.")
 
 # --- Laos ---
-add("lan-xang", "Lan Xang Kingdom (ລ້ານຊ້າງ)", "CulturalAge", "southeast-asia-history", 1353, 1707, "CE",
+add("lan-xang", {"en": "Lan Xang Kingdom", "sv": "Lan Xang Kingdom"}, "CulturalAge", "southeast-asia-history", 1353, 1707, "CE",
     "Kingdom of a Million Elephants; largest Lao state; Theravada Buddhism; golden age under Sourigna Vongsa; split into three kingdoms 1707; foundational to Lao identity.")
 
 # --- Philippines ---
-add("kingdom-of-tondo", "Kingdom of Tondo (Kaharian ng Tondo)", "CulturalAge", "southeast-asia-history", 900, 1589, "CE",
+add("kingdom-of-tondo", {"en": "Kingdom of Tondo", "sv": "Kungariket Tondo"}, "CulturalAge", "southeast-asia-history", 900, 1589, "CE",
     "One of oldest Philippine polities; Laguna Copperplate Inscription (900 CE); Luzon trade with China; fell to Spanish colonization.")
-add("sultanate-of-sulu", "Sultanate of Sulu (Kasultanan sin Sulu)", "CulturalAge", "southeast-asia-history", 1405, 1915, "CE",
+add("sultanate-of-sulu", {"en": "Sultanate of Sulu", "sv": "Sultanate of Sulu"}, "CulturalAge", "southeast-asia-history", 1405, 1915, "CE",
     "Maritime Islamic power; controlled Sulu Sea and parts of Borneo; resisted Spanish colonization for centuries; sophisticated naval capabilities.")
-add("sultanate-of-maguindanao", "Sultanate of Maguindanao (Kasultanan nu Magindanaw)", "CulturalAge", "southeast-asia-history", 1500, 1888, "CE",
+add("sultanate-of-maguindanao", {"en": "Sultanate of Maguindanao", "sv": "Sultanate of Maguindanao"}, "CulturalAge", "southeast-asia-history", 1500, 1888, "CE",
     "Largest Islamic state in the Philippines; controlled most of Mindanao at peak; Sultan Kudarat's legendary resistance against Spain.")
 
-add("colonial-southeast-asia", "Colonial Southeast Asia (Kolonial Sydostasien)", "CulturalAge", "southeast-asia-history", 1511, 1957, "CE",
+add("colonial-southeast-asia", {"en": "Colonial Southeast Asia", "sv": "Koloniala Sydostasien"}, "CulturalAge", "southeast-asia-history", 1511, 1957, "CE",
     "Portuguese Malacca (1511); Dutch East Indies; Spanish Philippines; French Indochina; British Burma/Malaya; only Thailand never colonized.")
-add("southeast-asia-modern", "Modern Southeast Asia (Sydostasien i modern tid)", "CulturalAge", "contemporary", 1945, 0, "CE",
+add("southeast-asia-modern", {"en": "Modern Southeast Asia", "sv": "Moderna Sydostasien"}, "CulturalAge", "contemporary", 1945, 0, "CE",
     "Independence movements; Vietnam Wars; Khmer Rouge; ASEAN (1967); Asian Tigers; Reformasi; economic growth; 680+ million people.")
 
 # --- Central Asia & Steppe ---
-add("central-asia-history", "Central Asian Historical Periods (Орта Азия тарихи / تاریخ آسیای مرکزی)", "CulturalAge", "holocene", 3500, 0, "BCE-CE",
+add("central-asia-history", {"en": "Central Asian Historical Periods", "sv": "Centralasiatiska historiska perioder", "ar": "تاریخ آسیای مرکزی"}, "CulturalAge", "holocene", 3500, 0, "BCE-CE",
     "Steppe nomads, Silk Road oasis cities; Scythians, Turks, Mongols; convergence zone of civilizations.")
-add("scythians", "Scythian Period (Σκύθαι / Скифы Skify)", "CulturalAge", "central-asia-history", 900, 200, "BCE",
+add("scythians", {"en": "Scythian Period", "sv": "Scythianperioden"}, "CulturalAge", "central-asia-history", 900, 200, "BCE",
     "Iranian nomadic warriors; horse archery; animal-style gold art; kurgans (burial mounds); Herodotus accounts; influenced Greek and Persian worlds.")
-add("xiongnu", "Xiongnu Empire (匈奴 Xiōngnú)", "CulturalAge", "central-asia-history", 209, 91, "BCE-CE",
+add("xiongnu", {"en": "Xiongnu Empire", "sv": "Xiongnuriket", "zh": "匈奴 Xiōngnú"}, "CulturalAge", "central-asia-history", 209, 91, "BCE-CE",
     "First great steppe empire; Modu Chanyu; prompted Chinese Great Wall; Silk Road intermediaries; possible ancestors of Huns; Han dynasty rival; split into Northern and Southern Xiongnu 48 CE.")
-add("silk-road-era", "Silk Road Era (丝绸之路 / Ipek Yolu / طريق الحرير)", "CulturalAge", "central-asia-history", 130, 1453, "BCE-CE",
+add("silk-road-era", {"en": "Silk Road Era", "sv": "Sidenvägens era", "ar": "طريق الحرير", "zh": "丝绸之路"}, "CulturalAge", "central-asia-history", 130, 1453, "BCE-CE",
     "Trans-Eurasian trade network; Zhang Qian (130 BCE); Sogdian merchants; Samarkand, Bukhara, Kashgar; ideas, religions, diseases, technologies exchanged.")
-add("gokturk-khaganate", "Göktürk Khaganate (𐰜𐰇𐰛:𐱅𐰇𐰼𐰜 Kök Türük / 突厥)", "CulturalAge", "central-asia-history", 552, 744, "CE",
+add("gokturk-khaganate", {"en": "Göktürk Khaganate", "sv": "Göktürk Khaganate", "zh": "突厥"}, "CulturalAge", "central-asia-history", 552, 744, "CE",
     "First Turkic empire; Orkhon inscriptions (oldest Turkic writing); controlled Silk Road; split into Eastern and Western; influenced all later Turkic states.")
-add("tibetan-empire", "Tibetan Empire (བོད་ཆེན་པོ Böchen / 吐蕃 Tǔbō)", "CulturalAge", "central-asia-history", 618, 842, "CE",
+add("tibetan-empire", {"en": "Tibetan Empire", "sv": "Tibetanriket", "zh": "吐蕃 Tǔbō"}, "CulturalAge", "central-asia-history", 618, 842, "CE",
     "Songtsen Gampo unifies Tibet; rivaled Tang China; controlled Silk Road oases; Lhasa established; Buddhism adopted; Tibetan script created; fragmented after 842.")
-add("sakya-tibet", "Sakya Period of Tibet (ས་སྐྱ་པ/薩迦派)", "CulturalAge", "central-asia-history", 1244, 1354, "CE",
+add("sakya-tibet", {"en": "Sakya Period of Tibet", "sv": "Sakya Period of Tibet", "zh": "ས་སྐྱ་པ/薩迦派"}, "CulturalAge", "central-asia-history", 1244, 1354, "CE",
     "Sakya lamas govern Tibet under Mongol patronage; 'priest-patron' (yon-mchod) relationship; Sakya Pandita's submission to Mongols (1244).")
-add("phagmodrupa-tibet", "Phagmodrupa Dynasty (ཕག་མོ་གྲུ་པ/帕木竹巴)", "CulturalAge", "central-asia-history", 1354, 1642, "CE",
+add("phagmodrupa-tibet", {"en": "Phagmodrupa Dynasty", "sv": "Phagmodrupadynastin", "zh": "ཕག་མོ་གྲུ་པ/帕木竹巴"}, "CulturalAge", "central-asia-history", 1354, 1642, "CE",
     "Re-established Tibetan autonomous rule; Changchub Gyaltsen revitalized Tibetan culture; Tsongkhapa founds Gelug school; Dalai Lama institution emerges.")
-add("sogdiana", "Sogdiana (Sogdian City-States)", "CulturalAge", "central-asia-history", 500, 800, "CE",
+add("sogdiana", {"en": "Sogdiana", "sv": "Sogdiana"}, "CulturalAge", "central-asia-history", 500, 800, "CE",
     "Premier Silk Road merchant civilization; Samarkand, Bukhara; Sogdian lingua franca of trade; alphabet influenced Central Asian scripts; rose in Tang government.")
-add("mongol-empire", "Mongol Empire (ᠶᠡᠬᠡ ᠮᠣᠩᠭᠣᠯ ᠤᠯᠤᠰ / Их Монгол Улс / Yeke Mongol Ulus)", "CulturalAge", "central-asia-history", 1206, 1368, "CE",
+add("mongol-empire", {"en": "Mongol Empire", "sv": "Mongoliska riket"}, "CulturalAge", "central-asia-history", 1206, 1368, "CE",
     "Genghis Khan; largest contiguous land empire in history; Pax Mongolica; postal system (yam); religious tolerance; connected East and West.")
-add("chagatai-khanate", "Chagatai Khanate (چغتای خانات)", "CulturalAge", "central-asia-history", 1226, 1687, "CE",
+add("chagatai-khanate", {"en": "Chagatai Khanate", "sv": "Chagatai Khanate", "ar": "چغتای خانات"}, "CulturalAge", "central-asia-history", 1226, 1687, "CE",
     "Mongol successor state; Chagatai Khan's line; Aral Sea to Altai Mountains; Turkicized; Chagatai Turkic literary language; lost Transoxiana to Timurids.")
-add("ilkhanate", "Ilkhanate (ایلخانان)", "CulturalAge", "central-asia-history", 1256, 1335, "CE",
+add("ilkhanate", {"en": "Ilkhanate", "sv": "Ilkhanate", "ar": "ایلخانان"}, "CulturalAge", "central-asia-history", 1256, 1335, "CE",
     "Mongol successor state; Hulagu Khan; sack of Baghdad (1258) ends Abbasid Caliphate; defeated at Ain Jalut (1260); converted to Islam under Ghazan.")
-add("golden-horde", "Golden Horde (Алтын Орда/Улус Джучи)", "CulturalAge", "central-asia-history", 1227, 1502, "CE",
+add("golden-horde", {"en": "Golden Horde", "sv": "Golden Horde"}, "CulturalAge", "central-asia-history", 1227, 1502, "CE",
     "Mongol successor state; Jochi's line; ruled Eurasian steppe and Russia ('Tatar Yoke'); Sarai capitals; converted to Islam; fragmented into successor khanates.")
-add("northern-yuan", "Northern Yuan (北元)", "CulturalAge", "central-asia-history", 1368, 1635, "CE",
+add("northern-yuan", {"en": "Northern Yuan", "sv": "Northern Yuan", "zh": "北元"}, "CulturalAge", "central-asia-history", 1368, 1635, "CE",
     "Borjigin clan continues ruling Mongolia after Yuan collapse; Dayan Khan reunifies tribes; ended when seal passed to Manchu Later Jin (1635).")
-add("dzungar-khanate", "Dzungar Khanate (準噶爾汗國)", "CulturalAge", "central-asia-history", 1634, 1758, "CE",
+add("dzungar-khanate", {"en": "Dzungar Khanate", "sv": "Dzungar Khanate", "zh": "準噶爾汗國"}, "CulturalAge", "central-asia-history", 1634, 1758, "CE",
     "Last great nomadic empire; Oirat Mongols; contested Tibet; fought Qing; destruction by Qianlong (1755-58) shaped borders of modern China.")
-add("timurid-empire", "Timurid Empire (تیموریان Tīmūriyān)", "CulturalAge", "central-asia-history", 1370, 1507, "CE",
+add("timurid-empire", {"en": "Timurid Empire", "sv": "Timuridriket", "ar": "تیموریان Tīmūriyān"}, "CulturalAge", "central-asia-history", 1370, 1507, "CE",
     "Timur (Tamerlane); Samarkand as cultural capital; Timurid Renaissance; Ulugh Beg observatory; Persian-Turkic culture; ancestor of Mughal dynasty.")
-add("khwarazmian-empire", "Khwarazmian Empire (خوارزمشاهیان)", "CulturalAge", "central-asia-history", 1077, 1231, "CE",
+add("khwarazmian-empire", {"en": "Khwarazmian Empire", "sv": "Khwarazmianriket", "ar": "خوارزمشاهیان"}, "CulturalAge", "central-asia-history", 1077, 1231, "CE",
     "Turkic Muslim empire; execution of Mongol diplomats triggered Genghis Khan's devastating invasion (1219); destruction of Merv, Samarkand, Bukhara.")
-add("ghaznavid-empire", "Ghaznavid Empire (غزنویان)", "CulturalAge", "central-asia-history", 977, 1186, "CE",
+add("ghaznavid-empire", {"en": "Ghaznavid Empire", "sv": "Ghaznavidriket", "ar": "غزنویان"}, "CulturalAge", "central-asia-history", 977, 1186, "CE",
     "Turkic dynasty from Ghazna; Mahmud of Ghazni's 17 expeditions into India; patron of Ferdowsi's Shahnameh; launched Islam into the subcontinent.")
-add("ghurid-dynasty", "Ghurid Dynasty (غوریان)", "CulturalAge", "central-asia-history", 1175, 1215, "CE",
+add("ghurid-dynasty", {"en": "Ghurid Dynasty", "sv": "Ghuriddynastin", "ar": "غوریان"}, "CulturalAge", "central-asia-history", 1175, 1215, "CE",
     "Eastern Persian dynasty from Ghor; Muhammad of Ghor's conquest of India (Tarain, 1192); Minaret of Jam (UNESCO); founded Delhi Sultanate.")
-add("great-game", "The Great Game (Большая игра Bolʹshaya igra / بازی بزرگ)", "CulturalAge", "central-asia-history", 1830, 1907, "CE",
+add("great-game", {"en": "The Great Game", "sv": "Det stora spelet", "ar": "بازی بزرگ"}, "CulturalAge", "central-asia-history", 1830, 1907, "CE",
     "British-Russian rivalry for Central Asian influence; Afghanistan as buffer state; Russian conquest of khanates; Anglo-Afghan Wars; espionage.")
-add("durrani-empire", "Durrani Empire (د درانیانو واکمني Da Durrāniyāno Wākmani)", "CulturalAge", "central-asia-history", 1747, 1826, "CE",
+add("durrani-empire", {"en": "Durrani Empire", "sv": "Durraniriket", "ar": "د درانیانو واکمني Da Durrāniyāno Wākmani"}, "CulturalAge", "central-asia-history", 1747, 1826, "CE",
     "Ahmad Shah Durrani ('Father of Afghanistan'); Pashtun empire from Khorasan to Punjab; Kohinoor diamond; foundation of modern Afghan state.")
 
 # --- Middle East / West Asia ---
-add("mesopotamia", "Mesopotamian Civilizations (بلاد الرافدين)", "CulturalAge", "holocene", 6500, 539, "BCE",
+add("mesopotamia", {"en": "Mesopotamian Civilizations", "sv": "Mesopotamiska civilisationer", "ar": "بلاد الرافدين"}, "CulturalAge", "holocene", 6500, 539, "BCE",
     "Cradle of civilization; between Tigris and Euphrates; writing, law, mathematics, astronomy; from Ubaid through Sumer to Neo-Babylonian.")
-add("ubaid-period", "Ubaid Period (دور العبيد)", "CulturalAge", "mesopotamia", 6500, 3800, "BCE",
+add("ubaid-period", {"en": "Ubaid Period", "sv": "Ubaidperioden", "ar": "دور العبيد"}, "CulturalAge", "mesopotamia", 6500, 3800, "BCE",
     "Pre-Sumerian Mesopotamian culture; first irrigation agriculture; distinctive painted pottery; Eridu (oldest city in Sumerian tradition); 'ubaid-style temples; foundation for Sumerian civilization.")
-add("uruk-period", "Uruk Period (دور الوركاء)", "CulturalAge", "mesopotamia", 4000, 3100, "BCE",
+add("uruk-period", {"en": "Uruk Period", "sv": "Urukperioden", "ar": "دور الوركاء"}, "CulturalAge", "mesopotamia", 4000, 3100, "BCE",
     "Birth of civilization; world's first city Uruk (~40,000 people); invention of cuneiform writing (~3400 BCE); cylinder seals; monumental architecture (White Temple); state formation; Warka Vase.")
 
-add("sumer", "Sumerian Civilization (𒆠𒂗𒄀 ki-en-gi)", "CulturalAge", "mesopotamia", 3500, 2004, "BCE",
+add("sumer", {"en": "Sumerian Civilization", "sv": "Sumeriancivilisationen"}, "CulturalAge", "mesopotamia", 3500, 2004, "BCE",
     "First civilization; cuneiform writing; city-states (Ur, Uruk, Lagash); ziggurats; Epic of Gilgamesh; wheel, plow, sailboat; sexagesimal math.")
-add("akkadian-empire", "Akkadian Empire (𒀀𒅗𒁲𒆠 māt Akkadī)", "CulturalAge", "mesopotamia", 2334, 2154, "BCE",
+add("akkadian-empire", {"en": "Akkadian Empire", "sv": "Akkadianriket"}, "CulturalAge", "mesopotamia", 2334, 2154, "BCE",
     "Sargon of Akkad; first known empire in history; Akkadian language; centralized bureaucracy; trade networks from Indus to Mediterranean.")
-add("babylon-old", "Old Babylonian Period (العصر البابلي القديم)", "CulturalAge", "mesopotamia", 1894, 1595, "BCE",
+add("babylon-old", {"en": "Old Babylonian Period", "sv": "Gammalbabyloniska perioden", "ar": "العصر البابلي القديم"}, "CulturalAge", "mesopotamia", 1894, 1595, "BCE",
     "Hammurabi's Code (~1754 BCE, most complete surviving ancient law code); Babylonian mathematics; astronomy; Marduk worship; fell to Hittite raid.")
-add("assyrian-empire", "Assyrian Empire (𒀸𒋗𒁺𒆠 māt Aššur)", "CulturalAge", "mesopotamia", 2025, 609, "BCE",
+add("assyrian-empire", {"en": "Assyrian Empire", "sv": "Assyrianriket"}, "CulturalAge", "mesopotamia", 2025, 609, "BCE",
     "Neo-Assyrian peak (911-609 BCE); Nineveh, Nimrud; Ashurbanipal's library; brutal military; iron weapons; siege warfare; reliefs; conquered Egypt.")
-add("neo-babylonian", "Neo-Babylonian Empire (الإمبراطورية البابلية الحديثة)", "CulturalAge", "mesopotamia", 626, 539, "BCE",
+add("neo-babylonian", {"en": "Neo-Babylonian Empire", "sv": "Nybabyloniska riket", "ar": "الإمبراطورية البابلية الحديثة"}, "CulturalAge", "mesopotamia", 626, 539, "BCE",
     "Nebuchadnezzar II; Hanging Gardens; Ishtar Gate; Babylonian captivity of Jews; astronomical records; fell to Persian Cyrus the Great.")
-add("phoenicia", "Phoenician Civilization (Φοινίκη / 𐤊𐤍𐤏𐤍 Kanaʿan)", "CulturalAge", "holocene", 1500, 300, "BCE",
+add("phoenicia", {"en": "Phoenician Civilization", "sv": "Phoeniciancivilisationen"}, "CulturalAge", "holocene", 1500, 300, "BCE",
     "Maritime city-states (Tyre, Sidon, Byblos); invented the alphabet (~1050 BCE); purple dye; Mediterranean trade and colonization; founded Carthage (~814 BCE).")
-add("carthage", "Carthaginian Empire (𐤒𐤓𐤕 𐤇𐤃𐤔𐤕 Qart-ḥadašt)", "CulturalAge", "holocene", 814, 146, "BCE",
+add("carthage", {"en": "Carthaginian Empire", "sv": "Carthaginianriket"}, "CulturalAge", "holocene", 814, 146, "BCE",
     "Phoenician colony becomes western Mediterranean power; Hannibal Barca; Punic Wars with Rome; destroyed by Rome (146 BCE); North Africa, Iberia, Sicily.")
-add("ancient-israel", "Ancient Israel (יִשְׂרָאֵל Yisrā'ēl)", "CulturalAge", "holocene", 1200, 586, "BCE",
+add("ancient-israel", {"en": "Ancient Israel", "sv": "Antikens Israel", "he": "יִשְׂרָאֵל Yisrā'ēl"}, "CulturalAge", "holocene", 1200, 586, "BCE",
     "Iron Age Levant; tribal confederation; United Monarchy under David and Solomon; First Temple; split into Israel and Judah; Babylonian exile (586 BCE); Hebrew Bible origins.")
-add("hittite-empire", "Hittite Empire (𒄩𒀜𒌅𒊭 Ḫattuša)", "CulturalAge", "holocene", 1650, 1180, "BCE",
+add("hittite-empire", {"en": "Hittite Empire", "sv": "Hittiteriket"}, "CulturalAge", "holocene", 1650, 1180, "BCE",
     "Anatolian Bronze Age power; Hattusa capital; Battle of Kadesh with Egypt (1274 BCE); iron technology; Treaty of Kadesh (earliest known peace treaty); cuneiform.")
-add("elamite-civilization", "Elamite Civilization (تمدن ایلام/Haltamti)", "CulturalAge", "holocene", 3200, 539, "BCE",
+add("elamite-civilization", {"en": "Elamite Civilization", "sv": "Elamitecivilisationen", "ar": "تمدن ایلام/Haltamti"}, "CulturalAge", "holocene", 3200, 539, "BCE",
     "Major Mesopotamian contemporary in southwest Iran; Susa, Anshan; Proto-Elamite script; Chogha Zanbil ziggurat (UNESCO); language isolate; influenced Achaemenid culture.")
-add("mitanni", "Mitanni Kingdom (ميتاني)", "CulturalAge", "holocene", 1550, 1260, "BCE",
+add("mitanni", {"en": "Mitanni Kingdom", "sv": "Kungariket Mitanni", "ar": "ميتاني"}, "CulturalAge", "holocene", 1550, 1260, "BCE",
     "Hurrian-speaking state in northern Syria/Anatolia with Indo-Aryan ruling elite; diplomatic peer of Egypt and Hittites; profoundly influenced Hittite religion.")
-add("urartu", "Urartu / Kingdom of Van (Biainili/Ուրարտու)", "CulturalAge", "holocene", 860, 585, "BCE",
+add("urartu", {"en": "Urartu / Kingdom of Van", "sv": "Urartu / Kingdom of Van"}, "CulturalAge", "holocene", 860, 585, "BCE",
     "Iron Age kingdom in Armenian highlands; rival to Assyria; founded Erebuni (modern Yerevan, 782 BCE); hydraulic engineering; biblical 'Ararat' cognate.")
-add("median-empire", "Median Empire (مادها)", "CulturalAge", "holocene", 678, 549, "BCE",
+add("median-empire", {"en": "Median Empire", "sv": "Medianriket", "ar": "مادها"}, "CulturalAge", "holocene", 678, 549, "BCE",
     "First Iranian empire; destroyed Assyrian Empire (Nineveh, 612 BCE) with Babylon; Ecbatana capital; predecessor to Achaemenid Persia.")
-add("achaemenid-empire", "Achaemenid Persian Empire (هخامنشیان / Haxāmanišiya)", "CulturalAge", "holocene", 550, 330, "BCE",
+add("achaemenid-empire", {"en": "Achaemenid Persian Empire", "sv": "Akemenidiska Persien", "ar": "هخامنشیان"}, "CulturalAge", "holocene", 550, 330, "BCE",
     "Cyrus the Great, Darius I, Xerxes; largest empire to date; Persepolis; Royal Road; satrapy system; Zoroastrianism; defeated by Alexander.")
-add("seleucid-empire", "Seleucid Empire (Αυτοκρατορία των Σελευκιδών / الإمبراطورية السلوقية)", "CulturalAge", "holocene", 312, 63, "BCE",
+add("seleucid-empire", {"en": "Seleucid Empire", "sv": "Seleucidriket", "ar": "الإمبراطورية السلوقية"}, "CulturalAge", "holocene", 312, 63, "BCE",
     "Hellenistic successor state; Seleucus I; Antioch capital; Greek culture in Near East; Maccabean revolt; fragmented; fell to Rome and Parthia.")
-add("parthian-empire", "Parthian Empire (شاهنشاهی اشکانی Šāhanšāhī-ye Aškānī)", "CulturalAge", "holocene", 247, 224, "BCE-CE",
+add("parthian-empire", {"en": "Parthian Empire", "sv": "Parthianriket", "ar": "شاهنشاهی اشکانی Šāhanšāhī-ye Aškānī"}, "CulturalAge", "holocene", 247, 224, "BCE-CE",
     "Iranian Arsacid dynasty; rival to Rome; Silk Road trade; Ctesiphon capital; horse archers; Carrhae victory over Crassus (53 BCE).")
-add("sasanian-empire", "Sasanian Empire (ساسانیان / Ērānšahr)", "CulturalAge", "holocene", 224, 651, "CE",
+add("sasanian-empire", {"en": "Sasanian Empire", "sv": "Sasanianriket", "ar": "ساسانیان"}, "CulturalAge", "holocene", 224, 651, "CE",
     "Last pre-Islamic Persian empire; Zoroastrian state religion; Ctesiphon arch; rivalry with Rome/Byzantium; chess, polo; Academy of Gondishapur.")
-add("islamic-golden-age", "Islamic Golden Age (العصر الذهبي للإسلام)", "CulturalAge", "holocene", 750, 1258, "CE",
+add("islamic-golden-age", {"en": "Islamic Golden Age", "sv": "Islams guldålder", "ar": "العصر الذهبي للإسلام"}, "CulturalAge", "holocene", 750, 1258, "CE",
     "Abbasid Caliphate; House of Wisdom (Baghdad); al-Khwarizmi (algebra); Ibn Sina (medicine); optics, chemistry, astronomy; translation movement; ended by Mongol sack of Baghdad.")
-add("rashidun-caliphate", "Rashidun Caliphate (الخلافة الراشدة)", "CulturalAge", "holocene", 632, 661, "CE",
+add("rashidun-caliphate", {"en": "Rashidun Caliphate", "sv": "Rashidunkalifatet", "ar": "الخلافة الراشدة"}, "CulturalAge", "holocene", 632, 661, "CE",
     "Four 'rightly guided' caliphs; Abu Bakr, Umar, Uthman, Ali; rapid Islamic expansion; conquest of Persia and Byzantine Levant; Quran compiled; Sunni-Shia split origins.")
-add("umayyad-caliphate", "Umayyad Caliphate (الخلافة الأموية)", "CulturalAge", "holocene", 661, 750, "CE",
+add("umayyad-caliphate", {"en": "Umayyad Caliphate", "sv": "Umayyadkalifatet", "ar": "الخلافة الأموية"}, "CulturalAge", "holocene", 661, 750, "CE",
     "First hereditary Islamic dynasty; Damascus capital; expansion from Spain to Indus; Dome of the Rock; Great Mosque of Damascus; Arabic as administrative language.")
-add("abbasid-caliphate", "Abbasid Caliphate (الخلافة العباسية)", "CulturalAge", "holocene", 750, 1258, "CE",
+add("abbasid-caliphate", {"en": "Abbasid Caliphate", "sv": "Abbasidkalifatet", "ar": "الخلافة العباسية"}, "CulturalAge", "holocene", 750, 1258, "CE",
     "Baghdad founded (762); cosmopolitan capital; House of Wisdom; Paper from China; One Thousand and One Nights; fragmented after 10th century; Mongols destroy Baghdad (1258).")
-add("fatimid-caliphate", "Fatimid Caliphate (الخلافة الفاطمية al-Ḫilāfa al-Fāṭimiyya)", "CulturalAge", "holocene", 909, 1171, "CE",
+add("fatimid-caliphate", {"en": "Fatimid Caliphate", "sv": "Fatimidkalifatet", "ar": "الخلافة الفاطمية al-Ḫilāfa al-Fāṭimiyya"}, "CulturalAge", "holocene", 909, 1171, "CE",
     "Ismaili Shia caliphate; founded Cairo (969); Al-Azhar University; rival to Abbasids and Umayyads of Córdoba; cultural and scientific achievements.")
-add("seljuk-empire", "Seljuk Empire (Büyük Selçuklu Devleti)", "CulturalAge", "holocene", 1037, 1194, "CE",
+add("seljuk-empire", {"en": "Seljuk Empire", "sv": "Seljukriket"}, "CulturalAge", "holocene", 1037, 1194, "CE",
     "Turkic Sunni Muslim empire; Battle of Manzikert (1071, opened Anatolia); Nizam al-Mulk; madrasas; triggered First Crusade; Persian cultural patronage.")
-add("ayyubid-dynasty", "Ayyubid Dynasty (الدولة الأيوبية)", "CulturalAge", "holocene", 1171, 1260, "CE",
+add("ayyubid-dynasty", {"en": "Ayyubid Dynasty", "sv": "Ayyubiddynastin", "ar": "الدولة الأيوبية"}, "CulturalAge", "holocene", 1171, 1260, "CE",
     "Saladin (Salah ad-Din); recaptured Jerusalem (1187); Kurdish dynasty; Egypt and Syria; chivalric reputation; succeeded by Mamluks.")
-add("mamluk-sultanate", "Mamluk Sultanate (سلطنة المماليك)", "CulturalAge", "holocene", 1250, 1517, "CE",
+add("mamluk-sultanate", {"en": "Mamluk Sultanate", "sv": "Mamluksultanatet", "ar": "سلطنة المماليك"}, "CulturalAge", "holocene", 1250, 1517, "CE",
     "Slave-soldier dynasty ruling Egypt and Syria; defeated Mongols at Ain Jalut (1260); Cairo cultural center; Mamluk architecture; fell to Ottomans.")
-add("ottoman-empire", "Ottoman Empire (Osmanlı İmparatorluğu / الدولة العثمانية / Οθωμανική Αυτοκρατορία / Osmanlı Devleti / Османска империя / Otoman İmparatorluğu)", "CulturalAge", "holocene", 1299, 1922, "CE",
+add("ottoman-empire", {"en": "Ottoman Empire", "sv": "Osmanska riket", "ar": "الدولة العثمانية", "tr": "Osmanlı İmparatorluğu"}, "CulturalAge", "holocene", 1299, 1922, "CE",
     "One of longest-lasting empires; Constantinople conquered (1453); Suleiman the Magnificent; three continents; millet system; Hagia Sophia mosque; 'Sick Man of Europe'; dissolved after WWI.")
-add("ottoman-golden-age", "Ottoman Golden Age (Osmanlı İmparatorluğu'nun Yükselme Devri)", "CulturalAge", "ottoman-empire", 1453, 1566, "CE",
+add("ottoman-golden-age", {"en": "Ottoman Golden Age", "sv": "Osmanska rikets guldålder"}, "CulturalAge", "ottoman-empire", 1453, 1566, "CE",
     "Mehmed II to Suleiman; Constantinople/Istanbul capital; Topkapi Palace; Sinan (architect); legal reforms (Kanuni); naval dominance in Mediterranean.")
-add("safavid-iran", "Safavid Empire (دولت صفویه / Dowlat-e Safaviye)", "CulturalAge", "holocene", 1501, 1736, "CE",
+add("safavid-iran", {"en": "Safavid Empire", "sv": "Safavidriket", "ar": "دولت صفویه"}, "CulturalAge", "holocene", 1501, 1736, "CE",
     "Shia Islam as state religion of Iran; Isfahan ('half the world'); Shah Abbas I; Persian carpet golden age; rivalry with Ottomans and Mughals.")
-add("afsharid-dynasty", "Afsharid Dynasty (افشاریان)", "CulturalAge", "holocene", 1736, 1796, "CE",
+add("afsharid-dynasty", {"en": "Afsharid Dynasty", "sv": "Afshariddynastin", "ar": "افشاریان"}, "CulturalAge", "holocene", 1736, 1796, "CE",
     "Nader Shah, 'last great Asiatic conqueror'; reunified Iran; invaded Mughal India (1739), looted Peacock Throne and Koh-i-Noor diamond.")
-add("zand-dynasty", "Zand Dynasty (زندیه)", "CulturalAge", "holocene", 1751, 1794, "CE",
+add("zand-dynasty", {"en": "Zand Dynasty", "sv": "Zanddynastin", "ar": "زندیه"}, "CulturalAge", "holocene", 1751, 1794, "CE",
     "Karim Khan Zand ('Advocate of the People'); Shiraz capital; Arg of Karim Khan; most humane Iranian ruler of Islamic era; Kurdish Lak origin.")
-add("qajar-dynasty", "Qajar Dynasty (سلسله قاجار Silsile-ye Qājār)", "CulturalAge", "holocene", 1789, 1925, "CE",
+add("qajar-dynasty", {"en": "Qajar Dynasty", "sv": "Qajardynastin", "ar": "سلسله قاجار Silsile-ye Qājār"}, "CulturalAge", "holocene", 1789, 1925, "CE",
     "Iranian dynasty; Tehran capital; Constitutional Revolution (1906); oil concessions to Britain; modernization struggles; replaced by Pahlavi dynasty.")
 # --- Arabian Peninsula (pre-Islamic) ---
 # --- Ancient Near East / Levant (pre-Classical) ---
-add("natufian", "Natufian Culture (الثقافة النطوفية / Natufien)", "CulturalAge", "holocene", 12500, 9500, "BCE",
+add("natufian", {"en": "Natufian Culture", "sv": "Natufiankulturen", "ar": "الثقافة النطوفية"}, "CulturalAge", "holocene", 12500, 9500, "BCE",
     "Levantine Epipaleolithic culture; first sedentary or semi-sedentary settlements; wild cereal harvesting with sickle blades; Ain Mallaha (Eynan), Wadi en-Natuf; transition to agriculture; dog domestication.")
-add("gobekli-tepe", "Göbekli Tepe (گۆبەکلی تەپە / Portasar)", "CulturalAge", "holocene", 9500, 8000, "BCE",
+add("gobekli-tepe", {"en": "Göbekli Tepe", "sv": "Göbekli Tepe", "ar": "گۆبەکلی تەپە"}, "CulturalAge", "holocene", 9500, 8000, "BCE",
     "World's oldest known megalithic temple complex; T-shaped limestone pillars with animal reliefs; pre-agricultural ritual center; Şanlıurfa Province, Turkey; UNESCO World Heritage Site (2018); revolutionized Neolithic understanding.")
-add("ppna", "Pre-Pottery Neolithic A (PPNA / العصر الحجري الحديث ما قبل الفخار أ)", "CulturalAge", "holocene", 10000, 8700, "BCE",
+add("ppna", {"en": "Pre-Pottery Neolithic A", "sv": "Pre-Pottery Neolithic A", "ar": "العصر الحجري الحديث ما قبل الفخار أ"}, "CulturalAge", "holocene", 10000, 8700, "BCE",
     "Earliest Neolithic in the Levant; Jericho tower and wall; sedentary villages without pottery; wild and early domesticated cereals; skull cult; round houses; 'Neolithic Revolution' begins.")
-add("ppnb", "Pre-Pottery Neolithic B (PPNB / العصر الحجري الحديث ما قبل الفخار ب)", "CulturalAge", "holocene", 8700, 6500, "BCE",
+add("ppnb", {"en": "Pre-Pottery Neolithic B", "sv": "Pre-Pottery Neolithic B", "ar": "العصر الحجري الحديث ما قبل الفخار ب"}, "CulturalAge", "holocene", 8700, 6500, "BCE",
     "Levantine Neolithic; rectangular multi-room houses; domesticated wheat, barley, sheep, goats, cattle; Ain Ghazal statues; Çayönü; long-distance obsidian trade; plaster skulls; population boom.")
-add("catalhoyuk", "Çatalhöyük (Çatal Höyük)", "CulturalAge", "holocene", 7500, 5700, "BCE",
+add("catalhoyuk", {"en": "Çatalhöyük", "sv": "Çatalhöyük"}, "CulturalAge", "holocene", 7500, 5700, "BCE",
     "Neolithic proto-city in central Anatolia; ~3,000-8,000 inhabitants; roof-entry houses without streets; elaborate wall paintings and reliefs; Mother Goddess figurines; UNESCO World Heritage Site (2012); James Mellaart and Ian Hodder excavations.")
-add("dilmun", "Dilmun (دلمون / Telmun)", "CulturalAge", "holocene", 3000, 538, "BCE",
+add("dilmun", {"en": "Dilmun", "sv": "Dilmun", "ar": "دلمون"}, "CulturalAge", "holocene", 3000, 538, "BCE",
     "Ancient civilization on Bahrain and eastern Arabia; major Sumerian trading partner; described in Epic of Gilgamesh as paradise; Barbar temples; Qal'at al-Bahrain (UNESCO); freshwater springs; royal burial mounds.")
 
-add("sabaean-kingdom", "Sabaean Kingdom / Sheba (مملكة سبأ)", "CulturalAge", "holocene", 1000, 275, "BCE-CE",
+add("sabaean-kingdom", {"en": "Sabaean Kingdom / Sheba", "sv": "Sabaean Kingdom / Sheba", "ar": "مملكة سبأ"}, "CulturalAge", "holocene", 1000, 275, "BCE-CE",
     "Dominant South Arabian kingdom; Ma'rib Great Dam; frankincense and myrrh trade ('Arabia Felix'); biblical Queen of Sheba; deity Almaqah.")
-add("himyarite-kingdom", "Himyarite Kingdom (مملكة حمير)", "CulturalAge", "holocene", 110, 525, "BCE-CE",
+add("himyarite-kingdom", {"en": "Himyarite Kingdom", "sv": "Kungariket Himyarite", "ar": "مملكة حمير"}, "CulturalAge", "holocene", 110, 525, "BCE-CE",
     "Unified Yemen; royal conversion to Judaism (4th century); Zafar capital; fell to Aksumite-Byzantine alliance; critical pre-Islamic Arabian history.")
-add("nabataean-kingdom", "Nabataean Kingdom (المملكة النبطية)", "CulturalAge", "holocene", 168, 106, "BCE-CE",
+add("nabataean-kingdom", {"en": "Nabataean Kingdom", "sv": "Kungariket Nabataean", "ar": "المملكة النبطية"}, "CulturalAge", "holocene", 168, 106, "BCE-CE",
     "Arab kingdom centered on Petra (UNESCO); water engineering masters; controlled incense trade routes; Al-Khazneh; annexed by Rome as Arabia Petraea.")
 
 # --- Caucasus ---
-add("kingdom-of-armenia", "Kingdom of Armenia (Հայաստանի Թագավորություն)", "CulturalAge", "holocene", 331, 428, "BCE-CE",
+add("kingdom-of-armenia", {"en": "Kingdom of Armenia", "sv": "Kungariket Armenien", "hy": "Հայաստանի Թագավորություն"}, "CulturalAge", "holocene", 331, 428, "BCE-CE",
     "Orontid, Artaxiad, Arsacid dynasties; Tigranes the Great; first nation to adopt Christianity (301 CE); bridge between Roman and Persian worlds.")
-add("cilician-armenia", "Cilician Armenia (Կիլիկիա Հայոց Թագավորություն)", "CulturalAge", "holocene", 1080, 1375, "CE",
+add("cilician-armenia", {"en": "Cilician Armenia", "sv": "Kilikiska Armenien", "hy": "Կիլիկիա Հայոց Թագավորություն"}, "CulturalAge", "holocene", 1080, 1375, "CE",
     "Armenian kingdom-in-exile; key Crusader ally; last Christian state in Levant; major trade hub (port of Ayas); fell to Mamluks 1375.")
-add("kingdom-of-georgia", "Kingdom of Georgia (საქართველოს სამეფო)", "CulturalAge", "holocene", 1008, 1490, "CE",
+add("kingdom-of-georgia", {"en": "Kingdom of Georgia", "sv": "Kungariket Georgien", "ka": "საქართველოს სამეფო"}, "CulturalAge", "holocene", 1008, 1490, "CE",
     "David IV the Builder and Queen Tamar; dominant Caucasian Christian power; pan-Caucasian empire; Shota Rustaveli's 'The Knight in the Panther's Skin'.")
 
-add("modern-middle-east", "Modern Middle East (الشرق الأوسط الحديث / خاورمیانه مدرن)", "CulturalAge", "contemporary", 1918, 0, "CE",
+add("modern-middle-east", {"en": "Modern Middle East", "sv": "Moderna Mellanöstern", "ar": "الشرق الأوسط الحديث / خاورمیانه مدرن"}, "CulturalAge", "contemporary", 1918, 0, "CE",
     "Ottoman collapse; Sykes-Picot; mandates; Israel founded (1948); oil economy; Arab-Israeli conflicts; Iranian Revolution (1979); Gulf Wars; Arab Spring.")
 
 # ═══════════════════════════════════════════════════════════════
@@ -1925,89 +1942,89 @@ add("modern-middle-east", "Modern Middle East (الشرق الأوسط الحد�
 # ═══════════════════════════════════════════════════════════════
 
 # --- Australia ---
-add("oceania-history", "Oceanian Historical Periods (Oceaniens historiska perioder)", "CulturalAge", "holocene", 65000, 0, "BCE-CE",
+add("oceania-history", {"en": "Oceanian Historical Periods", "sv": "Oceaniens historiska perioder"}, "CulturalAge", "holocene", 65000, 0, "BCE-CE",
     "Oldest continuous cultures on Earth; Aboriginal Australians, Melanesian, Polynesian, Micronesian peoples; maritime mastery; colonial disruption.")
-add("aboriginal-australia", "Aboriginal Australian Periods (Aboriginsk australisk historia)", "CulturalAge", "oceania-history", 65000, 1788, "BCE-CE",
+add("aboriginal-australia", {"en": "Aboriginal Australian Periods", "sv": "Aboriginsk australisk historia"}, "CulturalAge", "oceania-history", 65000, 1788, "BCE-CE",
     "Oldest continuous civilization; Dreamtime/Dreaming; rock art (Kakadu, Kimberley); fire-stick farming; ~250 language groups; 65,000+ years.")
-add("aboriginal-early", "Early Aboriginal Period (Tidig aboriginsk period)", "CulturalAge", "aboriginal-australia", 65000, 10000, "BCE",
+add("aboriginal-early", {"en": "Early Aboriginal Period", "sv": "Tidig aboriginsk period"}, "CulturalAge", "aboriginal-australia", 65000, 10000, "BCE",
     "First Australians arrive (~65,000 BP); Lake Mungo burials (~42,000 BP); megafauna coexistence and extinction; continent-wide spread; earliest rock art.")
-add("aboriginal-holocene", "Aboriginal Holocene Period (Aboriginsk holocen period)", "CulturalAge", "aboriginal-australia", 10000, 1788, "BCE-CE",
+add("aboriginal-holocene", {"en": "Aboriginal Holocene Period", "sv": "Aboriginsk holocen period"}, "CulturalAge", "aboriginal-australia", 10000, 1788, "BCE-CE",
     "Sea level rise creates modern coastline; Torres Strait Islands separate; intensification; fish traps (Brewarrina ~40,000 years); complex trade networks; songlines.")
-add("budj-bim", "Budj Bim Cultural Landscape (Budj Bim / Gunditjmara)", "CulturalAge", "aboriginal-australia", 6600, 1788, "BCE-CE",
+add("budj-bim", {"en": "Budj Bim Cultural Landscape", "sv": "Budj Bim kulturlandskap"}, "CulturalAge", "aboriginal-australia", 6600, 1788, "BCE-CE",
     "Gunditjmara people, Victoria; world's oldest aquaculture system (~6,600 years); eel traps and stone channels; permanent stone dwellings; UNESCO World Heritage Site (2019).")
-add("torres-strait-islanders", "Torres Strait Islander Culture (Ailan Kastom)", "CulturalAge", "oceania-history", 8000, 0, "BCE-CE",
+add("torres-strait-islanders", {"en": "Torres Strait Islander Culture", "sv": "Torres Sund-öbornas kultur"}, "CulturalAge", "oceania-history", 8000, 0, "BCE-CE",
     "Melanesian peoples of Torres Strait Islands; distinct from Aboriginal Australians; seafaring; horticulture; Tombstone Opening ceremonies; star lore navigation.")
-add("australian-colonial", "Colonial Australia (Koloniala Australien)", "CulturalAge", "oceania-history", 1788, 1901, "CE",
+add("australian-colonial", {"en": "Colonial Australia", "sv": "Koloniala Australien"}, "CulturalAge", "oceania-history", 1788, 1901, "CE",
     "First Fleet (1788); penal colony; frontier wars; gold rushes (1850s); pastoralism; Stolen Generations begin; six colonies; White Australia policy roots.")
-add("australian-federation", "Federation and Modern Australia (Australiens federation och modern tid)", "CulturalAge", "oceania-history", 1901, 0, "CE",
+add("australian-federation", {"en": "Federation and Modern Australia", "sv": "Australiens federation och modern tid"}, "CulturalAge", "oceania-history", 1901, 0, "CE",
     "Commonwealth of Australia (1901); Gallipoli (1915); White Australia policy (ended 1973); Mabo decision (1992); Sorry Day; multiculturalism.")
 
 # --- Melanesia ---
-add("melanesia-history", "Melanesian Civilizations (Melanesiska civilisationer)", "CulturalAge", "oceania-history", 50000, 0, "BCE-CE",
+add("melanesia-history", {"en": "Melanesian Civilizations", "sv": "Melanesiska civilisationer"}, "CulturalAge", "oceania-history", 50000, 0, "BCE-CE",
     "Oldest Pacific settlement; Papua New Guinea highlands agriculture (~7000 BCE); diverse cultures; Kuk Swamp; Lapita pottery tradition.")
-add("sahul-settlement", "Settlement of Sahul (Bosättningen av Sahul)", "CulturalAge", "melanesia-history", 50000, 30000, "BCE",
+add("sahul-settlement", {"en": "Settlement of Sahul", "sv": "Bosättningen av Sahul"}, "CulturalAge", "melanesia-history", 50000, 30000, "BCE",
     "First humans in New Guinea/Australia (connected as Sahul); maritime crossing from Sunda; earliest evidence of ocean voyaging by humans.")
-add("png-highlands", "Papua New Guinea Highlands Cultures (Ol kalsa bilong hailans)", "CulturalAge", "melanesia-history", 40000, 1930, "BCE-CE",
+add("png-highlands", {"en": "Papua New Guinea Highlands Cultures", "sv": "Papua Nya Guineas höglandskultur"}, "CulturalAge", "melanesia-history", 40000, 1930, "BCE-CE",
     "Diverse highland societies; 850+ languages; sweet potato revolution (~1600 CE); sing-sing gatherings; kina shell currency; first European contact 1930s.")
-add("kuk-early-agriculture", "Kuk Early Agriculture (Kuk Swamp / Kuk taim bilong gaden)", "CulturalAge", "melanesia-history", 7000, 4000, "BCE",
+add("kuk-early-agriculture", {"en": "Kuk Early Agriculture", "sv": "Tidig jordbruk vid Kuk"}, "CulturalAge", "melanesia-history", 7000, 4000, "BCE",
     "Kuk Swamp, PNG highlands; independent invention of agriculture; banana, taro, yam cultivation; drainage ditches; one of world's earliest farming sites.")
-add("ancient-fiji", "Ancient Fiji (Viti Makawa)", "CulturalAge", "melanesia-history", 1300, 1874, "BCE-CE",
+add("ancient-fiji", {"en": "Ancient Fiji", "sv": "Forntida Fiji"}, "CulturalAge", "melanesia-history", 1300, 1874, "BCE-CE",
     "Settled by Lapita people ~1300 BCE; complex chiefdom system; cannibal culture; drua double-hulled canoes; cultural crossroads of Melanesia and Polynesia.")
-add("lapita-culture", "Lapita Culture (Lapita-kulturen)", "CulturalAge", "oceania-history", 1600, 500, "BCE",
+add("lapita-culture", {"en": "Lapita Culture", "sv": "Lapitakulturen"}, "CulturalAge", "oceania-history", 1600, 500, "BCE",
     "Ancestral Polynesian culture; distinctive dentate-stamped pottery; originated Bismarck Archipelago; spread to Fiji, Tonga, Samoa; skilled navigators.")
 
 # --- Polynesia ---
-add("polynesia-history", "Polynesian Civilizations (Polynesiska civilisationer)", "CulturalAge", "oceania-history", 1500, 0, "BCE-CE",
+add("polynesia-history", {"en": "Polynesian Civilizations", "sv": "Polynesiska civilisationer"}, "CulturalAge", "oceania-history", 1500, 0, "BCE-CE",
     "Greatest maritime expansion in human history; settled Pacific from Tonga/Samoa to Hawaiʻi, Easter Island, New Zealand; navigation by stars, currents, birds.")
-add("polynesia-ancestral", "Ancestral Polynesia (Tonga & Samoa)", "CulturalAge", "polynesia-history", 1500, 200, "BCE",
+add("polynesia-ancestral", {"en": "Ancestral Polynesia", "sv": "Forntida Polynesien"}, "CulturalAge", "polynesia-history", 1500, 200, "BCE",
     "Tonga settled ~1500 BCE, Samoa ~1000 BCE; development of Polynesian culture, language, navigation; chiefdom societies; kava traditions.")
-add("polynesia-expansion", "Polynesian Expansion (Te Hekenga-ā-Polynesia)", "CulturalAge", "polynesia-history", 300, 1300, "CE",
+add("polynesia-expansion", {"en": "Polynesian Expansion", "sv": "Polynesisk expansion"}, "CulturalAge", "polynesia-history", 300, 1300, "CE",
     "Rapid expansion into Eastern Polynesia; Marquesas (~300 CE), Hawaiʻi (~1000 CE), Rapa Nui (~1200 CE), Aotearoa (~1250 CE); double-hulled canoes; star navigation.")
-add("rapa-nui", "Rapa Nui (Easter Island)", "CulturalAge", "polynesia-history", 1200, 1722, "CE",
+add("rapa-nui", {"en": "Rapa Nui", "sv": "Rapa Nui"}, "CulturalAge", "polynesia-history", 1200, 1722, "CE",
     "Moai statues (~900 carved); ahu platforms; rongorongo script (undeciphered); ecological transformation; European contact (1722).")
-add("cook-islands-settlement", "Cook Islands Settlement (Kūki 'Āirani)", "CulturalAge", "polynesia-history", 800, 1595, "CE",
+add("cook-islands-settlement", {"en": "Cook Islands Settlement", "sv": "Cook-öarnas bebyggelse"}, "CulturalAge", "polynesia-history", 800, 1595, "CE",
     "Settlement from Society Islands; coral architecture; lagoon aquaculture; Rarotonga seat of power; pre-European contact societies.")
-add("tuamotu-settlement", "Tuamotu Settlement (Tuāmotu)", "CulturalAge", "polynesia-history", 900, 1595, "CE",
+add("tuamotu-settlement", {"en": "Tuamotu Settlement", "sv": "Tuamotus bebyggelse"}, "CulturalAge", "polynesia-history", 900, 1595, "CE",
     "Settlement of remote atolls; pearl diving; celestial navigation mastery; coral-atoll adaptation; pre-European contact societies.")
-add("ancient-hawaii", "Ancient Hawaiʻi (Hawaiʻi kahiko)", "CulturalAge", "polynesia-history", 1000, 1795, "CE",
+add("ancient-hawaii", {"en": "Ancient Hawaiʻi", "sv": "Forntida Hawaiʻi"}, "CulturalAge", "polynesia-history", 1000, 1795, "CE",
     "Settlement from Marquesas/Tahiti; ahupuaʻa land management; heiau temples; kapu system; taro cultivation; fish ponds; ali'i chiefs.")
-add("hawaiian-kingdom", "Kingdom of Hawaiʻi (Aupuni Mōʻī o Hawaiʻi)", "CulturalAge", "polynesia-history", 1795, 1893, "CE",
+add("hawaiian-kingdom", {"en": "Kingdom of Hawaiʻi", "sv": "Kungariket Hawaiʻi"}, "CulturalAge", "polynesia-history", 1795, 1893, "CE",
     "Kamehameha I unifies islands; constitutional monarchy; Hawaiian Renaissance; written language; sugar plantations; overthrown by U.S.-backed coup (1893).")
-add("tui-manua", "Tuʻi Manuʻa (Tupu o Manuʻa)", "CulturalAge", "polynesia-history", 1000, 1904, "CE",
+add("tui-manua", {"en": "Tuʻi Manuʻa", "sv": "Tuʻi Manuʻa"}, "CulturalAge", "polynesia-history", 1000, 1904, "CE",
     "Ancient Samoan paramount chieftainship; Manuʻa Islands (Taʻū, Ofu, Olosega); oldest Polynesian title; legendary Tagaloa origin; ceded to U.S. 1904.")
-add("tui-tonga-empire", "Tuʻi Tonga Empire (Puleʻanga Tuʻi Tonga)", "CulturalAge", "polynesia-history", 950, 1865, "CE",
+add("tui-tonga-empire", {"en": "Tuʻi Tonga Empire", "sv": "Tuʻi Tonga-riket"}, "CulturalAge", "polynesia-history", 950, 1865, "CE",
     "Maritime empire spanning central Pacific; Tongatapu capital; Haʻamonga trilithon; influenced Samoa, Fiji, Niue; one of Polynesia's largest polities.")
 
 # --- Micronesia ---
-add("micronesia-history", "Micronesian Civilizations (Mikronesiska civilisationer)", "CulturalAge", "oceania-history", 2000, 0, "BCE-CE",
+add("micronesia-history", {"en": "Micronesian Civilizations", "sv": "Mikronesiska civilisationer"}, "CulturalAge", "oceania-history", 2000, 0, "BCE-CE",
     "Thousands of small islands; skilled navigators; Carolinian stick charts; varied cultures from Palau to Marshall Islands.")
-add("nan-madol", "Nan Madol (Nahnihmw Madol)", "CulturalAge", "micronesia-history", 1180, 1628, "CE",
+add("nan-madol", {"en": "Nan Madol", "sv": "Nan Madol"}, "CulturalAge", "micronesia-history", 1180, 1628, "CE",
     "Megalithic city built on artificial islets, Pohnpei; 'Venice of the Pacific'; basalt log-cabin architecture; Saudeleur dynasty; UNESCO site.")
-add("palau-earthworks", "Palau Earthwork Era (Belau a terraces)", "CulturalAge", "micronesia-history", 1200, 1600, "CE",
+add("palau-earthworks", {"en": "Palau Earthwork Era", "sv": "Palaus jordarbetsperiod"}, "CulturalAge", "micronesia-history", 1200, 1600, "CE",
     "Monumental earthwork terraces on Babeldaob; largest earthworks in Oceania; hillside terracing for agriculture and defense; stone villages; bai meeting houses.")
-add("marshallese-navigation", "Marshallese Navigation Tradition (Wāppepe in M̧ajeļ)", "CulturalAge", "micronesia-history", 500, 1900, "CE",
+add("marshallese-navigation", {"en": "Marshallese Navigation Tradition", "sv": "Marshallesisk navigationstradition"}, "CulturalAge", "micronesia-history", 500, 1900, "CE",
     "Stick chart navigation (mattang, meddo, rebbelib); wave piloting; outrigger canoes; settlement of remote atolls; unique ocean-reading knowledge.")
-add("chamorro-ancient", "Ancient Chamorro (CHamoru)", "CulturalAge", "micronesia-history", 1500, 1668, "BCE-CE",
+add("chamorro-ancient", {"en": "Ancient Chamorro", "sv": "Ancient Chamorro"}, "CulturalAge", "micronesia-history", 1500, 1668, "BCE-CE",
     "Mariana Islands (Guam, Saipan); latte stone pillars; rice cultivation unique in Pacific; proa sailing canoes; matrilineal society; Spanish colonization begins 1668.")
 
 # --- New Zealand / Aotearoa ---
-add("aotearoa-history", "Aotearoa / New Zealand History (Hītori o Aotearoa)", "CulturalAge", "oceania-history", 1250, 0, "CE",
+add("aotearoa-history", {"en": "Aotearoa / New Zealand History", "sv": "Aotearoa / Nya Zeelands historia"}, "CulturalAge", "oceania-history", 1250, 0, "CE",
     "Last major landmass settled by humans; Māori culture; Treaty of Waitangi (1840); bicultural nation.")
-add("maori-settlement", "Māori Settlement Period (Te Wā o te Taenga Mai)", "CulturalAge", "aotearoa-history", 1250, 1500, "CE",
+add("maori-settlement", {"en": "Māori Settlement Period", "sv": "Māori bosättningsperiod"}, "CulturalAge", "aotearoa-history", 1250, 1500, "CE",
     "East Polynesian voyagers arrive; moa hunting; early pā (fortified villages); adaptation to temperate climate; kūmara cultivation.")
-add("maori-classic", "Classic Māori Period (Te Ao Māori Tawhito)", "CulturalAge", "aotearoa-history", 1500, 1769, "CE",
+add("maori-classic", {"en": "Classic Māori Period", "sv": "Klassisk māoriperiod"}, "CulturalAge", "aotearoa-history", 1500, 1769, "CE",
     "Elaborate pā fortifications; whakairo (carving); tā moko (tattoo); haka; complex tribal (iwi) society; inter-tribal warfare; greenstone (pounamu) trade.")
-add("new-zealand-colonial", "Colonial New Zealand (Aotearoa i koroniana)", "CulturalAge", "aotearoa-history", 1769, 1907, "CE",
+add("new-zealand-colonial", {"en": "Colonial New Zealand", "sv": "Koloniala Nya Zeeland"}, "CulturalAge", "aotearoa-history", 1769, 1907, "CE",
     "Cook arrives (1769); sealers, whalers; Musket Wars; Treaty of Waitangi (1840); New Zealand Wars (1845-72); gold rushes; Dominion status (1907).")
-add("new-zealand-modern", "Modern New Zealand (Aotearoa hou)", "CulturalAge", "aotearoa-history", 1907, 0, "CE",
+add("new-zealand-modern", {"en": "Modern New Zealand", "sv": "Moderna Nya Zeeland"}, "CulturalAge", "aotearoa-history", 1907, 0, "CE",
     "Women's suffrage (1893, first nation); Gallipoli; welfare state; Māori Renaissance; nuclear-free (1987); Treaty settlements; multicultural Aotearoa.")
 
 # --- Colonial & Modern Pacific ---
-add("colonial-pacific", "Colonial Pacific (Koloniala Stilla havet)", "CulturalAge", "oceania-history", 1521, 1975, "CE",
+add("colonial-pacific", {"en": "Colonial Pacific", "sv": "Koloniala Stilla havet"}, "CulturalAge", "oceania-history", 1521, 1975, "CE",
     "Magellan (1521); Spanish, British, French, German, Japanese, American colonial claims; copra trade; nuclear testing (Bikini, Moruroa); independence wave.")
-add("pacific-nuclear-era", "Pacific Nuclear Testing Era (Essais nucléaires dans le Pacifique)", "CulturalAge", "colonial-pacific", 1946, 1996, "CE",
+add("pacific-nuclear-era", {"en": "Pacific Nuclear Testing Era", "sv": "Stillahavsområdets kärnvapentest"}, "CulturalAge", "colonial-pacific", 1946, 1996, "CE",
     "Bikini Atoll (1946); 315+ nuclear tests in Pacific; Marshall Islands, French Polynesia, Christmas Island; health and environmental devastation; ban movement.")
-add("pacific-independence", "Pacific Island Independence (Stillahavsnationernas självständighet)", "CulturalAge", "contemporary", 1962, 0, "CE",
+add("pacific-independence", {"en": "Pacific Island Independence", "sv": "Stillahavsnationernas självständighet"}, "CulturalAge", "contemporary", 1962, 0, "CE",
     "Western Samoa first (1962); Fiji, PNG, Vanuatu, Kiribati follow; Pacific Islands Forum; climate change existential threat; 'Blue Pacific' identity.")
 
 print(f"Total data points: {n[0]}")
@@ -2083,9 +2100,18 @@ lines.append("")
 
 for d in DATA:
     cls = RANK_TO_CLASS.get(d["rank"], "gts:GeochronologicAge")
-    lines.append(f"# ── {d['n']}/{n[0]}: {d['label']} ({d['rank']}) ──")
+    en_label = d["labels"].get("en", list(d["labels"].values())[0])
+    lines.append(f"# ── {d['n']}/{n[0]}: {en_label} ({d['rank']}) ──")
     lines.append(f"ts:{d['id']} a {cls} ;")
-    lines.append(f'    rdfs:label "{escape(d["label"])}"@en ;')
+
+    # Multilingual labels — English first, then others alphabetically
+    label_items = sorted(d["labels"].items(), key=lambda x: (x[0] != "en", x[0]))
+    for lang, name in label_items:
+        lines.append(f'    rdfs:label "{escape(name)}"@{lang} ;')
+
+    # skos:prefLabel for English
+    lines.append(f'    skos:prefLabel "{escape(en_label)}"@en ;')
+
     lines.append(f'    skos:inScheme <{BASE}> ;')
     lines.append(f'    skos:definition "{escape(d["description"])}"@en ;')
     lines.append(f'    gts:rank "{d["rank"]}" ;')
@@ -2143,10 +2169,15 @@ jsonld_items = []
 for d in DATA:
     cls = RANK_TO_CLASS.get(d["rank"], "gts:GeochronologicAge")
     unit = d["unit"]
+    en_label = d["labels"].get("en", list(d["labels"].values())[0])
+    # Build multilingual label array
+    label_list = [{"@value": name, "@language": lang}
+                  for lang, name in sorted(d["labels"].items(), key=lambda x: (x[0] != "en", x[0]))]
     item = {
         "@id": f"{BASE}/{d['id']}",
         "@type": cls,
-        "rdfs:label": {"@value": d["label"], "@language": "en"},
+        "rdfs:label": label_list if len(label_list) > 1 else label_list[0],
+        "skos:prefLabel": {"@value": en_label, "@language": "en"},
         "skos:definition": {"@value": d["description"], "@language": "en"},
         "gts:rank": d["rank"],
     }
