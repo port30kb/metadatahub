@@ -214,3 +214,14 @@
     nb: Joik (samisk sangtradisjon)
     se: Luohti
   description: "A traditional form of Sámi vocal expression, one of the oldest music traditions in Europe. A joik evokes a person, animal, or place through melody and vocalization rather than describing them. Each person may have their own joik."
+
+- id: sami-flag
+  broader: sami-culture
+  labels:
+    en: Sámi flag
+    sv: Samiska flaggan
+    fi: Saamelaislippu
+    da: Det samiske flag
+    nb: Det samiske flagget
+    se: Sámi leavga
+  description: "The pan-Sámi flag adopted in 1986, designed by Astrid Båhl. Features a circle divided into red and blue halves against stripes of red, blue, green, and yellow, representing the sun and moon from the shaman drum tradition."
