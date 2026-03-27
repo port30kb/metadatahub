@@ -1,0 +1,306 @@
+# Nordic Folk Art Motifs and Traditions
+
+# ── Top-level categories ──
+
+- id: nordic-folk-motifs
+  timeline_start: 1500
+  labels:
+    en: Nordic folk art motifs
+    sv: Nordiska folkkonst-motiv
+    fi: Pohjoismaisen kansantaiteen aiheet
+    da: Nordiske folkekuenstmotiver
+    nb: Nordiske folkekunstmotiver
+  description: "Decorative and symbolic motifs found in Nordic folk art traditions including painting, carving, weaving, and metalwork from the 17th through 20th centuries."
+
+- id: nordic-folk-beings
+  timeline_start: -500
+  labels:
+    en: Nordic folk beings
+    sv: Nordiska folkväsen
+    fi: Pohjoismaiset kansanperinteen olennot
+    da: Nordiske folkevæsener
+    nb: Nordiske folkevesener
+  description: "Supernatural creatures and beings from Nordic folk belief and tradition, appearing in stories, art, and cultural practice across Scandinavia."
+
+- id: viking-art-styles
+  aat_uri: "http://vocab.getty.edu/aat/300020056"
+  timeline_start: 750
+  timeline_end: 1150
+  labels:
+    en: Viking Age art styles
+    sv: Vikingatidens konststilar
+    fi: Viikinkiajan taidetyylit
+    da: Vikingetidens kunststile
+    nb: Vikingtidas kunststiler
+  description: "The succession of decorative art styles used in Scandinavian art during the Viking Age (c. 750–1100 CE), characterized by animal ornament, interlace, and stylized zoomorphic forms on metalwork, wood, and stone."
+
+# ── Folk Art Painting Traditions ──
+
+- id: kurbits
+  broader: nordic-folk-motifs
+  timeline_start: 1700
+  labels:
+    en: Kurbits painting
+    sv: Kurbitsmålning
+    fi: Kurbits-maalaus
+    da: Kurbits-maleri
+    nb: Kurbits-maleri
+  description: "A Swedish folk painting tradition from Dalarna featuring fantastical flower motifs, originating in the 18th century. Named after the gourd (Hebrew: qiqayon) from the Book of Jonah. Used to decorate furniture, walls, and household objects."
+
+- id: rosemaling
+  broader: nordic-folk-motifs
+  aat_uri: "http://vocab.getty.edu/aat/300265072"
+  timeline_start: 1700
+  labels:
+    en: Rosemaling
+    sv: Rosemålning
+    fi: Rosemaling
+    da: Rosemaling
+    nb: Rosemaling
+  description: "A Norwegian decorative folk painting tradition featuring stylized floral motifs, scrollwork, and acanthus-inspired designs. Regional styles include Telemark, Hallingdal, Rogaland, and Vest-Agder. Flourished from the 18th to 19th century."
+
+- id: dala-horse
+  broader: nordic-folk-motifs
+  timeline_start: 1600
+  labels:
+    en: Dala horse (Dalahäst)
+    sv: Dalahäst
+    fi: Dalanponi
+    da: Dalahest
+    nb: Dalahest
+  description: "A traditional carved and painted wooden horse from Dalarna, Sweden, typically painted in bright red with kurbits-style floral harness decorations. Originating in the 17th century as children's toys, now an internationally recognized symbol of Sweden."
+
+# ── Folk Beings ──
+
+- id: nisse-tomte
+  broader: nordic-folk-beings
+  iconclass: "25FF(NISSE)"
+  timeline_start: -500
+  labels:
+    en: Nisse / Tomte
+    sv: Tomte
+    fi: Tonttu
+    da: Nisse
+    nb: Nisse
+    is: Níssi
+  description: "A small, bearded supernatural being in Scandinavian folklore associated with farms and homesteads. Protects the farm and its animals if treated with respect and given a bowl of porridge on Christmas Eve. Evolved into the Nordic Christmas gift-bringer."
+
+- id: troll
+  broader: nordic-folk-beings
+  aat_uri: "http://vocab.getty.edu/aat/300379878"
+  iconclass: "25FF(TROLL)"
+  timeline_start: -500
+  labels:
+    en: Troll
+    sv: Troll
+    fi: Peikko
+    da: Trold
+    nb: Troll
+    is: Tröll
+    non: Troll
+  description: "Supernatural beings in Nordic folklore, ranging from small forest creatures to enormous mountain giants. They are slow-witted, fear thunder and church bells, and turn to stone in sunlight. Popularized in modern art by Theodor Kittelsen and John Bauer."
+
+- id: huldra
+  broader: nordic-folk-beings
+  iconclass: "25FF(HULDRA)"
+  timeline_start: -500
+  labels:
+    en: Huldra / Skogsrå
+    sv: Huldra / Skogsrå
+    fi: Metsänneitsyt
+    da: Huldra
+    nb: Huldra
+  description: "A seductive forest spirit in Scandinavian folklore, appearing as a beautiful woman with a cow's tail (or fox tail in some traditions) and a hollow back. She lures men into the forest, sometimes to their doom, sometimes to marriage."
+
+- id: nacken
+  broader: nordic-folk-beings
+  iconclass: "25FF(NÄCKEN)"
+  timeline_start: -500
+  labels:
+    en: Näcken (water spirit)
+    sv: Näcken
+    fi: Näkki
+    da: Nøkken
+    nb: Nøkken
+    is: Nykur
+  description: "A male water spirit in Scandinavian folklore who plays enchanting violin music by streams and waterfalls, luring listeners into the water. Often depicted as a naked young man playing the fiddle. Can teach mortals to play if given the right offering."
+
+- id: maypole
+  broader: nordic-folk-motifs
+  aat_uri: "http://vocab.getty.edu/aat/300006074"
+  timeline_start: 1500
+  labels:
+    en: Maypole (Midsommarstång)
+    sv: Midsommarstång
+    fi: Juhannussalko
+    da: Majstang
+    nb: Maistang
+  description: "A decorated pole erected for Midsummer celebrations in Sweden, covered with greenery and flowers, often with two cross-arms creating a distinctive shape. Dancing around the maypole is central to Swedish Midsummer tradition."
+
+- id: julbock
+  broader: nordic-folk-motifs
+  timeline_start: -800
+  labels:
+    en: Julbock (Yule goat)
+    sv: Julbock
+    fi: Joulupukki (alkuperäinen)
+    da: Julebuk
+    nb: Julebukk
+  description: "A straw goat figure associated with Nordic Christmas traditions, originally connected to the Norse god Thor whose chariot was pulled by goats. The Yule goat was the original Christmas gift-bringer in Scandinavia before being replaced by the tomte/nisse."
+
+- id: viking-ship-motif
+  broader: nordic-folk-motifs
+  aat_uri: "http://vocab.getty.edu/aat/300258743"
+  timeline_start: 750
+  labels:
+    en: Viking ship motif
+    sv: Vikingaskeppsmotiv
+    fi: Viikinkialuksen aihe
+    da: Vikingeskibsmotiv
+    nb: Vikingskipsmotiv
+  description: "The iconic longship as depicted in Nordic art from rune stones to modern design. The dragon-headed prow, clinker-built hull, and square sail appear on picture stones, textiles, and carved objects throughout Scandinavia."
+
+- id: rune-stone-ornament
+  broader: nordic-folk-motifs
+  aat_uri: "http://vocab.getty.edu/aat/300047741"
+  timeline_start: 400
+  timeline_end: 1100
+  labels:
+    en: Rune stone ornament
+    sv: Runstenornamentik
+    fi: Riimukivien koristelu
+    da: Runestenornamentik
+    nb: Runesteinornamentikk
+  description: "Decorative patterns on Viking Age and medieval rune stones, typically featuring serpentine rune bands, animal ornament, crosses, and narrative scenes. Over 3,000 rune stones survive in Sweden alone."
+
+# ── Viking Age Art Styles ──
+
+- id: oseberg-style
+  broader: viking-art-styles
+  timeline_start: 775
+  timeline_end: 875
+  labels:
+    en: Oseberg style
+    sv: Osebergstilen
+    fi: Osebergin tyyli
+    da: Osebergstilen
+    nb: Osebergstilen
+  description: "The earliest Viking Age art style (c. 775–875), named after the Oseberg ship burial in Norway. Features gripping beasts — small animal figures grasping the borders around them — creating dense, carpet-like compositions."
+
+- id: borre-style
+  broader: viking-art-styles
+  timeline_start: 850
+  timeline_end: 950
+  labels:
+    en: Borre style
+    sv: Borrestilen
+    fi: Borren tyyli
+    da: Borrestilen
+    nb: Borrestilen
+  description: "Viking Age art style (c. 850–950) named after finds from the Borre ship burial mound in Vestfold, Norway. Characterized by ring-chain interlace, gripping beasts, and backward-looking animal heads. Widespread across the Viking world."
+
+- id: jelling-style
+  broader: viking-art-styles
+  timeline_start: 900
+  timeline_end: 975
+  labels:
+    en: Jelling style
+    sv: Jellingstilen
+    fi: Jellingin tyyli
+    da: Jellingstilen
+    nb: Jellingstilen
+  description: "Viking Age art style (c. 900–975) named after the Jelling royal monuments in Denmark. Features S-shaped ribbon animals with open interlace, pigtail-like extensions, and head seen in profile. Prominent on the Jelling cup and smaller Jelling stone."
+
+- id: mammen-style
+  broader: viking-art-styles
+  timeline_start: 960
+  timeline_end: 1020
+  labels:
+    en: Mammen style
+    sv: Mammenstilen
+    fi: Mammenin tyyli
+    da: Mammenstilen
+    nb: Mammenstilen
+  description: "Viking Age art style (c. 960–1020) named after a decorated axe head from Mammen, Jutland. Features bold, semi-naturalistic animals with double-contoured bodies filled with pelleting and plant tendrils. The great beast on the Jelling stone is Mammen style."
+
+- id: ringerike-style
+  broader: viking-art-styles
+  timeline_start: 1000
+  timeline_end: 1075
+  labels:
+    en: Ringerike style
+    sv: Ringerikestilen
+    fi: Ringeriken tyyli
+    da: Ringerikestilen
+    nb: Ringerikestilen
+  description: "Viking Age art style (c. 1000–1075) named after sandstone carvings from Ringerike, Norway. Characterized by great beasts, snakes, and elaborate foliage tendrils. Shows influence from Anglo-Saxon Winchester style and Ottoman art."
+
+- id: urnes-style
+  broader: viking-art-styles
+  timeline_start: 1050
+  timeline_end: 1150
+  labels:
+    en: Urnes style
+    sv: Urnesstilen
+    fi: Urnesin tyyli
+    da: Urnesstilen
+    nb: Urnesstilen
+  description: "The last Viking Age art style (c. 1050–1150), named after the carved wooden panels of Urnes stave church in Sogn, Norway. Features elegant, asymmetrical animal interlace with figure-eight loops and extremely attenuated animal forms. Bridges into Romanesque art."
+
+- id: gripping-beast
+  broader: viking-art-styles
+  timeline_start: 775
+  timeline_end: 1100
+  labels:
+    en: Gripping beast style
+    sv: Gripdjurstilen
+    fi: Tarttuvaeläintyyli
+    da: Gribedyrstilen
+    nb: Gripedyrstilen
+  description: "A defining motif of Viking Age art: small, compact animal figures whose paws grip the borders of the composition, adjacent beasts, or their own bodies. First appearing in the Oseberg style and persisting through several later phases."
+
+- id: ryijy
+  broader: nordic-folk-motifs
+  timeline_start: 1500
+  labels:
+    en: Ryijy (Finnish textile)
+    sv: Rya
+    fi: Ryijy
+    da: Rya
+    nb: Rye
+  description: "A traditional Nordic knotted-pile textile originally used as a bed covering and later as a wall hanging. Finnish ryijy rugs developed into an important art form with distinctive geometric and floral patterns. Swedish rya rugs share a related tradition."
+
+- id: bunad
+  broader: nordic-folk-motifs
+  timeline_start: 1700
+  labels:
+    en: Bunad (Norwegian costume)
+    sv: Bunad (norsk folkdräkt)
+    fi: Bunad (norjalainen kansallispuku)
+    da: Bunad (norsk folkedragt)
+    nb: Bunad
+  description: "Norwegian folk costume worn for festive occasions and national holidays. Each region has distinctive designs with elaborate embroidery, silver jewelry (sølje), and specific color schemes. Modern bunads are based on historical regional dress."
+
+- id: ale-bowl
+  broader: nordic-folk-motifs
+  aat_uri: "http://vocab.getty.edu/aat/300197729"
+  timeline_start: 1500
+  labels:
+    en: Ale bowl / Ölskål
+    sv: Ölskål
+    fi: Olutkulho
+    da: Ølskål
+    nb: Ølbolle
+  description: "Carved and painted wooden drinking vessels used for communal ale-drinking at Nordic festivals and celebrations. Often decorated with horse heads, dragon motifs, or rosemaling. The Norwegian kjenge (handled ale bowl) is a distinctive form."
+
+- id: weather-vane-viking
+  broader: nordic-folk-motifs
+  timeline_start: 900
+  timeline_end: 1100
+  labels:
+    en: Viking weather vane
+    sv: Vikingatida vindflöjel
+    fi: Viikinkiajan tuuliviiri
+    da: Vikingetids vindfløj
+    nb: Vikingtids vindfløy
+  description: "Ornate gilt-bronze weather vanes from the Viking Age, originally mounted on ship prows or church gables. Decorated with openwork animal ornament. Surviving examples include vanes from Söderala, Heggen, and Källunge."

@@ -1,0 +1,60 @@
+# Nordic Museum Institutions Data Format
+# =======================================
+#
+# The file institutions.yaml contains a list of Nordic museum
+# institution entries covering Sweden, Norway, Finland, Denmark,
+# and Iceland.
+#
+# Required fields for every entry:
+#
+#   id:          Unique identifier (lowercase, use hyphens for spaces)
+#   name:        Translations — must always include "en" plus local language
+#                  sv = Swedish, nb = Norwegian Bokmål, nn = Norwegian Nynorsk,
+#                  fi = Finnish, da = Danish, is = Icelandic, se = Northern Sámi
+#   type:        One of: art-museum, history-museum, open-air-museum,
+#                  university-museum, archaeology-museum, design-museum,
+#                  maritime-museum, natural-history-museum, folk-museum,
+#                  specialized-museum
+#   country:     ISO 3166-1 alpha-2 country code (SE, NO, FI, DK, IS)
+#   city:        City name (in English)
+#   description: English description of the institution (in double quotes)
+#
+# Optional fields:
+#
+#   geonames_uri:  GeoNames URI for the city (http://sws.geonames.org/{id}/)
+#   wikidata_uri:  Wikidata URI (http://www.wikidata.org/entity/Q{id})
+#   isil:          International Standard Identifier for Libraries
+#                  and Related Organizations (ISO 15511)
+#   website:        Official website URL
+#   established:    Year the institution was founded (as string)
+#   timeline_start: Start year of institution's existence (integer, CE).
+#                   Typically matches the established year.
+#   timeline_end:   End year (integer). Omit or null for active institutions.
+#
+# Language codes follow ISO 639:
+#   en = English, sv = Swedish, nb = Norwegian Bokmål,
+#   nn = Norwegian Nynorsk, fi = Finnish, da = Danish,
+#   is = Icelandic, se = Northern Sámi
+#
+# Country codes follow ISO 3166-1 alpha-2:
+#   SE = Sweden, NO = Norway, FI = Finland,
+#   DK = Denmark, IS = Iceland
+#
+# Example entry:
+#
+#   - id: nationalmuseum-se
+#     name:
+#       en: Nationalmuseum
+#       sv: Nationalmuseum
+#     type: art-museum
+#     country: SE
+#     city: Stockholm
+#     geonames_uri: "http://sws.geonames.org/2673730/"
+#     wikidata_uri: "http://www.wikidata.org/entity/Q842858"
+#     isil: "SE-Nm"
+#     website: "https://www.nationalmuseum.se/"
+#     established: "1792"
+#     description: "Sweden's museum of art and design."
+#
+# To regenerate the output files after editing:
+#   python3 scripts/generate-nordic-institutions.py

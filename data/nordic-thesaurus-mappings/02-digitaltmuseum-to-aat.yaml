@@ -1,0 +1,307 @@
+# DigitaltMuseum (Norway/Sweden) object types → Getty AAT mappings
+# DigitaltMuseum: https://digitaltmuseum.org/
+# AAT: http://vocab.getty.edu/aat/
+
+- id: dm-maleri-aat
+  source_system: digitaltmuseum
+  source_uri: "https://digitaltmuseum.org/type/Maleri"
+  source_label: "Maleri"
+  source_lang: nb
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300033618"
+  target_label: paintings
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Painting (DigitaltMuseum → AAT)"
+    sv: "Måleri (DigitaltMuseum → AAT)"
+  description: "Direct equivalence for painted works."
+  timeline_start: -3000
+
+- id: dm-skulptur-aat
+  source_system: digitaltmuseum
+  source_uri: "https://digitaltmuseum.org/type/Skulptur"
+  source_label: "Skulptur"
+  source_lang: nb
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300047090"
+  target_label: sculpture
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Sculpture (DigitaltMuseum → AAT)"
+    sv: "Skulptur (DigitaltMuseum → AAT)"
+  description: "Direct equivalence for sculptural works."
+  timeline_start: -8000
+
+- id: dm-tegning-aat
+  source_system: digitaltmuseum
+  source_uri: "https://digitaltmuseum.org/type/Tegning"
+  source_label: "Tegning"
+  source_lang: nb
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300033973"
+  target_label: drawings
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Drawing (DigitaltMuseum → AAT)"
+    sv: "Teckning (DigitaltMuseum → AAT)"
+  description: "Direct equivalence for drawn works."
+  timeline_start: -30000
+
+- id: dm-grafikk-aat
+  source_system: digitaltmuseum
+  source_uri: "https://digitaltmuseum.org/type/Grafikk"
+  source_label: "Grafikk"
+  source_lang: nb
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300041273"
+  target_label: prints
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Print/Graphic (DigitaltMuseum → AAT)"
+    sv: "Grafik (DigitaltMuseum → AAT)"
+  description: "Direct equivalence for printed graphic works."
+  timeline_start: 1400
+
+- id: dm-fotografi-aat
+  source_system: digitaltmuseum
+  source_uri: "https://digitaltmuseum.org/type/Fotografi"
+  source_label: "Fotografi"
+  source_lang: nb
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300046300"
+  target_label: photographs
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Photograph (DigitaltMuseum → AAT)"
+    sv: "Fotografi (DigitaltMuseum → AAT)"
+  description: "Direct equivalence for photographic works."
+  timeline_start: 1839
+
+- id: dm-tekstil-aat
+  source_system: digitaltmuseum
+  source_uri: "https://digitaltmuseum.org/type/Tekstil"
+  source_label: "Tekstil"
+  source_lang: nb
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300014063"
+  target_label: textiles
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Textile (DigitaltMuseum → AAT)"
+    sv: "Textil (DigitaltMuseum → AAT)"
+  description: "Direct equivalence for textile objects."
+  timeline_start: -6000
+
+- id: dm-keramikk-aat
+  source_system: digitaltmuseum
+  source_uri: "https://digitaltmuseum.org/type/Keramikk"
+  source_label: "Keramikk"
+  source_lang: nb
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300151343"
+  target_label: ceramics
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Ceramic (DigitaltMuseum → AAT)"
+    sv: "Keramik (DigitaltMuseum → AAT)"
+  description: "Direct equivalence for ceramic objects."
+  timeline_start: -5000
+
+- id: dm-mynt-aat
+  source_system: digitaltmuseum
+  source_uri: "https://digitaltmuseum.org/type/Mynt"
+  source_label: "Mynt"
+  source_lang: nb
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300037222"
+  target_label: coins
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Coin (DigitaltMuseum → AAT)"
+    sv: "Mynt (DigitaltMuseum → AAT)"
+  description: "Direct equivalence for numismatic objects."
+  timeline_start: -600
+
+- id: dm-smykke-aat
+  source_system: digitaltmuseum
+  source_uri: "https://digitaltmuseum.org/type/Smykke"
+  source_label: "Smykke"
+  source_lang: nb
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300209286"
+  target_label: jewelry
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Jewelry (DigitaltMuseum → AAT)"
+    sv: "Smycke (DigitaltMuseum → AAT)"
+  description: "Direct equivalence for jewelry objects."
+  timeline_start: -3000
+
+- id: dm-vapen-aat
+  source_system: digitaltmuseum
+  source_uri: "https://digitaltmuseum.org/type/Våpen"
+  source_label: "Våpen"
+  source_lang: nb
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300036926"
+  target_label: weapons
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Weapon (DigitaltMuseum → AAT)"
+    sv: "Vapen (DigitaltMuseum → AAT)"
+  description: "Direct equivalence for weapons and arms."
+  timeline_start: -8000
+
+- id: dm-mobel-aat
+  source_system: digitaltmuseum
+  source_uri: "https://digitaltmuseum.org/type/Møbel"
+  source_label: "Møbel"
+  source_lang: nb
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300037680"
+  target_label: furniture
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Furniture (DigitaltMuseum → AAT)"
+    sv: "Möbel (DigitaltMuseum → AAT)"
+  description: "Direct equivalence for furniture objects."
+  timeline_start: -3000
+
+- id: dm-drakt-aat
+  source_system: digitaltmuseum
+  source_uri: "https://digitaltmuseum.org/type/Drakt"
+  source_label: "Drakt"
+  source_lang: nb
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300209261"
+  target_label: costume
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Costume (DigitaltMuseum → AAT)"
+    sv: "Dräkt (DigitaltMuseum → AAT)"
+  description: "Direct equivalence for costume and clothing."
+  timeline_start: -5000
+
+- id: dm-musikkinstrument-aat
+  source_system: digitaltmuseum
+  source_uri: "https://digitaltmuseum.org/type/Musikkinstrument"
+  source_label: "Musikkinstrument"
+  source_lang: nb
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300041620"
+  target_label: musical instruments
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Musical instrument (DigitaltMuseum → AAT)"
+    sv: "Musikinstrument (DigitaltMuseum → AAT)"
+  description: "Direct equivalence for musical instruments."
+  timeline_start: -5000
+
+- id: dm-glass-aat
+  source_system: digitaltmuseum
+  source_uri: "https://digitaltmuseum.org/type/Glass"
+  source_label: "Glass"
+  source_lang: nb
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300010898"
+  target_label: glass
+  match_type: closeMatch
+  confidence: high
+  labels:
+    en: "Glass (DigitaltMuseum → AAT)"
+    sv: "Glas (DigitaltMuseum → AAT)"
+  description: "Close match; DigitaltMuseum 'Glass' covers glass objects, AAT is the material."
+  timeline_start: -1500
+
+- id: dm-kart-aat
+  source_system: digitaltmuseum
+  source_uri: "https://digitaltmuseum.org/type/Kart"
+  source_label: "Kart"
+  source_lang: nb
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300028094"
+  target_label: maps
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Map (DigitaltMuseum → AAT)"
+    sv: "Karta (DigitaltMuseum → AAT)"
+  description: "Direct equivalence for cartographic objects."
+  timeline_start: 1500
+
+- id: dm-redskap-aat
+  source_system: digitaltmuseum
+  source_uri: "https://digitaltmuseum.org/type/Redskap"
+  source_label: "Redskap"
+  source_lang: nb
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300024841"
+  target_label: tools
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Tool (DigitaltMuseum → AAT)"
+    sv: "Redskap (DigitaltMuseum → AAT)"
+  description: "Direct equivalence for hand tools and implements."
+  timeline_start: -10000
+
+- id: dm-religiost-aat
+  source_system: digitaltmuseum
+  source_uri: "https://digitaltmuseum.org/type/Religiøst"
+  source_label: "Religiøst"
+  source_lang: nb
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300073708"
+  target_label: religious art
+  match_type: closeMatch
+  confidence: medium
+  labels:
+    en: "Religious object (DigitaltMuseum → AAT)"
+    sv: "Religiöst föremål (DigitaltMuseum → AAT)"
+  description: "Close match; DigitaltMuseum 'Religiøst' is broader, covering all religious objects, not just art."
+  timeline_start: -5000
+
+- id: dm-leketoy-aat
+  source_system: digitaltmuseum
+  source_uri: "https://digitaltmuseum.org/type/Leketøy"
+  source_label: "Leketøy"
+  source_lang: nb
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300211037"
+  target_label: toys
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Toy (DigitaltMuseum → AAT)"
+    sv: "Leksak (DigitaltMuseum → AAT)"
+  description: "Direct equivalence for children's toys and playthings."
+  timeline_start: -3000
+
+- id: dm-husgeraad-aat
+  source_system: digitaltmuseum
+  source_uri: "https://digitaltmuseum.org/type/Husgeråd"
+  source_label: "Husgeråd"
+  source_lang: nb
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300022751"
+  target_label: household goods
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Household goods (DigitaltMuseum → AAT)"
+    sv: "Husgeråd (DigitaltMuseum → AAT)"
+  description: "Direct equivalence for domestic and household objects."
+  timeline_start: -5000

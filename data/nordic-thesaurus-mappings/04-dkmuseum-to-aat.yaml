@@ -1,0 +1,295 @@
+# Danish National Museum classification → Getty AAT mappings
+# Danish museums use various classification systems; these map common Danish museum terms to AAT.
+# AAT: http://vocab.getty.edu/aat/
+
+- id: dk-maleri-aat
+  source_system: dkmuseum
+  source_uri: null
+  source_label: "Maleri"
+  source_lang: da
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300033618"
+  target_label: paintings
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Painting (Danish museums → AAT)"
+    sv: "Målning (Danska museer → AAT)"
+  description: "Direct equivalence for painted works."
+  timeline_start: -3000
+
+- id: dk-skulptur-aat
+  source_system: dkmuseum
+  source_uri: null
+  source_label: "Skulptur"
+  source_lang: da
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300047090"
+  target_label: sculpture
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Sculpture (Danish museums → AAT)"
+    sv: "Skulptur (Danska museer → AAT)"
+  description: "Direct equivalence for sculptural works."
+  timeline_start: -8000
+
+- id: dk-tegning-aat
+  source_system: dkmuseum
+  source_uri: null
+  source_label: "Tegning"
+  source_lang: da
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300033973"
+  target_label: drawings
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Drawing (Danish museums → AAT)"
+    sv: "Teckning (Danska museer → AAT)"
+  description: "Direct equivalence for drawn works."
+  timeline_start: -30000
+
+- id: dk-grafik-aat
+  source_system: dkmuseum
+  source_uri: null
+  source_label: "Grafik"
+  source_lang: da
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300041273"
+  target_label: prints
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Print (Danish museums → AAT)"
+    sv: "Grafik (Danska museer → AAT)"
+  description: "Direct equivalence for printed graphic works."
+  timeline_start: 1400
+
+- id: dk-fotografi-aat
+  source_system: dkmuseum
+  source_uri: null
+  source_label: "Fotografi"
+  source_lang: da
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300046300"
+  target_label: photographs
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Photograph (Danish museums → AAT)"
+    sv: "Fotografi (Danska museer → AAT)"
+  description: "Direct equivalence for photographic works."
+  timeline_start: 1839
+
+- id: dk-keramik-aat
+  source_system: dkmuseum
+  source_uri: null
+  source_label: "Keramik"
+  source_lang: da
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300151343"
+  target_label: ceramics
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Ceramic (Danish museums → AAT)"
+    sv: "Keramik (Danska museer → AAT)"
+  description: "Direct equivalence for ceramic objects. Danish museums hold significant Royal Copenhagen collections."
+  timeline_start: -5000
+
+- id: dk-tekstil-aat
+  source_system: dkmuseum
+  source_uri: null
+  source_label: "Tekstil"
+  source_lang: da
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300014063"
+  target_label: textiles
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Textile (Danish museums → AAT)"
+    sv: "Textil (Danska museer → AAT)"
+  description: "Direct equivalence for textile objects."
+  timeline_start: -6000
+
+- id: dk-mont-aat
+  source_system: dkmuseum
+  source_uri: null
+  source_label: "Mønt"
+  source_lang: da
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300037222"
+  target_label: coins
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Coin (Danish museums → AAT)"
+    sv: "Mynt (Danska museer → AAT)"
+  description: "Direct equivalence for numismatic objects."
+  timeline_start: -600
+
+- id: dk-smykke-aat
+  source_system: dkmuseum
+  source_uri: null
+  source_label: "Smykke"
+  source_lang: da
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300209286"
+  target_label: jewelry
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Jewelry (Danish museums → AAT)"
+    sv: "Smycke (Danska museer → AAT)"
+  description: "Direct equivalence for jewelry and personal ornaments."
+  timeline_start: -3000
+
+- id: dk-vaaben-aat
+  source_system: dkmuseum
+  source_uri: null
+  source_label: "Våben"
+  source_lang: da
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300036926"
+  target_label: weapons
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Weapon (Danish museums → AAT)"
+    sv: "Vapen (Danska museer → AAT)"
+  description: "Direct equivalence for weapons and arms."
+  timeline_start: -8000
+
+- id: dk-mobel-aat
+  source_system: dkmuseum
+  source_uri: null
+  source_label: "Møbel"
+  source_lang: da
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300037680"
+  target_label: furniture
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Furniture (Danish museums → AAT)"
+    sv: "Möbel (Danska museer → AAT)"
+  description: "Direct equivalence for furniture objects. Danish Modern furniture is a key collection area."
+  timeline_start: -3000
+
+- id: dk-solv-aat
+  source_system: dkmuseum
+  source_uri: null
+  source_label: "Sølv"
+  source_lang: da
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300011029"
+  target_label: silver
+  match_type: closeMatch
+  confidence: medium
+  labels:
+    en: "Silver (Danish museums → AAT)"
+    sv: "Silver (Danska museer → AAT)"
+  description: "Close match; Danish 'Sølv' often denotes silverware objects classified by material."
+  timeline_start: -3000
+  note: "Similar to K-samsök pattern of classifying by material."
+
+- id: dk-glas-aat
+  source_system: dkmuseum
+  source_uri: null
+  source_label: "Glas"
+  source_lang: da
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300010898"
+  target_label: glass
+  match_type: closeMatch
+  confidence: high
+  labels:
+    en: "Glass (Danish museums → AAT)"
+    sv: "Glas (Danska museer → AAT)"
+  description: "Close match; covers glass objects broadly."
+  timeline_start: -1500
+
+- id: dk-runesten-aat
+  source_system: dkmuseum
+  source_uri: null
+  source_label: "Runesten"
+  source_lang: da
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300006958"
+  target_label: runestones
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Runestone (Danish museums → AAT)"
+    sv: "Runsten (Danska museer → AAT)"
+  description: "Direct equivalence for inscribed rune stones. Denmark has iconic runestones including the Jelling stones."
+  timeline_start: 150
+  timeline_end: 1100
+
+- id: dk-vikingefund-aat
+  source_system: dkmuseum
+  source_uri: null
+  source_label: "Vikingefund"
+  source_lang: da
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300117127"
+  target_label: archaeological objects
+  match_type: broadMatch
+  confidence: medium
+  labels:
+    en: "Viking find (Danish museums → AAT)"
+    sv: "Vikingafynd (Danska museer → AAT)"
+  description: "Broad match; Danish 'Vikingefund' is narrower (Viking Age archaeological finds only), while AAT 'archaeological objects' is broader."
+  timeline_start: 793
+  timeline_end: 1066
+  note: "No direct AAT equivalent for period-specific archaeological finds."
+
+- id: dk-designgenstand-aat
+  source_system: dkmuseum
+  source_uri: null
+  source_label: "Designgenstand"
+  source_lang: da
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300404974"
+  target_label: design objects
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Design object (Danish museums → AAT)"
+    sv: "Designföremål (Danska museer → AAT)"
+  description: "Direct equivalence for designed objects, industrial design, and applied art."
+  timeline_start: 1850
+
+- id: dk-plakat-aat
+  source_system: dkmuseum
+  source_uri: null
+  source_label: "Plakat"
+  source_lang: da
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300027221"
+  target_label: posters
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Poster (Danish museums → AAT)"
+    sv: "Affisch (Danska museer → AAT)"
+  description: "Direct equivalence for posters and broadsides."
+  timeline_start: 1450
+
+- id: dk-legetoj-aat
+  source_system: dkmuseum
+  source_uri: null
+  source_label: "Legetøj"
+  source_lang: da
+  target_system: aat
+  target_uri: "http://vocab.getty.edu/aat/300211037"
+  target_label: toys
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Toy (Danish museums → AAT)"
+    sv: "Leksak (Danska museer → AAT)"
+  description: "Direct equivalence for toys and playthings."
+  timeline_start: -3000

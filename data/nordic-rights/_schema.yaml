@@ -1,0 +1,78 @@
+# Nordic Rights and Licenses Vocabulary — Data Format
+# ====================================================
+#
+# The data file rights-vocabulary.yaml contains a list of rights
+# statements, licenses, and copyright concepts relevant to Nordic
+# cultural heritage institutions.
+#
+# Required fields for every entry:
+#
+#   id:          Unique identifier (lowercase, use hyphens for spaces)
+#   labels:      Translations — must always include "en" and "sv"
+#                Add other Nordic languages as available (fi, da, nb, is, se)
+#   category:    One of: creative-commons, rights-statement,
+#                nordic-copyright-law, europeana-framework, museum-scenario
+#   description: English description of the rights concept (in double quotes)
+#
+# Optional fields:
+#
+#   broader:         ID of a broader/parent concept (omit if none)
+#   canonical_uri:   Official URI for the license or rights statement
+#                    (e.g. "https://creativecommons.org/licenses/by/4.0/")
+#   europeana_tier:  Europeana licensing tier classification
+#                    One of: tier-1, tier-2, tier-3, tier-4
+#   usage_guidance:  Practical guidance for museum professionals on when
+#                    and how to apply this rights statement or license
+#   timeline_start:  Year the rights concept was established (integer, CE).
+#                    Example: 2002 for Creative Commons, 1886 for Berne Convention.
+#   timeline_end:    Year the rights concept ceased applicability (integer).
+#                    Omit or null for currently applicable concepts.
+#
+# Categories:
+#
+#   creative-commons       — Creative Commons license suite (CC0, CC-BY, etc.)
+#   rights-statement       — RightsStatements.org standardized statements
+#   nordic-copyright-law   — Nordic copyright legislation and legal concepts
+#   europeana-framework    — Europeana licensing tiers and policies
+#   museum-scenario        — Common museum rights use cases and guidance
+#
+# Language codes follow ISO 639:
+#   en  = English
+#   sv  = Swedish
+#   fi  = Finnish
+#   da  = Danish
+#   nb  = Norwegian Bokmål
+#   is  = Icelandic
+#   se  = Northern Sámi
+#
+# External vocabulary mappings:
+#   canonical_uri → mapped as skos:exactMatch (official URI of the license/statement)
+#   europeana_tier → mapped as mhub:europeanaTier (custom property)
+#
+# Example entry:
+#
+#   - id: cc-by-4
+#     broader: creative-commons
+#     canonical_uri: "https://creativecommons.org/licenses/by/4.0/"
+#     labels:
+#       en: Creative Commons Attribution 4.0 International
+#       sv: Creative Commons Erkännande 4.0 Internationell
+#       fi: Creative Commons Nimeä 4.0 Kansainvälinen
+#       da: Creative Commons Navngivelse 4.0 International
+#       nb: Creative Commons Navngivelse 4.0 Internasjonal
+#     category: open-license
+#     europeana_tier: "tier-4"
+#     description: "Allows reuse with attribution."
+#     usage_guidance: "Use when the museum holds all necessary rights."
+#
+# Example without optional fields:
+#
+#   - id: moral-rights
+#     labels:
+#       en: Moral Rights
+#       sv: Ideell rätt
+#     category: nordic-copyright-law
+#     description: "Non-transferable personal rights of the author."
+#
+# To regenerate the output files after editing:
+#   python3 scripts/generate-nordic-rights.py

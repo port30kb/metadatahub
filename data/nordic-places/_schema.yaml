@@ -1,0 +1,85 @@
+# Nordic Place Name Authority Data Format
+# ========================================
+#
+# Each numbered YAML file (01-sweden.yaml, 02-norway.yaml, etc.)
+# contains a list of place entries for the Nordic countries.
+#
+# Required fields for every entry:
+#
+#   id:          Unique identifier (lowercase, use hyphens for spaces)
+#   type:        One of: country, region, landskap, municipality, city,
+#                        town, village, island, archaeological-site, parish
+#   labels:      Translations — must always include "en" + local language
+#                (sv for Sweden, nb/nn for Norway, fi for Finland,
+#                 da for Denmark, is for Iceland, se for Sámi)
+#   description: English description of the place (in double quotes)
+#
+# Optional fields:
+#
+#   broader:          ID of the parent place in the hierarchy
+#   alt_labels:       Alternative names by language (dict of lists)
+#   historical_labels: Former names by language (dict of lists)
+#                      e.g. Kristiania→Oslo, Åbo→Turku
+#   lat:              WGS84 latitude (decimal degrees)
+#   lon:              WGS84 longitude (decimal degrees)
+#   geonames_uri:     GeoNames URI (http://sws.geonames.org/{id}/)
+#   wikidata_uri:     Wikidata URI (http://www.wikidata.org/entity/Q{id})
+#   timeline_start:   Earliest known date for the place (integer).
+#                     Negative = BCE, positive = CE.
+#                     Example: -8000 for Mesolithic sites, 1252 for Stockholm.
+#   timeline_end:     End date if the place no longer exists (integer).
+#                     Omit or null for places that still exist.
+#
+# Place types:
+#
+#   country             National entity (Sweden, Norway, Finland, etc.)
+#   region              Modern or historical region (Norrland, Vestlandet, etc.)
+#   landskap            Swedish historical province (Uppland, Dalarna, etc.)
+#   municipality        Administrative municipality (kommun, kommune, kunta)
+#   city                Major city
+#   town                Smaller town
+#   village             Village or small settlement
+#   island              Island or archipelago
+#   archaeological-site Archaeological or historical monument/site
+#   parish              Church parish (socken, sogn, pitäjä)
+#
+# Language codes follow ISO 639:
+#   en = English, sv = Swedish, nb = Norwegian Bokmål,
+#   nn = Norwegian Nynorsk, da = Danish, fi = Finnish,
+#   is = Icelandic, se = Northern Sámi, fo = Faroese,
+#   kl = Kalaallisut (Greenlandic), de = German
+#
+# Example entry:
+#
+#   - id: stockholm
+#     type: city
+#     broader: uppland
+#     labels:
+#       en: Stockholm
+#       sv: Stockholm
+#     alt_labels:
+#       sv: ["Stockholms stad"]
+#     lat: 59.3293
+#     lon: 18.0686
+#     geonames_uri: "http://sws.geonames.org/2673730/"
+#     wikidata_uri: "http://www.wikidata.org/entity/Q1754"
+#     description: "Capital of Sweden, founded in the 13th century."
+#
+# Example with historical labels:
+#
+#   - id: oslo
+#     type: city
+#     broader: ostlandet
+#     labels:
+#       en: Oslo
+#       nb: Oslo
+#     historical_labels:
+#       nb: ["Kristiania", "Christiania"]
+#     lat: 59.9139
+#     lon: 10.7522
+#     geonames_uri: "http://sws.geonames.org/3143244/"
+#     wikidata_uri: "http://www.wikidata.org/entity/Q585"
+#     description: "Capital of Norway, formerly known as Kristiania."
+#
+# To regenerate the output files after editing:
+#   python3 scripts/generate-nordic-places.py

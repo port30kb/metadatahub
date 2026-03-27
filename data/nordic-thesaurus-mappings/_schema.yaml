@@ -1,0 +1,47 @@
+# Nordic Thesaurus Mappings Data Format
+# =======================================
+#
+# Each YAML file contains SKOS mapping assertions between Nordic museum
+# classification systems and international standards (primarily Getty AAT).
+#
+# Required fields for every entry:
+#
+#   id:            Unique identifier (lowercase, hyphens for spaces)
+#   source_system: Source classification system identifier
+#   source_uri:    URI of the source concept (if available, otherwise null)
+#   source_label:  Label in the source system's primary language
+#   target_system: Target classification system identifier
+#   target_uri:    URI of the target concept
+#   target_label:  English label of the target concept
+#   match_type:    One of: exactMatch, closeMatch, broadMatch, narrowMatch, relatedMatch
+#   labels:
+#     en:          English label describing the mapping
+#     sv:          Swedish label (always required)
+#   description:   English description of the mapping rationale
+#
+# Optional fields:
+#
+#   source_lang:   Language of source_label (ISO 639, default: source system language)
+#   confidence:    Mapping confidence: high, medium, low
+#   note:          Additional notes about the mapping
+#   timeline_start: Approximate start year for the mapped concept (integer).
+#                   Negative = BCE, positive = CE.
+#   timeline_end:   Approximate end year for the mapped concept (integer).
+#                   Negative = BCE, positive = CE. Omit for ongoing concepts.
+#
+# Systems:
+#   ksamsok     — Swedish K-samsök (kulturarvsdata.se)
+#   digitaltmuseum — DigitaltMuseum (Norway/Sweden)
+#   finna       — Finnish Finna (finna.fi)
+#   dkmuseum    — Danish National Museum classification
+#   aat         — Getty Art & Architecture Thesaurus
+#
+# Match types (SKOS):
+#   exactMatch   — concepts are identical in meaning
+#   closeMatch   — concepts are similar enough to be used interchangeably
+#   broadMatch   — source concept is narrower than target
+#   narrowMatch  — source concept is broader than target
+#   relatedMatch — concepts are related but not hierarchically
+#
+# To regenerate output files after editing:
+#   python3 scripts/generate-nordic-mappings.py

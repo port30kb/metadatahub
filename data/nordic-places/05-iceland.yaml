@@ -1,0 +1,221 @@
+# ═══════════════════════════════════════════════════════════════
+# Nordic Place Name Authority — Iceland
+# Country, regions, major cities and towns, and sites.
+# ═══════════════════════════════════════════════════════════════
+
+# ── Country ──────────────────────────────────────────────────
+
+- id: iceland
+  type: country
+  timeline_start: 874
+  labels:
+    en: Iceland
+    is: Ísland
+  alt_labels:
+    en: ["Republic of Iceland"]
+    is: ["Lýðveldið Ísland"]
+  lat: 64.963
+  lon: -19.021
+  geonames_uri: "http://sws.geonames.org/2629691/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q189"
+  description: "Nordic island country in the North Atlantic. Settled by Norse Vikings c. 870 CE. Home of the Althing, the world's oldest parliament."
+
+# ── Regions ──────────────────────────────────────────────────
+
+- id: capital-region-iceland
+  type: region
+  broader: iceland
+  timeline_start: 874
+  labels:
+    en: Capital Region
+    is: Höfuðborgarsvæðið
+  lat: 64.13
+  lon: -21.90
+  wikidata_uri: "http://www.wikidata.org/entity/Q852482"
+  description: "Most populous region of Iceland, containing Reykjavík and surrounding municipalities."
+
+- id: southern-iceland
+  type: region
+  broader: iceland
+  timeline_start: 874
+  labels:
+    en: South Iceland
+    is: Suðurland
+  lat: 63.80
+  lon: -20.00
+  wikidata_uri: "http://www.wikidata.org/entity/Q852483"
+  description: "Southern region of Iceland. Home to Þingvellir, Gullfoss, Geysir, and Skógafoss."
+
+- id: western-iceland
+  type: region
+  broader: iceland
+  timeline_start: 874
+  labels:
+    en: West Iceland
+    is: Vesturland
+  lat: 64.80
+  lon: -21.50
+  wikidata_uri: "http://www.wikidata.org/entity/Q852484"
+  description: "Western Iceland including the Snæfellsnes peninsula and Borgarfjörður."
+
+- id: westfjords
+  type: region
+  broader: iceland
+  timeline_start: 890
+  labels:
+    en: Westfjords
+    is: Vestfirðir
+  lat: 65.80
+  lon: -22.50
+  wikidata_uri: "http://www.wikidata.org/entity/Q852485"
+  description: "Remote northwestern peninsula. Iceland's least populated region with dramatic fjord scenery."
+
+- id: northern-iceland
+  type: region
+  broader: iceland
+  timeline_start: 874
+  labels:
+    en: North Iceland
+    is: Norðurland
+  lat: 65.70
+  lon: -18.00
+  wikidata_uri: "http://www.wikidata.org/entity/Q852486"
+  description: "Northern region of Iceland. Includes Akureyri, Húsavík, and Lake Mývatn."
+
+- id: eastern-iceland
+  type: region
+  broader: iceland
+  timeline_start: 880
+  labels:
+    en: East Iceland
+    is: Austfirðir
+  lat: 65.00
+  lon: -14.50
+  wikidata_uri: "http://www.wikidata.org/entity/Q852487"
+  description: "Eastern region known for its fjords, reindeer herds, and the town of Egilsstaðir."
+
+# ── Cities and Towns ─────────────────────────────────────────
+
+- id: reykjavik
+  type: city
+  broader: capital-region-iceland
+  timeline_start: 874
+  labels:
+    en: Reykjavík
+    is: Reykjavík
+  lat: 64.1466
+  lon: -21.9426
+  geonames_uri: "http://sws.geonames.org/3413829/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1764"
+  description: "Capital and largest city of Iceland. World's northernmost capital of a sovereign state. Founded as a permanent settlement in 874 CE."
+
+- id: akureyri
+  type: city
+  broader: northern-iceland
+  timeline_start: 1562
+  labels:
+    en: Akureyri
+    is: Akureyri
+  lat: 65.6835
+  lon: -18.0878
+  geonames_uri: "http://sws.geonames.org/3424607/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q128316"
+  description: "Second-largest urban area in Iceland. Known as the Capital of the North, located on Eyjafjörður."
+
+- id: husavik
+  type: town
+  broader: northern-iceland
+  timeline_start: 870
+  labels:
+    en: Húsavík
+    is: Húsavík
+  lat: 66.0449
+  lon: -17.3389
+  geonames_uri: "http://sws.geonames.org/3416888/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q200042"
+  description: "Town in northern Iceland. Known as Europe's whale-watching capital. Featured in the film Eurovision Song Contest."
+
+- id: isafjordur
+  type: town
+  broader: westfjords
+  timeline_start: 920
+  labels:
+    en: Ísafjörður
+    is: Ísafjörður
+  lat: 66.0741
+  lon: -23.1354
+  geonames_uri: "http://sws.geonames.org/3416272/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q200044"
+  description: "Largest town in the Westfjords. Historic fishing port and cultural centre of the region."
+
+- id: selfoss
+  type: town
+  broader: southern-iceland
+  timeline_start: 1891
+  labels:
+    en: Selfoss
+    is: Selfoss
+  lat: 63.9336
+  lon: -20.9971
+  geonames_uri: "http://sws.geonames.org/3413306/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q200045"
+  description: "Largest town in southern Iceland. Located on the Ölfusá river."
+
+- id: egilsstadir
+  type: town
+  broader: eastern-iceland
+  timeline_start: 1944
+  labels:
+    en: Egilsstaðir
+    is: Egilsstaðir
+  lat: 65.2531
+  lon: -14.3948
+  geonames_uri: "http://sws.geonames.org/3418399/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q200046"
+  description: "Largest town in eastern Iceland. Major transport hub and gateway to the eastern fjords."
+
+- id: vik
+  type: village
+  broader: southern-iceland
+  timeline_start: 900
+  labels:
+    en: Vík í Mýrdal
+    is: Vík í Mýrdal
+  alt_labels:
+    en: ["Vík"]
+  lat: 63.4186
+  lon: -19.0060
+  geonames_uri: "http://sws.geonames.org/3412093/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q200047"
+  description: "Southernmost village in Iceland. Known for its black sand beach Reynisfjara."
+
+# ── Key Sites ────────────────────────────────────────────────
+
+- id: thingvellir
+  type: archaeological-site
+  broader: southern-iceland
+  timeline_start: 930
+  labels:
+    en: Þingvellir
+    is: Þingvellir
+  alt_labels:
+    en: ["Thingvellir"]
+  lat: 64.2559
+  lon: -21.1290
+  geonames_uri: "http://sws.geonames.org/3412761/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q187178"
+  description: "UNESCO World Heritage Site. Location of the Althing (est. 930 CE), the world's oldest surviving parliament. Sits on the Mid-Atlantic Ridge."
+
+- id: skalholt
+  type: archaeological-site
+  broader: southern-iceland
+  timeline_start: 1056
+  timeline_end: 1785
+  labels:
+    en: Skálholt
+    is: Skálholt
+  lat: 64.1287
+  lon: -20.5264
+  geonames_uri: "http://sws.geonames.org/3413386/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q741226"
+  description: "Historic episcopal see and cultural centre of Iceland from 1056 to 1785. One of the most important sites in Icelandic history."

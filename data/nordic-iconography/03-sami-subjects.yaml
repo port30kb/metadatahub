@@ -1,0 +1,254 @@
+# Sámi Cultural and Mythological Subjects
+
+# ── Top-level category ──
+
+- id: sami-culture
+  timeline_start: -3000
+  labels:
+    en: Sámi cultural subjects
+    sv: Samiska kulturämnen
+    fi: Saamelaisen kulttuurin aiheet
+    da: Samiske kulturemner
+    nb: Samiske kulturemner
+    se: Sámi kultuvrralaš fáttát
+  description: "Cultural subjects, traditions, and material culture of the Sámi people, the indigenous Finno-Ugric people inhabiting Sápmi across northern Norway, Sweden, Finland, and the Kola Peninsula."
+
+- id: sami-mythology
+  timeline_start: -3000
+  labels:
+    en: Sámi mythology
+    sv: Samisk mytologi
+    fi: Saamelainen mytologia
+    da: Samisk mytologi
+    nb: Samisk mytologi
+    se: Sámi mitologiija
+  description: "Pre-Christian religious beliefs and mythological figures of the Sámi people, centered on animism, shamanism, and a rich pantheon of nature deities."
+
+# ── Mythological and Spiritual ──
+
+- id: noaidi
+  broader: sami-mythology
+  timeline_start: -3000
+  timeline_end: 1700
+  labels:
+    en: Noaidi (Sámi shaman)
+    sv: Nåjd (samisk shaman)
+    fi: Noaidi (saamelainen shamaani)
+    da: Noaidi (samisk shaman)
+    nb: Noaide (samisk sjaman)
+    se: Noaidi
+  description: "The Sámi shaman or spiritual practitioner who mediates between the human and spirit worlds. Uses a sacred drum (goavddis) to enter trance states, divine the future, heal the sick, and communicate with spirits."
+
+- id: sami-drum
+  broader: sami-mythology
+  aat_uri: "http://vocab.getty.edu/aat/300041734"
+  timeline_start: -3000
+  timeline_end: 1700
+  labels:
+    en: Sámi drum
+    sv: Samisk trumma
+    fi: Saamelainen rumpu
+    da: Samisk tromme
+    nb: Samisk tromme
+    se: Goavddis
+  description: "Sacred frame drum (goavddis or runebomme) used by noaidi shamans for divination and ritual. The drumhead is painted with cosmological symbols depicting deities, animals, and the three-tiered world. Most surviving drums were confiscated and burned during Christianization."
+
+- id: sami-drum-motifs
+  broader: sami-drum
+  timeline_start: -3000
+  timeline_end: 1700
+  labels:
+    en: Sámi drum motifs
+    sv: Samiska trummotiv
+    fi: Saamelaisen rummun kuviot
+    da: Samiske trommemotiver
+    nb: Samiske trommemotiver
+    se: Goavddis govvadahkkit
+  description: "The symbolic figures painted on Sámi drums, representing deities, spirits, animals, celestial bodies, and the three cosmic realms. Each drum is unique but shares common cosmological structures dividing the world into upper, middle, and lower realms."
+
+- id: beaivi
+  broader: sami-mythology
+  timeline_start: -3000
+  labels:
+    en: Beaivi (sun goddess)
+    sv: Beaivi (solgudinnan)
+    fi: Beaivi (auringon jumalatar)
+    da: Beaivi (solgudinde)
+    nb: Beaivi (solgudinnen)
+    se: Beaivi
+  description: "Sámi sun goddess associated with fertility, sanity, and the return of green plants after the long polar winter. White reindeer and butter were offered to her at winter solstice. Her return in spring was celebrated with rituals."
+
+- id: mattarahkka
+  broader: sami-mythology
+  timeline_start: -3000
+  timeline_end: 1700
+  labels:
+    en: Máttaráhkká (mother goddess)
+    sv: Máttaráhkká (modergudinnan)
+    fi: Máttaráhkká (äitijumalatar)
+    da: Máttaráhkká (modergudinde)
+    nb: Máttaráhkká (modergudinnen)
+    se: Máttaráhkká
+  description: "The first mother and supreme goddess of the Sámi pantheon, associated with childbirth and fertility. She has three daughters: Sáráhkká (who aids in birth), Uksáhkká (who protects doorways), and Juoksáhkká (who determines a child's gender)."
+
+- id: biegga-olmai
+  broader: sami-mythology
+  timeline_start: -3000
+  timeline_end: 1700
+  labels:
+    en: Biegga-olmái (wind god)
+    sv: Biegga-olmái (vindguden)
+    fi: Biegga-olmái (tuulen jumala)
+    da: Biegga-olmái (vindgud)
+    nb: Biegga-olmái (vindguden)
+    se: Biegga-olmái
+  description: "Sámi wind god who controls weather and wind. Offerings were made to him using a wind-shovel (bieggaluovvi) to secure favorable winds for fishing and reindeer herding. Depicted on Sámi drums with shovel symbols."
+
+- id: horagalles
+  broader: sami-mythology
+  timeline_start: -3000
+  timeline_end: 1700
+  labels:
+    en: Horagállis (thunder god)
+    sv: Horagállis (åskguden)
+    fi: Horagállis (ukkosen jumala)
+    da: Horagállis (tordengud)
+    nb: Horagállis (tordenguden)
+    se: Horagállis
+  description: "Sámi thunder god, equivalent to Norse Thor. Depicted on drums wielding hammers, he drives away evil spirits, controls weather, and protects the world. His name derives from 'Old Man Thor' (Hora Galles)."
+
+- id: stallu
+  broader: sami-mythology
+  timeline_start: -3000
+  labels:
+    en: Stállu (giant)
+    sv: Stallo (jätte)
+    fi: Stallo (jättiläinen)
+    da: Stallo (jætte)
+    nb: Stallo (kjempe)
+    se: Stállu
+  description: "A fearsome troll-like giant in Sámi folklore, often depicted as man-eating and dim-witted. Stállu figures are sometimes interpreted as memories of encounters with Norse Vikings or other hostile outsiders."
+
+- id: bear-cult
+  broader: sami-mythology
+  timeline_start: -5000
+  timeline_end: 1700
+  labels:
+    en: Bear cult (Sámi)
+    sv: Björnkult (samisk)
+    fi: Karhunpalvonta (saamelainen)
+    da: Bjørnekult (samisk)
+    nb: Bjørnekult (samisk)
+    se: Guovžžabálvalus
+  description: "Sacred bear ceremonies and rituals central to Sámi spiritual life. The bear was considered a sacred ancestor, and elaborate rituals accompanied the bear hunt, including special songs, taboo words, and ceremonial feasting and bone burial."
+
+# ── Sacred Sites and Material Culture ──
+
+- id: sieidi
+  broader: sami-culture
+  timeline_start: -3000
+  labels:
+    en: Sieidi (sacred natural site)
+    sv: Sejte (helig naturplats)
+    fi: Sieidi (pyhä luontopaikka)
+    da: Sejte (helligt natursted)
+    nb: Seite (hellig natursted)
+    se: Sieidi
+  description: "A sacred natural site or object in Sámi tradition, typically an unusually shaped stone or wooden object where offerings were made. Sieidis are found across Sápmi and served as places of worship, sacrifice, and communication with spirits."
+
+- id: sami-sun-symbol
+  broader: sami-culture
+  timeline_start: -3000
+  labels:
+    en: Sámi sun symbol
+    sv: Samisk solsymbol
+    fi: Saamelainen aurinkosymboli
+    da: Samisk solsymbol
+    nb: Samisk solsymbol
+    se: Beaivváš mearka
+  description: "The radiant sun symbol found on Sámi drums and in traditional art, representing Beaivi the sun deity. Typically depicted as a rhombus or circle with radiating lines, it occupies a central position on the drum cosmology."
+
+- id: lavvu
+  broader: sami-culture
+  aat_uri: "http://vocab.getty.edu/aat/300005018"
+  timeline_start: -3000
+  labels:
+    en: Lavvu
+    sv: Kåta (tälttyp)
+    fi: Lavvu
+    da: Lavvu
+    nb: Lavvo
+    se: Lávvu
+  description: "A traditional Sámi temporary dwelling resembling a tepee, used by reindeer herders during migration. Made of poles covered with reindeer hides or birch bark. The conical shape withstands strong winds on the tundra."
+
+- id: goahti
+  broader: sami-culture
+  timeline_start: -3000
+  labels:
+    en: Goahti
+    sv: Kåta (torvkåta)
+    fi: Kota
+    da: Goahti
+    nb: Gamme
+    se: Goahti
+  description: "A traditional Sámi semi-permanent dwelling, a turf hut with a wooden frame covered in peat and birch bark. More substantial than the lavvu, it served as a winter dwelling. The central hearth was the social and spiritual center."
+
+- id: reindeer-sami
+  broader: sami-culture
+  timeline_start: -3000
+  labels:
+    en: Reindeer (Sámi culture)
+    sv: Ren (samisk kultur)
+    fi: Poro (saamelainen kulttuuri)
+    da: Ren (samisk kultur)
+    nb: Rein (samisk kultur)
+    se: Boazu
+  description: "The reindeer is central to Sámi culture, economy, and identity. Reindeer herding has been practiced for millennia and encompasses migration, marking, separation, and slaughter traditions. The Sámi language has hundreds of words describing reindeer."
+
+- id: sami-duodji
+  broader: sami-culture
+  timeline_start: -3000
+  labels:
+    en: Duodji (Sámi handicraft)
+    sv: Duodji (samiskt hantverk)
+    fi: Duodji (saamelainen käsityö)
+    da: Duodji (samisk håndværk)
+    nb: Duodji (samisk håndverk)
+    se: Duodji
+  description: "Traditional Sámi handicraft encompassing work in reindeer bone, antler, wood, pewter, and leather. Both functional and decorative, duodji carries cultural knowledge and identity. Recognized as an important form of Sámi cultural expression."
+
+- id: sami-gakti
+  broader: sami-culture
+  timeline_start: -1500
+  labels:
+    en: Gákti (Sámi costume)
+    sv: Kolt (samisk dräkt)
+    fi: Gákti (saamelainen puku)
+    da: Kofte (samisk dragt)
+    nb: Kofte (samisk drakt)
+    se: Gákti
+  description: "The traditional Sámi garment, a tunic-like costume whose colors, patterns, and decorations indicate the wearer's region, family, and marital status. Still worn for ceremonies, festivals, and daily use in Sámi communities."
+
+- id: sami-joik
+  broader: sami-culture
+  timeline_start: -3000
+  labels:
+    en: Joik (Sámi vocal tradition)
+    sv: Jojk (samisk sångtradition)
+    fi: Joiku (saamelainen lauluperinne)
+    da: Joik (samisk sangtradition)
+    nb: Joik (samisk sangtradisjon)
+    se: Luohti
+  description: "A traditional form of Sámi vocal expression, one of the oldest music traditions in Europe. A joik evokes a person, animal, or place through melody and vocalization rather than describing them. Each person may have their own joik."
+
+- id: sami-flag
+  broader: sami-culture
+  timeline_start: 1986
+  labels:
+    en: Sámi flag
+    sv: Samiska flaggan
+    fi: Saamelaislippu
+    da: Det samiske flag
+    nb: Det samiske flagget
+    se: Sámi leavga
+  description: "The pan-Sámi flag adopted in 1986, designed by Astrid Båhl. Features a circle divided into red and blue halves against stripes of red, blue, green, and yellow, representing the sun and moon from the shaman drum tradition."

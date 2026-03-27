@@ -1,0 +1,1405 @@
+# ═══════════════════════════════════════════════════════════════
+# Nordic Thesaurus Mappings — Linked Data for metadatahub.eu
+# 99 SKOS mapping assertions between Nordic museum systems
+# and international standards (Getty AAT).
+#
+# Systems:
+#   ksamsok: K-samsök (Swedish Cultural Heritage)
+#   digitaltmuseum: DigitaltMuseum (Norway/Sweden)
+#   finna: Finna/YSO (Finland)
+#   dkmuseum: Danish National Museum
+#   aat: Getty Art & Architecture Thesaurus
+#
+# Total assertions: 99
+# ═══════════════════════════════════════════════════════════════
+
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix map:     <https://metadatahub.eu/data/nordic-thesaurus-mappings/> .
+
+<https://metadatahub.eu/data/nordic-thesaurus-mappings> a void:Linkset , skos:ConceptScheme ;
+    dcterms:title "Nordic Thesaurus Mappings"@en ;
+    dcterms:description "99 SKOS mapping assertions between Nordic museum classification systems (K-samsök, DigitaltMuseum, Finna, Danish museums) and Getty AAT."@en ;
+    dcterms:creator "Port 30 KB" ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:modified "2025-01-15"^^xsd:date ;
+    void:triples "99"^^xsd:integer .
+
+# ── 1/99: Painting (K-samsök → AAT) ──
+map:ksamsok-malning-aat a skos:Concept ;
+    rdfs:label "Painting (K-samsök → AAT)"@en ;
+    rdfs:label "Målning (K-samsök → AAT)"@sv ;
+    skos:prefLabel "Painting (K-samsök → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for easel paintings and painted works."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Målning> ;
+    rdfs:comment "Source: Målning (ksamsok)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300033618> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-3000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 2/99: Sculpture (K-samsök → AAT) ──
+map:ksamsok-skulptur-aat a skos:Concept ;
+    rdfs:label "Sculpture (K-samsök → AAT)"@en ;
+    rdfs:label "Skulptur (K-samsök → AAT)"@sv ;
+    skos:prefLabel "Sculpture (K-samsök → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for three-dimensional sculptural works."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Skulptur> ;
+    rdfs:comment "Source: Skulptur (ksamsok)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300047090> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-8000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 3/99: Drawing (K-samsök → AAT) ──
+map:ksamsok-teckning-aat a skos:Concept ;
+    rdfs:label "Drawing (K-samsök → AAT)"@en ;
+    rdfs:label "Teckning (K-samsök → AAT)"@sv ;
+    skos:prefLabel "Drawing (K-samsök → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for drawn works on paper or other supports."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Teckning> ;
+    rdfs:comment "Source: Teckning (ksamsok)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300033973> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-30000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 4/99: Print/Graphic (K-samsök → AAT) ──
+map:ksamsok-grafik-aat a skos:Concept ;
+    rdfs:label "Print/Graphic (K-samsök → AAT)"@en ;
+    rdfs:label "Grafik (K-samsök → AAT)"@sv ;
+    skos:prefLabel "Print/Graphic (K-samsök → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for printed graphic works."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Grafik> ;
+    rdfs:comment "Source: Grafik (ksamsok)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300041273> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "1400"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 5/99: Photograph (K-samsök → AAT) ──
+map:ksamsok-fotografi-aat a skos:Concept ;
+    rdfs:label "Photograph (K-samsök → AAT)"@en ;
+    rdfs:label "Fotografi (K-samsök → AAT)"@sv ;
+    skos:prefLabel "Photograph (K-samsök → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for photographic works."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Fotografi> ;
+    rdfs:comment "Source: Fotografi (ksamsok)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300046300> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "1839"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 6/99: Coin (K-samsök → AAT) ──
+map:ksamsok-mynt-aat a skos:Concept ;
+    rdfs:label "Coin (K-samsök → AAT)"@en ;
+    rdfs:label "Mynt (K-samsök → AAT)"@sv ;
+    skos:prefLabel "Coin (K-samsök → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for numismatic objects."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Mynt> ;
+    rdfs:comment "Source: Mynt (ksamsok)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300037222> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-600"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 7/99: Textile (K-samsök → AAT) ──
+map:ksamsok-textil-aat a skos:Concept ;
+    rdfs:label "Textile (K-samsök → AAT)"@en ;
+    rdfs:label "Textil (K-samsök → AAT)"@sv ;
+    skos:prefLabel "Textile (K-samsök → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for textile objects."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Textil> ;
+    rdfs:comment "Source: Textil (ksamsok)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300014063> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-6000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 8/99: Ceramic (K-samsök → AAT) ──
+map:ksamsok-keramik-aat a skos:Concept ;
+    rdfs:label "Ceramic (K-samsök → AAT)"@en ;
+    rdfs:label "Keramik (K-samsök → AAT)"@sv ;
+    skos:prefLabel "Ceramic (K-samsök → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for ceramic objects."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Keramik> ;
+    rdfs:comment "Source: Keramik (ksamsok)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300151343> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-5000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 9/99: Jewelry (K-samsök → AAT) ──
+map:ksamsok-smycke-aat a skos:Concept ;
+    rdfs:label "Jewelry (K-samsök → AAT)"@en ;
+    rdfs:label "Smycke (K-samsök → AAT)"@sv ;
+    skos:prefLabel "Jewelry (K-samsök → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for jewelry and personal adornment objects."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Smycke> ;
+    rdfs:comment "Source: Smycke (ksamsok)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300209286> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-3000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 10/99: Weapon (K-samsök → AAT) ──
+map:ksamsok-vapen-aat a skos:Concept ;
+    rdfs:label "Weapon (K-samsök → AAT)"@en ;
+    rdfs:label "Vapen (K-samsök → AAT)"@sv ;
+    skos:prefLabel "Weapon (K-samsök → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for weapons and arms."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Vapen> ;
+    rdfs:comment "Source: Vapen (ksamsok)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300036926> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-8000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 11/99: Furniture (K-samsök → AAT) ──
+map:ksamsok-mobel-aat a skos:Concept ;
+    rdfs:label "Furniture (K-samsök → AAT)"@en ;
+    rdfs:label "Möbel (K-samsök → AAT)"@sv ;
+    skos:prefLabel "Furniture (K-samsök → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for furniture objects."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Möbel> ;
+    rdfs:comment "Source: Möbel (ksamsok)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300037680> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-3000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 12/99: Musical instrument (K-samsök → AAT) ──
+map:ksamsok-musikinstrument-aat a skos:Concept ;
+    rdfs:label "Musical instrument (K-samsök → AAT)"@en ;
+    rdfs:label "Musikinstrument (K-samsök → AAT)"@sv ;
+    skos:prefLabel "Musical instrument (K-samsök → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for musical instruments."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Musikinstrument> ;
+    rdfs:comment "Source: Musikinstrument (ksamsok)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300041620> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-5000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 13/99: Glass (K-samsök → AAT) ──
+map:ksamsok-glas-aat a skos:Concept ;
+    rdfs:label "Glass (K-samsök → AAT)"@en ;
+    rdfs:label "Glas (K-samsök → AAT)"@sv ;
+    skos:prefLabel "Glass (K-samsök → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Close match; K-samsök 'Glas' covers glass objects broadly, AAT 300010898 is 'glass (material)'."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Glas> ;
+    rdfs:comment "Source: Glas (ksamsok)"@en ;
+    skos:closeMatch <http://vocab.getty.edu/aat/300010898> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-1500"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 14/99: Silver (K-samsök → AAT) ──
+map:ksamsok-silver-aat a skos:Concept ;
+    rdfs:label "Silver (K-samsök → AAT)"@en ;
+    rdfs:label "Silver (K-samsök → AAT)"@sv ;
+    skos:prefLabel "Silver (K-samsök → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Close match; K-samsök classifies by material, AAT 300011029 is silver as material. K-samsök 'Silver' implies silverware objects."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Silver> ;
+    rdfs:comment "Source: Silver (ksamsok)"@en ;
+    skos:closeMatch <http://vocab.getty.edu/aat/300011029> ;
+    dcterms:conformsTo "medium" ;
+    skos:note "K-samsök uses material as object type; AAT separates material from object type."@en ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-3000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 15/99: Runestone (K-samsök → AAT) ──
+map:ksamsok-runsten-aat a skos:Concept ;
+    rdfs:label "Runestone (K-samsök → AAT)"@en ;
+    rdfs:label "Runsten (K-samsök → AAT)"@sv ;
+    skos:prefLabel "Runestone (K-samsök → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for inscribed rune stones."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Runsten> ;
+    rdfs:comment "Source: Runsten (ksamsok)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300006958> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "150"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineEnd> "1100"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 16/99: Grave find (K-samsök → AAT) ──
+map:ksamsok-gravfynd-aat a skos:Concept ;
+    rdfs:label "Grave find (K-samsök → AAT)"@en ;
+    rdfs:label "Gravfynd (K-samsök → AAT)"@sv ;
+    skos:prefLabel "Grave find (K-samsök → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for objects recovered from burial contexts."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Gravfynd> ;
+    rdfs:comment "Source: Gravfynd (ksamsok)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300185711> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-8000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 17/99: Tool (K-samsök → AAT) ──
+map:ksamsok-verktyg-aat a skos:Concept ;
+    rdfs:label "Tool (K-samsök → AAT)"@en ;
+    rdfs:label "Verktyg (K-samsök → AAT)"@sv ;
+    skos:prefLabel "Tool (K-samsök → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for hand tools and implements."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Verktyg> ;
+    rdfs:comment "Source: Verktyg (ksamsok)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300024841> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-10000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 18/99: Manuscript (K-samsök → AAT) ──
+map:ksamsok-manuskript-aat a skos:Concept ;
+    rdfs:label "Manuscript (K-samsök → AAT)"@en ;
+    rdfs:label "Manuskript (K-samsök → AAT)"@sv ;
+    skos:prefLabel "Manuscript (K-samsök → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for handwritten documents and codices."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Manuskript> ;
+    rdfs:comment "Source: Manuskript (ksamsok)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300028569> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "500"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 19/99: Map (K-samsök → AAT) ──
+map:ksamsok-karta-aat a skos:Concept ;
+    rdfs:label "Map (K-samsök → AAT)"@en ;
+    rdfs:label "Karta (K-samsök → AAT)"@sv ;
+    skos:prefLabel "Map (K-samsök → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for cartographic objects."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Karta> ;
+    rdfs:comment "Source: Karta (ksamsok)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300028094> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "1500"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 20/99: Medal (K-samsök → AAT) ──
+map:ksamsok-medalj-aat a skos:Concept ;
+    rdfs:label "Medal (K-samsök → AAT)"@en ;
+    rdfs:label "Medalj (K-samsök → AAT)"@sv ;
+    skos:prefLabel "Medal (K-samsök → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for commemorative and award medals."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Medalj> ;
+    rdfs:comment "Source: Medalj (ksamsok)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300046025> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "1400"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 21/99: Costume accessory (K-samsök → AAT) ──
+map:ksamsok-draktillbehor-aat a skos:Concept ;
+    rdfs:label "Costume accessory (K-samsök → AAT)"@en ;
+    rdfs:label "Dräkttillbehör (K-samsök → AAT)"@sv ;
+    skos:prefLabel "Costume accessory (K-samsök → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for clothing accessories and costume components."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Dräkttillbehör> ;
+    rdfs:comment "Source: Dräkttillbehör (ksamsok)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300209273> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-2000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 22/99: Church art (K-samsök → AAT) ──
+map:ksamsok-kyrkokonst-aat a skos:Concept ;
+    rdfs:label "Church art (K-samsök → AAT)"@en ;
+    rdfs:label "Kyrkokonst (K-samsök → AAT)"@sv ;
+    skos:prefLabel "Church art (K-samsök → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Close match; K-samsök 'Kyrkokonst' specifically refers to Christian church art, while AAT 'religious art' is broader."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Kyrkokonst> ;
+    rdfs:comment "Source: Kyrkokonst (ksamsok)"@en ;
+    skos:closeMatch <http://vocab.getty.edu/aat/300073708> ;
+    dcterms:conformsTo "medium" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "1000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 23/99: Archaeological find (K-samsök → AAT) ──
+map:ksamsok-arkeologisktfynd-aat a skos:Concept ;
+    rdfs:label "Archaeological find (K-samsök → AAT)"@en ;
+    rdfs:label "Arkeologiskt fynd (K-samsök → AAT)"@sv ;
+    skos:prefLabel "Archaeological find (K-samsök → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for objects recovered through archaeological excavation."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/ArkeologisktFynd> ;
+    rdfs:comment "Source: Arkeologiskt fynd (ksamsok)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300117127> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-10000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 24/99: Seal (K-samsök → AAT) ──
+map:ksamsok-sigill-aat a skos:Concept ;
+    rdfs:label "Seal (K-samsök → AAT)"@en ;
+    rdfs:label "Sigill (K-samsök → AAT)"@sv ;
+    skos:prefLabel "Seal (K-samsök → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for seal stamps and seal impressions."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Sigill> ;
+    rdfs:comment "Source: Sigill (ksamsok)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300028877> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-3500"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 25/99: Painting (DigitaltMuseum → AAT) ──
+map:dm-maleri-aat a skos:Concept ;
+    rdfs:label "Painting (DigitaltMuseum → AAT)"@en ;
+    rdfs:label "Måleri (DigitaltMuseum → AAT)"@sv ;
+    skos:prefLabel "Painting (DigitaltMuseum → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for painted works."@en ;
+    dcterms:source <https://digitaltmuseum.org/type/Maleri> ;
+    rdfs:comment "Source: Maleri (digitaltmuseum)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300033618> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-3000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 26/99: Sculpture (DigitaltMuseum → AAT) ──
+map:dm-skulptur-aat a skos:Concept ;
+    rdfs:label "Sculpture (DigitaltMuseum → AAT)"@en ;
+    rdfs:label "Skulptur (DigitaltMuseum → AAT)"@sv ;
+    skos:prefLabel "Sculpture (DigitaltMuseum → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for sculptural works."@en ;
+    dcterms:source <https://digitaltmuseum.org/type/Skulptur> ;
+    rdfs:comment "Source: Skulptur (digitaltmuseum)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300047090> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-8000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 27/99: Drawing (DigitaltMuseum → AAT) ──
+map:dm-tegning-aat a skos:Concept ;
+    rdfs:label "Drawing (DigitaltMuseum → AAT)"@en ;
+    rdfs:label "Teckning (DigitaltMuseum → AAT)"@sv ;
+    skos:prefLabel "Drawing (DigitaltMuseum → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for drawn works."@en ;
+    dcterms:source <https://digitaltmuseum.org/type/Tegning> ;
+    rdfs:comment "Source: Tegning (digitaltmuseum)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300033973> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-30000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 28/99: Print/Graphic (DigitaltMuseum → AAT) ──
+map:dm-grafikk-aat a skos:Concept ;
+    rdfs:label "Print/Graphic (DigitaltMuseum → AAT)"@en ;
+    rdfs:label "Grafik (DigitaltMuseum → AAT)"@sv ;
+    skos:prefLabel "Print/Graphic (DigitaltMuseum → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for printed graphic works."@en ;
+    dcterms:source <https://digitaltmuseum.org/type/Grafikk> ;
+    rdfs:comment "Source: Grafikk (digitaltmuseum)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300041273> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "1400"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 29/99: Photograph (DigitaltMuseum → AAT) ──
+map:dm-fotografi-aat a skos:Concept ;
+    rdfs:label "Photograph (DigitaltMuseum → AAT)"@en ;
+    rdfs:label "Fotografi (DigitaltMuseum → AAT)"@sv ;
+    skos:prefLabel "Photograph (DigitaltMuseum → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for photographic works."@en ;
+    dcterms:source <https://digitaltmuseum.org/type/Fotografi> ;
+    rdfs:comment "Source: Fotografi (digitaltmuseum)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300046300> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "1839"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 30/99: Textile (DigitaltMuseum → AAT) ──
+map:dm-tekstil-aat a skos:Concept ;
+    rdfs:label "Textile (DigitaltMuseum → AAT)"@en ;
+    rdfs:label "Textil (DigitaltMuseum → AAT)"@sv ;
+    skos:prefLabel "Textile (DigitaltMuseum → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for textile objects."@en ;
+    dcterms:source <https://digitaltmuseum.org/type/Tekstil> ;
+    rdfs:comment "Source: Tekstil (digitaltmuseum)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300014063> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-6000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 31/99: Ceramic (DigitaltMuseum → AAT) ──
+map:dm-keramikk-aat a skos:Concept ;
+    rdfs:label "Ceramic (DigitaltMuseum → AAT)"@en ;
+    rdfs:label "Keramik (DigitaltMuseum → AAT)"@sv ;
+    skos:prefLabel "Ceramic (DigitaltMuseum → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for ceramic objects."@en ;
+    dcterms:source <https://digitaltmuseum.org/type/Keramikk> ;
+    rdfs:comment "Source: Keramikk (digitaltmuseum)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300151343> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-5000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 32/99: Coin (DigitaltMuseum → AAT) ──
+map:dm-mynt-aat a skos:Concept ;
+    rdfs:label "Coin (DigitaltMuseum → AAT)"@en ;
+    rdfs:label "Mynt (DigitaltMuseum → AAT)"@sv ;
+    skos:prefLabel "Coin (DigitaltMuseum → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for numismatic objects."@en ;
+    dcterms:source <https://digitaltmuseum.org/type/Mynt> ;
+    rdfs:comment "Source: Mynt (digitaltmuseum)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300037222> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-600"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 33/99: Jewelry (DigitaltMuseum → AAT) ──
+map:dm-smykke-aat a skos:Concept ;
+    rdfs:label "Jewelry (DigitaltMuseum → AAT)"@en ;
+    rdfs:label "Smycke (DigitaltMuseum → AAT)"@sv ;
+    skos:prefLabel "Jewelry (DigitaltMuseum → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for jewelry objects."@en ;
+    dcterms:source <https://digitaltmuseum.org/type/Smykke> ;
+    rdfs:comment "Source: Smykke (digitaltmuseum)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300209286> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-3000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 34/99: Weapon (DigitaltMuseum → AAT) ──
+map:dm-vapen-aat a skos:Concept ;
+    rdfs:label "Weapon (DigitaltMuseum → AAT)"@en ;
+    rdfs:label "Vapen (DigitaltMuseum → AAT)"@sv ;
+    skos:prefLabel "Weapon (DigitaltMuseum → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for weapons and arms."@en ;
+    dcterms:source <https://digitaltmuseum.org/type/Våpen> ;
+    rdfs:comment "Source: Våpen (digitaltmuseum)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300036926> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-8000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 35/99: Furniture (DigitaltMuseum → AAT) ──
+map:dm-mobel-aat a skos:Concept ;
+    rdfs:label "Furniture (DigitaltMuseum → AAT)"@en ;
+    rdfs:label "Möbel (DigitaltMuseum → AAT)"@sv ;
+    skos:prefLabel "Furniture (DigitaltMuseum → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for furniture objects."@en ;
+    dcterms:source <https://digitaltmuseum.org/type/Møbel> ;
+    rdfs:comment "Source: Møbel (digitaltmuseum)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300037680> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-3000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 36/99: Costume (DigitaltMuseum → AAT) ──
+map:dm-drakt-aat a skos:Concept ;
+    rdfs:label "Costume (DigitaltMuseum → AAT)"@en ;
+    rdfs:label "Dräkt (DigitaltMuseum → AAT)"@sv ;
+    skos:prefLabel "Costume (DigitaltMuseum → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for costume and clothing."@en ;
+    dcterms:source <https://digitaltmuseum.org/type/Drakt> ;
+    rdfs:comment "Source: Drakt (digitaltmuseum)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300209261> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-5000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 37/99: Musical instrument (DigitaltMuseum → AAT) ──
+map:dm-musikkinstrument-aat a skos:Concept ;
+    rdfs:label "Musical instrument (DigitaltMuseum → AAT)"@en ;
+    rdfs:label "Musikinstrument (DigitaltMuseum → AAT)"@sv ;
+    skos:prefLabel "Musical instrument (DigitaltMuseum → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for musical instruments."@en ;
+    dcterms:source <https://digitaltmuseum.org/type/Musikkinstrument> ;
+    rdfs:comment "Source: Musikkinstrument (digitaltmuseum)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300041620> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-5000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 38/99: Glass (DigitaltMuseum → AAT) ──
+map:dm-glass-aat a skos:Concept ;
+    rdfs:label "Glass (DigitaltMuseum → AAT)"@en ;
+    rdfs:label "Glas (DigitaltMuseum → AAT)"@sv ;
+    skos:prefLabel "Glass (DigitaltMuseum → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Close match; DigitaltMuseum 'Glass' covers glass objects, AAT is the material."@en ;
+    dcterms:source <https://digitaltmuseum.org/type/Glass> ;
+    rdfs:comment "Source: Glass (digitaltmuseum)"@en ;
+    skos:closeMatch <http://vocab.getty.edu/aat/300010898> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-1500"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 39/99: Map (DigitaltMuseum → AAT) ──
+map:dm-kart-aat a skos:Concept ;
+    rdfs:label "Map (DigitaltMuseum → AAT)"@en ;
+    rdfs:label "Karta (DigitaltMuseum → AAT)"@sv ;
+    skos:prefLabel "Map (DigitaltMuseum → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for cartographic objects."@en ;
+    dcterms:source <https://digitaltmuseum.org/type/Kart> ;
+    rdfs:comment "Source: Kart (digitaltmuseum)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300028094> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "1500"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 40/99: Tool (DigitaltMuseum → AAT) ──
+map:dm-redskap-aat a skos:Concept ;
+    rdfs:label "Tool (DigitaltMuseum → AAT)"@en ;
+    rdfs:label "Redskap (DigitaltMuseum → AAT)"@sv ;
+    skos:prefLabel "Tool (DigitaltMuseum → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for hand tools and implements."@en ;
+    dcterms:source <https://digitaltmuseum.org/type/Redskap> ;
+    rdfs:comment "Source: Redskap (digitaltmuseum)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300024841> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-10000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 41/99: Religious object (DigitaltMuseum → AAT) ──
+map:dm-religiost-aat a skos:Concept ;
+    rdfs:label "Religious object (DigitaltMuseum → AAT)"@en ;
+    rdfs:label "Religiöst föremål (DigitaltMuseum → AAT)"@sv ;
+    skos:prefLabel "Religious object (DigitaltMuseum → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Close match; DigitaltMuseum 'Religiøst' is broader, covering all religious objects, not just art."@en ;
+    dcterms:source <https://digitaltmuseum.org/type/Religiøst> ;
+    rdfs:comment "Source: Religiøst (digitaltmuseum)"@en ;
+    skos:closeMatch <http://vocab.getty.edu/aat/300073708> ;
+    dcterms:conformsTo "medium" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-5000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 42/99: Toy (DigitaltMuseum → AAT) ──
+map:dm-leketoy-aat a skos:Concept ;
+    rdfs:label "Toy (DigitaltMuseum → AAT)"@en ;
+    rdfs:label "Leksak (DigitaltMuseum → AAT)"@sv ;
+    skos:prefLabel "Toy (DigitaltMuseum → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for children's toys and playthings."@en ;
+    dcterms:source <https://digitaltmuseum.org/type/Leketøy> ;
+    rdfs:comment "Source: Leketøy (digitaltmuseum)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300211037> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-3000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 43/99: Household goods (DigitaltMuseum → AAT) ──
+map:dm-husgeraad-aat a skos:Concept ;
+    rdfs:label "Household goods (DigitaltMuseum → AAT)"@en ;
+    rdfs:label "Husgeråd (DigitaltMuseum → AAT)"@sv ;
+    skos:prefLabel "Household goods (DigitaltMuseum → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for domestic and household objects."@en ;
+    dcterms:source <https://digitaltmuseum.org/type/Husgeråd> ;
+    rdfs:comment "Source: Husgeråd (digitaltmuseum)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300022751> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-5000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 44/99: Painting (Finna/YSO → AAT) ──
+map:finna-maalaus-aat a skos:Concept ;
+    rdfs:label "Painting (Finna/YSO → AAT)"@en ;
+    rdfs:label "Målning (Finna/YSO → AAT)"@sv ;
+    skos:prefLabel "Painting (Finna/YSO → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for painted artworks."@en ;
+    dcterms:source <https://finto.fi/yso/fi/p4932> ;
+    rdfs:comment "Source: maalaus (finna)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300033618> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-3000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 45/99: Sculpture (Finna/YSO → AAT) ──
+map:finna-veistos-aat a skos:Concept ;
+    rdfs:label "Sculpture (Finna/YSO → AAT)"@en ;
+    rdfs:label "Skulptur (Finna/YSO → AAT)"@sv ;
+    skos:prefLabel "Sculpture (Finna/YSO → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for sculptural works."@en ;
+    dcterms:source <https://finto.fi/yso/fi/p10541> ;
+    rdfs:comment "Source: veistos (finna)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300047090> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-8000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 46/99: Drawing (Finna/YSO → AAT) ──
+map:finna-piirustus-aat a skos:Concept ;
+    rdfs:label "Drawing (Finna/YSO → AAT)"@en ;
+    rdfs:label "Teckning (Finna/YSO → AAT)"@sv ;
+    skos:prefLabel "Drawing (Finna/YSO → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for drawn works."@en ;
+    dcterms:source <https://finto.fi/yso/fi/p6774> ;
+    rdfs:comment "Source: piirustus (finna)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300033973> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-30000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 47/99: Graphic art (Finna/YSO → AAT) ──
+map:finna-grafiikka-aat a skos:Concept ;
+    rdfs:label "Graphic art (Finna/YSO → AAT)"@en ;
+    rdfs:label "Grafik (Finna/YSO → AAT)"@sv ;
+    skos:prefLabel "Graphic art (Finna/YSO → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for graphic art and prints."@en ;
+    dcterms:source <https://finto.fi/yso/fi/p15621> ;
+    rdfs:comment "Source: grafiikka (finna)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300041273> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "1400"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 48/99: Photograph (Finna/YSO → AAT) ──
+map:finna-valokuva-aat a skos:Concept ;
+    rdfs:label "Photograph (Finna/YSO → AAT)"@en ;
+    rdfs:label "Fotografi (Finna/YSO → AAT)"@sv ;
+    skos:prefLabel "Photograph (Finna/YSO → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for photographic works."@en ;
+    dcterms:source <https://finto.fi/yso/fi/p4890> ;
+    rdfs:comment "Source: valokuva (finna)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300046300> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "1839"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 49/99: Ceramics (Finna/YSO → AAT) ──
+map:finna-keramiikka-aat a skos:Concept ;
+    rdfs:label "Ceramics (Finna/YSO → AAT)"@en ;
+    rdfs:label "Keramik (Finna/YSO → AAT)"@sv ;
+    skos:prefLabel "Ceramics (Finna/YSO → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for ceramic objects."@en ;
+    dcterms:source <https://finto.fi/yso/fi/p9227> ;
+    rdfs:comment "Source: keramiikka (finna)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300151343> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-5000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 50/99: Textile (Finna/YSO → AAT) ──
+map:finna-tekstiili-aat a skos:Concept ;
+    rdfs:label "Textile (Finna/YSO → AAT)"@en ;
+    rdfs:label "Textil (Finna/YSO → AAT)"@sv ;
+    skos:prefLabel "Textile (Finna/YSO → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for textile objects."@en ;
+    dcterms:source <https://finto.fi/yso/fi/p7862> ;
+    rdfs:comment "Source: tekstiili (finna)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300014063> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-6000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 51/99: Coin (Finna/YSO → AAT) ──
+map:finna-kolikko-aat a skos:Concept ;
+    rdfs:label "Coin (Finna/YSO → AAT)"@en ;
+    rdfs:label "Mynt (Finna/YSO → AAT)"@sv ;
+    skos:prefLabel "Coin (Finna/YSO → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for numismatic objects."@en ;
+    dcterms:source <https://finto.fi/yso/fi/p19622> ;
+    rdfs:comment "Source: kolikko (finna)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300037222> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-600"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 52/99: Jewelry (Finna/YSO → AAT) ──
+map:finna-koru-aat a skos:Concept ;
+    rdfs:label "Jewelry (Finna/YSO → AAT)"@en ;
+    rdfs:label "Smycke (Finna/YSO → AAT)"@sv ;
+    skos:prefLabel "Jewelry (Finna/YSO → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for jewelry and personal ornaments."@en ;
+    dcterms:source <https://finto.fi/yso/fi/p7028> ;
+    rdfs:comment "Source: koru (finna)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300209286> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-3000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 53/99: Weapon (Finna/YSO → AAT) ──
+map:finna-ase-aat a skos:Concept ;
+    rdfs:label "Weapon (Finna/YSO → AAT)"@en ;
+    rdfs:label "Vapen (Finna/YSO → AAT)"@sv ;
+    skos:prefLabel "Weapon (Finna/YSO → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for weapons."@en ;
+    dcterms:source <https://finto.fi/yso/fi/p1396> ;
+    rdfs:comment "Source: ase (finna)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300036926> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-8000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 54/99: Furniture (Finna/YSO → AAT) ──
+map:finna-huonekalu-aat a skos:Concept ;
+    rdfs:label "Furniture (Finna/YSO → AAT)"@en ;
+    rdfs:label "Möbel (Finna/YSO → AAT)"@sv ;
+    skos:prefLabel "Furniture (Finna/YSO → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for furniture objects."@en ;
+    dcterms:source <https://finto.fi/yso/fi/p2787> ;
+    rdfs:comment "Source: huonekalu (finna)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300037680> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-3000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 55/99: Glass (Finna/YSO → AAT) ──
+map:finna-lasi-aat a skos:Concept ;
+    rdfs:label "Glass (Finna/YSO → AAT)"@en ;
+    rdfs:label "Glas (Finna/YSO → AAT)"@sv ;
+    skos:prefLabel "Glass (Finna/YSO → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Close match; Finna 'lasi' covers glass objects and glass as material."@en ;
+    dcterms:source <https://finto.fi/yso/fi/p9229> ;
+    rdfs:comment "Source: lasi (finna)"@en ;
+    skos:closeMatch <http://vocab.getty.edu/aat/300010898> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-1500"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 56/99: Musical instrument (Finna/YSO → AAT) ──
+map:finna-soitin-aat a skos:Concept ;
+    rdfs:label "Musical instrument (Finna/YSO → AAT)"@en ;
+    rdfs:label "Musikinstrument (Finna/YSO → AAT)"@sv ;
+    skos:prefLabel "Musical instrument (Finna/YSO → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for musical instruments."@en ;
+    dcterms:source <https://finto.fi/yso/fi/p1888> ;
+    rdfs:comment "Source: soitin (finna)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300041620> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-5000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 57/99: Map (Finna/YSO → AAT) ──
+map:finna-kartta-aat a skos:Concept ;
+    rdfs:label "Map (Finna/YSO → AAT)"@en ;
+    rdfs:label "Karta (Finna/YSO → AAT)"@sv ;
+    skos:prefLabel "Map (Finna/YSO → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for cartographic objects."@en ;
+    dcterms:source <https://finto.fi/yso/fi/p3428> ;
+    rdfs:comment "Source: kartta (finna)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300028094> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "1500"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 58/99: Tool (Finna/YSO → AAT) ──
+map:finna-tyokalu-aat a skos:Concept ;
+    rdfs:label "Tool (Finna/YSO → AAT)"@en ;
+    rdfs:label "Verktyg (Finna/YSO → AAT)"@sv ;
+    skos:prefLabel "Tool (Finna/YSO → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for hand tools and implements."@en ;
+    dcterms:source <https://finto.fi/yso/fi/p6045> ;
+    rdfs:comment "Source: työkalu (finna)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300024841> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-10000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 59/99: Icon (Finna/YSO → AAT) ──
+map:finna-ikoni-aat a skos:Concept ;
+    rdfs:label "Icon (Finna/YSO → AAT)"@en ;
+    rdfs:label "Ikon (Finna/YSO → AAT)"@sv ;
+    skos:prefLabel "Icon (Finna/YSO → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for religious icon paintings. Finnish museums have notable Orthodox icon collections."@en ;
+    dcterms:source <https://finto.fi/yso/fi/p6629> ;
+    rdfs:comment "Source: ikoni (finna)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300263063> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "500"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 60/99: Ancient artifact (Finna/YSO → AAT) ──
+map:finna-muinaisesine-aat a skos:Concept ;
+    rdfs:label "Ancient artifact (Finna/YSO → AAT)"@en ;
+    rdfs:label "Fornfynd (Finna/YSO → AAT)"@sv ;
+    skos:prefLabel "Ancient artifact (Finna/YSO → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for archaeological artifacts and ancient objects."@en ;
+    dcterms:source <https://finto.fi/yso/fi/p10765> ;
+    rdfs:comment "Source: muinaisesine (finna)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300117127> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-10000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 61/99: Costume (Finna/YSO → AAT) ──
+map:finna-puku-aat a skos:Concept ;
+    rdfs:label "Costume (Finna/YSO → AAT)"@en ;
+    rdfs:label "Dräkt (Finna/YSO → AAT)"@sv ;
+    skos:prefLabel "Costume (Finna/YSO → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for costume and clothing."@en ;
+    dcterms:source <https://finto.fi/yso/fi/p3466> ;
+    rdfs:comment "Source: puku (finna)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300209261> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-5000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 62/99: Painting (Danish museums → AAT) ──
+map:dk-maleri-aat a skos:Concept ;
+    rdfs:label "Painting (Danish museums → AAT)"@en ;
+    rdfs:label "Målning (Danska museer → AAT)"@sv ;
+    skos:prefLabel "Painting (Danish museums → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for painted works."@en ;
+    rdfs:comment "Source: Maleri (dkmuseum)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300033618> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-3000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 63/99: Sculpture (Danish museums → AAT) ──
+map:dk-skulptur-aat a skos:Concept ;
+    rdfs:label "Sculpture (Danish museums → AAT)"@en ;
+    rdfs:label "Skulptur (Danska museer → AAT)"@sv ;
+    skos:prefLabel "Sculpture (Danish museums → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for sculptural works."@en ;
+    rdfs:comment "Source: Skulptur (dkmuseum)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300047090> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-8000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 64/99: Drawing (Danish museums → AAT) ──
+map:dk-tegning-aat a skos:Concept ;
+    rdfs:label "Drawing (Danish museums → AAT)"@en ;
+    rdfs:label "Teckning (Danska museer → AAT)"@sv ;
+    skos:prefLabel "Drawing (Danish museums → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for drawn works."@en ;
+    rdfs:comment "Source: Tegning (dkmuseum)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300033973> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-30000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 65/99: Print (Danish museums → AAT) ──
+map:dk-grafik-aat a skos:Concept ;
+    rdfs:label "Print (Danish museums → AAT)"@en ;
+    rdfs:label "Grafik (Danska museer → AAT)"@sv ;
+    skos:prefLabel "Print (Danish museums → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for printed graphic works."@en ;
+    rdfs:comment "Source: Grafik (dkmuseum)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300041273> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "1400"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 66/99: Photograph (Danish museums → AAT) ──
+map:dk-fotografi-aat a skos:Concept ;
+    rdfs:label "Photograph (Danish museums → AAT)"@en ;
+    rdfs:label "Fotografi (Danska museer → AAT)"@sv ;
+    skos:prefLabel "Photograph (Danish museums → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for photographic works."@en ;
+    rdfs:comment "Source: Fotografi (dkmuseum)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300046300> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "1839"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 67/99: Ceramic (Danish museums → AAT) ──
+map:dk-keramik-aat a skos:Concept ;
+    rdfs:label "Ceramic (Danish museums → AAT)"@en ;
+    rdfs:label "Keramik (Danska museer → AAT)"@sv ;
+    skos:prefLabel "Ceramic (Danish museums → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for ceramic objects. Danish museums hold significant Royal Copenhagen collections."@en ;
+    rdfs:comment "Source: Keramik (dkmuseum)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300151343> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-5000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 68/99: Textile (Danish museums → AAT) ──
+map:dk-tekstil-aat a skos:Concept ;
+    rdfs:label "Textile (Danish museums → AAT)"@en ;
+    rdfs:label "Textil (Danska museer → AAT)"@sv ;
+    skos:prefLabel "Textile (Danish museums → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for textile objects."@en ;
+    rdfs:comment "Source: Tekstil (dkmuseum)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300014063> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-6000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 69/99: Coin (Danish museums → AAT) ──
+map:dk-mont-aat a skos:Concept ;
+    rdfs:label "Coin (Danish museums → AAT)"@en ;
+    rdfs:label "Mynt (Danska museer → AAT)"@sv ;
+    skos:prefLabel "Coin (Danish museums → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for numismatic objects."@en ;
+    rdfs:comment "Source: Mønt (dkmuseum)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300037222> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-600"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 70/99: Jewelry (Danish museums → AAT) ──
+map:dk-smykke-aat a skos:Concept ;
+    rdfs:label "Jewelry (Danish museums → AAT)"@en ;
+    rdfs:label "Smycke (Danska museer → AAT)"@sv ;
+    skos:prefLabel "Jewelry (Danish museums → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for jewelry and personal ornaments."@en ;
+    rdfs:comment "Source: Smykke (dkmuseum)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300209286> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-3000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 71/99: Weapon (Danish museums → AAT) ──
+map:dk-vaaben-aat a skos:Concept ;
+    rdfs:label "Weapon (Danish museums → AAT)"@en ;
+    rdfs:label "Vapen (Danska museer → AAT)"@sv ;
+    skos:prefLabel "Weapon (Danish museums → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for weapons and arms."@en ;
+    rdfs:comment "Source: Våben (dkmuseum)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300036926> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-8000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 72/99: Furniture (Danish museums → AAT) ──
+map:dk-mobel-aat a skos:Concept ;
+    rdfs:label "Furniture (Danish museums → AAT)"@en ;
+    rdfs:label "Möbel (Danska museer → AAT)"@sv ;
+    skos:prefLabel "Furniture (Danish museums → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for furniture objects. Danish Modern furniture is a key collection area."@en ;
+    rdfs:comment "Source: Møbel (dkmuseum)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300037680> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-3000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 73/99: Silver (Danish museums → AAT) ──
+map:dk-solv-aat a skos:Concept ;
+    rdfs:label "Silver (Danish museums → AAT)"@en ;
+    rdfs:label "Silver (Danska museer → AAT)"@sv ;
+    skos:prefLabel "Silver (Danish museums → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Close match; Danish 'Sølv' often denotes silverware objects classified by material."@en ;
+    rdfs:comment "Source: Sølv (dkmuseum)"@en ;
+    skos:closeMatch <http://vocab.getty.edu/aat/300011029> ;
+    dcterms:conformsTo "medium" ;
+    skos:note "Similar to K-samsök pattern of classifying by material."@en ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-3000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 74/99: Glass (Danish museums → AAT) ──
+map:dk-glas-aat a skos:Concept ;
+    rdfs:label "Glass (Danish museums → AAT)"@en ;
+    rdfs:label "Glas (Danska museer → AAT)"@sv ;
+    skos:prefLabel "Glass (Danish museums → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Close match; covers glass objects broadly."@en ;
+    rdfs:comment "Source: Glas (dkmuseum)"@en ;
+    skos:closeMatch <http://vocab.getty.edu/aat/300010898> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-1500"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 75/99: Runestone (Danish museums → AAT) ──
+map:dk-runesten-aat a skos:Concept ;
+    rdfs:label "Runestone (Danish museums → AAT)"@en ;
+    rdfs:label "Runsten (Danska museer → AAT)"@sv ;
+    skos:prefLabel "Runestone (Danish museums → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for inscribed rune stones. Denmark has iconic runestones including the Jelling stones."@en ;
+    rdfs:comment "Source: Runesten (dkmuseum)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300006958> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "150"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineEnd> "1100"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 76/99: Viking find (Danish museums → AAT) ──
+map:dk-vikingefund-aat a skos:Concept ;
+    rdfs:label "Viking find (Danish museums → AAT)"@en ;
+    rdfs:label "Vikingafynd (Danska museer → AAT)"@sv ;
+    skos:prefLabel "Viking find (Danish museums → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Broad match; Danish 'Vikingefund' is narrower (Viking Age archaeological finds only), while AAT 'archaeological objects' is broader."@en ;
+    rdfs:comment "Source: Vikingefund (dkmuseum)"@en ;
+    skos:broadMatch <http://vocab.getty.edu/aat/300117127> ;
+    dcterms:conformsTo "medium" ;
+    skos:note "No direct AAT equivalent for period-specific archaeological finds."@en ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "793"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineEnd> "1066"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 77/99: Design object (Danish museums → AAT) ──
+map:dk-designgenstand-aat a skos:Concept ;
+    rdfs:label "Design object (Danish museums → AAT)"@en ;
+    rdfs:label "Designföremål (Danska museer → AAT)"@sv ;
+    skos:prefLabel "Design object (Danish museums → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for designed objects, industrial design, and applied art."@en ;
+    rdfs:comment "Source: Designgenstand (dkmuseum)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300404974> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "1850"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 78/99: Poster (Danish museums → AAT) ──
+map:dk-plakat-aat a skos:Concept ;
+    rdfs:label "Poster (Danish museums → AAT)"@en ;
+    rdfs:label "Affisch (Danska museer → AAT)"@sv ;
+    skos:prefLabel "Poster (Danish museums → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for posters and broadsides."@en ;
+    rdfs:comment "Source: Plakat (dkmuseum)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300027221> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "1450"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 79/99: Toy (Danish museums → AAT) ──
+map:dk-legetoj-aat a skos:Concept ;
+    rdfs:label "Toy (Danish museums → AAT)"@en ;
+    rdfs:label "Leksak (Danska museer → AAT)"@sv ;
+    skos:prefLabel "Toy (Danish museums → AAT)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence for toys and playthings."@en ;
+    rdfs:comment "Source: Legetøj (dkmuseum)"@en ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300211037> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-3000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 80/99: Painting (K-samsök → DigitaltMuseum) ──
+map:ksamsok-dm-malning a skos:Concept ;
+    rdfs:label "Painting (K-samsök → DigitaltMuseum)"@en ;
+    rdfs:label "Målning (K-samsök → DigitaltMuseum)"@sv ;
+    skos:prefLabel "Painting (K-samsök → DigitaltMuseum)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence between Swedish K-samsök and Norwegian/Swedish DigitaltMuseum painting types."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Målning> ;
+    rdfs:comment "Source: Målning (ksamsok)"@en ;
+    skos:exactMatch <https://digitaltmuseum.org/type/Maleri> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-3000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 81/99: Sculpture (K-samsök → DigitaltMuseum) ──
+map:ksamsok-dm-skulptur a skos:Concept ;
+    rdfs:label "Sculpture (K-samsök → DigitaltMuseum)"@en ;
+    rdfs:label "Skulptur (K-samsök → DigitaltMuseum)"@sv ;
+    skos:prefLabel "Sculpture (K-samsök → DigitaltMuseum)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence; identical term in both systems."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Skulptur> ;
+    rdfs:comment "Source: Skulptur (ksamsok)"@en ;
+    skos:exactMatch <https://digitaltmuseum.org/type/Skulptur> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-8000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 82/99: Drawing (K-samsök → DigitaltMuseum) ──
+map:ksamsok-dm-teckning a skos:Concept ;
+    rdfs:label "Drawing (K-samsök → DigitaltMuseum)"@en ;
+    rdfs:label "Teckning (K-samsök → DigitaltMuseum)"@sv ;
+    skos:prefLabel "Drawing (K-samsök → DigitaltMuseum)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence; Swedish 'Teckning' = Norwegian 'Tegning'."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Teckning> ;
+    rdfs:comment "Source: Teckning (ksamsok)"@en ;
+    skos:exactMatch <https://digitaltmuseum.org/type/Tegning> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-30000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 83/99: Photograph (K-samsök → DigitaltMuseum) ──
+map:ksamsok-dm-fotografi a skos:Concept ;
+    rdfs:label "Photograph (K-samsök → DigitaltMuseum)"@en ;
+    rdfs:label "Fotografi (K-samsök → DigitaltMuseum)"@sv ;
+    skos:prefLabel "Photograph (K-samsök → DigitaltMuseum)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence; identical term in both systems."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Fotografi> ;
+    rdfs:comment "Source: Fotografi (ksamsok)"@en ;
+    skos:exactMatch <https://digitaltmuseum.org/type/Fotografi> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "1839"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 84/99: Textile (K-samsök → DigitaltMuseum) ──
+map:ksamsok-dm-textil a skos:Concept ;
+    rdfs:label "Textile (K-samsök → DigitaltMuseum)"@en ;
+    rdfs:label "Textil (K-samsök → DigitaltMuseum)"@sv ;
+    skos:prefLabel "Textile (K-samsök → DigitaltMuseum)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence; Swedish 'Textil' = Norwegian 'Tekstil'."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Textil> ;
+    rdfs:comment "Source: Textil (ksamsok)"@en ;
+    skos:exactMatch <https://digitaltmuseum.org/type/Tekstil> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-6000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 85/99: Coin (K-samsök → DigitaltMuseum) ──
+map:ksamsok-dm-mynt a skos:Concept ;
+    rdfs:label "Coin (K-samsök → DigitaltMuseum)"@en ;
+    rdfs:label "Mynt (K-samsök → DigitaltMuseum)"@sv ;
+    skos:prefLabel "Coin (K-samsök → DigitaltMuseum)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence; identical term in both systems."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Mynt> ;
+    rdfs:comment "Source: Mynt (ksamsok)"@en ;
+    skos:exactMatch <https://digitaltmuseum.org/type/Mynt> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-600"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 86/99: Ceramic (K-samsök → DigitaltMuseum) ──
+map:ksamsok-dm-keramik a skos:Concept ;
+    rdfs:label "Ceramic (K-samsök → DigitaltMuseum)"@en ;
+    rdfs:label "Keramik (K-samsök → DigitaltMuseum)"@sv ;
+    skos:prefLabel "Ceramic (K-samsök → DigitaltMuseum)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence; Swedish 'Keramik' = Norwegian 'Keramikk'."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Keramik> ;
+    rdfs:comment "Source: Keramik (ksamsok)"@en ;
+    skos:exactMatch <https://digitaltmuseum.org/type/Keramikk> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-5000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 87/99: Furniture (K-samsök → DigitaltMuseum) ──
+map:ksamsok-dm-mobel a skos:Concept ;
+    rdfs:label "Furniture (K-samsök → DigitaltMuseum)"@en ;
+    rdfs:label "Möbel (K-samsök → DigitaltMuseum)"@sv ;
+    skos:prefLabel "Furniture (K-samsök → DigitaltMuseum)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence; Swedish 'Möbel' = Norwegian 'Møbel'."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Möbel> ;
+    rdfs:comment "Source: Möbel (ksamsok)"@en ;
+    skos:exactMatch <https://digitaltmuseum.org/type/Møbel> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-3000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 88/99: Weapon (K-samsök → DigitaltMuseum) ──
+map:ksamsok-dm-vapen a skos:Concept ;
+    rdfs:label "Weapon (K-samsök → DigitaltMuseum)"@en ;
+    rdfs:label "Vapen (K-samsök → DigitaltMuseum)"@sv ;
+    skos:prefLabel "Weapon (K-samsök → DigitaltMuseum)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence; Swedish 'Vapen' = Norwegian 'Våpen'."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Vapen> ;
+    rdfs:comment "Source: Vapen (ksamsok)"@en ;
+    skos:exactMatch <https://digitaltmuseum.org/type/Våpen> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-8000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 89/99: Jewelry (K-samsök → DigitaltMuseum) ──
+map:ksamsok-dm-smycke a skos:Concept ;
+    rdfs:label "Jewelry (K-samsök → DigitaltMuseum)"@en ;
+    rdfs:label "Smycke (K-samsök → DigitaltMuseum)"@sv ;
+    skos:prefLabel "Jewelry (K-samsök → DigitaltMuseum)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence; Swedish 'Smycke' = Norwegian 'Smykke'."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Smycke> ;
+    rdfs:comment "Source: Smycke (ksamsok)"@en ;
+    skos:exactMatch <https://digitaltmuseum.org/type/Smykke> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-3000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 90/99: Painting (K-samsök → Finna/YSO) ──
+map:ksamsok-finna-malning a skos:Concept ;
+    rdfs:label "Painting (K-samsök → Finna/YSO)"@en ;
+    rdfs:label "Målning (K-samsök → Finna/YSO)"@sv ;
+    skos:prefLabel "Painting (K-samsök → Finna/YSO)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence between Swedish and Finnish painting types."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Målning> ;
+    rdfs:comment "Source: Målning (ksamsok)"@en ;
+    skos:exactMatch <https://finto.fi/yso/fi/p4932> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-3000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 91/99: Sculpture (K-samsök → Finna/YSO) ──
+map:ksamsok-finna-skulptur a skos:Concept ;
+    rdfs:label "Sculpture (K-samsök → Finna/YSO)"@en ;
+    rdfs:label "Skulptur (K-samsök → Finna/YSO)"@sv ;
+    skos:prefLabel "Sculpture (K-samsök → Finna/YSO)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence between Swedish and Finnish sculpture types."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Skulptur> ;
+    rdfs:comment "Source: Skulptur (ksamsok)"@en ;
+    skos:exactMatch <https://finto.fi/yso/fi/p10541> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-8000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 92/99: Textile (K-samsök → Finna/YSO) ──
+map:ksamsok-finna-textil a skos:Concept ;
+    rdfs:label "Textile (K-samsök → Finna/YSO)"@en ;
+    rdfs:label "Textil (K-samsök → Finna/YSO)"@sv ;
+    skos:prefLabel "Textile (K-samsök → Finna/YSO)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence between Swedish and Finnish textile types."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Textil> ;
+    rdfs:comment "Source: Textil (ksamsok)"@en ;
+    skos:exactMatch <https://finto.fi/yso/fi/p7862> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-6000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 93/99: Ceramic (K-samsök → Finna/YSO) ──
+map:ksamsok-finna-keramik a skos:Concept ;
+    rdfs:label "Ceramic (K-samsök → Finna/YSO)"@en ;
+    rdfs:label "Keramik (K-samsök → Finna/YSO)"@sv ;
+    skos:prefLabel "Ceramic (K-samsök → Finna/YSO)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence between Swedish and Finnish ceramic types."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Keramik> ;
+    rdfs:comment "Source: Keramik (ksamsok)"@en ;
+    skos:exactMatch <https://finto.fi/yso/fi/p9227> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-5000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 94/99: Coin (K-samsök → Finna/YSO) ──
+map:ksamsok-finna-mynt a skos:Concept ;
+    rdfs:label "Coin (K-samsök → Finna/YSO)"@en ;
+    rdfs:label "Mynt (K-samsök → Finna/YSO)"@sv ;
+    skos:prefLabel "Coin (K-samsök → Finna/YSO)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence between Swedish and Finnish coin types."@en ;
+    dcterms:source <https://kulturarvsdata.se/raa/ksamsok#type/Mynt> ;
+    rdfs:comment "Source: Mynt (ksamsok)"@en ;
+    skos:exactMatch <https://finto.fi/yso/fi/p19622> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-600"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 95/99: Painting (DigitaltMuseum → Finna/YSO) ──
+map:dm-finna-maleri a skos:Concept ;
+    rdfs:label "Painting (DigitaltMuseum → Finna/YSO)"@en ;
+    rdfs:label "Måleri (DigitaltMuseum → Finna/YSO)"@sv ;
+    skos:prefLabel "Painting (DigitaltMuseum → Finna/YSO)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence between Norwegian and Finnish painting types."@en ;
+    dcterms:source <https://digitaltmuseum.org/type/Maleri> ;
+    rdfs:comment "Source: Maleri (digitaltmuseum)"@en ;
+    skos:exactMatch <https://finto.fi/yso/fi/p4932> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-3000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 96/99: Sculpture (DigitaltMuseum → Finna/YSO) ──
+map:dm-finna-skulptur a skos:Concept ;
+    rdfs:label "Sculpture (DigitaltMuseum → Finna/YSO)"@en ;
+    rdfs:label "Skulptur (DigitaltMuseum → Finna/YSO)"@sv ;
+    skos:prefLabel "Sculpture (DigitaltMuseum → Finna/YSO)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence between Norwegian and Finnish sculpture types."@en ;
+    dcterms:source <https://digitaltmuseum.org/type/Skulptur> ;
+    rdfs:comment "Source: Skulptur (digitaltmuseum)"@en ;
+    skos:exactMatch <https://finto.fi/yso/fi/p10541> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-8000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 97/99: Textile (DigitaltMuseum → Finna/YSO) ──
+map:dm-finna-tekstil a skos:Concept ;
+    rdfs:label "Textile (DigitaltMuseum → Finna/YSO)"@en ;
+    rdfs:label "Textil (DigitaltMuseum → Finna/YSO)"@sv ;
+    skos:prefLabel "Textile (DigitaltMuseum → Finna/YSO)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence between Norwegian and Finnish textile types."@en ;
+    dcterms:source <https://digitaltmuseum.org/type/Tekstil> ;
+    rdfs:comment "Source: Tekstil (digitaltmuseum)"@en ;
+    skos:exactMatch <https://finto.fi/yso/fi/p7862> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-6000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 98/99: Ceramic (DigitaltMuseum → Finna/YSO) ──
+map:dm-finna-keramikk a skos:Concept ;
+    rdfs:label "Ceramic (DigitaltMuseum → Finna/YSO)"@en ;
+    rdfs:label "Keramik (DigitaltMuseum → Finna/YSO)"@sv ;
+    skos:prefLabel "Ceramic (DigitaltMuseum → Finna/YSO)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence between Norwegian and Finnish ceramic types."@en ;
+    dcterms:source <https://digitaltmuseum.org/type/Keramikk> ;
+    rdfs:comment "Source: Keramikk (digitaltmuseum)"@en ;
+    skos:exactMatch <https://finto.fi/yso/fi/p9227> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "-5000"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .
+
+# ── 99/99: Photograph (DigitaltMuseum → Finna/YSO) ──
+map:dm-finna-fotografi a skos:Concept ;
+    rdfs:label "Photograph (DigitaltMuseum → Finna/YSO)"@en ;
+    rdfs:label "Fotografi (DigitaltMuseum → Finna/YSO)"@sv ;
+    skos:prefLabel "Photograph (DigitaltMuseum → Finna/YSO)"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-thesaurus-mappings> ;
+    skos:definition "Direct equivalence between Norwegian and Finnish photograph types."@en ;
+    dcterms:source <https://digitaltmuseum.org/type/Fotografi> ;
+    rdfs:comment "Source: Fotografi (digitaltmuseum)"@en ;
+    skos:exactMatch <https://finto.fi/yso/fi/p4890> ;
+    dcterms:conformsTo "high" ;
+    <https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/timelineStart> "1839"^^xsd:long ;
+    dcterms:creator "Port 30 KB" .

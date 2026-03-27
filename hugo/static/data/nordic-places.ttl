@@ -1,0 +1,3495 @@
+# ═══════════════════════════════════════════════════════════════
+# Nordic Place Name Authority — Linked Data for metadatahub.eu
+# 206 entries: countries, regions, cities, towns, islands,
+# archaeological sites, and Sámi place names across
+# Sweden, Norway, Finland, Denmark, and Iceland.
+#
+# Sources:
+#   https://www.geonames.org/
+#   https://www.wikidata.org/
+#   https://en.wikipedia.org/wiki/Nordic_countries
+#
+# Total entries: 206
+# ═══════════════════════════════════════════════════════════════
+
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema:  <https://schema.org/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix np:      <https://metadatahub.eu/data/nordic-places/> .
+
+<https://metadatahub.eu/data/nordic-places> a skos:ConceptScheme ;
+    dcterms:title "Nordic Place Name Authority"@en ;
+    dcterms:description "206 entries covering place names across Sweden, Norway, Finland, Denmark, Iceland, and Sápmi — countries, regions, cities, archaeological sites, and historical name variants."@en ;
+    dcterms:source <https://www.geonames.org/> ;
+    dcterms:source <https://www.wikidata.org/> ;
+    dcterms:source <https://en.wikipedia.org/wiki/Nordic_countries> ;
+    dcterms:creator "Port 30 KB" ;
+    dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dcterms:modified "2025-01-15"^^xsd:date .
+
+# ── 1/206: Sweden (country) ──
+np:sweden a skos:Concept, schema:Country ;
+    rdfs:label "Sweden"@en ;
+    rdfs:label "Sverige"@sv ;
+    skos:prefLabel "Sweden"@en ;
+    skos:prefLabel "Sverige"@sv ;
+    skos:altLabel "Kingdom of Sweden"@en ;
+    skos:altLabel "Konungariket Sverige"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Nordic country on the Scandinavian Peninsula. Constitutional monarchy with a population of about 10.5 million."@en ;
+    dcterms:type "country" ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-8000"^^xsd:long ;
+    geo:lat "62.0"^^xsd:decimal ;
+    geo:long "15.0"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2661886/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q34> .
+
+# ── 2/206: Uppland (landskap) ──
+np:uppland a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Uppland"@en ;
+    rdfs:label "Uppland"@sv ;
+    skos:prefLabel "Uppland"@en ;
+    skos:prefLabel "Uppland"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Historical province in eastern central Sweden. Heartland of the Svear tribe and site of ancient Uppsala."@en ;
+    dcterms:type "landskap" ;
+    skos:broader np:sweden ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-6000"^^xsd:long ;
+    geo:lat "59.85"^^xsd:decimal ;
+    geo:long "17.63"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2666218/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q103686> .
+
+# ── 3/206: Södermanland (landskap) ──
+np:sodermanland a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Södermanland"@en ;
+    rdfs:label "Södermanland"@sv ;
+    skos:prefLabel "Södermanland"@en ;
+    skos:prefLabel "Södermanland"@sv ;
+    skos:altLabel "Sörmland"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Historical province south of Lake Mälaren, known for its many runestones and medieval churches."@en ;
+    dcterms:type "landskap" ;
+    skos:broader np:sweden ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-6000"^^xsd:long ;
+    geo:lat "59.03"^^xsd:decimal ;
+    geo:long "16.75"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2676209/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q103691> .
+
+# ── 4/206: Östergötland (landskap) ──
+np:ostergotland a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Östergötland"@en ;
+    rdfs:label "Östergötland"@sv ;
+    skos:prefLabel "Östergötland"@en ;
+    skos:prefLabel "Östergötland"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Historical province in southeastern Sweden, home to the Göta Canal and the medieval town of Vadstena."@en ;
+    dcterms:type "landskap" ;
+    skos:broader np:sweden ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-6000"^^xsd:long ;
+    geo:lat "58.42"^^xsd:decimal ;
+    geo:long "15.62"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2685867/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q103692> .
+
+# ── 5/206: Småland (landskap) ──
+np:smaland a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Småland"@en ;
+    rdfs:label "Småland"@sv ;
+    skos:prefLabel "Småland"@en ;
+    skos:prefLabel "Småland"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Historical province in southern Sweden. Name means 'small lands'; birthplace of Linnaeus and the Kingdom of Crystal."@en ;
+    dcterms:type "landskap" ;
+    skos:broader np:sweden ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-6000"^^xsd:long ;
+    geo:lat "57.17"^^xsd:decimal ;
+    geo:long "15.58"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2676340/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q103693> .
+
+# ── 6/206: Västergötland (landskap) ──
+np:vastergotland a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Västergötland"@en ;
+    rdfs:label "Västergötland"@sv ;
+    skos:prefLabel "Västergötland"@en ;
+    skos:prefLabel "Västergötland"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Historical province in western Sweden. Heartland of the Götar tribe and site of Skara, one of Sweden's oldest towns."@en ;
+    dcterms:type "landskap" ;
+    skos:broader np:sweden ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-6000"^^xsd:long ;
+    geo:lat "58.17"^^xsd:decimal ;
+    geo:long "13.17"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2664454/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q103694> .
+
+# ── 7/206: Scania (landskap) ──
+np:skane a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Scania"@en ;
+    rdfs:label "Skåne"@sv ;
+    skos:prefLabel "Scania"@en ;
+    skos:prefLabel "Skåne"@sv ;
+    skos:altLabel "Skåne"@da ;
+    skos:altLabel "Skåne"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Southernmost historical province. Part of Denmark until 1658. Known for fertile plains and Ales Stenar."@en ;
+    dcterms:type "landskap" ;
+    skos:broader np:sweden ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-8000"^^xsd:long ;
+    geo:lat "55.95"^^xsd:decimal ;
+    geo:long "13.6"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2676780/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q103695> .
+
+# ── 8/206: Gotland (landskap) ──
+np:gotland a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Gotland"@en ;
+    rdfs:label "Gotland"@sv ;
+    skos:prefLabel "Gotland"@en ;
+    skos:prefLabel "Gotland"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Sweden's largest island in the Baltic Sea. Major Viking Age trading hub with the medieval town of Visby."@en ;
+    dcterms:type "landskap" ;
+    skos:broader np:sweden ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-7000"^^xsd:long ;
+    geo:lat "57.5"^^xsd:decimal ;
+    geo:long "18.55"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2712209/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q103700> .
+
+# ── 9/206: Dalarna (landskap) ──
+np:dalarna a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Dalarna"@en ;
+    rdfs:label "Dalarna"@sv ;
+    skos:prefLabel "Dalarna"@en ;
+    skos:prefLabel "Dalarna"@sv ;
+    skos:altLabel "Dalecarlia"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Historical province in central Sweden. Known for the Dalecarlian horse, copper mining at Falun, and midsummer traditions."@en ;
+    dcterms:type "landskap" ;
+    skos:broader np:sweden ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-6000"^^xsd:long ;
+    geo:lat "61.09"^^xsd:decimal ;
+    geo:long "14.67"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2718986/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q103696> .
+
+# ── 10/206: Värmland (landskap) ──
+np:varmland a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Värmland"@en ;
+    rdfs:label "Värmland"@sv ;
+    skos:prefLabel "Värmland"@en ;
+    skos:prefLabel "Värmland"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Historical province in western Sweden bordering Norway. Known for forests, lakes, and the novels of Selma Lagerlöf."@en ;
+    dcterms:type "landskap" ;
+    skos:broader np:sweden ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-6000"^^xsd:long ;
+    geo:lat "59.73"^^xsd:decimal ;
+    geo:long "13.23"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2664547/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q103697> .
+
+# ── 11/206: Norrbotten (landskap) ──
+np:norrbotten a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Norrbotten"@en ;
+    rdfs:label "Norrbotten"@sv ;
+    skos:prefLabel "Norrbotten"@en ;
+    skos:prefLabel "Norrbotten"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Northernmost historical province of Sweden. Rich in iron ore (Kiruna, Gällivare) and home to Sámi communities."@en ;
+    dcterms:type "landskap" ;
+    skos:broader np:sweden ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-5000"^^xsd:long ;
+    geo:lat "66.33"^^xsd:decimal ;
+    geo:long "20.0"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2690340/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q103703> .
+
+# ── 12/206: Västerbotten (landskap) ──
+np:vasterbotten a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Västerbotten"@en ;
+    rdfs:label "Västerbotten"@sv ;
+    skos:prefLabel "Västerbotten"@en ;
+    skos:prefLabel "Västerbotten"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Historical province in northern Sweden. Home to Umeå, the European Capital of Culture in 2014."@en ;
+    dcterms:type "landskap" ;
+    skos:broader np:sweden ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-5000"^^xsd:long ;
+    geo:lat "64.75"^^xsd:decimal ;
+    geo:long "18.5"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2664452/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q103702> .
+
+# ── 13/206: Ångermanland (landskap) ──
+np:angermanland a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Ångermanland"@en ;
+    rdfs:label "Ångermanland"@sv ;
+    skos:prefLabel "Ångermanland"@en ;
+    skos:prefLabel "Ångermanland"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Historical province in northern Sweden known for the Höga Kusten (High Coast), a UNESCO World Heritage Site."@en ;
+    dcterms:type "landskap" ;
+    skos:broader np:sweden ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-5000"^^xsd:long ;
+    geo:lat "63.33"^^xsd:decimal ;
+    geo:long "17.5"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2725468/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q103701> .
+
+# ── 14/206: Jämtland (landskap) ──
+np:jamtland a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Jämtland"@en ;
+    rdfs:label "Jämtland"@sv ;
+    skos:prefLabel "Jämtland"@en ;
+    skos:prefLabel "Jämtland"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Historical province in northwestern Sweden. Historically Norwegian until 1645. Known for Storsjöodjuret legend and winter sports."@en ;
+    dcterms:type "landskap" ;
+    skos:broader np:sweden ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-5000"^^xsd:long ;
+    geo:lat "63.17"^^xsd:decimal ;
+    geo:long "14.64"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2710818/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q103698> .
+
+# ── 15/206: Härjedalen (landskap) ──
+np:harjedalen a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Härjedalen"@en ;
+    rdfs:label "Härjedalen"@sv ;
+    skos:prefLabel "Härjedalen"@en ;
+    skos:prefLabel "Härjedalen"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Historical province in northwestern Sweden. Sweden's least populated landskap, known for mountain areas."@en ;
+    dcterms:type "landskap" ;
+    skos:broader np:sweden ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-5000"^^xsd:long ;
+    geo:lat "62.4"^^xsd:decimal ;
+    geo:long "14.1"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2707766/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q103699> .
+
+# ── 16/206: Hälsingland (landskap) ──
+np:halsingland a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Hälsingland"@en ;
+    rdfs:label "Hälsingland"@sv ;
+    skos:prefLabel "Hälsingland"@en ;
+    skos:prefLabel "Hälsingland"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Historical province in central Sweden. UNESCO-listed decorated farmhouses and folk music traditions."@en ;
+    dcterms:type "landskap" ;
+    skos:broader np:sweden ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-5000"^^xsd:long ;
+    geo:lat "61.75"^^xsd:decimal ;
+    geo:long "16.5"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2708756/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q103704> .
+
+# ── 17/206: Gästrikland (landskap) ──
+np:gastrikland a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Gästrikland"@en ;
+    rdfs:label "Gästrikland"@sv ;
+    skos:prefLabel "Gästrikland"@en ;
+    skos:prefLabel "Gästrikland"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Historical province in central Sweden. Sweden's smallest landskap by area."@en ;
+    dcterms:type "landskap" ;
+    skos:broader np:sweden ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-5000"^^xsd:long ;
+    geo:lat "60.7"^^xsd:decimal ;
+    geo:long "16.82"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2712414/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q103705> .
+
+# ── 18/206: Närke (landskap) ──
+np:narke a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Närke"@en ;
+    rdfs:label "Närke"@sv ;
+    skos:prefLabel "Närke"@en ;
+    skos:prefLabel "Närke"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Historical province in central Sweden surrounding Örebro. Known as the heart of Sweden."@en ;
+    dcterms:type "landskap" ;
+    skos:broader np:sweden ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-6000"^^xsd:long ;
+    geo:lat "59.07"^^xsd:decimal ;
+    geo:long "15.17"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2689775/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q103690> .
+
+# ── 19/206: Västmanland (landskap) ──
+np:vastmanland a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Västmanland"@en ;
+    rdfs:label "Västmanland"@sv ;
+    skos:prefLabel "Västmanland"@en ;
+    skos:prefLabel "Västmanland"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Historical province in central Sweden. Site of the mining town Sala and Lake Mälaren's western shore."@en ;
+    dcterms:type "landskap" ;
+    skos:broader np:sweden ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-6000"^^xsd:long ;
+    geo:lat "59.72"^^xsd:decimal ;
+    geo:long "16.25"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2664453/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q103689> .
+
+# ── 20/206: Halland (landskap) ──
+np:halland a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Halland"@en ;
+    rdfs:label "Halland"@sv ;
+    skos:prefLabel "Halland"@en ;
+    skos:prefLabel "Halland"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Historical province on the Swedish west coast. Danish until 1645. Known for sandy beaches and agriculture."@en ;
+    dcterms:type "landskap" ;
+    skos:broader np:sweden ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-7000"^^xsd:long ;
+    geo:lat "56.9"^^xsd:decimal ;
+    geo:long "12.8"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2708834/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q103706> .
+
+# ── 21/206: Blekinge (landskap) ──
+np:blekinge a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Blekinge"@en ;
+    rdfs:label "Blekinge"@sv ;
+    skos:prefLabel "Blekinge"@en ;
+    skos:prefLabel "Blekinge"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Historical province in southern Sweden. Danish until 1658. Known as the Garden of Sweden."@en ;
+    dcterms:type "landskap" ;
+    skos:broader np:sweden ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-7000"^^xsd:long ;
+    geo:lat "56.17"^^xsd:decimal ;
+    geo:long "15.5"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2723261/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q103707> .
+
+# ── 22/206: Bohuslän (landskap) ──
+np:bohuslan a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Bohuslän"@en ;
+    rdfs:label "Bohuslän"@sv ;
+    skos:prefLabel "Bohuslän"@en ;
+    skos:prefLabel "Bohuslän"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Historical province on the Swedish west coast. Norwegian until 1658. Famous for Bronze Age rock carvings at Tanum."@en ;
+    dcterms:type "landskap" ;
+    skos:broader np:sweden ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-8000"^^xsd:long ;
+    geo:lat "58.5"^^xsd:decimal ;
+    geo:long "11.5"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2722242/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q103708> .
+
+# ── 23/206: Dalsland (landskap) ──
+np:dalsland a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Dalsland"@en ;
+    rdfs:label "Dalsland"@sv ;
+    skos:prefLabel "Dalsland"@en ;
+    skos:prefLabel "Dalsland"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Historical province in western Sweden. One of the smallest provinces, known for its lakes and the Dalsland Canal."@en ;
+    dcterms:type "landskap" ;
+    skos:broader np:sweden ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-6000"^^xsd:long ;
+    geo:lat "59.0"^^xsd:decimal ;
+    geo:long "12.3"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2719080/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q103709> .
+
+# ── 24/206: Öland (landskap) ──
+np:oland a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Öland"@en ;
+    rdfs:label "Öland"@sv ;
+    skos:prefLabel "Öland"@en ;
+    skos:prefLabel "Öland"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Sweden's second-largest island. UNESCO World Heritage agricultural landscape and home to Borgholm Castle."@en ;
+    dcterms:type "landskap" ;
+    skos:broader np:sweden ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-7000"^^xsd:long ;
+    geo:lat "56.75"^^xsd:decimal ;
+    geo:long "16.63"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2686655/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q103710> .
+
+# ── 25/206: Lapland (landskap) ──
+np:lappland a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Lapland"@en ;
+    rdfs:label "Sápmi"@se ;
+    rdfs:label "Lappland"@sv ;
+    skos:prefLabel "Lapland"@en ;
+    skos:prefLabel "Sápmi"@se ;
+    skos:prefLabel "Lappland"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Largest historical province, covering northern Sweden. Traditional homeland of the Sámi people with mountains, forests, and the midnight sun."@en ;
+    dcterms:type "landskap" ;
+    skos:broader np:sweden ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-5000"^^xsd:long ;
+    geo:lat "67.5"^^xsd:decimal ;
+    geo:long "18.0"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2699787/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q103711> .
+
+# ── 26/206: Stockholm (city) ──
+np:stockholm a skos:Concept, schema:City ;
+    rdfs:label "Stockholm"@en ;
+    rdfs:label "Stockholm"@sv ;
+    skos:prefLabel "Stockholm"@en ;
+    skos:prefLabel "Stockholm"@sv ;
+    skos:altLabel "Stockholms stad"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Capital of Sweden, founded in the 13th century. Built on 14 islands where Lake Mälaren meets the Baltic Sea."@en ;
+    dcterms:type "city" ;
+    skos:broader np:uppland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1252"^^xsd:long ;
+    geo:lat "59.3293"^^xsd:decimal ;
+    geo:long "18.0686"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2673730/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1754> .
+
+# ── 27/206: Gothenburg (city) ──
+np:gothenburg a skos:Concept, schema:City ;
+    rdfs:label "Gothenburg"@en ;
+    rdfs:label "Göteborg"@sv ;
+    skos:prefLabel "Gothenburg"@en ;
+    skos:prefLabel "Göteborg"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Sweden's second-largest city and largest port. Founded in 1621 by Gustav II Adolf."@en ;
+    dcterms:type "city" ;
+    skos:broader np:vastergotland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1621"^^xsd:long ;
+    geo:lat "57.7089"^^xsd:decimal ;
+    geo:long "11.9746"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2711537/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25287> .
+
+# ── 28/206: Malmö (city) ──
+np:malmo a skos:Concept, schema:City ;
+    rdfs:label "Malmö"@en ;
+    rdfs:label "Malmö"@sv ;
+    skos:prefLabel "Malmö"@en ;
+    skos:prefLabel "Malmö"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Third-largest city in Sweden, connected to Copenhagen by the Öresund Bridge."@en ;
+    dcterms:type "city" ;
+    skos:broader np:skane ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1275"^^xsd:long ;
+    geo:lat "55.605"^^xsd:decimal ;
+    geo:long "13.0038"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2692969/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2211> .
+
+# ── 29/206: Uppsala (city) ──
+np:uppsala a skos:Concept, schema:City ;
+    rdfs:label "Uppsala"@en ;
+    rdfs:label "Uppsala"@sv ;
+    skos:prefLabel "Uppsala"@en ;
+    skos:prefLabel "Uppsala"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Fourth-largest city in Sweden. Seat of the Archbishop and home to Scandinavia's oldest university (1477)."@en ;
+    dcterms:type "city" ;
+    skos:broader np:uppland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1286"^^xsd:long ;
+    geo:lat "59.8586"^^xsd:decimal ;
+    geo:long "17.6389"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2666199/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25286> .
+
+# ── 30/206: Linköping (city) ──
+np:linkoping a skos:Concept, schema:City ;
+    rdfs:label "Linköping"@en ;
+    rdfs:label "Linköping"@sv ;
+    skos:prefLabel "Linköping"@en ;
+    skos:prefLabel "Linköping"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Major city in Östergötland. Centre of the Swedish aviation industry (Saab)."@en ;
+    dcterms:type "city" ;
+    skos:broader np:ostergotland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1287"^^xsd:long ;
+    geo:lat "58.4108"^^xsd:decimal ;
+    geo:long "15.6214"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2694762/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25288> .
+
+# ── 31/206: Norrköping (city) ──
+np:norrkoping a skos:Concept, schema:City ;
+    rdfs:label "Norrköping"@en ;
+    rdfs:label "Norrköping"@sv ;
+    skos:prefLabel "Norrköping"@en ;
+    skos:prefLabel "Norrköping"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Historic industrial city in Östergötland. Once called Sweden's Manchester for its textile mills."@en ;
+    dcterms:type "city" ;
+    skos:broader np:ostergotland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1384"^^xsd:long ;
+    geo:lat "58.5942"^^xsd:decimal ;
+    geo:long "16.1826"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2690579/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25290> .
+
+# ── 32/206: Västerås (city) ──
+np:vasteras a skos:Concept, schema:City ;
+    rdfs:label "Västerås"@en ;
+    rdfs:label "Västerås"@sv ;
+    skos:prefLabel "Västerås"@en ;
+    skos:prefLabel "Västerås"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "One of Sweden's oldest cities, seat of the Reformation-era Riksdag (1527) and home to ABB."@en ;
+    dcterms:type "city" ;
+    skos:broader np:vastmanland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1000"^^xsd:long ;
+    geo:lat "59.6162"^^xsd:decimal ;
+    geo:long "16.5528"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2664454/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25291> .
+
+# ── 33/206: Örebro (city) ──
+np:orebro a skos:Concept, schema:City ;
+    rdfs:label "Örebro"@en ;
+    rdfs:label "Örebro"@sv ;
+    skos:prefLabel "Örebro"@en ;
+    skos:prefLabel "Örebro"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "City in central Sweden known for its medieval castle on an island in the Svartån river."@en ;
+    dcterms:type "city" ;
+    skos:broader np:narke ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1240"^^xsd:long ;
+    geo:lat "59.2753"^^xsd:decimal ;
+    geo:long "15.2134"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2686657/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25289> .
+
+# ── 34/206: Umeå (city) ──
+np:umea a skos:Concept, schema:City ;
+    rdfs:label "Umeå"@en ;
+    rdfs:label "Umeå"@sv ;
+    skos:prefLabel "Umeå"@en ;
+    skos:prefLabel "Umeå"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Largest city in northern Sweden. European Capital of Culture 2014. University city known as the City of Birches."@en ;
+    dcterms:type "city" ;
+    skos:broader np:vasterbotten ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1588"^^xsd:long ;
+    geo:lat "63.8258"^^xsd:decimal ;
+    geo:long "20.263"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2666218/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25293> .
+
+# ── 35/206: Luleå (city) ──
+np:lulea a skos:Concept, schema:City ;
+    rdfs:label "Luleå"@en ;
+    rdfs:label "Luleå"@sv ;
+    skos:prefLabel "Luleå"@en ;
+    skos:prefLabel "Luleå"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Coastal city in Norrbotten. The Church Town of Gammelstad is a UNESCO World Heritage Site."@en ;
+    dcterms:type "city" ;
+    skos:broader np:norrbotten ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1621"^^xsd:long ;
+    geo:lat "65.5848"^^xsd:decimal ;
+    geo:long "22.1547"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2693678/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25294> .
+
+# ── 36/206: Kiruna (city) ──
+np:kiruna a skos:Concept, schema:City ;
+    rdfs:label "Kiruna"@en ;
+    rdfs:label "Giron"@se ;
+    rdfs:label "Kiruna"@sv ;
+    skos:prefLabel "Kiruna"@en ;
+    skos:prefLabel "Giron"@se ;
+    skos:prefLabel "Kiruna"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Northernmost city in Sweden. Home to the world's largest underground iron ore mine (LKAB). Currently being relocated due to mining subsidence."@en ;
+    dcterms:type "city" ;
+    skos:broader np:lappland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1900"^^xsd:long ;
+    geo:lat "67.8558"^^xsd:decimal ;
+    geo:long "20.2253"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/604490/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25295> .
+
+# ── 37/206: Kalmar (city) ──
+np:kalmar a skos:Concept, schema:City ;
+    rdfs:label "Kalmar"@en ;
+    rdfs:label "Kalmar"@sv ;
+    skos:prefLabel "Kalmar"@en ;
+    skos:prefLabel "Kalmar"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Historic city in Småland. Site of the Kalmar Union (1397) that united the Nordic kingdoms."@en ;
+    dcterms:type "city" ;
+    skos:broader np:smaland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1200"^^xsd:long ;
+    geo:lat "56.6634"^^xsd:decimal ;
+    geo:long "16.3566"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2702406/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25296> .
+
+# ── 38/206: Visby (city) ──
+np:visby a skos:Concept, schema:City ;
+    rdfs:label "Visby"@en ;
+    rdfs:label "Visby"@sv ;
+    skos:prefLabel "Visby"@en ;
+    skos:prefLabel "Visby"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Medieval Hanseatic town on Gotland. UNESCO World Heritage Site with well-preserved ring wall and church ruins."@en ;
+    dcterms:type "city" ;
+    skos:broader np:gotland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "900"^^xsd:long ;
+    geo:lat "57.6348"^^xsd:decimal ;
+    geo:long "18.2948"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2662689/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25297> .
+
+# ── 39/206: Lund (city) ──
+np:lund a skos:Concept, schema:City ;
+    rdfs:label "Lund"@en ;
+    rdfs:label "Lund"@sv ;
+    skos:prefLabel "Lund"@en ;
+    skos:prefLabel "Lund"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Historic university city in Scania. Founded c. 990 CE. Home to Lund University (1666) and Lund Cathedral."@en ;
+    dcterms:type "city" ;
+    skos:broader np:skane ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "990"^^xsd:long ;
+    geo:lat "55.7047"^^xsd:decimal ;
+    geo:long "13.191"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2693678/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25298> .
+
+# ── 40/206: Sundsvall (city) ──
+np:sundsvall a skos:Concept, schema:City ;
+    rdfs:label "Sundsvall"@en ;
+    rdfs:label "Sundsvall"@sv ;
+    skos:prefLabel "Sundsvall"@en ;
+    skos:prefLabel "Sundsvall"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "City in northern Sweden known as the Stone City due to its stone buildings rebuilt after the great fire of 1888."@en ;
+    dcterms:type "city" ;
+    skos:broader np:halsingland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1621"^^xsd:long ;
+    geo:lat "62.3908"^^xsd:decimal ;
+    geo:long "17.3069"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2674831/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25301> .
+
+# ── 41/206: Gävle (city) ──
+np:gavle a skos:Concept, schema:City ;
+    rdfs:label "Gävle"@en ;
+    rdfs:label "Gävle"@sv ;
+    skos:prefLabel "Gävle"@en ;
+    skos:prefLabel "Gävle"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "City in central Sweden. Known for the Gävle Goat, a giant straw Yule goat erected annually since 1966."@en ;
+    dcterms:type "city" ;
+    skos:broader np:gastrikland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1446"^^xsd:long ;
+    geo:lat "60.6749"^^xsd:decimal ;
+    geo:long "17.1413"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2712414/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25300> .
+
+# ── 42/206: Östersund (city) ──
+np:ostersund a skos:Concept, schema:City ;
+    rdfs:label "Östersund"@en ;
+    rdfs:label "Östersund"@sv ;
+    skos:prefLabel "Östersund"@en ;
+    skos:prefLabel "Östersund"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Capital of Jämtland on the shore of Lake Storsjön. Founded in 1786 by Gustav III."@en ;
+    dcterms:type "city" ;
+    skos:broader np:jamtland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1786"^^xsd:long ;
+    geo:lat "63.1792"^^xsd:decimal ;
+    geo:long "14.6357"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2685750/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25299> .
+
+# ── 43/206: Karlstad (city) ──
+np:karlstad a skos:Concept, schema:City ;
+    rdfs:label "Karlstad"@en ;
+    rdfs:label "Karlstad"@sv ;
+    skos:prefLabel "Karlstad"@en ;
+    skos:prefLabel "Karlstad"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "City in Värmland at the mouth of Klarälven. Known as the sunshine city."@en ;
+    dcterms:type "city" ;
+    skos:broader np:varmland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1584"^^xsd:long ;
+    geo:lat "59.3793"^^xsd:decimal ;
+    geo:long "13.5036"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2701713/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25302> .
+
+# ── 44/206: Halmstad (city) ──
+np:halmstad a skos:Concept, schema:City ;
+    rdfs:label "Halmstad"@en ;
+    rdfs:label "Halmstad"@sv ;
+    skos:prefLabel "Halmstad"@en ;
+    skos:prefLabel "Halmstad"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "City on the Swedish west coast. Once an important Danish fortress town."@en ;
+    dcterms:type "city" ;
+    skos:broader np:halland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1307"^^xsd:long ;
+    geo:lat "56.6745"^^xsd:decimal ;
+    geo:long "12.8578"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2708965/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25303> .
+
+# ── 45/206: Växjö (city) ──
+np:vaxjo a skos:Concept, schema:City ;
+    rdfs:label "Växjö"@en ;
+    rdfs:label "Växjö"@sv ;
+    skos:prefLabel "Växjö"@en ;
+    skos:prefLabel "Växjö"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "City in Småland known as the greenest city in Europe. Home to the Swedish Glass Museum."@en ;
+    dcterms:type "city" ;
+    skos:broader np:smaland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1342"^^xsd:long ;
+    geo:lat "56.8777"^^xsd:decimal ;
+    geo:long "14.8091"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2664454/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25304> .
+
+# ── 46/206: Falun (city) ──
+np:falun a skos:Concept, schema:City ;
+    rdfs:label "Falun"@en ;
+    rdfs:label "Falun"@sv ;
+    skos:prefLabel "Falun"@en ;
+    skos:prefLabel "Falun"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "City in Dalarna. The Great Copper Mountain mining area is a UNESCO World Heritage Site."@en ;
+    dcterms:type "city" ;
+    skos:broader np:dalarna ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1641"^^xsd:long ;
+    geo:lat "60.6065"^^xsd:decimal ;
+    geo:long "15.6355"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2715196/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25305> .
+
+# ── 47/206: Gällivare (city) ──
+np:gallivare a skos:Concept, schema:City ;
+    rdfs:label "Gällivare"@en ;
+    rdfs:label "Váhčir"@se ;
+    rdfs:label "Gällivare"@sv ;
+    skos:prefLabel "Gällivare"@en ;
+    skos:prefLabel "Váhčir"@se ;
+    skos:prefLabel "Gällivare"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Mining town in Norrbotten above the Arctic Circle. Major iron ore mining centre."@en ;
+    dcterms:type "city" ;
+    skos:broader np:norrbotten ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1735"^^xsd:long ;
+    geo:lat "67.1341"^^xsd:decimal ;
+    geo:long "20.6532"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2712669/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25306> .
+
+# ── 48/206: Sigtuna (town) ──
+np:sigtuna a skos:Concept, schema:City ;
+    rdfs:label "Sigtuna"@en ;
+    rdfs:label "Sigtuna"@sv ;
+    skos:prefLabel "Sigtuna"@en ;
+    skos:prefLabel "Sigtuna"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Sweden's oldest surviving town, founded c. 970 CE. Site of early medieval churches and runic inscriptions."@en ;
+    dcterms:type "town" ;
+    skos:broader np:uppland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "970"^^xsd:long ;
+    geo:lat "59.6179"^^xsd:decimal ;
+    geo:long "17.7236"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2676209/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q189143> .
+
+# ── 49/206: Jokkmokk (town) ──
+np:jokkmokk a skos:Concept, schema:City ;
+    rdfs:label "Jokkmokk"@en ;
+    rdfs:label "Jåhkåmåhkke"@se ;
+    rdfs:label "Jokkmokk"@sv ;
+    skos:prefLabel "Jokkmokk"@en ;
+    skos:prefLabel "Jåhkåmåhkke"@se ;
+    skos:prefLabel "Jokkmokk"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Town in Swedish Lapland. Host of the annual Jokkmokk Winter Market since 1605, a major Sámi cultural event."@en ;
+    dcterms:type "town" ;
+    skos:broader np:lappland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1605"^^xsd:long ;
+    geo:lat "66.6082"^^xsd:decimal ;
+    geo:long "19.8286"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2703841/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q189144> .
+
+# ── 50/206: Ystad (town) ──
+np:ystad a skos:Concept, schema:City ;
+    rdfs:label "Ystad"@en ;
+    rdfs:label "Ystad"@sv ;
+    skos:prefLabel "Ystad"@en ;
+    skos:prefLabel "Ystad"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Medieval town in southern Scania. Setting of Henning Mankell's Wallander novels."@en ;
+    dcterms:type "town" ;
+    skos:broader np:skane ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1244"^^xsd:long ;
+    geo:lat "55.4295"^^xsd:decimal ;
+    geo:long "13.82"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2660454/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q191297> .
+
+# ── 51/206: Öland (island) ──
+np:oland-island a skos:Concept, schema:Place ;
+    rdfs:label "Öland"@en ;
+    rdfs:label "Öland"@sv ;
+    skos:prefLabel "Öland"@en ;
+    skos:prefLabel "Öland"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Sweden's second-largest island and smallest historical province. Connected to mainland by the Öland Bridge."@en ;
+    dcterms:type "island" ;
+    skos:broader np:sweden ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-7000"^^xsd:long ;
+    geo:lat "56.75"^^xsd:decimal ;
+    geo:long "16.63"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2686655/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q46127> .
+
+# ── 52/206: Gotland (island) ──
+np:gotland-island a skos:Concept, schema:Place ;
+    rdfs:label "Gotland"@en ;
+    rdfs:label "Gotland"@sv ;
+    skos:prefLabel "Gotland"@en ;
+    skos:prefLabel "Gotland"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Sweden's largest island in the Baltic Sea. Major Viking Age trading centre and home to the medieval city of Visby."@en ;
+    dcterms:type "island" ;
+    skos:broader np:sweden ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-7000"^^xsd:long ;
+    geo:lat "57.5"^^xsd:decimal ;
+    geo:long "18.55"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2712209/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q180629> .
+
+# ── 53/206: Norrland (region) ──
+np:norrland a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Norrland"@en ;
+    rdfs:label "Norrland"@sv ;
+    skos:prefLabel "Norrland"@en ;
+    skos:prefLabel "Norrland"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Traditional designation for the northern three-fifths of Sweden, comprising nine historical provinces."@en ;
+    dcterms:type "region" ;
+    skos:broader np:sweden ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-5000"^^xsd:long ;
+    geo:lat "64.5"^^xsd:decimal ;
+    geo:long "18.0"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q193510> .
+
+# ── 54/206: Svealand (region) ──
+np:svealand a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Svealand"@en ;
+    rdfs:label "Svealand"@sv ;
+    skos:prefLabel "Svealand"@en ;
+    skos:prefLabel "Svealand"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Traditional designation for central Sweden, heartland of the Swedish kingdom. Comprises six historical provinces."@en ;
+    dcterms:type "region" ;
+    skos:broader np:sweden ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-6000"^^xsd:long ;
+    geo:lat "59.8"^^xsd:decimal ;
+    geo:long "16.5"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q193511> .
+
+# ── 55/206: Götaland (region) ──
+np:gotaland a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Götaland"@en ;
+    rdfs:label "Götaland"@sv ;
+    skos:prefLabel "Götaland"@en ;
+    skos:prefLabel "Götaland"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Traditional designation for southern Sweden. Comprises ten historical provinces including Skåne and Gotland."@en ;
+    dcterms:type "region" ;
+    skos:broader np:sweden ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-7000"^^xsd:long ;
+    geo:lat "57.5"^^xsd:decimal ;
+    geo:long "14.5"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q193512> .
+
+# ── 56/206: Norway (country) ──
+np:norway a skos:Concept, schema:Country ;
+    rdfs:label "Norway"@en ;
+    rdfs:label "Norge"@nb ;
+    rdfs:label "Noreg"@nn ;
+    rdfs:label "Norga"@se ;
+    skos:prefLabel "Norway"@en ;
+    skos:prefLabel "Norge"@nb ;
+    skos:prefLabel "Noreg"@nn ;
+    skos:prefLabel "Norga"@se ;
+    skos:altLabel "Kingdom of Norway"@en ;
+    skos:altLabel "Kongeriket Norge"@nb ;
+    skos:altLabel "Kongeriket Noreg"@nn ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Nordic country on the western Scandinavian Peninsula. Known for its fjords, oil wealth, and Viking heritage."@en ;
+    dcterms:type "country" ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-9000"^^xsd:long ;
+    geo:lat "62.0"^^xsd:decimal ;
+    geo:long "10.0"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3144096/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q20> .
+
+# ── 57/206: Eastern Norway (region) ──
+np:ostlandet a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Eastern Norway"@en ;
+    rdfs:label "Østlandet"@nb ;
+    rdfs:label "Austlandet"@nn ;
+    skos:prefLabel "Eastern Norway"@en ;
+    skos:prefLabel "Østlandet"@nb ;
+    skos:prefLabel "Austlandet"@nn ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Most populous region of Norway, including the capital Oslo and the inland valleys."@en ;
+    dcterms:type "region" ;
+    skos:broader np:norway ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-8000"^^xsd:long ;
+    geo:lat "60.5"^^xsd:decimal ;
+    geo:long "10.75"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q50613> .
+
+# ── 58/206: Western Norway (region) ──
+np:vestlandet a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Western Norway"@en ;
+    rdfs:label "Vestlandet"@nb ;
+    rdfs:label "Vestlandet"@nn ;
+    skos:prefLabel "Western Norway"@en ;
+    skos:prefLabel "Vestlandet"@nb ;
+    skos:prefLabel "Vestlandet"@nn ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Region of fjords and mountains along Norway's western coast. Includes Bergen and Stavanger."@en ;
+    dcterms:type "region" ;
+    skos:broader np:norway ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-8000"^^xsd:long ;
+    geo:lat "61.0"^^xsd:decimal ;
+    geo:long "6.0"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q50614> .
+
+# ── 59/206: Trøndelag (region) ──
+np:trondelag a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Trøndelag"@en ;
+    rdfs:label "Trøndelag"@nb ;
+    rdfs:label "Trøndelag"@nn ;
+    skos:prefLabel "Trøndelag"@en ;
+    skos:prefLabel "Trøndelag"@nb ;
+    skos:prefLabel "Trøndelag"@nn ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Central Norwegian region around the Trondheimsfjord. Historic heartland with Nidaros Cathedral."@en ;
+    dcterms:type "region" ;
+    skos:broader np:norway ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-6000"^^xsd:long ;
+    geo:lat "63.8"^^xsd:decimal ;
+    geo:long "12.0"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3133896/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q50615> .
+
+# ── 60/206: Northern Norway (region) ──
+np:nord-norge a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Northern Norway"@en ;
+    rdfs:label "Nord-Norge"@nb ;
+    rdfs:label "Nord-Noreg"@nn ;
+    skos:prefLabel "Northern Norway"@en ;
+    skos:prefLabel "Nord-Norge"@nb ;
+    skos:prefLabel "Nord-Noreg"@nn ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Norway's Arctic region. Includes Tromsø, the Lofoten Islands, and Finnmark."@en ;
+    dcterms:type "region" ;
+    skos:broader np:norway ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-9000"^^xsd:long ;
+    geo:lat "69.0"^^xsd:decimal ;
+    geo:long "18.0"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q50616> .
+
+# ── 61/206: Southern Norway (region) ──
+np:sorlandet a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Southern Norway"@en ;
+    rdfs:label "Sørlandet"@nb ;
+    rdfs:label "Sørlandet"@nn ;
+    skos:prefLabel "Southern Norway"@en ;
+    skos:prefLabel "Sørlandet"@nb ;
+    skos:prefLabel "Sørlandet"@nn ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Southern coastal region of Norway. Known as the Norwegian Riviera for its summer tourism."@en ;
+    dcterms:type "region" ;
+    skos:broader np:norway ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-7000"^^xsd:long ;
+    geo:lat "58.3"^^xsd:decimal ;
+    geo:long "8.0"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q50617> .
+
+# ── 62/206: Telemark (region) ──
+np:telemark a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Telemark"@en ;
+    rdfs:label "Telemark"@nb ;
+    skos:prefLabel "Telemark"@en ;
+    skos:prefLabel "Telemark"@nb ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Historical region in southern Norway. Known for the Telemark Canal and the birthplace of modern skiing."@en ;
+    dcterms:type "region" ;
+    skos:broader np:norway ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-7000"^^xsd:long ;
+    geo:lat "59.4"^^xsd:decimal ;
+    geo:long "8.5"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3134697/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q50618> .
+
+# ── 63/206: Nordland (region) ──
+np:nordland a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Nordland"@en ;
+    rdfs:label "Nordland"@nb ;
+    skos:prefLabel "Nordland"@en ;
+    skos:prefLabel "Nordland"@nb ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "County in northern Norway spanning both sides of the Arctic Circle. Home to the Lofoten Islands."@en ;
+    dcterms:type "region" ;
+    skos:broader np:norway ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-6000"^^xsd:long ;
+    geo:lat "67.0"^^xsd:decimal ;
+    geo:long "15.0"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3144094/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q50619> .
+
+# ── 64/206: Finnmark (region) ──
+np:finnmark a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Finnmark"@en ;
+    rdfs:label "Finnmark"@nb ;
+    rdfs:label "Finnmárku"@se ;
+    skos:prefLabel "Finnmark"@en ;
+    skos:prefLabel "Finnmark"@nb ;
+    skos:prefLabel "Finnmárku"@se ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Norway's northernmost and easternmost region. Large Sámi population. Borders Russia and Finland."@en ;
+    dcterms:type "region" ;
+    skos:broader np:norway ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-8000"^^xsd:long ;
+    geo:lat "70.5"^^xsd:decimal ;
+    geo:long "26.0"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3156564/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q50621> .
+
+# ── 65/206: Troms (region) ──
+np:troms a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Troms"@en ;
+    rdfs:label "Troms"@nb ;
+    rdfs:label "Romsa"@se ;
+    skos:prefLabel "Troms"@en ;
+    skos:prefLabel "Troms"@nb ;
+    skos:prefLabel "Romsa"@se ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "County in northern Norway. Home to Tromsø, the largest city in the Arctic."@en ;
+    dcterms:type "region" ;
+    skos:broader np:norway ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-7000"^^xsd:long ;
+    geo:lat "69.3"^^xsd:decimal ;
+    geo:long "18.5"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3133897/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q50620> .
+
+# ── 66/206: Rogaland (region) ──
+np:rogaland a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Rogaland"@en ;
+    rdfs:label "Rogaland"@nb ;
+    skos:prefLabel "Rogaland"@en ;
+    skos:prefLabel "Rogaland"@nb ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "County in southwestern Norway. Centre of the Norwegian petroleum industry."@en ;
+    dcterms:type "region" ;
+    skos:broader np:norway ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-8000"^^xsd:long ;
+    geo:lat "59.0"^^xsd:decimal ;
+    geo:long "6.0"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3141558/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q50622> .
+
+# ── 67/206: Hordaland (region) ──
+np:hordaland a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Hordaland"@en ;
+    rdfs:label "Hordaland"@nb ;
+    skos:prefLabel "Hordaland"@en ;
+    skos:prefLabel "Hordaland"@nb ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Historical county in western Norway centred on Bergen. Now part of Vestland county."@en ;
+    dcterms:type "region" ;
+    skos:broader np:norway ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-8000"^^xsd:long ;
+    geo:lat "60.5"^^xsd:decimal ;
+    geo:long "6.0"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3151864/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q50623> .
+
+# ── 68/206: Oslo (city) ──
+np:oslo a skos:Concept, schema:City ;
+    rdfs:label "Oslo"@en ;
+    rdfs:label "Oslo"@nb ;
+    skos:prefLabel "Oslo"@en ;
+    skos:prefLabel "Oslo"@nb ;
+    skos:altLabel "Tigerstaden"@nb ;
+    skos:hiddenLabel "Kristiania"@nb ;
+    skos:hiddenLabel "Christiania"@nb ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Capital of Norway, founded c. 1040. Known as Kristiania/Christiania from 1624 to 1925."@en ;
+    dcterms:type "city" ;
+    skos:broader np:ostlandet ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1040"^^xsd:long ;
+    geo:lat "59.9139"^^xsd:decimal ;
+    geo:long "10.7522"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3143244/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q585> .
+
+# ── 69/206: Bergen (city) ──
+np:bergen a skos:Concept, schema:City ;
+    rdfs:label "Bergen"@en ;
+    rdfs:label "Bergen"@nb ;
+    skos:prefLabel "Bergen"@en ;
+    skos:prefLabel "Bergen"@nb ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Second-largest city in Norway. Major Hanseatic trading post. UNESCO-listed Bryggen wharf."@en ;
+    dcterms:type "city" ;
+    skos:broader np:hordaland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1070"^^xsd:long ;
+    geo:lat "60.3913"^^xsd:decimal ;
+    geo:long "5.3221"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3161732/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q36600> .
+
+# ── 70/206: Trondheim (city) ──
+np:trondheim a skos:Concept, schema:City ;
+    rdfs:label "Trondheim"@en ;
+    rdfs:label "Trondheim"@nb ;
+    skos:prefLabel "Trondheim"@en ;
+    skos:prefLabel "Trondheim"@nb ;
+    skos:hiddenLabel "Nidaros"@nb ;
+    skos:hiddenLabel "Trondhjem"@nb ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Third-largest city in Norway. Founded as Nidaros by Olav Tryggvason in 997. Home to Nidaros Cathedral."@en ;
+    dcterms:type "city" ;
+    skos:broader np:trondelag ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "997"^^xsd:long ;
+    geo:lat "63.4305"^^xsd:decimal ;
+    geo:long "10.3951"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3133880/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25804> .
+
+# ── 71/206: Stavanger (city) ──
+np:stavanger a skos:Concept, schema:City ;
+    rdfs:label "Stavanger"@en ;
+    rdfs:label "Stavanger"@nb ;
+    skos:prefLabel "Stavanger"@en ;
+    skos:prefLabel "Stavanger"@nb ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Oil capital of Norway. Historic city with the oldest cathedral in Norway (c. 1125)."@en ;
+    dcterms:type "city" ;
+    skos:broader np:rogaland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1125"^^xsd:long ;
+    geo:lat "58.97"^^xsd:decimal ;
+    geo:long "5.7331"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3137115/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25416> .
+
+# ── 72/206: Tromsø (city) ──
+np:tromso a skos:Concept, schema:City ;
+    rdfs:label "Tromsø"@en ;
+    rdfs:label "Tromsø"@nb ;
+    rdfs:label "Romssa"@se ;
+    skos:prefLabel "Tromsø"@en ;
+    skos:prefLabel "Tromsø"@nb ;
+    skos:prefLabel "Romssa"@se ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Largest city in northern Norway. Known as the Gateway to the Arctic and for the Arctic Cathedral."@en ;
+    dcterms:type "city" ;
+    skos:broader np:troms ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1794"^^xsd:long ;
+    geo:lat "69.6496"^^xsd:decimal ;
+    geo:long "18.956"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3133895/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25474> .
+
+# ── 73/206: Bodø (city) ──
+np:bodo a skos:Concept, schema:City ;
+    rdfs:label "Bodø"@en ;
+    rdfs:label "Bodø"@nb ;
+    skos:prefLabel "Bodø"@en ;
+    skos:prefLabel "Bodø"@nb ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "City in Nordland just north of the Arctic Circle. Gateway to the Lofoten Islands."@en ;
+    dcterms:type "city" ;
+    skos:broader np:nordland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1816"^^xsd:long ;
+    geo:lat "67.2804"^^xsd:decimal ;
+    geo:long "14.4049"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3160876/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25473> .
+
+# ── 74/206: Kristiansand (city) ──
+np:kristiansand a skos:Concept, schema:City ;
+    rdfs:label "Kristiansand"@en ;
+    rdfs:label "Kristiansand"@nb ;
+    skos:prefLabel "Kristiansand"@en ;
+    skos:prefLabel "Kristiansand"@nb ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Largest city in southern Norway. Founded in 1641 by Christian IV with a distinctive grid plan."@en ;
+    dcterms:type "city" ;
+    skos:broader np:sorlandet ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1641"^^xsd:long ;
+    geo:lat "58.1599"^^xsd:decimal ;
+    geo:long "8.0182"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3149312/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25417> .
+
+# ── 75/206: Drammen (city) ──
+np:drammen a skos:Concept, schema:City ;
+    rdfs:label "Drammen"@en ;
+    rdfs:label "Drammen"@nb ;
+    skos:prefLabel "Drammen"@en ;
+    skos:prefLabel "Drammen"@nb ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "City in eastern Norway at the mouth of the Drammenselva river. Historic timber trade centre."@en ;
+    dcterms:type "city" ;
+    skos:broader np:ostlandet ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1811"^^xsd:long ;
+    geo:lat "59.744"^^xsd:decimal ;
+    geo:long "10.2045"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3157900/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25418> .
+
+# ── 76/206: Hammerfest (city) ──
+np:hammerfest a skos:Concept, schema:City ;
+    rdfs:label "Hammerfest"@en ;
+    rdfs:label "Hammerfest"@nb ;
+    rdfs:label "Hámmerfeasta"@se ;
+    skos:prefLabel "Hammerfest"@en ;
+    skos:prefLabel "Hammerfest"@nb ;
+    skos:prefLabel "Hámmerfeasta"@se ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "One of the northernmost cities in the world. Important for Arctic fishing and LNG processing."@en ;
+    dcterms:type "city" ;
+    skos:broader np:finnmark ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1789"^^xsd:long ;
+    geo:lat "70.6634"^^xsd:decimal ;
+    geo:long "23.6821"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3154023/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25465> .
+
+# ── 77/206: Kirkenes (town) ──
+np:kirkenes a skos:Concept, schema:City ;
+    rdfs:label "Kirkenes"@en ;
+    rdfs:label "Kirkenes"@nb ;
+    rdfs:label "Girkonjárga"@se ;
+    skos:prefLabel "Kirkenes"@en ;
+    skos:prefLabel "Kirkenes"@nb ;
+    skos:prefLabel "Girkonjárga"@se ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Town in easternmost Norway near the Russian and Finnish borders. Terminal point of the Hurtigruten coastal route."@en ;
+    dcterms:type "town" ;
+    skos:broader np:finnmark ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1862"^^xsd:long ;
+    geo:lat "69.7271"^^xsd:decimal ;
+    geo:long "30.0453"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3150159/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q128178> .
+
+# ── 78/206: Ålesund (city) ──
+np:alesund a skos:Concept, schema:City ;
+    rdfs:label "Ålesund"@en ;
+    rdfs:label "Ålesund"@nb ;
+    skos:prefLabel "Ålesund"@en ;
+    skos:prefLabel "Ålesund"@nb ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "City in western Norway famous for its Art Nouveau architecture, rebuilt after the 1904 fire."@en ;
+    dcterms:type "city" ;
+    skos:broader np:vestlandet ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1848"^^xsd:long ;
+    geo:lat "62.4723"^^xsd:decimal ;
+    geo:long "6.1549"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3163392/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25387> .
+
+# ── 79/206: Lillehammer (city) ──
+np:lillehammer a skos:Concept, schema:City ;
+    rdfs:label "Lillehammer"@en ;
+    rdfs:label "Lillehammer"@nb ;
+    skos:prefLabel "Lillehammer"@en ;
+    skos:prefLabel "Lillehammer"@nb ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "City in eastern Norway. Host of the 1994 Winter Olympics. Home to the Maihaugen open-air museum."@en ;
+    dcterms:type "city" ;
+    skos:broader np:ostlandet ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1827"^^xsd:long ;
+    geo:lat "61.1152"^^xsd:decimal ;
+    geo:long "10.4662"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3147395/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25422> .
+
+# ── 80/206: Lofoten Islands (island) ──
+np:lofoten a skos:Concept, schema:Place ;
+    rdfs:label "Lofoten Islands"@en ;
+    rdfs:label "Lofoten"@nb ;
+    skos:prefLabel "Lofoten Islands"@en ;
+    skos:prefLabel "Lofoten"@nb ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Archipelago in northern Norway known for dramatic scenery, fishing villages, and the Viking Museum at Borg."@en ;
+    dcterms:type "island" ;
+    skos:broader np:nordland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-6000"^^xsd:long ;
+    geo:lat "68.2"^^xsd:decimal ;
+    geo:long "14.5"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3146847/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25374> .
+
+# ── 81/206: Svalbard (island) ──
+np:svalbard a skos:Concept, schema:Place ;
+    rdfs:label "Svalbard"@en ;
+    rdfs:label "Svalbard"@nb ;
+    skos:prefLabel "Svalbard"@en ;
+    skos:prefLabel "Svalbard"@nb ;
+    skos:altLabel "Spitsbergen"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Norwegian Arctic archipelago. Home to the Svalbard Global Seed Vault and polar research stations."@en ;
+    dcterms:type "island" ;
+    skos:broader np:norway ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1596"^^xsd:long ;
+    geo:lat "78.0"^^xsd:decimal ;
+    geo:long "16.0"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/607072/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25231> .
+
+# ── 82/206: Vesterålen (island) ──
+np:vesteralen a skos:Concept, schema:Place ;
+    rdfs:label "Vesterålen"@en ;
+    rdfs:label "Vesterålen"@nb ;
+    skos:prefLabel "Vesterålen"@en ;
+    skos:prefLabel "Vesterålen"@nb ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Island group north of Lofoten. Known for whale watching and the Hurtigruten port of Sortland."@en ;
+    dcterms:type "island" ;
+    skos:broader np:nordland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-6000"^^xsd:long ;
+    geo:lat "68.8"^^xsd:decimal ;
+    geo:long "15.5"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3131924/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25370> .
+
+# ── 83/206: Flåm (village) ──
+np:flam a skos:Concept, schema:Place ;
+    rdfs:label "Flåm"@en ;
+    rdfs:label "Flåm"@nb ;
+    skos:prefLabel "Flåm"@en ;
+    skos:prefLabel "Flåm"@nb ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Village at the inner end of the Aurlandsfjord. Famous for the Flåm Railway, one of the world's steepest rail lines."@en ;
+    dcterms:type "village" ;
+    skos:broader np:vestlandet ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1340"^^xsd:long ;
+    geo:lat "60.8631"^^xsd:decimal ;
+    geo:long "7.1137"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3156404/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q613671> .
+
+# ── 84/206: Røros (town) ──
+np:roros a skos:Concept, schema:City ;
+    rdfs:label "Røros"@en ;
+    rdfs:label "Røros"@nb ;
+    skos:prefLabel "Røros"@en ;
+    skos:prefLabel "Røros"@nb ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "UNESCO World Heritage mining town. Copper mining operated from 1644 to 1977."@en ;
+    dcterms:type "town" ;
+    skos:broader np:trondelag ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1644"^^xsd:long ;
+    geo:lat "62.5744"^^xsd:decimal ;
+    geo:long "11.3849"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3141310/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q125894> .
+
+# ── 85/206: Alta (city) ──
+np:alta a skos:Concept, schema:City ;
+    rdfs:label "Alta"@en ;
+    rdfs:label "Alta"@nb ;
+    rdfs:label "Áltá"@se ;
+    skos:prefLabel "Alta"@en ;
+    skos:prefLabel "Alta"@nb ;
+    skos:prefLabel "Áltá"@se ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "City in Finnmark. Site of UNESCO-listed rock carvings dating to c. 4200–500 BCE."@en ;
+    dcterms:type "city" ;
+    skos:broader np:finnmark ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-4200"^^xsd:long ;
+    geo:lat "69.9689"^^xsd:decimal ;
+    geo:long "23.2716"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3163529/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25456> .
+
+# ── 86/206: Longyearbyen (town) ──
+np:longyearbyen a skos:Concept, schema:City ;
+    rdfs:label "Longyearbyen"@en ;
+    rdfs:label "Longyearbyen"@nb ;
+    skos:prefLabel "Longyearbyen"@en ;
+    skos:prefLabel "Longyearbyen"@nb ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "World's northernmost settlement with more than 1,000 people. Administrative centre of Svalbard."@en ;
+    dcterms:type "town" ;
+    skos:broader np:svalbard ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1906"^^xsd:long ;
+    geo:lat "78.2232"^^xsd:decimal ;
+    geo:long "15.6267"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2729907/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25335> .
+
+# ── 87/206: Kautokeino (town) ──
+np:kautokeino a skos:Concept, schema:City ;
+    rdfs:label "Kautokeino"@en ;
+    rdfs:label "Kautokeino"@nb ;
+    rdfs:label "Guovdageaidnu"@se ;
+    skos:prefLabel "Kautokeino"@en ;
+    skos:prefLabel "Kautokeino"@nb ;
+    skos:prefLabel "Guovdageaidnu"@se ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Largest municipality in Norway by area. One of the most important Sámi cultural centres."@en ;
+    dcterms:type "town" ;
+    skos:broader np:finnmark ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1553"^^xsd:long ;
+    geo:lat "69.0124"^^xsd:decimal ;
+    geo:long "23.0402"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3150613/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q131646> .
+
+# ── 88/206: Finland (country) ──
+np:finland a skos:Concept, schema:Country ;
+    rdfs:label "Finland"@en ;
+    rdfs:label "Suomi"@fi ;
+    rdfs:label "Suopma"@se ;
+    rdfs:label "Finland"@sv ;
+    skos:prefLabel "Finland"@en ;
+    skos:prefLabel "Suomi"@fi ;
+    skos:prefLabel "Suopma"@se ;
+    skos:prefLabel "Finland"@sv ;
+    skos:altLabel "Republic of Finland"@en ;
+    skos:altLabel "Suomen tasavalta"@fi ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Nordic country in northern Europe. Independent since 1917. Known as the Land of a Thousand Lakes."@en ;
+    dcterms:type "country" ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-8500"^^xsd:long ;
+    geo:lat "64.0"^^xsd:decimal ;
+    geo:long "26.0"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/660013/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q33> .
+
+# ── 89/206: Uusimaa (region) ──
+np:uusimaa a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Uusimaa"@en ;
+    rdfs:label "Uusimaa"@fi ;
+    rdfs:label "Nyland"@sv ;
+    skos:prefLabel "Uusimaa"@en ;
+    skos:prefLabel "Uusimaa"@fi ;
+    skos:prefLabel "Nyland"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Southern Finnish region including Helsinki. The most populous region in Finland."@en ;
+    dcterms:type "region" ;
+    skos:broader np:finland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-5000"^^xsd:long ;
+    geo:lat "60.3"^^xsd:decimal ;
+    geo:long "25.0"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/830708/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5765> .
+
+# ── 90/206: Finland Proper (region) ──
+np:varsinais-suomi a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Finland Proper"@en ;
+    rdfs:label "Varsinais-Suomi"@fi ;
+    rdfs:label "Egentliga Finland"@sv ;
+    skos:prefLabel "Finland Proper"@en ;
+    skos:prefLabel "Varsinais-Suomi"@fi ;
+    skos:prefLabel "Egentliga Finland"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Historical province in southwestern Finland. Historical centre of Finnish culture with Turku as its capital."@en ;
+    dcterms:type "region" ;
+    skos:broader np:finland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-6000"^^xsd:long ;
+    geo:lat "60.6"^^xsd:decimal ;
+    geo:long "22.5"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/830709/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5765> .
+
+# ── 91/206: Satakunta (region) ──
+np:satakunta a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Satakunta"@en ;
+    rdfs:label "Satakunta"@fi ;
+    rdfs:label "Satakunda"@sv ;
+    skos:prefLabel "Satakunta"@en ;
+    skos:prefLabel "Satakunta"@fi ;
+    skos:prefLabel "Satakunda"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Historical province in western Finland. One of the oldest Finnish provinces, mentioned in medieval sources."@en ;
+    dcterms:type "region" ;
+    skos:broader np:finland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-5000"^^xsd:long ;
+    geo:lat "61.5"^^xsd:decimal ;
+    geo:long "22.0"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/830710/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5770> .
+
+# ── 92/206: Tavastia (region) ──
+np:hame a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Tavastia"@en ;
+    rdfs:label "Häme"@fi ;
+    rdfs:label "Tavastland"@sv ;
+    skos:prefLabel "Tavastia"@en ;
+    skos:prefLabel "Häme"@fi ;
+    skos:prefLabel "Tavastland"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Historical province in southern Finland. Home to Häme Castle, one of Finland's medieval royal castles."@en ;
+    dcterms:type "region" ;
+    skos:broader np:finland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-5000"^^xsd:long ;
+    geo:lat "61.2"^^xsd:decimal ;
+    geo:long "24.5"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/830711/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5768> .
+
+# ── 93/206: Pirkanmaa (region) ──
+np:pirkanmaa a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Pirkanmaa"@en ;
+    rdfs:label "Pirkanmaa"@fi ;
+    rdfs:label "Birkaland"@sv ;
+    skos:prefLabel "Pirkanmaa"@en ;
+    skos:prefLabel "Pirkanmaa"@fi ;
+    skos:prefLabel "Birkaland"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Region in southern Finland centred on Tampere. Major industrial and cultural centre."@en ;
+    dcterms:type "region" ;
+    skos:broader np:finland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-5000"^^xsd:long ;
+    geo:lat "61.5"^^xsd:decimal ;
+    geo:long "23.8"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/830712/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5773> .
+
+# ── 94/206: Ostrobothnia (region) ──
+np:pohjanmaa a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Ostrobothnia"@en ;
+    rdfs:label "Pohjanmaa"@fi ;
+    rdfs:label "Österbotten"@sv ;
+    skos:prefLabel "Ostrobothnia"@en ;
+    skos:prefLabel "Pohjanmaa"@fi ;
+    skos:prefLabel "Österbotten"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Region on Finland's western coast. Historically Swedish-speaking with strong maritime traditions."@en ;
+    dcterms:type "region" ;
+    skos:broader np:finland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-4000"^^xsd:long ;
+    geo:lat "63.1"^^xsd:decimal ;
+    geo:long "22.0"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/830713/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5774> .
+
+# ── 95/206: Savonia (region) ──
+np:savo a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Savonia"@en ;
+    rdfs:label "Savo"@fi ;
+    rdfs:label "Savolax"@sv ;
+    skos:prefLabel "Savonia"@en ;
+    skos:prefLabel "Savo"@fi ;
+    skos:prefLabel "Savolax"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Historical province in eastern Finland. Known for its lakeland scenery and the city of Kuopio."@en ;
+    dcterms:type "region" ;
+    skos:broader np:finland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-5000"^^xsd:long ;
+    geo:lat "62.5"^^xsd:decimal ;
+    geo:long "27.5"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/830714/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5775> .
+
+# ── 96/206: Karelia (region) ──
+np:karjala a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Karelia"@en ;
+    rdfs:label "Karjala"@fi ;
+    rdfs:label "Karelen"@sv ;
+    skos:prefLabel "Karelia"@en ;
+    skos:prefLabel "Karjala"@fi ;
+    skos:prefLabel "Karelen"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Historical province divided between Finland and Russia. Source of much of the Kalevala mythology."@en ;
+    dcterms:type "region" ;
+    skos:broader np:finland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-7000"^^xsd:long ;
+    geo:lat "62.0"^^xsd:decimal ;
+    geo:long "30.0"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5776> .
+
+# ── 97/206: Kainuu (region) ──
+np:kainuu a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Kainuu"@en ;
+    rdfs:label "Kainuu"@fi ;
+    rdfs:label "Kajanaland"@sv ;
+    skos:prefLabel "Kainuu"@en ;
+    skos:prefLabel "Kainuu"@fi ;
+    skos:prefLabel "Kajanaland"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Sparsely populated region in eastern Finland. Known for wilderness areas and the Kalevala tradition."@en ;
+    dcterms:type "region" ;
+    skos:broader np:finland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-4000"^^xsd:long ;
+    geo:lat "64.2"^^xsd:decimal ;
+    geo:long "28.5"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/830715/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5778> .
+
+# ── 98/206: Lapland (region) ──
+np:lappi a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Lapland"@en ;
+    rdfs:label "Lappi"@fi ;
+    rdfs:label "Sápmi"@se ;
+    rdfs:label "Lappland"@sv ;
+    skos:prefLabel "Lapland"@en ;
+    skos:prefLabel "Lappi"@fi ;
+    skos:prefLabel "Sápmi"@se ;
+    skos:prefLabel "Lappland"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Northernmost region of Finland. Traditional homeland of Finnish Sámi people. Famous for the Northern Lights and Santa Claus Village."@en ;
+    dcterms:type "region" ;
+    skos:broader np:finland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-7000"^^xsd:long ;
+    geo:lat "68.0"^^xsd:decimal ;
+    geo:long "26.0"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/830716/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5780> .
+
+# ── 99/206: Åland Islands (region) ──
+np:aland a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Åland Islands"@en ;
+    rdfs:label "Ahvenanmaa"@fi ;
+    rdfs:label "Åland"@sv ;
+    skos:prefLabel "Åland Islands"@en ;
+    skos:prefLabel "Ahvenanmaa"@fi ;
+    skos:prefLabel "Åland"@sv ;
+    skos:altLabel "Åland"@en ;
+    skos:altLabel "Aland"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Autonomous Swedish-speaking archipelago between Sweden and Finland. Demilitarized since 1856."@en ;
+    dcterms:type "region" ;
+    skos:broader np:finland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-4000"^^xsd:long ;
+    geo:lat "60.17"^^xsd:decimal ;
+    geo:long "19.93"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/661882/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5689> .
+
+# ── 100/206: Helsinki (city) ──
+np:helsinki a skos:Concept, schema:City ;
+    rdfs:label "Helsinki"@en ;
+    rdfs:label "Helsinki"@fi ;
+    rdfs:label "Helsingfors"@sv ;
+    skos:prefLabel "Helsinki"@en ;
+    skos:prefLabel "Helsinki"@fi ;
+    skos:prefLabel "Helsingfors"@sv ;
+    skos:hiddenLabel "Helsingfors"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Capital of Finland, founded in 1550 by Gustav Vasa. Known for its neoclassical and Art Nouveau architecture."@en ;
+    dcterms:type "city" ;
+    skos:broader np:uusimaa ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1550"^^xsd:long ;
+    geo:lat "60.1699"^^xsd:decimal ;
+    geo:long "24.9384"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/658225/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1757> .
+
+# ── 101/206: Turku (city) ──
+np:turku a skos:Concept, schema:City ;
+    rdfs:label "Turku"@en ;
+    rdfs:label "Turku"@fi ;
+    rdfs:label "Åbo"@sv ;
+    skos:prefLabel "Turku"@en ;
+    skos:prefLabel "Turku"@fi ;
+    skos:prefLabel "Åbo"@sv ;
+    skos:hiddenLabel "Åbo"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Oldest city in Finland, former capital. Home to Turku Castle and Turku Cathedral."@en ;
+    dcterms:type "city" ;
+    skos:broader np:varsinais-suomi ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1229"^^xsd:long ;
+    geo:lat "60.4518"^^xsd:decimal ;
+    geo:long "22.2666"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/633679/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q38511> .
+
+# ── 102/206: Tampere (city) ──
+np:tampere a skos:Concept, schema:City ;
+    rdfs:label "Tampere"@en ;
+    rdfs:label "Tampere"@fi ;
+    rdfs:label "Tammerfors"@sv ;
+    skos:prefLabel "Tampere"@en ;
+    skos:prefLabel "Tampere"@fi ;
+    skos:prefLabel "Tammerfors"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Third-largest city in Finland. Major industrial centre known as the Manchester of Finland."@en ;
+    dcterms:type "city" ;
+    skos:broader np:pirkanmaa ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1779"^^xsd:long ;
+    geo:lat "61.4978"^^xsd:decimal ;
+    geo:long "23.761"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/634963/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q40840> .
+
+# ── 103/206: Oulu (city) ──
+np:oulu a skos:Concept, schema:City ;
+    rdfs:label "Oulu"@en ;
+    rdfs:label "Oulu"@fi ;
+    rdfs:label "Uleåborg"@sv ;
+    skos:prefLabel "Oulu"@en ;
+    skos:prefLabel "Oulu"@fi ;
+    skos:prefLabel "Uleåborg"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Largest city in northern Finland. Major technology hub and home to the University of Oulu."@en ;
+    dcterms:type "city" ;
+    skos:broader np:pohjanmaa ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1605"^^xsd:long ;
+    geo:lat "65.0121"^^xsd:decimal ;
+    geo:long "25.4651"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/643492/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q47765> .
+
+# ── 104/206: Espoo (city) ──
+np:espoo a skos:Concept, schema:City ;
+    rdfs:label "Espoo"@en ;
+    rdfs:label "Espoo"@fi ;
+    rdfs:label "Esbo"@sv ;
+    skos:prefLabel "Espoo"@en ;
+    skos:prefLabel "Espoo"@fi ;
+    skos:prefLabel "Esbo"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Second-largest city in Finland. Part of the Helsinki metropolitan area. Home to Aalto University and Nokia headquarters."@en ;
+    dcterms:type "city" ;
+    skos:broader np:uusimaa ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1458"^^xsd:long ;
+    geo:lat "60.2055"^^xsd:decimal ;
+    geo:long "24.6559"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/660158/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q47034> .
+
+# ── 105/206: Vantaa (city) ──
+np:vantaa a skos:Concept, schema:City ;
+    rdfs:label "Vantaa"@en ;
+    rdfs:label "Vantaa"@fi ;
+    rdfs:label "Vanda"@sv ;
+    skos:prefLabel "Vantaa"@en ;
+    skos:prefLabel "Vantaa"@fi ;
+    skos:prefLabel "Vanda"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Fourth-largest city in Finland. Part of the Helsinki metropolitan area. Home to Helsinki-Vantaa Airport."@en ;
+    dcterms:type "city" ;
+    skos:broader np:uusimaa ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1351"^^xsd:long ;
+    geo:lat "60.2934"^^xsd:decimal ;
+    geo:long "25.0378"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/632453/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q53624> .
+
+# ── 106/206: Kuopio (city) ──
+np:kuopio a skos:Concept, schema:City ;
+    rdfs:label "Kuopio"@en ;
+    rdfs:label "Kuopio"@fi ;
+    rdfs:label "Kuopio"@sv ;
+    skos:prefLabel "Kuopio"@en ;
+    skos:prefLabel "Kuopio"@fi ;
+    skos:prefLabel "Kuopio"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Major city in eastern Finland. Known for its lakeland setting and the Puijo Tower."@en ;
+    dcterms:type "city" ;
+    skos:broader np:savo ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1775"^^xsd:long ;
+    geo:lat "62.8924"^^xsd:decimal ;
+    geo:long "27.6783"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/650224/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q62392> .
+
+# ── 107/206: Jyväskylä (city) ──
+np:jyvaskyla a skos:Concept, schema:City ;
+    rdfs:label "Jyväskylä"@en ;
+    rdfs:label "Jyväskylä"@fi ;
+    rdfs:label "Jyväskylä"@sv ;
+    skos:prefLabel "Jyväskylä"@en ;
+    skos:prefLabel "Jyväskylä"@fi ;
+    skos:prefLabel "Jyväskylä"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "City in central Finland. Known for Alvar Aalto's architecture and as the Athens of Finland."@en ;
+    dcterms:type "city" ;
+    skos:broader np:finland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1837"^^xsd:long ;
+    geo:lat "62.2426"^^xsd:decimal ;
+    geo:long "25.7473"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/655194/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q62394> .
+
+# ── 108/206: Lahti (city) ──
+np:lahti a skos:Concept, schema:City ;
+    rdfs:label "Lahti"@en ;
+    rdfs:label "Lahti"@fi ;
+    rdfs:label "Lahtis"@sv ;
+    skos:prefLabel "Lahti"@en ;
+    skos:prefLabel "Lahti"@fi ;
+    skos:prefLabel "Lahtis"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "City in southern Finland. European Green Capital 2021 and major winter sports centre."@en ;
+    dcterms:type "city" ;
+    skos:broader np:hame ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1905"^^xsd:long ;
+    geo:lat "60.9827"^^xsd:decimal ;
+    geo:long "25.6612"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/648900/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q62393> .
+
+# ── 109/206: Pori (city) ──
+np:pori a skos:Concept, schema:City ;
+    rdfs:label "Pori"@en ;
+    rdfs:label "Pori"@fi ;
+    rdfs:label "Björneborg"@sv ;
+    skos:prefLabel "Pori"@en ;
+    skos:prefLabel "Pori"@fi ;
+    skos:prefLabel "Björneborg"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "City on Finland's western coast. Known for the Pori Jazz Festival, held annually since 1966."@en ;
+    dcterms:type "city" ;
+    skos:broader np:satakunta ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1558"^^xsd:long ;
+    geo:lat "61.4847"^^xsd:decimal ;
+    geo:long "21.7972"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/639518/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q62395> .
+
+# ── 110/206: Rovaniemi (city) ──
+np:rovaniemi a skos:Concept, schema:City ;
+    rdfs:label "Rovaniemi"@en ;
+    rdfs:label "Rovaniemi"@fi ;
+    rdfs:label "Rovaniemi"@sv ;
+    skos:prefLabel "Rovaniemi"@en ;
+    skos:prefLabel "Rovaniemi"@fi ;
+    skos:prefLabel "Rovaniemi"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Capital of Finnish Lapland, located on the Arctic Circle. Known as the official hometown of Santa Claus."@en ;
+    dcterms:type "city" ;
+    skos:broader np:lappi ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1785"^^xsd:long ;
+    geo:lat "66.5039"^^xsd:decimal ;
+    geo:long "25.7294"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/640276/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q62396> .
+
+# ── 111/206: Vaasa (city) ──
+np:vaasa a skos:Concept, schema:City ;
+    rdfs:label "Vaasa"@en ;
+    rdfs:label "Vaasa"@fi ;
+    rdfs:label "Vasa"@sv ;
+    skos:prefLabel "Vaasa"@en ;
+    skos:prefLabel "Vaasa"@fi ;
+    skos:prefLabel "Vasa"@sv ;
+    skos:hiddenLabel "Nikolaistad"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Bilingual city on Finland's west coast. Energy technology hub."@en ;
+    dcterms:type "city" ;
+    skos:broader np:pohjanmaa ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1606"^^xsd:long ;
+    geo:lat "63.096"^^xsd:decimal ;
+    geo:long "21.6158"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/632978/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q62397> .
+
+# ── 112/206: Mariehamn (city) ──
+np:mariehamn a skos:Concept, schema:City ;
+    rdfs:label "Mariehamn"@en ;
+    rdfs:label "Maarianhamina"@fi ;
+    rdfs:label "Mariehamn"@sv ;
+    skos:prefLabel "Mariehamn"@en ;
+    skos:prefLabel "Maarianhamina"@fi ;
+    skos:prefLabel "Mariehamn"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Capital of the Åland Islands. Named after Empress Maria Alexandrovna of Russia. Home to the Pommern museum ship."@en ;
+    dcterms:type "city" ;
+    skos:broader np:aland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1861"^^xsd:long ;
+    geo:lat "60.0971"^^xsd:decimal ;
+    geo:long "19.9348"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/651020/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q62398> .
+
+# ── 113/206: Inari (town) ──
+np:inari a skos:Concept, schema:City ;
+    rdfs:label "Inari"@en ;
+    rdfs:label "Inari"@fi ;
+    rdfs:label "Anár"@se ;
+    skos:prefLabel "Inari"@en ;
+    skos:prefLabel "Inari"@fi ;
+    skos:prefLabel "Anár"@se ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Municipality in Finnish Lapland. Home to the Sámi Parliament and the Siida Sámi Museum."@en ;
+    dcterms:type "town" ;
+    skos:broader np:lappi ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-7000"^^xsd:long ;
+    geo:lat "69.0714"^^xsd:decimal ;
+    geo:long "27.0139"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/656687/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q125897> .
+
+# ── 114/206: Porvoo (city) ──
+np:porvoo a skos:Concept, schema:City ;
+    rdfs:label "Porvoo"@en ;
+    rdfs:label "Porvoo"@fi ;
+    rdfs:label "Borgå"@sv ;
+    skos:prefLabel "Porvoo"@en ;
+    skos:prefLabel "Porvoo"@fi ;
+    skos:prefLabel "Borgå"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Second-oldest city in Finland. Known for its charming Old Town with red riverside warehouses."@en ;
+    dcterms:type "city" ;
+    skos:broader np:uusimaa ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1346"^^xsd:long ;
+    geo:lat "60.3929"^^xsd:decimal ;
+    geo:long "25.6605"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/639634/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q127260> .
+
+# ── 115/206: Savonlinna (city) ──
+np:savonlinna a skos:Concept, schema:City ;
+    rdfs:label "Savonlinna"@en ;
+    rdfs:label "Savonlinna"@fi ;
+    rdfs:label "Nyslott"@sv ;
+    skos:prefLabel "Savonlinna"@en ;
+    skos:prefLabel "Savonlinna"@fi ;
+    skos:prefLabel "Nyslott"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "City in eastern Finland. Famous for the Olavinlinna Castle and the annual Savonlinna Opera Festival."@en ;
+    dcterms:type "city" ;
+    skos:broader np:savo ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1475"^^xsd:long ;
+    geo:lat "61.8684"^^xsd:decimal ;
+    geo:long "28.8782"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/637292/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q127261> .
+
+# ── 116/206: Rauma (city) ──
+np:rauma a skos:Concept, schema:City ;
+    rdfs:label "Rauma"@en ;
+    rdfs:label "Rauma"@fi ;
+    rdfs:label "Raumo"@sv ;
+    skos:prefLabel "Rauma"@en ;
+    skos:prefLabel "Rauma"@fi ;
+    skos:prefLabel "Raumo"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "City in western Finland. UNESCO World Heritage Old Rauma is the largest unified wooden town in the Nordic countries."@en ;
+    dcterms:type "city" ;
+    skos:broader np:satakunta ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1442"^^xsd:long ;
+    geo:lat "61.1273"^^xsd:decimal ;
+    geo:long "21.5073"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/639631/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q127262> .
+
+# ── 117/206: Enontekiö (town) ──
+np:enontekio a skos:Concept, schema:City ;
+    rdfs:label "Enontekiö"@en ;
+    rdfs:label "Enontekiö"@fi ;
+    rdfs:label "Eanodat"@se ;
+    rdfs:label "Enontekis"@sv ;
+    skos:prefLabel "Enontekiö"@en ;
+    skos:prefLabel "Enontekiö"@fi ;
+    skos:prefLabel "Eanodat"@se ;
+    skos:prefLabel "Enontekis"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Municipality in northwestern Finnish Lapland. Important Sámi community near the border with Norway and Sweden."@en ;
+    dcterms:type "town" ;
+    skos:broader np:lappi ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-5000"^^xsd:long ;
+    geo:lat "68.4064"^^xsd:decimal ;
+    geo:long "23.6341"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/660541/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q125898> .
+
+# ── 118/206: Denmark (country) ──
+np:denmark a skos:Concept, schema:Country ;
+    rdfs:label "Denmark"@en ;
+    rdfs:label "Danmark"@da ;
+    skos:prefLabel "Denmark"@en ;
+    skos:prefLabel "Danmark"@da ;
+    skos:altLabel "Kongeriget Danmark"@da ;
+    skos:altLabel "Kingdom of Denmark"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Nordic country in northern Europe. Constitutional monarchy and the southernmost Scandinavian country."@en ;
+    dcterms:type "country" ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-12000"^^xsd:long ;
+    geo:lat "56.0"^^xsd:decimal ;
+    geo:long "10.0"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2623032/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q35> .
+
+# ── 119/206: Jutland (region) ──
+np:jutland a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Jutland"@en ;
+    rdfs:label "Jylland"@da ;
+    rdfs:label "Jütland"@de ;
+    skos:prefLabel "Jutland"@en ;
+    skos:prefLabel "Jylland"@da ;
+    skos:prefLabel "Jütland"@de ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Peninsula forming the continental portion of Denmark. Also historically includes Schleswig-Holstein."@en ;
+    dcterms:type "region" ;
+    skos:broader np:denmark ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-12000"^^xsd:long ;
+    geo:lat "56.0"^^xsd:decimal ;
+    geo:long "9.5"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2621830/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q32479> .
+
+# ── 120/206: Zealand (island) ──
+np:zealand a skos:Concept, schema:Place ;
+    rdfs:label "Zealand"@en ;
+    rdfs:label "Sjælland"@da ;
+    skos:prefLabel "Zealand"@en ;
+    skos:prefLabel "Sjælland"@da ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Largest island in Denmark and most populous. Home to Copenhagen and Roskilde."@en ;
+    dcterms:type "island" ;
+    skos:broader np:denmark ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-10000"^^xsd:long ;
+    geo:lat "55.5"^^xsd:decimal ;
+    geo:long "11.8"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2613119/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q13430> .
+
+# ── 121/206: Funen (island) ──
+np:funen a skos:Concept, schema:Place ;
+    rdfs:label "Funen"@en ;
+    rdfs:label "Fyn"@da ;
+    skos:prefLabel "Funen"@en ;
+    skos:prefLabel "Fyn"@da ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Third-largest island in Denmark. Known as the Garden of Denmark. Birthplace of Hans Christian Andersen."@en ;
+    dcterms:type "island" ;
+    skos:broader np:denmark ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-10000"^^xsd:long ;
+    geo:lat "55.33"^^xsd:decimal ;
+    geo:long "10.37"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2622380/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q26169> .
+
+# ── 122/206: Bornholm (island) ──
+np:bornholm a skos:Concept, schema:Place ;
+    rdfs:label "Bornholm"@en ;
+    rdfs:label "Bornholm"@da ;
+    skos:prefLabel "Bornholm"@en ;
+    skos:prefLabel "Bornholm"@da ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Danish island in the Baltic Sea east of the rest of Denmark. Known for round churches and smoked herring."@en ;
+    dcterms:type "island" ;
+    skos:broader np:denmark ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-8000"^^xsd:long ;
+    geo:lat "55.13"^^xsd:decimal ;
+    geo:long "14.92"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2624537/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q26169> .
+
+# ── 123/206: North Jutland (region) ──
+np:north-jutland a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "North Jutland"@en ;
+    rdfs:label "Nordjylland"@da ;
+    skos:prefLabel "North Jutland"@en ;
+    skos:prefLabel "Nordjylland"@da ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Northernmost region of Jutland. Includes the Skagen headland where the North Sea meets the Kattegat."@en ;
+    dcterms:type "region" ;
+    skos:broader np:jutland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-10000"^^xsd:long ;
+    geo:lat "57.2"^^xsd:decimal ;
+    geo:long "9.9"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2615876/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q26101> .
+
+# ── 124/206: South Jutland (region) ──
+np:south-jutland a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "South Jutland"@en ;
+    rdfs:label "Sønderjylland"@da ;
+    rdfs:label "Nordschleswig"@de ;
+    skos:prefLabel "South Jutland"@en ;
+    skos:prefLabel "Sønderjylland"@da ;
+    skos:prefLabel "Nordschleswig"@de ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Southern Jutland, historically disputed between Denmark and Germany. Reunited with Denmark in 1920."@en ;
+    dcterms:type "region" ;
+    skos:broader np:jutland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-10000"^^xsd:long ;
+    geo:lat "55.1"^^xsd:decimal ;
+    geo:long "9.2"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2614027/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q26102> .
+
+# ── 125/206: Lolland (island) ──
+np:lolland a skos:Concept, schema:Place ;
+    rdfs:label "Lolland"@en ;
+    rdfs:label "Lolland"@da ;
+    skos:prefLabel "Lolland"@en ;
+    skos:prefLabel "Lolland"@da ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Fourth-largest island in Denmark. Known for sugar beet farming and the Knuthenborg Safari Park."@en ;
+    dcterms:type "island" ;
+    skos:broader np:denmark ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-8000"^^xsd:long ;
+    geo:lat "54.77"^^xsd:decimal ;
+    geo:long "11.5"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2618683/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q26169> .
+
+# ── 126/206: Greenland (region) ──
+np:greenland a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Greenland"@en ;
+    rdfs:label "Grønland"@da ;
+    rdfs:label "Kalaallit Nunaat"@kl ;
+    skos:prefLabel "Greenland"@en ;
+    skos:prefLabel "Grønland"@da ;
+    skos:prefLabel "Kalaallit Nunaat"@kl ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Autonomous territory within the Kingdom of Denmark. World's largest island. Home to Inuit peoples."@en ;
+    dcterms:type "region" ;
+    skos:broader np:denmark ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-2500"^^xsd:long ;
+    geo:lat "72.0"^^xsd:decimal ;
+    geo:long "-40.0"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3425505/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q223> .
+
+# ── 127/206: Faroe Islands (region) ──
+np:faroe-islands a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Faroe Islands"@en ;
+    rdfs:label "Færøerne"@da ;
+    rdfs:label "Føroyar"@fo ;
+    skos:prefLabel "Faroe Islands"@en ;
+    skos:prefLabel "Færøerne"@da ;
+    skos:prefLabel "Føroyar"@fo ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Autonomous territory within the Kingdom of Denmark. Archipelago in the North Atlantic between Norway and Iceland."@en ;
+    dcterms:type "region" ;
+    skos:broader np:denmark ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "800"^^xsd:long ;
+    geo:lat "62.0"^^xsd:decimal ;
+    geo:long "-7.0"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2622320/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q4628> .
+
+# ── 128/206: Copenhagen (city) ──
+np:copenhagen a skos:Concept, schema:City ;
+    rdfs:label "Copenhagen"@en ;
+    rdfs:label "København"@da ;
+    skos:prefLabel "Copenhagen"@en ;
+    skos:prefLabel "København"@da ;
+    skos:altLabel "Københavns Kommune"@da ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Capital of Denmark, founded as a fishing village in the 10th century. Known for Tivoli, the Little Mermaid, and Nyhavn."@en ;
+    dcterms:type "city" ;
+    skos:broader np:zealand ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1167"^^xsd:long ;
+    geo:lat "55.6761"^^xsd:decimal ;
+    geo:long "12.5683"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2618425/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1748> .
+
+# ── 129/206: Aarhus (city) ──
+np:aarhus a skos:Concept, schema:City ;
+    rdfs:label "Aarhus"@en ;
+    rdfs:label "Aarhus"@da ;
+    skos:prefLabel "Aarhus"@en ;
+    skos:prefLabel "Aarhus"@da ;
+    skos:hiddenLabel "Århus"@da ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Second-largest city in Denmark. Viking Age origins. European Capital of Culture 2017."@en ;
+    dcterms:type "city" ;
+    skos:broader np:jutland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "770"^^xsd:long ;
+    geo:lat "56.1629"^^xsd:decimal ;
+    geo:long "10.2039"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2624652/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25471> .
+
+# ── 130/206: Odense (city) ──
+np:odense a skos:Concept, schema:City ;
+    rdfs:label "Odense"@en ;
+    rdfs:label "Odense"@da ;
+    skos:prefLabel "Odense"@en ;
+    skos:prefLabel "Odense"@da ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Third-largest city in Denmark. Named after the Norse god Odin. Birthplace of Hans Christian Andersen."@en ;
+    dcterms:type "city" ;
+    skos:broader np:funen ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "988"^^xsd:long ;
+    geo:lat "55.4038"^^xsd:decimal ;
+    geo:long "10.4024"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2615876/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25414> .
+
+# ── 131/206: Aalborg (city) ──
+np:aalborg a skos:Concept, schema:City ;
+    rdfs:label "Aalborg"@en ;
+    rdfs:label "Aalborg"@da ;
+    skos:prefLabel "Aalborg"@en ;
+    skos:prefLabel "Aalborg"@da ;
+    skos:hiddenLabel "Ålborg"@da ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Fourth-largest city in Denmark. Viking Age settlement with the Lindholm Høje burial site nearby."@en ;
+    dcterms:type "city" ;
+    skos:broader np:north-jutland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1000"^^xsd:long ;
+    geo:lat "57.0488"^^xsd:decimal ;
+    geo:long "9.9217"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2624886/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25410> .
+
+# ── 132/206: Esbjerg (city) ──
+np:esbjerg a skos:Concept, schema:City ;
+    rdfs:label "Esbjerg"@en ;
+    rdfs:label "Esbjerg"@da ;
+    skos:prefLabel "Esbjerg"@en ;
+    skos:prefLabel "Esbjerg"@da ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "City on the west coast of Jutland. Denmark's largest North Sea port."@en ;
+    dcterms:type "city" ;
+    skos:broader np:jutland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1868"^^xsd:long ;
+    geo:lat "55.4764"^^xsd:decimal ;
+    geo:long "8.4594"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2622447/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25411> .
+
+# ── 133/206: Roskilde (city) ──
+np:roskilde a skos:Concept, schema:City ;
+    rdfs:label "Roskilde"@en ;
+    rdfs:label "Roskilde"@da ;
+    skos:prefLabel "Roskilde"@en ;
+    skos:prefLabel "Roskilde"@da ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Historic city on Zealand. Former capital of Denmark. UNESCO-listed Roskilde Cathedral houses royal tombs."@en ;
+    dcterms:type "city" ;
+    skos:broader np:zealand ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "980"^^xsd:long ;
+    geo:lat "55.6416"^^xsd:decimal ;
+    geo:long "12.0879"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2614481/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25412> .
+
+# ── 134/206: Helsingør (city) ──
+np:helsingore a skos:Concept, schema:City ;
+    rdfs:label "Helsingør"@en ;
+    rdfs:label "Helsingør"@da ;
+    skos:prefLabel "Helsingør"@en ;
+    skos:prefLabel "Helsingør"@da ;
+    skos:altLabel "Elsinore"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "City in northeastern Zealand. Home to Kronborg Castle, the setting of Shakespeare's Hamlet."@en ;
+    dcterms:type "city" ;
+    skos:broader np:zealand ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1231"^^xsd:long ;
+    geo:lat "56.0361"^^xsd:decimal ;
+    geo:long "12.6136"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2620473/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25413> .
+
+# ── 135/206: Ribe (town) ──
+np:ribe a skos:Concept, schema:City ;
+    rdfs:label "Ribe"@en ;
+    rdfs:label "Ribe"@da ;
+    skos:prefLabel "Ribe"@en ;
+    skos:prefLabel "Ribe"@da ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Oldest continuously inhabited town in Scandinavia, founded c. 710 CE. Well-preserved medieval centre."@en ;
+    dcterms:type "town" ;
+    skos:broader np:jutland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "710"^^xsd:long ;
+    geo:lat "55.3306"^^xsd:decimal ;
+    geo:long "8.7595"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2614553/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25415> .
+
+# ── 136/206: Skagen (town) ──
+np:skagen a skos:Concept, schema:City ;
+    rdfs:label "Skagen"@en ;
+    rdfs:label "Skagen"@da ;
+    skos:prefLabel "Skagen"@en ;
+    skos:prefLabel "Skagen"@da ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Northernmost town in Denmark where the Skagerrak and Kattegat seas meet. Famous for the Skagen Painters."@en ;
+    dcterms:type "town" ;
+    skos:broader np:north-jutland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1413"^^xsd:long ;
+    geo:lat "57.7209"^^xsd:decimal ;
+    geo:long "10.5839"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2613483/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q264668> .
+
+# ── 137/206: Hillerød (city) ──
+np:hillerod a skos:Concept, schema:City ;
+    rdfs:label "Hillerød"@en ;
+    rdfs:label "Hillerød"@da ;
+    skos:prefLabel "Hillerød"@en ;
+    skos:prefLabel "Hillerød"@da ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "City in northern Zealand. Home to Frederiksborg Castle, the largest Renaissance palace in Scandinavia."@en ;
+    dcterms:type "city" ;
+    skos:broader np:zealand ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1550"^^xsd:long ;
+    geo:lat "55.9296"^^xsd:decimal ;
+    geo:long "12.3035"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2620245/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q158671> .
+
+# ── 138/206: Tórshavn (city) ──
+np:torshavn a skos:Concept, schema:City ;
+    rdfs:label "Tórshavn"@en ;
+    rdfs:label "Thorshavn"@da ;
+    rdfs:label "Tórshavn"@fo ;
+    skos:prefLabel "Tórshavn"@en ;
+    skos:prefLabel "Thorshavn"@da ;
+    skos:prefLabel "Tórshavn"@fo ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Capital of the Faroe Islands. One of the smallest capitals in the world. Named after the Norse god Thor."@en ;
+    dcterms:type "city" ;
+    skos:broader np:faroe-islands ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "850"^^xsd:long ;
+    geo:lat "62.0107"^^xsd:decimal ;
+    geo:long "-6.7716"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2611396/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25428> .
+
+# ── 139/206: Nuuk (city) ──
+np:nuuk a skos:Concept, schema:City ;
+    rdfs:label "Nuuk"@en ;
+    rdfs:label "Godthåb"@da ;
+    rdfs:label "Nuuk"@kl ;
+    skos:prefLabel "Nuuk"@en ;
+    skos:prefLabel "Godthåb"@da ;
+    skos:prefLabel "Nuuk"@kl ;
+    skos:hiddenLabel "Godthåb"@da ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Capital of Greenland. Founded as Godthåb in 1728 by Hans Egede. Smallest capital in the Nordic countries."@en ;
+    dcterms:type "city" ;
+    skos:broader np:greenland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1728"^^xsd:long ;
+    geo:lat "64.1748"^^xsd:decimal ;
+    geo:long "-51.7389"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3421319/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3516> .
+
+# ── 140/206: Kolding (city) ──
+np:kolding a skos:Concept, schema:City ;
+    rdfs:label "Kolding"@en ;
+    rdfs:label "Kolding"@da ;
+    skos:prefLabel "Kolding"@en ;
+    skos:prefLabel "Kolding"@da ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "City in southeastern Jutland. Home to Koldinghus, a royal castle dating from the 13th century."@en ;
+    dcterms:type "city" ;
+    skos:broader np:jutland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1231"^^xsd:long ;
+    geo:lat "55.4904"^^xsd:decimal ;
+    geo:long "9.4702"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2618827/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25419> .
+
+# ── 141/206: Vejle (city) ──
+np:vejle a skos:Concept, schema:City ;
+    rdfs:label "Vejle"@en ;
+    rdfs:label "Vejle"@da ;
+    skos:prefLabel "Vejle"@en ;
+    skos:prefLabel "Vejle"@da ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "City at the head of Vejle Fjord. Known for the Haraldskær Woman, a preserved Iron Age bog body."@en ;
+    dcterms:type "city" ;
+    skos:broader np:jutland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1256"^^xsd:long ;
+    geo:lat "55.7093"^^xsd:decimal ;
+    geo:long "9.5357"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2610613/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25420> .
+
+# ── 142/206: Svendborg (city) ──
+np:svendborg a skos:Concept, schema:City ;
+    rdfs:label "Svendborg"@en ;
+    rdfs:label "Svendborg"@da ;
+    skos:prefLabel "Svendborg"@en ;
+    skos:prefLabel "Svendborg"@da ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "City on southern Funen. Gateway to the South Funen Archipelago and maritime museum centre."@en ;
+    dcterms:type "city" ;
+    skos:broader np:funen ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1253"^^xsd:long ;
+    geo:lat "55.0596"^^xsd:decimal ;
+    geo:long "10.6069"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2612045/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25421> .
+
+# ── 143/206: Iceland (country) ──
+np:iceland a skos:Concept, schema:Country ;
+    rdfs:label "Iceland"@en ;
+    rdfs:label "Ísland"@is ;
+    skos:prefLabel "Iceland"@en ;
+    skos:prefLabel "Ísland"@is ;
+    skos:altLabel "Republic of Iceland"@en ;
+    skos:altLabel "Lýðveldið Ísland"@is ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Nordic island country in the North Atlantic. Settled by Norse Vikings c. 870 CE. Home of the Althing, the world's oldest parliament."@en ;
+    dcterms:type "country" ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "874"^^xsd:long ;
+    geo:lat "64.963"^^xsd:decimal ;
+    geo:long "-19.021"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2629691/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q189> .
+
+# ── 144/206: Capital Region (region) ──
+np:capital-region-iceland a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Capital Region"@en ;
+    rdfs:label "Höfuðborgarsvæðið"@is ;
+    skos:prefLabel "Capital Region"@en ;
+    skos:prefLabel "Höfuðborgarsvæðið"@is ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Most populous region of Iceland, containing Reykjavík and surrounding municipalities."@en ;
+    dcterms:type "region" ;
+    skos:broader np:iceland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "874"^^xsd:long ;
+    geo:lat "64.13"^^xsd:decimal ;
+    geo:long "-21.9"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q852482> .
+
+# ── 145/206: South Iceland (region) ──
+np:southern-iceland a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "South Iceland"@en ;
+    rdfs:label "Suðurland"@is ;
+    skos:prefLabel "South Iceland"@en ;
+    skos:prefLabel "Suðurland"@is ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Southern region of Iceland. Home to Þingvellir, Gullfoss, Geysir, and Skógafoss."@en ;
+    dcterms:type "region" ;
+    skos:broader np:iceland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "874"^^xsd:long ;
+    geo:lat "63.8"^^xsd:decimal ;
+    geo:long "-20.0"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q852483> .
+
+# ── 146/206: West Iceland (region) ──
+np:western-iceland a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "West Iceland"@en ;
+    rdfs:label "Vesturland"@is ;
+    skos:prefLabel "West Iceland"@en ;
+    skos:prefLabel "Vesturland"@is ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Western Iceland including the Snæfellsnes peninsula and Borgarfjörður."@en ;
+    dcterms:type "region" ;
+    skos:broader np:iceland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "874"^^xsd:long ;
+    geo:lat "64.8"^^xsd:decimal ;
+    geo:long "-21.5"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q852484> .
+
+# ── 147/206: Westfjords (region) ──
+np:westfjords a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Westfjords"@en ;
+    rdfs:label "Vestfirðir"@is ;
+    skos:prefLabel "Westfjords"@en ;
+    skos:prefLabel "Vestfirðir"@is ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Remote northwestern peninsula. Iceland's least populated region with dramatic fjord scenery."@en ;
+    dcterms:type "region" ;
+    skos:broader np:iceland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "890"^^xsd:long ;
+    geo:lat "65.8"^^xsd:decimal ;
+    geo:long "-22.5"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q852485> .
+
+# ── 148/206: North Iceland (region) ──
+np:northern-iceland a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "North Iceland"@en ;
+    rdfs:label "Norðurland"@is ;
+    skos:prefLabel "North Iceland"@en ;
+    skos:prefLabel "Norðurland"@is ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Northern region of Iceland. Includes Akureyri, Húsavík, and Lake Mývatn."@en ;
+    dcterms:type "region" ;
+    skos:broader np:iceland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "874"^^xsd:long ;
+    geo:lat "65.7"^^xsd:decimal ;
+    geo:long "-18.0"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q852486> .
+
+# ── 149/206: East Iceland (region) ──
+np:eastern-iceland a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "East Iceland"@en ;
+    rdfs:label "Austfirðir"@is ;
+    skos:prefLabel "East Iceland"@en ;
+    skos:prefLabel "Austfirðir"@is ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Eastern region known for its fjords, reindeer herds, and the town of Egilsstaðir."@en ;
+    dcterms:type "region" ;
+    skos:broader np:iceland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "880"^^xsd:long ;
+    geo:lat "65.0"^^xsd:decimal ;
+    geo:long "-14.5"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q852487> .
+
+# ── 150/206: Reykjavík (city) ──
+np:reykjavik a skos:Concept, schema:City ;
+    rdfs:label "Reykjavík"@en ;
+    rdfs:label "Reykjavík"@is ;
+    skos:prefLabel "Reykjavík"@en ;
+    skos:prefLabel "Reykjavík"@is ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Capital and largest city of Iceland. World's northernmost capital of a sovereign state. Founded as a permanent settlement in 874 CE."@en ;
+    dcterms:type "city" ;
+    skos:broader np:capital-region-iceland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "874"^^xsd:long ;
+    geo:lat "64.1466"^^xsd:decimal ;
+    geo:long "-21.9426"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3413829/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1764> .
+
+# ── 151/206: Akureyri (city) ──
+np:akureyri a skos:Concept, schema:City ;
+    rdfs:label "Akureyri"@en ;
+    rdfs:label "Akureyri"@is ;
+    skos:prefLabel "Akureyri"@en ;
+    skos:prefLabel "Akureyri"@is ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Second-largest urban area in Iceland. Known as the Capital of the North, located on Eyjafjörður."@en ;
+    dcterms:type "city" ;
+    skos:broader np:northern-iceland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1562"^^xsd:long ;
+    geo:lat "65.6835"^^xsd:decimal ;
+    geo:long "-18.0878"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3424607/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q128316> .
+
+# ── 152/206: Húsavík (town) ──
+np:husavik a skos:Concept, schema:City ;
+    rdfs:label "Húsavík"@en ;
+    rdfs:label "Húsavík"@is ;
+    skos:prefLabel "Húsavík"@en ;
+    skos:prefLabel "Húsavík"@is ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Town in northern Iceland. Known as Europe's whale-watching capital. Featured in the film Eurovision Song Contest."@en ;
+    dcterms:type "town" ;
+    skos:broader np:northern-iceland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "870"^^xsd:long ;
+    geo:lat "66.0449"^^xsd:decimal ;
+    geo:long "-17.3389"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3416888/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q200042> .
+
+# ── 153/206: Ísafjörður (town) ──
+np:isafjordur a skos:Concept, schema:City ;
+    rdfs:label "Ísafjörður"@en ;
+    rdfs:label "Ísafjörður"@is ;
+    skos:prefLabel "Ísafjörður"@en ;
+    skos:prefLabel "Ísafjörður"@is ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Largest town in the Westfjords. Historic fishing port and cultural centre of the region."@en ;
+    dcterms:type "town" ;
+    skos:broader np:westfjords ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "920"^^xsd:long ;
+    geo:lat "66.0741"^^xsd:decimal ;
+    geo:long "-23.1354"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3416272/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q200044> .
+
+# ── 154/206: Selfoss (town) ──
+np:selfoss a skos:Concept, schema:City ;
+    rdfs:label "Selfoss"@en ;
+    rdfs:label "Selfoss"@is ;
+    skos:prefLabel "Selfoss"@en ;
+    skos:prefLabel "Selfoss"@is ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Largest town in southern Iceland. Located on the Ölfusá river."@en ;
+    dcterms:type "town" ;
+    skos:broader np:southern-iceland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1891"^^xsd:long ;
+    geo:lat "63.9336"^^xsd:decimal ;
+    geo:long "-20.9971"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3413306/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q200045> .
+
+# ── 155/206: Egilsstaðir (town) ──
+np:egilsstadir a skos:Concept, schema:City ;
+    rdfs:label "Egilsstaðir"@en ;
+    rdfs:label "Egilsstaðir"@is ;
+    skos:prefLabel "Egilsstaðir"@en ;
+    skos:prefLabel "Egilsstaðir"@is ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Largest town in eastern Iceland. Major transport hub and gateway to the eastern fjords."@en ;
+    dcterms:type "town" ;
+    skos:broader np:eastern-iceland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1944"^^xsd:long ;
+    geo:lat "65.2531"^^xsd:decimal ;
+    geo:long "-14.3948"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3418399/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q200046> .
+
+# ── 156/206: Vík í Mýrdal (village) ──
+np:vik a skos:Concept, schema:Place ;
+    rdfs:label "Vík í Mýrdal"@en ;
+    rdfs:label "Vík í Mýrdal"@is ;
+    skos:prefLabel "Vík í Mýrdal"@en ;
+    skos:prefLabel "Vík í Mýrdal"@is ;
+    skos:altLabel "Vík"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Southernmost village in Iceland. Known for its black sand beach Reynisfjara."@en ;
+    dcterms:type "village" ;
+    skos:broader np:southern-iceland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "900"^^xsd:long ;
+    geo:lat "63.4186"^^xsd:decimal ;
+    geo:long "-19.006"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3412093/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q200047> .
+
+# ── 157/206: Þingvellir (archaeological-site) ──
+np:thingvellir a skos:Concept, schema:LandmarksOrHistoricalBuildings ;
+    rdfs:label "Þingvellir"@en ;
+    rdfs:label "Þingvellir"@is ;
+    skos:prefLabel "Þingvellir"@en ;
+    skos:prefLabel "Þingvellir"@is ;
+    skos:altLabel "Thingvellir"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "UNESCO World Heritage Site. Location of the Althing (est. 930 CE), the world's oldest surviving parliament. Sits on the Mid-Atlantic Ridge."@en ;
+    dcterms:type "archaeological-site" ;
+    skos:broader np:southern-iceland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "930"^^xsd:long ;
+    geo:lat "64.2559"^^xsd:decimal ;
+    geo:long "-21.129"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3412761/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q187178> .
+
+# ── 158/206: Skálholt (archaeological-site) ──
+np:skalholt a skos:Concept, schema:LandmarksOrHistoricalBuildings ;
+    rdfs:label "Skálholt"@en ;
+    rdfs:label "Skálholt"@is ;
+    skos:prefLabel "Skálholt"@en ;
+    skos:prefLabel "Skálholt"@is ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Historic episcopal see and cultural centre of Iceland from 1056 to 1785. One of the most important sites in Icelandic history."@en ;
+    dcterms:type "archaeological-site" ;
+    skos:broader np:southern-iceland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1056"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineEnd> "1785"^^xsd:long ;
+    geo:lat "64.1287"^^xsd:decimal ;
+    geo:long "-20.5264"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3413386/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q741226> .
+
+# ── 159/206: Sápmi (region) ──
+np:sapmi a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Sápmi"@en ;
+    rdfs:label "Saamenalue"@fi ;
+    rdfs:label "Sameland"@nb ;
+    rdfs:label "Sápmi"@se ;
+    rdfs:label "Sameland"@sv ;
+    skos:prefLabel "Sápmi"@en ;
+    skos:prefLabel "Saamenalue"@fi ;
+    skos:prefLabel "Sameland"@nb ;
+    skos:prefLabel "Sápmi"@se ;
+    skos:prefLabel "Sameland"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Cultural region of the Sámi people spanning northern Norway, Sweden, Finland, and the Kola Peninsula of Russia."@en ;
+    dcterms:type "region" ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-8000"^^xsd:long ;
+    geo:lat "68.5"^^xsd:decimal ;
+    geo:long "22.0"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q47345> .
+
+# ── 160/206: Tromsø Sámi area (region) ──
+np:tromso-sami a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Tromsø Sámi area"@en ;
+    rdfs:label "Tromsø samiske område"@nb ;
+    rdfs:label "Romsa"@se ;
+    skos:prefLabel "Tromsø Sámi area"@en ;
+    skos:prefLabel "Tromsø samiske område"@nb ;
+    skos:prefLabel "Romsa"@se ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Sámi cultural area around Tromsø in northern Norway. Important centre for coastal Sámi culture."@en ;
+    dcterms:type "region" ;
+    skos:broader np:sapmi ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-6000"^^xsd:long ;
+    geo:lat "69.65"^^xsd:decimal ;
+    geo:long "18.96"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25474> .
+
+# ── 161/206: Finnmark Sámi area (region) ──
+np:finnmark-sami a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Finnmark Sámi area"@en ;
+    rdfs:label "Finnmark samisk område"@nb ;
+    rdfs:label "Finnmárku"@se ;
+    skos:prefLabel "Finnmark Sámi area"@en ;
+    skos:prefLabel "Finnmark samisk område"@nb ;
+    skos:prefLabel "Finnmárku"@se ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Sámi heartland in northernmost Norway. Home to the Sámi Parliament (Sámediggi) in Karasjok."@en ;
+    dcterms:type "region" ;
+    skos:broader np:sapmi ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-8000"^^xsd:long ;
+    geo:lat "70.0"^^xsd:decimal ;
+    geo:long "26.0"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q50621> .
+
+# ── 162/206: Norrbotten Sámi area (region) ──
+np:norrbotten-sami a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Norrbotten Sámi area"@en ;
+    rdfs:label "Norrbottena"@se ;
+    rdfs:label "Norrbottens samiska område"@sv ;
+    skos:prefLabel "Norrbotten Sámi area"@en ;
+    skos:prefLabel "Norrbottena"@se ;
+    skos:prefLabel "Norrbottens samiska område"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Sámi cultural area in northernmost Sweden. Major reindeer herding region with several Sámi villages (samebyar)."@en ;
+    dcterms:type "region" ;
+    skos:broader np:sapmi ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-5000"^^xsd:long ;
+    geo:lat "67.0"^^xsd:decimal ;
+    geo:long "20.0"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q103703> .
+
+# ── 163/206: Lule Sámi area (region) ──
+np:lule-sami-area a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Lule Sámi area"@en ;
+    rdfs:label "Julevsábme"@se ;
+    rdfs:label "Lulesamiskt område"@sv ;
+    skos:prefLabel "Lule Sámi area"@en ;
+    skos:prefLabel "Julevsábme"@se ;
+    skos:prefLabel "Lulesamiskt område"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Region in northern Sweden and Norway where the Lule Sámi language and culture are centred."@en ;
+    dcterms:type "region" ;
+    skos:broader np:sapmi ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-5000"^^xsd:long ;
+    geo:lat "66.8"^^xsd:decimal ;
+    geo:long "19.5"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q56395> .
+
+# ── 164/206: South Sámi area (region) ──
+np:south-sami-area a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "South Sámi area"@en ;
+    rdfs:label "Sørsamisk område"@nb ;
+    rdfs:label "Åarjelsaemien dajve"@se ;
+    rdfs:label "Sydsamiskt område"@sv ;
+    skos:prefLabel "South Sámi area"@en ;
+    skos:prefLabel "Sørsamisk område"@nb ;
+    skos:prefLabel "Åarjelsaemien dajve"@se ;
+    skos:prefLabel "Sydsamiskt område"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Southernmost Sámi area spanning central Norway and Sweden. Distinct South Sámi language and culture."@en ;
+    dcterms:type "region" ;
+    skos:broader np:sapmi ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-4000"^^xsd:long ;
+    geo:lat "63.5"^^xsd:decimal ;
+    geo:long "14.5"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q56396> .
+
+# ── 165/206: Inari Sámi area (region) ──
+np:inari-sami-area a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Inari Sámi area"@en ;
+    rdfs:label "Inarinsaamelainen alue"@fi ;
+    rdfs:label "Anárašgiella guovlu"@se ;
+    skos:prefLabel "Inari Sámi area"@en ;
+    skos:prefLabel "Inarinsaamelainen alue"@fi ;
+    skos:prefLabel "Anárašgiella guovlu"@se ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Area around Lake Inari in Finnish Lapland. Home to the Inari Sámi, one of the smallest Sámi groups."@en ;
+    dcterms:type "region" ;
+    skos:broader np:sapmi ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-7000"^^xsd:long ;
+    geo:lat "69.07"^^xsd:decimal ;
+    geo:long "27.01"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q125897> .
+
+# ── 166/206: Skolt Sámi area (region) ──
+np:skolt-sami-area a skos:Concept, schema:AdministrativeArea ;
+    rdfs:label "Skolt Sámi area"@en ;
+    rdfs:label "Kolttasaamelainen alue"@fi ;
+    skos:prefLabel "Skolt Sámi area"@en ;
+    skos:prefLabel "Kolttasaamelainen alue"@fi ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Easternmost Sámi area in Finland and Russia. The Skolt Sámi were resettled after WWII."@en ;
+    dcterms:type "region" ;
+    skos:broader np:sapmi ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-5000"^^xsd:long ;
+    geo:lat "69.5"^^xsd:decimal ;
+    geo:long "28.5"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q56398> .
+
+# ── 167/206: Karasjok (town) ──
+np:karasjok a skos:Concept, schema:City ;
+    rdfs:label "Karasjok"@en ;
+    rdfs:label "Karasjok"@nb ;
+    rdfs:label "Kárášjohka"@se ;
+    skos:prefLabel "Karasjok"@en ;
+    skos:prefLabel "Karasjok"@nb ;
+    skos:prefLabel "Kárášjohka"@se ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Seat of the Norwegian Sámi Parliament (Sámediggi). Important centre of Sámi political and cultural life."@en ;
+    dcterms:type "town" ;
+    skos:broader np:finnmark-sami ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1553"^^xsd:long ;
+    geo:lat "69.4717"^^xsd:decimal ;
+    geo:long "25.5108"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3150616/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q131647> .
+
+# ── 168/206: Kiruna (city) ──
+np:giron a skos:Concept, schema:City ;
+    rdfs:label "Kiruna"@en ;
+    rdfs:label "Giron"@se ;
+    rdfs:label "Kiruna"@sv ;
+    skos:prefLabel "Kiruna"@en ;
+    skos:prefLabel "Giron"@se ;
+    skos:prefLabel "Kiruna"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "City known as Giron in Northern Sámi. Sweden's northernmost city, currently being relocated due to mining."@en ;
+    dcterms:type "city" ;
+    skos:broader np:norrbotten-sami ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1900"^^xsd:long ;
+    geo:lat "67.8558"^^xsd:decimal ;
+    geo:long "20.2253"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/604490/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25295> .
+
+# ── 169/206: Kautokeino (town) ──
+np:guovdageaidnu a skos:Concept, schema:City ;
+    rdfs:label "Kautokeino"@en ;
+    rdfs:label "Kautokeino"@nb ;
+    rdfs:label "Guovdageaidnu"@se ;
+    skos:prefLabel "Kautokeino"@en ;
+    skos:prefLabel "Kautokeino"@nb ;
+    skos:prefLabel "Guovdageaidnu"@se ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Major Sámi cultural centre. Home to the Sámi University of Applied Sciences, the International Sámi Film Institute, and the Beaivváš Sámi Theatre."@en ;
+    dcterms:type "town" ;
+    skos:broader np:finnmark-sami ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1553"^^xsd:long ;
+    geo:lat "69.0124"^^xsd:decimal ;
+    geo:long "23.0402"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3150613/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q131646> .
+
+# ── 170/206: Inari (town) ──
+np:aanaar a skos:Concept, schema:City ;
+    rdfs:label "Inari"@en ;
+    rdfs:label "Inari"@fi ;
+    rdfs:label "Anár"@se ;
+    skos:prefLabel "Inari"@en ;
+    skos:prefLabel "Inari"@fi ;
+    skos:prefLabel "Anár"@se ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Known as Anár in Northern Sámi. Home to the Finnish Sámi Parliament and the Siida Sámi Museum."@en ;
+    dcterms:type "town" ;
+    skos:broader np:inari-sami-area ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-7000"^^xsd:long ;
+    geo:lat "69.0714"^^xsd:decimal ;
+    geo:long "27.0139"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/656687/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q125897> .
+
+# ── 171/206: Jokkmokk (town) ──
+np:jokkmokk-sami a skos:Concept, schema:City ;
+    rdfs:label "Jokkmokk"@en ;
+    rdfs:label "Jåhkåmåhkke"@se ;
+    rdfs:label "Jokkmokk"@sv ;
+    skos:prefLabel "Jokkmokk"@en ;
+    skos:prefLabel "Jåhkåmåhkke"@se ;
+    skos:prefLabel "Jokkmokk"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Known as Jåhkåmåhkke in Lule Sámi. Host of the Jokkmokk Winter Market (since 1605), a major Sámi cultural event."@en ;
+    dcterms:type "town" ;
+    skos:broader np:norrbotten-sami ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1605"^^xsd:long ;
+    geo:lat "66.6082"^^xsd:decimal ;
+    geo:long "19.8286"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2703841/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q189144> .
+
+# ── 172/206: Snåsa (town) ──
+np:snasa a skos:Concept, schema:City ;
+    rdfs:label "Snåsa"@en ;
+    rdfs:label "Snåsa"@nb ;
+    rdfs:label "Snåase"@se ;
+    skos:prefLabel "Snåsa"@en ;
+    skos:prefLabel "Snåsa"@nb ;
+    skos:prefLabel "Snåase"@se ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Known as Snåase in South Sámi. Centre of South Sámi culture with bilingual signage and Sámi kindergarten."@en ;
+    dcterms:type "town" ;
+    skos:broader np:south-sami-area ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-2000"^^xsd:long ;
+    geo:lat "64.2261"^^xsd:decimal ;
+    geo:long "11.8321"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3137069/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q131648> .
+
+# ── 173/206: Tana (town) ──
+np:deatnu a skos:Concept, schema:City ;
+    rdfs:label "Tana"@en ;
+    rdfs:label "Tana"@nb ;
+    rdfs:label "Deatnu"@se ;
+    skos:prefLabel "Tana"@en ;
+    skos:prefLabel "Tana"@nb ;
+    skos:prefLabel "Deatnu"@se ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Known as Deatnu in Northern Sámi. Located along the Tana River, one of Europe's best Atlantic salmon rivers."@en ;
+    dcterms:type "town" ;
+    skos:broader np:finnmark-sami ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-7000"^^xsd:long ;
+    geo:lat "70.0064"^^xsd:decimal ;
+    geo:long "27.0021"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3134688/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q131649> .
+
+# ── 174/206: Gällivare (city) ──
+np:gallivare-sami a skos:Concept, schema:City ;
+    rdfs:label "Gällivare"@en ;
+    rdfs:label "Váhčir"@se ;
+    rdfs:label "Gällivare"@sv ;
+    skos:prefLabel "Gällivare"@en ;
+    skos:prefLabel "Váhčir"@se ;
+    skos:prefLabel "Gällivare"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Known as Váhčir in Northern Sámi. Mining town in Norrbotten with significant Sámi population."@en ;
+    dcterms:type "city" ;
+    skos:broader np:norrbotten-sami ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1735"^^xsd:long ;
+    geo:lat "67.1341"^^xsd:decimal ;
+    geo:long "20.6532"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2712669/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25306> .
+
+# ── 175/206: Neiden (village) ──
+np:neiden a skos:Concept, schema:Place ;
+    rdfs:label "Neiden"@en ;
+    rdfs:label "Neiden"@nb ;
+    rdfs:label "Njauddâm"@se ;
+    skos:prefLabel "Neiden"@en ;
+    skos:prefLabel "Neiden"@nb ;
+    skos:prefLabel "Njauddâm"@se ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Village in Sør-Varanger municipality. Important Skolt Sámi centre with the historic St. George's Chapel."@en ;
+    dcterms:type "village" ;
+    skos:broader np:finnmark-sami ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-5000"^^xsd:long ;
+    geo:lat "69.7283"^^xsd:decimal ;
+    geo:long "29.3467"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3144741/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2559716> .
+
+# ── 176/206: Hattfjelldal (town) ──
+np:hattfjelldal a skos:Concept, schema:City ;
+    rdfs:label "Hattfjelldal"@en ;
+    rdfs:label "Hattfjelldal"@nb ;
+    rdfs:label "Aarborte"@se ;
+    skos:prefLabel "Hattfjelldal"@en ;
+    skos:prefLabel "Hattfjelldal"@nb ;
+    skos:prefLabel "Aarborte"@se ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Known as Aarborte in South Sámi. Centre of South Sámi culture in Norway with traditional handicrafts (duodji)."@en ;
+    dcterms:type "town" ;
+    skos:broader np:south-sami-area ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-2000"^^xsd:long ;
+    geo:lat "65.5746"^^xsd:decimal ;
+    geo:long "13.9869"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3153832/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q131650> .
+
+# ── 177/206: Birka (archaeological-site) ──
+np:birka a skos:Concept, schema:LandmarksOrHistoricalBuildings ;
+    rdfs:label "Birka"@en ;
+    rdfs:label "Birka"@sv ;
+    skos:prefLabel "Birka"@en ;
+    skos:prefLabel "Birka"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "UNESCO World Heritage Site. Viking Age trading centre on the island of Björkö in Lake Mälaren, active c. 750–975 CE."@en ;
+    dcterms:type "archaeological-site" ;
+    skos:broader np:uppland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "750"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineEnd> "975"^^xsd:long ;
+    geo:lat "59.3309"^^xsd:decimal ;
+    geo:long "17.5467"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2723265/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q82067> .
+
+# ── 178/206: Old Uppsala (archaeological-site) ──
+np:gamla-uppsala a skos:Concept, schema:LandmarksOrHistoricalBuildings ;
+    rdfs:label "Old Uppsala"@en ;
+    rdfs:label "Gamla Uppsala"@sv ;
+    skos:prefLabel "Old Uppsala"@en ;
+    skos:prefLabel "Gamla Uppsala"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Ancient religious and political centre with royal burial mounds dating to the 5th–6th centuries CE. Former seat of the Swedish kings."@en ;
+    dcterms:type "archaeological-site" ;
+    skos:broader np:uppland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "300"^^xsd:long ;
+    geo:lat "59.8981"^^xsd:decimal ;
+    geo:long "17.631"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2712091/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q537789> .
+
+# ── 179/206: Ales Stenar (archaeological-site) ──
+np:ales-stenar a skos:Concept, schema:LandmarksOrHistoricalBuildings ;
+    rdfs:label "Ales Stenar"@en ;
+    rdfs:label "Ales stenar"@sv ;
+    skos:prefLabel "Ales Stenar"@en ;
+    skos:prefLabel "Ales stenar"@sv ;
+    skos:altLabel "Ale's Stones"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Megalithic monument in Scania consisting of 59 boulders forming a 67-metre ship setting. Dated to c. 600 CE."@en ;
+    dcterms:type "archaeological-site" ;
+    skos:broader np:skane ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "600"^^xsd:long ;
+    geo:lat "55.3834"^^xsd:decimal ;
+    geo:long "14.0536"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2726012/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q464743> .
+
+# ── 180/206: Tanum rock carvings (archaeological-site) ──
+np:tanum a skos:Concept, schema:LandmarksOrHistoricalBuildings ;
+    rdfs:label "Tanum rock carvings"@en ;
+    rdfs:label "Tanums hällristningar"@sv ;
+    skos:prefLabel "Tanum rock carvings"@en ;
+    skos:prefLabel "Tanums hällristningar"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "UNESCO World Heritage Site. One of the richest collections of Bronze Age rock art in Europe, dating to c. 1800–500 BCE."@en ;
+    dcterms:type "archaeological-site" ;
+    skos:broader np:bohuslan ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-1800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineEnd> "-500"^^xsd:long ;
+    geo:lat "58.7053"^^xsd:decimal ;
+    geo:long "11.3474"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2670894/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q652232> .
+
+# ── 181/206: Anundshög (archaeological-site) ──
+np:anundshog a skos:Concept, schema:LandmarksOrHistoricalBuildings ;
+    rdfs:label "Anundshög"@en ;
+    rdfs:label "Anundshög"@sv ;
+    skos:prefLabel "Anundshög"@en ;
+    skos:prefLabel "Anundshög"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Sweden's largest burial mound near Västerås. Viking Age ship settings and runestones dating to the 6th–11th centuries."@en ;
+    dcterms:type "archaeological-site" ;
+    skos:broader np:vastmanland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "500"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineEnd> "1100"^^xsd:long ;
+    geo:lat "59.6303"^^xsd:decimal ;
+    geo:long "16.5164"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q617474> .
+
+# ── 182/206: Hovgården (archaeological-site) ──
+np:hovgarden a skos:Concept, schema:LandmarksOrHistoricalBuildings ;
+    rdfs:label "Hovgården"@en ;
+    rdfs:label "Hovgården"@sv ;
+    skos:prefLabel "Hovgården"@en ;
+    skos:prefLabel "Hovgården"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "UNESCO World Heritage Site on the island of Adelsö in Lake Mälaren. Royal estate associated with Birka."@en ;
+    dcterms:type "archaeological-site" ;
+    skos:broader np:uppland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "750"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineEnd> "1000"^^xsd:long ;
+    geo:lat "59.364"^^xsd:decimal ;
+    geo:long "17.546"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q930834> .
+
+# ── 183/206: Sandby borg (archaeological-site) ──
+np:sandby-borg a skos:Concept, schema:LandmarksOrHistoricalBuildings ;
+    rdfs:label "Sandby borg"@en ;
+    rdfs:label "Sandby borg"@sv ;
+    skos:prefLabel "Sandby borg"@en ;
+    skos:prefLabel "Sandby borg"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Migration Period ringfort on Öland, site of a 5th-century massacre. Provides unique insight into the fall of the Roman world."@en ;
+    dcterms:type "archaeological-site" ;
+    skos:broader np:oland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "400"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineEnd> "500"^^xsd:long ;
+    geo:lat "56.6094"^^xsd:decimal ;
+    geo:long "16.5878"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q30049685> .
+
+# ── 184/206: Uppåkra (archaeological-site) ──
+np:uppakra a skos:Concept, schema:LandmarksOrHistoricalBuildings ;
+    rdfs:label "Uppåkra"@en ;
+    rdfs:label "Uppåkra"@sv ;
+    skos:prefLabel "Uppåkra"@en ;
+    skos:prefLabel "Uppåkra"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Iron Age central place and cult site near Lund. Inhabited continuously from c. 100 BCE to 1000 CE, making it one of the longest-lived settlements in southern Scandinavia."@en ;
+    dcterms:type "archaeological-site" ;
+    skos:broader np:skane ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-100"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineEnd> "1000"^^xsd:long ;
+    geo:lat "55.6522"^^xsd:decimal ;
+    geo:long "13.1964"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1747279> .
+
+# ── 185/206: Valsgärde (archaeological-site) ──
+np:valsgarde a skos:Concept, schema:LandmarksOrHistoricalBuildings ;
+    rdfs:label "Valsgärde"@en ;
+    rdfs:label "Valsgärde"@sv ;
+    skos:prefLabel "Valsgärde"@en ;
+    skos:prefLabel "Valsgärde"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Vendel Period boat-burial cemetery near Old Uppsala, dating to c. 600–1050 CE. Rich warrior graves with helmets and shields."@en ;
+    dcterms:type "archaeological-site" ;
+    skos:broader np:uppland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "600"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineEnd> "1050"^^xsd:long ;
+    geo:lat "59.888"^^xsd:decimal ;
+    geo:long "17.641"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1426050> .
+
+# ── 186/206: Vendel (archaeological-site) ──
+np:vendel a skos:Concept, schema:LandmarksOrHistoricalBuildings ;
+    rdfs:label "Vendel"@en ;
+    rdfs:label "Vendel"@sv ;
+    skos:prefLabel "Vendel"@en ;
+    skos:prefLabel "Vendel"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Type site for the Vendel Period (c. 550–790 CE). Famous boat burials with richly decorated helmets."@en ;
+    dcterms:type "archaeological-site" ;
+    skos:broader np:uppland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "550"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineEnd> "790"^^xsd:long ;
+    geo:lat "60.05"^^xsd:decimal ;
+    geo:long "17.98"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1664543> .
+
+# ── 187/206: Vitlycke (archaeological-site) ──
+np:vitlycke a skos:Concept, schema:LandmarksOrHistoricalBuildings ;
+    rdfs:label "Vitlycke"@en ;
+    rdfs:label "Vitlycke"@sv ;
+    skos:prefLabel "Vitlycke"@en ;
+    skos:prefLabel "Vitlycke"@sv ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Part of the Tanum rock carvings UNESCO site. Features the famous Bridal Couple rock carving from the Bronze Age."@en ;
+    dcterms:type "archaeological-site" ;
+    skos:broader np:bohuslan ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-1800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineEnd> "-500"^^xsd:long ;
+    geo:lat "58.7058"^^xsd:decimal ;
+    geo:long "11.3467"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q10714424> .
+
+# ── 188/206: Jelling (archaeological-site) ──
+np:jelling a skos:Concept, schema:LandmarksOrHistoricalBuildings ;
+    rdfs:label "Jelling"@en ;
+    rdfs:label "Jelling"@da ;
+    skos:prefLabel "Jelling"@en ;
+    skos:prefLabel "Jelling"@da ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "UNESCO World Heritage Site. Jelling Stones, burial mounds, and church mark the transition from Norse paganism to Christianity c. 965 CE."@en ;
+    dcterms:type "archaeological-site" ;
+    skos:broader np:jutland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "900"^^xsd:long ;
+    geo:lat "55.7559"^^xsd:decimal ;
+    geo:long "9.4204"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2621524/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q193494> .
+
+# ── 189/206: Hedeby (archaeological-site) ──
+np:hedeby a skos:Concept, schema:LandmarksOrHistoricalBuildings ;
+    rdfs:label "Hedeby"@en ;
+    rdfs:label "Hedeby"@da ;
+    rdfs:label "Haithabu"@de ;
+    skos:prefLabel "Hedeby"@en ;
+    skos:prefLabel "Hedeby"@da ;
+    skos:prefLabel "Haithabu"@de ;
+    skos:altLabel "Haithabu"@en ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "UNESCO World Heritage Site. Major Viking Age trading centre at the base of the Jutland peninsula, active c. 770–1066 CE."@en ;
+    dcterms:type "archaeological-site" ;
+    skos:broader np:south-jutland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "770"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineEnd> "1066"^^xsd:long ;
+    geo:lat "54.4896"^^xsd:decimal ;
+    geo:long "9.5648"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/2909562/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q159737> .
+
+# ── 190/206: Lindholm Høje (archaeological-site) ──
+np:lindholm-hoje a skos:Concept, schema:LandmarksOrHistoricalBuildings ;
+    rdfs:label "Lindholm Høje"@en ;
+    rdfs:label "Lindholm Høje"@da ;
+    skos:prefLabel "Lindholm Høje"@en ;
+    skos:prefLabel "Lindholm Høje"@da ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Major Viking Age and Germanic Iron Age burial site near Aalborg with c. 700 graves, many marked with stone ship settings."@en ;
+    dcterms:type "archaeological-site" ;
+    skos:broader np:north-jutland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "400"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineEnd> "1000"^^xsd:long ;
+    geo:lat "57.0833"^^xsd:decimal ;
+    geo:long "9.8833"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1206429> .
+
+# ── 191/206: Trelleborg (archaeological-site) ──
+np:trelleborg-denmark a skos:Concept, schema:LandmarksOrHistoricalBuildings ;
+    rdfs:label "Trelleborg"@en ;
+    rdfs:label "Trelleborg"@da ;
+    skos:prefLabel "Trelleborg"@en ;
+    skos:prefLabel "Trelleborg"@da ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Viking ring fortress on Zealand, built c. 980 CE during the reign of Harald Bluetooth. One of several Trelleborg-type fortresses."@en ;
+    dcterms:type "archaeological-site" ;
+    skos:broader np:zealand ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "980"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineEnd> "1020"^^xsd:long ;
+    geo:lat "55.4017"^^xsd:decimal ;
+    geo:long "11.26"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q988084> .
+
+# ── 192/206: Lejre (archaeological-site) ──
+np:lejre a skos:Concept, schema:LandmarksOrHistoricalBuildings ;
+    rdfs:label "Lejre"@en ;
+    rdfs:label "Lejre"@da ;
+    skos:prefLabel "Lejre"@en ;
+    skos:prefLabel "Lejre"@da ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Legendary seat of the Danish kings in the Beowulf saga. Archaeological excavations reveal a major Viking Age hall complex."@en ;
+    dcterms:type "archaeological-site" ;
+    skos:broader np:zealand ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "500"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineEnd> "1000"^^xsd:long ;
+    geo:lat "55.6117"^^xsd:decimal ;
+    geo:long "11.975"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q671236> .
+
+# ── 193/206: Ladby ship (archaeological-site) ──
+np:ladby a skos:Concept, schema:LandmarksOrHistoricalBuildings ;
+    rdfs:label "Ladby ship"@en ;
+    rdfs:label "Ladbyskibet"@da ;
+    skos:prefLabel "Ladby ship"@en ;
+    skos:prefLabel "Ladbyskibet"@da ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Only Viking ship burial found in Denmark. A 21.5-metre longship from c. 925 CE on the island of Funen."@en ;
+    dcterms:type "archaeological-site" ;
+    skos:broader np:funen ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "925"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineEnd> "925"^^xsd:long ;
+    geo:lat "55.4489"^^xsd:decimal ;
+    geo:long "10.6333"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1474139> .
+
+# ── 194/206: Aggersborg (archaeological-site) ──
+np:aggersborg a skos:Concept, schema:LandmarksOrHistoricalBuildings ;
+    rdfs:label "Aggersborg"@en ;
+    rdfs:label "Aggersborg"@da ;
+    skos:prefLabel "Aggersborg"@en ;
+    skos:prefLabel "Aggersborg"@da ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Largest of the Viking ring fortresses, built c. 980 CE. Diameter of 240 metres, located on the Limfjord."@en ;
+    dcterms:type "archaeological-site" ;
+    skos:broader np:north-jutland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "980"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineEnd> "1000"^^xsd:long ;
+    geo:lat "56.995"^^xsd:decimal ;
+    geo:long "9.2583"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q348497> .
+
+# ── 195/206: Oseberg (archaeological-site) ──
+np:oseberg a skos:Concept, schema:LandmarksOrHistoricalBuildings ;
+    rdfs:label "Oseberg"@en ;
+    rdfs:label "Oseberg"@nb ;
+    skos:prefLabel "Oseberg"@en ;
+    skos:prefLabel "Oseberg"@nb ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Site of the Oseberg ship burial (834 CE), one of the finest Viking Age finds. The ship and grave goods are in the Viking Ship Museum, Oslo."@en ;
+    dcterms:type "archaeological-site" ;
+    skos:broader np:ostlandet ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "834"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineEnd> "834"^^xsd:long ;
+    geo:lat "59.3117"^^xsd:decimal ;
+    geo:long "10.2283"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1175279> .
+
+# ── 196/206: Gokstad (archaeological-site) ──
+np:gokstad a skos:Concept, schema:LandmarksOrHistoricalBuildings ;
+    rdfs:label "Gokstad"@en ;
+    rdfs:label "Gokstad"@nb ;
+    skos:prefLabel "Gokstad"@en ;
+    skos:prefLabel "Gokstad"@nb ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Site of the Gokstad ship burial (c. 900 CE). The ship represents the peak of Viking shipbuilding technology."@en ;
+    dcterms:type "archaeological-site" ;
+    skos:broader np:ostlandet ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "900"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineEnd> "900"^^xsd:long ;
+    geo:lat "59.15"^^xsd:decimal ;
+    geo:long "10.2167"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1177766> .
+
+# ── 197/206: Kaupang (archaeological-site) ──
+np:kaupang a skos:Concept, schema:LandmarksOrHistoricalBuildings ;
+    rdfs:label "Kaupang"@en ;
+    rdfs:label "Kaupang"@nb ;
+    skos:prefLabel "Kaupang"@en ;
+    skos:prefLabel "Kaupang"@nb ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Viking Age trading settlement in Vestfold, active c. 800–930 CE. One of the earliest known Nordic urban centres."@en ;
+    dcterms:type "archaeological-site" ;
+    skos:broader np:ostlandet ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineEnd> "930"^^xsd:long ;
+    geo:lat "59.0533"^^xsd:decimal ;
+    geo:long "10.1833"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1160814> .
+
+# ── 198/206: Borg (archaeological-site) ──
+np:borg-lofoten a skos:Concept, schema:LandmarksOrHistoricalBuildings ;
+    rdfs:label "Borg"@en ;
+    rdfs:label "Borg"@nb ;
+    skos:prefLabel "Borg"@en ;
+    skos:prefLabel "Borg"@nb ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Site of the largest known Viking longhouse (83 metres). Now the Lofotr Viking Museum on Vestvågøy."@en ;
+    dcterms:type "archaeological-site" ;
+    skos:broader np:lofoten ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "500"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineEnd> "900"^^xsd:long ;
+    geo:lat "68.2464"^^xsd:decimal ;
+    geo:long "13.9694"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q937023> .
+
+# ── 199/206: Alta rock art (archaeological-site) ──
+np:alta-rock-art a skos:Concept, schema:LandmarksOrHistoricalBuildings ;
+    rdfs:label "Alta rock art"@en ;
+    rdfs:label "Helleristningene i Alta"@nb ;
+    skos:prefLabel "Alta rock art"@en ;
+    skos:prefLabel "Helleristningene i Alta"@nb ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "UNESCO World Heritage Site. Thousands of rock carvings and paintings dating from c. 4200–500 BCE in Finnmark."@en ;
+    dcterms:type "archaeological-site" ;
+    skos:broader np:finnmark ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-4200"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineEnd> "-500"^^xsd:long ;
+    geo:lat "69.945"^^xsd:decimal ;
+    geo:long "23.2333"^^xsd:decimal ;
+    owl:sameAs <http://sws.geonames.org/3163529/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q611857> .
+
+# ── 200/206: Bryggen (archaeological-site) ──
+np:bryggen a skos:Concept, schema:LandmarksOrHistoricalBuildings ;
+    rdfs:label "Bryggen"@en ;
+    rdfs:label "Bryggen"@nb ;
+    skos:prefLabel "Bryggen"@en ;
+    skos:prefLabel "Bryggen"@nb ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "UNESCO World Heritage Site. Historic Hanseatic wharf in Bergen with colourful wooden buildings dating from 1702."@en ;
+    dcterms:type "archaeological-site" ;
+    skos:broader np:hordaland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1070"^^xsd:long ;
+    geo:lat "60.3975"^^xsd:decimal ;
+    geo:long "5.3239"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q207886> .
+
+# ── 201/206: Avaldsnes (archaeological-site) ──
+np:avaldsnes a skos:Concept, schema:LandmarksOrHistoricalBuildings ;
+    rdfs:label "Avaldsnes"@en ;
+    rdfs:label "Avaldsnes"@nb ;
+    skos:prefLabel "Avaldsnes"@en ;
+    skos:prefLabel "Avaldsnes"@nb ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "One of Norway's oldest royal seats. Viking kings' residence from the 3rd century CE. Home to the Nordvegen History Centre."@en ;
+    dcterms:type "archaeological-site" ;
+    skos:broader np:rogaland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "200"^^xsd:long ;
+    geo:lat "59.34"^^xsd:decimal ;
+    geo:long "5.2833"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2430067> .
+
+# ── 202/206: Rapola (archaeological-site) ──
+np:rapola a skos:Concept, schema:LandmarksOrHistoricalBuildings ;
+    rdfs:label "Rapola"@en ;
+    rdfs:label "Rapola"@fi ;
+    skos:prefLabel "Rapola"@en ;
+    skos:prefLabel "Rapola"@fi ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Iron Age hillfort in Pirkanmaa. Largest prehistoric fortification in Finland, dating to the Late Iron Age."@en ;
+    dcterms:type "archaeological-site" ;
+    skos:broader np:pirkanmaa ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineEnd> "1200"^^xsd:long ;
+    geo:lat "61.3097"^^xsd:decimal ;
+    geo:long "23.9208"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18346504> .
+
+# ── 203/206: Levänluhta (archaeological-site) ──
+np:levanluhta a skos:Concept, schema:LandmarksOrHistoricalBuildings ;
+    rdfs:label "Levänluhta"@en ;
+    rdfs:label "Levänluhta"@fi ;
+    skos:prefLabel "Levänluhta"@en ;
+    skos:prefLabel "Levänluhta"@fi ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Iron Age water burial site in Ostrobothnia dating to c. 400–800 CE. Unique Finnish burial tradition with parallels to Scandinavian bog bodies."@en ;
+    dcterms:type "archaeological-site" ;
+    skos:broader np:pohjanmaa ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "400"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineEnd> "800"^^xsd:long ;
+    geo:lat "62.7317"^^xsd:decimal ;
+    geo:long "23.1675"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q11876279> .
+
+# ── 204/206: Sammallahdenmäki (archaeological-site) ──
+np:sammallahdenmaki a skos:Concept, schema:LandmarksOrHistoricalBuildings ;
+    rdfs:label "Sammallahdenmäki"@en ;
+    rdfs:label "Sammallahdenmäki"@fi ;
+    skos:prefLabel "Sammallahdenmäki"@en ;
+    skos:prefLabel "Sammallahdenmäki"@fi ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "UNESCO World Heritage Site. Bronze Age burial cairns in Satakunta dating to c. 1500–500 BCE."@en ;
+    dcterms:type "archaeological-site" ;
+    skos:broader np:satakunta ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "-1500"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineEnd> "-500"^^xsd:long ;
+    geo:lat "61.1197"^^xsd:decimal ;
+    geo:long "21.7833"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1030001> .
+
+# ── 205/206: Reykholt (archaeological-site) ──
+np:reykholt a skos:Concept, schema:LandmarksOrHistoricalBuildings ;
+    rdfs:label "Reykholt"@en ;
+    rdfs:label "Reykholt"@is ;
+    skos:prefLabel "Reykholt"@en ;
+    skos:prefLabel "Reykholt"@is ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Medieval estate of Snorri Sturluson (1179–1241), author of the Prose Edda and Heimskringla. Historic hot pool (Snorralaug) still exists."@en ;
+    dcterms:type "archaeological-site" ;
+    skos:broader np:western-iceland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "1000"^^xsd:long ;
+    geo:lat "64.6647"^^xsd:decimal ;
+    geo:long "-21.2958"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1374413> .
+
+# ── 206/206: Stöng (archaeological-site) ──
+np:stong a skos:Concept, schema:LandmarksOrHistoricalBuildings ;
+    rdfs:label "Stöng"@en ;
+    rdfs:label "Stöng"@is ;
+    skos:prefLabel "Stöng"@en ;
+    skos:prefLabel "Stöng"@is ;
+    skos:inScheme <https://metadatahub.eu/data/nordic-places> ;
+    skos:definition "Viking Age farmstead buried by the 1104 eruption of Hekla. Excavated remains provide insight into medieval Icelandic life."@en ;
+    dcterms:type "archaeological-site" ;
+    skos:broader np:southern-iceland ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineStart> "900"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-places/ontology/timelineEnd> "1104"^^xsd:long ;
+    geo:lat "64.1131"^^xsd:decimal ;
+    geo:long "-19.7522"^^xsd:decimal ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3316483> .

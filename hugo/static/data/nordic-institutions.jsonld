@@ -1,0 +1,5345 @@
+{
+  "@context": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "schema": "https://schema.org/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "mhub": "https://metadatahub.eu/data/nordic-institutions/ontology/"
+  },
+  "@id": "https://metadatahub.eu/data/nordic-institutions",
+  "@type": "skos:ConceptScheme",
+  "dcterms:title": "Nordic Museum Institutions Authority",
+  "dcterms:description": "116 museum institutions across Sweden, Norway, Finland, Denmark, and Iceland — an authority file for Nordic cultural heritage organisations.",
+  "dcterms:source": [
+    "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden",
+    "https://en.wikipedia.org/wiki/List_of_museums_in_Norway",
+    "https://en.wikipedia.org/wiki/List_of_museums_in_Finland",
+    "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark",
+    "https://en.wikipedia.org/wiki/List_of_museums_in_Iceland"
+  ],
+  "dcterms:license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "@graph": [
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/nationalmuseum-se",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Nationalmuseum",
+          "@language": "en"
+        },
+        {
+          "@value": "Nationalmuseum",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Nationalmuseum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Sweden's museum of art and design, housing the nation's premier collection of paintings, sculptures, and applied art from the Renaissance to the present.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Stockholm",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2673730/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q842858"
+      },
+      "dcterms:identifier": "SE-Nm",
+      "foaf:homepage": {
+        "@id": "https://www.nationalmuseum.se/"
+      },
+      "schema:foundingDate": {
+        "@value": "1792",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1792,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/nordiska-museet",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Nordic Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordiska museet",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Nordic Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Sweden's largest museum of cultural history, dedicated to the cultural history and ethnography of Sweden from the early modern period to the present day.",
+        "@language": "en"
+      },
+      "schema:additionalType": "history-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Stockholm",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2673730/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1141978"
+      },
+      "dcterms:identifier": "SE-Nom",
+      "foaf:homepage": {
+        "@id": "https://www.nordiskamuseet.se/"
+      },
+      "schema:foundingDate": {
+        "@value": "1873",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1873,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/historiska-museet",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Swedish History Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Historiska museet",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Swedish History Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Sweden's national museum of history, featuring artifacts from the Stone Age through the Viking period and medieval era, including the famous Gold Room.",
+        "@language": "en"
+      },
+      "schema:additionalType": "history-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Stockholm",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2673730/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1058735"
+      },
+      "dcterms:identifier": "SE-Hm",
+      "foaf:homepage": {
+        "@id": "https://historiska.se/"
+      },
+      "schema:foundingDate": {
+        "@value": "1866",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1866,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/moderna-museet",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Moderna Museet",
+          "@language": "en"
+        },
+        {
+          "@value": "Moderna museet",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Moderna Museet",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Sweden's national museum of modern and contemporary art, housing one of Europe's foremost collections of art from the 20th and 21st centuries.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Stockholm",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2673730/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q842887"
+      },
+      "dcterms:identifier": "SE-Mm",
+      "foaf:homepage": {
+        "@id": "https://www.modernamuseet.se/"
+      },
+      "schema:foundingDate": {
+        "@value": "1958",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1958,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/vasamuseet",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Vasa Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Vasamuseet",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Vasa Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Maritime museum displaying the Vasa, a 17th-century warship that sank on her maiden voyage in 1628 and was salvaged in 1961. Scandinavia's most visited museum.",
+        "@language": "en"
+      },
+      "schema:additionalType": "maritime-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Stockholm",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2673730/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q622136"
+      },
+      "dcterms:identifier": "SE-Sjhm",
+      "foaf:homepage": {
+        "@id": "https://www.vasamuseet.se/"
+      },
+      "schema:foundingDate": {
+        "@value": "1990",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1990,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/skansen",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Skansen",
+          "@language": "en"
+        },
+        {
+          "@value": "Skansen",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Skansen",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "The world's first open-air museum, founded by Artur Hazelius, showcasing Swedish traditional life with over 150 historic buildings from across the country.",
+        "@language": "en"
+      },
+      "schema:additionalType": "open-air-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Stockholm",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2673730/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q578375"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.skansen.se/"
+      },
+      "schema:foundingDate": {
+        "@value": "1891",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1891,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/livrustkammaren",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Royal Armoury",
+          "@language": "en"
+        },
+        {
+          "@value": "Livrustkammaren",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Royal Armoury",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Sweden's oldest museum, located in the Royal Palace, displaying royal armoury, costumes, and carriages from Swedish royal history.",
+        "@language": "en"
+      },
+      "schema:additionalType": "history-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Stockholm",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2673730/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1573823"
+      },
+      "foaf:homepage": {
+        "@id": "https://livrustkammaren.se/"
+      },
+      "schema:foundingDate": {
+        "@value": "1628",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1628,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/naturhistoriska-riksmuseet",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Swedish Museum of Natural History",
+          "@language": "en"
+        },
+        {
+          "@value": "Naturhistoriska riksmuseet",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Swedish Museum of Natural History",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Sweden's national natural history museum, one of the ten largest in the world, with collections spanning botany, geology, palaeontology, and zoology.",
+        "@language": "en"
+      },
+      "schema:additionalType": "natural-history-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Stockholm",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2673730/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1147608"
+      },
+      "dcterms:identifier": "SE-NRM",
+      "foaf:homepage": {
+        "@id": "https://www.nrm.se/"
+      },
+      "schema:foundingDate": {
+        "@value": "1819",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1819,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/sjohistoriska-museet",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "National Maritime Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Sjöhistoriska museet",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "National Maritime Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Sweden's national maritime museum, documenting the history of Swedish seafaring, naval defence, and shipbuilding.",
+        "@language": "en"
+      },
+      "schema:additionalType": "maritime-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Stockholm",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2673730/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1754929"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.sjohistoriska.se/"
+      },
+      "schema:foundingDate": {
+        "@value": "1938",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1938,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/waldemarsudde",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Prins Eugens Waldemarsudde",
+          "@language": "en"
+        },
+        {
+          "@value": "Prins Eugens Waldemarsudde",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Prins Eugens Waldemarsudde",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Art museum and former home of Prince Eugen, displaying his collection of Swedish art alongside the prince's own paintings in a scenic Djurgården setting.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Stockholm",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2673730/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q2083567"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.waldemarsudde.se/"
+      },
+      "schema:foundingDate": {
+        "@value": "1947",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1947,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/thielska-galleriet",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Thiel Gallery",
+          "@language": "en"
+        },
+        {
+          "@value": "Thielska Galleriet",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Thiel Gallery",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Art gallery in a former villa on Djurgården, housing Ernest Thiel's collection of Nordic art including major works by Edvard Munch, Carl Larsson, and Bruno Liljefors.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Stockholm",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2673730/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1371375"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.thielskagalleriet.se/"
+      },
+      "schema:foundingDate": {
+        "@value": "1924",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1924,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/millesgarden",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Millesgården",
+          "@language": "en"
+        },
+        {
+          "@value": "Millesgården",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Millesgården",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Sculpture garden and art museum on Lidingö island, the former home and studio of sculptor Carl Milles, featuring his monumental sculptures in a terraced garden.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Lidingö",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2696524/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1537594"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.millesgarden.se/"
+      },
+      "schema:foundingDate": {
+        "@value": "1936",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1936,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/goteborgs-konstmuseum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Gothenburg Museum of Art",
+          "@language": "en"
+        },
+        {
+          "@value": "Göteborgs konstmuseum",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Gothenburg Museum of Art",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "One of the largest art museums in Northern Europe, renowned for its Nordic collection featuring works by Carl Larsson, Anders Zorn, Edvard Munch, and the Gothenburg Colourists.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Gothenburg",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2711537/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q730954"
+      },
+      "dcterms:identifier": "SE-Gkm",
+      "foaf:homepage": {
+        "@id": "https://goteborgskonstmuseum.se/"
+      },
+      "schema:foundingDate": {
+        "@value": "1923",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1923,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/goteborgs-stadsmuseum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Gothenburg City Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Göteborgs stadsmuseum",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Gothenburg City Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Gothenburg's city museum housed in the historic East India House, covering the city's history from prehistoric times to the present.",
+        "@language": "en"
+      },
+      "schema:additionalType": "history-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Gothenburg",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2711537/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q2156373"
+      },
+      "foaf:homepage": {
+        "@id": "https://goteborgsstadsmuseum.se/"
+      },
+      "schema:foundingDate": {
+        "@value": "1861",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1861,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/rohsska-museet",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Röhsska Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Röhsska museet",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Röhsska Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Sweden's only independent museum of design and decorative arts, with collections spanning fashion, furniture, textiles, and industrial design.",
+        "@language": "en"
+      },
+      "schema:additionalType": "design-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Gothenburg",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2711537/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1571581"
+      },
+      "dcterms:identifier": "SE-Rö",
+      "foaf:homepage": {
+        "@id": "https://rohsska.se/"
+      },
+      "schema:foundingDate": {
+        "@value": "1916",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1916,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/malmo-museer",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Malmö Museums",
+          "@language": "en"
+        },
+        {
+          "@value": "Malmö Museer",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Malmö Museums",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Museum complex in Malmöhus Castle covering art, natural history, city history, science, and technology — one of the oldest preserved Renaissance castles in Scandinavia.",
+        "@language": "en"
+      },
+      "schema:additionalType": "history-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Malmö",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2692969/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1798890"
+      },
+      "foaf:homepage": {
+        "@id": "https://malmo.se/museer"
+      },
+      "schema:foundingDate": {
+        "@value": "1841",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1841,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/malmo-konstmuseum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Malmö Art Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Malmö Konstmuseum",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Malmö Art Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Art museum within the Malmö Museums complex, housing a significant collection of Nordic and international art from the 16th century to the present.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Malmö",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2692969/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1798890"
+      },
+      "foaf:homepage": {
+        "@id": "https://malmo.se/konstmuseum"
+      },
+      "schema:foundingDate": {
+        "@value": "1841",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1841,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/lunds-universitets-historiska-museum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Lund University Historical Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Lunds Universitets Historiska Museum",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Lund University Historical Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "University museum housing archaeological and ecclesiastical collections, including important Viking Age and medieval finds from Scania.",
+        "@language": "en"
+      },
+      "schema:additionalType": "university-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Lund",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2693678/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q10568729"
+      },
+      "dcterms:identifier": "SE-Lu",
+      "foaf:homepage": {
+        "@id": "https://www.luhm.lu.se/"
+      },
+      "schema:foundingDate": {
+        "@value": "1805",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1805,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/gustavianum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Uppsala University Museum Gustavianum",
+          "@language": "en"
+        },
+        {
+          "@value": "Uppsala universitetsmuseum Gustavianum",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Uppsala University Museum Gustavianum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Uppsala University's museum in the historic Gustavianum building featuring the Augsburg Art Cabinet, Egyptian antiquities, and the 17th-century anatomical theatre.",
+        "@language": "en"
+      },
+      "schema:additionalType": "university-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Uppsala",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2666199/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1556079"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.gustavianum.uu.se/"
+      },
+      "schema:foundingDate": {
+        "@value": "1997",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1997,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/upplandsmuseet",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Uppland Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Upplandsmuseet",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Uppland Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Regional museum covering the cultural history and art of Uppland province, located in a historic watermill on the Fyris River.",
+        "@language": "en"
+      },
+      "schema:additionalType": "history-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Uppsala",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2666199/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q10711413"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.upplandsmuseet.se/"
+      },
+      "schema:foundingDate": {
+        "@value": "1909",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1909,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/gotlands-museum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Gotland Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Gotlands Museum",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Gotland Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Museum on the island of Gotland with one of the finest Viking Age collections in the world, including silver hoards, picture stones, and medieval church art.",
+        "@language": "en"
+      },
+      "schema:additionalType": "history-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Visby",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2662689/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q10510043"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.gotlandsmuseum.se/"
+      },
+      "schema:foundingDate": {
+        "@value": "1875",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1875,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/kalmar-lans-museum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Kalmar County Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Kalmar läns museum",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Kalmar County Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Regional museum known for its exhibition on the warship Kronan, which sank in 1676, alongside cultural history of the Kalmar region.",
+        "@language": "en"
+      },
+      "schema:additionalType": "history-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Kalmar",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2702703/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q10547450"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.kalmarlansmuseum.se/"
+      },
+      "schema:foundingDate": {
+        "@value": "1977",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1977,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/jamtlands-lans-museum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Jamtli",
+          "@language": "en"
+        },
+        {
+          "@value": "Jämtlands läns museum",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Jamtli",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Regional museum and open-air museum in Jämtland featuring the Överhogdal tapestries, Viking Age finds, and living history environments.",
+        "@language": "en"
+      },
+      "schema:additionalType": "open-air-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Östersund",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2685750/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q10538927"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.jamtli.com/"
+      },
+      "schema:foundingDate": {
+        "@value": "1886",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1886,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/ajtte",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Ájtte - Swedish Mountain and Sami Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Ájtte",
+          "@language": "se"
+        },
+        {
+          "@value": "Ájtte, Svenskt Fjäll- och Samemuseum",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Ájtte - Swedish Mountain and Sami Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Principal museum of Sami culture and the Swedish mountain region, documenting Sami history, traditions, and the ecology of the Scandinavian mountain world.",
+        "@language": "en"
+      },
+      "schema:additionalType": "folk-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Jokkmokk",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2703860/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1645107"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.ajtte.com/"
+      },
+      "schema:foundingDate": {
+        "@value": "1989",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1989,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/norrbottens-museum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Norrbotten Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Norrbottens museum",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Norrbotten Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Regional museum of Norrbotten County covering the cultural history of Sweden's northernmost region, including Sami heritage and industrial history.",
+        "@language": "en"
+      },
+      "schema:additionalType": "history-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Luleå",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2693678/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q10601840"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.norrbottensmuseum.se/"
+      },
+      "schema:foundingDate": {
+        "@value": "1936",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1936,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/vasterbottens-museum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Västerbotten Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Västerbottens museum",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Västerbotten Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Regional museum in Umeå documenting life in Västerbotten from prehistory to present, with an open-air section featuring traditional buildings.",
+        "@language": "en"
+      },
+      "schema:additionalType": "history-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Umeå",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2666218/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q2539156"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.vbm.se/"
+      },
+      "schema:foundingDate": {
+        "@value": "1943",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1943,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/bohusians-museum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Bohuslän Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Bohusläns museum",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Bohuslän Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Regional museum of Bohuslän province featuring Bronze Age rock carvings, maritime history, and the cultural heritage of western Sweden.",
+        "@language": "en"
+      },
+      "schema:additionalType": "history-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Uddevalla",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2666253/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q10434918"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.bohuslansmuseum.se/"
+      },
+      "schema:foundingDate": {
+        "@value": "1928",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1928,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/dalarnas-museum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Dalarna Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Dalarnas museum",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Dalarna Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Regional museum showcasing Dalarna's folk art traditions including Dala horses, folk costumes, and traditional paintings, along with the region's mining heritage.",
+        "@language": "en"
+      },
+      "schema:additionalType": "history-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Falun",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2715195/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q10457340"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.dalarnasmuseum.se/"
+      },
+      "schema:foundingDate": {
+        "@value": "1862",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1862,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/tekniska-museet",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "National Museum of Science and Technology",
+          "@language": "en"
+        },
+        {
+          "@value": "Tekniska museet",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "National Museum of Science and Technology",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Sweden's national museum of science and technology, covering innovations from Swedish industry including telecommunications, mining, and engineering.",
+        "@language": "en"
+      },
+      "schema:additionalType": "specialized-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Stockholm",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2673730/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1046515"
+      },
+      "dcterms:identifier": "SE-Tm",
+      "foaf:homepage": {
+        "@id": "https://www.tekniskamuseet.se/"
+      },
+      "schema:foundingDate": {
+        "@value": "1924",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1924,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/arkdes",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "ArkDes - Swedish Centre for Architecture and Design",
+          "@language": "en"
+        },
+        {
+          "@value": "ArkDes",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "ArkDes - Swedish Centre for Architecture and Design",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Sweden's national centre for architecture and design, promoting understanding of architecture's role in society through exhibitions and public programmes.",
+        "@language": "en"
+      },
+      "schema:additionalType": "design-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Stockholm",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2673730/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1568634"
+      },
+      "foaf:homepage": {
+        "@id": "https://arkdes.se/"
+      },
+      "schema:foundingDate": {
+        "@value": "1962",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1962,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/fotografiska",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Fotografiska",
+          "@language": "en"
+        },
+        {
+          "@value": "Fotografiska",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Fotografiska",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "One of the world's largest museums of photography, hosting major international exhibitions of contemporary photography in a converted Art Nouveau customs house.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Stockholm",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2673730/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q4479898"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.fotografiska.com/"
+      },
+      "schema:foundingDate": {
+        "@value": "2010",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 2010,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/hallwylska-museet",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Hallwyl Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Hallwylska museet",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Hallwyl Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Palatial private residence turned museum, preserving the art collections and lavish interiors of Countess Wilhelmina von Hallwyl.",
+        "@language": "en"
+      },
+      "schema:additionalType": "history-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Stockholm",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2673730/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1572556"
+      },
+      "foaf:homepage": {
+        "@id": "https://hallwylskamuseet.se/"
+      },
+      "schema:foundingDate": {
+        "@value": "1938",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1938,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/medelhavsmuseet",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Museum of Mediterranean and Near Eastern Antiquities",
+          "@language": "en"
+        },
+        {
+          "@value": "Medelhavsmuseet",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Museum of Mediterranean and Near Eastern Antiquities",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Museum dedicated to ancient cultures of the Mediterranean and Near East, including important Egyptian, Greek, Cypriot, and Near Eastern collections.",
+        "@language": "en"
+      },
+      "schema:additionalType": "archaeology-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Stockholm",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2673730/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1715082"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.medelhavsmuseet.se/"
+      },
+      "schema:foundingDate": {
+        "@value": "1954",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1954,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/ostasiatiska-museet",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Museum of Far Eastern Antiquities",
+          "@language": "en"
+        },
+        {
+          "@value": "Östasiatiska museet",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Museum of Far Eastern Antiquities",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Museum devoted to art and archaeology from China, Japan, Korea, and South and Southeast Asia, with outstanding Chinese Neolithic and Bronze Age collections.",
+        "@language": "en"
+      },
+      "schema:additionalType": "archaeology-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Stockholm",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2673730/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1570908"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.ostasiatiskamuseet.se/"
+      },
+      "schema:foundingDate": {
+        "@value": "1926",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1926,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/varmlands-museum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Värmlands Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Värmlands Museum",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Värmlands Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Regional museum of Värmland on the banks of the Klarälven river, covering the cultural history and art of the province.",
+        "@language": "en"
+      },
+      "schema:additionalType": "history-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Karlstad",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2701713/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q10720058"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.varmlandsmuseum.se/"
+      },
+      "schema:foundingDate": {
+        "@value": "1839",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1839,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/sormlands-museum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Sörmlands Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Sörmlands museum",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Sörmlands Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Regional museum of Södermanland covering the county's cultural history from the Viking Age through the industrial era.",
+        "@language": "en"
+      },
+      "schema:additionalType": "history-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Nyköping",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2687929/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q10685625"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.sormlandsmuseum.se/"
+      },
+      "schema:foundingDate": {
+        "@value": "1908",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1908,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/ostergotlands-museum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Östergötland Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Östergötlands museum",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Östergötland Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Regional museum presenting the cultural history and art of Östergötland, housed in a building complex near the medieval cathedral.",
+        "@language": "en"
+      },
+      "schema:additionalType": "history-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Linköping",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2694762/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q10739125"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.ostergotlandsmuseum.se/"
+      },
+      "schema:foundingDate": {
+        "@value": "1903",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1903,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/flygvapenmuseum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Swedish Air Force Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Flygvapenmuseum",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Swedish Air Force Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Museum of Swedish military aviation history displaying historic aircraft, engines, and equipment from World War I to the modern era.",
+        "@language": "en"
+      },
+      "schema:additionalType": "specialized-museum",
+      "schema:addressCountry": "SE",
+      "schema:addressLocality": "Linköping",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2694762/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q10497898"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.flygvapenmuseum.se/"
+      },
+      "schema:foundingDate": {
+        "@value": "1984",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1984,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/nasjonalmuseet",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "National Museum of Norway",
+          "@language": "en"
+        },
+        {
+          "@value": "Nasjonalmuseet",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nasjonalmuseet",
+          "@language": "nn"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "National Museum of Norway",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Norway's largest institution for art, architecture, and design, combining the former National Gallery, Museum of Decorative Arts, Museum of Contemporary Art, and Architecture Museum.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "NO",
+      "schema:addressLocality": "Oslo",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/3143244/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1132918"
+      },
+      "dcterms:identifier": "NO-0183300",
+      "foaf:homepage": {
+        "@id": "https://www.nasjonalmuseet.no/"
+      },
+      "schema:foundingDate": {
+        "@value": "2003",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 2003,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/munchmuseet",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Munch Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Munchmuseet",
+          "@language": "nb"
+        },
+        {
+          "@value": "Munchmuseet",
+          "@language": "nn"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Munch Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Museum dedicated to the life and work of Edvard Munch, housing the world's largest collection of his paintings, prints, and drawings, now in a landmark waterfront building.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "NO",
+      "schema:addressLocality": "Oslo",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/3143244/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q594316"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.munchmuseet.no/"
+      },
+      "schema:foundingDate": {
+        "@value": "1963",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1963,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/vikingskipshuset",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Viking Ship Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Vikingskipshuset",
+          "@language": "nb"
+        },
+        {
+          "@value": "Vikingskipshuset",
+          "@language": "nn"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Viking Ship Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Museum housing the best-preserved Viking ships in the world — the Oseberg, Gokstad, and Tune ships — along with Viking Age grave goods and artefacts.",
+        "@language": "en"
+      },
+      "schema:additionalType": "archaeology-museum",
+      "schema:addressCountry": "NO",
+      "schema:addressLocality": "Oslo",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/3143244/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1327702"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.khm.uio.no/besok-oss/vikingskipshuset/"
+      },
+      "schema:foundingDate": {
+        "@value": "1926",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1926,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/kulturhistorisk-museum-oslo",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Museum of Cultural History Oslo",
+          "@language": "en"
+        },
+        {
+          "@value": "Kulturhistorisk museum",
+          "@language": "nb"
+        },
+        {
+          "@value": "Kulturhistorisk museum",
+          "@language": "nn"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Museum of Cultural History Oslo",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "University of Oslo's museum of cultural history, covering Norwegian and international cultural history from ancient to medieval periods, including runic inscriptions and stave church portals.",
+        "@language": "en"
+      },
+      "schema:additionalType": "history-museum",
+      "schema:addressCountry": "NO",
+      "schema:addressLocality": "Oslo",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/3143244/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1141339"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.khm.uio.no/"
+      },
+      "schema:foundingDate": {
+        "@value": "1904",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1904,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/norsk-folkemuseum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Norwegian Museum of Cultural History",
+          "@language": "en"
+        },
+        {
+          "@value": "Norsk Folkemuseum",
+          "@language": "nb"
+        },
+        {
+          "@value": "Norsk Folkemuseum",
+          "@language": "nn"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Norwegian Museum of Cultural History",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "One of the world's oldest and largest open-air museums, with 160 historic buildings including the Gol stave church, documenting Norwegian life from 1500 to the present.",
+        "@language": "en"
+      },
+      "schema:additionalType": "open-air-museum",
+      "schema:addressCountry": "NO",
+      "schema:addressLocality": "Oslo",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/3143244/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1137097"
+      },
+      "dcterms:identifier": "NO-0183500",
+      "foaf:homepage": {
+        "@id": "https://norskfolkemuseum.no/"
+      },
+      "schema:foundingDate": {
+        "@value": "1894",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1894,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/norsk-maritimt-museum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Norwegian Maritime Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Norsk Maritimt Museum",
+          "@language": "nb"
+        },
+        {
+          "@value": "Norsk Maritimt Museum",
+          "@language": "nn"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Norwegian Maritime Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Museum dedicated to Norway's maritime heritage, covering fishing, shipping, polar exploration, and coastal culture.",
+        "@language": "en"
+      },
+      "schema:additionalType": "maritime-museum",
+      "schema:addressCountry": "NO",
+      "schema:addressLocality": "Oslo",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/3143244/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1747830"
+      },
+      "foaf:homepage": {
+        "@id": "https://marmuseum.no/"
+      },
+      "schema:foundingDate": {
+        "@value": "1914",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1914,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/kon-tiki-museet",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Kon-Tiki Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Kon-Tiki Museet",
+          "@language": "nb"
+        },
+        {
+          "@value": "Kon-Tiki Museet",
+          "@language": "nn"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Kon-Tiki Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Museum dedicated to Thor Heyerdahl's expeditions, displaying the original Kon-Tiki balsa raft and Ra II papyrus boat.",
+        "@language": "en"
+      },
+      "schema:additionalType": "specialized-museum",
+      "schema:addressCountry": "NO",
+      "schema:addressLocality": "Oslo",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/3143244/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q898947"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.kon-tiki.no/"
+      },
+      "schema:foundingDate": {
+        "@value": "1950",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1950,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/frammuseet",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Fram Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Frammuseet",
+          "@language": "nb"
+        },
+        {
+          "@value": "Frammuseet",
+          "@language": "nn"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Fram Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Museum housing the polar ship Fram, the strongest wooden ship ever built, used by Nansen and Amundsen in their Arctic and Antarctic expeditions.",
+        "@language": "en"
+      },
+      "schema:additionalType": "maritime-museum",
+      "schema:addressCountry": "NO",
+      "schema:addressLocality": "Oslo",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/3143244/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1233422"
+      },
+      "foaf:homepage": {
+        "@id": "https://frammuseum.no/"
+      },
+      "schema:foundingDate": {
+        "@value": "1936",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1936,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/bergen-museum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "University Museum of Bergen",
+          "@language": "en"
+        },
+        {
+          "@value": "Universitetsmuseet i Bergen",
+          "@language": "nb"
+        },
+        {
+          "@value": "Universitetsmuseet i Bergen",
+          "@language": "nn"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "University Museum of Bergen",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "University museum with cultural history and natural history departments, housing important collections from the Viking Age and medieval Bergen.",
+        "@language": "en"
+      },
+      "schema:additionalType": "university-museum",
+      "schema:addressCountry": "NO",
+      "schema:addressLocality": "Bergen",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/3161732/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q2361864"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.uib.no/universitetsmuseet"
+      },
+      "schema:foundingDate": {
+        "@value": "1825",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1825,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/kode-bergen",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "KODE Art Museums and Composer Homes",
+          "@language": "en"
+        },
+        {
+          "@value": "KODE Kunstmuseer og Komponisthjem",
+          "@language": "nb"
+        },
+        {
+          "@value": "KODE Kunstmuseum og Komponistheimar",
+          "@language": "nn"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "KODE Art Museums and Composer Homes",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Bergen's art museum comprising four gallery buildings and the homes of composers Edvard Grieg and Ole Bull, with extensive Nordic art and craft collections.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "NO",
+      "schema:addressLocality": "Bergen",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/3161732/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1777977"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.kfrb.no/"
+      },
+      "schema:foundingDate": {
+        "@value": "2007",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 2007,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/tromso-museum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Tromsø Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Tromsø Museum",
+          "@language": "nb"
+        },
+        {
+          "@value": "Tromsø Museum",
+          "@language": "nn"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Tromsø Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Northern Norway's university museum covering Sami culture, Arctic natural history, and the Northern Lights, affiliated with UiT The Arctic University of Norway.",
+        "@language": "en"
+      },
+      "schema:additionalType": "university-museum",
+      "schema:addressCountry": "NO",
+      "schema:addressLocality": "Tromsø",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/3133895/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q2474281"
+      },
+      "foaf:homepage": {
+        "@id": "https://uit.no/tmu"
+      },
+      "schema:foundingDate": {
+        "@value": "1872",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1872,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/nordnorsk-kunstmuseum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Northern Norway Art Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordnorsk Kunstmuseum",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordnorsk Kunstmuseum",
+          "@language": "nn"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Northern Norway Art Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "The northernmost art museum in the world, dedicated to visual art from Northern Norway and the Sami region.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "NO",
+      "schema:addressLocality": "Tromsø",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/3133895/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1996942"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.nnkm.no/"
+      },
+      "schema:foundingDate": {
+        "@value": "1985",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1985,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/riddoduottarmuseat",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "RiddoDuottarMuseat - Sami Museums",
+          "@language": "en"
+        },
+        {
+          "@value": "RiddoDuottarMuseat",
+          "@language": "nb"
+        },
+        {
+          "@value": "RiddoDuottarMuseat",
+          "@language": "se"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "RiddoDuottarMuseat - Sami Museums",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Sami museum consortium in Finnmark, preserving and presenting Sami cultural heritage through exhibitions, collections, and an open-air section.",
+        "@language": "en"
+      },
+      "schema:additionalType": "folk-museum",
+      "schema:addressCountry": "NO",
+      "schema:addressLocality": "Karasjok",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/3150935/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q7331957"
+      },
+      "foaf:homepage": {
+        "@id": "https://rdm.no/"
+      },
+      "schema:foundingDate": {
+        "@value": "1972",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1972,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/maihaugen",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Maihaugen",
+          "@language": "en"
+        },
+        {
+          "@value": "Maihaugen",
+          "@language": "nb"
+        },
+        {
+          "@value": "Maihaugen",
+          "@language": "nn"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Maihaugen",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "One of the largest open-air museums in Northern Europe with over 200 historical buildings, including a stave church and farms from the Gudbrandsdalen valley.",
+        "@language": "en"
+      },
+      "schema:additionalType": "open-air-museum",
+      "schema:addressCountry": "NO",
+      "schema:addressLocality": "Lillehammer",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/3148100/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1092184"
+      },
+      "foaf:homepage": {
+        "@id": "https://maihaugen.no/"
+      },
+      "schema:foundingDate": {
+        "@value": "1887",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1887,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/astrup-fearnley",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Astrup Fearnley Museum of Modern Art",
+          "@language": "en"
+        },
+        {
+          "@value": "Astrup Fearnley Museet",
+          "@language": "nb"
+        },
+        {
+          "@value": "Astrup Fearnley Museet",
+          "@language": "nn"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Astrup Fearnley Museum of Modern Art",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Private contemporary art museum in a Renzo Piano-designed building on the Oslo waterfront, with a major collection of international post-war and contemporary art.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "NO",
+      "schema:addressLocality": "Oslo",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/3143244/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1192081"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.afmuseet.no/"
+      },
+      "schema:foundingDate": {
+        "@value": "1993",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1993,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/nordenfjeldske-kunstindustrimuseum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "National Museum of Decorative Arts",
+          "@language": "en"
+        },
+        {
+          "@value": "Nordenfjeldske Kunstindustrimuseum",
+          "@language": "nb"
+        },
+        {
+          "@value": "Nordenfjeldske Kunstindustrimuseum",
+          "@language": "nn"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "National Museum of Decorative Arts",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "National museum of decorative arts in Trondheim, housing furniture, textiles, ceramics, and silver from the Renaissance to contemporary Scandinavian design.",
+        "@language": "en"
+      },
+      "schema:additionalType": "design-museum",
+      "schema:addressCountry": "NO",
+      "schema:addressLocality": "Trondheim",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/3133880/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q3272424"
+      },
+      "foaf:homepage": {
+        "@id": "https://nkim.no/"
+      },
+      "schema:foundingDate": {
+        "@value": "1893",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1893,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/vitenskapsmuseet",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "NTNU University Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Vitenskapsmuseet",
+          "@language": "nb"
+        },
+        {
+          "@value": "Vitskapsmuseet",
+          "@language": "nn"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "NTNU University Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "One of Norway's oldest scientific institutions, part of NTNU, with natural history and archaeological collections from central Norway.",
+        "@language": "en"
+      },
+      "schema:additionalType": "university-museum",
+      "schema:addressCountry": "NO",
+      "schema:addressLocality": "Trondheim",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/3133880/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q3272406"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.ntnu.no/vitenskapsmuseet"
+      },
+      "schema:foundingDate": {
+        "@value": "1760",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1760,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/stavanger-museum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Museum of Archaeology Stavanger",
+          "@language": "en"
+        },
+        {
+          "@value": "Arkeologisk museum Stavanger",
+          "@language": "nb"
+        },
+        {
+          "@value": "Arkeologisk museum Stavanger",
+          "@language": "nn"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Museum of Archaeology Stavanger",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "University of Stavanger's archaeological museum, responsible for archaeological heritage management in Rogaland, with collections from the Stone Age to the Middle Ages.",
+        "@language": "en"
+      },
+      "schema:additionalType": "archaeology-museum",
+      "schema:addressCountry": "NO",
+      "schema:addressLocality": "Stavanger",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/3137115/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q5445741"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.uis.no/nb/arkeologisk-museum"
+      },
+      "schema:foundingDate": {
+        "@value": "1877",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1877,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/norsk-teknisk-museum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Norwegian Museum of Science and Technology",
+          "@language": "en"
+        },
+        {
+          "@value": "Norsk Teknisk Museum",
+          "@language": "nb"
+        },
+        {
+          "@value": "Norsk Teknisk Museum",
+          "@language": "nn"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Norwegian Museum of Science and Technology",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Norway's national museum of technology, industry, science, and medicine, with interactive exhibits on energy, transport, and communications.",
+        "@language": "en"
+      },
+      "schema:additionalType": "specialized-museum",
+      "schema:addressCountry": "NO",
+      "schema:addressLocality": "Oslo",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/3143244/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1773919"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.tekniskmuseum.no/"
+      },
+      "schema:foundingDate": {
+        "@value": "1914",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1914,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/henie-onstad",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Henie Onstad Art Centre",
+          "@language": "en"
+        },
+        {
+          "@value": "Henie Onstad Kunstsenter",
+          "@language": "nb"
+        },
+        {
+          "@value": "Henie Onstad Kunstsenter",
+          "@language": "nn"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Henie Onstad Art Centre",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "International art centre founded by figure skater Sonja Henie and her husband Niels Onstad, with a collection of modern and contemporary art.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "NO",
+      "schema:addressLocality": "Bærum",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/3162163/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1602622"
+      },
+      "foaf:homepage": {
+        "@id": "https://hok.no/"
+      },
+      "schema:foundingDate": {
+        "@value": "1968",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1968,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/norsk-industriarbeidermuseum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Norwegian Industrial Workers Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Norsk Industriarbeidermuseum",
+          "@language": "nb"
+        },
+        {
+          "@value": "Norsk Industriarbeidarmuseum",
+          "@language": "nn"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Norwegian Industrial Workers Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Museum at Vemork power station documenting the history of Norsk Hydro and the famous WWII heavy water sabotage operation.",
+        "@language": "en"
+      },
+      "schema:additionalType": "history-museum",
+      "schema:addressCountry": "NO",
+      "schema:addressLocality": "Rjukan",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/3141667/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q3345230"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.telemarkmuseum.no/"
+      },
+      "schema:foundingDate": {
+        "@value": "1988",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1988,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/lofotr-vikingmuseum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Lofotr Viking Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Lofotr Vikingmuseum",
+          "@language": "nb"
+        },
+        {
+          "@value": "Lofotr Vikingmuseum",
+          "@language": "nn"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Lofotr Viking Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Museum built around the excavated remains of the largest Viking Age longhouse ever found, with a full-scale reconstruction in the Lofoten Islands.",
+        "@language": "en"
+      },
+      "schema:additionalType": "archaeology-museum",
+      "schema:addressCountry": "NO",
+      "schema:addressLocality": "Borg",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/3159810/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1869099"
+      },
+      "foaf:homepage": {
+        "@id": "https://lofotr.no/"
+      },
+      "schema:foundingDate": {
+        "@value": "1995",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1995,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/kistefos",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Kistefos Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Kistefos-Museet",
+          "@language": "nb"
+        },
+        {
+          "@value": "Kistefos-Museet",
+          "@language": "nn"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Kistefos Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Industrial museum and sculpture park featuring The Twist gallery by BIG architects, combining contemporary art with the heritage of a 19th-century wood pulp mill.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "NO",
+      "schema:addressLocality": "Jevnaker",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/3151770/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q3196816"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.kistefosmuseum.no/"
+      },
+      "schema:foundingDate": {
+        "@value": "1996",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1996,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/stiklestad",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Stiklestad National Culture Centre",
+          "@language": "en"
+        },
+        {
+          "@value": "Stiklestad Nasjonale Kultursenter",
+          "@language": "nb"
+        },
+        {
+          "@value": "Stiklestad Nasjonale Kultursenter",
+          "@language": "nn"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Stiklestad National Culture Centre",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Museum and culture centre at the site of the Battle of Stiklestad (1030), where King Olav Haraldsson fell, a pivotal event in the Christianisation of Norway.",
+        "@language": "en"
+      },
+      "schema:additionalType": "history-museum",
+      "schema:addressCountry": "NO",
+      "schema:addressLocality": "Verdal",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/3132998/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q2479747"
+      },
+      "foaf:homepage": {
+        "@id": "https://stiklestad.no/"
+      },
+      "schema:foundingDate": {
+        "@value": "1930",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1930,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/ateneum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Ateneum Art Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Ateneum",
+          "@language": "fi"
+        },
+        {
+          "@value": "Ateneum",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Ateneum Art Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Finland's premier classical art museum and part of the Finnish National Gallery, housing the largest collection of Finnish art from the 18th century to the modern era.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "FI",
+      "schema:addressLocality": "Helsinki",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/658225/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q754507"
+      },
+      "dcterms:identifier": "FI-Ate",
+      "foaf:homepage": {
+        "@id": "https://ateneum.fi/"
+      },
+      "schema:foundingDate": {
+        "@value": "1887",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1887,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/kiasma",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Kiasma Museum of Contemporary Art",
+          "@language": "en"
+        },
+        {
+          "@value": "Nykytaiteen museo Kiasma",
+          "@language": "fi"
+        },
+        {
+          "@value": "Museet för nutidskonst Kiasma",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Kiasma Museum of Contemporary Art",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Finland's museum of contemporary art, part of the Finnish National Gallery, housed in a Steven Holl-designed building showcasing Finnish and international contemporary art.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "FI",
+      "schema:addressLocality": "Helsinki",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/658225/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1421498"
+      },
+      "foaf:homepage": {
+        "@id": "https://kiasma.fi/"
+      },
+      "schema:foundingDate": {
+        "@value": "1998",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1998,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/sinebrychoff",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Sinebrychoff Art Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Sinebrychoffin taidemuseo",
+          "@language": "fi"
+        },
+        {
+          "@value": "Sinebrychoffs konstmuseum",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Sinebrychoff Art Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Part of the Finnish National Gallery specialising in European old masters, with collections of paintings, miniatures, porcelain, and silver in a historic brewery building.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "FI",
+      "schema:addressLocality": "Helsinki",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/658225/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1396704"
+      },
+      "foaf:homepage": {
+        "@id": "https://sfrm.fi/"
+      },
+      "schema:foundingDate": {
+        "@value": "1921",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1921,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/kansallismuseo",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "National Museum of Finland",
+          "@language": "en"
+        },
+        {
+          "@value": "Suomen kansallismuseo",
+          "@language": "fi"
+        },
+        {
+          "@value": "Finlands nationalmuseum",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "National Museum of Finland",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Finland's national history museum covering Finnish cultural history from prehistoric times to the present, housed in a National Romantic style building.",
+        "@language": "en"
+      },
+      "schema:additionalType": "history-museum",
+      "schema:addressCountry": "FI",
+      "schema:addressLocality": "Helsinki",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/658225/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1331756"
+      },
+      "dcterms:identifier": "FI-Km",
+      "foaf:homepage": {
+        "@id": "https://www.kansallismuseo.fi/"
+      },
+      "schema:foundingDate": {
+        "@value": "1916",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1916,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/designmuseo",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Design Museum Helsinki",
+          "@language": "en"
+        },
+        {
+          "@value": "Designmuseo",
+          "@language": "fi"
+        },
+        {
+          "@value": "Designmuseet",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Design Museum Helsinki",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "One of the world's oldest design museums, documenting Finnish design history from the decorative arts to industrial and graphic design.",
+        "@language": "en"
+      },
+      "schema:additionalType": "design-museum",
+      "schema:addressCountry": "FI",
+      "schema:addressLocality": "Helsinki",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/658225/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1198723"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.designmuseum.fi/"
+      },
+      "schema:foundingDate": {
+        "@value": "1873",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1873,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/seurasaari",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Seurasaari Open-Air Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Seurasaaren ulkomuseo",
+          "@language": "fi"
+        },
+        {
+          "@value": "Fölisöns friluftsmuseum",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Seurasaari Open-Air Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Open-air museum on Seurasaari island displaying traditional Finnish wooden buildings from the 18th to 20th centuries, including farmsteads, a church, and a manor.",
+        "@language": "en"
+      },
+      "schema:additionalType": "open-air-museum",
+      "schema:addressCountry": "FI",
+      "schema:addressLocality": "Helsinki",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/658225/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1413035"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.kansallismuseo.fi/en/seurasaari"
+      },
+      "schema:foundingDate": {
+        "@value": "1909",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1909,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/turku-linna",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Turku Castle Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Turun linna",
+          "@language": "fi"
+        },
+        {
+          "@value": "Åbo slott",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Turku Castle Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Museum within Finland's largest medieval castle, dating from the 1280s, presenting the history of the castle and the city of Turku.",
+        "@language": "en"
+      },
+      "schema:additionalType": "history-museum",
+      "schema:addressCountry": "FI",
+      "schema:addressLocality": "Turku",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/633679/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1215078"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.turku.fi/turunlinna"
+      },
+      "schema:foundingDate": {
+        "@value": "1881",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1881,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/turun-taidemuseo",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Turku Art Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Turun taidemuseo",
+          "@language": "fi"
+        },
+        {
+          "@value": "Åbo konstmuseum",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Turku Art Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "One of Finland's major regional art museums with a collection of Finnish and Nordic art, housed in a granite Art Nouveau building.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "FI",
+      "schema:addressLocality": "Turku",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/633679/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q2034910"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.turuntaidemuseo.fi/"
+      },
+      "schema:foundingDate": {
+        "@value": "1904",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1904,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/aboa-vetus-ars-nova",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Aboa Vetus Ars Nova",
+          "@language": "en"
+        },
+        {
+          "@value": "Aboa Vetus Ars Nova",
+          "@language": "fi"
+        },
+        {
+          "@value": "Aboa Vetus Ars Nova",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Aboa Vetus Ars Nova",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Unique museum combining archaeology and contemporary art, built over the excavated remains of medieval Turku's streets and cellars.",
+        "@language": "en"
+      },
+      "schema:additionalType": "archaeology-museum",
+      "schema:addressCountry": "FI",
+      "schema:addressLocality": "Turku",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/633679/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q11853228"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.afrfrm.fi/"
+      },
+      "schema:foundingDate": {
+        "@value": "1995",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1995,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/tampereen-taidemuseo",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Tampere Art Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Tampereen taidemuseo",
+          "@language": "fi"
+        },
+        {
+          "@value": "Tammerfors konstmuseum",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Tampere Art Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Tampere's central art museum with a collection of Finnish art and an active programme of contemporary exhibitions.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "FI",
+      "schema:addressLocality": "Tampere",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/634963/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q6067702"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.tampereentaidemuseo.fi/"
+      },
+      "schema:foundingDate": {
+        "@value": "1931",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1931,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/sara-hilden",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Sara Hildén Art Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Sara Hildénin taidemuseo",
+          "@language": "fi"
+        },
+        {
+          "@value": "Sara Hildéns konstmuseum",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Sara Hildén Art Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Museum of modern and contemporary Finnish and international art, based on the collection of businesswoman and art collector Sara Hildén.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "FI",
+      "schema:addressLocality": "Tampere",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/634963/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q2377432"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.sarahilden.fi/"
+      },
+      "schema:foundingDate": {
+        "@value": "1979",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1979,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/siida",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Siida - Sami Museum and Nature Centre",
+          "@language": "en"
+        },
+        {
+          "@value": "Siida - Saamelaismuseo ja luontokeskus",
+          "@language": "fi"
+        },
+        {
+          "@value": "Siida - Sámemusea ja luondduguovddáš",
+          "@language": "se"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Siida - Sami Museum and Nature Centre",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "National museum of the Finnish Sami, presenting Sami culture and the nature of northern Lapland, with an open-air section featuring traditional Sami dwellings.",
+        "@language": "en"
+      },
+      "schema:additionalType": "folk-museum",
+      "schema:addressCountry": "FI",
+      "schema:addressLocality": "Inari",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/656677/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q3482458"
+      },
+      "foaf:homepage": {
+        "@id": "https://sifrda.fi/"
+      },
+      "schema:foundingDate": {
+        "@value": "1962",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1962,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/oulun-taidemuseo",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Oulu Museum of Art",
+          "@language": "en"
+        },
+        {
+          "@value": "Oulun taidemuseo",
+          "@language": "fi"
+        },
+        {
+          "@value": "Uleåborgs konstmuseum",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Oulu Museum of Art",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Northern Finland's leading art museum with a collection focusing on Finnish art from the 20th and 21st centuries.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "FI",
+      "schema:addressLocality": "Oulu",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/643492/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q18345226"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.ouka.fi/oulu/taidemuseo"
+      },
+      "schema:foundingDate": {
+        "@value": "1963",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1963,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/helsingin-kaupunginmuseo",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Helsinki City Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Helsingin kaupunginmuseo",
+          "@language": "fi"
+        },
+        {
+          "@value": "Helsingfors stadsmuseum",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Helsinki City Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "City museum documenting the history and everyday life of Helsinki from its founding in 1550 to the present day.",
+        "@language": "en"
+      },
+      "schema:additionalType": "history-museum",
+      "schema:addressCountry": "FI",
+      "schema:addressLocality": "Helsinki",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/658225/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q3330210"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.helsinginkaupunginmuseo.fi/"
+      },
+      "schema:foundingDate": {
+        "@value": "1911",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1911,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/luonnontieteellinen-museo",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Finnish Museum of Natural History",
+          "@language": "en"
+        },
+        {
+          "@value": "Luonnontieteellinen keskusmuseo Luomus",
+          "@language": "fi"
+        },
+        {
+          "@value": "Naturhistoriska centralmuseet",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Finnish Museum of Natural History",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Finland's national natural history museum and research institution, part of the University of Helsinki, with collections spanning botany, zoology, and geology.",
+        "@language": "en"
+      },
+      "schema:additionalType": "natural-history-museum",
+      "schema:addressCountry": "FI",
+      "schema:addressLocality": "Helsinki",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/658225/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1404452"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.luomus.fi/"
+      },
+      "schema:foundingDate": {
+        "@value": "1988",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1988,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/vapriikki",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Vapriikki Museum Centre",
+          "@language": "en"
+        },
+        {
+          "@value": "Vapriikki",
+          "@language": "fi"
+        },
+        {
+          "@value": "Vapriikki",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Vapriikki Museum Centre",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Museum centre in a converted factory complex hosting multiple exhibitions on Tampere's industrial heritage, natural history, ice hockey, and Finnish games.",
+        "@language": "en"
+      },
+      "schema:additionalType": "history-museum",
+      "schema:addressCountry": "FI",
+      "schema:addressLocality": "Tampere",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/634963/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q3267772"
+      },
+      "foaf:homepage": {
+        "@id": "https://vapriikki.fi/"
+      },
+      "schema:foundingDate": {
+        "@value": "1996",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1996,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/amos-rex",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Amos Rex",
+          "@language": "en"
+        },
+        {
+          "@value": "Amos Rex",
+          "@language": "fi"
+        },
+        {
+          "@value": "Amos Rex",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Amos Rex",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Art museum beneath the iconic Lasipalatsi building, presenting modern and contemporary art exhibitions with distinctive subterranean gallery spaces.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "FI",
+      "schema:addressLocality": "Helsinki",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/658225/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q56308665"
+      },
+      "foaf:homepage": {
+        "@id": "https://amosrex.fi/"
+      },
+      "schema:foundingDate": {
+        "@value": "2018",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 2018,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/arktikum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Arktikum Science Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Arktikum",
+          "@language": "fi"
+        },
+        {
+          "@value": "Arktikum",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Arktikum Science Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Museum and science centre on the Arctic, combining the Provincial Museum of Lapland and the Arctic Centre of the University of Lapland.",
+        "@language": "en"
+      },
+      "schema:additionalType": "specialized-museum",
+      "schema:addressCountry": "FI",
+      "schema:addressLocality": "Rovaniemi",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/640276/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q2858595"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.arktikum.fi/"
+      },
+      "schema:foundingDate": {
+        "@value": "1992",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1992,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/emma",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "EMMA - Espoo Museum of Modern Art",
+          "@language": "en"
+        },
+        {
+          "@value": "EMMA - Espoon modernin taiteen museo",
+          "@language": "fi"
+        },
+        {
+          "@value": "EMMA - Esbo moderna konstmuseum",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "EMMA - Espoo Museum of Modern Art",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Finland's largest art museum by exhibition area, located in the WeeGee Exhibition Centre, presenting modern and contemporary art.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "FI",
+      "schema:addressLocality": "Espoo",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/660158/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1059774"
+      },
+      "foaf:homepage": {
+        "@id": "https://emmamuseum.fi/"
+      },
+      "schema:foundingDate": {
+        "@value": "2006",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 2006,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/hameenlinnan-taidemuseo",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Hämeenlinna Art Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Hämeenlinnan taidemuseo",
+          "@language": "fi"
+        },
+        {
+          "@value": "Tavastehus konstmuseum",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Hämeenlinna Art Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Art museum in the birthplace of Jean Sibelius, with a collection of Finnish art from the 19th century to the present.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "FI",
+      "schema:addressLocality": "Hämeenlinna",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/659282/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q18345156"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.hameenlinna.fi/taidemuseo"
+      },
+      "schema:foundingDate": {
+        "@value": "1952",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1952,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/suomen-merimuseo",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Maritime Museum of Finland",
+          "@language": "en"
+        },
+        {
+          "@value": "Suomen merimuseo",
+          "@language": "fi"
+        },
+        {
+          "@value": "Finlands sjöhistoriska museum",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Maritime Museum of Finland",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Finland's national maritime museum documenting the country's maritime history, seafaring traditions, and underwater archaeology.",
+        "@language": "en"
+      },
+      "schema:additionalType": "maritime-museum",
+      "schema:addressCountry": "FI",
+      "schema:addressLocality": "Kotka",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/650224/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q11893116"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.merikeskusfrelluma.fi/"
+      },
+      "schema:foundingDate": {
+        "@value": "2008",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 2008,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/ainola",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Ainola - Home of Jean Sibelius",
+          "@language": "en"
+        },
+        {
+          "@value": "Ainola",
+          "@language": "fi"
+        },
+        {
+          "@value": "Ainola",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Ainola - Home of Jean Sibelius",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "The lakeside home of composer Jean Sibelius where he lived from 1904 until his death in 1957, preserved as a museum with original furnishings and personal items.",
+        "@language": "en"
+      },
+      "schema:additionalType": "specialized-museum",
+      "schema:addressCountry": "FI",
+      "schema:addressLocality": "Järvenpää",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/655811/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1139286"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.ainola.fi/"
+      },
+      "schema:foundingDate": {
+        "@value": "1974",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1974,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/pohjanmaan-museo",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Ostrobothnian Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Pohjanmaan museo",
+          "@language": "fi"
+        },
+        {
+          "@value": "Österbottens museum",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Ostrobothnian Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Regional museum of Ostrobothnia covering the cultural history of Finland's western coast, with collections on the region's bilingual Finnish-Swedish heritage.",
+        "@language": "en"
+      },
+      "schema:additionalType": "history-museum",
+      "schema:addressCountry": "FI",
+      "schema:addressLocality": "Vaasa",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/632978/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q11885882"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.pohjanmaanmuseo.fi/"
+      },
+      "schema:foundingDate": {
+        "@value": "1895",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1895,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/kuopio-museo",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Kuopio Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Kuopion museo",
+          "@language": "fi"
+        },
+        {
+          "@value": "Kuopio museum",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Kuopio Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Cultural history and natural history museum of the Kuopio region, one of the oldest museums in eastern Finland.",
+        "@language": "en"
+      },
+      "schema:additionalType": "history-museum",
+      "schema:addressCountry": "FI",
+      "schema:addressLocality": "Kuopio",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/650225/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q18345179"
+      },
+      "foaf:homepage": {
+        "@id": "https://kuopionmuseo.fi/"
+      },
+      "schema:foundingDate": {
+        "@value": "1907",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1907,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/nationalmuseet-dk",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "National Museum of Denmark",
+          "@language": "en"
+        },
+        {
+          "@value": "Nationalmuseet",
+          "@language": "da"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "National Museum of Denmark",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Denmark's principal museum of cultural history, covering Danish and international cultures from the Stone Age to the present, including the famous Sun Chariot.",
+        "@language": "en"
+      },
+      "schema:additionalType": "history-museum",
+      "schema:addressCountry": "DK",
+      "schema:addressLocality": "Copenhagen",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2618425/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1140507"
+      },
+      "dcterms:identifier": "DK-810010",
+      "foaf:homepage": {
+        "@id": "https://www.natmus.dk/"
+      },
+      "schema:foundingDate": {
+        "@value": "1819",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1819,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/smk",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "SMK - National Gallery of Denmark",
+          "@language": "en"
+        },
+        {
+          "@value": "Statens Museum for Kunst",
+          "@language": "da"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "SMK - National Gallery of Denmark",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Denmark's national art gallery with the largest collection of Danish and international art spanning 700 years, from Lucas Cranach to contemporary art.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "DK",
+      "schema:addressLocality": "Copenhagen",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2618425/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q671384"
+      },
+      "dcterms:identifier": "DK-820010",
+      "foaf:homepage": {
+        "@id": "https://www.smk.dk/"
+      },
+      "schema:foundingDate": {
+        "@value": "1849",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1849,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/ny-carlsberg-glyptotek",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Ny Carlsberg Glyptotek",
+          "@language": "en"
+        },
+        {
+          "@value": "Ny Carlsberg Glyptotek",
+          "@language": "da"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Ny Carlsberg Glyptotek",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Art museum founded by brewer Carl Jacobsen housing a world-class collection of ancient Egyptian, Greek, and Roman sculpture alongside French Impressionism and Danish Golden Age painting.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "DK",
+      "schema:addressLocality": "Copenhagen",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2618425/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1138030"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.glfrptotek.dk/"
+      },
+      "schema:foundingDate": {
+        "@value": "1888",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1888,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/louisiana",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Louisiana Museum of Modern Art",
+          "@language": "en"
+        },
+        {
+          "@value": "Louisiana Museum for Moderne Kunst",
+          "@language": "da"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Louisiana Museum of Modern Art",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Denmark's most visited art museum, situated on the Øresund coast, with an outstanding collection of modern and contemporary art in a landscape setting.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "DK",
+      "schema:addressLocality": "Humlebæk",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2620679/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q671384"
+      },
+      "foaf:homepage": {
+        "@id": "https://louisiana.dk/"
+      },
+      "schema:foundingDate": {
+        "@value": "1958",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1958,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/aros",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "ARoS Aarhus Art Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "ARoS Aarhus Kunstmuseum",
+          "@language": "da"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "ARoS Aarhus Art Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "One of Europe's largest art museums, known for Olafur Eliasson's rainbow panorama walkway and a collection spanning the Danish Golden Age to international contemporary art.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "DK",
+      "schema:addressLocality": "Aarhus",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2624652/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q845584"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.aros.dk/"
+      },
+      "schema:foundingDate": {
+        "@value": "1859",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1859,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/thorvaldsens-museum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Thorvaldsens Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Thorvaldsens Museum",
+          "@language": "da"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Thorvaldsens Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Museum dedicated to the works of sculptor Bertel Thorvaldsen, Denmark's most celebrated Neoclassical artist, in a purpose-built colourful building beside Christiansborg.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "DK",
+      "schema:addressLocality": "Copenhagen",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2618425/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1140535"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.thorvaldsensmuseum.dk/"
+      },
+      "schema:foundingDate": {
+        "@value": "1848",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1848,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/hirschsprungske",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "The Hirschsprung Collection",
+          "@language": "en"
+        },
+        {
+          "@value": "Den Hirschsprungske Samling",
+          "@language": "da"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "The Hirschsprung Collection",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Museum housing tobacco manufacturer Heinrich Hirschsprung's collection of Danish art from the 19th and early 20th centuries, including the Skagen painters.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "DK",
+      "schema:addressLocality": "Copenhagen",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2618425/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1191916"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.hirschsprung.dk/"
+      },
+      "schema:foundingDate": {
+        "@value": "1911",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1911,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/ordrupgaard",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Ordrupgaard",
+          "@language": "en"
+        },
+        {
+          "@value": "Ordrupgaard",
+          "@language": "da"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Ordrupgaard",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Art museum in a country house setting, renowned for its collection of French Impressionist and Post-Impressionist paintings alongside Danish Golden Age works.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "DK",
+      "schema:addressLocality": "Charlottenlund",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2618862/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1138041"
+      },
+      "foaf:homepage": {
+        "@id": "https://ordrupgaard.dk/"
+      },
+      "schema:foundingDate": {
+        "@value": "1953",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1953,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/vikingeskibsmuseet",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Viking Ship Museum Roskilde",
+          "@language": "en"
+        },
+        {
+          "@value": "Vikingeskibsmuseet",
+          "@language": "da"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Viking Ship Museum Roskilde",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Museum dedicated to Viking Age seafaring, built around five original Viking ships excavated from Roskilde Fjord, with a working boatyard.",
+        "@language": "en"
+      },
+      "schema:additionalType": "maritime-museum",
+      "schema:addressCountry": "DK",
+      "schema:addressLocality": "Roskilde",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2615876/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1133976"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.vikingeskibsmuseet.dk/"
+      },
+      "schema:foundingDate": {
+        "@value": "1969",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1969,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/ms-maritime-museum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "M/S Maritime Museum of Denmark",
+          "@language": "en"
+        },
+        {
+          "@value": "M/S Museet for Søfart",
+          "@language": "da"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "M/S Maritime Museum of Denmark",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Award-winning maritime museum designed by BIG architects, built around an old dry dock, documenting Denmark's maritime history and global trade.",
+        "@language": "en"
+      },
+      "schema:additionalType": "maritime-museum",
+      "schema:addressCountry": "DK",
+      "schema:addressLocality": "Helsingør",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2620473/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q2362154"
+      },
+      "foaf:homepage": {
+        "@id": "https://mfrfs.dk/"
+      },
+      "schema:foundingDate": {
+        "@value": "2013",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 2013,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/den-gamle-by",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Den Gamle By - The Old Town",
+          "@language": "en"
+        },
+        {
+          "@value": "Den Gamle By",
+          "@language": "da"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Den Gamle By - The Old Town",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "The world's first open-air town museum, recreating Danish urban life through three historical periods with more than 75 buildings from across Denmark.",
+        "@language": "en"
+      },
+      "schema:additionalType": "open-air-museum",
+      "schema:addressCountry": "DK",
+      "schema:addressLocality": "Aarhus",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2624652/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1182781"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.dengamleby.dk/"
+      },
+      "schema:foundingDate": {
+        "@value": "1909",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1909,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/moesgaard",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Moesgaard Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Moesgaard Museum",
+          "@language": "da"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Moesgaard Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Ethnographic and archaeological museum in a landmark building, housing the Grauballe Man and presenting Danish prehistory and cultures from around the world.",
+        "@language": "en"
+      },
+      "schema:additionalType": "archaeology-museum",
+      "schema:addressCountry": "DK",
+      "schema:addressLocality": "Aarhus",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2624652/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1535628"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.moesgaardmuseum.dk/"
+      },
+      "schema:foundingDate": {
+        "@value": "2014",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 2014,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/dansk-jodisk-museum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Danish Jewish Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Dansk Jødisk Museum",
+          "@language": "da"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Danish Jewish Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Museum designed by Daniel Libeskind documenting the history of the Jewish community in Denmark, including the rescue of Danish Jews during World War II.",
+        "@language": "en"
+      },
+      "schema:additionalType": "history-museum",
+      "schema:addressCountry": "DK",
+      "schema:addressLocality": "Copenhagen",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2618425/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1173631"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.jewmus.dk/"
+      },
+      "schema:foundingDate": {
+        "@value": "2004",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 2004,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/kunsten",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Kunsten Museum of Modern Art Aalborg",
+          "@language": "en"
+        },
+        {
+          "@value": "Kunsten - Museum of Modern Art Aalborg",
+          "@language": "da"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Kunsten Museum of Modern Art Aalborg",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Museum of modern and contemporary art in a building designed by Alvar Aalto and Jean-Jacques Baruël, with Danish and international art from 1900 to the present.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "DK",
+      "schema:addressLocality": "Aalborg",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2624886/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1764404"
+      },
+      "foaf:homepage": {
+        "@id": "https://kunsten.dk/"
+      },
+      "schema:foundingDate": {
+        "@value": "1972",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1972,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/frilandsmuseet",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "The Open Air Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Frilandsmuseet",
+          "@language": "da"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "The Open Air Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "One of the world's oldest and largest open-air museums, part of the National Museum, with over 100 historical buildings from Denmark, southern Sweden, and northern Germany.",
+        "@language": "en"
+      },
+      "schema:additionalType": "open-air-museum",
+      "schema:addressCountry": "DK",
+      "schema:addressLocality": "Lyngby",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2618627/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1321613"
+      },
+      "foaf:homepage": {
+        "@id": "https://natmus.dk/frilandsmuseet/"
+      },
+      "schema:foundingDate": {
+        "@value": "1897",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1897,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/designmuseum-dk",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Designmuseum Danmark",
+          "@language": "en"
+        },
+        {
+          "@value": "Designmuseum Danmark",
+          "@language": "da"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Designmuseum Danmark",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Denmark's museum of design and decorative arts, housed in a rococo hospital building, covering Danish and international design, fashion, crafts, and industrial design.",
+        "@language": "en"
+      },
+      "schema:additionalType": "design-museum",
+      "schema:addressCountry": "DK",
+      "schema:addressLocality": "Copenhagen",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2618425/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1140506"
+      },
+      "foaf:homepage": {
+        "@id": "https://designmuseum.dk/"
+      },
+      "schema:foundingDate": {
+        "@value": "1890",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1890,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/randers-kunstmuseum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Randers Art Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Randers Kunstmuseum",
+          "@language": "da"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Randers Art Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "One of Denmark's oldest art museums, with a collection focusing on Danish art from the Golden Age through Modernism.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "DK",
+      "schema:addressLocality": "Randers",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2615006/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q7293968"
+      },
+      "foaf:homepage": {
+        "@id": "https://randerskunstmuseum.dk/"
+      },
+      "schema:foundingDate": {
+        "@value": "1887",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1887,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/ribe-vikingecenter",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Ribe VikingeCenter",
+          "@language": "en"
+        },
+        {
+          "@value": "Ribe VikingeCenter",
+          "@language": "da"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Ribe VikingeCenter",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Open-air museum and reconstructed Viking marketplace based on archaeological findings from Ribe, Denmark's oldest town.",
+        "@language": "en"
+      },
+      "schema:additionalType": "open-air-museum",
+      "schema:addressCountry": "DK",
+      "schema:addressLocality": "Ribe",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2615060/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q7325006"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.ribevikingecenter.dk/"
+      },
+      "schema:foundingDate": {
+        "@value": "1992",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1992,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/skagens-museum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Skagens Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Skagens Museum",
+          "@language": "da"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Skagens Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Art museum dedicated to the Skagen Painters, a group of Scandinavian artists who gathered at the northernmost point of Denmark in the late 19th century to paint light and seascapes.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "DK",
+      "schema:addressLocality": "Skagen",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2613854/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1572584"
+      },
+      "foaf:homepage": {
+        "@id": "https://skagenskunstmuseer.dk/"
+      },
+      "schema:foundingDate": {
+        "@value": "1908",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1908,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/brandts",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Brandts Museum of Art and Visual Culture",
+          "@language": "en"
+        },
+        {
+          "@value": "Brandts",
+          "@language": "da"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Brandts Museum of Art and Visual Culture",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Art and visual culture museum in a converted textile mill, presenting photography, graphic art, and contemporary visual culture.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "DK",
+      "schema:addressLocality": "Odense",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2615876/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q4955912"
+      },
+      "foaf:homepage": {
+        "@id": "https://brandts.dk/"
+      },
+      "schema:foundingDate": {
+        "@value": "1984",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1984,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/thjodminjasafn",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "National Museum of Iceland",
+          "@language": "en"
+        },
+        {
+          "@value": "Þjóðminjasafn Íslands",
+          "@language": "is"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "National Museum of Iceland",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Iceland's national museum of cultural history, tracing Icelandic civilisation from Viking settlement in the 9th century to the present day.",
+        "@language": "en"
+      },
+      "schema:additionalType": "history-museum",
+      "schema:addressCountry": "IS",
+      "schema:addressLocality": "Reykjavik",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/3413829/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1418298"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.thjodminjasafn.is/"
+      },
+      "schema:foundingDate": {
+        "@value": "1863",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1863,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Iceland"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/listasafn-reykjavikur",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Reykjavik Art Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Listasafn Reykjavíkur",
+          "@language": "is"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Reykjavik Art Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Reykjavik's art museum operating across three venues: Hafnarhús (contemporary art), Kjarvalsstaðir (Kjarval's works), and Ásmundarsafn (Ásmundur Sveinsson sculpture).",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "IS",
+      "schema:addressLocality": "Reykjavik",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/3413829/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1762225"
+      },
+      "foaf:homepage": {
+        "@id": "https://listfrsfnreykjavikur.is/"
+      },
+      "schema:foundingDate": {
+        "@value": "1973",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1973,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Iceland"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/listasafn-islands",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "National Gallery of Iceland",
+          "@language": "en"
+        },
+        {
+          "@value": "Listasafn Íslands",
+          "@language": "is"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "National Gallery of Iceland",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Iceland's national art gallery, housing the country's most important collection of visual art by Icelandic and international artists.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "IS",
+      "schema:addressLocality": "Reykjavik",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/3413829/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q1460820"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.listasafn.is/"
+      },
+      "schema:foundingDate": {
+        "@value": "1884",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1884,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Iceland"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/saga-museum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Saga Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Sögusetrið",
+          "@language": "is"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Saga Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Museum recreating key moments from Iceland's history using lifelike silicone figures, from the settlement era through the sagas.",
+        "@language": "en"
+      },
+      "schema:additionalType": "history-museum",
+      "schema:addressCountry": "IS",
+      "schema:addressLocality": "Reykjavik",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/3413829/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q7399131"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.sagamuseum.is/"
+      },
+      "schema:foundingDate": {
+        "@value": "2004",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 2004,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Iceland"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/arbaer",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Árbær Open Air Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Árbæjarsafn",
+          "@language": "is"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Árbær Open Air Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Open-air museum preserving more than 20 historical buildings showing how Reykjavik residents lived and worked in earlier centuries.",
+        "@language": "en"
+      },
+      "schema:additionalType": "open-air-museum",
+      "schema:addressCountry": "IS",
+      "schema:addressLocality": "Reykjavik",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/3413829/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q3560972"
+      },
+      "foaf:homepage": {
+        "@id": "https://borgarsogusafn.is/arbaejarsafn"
+      },
+      "schema:foundingDate": {
+        "@value": "1957",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1957,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Iceland"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/akureyri-listasafn",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Akureyri Art Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Listasafnið á Akureyri",
+          "@language": "is"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Akureyri Art Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Art museum in northern Iceland's largest town, presenting contemporary Icelandic and international visual art.",
+        "@language": "en"
+      },
+      "schema:additionalType": "art-museum",
+      "schema:addressCountry": "IS",
+      "schema:addressLocality": "Akureyri",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/3418399/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q4700942"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.listak.is/"
+      },
+      "schema:foundingDate": {
+        "@value": "1993",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1993,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Iceland"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/husavik-whale-museum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Húsavík Whale Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Hvalasafnið á Húsavík",
+          "@language": "is"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Húsavík Whale Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Museum dedicated to whales and whale research, featuring real whale skeletons and the ecology of Skjálfandi Bay, Iceland's whale watching capital.",
+        "@language": "en"
+      },
+      "schema:additionalType": "natural-history-museum",
+      "schema:addressCountry": "IS",
+      "schema:addressLocality": "Húsavík",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/2630048/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q12007817"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.whalemuseum.is/"
+      },
+      "schema:foundingDate": {
+        "@value": "1997",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1997,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Iceland"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/skogar-museum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Skógar Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Skógasafn",
+          "@language": "is"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Skógar Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Folk museum near the Skógafoss waterfall, preserving Icelandic heritage with a collection of over 18,000 regional artefacts and an open-air section of turf houses.",
+        "@language": "en"
+      },
+      "schema:additionalType": "folk-museum",
+      "schema:addressCountry": "IS",
+      "schema:addressLocality": "Skógar",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/3413604/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q7535416"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.skogasafn.is/"
+      },
+      "schema:foundingDate": {
+        "@value": "1949",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1949,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Iceland"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/reykjanes-heritage-museum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Reykjanes Heritage Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Byggðasafn Reykjaness",
+          "@language": "is"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Reykjanes Heritage Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Regional museum documenting the history and culture of the Reykjanes peninsula, focusing on fishing heritage and saltfish production.",
+        "@language": "en"
+      },
+      "schema:additionalType": "history-museum",
+      "schema:addressCountry": "IS",
+      "schema:addressLocality": "Keflavík",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/3414356/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q16338935"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.byggdasafn.is/"
+      },
+      "schema:foundingDate": {
+        "@value": "1977",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1977,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Iceland"
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-institutions/herring-era-museum",
+      "@type": [
+        "crm:E40_Legal_Body",
+        "org:Organization",
+        "schema:Museum"
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Herring Era Museum",
+          "@language": "en"
+        },
+        {
+          "@value": "Síldarminjasafnið á Siglufirði",
+          "@language": "is"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Herring Era Museum",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Award-winning museum documenting Iceland's herring fishing boom of the early to mid 20th century, in a historic waterfront setting in Siglufjörður.",
+        "@language": "en"
+      },
+      "schema:additionalType": "maritime-museum",
+      "schema:addressCountry": "IS",
+      "schema:addressLocality": "Siglufjörður",
+      "schema:location": {
+        "@id": "http://sws.geonames.org/3414079/"
+      },
+      "owl:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q3480783"
+      },
+      "foaf:homepage": {
+        "@id": "https://www.sfrld.is/"
+      },
+      "schema:foundingDate": {
+        "@value": "1994",
+        "@type": "xsd:gYear"
+      },
+      "mhub:timelineStart": 1994,
+      "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Iceland"
+    }
+  ]
+}

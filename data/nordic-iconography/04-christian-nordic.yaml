@@ -1,0 +1,315 @@
+# Christian Iconography in Nordic Context
+
+# ── Top-level categories ──
+
+- id: nordic-church-art
+  iconclass: "11H"
+  timeline_start: 1000
+  labels:
+    en: Nordic church art
+    sv: Nordisk kyrkokonst
+    fi: Pohjoismainen kirkotaide
+    da: Nordisk kirkekunst
+    nb: Nordisk kirkekunst
+  description: "Christian religious art as expressed in Scandinavian and Nordic churches from the medieval period onward, blending European Christian iconographic traditions with local artistic styles."
+
+- id: nordic-saints
+  iconclass: "11HH"
+  timeline_start: 800
+  labels:
+    en: Nordic saints
+    sv: Nordiska helgon
+    fi: Pohjoismaiset pyhimykset
+    da: Nordiske helgener
+    nb: Nordiske helgener
+  description: "Saints venerated in the Nordic countries, including national patron saints and figures significant to the Christianization and religious history of Scandinavia and Finland."
+
+# ── Architectural and Artistic Forms ──
+
+- id: stave-church
+  broader: nordic-church-art
+  aat_uri: "http://vocab.getty.edu/aat/300007424"
+  iconclass: "11P31"
+  timeline_start: 1050
+  timeline_end: 1350
+  labels:
+    en: Stave church iconography
+    sv: Stavkyrka ikonografi
+    fi: Sauvakirkkojen ikonografia
+    da: Stavkirke ikonografi
+    nb: Stavkirke ikonografi
+    is: Stafkirkja
+  description: "Decorative and religious imagery found on and within medieval Norwegian stave churches, blending Christian themes with Viking Age animal ornament. Carved portals feature interlacing dragons, vine scrolls, and narrative scenes."
+
+- id: sigurd-fafnir
+  broader: nordic-church-art
+  iconclass: "91D(SIGURD)"
+  timeline_start: 800
+  timeline_end: 1300
+  labels:
+    en: Sigurd slaying Fáfnir
+    sv: Sigurd dräper Fåfne
+    fi: Sigurd tappaa Fafnirin
+    da: Sigurd dræber Fafner
+    nb: Sigurd dreper Fåvne
+    is: Sigurður vegur Fáfni
+    non: Sigurðr ok Fáfnir
+  description: "A scene from the Völsung saga carved on stave church portals, rune stones, and crosses across Scandinavia. Sigurd kills the dragon Fáfnir, roasts its heart, and gains understanding of bird speech. Found on Hylestad stave church portal and Ramsund rock carving."
+
+- id: medieval-mural-cycles
+  broader: nordic-church-art
+  iconclass: "11I"
+  timeline_start: 1100
+  timeline_end: 1500
+  labels:
+    en: Medieval mural cycles (Nordic)
+    sv: Medeltida kalkmålningar
+    fi: Keskiaikaiset seinämaalaukset
+    da: Middelalderlige kalkmalerier
+    nb: Middelalderske kalkmalerier
+  description: "Lime-painted wall and ceiling murals in Nordic medieval churches, particularly prevalent in Danish and Swedish churches. Subjects include biblical narratives, saints' lives, morality scenes, and the Wheel of Fortune."
+
+- id: birgitta-visions
+  broader: nordic-church-art
+  iconclass: "11HH(BIRGITTA)"
+  timeline_start: 1303
+  timeline_end: 1500
+  labels:
+    en: Birgitta of Vadstena visions
+    sv: Heliga Birgittas visioner
+    fi: Pyhän Birgitan näyt
+    da: Den hellige Birgittas visioner
+    nb: Den hellige Birgittas visjoner
+  description: "Mystical visions of Saint Birgitta of Sweden (1303–1373), extensively depicted in Nordic medieval art. Her Revelations influenced Nativity and Passion iconography across Europe, particularly her vision of the Nativity with the luminous Christ child."
+
+- id: baptismal-font-carvings
+  broader: nordic-church-art
+  aat_uri: "http://vocab.getty.edu/aat/300080946"
+  iconclass: "11Q7321"
+  timeline_start: 1100
+  timeline_end: 1400
+  labels:
+    en: Baptismal font carvings (Nordic)
+    sv: Dopfuntsskulpturer
+    fi: Kastemaljaveistokset
+    da: Døbefontsudsmykninger
+    nb: Døpefontsutsmykninger
+  description: "Sculptural decoration on Romanesque and Gothic baptismal fonts in Nordic churches. Common subjects include the Baptism of Christ, fighting dragons, lions, and interlace patterns. Notable workshops include the Gotlandic masters."
+
+- id: rood-screen
+  broader: nordic-church-art
+  aat_uri: "http://vocab.getty.edu/aat/300002668"
+  iconclass: "11Q731"
+  timeline_start: 1100
+  timeline_end: 1500
+  labels:
+    en: Rood screen (Nordic)
+    sv: Triumfkrucifix och korskrank
+    fi: Ristiä kantava seinä
+    da: Korbuekrucifiks
+    nb: Triumfkrusifiks
+  description: "The triumphal crucifix and screen dividing nave from chancel in Nordic medieval churches. Scandinavian examples often feature monumental painted wooden crucifixes with the suffering Christ, flanked by Mary and John."
+
+- id: calvary-group
+  broader: nordic-church-art
+  aat_uri: "http://vocab.getty.edu/aat/300404177"
+  iconclass: "73D6"
+  timeline_start: 1100
+  timeline_end: 1500
+  labels:
+    en: Calvary group (Nordic)
+    sv: Kalvariegrupp
+    fi: Krusifiksiryhmä
+    da: Kalvariegruppe
+    nb: Kalvariegruppe
+  description: "Sculptural ensemble of the Crucifixion placed at the chancel arch in Nordic churches, typically consisting of Christ on the cross flanked by the Virgin Mary and Saint John. A defining element of Scandinavian medieval church interiors."
+
+- id: passion-scenes-nordic
+  broader: nordic-church-art
+  iconclass: "73D"
+  timeline_start: 1100
+  timeline_end: 1500
+  labels:
+    en: Passion scenes (Nordic style)
+    sv: Passionsscener (nordisk stil)
+    fi: Kärsimyskohtaukset (pohjoismainen tyyli)
+    da: Passionsscener (nordisk stil)
+    nb: Pasjonsscener (nordisk stil)
+  description: "Depictions of Christ's Passion in Scandinavian medieval art, including Entry into Jerusalem, Last Supper, Agony in the Garden, Flagellation, and Crucifixion. Often rendered in distinctive flat, graphic Nordic style in church murals."
+
+- id: madonna-child-nordic
+  broader: nordic-church-art
+  aat_uri: "http://vocab.getty.edu/aat/300404188"
+  iconclass: "11F4"
+  timeline_start: 1100
+  timeline_end: 1500
+  labels:
+    en: Madonna and Child (Nordic)
+    sv: Madonna med barnet (nordisk)
+    fi: Madonna ja lapsi (pohjoismainen)
+    da: Madonna med barnet (nordisk)
+    nb: Madonna med barnet (nordisk)
+  description: "Depictions of the Virgin Mary with the infant Jesus in Nordic art, particularly polychrome wooden sculptures from the 12th–15th centuries. Scandinavian Madonnas often show seated, enthroned figures with a distinctive hieratic style."
+
+- id: last-judgment-nordic
+  broader: nordic-church-art
+  iconclass: "11U"
+  timeline_start: 1100
+  timeline_end: 1500
+  labels:
+    en: Last Judgment (Nordic medieval)
+    sv: Yttersta domen (nordisk medeltid)
+    fi: Viimeinen tuomio (pohjoismainen keskiaika)
+    da: Dommedag (nordisk middelalder)
+    nb: Dommedag (nordisk middelalder)
+  description: "Depictions of the Last Judgment in Nordic medieval church art, often painted on the west wall facing the congregation. Christ sits in judgment with the saved ascending to heaven and the damned descending to hell with monstrous demons."
+
+- id: altarpiece-nordic
+  broader: nordic-church-art
+  aat_uri: "http://vocab.getty.edu/aat/300002656"
+  iconclass: "11Q71"
+  timeline_start: 1250
+  timeline_end: 1530
+  labels:
+    en: Altarpiece (Nordic medieval)
+    sv: Altarskåp (nordisk medeltid)
+    fi: Alttaritaulu (pohjoismainen keskiaika)
+    da: Altertavle (nordisk middelalder)
+    nb: Altertavle (nordisk middelalder)
+  description: "Winged triptych and polyptych altarpieces in Nordic medieval churches, many imported from Lübeck and other Hanseatic workshops. Elaborate carved and painted scenes of the Passion, saints' lives, and the Virgin Mary."
+
+# ── Nordic Saints ──
+
+- id: st-olav
+  broader: nordic-saints
+  iconclass: "11HH(OLAV)"
+  timeline_start: 995
+  labels:
+    en: Saint Olav
+    sv: Sankt Olof
+    fi: Pyhä Olavi
+    da: Sankt Oluf
+    nb: Hellig Olav
+    is: Helgi Ólafur
+    non: Óláfr helgi
+  description: "Olav II Haraldsson (c. 995–1030), King of Norway and patron saint of Norway. Died at the Battle of Stiklestad. Depicted with axe, orb, and dragon underfoot. His cult spread across Scandinavia, England, and the Baltic; Nidaros Cathedral is his shrine."
+
+- id: st-erik
+  broader: nordic-saints
+  iconclass: "11HH(ERIK)"
+  timeline_start: 1120
+  labels:
+    en: Saint Erik
+    sv: Sankt Erik
+    fi: Pyhä Eerik
+    da: Sankt Erik
+    nb: Hellig Erik
+  description: "Erik IX (d. 1160), King of Sweden and patron saint of Stockholm. According to tradition, he led a crusade to Finland and promoted the Christianization of Sweden. Depicted with crown, scepter, and battle standard."
+
+- id: st-henry-finland
+  broader: nordic-saints
+  iconclass: "11HH(HENRY)"
+  timeline_start: 1100
+  labels:
+    en: Saint Henry of Finland
+    sv: Sankt Henrik av Finland
+    fi: Piispa Henrik
+    da: Sankt Henrik af Finland
+    nb: Hellig Henrik av Finland
+  description: "English-born Bishop of Uppsala who accompanied Erik IX on a crusade to Finland (c. 1155). Patron saint of Finland, martyred by the peasant Lalli. Depicted in bishop's vestments, often standing on Lalli or on ice."
+
+- id: st-canute
+  broader: nordic-saints
+  iconclass: "11HH(CANUTE)"
+  timeline_start: 1042
+  labels:
+    en: Saint Canute
+    sv: Sankt Knut
+    fi: Pyhä Knuut
+    da: Sankt Knud
+    nb: Hellig Knut
+  description: "Canute IV (c. 1042–1086), King of Denmark and patron saint of Denmark. Murdered in St. Alban's Church in Odense during a rebellion. Canonized in 1101. Depicted with crown, scepter, and often a lance or sword."
+
+- id: st-birgitta
+  broader: nordic-saints
+  iconclass: "11HH(BIRGITTA)"
+  timeline_start: 1303
+  labels:
+    en: Saint Birgitta of Sweden
+    sv: Heliga Birgitta
+    fi: Pyhä Birgitta
+    da: Den hellige Birgitta
+    nb: Den hellige Birgitta
+  description: "Birgitta Birgersdotter (c. 1303–1373), Swedish mystic, saint, and founder of the Bridgettine Order. Patron saint of Europe and Sweden. Her Revelations profoundly influenced late medieval art and spirituality across Europe."
+
+- id: st-sigfrid
+  broader: nordic-saints
+  iconclass: "11HH(SIGFRID)"
+  timeline_start: 950
+  labels:
+    en: Saint Sigfrid
+    sv: Sankt Sigfrid
+    fi: Pyhä Sigfrid
+    da: Sankt Sigfrid
+    nb: Hellig Sigfrid
+  description: "English missionary bishop who baptized King Olof Skötkonung of Sweden around 1008, traditionally at Husaby. Patron saint of Växjö. Depicted with three heads in a barrel, representing his murdered nephews."
+
+- id: st-thorlakur
+  broader: nordic-saints
+  iconclass: "11HH(THORLAK)"
+  timeline_start: 1133
+  labels:
+    en: Saint Þorlákur
+    sv: Sankt Torlak
+    fi: Pyhä Þorlákur
+    da: Sankt Thorlak
+    nb: Hellig Torlak
+    is: Þorlákur helgi
+  description: "Þorlákur Þórhallsson (1133–1193), Bishop of Skálholt and patron saint of Iceland. Championed church reform and clerical celibacy. His feast day, Þorláksmessa (December 23), is celebrated with traditional Icelandic fermented skate."
+
+- id: st-hallvard
+  broader: nordic-saints
+  iconclass: "11HH(HALLVARD)"
+  timeline_start: 1020
+  labels:
+    en: Saint Hallvard
+    sv: Sankt Hallvard
+    fi: Pyhä Hallvard
+    da: Sankt Hallvard
+    nb: Hellig Hallvard
+  description: "Hallvard Vebjørnsson (c. 1020–1043), patron saint of Oslo. Killed while defending a woman accused of theft. Depicted with millstones, arrows, and the woman he tried to save. His image appears on Oslo's coat of arms."
+
+- id: st-ansgar
+  broader: nordic-saints
+  iconclass: "11HH(ANSGAR)"
+  timeline_start: 801
+  labels:
+    en: Saint Ansgar
+    sv: Sankt Ansgar
+    fi: Pyhä Ansgar
+    da: Sankt Ansgar
+    nb: Hellig Ansgar
+  description: "Ansgar of Bremen (801–865), the 'Apostle of the North', Frankish missionary who brought Christianity to Scandinavia. Founded the first Christian churches in Hedeby and Birka. Patron saint of Scandinavia."
+
+- id: golden-altarpiece
+  broader: nordic-church-art
+  timeline_start: 1050
+  timeline_end: 1300
+  labels:
+    en: Golden altarpieces (Nordic)
+    sv: Gyllene altarskåp
+    fi: Kultaiset alttaritaulut
+    da: Gyldne alterfrontaler
+    nb: Gyldne alterfrontaler
+  description: "Richly gilded altar frontals and retables from the medieval period, including the famous golden altarpieces of Scandinavia such as those from Broddetorp, Tamdrup, and Lisbjerg in Denmark."
+
+- id: church-ship-model
+  broader: nordic-church-art
+  timeline_start: 1400
+  labels:
+    en: Votive ship (church)
+    sv: Kyrkoskepp (votivskeppp)
+    fi: Kirkkolaiva
+    da: Kirkeskib
+    nb: Kirkeskip
+  description: "Model ships hung from the ceilings of Nordic churches, particularly common in Denmark, as votive offerings for safe voyages. A distinctive feature of Scandinavian church interiors from the 15th century onward."

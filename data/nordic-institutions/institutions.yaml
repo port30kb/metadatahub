@@ -1,0 +1,1717 @@
+# ═══════════════════════════════════════════════════════════════
+# Nordic Museum Institutions Authority Dataset
+# ═══════════════════════════════════════════════════════════════
+#
+# ~115 museum institutions across Sweden, Norway, Finland,
+# Denmark, and Iceland. Each entry includes multilingual names,
+# classification, location, and linked data identifiers.
+#
+# Schema: data/nordic-institutions/_schema.yaml
+# Generator: scripts/generate-nordic-institutions.py
+#
+# Sources:
+#   https://en.wikipedia.org/wiki/List_of_museums_in_Sweden
+#   https://en.wikipedia.org/wiki/List_of_museums_in_Norway
+#   https://en.wikipedia.org/wiki/List_of_museums_in_Finland
+#   https://en.wikipedia.org/wiki/List_of_museums_in_Denmark
+#   https://en.wikipedia.org/wiki/List_of_museums_in_Iceland
+# ═══════════════════════════════════════════════════════════════
+
+# ── Sweden (~35 institutions) ──────────────────────────────────
+
+- id: nationalmuseum-se
+  name:
+    en: Nationalmuseum
+    sv: Nationalmuseum
+  type: art-museum
+  country: SE
+  city: Stockholm
+  geonames_uri: "http://sws.geonames.org/2673730/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q842858"
+  isil: "SE-Nm"
+  website: "https://www.nationalmuseum.se/"
+  established: "1792"
+  timeline_start: 1792
+  description: "Sweden's museum of art and design, housing the nation's premier collection of paintings, sculptures, and applied art from the Renaissance to the present."
+
+- id: nordiska-museet
+  name:
+    en: Nordic Museum
+    sv: Nordiska museet
+  type: history-museum
+  country: SE
+  city: Stockholm
+  geonames_uri: "http://sws.geonames.org/2673730/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1141978"
+  isil: "SE-Nom"
+  website: "https://www.nordiskamuseet.se/"
+  established: "1873"
+  timeline_start: 1873
+  description: "Sweden's largest museum of cultural history, dedicated to the cultural history and ethnography of Sweden from the early modern period to the present day."
+
+- id: historiska-museet
+  name:
+    en: Swedish History Museum
+    sv: Historiska museet
+  type: history-museum
+  country: SE
+  city: Stockholm
+  geonames_uri: "http://sws.geonames.org/2673730/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1058735"
+  isil: "SE-Hm"
+  website: "https://historiska.se/"
+  established: "1866"
+  timeline_start: 1866
+  description: "Sweden's national museum of history, featuring artifacts from the Stone Age through the Viking period and medieval era, including the famous Gold Room."
+
+- id: moderna-museet
+  name:
+    en: Moderna Museet
+    sv: Moderna museet
+  type: art-museum
+  country: SE
+  city: Stockholm
+  geonames_uri: "http://sws.geonames.org/2673730/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q842887"
+  isil: "SE-Mm"
+  website: "https://www.modernamuseet.se/"
+  established: "1958"
+  timeline_start: 1958
+  description: "Sweden's national museum of modern and contemporary art, housing one of Europe's foremost collections of art from the 20th and 21st centuries."
+
+- id: vasamuseet
+  name:
+    en: Vasa Museum
+    sv: Vasamuseet
+  type: maritime-museum
+  country: SE
+  city: Stockholm
+  geonames_uri: "http://sws.geonames.org/2673730/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q622136"
+  isil: "SE-Sjhm"
+  website: "https://www.vasamuseet.se/"
+  established: "1990"
+  timeline_start: 1990
+  description: "Maritime museum displaying the Vasa, a 17th-century warship that sank on her maiden voyage in 1628 and was salvaged in 1961. Scandinavia's most visited museum."
+
+- id: skansen
+  name:
+    en: Skansen
+    sv: Skansen
+  type: open-air-museum
+  country: SE
+  city: Stockholm
+  geonames_uri: "http://sws.geonames.org/2673730/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q578375"
+  website: "https://www.skansen.se/"
+  established: "1891"
+  timeline_start: 1891
+  description: "The world's first open-air museum, founded by Artur Hazelius, showcasing Swedish traditional life with over 150 historic buildings from across the country."
+
+- id: livrustkammaren
+  name:
+    en: Royal Armoury
+    sv: Livrustkammaren
+  type: history-museum
+  country: SE
+  city: Stockholm
+  geonames_uri: "http://sws.geonames.org/2673730/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1573823"
+  website: "https://livrustkammaren.se/"
+  established: "1628"
+  timeline_start: 1628
+  description: "Sweden's oldest museum, located in the Royal Palace, displaying royal armoury, costumes, and carriages from Swedish royal history."
+
+- id: naturhistoriska-riksmuseet
+  name:
+    en: Swedish Museum of Natural History
+    sv: Naturhistoriska riksmuseet
+  type: natural-history-museum
+  country: SE
+  city: Stockholm
+  geonames_uri: "http://sws.geonames.org/2673730/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1147608"
+  isil: "SE-NRM"
+  website: "https://www.nrm.se/"
+  established: "1819"
+  timeline_start: 1819
+  description: "Sweden's national natural history museum, one of the ten largest in the world, with collections spanning botany, geology, palaeontology, and zoology."
+
+- id: sjohistoriska-museet
+  name:
+    en: National Maritime Museum
+    sv: Sjöhistoriska museet
+  type: maritime-museum
+  country: SE
+  city: Stockholm
+  geonames_uri: "http://sws.geonames.org/2673730/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1754929"
+  website: "https://www.sjohistoriska.se/"
+  established: "1938"
+  timeline_start: 1938
+  description: "Sweden's national maritime museum, documenting the history of Swedish seafaring, naval defence, and shipbuilding."
+
+- id: waldemarsudde
+  name:
+    en: Prins Eugens Waldemarsudde
+    sv: Prins Eugens Waldemarsudde
+  type: art-museum
+  country: SE
+  city: Stockholm
+  geonames_uri: "http://sws.geonames.org/2673730/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q2083567"
+  website: "https://www.waldemarsudde.se/"
+  established: "1947"
+  timeline_start: 1947
+  description: "Art museum and former home of Prince Eugen, displaying his collection of Swedish art alongside the prince's own paintings in a scenic Djurgården setting."
+
+- id: thielska-galleriet
+  name:
+    en: Thiel Gallery
+    sv: Thielska Galleriet
+  type: art-museum
+  country: SE
+  city: Stockholm
+  geonames_uri: "http://sws.geonames.org/2673730/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1371375"
+  website: "https://www.thielskagalleriet.se/"
+  established: "1924"
+  timeline_start: 1924
+  description: "Art gallery in a former villa on Djurgården, housing Ernest Thiel's collection of Nordic art including major works by Edvard Munch, Carl Larsson, and Bruno Liljefors."
+
+- id: millesgarden
+  name:
+    en: Millesgården
+    sv: Millesgården
+  type: art-museum
+  country: SE
+  city: Lidingö
+  geonames_uri: "http://sws.geonames.org/2696524/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1537594"
+  website: "https://www.millesgarden.se/"
+  established: "1936"
+  timeline_start: 1936
+  description: "Sculpture garden and art museum on Lidingö island, the former home and studio of sculptor Carl Milles, featuring his monumental sculptures in a terraced garden."
+
+- id: goteborgs-konstmuseum
+  name:
+    en: Gothenburg Museum of Art
+    sv: Göteborgs konstmuseum
+  type: art-museum
+  country: SE
+  city: Gothenburg
+  geonames_uri: "http://sws.geonames.org/2711537/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q730954"
+  isil: "SE-Gkm"
+  website: "https://goteborgskonstmuseum.se/"
+  established: "1923"
+  timeline_start: 1923
+  description: "One of the largest art museums in Northern Europe, renowned for its Nordic collection featuring works by Carl Larsson, Anders Zorn, Edvard Munch, and the Gothenburg Colourists."
+
+- id: goteborgs-stadsmuseum
+  name:
+    en: Gothenburg City Museum
+    sv: Göteborgs stadsmuseum
+  type: history-museum
+  country: SE
+  city: Gothenburg
+  geonames_uri: "http://sws.geonames.org/2711537/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q2156373"
+  website: "https://goteborgsstadsmuseum.se/"
+  established: "1861"
+  timeline_start: 1861
+  description: "Gothenburg's city museum housed in the historic East India House, covering the city's history from prehistoric times to the present."
+
+- id: rohsska-museet
+  name:
+    en: Röhsska Museum
+    sv: Röhsska museet
+  type: design-museum
+  country: SE
+  city: Gothenburg
+  geonames_uri: "http://sws.geonames.org/2711537/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1571581"
+  isil: "SE-Rö"
+  website: "https://rohsska.se/"
+  established: "1916"
+  timeline_start: 1916
+  description: "Sweden's only independent museum of design and decorative arts, with collections spanning fashion, furniture, textiles, and industrial design."
+
+- id: malmo-museer
+  name:
+    en: Malmö Museums
+    sv: Malmö Museer
+  type: history-museum
+  country: SE
+  city: Malmö
+  geonames_uri: "http://sws.geonames.org/2692969/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1798890"
+  website: "https://malmo.se/museer"
+  established: "1841"
+  timeline_start: 1841
+  description: "Museum complex in Malmöhus Castle covering art, natural history, city history, science, and technology — one of the oldest preserved Renaissance castles in Scandinavia."
+
+- id: malmo-konstmuseum
+  name:
+    en: Malmö Art Museum
+    sv: Malmö Konstmuseum
+  type: art-museum
+  country: SE
+  city: Malmö
+  geonames_uri: "http://sws.geonames.org/2692969/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1798890"
+  website: "https://malmo.se/konstmuseum"
+  established: "1841"
+  timeline_start: 1841
+  description: "Art museum within the Malmö Museums complex, housing a significant collection of Nordic and international art from the 16th century to the present."
+
+- id: lunds-universitets-historiska-museum
+  name:
+    en: Lund University Historical Museum
+    sv: Lunds Universitets Historiska Museum
+  type: university-museum
+  country: SE
+  city: Lund
+  geonames_uri: "http://sws.geonames.org/2693678/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q10568729"
+  isil: "SE-Lu"
+  website: "https://www.luhm.lu.se/"
+  established: "1805"
+  timeline_start: 1805
+  description: "University museum housing archaeological and ecclesiastical collections, including important Viking Age and medieval finds from Scania."
+
+- id: gustavianum
+  name:
+    en: Uppsala University Museum Gustavianum
+    sv: Uppsala universitetsmuseum Gustavianum
+  type: university-museum
+  country: SE
+  city: Uppsala
+  geonames_uri: "http://sws.geonames.org/2666199/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1556079"
+  website: "https://www.gustavianum.uu.se/"
+  established: "1997"
+  timeline_start: 1997
+  description: "Uppsala University's museum in the historic Gustavianum building featuring the Augsburg Art Cabinet, Egyptian antiquities, and the 17th-century anatomical theatre."
+
+- id: upplandsmuseet
+  name:
+    en: Uppland Museum
+    sv: Upplandsmuseet
+  type: history-museum
+  country: SE
+  city: Uppsala
+  geonames_uri: "http://sws.geonames.org/2666199/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q10711413"
+  website: "https://www.upplandsmuseet.se/"
+  established: "1909"
+  timeline_start: 1909
+  description: "Regional museum covering the cultural history and art of Uppland province, located in a historic watermill on the Fyris River."
+
+- id: gotlands-museum
+  name:
+    en: Gotland Museum
+    sv: Gotlands Museum
+  type: history-museum
+  country: SE
+  city: Visby
+  geonames_uri: "http://sws.geonames.org/2662689/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q10510043"
+  website: "https://www.gotlandsmuseum.se/"
+  established: "1875"
+  timeline_start: 1875
+  description: "Museum on the island of Gotland with one of the finest Viking Age collections in the world, including silver hoards, picture stones, and medieval church art."
+
+- id: kalmar-lans-museum
+  name:
+    en: Kalmar County Museum
+    sv: Kalmar läns museum
+  type: history-museum
+  country: SE
+  city: Kalmar
+  geonames_uri: "http://sws.geonames.org/2702703/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q10547450"
+  website: "https://www.kalmarlansmuseum.se/"
+  established: "1977"
+  timeline_start: 1977
+  description: "Regional museum known for its exhibition on the warship Kronan, which sank in 1676, alongside cultural history of the Kalmar region."
+
+- id: jamtlands-lans-museum
+  name:
+    en: Jamtli
+    sv: Jämtlands läns museum
+  type: open-air-museum
+  country: SE
+  city: Östersund
+  geonames_uri: "http://sws.geonames.org/2685750/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q10538927"
+  website: "https://www.jamtli.com/"
+  established: "1886"
+  timeline_start: 1886
+  description: "Regional museum and open-air museum in Jämtland featuring the Överhogdal tapestries, Viking Age finds, and living history environments."
+
+- id: ajtte
+  name:
+    en: Ájtte - Swedish Mountain and Sami Museum
+    sv: Ájtte, Svenskt Fjäll- och Samemuseum
+    se: Ájtte
+  type: folk-museum
+  country: SE
+  city: Jokkmokk
+  geonames_uri: "http://sws.geonames.org/2703860/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1645107"
+  website: "https://www.ajtte.com/"
+  established: "1989"
+  timeline_start: 1989
+  description: "Principal museum of Sami culture and the Swedish mountain region, documenting Sami history, traditions, and the ecology of the Scandinavian mountain world."
+
+- id: norrbottens-museum
+  name:
+    en: Norrbotten Museum
+    sv: Norrbottens museum
+  type: history-museum
+  country: SE
+  city: Luleå
+  geonames_uri: "http://sws.geonames.org/2693678/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q10601840"
+  website: "https://www.norrbottensmuseum.se/"
+  established: "1936"
+  timeline_start: 1936
+  description: "Regional museum of Norrbotten County covering the cultural history of Sweden's northernmost region, including Sami heritage and industrial history."
+
+- id: vasterbottens-museum
+  name:
+    en: Västerbotten Museum
+    sv: Västerbottens museum
+  type: history-museum
+  country: SE
+  city: Umeå
+  geonames_uri: "http://sws.geonames.org/2666218/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q2539156"
+  website: "https://www.vbm.se/"
+  established: "1943"
+  timeline_start: 1943
+  description: "Regional museum in Umeå documenting life in Västerbotten from prehistory to present, with an open-air section featuring traditional buildings."
+
+- id: bohusians-museum
+  name:
+    en: Bohuslän Museum
+    sv: Bohusläns museum
+  type: history-museum
+  country: SE
+  city: Uddevalla
+  geonames_uri: "http://sws.geonames.org/2666253/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q10434918"
+  website: "https://www.bohuslansmuseum.se/"
+  established: "1928"
+  timeline_start: 1928
+  description: "Regional museum of Bohuslän province featuring Bronze Age rock carvings, maritime history, and the cultural heritage of western Sweden."
+
+- id: dalarnas-museum
+  name:
+    en: Dalarna Museum
+    sv: Dalarnas museum
+  type: history-museum
+  country: SE
+  city: Falun
+  geonames_uri: "http://sws.geonames.org/2715195/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q10457340"
+  website: "https://www.dalarnasmuseum.se/"
+  established: "1862"
+  timeline_start: 1862
+  description: "Regional museum showcasing Dalarna's folk art traditions including Dala horses, folk costumes, and traditional paintings, along with the region's mining heritage."
+
+- id: tekniska-museet
+  name:
+    en: National Museum of Science and Technology
+    sv: Tekniska museet
+  type: specialized-museum
+  country: SE
+  city: Stockholm
+  geonames_uri: "http://sws.geonames.org/2673730/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1046515"
+  isil: "SE-Tm"
+  website: "https://www.tekniskamuseet.se/"
+  established: "1924"
+  timeline_start: 1924
+  description: "Sweden's national museum of science and technology, covering innovations from Swedish industry including telecommunications, mining, and engineering."
+
+- id: arkdes
+  name:
+    en: ArkDes - Swedish Centre for Architecture and Design
+    sv: ArkDes
+  type: design-museum
+  country: SE
+  city: Stockholm
+  geonames_uri: "http://sws.geonames.org/2673730/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1568634"
+  website: "https://arkdes.se/"
+  established: "1962"
+  timeline_start: 1962
+  description: "Sweden's national centre for architecture and design, promoting understanding of architecture's role in society through exhibitions and public programmes."
+
+- id: fotografiska
+  name:
+    en: Fotografiska
+    sv: Fotografiska
+  type: art-museum
+  country: SE
+  city: Stockholm
+  geonames_uri: "http://sws.geonames.org/2673730/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q4479898"
+  website: "https://www.fotografiska.com/"
+  established: "2010"
+  timeline_start: 2010
+  description: "One of the world's largest museums of photography, hosting major international exhibitions of contemporary photography in a converted Art Nouveau customs house."
+
+- id: hallwylska-museet
+  name:
+    en: Hallwyl Museum
+    sv: Hallwylska museet
+  type: history-museum
+  country: SE
+  city: Stockholm
+  geonames_uri: "http://sws.geonames.org/2673730/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1572556"
+  website: "https://hallwylskamuseet.se/"
+  established: "1938"
+  timeline_start: 1938
+  description: "Palatial private residence turned museum, preserving the art collections and lavish interiors of Countess Wilhelmina von Hallwyl."
+
+- id: medelhavsmuseet
+  name:
+    en: Museum of Mediterranean and Near Eastern Antiquities
+    sv: Medelhavsmuseet
+  type: archaeology-museum
+  country: SE
+  city: Stockholm
+  geonames_uri: "http://sws.geonames.org/2673730/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1715082"
+  website: "https://www.medelhavsmuseet.se/"
+  established: "1954"
+  timeline_start: 1954
+  description: "Museum dedicated to ancient cultures of the Mediterranean and Near East, including important Egyptian, Greek, Cypriot, and Near Eastern collections."
+
+- id: ostasiatiska-museet
+  name:
+    en: Museum of Far Eastern Antiquities
+    sv: Östasiatiska museet
+  type: archaeology-museum
+  country: SE
+  city: Stockholm
+  geonames_uri: "http://sws.geonames.org/2673730/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1570908"
+  website: "https://www.ostasiatiskamuseet.se/"
+  established: "1926"
+  timeline_start: 1926
+  description: "Museum devoted to art and archaeology from China, Japan, Korea, and South and Southeast Asia, with outstanding Chinese Neolithic and Bronze Age collections."
+
+- id: varmlands-museum
+  name:
+    en: Värmlands Museum
+    sv: Värmlands Museum
+  type: history-museum
+  country: SE
+  city: Karlstad
+  geonames_uri: "http://sws.geonames.org/2701713/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q10720058"
+  website: "https://www.varmlandsmuseum.se/"
+  established: "1839"
+  timeline_start: 1839
+  description: "Regional museum of Värmland on the banks of the Klarälven river, covering the cultural history and art of the province."
+
+- id: sormlands-museum
+  name:
+    en: Sörmlands Museum
+    sv: Sörmlands museum
+  type: history-museum
+  country: SE
+  city: Nyköping
+  geonames_uri: "http://sws.geonames.org/2687929/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q10685625"
+  website: "https://www.sormlandsmuseum.se/"
+  established: "1908"
+  timeline_start: 1908
+  description: "Regional museum of Södermanland covering the county's cultural history from the Viking Age through the industrial era."
+
+- id: ostergotlands-museum
+  name:
+    en: Östergötland Museum
+    sv: Östergötlands museum
+  type: history-museum
+  country: SE
+  city: Linköping
+  geonames_uri: "http://sws.geonames.org/2694762/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q10739125"
+  website: "https://www.ostergotlandsmuseum.se/"
+  established: "1903"
+  timeline_start: 1903
+  description: "Regional museum presenting the cultural history and art of Östergötland, housed in a building complex near the medieval cathedral."
+
+- id: flygvapenmuseum
+  name:
+    en: Swedish Air Force Museum
+    sv: Flygvapenmuseum
+  type: specialized-museum
+  country: SE
+  city: Linköping
+  geonames_uri: "http://sws.geonames.org/2694762/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q10497898"
+  website: "https://www.flygvapenmuseum.se/"
+  established: "1984"
+  timeline_start: 1984
+  description: "Museum of Swedish military aviation history displaying historic aircraft, engines, and equipment from World War I to the modern era."
+
+# ── Norway (~25 institutions) ──────────────────────────────────
+
+- id: nasjonalmuseet
+  name:
+    en: National Museum of Norway
+    nb: Nasjonalmuseet
+    nn: Nasjonalmuseet
+  type: art-museum
+  country: "NO"
+  city: Oslo
+  geonames_uri: "http://sws.geonames.org/3143244/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1132918"
+  isil: "NO-0183300"
+  website: "https://www.nasjonalmuseet.no/"
+  established: "2003"
+  timeline_start: 2003
+  description: "Norway's largest institution for art, architecture, and design, combining the former National Gallery, Museum of Decorative Arts, Museum of Contemporary Art, and Architecture Museum."
+
+- id: munchmuseet
+  name:
+    en: Munch Museum
+    nb: Munchmuseet
+    nn: Munchmuseet
+  type: art-museum
+  country: "NO"
+  city: Oslo
+  geonames_uri: "http://sws.geonames.org/3143244/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q594316"
+  website: "https://www.munchmuseet.no/"
+  established: "1963"
+  timeline_start: 1963
+  description: "Museum dedicated to the life and work of Edvard Munch, housing the world's largest collection of his paintings, prints, and drawings, now in a landmark waterfront building."
+
+- id: vikingskipshuset
+  name:
+    en: Viking Ship Museum
+    nb: Vikingskipshuset
+    nn: Vikingskipshuset
+  type: archaeology-museum
+  country: "NO"
+  city: Oslo
+  geonames_uri: "http://sws.geonames.org/3143244/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1327702"
+  website: "https://www.khm.uio.no/besok-oss/vikingskipshuset/"
+  established: "1926"
+  timeline_start: 1926
+  description: "Museum housing the best-preserved Viking ships in the world — the Oseberg, Gokstad, and Tune ships — along with Viking Age grave goods and artefacts."
+
+- id: kulturhistorisk-museum-oslo
+  name:
+    en: Museum of Cultural History Oslo
+    nb: Kulturhistorisk museum
+    nn: Kulturhistorisk museum
+  type: history-museum
+  country: "NO"
+  city: Oslo
+  geonames_uri: "http://sws.geonames.org/3143244/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1141339"
+  website: "https://www.khm.uio.no/"
+  established: "1904"
+  timeline_start: 1904
+  description: "University of Oslo's museum of cultural history, covering Norwegian and international cultural history from ancient to medieval periods, including runic inscriptions and stave church portals."
+
+- id: norsk-folkemuseum
+  name:
+    en: Norwegian Museum of Cultural History
+    nb: Norsk Folkemuseum
+    nn: Norsk Folkemuseum
+  type: open-air-museum
+  country: "NO"
+  city: Oslo
+  geonames_uri: "http://sws.geonames.org/3143244/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1137097"
+  isil: "NO-0183500"
+  website: "https://norskfolkemuseum.no/"
+  established: "1894"
+  timeline_start: 1894
+  description: "One of the world's oldest and largest open-air museums, with 160 historic buildings including the Gol stave church, documenting Norwegian life from 1500 to the present."
+
+- id: norsk-maritimt-museum
+  name:
+    en: Norwegian Maritime Museum
+    nb: Norsk Maritimt Museum
+    nn: Norsk Maritimt Museum
+  type: maritime-museum
+  country: "NO"
+  city: Oslo
+  geonames_uri: "http://sws.geonames.org/3143244/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1747830"
+  website: "https://marmuseum.no/"
+  established: "1914"
+  timeline_start: 1914
+  description: "Museum dedicated to Norway's maritime heritage, covering fishing, shipping, polar exploration, and coastal culture."
+
+- id: kon-tiki-museet
+  name:
+    en: Kon-Tiki Museum
+    nb: Kon-Tiki Museet
+    nn: Kon-Tiki Museet
+  type: specialized-museum
+  country: "NO"
+  city: Oslo
+  geonames_uri: "http://sws.geonames.org/3143244/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q898947"
+  website: "https://www.kon-tiki.no/"
+  established: "1950"
+  timeline_start: 1950
+  description: "Museum dedicated to Thor Heyerdahl's expeditions, displaying the original Kon-Tiki balsa raft and Ra II papyrus boat."
+
+- id: frammuseet
+  name:
+    en: Fram Museum
+    nb: Frammuseet
+    nn: Frammuseet
+  type: maritime-museum
+  country: "NO"
+  city: Oslo
+  geonames_uri: "http://sws.geonames.org/3143244/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1233422"
+  website: "https://frammuseum.no/"
+  established: "1936"
+  timeline_start: 1936
+  description: "Museum housing the polar ship Fram, the strongest wooden ship ever built, used by Nansen and Amundsen in their Arctic and Antarctic expeditions."
+
+- id: bergen-museum
+  name:
+    en: University Museum of Bergen
+    nb: Universitetsmuseet i Bergen
+    nn: Universitetsmuseet i Bergen
+  type: university-museum
+  country: "NO"
+  city: Bergen
+  geonames_uri: "http://sws.geonames.org/3161732/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q2361864"
+  website: "https://www.uib.no/universitetsmuseet"
+  established: "1825"
+  timeline_start: 1825
+  description: "University museum with cultural history and natural history departments, housing important collections from the Viking Age and medieval Bergen."
+
+- id: kode-bergen
+  name:
+    en: KODE Art Museums and Composer Homes
+    nb: KODE Kunstmuseer og Komponisthjem
+    nn: KODE Kunstmuseum og Komponistheimar
+  type: art-museum
+  country: "NO"
+  city: Bergen
+  geonames_uri: "http://sws.geonames.org/3161732/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1777977"
+  website: "https://www.kfrb.no/"
+  established: "2007"
+  timeline_start: 2007
+  description: "Bergen's art museum comprising four gallery buildings and the homes of composers Edvard Grieg and Ole Bull, with extensive Nordic art and craft collections."
+
+- id: tromso-museum
+  name:
+    en: Tromsø Museum
+    nb: Tromsø Museum
+    nn: Tromsø Museum
+  type: university-museum
+  country: "NO"
+  city: Tromsø
+  geonames_uri: "http://sws.geonames.org/3133895/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q2474281"
+  website: "https://uit.no/tmu"
+  established: "1872"
+  timeline_start: 1872
+  description: "Northern Norway's university museum covering Sami culture, Arctic natural history, and the Northern Lights, affiliated with UiT The Arctic University of Norway."
+
+- id: nordnorsk-kunstmuseum
+  name:
+    en: Northern Norway Art Museum
+    nb: Nordnorsk Kunstmuseum
+    nn: Nordnorsk Kunstmuseum
+  type: art-museum
+  country: "NO"
+  city: Tromsø
+  geonames_uri: "http://sws.geonames.org/3133895/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1996942"
+  website: "https://www.nnkm.no/"
+  established: "1985"
+  timeline_start: 1985
+  description: "The northernmost art museum in the world, dedicated to visual art from Northern Norway and the Sami region."
+
+- id: riddoduottarmuseat
+  name:
+    en: RiddoDuottarMuseat - Sami Museums
+    nb: RiddoDuottarMuseat
+    se: RiddoDuottarMuseat
+  type: folk-museum
+  country: "NO"
+  city: Karasjok
+  geonames_uri: "http://sws.geonames.org/3150935/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q7331957"
+  website: "https://rdm.no/"
+  established: "1972"
+  timeline_start: 1972
+  description: "Sami museum consortium in Finnmark, preserving and presenting Sami cultural heritage through exhibitions, collections, and an open-air section."
+
+- id: maihaugen
+  name:
+    en: Maihaugen
+    nb: Maihaugen
+    nn: Maihaugen
+  type: open-air-museum
+  country: "NO"
+  city: Lillehammer
+  geonames_uri: "http://sws.geonames.org/3148100/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1092184"
+  website: "https://maihaugen.no/"
+  established: "1887"
+  timeline_start: 1887
+  description: "One of the largest open-air museums in Northern Europe with over 200 historical buildings, including a stave church and farms from the Gudbrandsdalen valley."
+
+- id: astrup-fearnley
+  name:
+    en: Astrup Fearnley Museum of Modern Art
+    nb: Astrup Fearnley Museet
+    nn: Astrup Fearnley Museet
+  type: art-museum
+  country: "NO"
+  city: Oslo
+  geonames_uri: "http://sws.geonames.org/3143244/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1192081"
+  website: "https://www.afmuseet.no/"
+  established: "1993"
+  timeline_start: 1993
+  description: "Private contemporary art museum in a Renzo Piano-designed building on the Oslo waterfront, with a major collection of international post-war and contemporary art."
+
+- id: nordenfjeldske-kunstindustrimuseum
+  name:
+    en: National Museum of Decorative Arts
+    nb: Nordenfjeldske Kunstindustrimuseum
+    nn: Nordenfjeldske Kunstindustrimuseum
+  type: design-museum
+  country: "NO"
+  city: Trondheim
+  geonames_uri: "http://sws.geonames.org/3133880/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q3272424"
+  website: "https://nkim.no/"
+  established: "1893"
+  timeline_start: 1893
+  description: "National museum of decorative arts in Trondheim, housing furniture, textiles, ceramics, and silver from the Renaissance to contemporary Scandinavian design."
+
+- id: vitenskapsmuseet
+  name:
+    en: NTNU University Museum
+    nb: Vitenskapsmuseet
+    nn: Vitskapsmuseet
+  type: university-museum
+  country: "NO"
+  city: Trondheim
+  geonames_uri: "http://sws.geonames.org/3133880/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q3272406"
+  website: "https://www.ntnu.no/vitenskapsmuseet"
+  established: "1760"
+  timeline_start: 1760
+  description: "One of Norway's oldest scientific institutions, part of NTNU, with natural history and archaeological collections from central Norway."
+
+- id: stavanger-museum
+  name:
+    en: Museum of Archaeology Stavanger
+    nb: Arkeologisk museum Stavanger
+    nn: Arkeologisk museum Stavanger
+  type: archaeology-museum
+  country: "NO"
+  city: Stavanger
+  geonames_uri: "http://sws.geonames.org/3137115/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q5445741"
+  website: "https://www.uis.no/nb/arkeologisk-museum"
+  established: "1877"
+  timeline_start: 1877
+  description: "University of Stavanger's archaeological museum, responsible for archaeological heritage management in Rogaland, with collections from the Stone Age to the Middle Ages."
+
+- id: norsk-teknisk-museum
+  name:
+    en: Norwegian Museum of Science and Technology
+    nb: Norsk Teknisk Museum
+    nn: Norsk Teknisk Museum
+  type: specialized-museum
+  country: "NO"
+  city: Oslo
+  geonames_uri: "http://sws.geonames.org/3143244/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1773919"
+  website: "https://www.tekniskmuseum.no/"
+  established: "1914"
+  timeline_start: 1914
+  description: "Norway's national museum of technology, industry, science, and medicine, with interactive exhibits on energy, transport, and communications."
+
+- id: henie-onstad
+  name:
+    en: Henie Onstad Art Centre
+    nb: Henie Onstad Kunstsenter
+    nn: Henie Onstad Kunstsenter
+  type: art-museum
+  country: "NO"
+  city: Bærum
+  geonames_uri: "http://sws.geonames.org/3162163/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1602622"
+  website: "https://hok.no/"
+  established: "1968"
+  timeline_start: 1968
+  description: "International art centre founded by figure skater Sonja Henie and her husband Niels Onstad, with a collection of modern and contemporary art."
+
+- id: norsk-industriarbeidermuseum
+  name:
+    en: Norwegian Industrial Workers Museum
+    nb: Norsk Industriarbeidermuseum
+    nn: Norsk Industriarbeidarmuseum
+  type: history-museum
+  country: "NO"
+  city: Rjukan
+  geonames_uri: "http://sws.geonames.org/3141667/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q3345230"
+  website: "https://www.telemarkmuseum.no/"
+  established: "1988"
+  timeline_start: 1988
+  description: "Museum at Vemork power station documenting the history of Norsk Hydro and the famous WWII heavy water sabotage operation."
+
+- id: lofotr-vikingmuseum
+  name:
+    en: Lofotr Viking Museum
+    nb: Lofotr Vikingmuseum
+    nn: Lofotr Vikingmuseum
+  type: archaeology-museum
+  country: "NO"
+  city: Borg
+  geonames_uri: "http://sws.geonames.org/3159810/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1869099"
+  website: "https://lofotr.no/"
+  established: "1995"
+  timeline_start: 1995
+  description: "Museum built around the excavated remains of the largest Viking Age longhouse ever found, with a full-scale reconstruction in the Lofoten Islands."
+
+- id: kistefos
+  name:
+    en: Kistefos Museum
+    nb: Kistefos-Museet
+    nn: Kistefos-Museet
+  type: art-museum
+  country: "NO"
+  city: Jevnaker
+  geonames_uri: "http://sws.geonames.org/3151770/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q3196816"
+  website: "https://www.kistefosmuseum.no/"
+  established: "1996"
+  timeline_start: 1996
+  description: "Industrial museum and sculpture park featuring The Twist gallery by BIG architects, combining contemporary art with the heritage of a 19th-century wood pulp mill."
+
+- id: stiklestad
+  name:
+    en: Stiklestad National Culture Centre
+    nb: Stiklestad Nasjonale Kultursenter
+    nn: Stiklestad Nasjonale Kultursenter
+  type: history-museum
+  country: "NO"
+  city: Verdal
+  geonames_uri: "http://sws.geonames.org/3132998/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q2479747"
+  website: "https://stiklestad.no/"
+  established: "1930"
+  timeline_start: 1930
+  description: "Museum and culture centre at the site of the Battle of Stiklestad (1030), where King Olav Haraldsson fell, a pivotal event in the Christianisation of Norway."
+
+# ── Finland (~25 institutions) ─────────────────────────────────
+
+- id: ateneum
+  name:
+    en: Ateneum Art Museum
+    fi: Ateneum
+    sv: Ateneum
+  type: art-museum
+  country: FI
+  city: Helsinki
+  geonames_uri: "http://sws.geonames.org/658225/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q754507"
+  isil: "FI-Ate"
+  website: "https://ateneum.fi/"
+  established: "1887"
+  timeline_start: 1887
+  description: "Finland's premier classical art museum and part of the Finnish National Gallery, housing the largest collection of Finnish art from the 18th century to the modern era."
+
+- id: kiasma
+  name:
+    en: Kiasma Museum of Contemporary Art
+    fi: Nykytaiteen museo Kiasma
+    sv: Museet för nutidskonst Kiasma
+  type: art-museum
+  country: FI
+  city: Helsinki
+  geonames_uri: "http://sws.geonames.org/658225/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1421498"
+  website: "https://kiasma.fi/"
+  established: "1998"
+  timeline_start: 1998
+  description: "Finland's museum of contemporary art, part of the Finnish National Gallery, housed in a Steven Holl-designed building showcasing Finnish and international contemporary art."
+
+- id: sinebrychoff
+  name:
+    en: Sinebrychoff Art Museum
+    fi: Sinebrychoffin taidemuseo
+    sv: Sinebrychoffs konstmuseum
+  type: art-museum
+  country: FI
+  city: Helsinki
+  geonames_uri: "http://sws.geonames.org/658225/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1396704"
+  website: "https://sfrm.fi/"
+  established: "1921"
+  timeline_start: 1921
+  description: "Part of the Finnish National Gallery specialising in European old masters, with collections of paintings, miniatures, porcelain, and silver in a historic brewery building."
+
+- id: kansallismuseo
+  name:
+    en: National Museum of Finland
+    fi: Suomen kansallismuseo
+    sv: Finlands nationalmuseum
+  type: history-museum
+  country: FI
+  city: Helsinki
+  geonames_uri: "http://sws.geonames.org/658225/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1331756"
+  isil: "FI-Km"
+  website: "https://www.kansallismuseo.fi/"
+  established: "1916"
+  timeline_start: 1916
+  description: "Finland's national history museum covering Finnish cultural history from prehistoric times to the present, housed in a National Romantic style building."
+
+- id: designmuseo
+  name:
+    en: Design Museum Helsinki
+    fi: Designmuseo
+    sv: Designmuseet
+  type: design-museum
+  country: FI
+  city: Helsinki
+  geonames_uri: "http://sws.geonames.org/658225/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1198723"
+  website: "https://www.designmuseum.fi/"
+  established: "1873"
+  timeline_start: 1873
+  description: "One of the world's oldest design museums, documenting Finnish design history from the decorative arts to industrial and graphic design."
+
+- id: seurasaari
+  name:
+    en: Seurasaari Open-Air Museum
+    fi: Seurasaaren ulkomuseo
+    sv: Fölisöns friluftsmuseum
+  type: open-air-museum
+  country: FI
+  city: Helsinki
+  geonames_uri: "http://sws.geonames.org/658225/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1413035"
+  website: "https://www.kansallismuseo.fi/en/seurasaari"
+  established: "1909"
+  timeline_start: 1909
+  description: "Open-air museum on Seurasaari island displaying traditional Finnish wooden buildings from the 18th to 20th centuries, including farmsteads, a church, and a manor."
+
+- id: turku-linna
+  name:
+    en: Turku Castle Museum
+    fi: Turun linna
+    sv: Åbo slott
+  type: history-museum
+  country: FI
+  city: Turku
+  geonames_uri: "http://sws.geonames.org/633679/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1215078"
+  website: "https://www.turku.fi/turunlinna"
+  established: "1881"
+  timeline_start: 1881
+  description: "Museum within Finland's largest medieval castle, dating from the 1280s, presenting the history of the castle and the city of Turku."
+
+- id: turun-taidemuseo
+  name:
+    en: Turku Art Museum
+    fi: Turun taidemuseo
+    sv: Åbo konstmuseum
+  type: art-museum
+  country: FI
+  city: Turku
+  geonames_uri: "http://sws.geonames.org/633679/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q2034910"
+  website: "https://www.turuntaidemuseo.fi/"
+  established: "1904"
+  timeline_start: 1904
+  description: "One of Finland's major regional art museums with a collection of Finnish and Nordic art, housed in a granite Art Nouveau building."
+
+- id: aboa-vetus-ars-nova
+  name:
+    en: Aboa Vetus Ars Nova
+    fi: Aboa Vetus Ars Nova
+    sv: Aboa Vetus Ars Nova
+  type: archaeology-museum
+  country: FI
+  city: Turku
+  geonames_uri: "http://sws.geonames.org/633679/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q11853228"
+  website: "https://www.afrfrm.fi/"
+  established: "1995"
+  timeline_start: 1995
+  description: "Unique museum combining archaeology and contemporary art, built over the excavated remains of medieval Turku's streets and cellars."
+
+- id: tampereen-taidemuseo
+  name:
+    en: Tampere Art Museum
+    fi: Tampereen taidemuseo
+    sv: Tammerfors konstmuseum
+  type: art-museum
+  country: FI
+  city: Tampere
+  geonames_uri: "http://sws.geonames.org/634963/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q6067702"
+  website: "https://www.tampereentaidemuseo.fi/"
+  established: "1931"
+  timeline_start: 1931
+  description: "Tampere's central art museum with a collection of Finnish art and an active programme of contemporary exhibitions."
+
+- id: sara-hilden
+  name:
+    en: Sara Hildén Art Museum
+    fi: Sara Hildénin taidemuseo
+    sv: Sara Hildéns konstmuseum
+  type: art-museum
+  country: FI
+  city: Tampere
+  geonames_uri: "http://sws.geonames.org/634963/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q2377432"
+  website: "https://www.sarahilden.fi/"
+  established: "1979"
+  timeline_start: 1979
+  description: "Museum of modern and contemporary Finnish and international art, based on the collection of businesswoman and art collector Sara Hildén."
+
+- id: siida
+  name:
+    en: Siida - Sami Museum and Nature Centre
+    fi: Siida - Saamelaismuseo ja luontokeskus
+    se: Siida - Sámemusea ja luondduguovddáš
+  type: folk-museum
+  country: FI
+  city: Inari
+  geonames_uri: "http://sws.geonames.org/656677/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q3482458"
+  website: "https://sifrda.fi/"
+  established: "1962"
+  timeline_start: 1962
+  description: "National museum of the Finnish Sami, presenting Sami culture and the nature of northern Lapland, with an open-air section featuring traditional Sami dwellings."
+
+- id: oulun-taidemuseo
+  name:
+    en: Oulu Museum of Art
+    fi: Oulun taidemuseo
+    sv: Uleåborgs konstmuseum
+  type: art-museum
+  country: FI
+  city: Oulu
+  geonames_uri: "http://sws.geonames.org/643492/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q18345226"
+  website: "https://www.ouka.fi/oulu/taidemuseo"
+  established: "1963"
+  timeline_start: 1963
+  description: "Northern Finland's leading art museum with a collection focusing on Finnish art from the 20th and 21st centuries."
+
+- id: helsingin-kaupunginmuseo
+  name:
+    en: Helsinki City Museum
+    fi: Helsingin kaupunginmuseo
+    sv: Helsingfors stadsmuseum
+  type: history-museum
+  country: FI
+  city: Helsinki
+  geonames_uri: "http://sws.geonames.org/658225/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q3330210"
+  website: "https://www.helsinginkaupunginmuseo.fi/"
+  established: "1911"
+  timeline_start: 1911
+  description: "City museum documenting the history and everyday life of Helsinki from its founding in 1550 to the present day."
+
+- id: luonnontieteellinen-museo
+  name:
+    en: Finnish Museum of Natural History
+    fi: Luonnontieteellinen keskusmuseo Luomus
+    sv: Naturhistoriska centralmuseet
+  type: natural-history-museum
+  country: FI
+  city: Helsinki
+  geonames_uri: "http://sws.geonames.org/658225/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1404452"
+  website: "https://www.luomus.fi/"
+  established: "1988"
+  timeline_start: 1988
+  description: "Finland's national natural history museum and research institution, part of the University of Helsinki, with collections spanning botany, zoology, and geology."
+
+- id: vapriikki
+  name:
+    en: Vapriikki Museum Centre
+    fi: Vapriikki
+    sv: Vapriikki
+  type: history-museum
+  country: FI
+  city: Tampere
+  geonames_uri: "http://sws.geonames.org/634963/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q3267772"
+  website: "https://vapriikki.fi/"
+  established: "1996"
+  timeline_start: 1996
+  description: "Museum centre in a converted factory complex hosting multiple exhibitions on Tampere's industrial heritage, natural history, ice hockey, and Finnish games."
+
+- id: amos-rex
+  name:
+    en: Amos Rex
+    fi: Amos Rex
+    sv: Amos Rex
+  type: art-museum
+  country: FI
+  city: Helsinki
+  geonames_uri: "http://sws.geonames.org/658225/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q56308665"
+  website: "https://amosrex.fi/"
+  established: "2018"
+  timeline_start: 2018
+  description: "Art museum beneath the iconic Lasipalatsi building, presenting modern and contemporary art exhibitions with distinctive subterranean gallery spaces."
+
+- id: arktikum
+  name:
+    en: Arktikum Science Museum
+    fi: Arktikum
+    sv: Arktikum
+  type: specialized-museum
+  country: FI
+  city: Rovaniemi
+  geonames_uri: "http://sws.geonames.org/640276/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q2858595"
+  website: "https://www.arktikum.fi/"
+  established: "1992"
+  timeline_start: 1992
+  description: "Museum and science centre on the Arctic, combining the Provincial Museum of Lapland and the Arctic Centre of the University of Lapland."
+
+- id: emma
+  name:
+    en: EMMA - Espoo Museum of Modern Art
+    fi: EMMA - Espoon modernin taiteen museo
+    sv: EMMA - Esbo moderna konstmuseum
+  type: art-museum
+  country: FI
+  city: Espoo
+  geonames_uri: "http://sws.geonames.org/660158/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1059774"
+  website: "https://emmamuseum.fi/"
+  established: "2006"
+  timeline_start: 2006
+  description: "Finland's largest art museum by exhibition area, located in the WeeGee Exhibition Centre, presenting modern and contemporary art."
+
+- id: hameenlinnan-taidemuseo
+  name:
+    en: Hämeenlinna Art Museum
+    fi: Hämeenlinnan taidemuseo
+    sv: Tavastehus konstmuseum
+  type: art-museum
+  country: FI
+  city: Hämeenlinna
+  geonames_uri: "http://sws.geonames.org/659282/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q18345156"
+  website: "https://www.hameenlinna.fi/taidemuseo"
+  established: "1952"
+  timeline_start: 1952
+  description: "Art museum in the birthplace of Jean Sibelius, with a collection of Finnish art from the 19th century to the present."
+
+- id: suomen-merimuseo
+  name:
+    en: Maritime Museum of Finland
+    fi: Suomen merimuseo
+    sv: Finlands sjöhistoriska museum
+  type: maritime-museum
+  country: FI
+  city: Kotka
+  geonames_uri: "http://sws.geonames.org/650224/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q11893116"
+  website: "https://www.merikeskusfrelluma.fi/"
+  established: "2008"
+  timeline_start: 2008
+  description: "Finland's national maritime museum documenting the country's maritime history, seafaring traditions, and underwater archaeology."
+
+- id: ainola
+  name:
+    en: Ainola - Home of Jean Sibelius
+    fi: Ainola
+    sv: Ainola
+  type: specialized-museum
+  country: FI
+  city: Järvenpää
+  geonames_uri: "http://sws.geonames.org/655811/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1139286"
+  website: "https://www.ainola.fi/"
+  established: "1974"
+  timeline_start: 1974
+  description: "The lakeside home of composer Jean Sibelius where he lived from 1904 until his death in 1957, preserved as a museum with original furnishings and personal items."
+
+- id: pohjanmaan-museo
+  name:
+    en: Ostrobothnian Museum
+    fi: Pohjanmaan museo
+    sv: Österbottens museum
+  type: history-museum
+  country: FI
+  city: Vaasa
+  geonames_uri: "http://sws.geonames.org/632978/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q11885882"
+  website: "https://www.pohjanmaanmuseo.fi/"
+  established: "1895"
+  timeline_start: 1895
+  description: "Regional museum of Ostrobothnia covering the cultural history of Finland's western coast, with collections on the region's bilingual Finnish-Swedish heritage."
+
+- id: kuopio-museo
+  name:
+    en: Kuopio Museum
+    fi: Kuopion museo
+    sv: Kuopio museum
+  type: history-museum
+  country: FI
+  city: Kuopio
+  geonames_uri: "http://sws.geonames.org/650225/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q18345179"
+  website: "https://kuopionmuseo.fi/"
+  established: "1907"
+  timeline_start: 1907
+  description: "Cultural history and natural history museum of the Kuopio region, one of the oldest museums in eastern Finland."
+
+# ── Denmark (~20 institutions) ─────────────────────────────────
+
+- id: nationalmuseet-dk
+  name:
+    en: National Museum of Denmark
+    da: Nationalmuseet
+  type: history-museum
+  country: DK
+  city: Copenhagen
+  geonames_uri: "http://sws.geonames.org/2618425/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1140507"
+  isil: "DK-810010"
+  website: "https://www.natmus.dk/"
+  established: "1819"
+  timeline_start: 1819
+  description: "Denmark's principal museum of cultural history, covering Danish and international cultures from the Stone Age to the present, including the famous Sun Chariot."
+
+- id: smk
+  name:
+    en: SMK - National Gallery of Denmark
+    da: Statens Museum for Kunst
+  type: art-museum
+  country: DK
+  city: Copenhagen
+  geonames_uri: "http://sws.geonames.org/2618425/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q671384"
+  isil: "DK-820010"
+  website: "https://www.smk.dk/"
+  established: "1849"
+  timeline_start: 1849
+  description: "Denmark's national art gallery with the largest collection of Danish and international art spanning 700 years, from Lucas Cranach to contemporary art."
+
+- id: ny-carlsberg-glyptotek
+  name:
+    en: Ny Carlsberg Glyptotek
+    da: Ny Carlsberg Glyptotek
+  type: art-museum
+  country: DK
+  city: Copenhagen
+  geonames_uri: "http://sws.geonames.org/2618425/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1138030"
+  website: "https://www.glfrptotek.dk/"
+  established: "1888"
+  timeline_start: 1888
+  description: "Art museum founded by brewer Carl Jacobsen housing a world-class collection of ancient Egyptian, Greek, and Roman sculpture alongside French Impressionism and Danish Golden Age painting."
+
+- id: louisiana
+  name:
+    en: Louisiana Museum of Modern Art
+    da: Louisiana Museum for Moderne Kunst
+  type: art-museum
+  country: DK
+  city: Humlebæk
+  geonames_uri: "http://sws.geonames.org/2620679/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q671384"
+  website: "https://louisiana.dk/"
+  established: "1958"
+  timeline_start: 1958
+  description: "Denmark's most visited art museum, situated on the Øresund coast, with an outstanding collection of modern and contemporary art in a landscape setting."
+
+- id: aros
+  name:
+    en: ARoS Aarhus Art Museum
+    da: ARoS Aarhus Kunstmuseum
+  type: art-museum
+  country: DK
+  city: Aarhus
+  geonames_uri: "http://sws.geonames.org/2624652/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q845584"
+  website: "https://www.aros.dk/"
+  established: "1859"
+  timeline_start: 1859
+  description: "One of Europe's largest art museums, known for Olafur Eliasson's rainbow panorama walkway and a collection spanning the Danish Golden Age to international contemporary art."
+
+- id: thorvaldsens-museum
+  name:
+    en: Thorvaldsens Museum
+    da: Thorvaldsens Museum
+  type: art-museum
+  country: DK
+  city: Copenhagen
+  geonames_uri: "http://sws.geonames.org/2618425/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1140535"
+  website: "https://www.thorvaldsensmuseum.dk/"
+  established: "1848"
+  timeline_start: 1848
+  description: "Museum dedicated to the works of sculptor Bertel Thorvaldsen, Denmark's most celebrated Neoclassical artist, in a purpose-built colourful building beside Christiansborg."
+
+- id: hirschsprungske
+  name:
+    en: The Hirschsprung Collection
+    da: Den Hirschsprungske Samling
+  type: art-museum
+  country: DK
+  city: Copenhagen
+  geonames_uri: "http://sws.geonames.org/2618425/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1191916"
+  website: "https://www.hirschsprung.dk/"
+  established: "1911"
+  timeline_start: 1911
+  description: "Museum housing tobacco manufacturer Heinrich Hirschsprung's collection of Danish art from the 19th and early 20th centuries, including the Skagen painters."
+
+- id: ordrupgaard
+  name:
+    en: Ordrupgaard
+    da: Ordrupgaard
+  type: art-museum
+  country: DK
+  city: Charlottenlund
+  geonames_uri: "http://sws.geonames.org/2618862/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1138041"
+  website: "https://ordrupgaard.dk/"
+  established: "1953"
+  timeline_start: 1953
+  description: "Art museum in a country house setting, renowned for its collection of French Impressionist and Post-Impressionist paintings alongside Danish Golden Age works."
+
+- id: vikingeskibsmuseet
+  name:
+    en: Viking Ship Museum Roskilde
+    da: Vikingeskibsmuseet
+  type: maritime-museum
+  country: DK
+  city: Roskilde
+  geonames_uri: "http://sws.geonames.org/2615876/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1133976"
+  website: "https://www.vikingeskibsmuseet.dk/"
+  established: "1969"
+  timeline_start: 1969
+  description: "Museum dedicated to Viking Age seafaring, built around five original Viking ships excavated from Roskilde Fjord, with a working boatyard."
+
+- id: ms-maritime-museum
+  name:
+    en: M/S Maritime Museum of Denmark
+    da: M/S Museet for Søfart
+  type: maritime-museum
+  country: DK
+  city: Helsingør
+  geonames_uri: "http://sws.geonames.org/2620473/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q2362154"
+  website: "https://mfrfs.dk/"
+  established: "2013"
+  timeline_start: 2013
+  description: "Award-winning maritime museum designed by BIG architects, built around an old dry dock, documenting Denmark's maritime history and global trade."
+
+- id: den-gamle-by
+  name:
+    en: Den Gamle By - The Old Town
+    da: Den Gamle By
+  type: open-air-museum
+  country: DK
+  city: Aarhus
+  geonames_uri: "http://sws.geonames.org/2624652/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1182781"
+  website: "https://www.dengamleby.dk/"
+  established: "1909"
+  timeline_start: 1909
+  description: "The world's first open-air town museum, recreating Danish urban life through three historical periods with more than 75 buildings from across Denmark."
+
+- id: moesgaard
+  name:
+    en: Moesgaard Museum
+    da: Moesgaard Museum
+  type: archaeology-museum
+  country: DK
+  city: Aarhus
+  geonames_uri: "http://sws.geonames.org/2624652/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1535628"
+  website: "https://www.moesgaardmuseum.dk/"
+  established: "2014"
+  timeline_start: 2014
+  description: "Ethnographic and archaeological museum in a landmark building, housing the Grauballe Man and presenting Danish prehistory and cultures from around the world."
+
+- id: dansk-jodisk-museum
+  name:
+    en: Danish Jewish Museum
+    da: Dansk Jødisk Museum
+  type: history-museum
+  country: DK
+  city: Copenhagen
+  geonames_uri: "http://sws.geonames.org/2618425/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1173631"
+  website: "https://www.jewmus.dk/"
+  established: "2004"
+  timeline_start: 2004
+  description: "Museum designed by Daniel Libeskind documenting the history of the Jewish community in Denmark, including the rescue of Danish Jews during World War II."
+
+- id: kunsten
+  name:
+    en: Kunsten Museum of Modern Art Aalborg
+    da: Kunsten - Museum of Modern Art Aalborg
+  type: art-museum
+  country: DK
+  city: Aalborg
+  geonames_uri: "http://sws.geonames.org/2624886/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1764404"
+  website: "https://kunsten.dk/"
+  established: "1972"
+  timeline_start: 1972
+  description: "Museum of modern and contemporary art in a building designed by Alvar Aalto and Jean-Jacques Baruël, with Danish and international art from 1900 to the present."
+
+- id: frilandsmuseet
+  name:
+    en: The Open Air Museum
+    da: Frilandsmuseet
+  type: open-air-museum
+  country: DK
+  city: Lyngby
+  geonames_uri: "http://sws.geonames.org/2618627/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1321613"
+  website: "https://natmus.dk/frilandsmuseet/"
+  established: "1897"
+  timeline_start: 1897
+  description: "One of the world's oldest and largest open-air museums, part of the National Museum, with over 100 historical buildings from Denmark, southern Sweden, and northern Germany."
+
+- id: designmuseum-dk
+  name:
+    en: Designmuseum Danmark
+    da: Designmuseum Danmark
+  type: design-museum
+  country: DK
+  city: Copenhagen
+  geonames_uri: "http://sws.geonames.org/2618425/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1140506"
+  website: "https://designmuseum.dk/"
+  established: "1890"
+  timeline_start: 1890
+  description: "Denmark's museum of design and decorative arts, housed in a rococo hospital building, covering Danish and international design, fashion, crafts, and industrial design."
+
+- id: randers-kunstmuseum
+  name:
+    en: Randers Art Museum
+    da: Randers Kunstmuseum
+  type: art-museum
+  country: DK
+  city: Randers
+  geonames_uri: "http://sws.geonames.org/2615006/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q7293968"
+  website: "https://randerskunstmuseum.dk/"
+  established: "1887"
+  timeline_start: 1887
+  description: "One of Denmark's oldest art museums, with a collection focusing on Danish art from the Golden Age through Modernism."
+
+- id: ribe-vikingecenter
+  name:
+    en: Ribe VikingeCenter
+    da: Ribe VikingeCenter
+  type: open-air-museum
+  country: DK
+  city: Ribe
+  geonames_uri: "http://sws.geonames.org/2615060/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q7325006"
+  website: "https://www.ribevikingecenter.dk/"
+  established: "1992"
+  timeline_start: 1992
+  description: "Open-air museum and reconstructed Viking marketplace based on archaeological findings from Ribe, Denmark's oldest town."
+
+- id: skagens-museum
+  name:
+    en: Skagens Museum
+    da: Skagens Museum
+  type: art-museum
+  country: DK
+  city: Skagen
+  geonames_uri: "http://sws.geonames.org/2613854/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1572584"
+  website: "https://skagenskunstmuseer.dk/"
+  established: "1908"
+  timeline_start: 1908
+  description: "Art museum dedicated to the Skagen Painters, a group of Scandinavian artists who gathered at the northernmost point of Denmark in the late 19th century to paint light and seascapes."
+
+- id: brandts
+  name:
+    en: Brandts Museum of Art and Visual Culture
+    da: Brandts
+  type: art-museum
+  country: DK
+  city: Odense
+  geonames_uri: "http://sws.geonames.org/2615876/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q4955912"
+  website: "https://brandts.dk/"
+  established: "1984"
+  timeline_start: 1984
+  description: "Art and visual culture museum in a converted textile mill, presenting photography, graphic art, and contemporary visual culture."
+
+# ── Iceland (~10 institutions) ─────────────────────────────────
+
+- id: thjodminjasafn
+  name:
+    en: National Museum of Iceland
+    is: Þjóðminjasafn Íslands
+  type: history-museum
+  country: IS
+  city: Reykjavik
+  geonames_uri: "http://sws.geonames.org/3413829/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1418298"
+  website: "https://www.thjodminjasafn.is/"
+  established: "1863"
+  timeline_start: 1863
+  description: "Iceland's national museum of cultural history, tracing Icelandic civilisation from Viking settlement in the 9th century to the present day."
+
+- id: listasafn-reykjavikur
+  name:
+    en: Reykjavik Art Museum
+    is: Listasafn Reykjavíkur
+  type: art-museum
+  country: IS
+  city: Reykjavik
+  geonames_uri: "http://sws.geonames.org/3413829/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1762225"
+  website: "https://listfrsfnreykjavikur.is/"
+  established: "1973"
+  timeline_start: 1973
+  description: "Reykjavik's art museum operating across three venues: Hafnarhús (contemporary art), Kjarvalsstaðir (Kjarval's works), and Ásmundarsafn (Ásmundur Sveinsson sculpture)."
+
+- id: listasafn-islands
+  name:
+    en: National Gallery of Iceland
+    is: Listasafn Íslands
+  type: art-museum
+  country: IS
+  city: Reykjavik
+  geonames_uri: "http://sws.geonames.org/3413829/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q1460820"
+  website: "https://www.listasafn.is/"
+  established: "1884"
+  timeline_start: 1884
+  description: "Iceland's national art gallery, housing the country's most important collection of visual art by Icelandic and international artists."
+
+- id: saga-museum
+  name:
+    en: Saga Museum
+    is: Sögusetrið
+  type: history-museum
+  country: IS
+  city: Reykjavik
+  geonames_uri: "http://sws.geonames.org/3413829/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q7399131"
+  website: "https://www.sagamuseum.is/"
+  established: "2004"
+  timeline_start: 2004
+  description: "Museum recreating key moments from Iceland's history using lifelike silicone figures, from the settlement era through the sagas."
+
+- id: arbaer
+  name:
+    en: Árbær Open Air Museum
+    is: Árbæjarsafn
+  type: open-air-museum
+  country: IS
+  city: Reykjavik
+  geonames_uri: "http://sws.geonames.org/3413829/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q3560972"
+  website: "https://borgarsogusafn.is/arbaejarsafn"
+  established: "1957"
+  timeline_start: 1957
+  description: "Open-air museum preserving more than 20 historical buildings showing how Reykjavik residents lived and worked in earlier centuries."
+
+- id: akureyri-listasafn
+  name:
+    en: Akureyri Art Museum
+    is: Listasafnið á Akureyri
+  type: art-museum
+  country: IS
+  city: Akureyri
+  geonames_uri: "http://sws.geonames.org/3418399/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q4700942"
+  website: "https://www.listak.is/"
+  established: "1993"
+  timeline_start: 1993
+  description: "Art museum in northern Iceland's largest town, presenting contemporary Icelandic and international visual art."
+
+- id: husavik-whale-museum
+  name:
+    en: Húsavík Whale Museum
+    is: Hvalasafnið á Húsavík
+  type: natural-history-museum
+  country: IS
+  city: Húsavík
+  geonames_uri: "http://sws.geonames.org/2630048/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q12007817"
+  website: "https://www.whalemuseum.is/"
+  established: "1997"
+  timeline_start: 1997
+  description: "Museum dedicated to whales and whale research, featuring real whale skeletons and the ecology of Skjálfandi Bay, Iceland's whale watching capital."
+
+- id: skogar-museum
+  name:
+    en: Skógar Museum
+    is: Skógasafn
+  type: folk-museum
+  country: IS
+  city: Skógar
+  geonames_uri: "http://sws.geonames.org/3413604/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q7535416"
+  website: "https://www.skogasafn.is/"
+  established: "1949"
+  timeline_start: 1949
+  description: "Folk museum near the Skógafoss waterfall, preserving Icelandic heritage with a collection of over 18,000 regional artefacts and an open-air section of turf houses."
+
+- id: reykjanes-heritage-museum
+  name:
+    en: Reykjanes Heritage Museum
+    is: Byggðasafn Reykjaness
+  type: history-museum
+  country: IS
+  city: Keflavík
+  geonames_uri: "http://sws.geonames.org/3414356/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q16338935"
+  website: "https://www.byggdasafn.is/"
+  established: "1977"
+  timeline_start: 1977
+  description: "Regional museum documenting the history and culture of the Reykjanes peninsula, focusing on fishing heritage and saltfish production."
+
+- id: herring-era-museum
+  name:
+    en: Herring Era Museum
+    is: Síldarminjasafnið á Siglufirði
+  type: maritime-museum
+  country: IS
+  city: Siglufjörður
+  geonames_uri: "http://sws.geonames.org/3414079/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q3480783"
+  website: "https://www.sfrld.is/"
+  established: "1994"
+  timeline_start: 1994
+  description: "Award-winning museum documenting Iceland's herring fishing boom of the early to mid 20th century, in a historic waterfront setting in Siglufjörður."

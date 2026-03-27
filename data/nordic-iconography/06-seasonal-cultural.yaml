@@ -1,0 +1,227 @@
+# Nordic seasonal and cultural subjects
+
+- id: nordic-seasons
+  timeline_start: -500
+  labels:
+    en: Nordic Seasonal and Cultural Subjects
+    sv: Nordiska säsongs- och kulturmotiv
+    fi: Pohjoismaiset vuodenaika- ja kulttuuriaiheet
+    da: Nordiske sæson- og kulturmotiver
+    nb: Nordiske sesong- og kulturmotiver
+  description: "Seasonal celebrations, traditions, and cultural practices depicted in Nordic art and folk culture."
+
+- id: midsummer
+  broader: nordic-seasons
+  timeline_start: -500
+  labels:
+    en: Midsummer celebration
+    sv: Midsommarfirande
+    fi: Juhannusjuhla
+    da: Sankt Hans fest
+    nb: Sankthansfeiring
+    is: Jónsmessa
+  description: "Major Nordic summer solstice celebration featuring maypoles, dancing, flower wreaths, bonfires, and feasting, one of the most depicted seasonal subjects in Nordic art."
+
+- id: lucia
+  broader: nordic-seasons
+  timeline_start: 1700
+  labels:
+    en: Saint Lucy's Day / Lucia
+    sv: Luciadagen
+    fi: Lucian päivä
+    da: Luciadag
+    nb: Luciadagen
+    is: Lúsíuhátíð
+  description: "December 13th celebration particularly prominent in Sweden, featuring a procession led by a girl wearing a crown of candles, singing traditional songs."
+
+- id: nordic-jul
+  broader: nordic-seasons
+  timeline_start: -500
+  labels:
+    en: Nordic Christmas / Jul
+    sv: Jul
+    fi: Joulu
+    da: Jul
+    nb: Jul
+    is: Jól
+  description: "Nordic Christmas traditions blending Christian observance with pre-Christian Yule customs, depicted through scenes of celebrations, decorations, and seasonal activities."
+
+- id: valborg
+  broader: nordic-seasons
+  timeline_start: 1700
+  labels:
+    en: Walpurgis Night / Valborg
+    sv: Valborgsmässoafton
+    fi: Vappu
+    da: Valborgsaften
+    nb: Valborgaften
+  description: "April 30th celebration marking the arrival of spring with bonfires, singing, and student festivities, particularly significant in Sweden and Finland."
+
+- id: easter-witches
+  broader: nordic-seasons
+  timeline_start: 1600
+  labels:
+    en: Easter witches
+    sv: Påskkärringar
+    fi: Virpominen / Trulli
+    da: Påskeheks
+    nb: Påskeheks
+  description: "Nordic Easter tradition where children dress as witches and go door-to-door exchanging willow twigs for treats, particularly in Finland and Sweden."
+
+- id: crayfish-party
+  broader: nordic-seasons
+  timeline_start: 1500
+  labels:
+    en: Crayfish party
+    sv: Kräftskiva
+    fi: Rapujuhlat
+    da: Krebs-fest
+    nb: Krepselag
+  description: "Traditional late-summer Swedish festivity centered around eating freshwater crayfish, with decorations of paper lanterns and singing of drinking songs (snapsvisor)."
+
+- id: sami-national-day
+  broader: nordic-seasons
+  timeline_start: 1917
+  labels:
+    en: Sámi National Day
+    sv: Samernas nationaldag
+    fi: Saamelaisten kansallispäivä
+    da: Samisk nationaldag
+    nb: Samefolkets dag
+    se: Sámi álbmotbeaivi
+  description: "February 6th celebration of Sámi culture and identity across the Nordic countries, commemorating the first pan-Sámi congress in 1917."
+
+- id: finnish-sauna
+  broader: nordic-seasons
+  timeline_start: -2000
+  labels:
+    en: Finnish sauna
+    sv: Finsk bastu
+    fi: Sauna
+    da: Finsk sauna
+    nb: Finsk badstue
+  description: "Central Finnish cultural institution and social ritual, depicted in art from folk paintings to contemporary works, representing purification, community, and Finnish identity."
+
+- id: norwegian-constitution-day
+  broader: nordic-seasons
+  timeline_start: 1814
+  labels:
+    en: Norwegian Constitution Day
+    sv: Norges nationaldag
+    fi: Norjan perustuslakipäivä
+    da: Norges nationaldag
+    nb: Syttende mai
+  description: "May 17th national celebration of Norway's 1814 constitution, featuring children's parades, folk costumes (bunad), and festive gatherings, widely depicted in Norwegian art."
+
+- id: icelandic-thorrablot
+  broader: nordic-seasons
+  timeline_start: -800
+  labels:
+    en: Þorrablót
+    sv: Torrablot
+    fi: Þorrablót
+    da: Thorrablot
+    nb: Thorrablot
+    is: Þorrablót
+  description: "Icelandic midwinter festival revived in the 19th century, featuring traditional foods and celebrating Old Norse heritage."
+
+- id: danish-fastelavn
+  broader: nordic-seasons
+  timeline_start: 1400
+  labels:
+    en: Danish Fastelavn
+    sv: Fastlagen
+    fi: Laskiainen
+    da: Fastelavn
+    nb: Fastelavn
+  description: "Scandinavian carnival celebration before Lent, featuring children in costumes hitting a barrel to release candy, and eating cream-filled buns (fastelavnsboller)."
+
+- id: nordic-harvest
+  broader: nordic-seasons
+  timeline_start: -3000
+  labels:
+    en: Nordic harvest traditions
+    sv: Nordiska skördetraditioner
+    fi: Pohjoismaiset sadonkorjuuperinteet
+    da: Nordiske høsttraditioner
+    nb: Nordiske høsttradisjoner
+  description: "Agricultural harvest celebrations depicted in Nordic art, including grain harvesting, hay-making, and autumn feasts."
+
+- id: marten-goose
+  broader: nordic-seasons
+  timeline_start: 1100
+  labels:
+    en: Mårten Gås / St. Martin's Day goose
+    sv: Mårten Gås
+    fi: Martinpäivä
+    da: Mortensaften
+    nb: Mortensgås
+  description: "November 11th feast day tradition of eating roasted goose, particularly strong in southern Sweden (Skåne) and Denmark."
+
+- id: icelandic-independence-day
+  broader: nordic-seasons
+  timeline_start: 1944
+  labels:
+    en: Icelandic National Day
+    sv: Islands nationaldag
+    fi: Islannin kansallispäivä
+    da: Islands nationaldag
+    nb: Islands nasjonaldag
+    is: Þjóðhátíðardagurinn
+  description: "June 17th celebration of Icelandic independence, commemorating the founding of the Republic of Iceland in 1944 and the birthday of independence leader Jón Sigurðsson."
+
+- id: finnish-independence-day
+  broader: nordic-seasons
+  timeline_start: 1917
+  labels:
+    en: Finnish Independence Day
+    sv: Finlands självständighetsdag
+    fi: Itsenäisyyspäivä
+    da: Finlands uafhængighedsdag
+    nb: Finlands uavhengighetsdag
+  description: "December 6th celebration of Finland's independence from Russia in 1917, marked by solemn ceremonies, candles in windows, and the Presidential Independence Day reception."
+
+- id: swedish-midsommar
+  broader: nordic-seasons
+  timeline_start: -500
+  labels:
+    en: Swedish Midsommar
+    sv: Midsommar
+    fi: Juhannus
+    da: Midsommer
+    nb: Sankthans
+  description: "The quintessential Swedish celebration on the Friday closest to the summer solstice, featuring raising and dancing around the maypole, flower wreaths, strawberries, herring, and singing drinking songs."
+
+- id: nordic-advent
+  broader: nordic-seasons
+  timeline_start: 1100
+  labels:
+    en: Nordic Advent traditions
+    sv: Adventsljusstake
+    fi: Adventti
+    da: Adventstid
+    nb: Adventstid
+  description: "Nordic Advent customs including the Advent candlestick (adventsljusstake) in windows, Advent calendars, and the progressive lighting of four candles on successive Sundays before Christmas."
+
+- id: kaamos
+  broader: nordic-seasons
+  timeline_start: -10000
+  labels:
+    en: Kaamos / Polar night
+    sv: Mörketid
+    fi: Kaamos
+    da: Mørketid
+    nb: Mørketid
+    se: Skábma
+  description: "The period of polar night in the Arctic when the sun does not rise above the horizon. In Finnish Lapland, kaamos lasts from late November to mid-January. A subject of contemplative art exploring darkness and inner light."
+
+- id: russefeiring
+  broader: nordic-seasons
+  timeline_start: 1905
+  labels:
+    en: Russefeiring (Norwegian graduation)
+    sv: Studentexamen
+    fi: Ylioppilasjuhla
+    da: Studenterfest
+    nb: Russefeiring
+  description: "Norwegian high school graduation celebration where students wear colored overalls (russedress) and participate in festivities during May, culminating on Constitution Day (May 17th)."

@@ -1,0 +1,411 @@
+# ═══════════════════════════════════════════════════════════════
+# Nordic Place Name Authority — Major Archaeological Sites
+# Important archaeological and historical sites across
+# the Nordic countries.
+# ═══════════════════════════════════════════════════════════════
+
+# ── Sweden ───────────────────────────────────────────────────
+
+- id: birka
+  type: archaeological-site
+  broader: uppland
+  timeline_start: 750
+  timeline_end: 975
+  labels:
+    en: Birka
+    sv: Birka
+  lat: 59.3309
+  lon: 17.5467
+  geonames_uri: "http://sws.geonames.org/2723265/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q82067"
+  description: "UNESCO World Heritage Site. Viking Age trading centre on the island of Björkö in Lake Mälaren, active c. 750–975 CE."
+
+- id: gamla-uppsala
+  type: archaeological-site
+  broader: uppland
+  timeline_start: 300
+  labels:
+    en: Old Uppsala
+    sv: Gamla Uppsala
+  lat: 59.8981
+  lon: 17.6310
+  geonames_uri: "http://sws.geonames.org/2712091/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q537789"
+  description: "Ancient religious and political centre with royal burial mounds dating to the 5th–6th centuries CE. Former seat of the Swedish kings."
+
+- id: ales-stenar
+  type: archaeological-site
+  broader: skane
+  timeline_start: 600
+  labels:
+    en: Ales Stenar
+    sv: Ales stenar
+  alt_labels:
+    en: ["Ale's Stones"]
+  lat: 55.3834
+  lon: 14.0536
+  geonames_uri: "http://sws.geonames.org/2726012/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q464743"
+  description: "Megalithic monument in Scania consisting of 59 boulders forming a 67-metre ship setting. Dated to c. 600 CE."
+
+- id: tanum
+  type: archaeological-site
+  broader: bohuslan
+  timeline_start: -1800
+  timeline_end: -500
+  labels:
+    en: Tanum rock carvings
+    sv: Tanums hällristningar
+  lat: 58.7053
+  lon: 11.3474
+  geonames_uri: "http://sws.geonames.org/2670894/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q652232"
+  description: "UNESCO World Heritage Site. One of the richest collections of Bronze Age rock art in Europe, dating to c. 1800–500 BCE."
+
+- id: anundshog
+  type: archaeological-site
+  broader: vastmanland
+  timeline_start: 500
+  timeline_end: 1100
+  labels:
+    en: Anundshög
+    sv: Anundshög
+  lat: 59.6303
+  lon: 16.5164
+  wikidata_uri: "http://www.wikidata.org/entity/Q617474"
+  description: "Sweden's largest burial mound near Västerås. Viking Age ship settings and runestones dating to the 6th–11th centuries."
+
+- id: hovgarden
+  type: archaeological-site
+  broader: uppland
+  timeline_start: 750
+  timeline_end: 1000
+  labels:
+    en: Hovgården
+    sv: Hovgården
+  lat: 59.3640
+  lon: 17.5460
+  wikidata_uri: "http://www.wikidata.org/entity/Q930834"
+  description: "UNESCO World Heritage Site on the island of Adelsö in Lake Mälaren. Royal estate associated with Birka."
+
+- id: sandby-borg
+  type: archaeological-site
+  broader: oland
+  timeline_start: 400
+  timeline_end: 500
+  labels:
+    en: Sandby borg
+    sv: Sandby borg
+  lat: 56.6094
+  lon: 16.5878
+  wikidata_uri: "http://www.wikidata.org/entity/Q30049685"
+  description: "Migration Period ringfort on Öland, site of a 5th-century massacre. Provides unique insight into the fall of the Roman world."
+
+- id: uppakra
+  type: archaeological-site
+  broader: skane
+  timeline_start: -100
+  timeline_end: 1000
+  labels:
+    en: Uppåkra
+    sv: Uppåkra
+  lat: 55.6522
+  lon: 13.1964
+  wikidata_uri: "http://www.wikidata.org/entity/Q1747279"
+  description: "Iron Age central place and cult site near Lund. Inhabited continuously from c. 100 BCE to 1000 CE, making it one of the longest-lived settlements in southern Scandinavia."
+
+- id: valsgarde
+  type: archaeological-site
+  broader: uppland
+  timeline_start: 600
+  timeline_end: 1050
+  labels:
+    en: Valsgärde
+    sv: Valsgärde
+  lat: 59.8880
+  lon: 17.6410
+  wikidata_uri: "http://www.wikidata.org/entity/Q1426050"
+  description: "Vendel Period boat-burial cemetery near Old Uppsala, dating to c. 600–1050 CE. Rich warrior graves with helmets and shields."
+
+- id: vendel
+  type: archaeological-site
+  broader: uppland
+  timeline_start: 550
+  timeline_end: 790
+  labels:
+    en: Vendel
+    sv: Vendel
+  lat: 60.0500
+  lon: 17.9800
+  wikidata_uri: "http://www.wikidata.org/entity/Q1664543"
+  description: "Type site for the Vendel Period (c. 550–790 CE). Famous boat burials with richly decorated helmets."
+
+- id: vitlycke
+  type: archaeological-site
+  broader: bohuslan
+  timeline_start: -1800
+  timeline_end: -500
+  labels:
+    en: Vitlycke
+    sv: Vitlycke
+  lat: 58.7058
+  lon: 11.3467
+  wikidata_uri: "http://www.wikidata.org/entity/Q10714424"
+  description: "Part of the Tanum rock carvings UNESCO site. Features the famous Bridal Couple rock carving from the Bronze Age."
+
+# ── Denmark ──────────────────────────────────────────────────
+
+- id: jelling
+  type: archaeological-site
+  broader: jutland
+  timeline_start: 900
+  labels:
+    en: Jelling
+    da: Jelling
+  lat: 55.7559
+  lon: 9.4204
+  geonames_uri: "http://sws.geonames.org/2621524/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q193494"
+  description: "UNESCO World Heritage Site. Jelling Stones, burial mounds, and church mark the transition from Norse paganism to Christianity c. 965 CE."
+
+- id: hedeby
+  type: archaeological-site
+  broader: south-jutland
+  timeline_start: 770
+  timeline_end: 1066
+  labels:
+    en: Hedeby
+    da: Hedeby
+    de: Haithabu
+  alt_labels:
+    en: ["Haithabu"]
+  lat: 54.4896
+  lon: 9.5648
+  geonames_uri: "http://sws.geonames.org/2909562/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q159737"
+  description: "UNESCO World Heritage Site. Major Viking Age trading centre at the base of the Jutland peninsula, active c. 770–1066 CE."
+
+- id: lindholm-hoje
+  type: archaeological-site
+  broader: north-jutland
+  timeline_start: 400
+  timeline_end: 1000
+  labels:
+    en: Lindholm Høje
+    da: Lindholm Høje
+  lat: 57.0833
+  lon: 9.8833
+  wikidata_uri: "http://www.wikidata.org/entity/Q1206429"
+  description: "Major Viking Age and Germanic Iron Age burial site near Aalborg with c. 700 graves, many marked with stone ship settings."
+
+- id: trelleborg-denmark
+  type: archaeological-site
+  broader: zealand
+  timeline_start: 980
+  timeline_end: 1020
+  labels:
+    en: Trelleborg
+    da: Trelleborg
+  lat: 55.4017
+  lon: 11.2600
+  wikidata_uri: "http://www.wikidata.org/entity/Q988084"
+  description: "Viking ring fortress on Zealand, built c. 980 CE during the reign of Harald Bluetooth. One of several Trelleborg-type fortresses."
+
+- id: lejre
+  type: archaeological-site
+  broader: zealand
+  timeline_start: 500
+  timeline_end: 1000
+  labels:
+    en: Lejre
+    da: Lejre
+  lat: 55.6117
+  lon: 11.9750
+  wikidata_uri: "http://www.wikidata.org/entity/Q671236"
+  description: "Legendary seat of the Danish kings in the Beowulf saga. Archaeological excavations reveal a major Viking Age hall complex."
+
+- id: ladby
+  type: archaeological-site
+  broader: funen
+  timeline_start: 925
+  timeline_end: 925
+  labels:
+    en: Ladby ship
+    da: Ladbyskibet
+  lat: 55.4489
+  lon: 10.6333
+  wikidata_uri: "http://www.wikidata.org/entity/Q1474139"
+  description: "Only Viking ship burial found in Denmark. A 21.5-metre longship from c. 925 CE on the island of Funen."
+
+- id: aggersborg
+  type: archaeological-site
+  broader: north-jutland
+  timeline_start: 980
+  timeline_end: 1000
+  labels:
+    en: Aggersborg
+    da: Aggersborg
+  lat: 56.9950
+  lon: 9.2583
+  wikidata_uri: "http://www.wikidata.org/entity/Q348497"
+  description: "Largest of the Viking ring fortresses, built c. 980 CE. Diameter of 240 metres, located on the Limfjord."
+
+# ── Norway ───────────────────────────────────────────────────
+
+- id: oseberg
+  type: archaeological-site
+  broader: ostlandet
+  timeline_start: 834
+  timeline_end: 834
+  labels:
+    en: Oseberg
+    nb: Oseberg
+  lat: 59.3117
+  lon: 10.2283
+  wikidata_uri: "http://www.wikidata.org/entity/Q1175279"
+  description: "Site of the Oseberg ship burial (834 CE), one of the finest Viking Age finds. The ship and grave goods are in the Viking Ship Museum, Oslo."
+
+- id: gokstad
+  type: archaeological-site
+  broader: ostlandet
+  timeline_start: 900
+  timeline_end: 900
+  labels:
+    en: Gokstad
+    nb: Gokstad
+  lat: 59.1500
+  lon: 10.2167
+  wikidata_uri: "http://www.wikidata.org/entity/Q1177766"
+  description: "Site of the Gokstad ship burial (c. 900 CE). The ship represents the peak of Viking shipbuilding technology."
+
+- id: kaupang
+  type: archaeological-site
+  broader: ostlandet
+  timeline_start: 800
+  timeline_end: 930
+  labels:
+    en: Kaupang
+    nb: Kaupang
+  lat: 59.0533
+  lon: 10.1833
+  wikidata_uri: "http://www.wikidata.org/entity/Q1160814"
+  description: "Viking Age trading settlement in Vestfold, active c. 800–930 CE. One of the earliest known Nordic urban centres."
+
+- id: borg-lofoten
+  type: archaeological-site
+  broader: lofoten
+  timeline_start: 500
+  timeline_end: 900
+  labels:
+    en: Borg
+    nb: Borg
+  lat: 68.2464
+  lon: 13.9694
+  wikidata_uri: "http://www.wikidata.org/entity/Q937023"
+  description: "Site of the largest known Viking longhouse (83 metres). Now the Lofotr Viking Museum on Vestvågøy."
+
+- id: alta-rock-art
+  type: archaeological-site
+  broader: finnmark
+  timeline_start: -4200
+  timeline_end: -500
+  labels:
+    en: Alta rock art
+    nb: Helleristningene i Alta
+  lat: 69.9450
+  lon: 23.2333
+  geonames_uri: "http://sws.geonames.org/3163529/"
+  wikidata_uri: "http://www.wikidata.org/entity/Q611857"
+  description: "UNESCO World Heritage Site. Thousands of rock carvings and paintings dating from c. 4200–500 BCE in Finnmark."
+
+- id: bryggen
+  type: archaeological-site
+  broader: hordaland
+  timeline_start: 1070
+  labels:
+    en: Bryggen
+    nb: Bryggen
+  lat: 60.3975
+  lon: 5.3239
+  wikidata_uri: "http://www.wikidata.org/entity/Q207886"
+  description: "UNESCO World Heritage Site. Historic Hanseatic wharf in Bergen with colourful wooden buildings dating from 1702."
+
+- id: avaldsnes
+  type: archaeological-site
+  broader: rogaland
+  timeline_start: 200
+  labels:
+    en: Avaldsnes
+    nb: Avaldsnes
+  lat: 59.3400
+  lon: 5.2833
+  wikidata_uri: "http://www.wikidata.org/entity/Q2430067"
+  description: "One of Norway's oldest royal seats. Viking kings' residence from the 3rd century CE. Home to the Nordvegen History Centre."
+
+# ── Finland ──────────────────────────────────────────────────
+
+- id: rapola
+  type: archaeological-site
+  broader: pirkanmaa
+  timeline_start: 800
+  timeline_end: 1200
+  labels:
+    en: Rapola
+    fi: Rapola
+  lat: 61.3097
+  lon: 23.9208
+  wikidata_uri: "http://www.wikidata.org/entity/Q18346504"
+  description: "Iron Age hillfort in Pirkanmaa. Largest prehistoric fortification in Finland, dating to the Late Iron Age."
+
+- id: levanluhta
+  type: archaeological-site
+  broader: pohjanmaa
+  timeline_start: 400
+  timeline_end: 800
+  labels:
+    en: Levänluhta
+    fi: Levänluhta
+  lat: 62.7317
+  lon: 23.1675
+  wikidata_uri: "http://www.wikidata.org/entity/Q11876279"
+  description: "Iron Age water burial site in Ostrobothnia dating to c. 400–800 CE. Unique Finnish burial tradition with parallels to Scandinavian bog bodies."
+
+- id: sammallahdenmaki
+  type: archaeological-site
+  broader: satakunta
+  timeline_start: -1500
+  timeline_end: -500
+  labels:
+    en: Sammallahdenmäki
+    fi: Sammallahdenmäki
+  lat: 61.1197
+  lon: 21.7833
+  wikidata_uri: "http://www.wikidata.org/entity/Q1030001"
+  description: "UNESCO World Heritage Site. Bronze Age burial cairns in Satakunta dating to c. 1500–500 BCE."
+
+# ── Iceland ──────────────────────────────────────────────────
+
+- id: reykholt
+  type: archaeological-site
+  broader: western-iceland
+  timeline_start: 1000
+  labels:
+    en: Reykholt
+    is: Reykholt
+  lat: 64.6647
+  lon: -21.2958
+  wikidata_uri: "http://www.wikidata.org/entity/Q1374413"
+  description: "Medieval estate of Snorri Sturluson (1179–1241), author of the Prose Edda and Heimskringla. Historic hot pool (Snorralaug) still exists."
+
+- id: stong
+  type: archaeological-site
+  broader: southern-iceland
+  timeline_start: 900
+  timeline_end: 1104
+  labels:
+    en: Stöng
+    is: Stöng
+  lat: 64.1131
+  lon: -19.7522
+  wikidata_uri: "http://www.wikidata.org/entity/Q3316483"
+  description: "Viking Age farmstead buried by the 1104 eruption of Hekla. Excavated remains provide insight into medieval Icelandic life."

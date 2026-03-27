@@ -1,0 +1,325 @@
+# Cross-system mappings between Nordic museum classification systems
+# Direct mappings between K-samsök, DigitaltMuseum, Finna, and Danish museum systems
+
+# K-samsök ↔ DigitaltMuseum
+- id: ksamsok-dm-malning
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Målning"
+  source_label: "Målning"
+  source_lang: sv
+  target_system: digitaltmuseum
+  target_uri: "https://digitaltmuseum.org/type/Maleri"
+  target_label: "Maleri"
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Painting (K-samsök → DigitaltMuseum)"
+    sv: "Målning (K-samsök → DigitaltMuseum)"
+  description: "Direct equivalence between Swedish K-samsök and Norwegian/Swedish DigitaltMuseum painting types."
+  timeline_start: -3000
+
+- id: ksamsok-dm-skulptur
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Skulptur"
+  source_label: "Skulptur"
+  source_lang: sv
+  target_system: digitaltmuseum
+  target_uri: "https://digitaltmuseum.org/type/Skulptur"
+  target_label: "Skulptur"
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Sculpture (K-samsök → DigitaltMuseum)"
+    sv: "Skulptur (K-samsök → DigitaltMuseum)"
+  description: "Direct equivalence; identical term in both systems."
+  timeline_start: -8000
+
+- id: ksamsok-dm-teckning
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Teckning"
+  source_label: "Teckning"
+  source_lang: sv
+  target_system: digitaltmuseum
+  target_uri: "https://digitaltmuseum.org/type/Tegning"
+  target_label: "Tegning"
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Drawing (K-samsök → DigitaltMuseum)"
+    sv: "Teckning (K-samsök → DigitaltMuseum)"
+  description: "Direct equivalence; Swedish 'Teckning' = Norwegian 'Tegning'."
+  timeline_start: -30000
+
+- id: ksamsok-dm-fotografi
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Fotografi"
+  source_label: "Fotografi"
+  source_lang: sv
+  target_system: digitaltmuseum
+  target_uri: "https://digitaltmuseum.org/type/Fotografi"
+  target_label: "Fotografi"
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Photograph (K-samsök → DigitaltMuseum)"
+    sv: "Fotografi (K-samsök → DigitaltMuseum)"
+  description: "Direct equivalence; identical term in both systems."
+  timeline_start: 1839
+
+- id: ksamsok-dm-textil
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Textil"
+  source_label: "Textil"
+  source_lang: sv
+  target_system: digitaltmuseum
+  target_uri: "https://digitaltmuseum.org/type/Tekstil"
+  target_label: "Tekstil"
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Textile (K-samsök → DigitaltMuseum)"
+    sv: "Textil (K-samsök → DigitaltMuseum)"
+  description: "Direct equivalence; Swedish 'Textil' = Norwegian 'Tekstil'."
+  timeline_start: -6000
+
+- id: ksamsok-dm-mynt
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Mynt"
+  source_label: "Mynt"
+  source_lang: sv
+  target_system: digitaltmuseum
+  target_uri: "https://digitaltmuseum.org/type/Mynt"
+  target_label: "Mynt"
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Coin (K-samsök → DigitaltMuseum)"
+    sv: "Mynt (K-samsök → DigitaltMuseum)"
+  description: "Direct equivalence; identical term in both systems."
+  timeline_start: -600
+
+- id: ksamsok-dm-keramik
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Keramik"
+  source_label: "Keramik"
+  source_lang: sv
+  target_system: digitaltmuseum
+  target_uri: "https://digitaltmuseum.org/type/Keramikk"
+  target_label: "Keramikk"
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Ceramic (K-samsök → DigitaltMuseum)"
+    sv: "Keramik (K-samsök → DigitaltMuseum)"
+  description: "Direct equivalence; Swedish 'Keramik' = Norwegian 'Keramikk'."
+  timeline_start: -5000
+
+- id: ksamsok-dm-mobel
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Möbel"
+  source_label: "Möbel"
+  source_lang: sv
+  target_system: digitaltmuseum
+  target_uri: "https://digitaltmuseum.org/type/Møbel"
+  target_label: "Møbel"
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Furniture (K-samsök → DigitaltMuseum)"
+    sv: "Möbel (K-samsök → DigitaltMuseum)"
+  description: "Direct equivalence; Swedish 'Möbel' = Norwegian 'Møbel'."
+  timeline_start: -3000
+
+- id: ksamsok-dm-vapen
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Vapen"
+  source_label: "Vapen"
+  source_lang: sv
+  target_system: digitaltmuseum
+  target_uri: "https://digitaltmuseum.org/type/Våpen"
+  target_label: "Våpen"
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Weapon (K-samsök → DigitaltMuseum)"
+    sv: "Vapen (K-samsök → DigitaltMuseum)"
+  description: "Direct equivalence; Swedish 'Vapen' = Norwegian 'Våpen'."
+  timeline_start: -8000
+
+- id: ksamsok-dm-smycke
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Smycke"
+  source_label: "Smycke"
+  source_lang: sv
+  target_system: digitaltmuseum
+  target_uri: "https://digitaltmuseum.org/type/Smykke"
+  target_label: "Smykke"
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Jewelry (K-samsök → DigitaltMuseum)"
+    sv: "Smycke (K-samsök → DigitaltMuseum)"
+  description: "Direct equivalence; Swedish 'Smycke' = Norwegian 'Smykke'."
+  timeline_start: -3000
+
+# K-samsök ↔ Finna
+- id: ksamsok-finna-malning
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Målning"
+  source_label: "Målning"
+  source_lang: sv
+  target_system: finna
+  target_uri: "https://finto.fi/yso/fi/p4932"
+  target_label: "maalaus"
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Painting (K-samsök → Finna/YSO)"
+    sv: "Målning (K-samsök → Finna/YSO)"
+  description: "Direct equivalence between Swedish and Finnish painting types."
+  timeline_start: -3000
+
+- id: ksamsok-finna-skulptur
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Skulptur"
+  source_label: "Skulptur"
+  source_lang: sv
+  target_system: finna
+  target_uri: "https://finto.fi/yso/fi/p10541"
+  target_label: "veistos"
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Sculpture (K-samsök → Finna/YSO)"
+    sv: "Skulptur (K-samsök → Finna/YSO)"
+  description: "Direct equivalence between Swedish and Finnish sculpture types."
+  timeline_start: -8000
+
+- id: ksamsok-finna-textil
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Textil"
+  source_label: "Textil"
+  source_lang: sv
+  target_system: finna
+  target_uri: "https://finto.fi/yso/fi/p7862"
+  target_label: "tekstiili"
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Textile (K-samsök → Finna/YSO)"
+    sv: "Textil (K-samsök → Finna/YSO)"
+  description: "Direct equivalence between Swedish and Finnish textile types."
+  timeline_start: -6000
+
+- id: ksamsok-finna-keramik
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Keramik"
+  source_label: "Keramik"
+  source_lang: sv
+  target_system: finna
+  target_uri: "https://finto.fi/yso/fi/p9227"
+  target_label: "keramiikka"
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Ceramic (K-samsök → Finna/YSO)"
+    sv: "Keramik (K-samsök → Finna/YSO)"
+  description: "Direct equivalence between Swedish and Finnish ceramic types."
+  timeline_start: -5000
+
+- id: ksamsok-finna-mynt
+  source_system: ksamsok
+  source_uri: "https://kulturarvsdata.se/raa/ksamsok#type/Mynt"
+  source_label: "Mynt"
+  source_lang: sv
+  target_system: finna
+  target_uri: "https://finto.fi/yso/fi/p19622"
+  target_label: "kolikko"
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Coin (K-samsök → Finna/YSO)"
+    sv: "Mynt (K-samsök → Finna/YSO)"
+  description: "Direct equivalence between Swedish and Finnish coin types."
+  timeline_start: -600
+
+# DigitaltMuseum ↔ Finna
+- id: dm-finna-maleri
+  source_system: digitaltmuseum
+  source_uri: "https://digitaltmuseum.org/type/Maleri"
+  source_label: "Maleri"
+  source_lang: nb
+  target_system: finna
+  target_uri: "https://finto.fi/yso/fi/p4932"
+  target_label: "maalaus"
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Painting (DigitaltMuseum → Finna/YSO)"
+    sv: "Måleri (DigitaltMuseum → Finna/YSO)"
+  description: "Direct equivalence between Norwegian and Finnish painting types."
+  timeline_start: -3000
+
+- id: dm-finna-skulptur
+  source_system: digitaltmuseum
+  source_uri: "https://digitaltmuseum.org/type/Skulptur"
+  source_label: "Skulptur"
+  source_lang: nb
+  target_system: finna
+  target_uri: "https://finto.fi/yso/fi/p10541"
+  target_label: "veistos"
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Sculpture (DigitaltMuseum → Finna/YSO)"
+    sv: "Skulptur (DigitaltMuseum → Finna/YSO)"
+  description: "Direct equivalence between Norwegian and Finnish sculpture types."
+  timeline_start: -8000
+
+- id: dm-finna-tekstil
+  source_system: digitaltmuseum
+  source_uri: "https://digitaltmuseum.org/type/Tekstil"
+  source_label: "Tekstil"
+  source_lang: nb
+  target_system: finna
+  target_uri: "https://finto.fi/yso/fi/p7862"
+  target_label: "tekstiili"
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Textile (DigitaltMuseum → Finna/YSO)"
+    sv: "Textil (DigitaltMuseum → Finna/YSO)"
+  description: "Direct equivalence between Norwegian and Finnish textile types."
+  timeline_start: -6000
+
+- id: dm-finna-keramikk
+  source_system: digitaltmuseum
+  source_uri: "https://digitaltmuseum.org/type/Keramikk"
+  source_label: "Keramikk"
+  source_lang: nb
+  target_system: finna
+  target_uri: "https://finto.fi/yso/fi/p9227"
+  target_label: "keramiikka"
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Ceramic (DigitaltMuseum → Finna/YSO)"
+    sv: "Keramik (DigitaltMuseum → Finna/YSO)"
+  description: "Direct equivalence between Norwegian and Finnish ceramic types."
+  timeline_start: -5000
+
+- id: dm-finna-fotografi
+  source_system: digitaltmuseum
+  source_uri: "https://digitaltmuseum.org/type/Fotografi"
+  source_label: "Fotografi"
+  source_lang: nb
+  target_system: finna
+  target_uri: "https://finto.fi/yso/fi/p4890"
+  target_label: "valokuva"
+  match_type: exactMatch
+  confidence: high
+  labels:
+    en: "Photograph (DigitaltMuseum → Finna/YSO)"
+    sv: "Fotografi (DigitaltMuseum → Finna/YSO)"
+  description: "Direct equivalence between Norwegian and Finnish photograph types."
+  timeline_start: 1839

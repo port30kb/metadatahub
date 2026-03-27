@@ -1,0 +1,63 @@
+# Nordic Art and Design Movements Data Format
+# =============================================
+#
+# The movements.yaml file contains a list of Nordic art and design
+# movement entries organized as a SKOS vocabulary.
+#
+# Required fields for every entry:
+#
+#   id:          Unique identifier (lowercase, use hyphens for spaces)
+#   start:       Start year (string, e.g. "1870")
+#   end:         End year (string, e.g. "1910"; use "2025" for ongoing)
+#   labels:      Translations — must always include "en" and "sv"
+#                Add Nordic languages as needed (da, nb, fi, is)
+#   description: English description of the movement (in double quotes)
+#
+# Optional fields:
+#
+#   broader:        ID of the parent/broader movement (omit if none)
+#   aat_uri:        URI linking to Getty Art & Architecture Thesaurus
+#   timeline_start: Start year of the movement (integer). Negative = BCE, positive = CE.
+#   timeline_end:   End year of the movement (integer). Negative = BCE, positive = CE.
+#                   Use null or omit for ongoing movements.
+#
+# Language codes follow ISO 639:
+#   en = English, sv = Swedish, da = Danish, nb = Norwegian Bokmål,
+#   fi = Finnish, is = Icelandic, nn = Norwegian Nynorsk
+#
+# Example entry:
+#
+#   - id: skagen-painters
+#     broader: nordic-realism
+#     start: "1870"
+#     end: "1910"
+#     aat_uri: "http://vocab.getty.edu/aat/300379344"
+#     labels:
+#       en: Skagen Painters
+#       sv: Skagenmålarna
+#       da: Skagensmalerne
+#       nb: Skagenmalerne
+#       fi: Skagenin maalarit
+#     description: "Danish-Scandinavian artists' colony at Skagen."
+#
+# Example without optional fields:
+#
+#   - id: nordic-functionalism
+#     start: "1927"
+#     end: "1950"
+#     labels:
+#       en: Nordic Functionalism (Funkis)
+#       sv: Nordisk funktionalism (funkis)
+#     description: "Functionalist architecture and design in the Nordic countries."
+#
+# Temporal/thematic groups in movements.yaml:
+#   - Pre-modern Nordic (~10): Renaissance through Neoclassicism
+#   - Golden Ages (~10): Danish Golden Age, Romantic Nationalism
+#   - Late 19th Century (~20): Skagen, Naturalism, National Romanticism
+#   - Fin-de-siècle / Early Modern (~15): Jugend, Symbolism, Nordic Classicism
+#   - Modernism (~15): Functionalism, CoBrA, Concrete Art
+#   - Post-war / Design (~15): Scandinavian Design, Danish Modern, Finnish Design
+#   - Contemporary (~10): Nordic Noir, New Nordic, Sustainable Design
+#
+# To regenerate the output files after editing:
+#   python3 scripts/generate-nordic-art-movements.py

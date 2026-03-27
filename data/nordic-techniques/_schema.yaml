@@ -1,0 +1,53 @@
+# Nordic Techniques Vocabulary Data Format
+# ==========================================
+#
+# The techniques.yaml file contains a list of technique entries used
+# in Nordic museum cataloguing, structured as a SKOS-style hierarchy.
+#
+# Required fields for every entry:
+#
+#   id:          Unique identifier (lowercase, use hyphens for spaces)
+#   labels:      Translations — must always include "en" and "sv"
+#                Add Nordic languages as needed: da, nb, fi, is, se
+#   description: English description of the technique (in double quotes)
+#
+# Optional fields:
+#
+#   broader:        ID of the parent technique (omit this line entirely if none)
+#   aat_uri:        Getty Art & Architecture Thesaurus URI for the technique
+#                   Format: "http://vocab.getty.edu/aat/NNNNNNN"
+#   timeline_start: Approximate start year (integer). Negative = BCE, positive = CE.
+#                   Example: -500 for 500 BCE, 800 for 800 CE.
+#   timeline_end:   Approximate end year (integer). Negative = BCE, positive = CE.
+#                   Use null or omit for techniques still in use today.
+#
+# Language codes follow ISO 639:
+#   en = English, sv = Swedish, da = Danish, nb = Norwegian Bokmal,
+#   fi = Finnish, is = Icelandic, se = Northern Sami
+#
+# Example entry (top-level category):
+#
+#   - id: metalworking
+#     labels:
+#       en: Metalworking
+#       sv: Metallarbete
+#       da: Metalarbejde
+#       nb: Metallarbeid
+#       fi: Metallintyosto
+#     description: "Techniques for shaping and decorating metal objects."
+#
+# Example entry (child technique with AAT URI):
+#
+#   - id: pattern-welding
+#     broader: forging
+#     aat_uri: "http://vocab.getty.edu/aat/300053798"
+#     labels:
+#       en: Pattern welding
+#       sv: Monstersvetsning
+#       da: Monstersvejsning
+#       nb: Monstersveising
+#       fi: Kuviohitsaus
+#     description: "Viking Age sword-making technique combining iron and steel rods."
+#
+# To regenerate the output files after editing:
+#   python3 scripts/generate-nordic-techniques.py

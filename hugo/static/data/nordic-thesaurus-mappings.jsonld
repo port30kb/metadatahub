@@ -1,0 +1,3447 @@
+{
+  "@context": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "void": "http://rdfs.org/ns/void#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "mhub": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/"
+  },
+  "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings",
+  "@type": [
+    "void:Linkset",
+    "skos:ConceptScheme"
+  ],
+  "dcterms:title": "Nordic Thesaurus Mappings",
+  "dcterms:description": "99 SKOS mapping assertions between Nordic museum classification systems (K-samsök, DigitaltMuseum, Finna, Danish museums) and Getty AAT.",
+  "dcterms:license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "@graph": [
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-malning-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Painting (K-samsök → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Målning (K-samsök → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Painting (K-samsök → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for easel paintings and painted works.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300033618"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Målning",
+      "target_system": "aat",
+      "target_label": "paintings",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Målning"
+      },
+      "mhub:timelineStart": -3000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-skulptur-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Sculpture (K-samsök → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Skulptur (K-samsök → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Sculpture (K-samsök → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for three-dimensional sculptural works.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300047090"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Skulptur",
+      "target_system": "aat",
+      "target_label": "sculpture",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Skulptur"
+      },
+      "mhub:timelineStart": -8000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-teckning-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Drawing (K-samsök → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Teckning (K-samsök → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Drawing (K-samsök → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for drawn works on paper or other supports.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300033973"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Teckning",
+      "target_system": "aat",
+      "target_label": "drawings",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Teckning"
+      },
+      "mhub:timelineStart": -30000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-grafik-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Print/Graphic (K-samsök → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Grafik (K-samsök → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Print/Graphic (K-samsök → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for printed graphic works.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300041273"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Grafik",
+      "target_system": "aat",
+      "target_label": "prints",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Grafik"
+      },
+      "mhub:timelineStart": 1400
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-fotografi-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Photograph (K-samsök → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Fotografi (K-samsök → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Photograph (K-samsök → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for photographic works.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300046300"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Fotografi",
+      "target_system": "aat",
+      "target_label": "photographs",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Fotografi"
+      },
+      "mhub:timelineStart": 1839
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-mynt-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Coin (K-samsök → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Mynt (K-samsök → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Coin (K-samsök → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for numismatic objects.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300037222"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Mynt",
+      "target_system": "aat",
+      "target_label": "coins",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Mynt"
+      },
+      "mhub:timelineStart": -600
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-textil-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Textile (K-samsök → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Textil (K-samsök → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Textile (K-samsök → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for textile objects.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300014063"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Textil",
+      "target_system": "aat",
+      "target_label": "textiles",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Textil"
+      },
+      "mhub:timelineStart": -6000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-keramik-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Ceramic (K-samsök → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Keramik (K-samsök → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Ceramic (K-samsök → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for ceramic objects.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300151343"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Keramik",
+      "target_system": "aat",
+      "target_label": "ceramics",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Keramik"
+      },
+      "mhub:timelineStart": -5000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-smycke-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Jewelry (K-samsök → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Smycke (K-samsök → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Jewelry (K-samsök → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for jewelry and personal adornment objects.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300209286"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Smycke",
+      "target_system": "aat",
+      "target_label": "jewelry",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Smycke"
+      },
+      "mhub:timelineStart": -3000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-vapen-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Weapon (K-samsök → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Vapen (K-samsök → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Weapon (K-samsök → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for weapons and arms.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300036926"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Vapen",
+      "target_system": "aat",
+      "target_label": "weapons",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Vapen"
+      },
+      "mhub:timelineStart": -8000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-mobel-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Furniture (K-samsök → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Möbel (K-samsök → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Furniture (K-samsök → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for furniture objects.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300037680"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Möbel",
+      "target_system": "aat",
+      "target_label": "furniture",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Möbel"
+      },
+      "mhub:timelineStart": -3000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-musikinstrument-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Musical instrument (K-samsök → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Musikinstrument (K-samsök → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Musical instrument (K-samsök → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for musical instruments.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300041620"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Musikinstrument",
+      "target_system": "aat",
+      "target_label": "musical instruments",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Musikinstrument"
+      },
+      "mhub:timelineStart": -5000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-glas-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Glass (K-samsök → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Glas (K-samsök → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Glass (K-samsök → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Close match; K-samsök 'Glas' covers glass objects broadly, AAT 300010898 is 'glass (material)'.",
+        "@language": "en"
+      },
+      "skos:closeMatch": {
+        "@id": "http://vocab.getty.edu/aat/300010898"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Glas",
+      "target_system": "aat",
+      "target_label": "glass",
+      "match_type": "closeMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Glas"
+      },
+      "mhub:timelineStart": -1500
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-silver-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Silver (K-samsök → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Silver (K-samsök → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Silver (K-samsök → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Close match; K-samsök classifies by material, AAT 300011029 is silver as material. K-samsök 'Silver' implies silverware objects.",
+        "@language": "en"
+      },
+      "skos:closeMatch": {
+        "@id": "http://vocab.getty.edu/aat/300011029"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Silver",
+      "target_system": "aat",
+      "target_label": "silver",
+      "match_type": "closeMatch",
+      "confidence": "medium",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Silver"
+      },
+      "skos:note": {
+        "@value": "K-samsök uses material as object type; AAT separates material from object type.",
+        "@language": "en"
+      },
+      "mhub:timelineStart": -3000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-runsten-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Runestone (K-samsök → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Runsten (K-samsök → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Runestone (K-samsök → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for inscribed rune stones.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300006958"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Runsten",
+      "target_system": "aat",
+      "target_label": "runestones",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Runsten"
+      },
+      "mhub:timelineStart": 150,
+      "mhub:timelineEnd": 1100
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-gravfynd-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Grave find (K-samsök → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Gravfynd (K-samsök → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Grave find (K-samsök → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for objects recovered from burial contexts.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300185711"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Gravfynd",
+      "target_system": "aat",
+      "target_label": "grave goods",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Gravfynd"
+      },
+      "mhub:timelineStart": -8000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-verktyg-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Tool (K-samsök → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Verktyg (K-samsök → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Tool (K-samsök → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for hand tools and implements.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300024841"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Verktyg",
+      "target_system": "aat",
+      "target_label": "tools",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Verktyg"
+      },
+      "mhub:timelineStart": -10000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-manuskript-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Manuscript (K-samsök → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Manuskript (K-samsök → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Manuscript (K-samsök → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for handwritten documents and codices.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300028569"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Manuskript",
+      "target_system": "aat",
+      "target_label": "manuscripts",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Manuskript"
+      },
+      "mhub:timelineStart": 500
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-karta-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Map (K-samsök → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Karta (K-samsök → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Map (K-samsök → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for cartographic objects.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300028094"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Karta",
+      "target_system": "aat",
+      "target_label": "maps",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Karta"
+      },
+      "mhub:timelineStart": 1500
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-medalj-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Medal (K-samsök → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Medalj (K-samsök → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Medal (K-samsök → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for commemorative and award medals.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300046025"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Medalj",
+      "target_system": "aat",
+      "target_label": "medals",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Medalj"
+      },
+      "mhub:timelineStart": 1400
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-draktillbehor-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Costume accessory (K-samsök → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Dräkttillbehör (K-samsök → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Costume accessory (K-samsök → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for clothing accessories and costume components.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300209273"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Dräkttillbehör",
+      "target_system": "aat",
+      "target_label": "costume accessories",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Dräkttillbehör"
+      },
+      "mhub:timelineStart": -2000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-kyrkokonst-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Church art (K-samsök → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Kyrkokonst (K-samsök → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Church art (K-samsök → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Close match; K-samsök 'Kyrkokonst' specifically refers to Christian church art, while AAT 'religious art' is broader.",
+        "@language": "en"
+      },
+      "skos:closeMatch": {
+        "@id": "http://vocab.getty.edu/aat/300073708"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Kyrkokonst",
+      "target_system": "aat",
+      "target_label": "religious art",
+      "match_type": "closeMatch",
+      "confidence": "medium",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Kyrkokonst"
+      },
+      "mhub:timelineStart": 1000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-arkeologisktfynd-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Archaeological find (K-samsök → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Arkeologiskt fynd (K-samsök → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Archaeological find (K-samsök → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for objects recovered through archaeological excavation.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300117127"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Arkeologiskt fynd",
+      "target_system": "aat",
+      "target_label": "archaeological objects",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/ArkeologisktFynd"
+      },
+      "mhub:timelineStart": -10000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-sigill-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Seal (K-samsök → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Sigill (K-samsök → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Seal (K-samsök → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for seal stamps and seal impressions.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300028877"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Sigill",
+      "target_system": "aat",
+      "target_label": "seals",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Sigill"
+      },
+      "mhub:timelineStart": -3500
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-maleri-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Painting (DigitaltMuseum → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Måleri (DigitaltMuseum → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Painting (DigitaltMuseum → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for painted works.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300033618"
+      },
+      "source_system": "digitaltmuseum",
+      "source_label": "Maleri",
+      "target_system": "aat",
+      "target_label": "paintings",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://digitaltmuseum.org/type/Maleri"
+      },
+      "mhub:timelineStart": -3000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-skulptur-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Sculpture (DigitaltMuseum → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Skulptur (DigitaltMuseum → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Sculpture (DigitaltMuseum → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for sculptural works.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300047090"
+      },
+      "source_system": "digitaltmuseum",
+      "source_label": "Skulptur",
+      "target_system": "aat",
+      "target_label": "sculpture",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://digitaltmuseum.org/type/Skulptur"
+      },
+      "mhub:timelineStart": -8000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-tegning-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Drawing (DigitaltMuseum → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Teckning (DigitaltMuseum → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Drawing (DigitaltMuseum → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for drawn works.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300033973"
+      },
+      "source_system": "digitaltmuseum",
+      "source_label": "Tegning",
+      "target_system": "aat",
+      "target_label": "drawings",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://digitaltmuseum.org/type/Tegning"
+      },
+      "mhub:timelineStart": -30000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-grafikk-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Print/Graphic (DigitaltMuseum → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Grafik (DigitaltMuseum → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Print/Graphic (DigitaltMuseum → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for printed graphic works.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300041273"
+      },
+      "source_system": "digitaltmuseum",
+      "source_label": "Grafikk",
+      "target_system": "aat",
+      "target_label": "prints",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://digitaltmuseum.org/type/Grafikk"
+      },
+      "mhub:timelineStart": 1400
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-fotografi-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Photograph (DigitaltMuseum → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Fotografi (DigitaltMuseum → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Photograph (DigitaltMuseum → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for photographic works.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300046300"
+      },
+      "source_system": "digitaltmuseum",
+      "source_label": "Fotografi",
+      "target_system": "aat",
+      "target_label": "photographs",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://digitaltmuseum.org/type/Fotografi"
+      },
+      "mhub:timelineStart": 1839
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-tekstil-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Textile (DigitaltMuseum → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Textil (DigitaltMuseum → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Textile (DigitaltMuseum → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for textile objects.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300014063"
+      },
+      "source_system": "digitaltmuseum",
+      "source_label": "Tekstil",
+      "target_system": "aat",
+      "target_label": "textiles",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://digitaltmuseum.org/type/Tekstil"
+      },
+      "mhub:timelineStart": -6000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-keramikk-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Ceramic (DigitaltMuseum → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Keramik (DigitaltMuseum → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Ceramic (DigitaltMuseum → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for ceramic objects.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300151343"
+      },
+      "source_system": "digitaltmuseum",
+      "source_label": "Keramikk",
+      "target_system": "aat",
+      "target_label": "ceramics",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://digitaltmuseum.org/type/Keramikk"
+      },
+      "mhub:timelineStart": -5000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-mynt-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Coin (DigitaltMuseum → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Mynt (DigitaltMuseum → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Coin (DigitaltMuseum → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for numismatic objects.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300037222"
+      },
+      "source_system": "digitaltmuseum",
+      "source_label": "Mynt",
+      "target_system": "aat",
+      "target_label": "coins",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://digitaltmuseum.org/type/Mynt"
+      },
+      "mhub:timelineStart": -600
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-smykke-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Jewelry (DigitaltMuseum → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Smycke (DigitaltMuseum → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Jewelry (DigitaltMuseum → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for jewelry objects.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300209286"
+      },
+      "source_system": "digitaltmuseum",
+      "source_label": "Smykke",
+      "target_system": "aat",
+      "target_label": "jewelry",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://digitaltmuseum.org/type/Smykke"
+      },
+      "mhub:timelineStart": -3000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-vapen-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Weapon (DigitaltMuseum → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Vapen (DigitaltMuseum → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Weapon (DigitaltMuseum → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for weapons and arms.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300036926"
+      },
+      "source_system": "digitaltmuseum",
+      "source_label": "Våpen",
+      "target_system": "aat",
+      "target_label": "weapons",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://digitaltmuseum.org/type/Våpen"
+      },
+      "mhub:timelineStart": -8000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-mobel-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Furniture (DigitaltMuseum → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Möbel (DigitaltMuseum → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Furniture (DigitaltMuseum → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for furniture objects.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300037680"
+      },
+      "source_system": "digitaltmuseum",
+      "source_label": "Møbel",
+      "target_system": "aat",
+      "target_label": "furniture",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://digitaltmuseum.org/type/Møbel"
+      },
+      "mhub:timelineStart": -3000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-drakt-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Costume (DigitaltMuseum → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Dräkt (DigitaltMuseum → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Costume (DigitaltMuseum → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for costume and clothing.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300209261"
+      },
+      "source_system": "digitaltmuseum",
+      "source_label": "Drakt",
+      "target_system": "aat",
+      "target_label": "costume",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://digitaltmuseum.org/type/Drakt"
+      },
+      "mhub:timelineStart": -5000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-musikkinstrument-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Musical instrument (DigitaltMuseum → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Musikinstrument (DigitaltMuseum → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Musical instrument (DigitaltMuseum → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for musical instruments.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300041620"
+      },
+      "source_system": "digitaltmuseum",
+      "source_label": "Musikkinstrument",
+      "target_system": "aat",
+      "target_label": "musical instruments",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://digitaltmuseum.org/type/Musikkinstrument"
+      },
+      "mhub:timelineStart": -5000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-glass-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Glass (DigitaltMuseum → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Glas (DigitaltMuseum → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Glass (DigitaltMuseum → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Close match; DigitaltMuseum 'Glass' covers glass objects, AAT is the material.",
+        "@language": "en"
+      },
+      "skos:closeMatch": {
+        "@id": "http://vocab.getty.edu/aat/300010898"
+      },
+      "source_system": "digitaltmuseum",
+      "source_label": "Glass",
+      "target_system": "aat",
+      "target_label": "glass",
+      "match_type": "closeMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://digitaltmuseum.org/type/Glass"
+      },
+      "mhub:timelineStart": -1500
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-kart-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Map (DigitaltMuseum → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Karta (DigitaltMuseum → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Map (DigitaltMuseum → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for cartographic objects.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300028094"
+      },
+      "source_system": "digitaltmuseum",
+      "source_label": "Kart",
+      "target_system": "aat",
+      "target_label": "maps",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://digitaltmuseum.org/type/Kart"
+      },
+      "mhub:timelineStart": 1500
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-redskap-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Tool (DigitaltMuseum → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Redskap (DigitaltMuseum → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Tool (DigitaltMuseum → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for hand tools and implements.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300024841"
+      },
+      "source_system": "digitaltmuseum",
+      "source_label": "Redskap",
+      "target_system": "aat",
+      "target_label": "tools",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://digitaltmuseum.org/type/Redskap"
+      },
+      "mhub:timelineStart": -10000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-religiost-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Religious object (DigitaltMuseum → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Religiöst föremål (DigitaltMuseum → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Religious object (DigitaltMuseum → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Close match; DigitaltMuseum 'Religiøst' is broader, covering all religious objects, not just art.",
+        "@language": "en"
+      },
+      "skos:closeMatch": {
+        "@id": "http://vocab.getty.edu/aat/300073708"
+      },
+      "source_system": "digitaltmuseum",
+      "source_label": "Religiøst",
+      "target_system": "aat",
+      "target_label": "religious art",
+      "match_type": "closeMatch",
+      "confidence": "medium",
+      "dcterms:source": {
+        "@id": "https://digitaltmuseum.org/type/Religiøst"
+      },
+      "mhub:timelineStart": -5000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-leketoy-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Toy (DigitaltMuseum → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Leksak (DigitaltMuseum → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Toy (DigitaltMuseum → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for children's toys and playthings.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300211037"
+      },
+      "source_system": "digitaltmuseum",
+      "source_label": "Leketøy",
+      "target_system": "aat",
+      "target_label": "toys",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://digitaltmuseum.org/type/Leketøy"
+      },
+      "mhub:timelineStart": -3000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-husgeraad-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Household goods (DigitaltMuseum → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Husgeråd (DigitaltMuseum → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Household goods (DigitaltMuseum → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for domestic and household objects.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300022751"
+      },
+      "source_system": "digitaltmuseum",
+      "source_label": "Husgeråd",
+      "target_system": "aat",
+      "target_label": "household goods",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://digitaltmuseum.org/type/Husgeråd"
+      },
+      "mhub:timelineStart": -5000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/finna-maalaus-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Painting (Finna/YSO → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Målning (Finna/YSO → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Painting (Finna/YSO → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for painted artworks.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300033618"
+      },
+      "source_system": "finna",
+      "source_label": "maalaus",
+      "target_system": "aat",
+      "target_label": "paintings",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://finto.fi/yso/fi/p4932"
+      },
+      "mhub:timelineStart": -3000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/finna-veistos-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Sculpture (Finna/YSO → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Skulptur (Finna/YSO → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Sculpture (Finna/YSO → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for sculptural works.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300047090"
+      },
+      "source_system": "finna",
+      "source_label": "veistos",
+      "target_system": "aat",
+      "target_label": "sculpture",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://finto.fi/yso/fi/p10541"
+      },
+      "mhub:timelineStart": -8000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/finna-piirustus-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Drawing (Finna/YSO → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Teckning (Finna/YSO → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Drawing (Finna/YSO → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for drawn works.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300033973"
+      },
+      "source_system": "finna",
+      "source_label": "piirustus",
+      "target_system": "aat",
+      "target_label": "drawings",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://finto.fi/yso/fi/p6774"
+      },
+      "mhub:timelineStart": -30000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/finna-grafiikka-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Graphic art (Finna/YSO → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Grafik (Finna/YSO → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Graphic art (Finna/YSO → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for graphic art and prints.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300041273"
+      },
+      "source_system": "finna",
+      "source_label": "grafiikka",
+      "target_system": "aat",
+      "target_label": "prints",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://finto.fi/yso/fi/p15621"
+      },
+      "mhub:timelineStart": 1400
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/finna-valokuva-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Photograph (Finna/YSO → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Fotografi (Finna/YSO → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Photograph (Finna/YSO → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for photographic works.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300046300"
+      },
+      "source_system": "finna",
+      "source_label": "valokuva",
+      "target_system": "aat",
+      "target_label": "photographs",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://finto.fi/yso/fi/p4890"
+      },
+      "mhub:timelineStart": 1839
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/finna-keramiikka-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Ceramics (Finna/YSO → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Keramik (Finna/YSO → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Ceramics (Finna/YSO → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for ceramic objects.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300151343"
+      },
+      "source_system": "finna",
+      "source_label": "keramiikka",
+      "target_system": "aat",
+      "target_label": "ceramics",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://finto.fi/yso/fi/p9227"
+      },
+      "mhub:timelineStart": -5000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/finna-tekstiili-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Textile (Finna/YSO → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Textil (Finna/YSO → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Textile (Finna/YSO → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for textile objects.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300014063"
+      },
+      "source_system": "finna",
+      "source_label": "tekstiili",
+      "target_system": "aat",
+      "target_label": "textiles",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://finto.fi/yso/fi/p7862"
+      },
+      "mhub:timelineStart": -6000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/finna-kolikko-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Coin (Finna/YSO → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Mynt (Finna/YSO → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Coin (Finna/YSO → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for numismatic objects.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300037222"
+      },
+      "source_system": "finna",
+      "source_label": "kolikko",
+      "target_system": "aat",
+      "target_label": "coins",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://finto.fi/yso/fi/p19622"
+      },
+      "mhub:timelineStart": -600
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/finna-koru-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Jewelry (Finna/YSO → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Smycke (Finna/YSO → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Jewelry (Finna/YSO → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for jewelry and personal ornaments.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300209286"
+      },
+      "source_system": "finna",
+      "source_label": "koru",
+      "target_system": "aat",
+      "target_label": "jewelry",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://finto.fi/yso/fi/p7028"
+      },
+      "mhub:timelineStart": -3000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/finna-ase-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Weapon (Finna/YSO → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Vapen (Finna/YSO → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Weapon (Finna/YSO → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for weapons.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300036926"
+      },
+      "source_system": "finna",
+      "source_label": "ase",
+      "target_system": "aat",
+      "target_label": "weapons",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://finto.fi/yso/fi/p1396"
+      },
+      "mhub:timelineStart": -8000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/finna-huonekalu-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Furniture (Finna/YSO → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Möbel (Finna/YSO → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Furniture (Finna/YSO → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for furniture objects.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300037680"
+      },
+      "source_system": "finna",
+      "source_label": "huonekalu",
+      "target_system": "aat",
+      "target_label": "furniture",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://finto.fi/yso/fi/p2787"
+      },
+      "mhub:timelineStart": -3000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/finna-lasi-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Glass (Finna/YSO → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Glas (Finna/YSO → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Glass (Finna/YSO → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Close match; Finna 'lasi' covers glass objects and glass as material.",
+        "@language": "en"
+      },
+      "skos:closeMatch": {
+        "@id": "http://vocab.getty.edu/aat/300010898"
+      },
+      "source_system": "finna",
+      "source_label": "lasi",
+      "target_system": "aat",
+      "target_label": "glass",
+      "match_type": "closeMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://finto.fi/yso/fi/p9229"
+      },
+      "mhub:timelineStart": -1500
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/finna-soitin-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Musical instrument (Finna/YSO → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Musikinstrument (Finna/YSO → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Musical instrument (Finna/YSO → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for musical instruments.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300041620"
+      },
+      "source_system": "finna",
+      "source_label": "soitin",
+      "target_system": "aat",
+      "target_label": "musical instruments",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://finto.fi/yso/fi/p1888"
+      },
+      "mhub:timelineStart": -5000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/finna-kartta-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Map (Finna/YSO → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Karta (Finna/YSO → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Map (Finna/YSO → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for cartographic objects.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300028094"
+      },
+      "source_system": "finna",
+      "source_label": "kartta",
+      "target_system": "aat",
+      "target_label": "maps",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://finto.fi/yso/fi/p3428"
+      },
+      "mhub:timelineStart": 1500
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/finna-tyokalu-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Tool (Finna/YSO → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Verktyg (Finna/YSO → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Tool (Finna/YSO → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for hand tools and implements.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300024841"
+      },
+      "source_system": "finna",
+      "source_label": "työkalu",
+      "target_system": "aat",
+      "target_label": "tools",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://finto.fi/yso/fi/p6045"
+      },
+      "mhub:timelineStart": -10000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/finna-ikoni-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Icon (Finna/YSO → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Ikon (Finna/YSO → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Icon (Finna/YSO → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for religious icon paintings. Finnish museums have notable Orthodox icon collections.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300263063"
+      },
+      "source_system": "finna",
+      "source_label": "ikoni",
+      "target_system": "aat",
+      "target_label": "icons",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://finto.fi/yso/fi/p6629"
+      },
+      "mhub:timelineStart": 500
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/finna-muinaisesine-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Ancient artifact (Finna/YSO → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Fornfynd (Finna/YSO → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Ancient artifact (Finna/YSO → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for archaeological artifacts and ancient objects.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300117127"
+      },
+      "source_system": "finna",
+      "source_label": "muinaisesine",
+      "target_system": "aat",
+      "target_label": "archaeological objects",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://finto.fi/yso/fi/p10765"
+      },
+      "mhub:timelineStart": -10000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/finna-puku-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Costume (Finna/YSO → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Dräkt (Finna/YSO → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Costume (Finna/YSO → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for costume and clothing.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300209261"
+      },
+      "source_system": "finna",
+      "source_label": "puku",
+      "target_system": "aat",
+      "target_label": "costume",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://finto.fi/yso/fi/p3466"
+      },
+      "mhub:timelineStart": -5000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dk-maleri-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Painting (Danish museums → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Målning (Danska museer → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Painting (Danish museums → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for painted works.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300033618"
+      },
+      "source_system": "dkmuseum",
+      "source_label": "Maleri",
+      "target_system": "aat",
+      "target_label": "paintings",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "mhub:timelineStart": -3000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dk-skulptur-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Sculpture (Danish museums → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Skulptur (Danska museer → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Sculpture (Danish museums → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for sculptural works.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300047090"
+      },
+      "source_system": "dkmuseum",
+      "source_label": "Skulptur",
+      "target_system": "aat",
+      "target_label": "sculpture",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "mhub:timelineStart": -8000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dk-tegning-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Drawing (Danish museums → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Teckning (Danska museer → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Drawing (Danish museums → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for drawn works.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300033973"
+      },
+      "source_system": "dkmuseum",
+      "source_label": "Tegning",
+      "target_system": "aat",
+      "target_label": "drawings",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "mhub:timelineStart": -30000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dk-grafik-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Print (Danish museums → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Grafik (Danska museer → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Print (Danish museums → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for printed graphic works.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300041273"
+      },
+      "source_system": "dkmuseum",
+      "source_label": "Grafik",
+      "target_system": "aat",
+      "target_label": "prints",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "mhub:timelineStart": 1400
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dk-fotografi-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Photograph (Danish museums → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Fotografi (Danska museer → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Photograph (Danish museums → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for photographic works.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300046300"
+      },
+      "source_system": "dkmuseum",
+      "source_label": "Fotografi",
+      "target_system": "aat",
+      "target_label": "photographs",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "mhub:timelineStart": 1839
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dk-keramik-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Ceramic (Danish museums → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Keramik (Danska museer → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Ceramic (Danish museums → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for ceramic objects. Danish museums hold significant Royal Copenhagen collections.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300151343"
+      },
+      "source_system": "dkmuseum",
+      "source_label": "Keramik",
+      "target_system": "aat",
+      "target_label": "ceramics",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "mhub:timelineStart": -5000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dk-tekstil-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Textile (Danish museums → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Textil (Danska museer → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Textile (Danish museums → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for textile objects.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300014063"
+      },
+      "source_system": "dkmuseum",
+      "source_label": "Tekstil",
+      "target_system": "aat",
+      "target_label": "textiles",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "mhub:timelineStart": -6000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dk-mont-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Coin (Danish museums → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Mynt (Danska museer → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Coin (Danish museums → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for numismatic objects.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300037222"
+      },
+      "source_system": "dkmuseum",
+      "source_label": "Mønt",
+      "target_system": "aat",
+      "target_label": "coins",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "mhub:timelineStart": -600
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dk-smykke-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Jewelry (Danish museums → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Smycke (Danska museer → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Jewelry (Danish museums → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for jewelry and personal ornaments.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300209286"
+      },
+      "source_system": "dkmuseum",
+      "source_label": "Smykke",
+      "target_system": "aat",
+      "target_label": "jewelry",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "mhub:timelineStart": -3000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dk-vaaben-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Weapon (Danish museums → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Vapen (Danska museer → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Weapon (Danish museums → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for weapons and arms.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300036926"
+      },
+      "source_system": "dkmuseum",
+      "source_label": "Våben",
+      "target_system": "aat",
+      "target_label": "weapons",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "mhub:timelineStart": -8000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dk-mobel-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Furniture (Danish museums → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Möbel (Danska museer → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Furniture (Danish museums → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for furniture objects. Danish Modern furniture is a key collection area.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300037680"
+      },
+      "source_system": "dkmuseum",
+      "source_label": "Møbel",
+      "target_system": "aat",
+      "target_label": "furniture",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "mhub:timelineStart": -3000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dk-solv-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Silver (Danish museums → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Silver (Danska museer → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Silver (Danish museums → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Close match; Danish 'Sølv' often denotes silverware objects classified by material.",
+        "@language": "en"
+      },
+      "skos:closeMatch": {
+        "@id": "http://vocab.getty.edu/aat/300011029"
+      },
+      "source_system": "dkmuseum",
+      "source_label": "Sølv",
+      "target_system": "aat",
+      "target_label": "silver",
+      "match_type": "closeMatch",
+      "confidence": "medium",
+      "skos:note": {
+        "@value": "Similar to K-samsök pattern of classifying by material.",
+        "@language": "en"
+      },
+      "mhub:timelineStart": -3000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dk-glas-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Glass (Danish museums → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Glas (Danska museer → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Glass (Danish museums → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Close match; covers glass objects broadly.",
+        "@language": "en"
+      },
+      "skos:closeMatch": {
+        "@id": "http://vocab.getty.edu/aat/300010898"
+      },
+      "source_system": "dkmuseum",
+      "source_label": "Glas",
+      "target_system": "aat",
+      "target_label": "glass",
+      "match_type": "closeMatch",
+      "confidence": "high",
+      "mhub:timelineStart": -1500
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dk-runesten-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Runestone (Danish museums → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Runsten (Danska museer → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Runestone (Danish museums → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for inscribed rune stones. Denmark has iconic runestones including the Jelling stones.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300006958"
+      },
+      "source_system": "dkmuseum",
+      "source_label": "Runesten",
+      "target_system": "aat",
+      "target_label": "runestones",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "mhub:timelineStart": 150,
+      "mhub:timelineEnd": 1100
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dk-vikingefund-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Viking find (Danish museums → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Vikingafynd (Danska museer → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Viking find (Danish museums → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Broad match; Danish 'Vikingefund' is narrower (Viking Age archaeological finds only), while AAT 'archaeological objects' is broader.",
+        "@language": "en"
+      },
+      "skos:broadMatch": {
+        "@id": "http://vocab.getty.edu/aat/300117127"
+      },
+      "source_system": "dkmuseum",
+      "source_label": "Vikingefund",
+      "target_system": "aat",
+      "target_label": "archaeological objects",
+      "match_type": "broadMatch",
+      "confidence": "medium",
+      "skos:note": {
+        "@value": "No direct AAT equivalent for period-specific archaeological finds.",
+        "@language": "en"
+      },
+      "mhub:timelineStart": 793,
+      "mhub:timelineEnd": 1066
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dk-designgenstand-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Design object (Danish museums → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Designföremål (Danska museer → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Design object (Danish museums → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for designed objects, industrial design, and applied art.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300404974"
+      },
+      "source_system": "dkmuseum",
+      "source_label": "Designgenstand",
+      "target_system": "aat",
+      "target_label": "design objects",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "mhub:timelineStart": 1850
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dk-plakat-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Poster (Danish museums → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Affisch (Danska museer → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Poster (Danish museums → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for posters and broadsides.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300027221"
+      },
+      "source_system": "dkmuseum",
+      "source_label": "Plakat",
+      "target_system": "aat",
+      "target_label": "posters",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "mhub:timelineStart": 1450
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dk-legetoj-aat",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Toy (Danish museums → AAT)",
+          "@language": "en"
+        },
+        {
+          "@value": "Leksak (Danska museer → AAT)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Toy (Danish museums → AAT)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence for toys and playthings.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "http://vocab.getty.edu/aat/300211037"
+      },
+      "source_system": "dkmuseum",
+      "source_label": "Legetøj",
+      "target_system": "aat",
+      "target_label": "toys",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "mhub:timelineStart": -3000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-dm-malning",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Painting (K-samsök → DigitaltMuseum)",
+          "@language": "en"
+        },
+        {
+          "@value": "Målning (K-samsök → DigitaltMuseum)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Painting (K-samsök → DigitaltMuseum)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence between Swedish K-samsök and Norwegian/Swedish DigitaltMuseum painting types.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "https://digitaltmuseum.org/type/Maleri"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Målning",
+      "target_system": "digitaltmuseum",
+      "target_label": "Maleri",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Målning"
+      },
+      "mhub:timelineStart": -3000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-dm-skulptur",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Sculpture (K-samsök → DigitaltMuseum)",
+          "@language": "en"
+        },
+        {
+          "@value": "Skulptur (K-samsök → DigitaltMuseum)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Sculpture (K-samsök → DigitaltMuseum)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence; identical term in both systems.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "https://digitaltmuseum.org/type/Skulptur"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Skulptur",
+      "target_system": "digitaltmuseum",
+      "target_label": "Skulptur",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Skulptur"
+      },
+      "mhub:timelineStart": -8000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-dm-teckning",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Drawing (K-samsök → DigitaltMuseum)",
+          "@language": "en"
+        },
+        {
+          "@value": "Teckning (K-samsök → DigitaltMuseum)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Drawing (K-samsök → DigitaltMuseum)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence; Swedish 'Teckning' = Norwegian 'Tegning'.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "https://digitaltmuseum.org/type/Tegning"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Teckning",
+      "target_system": "digitaltmuseum",
+      "target_label": "Tegning",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Teckning"
+      },
+      "mhub:timelineStart": -30000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-dm-fotografi",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Photograph (K-samsök → DigitaltMuseum)",
+          "@language": "en"
+        },
+        {
+          "@value": "Fotografi (K-samsök → DigitaltMuseum)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Photograph (K-samsök → DigitaltMuseum)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence; identical term in both systems.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "https://digitaltmuseum.org/type/Fotografi"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Fotografi",
+      "target_system": "digitaltmuseum",
+      "target_label": "Fotografi",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Fotografi"
+      },
+      "mhub:timelineStart": 1839
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-dm-textil",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Textile (K-samsök → DigitaltMuseum)",
+          "@language": "en"
+        },
+        {
+          "@value": "Textil (K-samsök → DigitaltMuseum)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Textile (K-samsök → DigitaltMuseum)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence; Swedish 'Textil' = Norwegian 'Tekstil'.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "https://digitaltmuseum.org/type/Tekstil"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Textil",
+      "target_system": "digitaltmuseum",
+      "target_label": "Tekstil",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Textil"
+      },
+      "mhub:timelineStart": -6000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-dm-mynt",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Coin (K-samsök → DigitaltMuseum)",
+          "@language": "en"
+        },
+        {
+          "@value": "Mynt (K-samsök → DigitaltMuseum)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Coin (K-samsök → DigitaltMuseum)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence; identical term in both systems.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "https://digitaltmuseum.org/type/Mynt"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Mynt",
+      "target_system": "digitaltmuseum",
+      "target_label": "Mynt",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Mynt"
+      },
+      "mhub:timelineStart": -600
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-dm-keramik",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Ceramic (K-samsök → DigitaltMuseum)",
+          "@language": "en"
+        },
+        {
+          "@value": "Keramik (K-samsök → DigitaltMuseum)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Ceramic (K-samsök → DigitaltMuseum)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence; Swedish 'Keramik' = Norwegian 'Keramikk'.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "https://digitaltmuseum.org/type/Keramikk"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Keramik",
+      "target_system": "digitaltmuseum",
+      "target_label": "Keramikk",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Keramik"
+      },
+      "mhub:timelineStart": -5000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-dm-mobel",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Furniture (K-samsök → DigitaltMuseum)",
+          "@language": "en"
+        },
+        {
+          "@value": "Möbel (K-samsök → DigitaltMuseum)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Furniture (K-samsök → DigitaltMuseum)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence; Swedish 'Möbel' = Norwegian 'Møbel'.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "https://digitaltmuseum.org/type/Møbel"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Möbel",
+      "target_system": "digitaltmuseum",
+      "target_label": "Møbel",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Möbel"
+      },
+      "mhub:timelineStart": -3000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-dm-vapen",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Weapon (K-samsök → DigitaltMuseum)",
+          "@language": "en"
+        },
+        {
+          "@value": "Vapen (K-samsök → DigitaltMuseum)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Weapon (K-samsök → DigitaltMuseum)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence; Swedish 'Vapen' = Norwegian 'Våpen'.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "https://digitaltmuseum.org/type/Våpen"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Vapen",
+      "target_system": "digitaltmuseum",
+      "target_label": "Våpen",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Vapen"
+      },
+      "mhub:timelineStart": -8000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-dm-smycke",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Jewelry (K-samsök → DigitaltMuseum)",
+          "@language": "en"
+        },
+        {
+          "@value": "Smycke (K-samsök → DigitaltMuseum)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Jewelry (K-samsök → DigitaltMuseum)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence; Swedish 'Smycke' = Norwegian 'Smykke'.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "https://digitaltmuseum.org/type/Smykke"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Smycke",
+      "target_system": "digitaltmuseum",
+      "target_label": "Smykke",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Smycke"
+      },
+      "mhub:timelineStart": -3000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-finna-malning",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Painting (K-samsök → Finna/YSO)",
+          "@language": "en"
+        },
+        {
+          "@value": "Målning (K-samsök → Finna/YSO)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Painting (K-samsök → Finna/YSO)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence between Swedish and Finnish painting types.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "https://finto.fi/yso/fi/p4932"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Målning",
+      "target_system": "finna",
+      "target_label": "maalaus",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Målning"
+      },
+      "mhub:timelineStart": -3000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-finna-skulptur",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Sculpture (K-samsök → Finna/YSO)",
+          "@language": "en"
+        },
+        {
+          "@value": "Skulptur (K-samsök → Finna/YSO)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Sculpture (K-samsök → Finna/YSO)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence between Swedish and Finnish sculpture types.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "https://finto.fi/yso/fi/p10541"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Skulptur",
+      "target_system": "finna",
+      "target_label": "veistos",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Skulptur"
+      },
+      "mhub:timelineStart": -8000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-finna-textil",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Textile (K-samsök → Finna/YSO)",
+          "@language": "en"
+        },
+        {
+          "@value": "Textil (K-samsök → Finna/YSO)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Textile (K-samsök → Finna/YSO)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence between Swedish and Finnish textile types.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "https://finto.fi/yso/fi/p7862"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Textil",
+      "target_system": "finna",
+      "target_label": "tekstiili",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Textil"
+      },
+      "mhub:timelineStart": -6000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-finna-keramik",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Ceramic (K-samsök → Finna/YSO)",
+          "@language": "en"
+        },
+        {
+          "@value": "Keramik (K-samsök → Finna/YSO)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Ceramic (K-samsök → Finna/YSO)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence between Swedish and Finnish ceramic types.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "https://finto.fi/yso/fi/p9227"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Keramik",
+      "target_system": "finna",
+      "target_label": "keramiikka",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Keramik"
+      },
+      "mhub:timelineStart": -5000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-finna-mynt",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Coin (K-samsök → Finna/YSO)",
+          "@language": "en"
+        },
+        {
+          "@value": "Mynt (K-samsök → Finna/YSO)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Coin (K-samsök → Finna/YSO)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence between Swedish and Finnish coin types.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "https://finto.fi/yso/fi/p19622"
+      },
+      "source_system": "ksamsok",
+      "source_label": "Mynt",
+      "target_system": "finna",
+      "target_label": "kolikko",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Mynt"
+      },
+      "mhub:timelineStart": -600
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-finna-maleri",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Painting (DigitaltMuseum → Finna/YSO)",
+          "@language": "en"
+        },
+        {
+          "@value": "Måleri (DigitaltMuseum → Finna/YSO)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Painting (DigitaltMuseum → Finna/YSO)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence between Norwegian and Finnish painting types.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "https://finto.fi/yso/fi/p4932"
+      },
+      "source_system": "digitaltmuseum",
+      "source_label": "Maleri",
+      "target_system": "finna",
+      "target_label": "maalaus",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://digitaltmuseum.org/type/Maleri"
+      },
+      "mhub:timelineStart": -3000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-finna-skulptur",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Sculpture (DigitaltMuseum → Finna/YSO)",
+          "@language": "en"
+        },
+        {
+          "@value": "Skulptur (DigitaltMuseum → Finna/YSO)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Sculpture (DigitaltMuseum → Finna/YSO)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence between Norwegian and Finnish sculpture types.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "https://finto.fi/yso/fi/p10541"
+      },
+      "source_system": "digitaltmuseum",
+      "source_label": "Skulptur",
+      "target_system": "finna",
+      "target_label": "veistos",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://digitaltmuseum.org/type/Skulptur"
+      },
+      "mhub:timelineStart": -8000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-finna-tekstil",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Textile (DigitaltMuseum → Finna/YSO)",
+          "@language": "en"
+        },
+        {
+          "@value": "Textil (DigitaltMuseum → Finna/YSO)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Textile (DigitaltMuseum → Finna/YSO)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence between Norwegian and Finnish textile types.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "https://finto.fi/yso/fi/p7862"
+      },
+      "source_system": "digitaltmuseum",
+      "source_label": "Tekstil",
+      "target_system": "finna",
+      "target_label": "tekstiili",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://digitaltmuseum.org/type/Tekstil"
+      },
+      "mhub:timelineStart": -6000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-finna-keramikk",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Ceramic (DigitaltMuseum → Finna/YSO)",
+          "@language": "en"
+        },
+        {
+          "@value": "Keramik (DigitaltMuseum → Finna/YSO)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Ceramic (DigitaltMuseum → Finna/YSO)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence between Norwegian and Finnish ceramic types.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "https://finto.fi/yso/fi/p9227"
+      },
+      "source_system": "digitaltmuseum",
+      "source_label": "Keramikk",
+      "target_system": "finna",
+      "target_label": "keramiikka",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://digitaltmuseum.org/type/Keramikk"
+      },
+      "mhub:timelineStart": -5000
+    },
+    {
+      "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-finna-fotografi",
+      "@type": "skos:Concept",
+      "rdfs:label": [
+        {
+          "@value": "Photograph (DigitaltMuseum → Finna/YSO)",
+          "@language": "en"
+        },
+        {
+          "@value": "Fotografi (DigitaltMuseum → Finna/YSO)",
+          "@language": "sv"
+        }
+      ],
+      "skos:prefLabel": {
+        "@value": "Photograph (DigitaltMuseum → Finna/YSO)",
+        "@language": "en"
+      },
+      "skos:definition": {
+        "@value": "Direct equivalence between Norwegian and Finnish photograph types.",
+        "@language": "en"
+      },
+      "skos:exactMatch": {
+        "@id": "https://finto.fi/yso/fi/p4890"
+      },
+      "source_system": "digitaltmuseum",
+      "source_label": "Fotografi",
+      "target_system": "finna",
+      "target_label": "valokuva",
+      "match_type": "exactMatch",
+      "confidence": "high",
+      "dcterms:source": {
+        "@id": "https://digitaltmuseum.org/type/Fotografi"
+      },
+      "mhub:timelineStart": 1839
+    }
+  ]
+}
