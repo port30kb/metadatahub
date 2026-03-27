@@ -57,7 +57,9 @@ ni:norse-gods a skos:Concept ;
     skos:prefLabel "Nordiska gudar"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Deities of the Norse pantheon as described in the Poetic Edda and Prose Edda, worshipped across Scandinavia during the Viking Age and earlier."@en ;
-    skos:relatedMatch <http://iconclass.org/91D> .
+    skos:relatedMatch <http://iconclass.org/91D> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 2/180: Norse mythological beings ──
 ni:norse-beings a skos:Concept ;
@@ -75,7 +77,9 @@ ni:norse-beings a skos:Concept ;
     skos:prefLabel "Nordiska mytologiska väsen"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Supernatural creatures and beings from Norse mythology including giants, dwarves, elves, dragons, and other entities described in the Eddas and sagas."@en ;
-    skos:relatedMatch <http://iconclass.org/91D> .
+    skos:relatedMatch <http://iconclass.org/91D> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 3/180: Norse mythological places ──
 ni:norse-places a skos:Concept ;
@@ -93,7 +97,9 @@ ni:norse-places a skos:Concept ;
     skos:prefLabel "Nordiska mytologiska platser"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Cosmological realms and sacred locations in Norse mythology, including the Nine Worlds connected by the world tree Yggdrasil."@en ;
-    skos:relatedMatch <http://iconclass.org/91D> .
+    skos:relatedMatch <http://iconclass.org/91D> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 4/180: Norse mythological events ──
 ni:norse-events a skos:Concept ;
@@ -111,7 +117,9 @@ ni:norse-events a skos:Concept ;
     skos:prefLabel "Nordiska mytologiska händelser"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Major events and narratives from Norse mythology as recounted in the Poetic Edda, Prose Edda, and related sources."@en ;
-    skos:relatedMatch <http://iconclass.org/91D> .
+    skos:relatedMatch <http://iconclass.org/91D> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 5/180: Odin ──
 ni:odin a skos:Concept ;
@@ -133,7 +141,9 @@ ni:odin a skos:Concept ;
     skos:definition "Chief god of Norse mythology, the Allfather, associated with wisdom, war, death, poetry, and runes. Often depicted as a one-eyed wanderer with ravens Huginn and Muninn, wolves Geri and Freki, the spear Gungnir, and the eight-legged horse Sleipnir."@en ;
     skos:broader ni:norse-gods ;
     skos:closeMatch <http://vocab.getty.edu/aat/300379889> ;
-    skos:relatedMatch <http://iconclass.org/91D1> .
+    skos:relatedMatch <http://iconclass.org/91D1> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 6/180: Thor ──
 ni:thor a skos:Concept ;
@@ -155,7 +165,9 @@ ni:thor a skos:Concept ;
     skos:definition "God of thunder, lightning, storms, strength, and the protection of humanity. Son of Odin, wielder of the hammer Mjölnir, wearer of the belt Megingjörð and iron gloves Járngreipr. Most widely worshipped Norse deity."@en ;
     skos:broader ni:norse-gods ;
     skos:closeMatch <http://vocab.getty.edu/aat/300379893> ;
-    skos:relatedMatch <http://iconclass.org/91D2> .
+    skos:relatedMatch <http://iconclass.org/91D2> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 7/180: Freyja ──
 ni:freyja a skos:Concept ;
@@ -177,7 +189,9 @@ ni:freyja a skos:Concept ;
     skos:definition "Vanir goddess of love, beauty, fertility, war, and death. Owner of the necklace Brísingamen, rides a chariot drawn by cats, and receives half of the battle-slain in her hall Fólkvangr."@en ;
     skos:broader ni:norse-gods ;
     skos:closeMatch <http://vocab.getty.edu/aat/300379886> ;
-    skos:relatedMatch <http://iconclass.org/91D3> .
+    skos:relatedMatch <http://iconclass.org/91D3> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 8/180: Loki ──
 ni:loki a skos:Concept ;
@@ -199,7 +213,9 @@ ni:loki a skos:Concept ;
     skos:definition "Trickster god and shape-shifter, blood brother of Odin. Father of Hel, Fenrir, and Jörmungandr. A complex figure who aids and undermines the gods, ultimately leading the forces of chaos at Ragnarök."@en ;
     skos:broader ni:norse-gods ;
     skos:closeMatch <http://vocab.getty.edu/aat/300379888> ;
-    skos:relatedMatch <http://iconclass.org/91D4> .
+    skos:relatedMatch <http://iconclass.org/91D4> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 9/180: Frigg ──
 ni:frigg a skos:Concept ;
@@ -221,7 +237,9 @@ ni:frigg a skos:Concept ;
     skos:definition "Queen of the Æsir, wife of Odin, goddess of marriage, motherhood, and domestic arts. Associated with foresight and wisdom, she dwells in the hall Fensalir and is mother of Baldr."@en ;
     skos:broader ni:norse-gods ;
     skos:closeMatch <http://vocab.getty.edu/aat/300379885> ;
-    skos:relatedMatch <http://iconclass.org/91D5> .
+    skos:relatedMatch <http://iconclass.org/91D5> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 10/180: Tyr ──
 ni:tyr a skos:Concept ;
@@ -243,7 +261,9 @@ ni:tyr a skos:Concept ;
     skos:definition "God of war, justice, and law. Known for sacrificing his right hand to bind the wolf Fenrir with the magical fetter Gleipnir. Originally the chief sky god in Proto-Germanic religion."@en ;
     skos:broader ni:norse-gods ;
     skos:closeMatch <http://vocab.getty.edu/aat/300379894> ;
-    skos:relatedMatch <http://iconclass.org/91D6> .
+    skos:relatedMatch <http://iconclass.org/91D6> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-1500"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 11/180: Baldr ──
 ni:baldr a skos:Concept ;
@@ -265,7 +285,9 @@ ni:baldr a skos:Concept ;
     skos:definition "God of light, purity, and beauty. Son of Odin and Frigg, his death — caused by Loki's trickery with a mistletoe dart — is one of the most significant events in Norse mythology, foreshadowing Ragnarök."@en ;
     skos:broader ni:norse-gods ;
     skos:closeMatch <http://vocab.getty.edu/aat/300379880> ;
-    skos:relatedMatch <http://iconclass.org/91D7> .
+    skos:relatedMatch <http://iconclass.org/91D7> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 12/180: Heimdall ──
 ni:heimdall a skos:Concept ;
@@ -287,7 +309,9 @@ ni:heimdall a skos:Concept ;
     skos:definition "Guardian of the gods and watchman of Bifröst, the rainbow bridge to Asgard. Possesses the horn Gjallarhorn, extraordinary senses, and is said to have founded the classes of humankind according to Rígsþula."@en ;
     skos:broader ni:norse-gods ;
     skos:closeMatch <http://vocab.getty.edu/aat/300379887> ;
-    skos:relatedMatch <http://iconclass.org/91D8> .
+    skos:relatedMatch <http://iconclass.org/91D8> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 13/180: Njörðr ──
 ni:njord a skos:Concept ;
@@ -308,7 +332,9 @@ ni:njord a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Vanir god of the sea, wind, fishing, and wealth. Father of Freyr and Freyja, associated with seafaring and prosperity. Dwells in Nóatún by the sea."@en ;
     skos:broader ni:norse-gods ;
-    skos:relatedMatch <http://iconclass.org/91D9> .
+    skos:relatedMatch <http://iconclass.org/91D9> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 14/180: Freyr ──
 ni:freyr a skos:Concept ;
@@ -330,7 +356,9 @@ ni:freyr a skos:Concept ;
     skos:definition "Vanir god of fertility, prosperity, sunshine, and fair weather. Twin brother of Freyja, owner of the ship Skíðblaðnir and the golden boar Gullinbursti. Ruler of Álfheimr."@en ;
     skos:broader ni:norse-gods ;
     skos:closeMatch <http://vocab.getty.edu/aat/300379884> ;
-    skos:relatedMatch <http://iconclass.org/91D10> .
+    skos:relatedMatch <http://iconclass.org/91D10> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 15/180: Hel ──
 ni:hel a skos:Concept ;
@@ -351,7 +379,9 @@ ni:hel a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Daughter of Loki and the giantess Angrboða, ruler of the realm of the dead also called Hel (or Helheim). Often depicted as half living and half dead, she presides over those who die of illness or old age."@en ;
     skos:broader ni:norse-gods ;
-    skos:relatedMatch <http://iconclass.org/91D11> .
+    skos:relatedMatch <http://iconclass.org/91D11> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 16/180: Iðunn ──
 ni:idunn a skos:Concept ;
@@ -372,7 +402,9 @@ ni:idunn a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Goddess of youth and rejuvenation, keeper of the golden apples that grant the gods their immortality. Her abduction by the giant Þjazi is a key myth illustrating the gods' dependence on her."@en ;
     skos:broader ni:norse-gods ;
-    skos:relatedMatch <http://iconclass.org/91D12> .
+    skos:relatedMatch <http://iconclass.org/91D12> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 17/180: Valkyries ──
 ni:valkyries a skos:Concept ;
@@ -394,7 +426,9 @@ ni:valkyries a skos:Concept ;
     skos:definition "Female figures who choose those who may die in battle and those who may live. They bring the worthy slain (einherjar) to Odin's hall Valhalla. Often depicted as armed maidens riding winged horses."@en ;
     skos:broader ni:norse-beings ;
     skos:closeMatch <http://vocab.getty.edu/aat/300379895> ;
-    skos:relatedMatch <http://iconclass.org/91D131> .
+    skos:relatedMatch <http://iconclass.org/91D131> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 18/180: Norns ──
 ni:norns a skos:Concept ;
@@ -415,7 +449,9 @@ ni:norns a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Three female figures who rule destiny — Urðr (fate), Verðandi (becoming), and Skuld (debt/future). They dwell at the Well of Urðr beneath Yggdrasil, tending the world tree and carving runes of fate."@en ;
     skos:broader ni:norse-beings ;
-    skos:relatedMatch <http://iconclass.org/91D132> .
+    skos:relatedMatch <http://iconclass.org/91D132> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 19/180: Einherjar ──
 ni:einherjar a skos:Concept ;
@@ -436,7 +472,9 @@ ni:einherjar a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Warriors who have died gloriously in battle and are brought to Valhalla by the Valkyries. They feast and fight daily in preparation for the final battle of Ragnarök."@en ;
     skos:broader ni:norse-beings ;
-    skos:relatedMatch <http://iconclass.org/91D133> .
+    skos:relatedMatch <http://iconclass.org/91D133> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 20/180: Jörmungandr ──
 ni:jormungandr a skos:Concept ;
@@ -458,7 +496,9 @@ ni:jormungandr a skos:Concept ;
     skos:definition "The Midgard Serpent, a sea serpent so large it encircles the entire world (Midgard) grasping its own tail. Child of Loki and Angrboða, arch-enemy of Thor. At Ragnarök they slay each other."@en ;
     skos:broader ni:norse-beings ;
     skos:closeMatch <http://vocab.getty.edu/aat/300412118> ;
-    skos:relatedMatch <http://iconclass.org/91D134> .
+    skos:relatedMatch <http://iconclass.org/91D134> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 21/180: Fenrir ──
 ni:fenrir a skos:Concept ;
@@ -479,7 +519,9 @@ ni:fenrir a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Monstrous wolf, son of Loki and Angrboða. Bound by the gods using the magical fetter Gleipnir at the cost of Tyr's hand. At Ragnarök, Fenrir breaks free and swallows Odin."@en ;
     skos:broader ni:norse-beings ;
-    skos:relatedMatch <http://iconclass.org/91D135> .
+    skos:relatedMatch <http://iconclass.org/91D135> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 22/180: Sleipnir ──
 ni:sleipnir a skos:Concept ;
@@ -500,7 +542,9 @@ ni:sleipnir a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Odin's eight-legged horse, the best of all horses. Born from Loki (in mare form) and the stallion Svaðilfari. Depicted on the Tjängvide image stone from Gotland and other Viking Age artifacts."@en ;
     skos:broader ni:norse-beings ;
-    skos:relatedMatch <http://iconclass.org/91D136> .
+    skos:relatedMatch <http://iconclass.org/91D136> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 23/180: Huginn and Muninn ──
 ni:huginn-muninn a skos:Concept ;
@@ -521,7 +565,9 @@ ni:huginn-muninn a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Odin's two ravens whose names mean 'thought' and 'memory'. They fly over the world each day gathering information and return to whisper news into Odin's ears. Frequently depicted in Viking Age art."@en ;
     skos:broader ni:norse-beings ;
-    skos:relatedMatch <http://iconclass.org/91D137> .
+    skos:relatedMatch <http://iconclass.org/91D137> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 24/180: Ratatoskr ──
 ni:ratatoskr a skos:Concept ;
@@ -542,7 +588,9 @@ ni:ratatoskr a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "A squirrel that runs up and down the world tree Yggdrasil carrying messages between the eagle perched at the top and the serpent Níðhöggr gnawing at the roots, stirring strife between them."@en ;
     skos:broader ni:norse-beings ;
-    skos:relatedMatch <http://iconclass.org/91D138> .
+    skos:relatedMatch <http://iconclass.org/91D138> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 25/180: Dwarves (Norse) ──
 ni:dwarves a skos:Concept ;
@@ -563,7 +611,9 @@ ni:dwarves a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Master craftsmen of Norse mythology who forged many of the gods' treasures including Mjölnir, Gungnir, Gleipnir, Skíðblaðnir, and Brísingamen. Created from the flesh of the primordial giant Ymir."@en ;
     skos:broader ni:norse-beings ;
-    skos:relatedMatch <http://iconclass.org/91D139> .
+    skos:relatedMatch <http://iconclass.org/91D139> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 26/180: Elves (Norse) ──
 ni:elves a skos:Concept ;
@@ -584,7 +634,9 @@ ni:elves a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Supernatural beings in Norse mythology divided into light elves (ljósálfar) dwelling in Álfheimr and dark elves (dökkálfar). Associated with fertility, nature, and ancestral worship in Scandinavian folk belief."@en ;
     skos:broader ni:norse-beings ;
-    skos:relatedMatch <http://iconclass.org/91D140> .
+    skos:relatedMatch <http://iconclass.org/91D140> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 27/180: Giants (Jötnar) ──
 ni:giants a skos:Concept ;
@@ -605,7 +657,9 @@ ni:giants a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Primordial beings in Norse cosmology, often in conflict with the gods. Descended from the first being Ymir, they inhabit Jötunheimr. Not always evil — many intermarry with gods, and some possess great wisdom."@en ;
     skos:broader ni:norse-beings ;
-    skos:relatedMatch <http://iconclass.org/91D141> .
+    skos:relatedMatch <http://iconclass.org/91D141> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 28/180: Yggdrasil ──
 ni:yggdrasil a skos:Concept ;
@@ -627,7 +681,9 @@ ni:yggdrasil a skos:Concept ;
     skos:definition "The world tree, an immense sacred ash tree that connects the Nine Worlds of Norse cosmology. Three roots reach into different realms, and various creatures dwell in and around it. Central symbol of Norse cosmology."@en ;
     skos:broader ni:norse-places ;
     skos:closeMatch <http://vocab.getty.edu/aat/300379896> ;
-    skos:relatedMatch <http://iconclass.org/91D21> .
+    skos:relatedMatch <http://iconclass.org/91D21> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 29/180: Asgard ──
 ni:asgard a skos:Concept ;
@@ -648,7 +704,9 @@ ni:asgard a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Home of the Æsir gods, one of the Nine Worlds, located at the top of Yggdrasil. Contains halls such as Valhalla (Odin's), Þrúðheimr (Thor's), and Fensalir (Frigg's). Connected to Midgard by Bifröst."@en ;
     skos:broader ni:norse-places ;
-    skos:relatedMatch <http://iconclass.org/91D22> .
+    skos:relatedMatch <http://iconclass.org/91D22> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 30/180: Midgard ──
 ni:midgard a skos:Concept ;
@@ -669,7 +727,9 @@ ni:midgard a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "The world of humans, literally 'middle enclosure', situated between Asgard (above) and the underworld realms. Encircled by the great ocean in which Jörmungandr lies, and connected to Asgard by Bifröst."@en ;
     skos:broader ni:norse-places ;
-    skos:relatedMatch <http://iconclass.org/91D23> .
+    skos:relatedMatch <http://iconclass.org/91D23> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 31/180: Valhalla ──
 ni:valhalla a skos:Concept ;
@@ -691,7 +751,9 @@ ni:valhalla a skos:Concept ;
     skos:definition "Odin's great hall in Asgard where the einherjar (chosen slain warriors) feast and fight daily. Has 540 doors, rafters of spears, a roof of shields, and benches strewn with mail coats."@en ;
     skos:broader ni:norse-places ;
     skos:closeMatch <http://vocab.getty.edu/aat/300379897> ;
-    skos:relatedMatch <http://iconclass.org/91D24> .
+    skos:relatedMatch <http://iconclass.org/91D24> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 32/180: Ragnarök ──
 ni:ragnarok a skos:Concept ;
@@ -712,7 +774,9 @@ ni:ragnarok a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "The prophesied end of the world in Norse mythology — a series of apocalyptic events including a great battle, natural disasters, and the submersion of the world in water. A renewed world rises afterward."@en ;
     skos:broader ni:norse-places ;
-    skos:relatedMatch <http://iconclass.org/91D25> .
+    skos:relatedMatch <http://iconclass.org/91D25> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 33/180: Bifröst ──
 ni:bifrost a skos:Concept ;
@@ -733,7 +797,9 @@ ni:bifrost a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "The burning rainbow bridge connecting Midgard (the world of humans) to Asgard (the realm of the gods). Guarded by the god Heimdall, it will shatter when the sons of Muspell ride forth at Ragnarök."@en ;
     skos:broader ni:norse-places ;
-    skos:relatedMatch <http://iconclass.org/91D26> .
+    skos:relatedMatch <http://iconclass.org/91D26> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 34/180: Niflheim ──
 ni:niflheim a skos:Concept ;
@@ -754,7 +820,9 @@ ni:niflheim a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "The primordial realm of ice, mist, and cold in Norse cosmology. One of the two primordial realms (with Muspelheim) that existed before creation. Contains the wellspring Hvergelmir and is associated with the dead."@en ;
     skos:broader ni:norse-places ;
-    skos:relatedMatch <http://iconclass.org/91D27> .
+    skos:relatedMatch <http://iconclass.org/91D27> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 35/180: Muspelheim ──
 ni:muspelheim a skos:Concept ;
@@ -775,7 +843,9 @@ ni:muspelheim a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "The primordial realm of fire and heat in Norse cosmology, guarded by the fire giant Surtr. Sparks from Muspelheim and ice from Niflheim met in the void Ginnungagap, creating the first being Ymir."@en ;
     skos:broader ni:norse-places ;
-    skos:relatedMatch <http://iconclass.org/91D28> .
+    skos:relatedMatch <http://iconclass.org/91D28> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 36/180: Helheim ──
 ni:helheim a skos:Concept ;
@@ -796,7 +866,9 @@ ni:helheim a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "The realm of the dead ruled by Hel, daughter of Loki. Those who die of sickness, old age, or otherwise inglorious deaths are sent here. Distinguished from Valhalla, which receives the battle-slain."@en ;
     skos:broader ni:norse-places ;
-    skos:relatedMatch <http://iconclass.org/91D29> .
+    skos:relatedMatch <http://iconclass.org/91D29> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 37/180: Jötunheimr ──
 ni:jotunheim a skos:Concept ;
@@ -817,7 +889,9 @@ ni:jotunheim a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "The realm of the giants (jötnar) in Norse cosmology, one of the Nine Worlds. A wilderness of rock, ice, and forests, separated from Midgard by rivers and mountains. Home of Útgarðr-Loki and many frost giants."@en ;
     skos:broader ni:norse-places ;
-    skos:relatedMatch <http://iconclass.org/91D30> .
+    skos:relatedMatch <http://iconclass.org/91D30> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 38/180: Battle of Ragnarök ──
 ni:ragnarok-battle a skos:Concept ;
@@ -836,7 +910,9 @@ ni:ragnarok-battle a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "The final battle at the end of the world where gods and their enemies destroy each other. Odin is swallowed by Fenrir, Thor slays Jörmungandr but dies from its venom, and Surtr engulfs the world in fire."@en ;
     skos:broader ni:norse-events ;
-    skos:relatedMatch <http://iconclass.org/91D31> .
+    skos:relatedMatch <http://iconclass.org/91D31> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 39/180: Binding of Fenrir ──
 ni:binding-of-fenrir a skos:Concept ;
@@ -855,7 +931,9 @@ ni:binding-of-fenrir a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "The gods bind the monstrous wolf Fenrir using the magical chain Gleipnir, forged by dwarves from impossible ingredients. Tyr sacrifices his right hand as a pledge of good faith, placing it in Fenrir's mouth."@en ;
     skos:broader ni:norse-events ;
-    skos:relatedMatch <http://iconclass.org/91D32> .
+    skos:relatedMatch <http://iconclass.org/91D32> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 40/180: Death of Baldr ──
 ni:death-of-baldr a skos:Concept ;
@@ -874,7 +952,9 @@ ni:death-of-baldr a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Baldr is killed by a mistletoe dart thrown by his blind brother Höðr, manipulated by Loki. Frigg had secured oaths from all things not to harm Baldr, but overlooked the mistletoe. His death presages Ragnarök."@en ;
     skos:broader ni:norse-events ;
-    skos:relatedMatch <http://iconclass.org/91D33> .
+    skos:relatedMatch <http://iconclass.org/91D33> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 41/180: Theft of Thor's Hammer ──
 ni:theft-of-thors-hammer a skos:Concept ;
@@ -893,7 +973,9 @@ ni:theft-of-thors-hammer a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "The giant Þrymr steals Mjölnir and demands Freyja as bride for its return. Thor disguises himself as Freyja and travels to Jötunheimr, reclaiming the hammer and slaying the giants. Told in the poem Þrymskviða."@en ;
     skos:broader ni:norse-events ;
-    skos:relatedMatch <http://iconclass.org/91D34> .
+    skos:relatedMatch <http://iconclass.org/91D34> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 42/180: Creation of the World (Norse) ──
 ni:creation-of-world a skos:Concept ;
@@ -912,7 +994,9 @@ ni:creation-of-world a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "From the primordial void Ginnungagap, where fire from Muspelheim met ice from Niflheim, the giant Ymir formed. The gods Odin, Vili, and Vé slew Ymir and fashioned the world from his body."@en ;
     skos:broader ni:norse-events ;
-    skos:relatedMatch <http://iconclass.org/91D35> .
+    skos:relatedMatch <http://iconclass.org/91D35> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 43/180: Mead of Poetry ──
 ni:mead-of-poetry a skos:Concept ;
@@ -933,7 +1017,9 @@ ni:mead-of-poetry a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "The mythical mead brewed from the blood of the wise being Kvasir, granting the gift of poetry and wisdom to any who drink it. Odin obtained it through cunning from the giant Suttungr."@en ;
     skos:broader ni:norse-events ;
-    skos:relatedMatch <http://iconclass.org/91D36> .
+    skos:relatedMatch <http://iconclass.org/91D36> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 44/180: Kalevala characters ──
 ni:kalevala-characters a skos:Concept ;
@@ -948,7 +1034,9 @@ ni:kalevala-characters a skos:Concept ;
     skos:prefLabel "Kalevala-figurer"@nb ;
     skos:prefLabel "Kalevala-gestalter"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
-    skos:definition "Characters from the Finnish national epic Kalevala, compiled by Elias Lönnrot from Finnish and Karelian oral folklore and first published in 1835."@en .
+    skos:definition "Characters from the Finnish national epic Kalevala, compiled by Elias Lönnrot from Finnish and Karelian oral folklore and first published in 1835."@en ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-1000"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1849"^^xsd:long .
 
 # ── 45/180: Kalevala concepts and objects ──
 ni:kalevala-concepts a skos:Concept ;
@@ -963,7 +1051,9 @@ ni:kalevala-concepts a skos:Concept ;
     skos:prefLabel "Kalevala-gjenstander og begreper"@nb ;
     skos:prefLabel "Kalevala-föremål och begrepp"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
-    skos:definition "Significant objects, places, and concepts from the Finnish national epic Kalevala and related Finnish mythological tradition."@en .
+    skos:definition "Significant objects, places, and concepts from the Finnish national epic Kalevala and related Finnish mythological tradition."@en ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-1000"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1849"^^xsd:long .
 
 # ── 46/180: Kalevala scenes ──
 ni:kalevala-scenes a skos:Concept ;
@@ -978,7 +1068,9 @@ ni:kalevala-scenes a skos:Concept ;
     skos:prefLabel "Kalevala-scener"@nb ;
     skos:prefLabel "Kalevala-scener"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
-    skos:definition "Key narrative episodes from the Kalevala epic, frequently depicted in Finnish art, especially by Akseli Gallen-Kallela and other Golden Age artists."@en .
+    skos:definition "Key narrative episodes from the Kalevala epic, frequently depicted in Finnish art, especially by Akseli Gallen-Kallela and other Golden Age artists."@en ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-1000"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1849"^^xsd:long .
 
 # ── 47/180: Väinämöinen ──
 ni:vainamoinen a skos:Concept ;
@@ -995,7 +1087,9 @@ ni:vainamoinen a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Central hero of the Kalevala, an ancient sage and powerful shaman with magical singing abilities. Son of the primal goddess Ilmatar, he is a culture hero who creates music, wins knowledge, and ultimately departs Finland in a copper boat."@en ;
     skos:broader ni:kalevala-characters ;
-    skos:relatedMatch <http://iconclass.org/91E> .
+    skos:relatedMatch <http://iconclass.org/91E> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-1000"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1849"^^xsd:long .
 
 # ── 48/180: Ilmarinen ──
 ni:ilmarinen a skos:Concept ;
@@ -1012,7 +1106,9 @@ ni:ilmarinen a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "The eternal smith and one of the main heroes of the Kalevala. Forger of the Sampo, the magical artifact of prosperity, and the sky itself. Suitor of the Maiden of Pohjola, he represents craftsmanship and creation."@en ;
     skos:broader ni:kalevala-characters ;
-    skos:relatedMatch <http://iconclass.org/91E> .
+    skos:relatedMatch <http://iconclass.org/91E> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-1000"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1849"^^xsd:long .
 
 # ── 49/180: Lemminkäinen ──
 ni:lemminkainen a skos:Concept ;
@@ -1029,7 +1125,9 @@ ni:lemminkainen a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "A reckless, handsome warrior-hero of the Kalevala. Known for his adventures, his death and resurrection by his mother from the river of Tuonela, and his attempts to woo the Maiden of Pohjola."@en ;
     skos:broader ni:kalevala-characters ;
-    skos:relatedMatch <http://iconclass.org/91E> .
+    skos:relatedMatch <http://iconclass.org/91E> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-1000"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1849"^^xsd:long .
 
 # ── 50/180: Louhi ──
 ni:louhi a skos:Concept ;
@@ -1046,7 +1144,9 @@ ni:louhi a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Mistress of Pohjola (the Northland), a powerful sorceress and antagonist in the Kalevala. She sets impossible tasks for heroes seeking her daughter's hand, and battles to keep the Sampo after its theft."@en ;
     skos:broader ni:kalevala-characters ;
-    skos:relatedMatch <http://iconclass.org/91E> .
+    skos:relatedMatch <http://iconclass.org/91E> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-1000"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1849"^^xsd:long .
 
 # ── 51/180: Aino ──
 ni:aino a skos:Concept ;
@@ -1063,7 +1163,9 @@ ni:aino a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "A young woman promised in marriage to the aged Väinämöinen by her brother Joukahainen. Rather than wed the old sage, she drowns herself and transforms into a fish. A tragic figure frequently depicted in Finnish art."@en ;
     skos:broader ni:kalevala-characters ;
-    skos:relatedMatch <http://iconclass.org/91E> .
+    skos:relatedMatch <http://iconclass.org/91E> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-1000"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1849"^^xsd:long .
 
 # ── 52/180: Kullervo ──
 ni:kullervo a skos:Concept ;
@@ -1080,7 +1182,9 @@ ni:kullervo a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "A tragic figure in the Kalevala, a slave of supernatural strength driven by vengeance. After unknowingly committing incest with his sister, he falls on his own sword. Inspired Tolkien's Túrin Turambar and Sibelius's symphonic poem."@en ;
     skos:broader ni:kalevala-characters ;
-    skos:relatedMatch <http://iconclass.org/91E> .
+    skos:relatedMatch <http://iconclass.org/91E> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-1000"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1849"^^xsd:long .
 
 # ── 53/180: Joukahainen ──
 ni:joukahainen a skos:Concept ;
@@ -1097,7 +1201,9 @@ ni:joukahainen a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "A young and boastful Laplander who challenges Väinämöinen to a singing contest and loses. To save himself from sinking into a swamp, he pledges his sister Aino as Väinämöinen's bride."@en ;
     skos:broader ni:kalevala-characters ;
-    skos:relatedMatch <http://iconclass.org/91E> .
+    skos:relatedMatch <http://iconclass.org/91E> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-1000"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1849"^^xsd:long .
 
 # ── 54/180: Ilmatar ──
 ni:ilmatar a skos:Concept ;
@@ -1114,7 +1220,9 @@ ni:ilmatar a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "The Virgin Spirit of the Air, a primal creatrix in Finnish mythology. She descends to the primordial waters and, impregnated by the sea, gives birth to Väinämöinen. The world is formed from an eagle's egg on her knee."@en ;
     skos:broader ni:kalevala-characters ;
-    skos:relatedMatch <http://iconclass.org/91E> .
+    skos:relatedMatch <http://iconclass.org/91E> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-1000"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1849"^^xsd:long .
 
 # ── 55/180: Marjatta ──
 ni:marjatta a skos:Concept ;
@@ -1130,7 +1238,9 @@ ni:marjatta a skos:Concept ;
     skos:prefLabel "Marjatta"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "A virgin who becomes pregnant after swallowing a lingonberry, giving birth to a son who is baptized King of Karelia. Her story in the final canto of the Kalevala echoes the Virgin Mary narrative and marks the transition to Christianity."@en ;
-    skos:broader ni:kalevala-characters .
+    skos:broader ni:kalevala-characters ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-1000"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1849"^^xsd:long .
 
 # ── 56/180: Untamo ──
 ni:untamo a skos:Concept ;
@@ -1146,7 +1256,9 @@ ni:untamo a skos:Concept ;
     skos:prefLabel "Untamo"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Kullervo's uncle and enemy, who wages war against Kullervo's father Kalervo and enslaves the young Kullervo. His conflict with Kalervo sets in motion the tragic cycle of the Kullervo story."@en ;
-    skos:broader ni:kalevala-characters .
+    skos:broader ni:kalevala-characters ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-1000"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1849"^^xsd:long .
 
 # ── 57/180: Sampo ──
 ni:sampo a skos:Concept ;
@@ -1163,7 +1275,9 @@ ni:sampo a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "A magical artifact of immense power forged by Ilmarinen, which grinds out flour, salt, and gold, bringing prosperity to its owner. Its exact nature is debated — mill, world pillar, or cosmic axis. Central object of the Kalevala."@en ;
     skos:broader ni:kalevala-concepts ;
-    skos:relatedMatch <http://iconclass.org/91E> .
+    skos:relatedMatch <http://iconclass.org/91E> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-1000"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1849"^^xsd:long .
 
 # ── 58/180: Kantele ──
 ni:kantele a skos:Concept ;
@@ -1180,7 +1294,8 @@ ni:kantele a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "A traditional Finnish and Karelian plucked string instrument. In the Kalevala, Väinämöinen creates the first kantele from the jawbone of a giant pike, and its music enchants all of nature."@en ;
     skos:broader ni:kalevala-concepts ;
-    skos:relatedMatch <http://iconclass.org/91E> .
+    skos:relatedMatch <http://iconclass.org/91E> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-1000"^^xsd:long .
 
 # ── 59/180: Pohjola ──
 ni:pohjola a skos:Concept ;
@@ -1197,7 +1312,9 @@ ni:pohjola a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "The Northland in the Kalevala, a dark and distant realm ruled by the sorceress Louhi. It is the destination of heroes' quests and home of the Sampo. Represents the mythical north, cold and hostile."@en ;
     skos:broader ni:kalevala-concepts ;
-    skos:relatedMatch <http://iconclass.org/91E> .
+    skos:relatedMatch <http://iconclass.org/91E> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-1000"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1849"^^xsd:long .
 
 # ── 60/180: Tuonela ──
 ni:tuonela a skos:Concept ;
@@ -1214,7 +1331,9 @@ ni:tuonela a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "The Finnish underworld or realm of the dead, ruled by Tuoni and his wife Tuonetar. Separated from the living world by a dark river. Väinämöinen and Lemminkäinen both journey there and return."@en ;
     skos:broader ni:kalevala-concepts ;
-    skos:relatedMatch <http://iconclass.org/91E> .
+    skos:relatedMatch <http://iconclass.org/91E> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-1000"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1849"^^xsd:long .
 
 # ── 61/180: Kalevala (land) ──
 ni:kalevala-land a skos:Concept ;
@@ -1231,7 +1350,9 @@ ni:kalevala-land a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "The mythical homeland of the Kalevala heroes, contrasted with Pohjola. Represents the idealized Finnish heartland — a place of forests, lakes, and ancient wisdom in Finnish mythology."@en ;
     skos:broader ni:kalevala-concepts ;
-    skos:relatedMatch <http://iconclass.org/91E> .
+    skos:relatedMatch <http://iconclass.org/91E> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-1000"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1849"^^xsd:long .
 
 # ── 62/180: Forging of the Sampo ──
 ni:forging-of-sampo a skos:Concept ;
@@ -1248,7 +1369,9 @@ ni:forging-of-sampo a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Ilmarinen forges the Sampo for Louhi of Pohjola as bride-price for her daughter. From the fire emerge first a golden bow, a red boat, a golden heifer, and a golden plough before the Sampo itself is created."@en ;
     skos:broader ni:kalevala-scenes ;
-    skos:relatedMatch <http://iconclass.org/91E> .
+    skos:relatedMatch <http://iconclass.org/91E> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-1000"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1849"^^xsd:long .
 
 # ── 63/180: Defense of the Sampo ──
 ni:defense-of-sampo a skos:Concept ;
@@ -1265,7 +1388,9 @@ ni:defense-of-sampo a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "The heroes of Kalevala steal the Sampo from Pohjola, but Louhi pursues them. In the ensuing struggle on the sea, the Sampo is broken and its fragments scatter — those washing ashore bring prosperity to Finland."@en ;
     skos:broader ni:kalevala-scenes ;
-    skos:relatedMatch <http://iconclass.org/91E> .
+    skos:relatedMatch <http://iconclass.org/91E> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-1000"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1849"^^xsd:long .
 
 # ── 64/180: Väinämöinen's departure ──
 ni:vainamoinen-departure a skos:Concept ;
@@ -1282,7 +1407,9 @@ ni:vainamoinen-departure a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "In the final canto of the Kalevala, the aged Väinämöinen sails away in a copper boat, yielding to the new Christian era represented by Marjatta's son. He leaves behind his kantele and songs for the Finnish people."@en ;
     skos:broader ni:kalevala-scenes ;
-    skos:relatedMatch <http://iconclass.org/91E> .
+    skos:relatedMatch <http://iconclass.org/91E> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-1000"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1849"^^xsd:long .
 
 # ── 65/180: Resurrection of Lemminkäinen ──
 ni:lemminkainen-resurrection a skos:Concept ;
@@ -1298,7 +1425,9 @@ ni:lemminkainen-resurrection a skos:Concept ;
     skos:prefLabel "Lemminkäinens uppståndelse"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "After Lemminkäinen is killed and dismembered in the river of Tuonela, his mother rakes his body parts from the water, reassembles him, and restores him to life with magical ointment and incantations."@en ;
-    skos:broader ni:kalevala-scenes .
+    skos:broader ni:kalevala-scenes ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-1000"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1849"^^xsd:long .
 
 # ── 66/180: Drowning of Aino ──
 ni:aino-drowning a skos:Concept ;
@@ -1314,7 +1443,9 @@ ni:aino-drowning a skos:Concept ;
     skos:prefLabel "Ainos drunkning"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Rather than marry the aged Väinämöinen, the young Aino walks into the sea and drowns. One of the most frequently depicted scenes in Finnish art, notably by Akseli Gallen-Kallela in his Aino triptych (1891)."@en ;
-    skos:broader ni:kalevala-scenes .
+    skos:broader ni:kalevala-scenes ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-1000"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1849"^^xsd:long .
 
 # ── 67/180: Sámi cultural subjects ──
 ni:sami-culture a skos:Concept ;
@@ -1331,7 +1462,8 @@ ni:sami-culture a skos:Concept ;
     skos:prefLabel "Sámi kultuvrralaš fáttát"@se ;
     skos:prefLabel "Samiska kulturämnen"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
-    skos:definition "Cultural subjects, traditions, and material culture of the Sámi people, the indigenous Finno-Ugric people inhabiting Sápmi across northern Norway, Sweden, Finland, and the Kola Peninsula."@en .
+    skos:definition "Cultural subjects, traditions, and material culture of the Sámi people, the indigenous Finno-Ugric people inhabiting Sápmi across northern Norway, Sweden, Finland, and the Kola Peninsula."@en ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-3000"^^xsd:long .
 
 # ── 68/180: Sámi mythology ──
 ni:sami-mythology a skos:Concept ;
@@ -1348,7 +1480,8 @@ ni:sami-mythology a skos:Concept ;
     skos:prefLabel "Sámi mitologiija"@se ;
     skos:prefLabel "Samisk mytologi"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
-    skos:definition "Pre-Christian religious beliefs and mythological figures of the Sámi people, centered on animism, shamanism, and a rich pantheon of nature deities."@en .
+    skos:definition "Pre-Christian religious beliefs and mythological figures of the Sámi people, centered on animism, shamanism, and a rich pantheon of nature deities."@en ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-3000"^^xsd:long .
 
 # ── 69/180: Noaidi (Sámi shaman) ──
 ni:noaidi a skos:Concept ;
@@ -1366,7 +1499,9 @@ ni:noaidi a skos:Concept ;
     skos:prefLabel "Nåjd (samisk shaman)"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "The Sámi shaman or spiritual practitioner who mediates between the human and spirit worlds. Uses a sacred drum (goavddis) to enter trance states, divine the future, heal the sick, and communicate with spirits."@en ;
-    skos:broader ni:sami-mythology .
+    skos:broader ni:sami-mythology ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-3000"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1700"^^xsd:long .
 
 # ── 70/180: Sámi drum ──
 ni:sami-drum a skos:Concept ;
@@ -1385,7 +1520,9 @@ ni:sami-drum a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Sacred frame drum (goavddis or runebomme) used by noaidi shamans for divination and ritual. The drumhead is painted with cosmological symbols depicting deities, animals, and the three-tiered world. Most surviving drums were confiscated and burned during Christianization."@en ;
     skos:broader ni:sami-mythology ;
-    skos:closeMatch <http://vocab.getty.edu/aat/300041734> .
+    skos:closeMatch <http://vocab.getty.edu/aat/300041734> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-3000"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1700"^^xsd:long .
 
 # ── 71/180: Sámi drum motifs ──
 ni:sami-drum-motifs a skos:Concept ;
@@ -1403,7 +1540,9 @@ ni:sami-drum-motifs a skos:Concept ;
     skos:prefLabel "Samiska trummotiv"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "The symbolic figures painted on Sámi drums, representing deities, spirits, animals, celestial bodies, and the three cosmic realms. Each drum is unique but shares common cosmological structures dividing the world into upper, middle, and lower realms."@en ;
-    skos:broader ni:sami-drum .
+    skos:broader ni:sami-drum ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-3000"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1700"^^xsd:long .
 
 # ── 72/180: Beaivi (sun goddess) ──
 ni:beaivi a skos:Concept ;
@@ -1421,7 +1560,8 @@ ni:beaivi a skos:Concept ;
     skos:prefLabel "Beaivi (solgudinnan)"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Sámi sun goddess associated with fertility, sanity, and the return of green plants after the long polar winter. White reindeer and butter were offered to her at winter solstice. Her return in spring was celebrated with rituals."@en ;
-    skos:broader ni:sami-mythology .
+    skos:broader ni:sami-mythology ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-3000"^^xsd:long .
 
 # ── 73/180: Máttaráhkká (mother goddess) ──
 ni:mattarahkka a skos:Concept ;
@@ -1439,7 +1579,9 @@ ni:mattarahkka a skos:Concept ;
     skos:prefLabel "Máttaráhkká (modergudinnan)"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "The first mother and supreme goddess of the Sámi pantheon, associated with childbirth and fertility. She has three daughters: Sáráhkká (who aids in birth), Uksáhkká (who protects doorways), and Juoksáhkká (who determines a child's gender)."@en ;
-    skos:broader ni:sami-mythology .
+    skos:broader ni:sami-mythology ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-3000"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1700"^^xsd:long .
 
 # ── 74/180: Biegga-olmái (wind god) ──
 ni:biegga-olmai a skos:Concept ;
@@ -1457,7 +1599,9 @@ ni:biegga-olmai a skos:Concept ;
     skos:prefLabel "Biegga-olmái (vindguden)"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Sámi wind god who controls weather and wind. Offerings were made to him using a wind-shovel (bieggaluovvi) to secure favorable winds for fishing and reindeer herding. Depicted on Sámi drums with shovel symbols."@en ;
-    skos:broader ni:sami-mythology .
+    skos:broader ni:sami-mythology ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-3000"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1700"^^xsd:long .
 
 # ── 75/180: Horagállis (thunder god) ──
 ni:horagalles a skos:Concept ;
@@ -1475,7 +1619,9 @@ ni:horagalles a skos:Concept ;
     skos:prefLabel "Horagállis (åskguden)"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Sámi thunder god, equivalent to Norse Thor. Depicted on drums wielding hammers, he drives away evil spirits, controls weather, and protects the world. His name derives from 'Old Man Thor' (Hora Galles)."@en ;
-    skos:broader ni:sami-mythology .
+    skos:broader ni:sami-mythology ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-3000"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1700"^^xsd:long .
 
 # ── 76/180: Stállu (giant) ──
 ni:stallu a skos:Concept ;
@@ -1493,7 +1639,8 @@ ni:stallu a skos:Concept ;
     skos:prefLabel "Stallo (jätte)"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "A fearsome troll-like giant in Sámi folklore, often depicted as man-eating and dim-witted. Stállu figures are sometimes interpreted as memories of encounters with Norse Vikings or other hostile outsiders."@en ;
-    skos:broader ni:sami-mythology .
+    skos:broader ni:sami-mythology ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-3000"^^xsd:long .
 
 # ── 77/180: Bear cult (Sámi) ──
 ni:bear-cult a skos:Concept ;
@@ -1511,7 +1658,9 @@ ni:bear-cult a skos:Concept ;
     skos:prefLabel "Björnkult (samisk)"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Sacred bear ceremonies and rituals central to Sámi spiritual life. The bear was considered a sacred ancestor, and elaborate rituals accompanied the bear hunt, including special songs, taboo words, and ceremonial feasting and bone burial."@en ;
-    skos:broader ni:sami-mythology .
+    skos:broader ni:sami-mythology ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-5000"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1700"^^xsd:long .
 
 # ── 78/180: Sieidi (sacred natural site) ──
 ni:sieidi a skos:Concept ;
@@ -1529,7 +1678,8 @@ ni:sieidi a skos:Concept ;
     skos:prefLabel "Sejte (helig naturplats)"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "A sacred natural site or object in Sámi tradition, typically an unusually shaped stone or wooden object where offerings were made. Sieidis are found across Sápmi and served as places of worship, sacrifice, and communication with spirits."@en ;
-    skos:broader ni:sami-culture .
+    skos:broader ni:sami-culture ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-3000"^^xsd:long .
 
 # ── 79/180: Sámi sun symbol ──
 ni:sami-sun-symbol a skos:Concept ;
@@ -1547,7 +1697,8 @@ ni:sami-sun-symbol a skos:Concept ;
     skos:prefLabel "Samisk solsymbol"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "The radiant sun symbol found on Sámi drums and in traditional art, representing Beaivi the sun deity. Typically depicted as a rhombus or circle with radiating lines, it occupies a central position on the drum cosmology."@en ;
-    skos:broader ni:sami-culture .
+    skos:broader ni:sami-culture ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-3000"^^xsd:long .
 
 # ── 80/180: Lavvu ──
 ni:lavvu a skos:Concept ;
@@ -1566,7 +1717,8 @@ ni:lavvu a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "A traditional Sámi temporary dwelling resembling a tepee, used by reindeer herders during migration. Made of poles covered with reindeer hides or birch bark. The conical shape withstands strong winds on the tundra."@en ;
     skos:broader ni:sami-culture ;
-    skos:closeMatch <http://vocab.getty.edu/aat/300005018> .
+    skos:closeMatch <http://vocab.getty.edu/aat/300005018> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-3000"^^xsd:long .
 
 # ── 81/180: Goahti ──
 ni:goahti a skos:Concept ;
@@ -1584,7 +1736,8 @@ ni:goahti a skos:Concept ;
     skos:prefLabel "Kåta (torvkåta)"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "A traditional Sámi semi-permanent dwelling, a turf hut with a wooden frame covered in peat and birch bark. More substantial than the lavvu, it served as a winter dwelling. The central hearth was the social and spiritual center."@en ;
-    skos:broader ni:sami-culture .
+    skos:broader ni:sami-culture ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-3000"^^xsd:long .
 
 # ── 82/180: Reindeer (Sámi culture) ──
 ni:reindeer-sami a skos:Concept ;
@@ -1602,7 +1755,8 @@ ni:reindeer-sami a skos:Concept ;
     skos:prefLabel "Ren (samisk kultur)"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "The reindeer is central to Sámi culture, economy, and identity. Reindeer herding has been practiced for millennia and encompasses migration, marking, separation, and slaughter traditions. The Sámi language has hundreds of words describing reindeer."@en ;
-    skos:broader ni:sami-culture .
+    skos:broader ni:sami-culture ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-3000"^^xsd:long .
 
 # ── 83/180: Duodji (Sámi handicraft) ──
 ni:sami-duodji a skos:Concept ;
@@ -1620,7 +1774,8 @@ ni:sami-duodji a skos:Concept ;
     skos:prefLabel "Duodji (samiskt hantverk)"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Traditional Sámi handicraft encompassing work in reindeer bone, antler, wood, pewter, and leather. Both functional and decorative, duodji carries cultural knowledge and identity. Recognized as an important form of Sámi cultural expression."@en ;
-    skos:broader ni:sami-culture .
+    skos:broader ni:sami-culture ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-3000"^^xsd:long .
 
 # ── 84/180: Gákti (Sámi costume) ──
 ni:sami-gakti a skos:Concept ;
@@ -1638,7 +1793,8 @@ ni:sami-gakti a skos:Concept ;
     skos:prefLabel "Kolt (samisk dräkt)"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "The traditional Sámi garment, a tunic-like costume whose colors, patterns, and decorations indicate the wearer's region, family, and marital status. Still worn for ceremonies, festivals, and daily use in Sámi communities."@en ;
-    skos:broader ni:sami-culture .
+    skos:broader ni:sami-culture ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-1500"^^xsd:long .
 
 # ── 85/180: Joik (Sámi vocal tradition) ──
 ni:sami-joik a skos:Concept ;
@@ -1656,7 +1812,8 @@ ni:sami-joik a skos:Concept ;
     skos:prefLabel "Jojk (samisk sångtradition)"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "A traditional form of Sámi vocal expression, one of the oldest music traditions in Europe. A joik evokes a person, animal, or place through melody and vocalization rather than describing them. Each person may have their own joik."@en ;
-    skos:broader ni:sami-culture .
+    skos:broader ni:sami-culture ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-3000"^^xsd:long .
 
 # ── 86/180: Sámi flag ──
 ni:sami-flag a skos:Concept ;
@@ -1674,7 +1831,8 @@ ni:sami-flag a skos:Concept ;
     skos:prefLabel "Samiska flaggan"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "The pan-Sámi flag adopted in 1986, designed by Astrid Båhl. Features a circle divided into red and blue halves against stripes of red, blue, green, and yellow, representing the sun and moon from the shaman drum tradition."@en ;
-    skos:broader ni:sami-culture .
+    skos:broader ni:sami-culture ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1986"^^xsd:long .
 
 # ── 87/180: Nordic church art ──
 ni:nordic-church-art a skos:Concept ;
@@ -1690,7 +1848,8 @@ ni:nordic-church-art a skos:Concept ;
     skos:prefLabel "Nordisk kyrkokonst"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Christian religious art as expressed in Scandinavian and Nordic churches from the medieval period onward, blending European Christian iconographic traditions with local artistic styles."@en ;
-    skos:relatedMatch <http://iconclass.org/11H> .
+    skos:relatedMatch <http://iconclass.org/11H> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1000"^^xsd:long .
 
 # ── 88/180: Nordic saints ──
 ni:nordic-saints a skos:Concept ;
@@ -1706,7 +1865,8 @@ ni:nordic-saints a skos:Concept ;
     skos:prefLabel "Nordiska helgon"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Saints venerated in the Nordic countries, including national patron saints and figures significant to the Christianization and religious history of Scandinavia and Finland."@en ;
-    skos:relatedMatch <http://iconclass.org/11HH> .
+    skos:relatedMatch <http://iconclass.org/11HH> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "800"^^xsd:long .
 
 # ── 89/180: Stave church iconography ──
 ni:stave-church a skos:Concept ;
@@ -1726,7 +1886,9 @@ ni:stave-church a skos:Concept ;
     skos:definition "Decorative and religious imagery found on and within medieval Norwegian stave churches, blending Christian themes with Viking Age animal ornament. Carved portals feature interlacing dragons, vine scrolls, and narrative scenes."@en ;
     skos:broader ni:nordic-church-art ;
     skos:closeMatch <http://vocab.getty.edu/aat/300007424> ;
-    skos:relatedMatch <http://iconclass.org/11P31> .
+    skos:relatedMatch <http://iconclass.org/11P31> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1050"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1350"^^xsd:long .
 
 # ── 90/180: Sigurd slaying Fáfnir ──
 ni:sigurd-fafnir a skos:Concept ;
@@ -1747,7 +1909,9 @@ ni:sigurd-fafnir a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "A scene from the Völsung saga carved on stave church portals, rune stones, and crosses across Scandinavia. Sigurd kills the dragon Fáfnir, roasts its heart, and gains understanding of bird speech. Found on Hylestad stave church portal and Ramsund rock carving."@en ;
     skos:broader ni:nordic-church-art ;
-    skos:relatedMatch <http://iconclass.org/91D(SIGURD)> .
+    skos:relatedMatch <http://iconclass.org/91D(SIGURD)> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1300"^^xsd:long .
 
 # ── 91/180: Medieval mural cycles (Nordic) ──
 ni:medieval-mural-cycles a skos:Concept ;
@@ -1764,7 +1928,9 @@ ni:medieval-mural-cycles a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Lime-painted wall and ceiling murals in Nordic medieval churches, particularly prevalent in Danish and Swedish churches. Subjects include biblical narratives, saints' lives, morality scenes, and the Wheel of Fortune."@en ;
     skos:broader ni:nordic-church-art ;
-    skos:relatedMatch <http://iconclass.org/11I> .
+    skos:relatedMatch <http://iconclass.org/11I> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1100"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1500"^^xsd:long .
 
 # ── 92/180: Birgitta of Vadstena visions ──
 ni:birgitta-visions a skos:Concept ;
@@ -1781,7 +1947,9 @@ ni:birgitta-visions a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Mystical visions of Saint Birgitta of Sweden (1303–1373), extensively depicted in Nordic medieval art. Her Revelations influenced Nativity and Passion iconography across Europe, particularly her vision of the Nativity with the luminous Christ child."@en ;
     skos:broader ni:nordic-church-art ;
-    skos:relatedMatch <http://iconclass.org/11HH(BIRGITTA)> .
+    skos:relatedMatch <http://iconclass.org/11HH(BIRGITTA)> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1303"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1500"^^xsd:long .
 
 # ── 93/180: Baptismal font carvings (Nordic) ──
 ni:baptismal-font-carvings a skos:Concept ;
@@ -1799,7 +1967,9 @@ ni:baptismal-font-carvings a skos:Concept ;
     skos:definition "Sculptural decoration on Romanesque and Gothic baptismal fonts in Nordic churches. Common subjects include the Baptism of Christ, fighting dragons, lions, and interlace patterns. Notable workshops include the Gotlandic masters."@en ;
     skos:broader ni:nordic-church-art ;
     skos:closeMatch <http://vocab.getty.edu/aat/300080946> ;
-    skos:relatedMatch <http://iconclass.org/11Q7321> .
+    skos:relatedMatch <http://iconclass.org/11Q7321> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1100"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1400"^^xsd:long .
 
 # ── 94/180: Rood screen (Nordic) ──
 ni:rood-screen a skos:Concept ;
@@ -1817,7 +1987,9 @@ ni:rood-screen a skos:Concept ;
     skos:definition "The triumphal crucifix and screen dividing nave from chancel in Nordic medieval churches. Scandinavian examples often feature monumental painted wooden crucifixes with the suffering Christ, flanked by Mary and John."@en ;
     skos:broader ni:nordic-church-art ;
     skos:closeMatch <http://vocab.getty.edu/aat/300002668> ;
-    skos:relatedMatch <http://iconclass.org/11Q731> .
+    skos:relatedMatch <http://iconclass.org/11Q731> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1100"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1500"^^xsd:long .
 
 # ── 95/180: Calvary group (Nordic) ──
 ni:calvary-group a skos:Concept ;
@@ -1835,7 +2007,9 @@ ni:calvary-group a skos:Concept ;
     skos:definition "Sculptural ensemble of the Crucifixion placed at the chancel arch in Nordic churches, typically consisting of Christ on the cross flanked by the Virgin Mary and Saint John. A defining element of Scandinavian medieval church interiors."@en ;
     skos:broader ni:nordic-church-art ;
     skos:closeMatch <http://vocab.getty.edu/aat/300404177> ;
-    skos:relatedMatch <http://iconclass.org/73D6> .
+    skos:relatedMatch <http://iconclass.org/73D6> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1100"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1500"^^xsd:long .
 
 # ── 96/180: Passion scenes (Nordic style) ──
 ni:passion-scenes-nordic a skos:Concept ;
@@ -1852,7 +2026,9 @@ ni:passion-scenes-nordic a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Depictions of Christ's Passion in Scandinavian medieval art, including Entry into Jerusalem, Last Supper, Agony in the Garden, Flagellation, and Crucifixion. Often rendered in distinctive flat, graphic Nordic style in church murals."@en ;
     skos:broader ni:nordic-church-art ;
-    skos:relatedMatch <http://iconclass.org/73D> .
+    skos:relatedMatch <http://iconclass.org/73D> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1100"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1500"^^xsd:long .
 
 # ── 97/180: Madonna and Child (Nordic) ──
 ni:madonna-child-nordic a skos:Concept ;
@@ -1870,7 +2046,9 @@ ni:madonna-child-nordic a skos:Concept ;
     skos:definition "Depictions of the Virgin Mary with the infant Jesus in Nordic art, particularly polychrome wooden sculptures from the 12th–15th centuries. Scandinavian Madonnas often show seated, enthroned figures with a distinctive hieratic style."@en ;
     skos:broader ni:nordic-church-art ;
     skos:closeMatch <http://vocab.getty.edu/aat/300404188> ;
-    skos:relatedMatch <http://iconclass.org/11F4> .
+    skos:relatedMatch <http://iconclass.org/11F4> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1100"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1500"^^xsd:long .
 
 # ── 98/180: Last Judgment (Nordic medieval) ──
 ni:last-judgment-nordic a skos:Concept ;
@@ -1887,7 +2065,9 @@ ni:last-judgment-nordic a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Depictions of the Last Judgment in Nordic medieval church art, often painted on the west wall facing the congregation. Christ sits in judgment with the saved ascending to heaven and the damned descending to hell with monstrous demons."@en ;
     skos:broader ni:nordic-church-art ;
-    skos:relatedMatch <http://iconclass.org/11U> .
+    skos:relatedMatch <http://iconclass.org/11U> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1100"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1500"^^xsd:long .
 
 # ── 99/180: Altarpiece (Nordic medieval) ──
 ni:altarpiece-nordic a skos:Concept ;
@@ -1905,7 +2085,9 @@ ni:altarpiece-nordic a skos:Concept ;
     skos:definition "Winged triptych and polyptych altarpieces in Nordic medieval churches, many imported from Lübeck and other Hanseatic workshops. Elaborate carved and painted scenes of the Passion, saints' lives, and the Virgin Mary."@en ;
     skos:broader ni:nordic-church-art ;
     skos:closeMatch <http://vocab.getty.edu/aat/300002656> ;
-    skos:relatedMatch <http://iconclass.org/11Q71> .
+    skos:relatedMatch <http://iconclass.org/11Q71> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1250"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1530"^^xsd:long .
 
 # ── 100/180: Saint Olav ──
 ni:st-olav a skos:Concept ;
@@ -1926,7 +2108,8 @@ ni:st-olav a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Olav II Haraldsson (c. 995–1030), King of Norway and patron saint of Norway. Died at the Battle of Stiklestad. Depicted with axe, orb, and dragon underfoot. His cult spread across Scandinavia, England, and the Baltic; Nidaros Cathedral is his shrine."@en ;
     skos:broader ni:nordic-saints ;
-    skos:relatedMatch <http://iconclass.org/11HH(OLAV)> .
+    skos:relatedMatch <http://iconclass.org/11HH(OLAV)> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "995"^^xsd:long .
 
 # ── 101/180: Saint Erik ──
 ni:st-erik a skos:Concept ;
@@ -1943,7 +2126,8 @@ ni:st-erik a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Erik IX (d. 1160), King of Sweden and patron saint of Stockholm. According to tradition, he led a crusade to Finland and promoted the Christianization of Sweden. Depicted with crown, scepter, and battle standard."@en ;
     skos:broader ni:nordic-saints ;
-    skos:relatedMatch <http://iconclass.org/11HH(ERIK)> .
+    skos:relatedMatch <http://iconclass.org/11HH(ERIK)> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1120"^^xsd:long .
 
 # ── 102/180: Saint Henry of Finland ──
 ni:st-henry-finland a skos:Concept ;
@@ -1960,7 +2144,8 @@ ni:st-henry-finland a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "English-born Bishop of Uppsala who accompanied Erik IX on a crusade to Finland (c. 1155). Patron saint of Finland, martyred by the peasant Lalli. Depicted in bishop's vestments, often standing on Lalli or on ice."@en ;
     skos:broader ni:nordic-saints ;
-    skos:relatedMatch <http://iconclass.org/11HH(HENRY)> .
+    skos:relatedMatch <http://iconclass.org/11HH(HENRY)> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1100"^^xsd:long .
 
 # ── 103/180: Saint Canute ──
 ni:st-canute a skos:Concept ;
@@ -1977,7 +2162,8 @@ ni:st-canute a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Canute IV (c. 1042–1086), King of Denmark and patron saint of Denmark. Murdered in St. Alban's Church in Odense during a rebellion. Canonized in 1101. Depicted with crown, scepter, and often a lance or sword."@en ;
     skos:broader ni:nordic-saints ;
-    skos:relatedMatch <http://iconclass.org/11HH(CANUTE)> .
+    skos:relatedMatch <http://iconclass.org/11HH(CANUTE)> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1042"^^xsd:long .
 
 # ── 104/180: Saint Birgitta of Sweden ──
 ni:st-birgitta a skos:Concept ;
@@ -1994,7 +2180,8 @@ ni:st-birgitta a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Birgitta Birgersdotter (c. 1303–1373), Swedish mystic, saint, and founder of the Bridgettine Order. Patron saint of Europe and Sweden. Her Revelations profoundly influenced late medieval art and spirituality across Europe."@en ;
     skos:broader ni:nordic-saints ;
-    skos:relatedMatch <http://iconclass.org/11HH(BIRGITTA)> .
+    skos:relatedMatch <http://iconclass.org/11HH(BIRGITTA)> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1303"^^xsd:long .
 
 # ── 105/180: Saint Sigfrid ──
 ni:st-sigfrid a skos:Concept ;
@@ -2011,7 +2198,8 @@ ni:st-sigfrid a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "English missionary bishop who baptized King Olof Skötkonung of Sweden around 1008, traditionally at Husaby. Patron saint of Växjö. Depicted with three heads in a barrel, representing his murdered nephews."@en ;
     skos:broader ni:nordic-saints ;
-    skos:relatedMatch <http://iconclass.org/11HH(SIGFRID)> .
+    skos:relatedMatch <http://iconclass.org/11HH(SIGFRID)> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "950"^^xsd:long .
 
 # ── 106/180: Saint Þorlákur ──
 ni:st-thorlakur a skos:Concept ;
@@ -2030,7 +2218,8 @@ ni:st-thorlakur a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Þorlákur Þórhallsson (1133–1193), Bishop of Skálholt and patron saint of Iceland. Championed church reform and clerical celibacy. His feast day, Þorláksmessa (December 23), is celebrated with traditional Icelandic fermented skate."@en ;
     skos:broader ni:nordic-saints ;
-    skos:relatedMatch <http://iconclass.org/11HH(THORLAK)> .
+    skos:relatedMatch <http://iconclass.org/11HH(THORLAK)> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1133"^^xsd:long .
 
 # ── 107/180: Saint Hallvard ──
 ni:st-hallvard a skos:Concept ;
@@ -2047,7 +2236,8 @@ ni:st-hallvard a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Hallvard Vebjørnsson (c. 1020–1043), patron saint of Oslo. Killed while defending a woman accused of theft. Depicted with millstones, arrows, and the woman he tried to save. His image appears on Oslo's coat of arms."@en ;
     skos:broader ni:nordic-saints ;
-    skos:relatedMatch <http://iconclass.org/11HH(HALLVARD)> .
+    skos:relatedMatch <http://iconclass.org/11HH(HALLVARD)> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1020"^^xsd:long .
 
 # ── 108/180: Saint Ansgar ──
 ni:st-ansgar a skos:Concept ;
@@ -2064,7 +2254,8 @@ ni:st-ansgar a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Ansgar of Bremen (801–865), the 'Apostle of the North', Frankish missionary who brought Christianity to Scandinavia. Founded the first Christian churches in Hedeby and Birka. Patron saint of Scandinavia."@en ;
     skos:broader ni:nordic-saints ;
-    skos:relatedMatch <http://iconclass.org/11HH(ANSGAR)> .
+    skos:relatedMatch <http://iconclass.org/11HH(ANSGAR)> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "801"^^xsd:long .
 
 # ── 109/180: Golden altarpieces (Nordic) ──
 ni:golden-altarpiece a skos:Concept ;
@@ -2080,7 +2271,9 @@ ni:golden-altarpiece a skos:Concept ;
     skos:prefLabel "Gyllene altarskåp"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Richly gilded altar frontals and retables from the medieval period, including the famous golden altarpieces of Scandinavia such as those from Broddetorp, Tamdrup, and Lisbjerg in Denmark."@en ;
-    skos:broader ni:nordic-church-art .
+    skos:broader ni:nordic-church-art ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1050"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1300"^^xsd:long .
 
 # ── 110/180: Votive ship (church) ──
 ni:church-ship-model a skos:Concept ;
@@ -2096,7 +2289,8 @@ ni:church-ship-model a skos:Concept ;
     skos:prefLabel "Kyrkoskepp (votivskeppp)"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Model ships hung from the ceilings of Nordic churches, particularly common in Denmark, as votive offerings for safe voyages. A distinctive feature of Scandinavian church interiors from the 15th century onward."@en ;
-    skos:broader ni:nordic-church-art .
+    skos:broader ni:nordic-church-art ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1400"^^xsd:long .
 
 # ── 111/180: Nordic folk art motifs ──
 ni:nordic-folk-motifs a skos:Concept ;
@@ -2111,7 +2305,8 @@ ni:nordic-folk-motifs a skos:Concept ;
     skos:prefLabel "Nordiske folkekunstmotiver"@nb ;
     skos:prefLabel "Nordiska folkkonst-motiv"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
-    skos:definition "Decorative and symbolic motifs found in Nordic folk art traditions including painting, carving, weaving, and metalwork from the 17th through 20th centuries."@en .
+    skos:definition "Decorative and symbolic motifs found in Nordic folk art traditions including painting, carving, weaving, and metalwork from the 17th through 20th centuries."@en ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1500"^^xsd:long .
 
 # ── 112/180: Nordic folk beings ──
 ni:nordic-folk-beings a skos:Concept ;
@@ -2126,7 +2321,8 @@ ni:nordic-folk-beings a skos:Concept ;
     skos:prefLabel "Nordiske folkevesener"@nb ;
     skos:prefLabel "Nordiska folkväsen"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
-    skos:definition "Supernatural creatures and beings from Nordic folk belief and tradition, appearing in stories, art, and cultural practice across Scandinavia."@en .
+    skos:definition "Supernatural creatures and beings from Nordic folk belief and tradition, appearing in stories, art, and cultural practice across Scandinavia."@en ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-500"^^xsd:long .
 
 # ── 113/180: Viking Age art styles ──
 ni:viking-art-styles a skos:Concept ;
@@ -2142,7 +2338,9 @@ ni:viking-art-styles a skos:Concept ;
     skos:prefLabel "Vikingatidens konststilar"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "The succession of decorative art styles used in Scandinavian art during the Viking Age (c. 750–1100 CE), characterized by animal ornament, interlace, and stylized zoomorphic forms on metalwork, wood, and stone."@en ;
-    skos:closeMatch <http://vocab.getty.edu/aat/300020056> .
+    skos:closeMatch <http://vocab.getty.edu/aat/300020056> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "750"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1150"^^xsd:long .
 
 # ── 114/180: Kurbits painting ──
 ni:kurbits a skos:Concept ;
@@ -2158,7 +2356,8 @@ ni:kurbits a skos:Concept ;
     skos:prefLabel "Kurbitsmålning"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "A Swedish folk painting tradition from Dalarna featuring fantastical flower motifs, originating in the 18th century. Named after the gourd (Hebrew: qiqayon) from the Book of Jonah. Used to decorate furniture, walls, and household objects."@en ;
-    skos:broader ni:nordic-folk-motifs .
+    skos:broader ni:nordic-folk-motifs ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1700"^^xsd:long .
 
 # ── 115/180: Rosemaling ──
 ni:rosemaling a skos:Concept ;
@@ -2175,7 +2374,8 @@ ni:rosemaling a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "A Norwegian decorative folk painting tradition featuring stylized floral motifs, scrollwork, and acanthus-inspired designs. Regional styles include Telemark, Hallingdal, Rogaland, and Vest-Agder. Flourished from the 18th to 19th century."@en ;
     skos:broader ni:nordic-folk-motifs ;
-    skos:closeMatch <http://vocab.getty.edu/aat/300265072> .
+    skos:closeMatch <http://vocab.getty.edu/aat/300265072> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1700"^^xsd:long .
 
 # ── 116/180: Dala horse (Dalahäst) ──
 ni:dala-horse a skos:Concept ;
@@ -2191,7 +2391,8 @@ ni:dala-horse a skos:Concept ;
     skos:prefLabel "Dalahäst"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "A traditional carved and painted wooden horse from Dalarna, Sweden, typically painted in bright red with kurbits-style floral harness decorations. Originating in the 17th century as children's toys, now an internationally recognized symbol of Sweden."@en ;
-    skos:broader ni:nordic-folk-motifs .
+    skos:broader ni:nordic-folk-motifs ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1600"^^xsd:long .
 
 # ── 117/180: Nisse / Tomte ──
 ni:nisse-tomte a skos:Concept ;
@@ -2210,7 +2411,8 @@ ni:nisse-tomte a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "A small, bearded supernatural being in Scandinavian folklore associated with farms and homesteads. Protects the farm and its animals if treated with respect and given a bowl of porridge on Christmas Eve. Evolved into the Nordic Christmas gift-bringer."@en ;
     skos:broader ni:nordic-folk-beings ;
-    skos:relatedMatch <http://iconclass.org/25FF(NISSE)> .
+    skos:relatedMatch <http://iconclass.org/25FF(NISSE)> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-500"^^xsd:long .
 
 # ── 118/180: Troll ──
 ni:troll a skos:Concept ;
@@ -2232,7 +2434,8 @@ ni:troll a skos:Concept ;
     skos:definition "Supernatural beings in Nordic folklore, ranging from small forest creatures to enormous mountain giants. They are slow-witted, fear thunder and church bells, and turn to stone in sunlight. Popularized in modern art by Theodor Kittelsen and John Bauer."@en ;
     skos:broader ni:nordic-folk-beings ;
     skos:closeMatch <http://vocab.getty.edu/aat/300379878> ;
-    skos:relatedMatch <http://iconclass.org/25FF(TROLL)> .
+    skos:relatedMatch <http://iconclass.org/25FF(TROLL)> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-500"^^xsd:long .
 
 # ── 119/180: Huldra / Skogsrå ──
 ni:huldra a skos:Concept ;
@@ -2249,7 +2452,8 @@ ni:huldra a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "A seductive forest spirit in Scandinavian folklore, appearing as a beautiful woman with a cow's tail (or fox tail in some traditions) and a hollow back. She lures men into the forest, sometimes to their doom, sometimes to marriage."@en ;
     skos:broader ni:nordic-folk-beings ;
-    skos:relatedMatch <http://iconclass.org/25FF(HULDRA)> .
+    skos:relatedMatch <http://iconclass.org/25FF(HULDRA)> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-500"^^xsd:long .
 
 # ── 120/180: Näcken (water spirit) ──
 ni:nacken a skos:Concept ;
@@ -2268,7 +2472,8 @@ ni:nacken a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "A male water spirit in Scandinavian folklore who plays enchanting violin music by streams and waterfalls, luring listeners into the water. Often depicted as a naked young man playing the fiddle. Can teach mortals to play if given the right offering."@en ;
     skos:broader ni:nordic-folk-beings ;
-    skos:relatedMatch <http://iconclass.org/25FF(NÄCKEN)> .
+    skos:relatedMatch <http://iconclass.org/25FF(NÄCKEN)> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-500"^^xsd:long .
 
 # ── 121/180: Maypole (Midsommarstång) ──
 ni:maypole a skos:Concept ;
@@ -2285,7 +2490,8 @@ ni:maypole a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "A decorated pole erected for Midsummer celebrations in Sweden, covered with greenery and flowers, often with two cross-arms creating a distinctive shape. Dancing around the maypole is central to Swedish Midsummer tradition."@en ;
     skos:broader ni:nordic-folk-motifs ;
-    skos:closeMatch <http://vocab.getty.edu/aat/300006074> .
+    skos:closeMatch <http://vocab.getty.edu/aat/300006074> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1500"^^xsd:long .
 
 # ── 122/180: Julbock (Yule goat) ──
 ni:julbock a skos:Concept ;
@@ -2301,7 +2507,8 @@ ni:julbock a skos:Concept ;
     skos:prefLabel "Julbock"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "A straw goat figure associated with Nordic Christmas traditions, originally connected to the Norse god Thor whose chariot was pulled by goats. The Yule goat was the original Christmas gift-bringer in Scandinavia before being replaced by the tomte/nisse."@en ;
-    skos:broader ni:nordic-folk-motifs .
+    skos:broader ni:nordic-folk-motifs ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long .
 
 # ── 123/180: Viking ship motif ──
 ni:viking-ship-motif a skos:Concept ;
@@ -2318,7 +2525,8 @@ ni:viking-ship-motif a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "The iconic longship as depicted in Nordic art from rune stones to modern design. The dragon-headed prow, clinker-built hull, and square sail appear on picture stones, textiles, and carved objects throughout Scandinavia."@en ;
     skos:broader ni:nordic-folk-motifs ;
-    skos:closeMatch <http://vocab.getty.edu/aat/300258743> .
+    skos:closeMatch <http://vocab.getty.edu/aat/300258743> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "750"^^xsd:long .
 
 # ── 124/180: Rune stone ornament ──
 ni:rune-stone-ornament a skos:Concept ;
@@ -2335,7 +2543,9 @@ ni:rune-stone-ornament a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Decorative patterns on Viking Age and medieval rune stones, typically featuring serpentine rune bands, animal ornament, crosses, and narrative scenes. Over 3,000 rune stones survive in Sweden alone."@en ;
     skos:broader ni:nordic-folk-motifs ;
-    skos:closeMatch <http://vocab.getty.edu/aat/300047741> .
+    skos:closeMatch <http://vocab.getty.edu/aat/300047741> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "400"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 125/180: Oseberg style ──
 ni:oseberg-style a skos:Concept ;
@@ -2351,7 +2561,9 @@ ni:oseberg-style a skos:Concept ;
     skos:prefLabel "Osebergstilen"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "The earliest Viking Age art style (c. 775–875), named after the Oseberg ship burial in Norway. Features gripping beasts — small animal figures grasping the borders around them — creating dense, carpet-like compositions."@en ;
-    skos:broader ni:viking-art-styles .
+    skos:broader ni:viking-art-styles ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "775"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "875"^^xsd:long .
 
 # ── 126/180: Borre style ──
 ni:borre-style a skos:Concept ;
@@ -2367,7 +2579,9 @@ ni:borre-style a skos:Concept ;
     skos:prefLabel "Borrestilen"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Viking Age art style (c. 850–950) named after finds from the Borre ship burial mound in Vestfold, Norway. Characterized by ring-chain interlace, gripping beasts, and backward-looking animal heads. Widespread across the Viking world."@en ;
-    skos:broader ni:viking-art-styles .
+    skos:broader ni:viking-art-styles ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "850"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "950"^^xsd:long .
 
 # ── 127/180: Jelling style ──
 ni:jelling-style a skos:Concept ;
@@ -2383,7 +2597,9 @@ ni:jelling-style a skos:Concept ;
     skos:prefLabel "Jellingstilen"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Viking Age art style (c. 900–975) named after the Jelling royal monuments in Denmark. Features S-shaped ribbon animals with open interlace, pigtail-like extensions, and head seen in profile. Prominent on the Jelling cup and smaller Jelling stone."@en ;
-    skos:broader ni:viking-art-styles .
+    skos:broader ni:viking-art-styles ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "900"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "975"^^xsd:long .
 
 # ── 128/180: Mammen style ──
 ni:mammen-style a skos:Concept ;
@@ -2399,7 +2615,9 @@ ni:mammen-style a skos:Concept ;
     skos:prefLabel "Mammenstilen"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Viking Age art style (c. 960–1020) named after a decorated axe head from Mammen, Jutland. Features bold, semi-naturalistic animals with double-contoured bodies filled with pelleting and plant tendrils. The great beast on the Jelling stone is Mammen style."@en ;
-    skos:broader ni:viking-art-styles .
+    skos:broader ni:viking-art-styles ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "960"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1020"^^xsd:long .
 
 # ── 129/180: Ringerike style ──
 ni:ringerike-style a skos:Concept ;
@@ -2415,7 +2633,9 @@ ni:ringerike-style a skos:Concept ;
     skos:prefLabel "Ringerikestilen"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Viking Age art style (c. 1000–1075) named after sandstone carvings from Ringerike, Norway. Characterized by great beasts, snakes, and elaborate foliage tendrils. Shows influence from Anglo-Saxon Winchester style and Ottoman art."@en ;
-    skos:broader ni:viking-art-styles .
+    skos:broader ni:viking-art-styles ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1000"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1075"^^xsd:long .
 
 # ── 130/180: Urnes style ──
 ni:urnes-style a skos:Concept ;
@@ -2431,7 +2651,9 @@ ni:urnes-style a skos:Concept ;
     skos:prefLabel "Urnesstilen"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "The last Viking Age art style (c. 1050–1150), named after the carved wooden panels of Urnes stave church in Sogn, Norway. Features elegant, asymmetrical animal interlace with figure-eight loops and extremely attenuated animal forms. Bridges into Romanesque art."@en ;
-    skos:broader ni:viking-art-styles .
+    skos:broader ni:viking-art-styles ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1050"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1150"^^xsd:long .
 
 # ── 131/180: Gripping beast style ──
 ni:gripping-beast a skos:Concept ;
@@ -2447,7 +2669,9 @@ ni:gripping-beast a skos:Concept ;
     skos:prefLabel "Gripdjurstilen"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "A defining motif of Viking Age art: small, compact animal figures whose paws grip the borders of the composition, adjacent beasts, or their own bodies. First appearing in the Oseberg style and persisting through several later phases."@en ;
-    skos:broader ni:viking-art-styles .
+    skos:broader ni:viking-art-styles ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "775"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 132/180: Ryijy (Finnish textile) ──
 ni:ryijy a skos:Concept ;
@@ -2463,7 +2687,8 @@ ni:ryijy a skos:Concept ;
     skos:prefLabel "Rya"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "A traditional Nordic knotted-pile textile originally used as a bed covering and later as a wall hanging. Finnish ryijy rugs developed into an important art form with distinctive geometric and floral patterns. Swedish rya rugs share a related tradition."@en ;
-    skos:broader ni:nordic-folk-motifs .
+    skos:broader ni:nordic-folk-motifs ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1500"^^xsd:long .
 
 # ── 133/180: Bunad (Norwegian costume) ──
 ni:bunad a skos:Concept ;
@@ -2479,7 +2704,8 @@ ni:bunad a skos:Concept ;
     skos:prefLabel "Bunad (norsk folkdräkt)"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Norwegian folk costume worn for festive occasions and national holidays. Each region has distinctive designs with elaborate embroidery, silver jewelry (sølje), and specific color schemes. Modern bunads are based on historical regional dress."@en ;
-    skos:broader ni:nordic-folk-motifs .
+    skos:broader ni:nordic-folk-motifs ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1700"^^xsd:long .
 
 # ── 134/180: Ale bowl / Ölskål ──
 ni:ale-bowl a skos:Concept ;
@@ -2496,7 +2722,8 @@ ni:ale-bowl a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Carved and painted wooden drinking vessels used for communal ale-drinking at Nordic festivals and celebrations. Often decorated with horse heads, dragon motifs, or rosemaling. The Norwegian kjenge (handled ale bowl) is a distinctive form."@en ;
     skos:broader ni:nordic-folk-motifs ;
-    skos:closeMatch <http://vocab.getty.edu/aat/300197729> .
+    skos:closeMatch <http://vocab.getty.edu/aat/300197729> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1500"^^xsd:long .
 
 # ── 135/180: Viking weather vane ──
 ni:weather-vane-viking a skos:Concept ;
@@ -2512,7 +2739,9 @@ ni:weather-vane-viking a skos:Concept ;
     skos:prefLabel "Vikingatida vindflöjel"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Ornate gilt-bronze weather vanes from the Viking Age, originally mounted on ship prows or church gables. Decorated with openwork animal ornament. Surviving examples include vanes from Söderala, Heggen, and Källunge."@en ;
-    skos:broader ni:nordic-folk-motifs .
+    skos:broader ni:nordic-folk-motifs ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "900"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineEnd> "1100"^^xsd:long .
 
 # ── 136/180: Nordic Seasonal and Cultural Subjects ──
 ni:nordic-seasons a skos:Concept ;
@@ -2527,7 +2756,8 @@ ni:nordic-seasons a skos:Concept ;
     skos:prefLabel "Nordiske sesong- og kulturmotiver"@nb ;
     skos:prefLabel "Nordiska säsongs- och kulturmotiv"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
-    skos:definition "Seasonal celebrations, traditions, and cultural practices depicted in Nordic art and folk culture."@en .
+    skos:definition "Seasonal celebrations, traditions, and cultural practices depicted in Nordic art and folk culture."@en ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-500"^^xsd:long .
 
 # ── 137/180: Midsummer celebration ──
 ni:midsummer a skos:Concept ;
@@ -2545,7 +2775,8 @@ ni:midsummer a skos:Concept ;
     skos:prefLabel "Midsommarfirande"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Major Nordic summer solstice celebration featuring maypoles, dancing, flower wreaths, bonfires, and feasting, one of the most depicted seasonal subjects in Nordic art."@en ;
-    skos:broader ni:nordic-seasons .
+    skos:broader ni:nordic-seasons ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-500"^^xsd:long .
 
 # ── 138/180: Saint Lucy's Day / Lucia ──
 ni:lucia a skos:Concept ;
@@ -2563,7 +2794,8 @@ ni:lucia a skos:Concept ;
     skos:prefLabel "Luciadagen"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "December 13th celebration particularly prominent in Sweden, featuring a procession led by a girl wearing a crown of candles, singing traditional songs."@en ;
-    skos:broader ni:nordic-seasons .
+    skos:broader ni:nordic-seasons ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1700"^^xsd:long .
 
 # ── 139/180: Nordic Christmas / Jul ──
 ni:nordic-jul a skos:Concept ;
@@ -2581,7 +2813,8 @@ ni:nordic-jul a skos:Concept ;
     skos:prefLabel "Jul"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Nordic Christmas traditions blending Christian observance with pre-Christian Yule customs, depicted through scenes of celebrations, decorations, and seasonal activities."@en ;
-    skos:broader ni:nordic-seasons .
+    skos:broader ni:nordic-seasons ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-500"^^xsd:long .
 
 # ── 140/180: Walpurgis Night / Valborg ──
 ni:valborg a skos:Concept ;
@@ -2597,7 +2830,8 @@ ni:valborg a skos:Concept ;
     skos:prefLabel "Valborgsmässoafton"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "April 30th celebration marking the arrival of spring with bonfires, singing, and student festivities, particularly significant in Sweden and Finland."@en ;
-    skos:broader ni:nordic-seasons .
+    skos:broader ni:nordic-seasons ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1700"^^xsd:long .
 
 # ── 141/180: Easter witches ──
 ni:easter-witches a skos:Concept ;
@@ -2613,7 +2847,8 @@ ni:easter-witches a skos:Concept ;
     skos:prefLabel "Påskkärringar"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Nordic Easter tradition where children dress as witches and go door-to-door exchanging willow twigs for treats, particularly in Finland and Sweden."@en ;
-    skos:broader ni:nordic-seasons .
+    skos:broader ni:nordic-seasons ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1600"^^xsd:long .
 
 # ── 142/180: Crayfish party ──
 ni:crayfish-party a skos:Concept ;
@@ -2629,7 +2864,8 @@ ni:crayfish-party a skos:Concept ;
     skos:prefLabel "Kräftskiva"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Traditional late-summer Swedish festivity centered around eating freshwater crayfish, with decorations of paper lanterns and singing of drinking songs (snapsvisor)."@en ;
-    skos:broader ni:nordic-seasons .
+    skos:broader ni:nordic-seasons ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1500"^^xsd:long .
 
 # ── 143/180: Sámi National Day ──
 ni:sami-national-day a skos:Concept ;
@@ -2647,7 +2883,8 @@ ni:sami-national-day a skos:Concept ;
     skos:prefLabel "Samernas nationaldag"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "February 6th celebration of Sámi culture and identity across the Nordic countries, commemorating the first pan-Sámi congress in 1917."@en ;
-    skos:broader ni:nordic-seasons .
+    skos:broader ni:nordic-seasons ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1917"^^xsd:long .
 
 # ── 144/180: Finnish sauna ──
 ni:finnish-sauna a skos:Concept ;
@@ -2663,7 +2900,8 @@ ni:finnish-sauna a skos:Concept ;
     skos:prefLabel "Finsk bastu"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Central Finnish cultural institution and social ritual, depicted in art from folk paintings to contemporary works, representing purification, community, and Finnish identity."@en ;
-    skos:broader ni:nordic-seasons .
+    skos:broader ni:nordic-seasons ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-2000"^^xsd:long .
 
 # ── 145/180: Norwegian Constitution Day ──
 ni:norwegian-constitution-day a skos:Concept ;
@@ -2679,7 +2917,8 @@ ni:norwegian-constitution-day a skos:Concept ;
     skos:prefLabel "Norges nationaldag"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "May 17th national celebration of Norway's 1814 constitution, featuring children's parades, folk costumes (bunad), and festive gatherings, widely depicted in Norwegian art."@en ;
-    skos:broader ni:nordic-seasons .
+    skos:broader ni:nordic-seasons ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1814"^^xsd:long .
 
 # ── 146/180: Þorrablót ──
 ni:icelandic-thorrablot a skos:Concept ;
@@ -2697,7 +2936,8 @@ ni:icelandic-thorrablot a skos:Concept ;
     skos:prefLabel "Torrablot"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Icelandic midwinter festival revived in the 19th century, featuring traditional foods and celebrating Old Norse heritage."@en ;
-    skos:broader ni:nordic-seasons .
+    skos:broader ni:nordic-seasons ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-800"^^xsd:long .
 
 # ── 147/180: Danish Fastelavn ──
 ni:danish-fastelavn a skos:Concept ;
@@ -2713,7 +2953,8 @@ ni:danish-fastelavn a skos:Concept ;
     skos:prefLabel "Fastlagen"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Scandinavian carnival celebration before Lent, featuring children in costumes hitting a barrel to release candy, and eating cream-filled buns (fastelavnsboller)."@en ;
-    skos:broader ni:nordic-seasons .
+    skos:broader ni:nordic-seasons ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1400"^^xsd:long .
 
 # ── 148/180: Nordic harvest traditions ──
 ni:nordic-harvest a skos:Concept ;
@@ -2729,7 +2970,8 @@ ni:nordic-harvest a skos:Concept ;
     skos:prefLabel "Nordiska skördetraditioner"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Agricultural harvest celebrations depicted in Nordic art, including grain harvesting, hay-making, and autumn feasts."@en ;
-    skos:broader ni:nordic-seasons .
+    skos:broader ni:nordic-seasons ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-3000"^^xsd:long .
 
 # ── 149/180: Mårten Gås / St. Martin's Day goose ──
 ni:marten-goose a skos:Concept ;
@@ -2745,7 +2987,8 @@ ni:marten-goose a skos:Concept ;
     skos:prefLabel "Mårten Gås"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "November 11th feast day tradition of eating roasted goose, particularly strong in southern Sweden (Skåne) and Denmark."@en ;
-    skos:broader ni:nordic-seasons .
+    skos:broader ni:nordic-seasons ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1100"^^xsd:long .
 
 # ── 150/180: Icelandic National Day ──
 ni:icelandic-independence-day a skos:Concept ;
@@ -2763,7 +3006,8 @@ ni:icelandic-independence-day a skos:Concept ;
     skos:prefLabel "Islands nationaldag"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "June 17th celebration of Icelandic independence, commemorating the founding of the Republic of Iceland in 1944 and the birthday of independence leader Jón Sigurðsson."@en ;
-    skos:broader ni:nordic-seasons .
+    skos:broader ni:nordic-seasons ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1944"^^xsd:long .
 
 # ── 151/180: Finnish Independence Day ──
 ni:finnish-independence-day a skos:Concept ;
@@ -2779,7 +3023,8 @@ ni:finnish-independence-day a skos:Concept ;
     skos:prefLabel "Finlands självständighetsdag"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "December 6th celebration of Finland's independence from Russia in 1917, marked by solemn ceremonies, candles in windows, and the Presidential Independence Day reception."@en ;
-    skos:broader ni:nordic-seasons .
+    skos:broader ni:nordic-seasons ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1917"^^xsd:long .
 
 # ── 152/180: Swedish Midsommar ──
 ni:swedish-midsommar a skos:Concept ;
@@ -2795,7 +3040,8 @@ ni:swedish-midsommar a skos:Concept ;
     skos:prefLabel "Midsommar"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "The quintessential Swedish celebration on the Friday closest to the summer solstice, featuring raising and dancing around the maypole, flower wreaths, strawberries, herring, and singing drinking songs."@en ;
-    skos:broader ni:nordic-seasons .
+    skos:broader ni:nordic-seasons ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-500"^^xsd:long .
 
 # ── 153/180: Nordic Advent traditions ──
 ni:nordic-advent a skos:Concept ;
@@ -2811,7 +3057,8 @@ ni:nordic-advent a skos:Concept ;
     skos:prefLabel "Adventsljusstake"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Nordic Advent customs including the Advent candlestick (adventsljusstake) in windows, Advent calendars, and the progressive lighting of four candles on successive Sundays before Christmas."@en ;
-    skos:broader ni:nordic-seasons .
+    skos:broader ni:nordic-seasons ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1100"^^xsd:long .
 
 # ── 154/180: Kaamos / Polar night ──
 ni:kaamos a skos:Concept ;
@@ -2829,7 +3076,8 @@ ni:kaamos a skos:Concept ;
     skos:prefLabel "Mörketid"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "The period of polar night in the Arctic when the sun does not rise above the horizon. In Finnish Lapland, kaamos lasts from late November to mid-January. A subject of contemplative art exploring darkness and inner light."@en ;
-    skos:broader ni:nordic-seasons .
+    skos:broader ni:nordic-seasons ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-10000"^^xsd:long .
 
 # ── 155/180: Russefeiring (Norwegian graduation) ──
 ni:russefeiring a skos:Concept ;
@@ -2845,7 +3093,8 @@ ni:russefeiring a skos:Concept ;
     skos:prefLabel "Studentexamen"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Norwegian high school graduation celebration where students wear colored overalls (russedress) and participate in festivities during May, culminating on Constitution Day (May 17th)."@en ;
-    skos:broader ni:nordic-seasons .
+    skos:broader ni:nordic-seasons ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "1905"^^xsd:long .
 
 # ── 156/180: Nordic nature and landscape ──
 ni:nordic-nature a skos:Concept ;
@@ -2862,7 +3111,8 @@ ni:nordic-nature a skos:Concept ;
     skos:prefLabel "Nordisk natur og landskap"@nb ;
     skos:prefLabel "Nordisk natur och landskap"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
-    skos:definition "Natural phenomena, landscapes, and environmental subjects characteristic of the Nordic countries, frequently depicted in Scandinavian and Finnish art from Romanticism to the present."@en .
+    skos:definition "Natural phenomena, landscapes, and environmental subjects characteristic of the Nordic countries, frequently depicted in Scandinavian and Finnish art from Romanticism to the present."@en ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-10000"^^xsd:long .
 
 # ── 157/180: Nordic light phenomena ──
 ni:nordic-light a skos:Concept ;
@@ -2878,7 +3128,8 @@ ni:nordic-light a skos:Concept ;
     skos:prefLabel "Nordiska ljusfenomen"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Atmospheric and celestial light phenomena characteristic of high-latitude Nordic regions, central subjects in Nordic landscape painting and photography."@en ;
-    skos:broader ni:nordic-nature .
+    skos:broader ni:nordic-nature ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-10000"^^xsd:long .
 
 # ── 158/180: Nordic terrain and landforms ──
 ni:nordic-terrain a skos:Concept ;
@@ -2894,7 +3145,8 @@ ni:nordic-terrain a skos:Concept ;
     skos:prefLabel "Nordiska terrängformer"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Distinctive geological and geographical landforms of the Nordic countries, shaped by glaciation, volcanism, and coastal processes."@en ;
-    skos:broader ni:nordic-nature .
+    skos:broader ni:nordic-nature ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-10000"^^xsd:long .
 
 # ── 159/180: Midnight sun ──
 ni:midnight-sun a skos:Concept ;
@@ -2913,7 +3165,8 @@ ni:midnight-sun a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Natural phenomenon occurring above the Arctic Circle where the sun remains visible at midnight during summer months. A defining subject of Nordic landscape art, painted by artists from Peder Balke to contemporary photographers."@en ;
     skos:broader ni:nordic-light ;
-    skos:closeMatch <http://vocab.getty.edu/aat/300264567> .
+    skos:closeMatch <http://vocab.getty.edu/aat/300264567> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-10000"^^xsd:long .
 
 # ── 160/180: Aurora borealis / Northern lights ──
 ni:aurora-borealis a skos:Concept ;
@@ -2934,7 +3187,8 @@ ni:aurora-borealis a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Luminous atmospheric phenomenon caused by charged solar particles interacting with Earth's magnetic field, producing curtains and arcs of green, purple, and red light. In Finnish folklore, 'revontulet' means fox fires."@en ;
     skos:broader ni:nordic-light ;
-    skos:closeMatch <http://vocab.getty.edu/aat/300264566> .
+    skos:closeMatch <http://vocab.getty.edu/aat/300264566> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-10000"^^xsd:long .
 
 # ── 161/180: Nordic winter light ──
 ni:nordic-winter-light a skos:Concept ;
@@ -2950,7 +3204,8 @@ ni:nordic-winter-light a skos:Concept ;
     skos:prefLabel "Nordiskt vinterljus"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "The characteristic low-angle, blue-toned light of Nordic winter, including the polar twilight (mørketid/kaamos) and the brief golden hours of midwinter days. A central atmospheric quality in Scandinavian painting."@en ;
-    skos:broader ni:nordic-light .
+    skos:broader ni:nordic-light ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-10000"^^xsd:long .
 
 # ── 162/180: Nordic summer light ──
 ni:nordic-summer-light a skos:Concept ;
@@ -2966,7 +3221,8 @@ ni:nordic-summer-light a skos:Concept ;
     skos:prefLabel "Nordiskt sommarljus"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "The extended daylight and luminous quality of Nordic summer nights, from the white nights of southern Scandinavia to the midnight sun above the Arctic Circle. Celebrated in art from the Skagen painters to contemporary works."@en ;
-    skos:broader ni:nordic-light .
+    skos:broader ni:nordic-light ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-10000"^^xsd:long .
 
 # ── 163/180: Fjord ──
 ni:fjord a skos:Concept ;
@@ -2985,7 +3241,8 @@ ni:fjord a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "A long, narrow, deep inlet of the sea between high cliffs, formed by glacial erosion. Particularly characteristic of the Norwegian coast but also found in Iceland, Greenland, and western Sweden. Among the most iconic Nordic landscape subjects."@en ;
     skos:broader ni:nordic-terrain ;
-    skos:closeMatch <http://vocab.getty.edu/aat/300008745> .
+    skos:closeMatch <http://vocab.getty.edu/aat/300008745> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-10000"^^xsd:long .
 
 # ── 164/180: Archipelago ──
 ni:archipelago a skos:Concept ;
@@ -3001,7 +3258,8 @@ ni:archipelago a skos:Concept ;
     skos:prefLabel "Skärgård"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Chains of islands and skerries along the Nordic coasts, particularly the Stockholm, Finnish, and Turku archipelagos. Comprising thousands of rocky islands of varying sizes, the archipelago landscape is central to Swedish and Finnish coastal culture and art."@en ;
-    skos:broader ni:nordic-terrain .
+    skos:broader ni:nordic-terrain ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-10000"^^xsd:long .
 
 # ── 165/180: Forest lake ──
 ni:forest-lake a skos:Concept ;
@@ -3017,7 +3275,8 @@ ni:forest-lake a skos:Concept ;
     skos:prefLabel "Skogstjärn"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Still inland lakes surrounded by boreal forest, characteristic of the Finnish and Swedish lake districts. Finland alone has over 187,000 lakes. A quintessential motif in Finnish and Scandinavian landscape painting."@en ;
-    skos:broader ni:nordic-terrain .
+    skos:broader ni:nordic-terrain ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-10000"^^xsd:long .
 
 # ── 166/180: Waterfall ──
 ni:waterfall a skos:Concept ;
@@ -3036,7 +3295,8 @@ ni:waterfall a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Cascading water features common across the Nordic landscape, from Norway's dramatic mountain falls to Iceland's glacial cataracts. Subject of Romantic-era painters including J.C. Dahl and Peder Balke."@en ;
     skos:broader ni:nordic-terrain ;
-    skos:closeMatch <http://vocab.getty.edu/aat/300008736> .
+    skos:closeMatch <http://vocab.getty.edu/aat/300008736> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-10000"^^xsd:long .
 
 # ── 167/180: Skerry ──
 ni:skerry a skos:Concept ;
@@ -3054,7 +3314,8 @@ ni:skerry a skos:Concept ;
     skos:prefLabel "Skär"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Small, rocky islands or reefs too small for habitation, formed by glacial scouring. Characteristic of the Nordic coastline, particularly the Swedish and Finnish archipelagos. A frequent subject in Nordic marine painting."@en ;
-    skos:broader ni:nordic-terrain .
+    skos:broader ni:nordic-terrain ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-10000"^^xsd:long .
 
 # ── 168/180: Strandflat ──
 ni:strandflat a skos:Concept ;
@@ -3070,7 +3331,8 @@ ni:strandflat a skos:Concept ;
     skos:prefLabel "Strandflata"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "A distinctive coastal platform of low, flat rock found along the Norwegian coast, formed by frost weathering and wave erosion. Creates a characteristic low-profile coastal landscape dotted with small islands and shoals."@en ;
-    skos:broader ni:nordic-terrain .
+    skos:broader ni:nordic-terrain ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-10000"^^xsd:long .
 
 # ── 169/180: Fjäll / Mountain landscape ──
 ni:fjall a skos:Concept ;
@@ -3088,7 +3350,8 @@ ni:fjall a skos:Concept ;
     skos:prefLabel "Fjäll"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "High mountain terrain above the tree line in Scandinavia, characterized by barren, rounded plateaus with alpine vegetation, snow patches, and wide vistas. The Scandinavian mountain chain (Scandes) forms the spine of the peninsula."@en ;
-    skos:broader ni:nordic-terrain .
+    skos:broader ni:nordic-terrain ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-10000"^^xsd:long .
 
 # ── 170/180: Birch forest ──
 ni:birch-forest a skos:Concept ;
@@ -3106,7 +3369,8 @@ ni:birch-forest a skos:Concept ;
     skos:prefLabel "Björkskog"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Forests dominated by birch trees (Betula), forming the tree line across much of northern Scandinavia and Iceland. The silver birch and downy birch create luminous, airy woodlands celebrated in Nordic art and literature."@en ;
-    skos:broader ni:nordic-terrain .
+    skos:broader ni:nordic-terrain ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-10000"^^xsd:long .
 
 # ── 171/180: Boreal forest / Taiga ──
 ni:boreal-forest a skos:Concept ;
@@ -3122,7 +3386,8 @@ ni:boreal-forest a skos:Concept ;
     skos:prefLabel "Barrskog / Taiga"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "The vast coniferous forests of spruce and pine that cover much of Sweden, Finland, and Norway. The taiga represents one of the world's largest biomes and provides the dominant landscape character of inland Scandinavia and Finland."@en ;
-    skos:broader ni:nordic-terrain .
+    skos:broader ni:nordic-terrain ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-10000"^^xsd:long .
 
 # ── 172/180: Tundra / Fell landscape ──
 ni:tundra-fell a skos:Concept ;
@@ -3138,7 +3403,8 @@ ni:tundra-fell a skos:Concept ;
     skos:prefLabel "Tundra / Fjällandskap"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Treeless Arctic and subarctic landscapes with permafrost, lichens, mosses, and dwarf shrubs. Found in northernmost Scandinavia, Iceland, and Svalbard. Sámi reindeer herding grounds for millennia."@en ;
-    skos:broader ni:nordic-terrain .
+    skos:broader ni:nordic-terrain ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-10000"^^xsd:long .
 
 # ── 173/180: Bog / Mire ──
 ni:bog-mire a skos:Concept ;
@@ -3154,7 +3420,8 @@ ni:bog-mire a skos:Concept ;
     skos:prefLabel "Myr / Mosse"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Peatland wetlands prevalent across Scandinavia and Finland, from raised bogs to aapa mires. Finland is one of the most mire-rich countries in the world. Bogs have preserved Viking Age and Iron Age artifacts and bog bodies."@en ;
-    skos:broader ni:nordic-terrain .
+    skos:broader ni:nordic-terrain ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-10000"^^xsd:long .
 
 # ── 174/180: Coastal cliff ──
 ni:coastal-cliff a skos:Concept ;
@@ -3172,7 +3439,8 @@ ni:coastal-cliff a skos:Concept ;
     skos:prefLabel "Strandklippa"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Dramatic sea cliffs found along Nordic coastlines, from the North Cape of Norway to the bird cliffs of Iceland and the Faroe Islands. Subject of sublime Romantic landscape painting by artists such as Peder Balke."@en ;
-    skos:broader ni:nordic-terrain .
+    skos:broader ni:nordic-terrain ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-10000"^^xsd:long .
 
 # ── 175/180: Arctic ice ──
 ni:arctic-ice a skos:Concept ;
@@ -3190,7 +3458,8 @@ ni:arctic-ice a skos:Concept ;
     skos:prefLabel "Arktisk is"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Sea ice, icebergs, glaciers, and frozen landscapes of the Arctic regions connected to Nordic countries, including Svalbard, Greenland, and northern Iceland. A subject of exploration art and contemporary climate-focused works."@en ;
-    skos:broader ni:nordic-terrain .
+    skos:broader ni:nordic-terrain ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-10000"^^xsd:long .
 
 # ── 176/180: Glacier ──
 ni:glacier a skos:Concept ;
@@ -3209,7 +3478,8 @@ ni:glacier a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Ice masses found in Norway (Jostedalsbreen), Iceland (Vatnajökull), and Svalbard. Glaciers have shaped the entire Nordic landscape through repeated ice ages and remain iconic subjects in Nordic nature art."@en ;
     skos:broader ni:nordic-terrain ;
-    skos:closeMatch <http://vocab.getty.edu/aat/300008746> .
+    skos:closeMatch <http://vocab.getty.edu/aat/300008746> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-10000"^^xsd:long .
 
 # ── 177/180: Volcanic landscape ──
 ni:volcanic-landscape a skos:Concept ;
@@ -3227,7 +3497,8 @@ ni:volcanic-landscape a skos:Concept ;
     skos:prefLabel "Vulkaniskt landskap"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Landscapes shaped by volcanic activity, particularly in Iceland with its lava fields, geysers, hot springs, and active volcanoes. Iceland's volcanic terrain has inspired artists from the saga writers to contemporary photographers."@en ;
-    skos:broader ni:nordic-terrain .
+    skos:broader ni:nordic-terrain ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-10000"^^xsd:long .
 
 # ── 178/180: Geyser ──
 ni:geyser a skos:Concept ;
@@ -3246,7 +3517,8 @@ ni:geyser a skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Hot springs that periodically erupt with columns of hot water and steam. The word derives from Geysir, the Great Geyser in Iceland's Haukadalur valley. A subject of wonder in travel art and natural history illustration since the 18th century."@en ;
     skos:broader ni:nordic-terrain ;
-    skos:closeMatch <http://vocab.getty.edu/aat/300008744> .
+    skos:closeMatch <http://vocab.getty.edu/aat/300008744> ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-10000"^^xsd:long .
 
 # ── 179/180: Moraine landscape ──
 ni:moraine-landscape a skos:Concept ;
@@ -3262,7 +3534,8 @@ ni:moraine-landscape a skos:Concept ;
     skos:prefLabel "Morän-landskap"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Landscapes shaped by glacial deposits including drumlins, eskers, and terminal moraines. Characteristic of the south-Scandinavian and Finnish lowlands, forming rolling terrain, lake-dotted plains, and the distinctive Finnish ridge systems (harjut)."@en ;
-    skos:broader ni:nordic-terrain .
+    skos:broader ni:nordic-terrain ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-10000"^^xsd:long .
 
 # ── 180/180: Sea stack (Rauk) ──
 ni:sea-stack a skos:Concept ;
@@ -3280,4 +3553,5 @@ ni:sea-stack a skos:Concept ;
     skos:prefLabel "Rauk"@sv ;
     skos:inScheme <https://metadatahub.eu/data/nordic-iconography> ;
     skos:definition "Eroded limestone pillars standing in the sea or along coastlines, particularly abundant on Gotland and Fårö in Sweden. The raukar of Gotland are iconic geological features and have inspired artists and filmmakers including Ingmar Bergman."@en ;
-    skos:broader ni:nordic-terrain .
+    skos:broader ni:nordic-terrain ;
+    <https://metadatahub.eu/data/nordic-iconography/ontology/timelineStart> "-10000"^^xsd:long .

@@ -15,8 +15,11 @@
 #
 # Optional fields:
 #
-#   broader:     ID of the parent/broader movement (omit if none)
-#   aat_uri:     URI linking to Getty Art & Architecture Thesaurus
+#   broader:        ID of the parent/broader movement (omit if none)
+#   aat_uri:        URI linking to Getty Art & Architecture Thesaurus
+#   timeline_start: Start year of the movement (integer). Negative = BCE, positive = CE.
+#   timeline_end:   End year of the movement (integer). Negative = BCE, positive = CE.
+#                   Use null or omit for ongoing movements.
 #
 # Language codes follow ISO 639:
 #   en = English, sv = Swedish, da = Danish, nb = Norwegian Bokmål,

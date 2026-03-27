@@ -3,6 +3,8 @@
 # ── Top-level category ──
 
 - id: kalevala-characters
+  timeline_start: -1000
+  timeline_end: 1849
   labels:
     en: Kalevala characters
     sv: Kalevala-gestalter
@@ -12,6 +14,8 @@
   description: "Characters from the Finnish national epic Kalevala, compiled by Elias Lönnrot from Finnish and Karelian oral folklore and first published in 1835."
 
 - id: kalevala-concepts
+  timeline_start: -1000
+  timeline_end: 1849
   labels:
     en: Kalevala concepts and objects
     sv: Kalevala-föremål och begrepp
@@ -21,6 +25,8 @@
   description: "Significant objects, places, and concepts from the Finnish national epic Kalevala and related Finnish mythological tradition."
 
 - id: kalevala-scenes
+  timeline_start: -1000
+  timeline_end: 1849
   labels:
     en: Kalevala scenes
     sv: Kalevala-scener
@@ -34,6 +40,8 @@
 - id: vainamoinen
   broader: kalevala-characters
   iconclass: "91E"
+  timeline_start: -1000
+  timeline_end: 1849
   labels:
     en: Väinämöinen
     sv: Väinämöinen
@@ -45,6 +53,8 @@
 - id: ilmarinen
   broader: kalevala-characters
   iconclass: "91E"
+  timeline_start: -1000
+  timeline_end: 1849
   labels:
     en: Ilmarinen
     sv: Ilmarinen
@@ -56,6 +66,8 @@
 - id: lemminkainen
   broader: kalevala-characters
   iconclass: "91E"
+  timeline_start: -1000
+  timeline_end: 1849
   labels:
     en: Lemminkäinen
     sv: Lemminkäinen
@@ -67,6 +79,8 @@
 - id: louhi
   broader: kalevala-characters
   iconclass: "91E"
+  timeline_start: -1000
+  timeline_end: 1849
   labels:
     en: Louhi
     sv: Louhi
@@ -78,6 +92,8 @@
 - id: aino
   broader: kalevala-characters
   iconclass: "91E"
+  timeline_start: -1000
+  timeline_end: 1849
   labels:
     en: Aino
     sv: Aino
@@ -89,6 +105,8 @@
 - id: kullervo
   broader: kalevala-characters
   iconclass: "91E"
+  timeline_start: -1000
+  timeline_end: 1849
   labels:
     en: Kullervo
     sv: Kullervo
@@ -100,6 +118,8 @@
 - id: joukahainen
   broader: kalevala-characters
   iconclass: "91E"
+  timeline_start: -1000
+  timeline_end: 1849
   labels:
     en: Joukahainen
     sv: Joukahainen
@@ -111,6 +131,8 @@
 - id: ilmatar
   broader: kalevala-characters
   iconclass: "91E"
+  timeline_start: -1000
+  timeline_end: 1849
   labels:
     en: Ilmatar
     sv: Ilmatar
@@ -121,6 +143,8 @@
 
 - id: marjatta
   broader: kalevala-characters
+  timeline_start: -1000
+  timeline_end: 1849
   labels:
     en: Marjatta
     sv: Marjatta
@@ -131,6 +155,8 @@
 
 - id: untamo
   broader: kalevala-characters
+  timeline_start: -1000
+  timeline_end: 1849
   labels:
     en: Untamo
     sv: Untamo
@@ -144,6 +170,8 @@
 - id: sampo
   broader: kalevala-concepts
   iconclass: "91E"
+  timeline_start: -1000
+  timeline_end: 1849
   labels:
     en: Sampo
     sv: Sampo
@@ -155,6 +183,7 @@
 - id: kantele
   broader: kalevala-concepts
   iconclass: "91E"
+  timeline_start: -1000
   labels:
     en: Kantele
     sv: Kantele
@@ -166,6 +195,8 @@
 - id: pohjola
   broader: kalevala-concepts
   iconclass: "91E"
+  timeline_start: -1000
+  timeline_end: 1849
   labels:
     en: Pohjola
     sv: Pohjola
@@ -177,6 +208,8 @@
 - id: tuonela
   broader: kalevala-concepts
   iconclass: "91E"
+  timeline_start: -1000
+  timeline_end: 1849
   labels:
     en: Tuonela
     sv: Tuonela
@@ -188,6 +221,8 @@
 - id: kalevala-land
   broader: kalevala-concepts
   iconclass: "91E"
+  timeline_start: -1000
+  timeline_end: 1849
   labels:
     en: Kalevala (land)
     sv: Kalevala (land)
@@ -201,6 +236,8 @@
 - id: forging-of-sampo
   broader: kalevala-scenes
   iconclass: "91E"
+  timeline_start: -1000
+  timeline_end: 1849
   labels:
     en: Forging of the Sampo
     sv: Sampos smidande
@@ -212,6 +249,8 @@
 - id: defense-of-sampo
   broader: kalevala-scenes
   iconclass: "91E"
+  timeline_start: -1000
+  timeline_end: 1849
   labels:
     en: Defense of the Sampo
     sv: Sampos försvar
@@ -223,6 +262,8 @@
 - id: vainamoinen-departure
   broader: kalevala-scenes
   iconclass: "91E"
+  timeline_start: -1000
+  timeline_end: 1849
   labels:
     en: Väinämöinen's departure
     sv: Väinämöinens avfärd
@@ -233,6 +274,8 @@
 
 - id: lemminkainen-resurrection
   broader: kalevala-scenes
+  timeline_start: -1000
+  timeline_end: 1849
   labels:
     en: Resurrection of Lemminkäinen
     sv: Lemminkäinens uppståndelse
@@ -243,6 +286,8 @@
 
 - id: aino-drowning
   broader: kalevala-scenes
+  timeline_start: -1000
+  timeline_end: 1849
   labels:
     en: Drowning of Aino
     sv: Ainos drunkning

@@ -16,6 +16,7 @@
     en: "Painting (K-samsök → DigitaltMuseum)"
     sv: "Målning (K-samsök → DigitaltMuseum)"
   description: "Direct equivalence between Swedish K-samsök and Norwegian/Swedish DigitaltMuseum painting types."
+  timeline_start: -3000
 
 - id: ksamsok-dm-skulptur
   source_system: ksamsok
@@ -31,6 +32,7 @@
     en: "Sculpture (K-samsök → DigitaltMuseum)"
     sv: "Skulptur (K-samsök → DigitaltMuseum)"
   description: "Direct equivalence; identical term in both systems."
+  timeline_start: -8000
 
 - id: ksamsok-dm-teckning
   source_system: ksamsok
@@ -46,6 +48,7 @@
     en: "Drawing (K-samsök → DigitaltMuseum)"
     sv: "Teckning (K-samsök → DigitaltMuseum)"
   description: "Direct equivalence; Swedish 'Teckning' = Norwegian 'Tegning'."
+  timeline_start: -30000
 
 - id: ksamsok-dm-fotografi
   source_system: ksamsok
@@ -61,6 +64,7 @@
     en: "Photograph (K-samsök → DigitaltMuseum)"
     sv: "Fotografi (K-samsök → DigitaltMuseum)"
   description: "Direct equivalence; identical term in both systems."
+  timeline_start: 1839
 
 - id: ksamsok-dm-textil
   source_system: ksamsok
@@ -76,6 +80,7 @@
     en: "Textile (K-samsök → DigitaltMuseum)"
     sv: "Textil (K-samsök → DigitaltMuseum)"
   description: "Direct equivalence; Swedish 'Textil' = Norwegian 'Tekstil'."
+  timeline_start: -6000
 
 - id: ksamsok-dm-mynt
   source_system: ksamsok
@@ -91,6 +96,7 @@
     en: "Coin (K-samsök → DigitaltMuseum)"
     sv: "Mynt (K-samsök → DigitaltMuseum)"
   description: "Direct equivalence; identical term in both systems."
+  timeline_start: -600
 
 - id: ksamsok-dm-keramik
   source_system: ksamsok
@@ -106,6 +112,7 @@
     en: "Ceramic (K-samsök → DigitaltMuseum)"
     sv: "Keramik (K-samsök → DigitaltMuseum)"
   description: "Direct equivalence; Swedish 'Keramik' = Norwegian 'Keramikk'."
+  timeline_start: -5000
 
 - id: ksamsok-dm-mobel
   source_system: ksamsok
@@ -121,6 +128,7 @@
     en: "Furniture (K-samsök → DigitaltMuseum)"
     sv: "Möbel (K-samsök → DigitaltMuseum)"
   description: "Direct equivalence; Swedish 'Möbel' = Norwegian 'Møbel'."
+  timeline_start: -3000
 
 - id: ksamsok-dm-vapen
   source_system: ksamsok
@@ -136,6 +144,7 @@
     en: "Weapon (K-samsök → DigitaltMuseum)"
     sv: "Vapen (K-samsök → DigitaltMuseum)"
   description: "Direct equivalence; Swedish 'Vapen' = Norwegian 'Våpen'."
+  timeline_start: -8000
 
 - id: ksamsok-dm-smycke
   source_system: ksamsok
@@ -151,6 +160,7 @@
     en: "Jewelry (K-samsök → DigitaltMuseum)"
     sv: "Smycke (K-samsök → DigitaltMuseum)"
   description: "Direct equivalence; Swedish 'Smycke' = Norwegian 'Smykke'."
+  timeline_start: -3000
 
 # K-samsök ↔ Finna
 - id: ksamsok-finna-malning
@@ -167,6 +177,7 @@
     en: "Painting (K-samsök → Finna/YSO)"
     sv: "Målning (K-samsök → Finna/YSO)"
   description: "Direct equivalence between Swedish and Finnish painting types."
+  timeline_start: -3000
 
 - id: ksamsok-finna-skulptur
   source_system: ksamsok
@@ -182,6 +193,7 @@
     en: "Sculpture (K-samsök → Finna/YSO)"
     sv: "Skulptur (K-samsök → Finna/YSO)"
   description: "Direct equivalence between Swedish and Finnish sculpture types."
+  timeline_start: -8000
 
 - id: ksamsok-finna-textil
   source_system: ksamsok
@@ -197,6 +209,7 @@
     en: "Textile (K-samsök → Finna/YSO)"
     sv: "Textil (K-samsök → Finna/YSO)"
   description: "Direct equivalence between Swedish and Finnish textile types."
+  timeline_start: -6000
 
 - id: ksamsok-finna-keramik
   source_system: ksamsok
@@ -212,6 +225,7 @@
     en: "Ceramic (K-samsök → Finna/YSO)"
     sv: "Keramik (K-samsök → Finna/YSO)"
   description: "Direct equivalence between Swedish and Finnish ceramic types."
+  timeline_start: -5000
 
 - id: ksamsok-finna-mynt
   source_system: ksamsok
@@ -227,6 +241,7 @@
     en: "Coin (K-samsök → Finna/YSO)"
     sv: "Mynt (K-samsök → Finna/YSO)"
   description: "Direct equivalence between Swedish and Finnish coin types."
+  timeline_start: -600
 
 # DigitaltMuseum ↔ Finna
 - id: dm-finna-maleri
@@ -243,6 +258,7 @@
     en: "Painting (DigitaltMuseum → Finna/YSO)"
     sv: "Måleri (DigitaltMuseum → Finna/YSO)"
   description: "Direct equivalence between Norwegian and Finnish painting types."
+  timeline_start: -3000
 
 - id: dm-finna-skulptur
   source_system: digitaltmuseum
@@ -258,6 +274,7 @@
     en: "Sculpture (DigitaltMuseum → Finna/YSO)"
     sv: "Skulptur (DigitaltMuseum → Finna/YSO)"
   description: "Direct equivalence between Norwegian and Finnish sculpture types."
+  timeline_start: -8000
 
 - id: dm-finna-tekstil
   source_system: digitaltmuseum
@@ -273,6 +290,7 @@
     en: "Textile (DigitaltMuseum → Finna/YSO)"
     sv: "Textil (DigitaltMuseum → Finna/YSO)"
   description: "Direct equivalence between Norwegian and Finnish textile types."
+  timeline_start: -6000
 
 - id: dm-finna-keramikk
   source_system: digitaltmuseum
@@ -288,6 +306,7 @@
     en: "Ceramic (DigitaltMuseum → Finna/YSO)"
     sv: "Keramik (DigitaltMuseum → Finna/YSO)"
   description: "Direct equivalence between Norwegian and Finnish ceramic types."
+  timeline_start: -5000
 
 - id: dm-finna-fotografi
   source_system: digitaltmuseum
@@ -303,3 +322,4 @@
     en: "Photograph (DigitaltMuseum → Finna/YSO)"
     sv: "Fotografi (DigitaltMuseum → Finna/YSO)"
   description: "Direct equivalence between Norwegian and Finnish photograph types."
+  timeline_start: 1839

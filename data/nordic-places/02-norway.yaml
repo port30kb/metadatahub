@@ -8,6 +8,7 @@
 
 - id: norway
   type: country
+  timeline_start: -9000
   labels:
     en: Norway
     nb: Norge
@@ -28,6 +29,7 @@
 - id: ostlandet
   type: region
   broader: norway
+  timeline_start: -8000
   labels:
     en: Eastern Norway
     nb: Østlandet
@@ -40,6 +42,7 @@
 - id: vestlandet
   type: region
   broader: norway
+  timeline_start: -8000
   labels:
     en: Western Norway
     nb: Vestlandet
@@ -52,6 +55,7 @@
 - id: trondelag
   type: region
   broader: norway
+  timeline_start: -6000
   labels:
     en: Trøndelag
     nb: Trøndelag
@@ -65,6 +69,7 @@
 - id: nord-norge
   type: region
   broader: norway
+  timeline_start: -9000
   labels:
     en: Northern Norway
     nb: Nord-Norge
@@ -77,6 +82,7 @@
 - id: sorlandet
   type: region
   broader: norway
+  timeline_start: -7000
   labels:
     en: Southern Norway
     nb: Sørlandet
@@ -89,6 +95,7 @@
 - id: telemark
   type: region
   broader: norway
+  timeline_start: -7000
   labels:
     en: Telemark
     nb: Telemark
@@ -101,6 +108,7 @@
 - id: nordland
   type: region
   broader: norway
+  timeline_start: -6000
   labels:
     en: Nordland
     nb: Nordland
@@ -113,6 +121,7 @@
 - id: finnmark
   type: region
   broader: norway
+  timeline_start: -8000
   labels:
     en: Finnmark
     nb: Finnmark
@@ -126,6 +135,7 @@
 - id: troms
   type: region
   broader: norway
+  timeline_start: -7000
   labels:
     en: Troms
     nb: Troms
@@ -139,6 +149,7 @@
 - id: rogaland
   type: region
   broader: norway
+  timeline_start: -8000
   labels:
     en: Rogaland
     nb: Rogaland
@@ -151,6 +162,7 @@
 - id: hordaland
   type: region
   broader: norway
+  timeline_start: -8000
   labels:
     en: Hordaland
     nb: Hordaland
@@ -165,6 +177,7 @@
 - id: oslo
   type: city
   broader: ostlandet
+  timeline_start: 1040
   labels:
     en: Oslo
     nb: Oslo
@@ -181,6 +194,7 @@
 - id: bergen
   type: city
   broader: hordaland
+  timeline_start: 1070
   labels:
     en: Bergen
     nb: Bergen
@@ -193,6 +207,7 @@
 - id: trondheim
   type: city
   broader: trondelag
+  timeline_start: 997
   labels:
     en: Trondheim
     nb: Trondheim
@@ -207,6 +222,7 @@
 - id: stavanger
   type: city
   broader: rogaland
+  timeline_start: 1125
   labels:
     en: Stavanger
     nb: Stavanger
@@ -219,6 +235,7 @@
 - id: tromso
   type: city
   broader: troms
+  timeline_start: 1794
   labels:
     en: Tromsø
     nb: Tromsø
@@ -232,6 +249,7 @@
 - id: bodo
   type: city
   broader: nordland
+  timeline_start: 1816
   labels:
     en: Bodø
     nb: Bodø
@@ -244,6 +262,7 @@
 - id: kristiansand
   type: city
   broader: sorlandet
+  timeline_start: 1641
   labels:
     en: Kristiansand
     nb: Kristiansand
@@ -256,6 +275,7 @@
 - id: drammen
   type: city
   broader: ostlandet
+  timeline_start: 1811
   labels:
     en: Drammen
     nb: Drammen
@@ -268,6 +288,7 @@
 - id: hammerfest
   type: city
   broader: finnmark
+  timeline_start: 1789
   labels:
     en: Hammerfest
     nb: Hammerfest
@@ -281,6 +302,7 @@
 - id: kirkenes
   type: town
   broader: finnmark
+  timeline_start: 1862
   labels:
     en: Kirkenes
     nb: Kirkenes
@@ -294,6 +316,7 @@
 - id: alesund
   type: city
   broader: vestlandet
+  timeline_start: 1848
   labels:
     en: Ålesund
     nb: Ålesund
@@ -306,6 +329,7 @@
 - id: lillehammer
   type: city
   broader: ostlandet
+  timeline_start: 1827
   labels:
     en: Lillehammer
     nb: Lillehammer
@@ -320,6 +344,7 @@
 - id: lofoten
   type: island
   broader: nordland
+  timeline_start: -6000
   labels:
     en: Lofoten Islands
     nb: Lofoten
@@ -332,6 +357,7 @@
 - id: svalbard
   type: island
   broader: norway
+  timeline_start: 1596
   labels:
     en: Svalbard
     nb: Svalbard
@@ -346,6 +372,7 @@
 - id: vesteralen
   type: island
   broader: nordland
+  timeline_start: -6000
   labels:
     en: Vesterålen
     nb: Vesterålen
@@ -360,6 +387,7 @@
 - id: flam
   type: village
   broader: vestlandet
+  timeline_start: 1340
   labels:
     en: Flåm
     nb: Flåm
@@ -372,6 +400,7 @@
 - id: roros
   type: town
   broader: trondelag
+  timeline_start: 1644
   labels:
     en: Røros
     nb: Røros
@@ -384,6 +413,7 @@
 - id: alta
   type: city
   broader: finnmark
+  timeline_start: -4200
   labels:
     en: Alta
     nb: Alta
@@ -397,6 +427,7 @@
 - id: longyearbyen
   type: town
   broader: svalbard
+  timeline_start: 1906
   labels:
     en: Longyearbyen
     nb: Longyearbyen
@@ -409,6 +440,7 @@
 - id: kautokeino
   type: town
   broader: finnmark
+  timeline_start: 1553
   labels:
     en: Kautokeino
     nb: Kautokeino

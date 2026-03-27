@@ -8,6 +8,7 @@
 
 - id: denmark
   type: country
+  timeline_start: -12000
   labels:
     en: Denmark
     da: Danmark
@@ -25,6 +26,7 @@
 - id: jutland
   type: region
   broader: denmark
+  timeline_start: -12000
   labels:
     en: Jutland
     da: Jylland
@@ -38,6 +40,7 @@
 - id: zealand
   type: island
   broader: denmark
+  timeline_start: -10000
   labels:
     en: Zealand
     da: Sjælland
@@ -50,6 +53,7 @@
 - id: funen
   type: island
   broader: denmark
+  timeline_start: -10000
   labels:
     en: Funen
     da: Fyn
@@ -62,6 +66,7 @@
 - id: bornholm
   type: island
   broader: denmark
+  timeline_start: -8000
   labels:
     en: Bornholm
     da: Bornholm
@@ -74,6 +79,7 @@
 - id: north-jutland
   type: region
   broader: jutland
+  timeline_start: -10000
   labels:
     en: North Jutland
     da: Nordjylland
@@ -86,6 +92,7 @@
 - id: south-jutland
   type: region
   broader: jutland
+  timeline_start: -10000
   labels:
     en: South Jutland
     da: Sønderjylland
@@ -99,6 +106,7 @@
 - id: lolland
   type: island
   broader: denmark
+  timeline_start: -8000
   labels:
     en: Lolland
     da: Lolland
@@ -111,6 +119,7 @@
 - id: greenland
   type: region
   broader: denmark
+  timeline_start: -2500
   labels:
     en: Greenland
     da: Grønland
@@ -124,6 +133,7 @@
 - id: faroe-islands
   type: region
   broader: denmark
+  timeline_start: 800
   labels:
     en: Faroe Islands
     da: Færøerne
@@ -139,6 +149,7 @@
 - id: copenhagen
   type: city
   broader: zealand
+  timeline_start: 1167
   labels:
     en: Copenhagen
     da: København
@@ -153,6 +164,7 @@
 - id: aarhus
   type: city
   broader: jutland
+  timeline_start: 770
   labels:
     en: Aarhus
     da: Aarhus
@@ -167,6 +179,7 @@
 - id: odense
   type: city
   broader: funen
+  timeline_start: 988
   labels:
     en: Odense
     da: Odense
@@ -179,6 +192,7 @@
 - id: aalborg
   type: city
   broader: north-jutland
+  timeline_start: 1000
   labels:
     en: Aalborg
     da: Aalborg
@@ -193,6 +207,7 @@
 - id: esbjerg
   type: city
   broader: jutland
+  timeline_start: 1868
   labels:
     en: Esbjerg
     da: Esbjerg
@@ -205,6 +220,7 @@
 - id: roskilde
   type: city
   broader: zealand
+  timeline_start: 980
   labels:
     en: Roskilde
     da: Roskilde
@@ -217,6 +233,7 @@
 - id: helsingore
   type: city
   broader: zealand
+  timeline_start: 1231
   labels:
     en: Helsingør
     da: Helsingør
@@ -231,6 +248,7 @@
 - id: ribe
   type: town
   broader: jutland
+  timeline_start: 710
   labels:
     en: Ribe
     da: Ribe
@@ -243,6 +261,7 @@
 - id: skagen
   type: town
   broader: north-jutland
+  timeline_start: 1413
   labels:
     en: Skagen
     da: Skagen
@@ -255,6 +274,7 @@
 - id: hillerod
   type: city
   broader: zealand
+  timeline_start: 1550
   labels:
     en: Hillerød
     da: Hillerød
@@ -267,6 +287,7 @@
 - id: torshavn
   type: city
   broader: faroe-islands
+  timeline_start: 850
   labels:
     en: Tórshavn
     da: Thorshavn
@@ -280,6 +301,7 @@
 - id: nuuk
   type: city
   broader: greenland
+  timeline_start: 1728
   labels:
     en: Nuuk
     da: Godthåb
@@ -295,6 +317,7 @@
 - id: kolding
   type: city
   broader: jutland
+  timeline_start: 1231
   labels:
     en: Kolding
     da: Kolding
@@ -307,6 +330,7 @@
 - id: vejle
   type: city
   broader: jutland
+  timeline_start: 1256
   labels:
     en: Vejle
     da: Vejle
@@ -319,6 +343,7 @@
 - id: svendborg
   type: city
   broader: funen
+  timeline_start: 1253
   labels:
     en: Svendborg
     da: Svendborg

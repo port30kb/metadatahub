@@ -3,6 +3,7 @@
 # ── Top-level categories ──
 
 - id: nordic-folk-motifs
+  timeline_start: 1500
   labels:
     en: Nordic folk art motifs
     sv: Nordiska folkkonst-motiv
@@ -12,6 +13,7 @@
   description: "Decorative and symbolic motifs found in Nordic folk art traditions including painting, carving, weaving, and metalwork from the 17th through 20th centuries."
 
 - id: nordic-folk-beings
+  timeline_start: -500
   labels:
     en: Nordic folk beings
     sv: Nordiska folkväsen
@@ -22,6 +24,8 @@
 
 - id: viking-art-styles
   aat_uri: "http://vocab.getty.edu/aat/300020056"
+  timeline_start: 750
+  timeline_end: 1150
   labels:
     en: Viking Age art styles
     sv: Vikingatidens konststilar
@@ -34,6 +38,7 @@
 
 - id: kurbits
   broader: nordic-folk-motifs
+  timeline_start: 1700
   labels:
     en: Kurbits painting
     sv: Kurbitsmålning
@@ -45,6 +50,7 @@
 - id: rosemaling
   broader: nordic-folk-motifs
   aat_uri: "http://vocab.getty.edu/aat/300265072"
+  timeline_start: 1700
   labels:
     en: Rosemaling
     sv: Rosemålning
@@ -55,6 +61,7 @@
 
 - id: dala-horse
   broader: nordic-folk-motifs
+  timeline_start: 1600
   labels:
     en: Dala horse (Dalahäst)
     sv: Dalahäst
@@ -68,6 +75,7 @@
 - id: nisse-tomte
   broader: nordic-folk-beings
   iconclass: "25FF(NISSE)"
+  timeline_start: -500
   labels:
     en: Nisse / Tomte
     sv: Tomte
@@ -81,6 +89,7 @@
   broader: nordic-folk-beings
   aat_uri: "http://vocab.getty.edu/aat/300379878"
   iconclass: "25FF(TROLL)"
+  timeline_start: -500
   labels:
     en: Troll
     sv: Troll
@@ -94,6 +103,7 @@
 - id: huldra
   broader: nordic-folk-beings
   iconclass: "25FF(HULDRA)"
+  timeline_start: -500
   labels:
     en: Huldra / Skogsrå
     sv: Huldra / Skogsrå
@@ -105,6 +115,7 @@
 - id: nacken
   broader: nordic-folk-beings
   iconclass: "25FF(NÄCKEN)"
+  timeline_start: -500
   labels:
     en: Näcken (water spirit)
     sv: Näcken
@@ -117,6 +128,7 @@
 - id: maypole
   broader: nordic-folk-motifs
   aat_uri: "http://vocab.getty.edu/aat/300006074"
+  timeline_start: 1500
   labels:
     en: Maypole (Midsommarstång)
     sv: Midsommarstång
@@ -127,6 +139,7 @@
 
 - id: julbock
   broader: nordic-folk-motifs
+  timeline_start: -800
   labels:
     en: Julbock (Yule goat)
     sv: Julbock
@@ -138,6 +151,7 @@
 - id: viking-ship-motif
   broader: nordic-folk-motifs
   aat_uri: "http://vocab.getty.edu/aat/300258743"
+  timeline_start: 750
   labels:
     en: Viking ship motif
     sv: Vikingaskeppsmotiv
@@ -149,6 +163,8 @@
 - id: rune-stone-ornament
   broader: nordic-folk-motifs
   aat_uri: "http://vocab.getty.edu/aat/300047741"
+  timeline_start: 400
+  timeline_end: 1100
   labels:
     en: Rune stone ornament
     sv: Runstenornamentik
@@ -161,6 +177,8 @@
 
 - id: oseberg-style
   broader: viking-art-styles
+  timeline_start: 775
+  timeline_end: 875
   labels:
     en: Oseberg style
     sv: Osebergstilen
@@ -171,6 +189,8 @@
 
 - id: borre-style
   broader: viking-art-styles
+  timeline_start: 850
+  timeline_end: 950
   labels:
     en: Borre style
     sv: Borrestilen
@@ -181,6 +201,8 @@
 
 - id: jelling-style
   broader: viking-art-styles
+  timeline_start: 900
+  timeline_end: 975
   labels:
     en: Jelling style
     sv: Jellingstilen
@@ -191,6 +213,8 @@
 
 - id: mammen-style
   broader: viking-art-styles
+  timeline_start: 960
+  timeline_end: 1020
   labels:
     en: Mammen style
     sv: Mammenstilen
@@ -201,6 +225,8 @@
 
 - id: ringerike-style
   broader: viking-art-styles
+  timeline_start: 1000
+  timeline_end: 1075
   labels:
     en: Ringerike style
     sv: Ringerikestilen
@@ -211,6 +237,8 @@
 
 - id: urnes-style
   broader: viking-art-styles
+  timeline_start: 1050
+  timeline_end: 1150
   labels:
     en: Urnes style
     sv: Urnesstilen
@@ -221,6 +249,8 @@
 
 - id: gripping-beast
   broader: viking-art-styles
+  timeline_start: 775
+  timeline_end: 1100
   labels:
     en: Gripping beast style
     sv: Gripdjurstilen
@@ -231,6 +261,7 @@
 
 - id: ryijy
   broader: nordic-folk-motifs
+  timeline_start: 1500
   labels:
     en: Ryijy (Finnish textile)
     sv: Rya
@@ -241,6 +272,7 @@
 
 - id: bunad
   broader: nordic-folk-motifs
+  timeline_start: 1700
   labels:
     en: Bunad (Norwegian costume)
     sv: Bunad (norsk folkdräkt)
@@ -252,6 +284,7 @@
 - id: ale-bowl
   broader: nordic-folk-motifs
   aat_uri: "http://vocab.getty.edu/aat/300197729"
+  timeline_start: 1500
   labels:
     en: Ale bowl / Ölskål
     sv: Ölskål
@@ -262,6 +295,8 @@
 
 - id: weather-vane-viking
   broader: nordic-folk-motifs
+  timeline_start: 900
+  timeline_end: 1100
   labels:
     en: Viking weather vane
     sv: Vikingatida vindflöjel

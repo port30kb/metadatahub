@@ -5,7 +5,8 @@
     "skos": "http://www.w3.org/2004/02/skos/core#",
     "dcterms": "http://purl.org/dc/terms/",
     "void": "http://rdfs.org/ns/void#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#"
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "mhub": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ontology/"
   },
   "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings",
   "@type": [
@@ -48,7 +49,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Målning"
-      }
+      },
+      "mhub:timelineStart": -3000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-skulptur-aat",
@@ -82,7 +84,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Skulptur"
-      }
+      },
+      "mhub:timelineStart": -8000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-teckning-aat",
@@ -116,7 +119,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Teckning"
-      }
+      },
+      "mhub:timelineStart": -30000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-grafik-aat",
@@ -150,7 +154,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Grafik"
-      }
+      },
+      "mhub:timelineStart": 1400
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-fotografi-aat",
@@ -184,7 +189,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Fotografi"
-      }
+      },
+      "mhub:timelineStart": 1839
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-mynt-aat",
@@ -218,7 +224,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Mynt"
-      }
+      },
+      "mhub:timelineStart": -600
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-textil-aat",
@@ -252,7 +259,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Textil"
-      }
+      },
+      "mhub:timelineStart": -6000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-keramik-aat",
@@ -286,7 +294,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Keramik"
-      }
+      },
+      "mhub:timelineStart": -5000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-smycke-aat",
@@ -320,7 +329,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Smycke"
-      }
+      },
+      "mhub:timelineStart": -3000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-vapen-aat",
@@ -354,7 +364,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Vapen"
-      }
+      },
+      "mhub:timelineStart": -8000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-mobel-aat",
@@ -388,7 +399,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Möbel"
-      }
+      },
+      "mhub:timelineStart": -3000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-musikinstrument-aat",
@@ -422,7 +434,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Musikinstrument"
-      }
+      },
+      "mhub:timelineStart": -5000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-glas-aat",
@@ -456,7 +469,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Glas"
-      }
+      },
+      "mhub:timelineStart": -1500
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-silver-aat",
@@ -494,7 +508,8 @@
       "skos:note": {
         "@value": "K-samsök uses material as object type; AAT separates material from object type.",
         "@language": "en"
-      }
+      },
+      "mhub:timelineStart": -3000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-runsten-aat",
@@ -528,7 +543,9 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Runsten"
-      }
+      },
+      "mhub:timelineStart": 150,
+      "mhub:timelineEnd": 1100
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-gravfynd-aat",
@@ -562,7 +579,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Gravfynd"
-      }
+      },
+      "mhub:timelineStart": -8000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-verktyg-aat",
@@ -596,7 +614,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Verktyg"
-      }
+      },
+      "mhub:timelineStart": -10000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-manuskript-aat",
@@ -630,7 +649,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Manuskript"
-      }
+      },
+      "mhub:timelineStart": 500
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-karta-aat",
@@ -664,7 +684,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Karta"
-      }
+      },
+      "mhub:timelineStart": 1500
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-medalj-aat",
@@ -698,7 +719,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Medalj"
-      }
+      },
+      "mhub:timelineStart": 1400
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-draktillbehor-aat",
@@ -732,7 +754,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Dräkttillbehör"
-      }
+      },
+      "mhub:timelineStart": -2000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-kyrkokonst-aat",
@@ -766,7 +789,8 @@
       "confidence": "medium",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Kyrkokonst"
-      }
+      },
+      "mhub:timelineStart": 1000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-arkeologisktfynd-aat",
@@ -800,7 +824,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/ArkeologisktFynd"
-      }
+      },
+      "mhub:timelineStart": -10000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-sigill-aat",
@@ -834,7 +859,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Sigill"
-      }
+      },
+      "mhub:timelineStart": -3500
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-maleri-aat",
@@ -868,7 +894,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://digitaltmuseum.org/type/Maleri"
-      }
+      },
+      "mhub:timelineStart": -3000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-skulptur-aat",
@@ -902,7 +929,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://digitaltmuseum.org/type/Skulptur"
-      }
+      },
+      "mhub:timelineStart": -8000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-tegning-aat",
@@ -936,7 +964,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://digitaltmuseum.org/type/Tegning"
-      }
+      },
+      "mhub:timelineStart": -30000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-grafikk-aat",
@@ -970,7 +999,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://digitaltmuseum.org/type/Grafikk"
-      }
+      },
+      "mhub:timelineStart": 1400
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-fotografi-aat",
@@ -1004,7 +1034,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://digitaltmuseum.org/type/Fotografi"
-      }
+      },
+      "mhub:timelineStart": 1839
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-tekstil-aat",
@@ -1038,7 +1069,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://digitaltmuseum.org/type/Tekstil"
-      }
+      },
+      "mhub:timelineStart": -6000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-keramikk-aat",
@@ -1072,7 +1104,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://digitaltmuseum.org/type/Keramikk"
-      }
+      },
+      "mhub:timelineStart": -5000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-mynt-aat",
@@ -1106,7 +1139,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://digitaltmuseum.org/type/Mynt"
-      }
+      },
+      "mhub:timelineStart": -600
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-smykke-aat",
@@ -1140,7 +1174,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://digitaltmuseum.org/type/Smykke"
-      }
+      },
+      "mhub:timelineStart": -3000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-vapen-aat",
@@ -1174,7 +1209,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://digitaltmuseum.org/type/Våpen"
-      }
+      },
+      "mhub:timelineStart": -8000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-mobel-aat",
@@ -1208,7 +1244,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://digitaltmuseum.org/type/Møbel"
-      }
+      },
+      "mhub:timelineStart": -3000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-drakt-aat",
@@ -1242,7 +1279,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://digitaltmuseum.org/type/Drakt"
-      }
+      },
+      "mhub:timelineStart": -5000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-musikkinstrument-aat",
@@ -1276,7 +1314,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://digitaltmuseum.org/type/Musikkinstrument"
-      }
+      },
+      "mhub:timelineStart": -5000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-glass-aat",
@@ -1310,7 +1349,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://digitaltmuseum.org/type/Glass"
-      }
+      },
+      "mhub:timelineStart": -1500
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-kart-aat",
@@ -1344,7 +1384,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://digitaltmuseum.org/type/Kart"
-      }
+      },
+      "mhub:timelineStart": 1500
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-redskap-aat",
@@ -1378,7 +1419,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://digitaltmuseum.org/type/Redskap"
-      }
+      },
+      "mhub:timelineStart": -10000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-religiost-aat",
@@ -1412,7 +1454,8 @@
       "confidence": "medium",
       "dcterms:source": {
         "@id": "https://digitaltmuseum.org/type/Religiøst"
-      }
+      },
+      "mhub:timelineStart": -5000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-leketoy-aat",
@@ -1446,7 +1489,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://digitaltmuseum.org/type/Leketøy"
-      }
+      },
+      "mhub:timelineStart": -3000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-husgeraad-aat",
@@ -1480,7 +1524,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://digitaltmuseum.org/type/Husgeråd"
-      }
+      },
+      "mhub:timelineStart": -5000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/finna-maalaus-aat",
@@ -1514,7 +1559,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://finto.fi/yso/fi/p4932"
-      }
+      },
+      "mhub:timelineStart": -3000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/finna-veistos-aat",
@@ -1548,7 +1594,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://finto.fi/yso/fi/p10541"
-      }
+      },
+      "mhub:timelineStart": -8000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/finna-piirustus-aat",
@@ -1582,7 +1629,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://finto.fi/yso/fi/p6774"
-      }
+      },
+      "mhub:timelineStart": -30000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/finna-grafiikka-aat",
@@ -1616,7 +1664,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://finto.fi/yso/fi/p15621"
-      }
+      },
+      "mhub:timelineStart": 1400
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/finna-valokuva-aat",
@@ -1650,7 +1699,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://finto.fi/yso/fi/p4890"
-      }
+      },
+      "mhub:timelineStart": 1839
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/finna-keramiikka-aat",
@@ -1684,7 +1734,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://finto.fi/yso/fi/p9227"
-      }
+      },
+      "mhub:timelineStart": -5000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/finna-tekstiili-aat",
@@ -1718,7 +1769,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://finto.fi/yso/fi/p7862"
-      }
+      },
+      "mhub:timelineStart": -6000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/finna-kolikko-aat",
@@ -1752,7 +1804,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://finto.fi/yso/fi/p19622"
-      }
+      },
+      "mhub:timelineStart": -600
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/finna-koru-aat",
@@ -1786,7 +1839,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://finto.fi/yso/fi/p7028"
-      }
+      },
+      "mhub:timelineStart": -3000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/finna-ase-aat",
@@ -1820,7 +1874,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://finto.fi/yso/fi/p1396"
-      }
+      },
+      "mhub:timelineStart": -8000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/finna-huonekalu-aat",
@@ -1854,7 +1909,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://finto.fi/yso/fi/p2787"
-      }
+      },
+      "mhub:timelineStart": -3000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/finna-lasi-aat",
@@ -1888,7 +1944,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://finto.fi/yso/fi/p9229"
-      }
+      },
+      "mhub:timelineStart": -1500
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/finna-soitin-aat",
@@ -1922,7 +1979,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://finto.fi/yso/fi/p1888"
-      }
+      },
+      "mhub:timelineStart": -5000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/finna-kartta-aat",
@@ -1956,7 +2014,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://finto.fi/yso/fi/p3428"
-      }
+      },
+      "mhub:timelineStart": 1500
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/finna-tyokalu-aat",
@@ -1990,7 +2049,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://finto.fi/yso/fi/p6045"
-      }
+      },
+      "mhub:timelineStart": -10000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/finna-ikoni-aat",
@@ -2024,7 +2084,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://finto.fi/yso/fi/p6629"
-      }
+      },
+      "mhub:timelineStart": 500
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/finna-muinaisesine-aat",
@@ -2058,7 +2119,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://finto.fi/yso/fi/p10765"
-      }
+      },
+      "mhub:timelineStart": -10000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/finna-puku-aat",
@@ -2092,7 +2154,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://finto.fi/yso/fi/p3466"
-      }
+      },
+      "mhub:timelineStart": -5000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dk-maleri-aat",
@@ -2123,7 +2186,8 @@
       "target_system": "aat",
       "target_label": "paintings",
       "match_type": "exactMatch",
-      "confidence": "high"
+      "confidence": "high",
+      "mhub:timelineStart": -3000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dk-skulptur-aat",
@@ -2154,7 +2218,8 @@
       "target_system": "aat",
       "target_label": "sculpture",
       "match_type": "exactMatch",
-      "confidence": "high"
+      "confidence": "high",
+      "mhub:timelineStart": -8000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dk-tegning-aat",
@@ -2185,7 +2250,8 @@
       "target_system": "aat",
       "target_label": "drawings",
       "match_type": "exactMatch",
-      "confidence": "high"
+      "confidence": "high",
+      "mhub:timelineStart": -30000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dk-grafik-aat",
@@ -2216,7 +2282,8 @@
       "target_system": "aat",
       "target_label": "prints",
       "match_type": "exactMatch",
-      "confidence": "high"
+      "confidence": "high",
+      "mhub:timelineStart": 1400
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dk-fotografi-aat",
@@ -2247,7 +2314,8 @@
       "target_system": "aat",
       "target_label": "photographs",
       "match_type": "exactMatch",
-      "confidence": "high"
+      "confidence": "high",
+      "mhub:timelineStart": 1839
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dk-keramik-aat",
@@ -2278,7 +2346,8 @@
       "target_system": "aat",
       "target_label": "ceramics",
       "match_type": "exactMatch",
-      "confidence": "high"
+      "confidence": "high",
+      "mhub:timelineStart": -5000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dk-tekstil-aat",
@@ -2309,7 +2378,8 @@
       "target_system": "aat",
       "target_label": "textiles",
       "match_type": "exactMatch",
-      "confidence": "high"
+      "confidence": "high",
+      "mhub:timelineStart": -6000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dk-mont-aat",
@@ -2340,7 +2410,8 @@
       "target_system": "aat",
       "target_label": "coins",
       "match_type": "exactMatch",
-      "confidence": "high"
+      "confidence": "high",
+      "mhub:timelineStart": -600
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dk-smykke-aat",
@@ -2371,7 +2442,8 @@
       "target_system": "aat",
       "target_label": "jewelry",
       "match_type": "exactMatch",
-      "confidence": "high"
+      "confidence": "high",
+      "mhub:timelineStart": -3000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dk-vaaben-aat",
@@ -2402,7 +2474,8 @@
       "target_system": "aat",
       "target_label": "weapons",
       "match_type": "exactMatch",
-      "confidence": "high"
+      "confidence": "high",
+      "mhub:timelineStart": -8000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dk-mobel-aat",
@@ -2433,7 +2506,8 @@
       "target_system": "aat",
       "target_label": "furniture",
       "match_type": "exactMatch",
-      "confidence": "high"
+      "confidence": "high",
+      "mhub:timelineStart": -3000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dk-solv-aat",
@@ -2468,7 +2542,8 @@
       "skos:note": {
         "@value": "Similar to K-samsök pattern of classifying by material.",
         "@language": "en"
-      }
+      },
+      "mhub:timelineStart": -3000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dk-glas-aat",
@@ -2499,7 +2574,8 @@
       "target_system": "aat",
       "target_label": "glass",
       "match_type": "closeMatch",
-      "confidence": "high"
+      "confidence": "high",
+      "mhub:timelineStart": -1500
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dk-runesten-aat",
@@ -2530,7 +2606,9 @@
       "target_system": "aat",
       "target_label": "runestones",
       "match_type": "exactMatch",
-      "confidence": "high"
+      "confidence": "high",
+      "mhub:timelineStart": 150,
+      "mhub:timelineEnd": 1100
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dk-vikingefund-aat",
@@ -2565,7 +2643,9 @@
       "skos:note": {
         "@value": "No direct AAT equivalent for period-specific archaeological finds.",
         "@language": "en"
-      }
+      },
+      "mhub:timelineStart": 793,
+      "mhub:timelineEnd": 1066
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dk-designgenstand-aat",
@@ -2596,7 +2676,8 @@
       "target_system": "aat",
       "target_label": "design objects",
       "match_type": "exactMatch",
-      "confidence": "high"
+      "confidence": "high",
+      "mhub:timelineStart": 1850
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dk-plakat-aat",
@@ -2627,7 +2708,8 @@
       "target_system": "aat",
       "target_label": "posters",
       "match_type": "exactMatch",
-      "confidence": "high"
+      "confidence": "high",
+      "mhub:timelineStart": 1450
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dk-legetoj-aat",
@@ -2658,7 +2740,8 @@
       "target_system": "aat",
       "target_label": "toys",
       "match_type": "exactMatch",
-      "confidence": "high"
+      "confidence": "high",
+      "mhub:timelineStart": -3000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-dm-malning",
@@ -2692,7 +2775,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Målning"
-      }
+      },
+      "mhub:timelineStart": -3000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-dm-skulptur",
@@ -2726,7 +2810,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Skulptur"
-      }
+      },
+      "mhub:timelineStart": -8000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-dm-teckning",
@@ -2760,7 +2845,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Teckning"
-      }
+      },
+      "mhub:timelineStart": -30000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-dm-fotografi",
@@ -2794,7 +2880,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Fotografi"
-      }
+      },
+      "mhub:timelineStart": 1839
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-dm-textil",
@@ -2828,7 +2915,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Textil"
-      }
+      },
+      "mhub:timelineStart": -6000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-dm-mynt",
@@ -2862,7 +2950,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Mynt"
-      }
+      },
+      "mhub:timelineStart": -600
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-dm-keramik",
@@ -2896,7 +2985,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Keramik"
-      }
+      },
+      "mhub:timelineStart": -5000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-dm-mobel",
@@ -2930,7 +3020,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Möbel"
-      }
+      },
+      "mhub:timelineStart": -3000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-dm-vapen",
@@ -2964,7 +3055,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Vapen"
-      }
+      },
+      "mhub:timelineStart": -8000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-dm-smycke",
@@ -2998,7 +3090,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Smycke"
-      }
+      },
+      "mhub:timelineStart": -3000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-finna-malning",
@@ -3032,7 +3125,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Målning"
-      }
+      },
+      "mhub:timelineStart": -3000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-finna-skulptur",
@@ -3066,7 +3160,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Skulptur"
-      }
+      },
+      "mhub:timelineStart": -8000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-finna-textil",
@@ -3100,7 +3195,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Textil"
-      }
+      },
+      "mhub:timelineStart": -6000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-finna-keramik",
@@ -3134,7 +3230,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Keramik"
-      }
+      },
+      "mhub:timelineStart": -5000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/ksamsok-finna-mynt",
@@ -3168,7 +3265,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://kulturarvsdata.se/raa/ksamsok#type/Mynt"
-      }
+      },
+      "mhub:timelineStart": -600
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-finna-maleri",
@@ -3202,7 +3300,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://digitaltmuseum.org/type/Maleri"
-      }
+      },
+      "mhub:timelineStart": -3000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-finna-skulptur",
@@ -3236,7 +3335,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://digitaltmuseum.org/type/Skulptur"
-      }
+      },
+      "mhub:timelineStart": -8000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-finna-tekstil",
@@ -3270,7 +3370,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://digitaltmuseum.org/type/Tekstil"
-      }
+      },
+      "mhub:timelineStart": -6000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-finna-keramikk",
@@ -3304,7 +3405,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://digitaltmuseum.org/type/Keramikk"
-      }
+      },
+      "mhub:timelineStart": -5000
     },
     {
       "@id": "https://metadatahub.eu/data/nordic-thesaurus-mappings/dm-finna-fotografi",
@@ -3338,7 +3440,8 @@
       "confidence": "high",
       "dcterms:source": {
         "@id": "https://digitaltmuseum.org/type/Fotografi"
-      }
+      },
+      "mhub:timelineStart": 1839
     }
   ]
 }

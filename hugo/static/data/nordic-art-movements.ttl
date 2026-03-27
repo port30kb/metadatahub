@@ -55,6 +55,8 @@ nam:nordic-renaissance a skos:Concept ;
     skos:closeMatch <http://vocab.getty.edu/aat/300021140> ;
     time:hasBeginning [ time:inXSDgYear "1500"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1650"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1500"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1650"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 2/93: Danish-Norwegian Baroque ──
@@ -74,6 +76,8 @@ nam:danish-norwegian-baroque a skos:Concept ;
     skos:broader nam:nordic-baroque ;
     time:hasBeginning [ time:inXSDgYear "1620"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1750"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1620"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1750"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 3/93: Nordic Baroque ──
@@ -93,6 +97,8 @@ nam:nordic-baroque a skos:Concept ;
     skos:closeMatch <http://vocab.getty.edu/aat/300021147> ;
     time:hasBeginning [ time:inXSDgYear "1600"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1750"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1600"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1750"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 4/93: Swedish Baroque ──
@@ -112,6 +118,8 @@ nam:swedish-baroque a skos:Concept ;
     skos:broader nam:nordic-baroque ;
     time:hasBeginning [ time:inXSDgYear "1620"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1750"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1620"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1750"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 5/93: Nordic Rococo ──
@@ -131,6 +139,8 @@ nam:nordic-rococo a skos:Concept ;
     skos:closeMatch <http://vocab.getty.edu/aat/300021155> ;
     time:hasBeginning [ time:inXSDgYear "1730"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1790"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1730"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1790"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 6/93: Gustavian Neoclassicism ──
@@ -150,6 +160,8 @@ nam:gustavian-neoclassicism a skos:Concept ;
     skos:closeMatch <http://vocab.getty.edu/aat/300021477> ;
     time:hasBeginning [ time:inXSDgYear "1772"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1809"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1772"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1809"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 7/93: Swedish Classicism ──
@@ -168,6 +180,8 @@ nam:swedish-classicism a skos:Concept ;
     skos:definition "Neoclassical and Empire-influenced architecture and decorative arts in Sweden, continued under Karl XIV Johan; marked by symmetry and antique references."@en ;
     time:hasBeginning [ time:inXSDgYear "1780"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1850"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1780"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1850"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 8/93: Nordic Neoclassicism ──
@@ -187,6 +201,8 @@ nam:nordic-neoclassicism a skos:Concept ;
     skos:closeMatch <http://vocab.getty.edu/aat/300021477> ;
     time:hasBeginning [ time:inXSDgYear "1760"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1850"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1760"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1850"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 9/93: Danish Neoclassicism ──
@@ -206,6 +222,8 @@ nam:danish-neoclassicism a skos:Concept ;
     skos:broader nam:nordic-neoclassicism ;
     time:hasBeginning [ time:inXSDgYear "1770"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1850"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1770"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1850"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 10/93: Early Finnish Art ──
@@ -224,6 +242,8 @@ nam:finnish-early-art a skos:Concept ;
     skos:definition "Earliest distinct Finnish artistic production under Swedish and then Russian rule, primarily church paintings, portraiture, and folk art traditions."@en ;
     time:hasBeginning [ time:inXSDgYear "1750"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1850"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1750"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1850"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 11/93: Danish Golden Age ──
@@ -243,6 +263,8 @@ nam:danish-golden-age a skos:Concept ;
     skos:closeMatch <http://vocab.getty.edu/aat/300379342> ;
     time:hasBeginning [ time:inXSDgYear "1800"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1850"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1850"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 12/93: Nordic Romanticism ──
@@ -262,6 +284,8 @@ nam:nordic-romanticism a skos:Concept ;
     skos:closeMatch <http://vocab.getty.edu/aat/300021474> ;
     time:hasBeginning [ time:inXSDgYear "1800"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1870"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1800"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1870"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 13/93: Norwegian Romantic Nationalism ──
@@ -281,6 +305,8 @@ nam:norwegian-romantic-nationalism a skos:Concept ;
     skos:broader nam:nordic-romanticism ;
     time:hasBeginning [ time:inXSDgYear "1840"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1870"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1840"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1870"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 14/93: Finnish National Awakening ──
@@ -299,6 +325,8 @@ nam:finnish-national-awakening a skos:Concept ;
     skos:definition "Cultural and artistic movement in Finland promoting Finnish language and identity under Russian rule; connected to the publication of the Kalevala (1835)."@en ;
     time:hasBeginning [ time:inXSDgYear "1835"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1880"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1835"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1880"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 15/93: Swedish Romantic Landscape Painting ──
@@ -318,6 +346,8 @@ nam:swedish-romantic-landscape a skos:Concept ;
     skos:broader nam:nordic-romanticism ;
     time:hasBeginning [ time:inXSDgYear "1830"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1870"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1830"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1870"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 16/93: Scandinavian Musical Romanticism ──
@@ -337,6 +367,8 @@ nam:scandinavian-romanticism-music a skos:Concept ;
     skos:broader nam:nordic-romanticism ;
     time:hasBeginning [ time:inXSDgYear "1840"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1910"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1840"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1910"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 17/93: Düsseldorf School (Nordic Students) ──
@@ -355,6 +387,8 @@ nam:dusseldorf-school-nordic a skos:Concept ;
     skos:definition "Nordic artists who studied at the Düsseldorf Academy, bringing German Romantic techniques back to Scandinavia; included Hans Gude, Adolph Tidemand, and August Malmström."@en ;
     time:hasBeginning [ time:inXSDgYear "1840"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1870"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1840"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1870"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 18/93: Icelandic Romanticism ──
@@ -376,6 +410,8 @@ nam:icelandic-romanticism a skos:Concept ;
     skos:broader nam:nordic-romanticism ;
     time:hasBeginning [ time:inXSDgYear "1850"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1920"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1850"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1920"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 19/93: Nordic History Painting ──
@@ -394,6 +430,8 @@ nam:nordic-history-painting a skos:Concept ;
     skos:definition "History painting tradition in the Nordic countries depicting Viking sagas, medieval events, and national myths; served nation-building purposes across Scandinavia."@en ;
     time:hasBeginning [ time:inXSDgYear "1820"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1880"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1820"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1880"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 20/93: Finnish Romantic Painting ──
@@ -413,6 +451,8 @@ nam:finnish-romantic-painting a skos:Concept ;
     skos:broader nam:nordic-romanticism ;
     time:hasBeginning [ time:inXSDgYear "1850"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1880"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1850"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1880"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 21/93: Nordic Realism ──
@@ -432,6 +472,8 @@ nam:nordic-realism a skos:Concept ;
     skos:closeMatch <http://vocab.getty.edu/aat/300056529> ;
     time:hasBeginning [ time:inXSDgYear "1870"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1900"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1870"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1900"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 22/93: Nordic Naturalism ──
@@ -451,6 +493,8 @@ nam:nordic-naturalism a skos:Concept ;
     skos:closeMatch <http://vocab.getty.edu/aat/300056428> ;
     time:hasBeginning [ time:inXSDgYear "1880"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1900"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1880"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1900"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 23/93: Skagen Painters ──
@@ -471,6 +515,8 @@ nam:skagen-painters a skos:Concept ;
     skos:closeMatch <http://vocab.getty.edu/aat/300379344> ;
     time:hasBeginning [ time:inXSDgYear "1870"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1910"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1870"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1910"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 24/93: Swedish Artists' Colony at Grez-sur-Loing ──
@@ -489,6 +535,8 @@ nam:grez-sur-loing-nordic a skos:Concept ;
     skos:definition "Colony of Swedish and Nordic artists in the French village of Grez-sur-Loing during the 1880s; included Carl Larsson, Karl Nordström, and other opponents (opponenterna)."@en ;
     time:hasBeginning [ time:inXSDgYear "1882"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1900"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1882"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1900"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 25/93: The Opponents (Opponenterna) ──
@@ -508,6 +556,8 @@ nam:opponenterna a skos:Concept ;
     skos:broader nam:nordic-realism ;
     time:hasBeginning [ time:inXSDgYear "1885"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1895"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1885"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1895"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 26/93: Finnish Golden Age of Art ──
@@ -526,6 +576,8 @@ nam:finnish-golden-age-art a skos:Concept ;
     skos:definition "Peak of Finnish visual arts from the 1880s to 1910, combining Realism, Naturalism, and National Romanticism; artists include Akseli Gallen-Kallela, Albert Edelfelt, and Helene Schjerfbeck."@en ;
     time:hasBeginning [ time:inXSDgYear "1880"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1910"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1880"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1910"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 27/93: Norwegian Neo-Romanticism ──
@@ -544,6 +596,8 @@ nam:norwegian-neo-romanticism a skos:Concept ;
     skos:definition "Late 19th-century Norwegian movement returning to Romantic themes of nature and myth with modernist techniques; artists include Nikolai Astrup and Halfdan Egedius."@en ;
     time:hasBeginning [ time:inXSDgYear "1890"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1910"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1890"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1910"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 28/93: Nordic National Romanticism ──
@@ -563,6 +617,8 @@ nam:national-romanticism a skos:Concept ;
     skos:closeMatch <http://vocab.getty.edu/aat/300021478> ;
     time:hasBeginning [ time:inXSDgYear "1880"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1920"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1880"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1920"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 29/93: Swedish National Romanticism ──
@@ -582,6 +638,8 @@ nam:swedish-national-romanticism a skos:Concept ;
     skos:broader nam:national-romanticism ;
     time:hasBeginning [ time:inXSDgYear "1890"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1920"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1890"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1920"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 30/93: Finnish Karelian National Romanticism ──
@@ -601,6 +659,8 @@ nam:karelian-national-romanticism a skos:Concept ;
     skos:broader nam:national-romanticism ;
     time:hasBeginning [ time:inXSDgYear "1890"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1920"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1890"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1920"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 31/93: Norwegian Dragon Style (Dragestil) ──
@@ -620,6 +680,8 @@ nam:norwegian-dragestil a skos:Concept ;
     skos:broader nam:national-romanticism ;
     time:hasBeginning [ time:inXSDgYear "1880"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1910"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1880"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1910"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 32/93: Nordic Impressionism ──
@@ -639,6 +701,8 @@ nam:nordic-impressionism a skos:Concept ;
     skos:closeMatch <http://vocab.getty.edu/aat/300021503> ;
     time:hasBeginning [ time:inXSDgYear "1880"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1910"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1880"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1910"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 33/93: Varberg School ──
@@ -658,6 +722,8 @@ nam:varberg-school a skos:Concept ;
     skos:broader nam:nordic-realism ;
     time:hasBeginning [ time:inXSDgYear "1893"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1910"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1893"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1910"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 34/93: Nordic Plein Air Painting ──
@@ -676,6 +742,8 @@ nam:nordic-plein-air a skos:Concept ;
     skos:definition "Open-air painting tradition across the Nordic countries, influenced by French practice but adapted to northern light; central to Skagen, Grez-sur-Loing, and the Opponents."@en ;
     time:hasBeginning [ time:inXSDgYear "1880"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1910"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1880"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1910"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 35/93: Finnish Art Society Movement ──
@@ -694,6 +762,8 @@ nam:finska-konstforeningen a skos:Concept ;
     skos:definition "Institutional movement centered on the Finnish Art Society (est. 1846), promoting Finnish national art and establishing collections that formed the basis of Finnish art museums."@en ;
     time:hasBeginning [ time:inXSDgYear "1846"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1920"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1846"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1920"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 36/93: Tuusula Lake Artists' Colony ──
@@ -712,6 +782,8 @@ nam:artists-colony-tuusula a skos:Concept ;
     skos:definition "Finnish artists' colony on Lake Tuusula north of Helsinki; residents included Jean Sibelius, Juhani Aho, Pekka Halonen, and Eero Järnefelt."@en ;
     time:hasBeginning [ time:inXSDgYear "1897"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1920"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1897"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1920"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 37/93: Free Exhibition (Den Frie Udstilling) ──
@@ -730,6 +802,8 @@ nam:copenhagen-secession a skos:Concept ;
     skos:definition "Independent exhibition society in Copenhagen founded in 1891 as an alternative to the official Charlottenborg exhibition; showed progressive and international art."@en ;
     time:hasBeginning [ time:inXSDgYear "1891"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1910"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1891"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1910"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 38/93: Edvard Munch and Nordic Expressionist Precursors ──
@@ -748,6 +822,8 @@ nam:munch-circle a skos:Concept ;
     skos:definition "The artistic circle and influence of Edvard Munch, whose psychological and symbolic work anticipated Expressionism; The Scream (1893) became an icon of modern anxiety."@en ;
     time:hasBeginning [ time:inXSDgYear "1890"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1910"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1890"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1910"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 39/93: Swedish Arts and Crafts Movement ──
@@ -766,6 +842,8 @@ nam:swedish-arts-crafts a skos:Concept ;
     skos:definition "Swedish adaptation of the British Arts and Crafts movement promoting handcraft, good design, and collaboration between art and industry; connected to Carl and Karin Larsson."@en ;
     time:hasBeginning [ time:inXSDgYear "1880"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1910"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1880"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1910"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 40/93: Nordic Art Nouveau / Jugend ──
@@ -785,6 +863,8 @@ nam:nordic-art-nouveau a skos:Concept ;
     skos:closeMatch <http://vocab.getty.edu/aat/300021430> ;
     time:hasBeginning [ time:inXSDgYear "1890"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1915"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1890"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1915"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 41/93: Swedish Jugend ──
@@ -804,6 +884,8 @@ nam:swedish-jugend a skos:Concept ;
     skos:broader nam:nordic-art-nouveau ;
     time:hasBeginning [ time:inXSDgYear "1895"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1915"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1895"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1915"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 42/93: Finnish Jugend (National Romantic Architecture) ──
@@ -823,6 +905,8 @@ nam:finnish-jugend a skos:Concept ;
     skos:broader nam:nordic-art-nouveau ;
     time:hasBeginning [ time:inXSDgYear "1895"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1915"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1895"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1915"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 43/93: Ålesund Jugend ──
@@ -842,6 +926,8 @@ nam:alesund-jugend a skos:Concept ;
     skos:broader nam:nordic-art-nouveau ;
     time:hasBeginning [ time:inXSDgYear "1904"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1915"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1904"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1915"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 44/93: Nordic Symbolism ──
@@ -861,6 +947,8 @@ nam:nordic-symbolism a skos:Concept ;
     skos:closeMatch <http://vocab.getty.edu/aat/300021479> ;
     time:hasBeginning [ time:inXSDgYear "1890"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1910"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1890"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1910"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 45/93: Nordic Expressionism ──
@@ -880,6 +968,8 @@ nam:nordic-expressionism a skos:Concept ;
     skos:closeMatch <http://vocab.getty.edu/aat/300021505> ;
     time:hasBeginning [ time:inXSDgYear "1905"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1940"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1905"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1940"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 46/93: Swedish Grace ──
@@ -898,6 +988,8 @@ nam:swedish-grace a skos:Concept ;
     skos:definition "Elegant Swedish decorative style of the 1920s blending neoclassicism with modernism; showcased at the 1925 Paris Exhibition; associated with architect-designers like Carl Malmsten."@en ;
     time:hasBeginning [ time:inXSDgYear "1920"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1935"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1920"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1935"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 47/93: Nordic Classicism (1910s–1930s) ──
@@ -917,6 +1009,8 @@ nam:nordic-classicism a skos:Concept ;
     skos:closeMatch <http://vocab.getty.edu/aat/300021477> ;
     time:hasBeginning [ time:inXSDgYear "1910"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1935"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1910"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1935"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 48/93: Danish Neoclassical Revival ──
@@ -936,6 +1030,8 @@ nam:danish-neoclassical-revival a skos:Concept ;
     skos:broader nam:nordic-classicism ;
     time:hasBeginning [ time:inXSDgYear "1915"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1930"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1915"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1930"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 49/93: Finnish Classicism ──
@@ -955,6 +1051,8 @@ nam:finnish-classicism a skos:Concept ;
     skos:broader nam:nordic-classicism ;
     time:hasBeginning [ time:inXSDgYear "1920"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1930"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1920"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1930"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 50/93: De Stijl Influence in the Nordics ──
@@ -973,6 +1071,8 @@ nam:de-stijl-nordic-influence a skos:Concept ;
     skos:definition "Impact of the Dutch De Stijl movement on Nordic abstract art and design, particularly in Swedish and Danish geometric abstraction of the interwar years."@en ;
     time:hasBeginning [ time:inXSDgYear "1917"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1935"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1917"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1935"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 51/93: Scandinavian Surrealism ──
@@ -991,6 +1091,8 @@ nam:scandinavian-surrealism a skos:Concept ;
     skos:definition "Surrealist tendencies in Nordic art from the 1930s onward; artists include Wilhelm Bjerke-Petersen (Denmark), Max Walter Svanberg (Sweden), and Stellan Mörner."@en ;
     time:hasBeginning [ time:inXSDgYear "1930"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1950"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1930"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1950"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 52/93: Halmstad Group ──
@@ -1009,6 +1111,8 @@ nam:halmstad-group a skos:Concept ;
     skos:definition "Swedish Surrealist art group from Halmstad active from 1929; six artists including the Olson brothers who became Scandinavia's foremost Surrealist painters."@en ;
     time:hasBeginning [ time:inXSDgYear "1929"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1970"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1929"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1970"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 53/93: Nordic Vitalism ──
@@ -1027,6 +1131,8 @@ nam:nordic-vitalism a skos:Concept ;
     skos:definition "Early 20th-century Nordic art movement emphasizing life force, physicality, and connection to nature; influenced by Nietzsche and visible in painting and sculpture."@en ;
     time:hasBeginning [ time:inXSDgYear "1900"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1920"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1900"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1920"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 54/93: Swedish Colour Realism ──
@@ -1045,6 +1151,8 @@ nam:colour-realism-sweden a skos:Concept ;
     skos:definition "Swedish interwar painting movement emphasizing rich color and solid form, influenced by Cézanne and Matisse; artists include Isaac Grünewald, Sigrid Hjertén, and Leander Engström."@en ;
     time:hasBeginning [ time:inXSDgYear "1910"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1930"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1910"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1930"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 55/93: Nordic Functionalism (Funkis) ──
@@ -1064,6 +1172,8 @@ nam:nordic-functionalism a skos:Concept ;
     skos:closeMatch <http://vocab.getty.edu/aat/300021473> ;
     time:hasBeginning [ time:inXSDgYear "1927"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1950"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1927"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1950"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 56/93: Swedish Functionalism ──
@@ -1083,6 +1193,8 @@ nam:swedish-functionalism a skos:Concept ;
     skos:broader nam:nordic-functionalism ;
     time:hasBeginning [ time:inXSDgYear "1930"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1950"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1930"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1950"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 57/93: Danish Functionalism ──
@@ -1102,6 +1214,8 @@ nam:danish-functionalism a skos:Concept ;
     skos:broader nam:nordic-functionalism ;
     time:hasBeginning [ time:inXSDgYear "1930"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1960"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1930"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1960"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 58/93: Finnish Modernism (Aalto School) ──
@@ -1120,6 +1234,8 @@ nam:finnish-modernism a skos:Concept ;
     skos:definition "Finnish architectural and design modernism defined by Alvar Aalto's humanistic approach, combining functionalism with organic forms, natural materials, and sensitivity to landscape."@en ;
     time:hasBeginning [ time:inXSDgYear "1928"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1960"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1928"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1960"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 59/93: Norwegian Modernism ──
@@ -1138,6 +1254,8 @@ nam:norwegian-modernism a skos:Concept ;
     skos:definition "Modernist movement in Norwegian art and architecture; architects like Ove Bang and Knut Knutsen developed a regional modernism blending international style with Norwegian materials."@en ;
     time:hasBeginning [ time:inXSDgYear "1930"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1960"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1930"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1960"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 60/93: CoBrA (Nordic Participants) ──
@@ -1157,6 +1275,8 @@ nam:cobra-nordic a skos:Concept ;
     skos:closeMatch <http://vocab.getty.edu/aat/300021482> ;
     time:hasBeginning [ time:inXSDgYear "1948"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1951"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1948"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1951"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 61/93: Nordic Concrete Art ──
@@ -1176,6 +1296,8 @@ nam:nordic-concrete-art a skos:Concept ;
     skos:closeMatch <http://vocab.getty.edu/aat/300264837> ;
     time:hasBeginning [ time:inXSDgYear "1945"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1970"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1945"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1970"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 62/93: Nordic Constructivism ──
@@ -1194,6 +1316,8 @@ nam:nordic-constructivism a skos:Concept ;
     skos:definition "Constructivist tendencies in Nordic art and sculpture emphasizing geometric forms and industrial materials; connected to international Constructivism and kinetic art."@en ;
     time:hasBeginning [ time:inXSDgYear "1950"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1970"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1950"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1970"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 63/93: The Imaginists (Imaginisterna) ──
@@ -1212,6 +1336,8 @@ nam:imaginisterna a skos:Concept ;
     skos:definition "Swedish avant-garde art group founded in 1945 in Malmö, bridging Surrealism and CoBrA; members included C.O. Hultén and Max Walter Svanberg."@en ;
     time:hasBeginning [ time:inXSDgYear "1945"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1956"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1945"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1956"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 64/93: Linien Group ──
@@ -1230,6 +1356,8 @@ nam:linien-group a skos:Concept ;
     skos:definition "Danish abstract art group and journal founded in 1934; among the first to promote pure abstraction and Surrealism in Scandinavia; precursor to CoBrA."@en ;
     time:hasBeginning [ time:inXSDgYear "1934"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1940"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1934"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1940"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 65/93: Finnish Informalism ──
@@ -1248,6 +1376,8 @@ nam:finnish-informalism a skos:Concept ;
     skos:definition "Finnish contribution to Art Informel and abstract expressionism in the 1950s–60s; artists like Juhana Blomstedt and Sam Vanni explored gestural abstraction and color-field painting."@en ;
     time:hasBeginning [ time:inXSDgYear "1955"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1970"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1955"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1970"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 66/93: Swedish Neo-Realism (1947 Group) ──
@@ -1266,6 +1396,8 @@ nam:swedish-neo-realism a skos:Concept ;
     skos:definition "Post-war Swedish movement returning to figuration with social awareness; the 1947 Group (Torsten Andersson, Lage Lindell) reacted against pure abstraction."@en ;
     time:hasBeginning [ time:inXSDgYear "1947"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1960"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1947"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1960"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 67/93: Nordic Folk Art Revival ──
@@ -1284,6 +1416,8 @@ nam:folk-art-revival a skos:Concept ;
     skos:definition "Pan-Nordic movement to preserve and revitalize traditional folk art, textiles, and crafts; connected to National Romanticism and the emergence of the home crafts associations (hemslöjd)."@en ;
     time:hasBeginning [ time:inXSDgYear "1890"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1940"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1890"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1940"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 68/93: Nordic Social Realism ──
@@ -1302,6 +1436,8 @@ nam:nordic-social-realism a skos:Concept ;
     skos:definition "Socially engaged realist art in the Nordic countries during the 1930s–40s, depicting workers, poverty, and solidarity; Albin Amelin in Sweden and Henrik Sørensen in Norway."@en ;
     time:hasBeginning [ time:inXSDgYear "1930"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1950"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1930"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1950"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 69/93: Scandinavian Design ──
@@ -1321,6 +1457,8 @@ nam:scandinavian-design a skos:Concept ;
     skos:closeMatch <http://vocab.getty.edu/aat/300264869> ;
     time:hasBeginning [ time:inXSDgYear "1945"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1975"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1945"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1975"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 70/93: Danish Modern ──
@@ -1341,6 +1479,8 @@ nam:danish-modern a skos:Concept ;
     skos:closeMatch <http://vocab.getty.edu/aat/300264870> ;
     time:hasBeginning [ time:inXSDgYear "1945"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1970"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1945"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1970"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 71/93: Swedish Modern ──
@@ -1360,6 +1500,8 @@ nam:swedish-modern a skos:Concept ;
     skos:broader nam:scandinavian-design ;
     time:hasBeginning [ time:inXSDgYear "1930"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1970"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1930"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1970"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 72/93: Finnish Design (Marimekko, Arabia, Iittala) ──
@@ -1379,6 +1521,8 @@ nam:finnish-design a skos:Concept ;
     skos:broader nam:scandinavian-design ;
     time:hasBeginning [ time:inXSDgYear "1945"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1975"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1945"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1975"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 73/93: Scandinavian Mid-Century Modern ──
@@ -1398,6 +1542,8 @@ nam:scandinavian-mid-century a skos:Concept ;
     skos:broader nam:scandinavian-design ;
     time:hasBeginning [ time:inXSDgYear "1950"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1970"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1950"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1970"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 74/93: Nordic Industrial Design ──
@@ -1416,6 +1562,8 @@ nam:nordic-industrial-design a skos:Concept ;
     skos:definition "Industrial design tradition in the Nordic countries extending Scandinavian Design principles to electronics, appliances, and transportation; Bang & Olufsen, Volvo, Saab, Nokia."@en ;
     time:hasBeginning [ time:inXSDgYear "1960"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1990"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1960"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1990"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 75/93: Norwegian Rosemaling Revival ──
@@ -1434,6 +1582,8 @@ nam:norwegian-rosemaling-revival a skos:Concept ;
     skos:definition "Post-war revival of traditional Norwegian decorative painting (rosemaling), promoted by folk art societies and Norwegian-American communities preserving heritage crafts."@en ;
     time:hasBeginning [ time:inXSDgYear "1950"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1980"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1950"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1980"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 76/93: Swedish Textile Art Movement ──
@@ -1452,6 +1602,8 @@ nam:swedish-textile-art a skos:Concept ;
     skos:definition "Elevation of textile art to fine art in post-war Sweden; artists like Märta Måås-Fjetterström and later Kaisa Melanton created monumental tapestries and weavings."@en ;
     time:hasBeginning [ time:inXSDgYear "1950"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1980"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1950"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1980"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 77/93: Danish Studio Ceramic Movement ──
@@ -1470,6 +1622,8 @@ nam:danish-ceramic-movement a skos:Concept ;
     skos:definition "Post-war Danish ceramics movement elevating studio pottery as art; Royal Copenhagen, Saxbo, and individual artists like Axel Salto and Gertrud Vasegaard gained international recognition."@en ;
     time:hasBeginning [ time:inXSDgYear "1955"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1985"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1955"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1985"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 78/93: Nordic Brutalism ──
@@ -1489,6 +1643,8 @@ nam:nordic-brutalism a skos:Concept ;
     skos:closeMatch <http://vocab.getty.edu/aat/300021562> ;
     time:hasBeginning [ time:inXSDgYear "1955"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1975"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1955"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1975"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 79/93: Nordic Pop Art ──
@@ -1507,6 +1663,8 @@ nam:nordic-pop-art a skos:Concept ;
     skos:definition "Pop Art movement in the Nordic countries, often with political and social critique distinct from Anglo-American pop; Öyvind Fahlström (Sweden) and Per Olof Ultvedt were key figures."@en ;
     time:hasBeginning [ time:inXSDgYear "1962"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1975"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1962"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1975"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 80/93: Nordic Textile Design ──
@@ -1526,6 +1684,8 @@ nam:nordic-textile-design a skos:Concept ;
     skos:broader nam:scandinavian-design ;
     time:hasBeginning [ time:inXSDgYear "1950"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1975"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1950"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1975"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 81/93: Nordic Ergonomic Design ──
@@ -1544,6 +1704,8 @@ nam:ergonomic-design-nordic a skos:Concept ;
     skos:definition "Nordic emphasis on ergonomics and human-centered design in furniture, tools, and workspaces; Scandinavian office design and Peter Opsvik's Balans chairs exemplify the tradition."@en ;
     time:hasBeginning [ time:inXSDgYear "1970"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1995"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1970"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1995"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 82/93: Post-war Finnish Architecture ──
@@ -1562,6 +1724,8 @@ nam:finnish-architecture-postwar a skos:Concept ;
     skos:definition "Finnish post-war architecture continuing Aalto's organic modernism; Viljo Revell (Toronto City Hall), Reima Pietilä (Dipoli), and Timo Penttilä developed a distinctive national modernism."@en ;
     time:hasBeginning [ time:inXSDgYear "1950"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1980"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1950"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1980"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 83/93: Nordic Landscape Architecture ──
@@ -1580,6 +1744,8 @@ nam:nordic-landscape-architecture a skos:Concept ;
     skos:definition "Post-war Nordic landscape design tradition emphasizing naturalistic planting, public parks, and democratic outdoor spaces; C.Th. Sørensen's adventure playgrounds pioneered participatory design."@en ;
     time:hasBeginning [ time:inXSDgYear "1945"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "1980"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1945"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "1980"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 84/93: Nordic Noir (Aesthetic) ──
@@ -1598,6 +1764,7 @@ nam:nordic-noir-aesthetic a skos:Concept ;
     skos:definition "Visual and narrative aesthetic originating in Scandinavian crime fiction and TV; characterized by dark palettes, austere landscapes, and minimalist interiors reflecting social critique."@en ;
     time:hasBeginning [ time:inXSDgYear "1990"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "2025"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1990"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 85/93: New Nordic (Design Philosophy) ──
@@ -1616,6 +1783,7 @@ nam:new-nordic-design a skos:Concept ;
     skos:definition "21st-century Nordic design philosophy emphasizing sustainability, local materials, and cultural identity; extends from New Nordic cuisine to architecture and product design."@en ;
     time:hasBeginning [ time:inXSDgYear "2000"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "2025"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "2000"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 86/93: Scandinavian Minimalism ──
@@ -1634,6 +1802,7 @@ nam:scandinavian-minimalism a skos:Concept ;
     skos:definition "Contemporary minimalist design and lifestyle aesthetic rooted in Scandinavian design traditions; characterized by white spaces, natural materials, and lagom (just enough) philosophy."@en ;
     time:hasBeginning [ time:inXSDgYear "1990"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "2025"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1990"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 87/93: Nordic Contemporary Art ──
@@ -1652,6 +1821,7 @@ nam:nordic-contemporary-art a skos:Concept ;
     skos:definition "Contemporary art scene in the Nordic countries, internationally prominent through artists like Olafur Eliasson, Ragnar Kjartansson, and institutions like Moderna Museet and Louisiana."@en ;
     time:hasBeginning [ time:inXSDgYear "1990"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "2025"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1990"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 88/93: Nordic Light (Photography Movement) ──
@@ -1670,6 +1840,7 @@ nam:nordic-light-photography a skos:Concept ;
     skos:definition "Nordic photography movement exploring the distinctive quality of northern light; the Nordic Light photography festival in Kristiansund and Helsinki School of photography."@en ;
     time:hasBeginning [ time:inXSDgYear "1985"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "2025"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1985"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 89/93: Superflat Nordic ──
@@ -1688,6 +1859,7 @@ nam:superflat-nordic a skos:Concept ;
     skos:definition "Nordic artists engaging with flat surface aesthetics, digital culture, and post-internet art; blending Scandinavian graphic design traditions with contemporary global art discourse."@en ;
     time:hasBeginning [ time:inXSDgYear "2005"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "2025"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "2005"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 90/93: Nordic Sustainable Design ──
@@ -1706,6 +1878,7 @@ nam:nordic-sustainable-design a skos:Concept ;
     skos:definition "Design movement prioritizing circular economy, sustainable materials, and environmental responsibility in the Nordic tradition; extends from architecture to fashion and industrial design."@en ;
     time:hasBeginning [ time:inXSDgYear "2010"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "2025"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "2010"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 91/93: Nordic Neo-Expressionism ──
@@ -1724,6 +1897,8 @@ nam:nordic-neo-expressionism a skos:Concept ;
     skos:definition "Return to figurative, emotionally charged painting in the Nordic countries during the 1980s; part of the international Neo-Expressionist wave; artists include Per Kirkeby and Odd Nerdrum."@en ;
     time:hasBeginning [ time:inXSDgYear "1980"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "2000"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1980"^^xsd:long ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineEnd> "2000"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 92/93: Helsinki School (Photography) ──
@@ -1742,6 +1917,7 @@ nam:helsinki-school a skos:Concept ;
     skos:definition "Finnish contemporary photography movement originating at the University of Art and Design Helsinki; known for large-scale, contemplative images; artists include Elina Brotherus and Esko Männikkö."@en ;
     time:hasBeginning [ time:inXSDgYear "1995"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "2025"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "1995"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .
 
 # ── 93/93: Nordic Parametric Architecture ──
@@ -1760,4 +1936,5 @@ nam:nordic-parametric-architecture a skos:Concept ;
     skos:definition "Computational and parametric architecture in the Nordic countries; firms like BIG (Bjarke Ingels Group), Snøhetta, and 3XN use algorithmic design for innovative public buildings."@en ;
     time:hasBeginning [ time:inXSDgYear "2005"^^xsd:gYear ] ;
     time:hasEnd [ time:inXSDgYear "2025"^^xsd:gYear ] ;
+    <https://metadatahub.eu/data/nordic-art-movements/ontology/timelineStart> "2005"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .

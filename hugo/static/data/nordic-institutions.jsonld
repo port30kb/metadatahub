@@ -9,7 +9,8 @@
     "foaf": "http://xmlns.com/foaf/0.1/",
     "org": "http://www.w3.org/ns/org#",
     "schema": "https://schema.org/",
-    "crm": "http://www.cidoc-crm.org/cidoc-crm/"
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "mhub": "https://metadatahub.eu/data/nordic-institutions/ontology/"
   },
   "@id": "https://metadatahub.eu/data/nordic-institutions",
   "@type": "skos:ConceptScheme",
@@ -66,6 +67,7 @@
         "@value": "1792",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1792,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -110,6 +112,7 @@
         "@value": "1873",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1873,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -154,6 +157,7 @@
         "@value": "1866",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1866,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -198,6 +202,7 @@
         "@value": "1958",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1958,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -242,6 +247,7 @@
         "@value": "1990",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1990,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -285,6 +291,7 @@
         "@value": "1891",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1891,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -328,6 +335,7 @@
         "@value": "1628",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1628,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -372,6 +380,7 @@
         "@value": "1819",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1819,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -415,6 +424,7 @@
         "@value": "1938",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1938,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -458,6 +468,7 @@
         "@value": "1947",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1947,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -501,6 +512,7 @@
         "@value": "1924",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1924,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -544,6 +556,7 @@
         "@value": "1936",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1936,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -588,6 +601,7 @@
         "@value": "1923",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1923,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -631,6 +645,7 @@
         "@value": "1861",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1861,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -675,6 +690,7 @@
         "@value": "1916",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1916,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -718,6 +734,7 @@
         "@value": "1841",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1841,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -761,6 +778,7 @@
         "@value": "1841",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1841,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -805,6 +823,7 @@
         "@value": "1805",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1805,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -848,6 +867,7 @@
         "@value": "1997",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1997,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -891,6 +911,7 @@
         "@value": "1909",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1909,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -934,6 +955,7 @@
         "@value": "1875",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1875,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -977,6 +999,7 @@
         "@value": "1977",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1977,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -1020,6 +1043,7 @@
         "@value": "1886",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1886,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -1067,6 +1091,7 @@
         "@value": "1989",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1989,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -1110,6 +1135,7 @@
         "@value": "1936",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1936,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -1153,6 +1179,7 @@
         "@value": "1943",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1943,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -1196,6 +1223,7 @@
         "@value": "1928",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1928,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -1239,6 +1267,7 @@
         "@value": "1862",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1862,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -1283,6 +1312,7 @@
         "@value": "1924",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1924,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -1326,6 +1356,7 @@
         "@value": "1962",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1962,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -1369,6 +1400,7 @@
         "@value": "2010",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 2010,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -1412,6 +1444,7 @@
         "@value": "1938",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1938,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -1455,6 +1488,7 @@
         "@value": "1954",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1954,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -1498,6 +1532,7 @@
         "@value": "1926",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1926,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -1541,6 +1576,7 @@
         "@value": "1839",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1839,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -1584,6 +1620,7 @@
         "@value": "1908",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1908,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -1627,6 +1664,7 @@
         "@value": "1903",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1903,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -1670,6 +1708,7 @@
         "@value": "1984",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1984,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Sweden"
     },
     {
@@ -1718,6 +1757,7 @@
         "@value": "2003",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 2003,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
     },
     {
@@ -1765,6 +1805,7 @@
         "@value": "1963",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1963,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
     },
     {
@@ -1812,6 +1853,7 @@
         "@value": "1926",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1926,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
     },
     {
@@ -1859,6 +1901,7 @@
         "@value": "1904",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1904,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
     },
     {
@@ -1907,6 +1950,7 @@
         "@value": "1894",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1894,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
     },
     {
@@ -1954,6 +1998,7 @@
         "@value": "1914",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1914,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
     },
     {
@@ -2001,6 +2046,7 @@
         "@value": "1950",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1950,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
     },
     {
@@ -2048,6 +2094,7 @@
         "@value": "1936",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1936,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
     },
     {
@@ -2095,6 +2142,7 @@
         "@value": "1825",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1825,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
     },
     {
@@ -2142,6 +2190,7 @@
         "@value": "2007",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 2007,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
     },
     {
@@ -2189,6 +2238,7 @@
         "@value": "1872",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1872,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
     },
     {
@@ -2236,6 +2286,7 @@
         "@value": "1985",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1985,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
     },
     {
@@ -2283,6 +2334,7 @@
         "@value": "1972",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1972,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
     },
     {
@@ -2330,6 +2382,7 @@
         "@value": "1887",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1887,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
     },
     {
@@ -2377,6 +2430,7 @@
         "@value": "1993",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1993,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
     },
     {
@@ -2424,6 +2478,7 @@
         "@value": "1893",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1893,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
     },
     {
@@ -2471,6 +2526,7 @@
         "@value": "1760",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1760,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
     },
     {
@@ -2518,6 +2574,7 @@
         "@value": "1877",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1877,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
     },
     {
@@ -2565,6 +2622,7 @@
         "@value": "1914",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1914,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
     },
     {
@@ -2612,6 +2670,7 @@
         "@value": "1968",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1968,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
     },
     {
@@ -2659,6 +2718,7 @@
         "@value": "1988",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1988,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
     },
     {
@@ -2706,6 +2766,7 @@
         "@value": "1995",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1995,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
     },
     {
@@ -2753,6 +2814,7 @@
         "@value": "1996",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1996,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
     },
     {
@@ -2800,6 +2862,7 @@
         "@value": "1930",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1930,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Norway"
     },
     {
@@ -2848,6 +2911,7 @@
         "@value": "1887",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1887,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
     },
     {
@@ -2895,6 +2959,7 @@
         "@value": "1998",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1998,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
     },
     {
@@ -2942,6 +3007,7 @@
         "@value": "1921",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1921,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
     },
     {
@@ -2990,6 +3056,7 @@
         "@value": "1916",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1916,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
     },
     {
@@ -3037,6 +3104,7 @@
         "@value": "1873",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1873,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
     },
     {
@@ -3084,6 +3152,7 @@
         "@value": "1909",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1909,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
     },
     {
@@ -3131,6 +3200,7 @@
         "@value": "1881",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1881,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
     },
     {
@@ -3178,6 +3248,7 @@
         "@value": "1904",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1904,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
     },
     {
@@ -3225,6 +3296,7 @@
         "@value": "1995",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1995,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
     },
     {
@@ -3272,6 +3344,7 @@
         "@value": "1931",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1931,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
     },
     {
@@ -3319,6 +3392,7 @@
         "@value": "1979",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1979,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
     },
     {
@@ -3366,6 +3440,7 @@
         "@value": "1962",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1962,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
     },
     {
@@ -3413,6 +3488,7 @@
         "@value": "1963",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1963,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
     },
     {
@@ -3460,6 +3536,7 @@
         "@value": "1911",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1911,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
     },
     {
@@ -3507,6 +3584,7 @@
         "@value": "1988",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1988,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
     },
     {
@@ -3554,6 +3632,7 @@
         "@value": "1996",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1996,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
     },
     {
@@ -3601,6 +3680,7 @@
         "@value": "2018",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 2018,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
     },
     {
@@ -3648,6 +3728,7 @@
         "@value": "1992",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1992,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
     },
     {
@@ -3695,6 +3776,7 @@
         "@value": "2006",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 2006,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
     },
     {
@@ -3742,6 +3824,7 @@
         "@value": "1952",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1952,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
     },
     {
@@ -3789,6 +3872,7 @@
         "@value": "2008",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 2008,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
     },
     {
@@ -3836,6 +3920,7 @@
         "@value": "1974",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1974,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
     },
     {
@@ -3883,6 +3968,7 @@
         "@value": "1895",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1895,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
     },
     {
@@ -3930,6 +4016,7 @@
         "@value": "1907",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1907,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Finland"
     },
     {
@@ -3974,6 +4061,7 @@
         "@value": "1819",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1819,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
     },
     {
@@ -4018,6 +4106,7 @@
         "@value": "1849",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1849,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
     },
     {
@@ -4061,6 +4150,7 @@
         "@value": "1888",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1888,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
     },
     {
@@ -4104,6 +4194,7 @@
         "@value": "1958",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1958,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
     },
     {
@@ -4147,6 +4238,7 @@
         "@value": "1859",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1859,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
     },
     {
@@ -4190,6 +4282,7 @@
         "@value": "1848",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1848,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
     },
     {
@@ -4233,6 +4326,7 @@
         "@value": "1911",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1911,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
     },
     {
@@ -4276,6 +4370,7 @@
         "@value": "1953",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1953,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
     },
     {
@@ -4319,6 +4414,7 @@
         "@value": "1969",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1969,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
     },
     {
@@ -4362,6 +4458,7 @@
         "@value": "2013",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 2013,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
     },
     {
@@ -4405,6 +4502,7 @@
         "@value": "1909",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1909,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
     },
     {
@@ -4448,6 +4546,7 @@
         "@value": "2014",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 2014,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
     },
     {
@@ -4491,6 +4590,7 @@
         "@value": "2004",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 2004,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
     },
     {
@@ -4534,6 +4634,7 @@
         "@value": "1972",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1972,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
     },
     {
@@ -4577,6 +4678,7 @@
         "@value": "1897",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1897,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
     },
     {
@@ -4620,6 +4722,7 @@
         "@value": "1890",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1890,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
     },
     {
@@ -4663,6 +4766,7 @@
         "@value": "1887",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1887,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
     },
     {
@@ -4706,6 +4810,7 @@
         "@value": "1992",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1992,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
     },
     {
@@ -4749,6 +4854,7 @@
         "@value": "1908",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1908,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
     },
     {
@@ -4792,6 +4898,7 @@
         "@value": "1984",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1984,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Denmark"
     },
     {
@@ -4835,6 +4942,7 @@
         "@value": "1863",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1863,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Iceland"
     },
     {
@@ -4878,6 +4986,7 @@
         "@value": "1973",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1973,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Iceland"
     },
     {
@@ -4921,6 +5030,7 @@
         "@value": "1884",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1884,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Iceland"
     },
     {
@@ -4964,6 +5074,7 @@
         "@value": "2004",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 2004,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Iceland"
     },
     {
@@ -5007,6 +5118,7 @@
         "@value": "1957",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1957,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Iceland"
     },
     {
@@ -5050,6 +5162,7 @@
         "@value": "1993",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1993,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Iceland"
     },
     {
@@ -5093,6 +5206,7 @@
         "@value": "1997",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1997,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Iceland"
     },
     {
@@ -5136,6 +5250,7 @@
         "@value": "1949",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1949,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Iceland"
     },
     {
@@ -5179,6 +5294,7 @@
         "@value": "1977",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1977,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Iceland"
     },
     {
@@ -5222,6 +5338,7 @@
         "@value": "1994",
         "@type": "xsd:gYear"
       },
+      "mhub:timelineStart": 1994,
       "dcterms:source": "https://en.wikipedia.org/wiki/List_of_museums_in_Iceland"
     }
   ]

@@ -7,6 +7,7 @@
 
 - id: iceland
   type: country
+  timeline_start: 874
   labels:
     en: Iceland
     is: Ísland
@@ -24,6 +25,7 @@
 - id: capital-region-iceland
   type: region
   broader: iceland
+  timeline_start: 874
   labels:
     en: Capital Region
     is: Höfuðborgarsvæðið
@@ -35,6 +37,7 @@
 - id: southern-iceland
   type: region
   broader: iceland
+  timeline_start: 874
   labels:
     en: South Iceland
     is: Suðurland
@@ -46,6 +49,7 @@
 - id: western-iceland
   type: region
   broader: iceland
+  timeline_start: 874
   labels:
     en: West Iceland
     is: Vesturland
@@ -57,6 +61,7 @@
 - id: westfjords
   type: region
   broader: iceland
+  timeline_start: 890
   labels:
     en: Westfjords
     is: Vestfirðir
@@ -68,6 +73,7 @@
 - id: northern-iceland
   type: region
   broader: iceland
+  timeline_start: 874
   labels:
     en: North Iceland
     is: Norðurland
@@ -79,6 +85,7 @@
 - id: eastern-iceland
   type: region
   broader: iceland
+  timeline_start: 880
   labels:
     en: East Iceland
     is: Austfirðir
@@ -92,6 +99,7 @@
 - id: reykjavik
   type: city
   broader: capital-region-iceland
+  timeline_start: 874
   labels:
     en: Reykjavík
     is: Reykjavík
@@ -104,6 +112,7 @@
 - id: akureyri
   type: city
   broader: northern-iceland
+  timeline_start: 1562
   labels:
     en: Akureyri
     is: Akureyri
@@ -116,6 +125,7 @@
 - id: husavik
   type: town
   broader: northern-iceland
+  timeline_start: 870
   labels:
     en: Húsavík
     is: Húsavík
@@ -128,6 +138,7 @@
 - id: isafjordur
   type: town
   broader: westfjords
+  timeline_start: 920
   labels:
     en: Ísafjörður
     is: Ísafjörður
@@ -140,6 +151,7 @@
 - id: selfoss
   type: town
   broader: southern-iceland
+  timeline_start: 1891
   labels:
     en: Selfoss
     is: Selfoss
@@ -152,6 +164,7 @@
 - id: egilsstadir
   type: town
   broader: eastern-iceland
+  timeline_start: 1944
   labels:
     en: Egilsstaðir
     is: Egilsstaðir
@@ -164,6 +177,7 @@
 - id: vik
   type: village
   broader: southern-iceland
+  timeline_start: 900
   labels:
     en: Vík í Mýrdal
     is: Vík í Mýrdal
@@ -180,6 +194,7 @@
 - id: thingvellir
   type: archaeological-site
   broader: southern-iceland
+  timeline_start: 930
   labels:
     en: Þingvellir
     is: Þingvellir
@@ -194,6 +209,8 @@
 - id: skalholt
   type: archaeological-site
   broader: southern-iceland
+  timeline_start: 1056
+  timeline_end: 1785
   labels:
     en: Skálholt
     is: Skálholt

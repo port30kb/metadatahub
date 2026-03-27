@@ -7,7 +7,8 @@
     "skos": "http://www.w3.org/2004/02/skos/core#",
     "dcterms": "http://purl.org/dc/terms/",
     "schema": "https://schema.org/",
-    "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+    "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "mhub": "https://metadatahub.eu/data/nordic-places/ontology/"
   },
   "@id": "https://metadatahub.eu/data/nordic-places",
   "@type": "skos:ConceptScheme",
@@ -54,6 +55,7 @@
       "skos:inScheme": {
         "@id": "https://metadatahub.eu/data/nordic-places"
       },
+      "mhub:timelineStart": -8000,
       "skos:altLabel": [
         {
           "@value": "Kingdom of Sweden",
@@ -112,6 +114,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/sweden"
       },
+      "mhub:timelineStart": -6000,
       "geo:lat": 59.85,
       "geo:long": 17.63,
       "owl:sameAs": [
@@ -160,6 +163,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/sweden"
       },
+      "mhub:timelineStart": -6000,
       "skos:altLabel": {
         "@value": "Sörmland",
         "@language": "sv"
@@ -212,6 +216,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/sweden"
       },
+      "mhub:timelineStart": -6000,
       "geo:lat": 58.42,
       "geo:long": 15.62,
       "owl:sameAs": [
@@ -260,6 +265,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/sweden"
       },
+      "mhub:timelineStart": -6000,
       "geo:lat": 57.17,
       "geo:long": 15.58,
       "owl:sameAs": [
@@ -308,6 +314,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/sweden"
       },
+      "mhub:timelineStart": -6000,
       "geo:lat": 58.17,
       "geo:long": 13.17,
       "owl:sameAs": [
@@ -356,6 +363,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/sweden"
       },
+      "mhub:timelineStart": -8000,
       "skos:altLabel": [
         {
           "@value": "Skåne",
@@ -414,6 +422,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/sweden"
       },
+      "mhub:timelineStart": -7000,
       "geo:lat": 57.5,
       "geo:long": 18.55,
       "owl:sameAs": [
@@ -462,6 +471,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/sweden"
       },
+      "mhub:timelineStart": -6000,
       "skos:altLabel": {
         "@value": "Dalecarlia",
         "@language": "en"
@@ -514,6 +524,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/sweden"
       },
+      "mhub:timelineStart": -6000,
       "geo:lat": 59.73,
       "geo:long": 13.23,
       "owl:sameAs": [
@@ -562,6 +573,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/sweden"
       },
+      "mhub:timelineStart": -5000,
       "geo:lat": 66.33,
       "geo:long": 20.0,
       "owl:sameAs": [
@@ -610,6 +622,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/sweden"
       },
+      "mhub:timelineStart": -5000,
       "geo:lat": 64.75,
       "geo:long": 18.5,
       "owl:sameAs": [
@@ -658,6 +671,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/sweden"
       },
+      "mhub:timelineStart": -5000,
       "geo:lat": 63.33,
       "geo:long": 17.5,
       "owl:sameAs": [
@@ -706,6 +720,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/sweden"
       },
+      "mhub:timelineStart": -5000,
       "geo:lat": 63.17,
       "geo:long": 14.64,
       "owl:sameAs": [
@@ -754,6 +769,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/sweden"
       },
+      "mhub:timelineStart": -5000,
       "geo:lat": 62.4,
       "geo:long": 14.1,
       "owl:sameAs": [
@@ -802,6 +818,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/sweden"
       },
+      "mhub:timelineStart": -5000,
       "geo:lat": 61.75,
       "geo:long": 16.5,
       "owl:sameAs": [
@@ -850,6 +867,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/sweden"
       },
+      "mhub:timelineStart": -5000,
       "geo:lat": 60.7,
       "geo:long": 16.82,
       "owl:sameAs": [
@@ -898,6 +916,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/sweden"
       },
+      "mhub:timelineStart": -6000,
       "geo:lat": 59.07,
       "geo:long": 15.17,
       "owl:sameAs": [
@@ -946,6 +965,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/sweden"
       },
+      "mhub:timelineStart": -6000,
       "geo:lat": 59.72,
       "geo:long": 16.25,
       "owl:sameAs": [
@@ -994,6 +1014,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/sweden"
       },
+      "mhub:timelineStart": -7000,
       "geo:lat": 56.9,
       "geo:long": 12.8,
       "owl:sameAs": [
@@ -1042,6 +1063,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/sweden"
       },
+      "mhub:timelineStart": -7000,
       "geo:lat": 56.17,
       "geo:long": 15.5,
       "owl:sameAs": [
@@ -1090,6 +1112,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/sweden"
       },
+      "mhub:timelineStart": -8000,
       "geo:lat": 58.5,
       "geo:long": 11.5,
       "owl:sameAs": [
@@ -1138,6 +1161,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/sweden"
       },
+      "mhub:timelineStart": -6000,
       "geo:lat": 59.0,
       "geo:long": 12.3,
       "owl:sameAs": [
@@ -1186,6 +1210,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/sweden"
       },
+      "mhub:timelineStart": -7000,
       "geo:lat": 56.75,
       "geo:long": 16.63,
       "owl:sameAs": [
@@ -1242,6 +1267,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/sweden"
       },
+      "mhub:timelineStart": -5000,
       "geo:lat": 67.5,
       "geo:long": 18.0,
       "owl:sameAs": [
@@ -1290,6 +1316,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/uppland"
       },
+      "mhub:timelineStart": 1252,
       "skos:altLabel": {
         "@value": "Stockholms stad",
         "@language": "sv"
@@ -1342,6 +1369,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/vastergotland"
       },
+      "mhub:timelineStart": 1621,
       "geo:lat": 57.7089,
       "geo:long": 11.9746,
       "owl:sameAs": [
@@ -1390,6 +1418,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/skane"
       },
+      "mhub:timelineStart": 1275,
       "geo:lat": 55.605,
       "geo:long": 13.0038,
       "owl:sameAs": [
@@ -1438,6 +1467,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/uppland"
       },
+      "mhub:timelineStart": 1286,
       "geo:lat": 59.8586,
       "geo:long": 17.6389,
       "owl:sameAs": [
@@ -1486,6 +1516,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/ostergotland"
       },
+      "mhub:timelineStart": 1287,
       "geo:lat": 58.4108,
       "geo:long": 15.6214,
       "owl:sameAs": [
@@ -1534,6 +1565,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/ostergotland"
       },
+      "mhub:timelineStart": 1384,
       "geo:lat": 58.5942,
       "geo:long": 16.1826,
       "owl:sameAs": [
@@ -1582,6 +1614,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/vastmanland"
       },
+      "mhub:timelineStart": 1000,
       "geo:lat": 59.6162,
       "geo:long": 16.5528,
       "owl:sameAs": [
@@ -1630,6 +1663,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/narke"
       },
+      "mhub:timelineStart": 1240,
       "geo:lat": 59.2753,
       "geo:long": 15.2134,
       "owl:sameAs": [
@@ -1678,6 +1712,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/vasterbotten"
       },
+      "mhub:timelineStart": 1588,
       "geo:lat": 63.8258,
       "geo:long": 20.263,
       "owl:sameAs": [
@@ -1726,6 +1761,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/norrbotten"
       },
+      "mhub:timelineStart": 1621,
       "geo:lat": 65.5848,
       "geo:long": 22.1547,
       "owl:sameAs": [
@@ -1782,6 +1818,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/lappland"
       },
+      "mhub:timelineStart": 1900,
       "geo:lat": 67.8558,
       "geo:long": 20.2253,
       "owl:sameAs": [
@@ -1830,6 +1867,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/smaland"
       },
+      "mhub:timelineStart": 1200,
       "geo:lat": 56.6634,
       "geo:long": 16.3566,
       "owl:sameAs": [
@@ -1878,6 +1916,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/gotland"
       },
+      "mhub:timelineStart": 900,
       "geo:lat": 57.6348,
       "geo:long": 18.2948,
       "owl:sameAs": [
@@ -1926,6 +1965,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/skane"
       },
+      "mhub:timelineStart": 990,
       "geo:lat": 55.7047,
       "geo:long": 13.191,
       "owl:sameAs": [
@@ -1974,6 +2014,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/halsingland"
       },
+      "mhub:timelineStart": 1621,
       "geo:lat": 62.3908,
       "geo:long": 17.3069,
       "owl:sameAs": [
@@ -2022,6 +2063,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/gastrikland"
       },
+      "mhub:timelineStart": 1446,
       "geo:lat": 60.6749,
       "geo:long": 17.1413,
       "owl:sameAs": [
@@ -2070,6 +2112,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/jamtland"
       },
+      "mhub:timelineStart": 1786,
       "geo:lat": 63.1792,
       "geo:long": 14.6357,
       "owl:sameAs": [
@@ -2118,6 +2161,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/varmland"
       },
+      "mhub:timelineStart": 1584,
       "geo:lat": 59.3793,
       "geo:long": 13.5036,
       "owl:sameAs": [
@@ -2166,6 +2210,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/halland"
       },
+      "mhub:timelineStart": 1307,
       "geo:lat": 56.6745,
       "geo:long": 12.8578,
       "owl:sameAs": [
@@ -2214,6 +2259,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/smaland"
       },
+      "mhub:timelineStart": 1342,
       "geo:lat": 56.8777,
       "geo:long": 14.8091,
       "owl:sameAs": [
@@ -2262,6 +2308,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/dalarna"
       },
+      "mhub:timelineStart": 1641,
       "geo:lat": 60.6065,
       "geo:long": 15.6355,
       "owl:sameAs": [
@@ -2318,6 +2365,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/norrbotten"
       },
+      "mhub:timelineStart": 1735,
       "geo:lat": 67.1341,
       "geo:long": 20.6532,
       "owl:sameAs": [
@@ -2366,6 +2414,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/uppland"
       },
+      "mhub:timelineStart": 970,
       "geo:lat": 59.6179,
       "geo:long": 17.7236,
       "owl:sameAs": [
@@ -2422,6 +2471,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/lappland"
       },
+      "mhub:timelineStart": 1605,
       "geo:lat": 66.6082,
       "geo:long": 19.8286,
       "owl:sameAs": [
@@ -2470,6 +2520,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/skane"
       },
+      "mhub:timelineStart": 1244,
       "geo:lat": 55.4295,
       "geo:long": 13.82,
       "owl:sameAs": [
@@ -2518,6 +2569,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/sweden"
       },
+      "mhub:timelineStart": -7000,
       "geo:lat": 56.75,
       "geo:long": 16.63,
       "owl:sameAs": [
@@ -2566,6 +2618,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/sweden"
       },
+      "mhub:timelineStart": -7000,
       "geo:lat": 57.5,
       "geo:long": 18.55,
       "owl:sameAs": [
@@ -2614,6 +2667,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/sweden"
       },
+      "mhub:timelineStart": -5000,
       "geo:lat": 64.5,
       "geo:long": 18.0,
       "owl:sameAs": {
@@ -2657,6 +2711,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/sweden"
       },
+      "mhub:timelineStart": -6000,
       "geo:lat": 59.8,
       "geo:long": 16.5,
       "owl:sameAs": {
@@ -2700,6 +2755,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/sweden"
       },
+      "mhub:timelineStart": -7000,
       "geo:lat": 57.5,
       "geo:long": 14.5,
       "owl:sameAs": {
@@ -2756,6 +2812,7 @@
       "skos:inScheme": {
         "@id": "https://metadatahub.eu/data/nordic-places"
       },
+      "mhub:timelineStart": -9000,
       "skos:altLabel": [
         {
           "@value": "Kingdom of Norway",
@@ -2826,6 +2883,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/norway"
       },
+      "mhub:timelineStart": -8000,
       "geo:lat": 60.5,
       "geo:long": 10.75,
       "owl:sameAs": {
@@ -2877,6 +2935,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/norway"
       },
+      "mhub:timelineStart": -8000,
       "geo:lat": 61.0,
       "geo:long": 6.0,
       "owl:sameAs": {
@@ -2928,6 +2987,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/norway"
       },
+      "mhub:timelineStart": -6000,
       "geo:lat": 63.8,
       "geo:long": 12.0,
       "owl:sameAs": [
@@ -2984,6 +3044,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/norway"
       },
+      "mhub:timelineStart": -9000,
       "geo:lat": 69.0,
       "geo:long": 18.0,
       "owl:sameAs": {
@@ -3035,6 +3096,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/norway"
       },
+      "mhub:timelineStart": -7000,
       "geo:lat": 58.3,
       "geo:long": 8.0,
       "owl:sameAs": {
@@ -3078,6 +3140,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/norway"
       },
+      "mhub:timelineStart": -7000,
       "geo:lat": 59.4,
       "geo:long": 8.5,
       "owl:sameAs": [
@@ -3126,6 +3189,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/norway"
       },
+      "mhub:timelineStart": -6000,
       "geo:lat": 67.0,
       "geo:long": 15.0,
       "owl:sameAs": [
@@ -3182,6 +3246,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/norway"
       },
+      "mhub:timelineStart": -8000,
       "geo:lat": 70.5,
       "geo:long": 26.0,
       "owl:sameAs": [
@@ -3238,6 +3303,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/norway"
       },
+      "mhub:timelineStart": -7000,
       "geo:lat": 69.3,
       "geo:long": 18.5,
       "owl:sameAs": [
@@ -3286,6 +3352,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/norway"
       },
+      "mhub:timelineStart": -8000,
       "geo:lat": 59.0,
       "geo:long": 6.0,
       "owl:sameAs": [
@@ -3334,6 +3401,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/norway"
       },
+      "mhub:timelineStart": -8000,
       "geo:lat": 60.5,
       "geo:long": 6.0,
       "owl:sameAs": [
@@ -3382,6 +3450,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/ostlandet"
       },
+      "mhub:timelineStart": 1040,
       "skos:altLabel": {
         "@value": "Tigerstaden",
         "@language": "nb"
@@ -3444,6 +3513,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/hordaland"
       },
+      "mhub:timelineStart": 1070,
       "geo:lat": 60.3913,
       "geo:long": 5.3221,
       "owl:sameAs": [
@@ -3492,6 +3562,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/trondelag"
       },
+      "mhub:timelineStart": 997,
       "skos:hiddenLabel": [
         {
           "@value": "Nidaros",
@@ -3550,6 +3621,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/rogaland"
       },
+      "mhub:timelineStart": 1125,
       "geo:lat": 58.97,
       "geo:long": 5.7331,
       "owl:sameAs": [
@@ -3606,6 +3678,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/troms"
       },
+      "mhub:timelineStart": 1794,
       "geo:lat": 69.6496,
       "geo:long": 18.956,
       "owl:sameAs": [
@@ -3654,6 +3727,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/nordland"
       },
+      "mhub:timelineStart": 1816,
       "geo:lat": 67.2804,
       "geo:long": 14.4049,
       "owl:sameAs": [
@@ -3702,6 +3776,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/sorlandet"
       },
+      "mhub:timelineStart": 1641,
       "geo:lat": 58.1599,
       "geo:long": 8.0182,
       "owl:sameAs": [
@@ -3750,6 +3825,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/ostlandet"
       },
+      "mhub:timelineStart": 1811,
       "geo:lat": 59.744,
       "geo:long": 10.2045,
       "owl:sameAs": [
@@ -3806,6 +3882,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/finnmark"
       },
+      "mhub:timelineStart": 1789,
       "geo:lat": 70.6634,
       "geo:long": 23.6821,
       "owl:sameAs": [
@@ -3862,6 +3939,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/finnmark"
       },
+      "mhub:timelineStart": 1862,
       "geo:lat": 69.7271,
       "geo:long": 30.0453,
       "owl:sameAs": [
@@ -3910,6 +3988,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/vestlandet"
       },
+      "mhub:timelineStart": 1848,
       "geo:lat": 62.4723,
       "geo:long": 6.1549,
       "owl:sameAs": [
@@ -3958,6 +4037,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/ostlandet"
       },
+      "mhub:timelineStart": 1827,
       "geo:lat": 61.1152,
       "geo:long": 10.4662,
       "owl:sameAs": [
@@ -4006,6 +4086,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/nordland"
       },
+      "mhub:timelineStart": -6000,
       "geo:lat": 68.2,
       "geo:long": 14.5,
       "owl:sameAs": [
@@ -4054,6 +4135,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/norway"
       },
+      "mhub:timelineStart": 1596,
       "skos:altLabel": {
         "@value": "Spitsbergen",
         "@language": "en"
@@ -4106,6 +4188,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/nordland"
       },
+      "mhub:timelineStart": -6000,
       "geo:lat": 68.8,
       "geo:long": 15.5,
       "owl:sameAs": [
@@ -4154,6 +4237,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/vestlandet"
       },
+      "mhub:timelineStart": 1340,
       "geo:lat": 60.8631,
       "geo:long": 7.1137,
       "owl:sameAs": [
@@ -4202,6 +4286,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/trondelag"
       },
+      "mhub:timelineStart": 1644,
       "geo:lat": 62.5744,
       "geo:long": 11.3849,
       "owl:sameAs": [
@@ -4258,6 +4343,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/finnmark"
       },
+      "mhub:timelineStart": -4200,
       "geo:lat": 69.9689,
       "geo:long": 23.2716,
       "owl:sameAs": [
@@ -4306,6 +4392,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/svalbard"
       },
+      "mhub:timelineStart": 1906,
       "geo:lat": 78.2232,
       "geo:long": 15.6267,
       "owl:sameAs": [
@@ -4362,6 +4449,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/finnmark"
       },
+      "mhub:timelineStart": 1553,
       "geo:lat": 69.0124,
       "geo:long": 23.0402,
       "owl:sameAs": [
@@ -4423,6 +4511,7 @@
       "skos:inScheme": {
         "@id": "https://metadatahub.eu/data/nordic-places"
       },
+      "mhub:timelineStart": -8500,
       "skos:altLabel": [
         {
           "@value": "Republic of Finland",
@@ -4489,6 +4578,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/finland"
       },
+      "mhub:timelineStart": -5000,
       "geo:lat": 60.3,
       "geo:long": 25.0,
       "owl:sameAs": [
@@ -4545,6 +4635,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/finland"
       },
+      "mhub:timelineStart": -6000,
       "geo:lat": 60.6,
       "geo:long": 22.5,
       "owl:sameAs": [
@@ -4601,6 +4692,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/finland"
       },
+      "mhub:timelineStart": -5000,
       "geo:lat": 61.5,
       "geo:long": 22.0,
       "owl:sameAs": [
@@ -4657,6 +4749,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/finland"
       },
+      "mhub:timelineStart": -5000,
       "geo:lat": 61.2,
       "geo:long": 24.5,
       "owl:sameAs": [
@@ -4713,6 +4806,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/finland"
       },
+      "mhub:timelineStart": -5000,
       "geo:lat": 61.5,
       "geo:long": 23.8,
       "owl:sameAs": [
@@ -4769,6 +4863,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/finland"
       },
+      "mhub:timelineStart": -4000,
       "geo:lat": 63.1,
       "geo:long": 22.0,
       "owl:sameAs": [
@@ -4825,6 +4920,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/finland"
       },
+      "mhub:timelineStart": -5000,
       "geo:lat": 62.5,
       "geo:long": 27.5,
       "owl:sameAs": [
@@ -4881,6 +4977,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/finland"
       },
+      "mhub:timelineStart": -7000,
       "geo:lat": 62.0,
       "geo:long": 30.0,
       "owl:sameAs": {
@@ -4932,6 +5029,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/finland"
       },
+      "mhub:timelineStart": -4000,
       "geo:lat": 64.2,
       "geo:long": 28.5,
       "owl:sameAs": [
@@ -4996,6 +5094,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/finland"
       },
+      "mhub:timelineStart": -7000,
       "geo:lat": 68.0,
       "geo:long": 26.0,
       "owl:sameAs": [
@@ -5052,6 +5151,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/finland"
       },
+      "mhub:timelineStart": -4000,
       "skos:altLabel": [
         {
           "@value": "Åland",
@@ -5118,6 +5218,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/uusimaa"
       },
+      "mhub:timelineStart": 1550,
       "skos:hiddenLabel": {
         "@value": "Helsingfors",
         "@language": "sv"
@@ -5178,6 +5279,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/varsinais-suomi"
       },
+      "mhub:timelineStart": 1229,
       "skos:hiddenLabel": {
         "@value": "Åbo",
         "@language": "sv"
@@ -5238,6 +5340,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/pirkanmaa"
       },
+      "mhub:timelineStart": 1779,
       "geo:lat": 61.4978,
       "geo:long": 23.761,
       "owl:sameAs": [
@@ -5294,6 +5397,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/pohjanmaa"
       },
+      "mhub:timelineStart": 1605,
       "geo:lat": 65.0121,
       "geo:long": 25.4651,
       "owl:sameAs": [
@@ -5350,6 +5454,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/uusimaa"
       },
+      "mhub:timelineStart": 1458,
       "geo:lat": 60.2055,
       "geo:long": 24.6559,
       "owl:sameAs": [
@@ -5406,6 +5511,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/uusimaa"
       },
+      "mhub:timelineStart": 1351,
       "geo:lat": 60.2934,
       "geo:long": 25.0378,
       "owl:sameAs": [
@@ -5462,6 +5568,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/savo"
       },
+      "mhub:timelineStart": 1775,
       "geo:lat": 62.8924,
       "geo:long": 27.6783,
       "owl:sameAs": [
@@ -5518,6 +5625,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/finland"
       },
+      "mhub:timelineStart": 1837,
       "geo:lat": 62.2426,
       "geo:long": 25.7473,
       "owl:sameAs": [
@@ -5574,6 +5682,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/hame"
       },
+      "mhub:timelineStart": 1905,
       "geo:lat": 60.9827,
       "geo:long": 25.6612,
       "owl:sameAs": [
@@ -5630,6 +5739,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/satakunta"
       },
+      "mhub:timelineStart": 1558,
       "geo:lat": 61.4847,
       "geo:long": 21.7972,
       "owl:sameAs": [
@@ -5686,6 +5796,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/lappi"
       },
+      "mhub:timelineStart": 1785,
       "geo:lat": 66.5039,
       "geo:long": 25.7294,
       "owl:sameAs": [
@@ -5742,6 +5853,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/pohjanmaa"
       },
+      "mhub:timelineStart": 1606,
       "skos:hiddenLabel": {
         "@value": "Nikolaistad",
         "@language": "sv"
@@ -5802,6 +5914,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/aland"
       },
+      "mhub:timelineStart": 1861,
       "geo:lat": 60.0971,
       "geo:long": 19.9348,
       "owl:sameAs": [
@@ -5858,6 +5971,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/lappi"
       },
+      "mhub:timelineStart": -7000,
       "geo:lat": 69.0714,
       "geo:long": 27.0139,
       "owl:sameAs": [
@@ -5914,6 +6028,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/uusimaa"
       },
+      "mhub:timelineStart": 1346,
       "geo:lat": 60.3929,
       "geo:long": 25.6605,
       "owl:sameAs": [
@@ -5970,6 +6085,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/savo"
       },
+      "mhub:timelineStart": 1475,
       "geo:lat": 61.8684,
       "geo:long": 28.8782,
       "owl:sameAs": [
@@ -6026,6 +6142,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/satakunta"
       },
+      "mhub:timelineStart": 1442,
       "geo:lat": 61.1273,
       "geo:long": 21.5073,
       "owl:sameAs": [
@@ -6090,6 +6207,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/lappi"
       },
+      "mhub:timelineStart": -5000,
       "geo:lat": 68.4064,
       "geo:long": 23.6341,
       "owl:sameAs": [
@@ -6135,6 +6253,7 @@
       "skos:inScheme": {
         "@id": "https://metadatahub.eu/data/nordic-places"
       },
+      "mhub:timelineStart": -12000,
       "skos:altLabel": [
         {
           "@value": "Kongeriget Danmark",
@@ -6201,6 +6320,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/denmark"
       },
+      "mhub:timelineStart": -12000,
       "geo:lat": 56.0,
       "geo:long": 9.5,
       "owl:sameAs": [
@@ -6249,6 +6369,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/denmark"
       },
+      "mhub:timelineStart": -10000,
       "geo:lat": 55.5,
       "geo:long": 11.8,
       "owl:sameAs": [
@@ -6297,6 +6418,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/denmark"
       },
+      "mhub:timelineStart": -10000,
       "geo:lat": 55.33,
       "geo:long": 10.37,
       "owl:sameAs": [
@@ -6345,6 +6467,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/denmark"
       },
+      "mhub:timelineStart": -8000,
       "geo:lat": 55.13,
       "geo:long": 14.92,
       "owl:sameAs": [
@@ -6393,6 +6516,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/jutland"
       },
+      "mhub:timelineStart": -10000,
       "geo:lat": 57.2,
       "geo:long": 9.9,
       "owl:sameAs": [
@@ -6449,6 +6573,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/jutland"
       },
+      "mhub:timelineStart": -10000,
       "geo:lat": 55.1,
       "geo:long": 9.2,
       "owl:sameAs": [
@@ -6497,6 +6622,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/denmark"
       },
+      "mhub:timelineStart": -8000,
       "geo:lat": 54.77,
       "geo:long": 11.5,
       "owl:sameAs": [
@@ -6553,6 +6679,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/denmark"
       },
+      "mhub:timelineStart": -2500,
       "geo:lat": 72.0,
       "geo:long": -40.0,
       "owl:sameAs": [
@@ -6609,6 +6736,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/denmark"
       },
+      "mhub:timelineStart": 800,
       "geo:lat": 62.0,
       "geo:long": -7.0,
       "owl:sameAs": [
@@ -6657,6 +6785,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/zealand"
       },
+      "mhub:timelineStart": 1167,
       "skos:altLabel": {
         "@value": "Københavns Kommune",
         "@language": "da"
@@ -6709,6 +6838,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/jutland"
       },
+      "mhub:timelineStart": 770,
       "skos:hiddenLabel": {
         "@value": "Århus",
         "@language": "da"
@@ -6761,6 +6891,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/funen"
       },
+      "mhub:timelineStart": 988,
       "geo:lat": 55.4038,
       "geo:long": 10.4024,
       "owl:sameAs": [
@@ -6809,6 +6940,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/north-jutland"
       },
+      "mhub:timelineStart": 1000,
       "skos:hiddenLabel": {
         "@value": "Ålborg",
         "@language": "da"
@@ -6861,6 +6993,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/jutland"
       },
+      "mhub:timelineStart": 1868,
       "geo:lat": 55.4764,
       "geo:long": 8.4594,
       "owl:sameAs": [
@@ -6909,6 +7042,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/zealand"
       },
+      "mhub:timelineStart": 980,
       "geo:lat": 55.6416,
       "geo:long": 12.0879,
       "owl:sameAs": [
@@ -6957,6 +7091,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/zealand"
       },
+      "mhub:timelineStart": 1231,
       "skos:altLabel": {
         "@value": "Elsinore",
         "@language": "en"
@@ -7009,6 +7144,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/jutland"
       },
+      "mhub:timelineStart": 710,
       "geo:lat": 55.3306,
       "geo:long": 8.7595,
       "owl:sameAs": [
@@ -7057,6 +7193,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/north-jutland"
       },
+      "mhub:timelineStart": 1413,
       "geo:lat": 57.7209,
       "geo:long": 10.5839,
       "owl:sameAs": [
@@ -7105,6 +7242,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/zealand"
       },
+      "mhub:timelineStart": 1550,
       "geo:lat": 55.9296,
       "geo:long": 12.3035,
       "owl:sameAs": [
@@ -7161,6 +7299,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/faroe-islands"
       },
+      "mhub:timelineStart": 850,
       "geo:lat": 62.0107,
       "geo:long": -6.7716,
       "owl:sameAs": [
@@ -7217,6 +7356,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/greenland"
       },
+      "mhub:timelineStart": 1728,
       "skos:hiddenLabel": {
         "@value": "Godthåb",
         "@language": "da"
@@ -7269,6 +7409,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/jutland"
       },
+      "mhub:timelineStart": 1231,
       "geo:lat": 55.4904,
       "geo:long": 9.4702,
       "owl:sameAs": [
@@ -7317,6 +7458,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/jutland"
       },
+      "mhub:timelineStart": 1256,
       "geo:lat": 55.7093,
       "geo:long": 9.5357,
       "owl:sameAs": [
@@ -7365,6 +7507,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/funen"
       },
+      "mhub:timelineStart": 1253,
       "geo:lat": 55.0596,
       "geo:long": 10.6069,
       "owl:sameAs": [
@@ -7410,6 +7553,7 @@
       "skos:inScheme": {
         "@id": "https://metadatahub.eu/data/nordic-places"
       },
+      "mhub:timelineStart": 874,
       "skos:altLabel": [
         {
           "@value": "Republic of Iceland",
@@ -7468,6 +7612,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/iceland"
       },
+      "mhub:timelineStart": 874,
       "geo:lat": 64.13,
       "geo:long": -21.9,
       "owl:sameAs": {
@@ -7511,6 +7656,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/iceland"
       },
+      "mhub:timelineStart": 874,
       "geo:lat": 63.8,
       "geo:long": -20.0,
       "owl:sameAs": {
@@ -7554,6 +7700,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/iceland"
       },
+      "mhub:timelineStart": 874,
       "geo:lat": 64.8,
       "geo:long": -21.5,
       "owl:sameAs": {
@@ -7597,6 +7744,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/iceland"
       },
+      "mhub:timelineStart": 890,
       "geo:lat": 65.8,
       "geo:long": -22.5,
       "owl:sameAs": {
@@ -7640,6 +7788,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/iceland"
       },
+      "mhub:timelineStart": 874,
       "geo:lat": 65.7,
       "geo:long": -18.0,
       "owl:sameAs": {
@@ -7683,6 +7832,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/iceland"
       },
+      "mhub:timelineStart": 880,
       "geo:lat": 65.0,
       "geo:long": -14.5,
       "owl:sameAs": {
@@ -7726,6 +7876,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/capital-region-iceland"
       },
+      "mhub:timelineStart": 874,
       "geo:lat": 64.1466,
       "geo:long": -21.9426,
       "owl:sameAs": [
@@ -7774,6 +7925,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/northern-iceland"
       },
+      "mhub:timelineStart": 1562,
       "geo:lat": 65.6835,
       "geo:long": -18.0878,
       "owl:sameAs": [
@@ -7822,6 +7974,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/northern-iceland"
       },
+      "mhub:timelineStart": 870,
       "geo:lat": 66.0449,
       "geo:long": -17.3389,
       "owl:sameAs": [
@@ -7870,6 +8023,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/westfjords"
       },
+      "mhub:timelineStart": 920,
       "geo:lat": 66.0741,
       "geo:long": -23.1354,
       "owl:sameAs": [
@@ -7918,6 +8072,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/southern-iceland"
       },
+      "mhub:timelineStart": 1891,
       "geo:lat": 63.9336,
       "geo:long": -20.9971,
       "owl:sameAs": [
@@ -7966,6 +8121,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/eastern-iceland"
       },
+      "mhub:timelineStart": 1944,
       "geo:lat": 65.2531,
       "geo:long": -14.3948,
       "owl:sameAs": [
@@ -8014,6 +8170,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/southern-iceland"
       },
+      "mhub:timelineStart": 900,
       "skos:altLabel": {
         "@value": "Vík",
         "@language": "en"
@@ -8066,6 +8223,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/southern-iceland"
       },
+      "mhub:timelineStart": 930,
       "skos:altLabel": {
         "@value": "Thingvellir",
         "@language": "en"
@@ -8118,6 +8276,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/southern-iceland"
       },
+      "mhub:timelineStart": 1056,
+      "mhub:timelineEnd": 1785,
       "geo:lat": 64.1287,
       "geo:long": -20.5264,
       "owl:sameAs": [
@@ -8187,6 +8347,7 @@
       "skos:inScheme": {
         "@id": "https://metadatahub.eu/data/nordic-places"
       },
+      "mhub:timelineStart": -8000,
       "geo:lat": 68.5,
       "geo:long": 22.0,
       "owl:sameAs": {
@@ -8238,6 +8399,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/sapmi"
       },
+      "mhub:timelineStart": -6000,
       "geo:lat": 69.65,
       "geo:long": 18.96,
       "owl:sameAs": {
@@ -8289,6 +8451,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/sapmi"
       },
+      "mhub:timelineStart": -8000,
       "geo:lat": 70.0,
       "geo:long": 26.0,
       "owl:sameAs": {
@@ -8340,6 +8503,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/sapmi"
       },
+      "mhub:timelineStart": -5000,
       "geo:lat": 67.0,
       "geo:long": 20.0,
       "owl:sameAs": {
@@ -8391,6 +8555,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/sapmi"
       },
+      "mhub:timelineStart": -5000,
       "geo:lat": 66.8,
       "geo:long": 19.5,
       "owl:sameAs": {
@@ -8450,6 +8615,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/sapmi"
       },
+      "mhub:timelineStart": -4000,
       "geo:lat": 63.5,
       "geo:long": 14.5,
       "owl:sameAs": {
@@ -8501,6 +8667,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/sapmi"
       },
+      "mhub:timelineStart": -7000,
       "geo:lat": 69.07,
       "geo:long": 27.01,
       "owl:sameAs": {
@@ -8544,6 +8711,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/sapmi"
       },
+      "mhub:timelineStart": -5000,
       "geo:lat": 69.5,
       "geo:long": 28.5,
       "owl:sameAs": {
@@ -8595,6 +8763,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/finnmark-sami"
       },
+      "mhub:timelineStart": 1553,
       "geo:lat": 69.4717,
       "geo:long": 25.5108,
       "owl:sameAs": [
@@ -8651,6 +8820,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/norrbotten-sami"
       },
+      "mhub:timelineStart": 1900,
       "geo:lat": 67.8558,
       "geo:long": 20.2253,
       "owl:sameAs": [
@@ -8707,6 +8877,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/finnmark-sami"
       },
+      "mhub:timelineStart": 1553,
       "geo:lat": 69.0124,
       "geo:long": 23.0402,
       "owl:sameAs": [
@@ -8763,6 +8934,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/inari-sami-area"
       },
+      "mhub:timelineStart": -7000,
       "geo:lat": 69.0714,
       "geo:long": 27.0139,
       "owl:sameAs": [
@@ -8819,6 +8991,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/norrbotten-sami"
       },
+      "mhub:timelineStart": 1605,
       "geo:lat": 66.6082,
       "geo:long": 19.8286,
       "owl:sameAs": [
@@ -8875,6 +9048,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/south-sami-area"
       },
+      "mhub:timelineStart": -2000,
       "geo:lat": 64.2261,
       "geo:long": 11.8321,
       "owl:sameAs": [
@@ -8931,6 +9105,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/finnmark-sami"
       },
+      "mhub:timelineStart": -7000,
       "geo:lat": 70.0064,
       "geo:long": 27.0021,
       "owl:sameAs": [
@@ -8987,6 +9162,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/norrbotten-sami"
       },
+      "mhub:timelineStart": 1735,
       "geo:lat": 67.1341,
       "geo:long": 20.6532,
       "owl:sameAs": [
@@ -9043,6 +9219,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/finnmark-sami"
       },
+      "mhub:timelineStart": -5000,
       "geo:lat": 69.7283,
       "geo:long": 29.3467,
       "owl:sameAs": [
@@ -9099,6 +9276,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/south-sami-area"
       },
+      "mhub:timelineStart": -2000,
       "geo:lat": 65.5746,
       "geo:long": 13.9869,
       "owl:sameAs": [
@@ -9147,6 +9325,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/uppland"
       },
+      "mhub:timelineStart": 750,
+      "mhub:timelineEnd": 975,
       "geo:lat": 59.3309,
       "geo:long": 17.5467,
       "owl:sameAs": [
@@ -9195,6 +9375,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/uppland"
       },
+      "mhub:timelineStart": 300,
       "geo:lat": 59.8981,
       "geo:long": 17.631,
       "owl:sameAs": [
@@ -9243,6 +9424,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/skane"
       },
+      "mhub:timelineStart": 600,
       "skos:altLabel": {
         "@value": "Ale's Stones",
         "@language": "en"
@@ -9295,6 +9477,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/bohuslan"
       },
+      "mhub:timelineStart": -1800,
+      "mhub:timelineEnd": -500,
       "geo:lat": 58.7053,
       "geo:long": 11.3474,
       "owl:sameAs": [
@@ -9343,6 +9527,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/vastmanland"
       },
+      "mhub:timelineStart": 500,
+      "mhub:timelineEnd": 1100,
       "geo:lat": 59.6303,
       "geo:long": 16.5164,
       "owl:sameAs": {
@@ -9386,6 +9572,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/uppland"
       },
+      "mhub:timelineStart": 750,
+      "mhub:timelineEnd": 1000,
       "geo:lat": 59.364,
       "geo:long": 17.546,
       "owl:sameAs": {
@@ -9429,6 +9617,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/oland"
       },
+      "mhub:timelineStart": 400,
+      "mhub:timelineEnd": 500,
       "geo:lat": 56.6094,
       "geo:long": 16.5878,
       "owl:sameAs": {
@@ -9472,6 +9662,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/skane"
       },
+      "mhub:timelineStart": -100,
+      "mhub:timelineEnd": 1000,
       "geo:lat": 55.6522,
       "geo:long": 13.1964,
       "owl:sameAs": {
@@ -9515,6 +9707,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/uppland"
       },
+      "mhub:timelineStart": 600,
+      "mhub:timelineEnd": 1050,
       "geo:lat": 59.888,
       "geo:long": 17.641,
       "owl:sameAs": {
@@ -9558,6 +9752,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/uppland"
       },
+      "mhub:timelineStart": 550,
+      "mhub:timelineEnd": 790,
       "geo:lat": 60.05,
       "geo:long": 17.98,
       "owl:sameAs": {
@@ -9601,6 +9797,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/bohuslan"
       },
+      "mhub:timelineStart": -1800,
+      "mhub:timelineEnd": -500,
       "geo:lat": 58.7058,
       "geo:long": 11.3467,
       "owl:sameAs": {
@@ -9644,6 +9842,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/jutland"
       },
+      "mhub:timelineStart": 900,
       "geo:lat": 55.7559,
       "geo:long": 9.4204,
       "owl:sameAs": [
@@ -9700,6 +9899,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/south-jutland"
       },
+      "mhub:timelineStart": 770,
+      "mhub:timelineEnd": 1066,
       "skos:altLabel": {
         "@value": "Haithabu",
         "@language": "en"
@@ -9752,6 +9953,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/north-jutland"
       },
+      "mhub:timelineStart": 400,
+      "mhub:timelineEnd": 1000,
       "geo:lat": 57.0833,
       "geo:long": 9.8833,
       "owl:sameAs": {
@@ -9795,6 +9998,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/zealand"
       },
+      "mhub:timelineStart": 980,
+      "mhub:timelineEnd": 1020,
       "geo:lat": 55.4017,
       "geo:long": 11.26,
       "owl:sameAs": {
@@ -9838,6 +10043,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/zealand"
       },
+      "mhub:timelineStart": 500,
+      "mhub:timelineEnd": 1000,
       "geo:lat": 55.6117,
       "geo:long": 11.975,
       "owl:sameAs": {
@@ -9881,6 +10088,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/funen"
       },
+      "mhub:timelineStart": 925,
+      "mhub:timelineEnd": 925,
       "geo:lat": 55.4489,
       "geo:long": 10.6333,
       "owl:sameAs": {
@@ -9924,6 +10133,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/north-jutland"
       },
+      "mhub:timelineStart": 980,
+      "mhub:timelineEnd": 1000,
       "geo:lat": 56.995,
       "geo:long": 9.2583,
       "owl:sameAs": {
@@ -9967,6 +10178,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/ostlandet"
       },
+      "mhub:timelineStart": 834,
+      "mhub:timelineEnd": 834,
       "geo:lat": 59.3117,
       "geo:long": 10.2283,
       "owl:sameAs": {
@@ -10010,6 +10223,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/ostlandet"
       },
+      "mhub:timelineStart": 900,
+      "mhub:timelineEnd": 900,
       "geo:lat": 59.15,
       "geo:long": 10.2167,
       "owl:sameAs": {
@@ -10053,6 +10268,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/ostlandet"
       },
+      "mhub:timelineStart": 800,
+      "mhub:timelineEnd": 930,
       "geo:lat": 59.0533,
       "geo:long": 10.1833,
       "owl:sameAs": {
@@ -10096,6 +10313,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/lofoten"
       },
+      "mhub:timelineStart": 500,
+      "mhub:timelineEnd": 900,
       "geo:lat": 68.2464,
       "geo:long": 13.9694,
       "owl:sameAs": {
@@ -10139,6 +10358,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/finnmark"
       },
+      "mhub:timelineStart": -4200,
+      "mhub:timelineEnd": -500,
       "geo:lat": 69.945,
       "geo:long": 23.2333,
       "owl:sameAs": [
@@ -10187,6 +10408,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/hordaland"
       },
+      "mhub:timelineStart": 1070,
       "geo:lat": 60.3975,
       "geo:long": 5.3239,
       "owl:sameAs": {
@@ -10230,6 +10452,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/rogaland"
       },
+      "mhub:timelineStart": 200,
       "geo:lat": 59.34,
       "geo:long": 5.2833,
       "owl:sameAs": {
@@ -10273,6 +10496,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/pirkanmaa"
       },
+      "mhub:timelineStart": 800,
+      "mhub:timelineEnd": 1200,
       "geo:lat": 61.3097,
       "geo:long": 23.9208,
       "owl:sameAs": {
@@ -10316,6 +10541,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/pohjanmaa"
       },
+      "mhub:timelineStart": 400,
+      "mhub:timelineEnd": 800,
       "geo:lat": 62.7317,
       "geo:long": 23.1675,
       "owl:sameAs": {
@@ -10359,6 +10586,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/satakunta"
       },
+      "mhub:timelineStart": -1500,
+      "mhub:timelineEnd": -500,
       "geo:lat": 61.1197,
       "geo:long": 21.7833,
       "owl:sameAs": {
@@ -10402,6 +10631,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/western-iceland"
       },
+      "mhub:timelineStart": 1000,
       "geo:lat": 64.6647,
       "geo:long": -21.2958,
       "owl:sameAs": {
@@ -10445,6 +10675,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-places/southern-iceland"
       },
+      "mhub:timelineStart": 900,
+      "mhub:timelineEnd": 1104,
       "geo:lat": 64.1131,
       "geo:long": -19.7522,
       "owl:sameAs": {

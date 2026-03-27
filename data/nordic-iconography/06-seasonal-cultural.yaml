@@ -1,6 +1,7 @@
 # Nordic seasonal and cultural subjects
 
 - id: nordic-seasons
+  timeline_start: -500
   labels:
     en: Nordic Seasonal and Cultural Subjects
     sv: Nordiska säsongs- och kulturmotiv
@@ -11,6 +12,7 @@
 
 - id: midsummer
   broader: nordic-seasons
+  timeline_start: -500
   labels:
     en: Midsummer celebration
     sv: Midsommarfirande
@@ -22,6 +24,7 @@
 
 - id: lucia
   broader: nordic-seasons
+  timeline_start: 1700
   labels:
     en: Saint Lucy's Day / Lucia
     sv: Luciadagen
@@ -33,6 +36,7 @@
 
 - id: nordic-jul
   broader: nordic-seasons
+  timeline_start: -500
   labels:
     en: Nordic Christmas / Jul
     sv: Jul
@@ -44,6 +48,7 @@
 
 - id: valborg
   broader: nordic-seasons
+  timeline_start: 1700
   labels:
     en: Walpurgis Night / Valborg
     sv: Valborgsmässoafton
@@ -54,6 +59,7 @@
 
 - id: easter-witches
   broader: nordic-seasons
+  timeline_start: 1600
   labels:
     en: Easter witches
     sv: Påskkärringar
@@ -64,6 +70,7 @@
 
 - id: crayfish-party
   broader: nordic-seasons
+  timeline_start: 1500
   labels:
     en: Crayfish party
     sv: Kräftskiva
@@ -74,6 +81,7 @@
 
 - id: sami-national-day
   broader: nordic-seasons
+  timeline_start: 1917
   labels:
     en: Sámi National Day
     sv: Samernas nationaldag
@@ -85,6 +93,7 @@
 
 - id: finnish-sauna
   broader: nordic-seasons
+  timeline_start: -2000
   labels:
     en: Finnish sauna
     sv: Finsk bastu
@@ -95,6 +104,7 @@
 
 - id: norwegian-constitution-day
   broader: nordic-seasons
+  timeline_start: 1814
   labels:
     en: Norwegian Constitution Day
     sv: Norges nationaldag
@@ -105,6 +115,7 @@
 
 - id: icelandic-thorrablot
   broader: nordic-seasons
+  timeline_start: -800
   labels:
     en: Þorrablót
     sv: Torrablot
@@ -116,6 +127,7 @@
 
 - id: danish-fastelavn
   broader: nordic-seasons
+  timeline_start: 1400
   labels:
     en: Danish Fastelavn
     sv: Fastlagen
@@ -126,6 +138,7 @@
 
 - id: nordic-harvest
   broader: nordic-seasons
+  timeline_start: -3000
   labels:
     en: Nordic harvest traditions
     sv: Nordiska skördetraditioner
@@ -136,6 +149,7 @@
 
 - id: marten-goose
   broader: nordic-seasons
+  timeline_start: 1100
   labels:
     en: Mårten Gås / St. Martin's Day goose
     sv: Mårten Gås
@@ -146,6 +160,7 @@
 
 - id: icelandic-independence-day
   broader: nordic-seasons
+  timeline_start: 1944
   labels:
     en: Icelandic National Day
     sv: Islands nationaldag
@@ -157,6 +172,7 @@
 
 - id: finnish-independence-day
   broader: nordic-seasons
+  timeline_start: 1917
   labels:
     en: Finnish Independence Day
     sv: Finlands självständighetsdag
@@ -167,6 +183,7 @@
 
 - id: swedish-midsommar
   broader: nordic-seasons
+  timeline_start: -500
   labels:
     en: Swedish Midsommar
     sv: Midsommar
@@ -177,6 +194,7 @@
 
 - id: nordic-advent
   broader: nordic-seasons
+  timeline_start: 1100
   labels:
     en: Nordic Advent traditions
     sv: Adventsljusstake
@@ -187,6 +205,7 @@
 
 - id: kaamos
   broader: nordic-seasons
+  timeline_start: -10000
   labels:
     en: Kaamos / Polar night
     sv: Mörketid
@@ -198,6 +217,7 @@
 
 - id: russefeiring
   broader: nordic-seasons
+  timeline_start: 1905
   labels:
     en: Russefeiring (Norwegian graduation)
     sv: Studentexamen

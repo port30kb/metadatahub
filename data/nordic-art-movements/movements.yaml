@@ -24,6 +24,8 @@
 - id: nordic-renaissance
   start: "1500"
   end: "1650"
+  timeline_start: 1500
+  timeline_end: 1650
   aat_uri: "http://vocab.getty.edu/aat/300021140"
   labels:
     en: Nordic Renaissance
@@ -37,6 +39,8 @@
   broader: nordic-baroque
   start: "1620"
   end: "1750"
+  timeline_start: 1620
+  timeline_end: 1750
   labels:
     en: Danish-Norwegian Baroque
     sv: Dansk-norsk barock
@@ -48,6 +52,8 @@
 - id: nordic-baroque
   start: "1600"
   end: "1750"
+  timeline_start: 1600
+  timeline_end: 1750
   aat_uri: "http://vocab.getty.edu/aat/300021147"
   labels:
     en: Nordic Baroque
@@ -61,6 +67,8 @@
   broader: nordic-baroque
   start: "1620"
   end: "1750"
+  timeline_start: 1620
+  timeline_end: 1750
   labels:
     en: Swedish Baroque
     sv: Svensk barock
@@ -72,6 +80,8 @@
 - id: nordic-rococo
   start: "1730"
   end: "1790"
+  timeline_start: 1730
+  timeline_end: 1790
   aat_uri: "http://vocab.getty.edu/aat/300021155"
   labels:
     en: Nordic Rococo
@@ -84,6 +94,8 @@
 - id: gustavian-neoclassicism
   start: "1772"
   end: "1809"
+  timeline_start: 1772
+  timeline_end: 1809
   aat_uri: "http://vocab.getty.edu/aat/300021477"
   labels:
     en: Gustavian Neoclassicism
@@ -96,6 +108,8 @@
 - id: swedish-classicism
   start: "1780"
   end: "1850"
+  timeline_start: 1780
+  timeline_end: 1850
   labels:
     en: Swedish Classicism
     sv: Svensk klassicism
@@ -107,6 +121,8 @@
 - id: nordic-neoclassicism
   start: "1760"
   end: "1850"
+  timeline_start: 1760
+  timeline_end: 1850
   aat_uri: "http://vocab.getty.edu/aat/300021477"
   labels:
     en: Nordic Neoclassicism
@@ -120,6 +136,8 @@
   broader: nordic-neoclassicism
   start: "1770"
   end: "1850"
+  timeline_start: 1770
+  timeline_end: 1850
   labels:
     en: Danish Neoclassicism
     sv: Dansk nyklassicism
@@ -131,6 +149,8 @@
 - id: finnish-early-art
   start: "1750"
   end: "1850"
+  timeline_start: 1750
+  timeline_end: 1850
   labels:
     en: Early Finnish Art
     sv: Tidig finsk konst
@@ -146,6 +166,8 @@
 - id: danish-golden-age
   start: "1800"
   end: "1850"
+  timeline_start: 1800
+  timeline_end: 1850
   aat_uri: "http://vocab.getty.edu/aat/300379342"
   labels:
     en: Danish Golden Age
@@ -158,6 +180,8 @@
 - id: nordic-romanticism
   start: "1800"
   end: "1870"
+  timeline_start: 1800
+  timeline_end: 1870
   aat_uri: "http://vocab.getty.edu/aat/300021474"
   labels:
     en: Nordic Romanticism
@@ -171,6 +195,8 @@
   broader: nordic-romanticism
   start: "1840"
   end: "1870"
+  timeline_start: 1840
+  timeline_end: 1870
   labels:
     en: Norwegian Romantic Nationalism
     sv: Norsk nationalromantik
@@ -182,6 +208,8 @@
 - id: finnish-national-awakening
   start: "1835"
   end: "1880"
+  timeline_start: 1835
+  timeline_end: 1880
   labels:
     en: Finnish National Awakening
     sv: Finlands nationella uppvaknande
@@ -194,6 +222,8 @@
   broader: nordic-romanticism
   start: "1830"
   end: "1870"
+  timeline_start: 1830
+  timeline_end: 1870
   labels:
     en: Swedish Romantic Landscape Painting
     sv: Svensk romantisk landskapsmåleri
@@ -206,6 +236,8 @@
   broader: nordic-romanticism
   start: "1840"
   end: "1910"
+  timeline_start: 1840
+  timeline_end: 1910
   labels:
     en: Scandinavian Musical Romanticism
     sv: Skandinavisk musikromantik
@@ -217,6 +249,8 @@
 - id: dusseldorf-school-nordic
   start: "1840"
   end: "1870"
+  timeline_start: 1840
+  timeline_end: 1870
   labels:
     en: Düsseldorf School (Nordic Students)
     sv: Düsseldorfskolan (nordiska elever)
@@ -229,6 +263,8 @@
   broader: nordic-romanticism
   start: "1850"
   end: "1920"
+  timeline_start: 1850
+  timeline_end: 1920
   labels:
     en: Icelandic Romanticism
     sv: Isländsk romantik
@@ -241,6 +277,8 @@
 - id: nordic-history-painting
   start: "1820"
   end: "1880"
+  timeline_start: 1820
+  timeline_end: 1880
   labels:
     en: Nordic History Painting
     sv: Nordisk historiemåleri
@@ -253,6 +291,8 @@
   broader: nordic-romanticism
   start: "1850"
   end: "1880"
+  timeline_start: 1850
+  timeline_end: 1880
   labels:
     en: Finnish Romantic Painting
     sv: Finsk romantisk målning
@@ -268,6 +308,8 @@
 - id: nordic-realism
   start: "1870"
   end: "1900"
+  timeline_start: 1870
+  timeline_end: 1900
   aat_uri: "http://vocab.getty.edu/aat/300056529"
   labels:
     en: Nordic Realism
@@ -280,6 +322,8 @@
 - id: nordic-naturalism
   start: "1880"
   end: "1900"
+  timeline_start: 1880
+  timeline_end: 1900
   aat_uri: "http://vocab.getty.edu/aat/300056428"
   labels:
     en: Nordic Naturalism
@@ -293,6 +337,8 @@
   broader: nordic-realism
   start: "1870"
   end: "1910"
+  timeline_start: 1870
+  timeline_end: 1910
   aat_uri: "http://vocab.getty.edu/aat/300379344"
   labels:
     en: Skagen Painters
@@ -305,6 +351,8 @@
 - id: grez-sur-loing-nordic
   start: "1882"
   end: "1900"
+  timeline_start: 1882
+  timeline_end: 1900
   labels:
     en: Swedish Artists' Colony at Grez-sur-Loing
     sv: Grezdkolonin
@@ -317,6 +365,8 @@
   broader: nordic-realism
   start: "1885"
   end: "1895"
+  timeline_start: 1885
+  timeline_end: 1895
   labels:
     en: The Opponents (Opponenterna)
     sv: Opponenterna
@@ -328,6 +378,8 @@
 - id: finnish-golden-age-art
   start: "1880"
   end: "1910"
+  timeline_start: 1880
+  timeline_end: 1910
   labels:
     en: Finnish Golden Age of Art
     sv: Finsk konstens guldålder
@@ -339,6 +391,8 @@
 - id: norwegian-neo-romanticism
   start: "1890"
   end: "1910"
+  timeline_start: 1890
+  timeline_end: 1910
   labels:
     en: Norwegian Neo-Romanticism
     sv: Norsk nyromantik
@@ -350,6 +404,8 @@
 - id: national-romanticism
   start: "1880"
   end: "1920"
+  timeline_start: 1880
+  timeline_end: 1920
   aat_uri: "http://vocab.getty.edu/aat/300021478"
   labels:
     en: Nordic National Romanticism
@@ -363,6 +419,8 @@
   broader: national-romanticism
   start: "1890"
   end: "1920"
+  timeline_start: 1890
+  timeline_end: 1920
   labels:
     en: Swedish National Romanticism
     sv: Svensk nationalromantik
@@ -375,6 +433,8 @@
   broader: national-romanticism
   start: "1890"
   end: "1920"
+  timeline_start: 1890
+  timeline_end: 1920
   labels:
     en: Finnish Karelian National Romanticism
     sv: Finsk-karelsk nationalromantik
@@ -387,6 +447,8 @@
   broader: national-romanticism
   start: "1880"
   end: "1910"
+  timeline_start: 1880
+  timeline_end: 1910
   labels:
     en: Norwegian Dragon Style (Dragestil)
     sv: Norsk drakstil
@@ -398,6 +460,8 @@
 - id: nordic-impressionism
   start: "1880"
   end: "1910"
+  timeline_start: 1880
+  timeline_end: 1910
   aat_uri: "http://vocab.getty.edu/aat/300021503"
   labels:
     en: Nordic Impressionism
@@ -411,6 +475,8 @@
   broader: nordic-realism
   start: "1893"
   end: "1910"
+  timeline_start: 1893
+  timeline_end: 1910
   labels:
     en: Varberg School
     sv: Varbergsskolan
@@ -422,6 +488,8 @@
 - id: nordic-plein-air
   start: "1880"
   end: "1910"
+  timeline_start: 1880
+  timeline_end: 1910
   labels:
     en: Nordic Plein Air Painting
     sv: Nordisk friluftsmåleri
@@ -433,6 +501,8 @@
 - id: finska-konstforeningen
   start: "1846"
   end: "1920"
+  timeline_start: 1846
+  timeline_end: 1920
   labels:
     en: Finnish Art Society Movement
     sv: Finska Konstföreningen
@@ -444,6 +514,8 @@
 - id: artists-colony-tuusula
   start: "1897"
   end: "1920"
+  timeline_start: 1897
+  timeline_end: 1920
   labels:
     en: Tuusula Lake Artists' Colony
     sv: Tuusby sjö konstnärskoloni
@@ -455,6 +527,8 @@
 - id: copenhagen-secession
   start: "1891"
   end: "1910"
+  timeline_start: 1891
+  timeline_end: 1910
   labels:
     en: Free Exhibition (Den Frie Udstilling)
     sv: Den Fria Utställningen (Köpenhamn)
@@ -466,6 +540,8 @@
 - id: munch-circle
   start: "1890"
   end: "1910"
+  timeline_start: 1890
+  timeline_end: 1910
   labels:
     en: Edvard Munch and Nordic Expressionist Precursors
     sv: Edvard Munch och nordiska expressionistiska föregångare
@@ -477,6 +553,8 @@
 - id: swedish-arts-crafts
   start: "1880"
   end: "1910"
+  timeline_start: 1880
+  timeline_end: 1910
   labels:
     en: Swedish Arts and Crafts Movement
     sv: Svensk arts and crafts-rörelse
@@ -492,6 +570,8 @@
 - id: nordic-art-nouveau
   start: "1890"
   end: "1915"
+  timeline_start: 1890
+  timeline_end: 1915
   aat_uri: "http://vocab.getty.edu/aat/300021430"
   labels:
     en: Nordic Art Nouveau / Jugend
@@ -505,6 +585,8 @@
   broader: nordic-art-nouveau
   start: "1895"
   end: "1915"
+  timeline_start: 1895
+  timeline_end: 1915
   labels:
     en: Swedish Jugend
     sv: Svensk jugend
@@ -517,6 +599,8 @@
   broader: nordic-art-nouveau
   start: "1895"
   end: "1915"
+  timeline_start: 1895
+  timeline_end: 1915
   labels:
     en: Finnish Jugend (National Romantic Architecture)
     sv: Finsk jugend
@@ -529,6 +613,8 @@
   broader: nordic-art-nouveau
   start: "1904"
   end: "1915"
+  timeline_start: 1904
+  timeline_end: 1915
   labels:
     en: Ålesund Jugend
     sv: Ålesund jugend
@@ -540,6 +626,8 @@
 - id: nordic-symbolism
   start: "1890"
   end: "1910"
+  timeline_start: 1890
+  timeline_end: 1910
   aat_uri: "http://vocab.getty.edu/aat/300021479"
   labels:
     en: Nordic Symbolism
@@ -552,6 +640,8 @@
 - id: nordic-expressionism
   start: "1905"
   end: "1940"
+  timeline_start: 1905
+  timeline_end: 1940
   aat_uri: "http://vocab.getty.edu/aat/300021505"
   labels:
     en: Nordic Expressionism
@@ -564,6 +654,8 @@
 - id: swedish-grace
   start: "1920"
   end: "1935"
+  timeline_start: 1920
+  timeline_end: 1935
   labels:
     en: Swedish Grace
     sv: Swedish grace
@@ -575,6 +667,8 @@
 - id: nordic-classicism
   start: "1910"
   end: "1935"
+  timeline_start: 1910
+  timeline_end: 1935
   aat_uri: "http://vocab.getty.edu/aat/300021477"
   labels:
     en: Nordic Classicism (1910s–1930s)
@@ -588,6 +682,8 @@
   broader: nordic-classicism
   start: "1915"
   end: "1930"
+  timeline_start: 1915
+  timeline_end: 1930
   labels:
     en: Danish Neoclassical Revival
     sv: Dansk nyklassicistisk revival
@@ -600,6 +696,8 @@
   broader: nordic-classicism
   start: "1920"
   end: "1930"
+  timeline_start: 1920
+  timeline_end: 1930
   labels:
     en: Finnish Classicism
     sv: Finsk klassicism
@@ -611,6 +709,8 @@
 - id: de-stijl-nordic-influence
   start: "1917"
   end: "1935"
+  timeline_start: 1917
+  timeline_end: 1935
   labels:
     en: De Stijl Influence in the Nordics
     sv: De Stijl-inflytande i Norden
@@ -622,6 +722,8 @@
 - id: scandinavian-surrealism
   start: "1930"
   end: "1950"
+  timeline_start: 1930
+  timeline_end: 1950
   labels:
     en: Scandinavian Surrealism
     sv: Skandinavisk surrealism
@@ -633,6 +735,8 @@
 - id: halmstad-group
   start: "1929"
   end: "1970"
+  timeline_start: 1929
+  timeline_end: 1970
   labels:
     en: Halmstad Group
     sv: Halmstadgruppen
@@ -644,6 +748,8 @@
 - id: nordic-vitalism
   start: "1900"
   end: "1920"
+  timeline_start: 1900
+  timeline_end: 1920
   labels:
     en: Nordic Vitalism
     sv: Nordisk vitalism
@@ -655,6 +761,8 @@
 - id: colour-realism-sweden
   start: "1910"
   end: "1930"
+  timeline_start: 1910
+  timeline_end: 1930
   labels:
     en: Swedish Colour Realism
     sv: Svensk kolorism
@@ -670,6 +778,8 @@
 - id: nordic-functionalism
   start: "1927"
   end: "1950"
+  timeline_start: 1927
+  timeline_end: 1950
   aat_uri: "http://vocab.getty.edu/aat/300021473"
   labels:
     en: Nordic Functionalism (Funkis)
@@ -683,6 +793,8 @@
   broader: nordic-functionalism
   start: "1930"
   end: "1950"
+  timeline_start: 1930
+  timeline_end: 1950
   labels:
     en: Swedish Functionalism
     sv: Svensk funktionalism
@@ -695,6 +807,8 @@
   broader: nordic-functionalism
   start: "1930"
   end: "1960"
+  timeline_start: 1930
+  timeline_end: 1960
   labels:
     en: Danish Functionalism
     sv: Dansk funktionalism
@@ -706,6 +820,8 @@
 - id: finnish-modernism
   start: "1928"
   end: "1960"
+  timeline_start: 1928
+  timeline_end: 1960
   labels:
     en: Finnish Modernism (Aalto School)
     sv: Finsk modernism
@@ -717,6 +833,8 @@
 - id: norwegian-modernism
   start: "1930"
   end: "1960"
+  timeline_start: 1930
+  timeline_end: 1960
   labels:
     en: Norwegian Modernism
     sv: Norsk modernism
@@ -728,6 +846,8 @@
 - id: cobra-nordic
   start: "1948"
   end: "1951"
+  timeline_start: 1948
+  timeline_end: 1951
   aat_uri: "http://vocab.getty.edu/aat/300021482"
   labels:
     en: CoBrA (Nordic Participants)
@@ -740,6 +860,8 @@
 - id: nordic-concrete-art
   start: "1945"
   end: "1970"
+  timeline_start: 1945
+  timeline_end: 1970
   aat_uri: "http://vocab.getty.edu/aat/300264837"
   labels:
     en: Nordic Concrete Art
@@ -752,6 +874,8 @@
 - id: nordic-constructivism
   start: "1950"
   end: "1970"
+  timeline_start: 1950
+  timeline_end: 1970
   labels:
     en: Nordic Constructivism
     sv: Nordisk konstruktivism
@@ -763,6 +887,8 @@
 - id: imaginisterna
   start: "1945"
   end: "1956"
+  timeline_start: 1945
+  timeline_end: 1956
   labels:
     en: The Imaginists (Imaginisterna)
     sv: Imaginisterna
@@ -774,6 +900,8 @@
 - id: linien-group
   start: "1934"
   end: "1940"
+  timeline_start: 1934
+  timeline_end: 1940
   labels:
     en: Linien Group
     sv: Linien-gruppen
@@ -785,6 +913,8 @@
 - id: finnish-informalism
   start: "1955"
   end: "1970"
+  timeline_start: 1955
+  timeline_end: 1970
   labels:
     en: Finnish Informalism
     sv: Finsk informalism
@@ -796,6 +926,8 @@
 - id: swedish-neo-realism
   start: "1947"
   end: "1960"
+  timeline_start: 1947
+  timeline_end: 1960
   labels:
     en: Swedish Neo-Realism (1947 Group)
     sv: Svensk nyrealism (1947 års grupp)
@@ -807,6 +939,8 @@
 - id: folk-art-revival
   start: "1890"
   end: "1940"
+  timeline_start: 1890
+  timeline_end: 1940
   labels:
     en: Nordic Folk Art Revival
     sv: Nordisk folkkonst-revival
@@ -818,6 +952,8 @@
 - id: nordic-social-realism
   start: "1930"
   end: "1950"
+  timeline_start: 1930
+  timeline_end: 1950
   labels:
     en: Nordic Social Realism
     sv: Nordisk socialrealism
@@ -833,6 +969,8 @@
 - id: scandinavian-design
   start: "1945"
   end: "1975"
+  timeline_start: 1945
+  timeline_end: 1975
   aat_uri: "http://vocab.getty.edu/aat/300264869"
   labels:
     en: Scandinavian Design
@@ -846,6 +984,8 @@
   broader: scandinavian-design
   start: "1945"
   end: "1970"
+  timeline_start: 1945
+  timeline_end: 1970
   aat_uri: "http://vocab.getty.edu/aat/300264870"
   labels:
     en: Danish Modern
@@ -859,6 +999,8 @@
   broader: scandinavian-design
   start: "1930"
   end: "1970"
+  timeline_start: 1930
+  timeline_end: 1970
   labels:
     en: Swedish Modern
     sv: Svensk modern
@@ -871,6 +1013,8 @@
   broader: scandinavian-design
   start: "1945"
   end: "1975"
+  timeline_start: 1945
+  timeline_end: 1975
   labels:
     en: Finnish Design (Marimekko, Arabia, Iittala)
     sv: Finsk design
@@ -883,6 +1027,8 @@
   broader: scandinavian-design
   start: "1950"
   end: "1970"
+  timeline_start: 1950
+  timeline_end: 1970
   labels:
     en: Scandinavian Mid-Century Modern
     sv: Skandinavisk mitten av seklet modern
@@ -894,6 +1040,8 @@
 - id: nordic-industrial-design
   start: "1960"
   end: "1990"
+  timeline_start: 1960
+  timeline_end: 1990
   labels:
     en: Nordic Industrial Design
     sv: Nordisk industridesign
@@ -905,6 +1053,8 @@
 - id: norwegian-rosemaling-revival
   start: "1950"
   end: "1980"
+  timeline_start: 1950
+  timeline_end: 1980
   labels:
     en: Norwegian Rosemaling Revival
     sv: Norsk rosemålnings-revival
@@ -916,6 +1066,8 @@
 - id: swedish-textile-art
   start: "1950"
   end: "1980"
+  timeline_start: 1950
+  timeline_end: 1980
   labels:
     en: Swedish Textile Art Movement
     sv: Svensk textilkonströrelse
@@ -927,6 +1079,8 @@
 - id: danish-ceramic-movement
   start: "1955"
   end: "1985"
+  timeline_start: 1955
+  timeline_end: 1985
   labels:
     en: Danish Studio Ceramic Movement
     sv: Dansk studiokeramikrörelse
@@ -938,6 +1092,8 @@
 - id: nordic-brutalism
   start: "1955"
   end: "1975"
+  timeline_start: 1955
+  timeline_end: 1975
   aat_uri: "http://vocab.getty.edu/aat/300021562"
   labels:
     en: Nordic Brutalism
@@ -950,6 +1106,8 @@
 - id: nordic-pop-art
   start: "1962"
   end: "1975"
+  timeline_start: 1962
+  timeline_end: 1975
   labels:
     en: Nordic Pop Art
     sv: Nordisk popkonst
@@ -962,6 +1120,8 @@
   broader: scandinavian-design
   start: "1950"
   end: "1975"
+  timeline_start: 1950
+  timeline_end: 1975
   labels:
     en: Nordic Textile Design
     sv: Nordisk textildesign
@@ -973,6 +1133,8 @@
 - id: ergonomic-design-nordic
   start: "1970"
   end: "1995"
+  timeline_start: 1970
+  timeline_end: 1995
   labels:
     en: Nordic Ergonomic Design
     sv: Nordisk ergonomisk design
@@ -984,6 +1146,8 @@
 - id: finnish-architecture-postwar
   start: "1950"
   end: "1980"
+  timeline_start: 1950
+  timeline_end: 1980
   labels:
     en: Post-war Finnish Architecture
     sv: Efterkrigstidens finska arkitektur
@@ -995,6 +1159,8 @@
 - id: nordic-landscape-architecture
   start: "1945"
   end: "1980"
+  timeline_start: 1945
+  timeline_end: 1980
   labels:
     en: Nordic Landscape Architecture
     sv: Nordisk landskapsarkitektur
@@ -1010,6 +1176,7 @@
 - id: nordic-noir-aesthetic
   start: "1990"
   end: "2025"
+  timeline_start: 1990
   labels:
     en: Nordic Noir (Aesthetic)
     sv: Nordisk noir (estetik)
@@ -1021,6 +1188,7 @@
 - id: new-nordic-design
   start: "2000"
   end: "2025"
+  timeline_start: 2000
   labels:
     en: New Nordic (Design Philosophy)
     sv: Ny nordisk design
@@ -1032,6 +1200,7 @@
 - id: scandinavian-minimalism
   start: "1990"
   end: "2025"
+  timeline_start: 1990
   labels:
     en: Scandinavian Minimalism
     sv: Skandinavisk minimalism
@@ -1043,6 +1212,7 @@
 - id: nordic-contemporary-art
   start: "1990"
   end: "2025"
+  timeline_start: 1990
   labels:
     en: Nordic Contemporary Art
     sv: Nordisk samtidskonst
@@ -1054,6 +1224,7 @@
 - id: nordic-light-photography
   start: "1985"
   end: "2025"
+  timeline_start: 1985
   labels:
     en: Nordic Light (Photography Movement)
     sv: Nordiskt ljus (fotografi)
@@ -1065,6 +1236,7 @@
 - id: superflat-nordic
   start: "2005"
   end: "2025"
+  timeline_start: 2005
   labels:
     en: Superflat Nordic
     sv: Superflat nordisk
@@ -1076,6 +1248,7 @@
 - id: nordic-sustainable-design
   start: "2010"
   end: "2025"
+  timeline_start: 2010
   labels:
     en: Nordic Sustainable Design
     sv: Nordisk hållbar design
@@ -1087,6 +1260,8 @@
 - id: nordic-neo-expressionism
   start: "1980"
   end: "2000"
+  timeline_start: 1980
+  timeline_end: 2000
   labels:
     en: Nordic Neo-Expressionism
     sv: Nordisk nyexpressionism
@@ -1098,6 +1273,7 @@
 - id: helsinki-school
   start: "1995"
   end: "2025"
+  timeline_start: 1995
   labels:
     en: Helsinki School (Photography)
     sv: Helsingforsskolan (fotografi)
@@ -1109,6 +1285,7 @@
 - id: nordic-parametric-architecture
   start: "2005"
   end: "2025"
+  timeline_start: 2005
   labels:
     en: Nordic Parametric Architecture
     sv: Nordisk parametrisk arkitektur

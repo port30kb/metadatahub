@@ -192,6 +192,12 @@ for idx, d in enumerate(DATA, 1):
     lines.append(f'    time:hasBeginning [ time:inXSDgYear "{start}"^^xsd:gYear ] ;')
     lines.append(f'    time:hasEnd [ time:inXSDgYear "{end}"^^xsd:gYear ] ;')
 
+    # Timeline integers
+    if d.get("timeline_start") is not None:
+        lines.append(f'    <{BASE}/ontology/timelineStart> "{d["timeline_start"]}"^^xsd:long ;')
+    if d.get("timeline_end") is not None:
+        lines.append(f'    <{BASE}/ontology/timelineEnd> "{d["timeline_end"]}"^^xsd:long ;')
+
     lines.append(f'    dcterms:source <https://en.wikipedia.org/wiki/Nordic_art> .')
     lines.append("")
 
@@ -231,6 +237,11 @@ for d in DATA:
     item["time:hasBeginning"] = {"time:inXSDgYear": d["start"]}
     item["time:hasEnd"] = {"time:inXSDgYear": d["end"]}
 
+    if d.get("timeline_start") is not None:
+        item["mhub:timelineStart"] = d["timeline_start"]
+    if d.get("timeline_end") is not None:
+        item["mhub:timelineEnd"] = d["timeline_end"]
+
     item["dcterms:source"] = "https://en.wikipedia.org/wiki/Nordic_art"
     jsonld_items.append(item)
 
@@ -243,6 +254,7 @@ jsonld_doc = {
         "dcterms": "http://purl.org/dc/terms/",
         "time": "http://www.w3.org/2006/time#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "mhub": f"{BASE}/ontology/",
     },
     "@id": BASE,
     "@type": "skos:ConceptScheme",

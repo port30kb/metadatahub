@@ -23,6 +23,10 @@
 #                    One of: tier-1, tier-2, tier-3, tier-4
 #   usage_guidance:  Practical guidance for museum professionals on when
 #                    and how to apply this rights statement or license
+#   timeline_start:  Year the rights concept was established (integer, CE).
+#                    Example: 2002 for Creative Commons, 1886 for Berne Convention.
+#   timeline_end:    Year the rights concept ceased applicability (integer).
+#                    Omit or null for currently applicable concepts.
 #
 # Categories:
 #

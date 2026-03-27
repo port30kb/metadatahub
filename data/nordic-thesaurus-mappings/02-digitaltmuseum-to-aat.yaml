@@ -16,6 +16,7 @@
     en: "Painting (DigitaltMuseum → AAT)"
     sv: "Måleri (DigitaltMuseum → AAT)"
   description: "Direct equivalence for painted works."
+  timeline_start: -3000
 
 - id: dm-skulptur-aat
   source_system: digitaltmuseum
@@ -31,6 +32,7 @@
     en: "Sculpture (DigitaltMuseum → AAT)"
     sv: "Skulptur (DigitaltMuseum → AAT)"
   description: "Direct equivalence for sculptural works."
+  timeline_start: -8000
 
 - id: dm-tegning-aat
   source_system: digitaltmuseum
@@ -46,6 +48,7 @@
     en: "Drawing (DigitaltMuseum → AAT)"
     sv: "Teckning (DigitaltMuseum → AAT)"
   description: "Direct equivalence for drawn works."
+  timeline_start: -30000
 
 - id: dm-grafikk-aat
   source_system: digitaltmuseum
@@ -61,6 +64,7 @@
     en: "Print/Graphic (DigitaltMuseum → AAT)"
     sv: "Grafik (DigitaltMuseum → AAT)"
   description: "Direct equivalence for printed graphic works."
+  timeline_start: 1400
 
 - id: dm-fotografi-aat
   source_system: digitaltmuseum
@@ -76,6 +80,7 @@
     en: "Photograph (DigitaltMuseum → AAT)"
     sv: "Fotografi (DigitaltMuseum → AAT)"
   description: "Direct equivalence for photographic works."
+  timeline_start: 1839
 
 - id: dm-tekstil-aat
   source_system: digitaltmuseum
@@ -91,6 +96,7 @@
     en: "Textile (DigitaltMuseum → AAT)"
     sv: "Textil (DigitaltMuseum → AAT)"
   description: "Direct equivalence for textile objects."
+  timeline_start: -6000
 
 - id: dm-keramikk-aat
   source_system: digitaltmuseum
@@ -106,6 +112,7 @@
     en: "Ceramic (DigitaltMuseum → AAT)"
     sv: "Keramik (DigitaltMuseum → AAT)"
   description: "Direct equivalence for ceramic objects."
+  timeline_start: -5000
 
 - id: dm-mynt-aat
   source_system: digitaltmuseum
@@ -121,6 +128,7 @@
     en: "Coin (DigitaltMuseum → AAT)"
     sv: "Mynt (DigitaltMuseum → AAT)"
   description: "Direct equivalence for numismatic objects."
+  timeline_start: -600
 
 - id: dm-smykke-aat
   source_system: digitaltmuseum
@@ -136,6 +144,7 @@
     en: "Jewelry (DigitaltMuseum → AAT)"
     sv: "Smycke (DigitaltMuseum → AAT)"
   description: "Direct equivalence for jewelry objects."
+  timeline_start: -3000
 
 - id: dm-vapen-aat
   source_system: digitaltmuseum
@@ -151,6 +160,7 @@
     en: "Weapon (DigitaltMuseum → AAT)"
     sv: "Vapen (DigitaltMuseum → AAT)"
   description: "Direct equivalence for weapons and arms."
+  timeline_start: -8000
 
 - id: dm-mobel-aat
   source_system: digitaltmuseum
@@ -166,6 +176,7 @@
     en: "Furniture (DigitaltMuseum → AAT)"
     sv: "Möbel (DigitaltMuseum → AAT)"
   description: "Direct equivalence for furniture objects."
+  timeline_start: -3000
 
 - id: dm-drakt-aat
   source_system: digitaltmuseum
@@ -181,6 +192,7 @@
     en: "Costume (DigitaltMuseum → AAT)"
     sv: "Dräkt (DigitaltMuseum → AAT)"
   description: "Direct equivalence for costume and clothing."
+  timeline_start: -5000
 
 - id: dm-musikkinstrument-aat
   source_system: digitaltmuseum
@@ -196,6 +208,7 @@
     en: "Musical instrument (DigitaltMuseum → AAT)"
     sv: "Musikinstrument (DigitaltMuseum → AAT)"
   description: "Direct equivalence for musical instruments."
+  timeline_start: -5000
 
 - id: dm-glass-aat
   source_system: digitaltmuseum
@@ -211,6 +224,7 @@
     en: "Glass (DigitaltMuseum → AAT)"
     sv: "Glas (DigitaltMuseum → AAT)"
   description: "Close match; DigitaltMuseum 'Glass' covers glass objects, AAT is the material."
+  timeline_start: -1500
 
 - id: dm-kart-aat
   source_system: digitaltmuseum
@@ -226,6 +240,7 @@
     en: "Map (DigitaltMuseum → AAT)"
     sv: "Karta (DigitaltMuseum → AAT)"
   description: "Direct equivalence for cartographic objects."
+  timeline_start: 1500
 
 - id: dm-redskap-aat
   source_system: digitaltmuseum
@@ -241,6 +256,7 @@
     en: "Tool (DigitaltMuseum → AAT)"
     sv: "Redskap (DigitaltMuseum → AAT)"
   description: "Direct equivalence for hand tools and implements."
+  timeline_start: -10000
 
 - id: dm-religiost-aat
   source_system: digitaltmuseum
@@ -256,6 +272,7 @@
     en: "Religious object (DigitaltMuseum → AAT)"
     sv: "Religiöst föremål (DigitaltMuseum → AAT)"
   description: "Close match; DigitaltMuseum 'Religiøst' is broader, covering all religious objects, not just art."
+  timeline_start: -5000
 
 - id: dm-leketoy-aat
   source_system: digitaltmuseum
@@ -271,6 +288,7 @@
     en: "Toy (DigitaltMuseum → AAT)"
     sv: "Leksak (DigitaltMuseum → AAT)"
   description: "Direct equivalence for children's toys and playthings."
+  timeline_start: -3000
 
 - id: dm-husgeraad-aat
   source_system: digitaltmuseum
@@ -286,3 +304,4 @@
     en: "Household goods (DigitaltMuseum → AAT)"
     sv: "Husgeråd (DigitaltMuseum → AAT)"
   description: "Direct equivalence for domestic and household objects."
+  timeline_start: -5000

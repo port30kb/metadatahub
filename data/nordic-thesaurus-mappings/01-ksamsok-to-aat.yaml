@@ -16,6 +16,7 @@
     en: "Painting (K-samsök → AAT)"
     sv: "Målning (K-samsök → AAT)"
   description: "Direct equivalence for easel paintings and painted works."
+  timeline_start: -3000
 
 - id: ksamsok-skulptur-aat
   source_system: ksamsok
@@ -31,6 +32,7 @@
     en: "Sculpture (K-samsök → AAT)"
     sv: "Skulptur (K-samsök → AAT)"
   description: "Direct equivalence for three-dimensional sculptural works."
+  timeline_start: -8000
 
 - id: ksamsok-teckning-aat
   source_system: ksamsok
@@ -46,6 +48,7 @@
     en: "Drawing (K-samsök → AAT)"
     sv: "Teckning (K-samsök → AAT)"
   description: "Direct equivalence for drawn works on paper or other supports."
+  timeline_start: -30000
 
 - id: ksamsok-grafik-aat
   source_system: ksamsok
@@ -61,6 +64,7 @@
     en: "Print/Graphic (K-samsök → AAT)"
     sv: "Grafik (K-samsök → AAT)"
   description: "Direct equivalence for printed graphic works."
+  timeline_start: 1400
 
 - id: ksamsok-fotografi-aat
   source_system: ksamsok
@@ -76,6 +80,7 @@
     en: "Photograph (K-samsök → AAT)"
     sv: "Fotografi (K-samsök → AAT)"
   description: "Direct equivalence for photographic works."
+  timeline_start: 1839
 
 - id: ksamsok-mynt-aat
   source_system: ksamsok
@@ -91,6 +96,7 @@
     en: "Coin (K-samsök → AAT)"
     sv: "Mynt (K-samsök → AAT)"
   description: "Direct equivalence for numismatic objects."
+  timeline_start: -600
 
 - id: ksamsok-textil-aat
   source_system: ksamsok
@@ -106,6 +112,7 @@
     en: "Textile (K-samsök → AAT)"
     sv: "Textil (K-samsök → AAT)"
   description: "Direct equivalence for textile objects."
+  timeline_start: -6000
 
 - id: ksamsok-keramik-aat
   source_system: ksamsok
@@ -121,6 +128,7 @@
     en: "Ceramic (K-samsök → AAT)"
     sv: "Keramik (K-samsök → AAT)"
   description: "Direct equivalence for ceramic objects."
+  timeline_start: -5000
 
 - id: ksamsok-smycke-aat
   source_system: ksamsok
@@ -136,6 +144,7 @@
     en: "Jewelry (K-samsök → AAT)"
     sv: "Smycke (K-samsök → AAT)"
   description: "Direct equivalence for jewelry and personal adornment objects."
+  timeline_start: -3000
 
 - id: ksamsok-vapen-aat
   source_system: ksamsok
@@ -151,6 +160,7 @@
     en: "Weapon (K-samsök → AAT)"
     sv: "Vapen (K-samsök → AAT)"
   description: "Direct equivalence for weapons and arms."
+  timeline_start: -8000
 
 - id: ksamsok-mobel-aat
   source_system: ksamsok
@@ -166,6 +176,7 @@
     en: "Furniture (K-samsök → AAT)"
     sv: "Möbel (K-samsök → AAT)"
   description: "Direct equivalence for furniture objects."
+  timeline_start: -3000
 
 - id: ksamsok-musikinstrument-aat
   source_system: ksamsok
@@ -181,6 +192,7 @@
     en: "Musical instrument (K-samsök → AAT)"
     sv: "Musikinstrument (K-samsök → AAT)"
   description: "Direct equivalence for musical instruments."
+  timeline_start: -5000
 
 - id: ksamsok-glas-aat
   source_system: ksamsok
@@ -196,6 +208,7 @@
     en: "Glass (K-samsök → AAT)"
     sv: "Glas (K-samsök → AAT)"
   description: "Close match; K-samsök 'Glas' covers glass objects broadly, AAT 300010898 is 'glass (material)'."
+  timeline_start: -1500
 
 - id: ksamsok-silver-aat
   source_system: ksamsok
@@ -211,6 +224,7 @@
     en: "Silver (K-samsök → AAT)"
     sv: "Silver (K-samsök → AAT)"
   description: "Close match; K-samsök classifies by material, AAT 300011029 is silver as material. K-samsök 'Silver' implies silverware objects."
+  timeline_start: -3000
   note: "K-samsök uses material as object type; AAT separates material from object type."
 
 - id: ksamsok-runsten-aat
@@ -227,6 +241,8 @@
     en: "Runestone (K-samsök → AAT)"
     sv: "Runsten (K-samsök → AAT)"
   description: "Direct equivalence for inscribed rune stones."
+  timeline_start: 150
+  timeline_end: 1100
 
 - id: ksamsok-gravfynd-aat
   source_system: ksamsok
@@ -242,6 +258,7 @@
     en: "Grave find (K-samsök → AAT)"
     sv: "Gravfynd (K-samsök → AAT)"
   description: "Direct equivalence for objects recovered from burial contexts."
+  timeline_start: -8000
 
 - id: ksamsok-verktyg-aat
   source_system: ksamsok
@@ -257,6 +274,7 @@
     en: "Tool (K-samsök → AAT)"
     sv: "Verktyg (K-samsök → AAT)"
   description: "Direct equivalence for hand tools and implements."
+  timeline_start: -10000
 
 - id: ksamsok-manuskript-aat
   source_system: ksamsok
@@ -272,6 +290,7 @@
     en: "Manuscript (K-samsök → AAT)"
     sv: "Manuskript (K-samsök → AAT)"
   description: "Direct equivalence for handwritten documents and codices."
+  timeline_start: 500
 
 - id: ksamsok-karta-aat
   source_system: ksamsok
@@ -287,6 +306,7 @@
     en: "Map (K-samsök → AAT)"
     sv: "Karta (K-samsök → AAT)"
   description: "Direct equivalence for cartographic objects."
+  timeline_start: 1500
 
 - id: ksamsok-medalj-aat
   source_system: ksamsok
@@ -302,6 +322,7 @@
     en: "Medal (K-samsök → AAT)"
     sv: "Medalj (K-samsök → AAT)"
   description: "Direct equivalence for commemorative and award medals."
+  timeline_start: 1400
 
 - id: ksamsok-draktillbehor-aat
   source_system: ksamsok
@@ -317,6 +338,7 @@
     en: "Costume accessory (K-samsök → AAT)"
     sv: "Dräkttillbehör (K-samsök → AAT)"
   description: "Direct equivalence for clothing accessories and costume components."
+  timeline_start: -2000
 
 - id: ksamsok-kyrkokonst-aat
   source_system: ksamsok
@@ -332,6 +354,7 @@
     en: "Church art (K-samsök → AAT)"
     sv: "Kyrkokonst (K-samsök → AAT)"
   description: "Close match; K-samsök 'Kyrkokonst' specifically refers to Christian church art, while AAT 'religious art' is broader."
+  timeline_start: 1000
 
 - id: ksamsok-arkeologisktfynd-aat
   source_system: ksamsok
@@ -347,6 +370,7 @@
     en: "Archaeological find (K-samsök → AAT)"
     sv: "Arkeologiskt fynd (K-samsök → AAT)"
   description: "Direct equivalence for objects recovered through archaeological excavation."
+  timeline_start: -10000
 
 - id: ksamsok-sigill-aat
   source_system: ksamsok
@@ -362,3 +386,4 @@
     en: "Seal (K-samsök → AAT)"
     sv: "Sigill (K-samsök → AAT)"
   description: "Direct equivalence for seal stamps and seal impressions."
+  timeline_start: -3500

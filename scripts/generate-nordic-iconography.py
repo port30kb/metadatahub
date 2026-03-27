@@ -231,6 +231,11 @@ for idx, d in enumerate(DATA, 1):
             f'    skos:relatedMatch <http://iconclass.org/{d["iconclass"]}> ;'
         )
 
+    if d.get("timeline_start") is not None:
+        lines.append(f'    <{BASE}/ontology/timelineStart> "{d["timeline_start"]}"^^xsd:long ;')
+    if d.get("timeline_end") is not None:
+        lines.append(f'    <{BASE}/ontology/timelineEnd> "{d["timeline_end"]}"^^xsd:long ;')
+
     # Close the entry — replace last ; with .
     if lines[-1].endswith(" ;"):
         lines[-1] = lines[-1][:-2] + " ."
@@ -274,6 +279,11 @@ for d in DATA:
             "@id": f"http://iconclass.org/{d['iconclass']}"
         }
 
+    if d.get("timeline_start") is not None:
+        item["mhub:timelineStart"] = d["timeline_start"]
+    if d.get("timeline_end") is not None:
+        item["mhub:timelineEnd"] = d["timeline_end"]
+
     jsonld_items.append(item)
 
 jsonld_doc = {
@@ -284,6 +294,7 @@ jsonld_doc = {
         "dcterms": "http://purl.org/dc/terms/",
         "aat": "http://vocab.getty.edu/aat/",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "mhub": f"{BASE}/ontology/",
     },
     "@id": BASE,
     "@type": "skos:ConceptScheme",

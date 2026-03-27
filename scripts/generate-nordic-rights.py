@@ -246,6 +246,11 @@ for idx, d in enumerate(DATA, 1):
             f'    skos:scopeNote "{escape(d["usage_guidance"])}"@en ;'
         )
 
+    if d.get("timeline_start") is not None:
+        lines.append(f'    <{BASE}/ontology/timelineStart> "{d["timeline_start"]}"^^xsd:long ;')
+    if d.get("timeline_end") is not None:
+        lines.append(f'    <{BASE}/ontology/timelineEnd> "{d["timeline_end"]}"^^xsd:long ;')
+
     # Close with source
     lines.append(
         f"    dcterms:source <https://creativecommons.org/licenses/> ."
@@ -299,6 +304,11 @@ for d in DATA:
             "@language": "en",
         }
 
+    if d.get("timeline_start") is not None:
+        item["mhub:timelineStart"] = d["timeline_start"]
+    if d.get("timeline_end") is not None:
+        item["mhub:timelineEnd"] = d["timeline_end"]
+
     jsonld_items.append(item)
 
 jsonld_doc = {
@@ -312,6 +322,7 @@ jsonld_doc = {
         "odrl": "http://www.w3.org/ns/odrl/2/",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "mhub": f"{BASE}/ontology/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
     },
     "@id": BASE,
     "@type": "skos:ConceptScheme",

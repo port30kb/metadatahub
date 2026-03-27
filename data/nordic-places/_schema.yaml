@@ -24,6 +24,11 @@
 #   lon:              WGS84 longitude (decimal degrees)
 #   geonames_uri:     GeoNames URI (http://sws.geonames.org/{id}/)
 #   wikidata_uri:     Wikidata URI (http://www.wikidata.org/entity/Q{id})
+#   timeline_start:   Earliest known date for the place (integer).
+#                     Negative = BCE, positive = CE.
+#                     Example: -8000 for Mesolithic sites, 1252 for Stockholm.
+#   timeline_end:     End date if the place no longer exists (integer).
+#                     Omit or null for places that still exist.
 #
 # Place types:
 #

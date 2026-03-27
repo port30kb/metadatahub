@@ -282,6 +282,12 @@ for idx, d in enumerate(DATA, 1):
             f'    schema:foundingDate "{d["established"]}"^^xsd:gYear ;'
         )
 
+    # Timeline
+    if d.get("timeline_start") is not None:
+        lines.append(f'    <{BASE}/ontology/timelineStart> "{d["timeline_start"]}"^^xsd:long ;')
+    if d.get("timeline_end") is not None:
+        lines.append(f'    <{BASE}/ontology/timelineEnd> "{d["timeline_end"]}"^^xsd:long ;')
+
     # Source
     lines.append(
         f"    dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_{COUNTRY_NAMES[d['country']]}> ."
@@ -342,6 +348,11 @@ for d in DATA:
             "@type": "xsd:gYear",
         }
 
+    if d.get("timeline_start") is not None:
+        item["mhub:timelineStart"] = d["timeline_start"]
+    if d.get("timeline_end") is not None:
+        item["mhub:timelineEnd"] = d["timeline_end"]
+
     item["dcterms:source"] = (
         f"https://en.wikipedia.org/wiki/List_of_museums_in_{COUNTRY_NAMES[d['country']]}"
     )
@@ -360,6 +371,7 @@ jsonld_doc = {
         "org": "http://www.w3.org/ns/org#",
         "schema": "https://schema.org/",
         "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+        "mhub": f"{BASE}/ontology/",
     },
     "@id": BASE,
     "@type": "skos:ConceptScheme",

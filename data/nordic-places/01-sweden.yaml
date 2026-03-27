@@ -8,6 +8,7 @@
 
 - id: sweden
   type: country
+  timeline_start: -8000
   labels:
     en: Sweden
     sv: Sverige
@@ -25,6 +26,7 @@
 - id: uppland
   type: landskap
   broader: sweden
+  timeline_start: -6000
   labels:
     en: Uppland
     sv: Uppland
@@ -37,6 +39,7 @@
 - id: sodermanland
   type: landskap
   broader: sweden
+  timeline_start: -6000
   labels:
     en: Södermanland
     sv: Södermanland
@@ -51,6 +54,7 @@
 - id: ostergotland
   type: landskap
   broader: sweden
+  timeline_start: -6000
   labels:
     en: Östergötland
     sv: Östergötland
@@ -63,6 +67,7 @@
 - id: smaland
   type: landskap
   broader: sweden
+  timeline_start: -6000
   labels:
     en: Småland
     sv: Småland
@@ -75,6 +80,7 @@
 - id: vastergotland
   type: landskap
   broader: sweden
+  timeline_start: -6000
   labels:
     en: Västergötland
     sv: Västergötland
@@ -87,6 +93,7 @@
 - id: skane
   type: landskap
   broader: sweden
+  timeline_start: -8000
   labels:
     en: Scania
     sv: Skåne
@@ -102,6 +109,7 @@
 - id: gotland
   type: landskap
   broader: sweden
+  timeline_start: -7000
   labels:
     en: Gotland
     sv: Gotland
@@ -114,6 +122,7 @@
 - id: dalarna
   type: landskap
   broader: sweden
+  timeline_start: -6000
   labels:
     en: Dalarna
     sv: Dalarna
@@ -128,6 +137,7 @@
 - id: varmland
   type: landskap
   broader: sweden
+  timeline_start: -6000
   labels:
     en: Värmland
     sv: Värmland
@@ -140,6 +150,7 @@
 - id: norrbotten
   type: landskap
   broader: sweden
+  timeline_start: -5000
   labels:
     en: Norrbotten
     sv: Norrbotten
@@ -152,6 +163,7 @@
 - id: vasterbotten
   type: landskap
   broader: sweden
+  timeline_start: -5000
   labels:
     en: Västerbotten
     sv: Västerbotten
@@ -164,6 +176,7 @@
 - id: angermanland
   type: landskap
   broader: sweden
+  timeline_start: -5000
   labels:
     en: Ångermanland
     sv: Ångermanland
@@ -176,6 +189,7 @@
 - id: jamtland
   type: landskap
   broader: sweden
+  timeline_start: -5000
   labels:
     en: Jämtland
     sv: Jämtland
@@ -188,6 +202,7 @@
 - id: harjedalen
   type: landskap
   broader: sweden
+  timeline_start: -5000
   labels:
     en: Härjedalen
     sv: Härjedalen
@@ -200,6 +215,7 @@
 - id: halsingland
   type: landskap
   broader: sweden
+  timeline_start: -5000
   labels:
     en: Hälsingland
     sv: Hälsingland
@@ -212,6 +228,7 @@
 - id: gastrikland
   type: landskap
   broader: sweden
+  timeline_start: -5000
   labels:
     en: Gästrikland
     sv: Gästrikland
@@ -224,6 +241,7 @@
 - id: narke
   type: landskap
   broader: sweden
+  timeline_start: -6000
   labels:
     en: Närke
     sv: Närke
@@ -236,6 +254,7 @@
 - id: vastmanland
   type: landskap
   broader: sweden
+  timeline_start: -6000
   labels:
     en: Västmanland
     sv: Västmanland
@@ -248,6 +267,7 @@
 - id: halland
   type: landskap
   broader: sweden
+  timeline_start: -7000
   labels:
     en: Halland
     sv: Halland
@@ -260,6 +280,7 @@
 - id: blekinge
   type: landskap
   broader: sweden
+  timeline_start: -7000
   labels:
     en: Blekinge
     sv: Blekinge
@@ -272,6 +293,7 @@
 - id: bohuslan
   type: landskap
   broader: sweden
+  timeline_start: -8000
   labels:
     en: Bohuslän
     sv: Bohuslän
@@ -284,6 +306,7 @@
 - id: dalsland
   type: landskap
   broader: sweden
+  timeline_start: -6000
   labels:
     en: Dalsland
     sv: Dalsland
@@ -296,6 +319,7 @@
 - id: oland
   type: landskap
   broader: sweden
+  timeline_start: -7000
   labels:
     en: Öland
     sv: Öland
@@ -308,6 +332,7 @@
 - id: lappland
   type: landskap
   broader: sweden
+  timeline_start: -5000
   labels:
     en: Lapland
     sv: Lappland
@@ -323,6 +348,7 @@
 - id: stockholm
   type: city
   broader: uppland
+  timeline_start: 1252
   labels:
     en: Stockholm
     sv: Stockholm
@@ -337,6 +363,7 @@
 - id: gothenburg
   type: city
   broader: vastergotland
+  timeline_start: 1621
   labels:
     en: Gothenburg
     sv: Göteborg
@@ -349,6 +376,7 @@
 - id: malmo
   type: city
   broader: skane
+  timeline_start: 1275
   labels:
     en: Malmö
     sv: Malmö
@@ -361,6 +389,7 @@
 - id: uppsala
   type: city
   broader: uppland
+  timeline_start: 1286
   labels:
     en: Uppsala
     sv: Uppsala
@@ -373,6 +402,7 @@
 - id: linkoping
   type: city
   broader: ostergotland
+  timeline_start: 1287
   labels:
     en: Linköping
     sv: Linköping
@@ -385,6 +415,7 @@
 - id: norrkoping
   type: city
   broader: ostergotland
+  timeline_start: 1384
   labels:
     en: Norrköping
     sv: Norrköping
@@ -397,6 +428,7 @@
 - id: vasteras
   type: city
   broader: vastmanland
+  timeline_start: 1000
   labels:
     en: Västerås
     sv: Västerås
@@ -409,6 +441,7 @@
 - id: orebro
   type: city
   broader: narke
+  timeline_start: 1240
   labels:
     en: Örebro
     sv: Örebro
@@ -421,6 +454,7 @@
 - id: umea
   type: city
   broader: vasterbotten
+  timeline_start: 1588
   labels:
     en: Umeå
     sv: Umeå
@@ -433,6 +467,7 @@
 - id: lulea
   type: city
   broader: norrbotten
+  timeline_start: 1621
   labels:
     en: Luleå
     sv: Luleå
@@ -445,6 +480,7 @@
 - id: kiruna
   type: city
   broader: lappland
+  timeline_start: 1900
   labels:
     en: Kiruna
     sv: Kiruna
@@ -458,6 +494,7 @@
 - id: kalmar
   type: city
   broader: smaland
+  timeline_start: 1200
   labels:
     en: Kalmar
     sv: Kalmar
@@ -470,6 +507,7 @@
 - id: visby
   type: city
   broader: gotland
+  timeline_start: 900
   labels:
     en: Visby
     sv: Visby
@@ -482,6 +520,7 @@
 - id: lund
   type: city
   broader: skane
+  timeline_start: 990
   labels:
     en: Lund
     sv: Lund
@@ -494,6 +533,7 @@
 - id: sundsvall
   type: city
   broader: halsingland
+  timeline_start: 1621
   labels:
     en: Sundsvall
     sv: Sundsvall
@@ -506,6 +546,7 @@
 - id: gavle
   type: city
   broader: gastrikland
+  timeline_start: 1446
   labels:
     en: Gävle
     sv: Gävle
@@ -518,6 +559,7 @@
 - id: ostersund
   type: city
   broader: jamtland
+  timeline_start: 1786
   labels:
     en: Östersund
     sv: Östersund
@@ -530,6 +572,7 @@
 - id: karlstad
   type: city
   broader: varmland
+  timeline_start: 1584
   labels:
     en: Karlstad
     sv: Karlstad
@@ -542,6 +585,7 @@
 - id: halmstad
   type: city
   broader: halland
+  timeline_start: 1307
   labels:
     en: Halmstad
     sv: Halmstad
@@ -554,6 +598,7 @@
 - id: vaxjo
   type: city
   broader: smaland
+  timeline_start: 1342
   labels:
     en: Växjö
     sv: Växjö
@@ -566,6 +611,7 @@
 - id: falun
   type: city
   broader: dalarna
+  timeline_start: 1641
   labels:
     en: Falun
     sv: Falun
@@ -578,6 +624,7 @@
 - id: gallivare
   type: city
   broader: norrbotten
+  timeline_start: 1735
   labels:
     en: Gällivare
     sv: Gällivare
@@ -591,6 +638,7 @@
 - id: sigtuna
   type: town
   broader: uppland
+  timeline_start: 970
   labels:
     en: Sigtuna
     sv: Sigtuna
@@ -603,6 +651,7 @@
 - id: jokkmokk
   type: town
   broader: lappland
+  timeline_start: 1605
   labels:
     en: Jokkmokk
     sv: Jokkmokk
@@ -616,6 +665,7 @@
 - id: ystad
   type: town
   broader: skane
+  timeline_start: 1244
   labels:
     en: Ystad
     sv: Ystad
@@ -630,6 +680,7 @@
 - id: oland-island
   type: island
   broader: sweden
+  timeline_start: -7000
   labels:
     en: Öland
     sv: Öland
@@ -642,6 +693,7 @@
 - id: gotland-island
   type: island
   broader: sweden
+  timeline_start: -7000
   labels:
     en: Gotland
     sv: Gotland
@@ -656,6 +708,7 @@
 - id: norrland
   type: region
   broader: sweden
+  timeline_start: -5000
   labels:
     en: Norrland
     sv: Norrland
@@ -667,6 +720,7 @@
 - id: svealand
   type: region
   broader: sweden
+  timeline_start: -6000
   labels:
     en: Svealand
     sv: Svealand
@@ -678,6 +732,7 @@
 - id: gotaland
   type: region
   broader: sweden
+  timeline_start: -7000
   labels:
     en: Götaland
     sv: Götaland

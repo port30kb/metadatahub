@@ -192,6 +192,11 @@ for idx, d in enumerate(DATA, 1):
     if d.get("aat_uri"):
         lines.append(f"    skos:exactMatch <{d['aat_uri']}> ;")
 
+    if d.get("timeline_start") is not None:
+        lines.append(f'    <{BASE}/ontology/timelineStart> "{d["timeline_start"]}"^^xsd:long ;')
+    if d.get("timeline_end") is not None:
+        lines.append(f'    <{BASE}/ontology/timelineEnd> "{d["timeline_end"]}"^^xsd:long ;')
+
     lines.append(f"    dcterms:source <http://www.getty.edu/research/tools/vocabularies/aat/> .")
     lines.append("")
 
@@ -230,6 +235,11 @@ for d in DATA:
     if d.get("aat_uri"):
         item["skos:exactMatch"] = {"@id": d["aat_uri"]}
 
+    if d.get("timeline_start") is not None:
+        item["mhub:timelineStart"] = d["timeline_start"]
+    if d.get("timeline_end") is not None:
+        item["mhub:timelineEnd"] = d["timeline_end"]
+
     item["dcterms:source"] = (
         "http://www.getty.edu/research/tools/vocabularies/aat/"
     )
@@ -243,6 +253,7 @@ jsonld_doc = {
         "skos": "http://www.w3.org/2004/02/skos/core#",
         "dcterms": "http://purl.org/dc/terms/",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "mhub": f"{BASE}/ontology/",
     },
     "@id": BASE,
     "@type": "skos:ConceptScheme",

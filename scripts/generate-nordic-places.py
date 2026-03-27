@@ -225,6 +225,12 @@ for idx, d in enumerate(DATA, 1):
     if d["broader"]:
         lines.append(f'    skos:broader np:{d["broader"]} ;')
 
+    # Timeline
+    if d.get("timeline_start") is not None:
+        lines.append(f'    <{BASE}/ontology/timelineStart> "{d["timeline_start"]}"^^xsd:long ;')
+    if d.get("timeline_end") is not None:
+        lines.append(f'    <{BASE}/ontology/timelineEnd> "{d["timeline_end"]}"^^xsd:long ;')
+
     # Coordinates
     if d.get("lat") is not None and d.get("lon") is not None:
         lines.append(f'    geo:lat "{d["lat"]}"^^xsd:decimal ;')
@@ -288,6 +294,12 @@ for d in DATA:
     if d["broader"]:
         item["skos:broader"] = {"@id": f"{BASE}/{d['broader']}"}
 
+    # Timeline
+    if d.get("timeline_start") is not None:
+        item["mhub:timelineStart"] = d["timeline_start"]
+    if d.get("timeline_end") is not None:
+        item["mhub:timelineEnd"] = d["timeline_end"]
+
     # Alt labels
     if d.get("alt_labels"):
         alt_list = []
@@ -332,6 +344,7 @@ jsonld_doc = {
         "dcterms": "http://purl.org/dc/terms/",
         "schema": "https://schema.org/",
         "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mhub": f"{BASE}/ontology/",
     },
     "@id": BASE,
     "@type": "skos:ConceptScheme",

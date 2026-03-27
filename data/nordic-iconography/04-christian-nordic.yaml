@@ -4,6 +4,7 @@
 
 - id: nordic-church-art
   iconclass: "11H"
+  timeline_start: 1000
   labels:
     en: Nordic church art
     sv: Nordisk kyrkokonst
@@ -14,6 +15,7 @@
 
 - id: nordic-saints
   iconclass: "11HH"
+  timeline_start: 800
   labels:
     en: Nordic saints
     sv: Nordiska helgon
@@ -28,6 +30,8 @@
   broader: nordic-church-art
   aat_uri: "http://vocab.getty.edu/aat/300007424"
   iconclass: "11P31"
+  timeline_start: 1050
+  timeline_end: 1350
   labels:
     en: Stave church iconography
     sv: Stavkyrka ikonografi
@@ -40,6 +44,8 @@
 - id: sigurd-fafnir
   broader: nordic-church-art
   iconclass: "91D(SIGURD)"
+  timeline_start: 800
+  timeline_end: 1300
   labels:
     en: Sigurd slaying Fáfnir
     sv: Sigurd dräper Fåfne
@@ -53,6 +59,8 @@
 - id: medieval-mural-cycles
   broader: nordic-church-art
   iconclass: "11I"
+  timeline_start: 1100
+  timeline_end: 1500
   labels:
     en: Medieval mural cycles (Nordic)
     sv: Medeltida kalkmålningar
@@ -64,6 +72,8 @@
 - id: birgitta-visions
   broader: nordic-church-art
   iconclass: "11HH(BIRGITTA)"
+  timeline_start: 1303
+  timeline_end: 1500
   labels:
     en: Birgitta of Vadstena visions
     sv: Heliga Birgittas visioner
@@ -76,6 +86,8 @@
   broader: nordic-church-art
   aat_uri: "http://vocab.getty.edu/aat/300080946"
   iconclass: "11Q7321"
+  timeline_start: 1100
+  timeline_end: 1400
   labels:
     en: Baptismal font carvings (Nordic)
     sv: Dopfuntsskulpturer
@@ -88,6 +100,8 @@
   broader: nordic-church-art
   aat_uri: "http://vocab.getty.edu/aat/300002668"
   iconclass: "11Q731"
+  timeline_start: 1100
+  timeline_end: 1500
   labels:
     en: Rood screen (Nordic)
     sv: Triumfkrucifix och korskrank
@@ -100,6 +114,8 @@
   broader: nordic-church-art
   aat_uri: "http://vocab.getty.edu/aat/300404177"
   iconclass: "73D6"
+  timeline_start: 1100
+  timeline_end: 1500
   labels:
     en: Calvary group (Nordic)
     sv: Kalvariegrupp
@@ -111,6 +127,8 @@
 - id: passion-scenes-nordic
   broader: nordic-church-art
   iconclass: "73D"
+  timeline_start: 1100
+  timeline_end: 1500
   labels:
     en: Passion scenes (Nordic style)
     sv: Passionsscener (nordisk stil)
@@ -123,6 +141,8 @@
   broader: nordic-church-art
   aat_uri: "http://vocab.getty.edu/aat/300404188"
   iconclass: "11F4"
+  timeline_start: 1100
+  timeline_end: 1500
   labels:
     en: Madonna and Child (Nordic)
     sv: Madonna med barnet (nordisk)
@@ -134,6 +154,8 @@
 - id: last-judgment-nordic
   broader: nordic-church-art
   iconclass: "11U"
+  timeline_start: 1100
+  timeline_end: 1500
   labels:
     en: Last Judgment (Nordic medieval)
     sv: Yttersta domen (nordisk medeltid)
@@ -146,6 +168,8 @@
   broader: nordic-church-art
   aat_uri: "http://vocab.getty.edu/aat/300002656"
   iconclass: "11Q71"
+  timeline_start: 1250
+  timeline_end: 1530
   labels:
     en: Altarpiece (Nordic medieval)
     sv: Altarskåp (nordisk medeltid)
@@ -159,6 +183,7 @@
 - id: st-olav
   broader: nordic-saints
   iconclass: "11HH(OLAV)"
+  timeline_start: 995
   labels:
     en: Saint Olav
     sv: Sankt Olof
@@ -172,6 +197,7 @@
 - id: st-erik
   broader: nordic-saints
   iconclass: "11HH(ERIK)"
+  timeline_start: 1120
   labels:
     en: Saint Erik
     sv: Sankt Erik
@@ -183,6 +209,7 @@
 - id: st-henry-finland
   broader: nordic-saints
   iconclass: "11HH(HENRY)"
+  timeline_start: 1100
   labels:
     en: Saint Henry of Finland
     sv: Sankt Henrik av Finland
@@ -194,6 +221,7 @@
 - id: st-canute
   broader: nordic-saints
   iconclass: "11HH(CANUTE)"
+  timeline_start: 1042
   labels:
     en: Saint Canute
     sv: Sankt Knut
@@ -205,6 +233,7 @@
 - id: st-birgitta
   broader: nordic-saints
   iconclass: "11HH(BIRGITTA)"
+  timeline_start: 1303
   labels:
     en: Saint Birgitta of Sweden
     sv: Heliga Birgitta
@@ -216,6 +245,7 @@
 - id: st-sigfrid
   broader: nordic-saints
   iconclass: "11HH(SIGFRID)"
+  timeline_start: 950
   labels:
     en: Saint Sigfrid
     sv: Sankt Sigfrid
@@ -227,6 +257,7 @@
 - id: st-thorlakur
   broader: nordic-saints
   iconclass: "11HH(THORLAK)"
+  timeline_start: 1133
   labels:
     en: Saint Þorlákur
     sv: Sankt Torlak
@@ -239,6 +270,7 @@
 - id: st-hallvard
   broader: nordic-saints
   iconclass: "11HH(HALLVARD)"
+  timeline_start: 1020
   labels:
     en: Saint Hallvard
     sv: Sankt Hallvard
@@ -250,6 +282,7 @@
 - id: st-ansgar
   broader: nordic-saints
   iconclass: "11HH(ANSGAR)"
+  timeline_start: 801
   labels:
     en: Saint Ansgar
     sv: Sankt Ansgar
@@ -260,6 +293,8 @@
 
 - id: golden-altarpiece
   broader: nordic-church-art
+  timeline_start: 1050
+  timeline_end: 1300
   labels:
     en: Golden altarpieces (Nordic)
     sv: Gyllene altarskåp
@@ -270,6 +305,7 @@
 
 - id: church-ship-model
   broader: nordic-church-art
+  timeline_start: 1400
   labels:
     en: Votive ship (church)
     sv: Kyrkoskepp (votivskeppp)

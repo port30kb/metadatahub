@@ -53,6 +53,7 @@ nr:creative-commons a mhub:License, skos:Concept ;
     skos:definition "Top-level grouping for all Creative Commons license types. Creative Commons provides free, easy-to-use copyright licenses to make a simple and standardized way to give the public permission to share and use creative work."@en ;
     mhub:category "creative-commons" ;
     skos:exactMatch <https://creativecommons.org/> ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2001"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 2/55: CC0 1.0 Universal (Public Domain Dedication) ──
@@ -71,6 +72,7 @@ nr:cc0-1 a mhub:License, skos:Concept ;
     skos:exactMatch <https://creativecommons.org/publicdomain/zero/1.0/> ;
     mhub:europeanaTier "tier-4" ;
     skos:scopeNote "Ideal for museum metadata/catalog records, measurement data, and factual descriptions. Cannot be revoked once applied. Note that moral rights (ideell ratt) in Nordic countries cannot be waived."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2009"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 3/55: Creative Commons Attribution 4.0 International ──
@@ -89,6 +91,7 @@ nr:cc-by-4 a mhub:License, skos:Concept ;
     skos:exactMatch <https://creativecommons.org/licenses/by/4.0/> ;
     mhub:europeanaTier "tier-4" ;
     skos:scopeNote "Use when the museum created the digital reproduction and the original work is in the public domain, or when the museum holds all necessary rights."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2013"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 4/55: Creative Commons Attribution-ShareAlike 4.0 International ──
@@ -107,6 +110,7 @@ nr:cc-by-sa-4 a mhub:License, skos:Concept ;
     skos:exactMatch <https://creativecommons.org/licenses/by-sa/4.0/> ;
     mhub:europeanaTier "tier-4" ;
     skos:scopeNote "Good for collaborative projects where the museum wants to ensure derivative works also remain open. Wikipedia/Wikimedia Commons uses this license."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2013"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 5/55: Creative Commons Attribution-NonCommercial 4.0 International ──
@@ -125,6 +129,7 @@ nr:cc-by-nc-4 a mhub:License, skos:Concept ;
     skos:exactMatch <https://creativecommons.org/licenses/by-nc/4.0/> ;
     mhub:europeanaTier "tier-2" ;
     skos:scopeNote "Use when the museum wants to allow educational and personal reuse but restrict commercial exploitation. Note that 'non-commercial' can be ambiguous in practice."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2013"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 6/55: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International ──
@@ -143,6 +148,7 @@ nr:cc-by-nc-sa-4 a mhub:License, skos:Concept ;
     skos:exactMatch <https://creativecommons.org/licenses/by-nc-sa/4.0/> ;
     mhub:europeanaTier "tier-2" ;
     skos:scopeNote "Combines non-commercial restriction with share-alike requirement. Common in educational and cultural heritage contexts."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2013"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 7/55: Creative Commons Attribution-NoDerivatives 4.0 International ──
@@ -161,6 +167,7 @@ nr:cc-by-nd-4 a mhub:License, skos:Concept ;
     skos:exactMatch <https://creativecommons.org/licenses/by-nd/4.0/> ;
     mhub:europeanaTier "tier-3" ;
     skos:scopeNote "Rarely recommended for cultural heritage data. Use when integrity of the original representation is paramount (e.g., exhibition catalog essays)."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2013"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 8/55: Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International ──
@@ -179,6 +186,7 @@ nr:cc-by-nc-nd-4 a mhub:License, skos:Concept ;
     skos:exactMatch <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
     mhub:europeanaTier "tier-1" ;
     skos:scopeNote "Most restrictive CC license. Consider whether a more open license or a rights statement would be more appropriate."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2013"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 9/55: Public Domain Mark 1.0 ──
@@ -197,6 +205,7 @@ nr:pdm-1 a mhub:License, skos:Concept ;
     skos:exactMatch <https://creativecommons.org/publicdomain/mark/1.0/> ;
     mhub:europeanaTier "tier-4" ;
     skos:scopeNote "Use for works where copyright has expired (typically 70 years after author's death in the EU/EEA). The work itself must be in the public domain; this mark does not place it there."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2010"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 10/55: RightsStatements.org ──
@@ -211,6 +220,7 @@ nr:rights-statements a mhub:RightsStatement, skos:Concept ;
     skos:definition "Top-level grouping for RightsStatements.org standardized rights statements. Provides a set of 12 standardized rights statements for use by cultural heritage institutions to communicate the copyright and reuse status of digital objects."@en ;
     mhub:category "rights-statement" ;
     skos:exactMatch <https://rightsstatements.org/> ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2016"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 11/55: In Copyright ──
@@ -229,6 +239,7 @@ nr:inc a mhub:RightsStatement, skos:Concept ;
     skos:exactMatch <http://rightsstatements.org/vocab/InC/1.0/> ;
     mhub:europeanaTier "tier-1" ;
     skos:scopeNote "Default statement for copyrighted works. Ensure you have verified the copyright status before applying."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2016"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 12/55: In Copyright - EU Orphan Work ──
@@ -247,6 +258,7 @@ nr:inc-ow-eu a mhub:RightsStatement, skos:Concept ;
     skos:exactMatch <http://rightsstatements.org/vocab/InC-OW-EU/1.0/> ;
     mhub:europeanaTier "tier-1" ;
     skos:scopeNote "Requires a documented diligent search conducted according to EU Orphan Works Directive. The search must be recorded in the EUIPO Orphan Works Database."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2016"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 13/55: In Copyright - Educational Use Permitted ──
@@ -265,6 +277,7 @@ nr:inc-edu a mhub:RightsStatement, skos:Concept ;
     skos:exactMatch <http://rightsstatements.org/vocab/InC-EDU/1.0/> ;
     mhub:europeanaTier "tier-1" ;
     skos:scopeNote "Use when the rights holder has granted specific permission for educational use. Define 'educational use' clearly in the institution's terms."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2016"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 14/55: In Copyright - Non-Commercial Use Permitted ──
@@ -283,6 +296,7 @@ nr:inc-nc a mhub:RightsStatement, skos:Concept ;
     skos:exactMatch <http://rightsstatements.org/vocab/InC-NC/1.0/> ;
     mhub:europeanaTier "tier-2" ;
     skos:scopeNote "Use when the rights holder has explicitly permitted non-commercial reuse. Different from CC-BY-NC in that it does not grant a formal license."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2016"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 15/55: In Copyright - Rights-holder(s) Unlocatable or Unidentifiable ──
@@ -301,6 +315,7 @@ nr:inc-ruu a mhub:RightsStatement, skos:Concept ;
     skos:exactMatch <http://rightsstatements.org/vocab/InC-RUU/1.0/> ;
     mhub:europeanaTier "tier-1" ;
     skos:scopeNote "Use when a search has been conducted but does not meet the EU Orphan Works Directive requirements. Document the search efforts undertaken."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2016"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 16/55: No Copyright - Contractual Restrictions ──
@@ -319,6 +334,7 @@ nr:noc-cr a mhub:RightsStatement, skos:Concept ;
     skos:exactMatch <http://rightsstatements.org/vocab/NoC-CR/1.0/> ;
     mhub:europeanaTier "tier-3" ;
     skos:scopeNote "Use when a digitization partner's contract restricts reuse of the digital copy. The original work remains in the public domain."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2016"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 17/55: No Copyright - Other Known Legal Restrictions ──
@@ -337,6 +353,7 @@ nr:noc-oklr a mhub:RightsStatement, skos:Concept ;
     skos:exactMatch <http://rightsstatements.org/vocab/NoC-OKLR/1.0/> ;
     mhub:europeanaTier "tier-3" ;
     skos:scopeNote "Use when non-copyright legal restrictions apply, such as cultural heritage protection legislation or privacy regulations (GDPR)."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2016"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 18/55: No Copyright - United States ──
@@ -355,6 +372,7 @@ nr:noc-us a mhub:RightsStatement, skos:Concept ;
     skos:exactMatch <http://rightsstatements.org/vocab/NoC-US/1.0/> ;
     mhub:europeanaTier "tier-4" ;
     skos:scopeNote "Primarily relevant for US-based institutions. Nordic museums should generally use Public Domain Mark or country-specific assessments instead."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2016"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 19/55: Copyright Not Evaluated ──
@@ -373,6 +391,7 @@ nr:cne a mhub:RightsStatement, skos:Concept ;
     skos:exactMatch <http://rightsstatements.org/vocab/CNE/1.0/> ;
     mhub:europeanaTier "tier-1" ;
     skos:scopeNote "A temporary status. Institutions should work toward evaluating and assigning a more specific rights statement over time."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2016"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 20/55: Copyright Undetermined ──
@@ -391,6 +410,7 @@ nr:und a mhub:RightsStatement, skos:Concept ;
     skos:exactMatch <http://rightsstatements.org/vocab/UND/1.0/> ;
     mhub:europeanaTier "tier-1" ;
     skos:scopeNote "Use when an evaluation has been attempted but the status remains unclear. Document what information is missing or uncertain."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2016"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 21/55: No Known Copyright ──
@@ -409,6 +429,7 @@ nr:nkc a mhub:RightsStatement, skos:Concept ;
     skos:exactMatch <http://rightsstatements.org/vocab/NKC/1.0/> ;
     mhub:europeanaTier "tier-4" ;
     skos:scopeNote "Use when research indicates no copyright applies but absolute certainty cannot be established. More cautious than Public Domain Mark."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2016"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 22/55: Nordic Copyright Law ──
@@ -423,6 +444,7 @@ nr:nordic-copyright a mhub:CopyrightConcept, skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-rights> ;
     skos:definition "Top-level grouping for Nordic copyright legislation and legal concepts. The Nordic countries share a common copyright tradition with harmonized but nationally distinct legislation."@en ;
     mhub:category "nordic-copyright-law" ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "1960"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 23/55: Swedish Copyright Act (Upphovsrattslagen) ──
@@ -440,6 +462,7 @@ nr:se-copyright-act a mhub:CopyrightConcept, skos:Concept ;
     skos:broader nr:nordic-copyright ;
     skos:exactMatch <https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-1960729-om-upphovsratt-till-litterara-och_sfs-1960-729/> ;
     skos:scopeNote "Key provisions: Section 44a on photographic images (shorter protection), Section 49 on catalogs/databases, Section 26e on extended collective licensing."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "1960"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 24/55: Finnish Copyright Act (Tekijanoikeuslaki) ──
@@ -457,6 +480,7 @@ nr:fi-copyright-act a mhub:CopyrightConcept, skos:Concept ;
     skos:broader nr:nordic-copyright ;
     skos:exactMatch <https://www.finlex.fi/fi/laki/ajantasa/1961/19610404> ;
     skos:scopeNote "Key provisions: Section 49a on photographic images, Chapter 2 on limitations and exceptions, extended collective licensing provisions in Section 26."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "1961"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 25/55: Norwegian Copyright Act (Andsverkloven) ──
@@ -474,6 +498,7 @@ nr:no-copyright-act a mhub:CopyrightConcept, skos:Concept ;
     skos:broader nr:nordic-copyright ;
     skos:exactMatch <https://lovdata.no/dokument/NL/lov/2018-06-15-40> ;
     skos:scopeNote "The 2018 act replaced the 1961 law. Chapter 3 covers exceptions and limitations relevant to cultural heritage institutions."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2018"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 26/55: Danish Copyright Act (Ophavsretsloven) ──
@@ -491,6 +516,7 @@ nr:dk-copyright-act a mhub:CopyrightConcept, skos:Concept ;
     skos:broader nr:nordic-copyright ;
     skos:exactMatch <https://www.retsinformation.dk/eli/lta/2014/1144> ;
     skos:scopeNote "Key provisions: Section 70 on photographic images, Chapter 2 on limitations, extended collective licensing in Section 50."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2014"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 27/55: Icelandic Copyright Act (Hofundalog) ──
@@ -509,6 +535,7 @@ nr:is-copyright-act a mhub:CopyrightConcept, skos:Concept ;
     skos:broader nr:nordic-copyright ;
     skos:exactMatch <https://www.althingi.is/lagas/nuna/1972073.html> ;
     skos:scopeNote "Follows the same Nordic copyright tradition as the other Scandinavian countries. EEA membership requires alignment with EU copyright directives."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "1972"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 28/55: 70-Year Post-Mortem Rule ──
@@ -525,6 +552,7 @@ nr:post-mortem-70 a mhub:CopyrightConcept, skos:Concept ;
     mhub:category "nordic-copyright-law" ;
     skos:broader nr:nordic-copyright ;
     skos:scopeNote "For works by known authors, copyright expires on January 1st of the year following the 70th anniversary of the author's death. For anonymous/pseudonymous works, 70 years from publication."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2006"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 29/55: Freedom of Panorama ──
@@ -541,6 +569,7 @@ nr:freedom-of-panorama a mhub:CopyrightConcept, skos:Concept ;
     mhub:category "nordic-copyright-law" ;
     skos:broader nr:nordic-copyright ;
     skos:scopeNote "Sweden (Section 24): allows reproduction of outdoor public artworks. Denmark (Section 24): similar provision. Finland (Section 25a): limited to buildings and outdoor sculptures. Norway (Section 31): allows reproduction of outdoor works. Always verify current national legislation."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "1960"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 30/55: Public Domain ──
@@ -557,6 +586,7 @@ nr:public-domain-concept a mhub:CopyrightConcept, skos:Concept ;
     mhub:category "nordic-copyright-law" ;
     skos:broader nr:nordic-copyright ;
     skos:scopeNote "Mark with Public Domain Mark 1.0 or CC0. Remember that moral rights (attribution and integrity) may still apply under Nordic law even for public domain works."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "1960"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 31/55: Orphan Works ──
@@ -573,6 +603,7 @@ nr:orphan-works a mhub:CopyrightConcept, skos:Concept ;
     mhub:category "nordic-copyright-law" ;
     skos:broader nr:nordic-copyright ;
     skos:scopeNote "Nordic museums can use orphan works under the EU Directive after conducting and documenting a diligent search. Extended collective licensing (avtalslicens) offers an alternative Nordic approach."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2012"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 32/55: Extended Collective Licensing ──
@@ -589,6 +620,7 @@ nr:extended-collective-licensing a mhub:CopyrightConcept, skos:Concept ;
     mhub:category "nordic-copyright-law" ;
     skos:broader nr:nordic-copyright ;
     skos:scopeNote "Particularly valuable for mass digitization projects. In Sweden, governed by Section 42a-42j of the Copyright Act. Collecting societies include Bildupphovsratt (images) and Bonus Copyright Access (text)."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "1961"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 33/55: Right of Reproduction ──
@@ -605,6 +637,7 @@ nr:reproduction-right a mhub:CopyrightConcept, skos:Concept ;
     mhub:category "nordic-copyright-law" ;
     skos:broader nr:nordic-copyright ;
     skos:scopeNote "Digitization of museum objects constitutes reproduction. Ensure you have authorization from rights holders or rely on applicable exceptions before digitizing."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "1960"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 34/55: Moral Rights ──
@@ -621,6 +654,7 @@ nr:moral-rights a mhub:CopyrightConcept, skos:Concept ;
     mhub:category "nordic-copyright-law" ;
     skos:broader nr:nordic-copyright ;
     skos:scopeNote "Always attribute the creator even when using CC0 or Public Domain Mark. Avoid modifications that could harm the author's reputation, even for public domain works."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "1960"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 35/55: Database Rights (Sui Generis) ──
@@ -637,6 +671,7 @@ nr:database-rights a mhub:CopyrightConcept, skos:Concept ;
     mhub:category "nordic-copyright-law" ;
     skos:broader nr:nordic-copyright ;
     skos:scopeNote "Museum collection databases may qualify for sui generis protection. This is separate from copyright in individual entries. Consider CC0 for maximum interoperability of metadata."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "1996"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 36/55: Photographic Works vs. Photographic Images ──
@@ -653,6 +688,7 @@ nr:photographic-works-vs-images a mhub:CopyrightConcept, skos:Concept ;
     mhub:category "nordic-copyright-law" ;
     skos:broader nr:nordic-copyright ;
     skos:scopeNote "Most museum documentation photography (catalog photos, condition reports) qualifies as photographic images with 50-year protection. Artistic photography gets full copyright term (70 years post mortem)."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "1960"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 37/55: Museum Reproduction Rights ──
@@ -669,6 +705,7 @@ nr:museum-reproduction-rights a mhub:CopyrightConcept, skos:Concept ;
     mhub:category "nordic-copyright-law" ;
     skos:broader nr:nordic-copyright ;
     skos:scopeNote "For public domain originals, the museum's reproduction may still be protected as a photographic image. The Bridgeman Art Library v. Corel Corp. precedent (US) is not binding in Nordic jurisdictions."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "1960"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 38/55: Europeana Rights Framework ──
@@ -684,6 +721,7 @@ nr:europeana-framework a mhub:RightsFramework, skos:Concept ;
     skos:definition "Top-level grouping for the Europeana rights and licensing framework. Europeana uses a tiered system to classify the openness of content rights statements."@en ;
     mhub:category "europeana-framework" ;
     skos:exactMatch <https://www.europeana.eu/en/rights> ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2012"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 39/55: Europeana Tier 1: Most Restrictive ──
@@ -700,6 +738,7 @@ nr:europeana-tier-1 a mhub:RightsFramework, skos:Concept ;
     mhub:category "europeana-framework" ;
     skos:broader nr:europeana-framework ;
     skos:scopeNote "Content at this tier has limited visibility and reuse potential on Europeana. Aim for more open tiers when possible to maximize cultural impact."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2012"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 40/55: Europeana Tier 2: Restricted Reuse ──
@@ -716,6 +755,7 @@ nr:europeana-tier-2 a mhub:RightsFramework, skos:Concept ;
     mhub:category "europeana-framework" ;
     skos:broader nr:europeana-framework ;
     skos:scopeNote "Suitable for content where the institution needs to restrict commercial exploitation. Non-commercial licenses are widely used in education."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2012"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 41/55: Europeana Tier 3: Free Reuse with Conditions ──
@@ -732,6 +772,7 @@ nr:europeana-tier-3 a mhub:RightsFramework, skos:Concept ;
     mhub:category "europeana-framework" ;
     skos:broader nr:europeana-framework ;
     skos:scopeNote "A good middle ground. Content reaches a broad audience while maintaining some control over how it is presented or used."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2012"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 42/55: Europeana Tier 4: Open / Public Domain ──
@@ -748,6 +789,7 @@ nr:europeana-tier-4 a mhub:RightsFramework, skos:Concept ;
     mhub:category "europeana-framework" ;
     skos:broader nr:europeana-framework ;
     skos:scopeNote "The gold standard for open cultural heritage. Maximizes discoverability, reuse, and impact. Strongly recommended for metadata and public domain reproductions."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2012"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 43/55: Europeana Data Exchange Agreement ──
@@ -765,6 +807,7 @@ nr:europeana-dea a mhub:RightsFramework, skos:Concept ;
     skos:broader nr:europeana-framework ;
     skos:exactMatch <https://pro.europeana.eu/page/the-data-exchange-agreement> ;
     skos:scopeNote "All metadata submitted to Europeana must be licensed under CC0 per this agreement. This applies to descriptive metadata only, not to the digital objects themselves."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2012"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 44/55: Europeana Usage Guidelines for Metadata ──
@@ -782,6 +825,7 @@ nr:europeana-metadata-guidelines a mhub:RightsFramework, skos:Concept ;
     skos:broader nr:europeana-framework ;
     skos:exactMatch <https://pro.europeana.eu/page/usage-guidelines-for-metadata> ;
     skos:scopeNote "Follow these guidelines when reusing metadata obtained from the Europeana API or portal. Attribution is encouraged as good practice even though CC0 does not legally require it."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2012"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 45/55: Europeana Public Domain Charter ──
@@ -799,6 +843,7 @@ nr:europeana-pd-charter a mhub:RightsFramework, skos:Concept ;
     skos:broader nr:europeana-framework ;
     skos:exactMatch <https://pro.europeana.eu/page/the-europeana-public-domain-charter> ;
     skos:scopeNote "Key principle: faithful digital reproductions of public domain 2D works should not be restricted by new copyright claims. This reflects the spirit of open access to cultural heritage."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2010"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 46/55: Common Museum Rights Scenarios ──
@@ -813,6 +858,7 @@ nr:museum-scenarios a mhub:UsageScenario, skos:Concept ;
     skos:inScheme <https://metadatahub.eu/data/nordic-rights> ;
     skos:definition "Top-level grouping for common rights scenarios encountered by Nordic museums when digitizing and publishing collection materials."@en ;
     mhub:category "museum-scenario" ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2000"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 47/55: Pre-1900 Artwork (Photographer Unknown) ──
@@ -829,6 +875,7 @@ nr:scenario-pre-1900-artwork a mhub:UsageScenario, skos:Concept ;
     mhub:category "museum-scenario" ;
     skos:broader nr:museum-scenarios ;
     skos:scopeNote "Recommended: Public Domain Mark 1.0 for the original work. For faithful 2D reproductions, follow the Europeana Public Domain Charter principle. If the photographer is a museum employee, apply the museum's standard open license."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2000"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 48/55: Contemporary Artwork with Living Artist ──
@@ -845,6 +892,7 @@ nr:scenario-contemporary-artwork a mhub:UsageScenario, skos:Concept ;
     mhub:category "museum-scenario" ;
     skos:broader nr:museum-scenarios ;
     skos:scopeNote "Recommended: InC (In Copyright) unless the artist has granted a specific license. Consider extended collective licensing (avtalslicens) for online access. Contact Bildupphovsratt (SE), Kuvasto (FI), or BONO (NO)."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2000"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 49/55: Museum-Commissioned Photography of 2D Works ──
@@ -861,6 +909,7 @@ nr:scenario-museum-photography-2d a mhub:UsageScenario, skos:Concept ;
     mhub:category "museum-scenario" ;
     skos:broader nr:museum-scenarios ;
     skos:scopeNote "If the original 2D work is in the public domain, recommended: Public Domain Mark or CC0 for faithful reproductions. If the original is in copyright, the photograph adds a layer of rights requiring both artist and photographer clearance."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2000"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 50/55: Archaeological Finds (State Ownership) ──
@@ -877,6 +926,7 @@ nr:scenario-archaeological-finds a mhub:UsageScenario, skos:Concept ;
     mhub:category "museum-scenario" ;
     skos:broader nr:museum-scenarios ;
     skos:scopeNote "The objects themselves are generally not copyrighted (utilitarian or ancient). Recommended: CC-BY 4.0 or CC0 for museum-created documentation photographs. Respect any export or cultural property restrictions (NoC-OKLR)."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2000"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 51/55: Born-Digital Museum Content ──
@@ -893,6 +943,7 @@ nr:scenario-born-digital a mhub:UsageScenario, skos:Concept ;
     mhub:category "museum-scenario" ;
     skos:broader nr:museum-scenarios ;
     skos:scopeNote "The museum typically holds all rights. Recommended: CC-BY 4.0 for maximum reuse, or CC-BY-SA 4.0 if share-alike is desired. Use CC0 for metadata and factual data."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2005"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 52/55: Metadata and Catalog Records ──
@@ -909,6 +960,7 @@ nr:scenario-metadata-records a mhub:UsageScenario, skos:Concept ;
     mhub:category "museum-scenario" ;
     skos:broader nr:museum-scenarios ;
     skos:scopeNote "Strongly recommended: CC0. Required by Europeana Data Exchange Agreement. Factual metadata has minimal copyright protection in most cases, making CC0 the natural choice."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2009"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 53/55: Educational Use of Copyrighted Material ──
@@ -925,6 +977,7 @@ nr:scenario-educational-use a mhub:UsageScenario, skos:Concept ;
     mhub:category "museum-scenario" ;
     skos:broader nr:museum-scenarios ;
     skos:scopeNote "Apply InC-EDU if the rights holder has authorized educational use. Otherwise, rely on national copyright exceptions for education (e.g., Swedish Copyright Act Section 42c). Extended collective licensing may also apply."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2000"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 54/55: Sami Cultural Heritage Considerations ──
@@ -942,6 +995,7 @@ nr:scenario-sami-heritage a mhub:UsageScenario, skos:Concept ;
     mhub:category "museum-scenario" ;
     skos:broader nr:museum-scenarios ;
     skos:scopeNote "Standard copyright licenses may be insufficient. Consider Traditional Knowledge labels (Local Contexts). Consult with Sami Parliament (Sametinget) and relevant Sami museums (Ajtte, Siida, RiddoDuottarMuseat). Follow CARE principles for Indigenous data governance."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2010"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .
 
 # ── 55/55: Traditional Knowledge Labels ──
@@ -959,4 +1013,5 @@ nr:scenario-traditional-knowledge a mhub:UsageScenario, skos:Concept ;
     skos:broader nr:museum-scenarios ;
     skos:exactMatch <https://localcontexts.org/labels/traditional-knowledge-labels/> ;
     skos:scopeNote "TK Labels complement rather than replace standard licenses. They communicate community expectations for use. Applicable to Sami collections and other Indigenous materials in Nordic museums. Work with communities to select appropriate labels."@en ;
+    <https://metadatahub.eu/data/nordic-rights/ontology/timelineStart> "2012"^^xsd:long ;
     dcterms:source <https://creativecommons.org/licenses/> .

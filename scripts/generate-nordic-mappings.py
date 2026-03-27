@@ -190,6 +190,11 @@ for idx, d in enumerate(DATA, 1):
     if note:
         lines.append(f'    skos:note "{escape(note)}"@en ;')
 
+    if d.get("timeline_start") is not None:
+        lines.append(f'    <{BASE}/ontology/timelineStart> "{d["timeline_start"]}"^^xsd:long ;')
+    if d.get("timeline_end") is not None:
+        lines.append(f'    <{BASE}/ontology/timelineEnd> "{d["timeline_end"]}"^^xsd:long ;')
+
     lines.append(f'    dcterms:creator "Port 30 KB" .')
     lines.append("")
 
@@ -228,6 +233,11 @@ for d in DATA:
     if d.get("note"):
         item["skos:note"] = {"@value": d["note"], "@language": "en"}
 
+    if d.get("timeline_start") is not None:
+        item["mhub:timelineStart"] = d["timeline_start"]
+    if d.get("timeline_end") is not None:
+        item["mhub:timelineEnd"] = d["timeline_end"]
+
     jsonld_items.append(item)
 
 jsonld_doc = {
@@ -238,6 +248,7 @@ jsonld_doc = {
         "dcterms": "http://purl.org/dc/terms/",
         "void": "http://rdfs.org/ns/void#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "mhub": f"{BASE}/ontology/",
     },
     "@id": BASE,
     "@type": ["void:Linkset", "skos:ConceptScheme"],

@@ -24,6 +24,10 @@
 #   source_lang:   Language of source_label (ISO 639, default: source system language)
 #   confidence:    Mapping confidence: high, medium, low
 #   note:          Additional notes about the mapping
+#   timeline_start: Approximate start year for the mapped concept (integer).
+#                   Negative = BCE, positive = CE.
+#   timeline_end:   Approximate end year for the mapped concept (integer).
+#                   Negative = BCE, positive = CE. Omit for ongoing concepts.
 #
 # Systems:
 #   ksamsok     — Swedish K-samsök (kulturarvsdata.se)

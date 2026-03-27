@@ -8,6 +8,7 @@
 
 - id: sapmi
   type: region
+  timeline_start: -8000
   labels:
     se: Sápmi
     en: Sápmi
@@ -24,6 +25,7 @@
 - id: tromso-sami
   type: region
   broader: sapmi
+  timeline_start: -6000
   labels:
     se: Romsa
     en: Tromsø Sámi area
@@ -36,6 +38,7 @@
 - id: finnmark-sami
   type: region
   broader: sapmi
+  timeline_start: -8000
   labels:
     se: Finnmárku
     en: Finnmark Sámi area
@@ -48,6 +51,7 @@
 - id: norrbotten-sami
   type: region
   broader: sapmi
+  timeline_start: -5000
   labels:
     se: Norrbottena
     en: Norrbotten Sámi area
@@ -60,6 +64,7 @@
 - id: lule-sami-area
   type: region
   broader: sapmi
+  timeline_start: -5000
   labels:
     se: Julevsábme
     en: Lule Sámi area
@@ -72,6 +77,7 @@
 - id: south-sami-area
   type: region
   broader: sapmi
+  timeline_start: -4000
   labels:
     se: Åarjelsaemien dajve
     en: South Sámi area
@@ -85,6 +91,7 @@
 - id: inari-sami-area
   type: region
   broader: sapmi
+  timeline_start: -7000
   labels:
     se: Anárašgiella guovlu
     en: Inari Sámi area
@@ -97,6 +104,7 @@
 - id: skolt-sami-area
   type: region
   broader: sapmi
+  timeline_start: -5000
   labels:
     en: Skolt Sámi area
     fi: Kolttasaamelainen alue
@@ -110,6 +118,7 @@
 - id: karasjok
   type: town
   broader: finnmark-sami
+  timeline_start: 1553
   labels:
     se: Kárášjohka
     en: Karasjok
@@ -123,6 +132,7 @@
 - id: giron
   type: city
   broader: norrbotten-sami
+  timeline_start: 1900
   labels:
     se: Giron
     en: Kiruna
@@ -136,6 +146,7 @@
 - id: guovdageaidnu
   type: town
   broader: finnmark-sami
+  timeline_start: 1553
   labels:
     se: Guovdageaidnu
     en: Kautokeino
@@ -149,6 +160,7 @@
 - id: aanaar
   type: town
   broader: inari-sami-area
+  timeline_start: -7000
   labels:
     se: Anár
     en: Inari
@@ -162,6 +174,7 @@
 - id: jokkmokk-sami
   type: town
   broader: norrbotten-sami
+  timeline_start: 1605
   labels:
     se: Jåhkåmåhkke
     en: Jokkmokk
@@ -175,6 +188,7 @@
 - id: snasa
   type: town
   broader: south-sami-area
+  timeline_start: -2000
   labels:
     se: Snåase
     en: Snåsa
@@ -188,6 +202,7 @@
 - id: deatnu
   type: town
   broader: finnmark-sami
+  timeline_start: -7000
   labels:
     se: Deatnu
     en: Tana
@@ -201,6 +216,7 @@
 - id: gallivare-sami
   type: city
   broader: norrbotten-sami
+  timeline_start: 1735
   labels:
     se: Váhčir
     en: Gällivare
@@ -214,6 +230,7 @@
 - id: neiden
   type: village
   broader: finnmark-sami
+  timeline_start: -5000
   labels:
     se: Njauddâm
     en: Neiden
@@ -227,6 +244,7 @@
 - id: hattfjelldal
   type: town
   broader: south-sami-area
+  timeline_start: -2000
   labels:
     en: Hattfjelldal
     nb: Hattfjelldal

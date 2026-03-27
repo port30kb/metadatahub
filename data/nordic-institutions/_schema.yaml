@@ -25,8 +25,11 @@
 #   wikidata_uri:  Wikidata URI (http://www.wikidata.org/entity/Q{id})
 #   isil:          International Standard Identifier for Libraries
 #                  and Related Organizations (ISO 15511)
-#   website:       Official website URL
-#   established:   Year the institution was founded (as string)
+#   website:        Official website URL
+#   established:    Year the institution was founded (as string)
+#   timeline_start: Start year of institution's existence (integer, CE).
+#                   Typically matches the established year.
+#   timeline_end:   End year (integer). Omit or null for active institutions.
 #
 # Language codes follow ISO 639:
 #   en = English, sv = Swedish, nb = Norwegian Bokmål,

@@ -16,6 +16,7 @@
     en: "Painting (Finna/YSO → AAT)"
     sv: "Målning (Finna/YSO → AAT)"
   description: "Direct equivalence for painted artworks."
+  timeline_start: -3000
 
 - id: finna-veistos-aat
   source_system: finna
@@ -31,6 +32,7 @@
     en: "Sculpture (Finna/YSO → AAT)"
     sv: "Skulptur (Finna/YSO → AAT)"
   description: "Direct equivalence for sculptural works."
+  timeline_start: -8000
 
 - id: finna-piirustus-aat
   source_system: finna
@@ -46,6 +48,7 @@
     en: "Drawing (Finna/YSO → AAT)"
     sv: "Teckning (Finna/YSO → AAT)"
   description: "Direct equivalence for drawn works."
+  timeline_start: -30000
 
 - id: finna-grafiikka-aat
   source_system: finna
@@ -61,6 +64,7 @@
     en: "Graphic art (Finna/YSO → AAT)"
     sv: "Grafik (Finna/YSO → AAT)"
   description: "Direct equivalence for graphic art and prints."
+  timeline_start: 1400
 
 - id: finna-valokuva-aat
   source_system: finna
@@ -76,6 +80,7 @@
     en: "Photograph (Finna/YSO → AAT)"
     sv: "Fotografi (Finna/YSO → AAT)"
   description: "Direct equivalence for photographic works."
+  timeline_start: 1839
 
 - id: finna-keramiikka-aat
   source_system: finna
@@ -91,6 +96,7 @@
     en: "Ceramics (Finna/YSO → AAT)"
     sv: "Keramik (Finna/YSO → AAT)"
   description: "Direct equivalence for ceramic objects."
+  timeline_start: -5000
 
 - id: finna-tekstiili-aat
   source_system: finna
@@ -106,6 +112,7 @@
     en: "Textile (Finna/YSO → AAT)"
     sv: "Textil (Finna/YSO → AAT)"
   description: "Direct equivalence for textile objects."
+  timeline_start: -6000
 
 - id: finna-kolikko-aat
   source_system: finna
@@ -121,6 +128,7 @@
     en: "Coin (Finna/YSO → AAT)"
     sv: "Mynt (Finna/YSO → AAT)"
   description: "Direct equivalence for numismatic objects."
+  timeline_start: -600
 
 - id: finna-koru-aat
   source_system: finna
@@ -136,6 +144,7 @@
     en: "Jewelry (Finna/YSO → AAT)"
     sv: "Smycke (Finna/YSO → AAT)"
   description: "Direct equivalence for jewelry and personal ornaments."
+  timeline_start: -3000
 
 - id: finna-ase-aat
   source_system: finna
@@ -151,6 +160,7 @@
     en: "Weapon (Finna/YSO → AAT)"
     sv: "Vapen (Finna/YSO → AAT)"
   description: "Direct equivalence for weapons."
+  timeline_start: -8000
 
 - id: finna-huonekalu-aat
   source_system: finna
@@ -166,6 +176,7 @@
     en: "Furniture (Finna/YSO → AAT)"
     sv: "Möbel (Finna/YSO → AAT)"
   description: "Direct equivalence for furniture objects."
+  timeline_start: -3000
 
 - id: finna-lasi-aat
   source_system: finna
@@ -181,6 +192,7 @@
     en: "Glass (Finna/YSO → AAT)"
     sv: "Glas (Finna/YSO → AAT)"
   description: "Close match; Finna 'lasi' covers glass objects and glass as material."
+  timeline_start: -1500
 
 - id: finna-soitin-aat
   source_system: finna
@@ -196,6 +208,7 @@
     en: "Musical instrument (Finna/YSO → AAT)"
     sv: "Musikinstrument (Finna/YSO → AAT)"
   description: "Direct equivalence for musical instruments."
+  timeline_start: -5000
 
 - id: finna-kartta-aat
   source_system: finna
@@ -211,6 +224,7 @@
     en: "Map (Finna/YSO → AAT)"
     sv: "Karta (Finna/YSO → AAT)"
   description: "Direct equivalence for cartographic objects."
+  timeline_start: 1500
 
 - id: finna-tyokalu-aat
   source_system: finna
@@ -226,6 +240,7 @@
     en: "Tool (Finna/YSO → AAT)"
     sv: "Verktyg (Finna/YSO → AAT)"
   description: "Direct equivalence for hand tools and implements."
+  timeline_start: -10000
 
 - id: finna-ikoni-aat
   source_system: finna
@@ -241,6 +256,7 @@
     en: "Icon (Finna/YSO → AAT)"
     sv: "Ikon (Finna/YSO → AAT)"
   description: "Direct equivalence for religious icon paintings. Finnish museums have notable Orthodox icon collections."
+  timeline_start: 500
 
 - id: finna-muinaisesine-aat
   source_system: finna
@@ -256,6 +272,7 @@
     en: "Ancient artifact (Finna/YSO → AAT)"
     sv: "Fornfynd (Finna/YSO → AAT)"
   description: "Direct equivalence for archaeological artifacts and ancient objects."
+  timeline_start: -10000
 
 - id: finna-puku-aat
   source_system: finna
@@ -271,3 +288,4 @@
     en: "Costume (Finna/YSO → AAT)"
     sv: "Dräkt (Finna/YSO → AAT)"
   description: "Direct equivalence for costume and clothing."
+  timeline_start: -5000

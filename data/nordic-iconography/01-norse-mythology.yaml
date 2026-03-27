@@ -4,6 +4,8 @@
 
 - id: norse-gods
   iconclass: "91D"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Norse gods
     sv: Nordiska gudar
@@ -16,6 +18,8 @@
 
 - id: norse-beings
   iconclass: "91D"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Norse mythological beings
     sv: Nordiska mytologiska väsen
@@ -27,6 +31,8 @@
 
 - id: norse-places
   iconclass: "91D"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Norse mythological places
     sv: Nordiska mytologiska platser
@@ -38,6 +44,8 @@
 
 - id: norse-events
   iconclass: "91D"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Norse mythological events
     sv: Nordiska mytologiska händelser
@@ -53,6 +61,8 @@
   broader: norse-gods
   aat_uri: "http://vocab.getty.edu/aat/300379889"
   iconclass: "91D1"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Odin
     sv: Oden
@@ -67,6 +77,8 @@
   broader: norse-gods
   aat_uri: "http://vocab.getty.edu/aat/300379893"
   iconclass: "91D2"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Thor
     sv: Tor
@@ -81,6 +93,8 @@
   broader: norse-gods
   aat_uri: "http://vocab.getty.edu/aat/300379886"
   iconclass: "91D3"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Freyja
     sv: Freja
@@ -95,6 +109,8 @@
   broader: norse-gods
   aat_uri: "http://vocab.getty.edu/aat/300379888"
   iconclass: "91D4"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Loki
     sv: Loke
@@ -109,6 +125,8 @@
   broader: norse-gods
   aat_uri: "http://vocab.getty.edu/aat/300379885"
   iconclass: "91D5"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Frigg
     sv: Frigg
@@ -123,6 +141,8 @@
   broader: norse-gods
   aat_uri: "http://vocab.getty.edu/aat/300379894"
   iconclass: "91D6"
+  timeline_start: -1500
+  timeline_end: 1100
   labels:
     en: Tyr
     sv: Tyr
@@ -137,6 +157,8 @@
   broader: norse-gods
   aat_uri: "http://vocab.getty.edu/aat/300379880"
   iconclass: "91D7"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Baldr
     sv: Balder
@@ -151,6 +173,8 @@
   broader: norse-gods
   aat_uri: "http://vocab.getty.edu/aat/300379887"
   iconclass: "91D8"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Heimdall
     sv: Heimdall
@@ -164,6 +188,8 @@
 - id: njord
   broader: norse-gods
   iconclass: "91D9"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Njörðr
     sv: Njord
@@ -178,6 +204,8 @@
   broader: norse-gods
   aat_uri: "http://vocab.getty.edu/aat/300379884"
   iconclass: "91D10"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Freyr
     sv: Frej
@@ -191,6 +219,8 @@
 - id: hel
   broader: norse-gods
   iconclass: "91D11"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Hel
     sv: Hel
@@ -204,6 +234,8 @@
 - id: idunn
   broader: norse-gods
   iconclass: "91D12"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Iðunn
     sv: Idun
@@ -220,6 +252,8 @@
   broader: norse-beings
   aat_uri: "http://vocab.getty.edu/aat/300379895"
   iconclass: "91D131"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Valkyries
     sv: Valkyrior
@@ -233,6 +267,8 @@
 - id: norns
   broader: norse-beings
   iconclass: "91D132"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Norns
     sv: Nornor
@@ -246,6 +282,8 @@
 - id: einherjar
   broader: norse-beings
   iconclass: "91D133"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Einherjar
     sv: Einherjar
@@ -260,6 +298,8 @@
   broader: norse-beings
   aat_uri: "http://vocab.getty.edu/aat/300412118"
   iconclass: "91D134"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Jörmungandr
     sv: Midgårdsormen
@@ -273,6 +313,8 @@
 - id: fenrir
   broader: norse-beings
   iconclass: "91D135"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Fenrir
     sv: Fenrisulven
@@ -286,6 +328,8 @@
 - id: sleipnir
   broader: norse-beings
   iconclass: "91D136"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Sleipnir
     sv: Sleipner
@@ -299,6 +343,8 @@
 - id: huginn-muninn
   broader: norse-beings
   iconclass: "91D137"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Huginn and Muninn
     sv: Hugin och Munin
@@ -312,6 +358,8 @@
 - id: ratatoskr
   broader: norse-beings
   iconclass: "91D138"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Ratatoskr
     sv: Ratatosk
@@ -325,6 +373,8 @@
 - id: dwarves
   broader: norse-beings
   iconclass: "91D139"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Dwarves (Norse)
     sv: Dvärgar
@@ -338,6 +388,8 @@
 - id: elves
   broader: norse-beings
   iconclass: "91D140"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Elves (Norse)
     sv: Alver
@@ -351,6 +403,8 @@
 - id: giants
   broader: norse-beings
   iconclass: "91D141"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Giants (Jötnar)
     sv: Jättar
@@ -367,6 +421,8 @@
   broader: norse-places
   aat_uri: "http://vocab.getty.edu/aat/300379896"
   iconclass: "91D21"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Yggdrasil
     sv: Yggdrasil
@@ -380,6 +436,8 @@
 - id: asgard
   broader: norse-places
   iconclass: "91D22"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Asgard
     sv: Asgård
@@ -393,6 +451,8 @@
 - id: midgard
   broader: norse-places
   iconclass: "91D23"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Midgard
     sv: Midgård
@@ -407,6 +467,8 @@
   broader: norse-places
   aat_uri: "http://vocab.getty.edu/aat/300379897"
   iconclass: "91D24"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Valhalla
     sv: Valhall
@@ -420,6 +482,8 @@
 - id: ragnarok
   broader: norse-places
   iconclass: "91D25"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Ragnarök
     sv: Ragnarök
@@ -433,6 +497,8 @@
 - id: bifrost
   broader: norse-places
   iconclass: "91D26"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Bifröst
     sv: Bifrost
@@ -446,6 +512,8 @@
 - id: niflheim
   broader: norse-places
   iconclass: "91D27"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Niflheim
     sv: Nifelheim
@@ -459,6 +527,8 @@
 - id: muspelheim
   broader: norse-places
   iconclass: "91D28"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Muspelheim
     sv: Muspelheim
@@ -472,6 +542,8 @@
 - id: helheim
   broader: norse-places
   iconclass: "91D29"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Helheim
     sv: Helheim
@@ -485,6 +557,8 @@
 - id: jotunheim
   broader: norse-places
   iconclass: "91D30"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Jötunheimr
     sv: Jotunheim
@@ -500,6 +574,8 @@
 - id: ragnarok-battle
   broader: norse-events
   iconclass: "91D31"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Battle of Ragnarök
     sv: Ragnarökstriden
@@ -512,6 +588,8 @@
 - id: binding-of-fenrir
   broader: norse-events
   iconclass: "91D32"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Binding of Fenrir
     sv: Fenrisulvens fjättring
@@ -524,6 +602,8 @@
 - id: death-of-baldr
   broader: norse-events
   iconclass: "91D33"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Death of Baldr
     sv: Balders död
@@ -536,6 +616,8 @@
 - id: theft-of-thors-hammer
   broader: norse-events
   iconclass: "91D34"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Theft of Thor's Hammer
     sv: Stölden av Tors hammare
@@ -548,6 +630,8 @@
 - id: creation-of-world
   broader: norse-events
   iconclass: "91D35"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Creation of the World (Norse)
     sv: Världens skapelse
@@ -560,6 +644,8 @@
 - id: mead-of-poetry
   broader: norse-events
   iconclass: "91D36"
+  timeline_start: -800
+  timeline_end: 1100
   labels:
     en: Mead of Poetry
     sv: Skaldemjödet

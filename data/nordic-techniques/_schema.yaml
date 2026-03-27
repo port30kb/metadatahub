@@ -13,9 +13,13 @@
 #
 # Optional fields:
 #
-#   broader:     ID of the parent technique (omit this line entirely if none)
-#   aat_uri:     Getty Art & Architecture Thesaurus URI for the technique
-#                Format: "http://vocab.getty.edu/aat/NNNNNNN"
+#   broader:        ID of the parent technique (omit this line entirely if none)
+#   aat_uri:        Getty Art & Architecture Thesaurus URI for the technique
+#                   Format: "http://vocab.getty.edu/aat/NNNNNNN"
+#   timeline_start: Approximate start year (integer). Negative = BCE, positive = CE.
+#                   Example: -500 for 500 BCE, 800 for 800 CE.
+#   timeline_end:   Approximate end year (integer). Negative = BCE, positive = CE.
+#                   Use null or omit for techniques still in use today.
 #
 # Language codes follow ISO 639:
 #   en = English, sv = Swedish, da = Danish, nb = Norwegian Bokmal,

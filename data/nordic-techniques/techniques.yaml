@@ -15,6 +15,7 @@
 # ══════════════════════════════════════════════════════════════
 
 - id: metalworking
+  timeline_start: -1500
   labels:
     en: Metalworking
     sv: Metallarbete
@@ -25,6 +26,7 @@
 
 - id: forging
   broader: metalworking
+  timeline_start: -500
   aat_uri: "http://vocab.getty.edu/aat/300053798"
   labels:
     en: Forging
@@ -36,6 +38,8 @@
 
 - id: pattern-welding
   broader: forging
+  timeline_start: 200
+  timeline_end: 1100
   aat_uri: "http://vocab.getty.edu/aat/300264568"
   labels:
     en: Pattern welding
@@ -47,6 +51,7 @@
 
 - id: wrought-ironwork
   broader: forging
+  timeline_start: -500
   aat_uri: "http://vocab.getty.edu/aat/300053937"
   labels:
     en: Wrought ironwork
@@ -58,6 +63,7 @@
 
 - id: casting
   broader: metalworking
+  timeline_start: -1500
   aat_uri: "http://vocab.getty.edu/aat/300053104"
   labels:
     en: Casting
@@ -69,6 +75,7 @@
 
 - id: lost-wax-casting
   broader: casting
+  timeline_start: -1500
   aat_uri: "http://vocab.getty.edu/aat/300053113"
   labels:
     en: Lost-wax casting
@@ -80,6 +87,7 @@
 
 - id: sand-casting
   broader: casting
+  timeline_start: -1500
   aat_uri: "http://vocab.getty.edu/aat/300053118"
   labels:
     en: Sand casting
@@ -91,6 +99,7 @@
 
 - id: chasing
   broader: metalworking
+  timeline_start: -1500
   aat_uri: "http://vocab.getty.edu/aat/300053854"
   labels:
     en: Chasing
@@ -102,6 +111,7 @@
 
 - id: repousse
   broader: metalworking
+  timeline_start: -1500
   aat_uri: "http://vocab.getty.edu/aat/300053882"
   labels:
     en: Repoussé
@@ -113,6 +123,7 @@
 
 - id: filigree
   broader: metalworking
+  timeline_start: 500
   aat_uri: "http://vocab.getty.edu/aat/300053841"
   labels:
     en: Filigree
@@ -124,6 +135,7 @@
 
 - id: granulation
   broader: metalworking
+  timeline_start: 500
   aat_uri: "http://vocab.getty.edu/aat/300053846"
   labels:
     en: Granulation
@@ -135,6 +147,7 @@
 
 - id: gilding
   broader: metalworking
+  timeline_start: -500
   aat_uri: "http://vocab.getty.edu/aat/300053789"
   labels:
     en: Gilding
@@ -146,6 +159,7 @@
 
 - id: fire-gilding
   broader: gilding
+  timeline_start: 200
   aat_uri: "http://vocab.getty.edu/aat/300053793"
   labels:
     en: Fire gilding
@@ -157,6 +171,7 @@
 
 - id: niello
   broader: metalworking
+  timeline_start: 500
   aat_uri: "http://vocab.getty.edu/aat/300053856"
   labels:
     en: Niello
@@ -168,6 +183,7 @@
 
 - id: damascening
   broader: metalworking
+  timeline_start: 200
   aat_uri: "http://vocab.getty.edu/aat/300053829"
   labels:
     en: Damascening
@@ -179,6 +195,7 @@
 
 - id: metal-engraving
   broader: metalworking
+  timeline_start: -1500
   aat_uri: "http://vocab.getty.edu/aat/300053835"
   labels:
     en: Metal engraving
@@ -190,6 +207,7 @@
 
 - id: enameling
   broader: metalworking
+  timeline_start: 500
   aat_uri: "http://vocab.getty.edu/aat/300053780"
   labels:
     en: Enameling
@@ -201,6 +219,7 @@
 
 - id: cloisonne
   broader: enameling
+  timeline_start: 500
   aat_uri: "http://vocab.getty.edu/aat/300053764"
   labels:
     en: Cloisonné
@@ -212,6 +231,7 @@
 
 - id: champleve
   broader: enameling
+  timeline_start: 500
   aat_uri: "http://vocab.getty.edu/aat/300053758"
   labels:
     en: Champlevé
@@ -223,6 +243,7 @@
 
 - id: tinning
   broader: metalworking
+  timeline_start: -500
   aat_uri: "http://vocab.getty.edu/aat/300053922"
   labels:
     en: Tinning
@@ -234,6 +255,7 @@
 
 - id: soldering
   broader: metalworking
+  timeline_start: -1500
   aat_uri: "http://vocab.getty.edu/aat/300053910"
   labels:
     en: Soldering
@@ -245,6 +267,7 @@
 
 - id: riveting
   broader: metalworking
+  timeline_start: -1500
   aat_uri: "http://vocab.getty.edu/aat/300053897"
   labels:
     en: Riveting
@@ -256,6 +279,7 @@
 
 - id: wire-drawing
   broader: metalworking
+  timeline_start: -500
   aat_uri: "http://vocab.getty.edu/aat/300053942"
   labels:
     en: Wire drawing
@@ -267,6 +291,7 @@
 
 - id: sheet-metalwork
   broader: metalworking
+  timeline_start: -1500
   aat_uri: "http://vocab.getty.edu/aat/300053905"
   labels:
     en: Sheet metalwork
@@ -278,6 +303,7 @@
 
 - id: raising
   broader: metalworking
+  timeline_start: -1500
   aat_uri: "http://vocab.getty.edu/aat/300053879"
   labels:
     en: Raising
@@ -289,6 +315,7 @@
 
 - id: patination
   broader: metalworking
+  timeline_start: -1500
   aat_uri: "http://vocab.getty.edu/aat/300053869"
   labels:
     en: Patination
@@ -300,6 +327,7 @@
 
 - id: metal-spinning
   broader: metalworking
+  timeline_start: 1500
   aat_uri: "http://vocab.getty.edu/aat/300053914"
   labels:
     en: Metal spinning
@@ -311,6 +339,7 @@
 
 - id: stamping
   broader: metalworking
+  timeline_start: -1500
   aat_uri: "http://vocab.getty.edu/aat/300053917"
   labels:
     en: Stamping
@@ -325,6 +354,7 @@
 # ══════════════════════════════════════════════════════════════
 
 - id: textile-techniques
+  timeline_start: -2000
   labels:
     en: Textile techniques
     sv: Textila tekniker
@@ -335,6 +365,7 @@
 
 - id: weaving
   broader: textile-techniques
+  timeline_start: -2000
   aat_uri: "http://vocab.getty.edu/aat/300053642"
   labels:
     en: Weaving
@@ -346,6 +377,7 @@
 
 - id: tapestry-weaving
   broader: weaving
+  timeline_start: 800
   aat_uri: "http://vocab.getty.edu/aat/300053636"
   labels:
     en: Tapestry weaving
@@ -357,6 +389,7 @@
 
 - id: tablet-weaving
   broader: weaving
+  timeline_start: -500
   aat_uri: "http://vocab.getty.edu/aat/300263029"
   labels:
     en: Tablet weaving
@@ -368,6 +401,7 @@
 
 - id: rya-knotting
   broader: textile-techniques
+  timeline_start: 800
   aat_uri: "http://vocab.getty.edu/aat/300263041"
   labels:
     en: Rya knotting
@@ -379,6 +413,7 @@
 
 - id: nalbinding
   broader: textile-techniques
+  timeline_start: -2000
   aat_uri: "http://vocab.getty.edu/aat/300264572"
   labels:
     en: Nalbinding
@@ -390,6 +425,7 @@
 
 - id: spinning
   broader: textile-techniques
+  timeline_start: -2000
   aat_uri: "http://vocab.getty.edu/aat/300053614"
   labels:
     en: Spinning
@@ -401,6 +437,7 @@
 
 - id: felting
   broader: textile-techniques
+  timeline_start: -2000
   aat_uri: "http://vocab.getty.edu/aat/300231592"
   labels:
     en: Felting
@@ -412,6 +449,7 @@
 
 - id: dyeing
   broader: textile-techniques
+  timeline_start: -2000
   aat_uri: "http://vocab.getty.edu/aat/300053470"
   labels:
     en: Dyeing
@@ -423,6 +461,7 @@
 
 - id: embroidery
   broader: textile-techniques
+  timeline_start: -500
   aat_uri: "http://vocab.getty.edu/aat/300053487"
   labels:
     en: Embroidery
@@ -434,6 +473,7 @@
 
 - id: applique
   broader: textile-techniques
+  timeline_start: 500
   aat_uri: "http://vocab.getty.edu/aat/300053410"
   labels:
     en: Appliqué
@@ -445,6 +485,7 @@
 
 - id: lace-making
   broader: textile-techniques
+  timeline_start: 1500
   aat_uri: "http://vocab.getty.edu/aat/300053526"
   labels:
     en: Lace making
@@ -456,6 +497,7 @@
 
 - id: bobbin-lace
   broader: lace-making
+  timeline_start: 1500
   aat_uri: "http://vocab.getty.edu/aat/300053415"
   labels:
     en: Bobbin lace
@@ -467,6 +509,7 @@
 
 - id: knitting
   broader: textile-techniques
+  timeline_start: 1200
   aat_uri: "http://vocab.getty.edu/aat/300053522"
   labels:
     en: Knitting
@@ -478,6 +521,7 @@
 
 - id: braiding
   broader: textile-techniques
+  timeline_start: -2000
   aat_uri: "http://vocab.getty.edu/aat/300053418"
   labels:
     en: Braiding
@@ -489,6 +533,7 @@
 
 - id: quilting
   broader: textile-techniques
+  timeline_start: 1500
   aat_uri: "http://vocab.getty.edu/aat/300053584"
   labels:
     en: Quilting
@@ -500,6 +545,7 @@
 
 - id: printing-on-fabric
   broader: textile-techniques
+  timeline_start: 1600
   aat_uri: "http://vocab.getty.edu/aat/300053580"
   labels:
     en: Textile printing
@@ -511,6 +557,7 @@
 
 - id: bleaching
   broader: textile-techniques
+  timeline_start: -2000
   aat_uri: "http://vocab.getty.edu/aat/300053413"
   labels:
     en: Bleaching
@@ -522,6 +569,7 @@
 
 - id: carding
   broader: textile-techniques
+  timeline_start: -2000
   aat_uri: "http://vocab.getty.edu/aat/300053430"
   labels:
     en: Carding
@@ -533,6 +581,7 @@
 
 - id: fulling
   broader: textile-techniques
+  timeline_start: -500
   aat_uri: "http://vocab.getty.edu/aat/300053498"
   labels:
     en: Fulling
@@ -547,6 +596,7 @@
 # ══════════════════════════════════════════════════════════════
 
 - id: woodworking
+  timeline_start: -3000
   labels:
     en: Woodworking
     sv: Träslöjd
@@ -557,6 +607,7 @@
 
 - id: wood-carving
   broader: woodworking
+  timeline_start: -3000
   aat_uri: "http://vocab.getty.edu/aat/300053637"
   labels:
     en: Wood carving
@@ -568,6 +619,7 @@
 
 - id: wood-turning
   broader: woodworking
+  timeline_start: -500
   aat_uri: "http://vocab.getty.edu/aat/300053658"
   labels:
     en: Wood turning
@@ -579,6 +631,7 @@
 
 - id: stave-construction
   broader: woodworking
+  timeline_start: 1000
   labels:
     en: Stave construction
     sv: Stavkonstruktion
@@ -589,6 +642,7 @@
 
 - id: joinery
   broader: woodworking
+  timeline_start: -3000
   aat_uri: "http://vocab.getty.edu/aat/300053359"
   labels:
     en: Joinery
@@ -600,6 +654,7 @@
 
 - id: marquetry
   broader: woodworking
+  timeline_start: 1500
   aat_uri: "http://vocab.getty.edu/aat/300053368"
   labels:
     en: Marquetry
@@ -611,6 +666,7 @@
 
 - id: chip-carving
   broader: wood-carving
+  timeline_start: -500
   aat_uri: "http://vocab.getty.edu/aat/300053326"
   labels:
     en: Chip carving
@@ -622,6 +678,7 @@
 
 - id: relief-carving
   broader: wood-carving
+  timeline_start: -3000
   aat_uri: "http://vocab.getty.edu/aat/300053390"
   labels:
     en: Relief carving
@@ -633,6 +690,7 @@
 
 - id: coopering
   broader: woodworking
+  timeline_start: -500
   aat_uri: "http://vocab.getty.edu/aat/300053339"
   labels:
     en: Coopering
@@ -644,6 +702,7 @@
 
 - id: bark-working
   broader: woodworking
+  timeline_start: -3000
   labels:
     en: Bark working
     sv: Näverskinnarbete
@@ -654,6 +713,7 @@
 
 - id: birch-bark-plaiting
   broader: bark-working
+  timeline_start: -3000
   labels:
     en: Birch bark plaiting
     sv: Näverflätning
@@ -664,6 +724,7 @@
 
 - id: log-building
   broader: woodworking
+  timeline_start: -3000
   aat_uri: "http://vocab.getty.edu/aat/300002789"
   labels:
     en: Log building
@@ -675,6 +736,7 @@
 
 - id: bentwood
   broader: woodworking
+  timeline_start: -3000
   labels:
     en: Bentwood work
     sv: Bockträ
@@ -685,6 +747,7 @@
 
 - id: boat-building
   broader: woodworking
+  timeline_start: -3000
   aat_uri: "http://vocab.getty.edu/aat/300053308"
   labels:
     en: Boat building
@@ -696,6 +759,7 @@
 
 - id: clinker-building
   broader: boat-building
+  timeline_start: 300
   labels:
     en: Clinker building
     sv: Klinkbyggnad
@@ -706,6 +770,7 @@
 
 - id: wooden-shingle-making
   broader: woodworking
+  timeline_start: 500
   labels:
     en: Shingle making
     sv: Spåntillverkning
@@ -716,6 +781,7 @@
 
 - id: wood-bending
   broader: woodworking
+  timeline_start: -3000
   aat_uri: "http://vocab.getty.edu/aat/300053305"
   labels:
     en: Wood bending
@@ -727,6 +793,7 @@
 
 - id: wood-inlay
   broader: woodworking
+  timeline_start: -500
   aat_uri: "http://vocab.getty.edu/aat/300053353"
   labels:
     en: Wood inlay
@@ -741,6 +808,7 @@
 # ══════════════════════════════════════════════════════════════
 
 - id: ceramics
+  timeline_start: -4000
   labels:
     en: Ceramics
     sv: Keramik
@@ -751,6 +819,7 @@
 
 - id: throwing
   broader: ceramics
+  timeline_start: -4000
   aat_uri: "http://vocab.getty.edu/aat/300053929"
   labels:
     en: Throwing
@@ -762,6 +831,7 @@
 
 - id: hand-building
   broader: ceramics
+  timeline_start: -4000
   aat_uri: "http://vocab.getty.edu/aat/300264572"
   labels:
     en: Hand building
@@ -773,6 +843,7 @@
 
 - id: coiling
   broader: hand-building
+  timeline_start: -4000
   aat_uri: "http://vocab.getty.edu/aat/300053757"
   labels:
     en: Coiling
@@ -784,6 +855,7 @@
 
 - id: slab-building
   broader: hand-building
+  timeline_start: -4000
   aat_uri: "http://vocab.getty.edu/aat/300263720"
   labels:
     en: Slab building
@@ -795,6 +867,7 @@
 
 - id: slip-decoration
   broader: ceramics
+  timeline_start: -4000
   aat_uri: "http://vocab.getty.edu/aat/300053907"
   labels:
     en: Slip decoration
@@ -806,6 +879,7 @@
 
 - id: glazing
   broader: ceramics
+  timeline_start: 1100
   aat_uri: "http://vocab.getty.edu/aat/300053851"
   labels:
     en: Glazing
@@ -817,6 +891,7 @@
 
 - id: firing
   broader: ceramics
+  timeline_start: -4000
   aat_uri: "http://vocab.getty.edu/aat/300053839"
   labels:
     en: Firing
@@ -828,6 +903,7 @@
 
 - id: salt-glazing
   broader: glazing
+  timeline_start: 1400
   aat_uri: "http://vocab.getty.edu/aat/300053896"
   labels:
     en: Salt glazing
@@ -839,6 +915,7 @@
 
 - id: tin-glazing
   broader: glazing
+  timeline_start: 1600
   aat_uri: "http://vocab.getty.edu/aat/300053925"
   labels:
     en: Tin glazing
@@ -850,6 +927,7 @@
 
 - id: stoneware-firing
   broader: firing
+  timeline_start: 1400
   aat_uri: "http://vocab.getty.edu/aat/300151372"
   labels:
     en: Stoneware firing
@@ -861,6 +939,7 @@
 
 - id: raku
   broader: firing
+  timeline_start: 1950
   aat_uri: "http://vocab.getty.edu/aat/300053884"
   labels:
     en: Raku
@@ -872,6 +951,7 @@
 
 - id: sgraffito
   broader: ceramics
+  timeline_start: 1100
   aat_uri: "http://vocab.getty.edu/aat/300053902"
   labels:
     en: Sgraffito
@@ -883,6 +963,7 @@
 
 - id: kiln-building
   broader: ceramics
+  timeline_start: -4000
   labels:
     en: Kiln building
     sv: Ugnsbygning
@@ -896,6 +977,7 @@
 # ══════════════════════════════════════════════════════════════
 
 - id: stone-techniques
+  timeline_start: -8000
   labels:
     en: Stone and lapidary techniques
     sv: Sten- och sliperitekniker
@@ -906,6 +988,7 @@
 
 - id: stone-carving
   broader: stone-techniques
+  timeline_start: -8000
   aat_uri: "http://vocab.getty.edu/aat/300053546"
   labels:
     en: Stone carving
@@ -917,6 +1000,7 @@
 
 - id: rune-carving
   broader: stone-carving
+  timeline_start: 150
   labels:
     en: Rune carving
     sv: Runristning
@@ -927,6 +1011,7 @@
 
 - id: polishing-stone
   broader: stone-techniques
+  timeline_start: -8000
   aat_uri: "http://vocab.getty.edu/aat/300053876"
   labels:
     en: Stone polishing
@@ -938,6 +1023,8 @@
 
 - id: flint-knapping
   broader: stone-techniques
+  timeline_start: -8000
+  timeline_end: -1500
   aat_uri: "http://vocab.getty.edu/aat/300053837"
   labels:
     en: Flint knapping
@@ -949,6 +1036,8 @@
 
 - id: stone-grinding
   broader: stone-techniques
+  timeline_start: -8000
+  timeline_end: -1500
   aat_uri: "http://vocab.getty.edu/aat/300053552"
   labels:
     en: Stone grinding
@@ -960,6 +1049,7 @@
 
 - id: gem-cutting
   broader: stone-techniques
+  timeline_start: 500
   aat_uri: "http://vocab.getty.edu/aat/300053843"
   labels:
     en: Gem cutting
@@ -971,6 +1061,7 @@
 
 - id: mosaic-work
   broader: stone-techniques
+  timeline_start: 1100
   aat_uri: "http://vocab.getty.edu/aat/300015342"
   labels:
     en: Mosaic work
@@ -982,6 +1073,7 @@
 
 - id: stone-masonry
   broader: stone-techniques
+  timeline_start: 1000
   aat_uri: "http://vocab.getty.edu/aat/300053555"
   labels:
     en: Stone masonry
@@ -993,6 +1085,7 @@
 
 - id: stone-dressing
   broader: stone-techniques
+  timeline_start: 1000
   aat_uri: "http://vocab.getty.edu/aat/300053549"
   labels:
     en: Stone dressing
@@ -1004,6 +1097,7 @@
 
 - id: soapstone-carving
   broader: stone-carving
+  timeline_start: -3000
   labels:
     en: Soapstone carving
     sv: Täljstenssnideri
@@ -1014,6 +1108,7 @@
 
 - id: stone-setting
   broader: stone-techniques
+  timeline_start: 500
   aat_uri: "http://vocab.getty.edu/aat/300053919"
   labels:
     en: Stone setting
@@ -1025,6 +1120,8 @@
 
 - id: petroglyph-carving
   broader: stone-carving
+  timeline_start: -3000
+  timeline_end: -500
   labels:
     en: Petroglyph carving
     sv: Hällristning
@@ -1038,6 +1135,7 @@
 # ══════════════════════════════════════════════════════════════
 
 - id: painting-techniques
+  timeline_start: -3000
   labels:
     en: Painting and surface decoration
     sv: Måleri och ytdekor
@@ -1048,6 +1146,7 @@
 
 - id: oil-painting
   broader: painting-techniques
+  timeline_start: 1400
   aat_uri: "http://vocab.getty.edu/aat/300178684"
   labels:
     en: Oil painting
@@ -1059,6 +1158,7 @@
 
 - id: tempera
   broader: painting-techniques
+  timeline_start: 1100
   aat_uri: "http://vocab.getty.edu/aat/300178685"
   labels:
     en: Tempera
@@ -1070,6 +1170,7 @@
 
 - id: fresco
   broader: painting-techniques
+  timeline_start: 1100
   aat_uri: "http://vocab.getty.edu/aat/300053357"
   labels:
     en: Fresco
@@ -1081,6 +1182,7 @@
 
 - id: watercolour
   broader: painting-techniques
+  timeline_start: 1600
   aat_uri: "http://vocab.getty.edu/aat/300078925"
   labels:
     en: Watercolour
@@ -1092,6 +1194,7 @@
 
 - id: lacquering
   broader: painting-techniques
+  timeline_start: 1600
   aat_uri: "http://vocab.getty.edu/aat/300053361"
   labels:
     en: Lacquering
@@ -1103,6 +1206,7 @@
 
 - id: rosemaling
   broader: painting-techniques
+  timeline_start: 1700
   labels:
     en: Rosemaling
     sv: Rosenmålning
@@ -1113,6 +1217,7 @@
 
 - id: kurbits-painting
   broader: painting-techniques
+  timeline_start: 1700
   labels:
     en: Kurbits painting
     sv: Kurbitsmåleri
@@ -1123,6 +1228,7 @@
 
 - id: icon-painting
   broader: painting-techniques
+  timeline_start: 1000
   aat_uri: "http://vocab.getty.edu/aat/300264554"
   labels:
     en: Icon painting
@@ -1134,6 +1240,7 @@
 
 - id: encaustic
   broader: painting-techniques
+  timeline_start: -500
   aat_uri: "http://vocab.getty.edu/aat/300053339"
   labels:
     en: Encaustic
@@ -1145,6 +1252,7 @@
 
 - id: polychromy
   broader: painting-techniques
+  timeline_start: 1100
   aat_uri: "http://vocab.getty.edu/aat/300053875"
   labels:
     en: Polychromy
@@ -1156,6 +1264,7 @@
 
 - id: stenciling
   broader: painting-techniques
+  timeline_start: 1600
   aat_uri: "http://vocab.getty.edu/aat/300053612"
   labels:
     en: Stenciling
@@ -1167,6 +1276,7 @@
 
 - id: dala-painting
   broader: painting-techniques
+  timeline_start: 1700
   labels:
     en: Dala painting
     sv: Dalamålning
@@ -1177,6 +1287,7 @@
 
 - id: limewashing
   broader: painting-techniques
+  timeline_start: 1100
   labels:
     en: Limewashing
     sv: Kalkmålning
@@ -1190,6 +1301,7 @@
 # ══════════════════════════════════════════════════════════════
 
 - id: printmaking
+  timeline_start: 1400
   labels:
     en: Printmaking
     sv: Grafik
@@ -1200,6 +1312,7 @@
 
 - id: woodcut
   broader: printmaking
+  timeline_start: 1400
   aat_uri: "http://vocab.getty.edu/aat/300041405"
   labels:
     en: Woodcut
@@ -1211,6 +1324,7 @@
 
 - id: print-engraving
   broader: printmaking
+  timeline_start: 1450
   aat_uri: "http://vocab.getty.edu/aat/300053225"
   labels:
     en: Engraving (printmaking)
@@ -1222,6 +1336,7 @@
 
 - id: etching
   broader: printmaking
+  timeline_start: 1500
   aat_uri: "http://vocab.getty.edu/aat/300053241"
   labels:
     en: Etching
@@ -1233,6 +1348,7 @@
 
 - id: lithography
   broader: printmaking
+  timeline_start: 1800
   aat_uri: "http://vocab.getty.edu/aat/300053279"
   labels:
     en: Lithography
@@ -1244,6 +1360,7 @@
 
 - id: aquatint
   broader: printmaking
+  timeline_start: 1750
   aat_uri: "http://vocab.getty.edu/aat/300053208"
   labels:
     en: Aquatint
@@ -1255,6 +1372,7 @@
 
 - id: mezzotint
   broader: printmaking
+  timeline_start: 1650
   aat_uri: "http://vocab.getty.edu/aat/300053284"
   labels:
     en: Mezzotint
@@ -1266,6 +1384,7 @@
 
 - id: screen-printing
   broader: printmaking
+  timeline_start: 1900
   aat_uri: "http://vocab.getty.edu/aat/300053371"
   labels:
     en: Screen printing
@@ -1277,6 +1396,7 @@
 
 - id: linocut
   broader: printmaking
+  timeline_start: 1900
   aat_uri: "http://vocab.getty.edu/aat/300053265"
   labels:
     en: Linocut
@@ -1288,6 +1408,7 @@
 
 - id: drypoint
   broader: printmaking
+  timeline_start: 1450
   aat_uri: "http://vocab.getty.edu/aat/300053233"
   labels:
     en: Drypoint
@@ -1302,6 +1423,7 @@
 # ══════════════════════════════════════════════════════════════
 
 - id: glass-techniques
+  timeline_start: 100
   labels:
     en: Glass techniques
     sv: Glastekniker
@@ -1312,6 +1434,7 @@
 
 - id: glassblowing
   broader: glass-techniques
+  timeline_start: 100
   aat_uri: "http://vocab.getty.edu/aat/300053932"
   labels:
     en: Glassblowing
@@ -1323,6 +1446,7 @@
 
 - id: lampworking
   broader: glass-techniques
+  timeline_start: 700
   aat_uri: "http://vocab.getty.edu/aat/300264573"
   labels:
     en: Lampworking
@@ -1334,6 +1458,7 @@
 
 - id: glass-cutting
   broader: glass-techniques
+  timeline_start: 1600
   aat_uri: "http://vocab.getty.edu/aat/300053763"
   labels:
     en: Glass cutting
@@ -1345,6 +1470,7 @@
 
 - id: glass-engraving
   broader: glass-techniques
+  timeline_start: 1600
   aat_uri: "http://vocab.getty.edu/aat/300053765"
   labels:
     en: Glass engraving
@@ -1356,6 +1482,7 @@
 
 - id: stained-glass
   broader: glass-techniques
+  timeline_start: 1100
   aat_uri: "http://vocab.getty.edu/aat/300263722"
   labels:
     en: Stained glass
@@ -1367,6 +1494,7 @@
 
 - id: glass-fusing
   broader: glass-techniques
+  timeline_start: 700
   aat_uri: "http://vocab.getty.edu/aat/300053834"
   labels:
     en: Glass fusing
@@ -1378,6 +1506,7 @@
 
 - id: glass-bead-making
   broader: glass-techniques
+  timeline_start: 700
   labels:
     en: Glass bead making
     sv: Glaspärletillverkning
@@ -1388,6 +1517,7 @@
 
 - id: glass-moulding
   broader: glass-techniques
+  timeline_start: 100
   aat_uri: "http://vocab.getty.edu/aat/300053769"
   labels:
     en: Glass moulding
@@ -1399,6 +1529,7 @@
 
 - id: glass-casting
   broader: glass-techniques
+  timeline_start: 100
   aat_uri: "http://vocab.getty.edu/aat/300053761"
   labels:
     en: Glass casting
@@ -1413,6 +1544,7 @@
 # ══════════════════════════════════════════════════════════════
 
 - id: leather-and-fiber
+  timeline_start: -3000
   labels:
     en: Leather and fibre techniques
     sv: Läder- och fibertekniker
@@ -1423,6 +1555,7 @@
 
 - id: tanning
   broader: leather-and-fiber
+  timeline_start: -3000
   aat_uri: "http://vocab.getty.edu/aat/300053920"
   labels:
     en: Tanning
@@ -1434,6 +1567,7 @@
 
 - id: leather-tooling
   broader: leather-and-fiber
+  timeline_start: -500
   aat_uri: "http://vocab.getty.edu/aat/300053937"
   labels:
     en: Leather tooling
@@ -1445,6 +1579,7 @@
 
 - id: bookbinding
   broader: leather-and-fiber
+  timeline_start: 800
   aat_uri: "http://vocab.getty.edu/aat/300053305"
   labels:
     en: Bookbinding
@@ -1456,6 +1591,7 @@
 
 - id: parchment-making
   broader: leather-and-fiber
+  timeline_start: 800
   aat_uri: "http://vocab.getty.edu/aat/300053867"
   labels:
     en: Parchment making
@@ -1467,6 +1603,7 @@
 
 - id: basket-weaving
   broader: leather-and-fiber
+  timeline_start: -3000
   aat_uri: "http://vocab.getty.edu/aat/300053403"
   labels:
     en: Basket weaving
@@ -1478,6 +1615,7 @@
 
 - id: rope-making
   broader: leather-and-fiber
+  timeline_start: -3000
   aat_uri: "http://vocab.getty.edu/aat/300053893"
   labels:
     en: Rope making
@@ -1489,6 +1627,7 @@
 
 - id: saddlery
   broader: leather-and-fiber
+  timeline_start: -500
   aat_uri: "http://vocab.getty.edu/aat/300053898"
   labels:
     en: Saddlery
@@ -1500,6 +1639,7 @@
 
 - id: leather-sewing
   broader: leather-and-fiber
+  timeline_start: -3000
   labels:
     en: Leather sewing
     sv: Lädersömnad
@@ -1510,6 +1650,7 @@
 
 - id: bark-tanning
   broader: tanning
+  timeline_start: -3000
   labels:
     en: Bark tanning
     sv: Barkgarvning
@@ -1523,6 +1664,7 @@
 # ══════════════════════════════════════════════════════════════
 
 - id: nordic-specific
+  timeline_start: -2000
   labels:
     en: Sámi and Nordic-specific techniques
     sv: Samiska och nordiska tekniker
@@ -1533,6 +1675,7 @@
 
 - id: duodji
   broader: nordic-specific
+  timeline_start: -2000
   labels:
     en: Duodji
     sv: Duodji
@@ -1544,6 +1687,7 @@
 
 - id: tin-thread-embroidery
   broader: duodji
+  timeline_start: 1500
   labels:
     en: Tin thread embroidery
     sv: Tenntrådsbroderi
@@ -1555,6 +1699,7 @@
 
 - id: root-weaving
   broader: duodji
+  timeline_start: -2000
   labels:
     en: Root weaving
     sv: Rotslöjd
@@ -1566,6 +1711,7 @@
 
 - id: reindeer-horn-carving
   broader: duodji
+  timeline_start: -2000
   labels:
     en: Reindeer antler carving
     sv: Hornslöjd
@@ -1577,6 +1723,7 @@
 
 - id: birch-bark-craft
   broader: duodji
+  timeline_start: -2000
   labels:
     en: Birch bark craft
     sv: Näverslöjd
@@ -1588,6 +1735,7 @@
 
 - id: bone-carving
   broader: nordic-specific
+  timeline_start: -8000
   aat_uri: "http://vocab.getty.edu/aat/300053310"
   labels:
     en: Bone carving
@@ -1599,6 +1747,7 @@
 
 - id: horn-working
   broader: nordic-specific
+  timeline_start: -8000
   aat_uri: "http://vocab.getty.edu/aat/300053347"
   labels:
     en: Horn working
@@ -1610,6 +1759,7 @@
 
 - id: amber-working
   broader: nordic-specific
+  timeline_start: -4000
   aat_uri: "http://vocab.getty.edu/aat/300053299"
   labels:
     en: Amber working
@@ -1621,6 +1771,8 @@
 
 - id: viking-ship-building
   broader: nordic-specific
+  timeline_start: 700
+  timeline_end: 1100
   labels:
     en: Viking ship building
     sv: Vikingaskeppsbygge
@@ -1631,6 +1783,7 @@
 
 - id: sami-knife-making
   broader: duodji
+  timeline_start: -2000
   labels:
     en: Sámi knife making
     sv: Samisk knivslöjd
@@ -1642,6 +1795,7 @@
 
 - id: sami-belt-weaving
   broader: duodji
+  timeline_start: -2000
   labels:
     en: Sámi belt weaving
     sv: Samisk bandvävning
@@ -1653,6 +1807,8 @@
 
 - id: ivory-carving
   broader: nordic-specific
+  timeline_start: 800
+  timeline_end: 1400
   aat_uri: "http://vocab.getty.edu/aat/300053355"
   labels:
     en: Ivory carving
@@ -1664,6 +1820,7 @@
 
 - id: tar-production
   broader: nordic-specific
+  timeline_start: -500
   labels:
     en: Tar production
     sv: Tjärbränning
@@ -1674,6 +1831,7 @@
 
 - id: charcoal-making
   broader: nordic-specific
+  timeline_start: -500
   labels:
     en: Charcoal making
     sv: Kolning
@@ -1684,6 +1842,8 @@
 
 - id: bog-iron-smelting
   broader: nordic-specific
+  timeline_start: -500
+  timeline_end: 1800
   labels:
     en: Bog iron smelting
     sv: Myrjärnsframställning

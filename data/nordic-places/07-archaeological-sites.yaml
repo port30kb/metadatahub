@@ -9,6 +9,8 @@
 - id: birka
   type: archaeological-site
   broader: uppland
+  timeline_start: 750
+  timeline_end: 975
   labels:
     en: Birka
     sv: Birka
@@ -21,6 +23,7 @@
 - id: gamla-uppsala
   type: archaeological-site
   broader: uppland
+  timeline_start: 300
   labels:
     en: Old Uppsala
     sv: Gamla Uppsala
@@ -33,6 +36,7 @@
 - id: ales-stenar
   type: archaeological-site
   broader: skane
+  timeline_start: 600
   labels:
     en: Ales Stenar
     sv: Ales stenar
@@ -47,6 +51,8 @@
 - id: tanum
   type: archaeological-site
   broader: bohuslan
+  timeline_start: -1800
+  timeline_end: -500
   labels:
     en: Tanum rock carvings
     sv: Tanums hällristningar
@@ -59,6 +65,8 @@
 - id: anundshog
   type: archaeological-site
   broader: vastmanland
+  timeline_start: 500
+  timeline_end: 1100
   labels:
     en: Anundshög
     sv: Anundshög
@@ -70,6 +78,8 @@
 - id: hovgarden
   type: archaeological-site
   broader: uppland
+  timeline_start: 750
+  timeline_end: 1000
   labels:
     en: Hovgården
     sv: Hovgården
@@ -81,6 +91,8 @@
 - id: sandby-borg
   type: archaeological-site
   broader: oland
+  timeline_start: 400
+  timeline_end: 500
   labels:
     en: Sandby borg
     sv: Sandby borg
@@ -92,6 +104,8 @@
 - id: uppakra
   type: archaeological-site
   broader: skane
+  timeline_start: -100
+  timeline_end: 1000
   labels:
     en: Uppåkra
     sv: Uppåkra
@@ -103,6 +117,8 @@
 - id: valsgarde
   type: archaeological-site
   broader: uppland
+  timeline_start: 600
+  timeline_end: 1050
   labels:
     en: Valsgärde
     sv: Valsgärde
@@ -114,6 +130,8 @@
 - id: vendel
   type: archaeological-site
   broader: uppland
+  timeline_start: 550
+  timeline_end: 790
   labels:
     en: Vendel
     sv: Vendel
@@ -125,6 +143,8 @@
 - id: vitlycke
   type: archaeological-site
   broader: bohuslan
+  timeline_start: -1800
+  timeline_end: -500
   labels:
     en: Vitlycke
     sv: Vitlycke
@@ -138,6 +158,7 @@
 - id: jelling
   type: archaeological-site
   broader: jutland
+  timeline_start: 900
   labels:
     en: Jelling
     da: Jelling
@@ -150,6 +171,8 @@
 - id: hedeby
   type: archaeological-site
   broader: south-jutland
+  timeline_start: 770
+  timeline_end: 1066
   labels:
     en: Hedeby
     da: Hedeby
@@ -165,6 +188,8 @@
 - id: lindholm-hoje
   type: archaeological-site
   broader: north-jutland
+  timeline_start: 400
+  timeline_end: 1000
   labels:
     en: Lindholm Høje
     da: Lindholm Høje
@@ -176,6 +201,8 @@
 - id: trelleborg-denmark
   type: archaeological-site
   broader: zealand
+  timeline_start: 980
+  timeline_end: 1020
   labels:
     en: Trelleborg
     da: Trelleborg
@@ -187,6 +214,8 @@
 - id: lejre
   type: archaeological-site
   broader: zealand
+  timeline_start: 500
+  timeline_end: 1000
   labels:
     en: Lejre
     da: Lejre
@@ -198,6 +227,8 @@
 - id: ladby
   type: archaeological-site
   broader: funen
+  timeline_start: 925
+  timeline_end: 925
   labels:
     en: Ladby ship
     da: Ladbyskibet
@@ -209,6 +240,8 @@
 - id: aggersborg
   type: archaeological-site
   broader: north-jutland
+  timeline_start: 980
+  timeline_end: 1000
   labels:
     en: Aggersborg
     da: Aggersborg
@@ -222,6 +255,8 @@
 - id: oseberg
   type: archaeological-site
   broader: ostlandet
+  timeline_start: 834
+  timeline_end: 834
   labels:
     en: Oseberg
     nb: Oseberg
@@ -233,6 +268,8 @@
 - id: gokstad
   type: archaeological-site
   broader: ostlandet
+  timeline_start: 900
+  timeline_end: 900
   labels:
     en: Gokstad
     nb: Gokstad
@@ -244,6 +281,8 @@
 - id: kaupang
   type: archaeological-site
   broader: ostlandet
+  timeline_start: 800
+  timeline_end: 930
   labels:
     en: Kaupang
     nb: Kaupang
@@ -255,6 +294,8 @@
 - id: borg-lofoten
   type: archaeological-site
   broader: lofoten
+  timeline_start: 500
+  timeline_end: 900
   labels:
     en: Borg
     nb: Borg
@@ -266,6 +307,8 @@
 - id: alta-rock-art
   type: archaeological-site
   broader: finnmark
+  timeline_start: -4200
+  timeline_end: -500
   labels:
     en: Alta rock art
     nb: Helleristningene i Alta
@@ -278,6 +321,7 @@
 - id: bryggen
   type: archaeological-site
   broader: hordaland
+  timeline_start: 1070
   labels:
     en: Bryggen
     nb: Bryggen
@@ -289,6 +333,7 @@
 - id: avaldsnes
   type: archaeological-site
   broader: rogaland
+  timeline_start: 200
   labels:
     en: Avaldsnes
     nb: Avaldsnes
@@ -302,6 +347,8 @@
 - id: rapola
   type: archaeological-site
   broader: pirkanmaa
+  timeline_start: 800
+  timeline_end: 1200
   labels:
     en: Rapola
     fi: Rapola
@@ -313,6 +360,8 @@
 - id: levanluhta
   type: archaeological-site
   broader: pohjanmaa
+  timeline_start: 400
+  timeline_end: 800
   labels:
     en: Levänluhta
     fi: Levänluhta
@@ -324,6 +373,8 @@
 - id: sammallahdenmaki
   type: archaeological-site
   broader: satakunta
+  timeline_start: -1500
+  timeline_end: -500
   labels:
     en: Sammallahdenmäki
     fi: Sammallahdenmäki
@@ -337,6 +388,7 @@
 - id: reykholt
   type: archaeological-site
   broader: western-iceland
+  timeline_start: 1000
   labels:
     en: Reykholt
     is: Reykholt
@@ -348,6 +400,8 @@
 - id: stong
   type: archaeological-site
   broader: southern-iceland
+  timeline_start: 900
+  timeline_end: 1104
   labels:
     en: Stöng
     is: Stöng

@@ -5,7 +5,8 @@
     "owl": "http://www.w3.org/2002/07/owl#",
     "skos": "http://www.w3.org/2004/02/skos/core#",
     "dcterms": "http://purl.org/dc/terms/",
-    "xsd": "http://www.w3.org/2001/XMLSchema#"
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "mhub": "https://metadatahub.eu/data/nordic-techniques/ontology/"
   },
   "@id": "https://metadatahub.eu/data/nordic-techniques",
   "@type": "skos:ConceptScheme",
@@ -76,6 +77,7 @@
         "@value": "Techniques for shaping, joining, and decorating metal objects.",
         "@language": "en"
       },
+      "mhub:timelineStart": -1500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -135,6 +137,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053798"
       },
+      "mhub:timelineStart": -500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -194,6 +197,8 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300264568"
       },
+      "mhub:timelineStart": 200,
+      "mhub:timelineEnd": 1100,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -253,6 +258,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053937"
       },
+      "mhub:timelineStart": -500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -312,6 +318,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053104"
       },
+      "mhub:timelineStart": -1500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -371,6 +378,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053113"
       },
+      "mhub:timelineStart": -1500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -430,6 +438,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053118"
       },
+      "mhub:timelineStart": -1500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -489,6 +498,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053854"
       },
+      "mhub:timelineStart": -1500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -548,6 +558,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053882"
       },
+      "mhub:timelineStart": -1500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -607,6 +618,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053841"
       },
+      "mhub:timelineStart": 500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -666,6 +678,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053846"
       },
+      "mhub:timelineStart": 500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -725,6 +738,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053789"
       },
+      "mhub:timelineStart": -500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -784,6 +798,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053793"
       },
+      "mhub:timelineStart": 200,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -843,6 +858,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053856"
       },
+      "mhub:timelineStart": 500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -902,6 +918,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053829"
       },
+      "mhub:timelineStart": 200,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -961,6 +978,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053835"
       },
+      "mhub:timelineStart": -1500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -1020,6 +1038,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053780"
       },
+      "mhub:timelineStart": 500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -1079,6 +1098,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053764"
       },
+      "mhub:timelineStart": 500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -1138,6 +1158,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053758"
       },
+      "mhub:timelineStart": 500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -1197,6 +1218,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053922"
       },
+      "mhub:timelineStart": -500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -1256,6 +1278,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053910"
       },
+      "mhub:timelineStart": -1500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -1315,6 +1338,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053897"
       },
+      "mhub:timelineStart": -1500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -1374,6 +1398,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053942"
       },
+      "mhub:timelineStart": -500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -1433,6 +1458,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053905"
       },
+      "mhub:timelineStart": -1500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -1492,6 +1518,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053879"
       },
+      "mhub:timelineStart": -1500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -1551,6 +1578,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053869"
       },
+      "mhub:timelineStart": -1500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -1610,6 +1638,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053914"
       },
+      "mhub:timelineStart": 1500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -1669,6 +1698,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053917"
       },
+      "mhub:timelineStart": -1500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -1722,6 +1752,7 @@
         "@value": "Techniques for producing, decorating, and finishing fabrics and fibre objects.",
         "@language": "en"
       },
+      "mhub:timelineStart": -2000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -1781,6 +1812,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053642"
       },
+      "mhub:timelineStart": -2000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -1840,6 +1872,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053636"
       },
+      "mhub:timelineStart": 800,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -1899,6 +1932,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300263029"
       },
+      "mhub:timelineStart": -500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -1958,6 +1992,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300263041"
       },
+      "mhub:timelineStart": 800,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -2017,6 +2052,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300264572"
       },
+      "mhub:timelineStart": -2000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -2076,6 +2112,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053614"
       },
+      "mhub:timelineStart": -2000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -2135,6 +2172,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300231592"
       },
+      "mhub:timelineStart": -2000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -2194,6 +2232,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053470"
       },
+      "mhub:timelineStart": -2000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -2253,6 +2292,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053487"
       },
+      "mhub:timelineStart": -500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -2312,6 +2352,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053410"
       },
+      "mhub:timelineStart": 500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -2371,6 +2412,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053526"
       },
+      "mhub:timelineStart": 1500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -2430,6 +2472,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053415"
       },
+      "mhub:timelineStart": 1500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -2489,6 +2532,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053522"
       },
+      "mhub:timelineStart": 1200,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -2548,6 +2592,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053418"
       },
+      "mhub:timelineStart": -2000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -2607,6 +2652,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053584"
       },
+      "mhub:timelineStart": 1500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -2666,6 +2712,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053580"
       },
+      "mhub:timelineStart": 1600,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -2725,6 +2772,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053413"
       },
+      "mhub:timelineStart": -2000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -2784,6 +2832,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053430"
       },
+      "mhub:timelineStart": -2000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -2843,6 +2892,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053498"
       },
+      "mhub:timelineStart": -500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -2896,6 +2946,7 @@
         "@value": "Techniques for shaping, joining, and decorating wood.",
         "@language": "en"
       },
+      "mhub:timelineStart": -3000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -2955,6 +3006,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053637"
       },
+      "mhub:timelineStart": -3000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -3014,6 +3066,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053658"
       },
+      "mhub:timelineStart": -500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -3070,6 +3123,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-techniques/woodworking"
       },
+      "mhub:timelineStart": 1000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -3129,6 +3183,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053359"
       },
+      "mhub:timelineStart": -3000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -3188,6 +3243,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053368"
       },
+      "mhub:timelineStart": 1500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -3247,6 +3303,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053326"
       },
+      "mhub:timelineStart": -500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -3306,6 +3363,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053390"
       },
+      "mhub:timelineStart": -3000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -3365,6 +3423,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053339"
       },
+      "mhub:timelineStart": -500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -3421,6 +3480,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-techniques/woodworking"
       },
+      "mhub:timelineStart": -3000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -3477,6 +3537,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-techniques/bark-working"
       },
+      "mhub:timelineStart": -3000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -3536,6 +3597,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300002789"
       },
+      "mhub:timelineStart": -3000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -3592,6 +3654,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-techniques/woodworking"
       },
+      "mhub:timelineStart": -3000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -3651,6 +3714,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053308"
       },
+      "mhub:timelineStart": -3000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -3707,6 +3771,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-techniques/boat-building"
       },
+      "mhub:timelineStart": 300,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -3763,6 +3828,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-techniques/woodworking"
       },
+      "mhub:timelineStart": 500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -3822,6 +3888,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053305"
       },
+      "mhub:timelineStart": -3000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -3881,6 +3948,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053353"
       },
+      "mhub:timelineStart": -500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -3934,6 +4002,7 @@
         "@value": "Techniques for forming, decorating, and firing objects from clay.",
         "@language": "en"
       },
+      "mhub:timelineStart": -4000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -3993,6 +4062,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053929"
       },
+      "mhub:timelineStart": -4000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -4052,6 +4122,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300264572"
       },
+      "mhub:timelineStart": -4000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -4111,6 +4182,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053757"
       },
+      "mhub:timelineStart": -4000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -4170,6 +4242,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300263720"
       },
+      "mhub:timelineStart": -4000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -4229,6 +4302,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053907"
       },
+      "mhub:timelineStart": -4000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -4288,6 +4362,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053851"
       },
+      "mhub:timelineStart": 1100,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -4347,6 +4422,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053839"
       },
+      "mhub:timelineStart": -4000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -4406,6 +4482,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053896"
       },
+      "mhub:timelineStart": 1400,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -4465,6 +4542,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053925"
       },
+      "mhub:timelineStart": 1600,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -4524,6 +4602,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300151372"
       },
+      "mhub:timelineStart": 1400,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -4583,6 +4662,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053884"
       },
+      "mhub:timelineStart": 1950,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -4642,6 +4722,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053902"
       },
+      "mhub:timelineStart": 1100,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -4698,6 +4779,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-techniques/ceramics"
       },
+      "mhub:timelineStart": -4000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -4751,6 +4833,7 @@
         "@value": "Techniques for shaping, carving, and finishing stone.",
         "@language": "en"
       },
+      "mhub:timelineStart": -8000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -4810,6 +4893,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053546"
       },
+      "mhub:timelineStart": -8000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -4866,6 +4950,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-techniques/stone-carving"
       },
+      "mhub:timelineStart": 150,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -4925,6 +5010,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053876"
       },
+      "mhub:timelineStart": -8000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -4984,6 +5070,8 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053837"
       },
+      "mhub:timelineStart": -8000,
+      "mhub:timelineEnd": -1500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -5043,6 +5131,8 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053552"
       },
+      "mhub:timelineStart": -8000,
+      "mhub:timelineEnd": -1500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -5102,6 +5192,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053843"
       },
+      "mhub:timelineStart": 500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -5161,6 +5252,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300015342"
       },
+      "mhub:timelineStart": 1100,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -5220,6 +5312,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053555"
       },
+      "mhub:timelineStart": 1000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -5279,6 +5372,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053549"
       },
+      "mhub:timelineStart": 1000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -5335,6 +5429,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-techniques/stone-carving"
       },
+      "mhub:timelineStart": -3000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -5394,6 +5489,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053919"
       },
+      "mhub:timelineStart": 500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -5450,6 +5546,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-techniques/stone-carving"
       },
+      "mhub:timelineStart": -3000,
+      "mhub:timelineEnd": -500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -5503,6 +5601,7 @@
         "@value": "Techniques for applying colour and decoration to surfaces.",
         "@language": "en"
       },
+      "mhub:timelineStart": -3000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -5562,6 +5661,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300178684"
       },
+      "mhub:timelineStart": 1400,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -5621,6 +5721,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300178685"
       },
+      "mhub:timelineStart": 1100,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -5680,6 +5781,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053357"
       },
+      "mhub:timelineStart": 1100,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -5739,6 +5841,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300078925"
       },
+      "mhub:timelineStart": 1600,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -5798,6 +5901,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053361"
       },
+      "mhub:timelineStart": 1600,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -5854,6 +5958,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-techniques/painting-techniques"
       },
+      "mhub:timelineStart": 1700,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -5910,6 +6015,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-techniques/painting-techniques"
       },
+      "mhub:timelineStart": 1700,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -5969,6 +6075,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300264554"
       },
+      "mhub:timelineStart": 1000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -6028,6 +6135,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053339"
       },
+      "mhub:timelineStart": -500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -6087,6 +6195,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053875"
       },
+      "mhub:timelineStart": 1100,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -6146,6 +6255,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053612"
       },
+      "mhub:timelineStart": 1600,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -6202,6 +6312,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-techniques/painting-techniques"
       },
+      "mhub:timelineStart": 1700,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -6258,6 +6369,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-techniques/painting-techniques"
       },
+      "mhub:timelineStart": 1100,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -6311,6 +6423,7 @@
         "@value": "Techniques for producing images by printing from a prepared surface.",
         "@language": "en"
       },
+      "mhub:timelineStart": 1400,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -6370,6 +6483,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300041405"
       },
+      "mhub:timelineStart": 1400,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -6429,6 +6543,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053225"
       },
+      "mhub:timelineStart": 1450,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -6488,6 +6603,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053241"
       },
+      "mhub:timelineStart": 1500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -6547,6 +6663,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053279"
       },
+      "mhub:timelineStart": 1800,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -6606,6 +6723,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053208"
       },
+      "mhub:timelineStart": 1750,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -6665,6 +6783,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053284"
       },
+      "mhub:timelineStart": 1650,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -6724,6 +6843,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053371"
       },
+      "mhub:timelineStart": 1900,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -6783,6 +6903,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053265"
       },
+      "mhub:timelineStart": 1900,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -6842,6 +6963,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053233"
       },
+      "mhub:timelineStart": 1450,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -6895,6 +7017,7 @@
         "@value": "Techniques for forming, shaping, and decorating glass.",
         "@language": "en"
       },
+      "mhub:timelineStart": 100,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -6954,6 +7077,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053932"
       },
+      "mhub:timelineStart": 100,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -7013,6 +7137,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300264573"
       },
+      "mhub:timelineStart": 700,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -7072,6 +7197,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053763"
       },
+      "mhub:timelineStart": 1600,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -7131,6 +7257,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053765"
       },
+      "mhub:timelineStart": 1600,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -7190,6 +7317,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300263722"
       },
+      "mhub:timelineStart": 1100,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -7249,6 +7377,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053834"
       },
+      "mhub:timelineStart": 700,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -7305,6 +7434,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-techniques/glass-techniques"
       },
+      "mhub:timelineStart": 700,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -7364,6 +7494,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053769"
       },
+      "mhub:timelineStart": 100,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -7423,6 +7554,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053761"
       },
+      "mhub:timelineStart": 100,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -7476,6 +7608,7 @@
         "@value": "Techniques for working leather, parchment, and plant fibres.",
         "@language": "en"
       },
+      "mhub:timelineStart": -3000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -7535,6 +7668,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053920"
       },
+      "mhub:timelineStart": -3000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -7594,6 +7728,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053937"
       },
+      "mhub:timelineStart": -500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -7653,6 +7788,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053305"
       },
+      "mhub:timelineStart": 800,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -7712,6 +7848,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053867"
       },
+      "mhub:timelineStart": 800,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -7771,6 +7908,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053403"
       },
+      "mhub:timelineStart": -3000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -7830,6 +7968,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053893"
       },
+      "mhub:timelineStart": -3000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -7889,6 +8028,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053898"
       },
+      "mhub:timelineStart": -500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -7945,6 +8085,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-techniques/leather-and-fiber"
       },
+      "mhub:timelineStart": -3000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -8001,6 +8142,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-techniques/tanning"
       },
+      "mhub:timelineStart": -3000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -8054,6 +8196,7 @@
         "@value": "Craft techniques specific to Sámi culture and Nordic traditions.",
         "@language": "en"
       },
+      "mhub:timelineStart": -2000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -8118,6 +8261,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-techniques/nordic-specific"
       },
+      "mhub:timelineStart": -2000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -8182,6 +8326,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-techniques/duodji"
       },
+      "mhub:timelineStart": 1500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -8246,6 +8391,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-techniques/duodji"
       },
+      "mhub:timelineStart": -2000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -8310,6 +8456,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-techniques/duodji"
       },
+      "mhub:timelineStart": -2000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -8374,6 +8521,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-techniques/duodji"
       },
+      "mhub:timelineStart": -2000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -8433,6 +8581,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053310"
       },
+      "mhub:timelineStart": -8000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -8492,6 +8641,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053347"
       },
+      "mhub:timelineStart": -8000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -8551,6 +8701,7 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053299"
       },
+      "mhub:timelineStart": -4000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -8607,6 +8758,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-techniques/nordic-specific"
       },
+      "mhub:timelineStart": 700,
+      "mhub:timelineEnd": 1100,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -8671,6 +8824,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-techniques/duodji"
       },
+      "mhub:timelineStart": -2000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -8735,6 +8889,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-techniques/duodji"
       },
+      "mhub:timelineStart": -2000,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -8794,6 +8949,8 @@
       "skos:exactMatch": {
         "@id": "http://vocab.getty.edu/aat/300053355"
       },
+      "mhub:timelineStart": 800,
+      "mhub:timelineEnd": 1400,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -8850,6 +9007,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-techniques/nordic-specific"
       },
+      "mhub:timelineStart": -500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -8906,6 +9064,7 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-techniques/nordic-specific"
       },
+      "mhub:timelineStart": -500,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     },
     {
@@ -8962,6 +9121,8 @@
       "skos:broader": {
         "@id": "https://metadatahub.eu/data/nordic-techniques/nordic-specific"
       },
+      "mhub:timelineStart": -500,
+      "mhub:timelineEnd": 1800,
       "dcterms:source": "http://www.getty.edu/research/tools/vocabularies/aat/"
     }
   ]

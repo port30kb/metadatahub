@@ -54,6 +54,7 @@ ni:nationalmuseum-se a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     dcterms:identifier "SE-Nm" ;
     foaf:homepage <https://www.nationalmuseum.se/> ;
     schema:foundingDate "1792"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1792"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 2/116: Nordic Museum (SE) ──
@@ -71,6 +72,7 @@ ni:nordiska-museet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     dcterms:identifier "SE-Nom" ;
     foaf:homepage <https://www.nordiskamuseet.se/> ;
     schema:foundingDate "1873"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1873"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 3/116: Swedish History Museum (SE) ──
@@ -88,6 +90,7 @@ ni:historiska-museet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     dcterms:identifier "SE-Hm" ;
     foaf:homepage <https://historiska.se/> ;
     schema:foundingDate "1866"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1866"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 4/116: Moderna Museet (SE) ──
@@ -105,6 +108,7 @@ ni:moderna-museet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     dcterms:identifier "SE-Mm" ;
     foaf:homepage <https://www.modernamuseet.se/> ;
     schema:foundingDate "1958"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1958"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 5/116: Vasa Museum (SE) ──
@@ -122,6 +126,7 @@ ni:vasamuseet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     dcterms:identifier "SE-Sjhm" ;
     foaf:homepage <https://www.vasamuseet.se/> ;
     schema:foundingDate "1990"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1990"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 6/116: Skansen (SE) ──
@@ -138,6 +143,7 @@ ni:skansen a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q578375> ;
     foaf:homepage <https://www.skansen.se/> ;
     schema:foundingDate "1891"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1891"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 7/116: Royal Armoury (SE) ──
@@ -154,6 +160,7 @@ ni:livrustkammaren a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1573823> ;
     foaf:homepage <https://livrustkammaren.se/> ;
     schema:foundingDate "1628"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1628"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 8/116: Swedish Museum of Natural History (SE) ──
@@ -171,6 +178,7 @@ ni:naturhistoriska-riksmuseet a crm:E40_Legal_Body , org:Organization , schema:M
     dcterms:identifier "SE-NRM" ;
     foaf:homepage <https://www.nrm.se/> ;
     schema:foundingDate "1819"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1819"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 9/116: National Maritime Museum (SE) ──
@@ -187,6 +195,7 @@ ni:sjohistoriska-museet a crm:E40_Legal_Body , org:Organization , schema:Museum 
     owl:sameAs <http://www.wikidata.org/entity/Q1754929> ;
     foaf:homepage <https://www.sjohistoriska.se/> ;
     schema:foundingDate "1938"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1938"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 10/116: Prins Eugens Waldemarsudde (SE) ──
@@ -203,6 +212,7 @@ ni:waldemarsudde a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q2083567> ;
     foaf:homepage <https://www.waldemarsudde.se/> ;
     schema:foundingDate "1947"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1947"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 11/116: Thiel Gallery (SE) ──
@@ -219,6 +229,7 @@ ni:thielska-galleriet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1371375> ;
     foaf:homepage <https://www.thielskagalleriet.se/> ;
     schema:foundingDate "1924"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1924"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 12/116: Millesgården (SE) ──
@@ -235,6 +246,7 @@ ni:millesgarden a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1537594> ;
     foaf:homepage <https://www.millesgarden.se/> ;
     schema:foundingDate "1936"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1936"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 13/116: Gothenburg Museum of Art (SE) ──
@@ -252,6 +264,7 @@ ni:goteborgs-konstmuseum a crm:E40_Legal_Body , org:Organization , schema:Museum
     dcterms:identifier "SE-Gkm" ;
     foaf:homepage <https://goteborgskonstmuseum.se/> ;
     schema:foundingDate "1923"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1923"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 14/116: Gothenburg City Museum (SE) ──
@@ -268,6 +281,7 @@ ni:goteborgs-stadsmuseum a crm:E40_Legal_Body , org:Organization , schema:Museum
     owl:sameAs <http://www.wikidata.org/entity/Q2156373> ;
     foaf:homepage <https://goteborgsstadsmuseum.se/> ;
     schema:foundingDate "1861"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1861"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 15/116: Röhsska Museum (SE) ──
@@ -285,6 +299,7 @@ ni:rohsska-museet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     dcterms:identifier "SE-Rö" ;
     foaf:homepage <https://rohsska.se/> ;
     schema:foundingDate "1916"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1916"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 16/116: Malmö Museums (SE) ──
@@ -301,6 +316,7 @@ ni:malmo-museer a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1798890> ;
     foaf:homepage <https://malmo.se/museer> ;
     schema:foundingDate "1841"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1841"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 17/116: Malmö Art Museum (SE) ──
@@ -317,6 +333,7 @@ ni:malmo-konstmuseum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1798890> ;
     foaf:homepage <https://malmo.se/konstmuseum> ;
     schema:foundingDate "1841"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1841"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 18/116: Lund University Historical Museum (SE) ──
@@ -334,6 +351,7 @@ ni:lunds-universitets-historiska-museum a crm:E40_Legal_Body , org:Organization 
     dcterms:identifier "SE-Lu" ;
     foaf:homepage <https://www.luhm.lu.se/> ;
     schema:foundingDate "1805"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1805"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 19/116: Uppsala University Museum Gustavianum (SE) ──
@@ -350,6 +368,7 @@ ni:gustavianum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1556079> ;
     foaf:homepage <https://www.gustavianum.uu.se/> ;
     schema:foundingDate "1997"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1997"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 20/116: Uppland Museum (SE) ──
@@ -366,6 +385,7 @@ ni:upplandsmuseet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q10711413> ;
     foaf:homepage <https://www.upplandsmuseet.se/> ;
     schema:foundingDate "1909"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1909"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 21/116: Gotland Museum (SE) ──
@@ -382,6 +402,7 @@ ni:gotlands-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q10510043> ;
     foaf:homepage <https://www.gotlandsmuseum.se/> ;
     schema:foundingDate "1875"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1875"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 22/116: Kalmar County Museum (SE) ──
@@ -398,6 +419,7 @@ ni:kalmar-lans-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q10547450> ;
     foaf:homepage <https://www.kalmarlansmuseum.se/> ;
     schema:foundingDate "1977"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1977"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 23/116: Jamtli (SE) ──
@@ -414,6 +436,7 @@ ni:jamtlands-lans-museum a crm:E40_Legal_Body , org:Organization , schema:Museum
     owl:sameAs <http://www.wikidata.org/entity/Q10538927> ;
     foaf:homepage <https://www.jamtli.com/> ;
     schema:foundingDate "1886"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1886"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 24/116: Ájtte - Swedish Mountain and Sami Museum (SE) ──
@@ -431,6 +454,7 @@ ni:ajtte a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1645107> ;
     foaf:homepage <https://www.ajtte.com/> ;
     schema:foundingDate "1989"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1989"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 25/116: Norrbotten Museum (SE) ──
@@ -447,6 +471,7 @@ ni:norrbottens-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q10601840> ;
     foaf:homepage <https://www.norrbottensmuseum.se/> ;
     schema:foundingDate "1936"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1936"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 26/116: Västerbotten Museum (SE) ──
@@ -463,6 +488,7 @@ ni:vasterbottens-museum a crm:E40_Legal_Body , org:Organization , schema:Museum 
     owl:sameAs <http://www.wikidata.org/entity/Q2539156> ;
     foaf:homepage <https://www.vbm.se/> ;
     schema:foundingDate "1943"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1943"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 27/116: Bohuslän Museum (SE) ──
@@ -479,6 +505,7 @@ ni:bohusians-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q10434918> ;
     foaf:homepage <https://www.bohuslansmuseum.se/> ;
     schema:foundingDate "1928"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1928"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 28/116: Dalarna Museum (SE) ──
@@ -495,6 +522,7 @@ ni:dalarnas-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q10457340> ;
     foaf:homepage <https://www.dalarnasmuseum.se/> ;
     schema:foundingDate "1862"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1862"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 29/116: National Museum of Science and Technology (SE) ──
@@ -512,6 +540,7 @@ ni:tekniska-museet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     dcterms:identifier "SE-Tm" ;
     foaf:homepage <https://www.tekniskamuseet.se/> ;
     schema:foundingDate "1924"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1924"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 30/116: ArkDes - Swedish Centre for Architecture and Design (SE) ──
@@ -528,6 +557,7 @@ ni:arkdes a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1568634> ;
     foaf:homepage <https://arkdes.se/> ;
     schema:foundingDate "1962"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1962"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 31/116: Fotografiska (SE) ──
@@ -544,6 +574,7 @@ ni:fotografiska a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q4479898> ;
     foaf:homepage <https://www.fotografiska.com/> ;
     schema:foundingDate "2010"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "2010"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 32/116: Hallwyl Museum (SE) ──
@@ -560,6 +591,7 @@ ni:hallwylska-museet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1572556> ;
     foaf:homepage <https://hallwylskamuseet.se/> ;
     schema:foundingDate "1938"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1938"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 33/116: Museum of Mediterranean and Near Eastern Antiquities (SE) ──
@@ -576,6 +608,7 @@ ni:medelhavsmuseet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1715082> ;
     foaf:homepage <https://www.medelhavsmuseet.se/> ;
     schema:foundingDate "1954"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1954"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 34/116: Museum of Far Eastern Antiquities (SE) ──
@@ -592,6 +625,7 @@ ni:ostasiatiska-museet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1570908> ;
     foaf:homepage <https://www.ostasiatiskamuseet.se/> ;
     schema:foundingDate "1926"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1926"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 35/116: Värmlands Museum (SE) ──
@@ -608,6 +642,7 @@ ni:varmlands-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q10720058> ;
     foaf:homepage <https://www.varmlandsmuseum.se/> ;
     schema:foundingDate "1839"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1839"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 36/116: Sörmlands Museum (SE) ──
@@ -624,6 +659,7 @@ ni:sormlands-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q10685625> ;
     foaf:homepage <https://www.sormlandsmuseum.se/> ;
     schema:foundingDate "1908"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1908"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 37/116: Östergötland Museum (SE) ──
@@ -640,6 +676,7 @@ ni:ostergotlands-museum a crm:E40_Legal_Body , org:Organization , schema:Museum 
     owl:sameAs <http://www.wikidata.org/entity/Q10739125> ;
     foaf:homepage <https://www.ostergotlandsmuseum.se/> ;
     schema:foundingDate "1903"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1903"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 38/116: Swedish Air Force Museum (SE) ──
@@ -656,6 +693,7 @@ ni:flygvapenmuseum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q10497898> ;
     foaf:homepage <https://www.flygvapenmuseum.se/> ;
     schema:foundingDate "1984"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1984"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Sweden> .
 
 # ── 39/116: National Museum of Norway (NO) ──
@@ -674,6 +712,7 @@ ni:nasjonalmuseet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     dcterms:identifier "NO-0183300" ;
     foaf:homepage <https://www.nasjonalmuseet.no/> ;
     schema:foundingDate "2003"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "2003"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
 
 # ── 40/116: Munch Museum (NO) ──
@@ -691,6 +730,7 @@ ni:munchmuseet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q594316> ;
     foaf:homepage <https://www.munchmuseet.no/> ;
     schema:foundingDate "1963"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1963"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
 
 # ── 41/116: Viking Ship Museum (NO) ──
@@ -708,6 +748,7 @@ ni:vikingskipshuset a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1327702> ;
     foaf:homepage <https://www.khm.uio.no/besok-oss/vikingskipshuset/> ;
     schema:foundingDate "1926"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1926"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
 
 # ── 42/116: Museum of Cultural History Oslo (NO) ──
@@ -725,6 +766,7 @@ ni:kulturhistorisk-museum-oslo a crm:E40_Legal_Body , org:Organization , schema:
     owl:sameAs <http://www.wikidata.org/entity/Q1141339> ;
     foaf:homepage <https://www.khm.uio.no/> ;
     schema:foundingDate "1904"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1904"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
 
 # ── 43/116: Norwegian Museum of Cultural History (NO) ──
@@ -743,6 +785,7 @@ ni:norsk-folkemuseum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     dcterms:identifier "NO-0183500" ;
     foaf:homepage <https://norskfolkemuseum.no/> ;
     schema:foundingDate "1894"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1894"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
 
 # ── 44/116: Norwegian Maritime Museum (NO) ──
@@ -760,6 +803,7 @@ ni:norsk-maritimt-museum a crm:E40_Legal_Body , org:Organization , schema:Museum
     owl:sameAs <http://www.wikidata.org/entity/Q1747830> ;
     foaf:homepage <https://marmuseum.no/> ;
     schema:foundingDate "1914"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1914"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
 
 # ── 45/116: Kon-Tiki Museum (NO) ──
@@ -777,6 +821,7 @@ ni:kon-tiki-museet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q898947> ;
     foaf:homepage <https://www.kon-tiki.no/> ;
     schema:foundingDate "1950"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1950"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
 
 # ── 46/116: Fram Museum (NO) ──
@@ -794,6 +839,7 @@ ni:frammuseet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1233422> ;
     foaf:homepage <https://frammuseum.no/> ;
     schema:foundingDate "1936"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1936"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
 
 # ── 47/116: University Museum of Bergen (NO) ──
@@ -811,6 +857,7 @@ ni:bergen-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q2361864> ;
     foaf:homepage <https://www.uib.no/universitetsmuseet> ;
     schema:foundingDate "1825"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1825"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
 
 # ── 48/116: KODE Art Museums and Composer Homes (NO) ──
@@ -828,6 +875,7 @@ ni:kode-bergen a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1777977> ;
     foaf:homepage <https://www.kfrb.no/> ;
     schema:foundingDate "2007"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "2007"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
 
 # ── 49/116: Tromsø Museum (NO) ──
@@ -845,6 +893,7 @@ ni:tromso-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q2474281> ;
     foaf:homepage <https://uit.no/tmu> ;
     schema:foundingDate "1872"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1872"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
 
 # ── 50/116: Northern Norway Art Museum (NO) ──
@@ -862,6 +911,7 @@ ni:nordnorsk-kunstmuseum a crm:E40_Legal_Body , org:Organization , schema:Museum
     owl:sameAs <http://www.wikidata.org/entity/Q1996942> ;
     foaf:homepage <https://www.nnkm.no/> ;
     schema:foundingDate "1985"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1985"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
 
 # ── 51/116: RiddoDuottarMuseat - Sami Museums (NO) ──
@@ -879,6 +929,7 @@ ni:riddoduottarmuseat a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q7331957> ;
     foaf:homepage <https://rdm.no/> ;
     schema:foundingDate "1972"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1972"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
 
 # ── 52/116: Maihaugen (NO) ──
@@ -896,6 +947,7 @@ ni:maihaugen a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1092184> ;
     foaf:homepage <https://maihaugen.no/> ;
     schema:foundingDate "1887"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1887"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
 
 # ── 53/116: Astrup Fearnley Museum of Modern Art (NO) ──
@@ -913,6 +965,7 @@ ni:astrup-fearnley a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1192081> ;
     foaf:homepage <https://www.afmuseet.no/> ;
     schema:foundingDate "1993"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1993"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
 
 # ── 54/116: National Museum of Decorative Arts (NO) ──
@@ -930,6 +983,7 @@ ni:nordenfjeldske-kunstindustrimuseum a crm:E40_Legal_Body , org:Organization , 
     owl:sameAs <http://www.wikidata.org/entity/Q3272424> ;
     foaf:homepage <https://nkim.no/> ;
     schema:foundingDate "1893"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1893"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
 
 # ── 55/116: NTNU University Museum (NO) ──
@@ -947,6 +1001,7 @@ ni:vitenskapsmuseet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q3272406> ;
     foaf:homepage <https://www.ntnu.no/vitenskapsmuseet> ;
     schema:foundingDate "1760"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1760"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
 
 # ── 56/116: Museum of Archaeology Stavanger (NO) ──
@@ -964,6 +1019,7 @@ ni:stavanger-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q5445741> ;
     foaf:homepage <https://www.uis.no/nb/arkeologisk-museum> ;
     schema:foundingDate "1877"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1877"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
 
 # ── 57/116: Norwegian Museum of Science and Technology (NO) ──
@@ -981,6 +1037,7 @@ ni:norsk-teknisk-museum a crm:E40_Legal_Body , org:Organization , schema:Museum 
     owl:sameAs <http://www.wikidata.org/entity/Q1773919> ;
     foaf:homepage <https://www.tekniskmuseum.no/> ;
     schema:foundingDate "1914"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1914"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
 
 # ── 58/116: Henie Onstad Art Centre (NO) ──
@@ -998,6 +1055,7 @@ ni:henie-onstad a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1602622> ;
     foaf:homepage <https://hok.no/> ;
     schema:foundingDate "1968"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1968"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
 
 # ── 59/116: Norwegian Industrial Workers Museum (NO) ──
@@ -1015,6 +1073,7 @@ ni:norsk-industriarbeidermuseum a crm:E40_Legal_Body , org:Organization , schema
     owl:sameAs <http://www.wikidata.org/entity/Q3345230> ;
     foaf:homepage <https://www.telemarkmuseum.no/> ;
     schema:foundingDate "1988"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1988"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
 
 # ── 60/116: Lofotr Viking Museum (NO) ──
@@ -1032,6 +1091,7 @@ ni:lofotr-vikingmuseum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1869099> ;
     foaf:homepage <https://lofotr.no/> ;
     schema:foundingDate "1995"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1995"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
 
 # ── 61/116: Kistefos Museum (NO) ──
@@ -1049,6 +1109,7 @@ ni:kistefos a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q3196816> ;
     foaf:homepage <https://www.kistefosmuseum.no/> ;
     schema:foundingDate "1996"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1996"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
 
 # ── 62/116: Stiklestad National Culture Centre (NO) ──
@@ -1066,6 +1127,7 @@ ni:stiklestad a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q2479747> ;
     foaf:homepage <https://stiklestad.no/> ;
     schema:foundingDate "1930"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1930"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Norway> .
 
 # ── 63/116: Ateneum Art Museum (FI) ──
@@ -1084,6 +1146,7 @@ ni:ateneum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     dcterms:identifier "FI-Ate" ;
     foaf:homepage <https://ateneum.fi/> ;
     schema:foundingDate "1887"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1887"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
 
 # ── 64/116: Kiasma Museum of Contemporary Art (FI) ──
@@ -1101,6 +1164,7 @@ ni:kiasma a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1421498> ;
     foaf:homepage <https://kiasma.fi/> ;
     schema:foundingDate "1998"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1998"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
 
 # ── 65/116: Sinebrychoff Art Museum (FI) ──
@@ -1118,6 +1182,7 @@ ni:sinebrychoff a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1396704> ;
     foaf:homepage <https://sfrm.fi/> ;
     schema:foundingDate "1921"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1921"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
 
 # ── 66/116: National Museum of Finland (FI) ──
@@ -1136,6 +1201,7 @@ ni:kansallismuseo a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     dcterms:identifier "FI-Km" ;
     foaf:homepage <https://www.kansallismuseo.fi/> ;
     schema:foundingDate "1916"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1916"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
 
 # ── 67/116: Design Museum Helsinki (FI) ──
@@ -1153,6 +1219,7 @@ ni:designmuseo a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1198723> ;
     foaf:homepage <https://www.designmuseum.fi/> ;
     schema:foundingDate "1873"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1873"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
 
 # ── 68/116: Seurasaari Open-Air Museum (FI) ──
@@ -1170,6 +1237,7 @@ ni:seurasaari a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1413035> ;
     foaf:homepage <https://www.kansallismuseo.fi/en/seurasaari> ;
     schema:foundingDate "1909"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1909"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
 
 # ── 69/116: Turku Castle Museum (FI) ──
@@ -1187,6 +1255,7 @@ ni:turku-linna a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1215078> ;
     foaf:homepage <https://www.turku.fi/turunlinna> ;
     schema:foundingDate "1881"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1881"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
 
 # ── 70/116: Turku Art Museum (FI) ──
@@ -1204,6 +1273,7 @@ ni:turun-taidemuseo a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q2034910> ;
     foaf:homepage <https://www.turuntaidemuseo.fi/> ;
     schema:foundingDate "1904"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1904"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
 
 # ── 71/116: Aboa Vetus Ars Nova (FI) ──
@@ -1221,6 +1291,7 @@ ni:aboa-vetus-ars-nova a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q11853228> ;
     foaf:homepage <https://www.afrfrm.fi/> ;
     schema:foundingDate "1995"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1995"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
 
 # ── 72/116: Tampere Art Museum (FI) ──
@@ -1238,6 +1309,7 @@ ni:tampereen-taidemuseo a crm:E40_Legal_Body , org:Organization , schema:Museum 
     owl:sameAs <http://www.wikidata.org/entity/Q6067702> ;
     foaf:homepage <https://www.tampereentaidemuseo.fi/> ;
     schema:foundingDate "1931"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1931"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
 
 # ── 73/116: Sara Hildén Art Museum (FI) ──
@@ -1255,6 +1327,7 @@ ni:sara-hilden a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q2377432> ;
     foaf:homepage <https://www.sarahilden.fi/> ;
     schema:foundingDate "1979"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1979"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
 
 # ── 74/116: Siida - Sami Museum and Nature Centre (FI) ──
@@ -1272,6 +1345,7 @@ ni:siida a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q3482458> ;
     foaf:homepage <https://sifrda.fi/> ;
     schema:foundingDate "1962"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1962"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
 
 # ── 75/116: Oulu Museum of Art (FI) ──
@@ -1289,6 +1363,7 @@ ni:oulun-taidemuseo a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q18345226> ;
     foaf:homepage <https://www.ouka.fi/oulu/taidemuseo> ;
     schema:foundingDate "1963"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1963"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
 
 # ── 76/116: Helsinki City Museum (FI) ──
@@ -1306,6 +1381,7 @@ ni:helsingin-kaupunginmuseo a crm:E40_Legal_Body , org:Organization , schema:Mus
     owl:sameAs <http://www.wikidata.org/entity/Q3330210> ;
     foaf:homepage <https://www.helsinginkaupunginmuseo.fi/> ;
     schema:foundingDate "1911"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1911"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
 
 # ── 77/116: Finnish Museum of Natural History (FI) ──
@@ -1323,6 +1399,7 @@ ni:luonnontieteellinen-museo a crm:E40_Legal_Body , org:Organization , schema:Mu
     owl:sameAs <http://www.wikidata.org/entity/Q1404452> ;
     foaf:homepage <https://www.luomus.fi/> ;
     schema:foundingDate "1988"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1988"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
 
 # ── 78/116: Vapriikki Museum Centre (FI) ──
@@ -1340,6 +1417,7 @@ ni:vapriikki a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q3267772> ;
     foaf:homepage <https://vapriikki.fi/> ;
     schema:foundingDate "1996"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1996"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
 
 # ── 79/116: Amos Rex (FI) ──
@@ -1357,6 +1435,7 @@ ni:amos-rex a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q56308665> ;
     foaf:homepage <https://amosrex.fi/> ;
     schema:foundingDate "2018"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "2018"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
 
 # ── 80/116: Arktikum Science Museum (FI) ──
@@ -1374,6 +1453,7 @@ ni:arktikum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q2858595> ;
     foaf:homepage <https://www.arktikum.fi/> ;
     schema:foundingDate "1992"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1992"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
 
 # ── 81/116: EMMA - Espoo Museum of Modern Art (FI) ──
@@ -1391,6 +1471,7 @@ ni:emma a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1059774> ;
     foaf:homepage <https://emmamuseum.fi/> ;
     schema:foundingDate "2006"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "2006"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
 
 # ── 82/116: Hämeenlinna Art Museum (FI) ──
@@ -1408,6 +1489,7 @@ ni:hameenlinnan-taidemuseo a crm:E40_Legal_Body , org:Organization , schema:Muse
     owl:sameAs <http://www.wikidata.org/entity/Q18345156> ;
     foaf:homepage <https://www.hameenlinna.fi/taidemuseo> ;
     schema:foundingDate "1952"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1952"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
 
 # ── 83/116: Maritime Museum of Finland (FI) ──
@@ -1425,6 +1507,7 @@ ni:suomen-merimuseo a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q11893116> ;
     foaf:homepage <https://www.merikeskusfrelluma.fi/> ;
     schema:foundingDate "2008"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "2008"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
 
 # ── 84/116: Ainola - Home of Jean Sibelius (FI) ──
@@ -1442,6 +1525,7 @@ ni:ainola a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1139286> ;
     foaf:homepage <https://www.ainola.fi/> ;
     schema:foundingDate "1974"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1974"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
 
 # ── 85/116: Ostrobothnian Museum (FI) ──
@@ -1459,6 +1543,7 @@ ni:pohjanmaan-museo a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q11885882> ;
     foaf:homepage <https://www.pohjanmaanmuseo.fi/> ;
     schema:foundingDate "1895"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1895"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
 
 # ── 86/116: Kuopio Museum (FI) ──
@@ -1476,6 +1561,7 @@ ni:kuopio-museo a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q18345179> ;
     foaf:homepage <https://kuopionmuseo.fi/> ;
     schema:foundingDate "1907"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1907"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Finland> .
 
 # ── 87/116: National Museum of Denmark (DK) ──
@@ -1493,6 +1579,7 @@ ni:nationalmuseet-dk a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     dcterms:identifier "DK-810010" ;
     foaf:homepage <https://www.natmus.dk/> ;
     schema:foundingDate "1819"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1819"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
 
 # ── 88/116: SMK - National Gallery of Denmark (DK) ──
@@ -1510,6 +1597,7 @@ ni:smk a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     dcterms:identifier "DK-820010" ;
     foaf:homepage <https://www.smk.dk/> ;
     schema:foundingDate "1849"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1849"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
 
 # ── 89/116: Ny Carlsberg Glyptotek (DK) ──
@@ -1526,6 +1614,7 @@ ni:ny-carlsberg-glyptotek a crm:E40_Legal_Body , org:Organization , schema:Museu
     owl:sameAs <http://www.wikidata.org/entity/Q1138030> ;
     foaf:homepage <https://www.glfrptotek.dk/> ;
     schema:foundingDate "1888"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1888"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
 
 # ── 90/116: Louisiana Museum of Modern Art (DK) ──
@@ -1542,6 +1631,7 @@ ni:louisiana a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q671384> ;
     foaf:homepage <https://louisiana.dk/> ;
     schema:foundingDate "1958"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1958"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
 
 # ── 91/116: ARoS Aarhus Art Museum (DK) ──
@@ -1558,6 +1648,7 @@ ni:aros a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q845584> ;
     foaf:homepage <https://www.aros.dk/> ;
     schema:foundingDate "1859"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1859"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
 
 # ── 92/116: Thorvaldsens Museum (DK) ──
@@ -1574,6 +1665,7 @@ ni:thorvaldsens-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1140535> ;
     foaf:homepage <https://www.thorvaldsensmuseum.dk/> ;
     schema:foundingDate "1848"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1848"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
 
 # ── 93/116: The Hirschsprung Collection (DK) ──
@@ -1590,6 +1682,7 @@ ni:hirschsprungske a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1191916> ;
     foaf:homepage <https://www.hirschsprung.dk/> ;
     schema:foundingDate "1911"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1911"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
 
 # ── 94/116: Ordrupgaard (DK) ──
@@ -1606,6 +1699,7 @@ ni:ordrupgaard a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1138041> ;
     foaf:homepage <https://ordrupgaard.dk/> ;
     schema:foundingDate "1953"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1953"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
 
 # ── 95/116: Viking Ship Museum Roskilde (DK) ──
@@ -1622,6 +1716,7 @@ ni:vikingeskibsmuseet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1133976> ;
     foaf:homepage <https://www.vikingeskibsmuseet.dk/> ;
     schema:foundingDate "1969"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1969"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
 
 # ── 96/116: M/S Maritime Museum of Denmark (DK) ──
@@ -1638,6 +1733,7 @@ ni:ms-maritime-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q2362154> ;
     foaf:homepage <https://mfrfs.dk/> ;
     schema:foundingDate "2013"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "2013"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
 
 # ── 97/116: Den Gamle By - The Old Town (DK) ──
@@ -1654,6 +1750,7 @@ ni:den-gamle-by a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1182781> ;
     foaf:homepage <https://www.dengamleby.dk/> ;
     schema:foundingDate "1909"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1909"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
 
 # ── 98/116: Moesgaard Museum (DK) ──
@@ -1670,6 +1767,7 @@ ni:moesgaard a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1535628> ;
     foaf:homepage <https://www.moesgaardmuseum.dk/> ;
     schema:foundingDate "2014"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "2014"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
 
 # ── 99/116: Danish Jewish Museum (DK) ──
@@ -1686,6 +1784,7 @@ ni:dansk-jodisk-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1173631> ;
     foaf:homepage <https://www.jewmus.dk/> ;
     schema:foundingDate "2004"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "2004"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
 
 # ── 100/116: Kunsten Museum of Modern Art Aalborg (DK) ──
@@ -1702,6 +1801,7 @@ ni:kunsten a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1764404> ;
     foaf:homepage <https://kunsten.dk/> ;
     schema:foundingDate "1972"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1972"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
 
 # ── 101/116: The Open Air Museum (DK) ──
@@ -1718,6 +1818,7 @@ ni:frilandsmuseet a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1321613> ;
     foaf:homepage <https://natmus.dk/frilandsmuseet/> ;
     schema:foundingDate "1897"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1897"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
 
 # ── 102/116: Designmuseum Danmark (DK) ──
@@ -1734,6 +1835,7 @@ ni:designmuseum-dk a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1140506> ;
     foaf:homepage <https://designmuseum.dk/> ;
     schema:foundingDate "1890"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1890"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
 
 # ── 103/116: Randers Art Museum (DK) ──
@@ -1750,6 +1852,7 @@ ni:randers-kunstmuseum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q7293968> ;
     foaf:homepage <https://randerskunstmuseum.dk/> ;
     schema:foundingDate "1887"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1887"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
 
 # ── 104/116: Ribe VikingeCenter (DK) ──
@@ -1766,6 +1869,7 @@ ni:ribe-vikingecenter a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q7325006> ;
     foaf:homepage <https://www.ribevikingecenter.dk/> ;
     schema:foundingDate "1992"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1992"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
 
 # ── 105/116: Skagens Museum (DK) ──
@@ -1782,6 +1886,7 @@ ni:skagens-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1572584> ;
     foaf:homepage <https://skagenskunstmuseer.dk/> ;
     schema:foundingDate "1908"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1908"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
 
 # ── 106/116: Brandts Museum of Art and Visual Culture (DK) ──
@@ -1798,6 +1903,7 @@ ni:brandts a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q4955912> ;
     foaf:homepage <https://brandts.dk/> ;
     schema:foundingDate "1984"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1984"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Denmark> .
 
 # ── 107/116: National Museum of Iceland (IS) ──
@@ -1814,6 +1920,7 @@ ni:thjodminjasafn a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1418298> ;
     foaf:homepage <https://www.thjodminjasafn.is/> ;
     schema:foundingDate "1863"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1863"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Iceland> .
 
 # ── 108/116: Reykjavik Art Museum (IS) ──
@@ -1830,6 +1937,7 @@ ni:listasafn-reykjavikur a crm:E40_Legal_Body , org:Organization , schema:Museum
     owl:sameAs <http://www.wikidata.org/entity/Q1762225> ;
     foaf:homepage <https://listfrsfnreykjavikur.is/> ;
     schema:foundingDate "1973"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1973"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Iceland> .
 
 # ── 109/116: National Gallery of Iceland (IS) ──
@@ -1846,6 +1954,7 @@ ni:listasafn-islands a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q1460820> ;
     foaf:homepage <https://www.listasafn.is/> ;
     schema:foundingDate "1884"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1884"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Iceland> .
 
 # ── 110/116: Saga Museum (IS) ──
@@ -1862,6 +1971,7 @@ ni:saga-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q7399131> ;
     foaf:homepage <https://www.sagamuseum.is/> ;
     schema:foundingDate "2004"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "2004"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Iceland> .
 
 # ── 111/116: Árbær Open Air Museum (IS) ──
@@ -1878,6 +1988,7 @@ ni:arbaer a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q3560972> ;
     foaf:homepage <https://borgarsogusafn.is/arbaejarsafn> ;
     schema:foundingDate "1957"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1957"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Iceland> .
 
 # ── 112/116: Akureyri Art Museum (IS) ──
@@ -1894,6 +2005,7 @@ ni:akureyri-listasafn a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q4700942> ;
     foaf:homepage <https://www.listak.is/> ;
     schema:foundingDate "1993"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1993"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Iceland> .
 
 # ── 113/116: Húsavík Whale Museum (IS) ──
@@ -1910,6 +2022,7 @@ ni:husavik-whale-museum a crm:E40_Legal_Body , org:Organization , schema:Museum 
     owl:sameAs <http://www.wikidata.org/entity/Q12007817> ;
     foaf:homepage <https://www.whalemuseum.is/> ;
     schema:foundingDate "1997"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1997"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Iceland> .
 
 # ── 114/116: Skógar Museum (IS) ──
@@ -1926,6 +2039,7 @@ ni:skogar-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q7535416> ;
     foaf:homepage <https://www.skogasafn.is/> ;
     schema:foundingDate "1949"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1949"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Iceland> .
 
 # ── 115/116: Reykjanes Heritage Museum (IS) ──
@@ -1942,6 +2056,7 @@ ni:reykjanes-heritage-museum a crm:E40_Legal_Body , org:Organization , schema:Mu
     owl:sameAs <http://www.wikidata.org/entity/Q16338935> ;
     foaf:homepage <https://www.byggdasafn.is/> ;
     schema:foundingDate "1977"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1977"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Iceland> .
 
 # ── 116/116: Herring Era Museum (IS) ──
@@ -1958,4 +2073,5 @@ ni:herring-era-museum a crm:E40_Legal_Body , org:Organization , schema:Museum ;
     owl:sameAs <http://www.wikidata.org/entity/Q3480783> ;
     foaf:homepage <https://www.sfrld.is/> ;
     schema:foundingDate "1994"^^xsd:gYear ;
+    <https://metadatahub.eu/data/nordic-institutions/ontology/timelineStart> "1994"^^xsd:long ;
     dcterms:source <https://en.wikipedia.org/wiki/List_of_museums_in_Iceland> .
