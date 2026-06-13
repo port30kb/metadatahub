@@ -1,0 +1,49 @@
+{{- /*
+  Build the JSON-LD document as Hugo maps/slices and serialise with jsonify.
+  This guarantees valid JSON (all string escaping handled by the encoder) and
+  keeps the graph consistent with the Turtle/RDFXML serialisations by including
+  the declared classes and properties.
+*/ -}}
+{{- $ctx := dict
+  "rdf" "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  "rdfs" "http://www.w3.org/2000/01/rdf-schema#"
+  "owl" "http://www.w3.org/2002/07/owl#"
+  "skos" "http://www.w3.org/2004/02/skos/core#"
+  "dcterms" "http://purl.org/dc/terms/"
+  "foaf" "http://xmlns.com/foaf/0.1/"
+-}}
+{{- $scheme := dict
+  "@id" .Permalink
+  "@type" (.Params.rdf_type | default "skos:ConceptScheme")
+  "rdfs:label" (dict "@value" .Title "@language" "en")
+  "dcterms:description" (dict "@value" .Params.description "@language" "en")
+  "dcterms:modified" (dict "@value" (.Date.Format "2006-01-02") "@type" "http://www.w3.org/2001/XMLSchema#date")
+-}}
+{{- with .Params.version }}{{ $scheme = merge $scheme (dict "owl:versionInfo" .) }}{{ end -}}
+{{- with .Params.creator }}{{ $scheme = merge $scheme (dict "dcterms:creator" .) }}{{ end -}}
+{{- with .Params.license }}{{ $scheme = merge $scheme (dict "dcterms:license" (dict "@id" .)) }}{{ end -}}
+{{- with .Params.seeAlso }}{{ $scheme = merge $scheme (dict "rdfs:seeAlso" (dict "@id" .)) }}{{ end -}}
+{{- $graph := slice $scheme -}}
+{{- range .Params.classes -}}
+  {{- $c := dict
+    "@id" (printf "%s%s" $.Permalink .id)
+    "@type" "rdfs:Class"
+    "rdfs:label" (dict "@value" .label "@language" "en")
+    "rdfs:isDefinedBy" (dict "@id" $.Permalink) -}}
+  {{- with .comment }}{{ $c = merge $c (dict "rdfs:comment" (dict "@value" . "@language" "en")) }}{{ end -}}
+  {{- with .subClassOf }}{{ $c = merge $c (dict "rdfs:subClassOf" (dict "@id" .)) }}{{ end -}}
+  {{- $graph = $graph | append $c -}}
+{{- end -}}
+{{- range .Params.properties -}}
+  {{- $p := dict
+    "@id" (printf "%s%s" $.Permalink .id)
+    "@type" "rdf:Property"
+    "rdfs:label" (dict "@value" .label "@language" "en")
+    "rdfs:isDefinedBy" (dict "@id" $.Permalink) -}}
+  {{- with .comment }}{{ $p = merge $p (dict "rdfs:comment" (dict "@value" . "@language" "en")) }}{{ end -}}
+  {{- with .domain }}{{ $p = merge $p (dict "rdfs:domain" (dict "@id" .)) }}{{ end -}}
+  {{- with .range }}{{ $p = merge $p (dict "rdfs:range" (dict "@id" .)) }}{{ end -}}
+  {{- $graph = $graph | append $p -}}
+{{- end -}}
+{{- $doc := dict "@context" $ctx "@graph" $graph -}}
+{{ $doc | jsonify (dict "indent" "  ") }}

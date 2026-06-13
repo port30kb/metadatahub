@@ -215,6 +215,7 @@ jsonld_doc = {
         "dcterms": "http://purl.org/dc/terms/",
         "skos": "http://www.w3.org/2004/02/skos/core#",
         "aat": "http://vocab.getty.edu/aat/",
+        "void": "http://rdfs.org/ns/void#",
     },
     "@id": BASE,
     "@type": "void:Dataset",

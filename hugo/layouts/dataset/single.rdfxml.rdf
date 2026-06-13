@@ -6,30 +6,39 @@
   xmlns:foaf="http://xmlns.com/foaf/0.1/">
 
   <dcat:Dataset rdf:about="{{ .Permalink }}">
-    <dcterms:title xml:lang="en">{{ .Title }}</dcterms:title>
-    <dcterms:description xml:lang="en">{{ .Params.description }}</dcterms:description>
+    <dcterms:title xml:lang="en">{{ partial "escape-xml.txt" .Title }}</dcterms:title>
+    <dcterms:description xml:lang="en">{{ partial "escape-xml.txt" .Params.description }}</dcterms:description>
     {{- with .Params.publisher }}
     <dcterms:publisher>
       <foaf:Organization>
-        <foaf:name>{{ . }}</foaf:name>
+        <foaf:name>{{ partial "escape-xml.txt" . }}</foaf:name>
       </foaf:Organization>
     </dcterms:publisher>
     {{- end }}
     {{- with .Params.license }}
     <dcterms:license rdf:resource="{{ . }}"/>
     {{- end }}
+    {{- with .Params.theme }}
+    <dcat:theme rdf:resource="{{ . }}"/>
+    {{- end }}
+    {{- with .Params.spatial }}
+    <dcterms:spatial rdf:resource="{{ . }}"/>
+    {{- end }}
+    {{- with .Params.accrualPeriodicity }}
+    <dcterms:accrualPeriodicity rdf:resource="{{ . }}"/>
+    {{- end }}
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">{{ .Date.Format "2006-01-02" }}</dcterms:modified>
   </dcat:Dataset>
 {{- range .Params.distributions }}
 
   <dcat:Distribution rdf:about="{{ $.Permalink }}{{ .id }}">
-    <dcterms:title xml:lang="en">{{ .title }}</dcterms:title>
+    <dcterms:title xml:lang="en">{{ partial "escape-xml.txt" .title }}</dcterms:title>
     <dcat:accessURL rdf:resource="{{ .accessURL }}"/>
     {{- with .downloadURL }}
     <dcat:downloadURL rdf:resource="{{ . }}"/>
     {{- end }}
     {{- with .mediaType }}
-    <dcat:mediaType>{{ . }}</dcat:mediaType>
+    <dcat:mediaType>{{ partial "escape-xml.txt" . }}</dcat:mediaType>
     {{- end }}
   </dcat:Distribution>
 {{- end }}

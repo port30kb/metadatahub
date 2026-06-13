@@ -9,6 +9,15 @@ PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
 OAI_DB="$PROJECT_ROOT/oai-pmh/data/oai.sqlite"
 CONTENT_DIR="$PROJECT_ROOT/hugo/content"
 
+# Escape a value for safe inclusion in XML text content (& must come first).
+xml_escape() {
+    local s=$1
+    s=${s//&/&amp;}
+    s=${s//</&lt;}
+    s=${s//>/&gt;}
+    printf '%s' "$s"
+}
+
 echo "  Initializing OAI-PMH database: $OAI_DB"
 
 # Create/reset the database
@@ -47,6 +56,11 @@ for md_file in "$CONTENT_DIR"/vocab/*.md; do
     date=$(grep -m1 '^date:' "$md_file" | sed 's/^date: *//')
     creator=$(grep -m1 '^creator:' "$md_file" | sed 's/^creator: *"\?\(.*\)"\?$/\1/' | sed 's/"$//')
 
+    # Escape XML special characters so the metadata stays well-formed.
+    title=$(xml_escape "$title")
+    description=$(xml_escape "$description")
+    creator=$(xml_escape "$creator")
+
     identifier="oai:metadatahub.eu:vocab/$filename"
     datestamp="${date:-$(date -I)}"
 
@@ -74,6 +88,11 @@ for md_file in "$CONTENT_DIR"/dataset/*.md; do
     description=$(grep -m1 '^description:' "$md_file" | sed 's/^description: *"\?\(.*\)"\?$/\1/' | sed 's/"$//')
     date=$(grep -m1 '^date:' "$md_file" | sed 's/^date: *//')
     publisher=$(grep -m1 '^publisher:' "$md_file" | sed 's/^publisher: *"\?\(.*\)"\?$/\1/' | sed 's/"$//')
+
+    # Escape XML special characters so the metadata stays well-formed.
+    title=$(xml_escape "$title")
+    description=$(xml_escape "$description")
+    publisher=$(xml_escape "$publisher")
 
     identifier="oai:metadatahub.eu:dataset/$filename"
     datestamp="${date:-$(date -I)}"

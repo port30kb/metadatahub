@@ -8,13 +8,13 @@
 
 <{{ .Permalink }}>
     a {{ with .Params.rdf_type }}{{ . }}{{ else }}skos:ConceptScheme{{ end }} ;
-    rdfs:label "{{ .Title }}"@en ;
-    dcterms:description "{{ .Params.description }}"@en ;
+    rdfs:label "{{ partial "escape-ttl.txt" .Title }}"@en ;
+    dcterms:description "{{ partial "escape-ttl.txt" .Params.description }}"@en ;
 {{- with .Params.version }}
-    owl:versionInfo "{{ . }}" ;
+    owl:versionInfo "{{ partial "escape-ttl.txt" . }}" ;
 {{- end }}
 {{- with .Params.creator }}
-    dcterms:creator "{{ . }}" ;
+    dcterms:creator "{{ partial "escape-ttl.txt" . }}" ;
 {{- end }}
 {{- with .Params.license }}
     dcterms:license <{{ . }}> ;
@@ -27,9 +27,9 @@
 
 <{{ $.Permalink }}{{ .id }}>
     a rdfs:Class ;
-    rdfs:label "{{ .label }}"@en ;
+    rdfs:label "{{ partial "escape-ttl.txt" .label }}"@en ;
 {{- with .comment }}
-    rdfs:comment "{{ . }}"@en ;
+    rdfs:comment "{{ partial "escape-ttl.txt" . }}"@en ;
 {{- end }}
 {{- with .subClassOf }}
     rdfs:subClassOf <{{ . }}> ;
@@ -40,9 +40,9 @@
 
 <{{ $.Permalink }}{{ .id }}>
     a rdf:Property ;
-    rdfs:label "{{ .label }}"@en ;
+    rdfs:label "{{ partial "escape-ttl.txt" .label }}"@en ;
 {{- with .comment }}
-    rdfs:comment "{{ . }}"@en ;
+    rdfs:comment "{{ partial "escape-ttl.txt" . }}"@en ;
 {{- end }}
 {{- with .domain }}
     rdfs:domain <{{ . }}> ;

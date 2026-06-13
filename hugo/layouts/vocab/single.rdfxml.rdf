@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/">
+
+  {{- $t := .Params.rdf_type | default "skos:ConceptScheme" -}}
+  {{- $tURI := $t
+    | replaceRE `^rdf:` "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    | replaceRE `^rdfs:` "http://www.w3.org/2000/01/rdf-schema#"
+    | replaceRE `^owl:` "http://www.w3.org/2002/07/owl#"
+    | replaceRE `^skos:` "http://www.w3.org/2004/02/skos/core#"
+    | replaceRE `^dcterms:` "http://purl.org/dc/terms/" -}}
+  <rdf:Description rdf:about="{{ .Permalink }}">
+    <rdf:type rdf:resource="{{ $tURI }}"/>
+    <rdfs:label xml:lang="en">{{ partial "escape-xml.txt" .Title }}</rdfs:label>
+    <dcterms:description xml:lang="en">{{ partial "escape-xml.txt" .Params.description }}</dcterms:description>
+    {{- with .Params.version }}
+    <owl:versionInfo>{{ partial "escape-xml.txt" . }}</owl:versionInfo>
+    {{- end }}
+    {{- with .Params.creator }}
+    <dcterms:creator>{{ partial "escape-xml.txt" . }}</dcterms:creator>
+    {{- end }}
+    {{- with .Params.license }}
+    <dcterms:license rdf:resource="{{ . }}"/>
+    {{- end }}
+    {{- with .Params.seeAlso }}
+    <rdfs:seeAlso rdf:resource="{{ . }}"/>
+    {{- end }}
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">{{ .Date.Format "2006-01-02" }}</dcterms:modified>
+  </rdf:Description>
+{{- range .Params.classes }}
+
+  <rdf:Description rdf:about="{{ $.Permalink }}{{ .id }}">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label xml:lang="en">{{ partial "escape-xml.txt" .label }}</rdfs:label>
+    {{- with .comment }}
+    <rdfs:comment xml:lang="en">{{ partial "escape-xml.txt" . }}</rdfs:comment>
+    {{- end }}
+    {{- with .subClassOf }}
+    <rdfs:subClassOf rdf:resource="{{ . }}"/>
+    {{- end }}
+    <rdfs:isDefinedBy rdf:resource="{{ $.Permalink }}"/>
+  </rdf:Description>
+{{- end }}
+{{- range .Params.properties }}
+
+  <rdf:Description rdf:about="{{ $.Permalink }}{{ .id }}">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label xml:lang="en">{{ partial "escape-xml.txt" .label }}</rdfs:label>
+    {{- with .comment }}
+    <rdfs:comment xml:lang="en">{{ partial "escape-xml.txt" . }}</rdfs:comment>
+    {{- end }}
+    {{- with .domain }}
+    <rdfs:domain rdf:resource="{{ . }}"/>
+    {{- end }}
+    {{- with .range }}
+    <rdfs:range rdf:resource="{{ . }}"/>
+    {{- end }}
+    <rdfs:isDefinedBy rdf:resource="{{ $.Permalink }}"/>
+  </rdf:Description>
+{{- end }}
+
+</rdf:RDF>

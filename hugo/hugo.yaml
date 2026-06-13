@@ -1,7 +1,6 @@
 baseURL: "https://metadatahub.eu/"
 languageCode: "en"
 title: "metadatahub.eu — Cultural Heritage Metadata Hub"
-theme: ""
 
 # Custom media types for RDF serializations
 mediaTypes:
@@ -24,14 +23,17 @@ outputFormats:
   Turtle:
     mediaType: text/turtle
     baseName: index
+    isPlainText: true
     notAlternative: false
   JSONLD:
     mediaType: application/ld+json
     baseName: index
+    isPlainText: true
     notAlternative: false
   RDFXML:
     mediaType: application/rdf+xml
     baseName: index
+    isPlainText: true
     notAlternative: false
 
 # Configure which sections produce which outputs

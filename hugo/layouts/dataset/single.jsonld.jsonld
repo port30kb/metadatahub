@@ -1,0 +1,35 @@
+{{- /*
+  Build the JSON-LD document as Hugo maps/slices and serialise with jsonify.
+  This guarantees valid JSON (encoder handles escaping) and keeps the graph
+  consistent with the Turtle/RDFXML serialisations by including distributions.
+*/ -}}
+{{- $ctx := dict
+  "dcat" "http://www.w3.org/ns/dcat#"
+  "dcterms" "http://purl.org/dc/terms/"
+  "foaf" "http://xmlns.com/foaf/0.1/"
+-}}
+{{- $ds := dict
+  "@id" .Permalink
+  "@type" "dcat:Dataset"
+  "dcterms:title" (dict "@value" .Title "@language" "en")
+  "dcterms:description" (dict "@value" .Params.description "@language" "en")
+  "dcterms:modified" (dict "@value" (.Date.Format "2006-01-02") "@type" "http://www.w3.org/2001/XMLSchema#date")
+-}}
+{{- with .Params.publisher }}{{ $ds = merge $ds (dict "dcterms:publisher" (dict "@type" "foaf:Organization" "foaf:name" .)) }}{{ end -}}
+{{- with .Params.license }}{{ $ds = merge $ds (dict "dcterms:license" (dict "@id" .)) }}{{ end -}}
+{{- with .Params.theme }}{{ $ds = merge $ds (dict "dcat:theme" (dict "@id" .)) }}{{ end -}}
+{{- with .Params.spatial }}{{ $ds = merge $ds (dict "dcterms:spatial" (dict "@id" .)) }}{{ end -}}
+{{- with .Params.accrualPeriodicity }}{{ $ds = merge $ds (dict "dcterms:accrualPeriodicity" (dict "@id" .)) }}{{ end -}}
+{{- $graph := slice $ds -}}
+{{- range .Params.distributions -}}
+  {{- $d := dict
+    "@id" (printf "%s%s" $.Permalink .id)
+    "@type" "dcat:Distribution"
+    "dcterms:title" (dict "@value" .title "@language" "en")
+    "dcat:accessURL" (dict "@id" .accessURL) -}}
+  {{- with .mediaType }}{{ $d = merge $d (dict "dcat:mediaType" .) }}{{ end -}}
+  {{- with .downloadURL }}{{ $d = merge $d (dict "dcat:downloadURL" (dict "@id" .)) }}{{ end -}}
+  {{- $graph = $graph | append $d -}}
+{{- end -}}
+{{- $doc := dict "@context" $ctx "@graph" $graph -}}
+{{ $doc | jsonify (dict "indent" "  ") }}

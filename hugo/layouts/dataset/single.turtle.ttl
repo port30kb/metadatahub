@@ -6,12 +6,12 @@
 
 <{{ .Permalink }}>
     a dcat:Dataset ;
-    dcterms:title "{{ .Title }}"@en ;
-    dcterms:description "{{ .Params.description }}"@en ;
+    dcterms:title "{{ partial "escape-ttl.txt" .Title }}"@en ;
+    dcterms:description "{{ partial "escape-ttl.txt" .Params.description }}"@en ;
 {{- with .Params.publisher }}
     dcterms:publisher [
         a foaf:Organization ;
-        foaf:name "{{ . }}"
+        foaf:name "{{ partial "escape-ttl.txt" . }}"
     ] ;
 {{- end }}
 {{- with .Params.license }}
@@ -31,10 +31,10 @@
 
 <{{ $.Permalink }}{{ .id }}>
     a dcat:Distribution ;
-    dcterms:title "{{ .title }}"@en ;
+    dcterms:title "{{ partial "escape-ttl.txt" .title }}"@en ;
     dcat:accessURL <{{ .accessURL }}> ;
 {{- with .mediaType }}
-    dcat:mediaType "{{ . }}" ;
+    dcat:mediaType "{{ partial "escape-ttl.txt" . }}" ;
 {{- end }}
     dcat:downloadURL <{{ .downloadURL }}> .
 {{- end }}

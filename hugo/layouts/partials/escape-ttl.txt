@@ -1,0 +1,8 @@
+{{- /*
+  escape-ttl: Escape a string for safe use inside a Turtle/N-Triples
+  double-quoted literal. Doubles backslashes, escapes double quotes, and
+  collapses line breaks to spaces so the generated RDF stays valid even when
+  titles or descriptions contain these characters.
+  Usage: "{{ partial "escape-ttl.txt" .Title }}"
+*/ -}}
+{{- . | replaceRE `\\` `\\` | replaceRE "\"" "\\\"" | replaceRE `\r?\n` " " | chomp -}}

@@ -1,0 +1,7 @@
+{{- /*
+  escape-xml: Escape a string for safe use inside XML text content.
+  Escapes &, < and > so the generated RDF/XML stays well-formed even when
+  titles or descriptions contain these characters.
+  Usage: <rdfs:label>{{ partial "escape-xml.txt" .Title }}</rdfs:label>
+*/ -}}
+{{- . | replaceRE `&` `&amp;` | replaceRE `<` `&lt;` | replaceRE `>` `&gt;` -}}

@@ -33,21 +33,33 @@ echo "  Hugo build complete: $(find public -name '*.html' | wc -l) HTML files ge
 
 # Step 3: Load RDF data into Oxigraph
 echo "[3/4] Loading RDF data into Oxigraph..."
-TURTLE_FILES=$(find "$HUGO_DIR/public" -name "*.ttl" -type f 2>/dev/null || true)
-if [ -n "$TURTLE_FILES" ]; then
-    # Clear existing data
-    curl -s -X POST "$OXIGRAPH_URL/update" \
-        -H "Content-Type: application/sparql-update" \
-        -d "CLEAR ALL" || echo "  Warning: Could not clear Oxigraph (may not be running)"
+# Read paths NUL-delimited so filenames with spaces/newlines are handled safely.
+TURTLE_FILES=()
+while IFS= read -r -d '' ttl_file; do
+    TURTLE_FILES+=("$ttl_file")
+done < <(find "$HUGO_DIR/public" -name "*.ttl" -type f -print0 2>/dev/null)
 
-    # Load each Turtle file
-    for ttl_file in $TURTLE_FILES; do
+if [ "${#TURTLE_FILES[@]}" -gt 0 ]; then
+    # Clear existing data (-f makes curl fail on HTTP errors so we can detect them)
+    if ! curl -sf -X POST "$OXIGRAPH_URL/update" \
+        -H "Content-Type: application/sparql-update" \
+        -d "CLEAR ALL"; then
+        echo "  Warning: Could not clear Oxigraph (may not be running)"
+    fi
+
+    # Load each Turtle file, counting only the ones that succeed.
+    loaded=0
+    for ttl_file in "${TURTLE_FILES[@]}"; do
         echo "  Loading: $ttl_file"
-        curl -s -X POST "$OXIGRAPH_URL/store" \
+        if curl -sf -X POST "$OXIGRAPH_URL/store" \
             -H "Content-Type: text/turtle" \
-            --data-binary "@$ttl_file" || echo "  Warning: Failed to load $ttl_file"
+            --data-binary "@$ttl_file"; then
+            loaded=$((loaded + 1))
+        else
+            echo "  Warning: Failed to load $ttl_file"
+        fi
     done
-    echo "  Loaded $(echo "$TURTLE_FILES" | wc -l) Turtle files"
+    echo "  Loaded $loaded of ${#TURTLE_FILES[@]} Turtle files"
 else
     echo "  No Turtle files found to load"
 fi

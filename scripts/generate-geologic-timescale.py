@@ -239,11 +239,16 @@ for idx, d in enumerate(DATA, 1):
     end = d["end"]
 
     if unit == "Ma":
-        lines.append(f'    time:hasBeginning [ time:inXSDgYear "{start}"^^xsd:decimal ; rdfs:label "{start} Ma" ] ;')
+        # Ma values are decimal positions on a numeric time axis, not gYears.
+        # OWL-Time models this with a time:TimePosition / time:numericPosition,
+        # whereas time:inXSDgYear expects an xsd:gYear value.
+        lines.append(f'    time:hasBeginning [ a time:Instant ; rdfs:label "{start} Ma" ;')
+        lines.append(f'        time:inTimePosition [ a time:TimePosition ; time:numericPosition "{start}"^^xsd:decimal ] ] ;')
         if end == 0:
-            lines.append(f'    time:hasEnd [ rdfs:label "Present" ] ;')
+            lines.append(f'    time:hasEnd [ a time:Instant ; rdfs:label "Present" ] ;')
         else:
-            lines.append(f'    time:hasEnd [ time:inXSDgYear "{end}"^^xsd:decimal ; rdfs:label "{end} Ma" ] ;')
+            lines.append(f'    time:hasEnd [ a time:Instant ; rdfs:label "{end} Ma" ;')
+            lines.append(f'        time:inTimePosition [ a time:TimePosition ; time:numericPosition "{end}"^^xsd:decimal ] ] ;')
     elif unit == "BP":
         lines.append(f'    time:hasBeginning [ rdfs:label "{start} years BP" ] ;')
         if end == 0:
